@@ -5,13 +5,13 @@
     <item value="2" name="2 - Poison" />
     <item value="3" name="3 - Effect99101" />
     <item value="4" name="4 - Durability Damage" />
-    <item value="5" name="5 - Toxic" />
-    <item value="6" name="6 - Bleed" />
+    <item value="5" name="5 - Blight" />
+    <item value="6" name="6 - Hemorrhage" />
     <item value="7" name="7 - Ghost" />
     <item value="8" name="8 - Enemy Sight Reduction" />
     <item value="9" name="9 - Tranquil Walk of Peace" />
     <item value="10" name="10 - Remove Poison" />
-    <item value="11" name="11 - Remove Toxic" />
+    <item value="11" name="11 - Remove Blight" />
     <item value="12" name="12 - Remove" />
     <item value="13" name="13 - Remove Status" />
     <item value="14" name="14 - Humanity Stolen" />
@@ -57,7 +57,7 @@
     <item value="70" name="70 - Is Dead Test Condition" />
     <item value="71" name="71 - Spell Power Boost" />
     <item value="75" name="75 - Green Blossom VFX" />
-    <item value="76" name="76 - Modify Soul Rate" />
+    <item value="76" name="76 - Modify Rune Gain" />
     <item value="78" name="78 - Effect93313" />
     <item value="79" name="79 - Effect93314" />
     <item value="91" name="91 - Effect99201" />
@@ -80,9 +80,9 @@
     <item value="113" name="113 - Unknown" />
     <item value="114" name="114 - Unknown" />
     <item value="115" name="115 - Backstep Animation Change" />
-    <item value="116" name="116 - Curse" />
-    <item value="117" name="117 - Curse - Instant Death animation" />
-    <item value="118" name="118 - Curse - Extra" />
+    <item value="116" name="116 - Death" />
+    <item value="117" name="117 - Death - Instant Death animation" />
+    <item value="118" name="118 - Death - Extra" />
     <item value="119" name="119 - Effect3231" />
     <item value="120" name="120 - Damage Level Change before Poise Break" />
     <item value="121" name="121 - Damage Level Change" />
@@ -99,7 +99,7 @@
     <item value="133" name="133 - Enable Developer Messages" />
     <item value="134" name="134 - Iron Flesh" />
     <item value="135" name="135 - Mimic Sleep" />
-    <item value="136" name="136 - Curse" />
+    <item value="136" name="136 - Death" />
     <item value="137" name="137 - ResonanceLvl 0" />
     <item value="138" name="138 - ResonanceLvl 1" />
     <item value="139" name="139 - ResonanceLvl 2" />
@@ -114,14 +114,14 @@
     <item value="149" name="149 - White Relief Magic" />
     <item value="150" name="150 - Black Relief Magic" />
     <item value="151" name="151 - Gold Pine Resin VFX" />
-    <item value="152" name="152 - Enable AttackOccurance against Enemy" />
-    <item value="153" name="153 - Enable AttackOccurance against Player" />
+    <item value="152" name="152 - Enable Attack Effect against Enemy" />
+    <item value="153" name="153 - Enable Attack Effect against Player" />
     <item value="154" name="154 - Block Estus usage" />
     <item value="155" name="155 - Modify Poise" />
     <item value="156" name="156 - Disable Durability" />
     <item value="157" name="157 - Transient Curse" />
     <item value="158" name="158 - Left-hand Buff VFX" />
-    <item value="159" name="159 - Ring of Sacrifice" />
+    <item value="159" name="159 - Destroy Accessory but Save Runes" />
     <item value="160" name="160 - Rare Ring of Sacrifice [DS1]" />
     <item value="161" name="161 - Warp1_Removed" />
     <item value="162" name="162 - Warp2_Removed" />
@@ -139,10 +139,10 @@
     <item value="175" name="175 - Revival Production" />
     <item value="176" name="176 - Aural Decoy" />
     <item value="177" name="177 - Unknown" />
-    <item value="179" name="179 - CurseEffectLv1" />
-    <item value="180" name="180 - CurseEffectLv2" />
-    <item value="181" name="181 - CurseEffectLv3" />
-    <item value="182" name="182 - CurseEffectLv4" />
+    <item value="179" name="179 - DeathEffectLv1" />
+    <item value="180" name="180 - DeathEffectLv2" />
+    <item value="181" name="181 - DeathEffectLv3" />
+    <item value="182" name="182 - DeathEffectLv4" />
     <item value="183" name="183 - BlueSignVisualization" />
     <item value="184" name="184 - Hide Weapon" />
     <item value="185" name="185 - Gravelord Invasion" />
@@ -156,9 +156,9 @@
     <item value="194" name="194 - CompareWith203" />
     <item value="195" name="195 - Unknown" />
     <item value="196" name="196 - IfWorldChrManNull" />
-    <item value="197" name="197 - Leo Ring" />
+    <item value="197" name="197 - Enhance Thrusting Counter Attacks" />
     <item value="198" name="198 - Unknown" />
-    <item value="199" name="199 - Use DeathOccurance SpEffect" />
+    <item value="199" name="199 - Apply Kill Effect" />
     <item value="200" name="200 - Power Within VFX" />
     <item value="201" name="201 - VowOfSilenceVisual" />
     <item value="202" name="202 - Dragon Roar" />
@@ -176,7 +176,7 @@
     <item value="252" name="252 - Oil" />
     <item value="253" name="253 - Fire" />
     <item value="259" name="259 - Effect90" />
-    <item value="260" name="260 - Frost" />
+    <item value="260" name="260 - Frostbite" />
     <item value="261" name="261 - Remove Effect If Torch In Hand" />
     <item value="262" name="262 - WormRecovery(Torch)" />
     <item value="264" name="264 - SetCultBool" />
@@ -195,9 +195,9 @@
     <item value="285" name="285 - Unknown" />
     <item value="286" name="286 - Weak Movement Slow" />
     <item value="287" name="287 - Strong Movement Slow" />
-    <item value="288" name="288 - Critical Hits (HP)" />
-    <item value="289" name="289 - Critical Hits (FP)" />
-    <item value="290" name="290 - Grants roll i-frames" />
+    <item value="288" name="288 - Apply on Critical Hit (HP)" />
+    <item value="289" name="289 - Apply on Critical Hit (FP)" />
+    <item value="290" name="290 - Extend Roll Invincibility" />
     <item value="291" name="291 - Grants roll invisibility" />
     <item value="292" name="292 - Repair1" />
     <item value="293" name="293 - Change Durability" />
@@ -210,19 +210,19 @@
     <item value="300" name="300 - Enemies attack Invaders" />
     <item value="301" name="301 - 1410370B1" />
     <item value="302" name="302 - Homeward Warp" />
-    <item value="303" name="303 - Condition Occurence 1" />
-    <item value="304" name="304 - Condition Occurence 2" />
-    <item value="305" name="305 - Condition Occurence 3 (Consecutive Attacks)" />
-    <item value="306" name="306 - Condition Occurence 4" />
-    <item value="307" name="307 - Condition Occurence 5" />
-    <item value="308" name="308 - Condition Occurence 6" />
-    <item value="309" name="309 - Condition Occurence 7" />
-    <item value="310" name="310 - Condition Occurence 8 (Jailer HP Drain)" />
-    <item value="311" name="311 - Condition Occurence 9 (Estus Charge on Kill)" />
+    <item value="303" name="303 - Conditional Effect 1" />
+    <item value="304" name="304 - Conditional Effect 2" />
+    <item value="305" name="305 - Conditional Effect 3 (Consecutive Attacks)" />
+    <item value="306" name="306 - Conditional Effect 4" />
+    <item value="307" name="307 - Conditional Effect 5" />
+    <item value="308" name="308 - Conditional Effect 6" />
+    <item value="309" name="309 - Conditional Effect 7" />
+    <item value="310" name="310 - Conditional Effect 8 (Jailer HP Drain)" />
+    <item value="311" name="311 - Conditional Effect 9 (Estus Charge on Kill)" />
     <item value="312" name="312 - Unknown" />
     <item value="313" name="313 - Seek Guidance" />
-    <item value="314" name="314 - Add Stability" />
-    <item value="315" name="315 - Flynn's Ring - CalcCorrectGraph_32" />
+    <item value="314" name="314 - Add Guard Stability" />
+    <item value="315" name="315 - Scale Attack Power with Equip Load" />
     <item value="316" name="316 - CalcCorrectGraph_33" />
     <item value="317" name="317 - Revoke Online Penalty" />
     <item value="318" name="318 - Dead Again" />
@@ -233,7 +233,7 @@
     <item value="323" name="323 - ChrAsmStyle_HKS_RIGHTHAND" />
     <item value="324" name="324 - Unknown" />
     <item value="325" name="325 - Wet Aspect Param" />
-    <item value="326" name="326 - Gender Change" />
+    <item value="326" name="326 - Switch Animation Gender" />
     <item value="327" name="327 - Ember" />
     <item value="328" name="328 - Change Durability" />
     <item value="329" name="329 - GetEstusCharge" />
@@ -242,11 +242,35 @@
     <item value="332" name="332 - AiParam_effect16189" />
     <item value="333" name="333 - Spell Enhance (+6 to ID)" />
     <item value="334" name="334 - Bullet Behavior ID Change" />
-    <item value="335" name="335 - AiParam2" />
+    <item value="335" name="335 - Apply during Critical Hit" />
     <item value="336" name="336 - Effect16413" />
+    <item value="367" name="367 - Enhance Critical Attacks" />
+    <item value="379" name="379 - Apply in Presence of Blood Loss" />
+    <item value="380" name="380 - Apply in Presence of Rot" />
+    <item value="436" name="436 - Madness" />
+    <item value="450" name="450 - Reduce Headshot Impact" />
+    <item value="466" name="466 - Apply during Crouch" />
+    
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
   </enum>
+  <enum name="WeaponEffect" type="s8">
+    <item value="0" name="0 - None" />
+    <item value="100" name="100 - Enhance Charge Attack" />
+    <item value="101" name="101 - Enhance Horseback Attack" />
+    <item value="102" name="102 - Enhance Jump Attack" />
+    <item value="103" name="103 - Enhance Guard Counter Attack" />
+    <item value="104" name="104 - Enhance Final Chain Attack" />
+    <item value="105" name="105 - Enhance Arrow/Bolt Attack" />
+    <item value="106" name="106 - Enhance Roar/Breath Attack" />
+    <item value="108" name="108 - Enhance Pot Item" />
+    <item value="109" name="109 - Enhance Perfume Item" />
+    <item value="110" name="110 - Enhance Charged Attack" />
+    <item value="111" name="111 - Enhance Charged Skill Attack" />
+    <item value="112" name="112 - Enhance Skill Attack" />
+    <item value="113" name="113 - Enhance Ranged Skill Attack" />
+  </enum>
+  
   <enum name="DamageLevel" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
@@ -290,6 +314,7 @@
 	<item value="20" name="20 - Reset on Apply" />
     <item value="100" name="100 - Remove Previous" />
 	<item value="110" name="110 - Remove Previous (Resonance)" />
+	<item value="120" name="120 - Remove Previous" />
     <item value="130" name="130 - Remove Previous" />
     <item value="131" name="131 - Remove Previous" />
     <item value="132" name="132 - Remove Previous" />
@@ -321,11 +346,13 @@
     <item value="10000" name="10000 - Apply First" />
 	<item value="10001" name="10001 - Apply First (Damage Level Change)" />
     <item value="10002" name="10002 - Apply First (Dragonform)" />
-	<item value="10003" name="10003 - Apply First (Bleed)" />
+	<item value="10003" name="10003 - Apply First (Hemorrhage)" />
 	<item value="10004" name="10004 - Apply First (Poison)" />
-	<item value="10005" name="10005 - Apply First (Toxic)" />
-	<item value="10006" name="10006 - Apply First (Curse)" />
+	<item value="10005" name="10005 - Apply First (Blight)" />
+	<item value="10006" name="10006 - Apply First ()" />
 	<item value="10007" name="10007 - Apply First (Frostbite)" />
+	<item value="10008" name="10008 - Apply First (Death)" />
+	<item value="10009" name="10009 - Apply First (Madness)" />
   </enum>
   <enum name="IconID" type="s32">
     <item value="-1" name="None" />
@@ -373,6 +400,18 @@
     <item value="10044" name="Password Seal icon" />
     <item value="10045" name="Armor and Sword Blue Aura" />
   </enum>
+  <enum name="AttackAttribute" type="u8">
+    <item value="254" name="254 - None" />
+    <item value="255" name="255 - Standard" />
+  </enum>
+  <enum name="EffectAttribute" type="u8">
+    <item value="20" name="20 - Poison" />
+    <item value="21" name="21 - Blight" />
+    <item value="23" name="23 - Frostbite" />
+    <item value="24" name="24 - Madness" />
+    <item value="26" name="26 - Death" />
+    <item value="254" name="254 - None" />
+  </enum>
   <entry>
     <name>Icon ID</name>
     <type>s32</type>
@@ -380,7 +419,7 @@
     <enum>IconID</enum>
   </entry>
   <entry>
-    <name>Trigger on HP Below %</name>
+    <name>Trigger at HP Below %</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
@@ -395,12 +434,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Max Health</name>
+    <name>Max HP</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Max Focus</name>
+    <name>Max FP</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -640,19 +679,19 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Requires State Info 2</description>
   </entry>
   <entry>
-    <name>Inflict Toxic +</name>
+    <name>Inflict Blight +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 5</description>
   </entry>
   <entry>
-    <name>Inflict Blood +</name>
+    <name>Inflict Hemorrhage +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 6</description>
   </entry>
   <entry>
-    <name>Inflict Curse +</name>
+    <name>Inflict Death +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 116</description>
@@ -663,7 +702,7 @@ Bullet Behavior - Requires State Info 334</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Souls %</name>
+    <name>Rune Gain %</name>
     <type>f32</type>
     <default>1</default>
     <description>Requires State Info 76</description>
@@ -679,7 +718,7 @@ Bullet Behavior - Requires State Info 334</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Souls +</name>
+    <name>Rune Gain +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -689,7 +728,7 @@ Bullet Behavior - Requires State Info 334</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Have Souls %</name>
+    <name>Rune Amount %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -722,17 +761,17 @@ Bullet Behavior - Requires State Info 334</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Toxic</name>
+    <name>Resist %: Blight</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Bleed</name>
+    <name>Resist %: Hemorrhage</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Curse</name>
+    <name>Resist %: Death</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -759,12 +798,12 @@ Bullet Behavior - Requires State Info 334</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Cycle Occurance Effect ID</name>
+    <name>Cycle Effect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Attack Occurance Effect ID</name>
+    <name>Attack Effect ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Player - Requires State Info 153
@@ -776,7 +815,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Stability %</name>
+    <name>Guard Stability %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -786,13 +825,19 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Poise +</name>
-    <type>s16</type>
+    <name>Weapon Effect 1</name>
+    <type>s8</type>
     <default>0</default>
-    <description>Requires State Info 155</description>
+    <enum>WeaponEffect</enum>
   </entry>
   <entry>
-    <name>Bow Distance %</name>
+    <name>Weapon Effect 2</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>WeaponEffect</enum>
+  </entry>
+  <entry>
+    <name>Bow Effective Range</name>
     <type>s16</type>
     <default>0</default>
     <description>Requires State Info 168</description>
@@ -816,17 +861,17 @@ Enemies - Requires State Info 152</description>
     <description>Determines automatic game saving behavior (used for status ailments only). Set to -1 for no saving.</description>
   </entry>
   <entry>
-    <name>Magic Attunement Slot</name>
+    <name>Memory Slot</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Miracle Attunement Slot</name>
+    <name>Miracle Attunement Slot (Obsolete)</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Humanity Damage</name>
+    <name>Humanity Damage (Obsolete)</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -921,11 +966,13 @@ Enemies - Requires State Info 152</description>
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AttackAttribute</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>0</default>
+    <enum>EffectAttribute</enum>
   </entry>
   <entry>
     <name>State Info</name>
@@ -949,7 +996,7 @@ Enemies - Requires State Info 152</description>
     <name>Effect Duration Multiplier Type</name>
     <type>s16</type>
     <default>0</default>
-    <description>Type of effect whose duration is affected by Effect Duration Multiplier. Known values: 2 = poison, 5 = toxic.</description>
+    <description>Type of effect whose duration is affected by Effect Duration Multiplier.</description>
   </entry>
   <entry>
     <name>Throw Trigger</name>
@@ -1052,12 +1099,12 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Affects Miracles</name>
+    <name>Affects Incantation</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Clear Held Souls</name>
+    <name>Clear Held Runes</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1148,17 +1195,17 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Toxic</name>
+    <name>Disable Blight</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Bleed</name>
+    <name>Disable Hemorrhage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Curse</name>
+    <name>Disable Death</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1193,7 +1240,7 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Frost</name>
+    <name>Disable Frostbite</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1360,39 +1407,34 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>State Effect 1 - SpEffect</name>
+    <name>State Effect 1 - SpEffect Trigger</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 1 - Condition</name>
+    <name>State Effect 1 - Conditional Value</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 2 - SpEffect</name>
+    <name>State Effect 2 - SpEffect Trigger</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 2 - Condition</name>
+    <name>State Effect 2 - Conditional Value</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect Increment</name>
+    <name>State Effect - Value Increment</name>
     <type>s32</type>
     <default>0</default>
 	<description>StateInfo303-311</description>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
   </entry>
    <entry>
     <name>Visual Distance Change - AI 2</name>
@@ -1447,7 +1489,7 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Inflict Frost +</name>
+    <name>Inflict Frostbite +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 260</description>
@@ -1468,12 +1510,12 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Poise %</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1508,32 +1550,32 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Absorption: Dark</name>
+    <name>Absorption: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Defence %: Dark</name>
+    <name>Defence %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Defence +: Dark</name>
+    <name>Defence +: Holy</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Attack %: Dark</name>
+    <name>Attack %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Power %: Dark</name>
+    <name>Power %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage +: Dark</name>
+    <name>Damage +: Holy</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1564,117 +1606,117 @@ Enemies - Requires State Info 152</description>
     <description>Requires State Info 66</description>
   </entry>
   <entry>
-    <name>Goal ID to Find</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
     <name>Resist: Poison +</name>
     <type>s32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
-    <name>Resist: Toxic +</name>
+    <name>Resist: Blight +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Bleed +</name>
+    <name>Resist: Hemorrhage +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Curse +</name>
+    <name>Resist: Death +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Frost +</name>
+    <name>Resist: Frostbite +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>UnkDamageMult0</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>UnkDamageMult1</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>UnkDamageMult2</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>UnkDamageMult3</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Damage %: Poison</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Damage %: Toxic</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Damage %: Bleed</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Damage %: Curse</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Damage %: Frost</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Slash</name>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Strike</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Thrust</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Physical</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Magic</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Fire</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Lightning</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Dark</name>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -1755,11 +1797,6 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk30</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
     <name>PVP Absorption %: Physical</name>
     <type>f32</type>
     <default>1</default>
@@ -1780,7 +1817,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Absorption %: Dark</name>
+    <name>PVP Absorption %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1805,7 +1842,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Absorption %: Dark</name>
+    <name>Absorption %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1835,7 +1872,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Damage %: Dark</name>
+    <name>PVP Damage %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1860,65 +1897,75 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Dark</name>
+    <name>Damage %: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Frost</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Trigger on State Info: 0</name>
+    <name>Trigger Effect ID 1</name>
+    <type>s16</type>
+    <default>1</default>
+    <enum>StateInfo</enum>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Trigger Effect ID 2</name>
     <type>s16</type>
     <default>0</default>
     <enum>StateInfo</enum>
   </entry>
   <entry>
-    <name>Trigger on State Info: 1</name>
+    <name>Unknown</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Trigger Effect ID 3</name>
     <type>s16</type>
     <default>0</default>
     <enum>StateInfo</enum>
   </entry>
   <entry>
-    <name>Trigger on State Info: 2</name>
-    <type>s16</type>
-    <default>0</default>
-    <enum>StateInfo</enum>
-  </entry>
-  <entry>
-    <name>Affects Pyromancy</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Cast Speed +</name>
-    <type>u8</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Purchase Item / Soul Transposition Menu</name>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Weapon Skill Cost %</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Sorcery Cost %</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Pyromancy Cost %</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Miracle Cost %</name>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1938,34 +1985,32 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Estus FP +</name>
-    <type>s32</type>
+    <name>Skill FP Cost %</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Estus HP Restore %</name>
+    <name>Sorcery FP Cost %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Estus FP Restore %</name>
+    <name>Incantation FP Cost %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Death Occurence Effect ID</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>Requires State Info 199</description>
-  </entry>
-  <entry>
-    <name>Effect Duration %</name>
+    <name>Unknown FP Cost %</name>
     <type>f32</type>
     <default>1</default>
-    <description>Requires State Info 193</description>
   </entry>
   <entry>
-    <name>Unk39</name>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1980,14 +2025,54 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>subSpCategory</name>
+    <name>Unk0</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk42</name>
+    <name>Unk1</name>
     <type>f32</type>
     <default>1</default>
+  </entry>
+  <entry>
+    <name>Crimson Tear HP Restore %</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Cerulean Tear FP Restore %</name>
+    <type>f32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Kill Effect ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Effect Duration %</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s16</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vigor</name>
@@ -1995,7 +2080,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Attunement</name>
+    <name>Mind</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -2030,47 +2115,32 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Luck</name>
+    <name>Arcane</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HumanPoint</name>
+    <name>Applied during Madness</name>
     <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>pad</name>
-    <type>dummy8</type>
-    <size>14</size>
-  </entry>
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Unk6</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
+    <name>Unk6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -2081,7 +2151,12 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unk7</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Inflict Madness +</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2101,12 +2176,22 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unk11</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist: Sleep +</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk12</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist: Madness +</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2183,6 +2268,16 @@ Enemies - Requires State Info 152</description>
     <name>Unk27</name>
     <type>s32</type>
     <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
 
 </layout>

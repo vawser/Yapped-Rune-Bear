@@ -1,19 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="MovesetAttribute" type="u8">
-    <item value="0" name="0 - None" />
-	<item value="1" name="1 - Physical" />
-	<item value="2" name="2 - Fire" />
-    <item value="3" name="3 - Magic" />
-    <item value="4" name="4 - Poison/Bleed" />
-    <item value="6" name="6 - Lightning" />
-    <item value="7" name="7 - Petrify" />
-    <item value="8" name="8 - Crystallize" />
-    <item value="9" name="9 - Dark" />
-    <item value="10" name="10 - Unknown" />
-    <item value="11" name="11 - Unknown" />
-    <item value="12" name="12 - Unknown" />
-    <item value="13" name="13 - Unknown" />
+    <item value="0" name="0 - Physical" />
+    <item value="10" name="10 - Magic" />
+    <item value="11" name="11 - Fire" />
+    <item value="12" name="12 - Lightning" />
+    <item value="13" name="13 - Holy" />
   </enum>
   <entry>
     <name>Unknown</name>
@@ -236,19 +228,19 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Vagrant Item ID</name>
-    <type>s32</type>
-    <default>100700</default>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Vagrant Item ID 2</name>
-    <type>s32</type>
-    <default>100710</default>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Vagrant Item ID 3</name>
-    <type>s32</type>
-    <default>100720</default>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Equip Model ID</name>
@@ -493,12 +485,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Reduction +: Toxic</name>
+    <name>Guard Reduction +: Blight</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Reduction +: Bleed</name>
+    <name>Guard Reduction +: Hemorrhage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -948,17 +940,17 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Absorption: Dark</name>
+    <name>Absorption: Holy</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Damage: Dark</name>
+    <name>Damage: Holy</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Correction Type: Dark</name>
+    <name>Correction Type: Holy</name>
     <type>u8</type>
     <default>0</default>
   </entry>

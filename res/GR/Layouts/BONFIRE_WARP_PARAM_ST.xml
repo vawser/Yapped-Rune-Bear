@@ -8,10 +8,10 @@
   <entry>
     <name>Location Event ID</name>
     <type>s32</type>
-    <default>14000000</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Warp Event ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -26,7 +26,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Continent - Text ID</name>
+    <name>Area - Text ID</name>
     <type>s32</type>
     <default>10011</default>
   </entry>

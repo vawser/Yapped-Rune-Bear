@@ -427,12 +427,12 @@
     <default>999</default>
   </entry>
   <entry>
-    <name>Resist: Toxic</name>
+    <name>Resist: Blight</name>
     <type>s16</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>Resist: Bleed</name>
+    <name>Resist: Hemorrhage</name>
     <type>s16</type>
     <default>112</default>
   </entry>
@@ -623,12 +623,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Resist: Toxic</name>
+    <name>Guard Resist: Blight</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Resist: Bleed</name>
+    <name>Guard Resist: Hemorrhage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
