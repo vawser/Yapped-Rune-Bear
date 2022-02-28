@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="SpEffectCategory" type="u8">
-    <item value="0" name="Default" />
-    <item value="5" name="Weapon" />
-  </enum>
   <enum name="ReferenceType" type="u8">
     <item value="0" name="Behavior / None" />
 	<item value="1" name="Bullet" />
 	<item value="2" name="SpEffect" />
   </enum>
-  <enum name="AccessoryType" type="u8">
-    <item value="0" name="Ring" />
-    <item value="1" name="Covenant" />
-  </enum>
   <entry>
-    <name>Ref ID 0</name>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -105,7 +102,6 @@
     <name>Accessory Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AccessoryType</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
@@ -117,7 +113,6 @@
     <name>SpEffect Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectCategory</enum>
   </entry>
   <entry>
     <name>pad1</name>
@@ -205,28 +200,28 @@
     <default>13</default>
   </entry>
   <entry>
-    <name>Ref ID 1</name>
+    <name>Effect ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref ID 2</name>
+    <name>Effect ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref ID 3</name>
+    <name>Effect ID 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref ID 4</name>
+    <name>Effect ID 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>pad3</name>
     <type>dummy8</type>
-    <size>8</size>
+    <size>4</size>
   </entry>
 </layout>

@@ -1,75 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="GoodsUseAnim" type="s8">
-    <item value="0" name="0 - Consumable" />
-	<item value="1" name="1 - Apply to Weapon" />
-	<item value="2" name="2 - Quick Throw" />
-	<item value="3" name="3 - Slow Throw" />
-	<item value="4" name="4 - Binoculars" />
-	<item value="5" name="5 - Scatter" />
-	<item value="6" name="6 - Tool Kneel" />
-	<item value="7" name="7 - Prism Stone" />
-	<item value="8" name="8 - Apply to Ground" />
-	<item value="9" name="9 - Crush Consumable" />
-	<item value="10" name="10 - Estus Flask" />
-	<item value="11" name="11 - Dragon Head Stone" />
-	<item value="12" name="12 - Dragon Torso Stone" />
-	<item value="13" name="13 - Pray" />
-	<item value="14" name="14 - Cross Arms and Apply" />
-	<item value="16" name="16 - Quick Apply to Weapon" />
-	<item value="17" name="17 - Throwing Knife" />
-	<item value="18" name="18 - Quick Throw Bottle" />
-	<item value="19" name="19 - Ashen Estus Flask" />
-	<item value="20" name="20 - Throw Backwards" />
-	<item value="21" name="21 - Siegbräu" />
-	<item value="22" name="22 - Transform" />
-	<item value="23" name="23 - Twinkling Dragon Head Stone" />
-	<item value="24" name="24 - Twinkling Dragon Torso Stone" />
-	<item value="25" name="25 - Spear Fragment" />
-	<item value="26" name="26 - Church Guardian Shiv" />
-  </enum>
-  <enum name="OpenMenuType" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Yes / No" />
-	<item value="4" name="Yes / No (Session)" />
-	<item value="5" name="Unknown" />
-	<item value="6" name="Create Blood Message" />
-	<item value="7" name="Roster Of Knights" />
-	<item value="8" name="Unknown" />
-	<item value="9" name="Ok / Cancel" />
-	<item value="10" name="Invasion" />
-	<item value="11" name="Coiled Sword Fragment" />
-	<item value="12" name="Darksign" />
-  </enum>
-  <enum name="SpEffectCategory" type="u8">
-    <item value="0" name="Default" />
-    <item value="5" name="Weapon" />
-  </enum>
-  <enum name="ReferenceType" type="u8">
-    <item value="0" name="Behavior / None" />
-	<item value="1" name="Bullet" />
-	<item value="2" name="SpEffect" />
-  </enum>
-  <enum name="GoodsType" type="u8">
-    <item value="0" name="Consumable" />
-	<item value="1" name="Key Item" />
-	<item value="2" name="Material" />
-    <item value="5" name="Spell" />
-  </enum>
-  
   <entry>
-    <name>Ref ID 1</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX Variation ID</name>
+    <name>Sort ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Weight</name>
-    <type>f32</type>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -93,7 +41,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Sort ID</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>80000</default>
   </entry>
@@ -156,19 +104,16 @@
     <name>Goods Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsType</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ReferenceType</enum>
   </entry>
   <entry>
     <name>SpEffect Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectCategory</enum>
   </entry>
   <entry>
     <name>Goods Category</name>
@@ -179,13 +124,11 @@
     <name>Goods Use Animation</name>
     <type>s8</type>
     <default>0</default>
-    <enum>GoodsUseAnim</enum>
   </entry>
   <entry>
     <name>Open Menu Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>OpenMenuType</enum>
   </entry>
   <entry>
     <name>Use Limit Category</name>
@@ -567,4 +510,60 @@
     <type>dummy8</type>
     <size>8</size>
   </entry>
+    <entry>
+    <name>Unk0</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>
