@@ -11,6 +11,10 @@
 	<item value="2" name="Faith" />
     <item value="3" name="Intelligence" />
   </enum>
+  <enum name="MagicSchoolType" type="u8">
+    <item value="0" name="Sorcery" />
+	<item value="1" name="Incantation" />
+  </enum>
   <entry>
     <name>Unknown</name>
     <type>s32</type>
@@ -32,7 +36,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Reference ID</name>
+    <name>Unknown</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -115,6 +119,7 @@
     <name>Magic School Type</name>
     <type>u8</type>
     <default>1</default>
+    <enum>MagicSchoolType</enum>
   </entry>
   <entry>
     <name>Ref 1: Category</name>
@@ -432,22 +437,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref ID 1</name>
+    <name>Reference ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ref ID 2</name>
+    <name>Reference ID 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ref ID 3</name>
+    <name>Reference ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ref ID 4</name>
+    <name>Reference ID 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -478,17 +483,62 @@
   </entry>
   <entry>
     <name>Unk4</name>
-    <type>s32</type>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk5</name>
-    <type>s32</type>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk6</name>
-    <type>s32</type>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>

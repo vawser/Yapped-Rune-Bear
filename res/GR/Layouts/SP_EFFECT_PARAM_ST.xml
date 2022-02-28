@@ -247,24 +247,6 @@
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
   </enum>
-  <enum name="AttackAttribute" type="u8">
-    <item value="0" name="0 - None" />
-	<item value="1" name="1 - Slash" />
-	<item value="2" name="2 - Strike" />
-    <item value="3" name="3 - Thrust" />
-    <item value="4" name="4 - Standard" />
-  </enum>
-  <enum name="EffectAttribute" type="u8">
-    <item value="0" name="0 - None" />
-	<item value="1" name="1 - Physical" />
-	<item value="2" name="2 - Fire" />
-    <item value="3" name="3 - Magic" />
-    <item value="4" name="4 - Poison/Bleed" />
-    <item value="6" name="6 - Lightning" />
-    <item value="7" name="7 - Petrify" />
-    <item value="8" name="8 - Crystallize" />
-    <item value="9" name="9 - Dark" />
-  </enum>
   <enum name="DamageLevel" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
@@ -719,7 +701,7 @@ Bullet Behavior - Requires State Info 334</description>
   </entry>
   <entry>
     <name>Enemy Sight Reduction</name>
-    <type>s32</type>
+    <type>f32</type>
     <default>0</default>
     <description>Requires State Info 8</description>
   </entry>
@@ -939,13 +921,11 @@ Enemies - Requires State Info 152</description>
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AttackAttribute</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectAttribute</enum>
   </entry>
   <entry>
     <name>State Info</name>
@@ -2064,4 +2044,145 @@ Enemies - Requires State Info 152</description>
     <type>dummy8</type>
     <size>14</size>
   </entry>
+    <entry>
+    <name>Unk0</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

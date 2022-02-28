@@ -37,6 +37,11 @@
     <item value="33" name="33 - Arch Enemy Team" />
   </enum>
   <entry>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Behavior Variation ID</name>
     <type>s32</type>
     <default>0</default>
@@ -102,22 +107,52 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Itemlot ID 3</name>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Itemlot ID 4</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Itemlot ID 5</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Itemlot ID 6</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -984,7 +1019,7 @@
   </entry>
   <entry>
     <name>Sub Turn Velocity</name>
-    <type>f32</type>
+    <type>s32</type>
     <default>999</default>
   </entry>
   <entry>
@@ -1074,8 +1109,8 @@
   </entry>
   <entry>
     <name>Game System Param Correction</name>
-    <type>f32</type>
-    <default>0.4</default>
+    <type>s32</type>
+    <default>1</default>
   </entry>
   <entry>
     <name>Absorption: Standard</name>
@@ -1148,8 +1183,13 @@
     <default>256</default>
   </entry>
   <entry>
-    <name>Cult Setting ID</name>
-    <type>s32</type>
+    <name>Unknown</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1164,7 +1204,7 @@
   </entry>
   <entry>
     <name>Foot Ankle</name>
-    <type>f32</type>
+    <type>s32</type>
     <default>10</default>
   </entry>
   <entry>
@@ -1270,7 +1310,7 @@
   </entry>
   <entry>
     <name>Lock Correction</name>
-    <type>f32</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1289,8 +1329,13 @@
     <default>1001</default>
   </entry>
   <entry>
-    <name>Text ID</name>
-    <type>s32</type>
+    <name>Unknown</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -1343,4 +1388,210 @@
     <type>dummy8</type>
     <size>4</size>
   </entry>
+  <entry>
+    <name>Unk0</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk0</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk28</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk30</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk32</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk33</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk34</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk35</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk36</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk37</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

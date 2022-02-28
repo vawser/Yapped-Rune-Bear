@@ -334,7 +334,7 @@
   </entry>
   <entry>
     <name>Emissive Intensity Scale</name>
-    <type>f32</type>
+    <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -361,5 +361,15 @@
     <name>pad1</name>
     <type>dummy8</type>
     <size>8</size>
+  </entry>
+    <entry>
+    <name>Unk0</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
 </layout>

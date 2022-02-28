@@ -15,6 +15,11 @@
     <item value="4" name="Immediate Battle AI" />
   </enum>
   <entry>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Logic ID</name>
     <type>s32</type>
     <default>10000</default>
@@ -27,28 +32,34 @@
     <description>Battle goal ID used to look up battle Lua script.</description>
   </entry>
   <entry>
-    <name>Near Distance</name>
-    <type>f32</type>
+    <name>Unknown</name>
+    <type>s16</type>
     <default>0</default>
-    <description>Distance considered to be close range by this NPC (for scripts).</description>
   </entry>
   <entry>
-    <name>Middle Distance</name>
-    <type>f32</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
-    <description>Distance considered to be medium range by this NPC (for scripts).</description>
   </entry>
   <entry>
-    <name>Far Distance</name>
-    <type>f32</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
-    <description>Distance considered to be long range by this NPC (for scripts).</description>
   </entry>
   <entry>
-    <name>Out of Range Distance</name>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>0</default>
-    <description>Distance beyond which the NPC will not attempt to fight.</description>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Retreat Time after NPC Wall Collision</name>
@@ -506,4 +517,70 @@
     <type>dummy8</type>
     <size>12</size>
   </entry>
+    <entry>
+    <name>Unk0</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>
