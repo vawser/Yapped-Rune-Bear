@@ -1,27 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
+    <name>Unknown</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Location Event ID</name>
     <type>s32</type>
     <default>14000000</default>
   </entry>
   <entry>
-    <name>Warp Event ID</name>
+    <name>Unknown</name>
     <type>s32</type>
-    <default>4001950</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Bonfire Name ID</name>
+    <name>Unknown</name>
     <type>s32</type>
-    <default>211210</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Description Text ID</name>
+    <name>Unknown</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Picture ID</name>
+    <name>Continent - Text ID</name>
     <type>s32</type>
     <default>10011</default>
   </entry>
@@ -172,11 +177,6 @@
   </entry>
   <entry>
     <name>Unk24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
     <type>s32</type>
     <default>0</default>
   </entry>
