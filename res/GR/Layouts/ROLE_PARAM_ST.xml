@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="TeamType" type="u8">
+    <item value="0" name="0 - None" />
+	<item value="1" name="1 - Live" />
+	<item value="2" name="2 - White Ghost" />
+    <item value="3" name="3 - Black Ghost" />
+    <item value="4" name="4 - Grey Ghost" />
+    <item value="5" name="5 - Wandering Ghost" />
+    <item value="6" name="6 - Enemy" />
+    <item value="7" name="7 - Boss" />
+    <item value="8" name="8 - Ally" />
+    <item value="9" name="9 - Hostile Ally" />
+    <item value="10" name="10 - Decoy" />
+    <item value="11" name="11 - Decoy-like" />
+    <item value="12" name="12 - Battle Ally" />
+    <item value="13" name="13 - Invader" />
+    <item value="14" name="14 - Neutral" />
+    <item value="15" name="15 - Charmed" />
+    <item value="16" name="16 - Invader" />
+    <item value="17" name="17 - Invader" />
+    <item value="18" name="18 - Invader" />
+    <item value="19" name="19 - Host" />
+    <item value="20" name="20 - Co-op" />
+    <item value="21" name="21 - Hostile" />
+    <item value="22" name="22 - Wandering Phantom" />
+    <item value="23" name="23 - Enemy 1" />
+    <item value="24" name="24 - Enemy 2 " />
+    <item value="25" name="25 - Strong Enemy" />
+    <item value="26" name="26 - Friendly NPC" />
+    <item value="27" name="27 - Hostile NPC" />
+    <item value="28" name="28 - Co-op NPC" />
+    <item value="29" name="29 - Indiscriminate" />
+    <item value="30" name="30 - Object" />
+    <item value="31" name="31 - Co-op Mad Phantom" />
+    <item value="32" name="32 - Invader Mad Phantom" />
+    <item value="33" name="33 - Arch Enemy Team" />
+  </enum>
+  <entry>
+    <name>Team Type</name>
+    <type>u8</type>
+    <default>16</default>
+    <enum>TeamType</enum>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  <entry>
+    <name>Phantom Param ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 4</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 5</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 6</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 7</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 8</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 9</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX ID 0</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>VFX ID 1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stay Anim ID</name>
+    <type>s32</type>
+    <default>63010</default>
+  </entry>
+  <entry>
+    <name>Itemlot ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect Condition</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Display Team Name</name>
+    <type>u8</type>
+    <default>2</default>
+  </entry>
+  <entry>
+    <name>pad2</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  <entry>
+    <name>Text ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Team Type - Sub</name>
+    <type>s32</type>
+    <default>16</default>
+  </entry>
+  <entry>
+    <name>Phantom Param ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Phantom Param ID 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Phantom Param ID 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 10</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 11</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 12</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 13</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>pad3</name>
+    <type>dummy8</type>
+    <size>20</size>
+  </entry>
+</layout>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>EventFlagId</name>
+    <type>s32</type>
+    <default>6100</default>
+  </entry>
+  <entry>
+    <name>ProgressId</name>
+    <type>u8</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>11</size>
+  </entry>
+</layout>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Distance</name>
+    <type>f32</type>
+    <default>0.8</default>
+  </entry>
+  <entry>
+    <name>Angle</name>
+    <type>f32</type>
+    <default>90</default>
+  </entry>
+  <entry>
+    <name>EventFlagId</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Coefficient.1000</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>CultState1</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>CultState2</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+</layout>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Player - Female 1</name>
+    <type>s32</type>
+    <default>90000000</default>
+  </entry>
+  <entry>
+    <name>Player - Male 1</name>
+    <type>s32</type>
+    <default>30000001</default>
+  </entry>
+  <entry>
+    <name>Player - Female 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Player - Male 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Move ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect ID 1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Move ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Relative Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Event ID - Female</name>
+    <type>s32</type>
+    <default>90000000</default>
+  </entry>
+  <entry>
+    <name>Event ID - Male</name>
+    <type>s32</type>
+    <default>30000001</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+</layout>

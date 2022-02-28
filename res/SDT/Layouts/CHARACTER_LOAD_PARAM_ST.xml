@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>ChrBndType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>AniBndType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>TexBndType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>BehBndType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SndChrType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+</layout>
