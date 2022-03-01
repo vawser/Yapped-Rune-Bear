@@ -247,7 +247,9 @@
     <item value="367" name="367 - Enhance Critical Attacks" />
     <item value="379" name="379 - Apply in Presence of Blood Loss" />
     <item value="380" name="380 - Apply in Presence of Rot" />
-    <item value="436" name="436 - Madness" />
+    <item value="390" name="390 - Pacify Wild Animals" />
+    <item value="436" name="436 - Sleep" />
+    <item value="437" name="437 - Madness" />
     <item value="450" name="450 - Reduce Headshot Impact" />
     <item value="466" name="466 - Apply during Crouch" />
     
@@ -256,6 +258,24 @@
   </enum>
   <enum name="WeaponEffect" type="s8">
     <item value="0" name="0 - None" />
+    <item value="1" name="1 - Enhance Full Moon Sorcery" />
+    <item value="2" name="2 - Enhance Carian Sword Sorcery" />
+    <item value="3" name="3 - Enhance Glintblade Sorcery" />
+    <item value="4" name="4 - Enhance Stonedigger Sorcery" />
+    <item value="5" name="5 - Enhance Crystalian Sorcery" />
+    <item value="6" name="6 - Enhance Unknown Sorcery" />
+    <item value="7" name="7 - Enhance Unknown Sorcery" />
+    <item value="8" name="8 - Enhance Lava Sorcery" />
+    <item value="9" name="9 - Enhance Thorn Sorcery" />
+    <item value="10" name="10 - Enhance Death Sorcery" />
+    <item value="11" name="11 - Enhance Gravity Sorcery" />
+    <item value="12" name="12 - Limit to Invisibility Sorcery" />
+    <item value="20" name="20 - Enhance Godslayer Incantations" />
+    <item value="21" name="21 - Enhance Giants' Flame Incantations" />
+    <item value="22" name="22 - Enhance Dragon Cult Incantations" />
+    <item value="23" name="23 - Enhance Bestial Incantations" />
+    <item value="24" name="24 - Enhance Golden Order Incantations" />
+    <item value="25" name="25 - Enhance Frenzied Flame Incantations" />
     <item value="100" name="100 - Enhance Charge Attack" />
     <item value="101" name="101 - Enhance Horseback Attack" />
     <item value="102" name="102 - Enhance Jump Attack" />
@@ -269,6 +289,7 @@
     <item value="111" name="111 - Enhance Charged Skill Attack" />
     <item value="112" name="112 - Enhance Skill Attack" />
     <item value="113" name="113 - Enhance Ranged Skill Attack" />
+    <item value="118" name="118 - Enhance Bow" />
   </enum>
   
   <enum name="DamageLevel" type="u8">
@@ -352,7 +373,8 @@
 	<item value="10006" name="10006 - Apply First ()" />
 	<item value="10007" name="10007 - Apply First (Frostbite)" />
 	<item value="10008" name="10008 - Apply First (Death)" />
-	<item value="10009" name="10009 - Apply First (Madness)" />
+	<item value="10009" name="10009 - Apply First (Sleep)" />
+	<item value="10010" name="10010 - Apply First (Madness)" />
   </enum>
   <enum name="IconID" type="s32">
     <item value="-1" name="None" />
@@ -408,7 +430,8 @@
     <item value="20" name="20 - Poison" />
     <item value="21" name="21 - Blight" />
     <item value="23" name="23 - Frostbite" />
-    <item value="24" name="24 - Madness" />
+    <item value="24" name="24 - Sleep" />
+    <item value="25" name="25 - Madness" />
     <item value="26" name="26 - Death" />
     <item value="254" name="254 - None" />
   </enum>
@@ -1501,23 +1524,43 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unk13</name>
-    <type>s16</type>
+    <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Is Enable Foot Effect Slot</name>
-    <type>b8</type>
-    <default>False</default>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
   </entry>
   <entry>
     <name>Anti-Demon %</name>
@@ -1788,12 +1831,7 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unk28</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>u8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1936,6 +1974,46 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unknown</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -1947,41 +2025,11 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unknown</name>
     <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Estus HP %</name>
-    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Estus HP +</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Estus FP %</name>
-    <type>f32</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2090,7 +2138,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Vitality</name>
+    <name>Unknown</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -2120,7 +2168,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Applied during Madness</name>
+    <name>Unknown</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -2155,13 +2203,18 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Inflict Madness +</name>
+    <name>Inflict Sleep +</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk8</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Inflict Madness +</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2180,7 +2233,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Sleep +</name>
+    <name>Resist: Madness +</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -2190,7 +2243,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Madness +</name>
+    <name>Resist: Sleep +</name>
     <type>s16</type>
     <default>0</default>
   </entry>

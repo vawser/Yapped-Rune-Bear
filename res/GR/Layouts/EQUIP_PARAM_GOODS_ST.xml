@@ -6,7 +6,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Sort ID</name>
+    <name>Effect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -43,7 +43,7 @@
   <entry>
     <name>Unknown</name>
     <type>s32</type>
-    <default>80000</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>QWC ID</name>

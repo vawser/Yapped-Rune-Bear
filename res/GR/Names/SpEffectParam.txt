@@ -1,32 +1,1024 @@
-105500 Madness: 66
-106000 Poison: 66
-106001 Poison: 67
-106002 Poison: 68
-106003 Poison: 69
-106004 Poison: 70
-106005 Poison: 71
-106006 Poison: 72
-106007 Poison: 74
-106008 Poison: 75
-106009 Poison: 76
-106010 Poison: 77
-106011 Poison: 79
-106012 Poison: 80
-106013 Poison: 81
-106014 Poison: 82
-106015 Poison: 83
-106016 Poison: 85
-106017 Poison: 86
-106018 Poison: 87
-106019 Poison: 88
-106020 Poison: 89
-106021 Poison: 90
-106022 Poison: 92
-106023 Poison: 93
-106024 Poison: 94
-106025 Poison: 95
-107500 Frostbite: 66
-108000 Death: 66
+415 Torch Effect
+416 Sentry's Torch - Effect
+460 Beast-Repellent Torch Effect
+500 Hemorrhage [Cycle]
+505 Poison/Blight [Cycle]
+1910 Carian Regal Scepter - Boost Damage
+1911 Carian Glintstone Staff - Boost Damage
+1912 Carian Glintblade Staff - Boost Damage
+1913 Digger's Staff - Boost Damage
+1914 Crystal Staff - Boost Damage
+1917 Gelmir Glintstone Staff - Boost Damage
+1918 Staff of the Guilty - Boost Damage
+1919 Prince of Death's Staff - Boost Damage
+1920 Meteorite Staff - Boost Damage
+1921 Staff of Loss - Boost Damage
+1922 Godslayer's Seal - Boost Damage
+1923 Giant's Seal - Boost Damage
+1924 Gravel Stone Seal - Boost Damage
+1925 Clawmark Seal - Boost Damage
+1926 Golden Order Seal - Boost Damage
+1927 Dragon Communion Seal - Boost Damage
+1928 Frenzied Flame Seal - Boost Damage
+1933 Azur's Glintstone Staff - Effect
+1934 Lusat's Glintstone Staff - Effect
+1937 Lion Greatbow
+1938 Serpent Bow
+1939 Serpent Bow [Attack]
+1940 Bow
+6400 Hemorrhage - Type 1 - Special 1
+6401 Hemorrhage - Type 1 - Special 2
+6402 Hemorrhage - Type 1 - Special 3
+6403 Hemorrhage - Type 1 - Special 4
+6404 Hemorrhage - Type 1 - Special 5
+6405 Hemorrhage - Type 1 - Special 6
+6406 Hemorrhage - Type 1 - Special 7
+6410 Hemorrhage - Type 2 - Special 1
+6411 Hemorrhage - Type 2 - Special 2
+6412 Hemorrhage - Type 2 - Special 3
+6413 Hemorrhage - Type 2 - Special 4
+6414 Hemorrhage - Type 2 - Special 5
+6415 Hemorrhage - Type 2 - Special 6
+6450 Sleep - Type 1 - Special 1
+6451 Sleep - Type 1 - Special 2
+6452 Sleep - Type 1 - Special 3
+6453 Sleep - Type 1 - Special 4
+6454 Sleep - Type 1 - Special 5
+6455 Sleep - Type 1 - Special 6
+6456 Sleep - Type 1 - Special 7
+6460 Sleep - Type 2 - Special 1
+6500 Poison - Type 1 - Special 1
+6501 Poison - Type 1 - Special 2
+6502 Poison - Type 1 - Special 3
+6503 Poison - Type 1 - Special 4
+6504 Poison - Type 1 - Special 5
+6505 Poison - Type 1 - Special 6
+6510 Poison - Type 2 - Special 1
+6511 Poison - Type 2 - Special 2
+6512 Poison - Type 2 - Special 3
+6513 Poison - Type 2 - Special 4
+6514 Poison - Type 2 - Special 5
+6515 Poison - Type 2 - Special 6
+6600 Blight - Type 1 - Special 1
+6601 Blight - Type 1 - Special 2
+6602 Blight - Type 1 - Special 3
+6603 Blight - Type 1 - Special 4
+6604 Blight - Type 1 - Special 5
+6605 Blight - Type 1 - Special 6
+6700 Frostbite - Type 1 - Special 1
+6701 Frostbite - Type 1 - Special 2
+6702 Frostbite - Type 1 - Special 3
+6703 Frostbite - Type 1 - Special 4
+6704 Frostbite - Type 1 - Special 5
+6705 Frostbite - Type 1 - Special 6
+6750 Madness - Type 1 - Special 1
+6751 Madness - Type 1 - Special 2
+6752 Madness - Type 1 - Special 3
+6753 Madness - Type 1 - Special 4
+6754 Madness - Type 1 - Special 5
+6755 Madness - Type 1 - Special 6
+6800 Death - Type 1 - Special 1
+6801 Death - Type 1 - Special 2
+6802 Death - Type 1 - Special 3
+6803 Death - Type 1 - Special 4
+6804 Death - Type 1 - Special 5
+6805 Death - Type 1 - Special 6
+105000 Hemorrhage - Low - Addition +0
+105001 Hemorrhage - Low - Addition +1
+105002 Hemorrhage - Low - Addition +2
+105003 Hemorrhage - Low - Addition +3
+105004 Hemorrhage - Low - Addition +4
+105005 Hemorrhage - Low - Addition +5
+105006 Hemorrhage - Low - Addition +6
+105007 Hemorrhage - Low - Addition +7
+105008 Hemorrhage - Low - Addition +8
+105009 Hemorrhage - Low - Addition +9
+105010 Hemorrhage - Low - Addition +10
+105011 Hemorrhage - Low - Addition +11
+105012 Hemorrhage - Low - Addition +12
+105013 Hemorrhage - Low - Addition +13
+105014 Hemorrhage - Low - Addition +14
+105015 Hemorrhage - Low - Addition +15
+105016 Hemorrhage - Low - Addition +16
+105017 Hemorrhage - Low - Addition +17
+105018 Hemorrhage - Low - Addition +18
+105019 Hemorrhage - Low - Addition +19
+105020 Hemorrhage - Low - Addition +20
+105021 Hemorrhage - Low - Addition +21
+105022 Hemorrhage - Low - Addition +22
+105023 Hemorrhage - Low - Addition +23
+105024 Hemorrhage - Low - Addition +24
+105025 Hemorrhage - Low - Addition +25
+105050 Hemorrhage - Low - Innate +0
+105051 Hemorrhage - Low - Innate +1
+105052 Hemorrhage - Low - Innate +2
+105053 Hemorrhage - Low - Innate +3
+105054 Hemorrhage - Low - Innate +4
+105055 Hemorrhage - Low - Innate +5
+105056 Hemorrhage - Low - Innate +6
+105057 Hemorrhage - Low - Innate +7
+105058 Hemorrhage - Low - Innate +8
+105059 Hemorrhage - Low - Innate +9
+105060 Hemorrhage - Low - Innate +10
+105061 Hemorrhage - Low - Innate +11
+105062 Hemorrhage - Low - Innate +12
+105063 Hemorrhage - Low - Innate +13
+105064 Hemorrhage - Low - Innate +14
+105065 Hemorrhage - Low - Innate +15
+105066 Hemorrhage - Low - Innate +16
+105067 Hemorrhage - Low - Innate +17
+105068 Hemorrhage - Low - Innate +18
+105069 Hemorrhage - Low - Innate +19
+105070 Hemorrhage - Low - Innate +20
+105071 Hemorrhage - Low - Innate +21
+105072 Hemorrhage - Low - Innate +22
+105073 Hemorrhage - Low - Innate +23
+105074 Hemorrhage - Low - Innate +24
+105075 Hemorrhage - Low - Innate +25
+105100 Hemorrhage - Medium - Addition +0
+105101 Hemorrhage - Medium - Addition +1
+105102 Hemorrhage - Medium - Addition +2
+105103 Hemorrhage - Medium - Addition +3
+105104 Hemorrhage - Medium - Addition +4
+105105 Hemorrhage - Medium - Addition +5
+105106 Hemorrhage - Medium - Addition +6
+105107 Hemorrhage - Medium - Addition +7
+105108 Hemorrhage - Medium - Addition +8
+105109 Hemorrhage - Medium - Addition +9
+105110 Hemorrhage - Medium - Addition +10
+105111 Hemorrhage - Medium - Addition +11
+105112 Hemorrhage - Medium - Addition +12
+105113 Hemorrhage - Medium - Addition +13
+105114 Hemorrhage - Medium - Addition +14
+105115 Hemorrhage - Medium - Addition +15
+105116 Hemorrhage - Medium - Addition +16
+105117 Hemorrhage - Medium - Addition +17
+105118 Hemorrhage - Medium - Addition +18
+105119 Hemorrhage - Medium - Addition +19
+105120 Hemorrhage - Medium - Addition +20
+105121 Hemorrhage - Medium - Addition +21
+105122 Hemorrhage - Medium - Addition +22
+105123 Hemorrhage - Medium - Addition +23
+105124 Hemorrhage - Medium - Addition +24
+105125 Hemorrhage - Medium - Addition +25
+105150 Hemorrhage - Medium - Innate +0
+105151 Hemorrhage - Medium - Innate +1
+105152 Hemorrhage - Medium - Innate +2
+105153 Hemorrhage - Medium - Innate +3
+105154 Hemorrhage - Medium - Innate +4
+105155 Hemorrhage - Medium - Innate +5
+105156 Hemorrhage - Medium - Innate +6
+105157 Hemorrhage - Medium - Innate +7
+105158 Hemorrhage - Medium - Innate +8
+105159 Hemorrhage - Medium - Innate +9
+105160 Hemorrhage - Medium - Innate +10
+105161 Hemorrhage - Medium - Innate +11
+105162 Hemorrhage - Medium - Innate +12
+105163 Hemorrhage - Medium - Innate +13
+105164 Hemorrhage - Medium - Innate +14
+105165 Hemorrhage - Medium - Innate +15
+105166 Hemorrhage - Medium - Innate +16
+105167 Hemorrhage - Medium - Innate +17
+105168 Hemorrhage - Medium - Innate +18
+105169 Hemorrhage - Medium - Innate +19
+105170 Hemorrhage - Medium - Innate +20
+105171 Hemorrhage - Medium - Innate +21
+105172 Hemorrhage - Medium - Innate +22
+105173 Hemorrhage - Medium - Innate +23
+105174 Hemorrhage - Medium - Innate +24
+105175 Hemorrhage - Medium - Innate +25
+105200 Hemorrhage - High - Addition +0
+105201 Hemorrhage - High - Addition +1
+105202 Hemorrhage - High - Addition +2
+105203 Hemorrhage - High - Addition +3
+105204 Hemorrhage - High - Addition +4
+105205 Hemorrhage - High - Addition +5
+105206 Hemorrhage - High - Addition +6
+105207 Hemorrhage - High - Addition +7
+105208 Hemorrhage - High - Addition +8
+105209 Hemorrhage - High - Addition +9
+105210 Hemorrhage - High - Addition +10
+105211 Hemorrhage - High - Addition +11
+105212 Hemorrhage - High - Addition +12
+105213 Hemorrhage - High - Addition +13
+105214 Hemorrhage - High - Addition +14
+105215 Hemorrhage - High - Addition +15
+105216 Hemorrhage - High - Addition +16
+105217 Hemorrhage - High - Addition +17
+105218 Hemorrhage - High - Addition +18
+105219 Hemorrhage - High - Addition +19
+105220 Hemorrhage - High - Addition +20
+105221 Hemorrhage - High - Addition +21
+105222 Hemorrhage - High - Addition +22
+105223 Hemorrhage - High - Addition +23
+105224 Hemorrhage - High - Addition +24
+105225 Hemorrhage - High - Addition +25
+105250 Hemorrhage - High - Innate +0
+105251 Hemorrhage - High - Innate +1
+105252 Hemorrhage - High - Innate +2
+105253 Hemorrhage - High - Innate +3
+105254 Hemorrhage - High - Innate +4
+105255 Hemorrhage - High - Innate +5
+105256 Hemorrhage - High - Innate +6
+105257 Hemorrhage - High - Innate +7
+105258 Hemorrhage - High - Innate +8
+105259 Hemorrhage - High - Innate +9
+105260 Hemorrhage - High - Innate +10
+105261 Hemorrhage - High - Innate +11
+105262 Hemorrhage - High - Innate +12
+105263 Hemorrhage - High - Innate +13
+105264 Hemorrhage - High - Innate +14
+105265 Hemorrhage - High - Innate +15
+105266 Hemorrhage - High - Innate +16
+105267 Hemorrhage - High - Innate +17
+105268 Hemorrhage - High - Innate +18
+105269 Hemorrhage - High - Innate +19
+105270 Hemorrhage - High - Innate +20
+105271 Hemorrhage - High - Innate +21
+105272 Hemorrhage - High - Innate +22
+105273 Hemorrhage - High - Innate +23
+105274 Hemorrhage - High - Innate +24
+105275 Hemorrhage - High - Innate +25
+105500 Sleep - Low - Addition +0
+105501 Sleep - Low - Addition +1
+105502 Sleep - Low - Addition +2
+105503 Sleep - Low - Addition +3
+105504 Sleep - Low - Addition +4
+105505 Sleep - Low - Addition +5
+105506 Sleep - Low - Addition +6
+105507 Sleep - Low - Addition +7
+105508 Sleep - Low - Addition +8
+105509 Sleep - Low - Addition +9
+105510 Sleep - Low - Addition +10
+105511 Sleep - Low - Addition +11
+105512 Sleep - Low - Addition +12
+105513 Sleep - Low - Addition +13
+105514 Sleep - Low - Addition +14
+105515 Sleep - Low - Addition +15
+105516 Sleep - Low - Addition +16
+105517 Sleep - Low - Addition +17
+105518 Sleep - Low - Addition +18
+105519 Sleep - Low - Addition +19
+105520 Sleep - Low - Addition +20
+105521 Sleep - Low - Addition +21
+105522 Sleep - Low - Addition +22
+105523 Sleep - Low - Addition +23
+105524 Sleep - Low - Addition +24
+105525 Sleep - Low - Addition +25
+105550 Sleep - Low - Innate +0
+105551 Sleep - Low - Innate +1
+105552 Sleep - Low - Innate +2
+105553 Sleep - Low - Innate +3
+105554 Sleep - Low - Innate +4
+105555 Sleep - Low - Innate +5
+105556 Sleep - Low - Innate +6
+105557 Sleep - Low - Innate +7
+105558 Sleep - Low - Innate +8
+105559 Sleep - Low - Innate +9
+105560 Sleep - Low - Innate +10
+105561 Sleep - Low - Innate +11
+105562 Sleep - Low - Innate +12
+105563 Sleep - Low - Innate +13
+105564 Sleep - Low - Innate +14
+105565 Sleep - Low - Innate +15
+105566 Sleep - Low - Innate +16
+105567 Sleep - Low - Innate +17
+105568 Sleep - Low - Innate +18
+105569 Sleep - Low - Innate +19
+105570 Sleep - Low - Innate +20
+105571 Sleep - Low - Innate +21
+105572 Sleep - Low - Innate +22
+105573 Sleep - Low - Innate +23
+105574 Sleep - Low - Innate +24
+105575 Sleep - Low - Innate +25
+105600 Sleep - Medium - Addition +0
+105601 Sleep - Medium - Addition +1
+105602 Sleep - Medium - Addition +2
+105603 Sleep - Medium - Addition +3
+105604 Sleep - Medium - Addition +4
+105605 Sleep - Medium - Addition +5
+105606 Sleep - Medium - Addition +6
+105607 Sleep - Medium - Addition +7
+105608 Sleep - Medium - Addition +8
+105609 Sleep - Medium - Addition +9
+105610 Sleep - Medium - Addition +10
+105611 Sleep - Medium - Addition +11
+105612 Sleep - Medium - Addition +12
+105613 Sleep - Medium - Addition +13
+105614 Sleep - Medium - Addition +14
+105615 Sleep - Medium - Addition +15
+105616 Sleep - Medium - Addition +16
+105617 Sleep - Medium - Addition +17
+105618 Sleep - Medium - Addition +18
+105619 Sleep - Medium - Addition +19
+105620 Sleep - Medium - Addition +20
+105621 Sleep - Medium - Addition +21
+105622 Sleep - Medium - Addition +22
+105623 Sleep - Medium - Addition +23
+105624 Sleep - Medium - Addition +24
+105625 Sleep - Medium - Addition +25
+105650 Sleep - Medium - Innate +0
+105651 Sleep - Medium - Innate +1
+105652 Sleep - Medium - Innate +2
+105653 Sleep - Medium - Innate +3
+105654 Sleep - Medium - Innate +4
+105655 Sleep - Medium - Innate +5
+105656 Sleep - Medium - Innate +6
+105657 Sleep - Medium - Innate +7
+105658 Sleep - Medium - Innate +8
+105659 Sleep - Medium - Innate +9
+105660 Sleep - Medium - Innate +10
+105661 Sleep - Medium - Innate +11
+105662 Sleep - Medium - Innate +12
+105663 Sleep - Medium - Innate +13
+105664 Sleep - Medium - Innate +14
+105665 Sleep - Medium - Innate +15
+105666 Sleep - Medium - Innate +16
+105667 Sleep - Medium - Innate +17
+105668 Sleep - Medium - Innate +18
+105669 Sleep - Medium - Innate +19
+105670 Sleep - Medium - Innate +20
+105671 Sleep - Medium - Innate +21
+105672 Sleep - Medium - Innate +22
+105673 Sleep - Medium - Innate +23
+105674 Sleep - Medium - Innate +24
+105675 Sleep - Medium - Innate +25
+105700 Sleep - High - Addition +0
+105701 Sleep - High - Addition +1
+105702 Sleep - High - Addition +2
+105703 Sleep - High - Addition +3
+105704 Sleep - High - Addition +4
+105705 Sleep - High - Addition +5
+105706 Sleep - High - Addition +6
+105707 Sleep - High - Addition +7
+105708 Sleep - High - Addition +8
+105709 Sleep - High - Addition +9
+105710 Sleep - High - Addition +10
+105711 Sleep - High - Addition +11
+105712 Sleep - High - Addition +12
+105713 Sleep - High - Addition +13
+105714 Sleep - High - Addition +14
+105715 Sleep - High - Addition +15
+105716 Sleep - High - Addition +16
+105717 Sleep - High - Addition +17
+105718 Sleep - High - Addition +18
+105719 Sleep - High - Addition +19
+105720 Sleep - High - Addition +20
+105721 Sleep - High - Addition +21
+105722 Sleep - High - Addition +22
+105723 Sleep - High - Addition +23
+105724 Sleep - High - Addition +24
+105725 Sleep - High - Addition +25
+105750 Sleep - High - Innate +0
+105751 Sleep - High - Innate +1
+105752 Sleep - High - Innate +2
+105753 Sleep - High - Innate +3
+105754 Sleep - High - Innate +4
+105755 Sleep - High - Innate +5
+105756 Sleep - High - Innate +6
+105757 Sleep - High - Innate +7
+105758 Sleep - High - Innate +8
+105759 Sleep - High - Innate +9
+105760 Sleep - High - Innate +10
+105761 Sleep - High - Innate +11
+105762 Sleep - High - Innate +12
+105763 Sleep - High - Innate +13
+105764 Sleep - High - Innate +14
+105765 Sleep - High - Innate +15
+105766 Sleep - High - Innate +16
+105767 Sleep - High - Innate +17
+105768 Sleep - High - Innate +18
+105769 Sleep - High - Innate +19
+105770 Sleep - High - Innate +20
+105771 Sleep - High - Innate +21
+105772 Sleep - High - Innate +22
+105773 Sleep - High - Innate +23
+105774 Sleep - High - Innate +24
+105775 Sleep - High - Innate +25
+106000 Poison - Low - Addition +0
+106001 Poison - Low - Addition +1
+106002 Poison - Low - Addition +2
+106003 Poison - Low - Addition +3
+106004 Poison - Low - Addition +4
+106005 Poison - Low - Addition +5
+106006 Poison - Low - Addition +6
+106007 Poison - Low - Addition +7
+106008 Poison - Low - Addition +8
+106009 Poison - Low - Addition +9
+106010 Poison - Low - Addition +10
+106011 Poison - Low - Addition +11
+106012 Poison - Low - Addition +12
+106013 Poison - Low - Addition +13
+106014 Poison - Low - Addition +14
+106015 Poison - Low - Addition +15
+106016 Poison - Low - Addition +16
+106017 Poison - Low - Addition +17
+106018 Poison - Low - Addition +18
+106019 Poison - Low - Addition +19
+106020 Poison - Low - Addition +20
+106021 Poison - Low - Addition +21
+106022 Poison - Low - Addition +22
+106023 Poison - Low - Addition +23
+106024 Poison - Low - Addition +24
+106025 Poison - Low - Addition +25
+106050 Poison - Low - Innate +0
+106051 Poison - Low - Innate +1
+106052 Poison - Low - Innate +2
+106053 Poison - Low - Innate +3
+106054 Poison - Low - Innate +4
+106055 Poison - Low - Innate +5
+106056 Poison - Low - Innate +6
+106057 Poison - Low - Innate +7
+106058 Poison - Low - Innate +8
+106059 Poison - Low - Innate +9
+106060 Poison - Low - Innate +10
+106061 Poison - Low - Innate +11
+106062 Poison - Low - Innate +12
+106063 Poison - Low - Innate +13
+106064 Poison - Low - Innate +14
+106065 Poison - Low - Innate +15
+106066 Poison - Low - Innate +16
+106067 Poison - Low - Innate +17
+106068 Poison - Low - Innate +18
+106069 Poison - Low - Innate +19
+106070 Poison - Low - Innate +20
+106071 Poison - Low - Innate +21
+106072 Poison - Low - Innate +22
+106073 Poison - Low - Innate +23
+106074 Poison - Low - Innate +24
+106075 Poison - Low - Innate +25
+106100 Poison - Medium - Addition +0
+106101 Poison - Medium - Addition +1
+106102 Poison - Medium - Addition +2
+106103 Poison - Medium - Addition +3
+106104 Poison - Medium - Addition +4
+106105 Poison - Medium - Addition +5
+106106 Poison - Medium - Addition +6
+106107 Poison - Medium - Addition +7
+106108 Poison - Medium - Addition +8
+106109 Poison - Medium - Addition +9
+106110 Poison - Medium - Addition +10
+106111 Poison - Medium - Addition +11
+106112 Poison - Medium - Addition +12
+106113 Poison - Medium - Addition +13
+106114 Poison - Medium - Addition +14
+106115 Poison - Medium - Addition +15
+106116 Poison - Medium - Addition +16
+106117 Poison - Medium - Addition +17
+106118 Poison - Medium - Addition +18
+106119 Poison - Medium - Addition +19
+106120 Poison - Medium - Addition +20
+106121 Poison - Medium - Addition +21
+106122 Poison - Medium - Addition +22
+106123 Poison - Medium - Addition +23
+106124 Poison - Medium - Addition +24
+106125 Poison - Medium - Addition +25
+106150 Poison - Medium - Innate +0
+106151 Poison - Medium - Innate +1
+106152 Poison - Medium - Innate +2
+106153 Poison - Medium - Innate +3
+106154 Poison - Medium - Innate +4
+106155 Poison - Medium - Innate +5
+106156 Poison - Medium - Innate +6
+106157 Poison - Medium - Innate +7
+106158 Poison - Medium - Innate +8
+106159 Poison - Medium - Innate +9
+106160 Poison - Medium - Innate +10
+106161 Poison - Medium - Innate +11
+106162 Poison - Medium - Innate +12
+106163 Poison - Medium - Innate +13
+106164 Poison - Medium - Innate +14
+106165 Poison - Medium - Innate +15
+106166 Poison - Medium - Innate +16
+106167 Poison - Medium - Innate +17
+106168 Poison - Medium - Innate +18
+106169 Poison - Medium - Innate +19
+106170 Poison - Medium - Innate +20
+106171 Poison - Medium - Innate +21
+106172 Poison - Medium - Innate +22
+106173 Poison - Medium - Innate +23
+106174 Poison - Medium - Innate +24
+106175 Poison - Medium - Innate +25
+106200 Poison - High - Addition +0
+106201 Poison - High - Addition +1
+106202 Poison - High - Addition +2
+106203 Poison - High - Addition +3
+106204 Poison - High - Addition +4
+106205 Poison - High - Addition +5
+106206 Poison - High - Addition +6
+106207 Poison - High - Addition +7
+106208 Poison - High - Addition +8
+106209 Poison - High - Addition +9
+106210 Poison - High - Addition +10
+106211 Poison - High - Addition +11
+106212 Poison - High - Addition +12
+106213 Poison - High - Addition +13
+106214 Poison - High - Addition +14
+106215 Poison - High - Addition +15
+106216 Poison - High - Addition +16
+106217 Poison - High - Addition +17
+106218 Poison - High - Addition +18
+106219 Poison - High - Addition +19
+106220 Poison - High - Addition +20
+106221 Poison - High - Addition +21
+106222 Poison - High - Addition +22
+106223 Poison - High - Addition +23
+106224 Poison - High - Addition +24
+106225 Poison - High - Addition +25
+106250 Poison - High - Innate +0
+106251 Poison - High - Innate +1
+106252 Poison - High - Innate +2
+106253 Poison - High - Innate +3
+106254 Poison - High - Innate +4
+106255 Poison - High - Innate +5
+106256 Poison - High - Innate +6
+106257 Poison - High - Innate +7
+106258 Poison - High - Innate +8
+106259 Poison - High - Innate +9
+106260 Poison - High - Innate +10
+106261 Poison - High - Innate +11
+106262 Poison - High - Innate +12
+106263 Poison - High - Innate +13
+106264 Poison - High - Innate +14
+106265 Poison - High - Innate +15
+106266 Poison - High - Innate +16
+106267 Poison - High - Innate +17
+106268 Poison - High - Innate +18
+106269 Poison - High - Innate +19
+106270 Poison - High - Innate +20
+106271 Poison - High - Innate +21
+106272 Poison - High - Innate +22
+106273 Poison - High - Innate +23
+106274 Poison - High - Innate +24
+106275 Poison - High - Innate +25
+107000 Blight - Low - Addition +0
+107001 Blight - Low - Addition +1
+107002 Blight - Low - Addition +2
+107003 Blight - Low - Addition +3
+107004 Blight - Low - Addition +4
+107005 Blight - Low - Addition +5
+107006 Blight - Low - Addition +6
+107007 Blight - Low - Addition +7
+107008 Blight - Low - Addition +8
+107009 Blight - Low - Addition +9
+107010 Blight - Low - Addition +10
+107011 Blight - Low - Addition +11
+107012 Blight - Low - Addition +12
+107013 Blight - Low - Addition +13
+107014 Blight - Low - Addition +14
+107015 Blight - Low - Addition +15
+107016 Blight - Low - Addition +16
+107017 Blight - Low - Addition +17
+107018 Blight - Low - Addition +18
+107019 Blight - Low - Addition +19
+107020 Blight - Low - Addition +20
+107021 Blight - Low - Addition +21
+107022 Blight - Low - Addition +22
+107023 Blight - Low - Addition +23
+107024 Blight - Low - Addition +24
+107025 Blight - Low - Addition +25
+107050 Blight - Low - Innate +0
+107051 Blight - Low - Innate +1
+107052 Blight - Low - Innate +2
+107053 Blight - Low - Innate +3
+107054 Blight - Low - Innate +4
+107055 Blight - Low - Innate +5
+107056 Blight - Low - Innate +6
+107057 Blight - Low - Innate +7
+107058 Blight - Low - Innate +8
+107059 Blight - Low - Innate +9
+107060 Blight - Low - Innate +10
+107061 Blight - Low - Innate +11
+107062 Blight - Low - Innate +12
+107063 Blight - Low - Innate +13
+107064 Blight - Low - Innate +14
+107065 Blight - Low - Innate +15
+107066 Blight - Low - Innate +16
+107067 Blight - Low - Innate +17
+107068 Blight - Low - Innate +18
+107069 Blight - Low - Innate +19
+107070 Blight - Low - Innate +20
+107071 Blight - Low - Innate +21
+107072 Blight - Low - Innate +22
+107073 Blight - Low - Innate +23
+107074 Blight - Low - Innate +24
+107075 Blight - Low - Innate +25
+107100 Blight - Medium - Addition +0
+107101 Blight - Medium - Addition +1
+107102 Blight - Medium - Addition +2
+107103 Blight - Medium - Addition +3
+107104 Blight - Medium - Addition +4
+107105 Blight - Medium - Addition +5
+107106 Blight - Medium - Addition +6
+107107 Blight - Medium - Addition +7
+107108 Blight - Medium - Addition +8
+107109 Blight - Medium - Addition +9
+107110 Blight - Medium - Addition +10
+107111 Blight - Medium - Addition +11
+107112 Blight - Medium - Addition +12
+107113 Blight - Medium - Addition +13
+107114 Blight - Medium - Addition +14
+107115 Blight - Medium - Addition +15
+107116 Blight - Medium - Addition +16
+107117 Blight - Medium - Addition +17
+107118 Blight - Medium - Addition +18
+107119 Blight - Medium - Addition +19
+107120 Blight - Medium - Addition +20
+107121 Blight - Medium - Addition +21
+107122 Blight - Medium - Addition +22
+107123 Blight - Medium - Addition +23
+107124 Blight - Medium - Addition +24
+107125 Blight - Medium - Addition +25
+107150 Blight - Medium - Innate +0
+107151 Blight - Medium - Innate +1
+107152 Blight - Medium - Innate +2
+107153 Blight - Medium - Innate +3
+107154 Blight - Medium - Innate +4
+107155 Blight - Medium - Innate +5
+107156 Blight - Medium - Innate +6
+107157 Blight - Medium - Innate +7
+107158 Blight - Medium - Innate +8
+107159 Blight - Medium - Innate +9
+107160 Blight - Medium - Innate +10
+107161 Blight - Medium - Innate +11
+107162 Blight - Medium - Innate +12
+107163 Blight - Medium - Innate +13
+107164 Blight - Medium - Innate +14
+107165 Blight - Medium - Innate +15
+107166 Blight - Medium - Innate +16
+107167 Blight - Medium - Innate +17
+107168 Blight - Medium - Innate +18
+107169 Blight - Medium - Innate +19
+107170 Blight - Medium - Innate +20
+107171 Blight - Medium - Innate +21
+107172 Blight - Medium - Innate +22
+107173 Blight - Medium - Innate +23
+107174 Blight - Medium - Innate +24
+107175 Blight - Medium - Innate +25
+107200 Blight - High - Addition +0
+107201 Blight - High - Addition +1
+107202 Blight - High - Addition +2
+107203 Blight - High - Addition +3
+107204 Blight - High - Addition +4
+107205 Blight - High - Addition +5
+107206 Blight - High - Addition +6
+107207 Blight - High - Addition +7
+107208 Blight - High - Addition +8
+107209 Blight - High - Addition +9
+107210 Blight - High - Addition +10
+107211 Blight - High - Addition +11
+107212 Blight - High - Addition +12
+107213 Blight - High - Addition +13
+107214 Blight - High - Addition +14
+107215 Blight - High - Addition +15
+107216 Blight - High - Addition +16
+107217 Blight - High - Addition +17
+107218 Blight - High - Addition +18
+107219 Blight - High - Addition +19
+107220 Blight - High - Addition +20
+107221 Blight - High - Addition +21
+107222 Blight - High - Addition +22
+107223 Blight - High - Addition +23
+107224 Blight - High - Addition +24
+107225 Blight - High - Addition +25
+107250 Blight - High - Innate +0
+107251 Blight - High - Innate +1
+107252 Blight - High - Innate +2
+107253 Blight - High - Innate +3
+107254 Blight - High - Innate +4
+107255 Blight - High - Innate +5
+107256 Blight - High - Innate +6
+107257 Blight - High - Innate +7
+107258 Blight - High - Innate +8
+107259 Blight - High - Innate +9
+107260 Blight - High - Innate +10
+107261 Blight - High - Innate +11
+107262 Blight - High - Innate +12
+107263 Blight - High - Innate +13
+107264 Blight - High - Innate +14
+107265 Blight - High - Innate +15
+107266 Blight - High - Innate +16
+107267 Blight - High - Innate +17
+107268 Blight - High - Innate +18
+107269 Blight - High - Innate +19
+107270 Blight - High - Innate +20
+107271 Blight - High - Innate +21
+107272 Blight - High - Innate +22
+107273 Blight - High - Innate +23
+107274 Blight - High - Innate +24
+107275 Blight - High - Innate +25
+107500 Frostbite - Low - Addition +0
+107501 Frostbite - Low - Addition +1
+107502 Frostbite - Low - Addition +2
+107503 Frostbite - Low - Addition +3
+107504 Frostbite - Low - Addition +4
+107505 Frostbite - Low - Addition +5
+107506 Frostbite - Low - Addition +6
+107507 Frostbite - Low - Addition +7
+107508 Frostbite - Low - Addition +8
+107509 Frostbite - Low - Addition +9
+107510 Frostbite - Low - Addition +10
+107511 Frostbite - Low - Addition +11
+107512 Frostbite - Low - Addition +12
+107513 Frostbite - Low - Addition +13
+107514 Frostbite - Low - Addition +14
+107515 Frostbite - Low - Addition +15
+107516 Frostbite - Low - Addition +16
+107517 Frostbite - Low - Addition +17
+107518 Frostbite - Low - Addition +18
+107519 Frostbite - Low - Addition +19
+107520 Frostbite - Low - Addition +20
+107521 Frostbite - Low - Addition +21
+107522 Frostbite - Low - Addition +22
+107523 Frostbite - Low - Addition +23
+107524 Frostbite - Low - Addition +24
+107525 Frostbite - Low - Addition +25
+107550 Frostbite - Low - Innate +0
+107551 Frostbite - Low - Innate +1
+107552 Frostbite - Low - Innate +2
+107553 Frostbite - Low - Innate +3
+107554 Frostbite - Low - Innate +4
+107555 Frostbite - Low - Innate +5
+107556 Frostbite - Low - Innate +6
+107557 Frostbite - Low - Innate +7
+107558 Frostbite - Low - Innate +8
+107559 Frostbite - Low - Innate +9
+107560 Frostbite - Low - Innate +10
+107561 Frostbite - Low - Innate +11
+107562 Frostbite - Low - Innate +12
+107563 Frostbite - Low - Innate +13
+107564 Frostbite - Low - Innate +14
+107565 Frostbite - Low - Innate +15
+107566 Frostbite - Low - Innate +16
+107567 Frostbite - Low - Innate +17
+107568 Frostbite - Low - Innate +18
+107569 Frostbite - Low - Innate +19
+107570 Frostbite - Low - Innate +20
+107571 Frostbite - Low - Innate +21
+107572 Frostbite - Low - Innate +22
+107573 Frostbite - Low - Innate +23
+107574 Frostbite - Low - Innate +24
+107575 Frostbite - Low - Innate +25
+107600 Frostbite - Medium - Addition +0
+107601 Frostbite - Medium - Addition +1
+107602 Frostbite - Medium - Addition +2
+107603 Frostbite - Medium - Addition +3
+107604 Frostbite - Medium - Addition +4
+107605 Frostbite - Medium - Addition +5
+107606 Frostbite - Medium - Addition +6
+107607 Frostbite - Medium - Addition +7
+107608 Frostbite - Medium - Addition +8
+107609 Frostbite - Medium - Addition +9
+107610 Frostbite - Medium - Addition +10
+107611 Frostbite - Medium - Addition +11
+107612 Frostbite - Medium - Addition +12
+107613 Frostbite - Medium - Addition +13
+107614 Frostbite - Medium - Addition +14
+107615 Frostbite - Medium - Addition +15
+107616 Frostbite - Medium - Addition +16
+107617 Frostbite - Medium - Addition +17
+107618 Frostbite - Medium - Addition +18
+107619 Frostbite - Medium - Addition +19
+107620 Frostbite - Medium - Addition +20
+107621 Frostbite - Medium - Addition +21
+107622 Frostbite - Medium - Addition +22
+107623 Frostbite - Medium - Addition +23
+107624 Frostbite - Medium - Addition +24
+107625 Frostbite - Medium - Addition +25
+107650 Frostbite - Medium - Innate +0
+107651 Frostbite - Medium - Innate +1
+107652 Frostbite - Medium - Innate +2
+107653 Frostbite - Medium - Innate +3
+107654 Frostbite - Medium - Innate +4
+107655 Frostbite - Medium - Innate +5
+107656 Frostbite - Medium - Innate +6
+107657 Frostbite - Medium - Innate +7
+107658 Frostbite - Medium - Innate +8
+107659 Frostbite - Medium - Innate +9
+107660 Frostbite - Medium - Innate +10
+107661 Frostbite - Medium - Innate +11
+107662 Frostbite - Medium - Innate +12
+107663 Frostbite - Medium - Innate +13
+107664 Frostbite - Medium - Innate +14
+107665 Frostbite - Medium - Innate +15
+107666 Frostbite - Medium - Innate +16
+107667 Frostbite - Medium - Innate +17
+107668 Frostbite - Medium - Innate +18
+107669 Frostbite - Medium - Innate +19
+107670 Frostbite - Medium - Innate +20
+107671 Frostbite - Medium - Innate +21
+107672 Frostbite - Medium - Innate +22
+107673 Frostbite - Medium - Innate +23
+107674 Frostbite - Medium - Innate +24
+107675 Frostbite - Medium - Innate +25
+107700 Frostbite - High - Addition +0
+107701 Frostbite - High - Addition +1
+107702 Frostbite - High - Addition +2
+107703 Frostbite - High - Addition +3
+107704 Frostbite - High - Addition +4
+107705 Frostbite - High - Addition +5
+107706 Frostbite - High - Addition +6
+107707 Frostbite - High - Addition +7
+107708 Frostbite - High - Addition +8
+107709 Frostbite - High - Addition +9
+107710 Frostbite - High - Addition +10
+107711 Frostbite - High - Addition +11
+107712 Frostbite - High - Addition +12
+107713 Frostbite - High - Addition +13
+107714 Frostbite - High - Addition +14
+107715 Frostbite - High - Addition +15
+107716 Frostbite - High - Addition +16
+107717 Frostbite - High - Addition +17
+107718 Frostbite - High - Addition +18
+107719 Frostbite - High - Addition +19
+107720 Frostbite - High - Addition +20
+107721 Frostbite - High - Addition +21
+107722 Frostbite - High - Addition +22
+107723 Frostbite - High - Addition +23
+107724 Frostbite - High - Addition +24
+107725 Frostbite - High - Addition +25
+107750 Frostbite - High - Innate +0
+107751 Frostbite - High - Innate +1
+107752 Frostbite - High - Innate +2
+107753 Frostbite - High - Innate +3
+107754 Frostbite - High - Innate +4
+107755 Frostbite - High - Innate +5
+107756 Frostbite - High - Innate +6
+107757 Frostbite - High - Innate +7
+107758 Frostbite - High - Innate +8
+107759 Frostbite - High - Innate +9
+107760 Frostbite - High - Innate +10
+107761 Frostbite - High - Innate +11
+107762 Frostbite - High - Innate +12
+107763 Frostbite - High - Innate +13
+107764 Frostbite - High - Innate +14
+107765 Frostbite - High - Innate +15
+107766 Frostbite - High - Innate +16
+107767 Frostbite - High - Innate +17
+107768 Frostbite - High - Innate +18
+107769 Frostbite - High - Innate +19
+107770 Frostbite - High - Innate +20
+107771 Frostbite - High - Innate +21
+107772 Frostbite - High - Innate +22
+107773 Frostbite - High - Innate +23
+107774 Frostbite - High - Innate +24
+107775 Frostbite - High - Innate +25
+108000 Death - Low - Addition +0
+108001 Death - Low - Addition +1
+108002 Death - Low - Addition +2
+108003 Death - Low - Addition +3
+108004 Death - Low - Addition +4
+108005 Death - Low - Addition +5
+108006 Death - Low - Addition +6
+108007 Death - Low - Addition +7
+108008 Death - Low - Addition +8
+108009 Death - Low - Addition +9
+108010 Death - Low - Addition +10
+108011 Death - Low - Addition +11
+108012 Death - Low - Addition +12
+108013 Death - Low - Addition +13
+108014 Death - Low - Addition +14
+108015 Death - Low - Addition +15
+108016 Death - Low - Addition +16
+108017 Death - Low - Addition +17
+108018 Death - Low - Addition +18
+108019 Death - Low - Addition +19
+108020 Death - Low - Addition +20
+108021 Death - Low - Addition +21
+108022 Death - Low - Addition +22
+108023 Death - Low - Addition +23
+108024 Death - Low - Addition +24
+108025 Death - Low - Addition +25
+108050 Death - Low - Innate +0
+108051 Death - Low - Innate +1
+108052 Death - Low - Innate +2
+108053 Death - Low - Innate +3
+108054 Death - Low - Innate +4
+108055 Death - Low - Innate +5
+108056 Death - Low - Innate +6
+108057 Death - Low - Innate +7
+108058 Death - Low - Innate +8
+108059 Death - Low - Innate +9
+108060 Death - Low - Innate +10
+108061 Death - Low - Innate +11
+108062 Death - Low - Innate +12
+108063 Death - Low - Innate +13
+108064 Death - Low - Innate +14
+108065 Death - Low - Innate +15
+108066 Death - Low - Innate +16
+108067 Death - Low - Innate +17
+108068 Death - Low - Innate +18
+108069 Death - Low - Innate +19
+108070 Death - Low - Innate +20
+108071 Death - Low - Innate +21
+108072 Death - Low - Innate +22
+108073 Death - Low - Innate +23
+108074 Death - Low - Innate +24
+108075 Death - Low - Innate +25
+108100 Death - Medium - Addition +0
+108101 Death - Medium - Addition +1
+108102 Death - Medium - Addition +2
+108103 Death - Medium - Addition +3
+108104 Death - Medium - Addition +4
+108105 Death - Medium - Addition +5
+108106 Death - Medium - Addition +6
+108107 Death - Medium - Addition +7
+108108 Death - Medium - Addition +8
+108109 Death - Medium - Addition +9
+108110 Death - Medium - Addition +10
+108111 Death - Medium - Addition +11
+108112 Death - Medium - Addition +12
+108113 Death - Medium - Addition +13
+108114 Death - Medium - Addition +14
+108115 Death - Medium - Addition +15
+108116 Death - Medium - Addition +16
+108117 Death - Medium - Addition +17
+108118 Death - Medium - Addition +18
+108119 Death - Medium - Addition +19
+108120 Death - Medium - Addition +20
+108121 Death - Medium - Addition +21
+108122 Death - Medium - Addition +22
+108123 Death - Medium - Addition +23
+108124 Death - Medium - Addition +24
+108125 Death - Medium - Addition +25
+108150 Death - Medium - Innate +0
+108151 Death - Medium - Innate +1
+108152 Death - Medium - Innate +2
+108153 Death - Medium - Innate +3
+108154 Death - Medium - Innate +4
+108155 Death - Medium - Innate +5
+108156 Death - Medium - Innate +6
+108157 Death - Medium - Innate +7
+108158 Death - Medium - Innate +8
+108159 Death - Medium - Innate +9
+108160 Death - Medium - Innate +10
+108161 Death - Medium - Innate +11
+108162 Death - Medium - Innate +12
+108163 Death - Medium - Innate +13
+108164 Death - Medium - Innate +14
+108165 Death - Medium - Innate +15
+108166 Death - Medium - Innate +16
+108167 Death - Medium - Innate +17
+108168 Death - Medium - Innate +18
+108169 Death - Medium - Innate +19
+108170 Death - Medium - Innate +20
+108171 Death - Medium - Innate +21
+108172 Death - Medium - Innate +22
+108173 Death - Medium - Innate +23
+108174 Death - Medium - Innate +24
+108175 Death - Medium - Innate +25
+108200 Death - High - Addition +0
+108201 Death - High - Addition +1
+108202 Death - High - Addition +2
+108203 Death - High - Addition +3
+108204 Death - High - Addition +4
+108205 Death - High - Addition +5
+108206 Death - High - Addition +6
+108207 Death - High - Addition +7
+108208 Death - High - Addition +8
+108209 Death - High - Addition +9
+108210 Death - High - Addition +10
+108211 Death - High - Addition +11
+108212 Death - High - Addition +12
+108213 Death - High - Addition +13
+108214 Death - High - Addition +14
+108215 Death - High - Addition +15
+108216 Death - High - Addition +16
+108217 Death - High - Addition +17
+108218 Death - High - Addition +18
+108219 Death - High - Addition +19
+108220 Death - High - Addition +20
+108221 Death - High - Addition +21
+108222 Death - High - Addition +22
+108223 Death - High - Addition +23
+108224 Death - High - Addition +24
+108225 Death - High - Addition +25
+108250 Death - High - Innate +0
+108251 Death - High - Innate +1
+108252 Death - High - Innate +2
+108253 Death - High - Innate +3
+108254 Death - High - Innate +4
+108255 Death - High - Innate +5
+108256 Death - High - Innate +6
+108257 Death - High - Innate +7
+108258 Death - High - Innate +8
+108259 Death - High - Innate +9
+108260 Death - High - Innate +10
+108261 Death - High - Innate +11
+108262 Death - High - Innate +12
+108263 Death - High - Innate +13
+108264 Death - High - Innate +14
+108265 Death - High - Innate +15
+108266 Death - High - Innate +16
+108267 Death - High - Innate +17
+108268 Death - High - Innate +18
+108269 Death - High - Innate +19
+108270 Death - High - Innate +20
+108271 Death - High - Innate +21
+108272 Death - High - Innate +22
+108273 Death - High - Innate +23
+108274 Death - High - Innate +24
+108275 Death - High - Innate +25
 310000 Crimson Amber Medallion
 310010 Crimson Amber Medallion +1
 310020 Crimson Amber Medallion +2
@@ -182,3 +1174,41 @@
 361000 Entwining Umbilical Cord
 361100 Ancestral Spirit's Horn
 361101 Ancestral Spirit's Horn [Kill]
+5010600 Celebrant's Sickle - Rune Gain on Hit
+5010601 Celebrant's Sickle - Icon
+5011000 Cinquedea - Boost Incantation Power
+5031400 Blasphemous Blade - Restore HP on Kill
+5031401 Blasphemous Blade [Kill]
+5031600 Sword of Milos - Restore FP on Kill
+5031601 Sword of Milos [Kill]
+5071100 Serpent-God's Curved Sword - Restore HP on Kill
+5071101 Serpent-God's Curved Sword [Kill]
+5120100 Greathorn Hammer - Restore HP on Kill
+5120101 Greathorn Hammer [Kill]
+5121300 Celebrant's Skull - Rune Gain on Hit
+5121800 Great Stars - Restore HP on Hit
+5121801 Great Stars - Icon
+5140600 Celebrant's Cleaver - Rune Gain on Hit
+5141000 Highland Axe - Enhance Roar/Breath Attack
+5141100 Sacrificial Axe - Restore FP on Kill
+5141101 Sacrificial Axe [Kill]
+5151200 Butchering Knife - Restore HP on Hit
+5151201 Butchering Knife - Icon
+5160400 Cleanrot Spear - Raise Immunity
+5160600 Celebrant's Rib-Rake - Rune Gain on Hit
+5180100 Pest's Glaive - Boost Absorption
+5190100 Grave Scythe - Raise Vitality
+5300100 Perfumer's Shield - Raise Immunity
+5300400 Pillory Shield - Raise Vitality
+5301100 Rift Shield - Raise Focus
+5301400 Ice Crest Shield - Raise Robustness
+5301500 Smoldering Shield - Raise Robustness
+5301900 Spiralhorn Shield - Raise Immunity, Robustness and Focus
+5302000 Coil Shield - Raise Immunity
+5310900 Twinbird Kite Shield - Boost Absorption and Damage at Low HP
+5310901 Twinbird Kite Shield [Cycle]
+5311400 Great Turtle Shell - Boost Stamina Recovery
+5311700 Shield of the Guilty - Raise Focus
+5321400 Icon Shield - Grant HP Restoration
+5322200 Ant's Skull Plate - Raise Immunity
+5322400 Eclipse Crest Greatshield - Raise Immunity, Robustness and Focus
