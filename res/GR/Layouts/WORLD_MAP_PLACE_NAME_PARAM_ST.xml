@@ -11,7 +11,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Region - Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -20,23 +20,38 @@
     <type>s32</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+   <entry>
+    <name>Map Area</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Map Block</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Region</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Index</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Coodinate: X</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Coodinate: Y</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Coodinate: Z</name>
     <type>f32</type>
     <default>0</default>
   </entry>

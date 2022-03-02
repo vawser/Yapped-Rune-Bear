@@ -7,12 +7,7 @@
   </entry>
   <entry>
     <name>Unk1</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>s16</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -253,7 +248,12 @@
   </entry>
   <entry>
     <name>Unk45</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk45</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
