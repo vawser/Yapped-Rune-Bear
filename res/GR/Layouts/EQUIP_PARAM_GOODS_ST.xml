@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="ReferenceType" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="Bullet" />
+	<item value="2" name="SpEffect" />
+  </enum>
   <entry>
     <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect ID</name>
+    <name>Effect ID - Right Hand</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -31,14 +36,14 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Replace Item ID</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Behavior ID</name>
     <type>s32</type>
     <default>-1</default>
+  </entry>
+  <entry>
+    <name>Replace Item ID</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
@@ -46,17 +51,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>QWC ID</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Dialog Message ID</name>
+    <name>Magic ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Magic ID</name>
+    <name>Dialog Message ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -109,6 +114,7 @@
     <name>Reference Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ReferenceType</enum>
   </entry>
   <entry>
     <name>SpEffect Category</name>
@@ -381,7 +387,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Ref ID - Offhand</name>
+    <name>Effect ID - Left Hand</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -481,7 +487,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Invade Type</name>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -491,17 +497,17 @@
     <size>1</size>
   </entry>
   <entry>
-    <name>Shop Price</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>FP Cost</name>
+    <name>Unknown</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Use Limit Category 2</name>
+    <name>Unknown</name>
     <type>s16</type>
     <default>0</default>
   </entry>

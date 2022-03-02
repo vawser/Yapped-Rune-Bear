@@ -7,7 +7,12 @@
   </entry>
   <entry>
     <name>Unk1</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -16,8 +21,14 @@
     <default>0</default>
   </entry>
   <entry>
+    <name>Map Point Type (unverified)</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
     <name>Unk3</name>
-    <type>s32</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -41,8 +52,23 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Map Area</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Block</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Region</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Index</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -91,17 +117,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Flag (unverified)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Flag (unverified)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Flag (unverified)</name>
     <type>s32</type>
     <default>0</default>
   </entry>

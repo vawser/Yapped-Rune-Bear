@@ -3,7 +3,7 @@
   <enum name="StateInfo" type="s16">
     <item value="0" name="0 - None" />
     <item value="2" name="2 - Poison" />
-    <item value="3" name="3 - Effect99101" />
+    <item value="3" name="3 - Unknown" />
     <item value="4" name="4 - Durability Damage" />
     <item value="5" name="5 - Blight" />
     <item value="6" name="6 - Hemorrhage" />
@@ -12,12 +12,12 @@
     <item value="9" name="9 - Tranquil Walk of Peace" />
     <item value="10" name="10 - Remove Poison" />
     <item value="11" name="11 - Remove Blight" />
-    <item value="12" name="12 - Remove" />
-    <item value="13" name="13 - Remove Status" />
+    <item value="12" name="12 - Remove Hemorrhage" />
+    <item value="13" name="13 - Remove All Status" />
     <item value="14" name="14 - Humanity Stolen" />
-    <item value="15" name="15 - Binoculars" />
-    <item value="16" name="16 - Warp_Lothric3002953" />
-    <item value="17" name="17 - OnSpEffectRevive" />
+    <item value="15" name="15 - Telescope" />
+    <item value="16" name="16 - Warp to Grace" />
+    <item value="17" name="17 - Revival" />
     <item value="19" name="19 - Dispel Black Phantom" />
     <item value="22" name="22 - Unknown" />
     <item value="23" name="23 - OnReviveMagic" />
@@ -27,9 +27,9 @@
     <item value="31" name="31 - Ghost Parameter Change" />
     <item value="32" name="32 - Middle of Paralysis" />
     <item value="34" name="34 - Giant Slime Freezing" />
-    <item value="35" name="35 - Effect99310" />
-    <item value="36" name="36 - Effect99311" />
-    <item value="37" name="37 - Effect99312" />
+    <item value="35" name="35 - Unknown" />
+    <item value="36" name="36 - Unknown" />
+    <item value="37" name="37 - Unknown" />
     <item value="39" name="39 - Sound Feed" />
     <item value="40" name="40 - Greater Body Buff VFX" />
     <item value="41" name="41 - VFX - Flash Sweat" />
@@ -41,26 +41,26 @@
     <item value="47" name="47 - Disable Fall Damage" />
     <item value="48" name="48 - Increase Damage" />
     <item value="49" name="49 - Increase Defense" />
-    <item value="50" name="50 - HP Recovery" />
+    <item value="50" name="50 - HP/FP/Stamina Recovery" />
     <item value="52" name="52 - Pledge Effect Test" />
     <item value="54" name="54 - Modify Enemy Listen Reduction" />
     <item value="55" name="55 - HostDeath" />
     <item value="58" name="58 - Point Light Source Equipped" />
     <item value="59" name="59 - Your Message Was Rated" />
     <item value="60" name="60 - Magic Buff VFX" />
-    <item value="61" name="61 - Crystal Magic Buff VFX" />
-    <item value="62" name="62 - Charcoal Pine Resin VFX" />
-    <item value="64" name="64 - Darkmoon Blade VFX" />
-    <item value="65" name="65 - Effect12180" />
+    <item value="61" name="61 - Magic Weapon Buff VFX" />
+    <item value="62" name="62 - Fire Weapon Buff VFX" />
+    <item value="64" name="64 - Enchanted Weapon Buff VFX" />
+    <item value="65" name="65 - Unknown" />
     <item value="66" name="66 - Modify Item Discovery" />
     <item value="69" name="69 - Tears of Denial VFX" />
     <item value="70" name="70 - Is Dead Test Condition" />
     <item value="71" name="71 - Spell Power Boost" />
     <item value="75" name="75 - Green Blossom VFX" />
     <item value="76" name="76 - Modify Rune Gain" />
-    <item value="78" name="78 - Effect93313" />
-    <item value="79" name="79 - Effect93314" />
-    <item value="91" name="91 - Effect99201" />
+    <item value="78" name="78 - Unknown" />
+    <item value="79" name="79 - Unknown" />
+    <item value="91" name="91 - Unknown" />
     <item value="95" name="95 - Applies Chamelon effect" />
     <item value="96" name="96 - Applies Dragon Form effect" />
     <item value="98" name="98 - MP Detection" />
@@ -82,15 +82,15 @@
     <item value="115" name="115 - Backstep Animation Change" />
     <item value="116" name="116 - Death" />
     <item value="117" name="117 - Death - Instant Death animation" />
-    <item value="118" name="118 - Death - Extra" />
-    <item value="119" name="119 - Effect3231" />
+    <item value="118" name="118 - Disable Death" />
+    <item value="119" name="119 - Unknown" />
     <item value="120" name="120 - Damage Level Change before Poise Break" />
     <item value="121" name="121 - Damage Level Change" />
     <item value="122" name="122 - Unknown" />
-    <item value="123" name="123 - Apply Effect on Roll (Head)" />
-    <item value="124" name="124 - Apply Effect on Roll (Body)" />
-    <item value="125" name="125 - Apply Effect on Roll (Hands)" />
-    <item value="126" name="126 - Apply Effect on Roll (Legs)" />
+    <item value="123" name="123 - Trigger on Roll (Head)" />
+    <item value="124" name="124 - Trigger on Roll (Body)" />
+    <item value="125" name="125 - Trigger on Roll (Hands)" />
+    <item value="126" name="126 - Trigger on Roll (Legs)" />
     <item value="127" name="127 - Mimic Sleep" />
     <item value="128" name="128 - Mimic Sleep" />
     <item value="130" name="130 - Mimic Sleep" />
@@ -113,7 +113,7 @@
     <item value="148" name="148 - Unknown" />
     <item value="149" name="149 - White Relief Magic" />
     <item value="150" name="150 - Black Relief Magic" />
-    <item value="151" name="151 - Gold Pine Resin VFX" />
+    <item value="151" name="151 - Lightning Weapon Buff VFX" />
     <item value="152" name="152 - Enable Attack Effect against Enemy" />
     <item value="153" name="153 - Enable Attack Effect against Player" />
     <item value="154" name="154 - Block Estus usage" />
@@ -123,15 +123,15 @@
     <item value="158" name="158 - Left-hand Buff VFX" />
     <item value="159" name="159 - Destroy Accessory but Save Runes" />
     <item value="160" name="160 - Rare Ring of Sacrifice [DS1]" />
-    <item value="161" name="161 - Warp1_Removed" />
-    <item value="162" name="162 - Warp2_Removed" />
-    <item value="163" name="163 - Warp3_Removed" />
-    <item value="164" name="164 - Warp_Firelink" />
-    <item value="165" name="165 - Warp4_Removed" />
+    <item value="161" name="161 - Warp to Grace" />
+    <item value="162" name="162 - Warp to Grace" />
+    <item value="163" name="163 - Warp to Grace" />
+    <item value="164" name="164 - Warp to Grace" />
+    <item value="165" name="165 - Warp to Grace" />
     <item value="166" name="166 - Pledge Discarded" />
     <item value="167" name="167 - Dragon Change VFX" />
     <item value="168" name="168 - Bow Distance Change" />
-    <item value="169" name="169 - Ring of the Sun Princess [DS1]" />
+    <item value="169" name="169 - Unknown" />
     <item value="170" name="170 - Karmic Justice Counter" />
     <item value="171" name="171 - Karmic Justice - Used for Behavior Change" />
     <item value="173" name="173 - Ritual" />
@@ -145,12 +145,12 @@
     <item value="182" name="182 - DeathEffectLv4" />
     <item value="183" name="183 - BlueSignVisualization" />
     <item value="184" name="184 - Hide Weapon" />
-    <item value="185" name="185 - Gravelord Invasion" />
-    <item value="186" name="186 - Orange Charred Ring [DS1]" />
-    <item value="188" name="188 - Blade of the Darkmoon" />
-    <item value="189" name="189 - Spear of the Church" />
-    <item value="190" name="190 - Watchdog of Farron" />
-    <item value="191" name="191 - Watchdog of Farron" />
+    <item value="185" name="185 - Unknown" />
+    <item value="186" name="186 - Unknown" />
+    <item value="188" name="188 - Unknown" />
+    <item value="189" name="189 - Unknown" />
+    <item value="190" name="190 - Unknown" />
+    <item value="191" name="191 - Unknown" />
     <item value="192" name="192 - Unknown" />
     <item value="193" name="193 - Modify Effect Duration" />
     <item value="194" name="194 - CompareWith203" />
@@ -164,28 +164,30 @@
     <item value="202" name="202 - Dragon Roar" />
     <item value="203" name="203 - CompareWith194" />
     <item value="204" name="204 - Great Magic Shield" />
-    <item value="206" name="206 - Effect12013" />
-    <item value="207" name="207 - Effect11897 (Jailer HP Drain)" />
-    <item value="213" name="213 - Hornet Ring - Checks for backstab on enemies" />
-    <item value="221" name="221 - Effect4085" />
+    <item value="205" name="205 - Holy Weapon Buff VFX" />
+    <item value="206" name="206 - Unknown" />
+    <item value="207" name="207 - Jailer HP Drain" />
+    <item value="213" name="213 - Trigger on Enemy Backstab" />
+    <item value="221" name="221 - Unknown" />
     <item value="222" name="222 - ItemBan" />
-    <item value="223" name="223 - Effect9132" />
-    <item value="224" name="224 - Effect4700" />
+    <item value="223" name="223 - Unknown" />
+    <item value="224" name="224 - Unknown" />
     <item value="232" name="232 - DisableUseAtColiseum" />
     <item value="237" name="237 - Calamity Ring" />
     <item value="252" name="252 - Oil" />
     <item value="253" name="253 - Fire" />
-    <item value="259" name="259 - Effect90" />
+    <item value="259" name="259 - Unknown" />
     <item value="260" name="260 - Frostbite" />
     <item value="261" name="261 - Remove Effect If Torch In Hand" />
     <item value="262" name="262 - WormRecovery(Torch)" />
     <item value="264" name="264 - SetCultBool" />
     <item value="266" name="266 - FallDeathIsDisabled" />
     <item value="267" name="267 - AiVisualDistanceChange" />
-    <item value="269" name="269 - Effect1906" />
+    <item value="269" name="269 - Unknown" />
+    <item value="270" name="270 - Unknown" />
     <item value="275" name="275 - Player Behavior ID Change" />
-    <item value="276" name="276 - Unknown" />
-    <item value="277" name="277 - Effect3296" />
+    <item value="276" name="276 - Disable Frostbite" />
+    <item value="277" name="277 - Trigger Great Rune" />
     <item value="278" name="278 - DisableSpellEffect" />
     <item value="280" name="280 - WatchdogTriggerForHost" />
     <item value="281" name="281 - WetSystemTrigger" />
@@ -195,30 +197,30 @@
     <item value="285" name="285 - Unknown" />
     <item value="286" name="286 - Weak Movement Slow" />
     <item value="287" name="287 - Strong Movement Slow" />
-    <item value="288" name="288 - Apply on Critical Hit (HP)" />
-    <item value="289" name="289 - Apply on Critical Hit (FP)" />
+    <item value="288" name="288 - Trigger on Critical Hit (HP)" />
+    <item value="289" name="289 - Trigger on Critical Hit (FP)" />
     <item value="290" name="290 - Extend Roll Invincibility" />
     <item value="291" name="291 - Grants roll invisibility" />
     <item value="292" name="292 - Repair1" />
     <item value="293" name="293 - Change Durability" />
-    <item value="294" name="294 - Aldrich Faithful" />
-    <item value="295" name="295 - Aldrich Faithful for Host" />
-    <item value="296" name="296 - Chr Finder - Darkmoon Invasion" />
+    <item value="294" name="294 - Unknown" />
+    <item value="295" name="295 - Unknown" />
+    <item value="296" name="296 - Chr Finder - Unknown" />
     <item value="297" name="297 - Not in Multiplayer Session" />
-    <item value="298" name="298 - Trigger on Backstab" />
+    <item value="298" name="298 - Trigger on Player Backstab" />
     <item value="299" name="299 - Enemies attack Invaders" />
     <item value="300" name="300 - Enemies attack Invaders" />
     <item value="301" name="301 - 1410370B1" />
-    <item value="302" name="302 - Homeward Warp" />
-    <item value="303" name="303 - Conditional Effect 1" />
-    <item value="304" name="304 - Conditional Effect 2" />
-    <item value="305" name="305 - Conditional Effect 3 (Consecutive Attacks)" />
-    <item value="306" name="306 - Conditional Effect 4" />
-    <item value="307" name="307 - Conditional Effect 5" />
-    <item value="308" name="308 - Conditional Effect 6" />
-    <item value="309" name="309 - Conditional Effect 7" />
-    <item value="310" name="310 - Conditional Effect 8 (Jailer HP Drain)" />
-    <item value="311" name="311 - Conditional Effect 9 (Estus Charge on Kill)" />
+    <item value="302" name="302 - Warp to Grace" />
+    <item value="303" name="303 - Conditional 1" />
+    <item value="304" name="304 - Conditional 2" />
+    <item value="305" name="305 - Conditional 3" />
+    <item value="306" name="306 - Conditional 4" />
+    <item value="307" name="307 - Conditional 5" />
+    <item value="308" name="308 - Conditional 6" />
+    <item value="309" name="309 - Conditional 7" />
+    <item value="310" name="310 - Conditional 8" />
+    <item value="311" name="311 - Conditional 9" />
     <item value="312" name="312 - Unknown" />
     <item value="313" name="313 - Seek Guidance" />
     <item value="314" name="314 - Add Guard Stability" />
@@ -226,8 +228,8 @@
     <item value="316" name="316 - CalcCorrectGraph_33" />
     <item value="317" name="317 - Revoke Online Penalty" />
     <item value="318" name="318 - Dead Again" />
-    <item value="319" name="319 - Effect4901" />
-    <item value="320" name="320 - Effect4902" />
+    <item value="319" name="319 - Unknown" />
+    <item value="320" name="320 - Unknown" />
     <item value="321" name="321 - Reverse Hollowing" />
     <item value="322" name="322 - ChrAsmStyle_HKS_LEFTHAND" />
     <item value="323" name="323 - ChrAsmStyle_HKS_RIGHTHAND" />
@@ -242,16 +244,43 @@
     <item value="332" name="332 - AiParam_effect16189" />
     <item value="333" name="333 - Spell Enhance (+6 to ID)" />
     <item value="334" name="334 - Bullet Behavior ID Change" />
-    <item value="335" name="335 - Apply during Critical Hit" />
-    <item value="336" name="336 - Effect16413" />
+    <item value="335" name="335 - Trigger during Critical Hit" />
+    <item value="336" name="336 - Summon Torrent" />
+    <item value="339" name="339 - Unknown" />
+    <item value="357" name="357 - Spirit Summon" />
     <item value="367" name="367 - Enhance Critical Attacks" />
-    <item value="379" name="379 - Apply in Presence of Blood Loss" />
-    <item value="380" name="380 - Apply in Presence of Rot" />
+    <item value="371" name="371 - Unknown" />
+    <item value="379" name="379 - Trigger in Presence of Blood Loss" />
+    <item value="380" name="380 - Trigger in Presence of Rot" />
     <item value="390" name="390 - Pacify Wild Animals" />
+    <item value="391" name="391 - Unknown" />
+    <item value="392" name="392 - Unknown" />
+    <item value="393" name="393 - Unknown" />
+    <item value="395" name="395 - Unknown" />
+    <item value="396" name="396 - Unknown" />
+    <item value="397" name="397 - Unknown" />
+    <item value="398" name="398 - Unknown" />
+    <item value="399" name="399 - Unknown" />
+    <item value="404" name="404 - Unknown" />
+    <item value="405" name="405 - Reveal Phantom Signs" />
+    <item value="406" name="406 - Request Friendly Phantom" />
+    <item value="407" name="407 - Answer Phantom Request" />
+    <item value="408" name="408 - Encourage Invasion" />
+    <item value="409" name="409 - Send Summon Sign to Pool" />
+    <item value="410" name="410 - Send Invasion Sign to Pool" />
+    <item value="417" name="417 - Unknown" />
+    <item value="418" name="418 - Unknown" />
+    <item value="435" name="435 - Unknown" />
     <item value="436" name="436 - Sleep" />
     <item value="437" name="437 - Madness" />
+    <item value="438" name="438 - Disable Sleep" />
+    <item value="439" name="439 - Disable Madness" />
+    <item value="447" name="447 - Phantom Great Rune Effect" />
+    <item value="448" name="448 - Heal Invader when Blessed Enemy Kills Player" />
     <item value="450" name="450 - Reduce Headshot Impact" />
-    <item value="466" name="466 - Apply during Crouch" />
+    <item value="458" name="458 - Attempt Invasion" />
+    <item value="466" name="466 - Trigger on Crouch" />
+    <item value="468" name="468 - Unknown" />
     
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
@@ -311,15 +340,27 @@
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Forbidden" />
 	<item value="2" name="2 - Parry" />
-    <item value="4" name="3 - Fall" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - Fall" />
     <item value="5" name="5 - Hornet Ring" />
     <item value="6" name="6 - Lifedrain" />
+    <item value="7" name="7 - Unknown" />
+    <item value="8" name="8 - Unknown" />
+    <item value="9" name="9 - Unknown" />
+    <item value="10" name="10 - Unknown" />
+    <item value="11" name="11 - Unknown" />
+    <item value="12" name="12 - Unknown" />
+    <item value="13" name="13 - Unknown" />
+    <item value="14" name="14 - Unknown" />
+    <item value="15" name="15 - Unknown" />
   </enum>
   <enum name="MoveType" type="u8">
-    <item value="0" name="0" />
-	<item value="3" name="3" />
-	<item value="4" name="4" />
-    <item value="5" name="5" />
+    <item value="0" name="0 - Unknown" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
+	<item value="3" name="3 - Unknown" />
+	<item value="4" name="4 - Unknown" />
+    <item value="5" name="5 - Unknown" />
   </enum>
   <enum name="WeaponParamChange" type="u8">
     <item value="0" name="0 - None" />
@@ -361,9 +402,13 @@
     <item value="167" name="167 - Remove Previous" />
     <item value="168" name="168 - Remove Previous" />
     <item value="174" name="174 - Remove Previous" />
+    <item value="200" name="200 - Remove Previous" />
+    <item value="201" name="201 - Remove Previous" />
     <item value="1000" name="1000 - Apply Highest (Category Priority)" />
 	<item value="1001" name="1001 - Apply Highest (Category Priority)" />
 	<item value="1002" name="1002 - Apply Highest (Category Priority)" />
+	<item value="1003" name="1003 - Apply Highest (Category Priority)" />
+	<item value="1004" name="1004 - Apply Highest (Category Priority)" />
     <item value="10000" name="10000 - Apply First" />
 	<item value="10001" name="10001 - Apply First (Damage Level Change)" />
     <item value="10002" name="10002 - Apply First (Dragonform)" />
@@ -427,8 +472,13 @@
     <item value="255" name="255 - Standard" />
   </enum>
   <enum name="EffectAttribute" type="u8">
+    <item value="10" name="10 - Magic" />
+    <item value="11" name="11 - Fire" />
+    <item value="12" name="12 - Lightning" />
+    <item value="13" name="13 - Holy" />
     <item value="20" name="20 - Poison" />
     <item value="21" name="21 - Blight" />
+    <item value="22" name="22 - Hemorrhage" />
     <item value="23" name="23 - Frostbite" />
     <item value="24" name="24 - Sleep" />
     <item value="25" name="25 - Madness" />
@@ -816,9 +866,10 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Multiplier applied to any increase in character's current HP.</description>
   </entry>
   <entry>
-    <name>Expiration Effect ID</name>
+    <name>Chain Effect ID</name>
     <type>s32</type>
     <default>-1</default>
+    <description>Applies the SpEffect after this one has expired.</description>
   </entry>
   <entry>
     <name>Cycle Effect ID</name>
@@ -1132,12 +1183,12 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Request: White Phantom Summon</name>
+    <name>Request: Friendly Phantom Summon</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Request: Red Phantom Summon</name>
+    <name>Request: Hostile Phantom Summon</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1213,22 +1264,22 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Poison</name>
+    <name>Unknown</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Blight</name>
+    <name>Unknownt</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Hemorrhage</name>
+    <name>Unknown</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Death</name>
+    <name>Unknown</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1263,7 +1314,7 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Frostbite</name>
+    <name>Unknown</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1523,43 +1574,28 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Unknown</name>
     <type>s8</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
     <type>s8</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
     <type>s8</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
     <type>s8</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>u8</type>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1764,74 +1800,63 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Weapon Arts Points - STR</name>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Weapon Arts Points - DEX</name>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Weapon Arts Points - INT</name>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Weapon Arts Points - FTH</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Wet Aspect Param Jumptable</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>Requires State Info 281</description>
-  </entry>
-  <entry>
-    <name>Disable Frostbite</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Scale with Aux Inflict Correction</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Scale with Flat Damage Correction</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Scale with Hollowing</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Cancel on Death</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Trigger on HP Condition</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Disable Compare for SP Attribute</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Disable Multiplayer Usage</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s16</type>
+    <name>Unknown</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1945,67 +1970,20 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Trigger Effect ID 1</name>
+    <name>Trigger Effect ID</name>
     <type>s16</type>
     <default>1</default>
     <enum>StateInfo</enum>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s16</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Trigger Effect ID 2</name>
-    <type>s16</type>
-    <default>0</default>
-    <enum>StateInfo</enum>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Trigger Effect ID 3</name>
-    <type>s16</type>
-    <default>0</default>
-    <enum>StateInfo</enum>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
+    <type>s8</type>
     <default>1</default>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>f32</type>
+    <type>s8</type>
     <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
@@ -2024,12 +2002,52 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Unknown</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
-    <type>s8</type>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2048,38 +2066,28 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unknown FP Cost %</name>
+    <name>Float</name>
     <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Crimson Tear - HP Restore</name>
+    <type>s32</type>
     <default>1</default>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>f32</type>
+    <type>s32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Add Behavior Judge ID</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Add Behavior Judge ID - Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk0</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>f32</type>
+    <name>Cerulean Tear - FP Restore</name>
+    <type>s32</type>
     <default>1</default>
   </entry>
   <entry>
@@ -2103,23 +2111,23 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s16</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s16</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s16</type>
+    <name>Unknown</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -2173,6 +2181,17 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
+    <name>Weapon Effect 3 (unverified)</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>WeaponEffect</enum>
+  </entry>
+  <entry>
+    <name>Unknown</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Unknown</name>
     <type>s8</type>
     <default>0</default>
@@ -2183,154 +2202,134 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Float</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s16</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Inflict Sleep +</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s16</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Inflict Madness +</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s16</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist: Madness +</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s16</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist: Sleep +</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Unknown</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>pad</name>
-    <type>dummy8</type>
-    <size>2</size>
   </entry>
 
 </layout>
