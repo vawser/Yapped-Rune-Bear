@@ -6,17 +6,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Associated Good ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>NPC ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>NPC Think ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -51,64 +51,64 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Reinforcement Effect: +0</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Reinforcement Effect: +1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Reinforcement Effect: +2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Reinforcement Effect: +3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Reinforcement Effect: +4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Reinforcement Effect: +5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Reinforcement Effect: +6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Reinforcement Effect: +7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Reinforcement Effect: +8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Reinforcement Effect: +9</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Reinforcement Effect: +10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Character Init ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk22</name>

@@ -1965,7 +1965,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Resist %: Frostbite</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -2227,12 +2227,12 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Float</name>
+    <name>Resist %: Sleep</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Float</name>
+    <name>Resist %: Madness</name>
     <type>f32</type>
     <default>0</default>
   </entry>

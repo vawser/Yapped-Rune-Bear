@@ -108,22 +108,7 @@
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unknown</name>
-    <type>s8</type>
+    <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -153,7 +138,7 @@
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s32</type>
+    <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -207,22 +192,22 @@
     <default>7550</default>
   </entry>
   <entry>
-    <name>Guard Defence: Physical</name>
+    <name>Guard Absorption %: Physical</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Magic</name>
+    <name>Guard Absorption %: Magic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Fire</name>
+    <name>Guard Absorption %: Fire</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Lightning</name>
+    <name>Guard Absorption %: Lightning</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -437,7 +422,7 @@
     <default>112</default>
   </entry>
   <entry>
-    <name>Resist: Curse</name>
+    <name>Resist: Death</name>
     <type>s16</type>
     <default>999</default>
   </entry>
@@ -457,17 +442,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Slash</name>
+    <name>Guard Absorption %: Slash</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Strike</name>
+    <name>Guard Absorption %: Strike</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Defence: Thrust</name>
+    <name>Guard Absorption %: Thrust</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -1013,7 +998,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>defDark</name>
+    <name>Defence: Holy</name>
     <type>s16</type>
     <default>100</default>
   </entry>
@@ -1023,8 +1008,8 @@
     <default>999</default>
   </entry>
   <entry>
-    <name>Foot Step ID</name>
-    <type>s32</type>
+    <name>Footstep ID</name>
+    <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
@@ -1058,8 +1043,13 @@
     <default>139</default>
   </entry>
   <entry>
-    <name>Effect 8</name>
-    <type>s32</type>
+    <name>Material - </name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material - </name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1148,7 +1138,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Absorption: Dark</name>
+    <name>Absorption: Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1178,7 +1168,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Guard Defence: Stamina Value</name>
+    <name>Guard Absorption %: Stamina Value</name>
     <type>s16</type>
     <default>256</default>
   </entry>
@@ -1384,12 +1374,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>4</size>
+    <name>Float</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Character Model ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -1454,8 +1444,8 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Float</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
