@@ -24,8 +24,8 @@
   </entry>
   <entry>
     <name>Wandering Equip ID</name>
-    <type>s32</type>
-    <default>933200</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Weight</name>
@@ -56,189 +56,224 @@
     <name>Scaling: STR</name>
     <type>f32</type>
     <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
     <name>Scaling: DEX</name>
     <type>f32</type>
     <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
     <name>Scaling: INT</name>
     <type>f32</type>
     <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
     <name>Scaling: FTH</name>
     <type>f32</type>
     <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
-    <name>Absorption: Physical</name>
+    <name>Guard Absorption: Physical</name>
     <type>f32</type>
     <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
   </entry>
   <entry>
-    <name>Absorption: Magic</name>
+    <name>Guard Absorption: Magic</name>
     <type>f32</type>
     <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
   </entry>
   <entry>
-    <name>Absorption: Fire</name>
+    <name>Guard Absorption: Fire</name>
     <type>f32</type>
     <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
   </entry>
   <entry>
-    <name>Absorption: Lightning</name>
+    <name>Guard Absorption: Lightning</name>
     <type>f32</type>
     <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior 1</name>
+    <name>Behavior Effect 1</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior 2</name>
+    <name>Behavior Effect 2</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior 3</name>
+    <name>Behavior Effect 3</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Effect 1</name>
+    <name>Passive Effect 1</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
   </entry>
   <entry>
-    <name>Effect 2</name>
+    <name>Passive Effect 2</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
   </entry>
   <entry>
-    <name>Effect 3</name>
+    <name>Passive Effect 3</name>
     <type>s32</type>
     <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
   </entry>
   <entry>
-    <name>Material Set ID</name>
+    <name>Reinforcement Material Set ID</name>
     <type>s32</type>
     <default>0</default>
+    <description>The reinforcement material set to use. Determines which materials are required for each level of reinforcement.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 0</name>
+    <name>Baseline +0</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 1</name>
+    <name>Baseline +1</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 2</name>
+    <name>Baseline +2</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 3</name>
+    <name>Baseline +3</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 4</name>
+    <name>Baseline +4</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 5</name>
+    <name>Baseline +5</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 6</name>
+    <name>Baseline +6</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 7</name>
+    <name>Baseline +7</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 8</name>
+    <name>Baseline +8</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 9</name>
+    <name>Baseline +9</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 10</name>
+    <name>Baseline +10</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 11</name>
+    <name>Baseline +11</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 12</name>
+    <name>Baseline +12</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 13</name>
+    <name>Baseline +13</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 14</name>
+    <name>Baseline +14</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 15</name>
+    <name>Baseline +15</name>
     <type>s32</type>
     <default>-1</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Anti-Demon %</name>
+    <name>Bonus Damage %: Demon</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Demon.</description>
   </entry>
   <entry>
-    <name>Anti-Undead %</name>
+    <name>Bonus Damage %: Undead</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Undead.</description>
   </entry>
   <entry>
-    <name>Anti-Hollow %</name>
+    <name>Bonus Damage %: Hollow</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Hollow.</description>
   </entry>
   <entry>
-    <name>Anti-Abyss %</name>
+    <name>Bonus Damage %: Abyssal</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Abyssal.</description>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>UnkA</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>UnkB</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>UnkC</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -340,7 +375,7 @@
   <entry>
     <name>Bow Distance</name>
     <type>s16</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Equip Model Category</name>
@@ -495,7 +530,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Reduction +: Curse</name>
+    <name>Guard Reduction +: Death</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -940,7 +975,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Absorption: Holy</name>
+    <name>Guard Absorption: Holy</name>
     <type>f32</type>
     <default>15</default>
   </entry>
@@ -970,22 +1005,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Guard Reduction +: Sleep</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Madness</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Throw Escape B</name>
     <type>u8</type>
     <default>7</default>
   </entry>
   <entry>
-    <name>Damage Penalty</name>
+    <name>Requirement: ARC</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -995,7 +1030,7 @@
     <default>10</default>
   </entry>
   <entry>
-    <name>Menu Adhoc</name>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1005,7 +1040,7 @@
     <default>1703</default>
   </entry>
   <entry>
-    <name>Scaling: LCK</name>
+    <name>Scaling: ARC</name>
     <type>f32</type>
     <default>20</default>
   </entry>
@@ -1270,29 +1305,34 @@
     <size>38</size>
   </entry>
     <entry>
-    <name>Origin Weapon 16</name>
+    <name>Baseline +16</name>
     <type>s32</type>
     <default>0</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 17</name>
+    <name>Baseline +17</name>
     <type>s32</type>
     <default>0</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 18</name>
+    <name>Baseline +18</name>
     <type>s32</type>
     <default>0</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 19</name>
+    <name>Baseline +19</name>
     <type>s32</type>
     <default>0</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
-    <name>Origin Weapon 20</name>
+    <name>Baseline +20</name>
     <type>s32</type>
     <default>0</default>
+    <description>The weapon to revert to when uninfusing this weapon at the specified reinforcement level. Also determines maximum reinforcement level.</description>
   </entry>
   <entry>
     <name>Unk5</name>

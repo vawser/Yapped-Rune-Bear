@@ -17,8 +17,8 @@
   </entry>
   <entry>
     <name>VFX Variation Id</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Weight</name>
@@ -27,13 +27,13 @@
   </entry>
   <entry>
     <name>Behavior ID</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Base Price</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Sell Value</name>
@@ -47,13 +47,13 @@
   </entry>
   <entry>
     <name>QWC ID</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Equip Model ID</name>
-    <type>s16</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- s16 - Dummied due to lack of usage in base game -->
+    <size>2</size>
   </entry>
   <entry>
     <name>Icon ID</name>
@@ -62,46 +62,33 @@
   </entry>
   <entry>
     <name>Shop Level</name>
-    <type>s16</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s16 - Dummied due to lack of usage in base game -->
+    <size>2</size>
   </entry>
   <entry>
     <name>Trophy S-Grade ID</name>
-    <type>s16</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s16 - Dummied due to lack of usage in base game -->
+    <size>2</size>
   </entry>
   <entry>
     <name>Trophy Seq ID</name>
-    <type>s16</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s16 - Dummied due to lack of usage in base game -->
+    <size>2</size>
   </entry>
   <entry>
     <name>Equip Model Category</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>0 - Accessory
-1 - Arm
-2 - Body
-3 - Face
-4 - Hair
-5 - Head
-6 - Leg
-7 - Weapon</description>
+    <type>dummy8</type> <!-- u8 - Dummied due to lack of usage in base game -->
+    <size>1</size>
   </entry>
   <entry>
     <name>Equip Model Gender</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>0 - All
-1 - Male/Female
-2 - Male/Female
-3 - Male/Female
-4 - Male</description>
+    <type>dummy8</type> <!-- u8 - Dummied due to lack of usage in base game -->
+    <size>1</size>
   </entry>
   <entry>
     <name>Accessory Type</name>
-    <type>u8</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- u8 - Dummied due to lack of usage in base game -->
+    <size>1</size>
   </entry>
   <entry>
     <name>Reference Type</name>
@@ -111,8 +98,8 @@
   </entry>
   <entry>
     <name>SpEffect Category</name>
-    <type>u8</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- u8 - Dummied due to lack of usage in base game -->
+    <size>1</size>
   </entry>
   <entry>
     <name>pad1</name>
@@ -121,18 +108,18 @@
   </entry>
   <entry>
     <name>Vagrant Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Vagrant Bonus Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Vagrant Enemy Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Is Deposit</name>
@@ -181,8 +168,8 @@
   </entry>
   <entry>
     <name>Shop Price</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Ring Compatibility ID</name>
@@ -191,8 +178,8 @@
   </entry>
   <entry>
     <name>Vow ID</name>
-    <type>u8</type>
-    <default>0</default>
+    <type>dummy8</type> <!-- u8 - Dummied due to lack of usage in base game -->
+    <size>1</size>
   </entry>
   <entry>
     <name>Achievement ID</name>

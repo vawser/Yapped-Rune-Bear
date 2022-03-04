@@ -12,23 +12,23 @@
   </entry>
   <entry>
     <name>Wandering Equip ID</name>
-    <type>s32</type>
-    <default>171000</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Vagrant Itemlot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Vagrant Bonus Drop Itemlot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Vagrant Enemy Drop Itemlot ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
+    <size>4</size>
   </entry>
   <entry>
     <name>Repair Price</name>
@@ -302,7 +302,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist - Curse</name>
+    <name>Resist - Death</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -778,18 +778,18 @@
     <type>f32</type>
     <default>1</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>4</size>
-  </entry>
-  <entry>
-    <name>Absorption - Dark</name>
+   <entry>
+    <name>Unknown</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Defence - Dark</name>
+    <name>Absorption - Holy</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Defence - Holy</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -805,7 +805,22 @@
   </entry>
   <entry>
     <name>Unk8</name>
-    <type>s32</type>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
