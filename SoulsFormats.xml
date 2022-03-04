@@ -15974,14 +15974,19 @@
             Repacks and encrypts DS3's regulation BND4 to the specified path.
             </summary>
         </member>
-        <member name="M:SoulsFormats.SFUtil.DecryptGRRegulation(System.String)">
+        <member name="M:SoulsFormats.SFUtil.DecryptERRegulation(System.String)">
             <summary>
-            Decrypts and unpacks Elden Ring's regulation BND4 from the specified path.
+            Decrypts and unpacks DS3's regulation BND4 from the specified path.
             </summary>
         </member>
-        <member name="M:SoulsFormats.SFUtil.EncryptGRRegulation(System.String,SoulsFormats.BND4)">
+        <member name="M:SoulsFormats.SFUtil.DecryptERRegulationRaw(System.String)">
             <summary>
-            Repacks and encrypts Elden Ring's regulation BND4 to the specified path.
+            Decrypts and unpacks DS3's regulation BND4 from the specified path.
+            </summary>
+        </member>
+        <member name="M:SoulsFormats.SFUtil.EncryptERRegulation(System.String,SoulsFormats.BND4)">
+            <summary>
+            Repacks and encrypts DS3's regulation BND4 to the specified path.
             </summary>
         </member>
         <member name="T:SoulsFormats.SupportsAlphaAttribute">
