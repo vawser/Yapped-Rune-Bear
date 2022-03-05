@@ -526,11 +526,12 @@
     <type>b8</type>
     <default>False</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>1</size>
+    <entry>
+    <name>Unk1</name>
+    <type>s8</type>
+    <default>0</default>
   </entry>
+
   <entry>
     <name>Regainable Slot ID</name>
     <type>u8</type>
@@ -1066,48 +1067,103 @@
     <type>s32</type>
     <default>-1</default>
   </entry>
-  <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>12</size>
-  </entry>
     <entry>
-    <name>Unk0</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Unk2</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk3</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk4</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk5</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk6</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk7</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+    <entry>
+    <name>Unk13</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
     <type>s32</type>
     <default>0</default>
   </entry>

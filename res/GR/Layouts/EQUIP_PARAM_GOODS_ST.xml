@@ -46,7 +46,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Sort ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -56,12 +56,12 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic ID</name>
+    <name>Dialog Message ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Dialog Message ID</name>
+    <name>UnknownX</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -492,9 +492,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>1</size>
+    <name>Unknown</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
@@ -503,31 +503,31 @@
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s16</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unknown</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>8</size>
-  </entry>
-    <entry>
-    <name>Unk0</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Reinforcement Replacement ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Material Set ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Cost</name>
     <type>s32</type>
     <default>0</default>
   </entry>

@@ -621,7 +621,7 @@
     <description></description>
   </entry>
   <entry>
-    <name>0xC3</name>
+    <name>Unk1</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
@@ -639,50 +639,114 @@
     <description></description>
   </entry>
   <entry>
-    <name>Sub - Life</name>
+    <name>Unk2</name>
     <type>s32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Sub - Homing Angle</name>
-    <type>s16</type>
+    <name>Unk3</name>
+    <type>f32</type>
     <default>-1</default>
     <description></description>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>2</size>
+    <name>Unk4</name>
+    <type>s8</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Lock Shoot Correction Angle</name>
+    <name>Unk5</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
     <type>s32</type>
     <default>0</default>
-    <description></description>
   </entry>
   <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>40</size>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
-    <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12a</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12b</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unk14</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Unk16a</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16b</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Unk18</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
     <type>s32</type>
     <default>0</default>
   </entry>
