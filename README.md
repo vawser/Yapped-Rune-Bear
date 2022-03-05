@@ -17,3 +17,4 @@ To edit params and have them used by the game, you need to first unpack and patc
 
 Once unpacked, open the regulation.bin file found in the ELDEN RING\Game with Yapped.
 
+Note that the layouts are incomplete, so using altered params in-game may result in bugged behavior.
