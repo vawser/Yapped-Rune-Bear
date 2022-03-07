@@ -7,17 +7,20 @@
     <item value="3" name="3 - Thrust" />
     <item value="4" name="4 - Standard" />
   </enum>
-  <enum name="EffectAttribute" type="s8">
-    <item value="-1" name="None" />
+  <enum name="EffectAttribute" type="u8">
     <item value="0" name="0 - None" />
-	<item value="1" name="1 - Physical" />
-	<item value="2" name="2 - Fire" />
-    <item value="3" name="3 - Magic" />
-    <item value="4" name="4 - Poison/Bleed" />
-    <item value="6" name="6 - Lightning" />
-    <item value="7" name="7 - Petrify" />
-    <item value="8" name="8 - Crystallize" />
-    <item value="9" name="9 - Dark" />
+    <item value="10" name="10 - Magic" />
+    <item value="11" name="11 - Fire" />
+    <item value="12" name="12 - Lightning" />
+    <item value="13" name="13 - Holy" />
+    <item value="20" name="20 - Poison" />
+    <item value="21" name="21 - Blight" />
+    <item value="22" name="22 - Hemorrhage" />
+    <item value="23" name="23 - Frostbite" />
+    <item value="24" name="24 - Sleep" />
+    <item value="25" name="25 - Madness" />
+    <item value="26" name="26 - Death" />
+    <item value="254" name="254 - None" />
   </enum>
   <enum name="DamageLevel" type="u8">
     <item value="0" name="0 - None" />
@@ -973,12 +976,12 @@
     <default>139</default>
   </entry>
   <entry>
-    <name>Attack Correction: Dark</name>
+    <name>Attack Correction: Holy</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Damage: Dark</name>
+    <name>Damage: Holy</name>
     <type>s16</type>
     <default>0</default>
   </entry>

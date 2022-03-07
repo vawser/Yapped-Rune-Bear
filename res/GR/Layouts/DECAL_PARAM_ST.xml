@@ -1,332 +1,333 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>TextureId0</name>
+    <name>Texture ID 0</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>dmyPolyID</name>
+    <name>Dummy Poly ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>pitchAngle</name>
+    <name>Angle: Pitch</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>yawAngle</name>
+    <name>Angle: Yaw</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>nearDistance</name>
+    <name>Distance: Near</name>
     <type>f32</type>
     <default>-0.5</default>
   </entry>
   <entry>
-    <name>farDistance</name>
+    <name>Distance: Far</name>
     <type>f32</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>nearSize</name>
+    <name>Size: Near</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>farSize</name>
+    <name>Size: Far</name>
     <type>f32</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>maskSpEffectID</name>
+    <name>Mask Effect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>randomVariationNum0</name>
+    <name>Random Variation Number 0</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>randomVariationNum1</name>
+    <name>Random Variation Number 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>randomVariationNum2</name>
+    <name>Random Variation Number 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>randomVariationNum3</name>
+    <name>Random Variation Number 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>replaceTextureId_byMaterial</name>
+    <name>Replace Text ID - By Material</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>dmypolyCategory0</name>
+    <name>Dummy Poly Category 0</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>dmypolyCategory1</name>
+    <name>Dummy Poly Category 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>decalShapeType0</name>
+    <name>Decal Shape Type 0</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>decalShapeType1</name>
+    <name>Decal Shape Type 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>decalShapeType2</name>
+    <name>Decal Shape Type 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>decalShapeType3</name>
+    <name>Decal Shape Type 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>useDeferredDecal</name>
+    <name>Use Deferred Decal</name>
     <type>b32</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>usePaintDecal</name>
+    <name>Use Paint Decal</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>targetAttackChr</name>
+    <name>Target Attacker Chr</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>targetDamageChr</name>
+    <name>Target Damaged Chr</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>targetOtherChr</name>
+    <name>Target Other Chr</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>targetMapObj</name>
+    <name>Target Map Object</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>usePom</name>
+    <name>Use POM</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk5</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x26</name>
+    <name>Unk6</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk7</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk8</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk9</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk10</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk11</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk12</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk13</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x27</name>
+    <name>Unk14</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>randomSizeMin</name>
+    <name>Random Size: Minimum</name>
     <type>s16</type>
     <default>80</default>
   </entry>
   <entry>
-    <name>randomSizeMax</name>
+    <name>Random Size: Maximum</name>
     <type>s16</type>
     <default>160</default>
   </entry>
   <entry>
-    <name>randomRollMin</name>
+    <name>Random Roll: Minimum</name>
     <type>f32</type>
     <default>-20</default>
   </entry>
   <entry>
-    <name>randomRollMax</name>
+    <name>Random Roll: Maximum</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>randomPitchMin</name>
+    <name>Random Pitch: Minimum</name>
     <type>f32</type>
     <default>-10</default>
   </entry>
   <entry>
-    <name>randomPitchMax</name>
+    <name>Random Pitch: Maximum</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>randomYawMin</name>
+    <name>Random Yaw: Minimum</name>
     <type>f32</type>
     <default>-10</default>
   </entry>
   <entry>
-    <name>randomYawMax</name>
+    <name>Random Yaw: Maximum</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>pomHeightScale</name>
+    <name>POM Height Scale</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>pomSampleMin</name>
+    <name>POM Sample: Minimum</name>
     <type>u8</type>
     <default>8</default>
   </entry>
   <entry>
-    <name>pomSampleMax</name>
+    <name>POM Sample: Maximum</name>
     <type>u8</type>
     <default>64</default>
   </entry>
   <entry>
-    <name>Contrast1</name>
+    <name>Contrast 1</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>TextureLengthType[0-3]</name>
+    <name>Texture Length Type</name>
     <type>u8</type>
     <default>0</default>
+    <description>[0-3]</description>
   </entry>
   <entry>
-    <name>TextureWidthX</name>
+    <name>Texture Width: X</name>
     <type>f32</type>
     <default>40</default>
   </entry>
   <entry>
-    <name>TextureWidthZ</name>
+    <name>Texture Width: Z</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>TextureLifeTime</name>
+    <name>Texture Lifetime</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0x58</name>
+    <name>Unk15</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0x5C</name>
+    <name>Unk16</name>
     <type>f32</type>
     <default>0.05</default>
   </entry>
   <entry>
-    <name>0x60</name>
+    <name>Unk17</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>0x64</name>
+    <name>Unk18</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>0x68</name>
+    <name>Unk19</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>0x6C</name>
+    <name>Unk20</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>TextureId1</name>
+    <name>Texture ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>TextureId2</name>
+    <name>Texture ID 2</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>TextureId3</name>
+    <name>Texture ID 3</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
@@ -336,359 +337,366 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>TextureId4</name>
+    <name>Texture ID 4</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>TextureId5</name>
+    <name>Texture ID 5</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>TextureId6</name>
+    <name>Texture ID 6</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>R(Diffuse)</name>
+    <name>Diffuse: R</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>G(Diffuse)</name>
+    <name>Diffuse: G</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>B(Diffuse)</name>
+    <name>Diffuse: B</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>UnkNaM</name>
+    <name>Unk22</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>R(Specular)</name>
+    <name>Specular: R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>G(Specular)</name>
+    <name>Specular: G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>B(Specular)</name>
+    <name>Specular: B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DelayedSpawnState [ON_OFF]</name>
+    <name>Delayed Spawn State</name>
     <type>s8</type>
     <default>0</default>
+    <description>[ON_OFF]</description>
   </entry>
   <entry>
-    <name>Contrast2</name>
+    <name>Contrast 2</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>0x98</name>
+    <name>Unk23</name>
     <type>f32</type>
     <default>60</default>
   </entry>
   <entry>
-    <name>0x9C</name>
+    <name>Unk24</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>0xA0</name>
+    <name>Unk25</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0xA1</name>
+    <name>Unk26</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0xA2</name>
+    <name>Unk27</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>0xA3</name>
+    <name>Unk28</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>minVal</name>
+    <name>Minimum Value</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>maxVal</name>
+    <name>Maximum Value</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>0xAC</name>
+    <name>Unk29</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>0xAD</name>
+    <name>Unk30</name>
     <type>u8</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>DecalSpawnDelay[sec]</name>
+    <name>Decal SpawnDelay</name>
     <type>u16</type>
     <default>0</default>
+    <description>In seconds.</description>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk31</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk32</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk33</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk34</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk35</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsContactPlayer</name>
+    <name>Is Contact Player</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsFormCube</name>
+    <name>Is Form Cube</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk36</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk37</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk38</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk39</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk40</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk41</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk42</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk43</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk44</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk45</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk46</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk47</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk48</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk49</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk50</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk51</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk52</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk53</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk54</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk55</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk56</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk57</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk58</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk59</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0xB0</name>
+    <name>Unk60</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>TextureSpawnDelay[sec]</name>
+    <name>Texture Spawn Delay</name>
     <type>f32</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <description>In seconds.</description>
   </entry>
     <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
+    <name>Unk61</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk62</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk63</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk64</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk65</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk66</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk67</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Unk68</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Unk69</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Unk70</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Unk71</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Unk72</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Unk73</name>
     <type>s32</type>
     <default>0</default>
   </entry>
-
+  <entry>
+    <name>Unk74</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk75</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk76</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
 </layout>

@@ -8,16 +8,19 @@
     <item value="4" name="Standard" />
   </enum>
   <enum name="EffectAttribute" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Physical" />
-	<item value="2" name="Fire" />
-    <item value="3" name="Magic" />
-    <item value="4" name="Poison/Bleed" />
-    <item value="6" name="Lightning" />
-    <item value="7" name="Petrify" />
-    <item value="8" name="Crystallize" />
-    <item value="9" name="Dark" />
-    <item value="255" name="None" />
+    <item value="0" name="0 - None" />
+    <item value="10" name="10 - Magic" />
+    <item value="11" name="11 - Fire" />
+    <item value="12" name="12 - Lightning" />
+    <item value="13" name="13 - Holy" />
+    <item value="20" name="20 - Poison" />
+    <item value="21" name="21 - Blight" />
+    <item value="22" name="22 - Hemorrhage" />
+    <item value="23" name="23 - Frostbite" />
+    <item value="24" name="24 - Sleep" />
+    <item value="25" name="25 - Madness" />
+    <item value="26" name="26 - Death" />
+    <item value="254" name="254 - None" />
   </enum>
   <enum name="LaunchType" type="u8">
     <item value="0" name="0 - Forward" />

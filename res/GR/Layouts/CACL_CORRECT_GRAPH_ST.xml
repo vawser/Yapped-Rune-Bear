@@ -95,9 +95,11 @@
     <type>f32</type>
     <default>0</default>
   </entry>
+  <!-- Confirmed empty -->
   <entry>
     <name>pad1</name>
     <type>dummy8</type>
     <size>4</size>
   </entry>
+  <!-- Confirmed empty -->
 </layout>

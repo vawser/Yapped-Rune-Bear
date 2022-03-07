@@ -1093,13 +1093,18 @@
     <default>101</default>
   </entry>
   <entry>
-    <name>Basic Toughness Value</name>
+    <name>Unknown</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Game System Param Correction</name>
+    <name>Basic Toughness Value</name>
     <type>s32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Game System Param Correction</name>
+    <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
@@ -1140,22 +1145,22 @@
   <entry>
     <name>Absorption: Holy</name>
     <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Max Ankle Angle</name>
-    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Cloth Update Offset</name>
+    <name>Max Ankle Angle</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Npc Type</name>
+    <name>Cloth Update Offset</name>
     <type>u8</type>
     <default>1</default>
+  </entry>
+  <entry>
+    <name>SP Npc Type</name>
+    <type>s16</type>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Normal Change Model ID</name>
@@ -1165,15 +1170,10 @@
   <entry>
     <name>Normal Change Anim Chr ID</name>
     <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Guard Absorption %: Stamina Value</name>
-    <type>s16</type>
     <default>256</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Guard Absorption %: Stamina Value</name>
     <type>s16</type>
     <default>0</default>
   </entry>

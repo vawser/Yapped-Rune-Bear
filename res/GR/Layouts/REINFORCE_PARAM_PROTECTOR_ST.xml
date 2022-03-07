@@ -51,7 +51,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Resistance % - Curse</name>
+    <name>Resistance % - Death</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -76,7 +76,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Absorption % - Dark</name>
+    <name>Absorption % - Holy</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -85,9 +85,15 @@
     <type>f32</type>
     <default>1</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <entry>
+    <name>Unk1</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+
 </layout>
