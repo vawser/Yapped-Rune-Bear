@@ -6,12 +6,12 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>On Hit Effect 1</name>
+    <name>On Hit SpEffect 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>On Hit Effect 2</name>
+    <name>On Hit SpEffect 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -145,10 +145,30 @@
     <type>s32</type>
     <default>-1</default>
   </entry>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>20</size>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk0</name>

@@ -101,40 +101,40 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Behavior Effect 1 Offset</name>
+    <name>Behavior SpEffect 1 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior Effect 1.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 1.</description>
   </entry>
   <entry>
-    <name>Behavior Effect 2 Offset</name>
+    <name>Behavior SpEffect 2 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior Effect 2.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 2.</description>
   </entry>
   <entry>
-    <name>Behavior Effect 3 Offset</name>
+    <name>Behavior SpEffect 3 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior Effect 3.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 3.</description>
   </entry>
   <entry>
-    <name>Passive Effect 1 Offset</name>
+    <name>Passive SpEffect 1 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive Effect 1.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 1.</description>
   </entry>
   <entry>
-    <name>Passive Effect 2 Offset</name>
+    <name>Passive SpEffect 2 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive Effect 2.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 2.</description>
   </entry>
   <entry>
-    <name>Passive Effect 3 Offset</name>
+    <name>Passive SpEffect 3 Offset</name>
     <type>u8</type>
     <default>0</default>
-    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive Effect 3.</description>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 3.</description>
   </entry>
   <entry>
     <name>Reinforcement Material Set Offset</name>
@@ -143,9 +143,9 @@
     <description>Applies the specified offset value to the Material Set ID used by the EquipWeaponParam.</description>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>1</size>
+    <name>Multiplayer Reinforcement Level</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Damage %: Holy</name>

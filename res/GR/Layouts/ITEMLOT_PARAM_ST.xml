@@ -234,7 +234,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Item Lot Rarity</name>
+    <name>Undetermined</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -363,9 +363,20 @@
     <type>s8</type>
     <default>-1</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>3</size>
+    <entry>
+    <name>Unk1</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+
 </layout>

@@ -147,47 +147,47 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 1</name>
+    <name>SpEffect 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 2</name>
+    <name>SpEffect 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 3</name>
+    <name>SpEffect 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 4</name>
+    <name>SpEffect 4</name>
     <type>s32</type>
     <default>7150</default>
   </entry>
   <entry>
-    <name>Effect 5</name>
+    <name>SpEffect 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 6</name>
+    <name>SpEffect 6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 7</name>
+    <name>SpEffect 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 8</name>
+    <name>SpEffect 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Game Clear Effect</name>
+    <name>Game Clear SpEffect</name>
     <type>s32</type>
     <default>7550</default>
   </entry>
@@ -1053,37 +1053,37 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 9</name>
+    <name>SpEffect 9</name>
     <type>s32</type>
     <default>30030</default>
   </entry>
   <entry>
-    <name>Effect 10</name>
+    <name>SpEffect 10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 11</name>
+    <name>SpEffect 11</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 12</name>
+    <name>SpEffect 12</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 13</name>
+    <name>SpEffect 13</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 14</name>
+    <name>SpEffect 14</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect 15</name>
+    <name>SpEffect 15</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1219,82 +1219,82 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 16</name>
+    <name>SpEffect 16</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 17</name>
+    <name>SpEffect 17</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 18</name>
+    <name>SpEffect 18</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 19</name>
+    <name>SpEffect 19</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 20</name>
+    <name>SpEffect 20</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 21</name>
+    <name>SpEffect 21</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 22</name>
+    <name>SpEffect 22</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 23</name>
+    <name>SpEffect 23</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 24</name>
+    <name>SpEffect 24</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 25</name>
+    <name>SpEffect 25</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 26</name>
+    <name>SpEffect 26</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 27</name>
+    <name>SpEffect 27</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 28</name>
+    <name>SpEffect 28</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 29</name>
+    <name>SpEffect 29</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 30</name>
+    <name>SpEffect 30</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect 31</name>
+    <name>SpEffect 31</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -1309,9 +1309,9 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>1</size>
+    <name>Unk0</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Estus Flask Param ID</name>

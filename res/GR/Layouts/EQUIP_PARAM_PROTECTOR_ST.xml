@@ -12,23 +12,23 @@
   </entry>
   <entry>
     <name>Wandering Equip ID</name>
-    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
-    <size>4</size>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vagrant Itemlot ID</name>
-    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
-    <size>4</size>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vagrant Bonus Drop Itemlot ID</name>
-    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
-    <size>4</size>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vagrant Enemy Drop Itemlot ID</name>
-    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
-    <size>4</size>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Repair Price</name>
@@ -51,17 +51,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect ID 1</name>
+    <name>SpEffect ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect ID 2</name>
+    <name>SpEffect ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect ID 3</name>
+    <name>SpEffect ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

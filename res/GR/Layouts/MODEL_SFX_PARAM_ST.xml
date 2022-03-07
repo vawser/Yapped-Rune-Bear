@@ -10,11 +10,17 @@
     <type>s32</type>
     <default>200</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
   <entry>
     <name>VFX 2 - ID</name>
     <type>s32</type>
@@ -25,11 +31,17 @@
     <type>s32</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
   <entry>
     <name>VFX 3 - ID</name>
     <type>s32</type>
@@ -39,11 +51,6 @@
     <name>VFX 3 - Dummy Point</name>
     <type>s32</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>pad3</name>
-    <type>dummy8</type>
-    <size>0</size>
   </entry>
   <entry>
     <name>VFX 4 - ID</name>
@@ -56,11 +63,6 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>pad4</name>
-    <type>dummy8</type>
-    <size>0</size>
-  </entry>
-  <entry>
     <name>VFX 5 - ID</name>
     <type>s32</type>
     <default>0</default>
@@ -69,11 +71,6 @@
     <name>VFX 5 - Dummy Point</name>
     <type>s32</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>pad5</name>
-    <type>dummy8</type>
-    <size>0</size>
   </entry>
   <entry>
     <name>VFX 6 - ID</name>
@@ -86,11 +83,6 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>pad6</name>
-    <type>dummy8</type>
-    <size>0</size>
-  </entry>
-  <entry>
     <name>VFX 7 - ID</name>
     <type>s32</type>
     <default>0</default>
@@ -100,10 +92,15 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+    <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad7</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>VFX 8 - ID</name>
@@ -115,10 +112,15 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+    <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad8</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>VFX 9 - ID</name>
@@ -130,10 +132,15 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+    <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad9</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>VFX 10 - ID</name>
@@ -145,9 +152,15 @@
     <type>s32</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>pad10</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

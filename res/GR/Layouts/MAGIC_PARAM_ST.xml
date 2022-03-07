@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="ReferenceType" type="u8">
-    <item value="0" name="Behavior" />
+    <item value="0" name="Attack" />
 	<item value="1" name="Bullet" />
 	<item value="2" name="SpEffect" />
   </enum>
@@ -26,7 +26,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Limit Cancel Effect ID</name>
+    <name>Limit Cancel SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -128,7 +128,7 @@
     <enum>ReferenceType</enum>
   </entry>
   <entry>
-    <name>Effect Category</name>
+    <name>SpEffect Category</name>
     <type>u8</type>
     <default>4</default>
   </entry>
@@ -456,88 +456,98 @@
     <type>s32</type>
     <default>-1</default>
   </entry>
+    <entry>
+    <name>Reference ID 5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>12</size>
+    <name>Reference ID 6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID 7</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
     <entry>
-    <name>Unk0</name>
+    <name>Reference ID 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Reference ID 9</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Reference ID 10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Reference ID 11</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk10</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk11</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk12</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk13</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk14</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk15</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk16</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk17</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk18</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk19</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk20</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk21</name>
     <type>s8</type>
     <default>0</default>
   </entry>

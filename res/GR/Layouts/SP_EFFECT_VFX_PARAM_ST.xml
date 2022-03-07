@@ -172,27 +172,27 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk3</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk4</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk5</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -308,7 +308,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk6</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -323,7 +323,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Unk7</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -338,7 +338,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk8</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -348,7 +348,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk9</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -358,17 +358,22 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>8</size>
-  </entry>
-    <entry>
-    <name>Unk0</name>
+    <name>Unk10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
     <type>s32</type>
     <default>0</default>
   </entry>

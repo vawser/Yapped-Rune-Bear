@@ -32,7 +32,31 @@
     <item value="21" name="Invade World (Recusant Finger)" />
     <item value="22" name="Invade World (Festering Bloody Finger)" />
   </enum>
-  
+  <enum name="GoodsType" type="u8">
+    <item value="0" name="Normal Item" />
+	<item value="1" name="Key Item" />
+	<item value="2" name="Crafting Material" />
+	<item value="3" name="Remembrance" />
+	<item value="4" name="None" />
+	<item value="5" name="Sorcery" />
+	<item value="6" name="None" />
+	<item value="7" name="Spirit Summon - Lesser" />
+	<item value="8" name="Spirit Summon - Greater" />
+	<item value="9" name="Wondrous Physick" />
+	<item value="10" name="Wondrous Physick Tear" />
+	<item value="11" name="Regenerative Material" />
+	<item value="12" name="Info Item" />
+	<item value="13" name="None" />
+	<item value="14" name="Reinforcement Material" />
+	<item value="15" name="Great Rune" />
+	<item value="16" name="Incantation" />
+	<item value="17" name="Self Buff - Sorcery" />
+	<item value="18" name="Self Buff - Incantation" />
+  </enum>
+  <enum name="EffectCategory" type="u8">
+    <item value="0" name="SpEffect" />
+    <item value="5" name="Bullet" />
+  </enum>
   <entry>
     <name>Unk1</name>
     <type>s32</type>
@@ -50,7 +74,7 @@
   </entry>
   <entry>
     <name>Unk3</name>
-    <type>s32</type>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -79,7 +103,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Tool ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -90,7 +114,18 @@
   </entry>
   <entry>
     <name>Unk5</name>
-    <type>s32</type>
+    <type>s16</type>
+    <default>0</default>
+    <description>Only used for Miquella's Needle., appears to reference SpEffect</description>
+  </entry>
+  <entry>
+    <name>Throwable Type</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -137,6 +172,7 @@
     <name>Goods Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>GoodsType</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
@@ -145,12 +181,13 @@
     <enum>ReferenceType</enum>
   </entry>
   <entry>
-    <name>SpEffect Category</name>
+    <name>Effect Category</name>
     <type>u8</type>
     <default>0</default>
+    <enum>EffectCategory</enum>
   </entry>
   <entry>
-    <name>Goods Category</name>
+    <name>Unk40</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -171,7 +208,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk7</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -347,7 +384,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk8</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -362,7 +399,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk9</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -387,32 +424,32 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk10</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk11</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk12</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unk13</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Unk14</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Unk15</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -462,7 +499,7 @@
     <default>True</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk16</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -492,7 +529,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk17</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -519,47 +556,57 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk18</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk19</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk20</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk21</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
+    <name>Unk25</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Unk26</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Unk27</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Unk28</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -579,42 +626,42 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Unk29</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Unk30</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Unk31</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Unk32</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Unk33</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Unk34</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Unk35</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Unk36</name>
     <type>s32</type>
     <default>0</default>
   </entry>

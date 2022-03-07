@@ -176,10 +176,10 @@
     <description>Unknown</description>
   </entry>
   <entry>
-    <name>Owner Effect ID</name>
+    <name>Owner SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to owner when bullet is created.</description>
+    <description>Special SpEffect applied to owner when bullet is created.</description>
   </entry>
   <entry>
     <name>Bullet AI</name>
@@ -194,34 +194,34 @@
     <description>Bullet emitted on impact of this bullet.</description>
   </entry>
   <entry>
-    <name>Target Effect ID 0</name>
+    <name>Target SpEffect ID 0</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target hit by bullet.</description>
+    <description>Special SpEffect applied to target hit by bullet.</description>
   </entry>
   <entry>
-    <name>Target Effect ID 1</name>
+    <name>Target SpEffect ID 1</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target hit by bullet.</description>
+    <description>Special SpEffect applied to target hit by bullet.</description>
   </entry>
   <entry>
-    <name>Target Effect ID 2</name>
+    <name>Target SpEffect ID 2</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target hit by bullet.</description>
+    <description>Special SpEffect applied to target hit by bullet.</description>
   </entry>
   <entry>
-    <name>Target Effect ID 3</name>
+    <name>Target SpEffect ID 3</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target hit by bullet.</description>
+    <description>Special SpEffect applied to target hit by bullet.</description>
   </entry>
   <entry>
-    <name>Target Effect ID 4</name>
+    <name>Target SpEffect ID 4</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target hit by bullet.</description>
+    <description>Special SpEffect applied to target hit by bullet.</description>
   </entry>
   <entry>
     <name>Bullet Count</name>

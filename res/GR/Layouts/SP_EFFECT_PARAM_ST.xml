@@ -866,18 +866,18 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Multiplier applied to any increase in character's current HP.</description>
   </entry>
   <entry>
-    <name>Chain Effect ID</name>
+    <name>Chain SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Applies the SpEffect after this one has expired.</description>
   </entry>
   <entry>
-    <name>Cycle Effect ID</name>
+    <name>Cycle SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Attack Effect ID</name>
+    <name>Attack SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Player - Requires State Info 153
@@ -1165,7 +1165,7 @@ Enemies - Requires State Info 152</description>
     <name>Enable in NG+</name>
     <type>b8</type>
     <default>False</default>
-    <description>Enables the effect if in NG+</description>
+    <description>Enables the SpEffect if in NG+</description>
   </entry>
   <entry>
     <name>Affects Sorcery</name>
@@ -1659,9 +1659,9 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>4</size>
+    <name>Unk90</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Dark Sight Value</name>
@@ -1970,7 +1970,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Trigger Effect ID</name>
+    <name>Trigger SpEffect ID</name>
     <type>s16</type>
     <default>1</default>
     <enum>StateInfo</enum>
@@ -2101,7 +2101,7 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Kill Effect ID</name>
+    <name>Kill SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>

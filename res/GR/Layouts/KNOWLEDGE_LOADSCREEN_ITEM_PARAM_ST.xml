@@ -19,9 +19,15 @@
     <type>s32</type>
     <default>23000000</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>8</size>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

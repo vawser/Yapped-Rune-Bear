@@ -30,8 +30,8 @@
   </entry>
   <entry>
     <name>Wandering Equip ID</name>
-    <type>dummy8</type> <!-- s32 - Dummied due to lack of usage in base game -->
-    <size>4</size>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Weight</name>
@@ -107,37 +107,37 @@
     <description>Absorption used when guarding with this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior Effect 1</name>
+    <name>Behavior SpEffect 1</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior Effect 2</name>
+    <name>Behavior SpEffect 2</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Behavior Effect 3</name>
+    <name>Behavior SpEffect 3</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to an entity hit by this weapon.</description>
   </entry>
   <entry>
-    <name>Passive Effect 1</name>
+    <name>Passive SpEffect 1</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to the wielder of this weapon.</description>
   </entry>
   <entry>
-    <name>Passive Effect 2</name>
+    <name>Passive SpEffect 2</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to the wielder of this weapon.</description>
   </entry>
   <entry>
-    <name>Passive Effect 3</name>
+    <name>Passive SpEffect 3</name>
     <type>s32</type>
     <default>-1</default>
     <description>SpEffect applied to the wielder of this weapon.</description>

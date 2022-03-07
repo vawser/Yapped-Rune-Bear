@@ -55,9 +55,45 @@
     <type>u8</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>11</size>
+    <entry>
+    <name>Attack Type 2</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Attack Type 3</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Attack Type 4</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect Set ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

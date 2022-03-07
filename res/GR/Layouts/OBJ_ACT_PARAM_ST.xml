@@ -46,9 +46,9 @@
     <default>120</default>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>1</size>
+    <name>Unk0</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Object Animation ID</name>
@@ -86,9 +86,14 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>2</size>
+    <name>Unk1</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Action Button Param ID</name>
@@ -100,9 +105,65 @@
     <type>s32</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>48</size>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

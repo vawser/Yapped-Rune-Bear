@@ -35,19 +35,50 @@
     <type>f32</type>
     <default>15</default>
   </entry>
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>16</size>
+    <entry>
+    <name>Menu Offset - Screen Value 7</name>
+    <type>f32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Screen Render ID</name>
+    <name>Menu Offset - Screen Value 8</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 9</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 10</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Screen Render ID 1</name>
     <type>s32</type>
     <default>11</default>
   </entry>
-  <entry>
-    <name>pad2</name>
-    <type>dummy8</type>
-    <size>16</size>
+    <entry>
+    <name>Screen Render ID 2</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Screen Render ID 3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Screen Render ID 4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
 </layout>

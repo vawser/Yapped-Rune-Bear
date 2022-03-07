@@ -512,10 +512,20 @@
     <type>f32</type>
     <default>2</default>
   </entry>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
   <entry>
-    <name>pad</name>
-    <type>dummy8</type>
-    <size>12</size>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
     <entry>
     <name>Unk0</name>
