@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Region Type</name>
+    <name>Unk1</name>
     <type>u8</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk2</name>
+    <name>Region Type</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -106,9 +106,14 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Text ID</name>
+    <name>Unk10</name>
     <type>s32</type>
     <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID</name>
+    <type>s32</type>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Invalid Flag</name>
@@ -118,20 +123,15 @@
   <entry>
     <name>Grayout Flag</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>3</default>
   </entry>
   <entry>
     <name>Priority</name>
     <type>s32</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Execution Invalid Time</name>
-    <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Execution Invalid Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
