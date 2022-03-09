@@ -1,210 +1,4876 @@
-20100000,Blaidd the Half-Wolf,20100
-20300000,Rennala,20300
-20400000,Rennala Student,20400
-20410000,Rennala Student - Bug Form,20410
-20500000,Ranni the Witch,20500
-20510000,Snow Witch Ranni,20510
-20600000,The Two Fingers,20600
-21000000,Black Knife Assassin,21000
-21100000,Beast Clergyman,21100
-21200000,Malenia,21200
-21300000,Morgott,21300
-21310000,Morgott - Dead,21310
-21400000,Omen Monstrosity,21400
-21500000,Unknown,21500
-21600000,Palm Reader 1,21600
-21700000,Palm Reader 2,21700
-21800000,Melina,21800
-21900000,Radagon,21900
-21910000,Radagon - Crucified,21910
-22000000,Elden Beast,22000
-22700000,Giant Crab,22700
-22710000,Crab,22710
-22720000,Giant Crab,22700
-22730020,Crab,22710
-25000000,Crucible Knight,25000
-30000000,Castle Exile,30000
-30100000,Banished Knight,30100
-30200000,Castle Exile - Large,30200
-30500000,Sol Knight,30500
-30600000,Undead Mariner,30600
-30610000,Undead Azula Beastman,30610
-30700000,Dominula Celebrant,30700
-30800000,Imp,30800
-31000000,Elemer of the Briar,31000
-31500000,Night's Cavalry,31500
-31600000,Night's Cavalry Horse,31600
-31700000,Albinauric Archer,31700
-31800000,Dog,31800
-31810000,Red Wolf of Radagon,31810
-32000000,Nomad Trader,32000
-32100000,Nomad Mule,32100
-32500000,Draconic Tree Sentinel,32500
-32510000,Tree Sentinel,32510
-32520000,Fallen Tree Sentinel,32520
-33000000,Nox Swordstress 1,33000
-33001000,Nox Swordstress 2,33100
-33200000,Silver Tear,33200
-33300000,Silver Tear Orb,33300
-33500000,Crystalian,33500
-33600000,Ancestral Follower,33600
-33700000,Ancestral Follower Shaman,33700
-34000000,Exiled Duelist,34000
-34500000,Misbegotten,34500
-34600000,Winged Misbegotten,34600
-34700000,Albinauric,34700
-35000000,Skeleton (Curved Sword),35000
-35100000,Skeleton (Scimitar),35100
-35500000,Godskin Apostle,35500
-35600000,Godskin Noble,35600
-35700000,Grave Warden Duelist,35700
-36000000,Alabaster Lord,36000
-36100000,Oracle Envoy,36100
-36400000,Unknown,36400
-36500000,Erdtree Guardian,36500
-36600000,Commoner,36600
-36610000,Putrid Corpse 1,36610
-36620000,Putrid Corpse 2,36620
-36640000,Cemetery Shade,36640
-36650000,Devious Commoner,36600
-36700000,Albinauric Lookout,36700
-37000000,Depraved Perfumer,37000
-37020000,Raya Lucaria Scholar,37020
-37030000,Noble's Page,37030
-37040000,Battlemage,37040
-37100000,Crystallized Battlemage,37100
-37200000,Orbhead Sorcerer,37200
-37300000,Orb of Many Faces,37300
-37500000,Clayman,37500
-38000000,Cleanrot Knight,38000
-38100000,Kindred of Rot,38100
-38500000,Marionette,38500
-38600000,Avionette,38600
-39000000,Fire Monk 1,39000
-39010000,Fire Monk 2,39010
-39010038,Godskin Monk,39010
-39100000,Fire Prelate,39100
-39500000,Man-Serpent,39500
-39700000,Azula Beastman,39700
-40000000,Royal Rider,40000
-40200000,Royal Revenant,40200
-40400000,Slug,40400
-40500000,Kaiden Sellsword,40500
-40600000,Horse,40600
-40700000,Wolf,40700
-40800000,Rat,40800
-40900000,Giant Rat,40900
-41000000,Demi-Human,41000
-41010000,Demi-Human - Large,41010
-41100000,Demi-Human Shaman,41100
-41200000,Demi-Human Beastman,41200
-41300000,Demi-Human Queen,41300
-41400000,Snail,41400
-41500000,Basilisk,41500
-41600000,Dog 1,41600
-41610032,Dog 2,41610
-41620000,Starved Dog 1,41600
-41630072,Starved Dog 2,41610
-41700000,Living Mass 1,41700
-41710000,Living Mass 2,41710
-41800000,Jellyfish,41800
-41900000,Scarab 1,41900
-41910000,Scarab 2,41910
-41920000,Scarab 3,41920
-42000000,Giant Bat,42000
-42010000,Bat Harpy,42010
-42100000,Warhawk,42100
-42200000,Land Octopus - Large,42200
-42300000,Land Octopus - Small,42300
-42400000,Enchanted Hand - Large 1,42400
-42410000,Enchanted Hand - Large 2,42410
-42500000,Enchanted Hand - Small,42500
-42600000,Burial Watchdog,42600
-42700000,Lion Guardian,42700
-42800000,Giant Ant,42800
-42900000,Bloodhound Knight,42900
-43000000,Wandering Noble,43000
-43110000,Castle Soldier,43100
-43210000,Vulgar Militia,43210
-43400000,Mad Pumpkin Head,43400
-43410000,Grinning Torturer,43410
-43411000,Grinning Torturer,43410
-43510000,Castle Knight,43500
-43610000,Castle Knight Horse,43600
-43710000,Castle Foot Soldier,43700
-43800000,Starcaller,43800
-43810000,Bloodthorn Exile,43810
-43820000,Tunnel Miner,43820
-43830000,Glintstone Miner 1,43830
-43840000,Glintstone Miner 2,43840
-43850000,Fungal Sorcerer,43850
-44200000,Giant Lobster,44200
-44300000,Abnormal Stone Cluster,44300
-44400000,Fungal Pod,44400
-44410000,Giant Fungal Pod 1,44410
-44420000,Giant Fungal Pod 2,44420
-44500000,Walking Mausoleum,44500
-44600000,Flamethrower Tank,44600
-44700000,Ghiza Torturer,44700
-44800000,Giant Miranda Sprout,44800
-44810000,Miranda Sprout,44810
-44820000,Giant Miranda Sprout,44800
-44830000,Miranda Sprout,44810
-44900000,Living Pot - Large,44900
-44910000,Living Pot - Small,44910
-44920000,Living Pot - Huge,44920
-45000000,Dragon,45000
-45100000,Ancient Dragon,45100
-45200000,Dragonlord Placidusax,45200
-45200072,Dragonlord Placidusax,45200
-45200100,Dragonlord Placidusax,45200
-45500000,Monstrous Dog,45500
-45600000,Monstrous Crow,45600
-45700000,Wormface,45700
-46000000,Troll Knight,46000
-46100000,Unknown,46100
-46200000,Astel,46200
-46300000,Runebear,46300
-46400000,Ulcerated Tree Spirit,46400
-46500000,Dragonkin Soldier,46500
-46600000,Golem,46600
-46700000,Ancestor Spirit,46700
-46800000,Fallingstar Beast,46800
-46900000,Grafted Scion,46900
-47100000,Rykard,47100
-47110000,Writhing Mass,47100
-47200000,Godfrey,47200
-47210000,Hoarah Loux,47210
-47300000,Starscourge Radahn,47300
-47500000,Godrick the Grafted,47500
-47510000,Godrick - Head and Torso,47510
-47600000,Fire Giant,47600
-47700000,Gargoyle,47700
-48000000,Mohg,48000
-48100000,Erdtree Avatar,48100
-48200000,Omenkiller,48200
-49100000,Magma Wyrm,49100
-49500000,Tibia Mariner,49500
-49600000,Giant Skeleton Torso,49600
-49800000,Death Rite Bird,49800
-60010000,Hawk,60010
-60200000,Unknown,60200
-60310000,Bear,60300
-60400000,Owl,60400
-60500000,Boar,60500
-60600000,Goat,60600
-60700000,Gull 1,60700
-60720000,Gull 2,60720
-60800000,Dragonfly 1,60800
-60810000,Dragonfly 2,60810
-60820000,Dragonfly 3,60820
-60900000,Turtle,60900
-61000000,Rabbitgaroo,61000
-70000000,Fallen Hawk Soldier,70000
-71000000,Female Corrupted Swordsman,71000
-80000000,Torrent,80000
-81000000,Ballista,81000
-81010000,Giant Ballista,81010
-81100000,Dragon-faced Flamethrower,81100
-81200000,Merciless Chariot,81200
-89010000,Maliketh,21100
+Row ID,Row Name,Team Type
+0,,6
+1,,6
+100,,6
+540,,6
+541,,6
+542,,6
+1000,,6
+9999,,6
+1000000,,30
+1002000,,6
+1100000,,30
+1200000,,6
+1200100,,6
+1300000,,6
+10000000,,0
+10000100,,0
+10001000,,0
+10003000,,7
+10004000,,0
+10005000,,0
+10006000,,33
+10006050,,33
+10100000,,7
+20100000,Blaidd the Half-Wolf,7
+20101000,Blaidd the Half-Wolf,7
+20107500,Blaidd the Half-Wolf,2
+20108000,Blaidd the Half-Wolf,6
+20108500,Baleful Shadow,6
+20108562,Baleful Shadow,6
+20109000,Blaidd the Half-Wolf,7
+20109010,Blaidd the Half-Wolf,26
+20109020,Blaidd the Half-Wolf,0
+20109040,Blaidd the Half-Wolf,0
+20109064,Blaidd the Half-Wolf,26
+20109110,Blaidd the Half-Wolf,26
+20109120,Blaidd the Half-Wolf,7
+20109140,Blaidd the Half-Wolf,2
+20109210,Blaidd the Half-Wolf,26
+20109240,Blaidd the Half-Wolf,26
+20109310,Blaidd the Half-Wolf,2
+20109410,Blaidd the Half-Wolf,0
+20300000,Rennala, Queen of the Full Moon,6
+20300024,Rennala, Queen of the Full Moon,6
+20300100,Rennala, Queen of the Full Moon,26
+20300124,Rennala, Queen of the Full Moon,0
+20310000,Rennala, Queen of the Full Moon,6
+20310024,Rennala, Queen of the Full Moon,6
+20310100,Rennala, Queen of the Full Moon,26
+20310124,Rennala, Queen of the Full Moon,26
+20400000,Rennala Student,6
+20400024,Rennala Student,6
+20401000,Rennala Student,6
+20401024,Rennala Student,6
+20402000,Rennala Student,6
+20402024,Rennala Student,6
+20402100,Rennala Student,6
+20402124,Rennala Student,6
+20402200,Rennala Student,6
+20402224,Rennala Student,6
+20403000,Rennala Student,6
+20403024,Rennala Student,6
+20404000,Rennala Student,6
+20404024,Rennala Student,6
+20410000,Rennala Student - Bug Form,6
+20410040,Rennala Student - Bug Form,51
+20410056,Rennala Student - Bug Form,6
+20500000,Ranni the Witch,6
+20500010,Rennai the Witch,26
+20500020,Ranni the Witch,26
+20500100,Ranni the Witch,6
+20500122,Ranni the Witch,26
+20500178,Ranni the Witch,26
+20501000,Ranni the Witch,6
+20501022,Ranni the Witch,26
+20501100,Ranni the Witch,6
+20501122,Ranni the Witch,26
+20510000,Snow Witch Ranni,6
+20600000,The Two Fingers,6
+20600079,The Two Fingers,0
+21000000,Black Knife Assassin,7
+21000034,Black Knife Assassin,7
+21000052,Black Knife Assassin,33
+21000735,Black Knife Assassin,7
+21000820,Black Knife Assassin,7
+21000830,Black Knife Assassin,7
+21000930,Black Knife Assassin,7
+21001000,Black Knife Assassin,7
+21001010,Black Knife Assassin,7
+21002000,Black Knife Assassin,7
+21002922,Black Knife Assassin,7
+21009000,Black Knife Assassin,0
+21009020,Black Knife Assassin,0
+21100000,Beast Clergyman,7
+21100072,Beast Clergyman,33
+21101000,Beast Clergyman,7
+21101072,Beast Clergyman,33
+21102000,Beast Clergyman,7
+21109000,Gurranq, Beast Clergyman,26
+21109042,Gurranq, Beast Clergyman,26
+21200000,Malenia, Blade of Miquella,33
+21200056,Malenia, Blade of Miquella,33
+21201000,Malenia, Blade of Miquella,33
+21201100,Malenia, Blade of Miquella,33
+21202000,Malenia, Blade of Miquella,33
+21202056,Malenia, Blade of Miquella,33
+21203000,Malenia, Blade of Miquella,33
+21203056,Malenia, Blade of Miquella,33
+21209000,Malenia, Blade of Miquella,33
+21300000,Malenia, Blade of Miquella,7
+21300014,Morgott,7
+21300033,Morgott,7
+21300500,Morgott,7
+21300534,Morgott,7
+21310000,Morgott - Dead,0
+21310034,Morgott - Dead,26
+21400000,Omen Monstrosity,7
+21400012,Omen Monstrosity,7
+21400030,Omen Monstrosity,7
+21400034,Omen Monstrosity,7
+21400035,Omen Monstrosity,7
+21400090,Omen Monstrosity,7
+21400100,Omen Monstrosity,7
+21400114,Omen Monstrosity,7
+21400120,Omen Monstrosity,33
+21400130,Omen Monstrosity,7
+21400135,Omen Monstrosity,7
+21400200,Omen Monstrosity,7
+21400235,Omen Monstrosity,33
+21400300,Omen Monstrosity,7
+21400335,Omen Monstrosity,7
+21400400,Omen Monstrosity,7
+21400435,Omen Monstrosity,33
+21400600,Omen Monstrosity,7
+21400633,Omen Monstrosity,33
+21400900,Omen Monstrosity,7
+21400930,Omen Monstrosity,7
+21401000,Omen Monstrosity,7
+21401030,Omen Monstrosity,7
+21401035,Omen Monstrosity,7
+21401100,Omen Monstrosity,7
+21401120,Omen Monstrosity,33
+21401130,Omen Monstrosity,7
+21401135,Omen Monstrosity,7
+21401200,Omen Monstrosity,7
+21401235,Omen Monstrosity,33
+21401300,Omen Monstrosity,7
+21401335,Omen Monstrosity,7
+21401400,Omen Monstrosity,7
+21401435,Omen Monstrosity,33
+21401600,Omen Monstrosity,7
+21401900,Omen Monstrosity,7
+21401930,Omen Monstrosity,7
+21403000,Omen Monstrosity,7
+21403050,Omen Monstrosity,33
+21403100,Omen Monstrosity,7
+21403150,Omen Monstrosity,33
+21409000,Omen Monstrosity,7
+21500000,,6
+21500052,,6
+21500064,,6
+21500300,,6
+21500352,,6
+21500400,,6
+21500452,,6
+21500500,,6
+21500552,,6
+21500600,,6
+21500652,,6
+21600000,Palm Reader,26
+21601000,Palm Reader,26
+21601010,Palm Reader,26
+21601012,Palm Reader,26
+21601020,Palm Reader,26
+21601030,Palm Reader,26
+21601033,Palm Reader,26
+21601040,Palm Reader,26
+21601050,Palm Reader,26
+21601066,Palm Reader,26
+21700000,Palm Reader,26
+21700079,Palm Reader,0
+21701000,Palm Reader,26
+21800000,Melina,26
+21801000,Melina,2
+21801034,Melina,2
+21803000,Melina,26
+21809000,Melina,6
+21900000,Radagon,6
+21900078,Radagon,6
+21910000,Radagon - Crucified,6
+22000000,Elden Beast,6
+22000078,Elden Beast,6
+22700000,Giant Crab,7
+22700010,Giant Crab,7
+22700012,Giant Crab,7
+22700013,Giant Crab,7
+22700032,Giant Crab,7
+22700033,Giant Crab,7
+22700064,Giant Crab,7
+22700100,Giant Crab,7
+22700210,Giant Crab,7
+22710000,Crab,6
+22710010,Crab,6
+22710012,Crab,6
+22710013,Crab,6
+22710030,Crab,6
+22710032,Crab,6
+22710033,Crab,6
+22710040,Crab,6
+22710060,Crab,6
+22710064,Crab,6
+22710065,Crab,6
+22720000,Giant Crab,7
+22720020,Giant Crab,7
+22720100,Giant Crab,7
+22720112,Giant Crab,7
+22730000,Giant Crab,6
+22730020,Crab,6
+22740000,Crab,7
+22740020,Crab,52
+22740021,Crab,52
+22740024,Crab,7
+22740052,Crab,7
+22740120,Crab,7
+22750000,Crab,6
+22750020,Crab,51
+22750024,Crab,6
+22750052,Crab,6
+22750120,Crab,6
+22751000,Crab,6
+22751024,Crab,6
+22760000,Crab,7
+22760020,Crab,7
+22760033,Crab,7
+22770000,Crab,6
+22770020,Crab,6
+22770033,Crab,6
+25000000,Crucible Knight,6
+25000010,Crucible Knight,6
+25000014,Crucible Knight,6
+25000030,Crucible Knight,6
+25000034,Crucible Knight,6
+25000042,Crucible Knight,6
+25000065,Crucible Knight,6
+25000100,Crucible Knight,6
+25000165,Crucible Knight,6
+25000172,Crucible Knight,6
+25000865,Crucible Knight,6
+25000933,Crucible Knight,6
+25000941,Crucible Knight,6
+25001000,Crucible Knight,6
+25001034,Crucible Knight,6
+25001065,Crucible Knight,6
+25001066,Crucible Knight,6
+25001100,Crucible Knight,6
+25001134,Crucible Knight,6
+25001165,Crucible Knight,6
+25001933,Crucible Knight,6
+25006000,Crucible Knight,6
+25006020,Crucible Knight,6
+25006100,Crucible Knight,6
+25006120,Crucible Knight,6
+25007000,Crucible Knight,6
+25007020,Crucible Knight,6
+25007100,Crucible Knight,6
+25007120,Crucible Knight,6
+25009000,Crucible Knight,6
+25009038,Crucible Knight,0
+25009138,Crucible Knight,27
+30000000,Castle Exile,6
+30000006,Castle Exile,6
+30000014,Castle Exile,6
+30000034,Castle Exile,6
+30000100,Castle Exile,6
+30000106,Castle Exile,6
+30000114,Castle Exile,6
+30000134,Castle Exile,6
+30000200,Castle Exile,6
+30000214,Castle Exile,6
+30000300,Castle Exile,6
+30000600,Castle Exile,6
+30000614,Castle Exile,6
+30000700,Castle Exile,6
+30000714,Castle Exile,6
+30000800,Castle Exile,6
+30000814,Castle Exile,6
+30000834,Castle Exile,6
+30001000,Castle Exile,6
+30001014,Castle Exile,6
+30001034,Castle Exile,6
+30001100,Castle Exile,6
+30001114,Castle Exile,6
+30001200,Castle Exile,6
+30001214,Castle Exile,6
+30001300,Castle Exile,6
+30001314,Castle Exile,6
+30002000,Castle Exile,6
+30002014,Castle Exile,6
+30002034,Castle Exile,6
+30003000,Castle Exile,6
+30003014,Castle Exile,6
+30003034,Castle Exile,6
+30003200,Castle Exile,6
+30003214,Castle Exile,6
+30003500,Castle Exile,6
+30003514,Castle Exile,6
+30004000,Castle Exile,6
+30004007,Castle Exile,6
+30004051,Castle Exile,6
+30004100,Castle Exile,6
+30004107,Castle Exile,6
+30004151,Castle Exile,6
+30004200,Castle Exile,6
+30004251,Castle Exile,6
+30004300,Castle Exile,6
+30004351,Castle Exile,6
+30005000,Castle Exile,6
+30005007,Castle Exile,6
+30005051,Castle Exile,6
+30006000,Castle Exile,6
+30006051,Castle Exile,6
+30007000,Castle Exile,6
+30007051,Castle Exile,6
+30008000,Castle Exile,6
+30008040,Castle Exile,51
+30100000,Banished Knight,6
+30100014,Banished Knight,6
+30100034,Banished Knight,6
+30100100,Banished Knight,6
+30100114,Banished Knight,6
+30100134,Banished Knight,6
+30100140,Banished Knight,6
+30100172,Banished Knight,6
+30100200,Banished Knight,6
+30100214,Banished Knight,0
+30100234,Banished Knight,6
+30100400,Banished Knight,6
+30100451,Banished Knight,6
+30100500,Banished Knight,6
+30100507,Banished Knight,6
+30100600,Banished Knight,6
+30100651,Banished Knight,6
+30100800,Banished Knight,6
+30100814,Banished Knight,6
+30101000,Banished Knight,6
+30101034,Banished Knight,6
+30101100,Banished Knight,6
+30101134,Banished Knight,6
+30101140,Banished Knight,6
+30101172,Banished Knight,6
+30101200,Banished Knight,6
+30101234,Banished Knight,6
+30101400,Banished Knight,6
+30101451,Banished Knight,6
+30101500,Banished Knight,6
+30101600,Banished Knight,6
+30101651,Banished Knight,6
+30102000,Banished Knight,6
+30102014,Banished Knight,6
+30102034,Banished Knight,6
+30102100,Banished Knight,6
+30102134,Banished Knight,6
+30102172,Banished Knight,6
+30102200,Banished Knight,6
+30102234,Banished Knight,6
+30102400,Banished Knight,6
+30102451,Banished Knight,6
+30102500,Banished Knight,6
+30102507,Banished Knight,6
+30102600,Banished Knight,6
+30102651,Banished Knight,6
+30106000,Banished Knight,6
+30106051,Banished Knight,6
+30107000,Banished Knight,6
+30107051,Banished Knight,6
+30108000,Banished Knight,6
+30200000,Castle Exile - Large,6
+30200014,Castle Exile - Large,6
+30200034,Castle Exile - Large,6
+30200100,Castle Exile - Large,6
+30200151,Castle Exile - Large,6
+30208000,Castle Exile - Large,6
+30208040,Castle Exile - Large,51
+30500000,Sol Knight,6
+30500051,Sol Knight,6
+30500100,Sol Knight,6
+30500140,Sol Knight,51
+30509999,Sol Knight,6
+30600000,Undead Mariner,6
+30600020,Undead Mariner,6
+30600030,Undead Mariner,6
+30600040,Undead Mariner,6
+30600050,Undead Mariner,6
+30601000,Undead Mariner,6
+30601020,Undead Mariner,6
+30601030,Undead Mariner,6
+30601040,Undead Mariner,6
+30601050,Undead Mariner,6
+30610000,Undead Azula Beastman,6
+30610072,Undead Azula Beastman,6
+30611000,Undead Azula Beastman,6
+30611072,Undead Azula Beastman,6
+30700000,Dominula Celebrant,6
+30700030,Dominula Celebrant,6
+30700032,Dominula Celebrant,6
+30701000,Dominula Celebrant,6
+30701030,Dominula Celebrant,6
+30701032,Dominula Celebrant,6
+30702000,Dominula Celebrant,6
+30702030,Dominula Celebrant,6
+30703000,Dominula Celebrant,6
+30703030,Dominula Celebrant,6
+30704000,Dominula Celebrant,6
+30704030,Dominula Celebrant,6
+30800000,Imp,6
+30800007,Imp,6
+30800010,Imp,6
+30800012,Imp,6
+30800020,Imp,6
+30800030,Imp,6
+30800032,Imp,6
+30800033,Imp,6
+30800034,Imp,6
+30800035,Imp,6
+30800040,Imp,6
+30800042,Imp,6
+30800050,Imp,6
+30800052,Imp,6
+30800100,Imp,6
+30800110,Imp,6
+30800830,Imp,6
+30800852,Imp,6
+30800912,Imp,6
+30801000,Imp,6
+30801010,Imp,6
+30801012,Imp,6
+30801020,Imp,6
+30801032,Imp,6
+30801033,Imp,6
+30801034,Imp,6
+30801035,Imp,6
+30801040,Imp,6
+30801042,Imp,6
+30801100,Imp,6
+30801120,Imp,6
+30801133,Imp,6
+30801150,Imp,6
+30801200,Imp,6
+30801232,Imp,6
+30801233,Imp,6
+30802000,Imp,6
+30802010,Imp,6
+30802012,Imp,6
+30802030,Imp,6
+30802032,Imp,6
+30802033,Imp,6
+30802034,Imp,6
+30802035,Imp,6
+30806000,Imp,6
+30806007,Imp,6
+30806012,Imp,6
+30806020,Imp,6
+30806030,Imp,6
+30806032,Imp,6
+30806033,Imp,6
+30806034,Imp,6
+30806035,Imp,6
+30806040,Imp,6
+30806042,Imp,6
+30806050,Imp,6
+30806052,Imp,6
+30807000,Imp,6
+30808000,Imp,6
+31000000,Elemer of the Briar,7
+31000010,Elemer of the Briar,7
+31000020,Elemer of the Briar,7
+31000033,Elemer of the Briar,7
+31000042,Elemer of the Briar,7
+31000931,Elemer of the Briar,7
+31500000,Night's Cavalry,6
+31500010,Night's Cavalry,6
+31500020,Night's Cavalry,6
+31500032,Night's Cavalry,6
+31500040,Night's Cavalry,6
+31500042,Night's Cavalry,6
+31500050,Night's Cavalry,6
+31500052,Night's Cavalry,6
+31501000,Night's Cavalry,6
+31501012,Night's Cavalry,6
+31501030,Night's Cavalry,6
+31501040,Night's Cavalry,6
+31501052,Night's Cavalry,6
+31600000,Night's Cavalry Horse,6
+31600010,Night's Cavalry Horse,6
+31600012,Night's Cavalry Horse,6
+31600020,Night's Cavalry Horse,6
+31600030,Night's Cavalry Horse,6
+31600032,Night's Cavalry Horse,6
+31600040,Night's Cavalry Horse,6
+31600042,Night's Cavalry Horse,6
+31600050,Night's Cavalry Horse,6
+31600052,Night's Cavalry Horse,6
+31700000,Albinauric Archer,6
+31700052,Albinauric Archer,6
+31701000,Albinauric Archer,6
+31701052,Albinauric Archer,6
+31709000,Albinauric Archer,26
+31709020,Albinauric Archer,26
+31709052,Albinauric Archer,0
+31710000,Albinauric Archer,26
+31710052,Albinauric Archer,0
+31800000,Dog,6
+31800020,Dog,6
+31800021,Dog,6
+31800052,Dog,6
+31809000,Dog,26
+31809020,Dog,26
+31810000,Red Wolf of Radagon,6
+31810020,Red Wolf of Radagon,6
+31810022,Red Wolf of Radagon,6
+31810052,Red Wolf of Radagon,6
+31810065,Red Wolf of Radagon,6
+31811000,Red Wolf of Radagon,6
+31811024,Red Wolf of Radagon,6
+31811032,Red Wolf of Radagon,6
+31811052,Red Wolf of Radagon,6
+32000000,Nomad Trader - Merchant Kalé,26
+32000010,Nomad Trader - Merchant Kalé,26
+32000012,Nomad Trader - Merchant Kalé,26
+32000020,Nomad Trader - Merchant Kalé,26
+32000030,Nomad Trader - Merchant Kalé,26
+32000032,Nomad Trader - Merchant Kalé,28
+32000034,Nomad Trader - Merchant Kalé,26
+32000035,Nomad Trader - Merchant Kalé,0
+32000110,Nomad Trader - Merchant Kalé,26
+32000120,Nomad Trader - Merchant Kalé,26
+32000134,Nomad Trader - Merchant Kalé,26
+32000135,Nomad Trader - Merchant Kalé,26
+32000210,Nomad Trader - Merchant Kalé,26
+32000220,Nomad Trader - Merchant Kalé,26
+32000234,Nomad Trader - Merchant Kalé,26
+32001010,Nomad Trader - Merchant Kalé,26
+32001110,Nomad Trader - Nomadic Merchant,26
+32001210,Nomad Trader - Nomadic Merchant,26
+32001310,Nomad Trader - Nomadic Merchant,26
+32001412,Nomad Trader - Nomadic Merchant,26
+32001520,Nomad Trader - Nomadic Merchant,26
+32001612,Nomad Trader - Isolated Merchant,26
+32001720,Nomad Trader - Isolated Merchant,26
+32001820,Nomad Trader - Nomadic Merchant,26
+32001933,Nomad Trader - Hermit Merchant,26
+32002030,Nomad Trader - Nomadic Merchant,26
+32002132,Nomad Trader - Nomadic Merchant,26
+32002240,Nomad Trader - Nomadic Merchant,26
+32002340,Nomad Trader - Nomadic Merchant,26
+32002542,Nomad Trader - Isolated Merchant,26
+32002650,Nomad Trader - Hermit Merchant,26
+32002764,Nomad Trader - Abandoned Merchant,26
+32002860,Nomad Trader - Hermit Merchant,26
+32002968,Nomad Trader - Imprisoned Merchant,26
+32003010,Nomad Trader - Nomadic Merchant,26
+32008010,Nomad Trader,26
+32008900,Nomad Trader,26
+32009000,Nomad Trader,26
+32009100,Nomad Trader,26
+32009200,Nomad Trader,26
+32009210,Nomad Trader,26
+32009300,Nomad Trader,26
+32009400,Nomad Trader,26
+32009500,Nomad Trader,26
+32009600,Nomad Trader,26
+32009700,Nomad Trader,26
+32009800,Nomad Trader,26
+32009900,Nomad Trader,27
+32009910,Nomad Trader,27
+32010000,Nomad Trader,6
+32010035,Nomad Trader,6
+32020000,Nomad Trader,26
+32020035,Nomad Trader,0
+32100000,Nomad Mule,26
+32100010,Nomad Mule,26
+32100012,Nomad Mule,26
+32100030,Nomad Mule,26
+32100032,Nomad Mule,26
+32100210,Nomad Mule,26
+32101010,Nomad Mule,26
+32101110,Nomad Mule,26
+32101210,Nomad Mule,26
+32101310,Nomad Mule,26
+32101412,Nomad Mule,26
+32101520,Nomad Mule,26
+32101612,Nomad Mule,26
+32101720,Nomad Mule,26
+32101820,Nomad Mule,26
+32101933,Nomad Mule,26
+32102030,Nomad Mule,26
+32102132,Nomad Mule,26
+32102240,Nomad Mule,26
+32102340,Nomad Mule,26
+32102542,Nomad Mule,26
+32102650,Nomad Mule,26
+32102764,Nomad Mule,26
+32102860,Nomad Mule,26
+32102968,Nomad Mule,26
+32103010,Nomad Mule,26
+32108900,Nomad Mule,26
+32109000,Nomad Mule,26
+32109010,Nomad Mule,26
+32109100,Nomad Mule,26
+32109200,Nomad Mule,26
+32109300,Nomad Mule,26
+32109400,Nomad Mule,26
+32109500,Nomad Mule,26
+32109600,Nomad Mule,26
+32109700,Nomad Mule,26
+32109800,Nomad Mule,26
+32109810,Nomad Mule,26
+32109900,Nomad Mule,27
+32500000,Draconic Tree Sentinel,7
+32500033,Draconic Tree Sentinel,7
+32500070,Draconic Tree Sentinel,7
+32500072,Draconic Tree Sentinel,7
+32510000,Tree Sentinel,7
+32510010,Tree Sentinel,7
+32510030,Tree Sentinel,33
+32510034,Tree Sentinel,7
+32510070,Tree Sentinel,7
+32511000,Tree Sentinel,7
+32511030,Tree Sentinel,33
+32520000,Fallen Tree Sentinel,7
+32520054,Fallen Tree Sentinel,7
+32520100,Fallen Tree Sentinel,7
+32520921,Fallen Tree Sentinel,7
+33000000,Nox Swordstress,6
+33000062,Nox Swordstress,6
+33000820,Nox Swordstress,0
+33000900,Nox Swordstress,26
+33000940,Nox Swordstress,6
+33001000,Nox Swordstress,6
+33001062,Nox Swordstress,6
+33001065,Nox Swordstress,6
+33001100,Nox Swordstress,6
+33001940,Nox Swordstress,6
+33002000,Nox Swordstress,6
+33002062,Nox Swordstress,6
+33002065,Nox Swordstress,6
+33200000,Silver Tear,6
+33200062,Silver Tear,6
+33200100,Silver Tear,6
+33200162,Silver Tear,6
+33200200,Silver Tear,6
+33200262,Silver Tear,6
+33200265,Silver Tear,6
+33201000,Silver Tear,6
+33201052,Silver Tear,6
+33201062,Silver Tear,6
+33201065,Silver Tear,6
+33201100,Silver Tear,6
+33201165,Silver Tear,6
+33202000,Silver Tear,6
+33202062,Silver Tear,6
+33202100,Silver Tear,6
+33202200,Silver Tear,6
+33202262,Silver Tear,6
+33209000,Silver Tear,6
+33209010,Silver Tear,6
+33300000,Silver Tear Orb,6
+33300040,Silver Tear Orb,6
+33300042,Silver Tear Orb,6
+33300062,Silver Tear Orb,6
+33300065,Silver Tear Orb,6
+33300100,Silver Tear Orb,6
+33300162,Silver Tear Orb,6
+33300262,Silver Tear Orb,6
+33300600,Silver Tear Orb,6
+33300662,Silver Tear Orb,6
+33300665,Silver Tear Orb,6
+33300700,Silver Tear Orb,6
+33300762,Silver Tear Orb,6
+33300800,Silver Tear Orb,6
+33300862,Silver Tear Orb,6
+33500000,Crystalian,6
+33500022,Crystalian,6
+33500154,Crystalian,6
+33500500,Crystalian,6
+33500556,Crystalian,6
+33500920,Crystalian,6
+33500930,Crystalian,6
+33500940,Crystalian,6
+33501000,Crystalian,6
+33501020,Crystalian,6
+33501022,Crystalian,6
+33501154,Crystalian,6
+33501500,Crystalian,6
+33501556,Crystalian,6
+33501920,Crystalian,6
+33501930,Crystalian,6
+33501940,Crystalian,6
+33502000,Crystalian,6
+33502154,Crystalian,6
+33502500,Crystalian,6
+33502556,Crystalian,6
+33502920,Crystalian,6
+33502940,Crystalian,6
+33507000,Crystalian,6
+33507100,Crystalian,6
+33507200,Crystalian,6
+33507300,Crystalian,6
+33509000,Crystalian,6
+33509161,Crystalian,6
+33509264,Crystalian,6
+33600000,Ancestral Follower,6
+33600020,Ancestral Follower,6
+33600062,Ancestral Follower,6
+33600064,Ancestral Follower,6
+33600065,Ancestral Follower,6
+33600100,Ancestral Follower,6
+33600200,Ancestral Follower,6
+33600264,Ancestral Follower,6
+33600265,Ancestral Follower,6
+33600300,Ancestral Follower,6
+33600500,Ancestral Follower,6
+33600520,Ancestral Follower,6
+33600564,Ancestral Follower,6
+33600565,Ancestral Follower,6
+33600600,Ancestral Follower,6
+33600700,Ancestral Follower,6
+33600764,Ancestral Follower,6
+33600765,Ancestral Follower,6
+33601000,Ancestral Follower,6
+33601064,Ancestral Follower,6
+33601065,Ancestral Follower,6
+33601100,Ancestral Follower,6
+33601200,Ancestral Follower,6
+33601264,Ancestral Follower,6
+33601265,Ancestral Follower,6
+33601300,Ancestral Follower,6
+33601365,Ancestral Follower,6
+33602000,Ancestral Follower,6
+33602064,Ancestral Follower,6
+33602065,Ancestral Follower,6
+33602100,Ancestral Follower,6
+33602200,Ancestral Follower,6
+33602264,Ancestral Follower,6
+33602265,Ancestral Follower,6
+33602300,Ancestral Follower,6
+33602352,Ancestral Follower,6
+33602365,Ancestral Follower,6
+33605000,Ancestral Follower,6
+33605064,Ancestral Follower,6
+33605200,Ancestral Follower,6
+33605264,Ancestral Follower,6
+33605500,Ancestral Follower,6
+33605564,Ancestral Follower,6
+33605700,Ancestral Follower,6
+33605764,Ancestral Follower,6
+33606000,Ancestral Follower,6
+33606064,Ancestral Follower,6
+33606200,Ancestral Follower,6
+33606264,Ancestral Follower,6
+33607000,Ancestral Follower,6
+33607064,Ancestral Follower,6
+33607200,Ancestral Follower,6
+33607264,Ancestral Follower,6
+33610000,Ancestral Follower,6
+33610062,Ancestral Follower,6
+33610200,Ancestral Follower,6
+33610300,Ancestral Follower,6
+33610500,Ancestral Follower,6
+33610562,Ancestral Follower,6
+33610700,Ancestral Follower,6
+33611000,Ancestral Follower,6
+33611062,Ancestral Follower,6
+33611200,Ancestral Follower,6
+33611300,Ancestral Follower,6
+33612000,Ancestral Follower,6
+33612062,Ancestral Follower,6
+33612200,Ancestral Follower,6
+33612300,Ancestral Follower,6
+33700000,Ancestral Follower Shaman,6
+33700052,Ancestral Follower Shaman,6
+33700064,Ancestral Follower Shaman,6
+33700065,Ancestral Follower Shaman,6
+33700100,Ancestral Follower Shaman,6
+33700200,Ancestral Follower Shaman,6
+33700265,Ancestral Follower Shaman,6
+33700865,Ancestral Follower Shaman,6
+33710000,Ancestral Follower Shaman,6
+33710062,Ancestral Follower Shaman,6
+33710100,Ancestral Follower Shaman,6
+34000000,Exiled Duelist,6
+34000030,Exiled Duelist,6
+34000034,Exiled Duelist,6
+34000040,Exiled Duelist,6
+34000100,Exiled Duelist,6
+34000200,Exiled Duelist,6
+34000252,Exiled Duelist,6
+34000254,Exiled Duelist,6
+34000256,Exiled Duelist,6
+34000300,Exiled Duelist,6
+34000800,Exiled Duelist,6
+34000852,Exiled Duelist,6
+34000900,Exiled Duelist,26
+34000940,Exiled Duelist,6
+34000952,Exiled Duelist,6
+34001000,Exiled Duelist,6
+34001034,Exiled Duelist,6
+34001100,Exiled Duelist,6
+34001110,Exiled Duelist,6
+34001133,Exiled Duelist,6
+34001200,Exiled Duelist,6
+34001252,Exiled Duelist,6
+34001254,Exiled Duelist,6
+34001256,Exiled Duelist,6
+34001300,Exiled Duelist,6
+34001800,Exiled Duelist,6
+34001852,Exiled Duelist,6
+34500000,Misbegotten,6
+34500012,Misbegotten,60
+34500013,Misbegotten,60
+34500030,Misbegotten,6
+34500034,Misbegotten,6
+34500054,Misbegotten,6
+34500100,Misbegotten,24
+34501000,Misbegotten,6
+34501012,Misbegotten,60
+34501013,Misbegotten,60
+34501020,Misbegotten,6
+34501030,Misbegotten,6
+34501034,Misbegotten,6
+34501052,Misbegotten,6
+34501054,Misbegotten,6
+34501100,Misbegotten,24
+34501354,Misbegotten,6
+34502000,Misbegotten,6
+34502012,Misbegotten,60
+34502030,Misbegotten,6
+34502054,Misbegotten,6
+34502100,Misbegotten,24
+34502354,Misbegotten,6
+34509000,Misbegotten,26
+34509100,Misbegotten,26
+34510000,Misbegotten,6
+34510012,Misbegotten,60
+34510013,Misbegotten,60
+34510030,Misbegotten,6
+34510034,Misbegotten,6
+34510052,Misbegotten,6
+34510054,Misbegotten,6
+34510100,Misbegotten,26
+34510179,Misbegotten,0
+34510200,Misbegotten,24
+34510354,Misbegotten,6
+34510912,Misbegotten,6
+34519000,Misbegotten,26
+34519020,Misbegotten,26
+34600000,Winged Misbegotten,6
+34600012,Winged Misbegotten,60
+34600034,Winged Misbegotten,6
+34600054,Winged Misbegotten,6
+34600354,Winged Misbegotten,6
+34600913,Winged Misbegotten,60
+34600930,Winged Misbegotten,6
+34600941,Winged Misbegotten,6
+34601000,Winged Misbegotten,6
+34601952,Winged Misbegotten,6
+34700000,Albinauric,6
+34700020,Albinauric,51
+34700100,Albinauric,6
+34700120,Albinauric,51
+34700200,Albinauric,6
+34700268,Albinauric,6
+34700300,Albinauric,6
+34700352,Albinauric,6
+34700400,Albinauric,6
+34700452,Albinauric,6
+34701000,Albinauric,6
+34701020,Albinauric,51
+34701100,Albinauric,6
+34701120,Albinauric,51
+34701200,Albinauric,6
+34701300,Albinauric,6
+34701400,Albinauric,6
+34701468,Albinauric,6
+34701500,Albinauric,6
+34701552,Albinauric,6
+34701600,Albinauric,6
+34701652,Albinauric,6
+34702000,Albinauric,6
+34702100,Albinauric,6
+34702120,Albinauric,51
+34702200,Albinauric,6
+34702300,Albinauric,6
+34702320,Albinauric,51
+34702400,Albinauric,6
+34702468,Albinauric,6
+34702500,Albinauric,6
+34702552,Albinauric,6
+34703000,Albinauric,6
+34703020,Albinauric,51
+34703068,Albinauric,6
+34703100,Albinauric,6
+34703200,Albinauric,6
+34703252,Albinauric,6
+34704000,Albinauric,6
+34704020,Albinauric,51
+34704100,Albinauric,6
+34704120,Albinauric,51
+34704200,Albinauric,6
+34704268,Albinauric,6
+34704300,Albinauric,6
+34704352,Albinauric,6
+34715000,Albinauric,6
+34715100,Albinauric,6
+34715120,Albinauric,51
+34715200,Albinauric,6
+34715268,Albinauric,6
+34715300,Albinauric,6
+34715352,Albinauric,6
+35000000,Skeleton (Curved Sword),6
+35000010,Skeleton (Curved Sword),6
+35000012,Skeleton (Curved Sword),6
+35000014,Skeleton (Curved Sword),6
+35000020,Skeleton (Curved Sword),6
+35000030,Skeleton (Curved Sword),6
+35000032,Skeleton (Curved Sword),6
+35000034,Skeleton (Curved Sword),6
+35000040,Skeleton (Curved Sword),6
+35000050,Skeleton (Curved Sword),6
+35000100,Skeleton (Curved Sword),6
+35000172,Skeleton (Curved Sword),6
+35000300,Skeleton (Curved Sword),6
+35000330,Skeleton (Curved Sword),6
+35000400,Skeleton (Curved Sword),6
+35000500,Skeleton (Curved Sword),6
+35000700,Skeleton (Curved Sword),6
+35000733,Skeleton (Curved Sword),6
+35001000,Skeleton (Curved Sword),6
+35001010,Skeleton (Curved Sword),6
+35001012,Skeleton (Curved Sword),6
+35001014,Skeleton (Curved Sword),6
+35001030,Skeleton (Curved Sword),6
+35001032,Skeleton (Curved Sword),6
+35001040,Skeleton (Curved Sword),6
+35001050,Skeleton (Curved Sword),6
+35001100,Skeleton (Curved Sword),6
+35001172,Skeleton (Curved Sword),6
+35001700,Skeleton (Curved Sword),6
+35001733,Skeleton (Curved Sword),6
+35002000,Skeleton (Curved Sword),6
+35002010,Skeleton (Curved Sword),6
+35002012,Skeleton (Curved Sword),6
+35002020,Skeleton (Curved Sword),6
+35002032,Skeleton (Curved Sword),6
+35002040,Skeleton (Curved Sword),6
+35002050,Skeleton (Curved Sword),6
+35002100,Skeleton (Curved Sword),6
+35002172,Skeleton (Curved Sword),6
+35002700,Skeleton (Curved Sword),6
+35002733,Skeleton (Curved Sword),6
+35003000,Skeleton (Curved Sword),6
+35003010,Skeleton (Curved Sword),6
+35003012,Skeleton (Curved Sword),6
+35003014,Skeleton (Curved Sword),6
+35003032,Skeleton (Curved Sword),6
+35003040,Skeleton (Curved Sword),6
+35003050,Skeleton (Curved Sword),6
+35003100,Skeleton (Curved Sword),6
+35003172,Skeleton (Curved Sword),6
+35003700,Skeleton (Curved Sword),6
+35003733,Skeleton (Curved Sword),6
+35004000,Skeleton (Curved Sword),6
+35004010,Skeleton (Curved Sword),6
+35004012,Skeleton (Curved Sword),6
+35004020,Skeleton (Curved Sword),6
+35004030,Skeleton (Curved Sword),6
+35004032,Skeleton (Curved Sword),6
+35004040,Skeleton (Curved Sword),6
+35004050,Skeleton (Curved Sword),6
+35004100,Skeleton (Curved Sword),6
+35004172,Skeleton (Curved Sword),6
+35004700,Skeleton (Curved Sword),6
+35004733,Skeleton (Curved Sword),6
+35005000,Skeleton (Curved Sword),6
+35005010,Skeleton (Curved Sword),6
+35005020,Skeleton (Curved Sword),6
+35005032,Skeleton (Curved Sword),6
+35006000,Skeleton (Curved Sword),6
+35006010,Skeleton (Curved Sword),6
+35006032,Skeleton (Curved Sword),6
+35007000,Skeleton (Curved Sword),6
+35007010,Skeleton (Curved Sword),6
+35007020,Skeleton (Curved Sword),6
+35007032,Skeleton (Curved Sword),6
+35008000,Skeleton (Curved Sword),6
+35008010,Skeleton (Curved Sword),6
+35008020,Skeleton (Curved Sword),6
+35008032,Skeleton (Curved Sword),6
+35009000,Skeleton (Curved Sword),6
+35009010,Skeleton (Curved Sword),6
+35009032,Skeleton (Curved Sword),6
+35100000,Skeleton (Scimitar),6
+35100006,Skeleton (Scimitar),6
+35100010,Skeleton (Scimitar),6
+35100012,Skeleton (Scimitar),6
+35100020,Skeleton (Scimitar),6
+35100032,Skeleton (Scimitar),6
+35100033,Skeleton (Scimitar),6
+35100040,Skeleton (Scimitar),6
+35100100,Skeleton (Scimitar),6
+35100110,Skeleton (Scimitar),6
+35100112,Skeleton (Scimitar),6
+35100120,Skeleton (Scimitar),6
+35100132,Skeleton (Scimitar),6
+35100133,Skeleton (Scimitar),6
+35100200,Skeleton (Scimitar),6
+35100210,Skeleton (Scimitar),6
+35100920,Skeleton (Scimitar),6
+35101000,Skeleton (Scimitar),6
+35101006,Skeleton (Scimitar),6
+35101010,Skeleton (Scimitar),6
+35101012,Skeleton (Scimitar),6
+35101020,Skeleton (Scimitar),6
+35101032,Skeleton (Scimitar),6
+35101033,Skeleton (Scimitar),6
+35101040,Skeleton (Scimitar),6
+35101100,Skeleton (Scimitar),6
+35101110,Skeleton (Scimitar),6
+35101112,Skeleton (Scimitar),6
+35101140,Skeleton (Scimitar),6
+35101920,Skeleton (Scimitar),6
+35102000,Skeleton (Scimitar),6
+35102006,Skeleton (Scimitar),6
+35102010,Skeleton (Scimitar),6
+35102012,Skeleton (Scimitar),6
+35102020,Skeleton (Scimitar),6
+35102032,Skeleton (Scimitar),6
+35102033,Skeleton (Scimitar),6
+35102040,Skeleton (Scimitar),6
+35102920,Skeleton (Scimitar),6
+35103000,Skeleton (Scimitar),6
+35103010,Skeleton (Scimitar),6
+35103012,Skeleton (Scimitar),6
+35103020,Skeleton (Scimitar),6
+35103100,Skeleton (Scimitar),6
+35103106,Skeleton (Scimitar),6
+35103110,Skeleton (Scimitar),6
+35104000,Skeleton (Scimitar),6
+35104006,Skeleton (Scimitar),6
+35104010,Skeleton (Scimitar),6
+35104012,Skeleton (Scimitar),6
+35104032,Skeleton (Scimitar),6
+35104100,Skeleton (Scimitar),6
+35104110,Skeleton (Scimitar),6
+35500000,Godskin Apostle,6
+35500020,Godskin Apostle,6
+35500030,Godskin Apostle,6
+35500050,Godskin Apostle,6
+35500068,Godskin Apostle,6
+35500930,Godskin Apostle,6
+35600000,Godskin Noble,6
+35600030,Godskin Noble,6
+35600040,Godskin Noble,6
+35600042,Godskin Noble,6
+35600100,Godskin Noble,6
+35600172,Godskin Noble,6
+35600900,Godskin Noble,6
+35600950,Godskin Noble,6
+35600972,Godskin Noble,6
+35700000,Grave Warden Duelist,6
+35700028,Grave Warden Duelist,6
+35700038,Grave Warden Duelist,6
+35700100,Grave Warden Duelist,6
+35700172,Grave Warden Duelist,6
+35700950,Grave Warden Duelist,6
+36000000,Alabaster Lord,6
+36000010,Alabaster Lord,6
+36000012,Alabaster Lord,6
+36000024,Alabaster Lord,6
+36000052,Alabaster Lord,6
+36000062,Alabaster Lord,6
+36001000,Alabaster Lord,6
+36001052,Alabaster Lord,6
+36001920,Alabaster Lord,6
+36001933,Alabaster Lord,6
+36100000,Oracle Envoy,6
+36100034,Oracle Envoy,6
+36100054,Oracle Envoy,6
+36200000,Oracle Envoy,6
+36200034,Oracle Envoy,6
+36200054,Oracle Envoy,6
+36300000,Oracle Envoy,6
+36300054,Oracle Envoy,6
+36400000,,6
+36500000,Erdtree Guardian,6
+36500012,Erdtree Guardian,6
+36500020,Erdtree Guardian,6
+36500030,Erdtree Guardian,57
+36500033,Erdtree Guardian,6
+36500034,Erdtree Guardian,6
+36501000,Erdtree Guardian,6
+36501033,Erdtree Guardian,6
+36501034,Erdtree Guardian,6
+36501100,Erdtree Guardian,6
+36501833,Erdtree Guardian,6
+36502000,Erdtree Guardian,6
+36502040,Erdtree Guardian,6
+36502042,Erdtree Guardian,6
+36502052,Erdtree Guardian,6
+36503000,Erdtree Guardian,6
+36600000,Commoner,6
+36600014,Commoner,6
+36600020,Commoner,6
+36600030,Commoner,6
+36600034,Commoner,6
+36600035,Commoner,6
+36600041,Commoner,48
+36600070,Commoner,6
+36600100,Commoner,6
+36600110,Commoner,6
+36600114,Commoner,6
+36600600,Commoner,6
+36600612,Commoner,6
+36600620,Commoner,6
+36600652,Commoner,6
+36600700,Commoner,6
+36600733,Commoner,33
+36600800,Commoner,6
+36600838,Commoner,6
+36601000,Commoner,6
+36601030,Commoner,6
+36601070,Commoner,6
+36601200,Commoner,6
+36601212,Commoner,6
+36601220,Commoner,6
+36601252,Commoner,6
+36601300,Commoner,6
+36601333,Commoner,6
+36601400,Commoner,6
+36601438,Commoner,6
+36602000,Commoner,6
+36602070,Commoner,6
+36602100,Commoner,6
+36602152,Commoner,6
+36602200,Commoner,6
+36602233,Commoner,6
+36602300,Commoner,6
+36602338,Commoner,6
+36603000,Commoner,6
+36603010,Commoner,6
+36603020,Commoner,6
+36603100,Commoner,6
+36603110,Commoner,6
+36608000,Commoner,6
+36608033,Commoner,6
+36609000,Commoner,0
+36609006,Commoner,0
+36609010,Commoner,0
+36609012,Commoner,0
+36609020,Commoner,0
+36609022,Commoner,0
+36609040,Commoner,0
+36609052,Commoner,0
+36609100,Commoner,0
+36609114,Commoner,0
+36609120,Commoner,0
+36609130,Commoner,0
+36609140,Commoner,0
+36609142,Commoner,0
+36609152,Commoner,0
+36609162,Commoner,0
+36609165,Commoner,0
+36609170,Commoner,0
+36609500,Commoner,0
+36609510,Commoner,0
+36609520,Commoner,0
+36610000,Putrid Corpse,6
+36610012,Putrid Corpse,6
+36610030,Putrid Corpse,6
+36610032,Putrid Corpse,6
+36610033,Putrid Corpse,6
+36610034,Putrid Corpse,6
+36610035,Putrid Corpse,6
+36610039,Putrid Corpse,6
+36610040,Putrid Corpse,6
+36610054,Putrid Corpse,6
+36610100,Putrid Corpse,24
+36610140,Putrid Corpse,6
+36610812,Putrid Corpse,6
+36610820,Putrid Corpse,6
+36611000,Putrid Corpse,6
+36611012,Putrid Corpse,6
+36611030,Putrid Corpse,6
+36611031,Putrid Corpse,6
+36611035,Putrid Corpse,6
+36611100,Putrid Corpse,24
+36612000,Putrid Corpse,6
+36612030,Putrid Corpse,6
+36612032,Putrid Corpse,6
+36612035,Putrid Corpse,6
+36612040,Putrid Corpse,6
+36612132,Putrid Corpse,6
+36612200,Putrid Corpse,24
+36613000,Putrid Corpse,6
+36613054,Putrid Corpse,6
+36613100,Putrid Corpse,6
+36613154,Putrid Corpse,6
+36613200,Putrid Corpse,6
+36613254,Putrid Corpse,6
+36614000,Putrid Corpse,6
+36614024,Putrid Corpse,6
+36615000,Putrid Corpse,6
+36615068,Putrid Corpse,6
+36616000,Putrid Corpse,6
+36616040,Putrid Corpse,6
+36619000,Putrid Corpse,0
+36619040,Putrid Corpse,0
+36620000,Putrid Corpse,6
+36620012,Putrid Corpse,6
+36620034,Putrid Corpse,6
+36620040,Putrid Corpse,6
+36620054,Putrid Corpse,6
+36620100,Putrid Corpse,24
+36620140,Putrid Corpse,6
+36621000,Putrid Corpse,6
+36621031,Putrid Corpse,6
+36621035,Putrid Corpse,6
+36621100,Putrid Corpse,24
+36621140,Putrid Corpse,6
+36622000,Putrid Corpse,6
+36622040,Putrid Corpse,6
+36622200,Putrid Corpse,24
+36623000,Putrid Corpse,6
+36623054,Putrid Corpse,6
+36623100,Putrid Corpse,6
+36623154,Putrid Corpse,6
+36623200,Putrid Corpse,6
+36623254,Putrid Corpse,6
+36624000,Putrid Corpse,6
+36624024,Putrid Corpse,6
+36625000,Putrid Corpse,6
+36625068,Putrid Corpse,6
+36626000,Putrid Corpse,6
+36626040,Putrid Corpse,6
+36640000,Cemetery Shade,6
+36640012,Cemetery Shade,6
+36640032,Cemetery Shade,6
+36640035,Cemetery Shade,6
+36640040,Cemetery Shade,24
+36640920,Cemetery Shade,6
+36650000,Devious Commoner,26
+36650014,Devious Commoner,26
+36650114,Devious Commoner,26
+36650214,Devious Commoner,26
+36650314,Devious Commoner,26
+36650414,Devious Commoner,26
+36650514,Devious Commoner,26
+36650614,Devious Commoner,0
+36651000,Devious Commoner,6
+36660000,Sunflower Commoner,26
+36660030,Sunflower Commoner,26
+36660034,Sunflower Commoner,26
+36660050,Sunflower Commoner,26
+36660070,Sunflower Commoner,26
+36700000,Albinauric Lookout,6
+36700042,Albinauric Lookout,6
+36700100,Albinauric Lookout,6
+36700120,Albinauric Lookout,6
+36700134,Albinauric Lookout,6
+36701000,Albinauric Lookout,6
+36701021,Albinauric Lookout,6
+36701038,Albinauric Lookout,6
+36701042,Albinauric Lookout,6
+36701100,Albinauric Lookout,6
+36701120,Albinauric Lookout,6
+36701121,Albinauric Lookout,6
+36701138,Albinauric Lookout,6
+36701200,Albinauric Lookout,26
+36702000,Albinauric Lookout,6
+36702038,Albinauric Lookout,6
+36702051,Albinauric Lookout,6
+36702100,Albinauric Lookout,6
+36702138,Albinauric Lookout,6
+36702151,Albinauric Lookout,6
+36702200,Albinauric Lookout,6
+36702238,Albinauric Lookout,6
+36702251,Albinauric Lookout,6
+36703000,Albinauric Lookout,6
+36703034,Albinauric Lookout,6
+36703038,Albinauric Lookout,6
+36703051,Albinauric Lookout,6
+36704000,Albinauric Lookout,6
+36704020,Albinauric Lookout,6
+36708000,Albinauric Lookout,26
+36708020,Albinauric Lookout,26
+36709000,Albinauric Lookout,26
+36709020,Albinauric Lookout,0
+36709100,Albinauric Lookout,0
+36709120,Albinauric Lookout,26
+36709920,Albinauric Lookout,0
+37000000,Depraved Perfumer,6
+37000010,Depraved Perfumer,6
+37000020,Depraved Perfumer,6
+37000030,Depraved Perfumer,6
+37000031,Depraved Perfumer,6
+37000033,Depraved Perfumer,6
+37001000,Depraved Perfumer,6
+37001030,Depraved Perfumer,6
+37001031,Depraved Perfumer,6
+37010000,Depraved Perfumer,6
+37010030,Depraved Perfumer,6
+37010033,Depraved Perfumer,6
+37010034,Depraved Perfumer,6
+37010830,Depraved Perfumer,6
+37011000,Depraved Perfumer,6
+37011030,Depraved Perfumer,6
+37011034,Depraved Perfumer,6
+37011930,Depraved Perfumer,6
+37020000,Raya Lucaria Scholar,6
+37020020,Raya Lucaria Scholar,6
+37020021,Raya Lucaria Scholar,6
+37020024,Raya Lucaria Scholar,6
+37020032,Raya Lucaria Scholar,6
+37020040,Raya Lucaria Scholar,6
+37021000,Raya Lucaria Scholar,6
+37021020,Raya Lucaria Scholar,6
+37021024,Raya Lucaria Scholar,6
+37021032,Raya Lucaria Scholar,6
+37021040,Raya Lucaria Scholar,6
+37021140,Raya Lucaria Scholar,6
+37022000,Raya Lucaria Scholar,6
+37022021,Raya Lucaria Scholar,6
+37022024,Raya Lucaria Scholar,6
+37022040,Raya Lucaria Scholar,6
+37022140,Raya Lucaria Scholar,6
+37023000,Raya Lucaria Scholar,6
+37023020,Raya Lucaria Scholar,6
+37023024,Raya Lucaria Scholar,6
+37023040,Raya Lucaria Scholar,6
+37023140,Raya Lucaria Scholar,6
+37024000,Raya Lucaria Scholar,6
+37024024,Raya Lucaria Scholar,6
+37024040,Raya Lucaria Scholar,6
+37030000,Noble's Page,6
+37030012,Noble's Page,6
+37030021,Noble's Page,6
+37030030,Noble's Page,6
+37030031,Noble's Page,6
+37030032,Noble's Page,60
+37030033,Noble's Page,6
+37030034,Noble's Page,6
+37030041,Noble's Page,6
+37030052,Noble's Page,6
+37031000,Noble's Page,6
+37031024,Noble's Page,6
+37031034,Noble's Page,6
+37040000,Battlemage,6
+37040020,Battlemage,6
+37040040,Battlemage,6
+37040054,Battlemage,6
+37040800,Battlemage,6
+37040830,Battlemage,6
+37040940,Battlemage,6
+37100000,Crystallized Battlemage,26
+37100024,Crystallized Battlemage,26
+37100032,Crystallized Battlemage,26
+37200000,Orbhead Sorcerer,26
+37200040,Orbhead Sorcerer,26
+37200042,Orbhead Sorcerer,26
+37300000,Orb of Many Faces,6
+37300020,Orb of Many Faces,6
+37300040,Orb of Many Faces,6
+37300042,Orb of Many Faces,6
+37300052,Orb of Many Faces,6
+37300100,Orb of Many Faces,6
+37300112,Orb of Many Faces,6
+37300120,Orb of Many Faces,6
+37300152,Orb of Many Faces,6
+37301000,Orb of Many Faces,0
+37301024,Orb of Many Faces,0
+37500000,Clayman,6
+37500060,Clayman,6
+37500062,Clayman,6
+37500064,Clayman,6
+37500065,Clayman,6
+37501000,Clayman,6
+37501060,Clayman,6
+37501062,Clayman,6
+37502000,Clayman,6
+37502060,Clayman,6
+37502062,Clayman,6
+37502064,Clayman,6
+37502065,Clayman,6
+38000000,Cleanrot Knight,6
+38000031,Cleanrot Knight,6
+38000040,Cleanrot Knight,51
+38000042,Cleanrot Knight,51
+38000052,Cleanrot Knight,6
+38000056,Cleanrot Knight,6
+38000100,Cleanrot Knight,6
+38000142,Cleanrot Knight,51
+38000242,Cleanrot Knight,51
+38000920,Cleanrot Knight,6
+38000940,Cleanrot Knight,6
+38001000,Cleanrot Knight,6
+38001031,Cleanrot Knight,6
+38001040,Cleanrot Knight,51
+38001042,Cleanrot Knight,51
+38001052,Cleanrot Knight,6
+38001056,Cleanrot Knight,6
+38001100,Cleanrot Knight,6
+38001142,Cleanrot Knight,51
+38001940,Cleanrot Knight,6
+38100000,Kindred of Rot,6
+38100040,Kindred of Rot,51
+38100056,Kindred of Rot,6
+38100062,Kindred of Rot,6
+38100932,Kindred of Rot,6
+38101000,Kindred of Rot,6
+38101040,Kindred of Rot,51
+38101056,Kindred of Rot,6
+38102000,Kindred of Rot,6
+38102056,Kindred of Rot,6
+38102932,Kindred of Rot,6
+38103000,Kindred of Rot,6
+38103040,Kindred of Rot,6
+38103056,Kindred of Rot,6
+38109000,Kindred of Rot,26
+38109040,Kindred of Rot,26
+38500000,Marionette,6
+38500012,Marionette,6
+38500020,Marionette,6
+38500024,Marionette,6
+38500032,Marionette,54
+38500040,Marionette,6
+38500050,Marionette,6
+38501000,Marionette,6
+38501012,Marionette,6
+38501020,Marionette,6
+38501024,Marionette,6
+38501032,Marionette,54
+38501040,Marionette,6
+38501050,Marionette,6
+38501100,Marionette,6
+38501140,Marionette,6
+38501200,Marionette,6
+38501240,Marionette,6
+38502000,Marionette,6
+38502012,Marionette,6
+38502020,Marionette,6
+38502024,Marionette,6
+38502032,Marionette,54
+38502040,Marionette,6
+38502050,Marionette,6
+38600000,Avionette,6
+38600020,Avionette,6
+38600030,Avionette,6
+38600032,Avionette,6
+38600040,Avionette,6
+38600050,Avionette,6
+38600100,Avionette,6
+38600132,Avionette,6
+38600140,Avionette,6
+38600150,Avionette,6
+38600200,Avionette,6
+38600500,Avionette,6
+38600532,Avionette,6
+38600540,Avionette,6
+38600550,Avionette,6
+38600600,Avionette,6
+38600632,Avionette,6
+38601000,Avionette,6
+38601024,Avionette,6
+38601032,Avionette,6
+38601040,Avionette,6
+38601050,Avionette,6
+38601100,Avionette,6
+38601132,Avionette,6
+38601140,Avionette,6
+38601200,Avionette,6
+38601500,Avionette,6
+38601532,Avionette,6
+38601540,Avionette,6
+38601550,Avionette,6
+39000000,Fire Monk,6
+39000020,Fire Monk,6
+39000032,Fire Monk,66
+39000050,Fire Monk,6
+39001000,Fire Monk,6
+39001032,Fire Monk,66
+39001050,Fire Monk,6
+39010000,Fire Monk,6
+39010038,Godskin Monk,6
+39011000,Godskin Monk,6
+39011042,Godskin Monk,6
+39100000,Fire Prelate,6
+39100032,Fire Prelate,66
+39100050,Fire Prelate,6
+39100100,Fire Prelate,6
+39100150,Fire Prelate,6
+39100200,Fire Prelate,6
+39100250,Fire Prelate,6
+39101000,Fire Prelate,6
+39101050,Fire Prelate,6
+39101100,Fire Prelate,6
+39101150,Fire Prelate,6
+39500000,Man-Serpent,6
+39500038,Man-Serpent,6
+39500100,Man-Serpent,6
+39501000,Man-Serpent,6
+39501100,Man-Serpent,6
+39501138,Man-Serpent,6
+39501200,Man-Serpent,6
+39502000,Man-Serpent,6
+39502038,Man-Serpent,6
+39502100,Man-Serpent,6
+39503000,Man-Serpent,6
+39503038,Man-Serpent,6
+39503100,Man-Serpent,6
+39503200,Man-Serpent,6
+39504000,Man-Serpent,6
+39504038,Man-Serpent,6
+39509000,Man-Serpent,6
+39509038,Man-Serpent,0
+39509138,Man-Serpent,26
+39700000,Azula Beastman,6
+39700072,Azula Beastman,6
+39700100,Azula Beastman,6
+39700172,Azula Beastman,6
+39700200,Azula Beastman,6
+39700272,Azula Beastman,6
+39700300,Azula Beastman,6
+39700372,Azula Beastman,6
+39700400,Azula Beastman,6
+39700472,Azula Beastman,6
+39701000,Azula Beastman,6
+39701072,Azula Beastman,6
+39701100,Azula Beastman,6
+39701172,Azula Beastman,6
+39701200,Azula Beastman,6
+39701272,Azula Beastman,6
+39701910,Azula Beastman,6
+39701942,Azula Beastman,6
+39702000,Azula Beastman,6
+39702072,Azula Beastman,6
+39702100,Azula Beastman,6
+39702172,Azula Beastman,6
+39702200,Azula Beastman,6
+39702272,Azula Beastman,6
+39702300,Azula Beastman,6
+39702372,Azula Beastman,6
+39702942,Azula Beastman,6
+39703000,Azula Beastman,6
+39703072,Azula Beastman,6
+39703100,Azula Beastman,6
+39703172,Azula Beastman,6
+39709000,Azula Beastman,6
+40000000,Royal Rider,6
+40000020,Royal Rider,6
+40000022,Royal Rider,6
+40000030,Royal Rider,6
+40000031,Royal Rider,6
+40000035,Royal Rider,6
+40000040,Royal Rider,6
+40000054,Royal Rider,6
+40000100,Royal Rider,6
+40000120,Royal Rider,6
+40000140,Royal Rider,6
+40000154,Royal Rider,6
+40001000,Royal Rider,6
+40001020,Royal Rider,6
+40001030,Royal Rider,6
+40001031,Royal Rider,6
+40001054,Royal Rider,6
+40001130,Royal Rider,6
+40200000,Royal Revenant,6
+40200003,Royal Revenant,6
+40200020,Royal Revenant,6
+40200022,Royal Revenant,6
+40200030,Royal Revenant,6
+40200031,Royal Revenant,6
+40200035,Royal Revenant,6
+40200040,Royal Revenant,6
+40200056,Royal Revenant,6
+40200100,Royal Revenant,24
+40200130,Royal Revenant,6
+40200920,Royal Revenant,6
+40208000,Royal Revenant,6
+40208020,Royal Revenant,6
+40208022,Royal Revenant,6
+40208030,Royal Revenant,6
+40208031,Royal Revenant,6
+40208035,Royal Revenant,6
+40208040,Royal Revenant,6
+40208056,Royal Revenant,6
+40208100,Royal Revenant,6
+40208122,Royal Revenant,6
+40208130,Royal Revenant,6
+40208131,Royal Revenant,6
+40208156,Royal Revenant,6
+40208200,Royal Revenant,6
+40208230,Royal Revenant,6
+40208256,Royal Revenant,6
+40208300,Royal Revenant,6
+40208356,Royal Revenant,6
+40208400,Royal Revenant,6
+40208456,Royal Revenant,6
+40400000,Slug,6
+40400030,Slug,6
+40400031,Slug,6
+40400033,Slug,6
+40400035,Slug,6
+40400040,Slug,6
+40400051,Slug,6
+40401000,Slug,6
+40401032,Slug,6
+40401038,Slug,6
+40402000,Slug,6
+40402030,Slug,57
+40403000,Slug,6
+40403010,Slug,6
+40403020,Slug,6
+40403033,Slug,6
+40403050,Slug,6
+40403052,Slug,6
+40500000,Kaiden Sellsword,6
+40500010,Kaiden Sellsword,6
+40500012,Kaiden Sellsword,6
+40500013,Kaiden Sellsword,6
+40500052,Kaiden Sellsword,6
+40500098,Kaiden Sellsword,6
+40500100,Kaiden Sellsword,6
+40509500,Kaiden Sellsword,8
+40600000,Horse,6
+40600010,Horse,6
+40600052,Horse,6
+40700000,Wolf,6
+40700009,Wolf,6
+40700010,Wolf,48
+40700012,Wolf,6
+40700013,Wolf,6
+40700020,Wolf,6
+40700030,Wolf,6
+40700032,Wolf,6
+40700033,Wolf,6
+40700036,Wolf,24
+40700042,Wolf,6
+40700051,Wolf,6
+40700052,Wolf,60
+40700065,Wolf,6
+40700100,Wolf,6
+40700110,Wolf,48
+40700112,Wolf,6
+40700152,Wolf,60
+40700165,Wolf,6
+40700550,Wolf,6
+40700900,Wolf,6
+40701000,Wolf,6
+40701010,Wolf,6
+40701012,Wolf,6
+40702000,Wolf,6
+40702010,Wolf,6
+40702012,Wolf,6
+40708000,Wolf,6
+40708024,Wolf,6
+40709000,Wolf,6
+40710000,Wolf,6
+40710009,Wolf,6
+40710010,Wolf,48
+40710012,Wolf,6
+40710020,Wolf,6
+40710022,Wolf,6
+40710030,Wolf,6
+40710032,Wolf,6
+40710033,Wolf,6
+40710042,Wolf,6
+40710051,Wolf,6
+40710052,Wolf,60
+40710065,Wolf,6
+40710550,Wolf,6
+40800000,Rat,6
+40800010,Rat,6
+40800012,Rat,6
+40800013,Rat,6
+40800014,Rat,6
+40800020,Rat,6
+40800028,Rat,6
+40800030,Rat,6
+40800032,Rat,6
+40800034,Rat,6
+40800035,Rat,6
+40800040,Rat,6
+40800042,Rat,6
+40800050,Rat,6
+40800051,Rat,6
+40800052,Rat,6
+40800054,Rat,6
+40800064,Rat,6
+40800065,Rat,6
+40800100,Rat,6
+40800134,Rat,6
+40800210,Rat,6
+40800212,Rat,6
+40800300,Rat,6
+40800312,Rat,6
+40800320,Rat,6
+40800352,Rat,6
+40900000,Giant Rat,6
+40900010,Giant Rat,6
+40900012,Giant Rat,6
+40900014,Giant Rat,6
+40900020,Giant Rat,6
+40900030,Giant Rat,6
+40900032,Giant Rat,6
+40900034,Giant Rat,6
+40900035,Giant Rat,6
+40900040,Giant Rat,6
+40900042,Giant Rat,6
+40900054,Giant Rat,6
+40900064,Giant Rat,6
+40900210,Giant Rat,6
+40900300,Giant Rat,6
+40900312,Giant Rat,6
+40900320,Giant Rat,6
+40900352,Giant Rat,6
+41000000,Demi-Human,6
+41000010,Demi-Human,51
+41000012,Demi-Human,6
+41000020,Demi-Human,6
+41000030,Demi-Human,9
+41000032,Demi-Human,6
+41000040,Demi-Human,6
+41000042,Demi-Human,6
+41000050,Demi-Human,48
+41000200,Demi-Human,6
+41000212,Demi-Human,6
+41000910,Demi-Human,6
+41001000,Demi-Human,6
+41001009,Demi-Human,6
+41001010,Demi-Human,51
+41001012,Demi-Human,6
+41001020,Demi-Human,6
+41001030,Demi-Human,9
+41001032,Demi-Human,6
+41001040,Demi-Human,6
+41001042,Demi-Human,6
+41001050,Demi-Human,48
+41001130,Demi-Human,9
+41001200,Demi-Human,6
+41001212,Demi-Human,6
+41002000,Demi-Human,6
+41002010,Demi-Human,51
+41002012,Demi-Human,6
+41002020,Demi-Human,6
+41002030,Demi-Human,9
+41002032,Demi-Human,6
+41002040,Demi-Human,6
+41002042,Demi-Human,6
+41002050,Demi-Human,48
+41002200,Demi-Human,6
+41002212,Demi-Human,6
+41002910,Demi-Human,6
+41009000,Demi-Human,6
+41009100,Demi-Human,2
+41009200,Demi-Human,29
+41010000,Demi-Human - Large,6
+41010010,Demi-Human - Large,51
+41010012,Demi-Human - Large,6
+41010020,Demi-Human - Large,6
+41010030,Demi-Human - Large,9
+41010032,Demi-Human - Large,6
+41010050,Demi-Human - Large,48
+41100000,Demi-Human Shaman,6
+41100010,Demi-Human Shaman,51
+41100012,Demi-Human Shaman,6
+41100020,Demi-Human Shaman,6
+41100030,Demi-Human Shaman,9
+41100032,Demi-Human Shaman,6
+41100036,Demi-Human Shaman,24
+41100050,Demi-Human Shaman,48
+41109000,Demi-Human Shaman,26
+41109010,Demi-Human Shaman,26
+41109020,Demi-Human Shaman,26
+41109024,Demi-Human Shaman,0
+41109030,Demi-Human Shaman,26
+41109034,Demi-Human Shaman,26
+41109100,Demi-Human Shaman,26
+41109110,Demi-Human Shaman,26
+41109120,Demi-Human Shaman,26
+41109134,Demi-Human Shaman,26
+41200000,Demi-Human Beastman,6
+41200009,Demi-Human Beastman,6
+41200012,Demi-Human Beastman,6
+41200020,Demi-Human Beastman,6
+41200030,Demi-Human Beastman,9
+41200032,Demi-Human Beastman,6
+41200040,Demi-Human Beastman,6
+41200042,Demi-Human Beastman,6
+41200050,Demi-Human Beastman,48
+41200100,Demi-Human Beastman,6
+41200910,Demi-Human Beastman,6
+41300000,Demi-Human Queen,6
+41300012,Demi-Human Queen,6
+41300032,Demi-Human Queen,6
+41301000,Demi-Human Queen,6
+41301030,Demi-Human Queen,6
+41301932,Demi-Human Queen,6
+41400000,Snail,6
+41400035,Snail,6
+41400038,Snail,6
+41400062,Snail,6
+41401000,Snail,6
+41401034,Snail,6
+41402000,Snail,6
+41402020,Snail,6
+41402035,Snail,6
+41402050,Snail,6
+41402054,Snail,6
+41402100,Snail,6
+41402920,Snail,6
+41402950,Snail,6
+41403000,Snail,6
+41403032,Snail,6
+41403033,Snail,6
+41403050,Snail,6
+41403833,Snail,6
+41403930,Snail,6
+41404000,Snail,6
+41404020,Snail,6
+41404022,Snail,6
+41404030,Snail,6
+41404040,Snail,6
+41404052,Snail,6
+41409000,Snail,6
+41500000,Basilisk,6
+41500030,Basilisk,6
+41500031,Basilisk,6
+41500032,Basilisk,6
+41500033,Basilisk,6
+41500035,Basilisk,6
+41500038,Basilisk,6
+41500040,Basilisk,6
+41500060,Basilisk,6
+41500062,Basilisk,6
+41500066,Basilisk,6
+41500100,Basilisk,6
+41500862,Basilisk,6
+41600000,Dog,6
+41600014,Dog,6
+41600024,Dog,6
+41600031,Dog,6
+41600032,Dog,9
+41600034,Dog,6
+41600035,Dog,6
+41601000,Dog,6
+41601010,Dog,6
+41601020,Dog,6
+41602000,Dog,6
+41602050,Dog,6
+41610000,Dog,6
+41610010,Dog,6
+41610012,Dog,6
+41610013,Dog,6
+41610014,Dog,6
+41610020,Dog,6
+41610024,Dog,6
+41610030,Dog,6
+41610031,Dog,6
+41610032,Dog,9
+41610033,Dog,6
+41610034,Dog,6
+41610038,Dog,6
+41610040,Dog,6
+41610041,Dog,6
+41610050,Dog,6
+41610064,Dog,6
+41610200,Dog,6
+41610210,Dog,6
+41610212,Dog,6
+41610220,Dog,6
+41610252,Dog,6
+41610300,Dog,6
+41610350,Dog,6
+41620000,Starved Dog,6
+41620072,Starved Dog,6
+41630000,Starved Dog,6
+41630072,Starved Dog,6
+41640000,Starved Dog,6
+41640030,Starved Dog,51
+41640052,Starved Dog,6
+41640830,Starved Dog,6
+41650000,Starved Dog,6
+41650030,Starved Dog,51
+41650052,Starved Dog,6
+41650068,Starved Dog,6
+41650830,Starved Dog,6
+41650935,Starved Dog,33
+41660000,Starved Dog,6
+41660040,Starved Dog,51
+41660042,Starved Dog,6
+41670000,Starved Dog,6
+41670040,Starved Dog,51
+41700000,Living Mass,6
+41700010,Living Mass,6
+41700013,Living Mass,6
+41700020,Living Mass,6
+41700030,Living Mass,51
+41700032,Living Mass,51
+41700040,Living Mass,6
+41700100,Living Mass,6
+41700110,Living Mass,6
+41700130,Living Mass,6
+41700140,Living Mass,6
+41700141,Living Mass,6
+41700152,Living Mass,6
+41700200,Living Mass,6
+41700240,Living Mass,6
+41700300,Living Mass,6
+41700312,Living Mass,6
+41700332,Living Mass,6
+41710000,Living Mass,7
+41710400,Living Mass,7
+41710430,Living Mass,7
+41710468,Living Mass,7
+41800000,Jellyfish,6
+41800010,Jellyfish,6
+41800012,Jellyfish,6
+41800020,Jellyfish,6
+41800030,Jellyfish,6
+41800032,Jellyfish,6
+41800033,Jellyfish,6
+41800050,Jellyfish,6
+41800052,Jellyfish,6
+41800065,Jellyfish,6
+41800100,Jellyfish,6
+41800110,Jellyfish,6
+41800112,Jellyfish,6
+41800120,Jellyfish,6
+41800152,Jellyfish,6
+41800200,Jellyfish,6
+41800210,Jellyfish,6
+41800300,Jellyfish,24
+41800312,Jellyfish,24
+41800852,Jellyfish,6
+41801000,Jellyfish,6
+41801013,Jellyfish,6
+41809000,Jellyfish,26
+41809050,Jellyfish,26
+41900000,Scarab,6
+41900050,Scarab,6
+41900052,Scarab,6
+41901000,Scarab,6
+41901050,Scarab,6
+41901052,Scarab,6
+41902000,Scarab,6
+41902020,Scarab,6
+41902032,Scarab,6
+41902050,Scarab,6
+41902052,Scarab,6
+41902100,Scarab,6
+41902150,Scarab,6
+41902152,Scarab,6
+41902200,Scarab,6
+41902250,Scarab,6
+41902252,Scarab,6
+41903000,Scarab,6
+41903050,Scarab,6
+41903052,Scarab,6
+41903100,Scarab,6
+41903150,Scarab,6
+41903152,Scarab,6
+41903200,Scarab,6
+41903250,Scarab,6
+41903252,Scarab,6
+41904000,Scarab,6
+41904050,Scarab,6
+41904052,Scarab,6
+41904100,Scarab,6
+41904150,Scarab,6
+41904152,Scarab,6
+41904200,Scarab,6
+41904250,Scarab,6
+41904252,Scarab,6
+41905000,Scarab,6
+41905050,Scarab,6
+41905052,Scarab,6
+41905100,Scarab,6
+41905200,Scarab,6
+41905364,Scarab,6
+41906110,Scarab,6
+41907310,Scarab,6
+41908110,Scarab,6
+41909112,Scarab,6
+41910000,Scarab,6
+41910010,Scarab,6
+41910012,Scarab,6
+41910020,Scarab,6
+41910022,Scarab,6
+41910030,Scarab,6
+41910032,Scarab,6
+41910035,Scarab,6
+41910040,Scarab,6
+41910041,Scarab,6
+41910050,Scarab,6
+41910052,Scarab,6
+41910054,Scarab,6
+41910056,Scarab,6
+41910060,Scarab,6
+41910062,Scarab,6
+41910064,Scarab,6
+41910065,Scarab,6
+41910066,Scarab,6
+41910068,Scarab,6
+41911000,Scarab,6
+41911010,Scarab,6
+41911020,Scarab,6
+41911022,Scarab,6
+41911030,Scarab,6
+41911035,Scarab,6
+41911050,Scarab,6
+41911052,Scarab,6
+41911054,Scarab,6
+41911056,Scarab,6
+41911060,Scarab,6
+41911062,Scarab,6
+41911064,Scarab,6
+41911065,Scarab,6
+41911066,Scarab,6
+41911068,Scarab,6
+41912000,Scarab,6
+41912010,Scarab,6
+41912012,Scarab,6
+41912014,Scarab,6
+41912020,Scarab,6
+41912024,Scarab,6
+41912030,Scarab,6
+41912032,Scarab,6
+41912033,Scarab,6
+41912034,Scarab,6
+41912040,Scarab,6
+41912041,Scarab,6
+41912042,Scarab,6
+41912050,Scarab,6
+41912052,Scarab,6
+41912054,Scarab,6
+41912056,Scarab,6
+41912060,Scarab,6
+41912062,Scarab,6
+41912064,Scarab,6
+41912065,Scarab,6
+41912066,Scarab,6
+41912068,Scarab,6
+41912072,Scarab,6
+41912100,Scarab,6
+41912150,Scarab,6
+41912152,Scarab,6
+41912160,Scarab,6
+41912162,Scarab,6
+41912164,Scarab,6
+41912165,Scarab,6
+41912166,Scarab,6
+41912168,Scarab,6
+41912200,Scarab,6
+41912220,Scarab,6
+41912230,Scarab,6
+41912233,Scarab,6
+41912240,Scarab,6
+41912250,Scarab,6
+41912252,Scarab,6
+41912260,Scarab,6
+41912262,Scarab,6
+41912264,Scarab,6
+41912265,Scarab,6
+41912266,Scarab,6
+41912268,Scarab,6
+41913000,Scarab,6
+41913014,Scarab,6
+41913020,Scarab,6
+41913024,Scarab,6
+41913032,Scarab,6
+41913035,Scarab,6
+41913050,Scarab,6
+41913052,Scarab,6
+41913054,Scarab,6
+41913056,Scarab,6
+41913060,Scarab,6
+41913062,Scarab,6
+41913064,Scarab,6
+41913065,Scarab,6
+41913066,Scarab,6
+41913068,Scarab,6
+41913072,Scarab,6
+41913100,Scarab,6
+41913150,Scarab,6
+41913152,Scarab,6
+41913160,Scarab,6
+41913162,Scarab,6
+41913164,Scarab,6
+41913165,Scarab,6
+41913166,Scarab,6
+41913168,Scarab,6
+41913200,Scarab,6
+41913250,Scarab,6
+41913252,Scarab,6
+41913260,Scarab,6
+41913262,Scarab,6
+41913264,Scarab,6
+41913265,Scarab,6
+41913266,Scarab,6
+41913268,Scarab,6
+41914000,Scarab,6
+41914012,Scarab,6
+41914014,Scarab,6
+41914020,Scarab,6
+41914030,Scarab,6
+41914032,Scarab,6
+41914034,Scarab,6
+41914040,Scarab,6
+41914042,Scarab,6
+41914050,Scarab,6
+41914052,Scarab,6
+41914054,Scarab,6
+41914056,Scarab,6
+41914060,Scarab,6
+41914062,Scarab,6
+41914064,Scarab,6
+41914065,Scarab,6
+41914066,Scarab,6
+41914068,Scarab,6
+41914072,Scarab,6
+41914100,Scarab,6
+41914150,Scarab,6
+41914152,Scarab,6
+41914160,Scarab,6
+41914162,Scarab,6
+41914164,Scarab,6
+41914165,Scarab,6
+41914166,Scarab,6
+41914168,Scarab,6
+41914200,Scarab,6
+41914212,Scarab,6
+41914250,Scarab,6
+41914252,Scarab,6
+41914260,Scarab,6
+41914262,Scarab,6
+41914264,Scarab,6
+41914265,Scarab,6
+41914266,Scarab,6
+41914268,Scarab,6
+41915000,Scarab,6
+41915010,Scarab,6
+41915020,Scarab,6
+41915026,Scarab,6
+41915030,Scarab,6
+41915035,Scarab,6
+41915038,Scarab,6
+41915040,Scarab,6
+41915042,Scarab,6
+41915050,Scarab,6
+41915052,Scarab,6
+41915062,Scarab,6
+41915065,Scarab,6
+41915066,Scarab,6
+41915100,Scarab,6
+41915150,Scarab,6
+41915200,Scarab,6
+41915535,Scarab,6
+41915540,Scarab,6
+41915542,Scarab,6
+41915554,Scarab,6
+41915560,Scarab,6
+41915562,Scarab,6
+41915564,Scarab,6
+41915565,Scarab,6
+41915566,Scarab,6
+41915568,Scarab,6
+41916160,Scarab,6
+41916162,Scarab,6
+41916164,Scarab,6
+41916165,Scarab,6
+41916166,Scarab,6
+41917364,Scarab,6
+41917365,Scarab,6
+41917366,Scarab,6
+41918062,Scarab,6
+41918064,Scarab,6
+41918065,Scarab,6
+41918066,Scarab,6
+41918068,Scarab,6
+41918120,Scarab,6
+41918140,Scarab,6
+41918940,Scarab,6
+41919062,Scarab,6
+41919064,Scarab,6
+41919065,Scarab,6
+41919068,Scarab,6
+41919140,Scarab,6
+41920000,Scarab,6
+41920040,Scarab,6
+41920042,Scarab,6
+41921000,Scarab,6
+41921040,Scarab,6
+41921042,Scarab,6
+41922000,Scarab,6
+41922020,Scarab,6
+41922050,Scarab,6
+41922052,Scarab,6
+41922200,Scarab,6
+41922250,Scarab,6
+41922252,Scarab,6
+41923000,Scarab,6
+41923050,Scarab,6
+41923052,Scarab,6
+41923200,Scarab,6
+41923250,Scarab,6
+41923252,Scarab,6
+41924000,Scarab,6
+41924050,Scarab,6
+41924052,Scarab,6
+41924200,Scarab,6
+41924250,Scarab,6
+41924252,Scarab,6
+41925000,Scarab,6
+41925050,Scarab,6
+41925052,Scarab,6
+41925200,Scarab,6
+41925250,Scarab,6
+41927064,Scarab,6
+42000000,Giant Bat,6
+42000010,Giant Bat,6
+42000011,Giant Bat,6
+42000012,Giant Bat,6
+42000014,Giant Bat,6
+42000020,Giant Bat,6
+42000026,Giant Bat,6
+42000033,Giant Bat,6
+42000038,Giant Bat,6
+42000040,Giant Bat,6
+42000042,Giant Bat,6
+42000050,Giant Bat,51
+42000064,Giant Bat,6
+42000100,Giant Bat,6
+42000110,Giant Bat,6
+42000112,Giant Bat,6
+42000120,Giant Bat,6
+42000126,Giant Bat,6
+42000133,Giant Bat,6
+42000138,Giant Bat,6
+42000140,Giant Bat,6
+42000141,Giant Bat,6
+42000142,Giant Bat,6
+42000150,Giant Bat,51
+42000200,Giant Bat,6
+42000210,Giant Bat,6
+42000226,Giant Bat,6
+42000242,Giant Bat,6
+42000250,Giant Bat,51
+42001000,Giant Bat,6
+42001050,Giant Bat,51
+42001100,Giant Bat,6
+42001150,Giant Bat,51
+42001200,Giant Bat,6
+42001250,Giant Bat,51
+42010000,Bat Harpy,6
+42010020,Bat Harpy,6
+42010100,Bat Harpy,6
+42010110,Bat Harpy,6
+42010112,Bat Harpy,6
+42010120,Bat Harpy,6
+42010126,Bat Harpy,6
+42010133,Bat Harpy,6
+42010140,Bat Harpy,6
+42010141,Bat Harpy,6
+42010142,Bat Harpy,6
+42011000,Bat Harpy,6
+42011026,Bat Harpy,6
+42011100,Bat Harpy,6
+42011126,Bat Harpy,6
+42011142,Bat Harpy,6
+42017000,Bat Harpy,6
+42017020,Bat Harpy,6
+42017400,Bat Harpy,6
+42017412,Bat Harpy,6
+42017420,Bat Harpy,6
+42017426,Bat Harpy,6
+42017433,Bat Harpy,6
+42017440,Bat Harpy,6
+42017441,Bat Harpy,6
+42017442,Bat Harpy,6
+42017500,Bat Harpy,6
+42017526,Bat Harpy,6
+42017540,Bat Harpy,6
+42017542,Bat Harpy,6
+42017600,Bat Harpy,6
+42017640,Bat Harpy,6
+42017642,Bat Harpy,6
+42017700,Bat Harpy,6
+42017740,Bat Harpy,6
+42017800,Bat Harpy,6
+42017840,Bat Harpy,6
+42018000,Bat Harpy,6
+42018026,Bat Harpy,6
+42018042,Bat Harpy,6
+42018100,Bat Harpy,6
+42018126,Bat Harpy,6
+42100000,Warhawk,6
+42100014,Warhawk,6
+42100100,Warhawk,6
+42100114,Warhawk,6
+42100200,Warhawk,6
+42100214,Warhawk,6
+42101000,Warhawk,6
+42101014,Warhawk,6
+42101033,Warhawk,6
+42101100,Warhawk,6
+42101114,Warhawk,6
+42101150,Warhawk,6
+42101200,Warhawk,6
+42101214,Warhawk,6
+42101250,Warhawk,6
+42102000,Warhawk,6
+42102010,Warhawk,6
+42102072,Warhawk,6
+42103000,Warhawk,6
+42103050,Warhawk,6
+42104000,Warhawk,6
+42104051,Warhawk,6
+42104500,Warhawk,6
+42104551,Warhawk,6
+42105000,Warhawk,6
+42105051,Warhawk,6
+42105500,Warhawk,6
+42200000,Land Octopus - Large,6
+42200010,Land Octopus - Large,6
+42200012,Land Octopus - Large,6
+42200020,Land Octopus - Large,6
+42200026,Land Octopus - Large,6
+42200032,Land Octopus - Large,6
+42200040,Land Octopus - Large,6
+42200050,Land Octopus - Large,6
+42200052,Land Octopus - Large,6
+42200064,Land Octopus - Large,6
+42300000,Land Octopus - Small,6
+42300010,Land Octopus - Small,6
+42300012,Land Octopus - Small,6
+42300020,Land Octopus - Small,6
+42300026,Land Octopus - Small,6
+42300032,Land Octopus - Small,6
+42300040,Land Octopus - Small,6
+42300050,Land Octopus - Small,6
+42300052,Land Octopus - Small,6
+42300064,Land Octopus - Small,6
+42300830,Land Octopus - Small,6
+42300852,Land Octopus - Small,6
+42400000,Enchanted Hand - Large,6
+42400020,Enchanted Hand - Large,6
+42400021,Enchanted Hand - Large,6
+42400032,Enchanted Hand - Large,6
+42400034,Enchanted Hand - Large,6
+42400035,Enchanted Hand - Large,6
+42400100,Enchanted Hand - Large,6
+42400150,Enchanted Hand - Large,6
+42400200,Enchanted Hand - Large,6
+42400221,Enchanted Hand - Large,6
+42405000,Enchanted Hand - Large,6
+42405050,Enchanted Hand - Large,6
+42405100,Enchanted Hand - Large,6
+42405150,Enchanted Hand - Large,6
+42405200,Enchanted Hand - Large,6
+42405250,Enchanted Hand - Large,6
+42405300,Enchanted Hand - Large,6
+42405350,Enchanted Hand - Large,6
+42405400,Enchanted Hand - Large,6
+42405450,Enchanted Hand - Large,6
+42405500,Enchanted Hand - Large,6
+42405550,Enchanted Hand - Large,6
+42405600,Enchanted Hand - Large,6
+42405650,Enchanted Hand - Large,6
+42405700,Enchanted Hand - Large,6
+42405750,Enchanted Hand - Large,6
+42405800,Enchanted Hand - Large,6
+42405850,Enchanted Hand - Large,6
+42406000,Enchanted Hand - Large,6
+42406050,Enchanted Hand - Large,6
+42406100,Enchanted Hand - Large,6
+42406150,Enchanted Hand - Large,6
+42406200,Enchanted Hand - Large,6
+42406250,Enchanted Hand - Large,6
+42406300,Enchanted Hand - Large,6
+42406350,Enchanted Hand - Large,6
+42406400,Enchanted Hand - Large,6
+42406450,Enchanted Hand - Large,6
+42407000,Enchanted Hand - Large,6
+42407020,Enchanted Hand - Large,6
+42407021,Enchanted Hand - Large,6
+42407032,Enchanted Hand - Large,6
+42407034,Enchanted Hand - Large,6
+42407035,Enchanted Hand - Large,6
+42407100,Enchanted Hand - Large,6
+42407121,Enchanted Hand - Large,6
+42407132,Enchanted Hand - Large,6
+42407200,Enchanted Hand - Large,6
+42407221,Enchanted Hand - Large,6
+42407300,Enchanted Hand - Large,6
+42407321,Enchanted Hand - Large,6
+42407400,Enchanted Hand - Large,6
+42407421,Enchanted Hand - Large,6
+42407500,Enchanted Hand - Large,6
+42407521,Enchanted Hand - Large,6
+42407600,Enchanted Hand - Large,6
+42407621,Enchanted Hand - Large,6
+42407700,Enchanted Hand - Large,6
+42407721,Enchanted Hand - Large,6
+42407800,Enchanted Hand - Large,6
+42407821,Enchanted Hand - Large,6
+42408000,Enchanted Hand - Large,6
+42408021,Enchanted Hand - Large,6
+42408100,Enchanted Hand - Large,6
+42408121,Enchanted Hand - Large,6
+42408200,Enchanted Hand - Large,6
+42408221,Enchanted Hand - Large,6
+42408300,Enchanted Hand - Large,6
+42408321,Enchanted Hand - Large,6
+42408400,Enchanted Hand - Large,6
+42408421,Enchanted Hand - Large,6
+42408500,Enchanted Hand - Large,6
+42408521,Enchanted Hand - Large,6
+42408800,Enchanted Hand - Large,6
+42408821,Enchanted Hand - Large,6
+42410000,Enchanted Hand - Large,7
+42410100,Enchanted Hand - Large,7
+42410150,Enchanted Hand - Large,7
+42500000,Enchanted Hand - Small,6
+42500020,Enchanted Hand - Small,6
+42500021,Enchanted Hand - Small,6
+42500028,Enchanted Hand - Small,27
+42500032,Enchanted Hand - Small,6
+42500034,Enchanted Hand - Small,6
+42500035,Enchanted Hand - Small,6
+42500100,Enchanted Hand - Small,6
+42500150,Enchanted Hand - Small,6
+42600000,Burial Watchdog,7
+42600100,Burial Watchdog,7
+42600110,Burial Watchdog,6
+42600500,Burial Watchdog,7
+42600512,Burial Watchdog,6
+42600600,Burial Watchdog,7
+42600940,Burial Watchdog,50
+42601000,Burial Watchdog,7
+42601100,Burial Watchdog,7
+42601500,Burial Watchdog,7
+42601600,Burial Watchdog,7
+42601920,Burial Watchdog,7
+42601940,Burial Watchdog,50
+42602000,Burial Watchdog,7
+42602100,Burial Watchdog,7
+42602500,Burial Watchdog,7
+42602600,Burial Watchdog,7
+42602932,Burial Watchdog,7
+42603000,Burial Watchdog,7
+42603100,Burial Watchdog,7
+42603500,Burial Watchdog,7
+42603600,Burial Watchdog,7
+42604000,Burial Watchdog,7
+42604100,Burial Watchdog,7
+42604150,Burial Watchdog,7
+42604152,Burial Watchdog,7
+42604500,Burial Watchdog,7
+42604600,Burial Watchdog,7
+42604650,Burial Watchdog,7
+42604652,Burial Watchdog,7
+42605000,Burial Watchdog,7
+42605100,Burial Watchdog,7
+42605150,Burial Watchdog,7
+42605152,Burial Watchdog,7
+42605500,Burial Watchdog,7
+42605600,Burial Watchdog,7
+42700000,Lion Guardian,7
+42700014,Lion Guardian,7
+42700020,Lion Guardian,7
+42700030,Lion Guardian,7
+42700034,Lion Guardian,6
+42700040,Lion Guardian,7
+42700041,Lion Guardian,7
+42701000,Lion Guardian,7
+42701051,Lion Guardian,33
+42800000,Giant Ant,24
+42800054,Giant Ant,6
+42800056,Giant Ant,6
+42800060,Giant Ant,24
+42800062,Giant Ant,24
+42800066,Giant Ant,6
+42800100,Giant Ant,24
+42800160,Giant Ant,24
+42800166,Giant Ant,24
+42800200,Giant Ant,24
+42800260,Giant Ant,24
+42800300,Giant Ant,24
+42800354,Giant Ant,6
+42800360,Giant Ant,24
+42800362,Giant Ant,24
+42800366,Giant Ant,6
+42800400,Giant Ant,24
+42800462,Giant Ant,24
+42800466,Giant Ant,6
+42800500,Giant Ant,24
+42800562,Giant Ant,24
+42800566,Giant Ant,6
+42800862,Giant Ant,24
+42801100,Giant Ant,6
+42801162,Giant Ant,6
+42810000,Giant Ant - Sac,24
+42810060,Giant Ant - Sac,24
+42810062,Giant Ant - Sac,24
+42810066,Giant Ant - Sac,6
+42900000,Bloodhound Knight,6
+42900010,Bloodhound Knight,6
+42900020,Bloodhound Knight,6
+42900032,Bloodhound Knight,6
+42900038,Bloodhound Knight,6
+42900040,Bloodhound Knight,6
+42900100,Bloodhound Knight,6
+42900132,Bloodhound Knight,6
+42900138,Bloodhound Knight,6
+42900920,Bloodhound Knight,6
+42901000,Bloodhound Knight,6
+42909000,Bloodhound Knight,6
+42909024,Bloodhound Knight,6
+43000000,Wandering Noble,6
+43000006,Wandering Noble,6
+43000010,Wandering Noble,6
+43000012,Wandering Noble,6
+43000020,Wandering Noble,6
+43000024,Wandering Noble,6
+43000030,Wandering Noble,6
+43000032,Wandering Noble,60
+43000033,Wandering Noble,60
+43000040,Wandering Noble,48
+43000052,Wandering Noble,63
+43000100,Wandering Noble,6
+43000110,Wandering Noble,6
+43000112,Wandering Noble,6
+43000130,Wandering Noble,6
+43000131,Wandering Noble,6
+43000133,Wandering Noble,60
+43000140,Wandering Noble,6
+43000152,Wandering Noble,63
+43000200,Wandering Noble,6
+43000210,Wandering Noble,6
+43000212,Wandering Noble,6
+43000230,Wandering Noble,6
+43000233,Wandering Noble,60
+43000240,Wandering Noble,6
+43000252,Wandering Noble,63
+43000300,Wandering Noble,6
+43000320,Wandering Noble,54
+43000410,Wandering Noble,6
+43000600,Wandering Noble,26
+43000800,Wandering Noble,6
+43000900,Wandering Noble,6
+43001000,Wandering Noble,6
+43001010,Wandering Noble,6
+43001012,Wandering Noble,6
+43001020,Wandering Noble,6
+43001021,Wandering Noble,6
+43001024,Wandering Noble,6
+43001030,Wandering Noble,6
+43001031,Wandering Noble,6
+43001032,Wandering Noble,60
+43001033,Wandering Noble,60
+43001040,Wandering Noble,6
+43001052,Wandering Noble,63
+43001100,Wandering Noble,6
+43001120,Wandering Noble,54
+43001128,Wandering Noble,27
+43001200,Wandering Noble,6
+43001230,Wandering Noble,6
+43001240,Wandering Noble,6
+43001800,Wandering Noble,6
+43001900,Wandering Noble,6
+43002000,Wandering Noble,6
+43002009,Wandering Noble,6
+43002010,Wandering Noble,6
+43002012,Wandering Noble,6
+43002020,Wandering Noble,6
+43002021,Wandering Noble,6
+43002024,Wandering Noble,6
+43002030,Wandering Noble,6
+43002031,Wandering Noble,6
+43002032,Wandering Noble,61
+43002033,Wandering Noble,60
+43002040,Wandering Noble,48
+43002052,Wandering Noble,63
+43002110,Wandering Noble,6
+43002140,Wandering Noble,6
+43002200,Wandering Noble,6
+43002220,Wandering Noble,54
+43002228,Wandering Noble,27
+43002300,Wandering Noble,6
+43002320,Wandering Noble,6
+43002322,Wandering Noble,6
+43002400,Wandering Noble,6
+43002410,Wandering Noble,6
+43002800,Wandering Noble,6
+43002900,Wandering Noble,6
+43003000,Wandering Noble,6
+43003010,Wandering Noble,6
+43003012,Wandering Noble,6
+43003020,Wandering Noble,6
+43003030,Wandering Noble,6
+43003032,Wandering Noble,60
+43003033,Wandering Noble,60
+43003040,Wandering Noble,48
+43003052,Wandering Noble,63
+43003800,Wandering Noble,6
+43003900,Wandering Noble,6
+43004000,Wandering Noble,6
+43004030,Wandering Noble,6
+43004033,Wandering Noble,60
+43004052,Wandering Noble,63
+43004100,Wandering Noble,6
+43004130,Wandering Noble,6
+43004152,Wandering Noble,6
+43004800,Wandering Noble,6
+43004900,Wandering Noble,6
+43005000,Wandering Noble,6
+43005006,Wandering Noble,6
+43005010,Wandering Noble,6
+43005012,Wandering Noble,6
+43005020,Wandering Noble,6
+43005024,Wandering Noble,6
+43005030,Wandering Noble,6
+43005032,Wandering Noble,60
+43005033,Wandering Noble,60
+43005040,Wandering Noble,48
+43005052,Wandering Noble,63
+43005100,Wandering Noble,6
+43005110,Wandering Noble,6
+43005112,Wandering Noble,6
+43005130,Wandering Noble,6
+43005133,Wandering Noble,60
+43005152,Wandering Noble,63
+43005200,Wandering Noble,6
+43005210,Wandering Noble,6
+43005212,Wandering Noble,6
+43005230,Wandering Noble,6
+43005233,Wandering Noble,60
+43005252,Wandering Noble,63
+43006000,Wandering Noble,6
+43006010,Wandering Noble,6
+43006012,Wandering Noble,6
+43006024,Wandering Noble,6
+43006030,Wandering Noble,6
+43006032,Wandering Noble,60
+43006033,Wandering Noble,60
+43006052,Wandering Noble,63
+43006100,Wandering Noble,6
+43006110,Wandering Noble,6
+43006112,Wandering Noble,6
+43006130,Wandering Noble,6
+43006133,Wandering Noble,60
+43006152,Wandering Noble,63
+43006200,Wandering Noble,6
+43006210,Wandering Noble,6
+43006212,Wandering Noble,6
+43006230,Wandering Noble,6
+43006233,Wandering Noble,60
+43006252,Wandering Noble,63
+43006300,Wandering Noble,6
+43006352,Wandering Noble,6
+43006600,Wandering Noble,6
+43006630,Wandering Noble,6
+43006633,Wandering Noble,60
+43006638,Wandering Noble,6
+43006700,Wandering Noble,6
+43006738,Wandering Noble,6
+43006800,Wandering Noble,6
+43006838,Wandering Noble,6
+43007000,Wandering Noble,0
+43007010,Wandering Noble,0
+43007012,Wandering Noble,0
+43007020,Wandering Noble,0
+43007030,Wandering Noble,0
+43007040,Wandering Noble,0
+43007052,Wandering Noble,0
+43007100,Wandering Noble,0
+43007110,Wandering Noble,0
+43007112,Wandering Noble,0
+43007120,Wandering Noble,0
+43007130,Wandering Noble,0
+43007150,Wandering Noble,0
+43009000,Wandering Noble,0
+43009010,Wandering Noble,0
+43009012,Wandering Noble,0
+43009100,Wandering Noble,0
+43009110,Wandering Noble,0
+43009120,Wandering Noble,0
+43009130,Wandering Noble,0
+43009132,Wandering Noble,0
+43009140,Wandering Noble,0
+43009150,Wandering Noble,0
+43009200,Wandering Noble,0
+43009212,Wandering Noble,0
+43009220,Wandering Noble,0
+43009232,Wandering Noble,0
+43009240,Wandering Noble,0
+43009250,Wandering Noble,0
+43009252,Wandering Noble,0
+43009300,Wandering Noble,0
+43009320,Wandering Noble,0
+43009330,Wandering Noble,0
+43009332,Wandering Noble,0
+43009340,Wandering Noble,0
+43009350,Wandering Noble,0
+43009352,Wandering Noble,0
+43009366,Wandering Noble,0
+43110000,Godrick Soldier,6
+43110009,Godrick Soldier,6
+43110010,Godrick Soldier,48
+43110012,Godrick Soldier,48
+43110013,Godrick Soldier,48
+43110912,Godrick Soldier,6
+43110914,Godrick Soldier,6
+43111100,Godrick Soldier,6
+43111110,Godrick Soldier,48
+43111112,Godrick Soldier,48
+43111140,Godrick Soldier,48
+43111200,Godrick Soldier,6
+43111210,Godrick Soldier,48
+43111212,Godrick Soldier,48
+43111300,Godrick Soldier,6
+43111306,Godrick Soldier,6
+43111310,Godrick Soldier,48
+43111312,Godrick Soldier,48
+43111313,Godrick Soldier,48
+43111400,Godrick Soldier,6
+43111410,Godrick Soldier,48
+43111412,Godrick Soldier,48
+43112000,Godrick Soldier,6
+43112010,Godrick Soldier,48
+43112012,Godrick Soldier,48
+43112100,Godrick Soldier,6
+43112110,Godrick Soldier,48
+43112112,Godrick Soldier,48
+43112200,Godrick Soldier,6
+43112210,Godrick Soldier,48
+43112212,Godrick Soldier,48
+43112300,Godrick Soldier,6
+43112400,Godrick Soldier,6
+43112410,Godrick Soldier,48
+43112412,Godrick Soldier,48
+43113000,Godrick Soldier,6
+43113010,Godrick Soldier,48
+43113012,Godrick Soldier,48
+43113040,Godrick Soldier,48
+43113906,Godrick Soldier,6
+43114000,Godrick Soldier,6
+43114006,Godrick Soldier,6
+43114010,Godrick Soldier,48
+43114012,Godrick Soldier,48
+43114013,Godrick Soldier,48
+43114090,Godrick Soldier,6
+43120000,Raya Lucaria Soldier,6
+43120020,Raya Lucaria Soldier,48
+43120021,Raya Lucaria Soldier,48
+43120028,Raya Lucaria Soldier,27
+43120100,Raya Lucaria Soldier,6
+43120120,Raya Lucaria Soldier,48
+43120200,Raya Lucaria Soldier,6
+43120300,Raya Lucaria Soldier,6
+43120320,Raya Lucaria Soldier,48
+43120321,Raya Lucaria Soldier,6
+43121000,Raya Lucaria Soldier,6
+43121020,Raya Lucaria Soldier,48
+43121021,Raya Lucaria Soldier,48
+43121100,Raya Lucaria Soldier,6
+43121120,Raya Lucaria Soldier,48
+43121200,Raya Lucaria Soldier,6
+43121300,Raya Lucaria Soldier,6
+43121320,Raya Lucaria Soldier,48
+43121321,Raya Lucaria Soldier,48
+43121820,Raya Lucaria Soldier,0
+43122000,Raya Lucaria Soldier,6
+43122020,Raya Lucaria Soldier,48
+43122021,Raya Lucaria Soldier,48
+43123000,Raya Lucaria Soldier,6
+43123020,Raya Lucaria Soldier,48
+43123021,Raya Lucaria Soldier,48
+43123028,Raya Lucaria Soldier,27
+43130000,Leyndell Soldier,6
+43130030,Leyndell Soldier,48
+43130032,Leyndell Soldier,48
+43130034,Leyndell Soldier,6
+43130035,Leyndell Soldier,6
+43130100,Leyndell Soldier,6
+43130130,Leyndell Soldier,48
+43130132,Leyndell Soldier,48
+43130134,Leyndell Soldier,6
+43130150,Leyndell Soldier,6
+43130200,Leyndell Soldier,6
+43130230,Leyndell Soldier,48
+43130232,Leyndell Soldier,48
+43130234,Leyndell Soldier,6
+43130300,Leyndell Soldier,6
+43130330,Leyndell Soldier,48
+43130332,Leyndell Soldier,48
+43130334,Leyndell Soldier,6
+43130335,Leyndell Soldier,6
+43130400,Leyndell Soldier,6
+43130435,Leyndell Soldier,6
+43130500,Leyndell Soldier,6
+43130535,Leyndell Soldier,6
+43131000,Leyndell Soldier,6
+43131030,Leyndell Soldier,48
+43131032,Leyndell Soldier,48
+43131034,Leyndell Soldier,6
+43131100,Leyndell Soldier,6
+43131130,Leyndell Soldier,48
+43131132,Leyndell Soldier,48
+43131200,Leyndell Soldier,6
+43131300,Leyndell Soldier,6
+43131330,Leyndell Soldier,48
+43132000,Leyndell Soldier,6
+43132030,Leyndell Soldier,48
+43132032,Leyndell Soldier,48
+43132034,Leyndell Soldier,6
+43133000,Leyndell Soldier,6
+43133030,Leyndell Soldier,48
+43133032,Leyndell Soldier,48
+43133034,Leyndell Soldier,6
+43133035,Leyndell Soldier,6
+43133100,Leyndell Soldier,6
+43133135,Leyndell Soldier,6
+43134032,Leyndell Soldier,6
+43134132,Leyndell Soldier,6
+43134232,Leyndell Soldier,6
+43134332,Leyndell Soldier,6
+43135032,Leyndell Soldier,6
+43135132,Leyndell Soldier,6
+43136032,Leyndell Soldier,6
+43137032,Leyndell Soldier,6
+43140000,Radahn Soldier,6
+43140040,Radahn Soldier,48
+43140041,Radahn Soldier,48
+43140042,Radahn Soldier,48
+43140100,Radahn Soldier,6
+43140140,Radahn Soldier,48
+43140200,Radahn Soldier,6
+43140240,Radahn Soldier,48
+43140242,Radahn Soldier,48
+43140300,Radahn Soldier,6
+43140340,Radahn Soldier,48
+43140341,Radahn Soldier,48
+43140342,Radahn Soldier,48
+43140440,Radahn Soldier,28
+43140500,Radahn Soldier,6
+43140542,Radahn Soldier,48
+43140642,Radahn Soldier,48
+43141000,Radahn Soldier,6
+43141040,Radahn Soldier,48
+43141042,Radahn Soldier,48
+43141100,Radahn Soldier,6
+43141140,Radahn Soldier,48
+43141141,Radahn Soldier,48
+43141200,Radahn Soldier,6
+43141300,Radahn Soldier,6
+43141340,Radahn Soldier,48
+43141342,Radahn Soldier,48
+43141400,Radahn Soldier,6
+43141442,Radahn Soldier,48
+43142000,Radahn Soldier,6
+43142040,Radahn Soldier,48
+43142042,Radahn Soldier,48
+43142100,Radahn Soldier,6
+43142142,Radahn Soldier,48
+43142242,Radahn Soldier,6
+43143000,Radahn Soldier,6
+43143040,Radahn Soldier,48
+43143041,Radahn Soldier,48
+43143042,Radahn Soldier,48
+43143100,Radahn Soldier,6
+43143142,Radahn Soldier,48
+43143242,Radahn Soldier,6
+43150000,Mausoleum Soldier,6
+43150012,Mausoleum Soldier,6
+43150020,Mausoleum Soldier,6
+43150052,Mausoleum Soldier,6
+43150066,Mausoleum Soldier,6
+43150200,Mausoleum Soldier,6
+43150266,Mausoleum Soldier,6
+43150300,Mausoleum Soldier,6
+43150320,Mausoleum Soldier,6
+43150366,Mausoleum Soldier,6
+43151000,Mausoleum Soldier,6
+43151020,Mausoleum Soldier,6
+43151052,Mausoleum Soldier,6
+43151066,Mausoleum Soldier,6
+43151200,Mausoleum Soldier,6
+43151266,Mausoleum Soldier,6
+43151300,Mausoleum Soldier,6
+43151366,Mausoleum Soldier,6
+43152000,Mausoleum Soldier,6
+43152052,Mausoleum Soldier,6
+43152066,Mausoleum Soldier,6
+43153000,Mausoleum Soldier,6
+43153052,Mausoleum Soldier,6
+43153066,Mausoleum Soldier,6
+43160000,Haligtree Soldier,6
+43160056,Haligtree Soldier,6
+43160100,Haligtree Soldier,6
+43160156,Haligtree Soldier,6
+43160200,Haligtree Soldier,6
+43160256,Haligtree Soldier,6
+43160300,Haligtree Soldier,6
+43160356,Haligtree Soldier,6
+43160556,Haligtree Soldier,6
+43160656,Haligtree Soldier,6
+43160756,Haligtree Soldier,6
+43160856,Haligtree Soldier,6
+43161000,Haligtree Soldier,6
+43161056,Haligtree Soldier,6
+43161100,Haligtree Soldier,6
+43161156,Haligtree Soldier,6
+43161200,Haligtree Soldier,6
+43161256,Haligtree Soldier,6
+43161300,Haligtree Soldier,6
+43161356,Haligtree Soldier,6
+43161556,Haligtree Soldier,6
+43161656,Haligtree Soldier,6
+43161756,Haligtree Soldier,6
+43161856,Haligtree Soldier,6
+43162000,Haligtree Soldier,6
+43162056,Haligtree Soldier,6
+43162556,Haligtree Soldier,6
+43163000,Haligtree Soldier,6
+43163056,Haligtree Soldier,6
+43163556,Haligtree Soldier,6
+43210000,Vulgar Militia,6
+43210012,Vulgar Militia,6
+43210020,Vulgar Militia,6
+43210026,Vulgar Militia,6
+43210030,Vulgar Militia,6
+43210033,Vulgar Militia,6
+43210040,Vulgar Militia,6
+43210100,Vulgar Militia,6
+43210142,Vulgar Militia,6
+43210150,Vulgar Militia,6
+43210152,Vulgar Militia,6
+43211000,Vulgar Militia,6
+43211012,Vulgar Militia,6
+43211020,Vulgar Militia,6
+43211026,Vulgar Militia,6
+43211030,Vulgar Militia,6
+43211040,Vulgar Militia,6
+43211100,Vulgar Militia,6
+43211142,Vulgar Militia,6
+43211150,Vulgar Militia,6
+43211152,Vulgar Militia,6
+43212000,Vulgar Militia,6
+43212012,Vulgar Militia,6
+43212020,Vulgar Militia,6
+43212026,Vulgar Militia,6
+43212030,Vulgar Militia,6
+43212033,Vulgar Militia,6
+43212040,Vulgar Militia,6
+43212100,Vulgar Militia,6
+43212142,Vulgar Militia,6
+43212150,Vulgar Militia,6
+43212152,Vulgar Militia,6
+43400000,Mad Pumpkin Head,6
+43400010,Mad Pumpkin Head,48
+43400020,Mad Pumpkin Head,48
+43400030,Mad Pumpkin Head,48
+43400032,Mad Pumpkin Head,48
+43400040,Mad Pumpkin Head,48
+43400100,Mad Pumpkin Head,6
+43400200,Mad Pumpkin Head,48
+43400300,Mad Pumpkin Head,48
+43400400,Mad Pumpkin Head,6
+43400430,Mad Pumpkin Head,48
+43400500,Mad Pumpkin Head,6
+43400910,Mad Pumpkin Head,6
+43400940,Mad Pumpkin Head,48
+43401000,Mad Pumpkin Head,6
+43401013,Mad Pumpkin Head,48
+43401024,Mad Pumpkin Head,6
+43401030,Mad Pumpkin Head,48
+43401032,Mad Pumpkin Head,48
+43401040,Mad Pumpkin Head,48
+43401041,Mad Pumpkin Head,48
+43401100,Mad Pumpkin Head,6
+43401110,Mad Pumpkin Head,48
+43401130,Mad Pumpkin Head,48
+43401940,Mad Pumpkin Head,48
+43410000,Grinning Torturer,6
+43411000,Grinning Torturer,6
+43510000,Godrick Knight,6
+43510010,Godrick Knight,48
+43510100,Godrick Knight,6
+43510110,Godrick Knight,6
+43511000,Godrick Knight,6
+43511010,Godrick Knight,48
+43511100,Godrick Knight,6
+43511110,Godrick Knight,6
+43511112,Godrick Knight,48
+43512000,Godrick Knight,6
+43520000,Cuckoo Knight,6
+43520020,Cuckoo Knight,48
+43521000,Cuckoo Knight,6
+43521100,Cuckoo Knight,6
+43521120,Cuckoo Knight,48
+43522000,Cuckoo Knight,6
+43530000,Leyndell Knight,6
+43530020,Leyndell Knight,6
+43530030,Leyndell Knight,48
+43530032,Leyndell Knight,48
+43530034,Leyndell Knight,6
+43530035,Leyndell Knight,6
+43530036,Leyndell Knight,8
+43530100,Leyndell Knight,6
+43530132,Leyndell Knight,6
+43530200,Leyndell Knight,6
+43530235,Leyndell Knight,6
+43530500,Leyndell Knight,6
+43530534,Leyndell Knight,6
+43531000,Leyndell Knight,6
+43531030,Leyndell Knight,48
+43531032,Leyndell Knight,48
+43531034,Leyndell Knight,6
+43531036,Leyndell Knight,8
+43531100,Leyndell Knight,6
+43531130,Leyndell Knight,48
+43531132,Leyndell Knight,48
+43531136,Leyndell Knight,8
+43531150,Leyndell Knight,6
+43531200,Leyndell Knight,6
+43531232,Leyndell Knight,6
+43531234,Leyndell Knight,6
+43531300,Leyndell Knight,6
+43531500,Leyndell Knight,6
+43531534,Leyndell Knight,6
+43532000,Leyndell Knight,6
+43532030,Leyndell Knight,48
+43532034,Leyndell Knight,6
+43532050,Leyndell Knight,6
+43532100,Leyndell Knight,6
+43540000,Redmane Kngiht,6
+43540040,Redmane Kngiht,48
+43540041,Redmane Kngiht,48
+43540042,Redmane Kngiht,48
+43540200,Redmane Kngiht,6
+43540242,Redmane Kngiht,48
+43540342,Redmane Kngiht,48
+43541000,Redmane Kngiht,6
+43541040,Redmane Kngiht,48
+43541041,Redmane Kngiht,48
+43541042,Redmane Kngiht,48
+43541100,Redmane Kngiht,6
+43541140,Redmane Kngiht,48
+43541200,Redmane Kngiht,6
+43541242,Redmane Kngiht,48
+43542000,Redmane Kngiht,6
+43542040,Redmane Kngiht,48
+43542042,Redmane Kngiht,48
+43542200,Redmane Kngiht,6
+43542242,Redmane Kngiht,48
+43550000,Mausoleum Knight,6
+43550020,Mausoleum Knight,6
+43550052,Mausoleum Knight,6
+43550066,Mausoleum Knight,6
+43551000,Mausoleum Knight,6
+43551052,Mausoleum Knight,6
+43551066,Mausoleum Knight,6
+43551100,Mausoleum Knight,6
+43551152,Mausoleum Knight,6
+43551166,Mausoleum Knight,6
+43552000,Mausoleum Knight,6
+43552052,Mausoleum Knight,6
+43552066,Mausoleum Knight,6
+43560000,Haligtree Knight,6
+43560034,Haligtree Knight,6
+43560056,Haligtree Knight,6
+43560556,Haligtree Knight,6
+43561000,Haligtree Knight,6
+43561056,Haligtree Knight,6
+43561556,Haligtree Knight,6
+43562000,Haligtree Knight,6
+43562056,Haligtree Knight,6
+43562556,Haligtree Knight,6
+43580000,,6
+43581000,,6
+43581100,,6
+43582000,,6
+43610000,Godrick Knight's Horse,6
+43610010,Godrick Knight's Horse,6
+43610012,Godrick Knight's Horse,6
+43610100,Godrick Knight's Horse,6
+43620000,Cuckoo Knight's Horse,6
+43620020,Cuckoo Knight's Horse,6
+43620100,Cuckoo Knight's Horse,6
+43630000,Leyndell Knight's Horse,6
+43630030,Leyndell Knight's Horse,48
+43630050,Leyndell Knight's Horse,6
+43630100,Leyndell Knight's Horse,6
+43640000,Redmane Knight's Horse,6
+43640040,Redmane Knight's Horse,48
+43640100,Redmane Knight's Horse,6
+43650000,Mausoleum Knight's Horse,6
+43650052,Mausoleum Knight's Horse,6
+43650066,Mausoleum Knight's Horse,6
+43680000,,6
+43680100,,6
+43710000,Godrick Foot Soldier,6
+43710010,Godrick Foot Soldier,48
+43710012,Godrick Foot Soldier,48
+43710013,Godrick Foot Soldier,48
+43710040,Godrick Foot Soldier,48
+43710500,Godrick Foot Soldier,6
+43710510,Godrick Foot Soldier,48
+43710512,Godrick Foot Soldier,48
+43710540,Godrick Foot Soldier,48
+43711000,Godrick Foot Soldier,6
+43711010,Godrick Foot Soldier,48
+43711012,Godrick Foot Soldier,48
+43711040,Godrick Foot Soldier,48
+43711400,Godrick Foot Soldier,6
+43711500,Godrick Foot Soldier,6
+43711510,Godrick Foot Soldier,48
+43711512,Godrick Foot Soldier,48
+43711600,Godrick Foot Soldier,6
+43711612,Godrick Foot Soldier,48
+43711700,Godrick Foot Soldier,6
+43711710,Godrick Foot Soldier,48
+43711712,Godrick Foot Soldier,48
+43711800,Godrick Foot Soldier,6
+43711812,Godrick Foot Soldier,48
+43712000,Godrick Foot Soldier,6
+43712010,Godrick Foot Soldier,48
+43712012,Godrick Foot Soldier,48
+43712500,Godrick Foot Soldier,6
+43712510,Godrick Foot Soldier,48
+43712512,Godrick Foot Soldier,48
+43712540,Godrick Foot Soldier,48
+43713000,Godrick Foot Soldier,6
+43713010,Godrick Foot Soldier,48
+43713012,Godrick Foot Soldier,48
+43713040,Godrick Foot Soldier,48
+43714000,Godrick Foot Soldier,6
+43714010,Godrick Foot Soldier,48
+43714012,Godrick Foot Soldier,48
+43714013,Godrick Foot Soldier,48
+43714040,Godrick Foot Soldier,48
+43716000,Godrick Foot Soldier,6
+43716010,Godrick Foot Soldier,48
+43716012,Godrick Foot Soldier,48
+43716040,Godrick Foot Soldier,48
+43717000,Godrick Foot Soldier,6
+43717010,Godrick Foot Soldier,6
+43717012,Godrick Foot Soldier,6
+43720000,Raya Lucaria Foot Soldier,6
+43720020,Raya Lucaria Foot Soldier,48
+43720500,Raya Lucaria Foot Soldier,6
+43720520,Raya Lucaria Foot Soldier,48
+43721000,Raya Lucaria Foot Soldier,6
+43721400,Raya Lucaria Foot Soldier,6
+43721500,Raya Lucaria Foot Soldier,6
+43721600,Raya Lucaria Foot Soldier,6
+43721700,Raya Lucaria Foot Soldier,6
+43721800,Raya Lucaria Foot Soldier,6
+43721820,Raya Lucaria Foot Soldier,48
+43722000,Raya Lucaria Foot Soldier,6
+43722020,Raya Lucaria Foot Soldier,48
+43722500,Raya Lucaria Foot Soldier,6
+43723000,Raya Lucaria Foot Soldier,6
+43723020,Raya Lucaria Foot Soldier,48
+43724000,Raya Lucaria Foot Soldier,6
+43724020,Raya Lucaria Foot Soldier,48
+43726000,Raya Lucaria Foot Soldier,6
+43727000,Raya Lucaria Foot Soldier,6
+43727020,Raya Lucaria Foot Soldier,48
+43728000,Raya Lucaria Foot Soldier,6
+43728100,Raya Lucaria Foot Soldier,6
+43728200,Raya Lucaria Foot Soldier,6
+43728300,Raya Lucaria Foot Soldier,6
+43728400,Raya Lucaria Foot Soldier,6
+43730000,Leyndell Foot Soldier,6
+43730030,Leyndell Foot Soldier,48
+43730032,Leyndell Foot Soldier,6
+43730033,Leyndell Foot Soldier,6
+43730500,Leyndell Foot Soldier,6
+43730530,Leyndell Foot Soldier,48
+43730532,Leyndell Foot Soldier,6
+43730534,Leyndell Foot Soldier,6
+43731000,Leyndell Foot Soldier,6
+43731030,Leyndell Foot Soldier,48
+43731050,Leyndell Foot Soldier,6
+43731400,Leyndell Foot Soldier,6
+43731500,Leyndell Foot Soldier,6
+43731530,Leyndell Foot Soldier,48
+43731600,Leyndell Foot Soldier,6
+43731630,Leyndell Foot Soldier,48
+43731700,Leyndell Foot Soldier,6
+43731730,Leyndell Foot Soldier,48
+43731732,Leyndell Foot Soldier,6
+43731800,Leyndell Foot Soldier,6
+43732000,Leyndell Foot Soldier,6
+43732030,Leyndell Foot Soldier,48
+43732500,Leyndell Foot Soldier,6
+43732530,Leyndell Foot Soldier,48
+43732534,Leyndell Foot Soldier,6
+43733000,Leyndell Foot Soldier,6
+43734000,Leyndell Foot Soldier,6
+43734030,Leyndell Foot Soldier,48
+43734032,Leyndell Foot Soldier,6
+43734034,Leyndell Foot Soldier,6
+43734035,Leyndell Foot Soldier,6
+43734050,Leyndell Foot Soldier,6
+43734500,Leyndell Foot Soldier,6
+43734535,Leyndell Foot Soldier,6
+43736000,Leyndell Foot Soldier,6
+43736030,Leyndell Foot Soldier,48
+43736032,Leyndell Foot Soldier,6
+43737000,Leyndell Foot Soldier,6
+43737030,Leyndell Foot Soldier,48
+43737032,Leyndell Foot Soldier,6
+43737033,Leyndell Foot Soldier,6
+43737050,Leyndell Foot Soldier,6
+43738000,Leyndell Foot Soldier,6
+43738032,Leyndell Foot Soldier,6
+43738100,Leyndell Foot Soldier,6
+43738200,Leyndell Foot Soldier,6
+43738300,Leyndell Foot Soldier,6
+43738400,Leyndell Foot Soldier,6
+43740000,Radahn Foot Soldier,6
+43740040,Radahn Foot Soldier,48
+43740041,Radahn Foot Soldier,48
+43740042,Radahn Foot Soldier,48
+43740342,Radahn Foot Soldier,48
+43740500,Radahn Foot Soldier,6
+43740540,Radahn Foot Soldier,48
+43740541,Radahn Foot Soldier,48
+43740542,Radahn Foot Soldier,48
+43741000,Radahn Foot Soldier,6
+43741040,Radahn Foot Soldier,48
+43741400,Radahn Foot Soldier,6
+43741441,Radahn Foot Soldier,48
+43741500,Radahn Foot Soldier,6
+43741541,Radahn Foot Soldier,48
+43741600,Radahn Foot Soldier,6
+43741700,Radahn Foot Soldier,6
+43741800,Radahn Foot Soldier,6
+43741841,Radahn Foot Soldier,48
+43742000,Radahn Foot Soldier,6
+43742040,Radahn Foot Soldier,48
+43742041,Radahn Foot Soldier,48
+43742042,Radahn Foot Soldier,48
+43742500,Radahn Foot Soldier,6
+43742540,Radahn Foot Soldier,48
+43743000,Radahn Foot Soldier,6
+43743040,Radahn Foot Soldier,48
+43744000,Radahn Foot Soldier,6
+43746000,Radahn Foot Soldier,6
+43746040,Radahn Foot Soldier,48
+43746041,Radahn Foot Soldier,48
+43746042,Radahn Foot Soldier,6
+43747000,Radahn Foot Soldier,6
+43747040,Radahn Foot Soldier,48
+43747041,Radahn Foot Soldier,48
+43747042,Radahn Foot Soldier,48
+43750000,Mausoleum Foot Soldier,6
+43750500,Mausoleum Foot Soldier,6
+43751000,Mausoleum Foot Soldier,6
+43751052,Mausoleum Foot Soldier,6
+43752000,Mausoleum Foot Soldier,6
+43752500,Mausoleum Foot Soldier,6
+43753000,Mausoleum Foot Soldier,6
+43754000,Mausoleum Foot Soldier,6
+43756000,Mausoleum Foot Soldier,6
+43760000,Haligtree Foot Soldier,6
+43760056,Haligtree Foot Soldier,6
+43760500,Haligtree Foot Soldier,6
+43760556,Haligtree Foot Soldier,6
+43761000,Haligtree Foot Soldier,6
+43761400,Haligtree Foot Soldier,6
+43761500,Haligtree Foot Soldier,6
+43761556,Haligtree Foot Soldier,6
+43761600,Haligtree Foot Soldier,6
+43761656,Haligtree Foot Soldier,6
+43761700,Haligtree Foot Soldier,6
+43761756,Haligtree Foot Soldier,6
+43761800,Haligtree Foot Soldier,6
+43762000,Haligtree Foot Soldier,6
+43762500,Haligtree Foot Soldier,6
+43763000,Haligtree Foot Soldier,6
+43764000,Haligtree Foot Soldier,6
+43764056,Haligtree Foot Soldier,6
+43766000,Haligtree Foot Soldier,6
+43766056,Haligtree Foot Soldier,6
+43767000,Haligtree Foot Soldier,6
+43767056,Haligtree Foot Soldier,6
+43770000,Highwayman,6
+43770012,Highwayman,6
+43770500,Highwayman,6
+43771000,Highwayman,6
+43771400,Highwayman,6
+43771500,Highwayman,6
+43771600,Highwayman,6
+43771700,Highwayman,6
+43771800,Highwayman,6
+43772000,Highwayman,6
+43772012,Highwayman,6
+43772500,Highwayman,6
+43772512,Highwayman,6
+43773000,Highwayman,6
+43776000,Highwayman,6
+43777000,Highwayman,6
+43800000,Starcaller,6
+43800012,Starcaller,6
+43800032,Starcaller,6
+43800042,Starcaller,6
+43800062,Starcaller,6
+43800100,Starcaller,6
+43800130,Starcaller,6
+43810000,Bloodthorn Exile,6
+43810020,Bloodthorn Exile,6
+43810032,Bloodthorn Exile,66
+43810100,Bloodthorn Exile,6
+43810132,Bloodthorn Exile,66
+43810200,Bloodthorn Exile,6
+43810250,Bloodthorn Exile,6
+43810300,Bloodthorn Exile,6
+43810350,Bloodthorn Exile,6
+43811000,Bloodthorn Exile,6
+43811020,Bloodthorn Exile,6
+43811100,Bloodthorn Exile,6
+43811150,Bloodthorn Exile,6
+43820000,Tunnel Miner,6
+43820010,Tunnel Miner,6
+43820012,Tunnel Miner,6
+43820026,Tunnel Miner,6
+43820030,Tunnel Miner,6
+43820033,Tunnel Miner,6
+43820052,Tunnel Miner,6
+43820100,Tunnel Miner,6
+43820140,Tunnel Miner,48
+43821000,Tunnel Miner,6
+43821010,Tunnel Miner,6
+43821012,Tunnel Miner,6
+43821020,Tunnel Miner,6
+43821026,Tunnel Miner,6
+43821030,Tunnel Miner,6
+43821033,Tunnel Miner,6
+43821052,Tunnel Miner,6
+43821100,Tunnel Miner,6
+43822000,Tunnel Miner,6
+43822010,Tunnel Miner,6
+43822026,Tunnel Miner,6
+43822100,Tunnel Miner,6
+43822140,Tunnel Miner,48
+43823000,Tunnel Miner,6
+43823010,Tunnel Miner,6
+43823012,Tunnel Miner,6
+43823030,Tunnel Miner,6
+43823033,Tunnel Miner,6
+43823040,Tunnel Miner,48
+43823100,Tunnel Miner,6
+43824000,Tunnel Miner,6
+43824100,Tunnel Miner,6
+43825000,Tunnel Miner,6
+43825026,Tunnel Miner,6
+43825100,Tunnel Miner,6
+43826000,Tunnel Miner,6
+43826033,Tunnel Miner,6
+43826100,Tunnel Miner,6
+43827000,Tunnel Miner,6
+43827012,Tunnel Miner,6
+43827052,Tunnel Miner,6
+43827100,Tunnel Miner,6
+43828000,Tunnel Miner,6
+43828033,Tunnel Miner,6
+43828100,Tunnel Miner,6
+43829000,Tunnel Miner,6
+43829030,Tunnel Miner,6
+43829100,Tunnel Miner,6
+43829140,Tunnel Miner,6
+43830000,Glintstone Miner,6
+43830010,Glintstone Miner,6
+43830020,Glintstone Miner,6
+43830030,Glintstone Miner,6
+43830040,Glintstone Miner,6
+43831000,Glintstone Miner,6
+43831020,Glintstone Miner,6
+43831030,Glintstone Miner,6
+43831040,Glintstone Miner,6
+43840000,Glintstone Miner,6
+43840020,Glintstone Miner,6
+43840040,Glintstone Miner,6
+43850000,Fungal Sorcerer,6
+43850010,Fungal Sorcerer,6
+43850012,Fungal Sorcerer,6
+43850020,Fungal Sorcerer,6
+43850032,Fungal Sorcerer,6
+43850040,Fungal Sorcerer,51
+43850100,Fungal Sorcerer,6
+43850110,Fungal Sorcerer,6
+43850112,Fungal Sorcerer,6
+43850120,Fungal Sorcerer,6
+43850132,Fungal Sorcerer,6
+43850140,Fungal Sorcerer,51
+43850200,Fungal Sorcerer,6
+43850210,Fungal Sorcerer,6
+43850212,Fungal Sorcerer,6
+43850220,Fungal Sorcerer,6
+43850232,Fungal Sorcerer,6
+43850240,Fungal Sorcerer,51
+43858000,Fungal Sorcerer,6
+43858040,Fungal Sorcerer,6
+43858100,Fungal Sorcerer,6
+43858140,Fungal Sorcerer,6
+43858200,Fungal Sorcerer,6
+43858240,Fungal Sorcerer,6
+44200000,Giant Lobster,7
+44200020,Giant Lobster,7
+44200035,Giant Lobster,7
+44200120,Giant Lobster,7
+44201000,Giant Lobster,7
+44201020,Giant Lobster,7
+44202000,Giant Lobster,7
+44202020,Giant Lobster,7
+44203000,Giant Lobster,7
+44203050,Giant Lobster,33
+44204000,Giant Lobster,7
+44204050,Giant Lobster,33
+44205000,Giant Lobster,7
+44205050,Giant Lobster,33
+44300000,Abnormal Stone Cluster,6
+44300010,Abnormal Stone Cluster,6
+44300012,Abnormal Stone Cluster,6
+44300020,Abnormal Stone Cluster,6
+44300022,Abnormal Stone Cluster,6
+44300030,Abnormal Stone Cluster,6
+44300040,Abnormal Stone Cluster,6
+44300050,Abnormal Stone Cluster,6
+44300100,Abnormal Stone Cluster,6
+44300110,Abnormal Stone Cluster,6
+44300150,Abnormal Stone Cluster,6
+44300200,Abnormal Stone Cluster,6
+44300250,Abnormal Stone Cluster,6
+44300300,Abnormal Stone Cluster,6
+44300310,Abnormal Stone Cluster,6
+44300340,Abnormal Stone Cluster,6
+44300350,Abnormal Stone Cluster,6
+44301000,Abnormal Stone Cluster,6
+44301010,Abnormal Stone Cluster,6
+44301033,Abnormal Stone Cluster,6
+44301040,Abnormal Stone Cluster,6
+44400000,Fungal Pod,6
+44400010,Fungal Pod,6
+44400012,Fungal Pod,6
+44400020,Fungal Pod,6
+44400032,Fungal Pod,6
+44400033,Fungal Pod,6
+44400040,Fungal Pod,6
+44400050,Fungal Pod,6
+44410000,Giant Fungal Pod,7
+44410020,Giant Fungal Pod,7
+44410050,Giant Fungal Pod,7
+44420000,Giant Fungal Pod,7
+44420040,Giant Fungal Pod,7
+44500000,Walking Mausoleum,7
+44500012,Walking Mausoleum,7
+44500020,Walking Mausoleum,7
+44500050,Walking Mausoleum,7
+44500052,Walking Mausoleum,6
+44500066,Walking Mausoleum,7
+44501000,Walking Mausoleum,6
+44501020,Walking Mausoleum,7
+44600000,Flamethrower Tank,7
+44600020,Flamethrower Tank,7
+44600032,Flamethrower Tank,7
+44600036,Flamethrower Tank,8
+44600040,Flamethrower Tank,7
+44600840,Flamethrower Tank,7
+44601000,Flamethrower Tank,7
+44601032,Flamethrower Tank,7
+44601040,Flamethrower Tank,7
+44601840,Flamethrower Tank,7
+44607000,Flamethrower Tank,7
+44607020,Flamethrower Tank,7
+44607032,Flamethrower Tank,7
+44607040,Flamethrower Tank,7
+44607100,Flamethrower Tank,7
+44607120,Flamethrower Tank,7
+44607132,Flamethrower Tank,7
+44607200,Flamethrower Tank,7
+44607220,Flamethrower Tank,7
+44607800,Flamethrower Tank,7
+44607840,Flamethrower Tank,7
+44608000,Flamethrower Tank,7
+44608032,Flamethrower Tank,7
+44608040,Flamethrower Tank,7
+44608600,Flamethrower Tank,7
+44608640,Flamethrower Tank,7
+44608700,Flamethrower Tank,7
+44608740,Flamethrower Tank,7
+44608800,Flamethrower Tank,7
+44608840,Flamethrower Tank,7
+44700000,Ghiza Torturer,7
+44700020,Ghiza Torturer,7
+44700024,Ghiza Torturer,7
+44700032,Ghiza Torturer,55
+44700034,Ghiza Torturer,7
+44700038,Ghiza Torturer,7
+44700040,Ghiza Torturer,7
+44700938,Ghiza Torturer,6
+44701000,Ghiza Torturer,7
+44701021,Ghiza Torturer,7
+44701024,Ghiza Torturer,7
+44701032,Ghiza Torturer,55
+44701033,Ghiza Torturer,7
+44701034,Ghiza Torturer,7
+44701038,Ghiza Torturer,7
+44701100,Ghiza Torturer,7
+44701132,Ghiza Torturer,7
+44701938,Ghiza Torturer,6
+44702000,Ghiza Torturer,7
+44702041,Ghiza Torturer,7
+44800000,Giant Miranda Sprout,6
+44800010,Giant Miranda Sprout,6
+44800012,Giant Miranda Sprout,6
+44800020,Giant Miranda Sprout,6
+44800032,Giant Miranda Sprout,6
+44800034,Giant Miranda Sprout,6
+44800035,Giant Miranda Sprout,6
+44800040,Giant Miranda Sprout,6
+44800054,Giant Miranda Sprout,6
+44800064,Giant Miranda Sprout,6
+44800100,Giant Miranda Sprout,6
+44800120,Giant Miranda Sprout,6
+44800130,Giant Miranda Sprout,6
+44800140,Giant Miranda Sprout,6
+44800162,Giant Miranda Sprout,6
+44800200,Giant Miranda Sprout,6
+44800220,Giant Miranda Sprout,6
+44800300,Giant Miranda Sprout,6
+44800330,Giant Miranda Sprout,6
+44800370,Giant Miranda Sprout,6
+44800400,Giant Miranda Sprout,6
+44800430,Giant Miranda Sprout,6
+44800912,Giant Miranda Sprout,6
+44800930,Giant Miranda Sprout,6
+44810000,Miranda Sprout,6
+44810010,Miranda Sprout,6
+44810012,Miranda Sprout,6
+44810020,Miranda Sprout,6
+44810032,Miranda Sprout,6
+44810034,Miranda Sprout,6
+44810035,Miranda Sprout,6
+44810040,Miranda Sprout,6
+44810054,Miranda Sprout,6
+44810064,Miranda Sprout,6
+44810100,Miranda Sprout,6
+44810120,Miranda Sprout,6
+44810130,Miranda Sprout,6
+44810162,Miranda Sprout,6
+44810200,Miranda Sprout,6
+44810220,Miranda Sprout,6
+44810300,Miranda Sprout,6
+44810330,Miranda Sprout,6
+44810370,Miranda Sprout,6
+44810400,Miranda Sprout,6
+44810430,Miranda Sprout,6
+44810500,Miranda Sprout,6
+44810540,Miranda Sprout,6
+44810830,Miranda Sprout,6
+44810912,Miranda Sprout,6
+44811000,Miranda Sprout,6
+44811012,Miranda Sprout,6
+44811100,Miranda Sprout,6
+44811200,Miranda Sprout,6
+44811300,Miranda Sprout,6
+44811330,Miranda Sprout,6
+44811400,Miranda Sprout,6
+44811430,Miranda Sprout,6
+44811830,Miranda Sprout,6
+44820000,Giant Miranda Sprout,6
+44820031,Giant Miranda Sprout,6
+44820040,Giant Miranda Sprout,6
+44820054,Giant Miranda Sprout,6
+44820056,Giant Miranda Sprout,6
+44830000,Miranda Sprout,6
+44830030,Miranda Sprout,6
+44830031,Miranda Sprout,6
+44830040,Miranda Sprout,6
+44830054,Miranda Sprout,6
+44831000,Miranda Sprout,6
+44831040,Miranda Sprout,6
+44831054,Miranda Sprout,6
+44831056,Miranda Sprout,6
+44900000,Living Pot - Large,6
+44900011,Living Pot - Large,6
+44900014,Living Pot - Large,6
+44900020,Living Pot - Large,6
+44900021,Living Pot - Large,6
+44900024,Living Pot - Large,6
+44900032,Living Pot - Large,6
+44900033,Living Pot - Large,6
+44900034,Living Pot - Large,6
+44900035,Living Pot - Large,6
+44900038,Living Pot - Large,6
+44900050,Living Pot - Large,6
+44900100,Living Pot - Large,6
+44900124,Living Pot - Large,6
+44900200,Living Pot - Large,6
+44900320,Living Pot - Large,6
+44907000,Living Pot - Large,6
+44907014,Living Pot - Large,6
+44907021,Living Pot - Large,6
+44907033,Living Pot - Large,6
+44907035,Living Pot - Large,6
+44907038,Living Pot - Large,6
+44907050,Living Pot - Large,6
+44907100,Living Pot - Large,6
+44907121,Living Pot - Large,6
+44907133,Living Pot - Large,6
+44907150,Living Pot - Large,6
+44907200,Living Pot - Large,6
+44907221,Living Pot - Large,6
+44907233,Living Pot - Large,6
+44907250,Living Pot - Large,6
+44907300,Living Pot - Large,6
+44907333,Living Pot - Large,6
+44907350,Living Pot - Large,6
+44907400,Living Pot - Large,6
+44907450,Living Pot - Large,6
+44908100,Living Pot - Large,6
+44908124,Living Pot - Large,6
+44908300,Living Pot - Large,6
+44908320,Living Pot - Large,6
+44908400,Living Pot - Large,6
+44908420,Living Pot - Large,6
+44909000,Living Pot - Large,26
+44909040,Living Pot - Large,2
+44909100,Living Pot - Large,26
+44909200,Living Pot - Large,26
+44909310,Living Pot - Large,26
+44909410,Living Pot - Large,26
+44909540,Living Pot - Large,0
+44909620,Living Pot - Large,26
+44909640,Living Pot - Large,26
+44909732,Living Pot - Large,26
+44909850,Living Pot - Large,2
+44909972,Living Pot - Large,26
+44910000,Living Pot - Small,6
+44910002,Living Pot - Small,6
+44910014,Living Pot - Small,6
+44910020,Living Pot - Small,6
+44910021,Living Pot - Small,6
+44910024,Living Pot - Small,6
+44910032,Living Pot - Small,6
+44910033,Living Pot - Small,6
+44910034,Living Pot - Small,6
+44910035,Living Pot - Small,6
+44910038,Living Pot - Small,6
+44910050,Living Pot - Small,6
+44910100,Living Pot - Small,6
+44910124,Living Pot - Small,6
+44910150,Living Pot - Small,6
+44910200,Living Pot - Small,6
+44910232,Living Pot - Small,6
+44910233,Living Pot - Small,6
+44910234,Living Pot - Small,6
+44910238,Living Pot - Small,6
+44910250,Living Pot - Small,6
+44910300,Living Pot - Small,6
+44910333,Living Pot - Small,6
+44910350,Living Pot - Small,6
+44910400,Living Pot - Small,6
+44910500,Living Pot - Small,6
+44910600,Living Pot - Small,6
+44910720,Living Pot - Small,6
+44910933,Living Pot - Small,6
+44919000,Living Pot - Small,26
+44919020,Living Pot - Small,26
+44919120,Living Pot - Small,26
+44920000,Living Pot - Huge,26
+44920040,Living Pot - Huge,26
+44920100,Living Pot - Huge,26
+45000000,Dragon,11
+45000010,Dragon,11
+45000042,Dragon,11
+45000072,Dragon,11
+45001000,Dragon,11
+45001072,Dragon,11
+45008000,Dragon,6
+45008024,Dragon,6
+45010000,Dragon,11
+45010040,Dragon,9
+45020000,Dragon,11
+45020022,Dragon,7
+45020920,Dragon,11
+45021000,Dragon,11
+45021920,Dragon,11
+45021922,Dragon,11
+45030000,Dragon,11
+45030050,Dragon,11
+45040000,Dragon,11
+45040042,Dragon,9
+45050000,Dragon,11
+45050042,Dragon,6
+45100000,Ancient Dragon,11
+45100072,Ancient Dragon,11
+45100172,Ancient Dragon,11
+45100272,Ancient Dragon,11
+45100572,Ancient Dragon,11
+45101000,Ancient Dragon,11
+45101100,Ancient Dragon,11
+45101200,Ancient Dragon,11
+45101272,Ancient Dragon,11
+45102000,Ancient Dragon,11
+45102030,Ancient Dragon,11
+45102100,Ancient Dragon,11
+45102200,Ancient Dragon,11
+45102272,Ancient Dragon,11
+45110000,Lichdragon Fortissax,11
+45110066,Lichdragon Fortissax,11
+45200000,Dragonlord Placidusax,7
+45200072,Dragonlord Placidusax,7
+45200100,Dragonlord Placidusax,7
+45500000,Monstrous Dog,7
+45500040,Monstrous Dog,52
+45500042,Monstrous Dog,52
+45501000,Monstrous Dog,7
+45501040,Monstrous Dog,52
+45502000,Monstrous Dog,7
+45502040,Monstrous Dog,52
+45502042,Monstrous Dog,7
+45503000,Monstrous Dog,7
+45503040,Monstrous Dog,52
+45504000,Monstrous Dog,7
+45504040,Monstrous Dog,7
+45505000,Monstrous Dog,7
+45505050,Monstrous Dog,59
+45506000,Monstrous Dog,7
+45506050,Monstrous Dog,59
+45506200,Monstrous Dog,7
+45506400,Monstrous Dog,7
+45506450,Monstrous Dog,59
+45506600,Monstrous Dog,7
+45506650,Monstrous Dog,59
+45508000,Monstrous Dog,7
+45508100,Monstrous Dog,7
+45600000,Monstrous Crow,7
+45600040,Monstrous Crow,52
+45600042,Monstrous Crow,7
+45601000,Monstrous Crow,7
+45601050,Monstrous Crow,59
+45601850,Monstrous Crow,59
+45609000,Monstrous Crow,7
+45610000,Monstrous Crow,7
+45610068,Monstrous Crow,7
+45700000,Wormface - Small,6
+45700030,Wormface - Small,59
+45701000,Wormface - Small,6
+45701072,Wormface - Small,6
+45702000,Wormface - Small,6
+45702030,Wormface - Small,59
+45800000,Wormface - Large,7
+45800030,Wormface - Large,59
+45801000,Wormface - Large,7
+45801072,Wormface - Large,7
+45802000,Wormface - Large,7
+45802132,Wormface - Large,7
+46000000,Troll Knight,9
+46000010,Troll Knight,7
+46000012,Troll Knight,7
+46000014,Troll Knight,9
+46000020,Troll Knight,9
+46000032,Troll Knight,6
+46000033,Troll Knight,9
+46000040,Troll Knight,7
+46000050,Troll Knight,9
+46000065,Troll Knight,9
+46000100,Troll Knight,9
+46000150,Troll Knight,9
+46001000,Troll Knight,7
+46001010,Troll Knight,7
+46001020,Troll Knight,7
+46001030,Troll Knight,7
+46001032,Troll Knight,7
+46001099,Troll Knight,7
+46001120,Troll Knight,7
+46003000,Troll Knight,9
+46003041,Troll Knight,49
+46003140,Troll Knight,9
+46004000,Troll Knight,9
+46004032,Troll Knight,9
+46004100,Troll Knight,9
+46004152,Troll Knight,9
+46008000,Troll Knight,6
+46008024,Troll Knight,6
+46010000,Armored Troll Knight,9
+46010020,Armored Troll Knight,9
+46010021,Armored Troll Knight,9
+46010100,Armored Troll Knight,9
+46010120,Armored Troll Knight,9
+46010200,Armored Troll Knight,9
+46010220,Armored Troll Knight,55
+46010920,Armored Troll Knight,9
+46018000,Armored Troll Knight,9
+46018021,Armored Troll Knight,9
+46020000,Troll Knight,9
+46020050,Troll Knight,56
+46021000,Troll Knight,7
+46021052,Troll Knight,7
+46022000,Troll Knight,9
+46030000,Troll Knight (Club),9
+46030910,Troll Knight (Club),9
+46030930,Troll Knight (Club),9
+46040000,Troll Knight (Confessor),26
+46040020,Troll Knight (Confessor),26
+46040120,Troll Knight (Confessor),0
+46040220,Troll Knight (Confessor),26
+46100000,,7
+46200000,Astel, Stars of Darkness,9
+46200062,Astel, Stars of Darkness,9
+46200952,Astel, Stars of Darkness,33
+46201000,Astel, Stars of Darkness,9
+46202000,Astel, Stars of Darkness,9
+46202030,Astel, Stars of Darkness,9
+46202060,Astel, Stars of Darkness,9
+46202062,Astel, Stars of Darkness,9
+46209000,Astel, Stars of Darkness,33
+46209100,Astel, Stars of Darkness,33
+46209152,Astel, Stars of Darkness,33
+46209200,Astel, Stars of Darkness,33
+46209300,Astel, Stars of Darkness,33
+46300000,Runebear,9
+46300010,Runebear,58
+46300020,Runebear,9
+46300030,Runebear,9
+46300032,Runebear,9
+46300033,Runebear,9
+46300042,Runebear,9
+46300052,Runebear,9
+46300066,Runebear,9
+46300072,Runebear,9
+46300100,Runebear,9
+46300152,Runebear,9
+46300200,Runebear,9
+46300240,Runebear,9
+46300310,Runebear,58
+46300342,Runebear,9
+46300410,Runebear,9
+46300652,Runebear,9
+46300700,Runebear,9
+46300766,Runebear,9
+46300912,Runebear,9
+46400000,Ulcerated Tree Spirit,7
+46400007,Ulcerated Tree Spirit,7
+46400014,Ulcerated Tree Spirit,7
+46400032,Ulcerated Tree Spirit,7
+46400033,Ulcerated Tree Spirit,7
+46400034,Ulcerated Tree Spirit,7
+46400070,Ulcerated Tree Spirit,7
+46400100,Ulcerated Tree Spirit,7
+46400156,Ulcerated Tree Spirit,7
+46400162,Ulcerated Tree Spirit,7
+46400942,Ulcerated Tree Spirit,7
+46400950,Ulcerated Tree Spirit,7
+46500000,Dragonkin Soldier,7
+46500060,Dragonkin Soldier,7
+46500100,Dragonkin Soldier,7
+46500160,Dragonkin Soldier,7
+46500200,Dragonkin Soldier,7
+46500262,Dragonkin Soldier,7
+46500265,Dragonkin Soldier,7
+46500300,Dragonkin Soldier,7
+46500352,Dragonkin Soldier,33
+46500900,Dragonkin Soldier,7
+46500960,Dragonkin Soldier,7
+46600000,Golem,7
+46600010,Golem,7
+46600030,Golem,65
+46600034,Golem,7
+46600070,Golem,7
+46600100,Golem,7
+46600120,Golem,7
+46600133,Golem,65
+46600150,Golem,7
+46600170,Golem,7
+46600910,Golem,7
+46601000,Golem,7
+46601010,Golem,7
+46601030,Golem,65
+46601034,Golem,7
+46601040,Golem,7
+46601042,Golem,7
+46601100,Golem,7
+46601120,Golem,7
+46601140,Golem,7
+46602000,Golem,7
+46602050,Golem,7
+46602100,Golem,7
+46603000,Golem,7
+46603100,Golem,7
+46604000,Golem,7
+46604100,Golem,7
+46604142,Golem,7
+46605000,Golem,7
+46605040,Golem,7
+46605100,Golem,7
+46605140,Golem,7
+46606000,Golem,7
+46606010,Golem,7
+46606020,Golem,7
+46607000,Golem,7
+46607012,Golem,7
+46607033,Golem,65
+46608000,Golem,7
+46609000,Golem,7
+46609050,Golem,7
+46700000,Ancestor Spirit,6
+46700065,Ancestor Spirit,6
+46700100,Ancestor Spirit,6
+46700200,Ancestor Spirit,6
+46700300,Ancestor Spirit,6
+46700400,Ancestor Spirit,6
+46700964,Ancestor Spirit,6
+46705000,Ancestor Spirit,6
+46800000,Fallingstar Beast,7
+46800032,Fallingstar Beast,7
+46800940,Fallingstar Beast,7
+46801000,Fallingstar Beast,7
+46801930,Fallingstar Beast,7
+46900000,Grafted Scion,6
+46900007,Grafted Scion,6
+46900008,Grafted Scion,6
+46900014,Grafted Scion,6
+46900020,Grafted Scion,6
+46900032,Grafted Scion,6
+46900034,Grafted Scion,6
+47100000,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47100038,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47101000,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47101038,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47102000,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47109000,God-Devouring Serpent / Rykard, Lord of Blasphemy,6
+47110000,Writhing Mass,0
+47110038,Writhing Mass,0
+47200000,Godfrey, First Elden Lord,7
+47200070,Godfrey, First Elden Lord,33
+47200100,Godfrey, First Elden Lord,7
+47200134,Godfrey, First Elden Lord,7
+47210000,Hoarah Loux,7
+47210070,Hoarah Loux,33
+47300000,Starscourge Radahn,7
+47300040,Starscourge Radahn,7
+47500000,Godrick the Grafted,6
+47500014,Godrick the Grafted,6
+47500030,Godrick the Grafted,6
+47501000,Godrick the Grafted,6
+47510000,Godrick - Head and Torso,6
+47510014,Godrick - Head and Torso,0
+47600000,Fire Giant,7
+47600050,Fire Giant,33
+47600900,Fire Giant,7
+47601000,Fire Giant,7
+47601050,Fire Giant,33
+47601900,Fire Giant,7
+47700000,Gargoyle,7
+47700033,Gargoyle,7
+47700034,Gargoyle,7
+47700070,Gargoyle,7
+47700100,Gargoyle,7
+47700165,Gargoyle,6
+47700200,Gargoyle,7
+47700250,Gargoyle,7
+47701000,Gargoyle,7
+47701034,Gargoyle,7
+47701100,Gargoyle,7
+47701165,Gargoyle,6
+47701200,Gargoyle,7
+47701242,Gargoyle,7
+47702000,Gargoyle,7
+47702034,Gargoyle,7
+47702066,Gargoyle,7
+47709900,Gargoyle,6
+47709910,Gargoyle,6
+48000000,Mohg, The Omen,6
+48000068,Mohg, The Omen,6
+48001000,Mohg, The Omen,6
+48001935,Mohg, The Omen,6
+48008000,Mohg, The Omen,6
+48009000,Mohg, The Omen,6
+48100000,Erdtree Avatar,7
+48100012,Erdtree Avatar,7
+48100020,Erdtree Avatar,7
+48100034,Erdtree Avatar,7
+48100040,Erdtree Avatar,7
+48100066,Erdtree Avatar,7
+48100100,Erdtree Avatar,7
+48100150,Erdtree Avatar,33
+48100920,Erdtree Avatar,7
+48109990,Erdtree Avatar,33
+48109991,Erdtree Avatar,33
+48109992,Erdtree Avatar,33
+48110000,Erdtree Avatar,7
+48110040,Erdtree Avatar,7
+48110042,Erdtree Avatar,7
+48110052,Erdtree Avatar,7
+48110054,Erdtree Avatar,6
+48110056,Erdtree Avatar,6
+48200000,Omenkiller,6
+48200100,Omenkiller,6
+48200130,Omenkiller,6
+48200134,Omenkiller,6
+48200138,Omenkiller,6
+48200820,Omenkiller,0
+48200920,Omenkiller,6
+48200930,Omenkiller,6
+48208000,Omenkiller,6
+48208030,Omenkiller,6
+48208034,Omenkiller,6
+48208038,Omenkiller,6
+48208100,Omenkiller,6
+48208138,Omenkiller,6
+49100000,Magma Wyrm,7
+49100026,Magma Wyrm,7
+49100032,Magma Wyrm,7
+49100038,Magma Wyrm,7
+49100100,Magma Wyrm,7
+49100940,Magma Wyrm,7
+49110000,Magma Wyrm - Standing,7
+49110052,Magma Wyrm - Standing,24
+49500000,Tibia Mariner,7
+49500010,Tibia Mariner,7
+49500020,Tibia Mariner,7
+49500032,Tibia Mariner,33
+49500050,Tibia Mariner,33
+49600000,Giant Skeleton Torso,7
+49600032,Giant Skeleton Torso,33
+49600050,Giant Skeleton Torso,33
+49600100,Giant Skeleton Torso,7
+49600168,Giant Skeleton Torso,7
+49800000,Death Rite Bird,7
+49800010,Death Rite Bird,7
+49800012,Death Rite Bird,7
+49800020,Death Rite Bird,7
+49800032,Death Rite Bird,7
+49800033,Death Rite Bird,7
+49801000,Death Rite Bird,7
+49801020,Death Rite Bird,7
+49801040,Death Rite Bird,7
+49801050,Death Rite Bird,33
+49801052,Death Rite Bird,7
+60010000,Hawk,6
+60010010,Hawk,6
+60010012,Hawk,6
+60010014,Hawk,6
+60010020,Hawk,6
+60010022,Hawk,6
+60010030,Hawk,6
+60010032,Hawk,6
+60010033,Hawk,6
+60010040,Hawk,6
+60010042,Hawk,6
+60010050,Hawk,6
+60010052,Hawk,6
+60010064,Hawk,6
+60010065,Hawk,6
+60100000,Deer,6
+60100009,Deer,6
+60100010,Deer,6
+60100012,Deer,6
+60100020,Deer,6
+60100022,Deer,6
+60100030,Deer,6
+60100032,Deer,6
+60100033,Deer,6
+60100040,Deer,6
+60100042,Deer,6
+60100050,Deer,6
+60100052,Deer,6
+60100064,Deer,6
+60100065,Deer,6
+60100900,Deer,5
+60100965,Deer,5
+60101000,Deer,9
+60200000,,6
+60310000,Bear,6
+60310010,Bear,6
+60310012,Bear,6
+60310020,Bear,6
+60310022,Bear,6
+60310030,Bear,6
+60310032,Bear,6
+60310033,Bear,6
+60310042,Bear,6
+60310052,Bear,6
+60400000,Owl,6
+60400010,Owl,6
+60400012,Owl,6
+60400020,Owl,6
+60400022,Owl,6
+60400030,Owl,6
+60400032,Owl,6
+60400033,Owl,6
+60400050,Owl,6
+60500000,Boar,6
+60500010,Boar,6
+60500012,Boar,6
+60500020,Boar,6
+60500022,Boar,6
+60500030,Boar,6
+60500032,Boar,6
+60500050,Boar,6
+60500052,Boar,6
+60500064,Boar,6
+60500900,Boar,5
+60500965,Boar,5
+60501000,Boar,6
+60501010,Boar,6
+60501012,Boar,6
+60501030,Boar,6
+60501032,Boar,6
+60501042,Boar,6
+60501050,Boar,6
+60501052,Boar,6
+60600000,Goat,6
+60600010,Goat,6
+60600012,Goat,6
+60600020,Goat,6
+60600030,Goat,6
+60600032,Goat,6
+60600033,Goat,6
+60600040,Goat,6
+60600042,Goat,6
+60600050,Goat,6
+60600052,Goat,6
+60600064,Goat,6
+60600065,Goat,6
+60600900,Goat,5
+60600965,Goat,5
+60601000,Goat,6
+60601010,Goat,6
+60601012,Goat,6
+60601030,Goat,6
+60601032,Goat,6
+60601040,Goat,6
+60601042,Goat,6
+60601050,Goat,6
+60601052,Goat,6
+60602000,Goat,6
+60602010,Goat,6
+60602012,Goat,6
+60602030,Goat,6
+60602032,Goat,6
+60602042,Goat,6
+60602050,Goat,6
+60602052,Goat,6
+60603000,Goat,6
+60603030,Goat,6
+60604000,Goat,6
+60604030,Goat,6
+60605000,Goat,6
+60605030,Goat,6
+60700000,Gull,6
+60700010,Gull,6
+60700012,Gull,6
+60700020,Gull,6
+60700022,Gull,6
+60700032,Gull,6
+60700040,Gull,6
+60700042,Gull,6
+60700050,Gull,6
+60700052,Gull,6
+60720000,Gull,6
+60720010,Gull,6
+60720020,Gull,6
+60720040,Gull,6
+60720042,Gull,6
+60720050,Gull,6
+60720052,Gull,6
+60720100,Gull,6
+60720120,Gull,6
+60720134,Gull,6
+60800000,Dragonfly,6
+60800010,Dragonfly,6
+60800012,Dragonfly,6
+60800020,Dragonfly,6
+60800030,Dragonfly,6
+60800032,Dragonfly,6
+60800033,Dragonfly,6
+60800040,Dragonfly,6
+60800052,Dragonfly,6
+60800064,Dragonfly,6
+60810000,Dragonfly,6
+60810010,Dragonfly,6
+60810012,Dragonfly,6
+60810020,Dragonfly,6
+60810030,Dragonfly,6
+60810033,Dragonfly,6
+60810040,Dragonfly,6
+60810042,Dragonfly,6
+60810052,Dragonfly,6
+60820000,Dragonfly,6
+60820040,Dragonfly,6
+60900000,Turtle,6
+60900010,Turtle,6
+60900012,Turtle,6
+60900020,Turtle,6
+60900022,Turtle,6
+60900030,Turtle,6
+60900032,Turtle,6
+60900033,Turtle,6
+60900040,Turtle,6
+60900042,Turtle,6
+60900050,Turtle,6
+60900052,Turtle,6
+60900064,Turtle,6
+60910000,Turtle Pope,26
+60910020,Turtle Pope,26
+60911000,Turtle Pope,6
+60911022,Turtle Pope,6
+61000000,Rabbitgaroo,6
+61000010,Rabbitgaroo,6
+61000012,Rabbitgaroo,6
+61000020,Rabbitgaroo,6
+61000022,Rabbitgaroo,6
+61000030,Rabbitgaroo,6
+61000032,Rabbitgaroo,6
+61000033,Rabbitgaroo,6
+61000040,Rabbitgaroo,6
+61000042,Rabbitgaroo,6
+61000050,Rabbitgaroo,6
+61000052,Rabbitgaroo,6
+61000064,Rabbitgaroo,6
+61000065,Rabbitgaroo,6
+61000100,Rabbitgaroo,6
+61000150,Rabbitgaroo,6
+61000900,Rabbitgaroo,5
+61000965,Rabbitgaroo,5
+70000000,Fallen Hawk Soldier,6
+70000065,Fallen Hawk Soldier,6
+70000100,Fallen Hawk Soldier,6
+70001000,Fallen Hawk Soldier,6
+70001065,Fallen Hawk Soldier,6
+70002000,Fallen Hawk Soldier,6
+70002065,Fallen Hawk Soldier,6
+70003000,Fallen Hawk Soldier,6
+70003100,Fallen Hawk Soldier,6
+70003165,Fallen Hawk Soldier,6
+71000000,Female Corrupted Swordsman,6
+71000012,Female Corrupted Swordsman,6
+71000030,Female Corrupted Swordsman,6
+71000050,Female Corrupted Swordsman,6
+71000100,Female Corrupted Swordsman,6
+71000150,Female Corrupted Swordsman,6
+71000950,Female Corrupted Swordsman,6
+80000000,Torrent,10
+81000000,Ballista,30
+81000010,Ballista,30
+81000012,Ballista,30
+81000014,Ballista,30
+81000030,Ballista,30
+81000041,Ballista,30
+81000051,Ballista,30
+81000056,Ballista,30
+81010000,Giant Ballista,30
+81010010,Giant Ballista,30
+81010012,Giant Ballista,30
+81010030,Giant Ballista,30
+81010041,Giant Ballista,30
+81010050,Giant Ballista,30
+81100000,Dragon-faced Flamethrower,30
+81100014,Dragon-faced Flamethrower,30
+81100020,Dragon-faced Flamethrower,30
+81100041,Dragon-faced Flamethrower,30
+81100050,Dragon-faced Flamethrower,30
+81200000,Merciless Chariot,30
+81200007,Merciless Chariot,30
+81200032,Merciless Chariot,30
+81200132,Merciless Chariot,30
+89010000,Beast Clergyman / Maliketh, the Black Blade,6
+89990000,,6
+90000000,,0
+90000100,,0
+90000200,,0
+90010000,,26
+90010010,,6
+90010020,,26
+90010030,,6
+90010031,,6
+90010040,,24
+90010041,,24
+90020000,,7
+90080000,,6
+90081000,,6
+90082000,,6
+90083000,,6
+90084000,,6
+90090000,,30
+90510000,,8
+92200100,,6
+95000100,,6
+95001000,,6
+95010000,,6
+95020000,,6
+95021000,,6
+95022000,,6
+95023000,,6
+95024000,,6
+95025000,,6
+95026000,,6
+95027000,,6
+95028000,,6
+95029000,,6
+95030000,,6
+95031000,,6
+95032000,,6
+95033000,,6
+95034000,,6
+95090000,,6
+95091000,,6
+100000000,,47
+100000010,[Spirit Summon] Mimic Tear,47
+100000020,[Spirit Summon] Nepheli Loux Puppet,47
+100000030,[Spirit Summon] Dung Eater Puppet,47
+100000040,[Spirit Summon] Finger Maiden Therolina Puppet,47
+100000050,[Spirit Summon] Dolores the Sleeping Arrow,47
+100000060,[Spirit Summon] Jarwight Puppet,47
+121000000,[Spirit Summon] Black Knife Tiche,47
+130101000,[Spirit Summon] Banished Knight Oleg,47
+130102000,[Spirit Summon] Banished Knight Engvall,47
+130801100,[Spirit Summon] Fanged Imps,47
+131700000,[Spirit Summon] Latenna the Albinauric,47
+132010000,[Spirit Summon] Nomad,47
+133001000,[Spirit Summon] Nightmaiden,47
+133002000,[Spirit Summon] Swordstress,47
+133201000,[Spirit Summon] Mimic Tear - Blob,47
+133500000,[Spirit Summon] Crystalian,47
+133600500,[Spirit Summon] Ancestral Follower,47
+133600510,,4
+134502000,[Spirit Summon] Winged Misbegotten,47
+134701300,[Spirit Summon] Albinauric Ashes,47
+135000000,[Spirit Summon] Skeletal Militiaman,47
+135004000,[Spirit Summon] Skeletal Bandit,47
+136100000,[Spirit Summon] Oracle Envoy,47
+136610000,[Spirit Summon] Putrid Corpse,47
+137000000,[Spirit Summon] Depraved Perfumer,47
+137011000,[Spirit Summon] Perfumer Tricia,47
+137021000,[Spirit Summon] Glintstone Sorcerer,47
+137023000,[Spirit Summon] Twinsage Sorcerer,47
+137030000,[Spirit Summon] Page,47
+137040000,[Spirit Summon] Battlemage Hugues,47
+137502000,[Spirit Summon] Clayman,47
+138001000,[Spirit Summon] Cleanrot Knight Finlay,47
+138100000,[Spirit Summon] Kindred of Rot,47
+138500000,[Spirit Summon] Marionette Soldier,47
+138601100,[Spirit Summon] Avionette Soldier,47
+139000000,[Spirit Summon] Fire Monk,47
+139011000,[Spirit Summon] Blackflame Monk,47
+139501000,[Spirit Summon] Man-Serpent,47
+139701100,[Spirit Summon] Azula Beastman,47
+140500000,[Spirit Summon] Kaiden Sellsword,47
+140700000,[Spirit Summon] Lone Wolf,47
+140800000,[Spirit Summon] Giant Rat,47
+141000000,[Spirit Summon] Demi-Human 1,47
+141001000,[Spirit Summon] Demi-Human 2,47
+141002000,[Spirit Summon] Demi-Human 3,47
+141010000,[Spirit Summon] Demi-Human 4,47
+141100000,[Spirit Summon] Demi-Human 5,47
+141660000,[Spirit Summon] Rotten Stray,47
+141800000,[Spirit Summon] Spirit Jellyfish,47
+142100100,[Spirit Summon] Warhawk,47
+142102000,[Spirit Summon] Stormhawk,47
+142900000,[Spirit Summon] Bloodhound Knight Floh,47
+143000000,[Spirit Summon] Wandering Noble 1,47
+143000200,[Spirit Summon] Wandering Noble 2,47
+143001000,[Spirit Summon] Wandering Noble 3,47
+143002000,[Spirit Summon] Noble Sorcerer,47
+143005000,[Spirit Summon] Wandering Noble 4,47
+143005100,[Spirit Summon] Wandering Noble 5,47
+143111300,[Spirit Summon] Godrick Soldier 1,47
+143112000,[Spirit Summon] Godrick Soldier 2,47
+143122000,[Spirit Summon] Raya Lucaria Soldier 1,47
+143133000,[Spirit Summon] Leyndell Soldier,47
+143140100,[Spirit Summon] Radahn Soldier 1,47
+143142000,[Spirit Summon] Radahn Soldier 2,47
+143150000,[Spirit Summon] Mausoleum Soldier 1,47
+143151000,[Spirit Summon] Mausoleum Soldier 2,47
+143152000,[Spirit Summon] Mausoleum Soldier 3,47
+143210000,[Spirit Summon] Vulgar Militia,47
+143410000,[Spirit Summon] Mad Pumpkin Head,47
+143531000,[Spirit Summon] Ancient Dragon Knight Kristoff,47
+143542000,[Spirit Summon] Redmane Knight Ogha,47
+143551000,[Spirit Summon] Lhutel the Headless,47
+143720500,[Spirit Summon] Raya Lucaria Soldier 2,47
+143722500,[Spirit Summon] Raya Lucaria Soldier 3,47
+143760500,[Spirit Summon] Haligtree Soldier,47
+143762500,[Spirit Summon] Haligtree Soldier,47
+144400000,[Spirit Summon] Land Squirt,47
+144810000,[Spirit Summon] Miranda Sprout,47
+144910200,[Spirit Summon] Soldjars of Fortune,47
+148200000,[Spirit Summon] Omenkiller,47
+170001000,[Spirit Summon] Greatshield Soldier,47
+170002000,[Spirit Summon] Archer,47
+199999999,,47
+500000000,,0
+500000006,,0
+500000010,,0
+500000020,,0
+500000032,,0
+500000040,,0
+500000042,,0
+500000066,,0
+500001000,,0
+500010000,Smithing Table,0
+500020079,Twin Maiden Husks,0
+500030000,,0
+501060020,,0
+501060024,,0
+501060062,,0
+501060078,,0
+501060162,,0
+501060262,,0
+501060362,,0
+501060462,,0
+501120034,,0
+502010024,,0
+502160010,,0
+502160110,,0
+502160210,,0
+502160310,,0
+502180010,,0
+502180062,,0
+502180064,,0
+502180065,,0
+502180164,,0
+502180165,,0
+502180264,,0
+502180265,,0
+502190020,,0
+502280050,,0
+502280052,,0
+503180010,,0
+503260038,Sword of Bernahl,0
+503300020,Basin of Atonement,0
+506010010,Church of Dragon Communion,0
+506010040,Cathedral of Dragon Communion,0
+506030012,Walking Mausoleum Corpse,0
+506030020,Walking Mausoleum Corpse,0
+506030050,Walking Mausoleum Corpse,0
+506030052,Walking Mausoleum Corpse,0
+506030066,Walking Mausoleum Corpse,0
+506060020,,0
+506070078,,0
+506080079,,0
+520000000,,6
+520000001,,6
+520000002,,6
+520000003,,6
+520000004,,6
+520000005,,6
+520000006,,6
+520000007,,6
+520000008,,6
+520000009,,6
+520000010,,6
+520000011,,6
+520000012,,6
+520000013,,6
+520000014,,6
+520000015,,6
+520000016,,6
+520000017,,6
+520000018,,6
+520000019,,6
+520000020,,6
+520000021,,6
+523000000,Tanith, Volcano Manor Proprietress,26
+523000038,Tanith, Volcano Manor Proprietress,0
+523000138,Tanith, Volcano Manor Proprietress,0
+523010000,White Mask Varré,26
+523010010,White Mask Varré,26
+523010020,White Mask Varré,26
+523010068,White Mask Varré,27
+523010110,White Mask Varré,26
+523010168,White Mask Varré,26
+523020000,,26
+523030000,,26
+523040000,Festering Fingerprint Vyke,27
+523040020,Festering Fingerprint Vyke,27
+523040050,Roundtable Knight Vyke,27
+523050000,,26
+523060000,,26
+523070000,Preceptor Seluvis,26
+523070020,Preceptor Seluvis,0
+523070120,Preceptor Seluvis,26
+523070220,Preceptor Seluvis,0
+523070320,Preceptor Seluvis,0
+523080000,,26
+523090000,Patches,26
+523090010,Patches,6
+523090020,Patches,26
+523090030,Patches,26
+523090032,Patches,26
+523090038,Patches,0
+523090110,Patches,26
+523090132,Patches,26
+523090210,Patches,26
+523090310,Patches,26
+523090410,Patches,26
+523100000,Irina of Morne,26
+523100010,Lightseeker Hyetta,26
+523100012,Irina of Morne,26
+523100020,Lightseeker Hyetta,26
+523100035,Finger Maiden Hyetta,0
+523100112,Irina of Morne,26
+523100120,Lightseeker Hyetta,26
+523100220,Lightseeker Hyetta,26
+523110000,Castellan Edgar,26
+523110012,Castellan Edgar,26
+523110020,Castellan Edgar,26
+523110112,Castellan Edgar,26
+523110120,Castellan Edgar,26
+523120000,Castellan Jerren,26
+523120012,Castellan Jerren,26
+523120024,Witch-Hunter Jerren,27
+523120040,Castellan Jerren,0
+523120124,Witch-Hunter Jerren,26
+523120140,Castellan Jerren,0
+523120240,Castellan Jerren,0
+523120340,Castellan Jerren,28
+523130000,Rya the Scout,26
+523130020,Rya the Scout,0
+523130030,Rya the Scout,0
+523130038,Rya the Scout,0
+523130130,Rya the Scout,0
+523130138,Zorayas the Scout,26
+523140000,Knight Diallos,26
+523140020,Knight Diallos,26
+523140038,Knight Diallos,0
+523140079,Knight Diallos,0
+523140120,Potentate Diallos,26
+523140179,Knight Diallos,0
+523140220,Potentate Diallos,26
+523150000,,26
+523150020,,26
+523160000,Sorceress Sellen,26
+523160010,Sorceress Sellen,26
+523160012,Sorceress Sellen,26
+523160020,Sorceress Sellen,26
+523160024,Sorceress Sellen,0
+523160124,Sorceress Sellen,27
+523170000,,26
+523180000,Yura, Hunter of Bloody Fingers,26
+523180010,Yura, Hunter of Bloody Fingers,26
+523180020,Yura, Hunter of Bloody Fingers,26
+523180030,Yura, Hunter of Bloody Fingers,26
+523180050,Yura, Hunter of Bloody Fingers,26
+523180079,Yura, Hunter of Bloody Fingers,0
+523180110,Yura, Hunter of Bloody Fingers,26
+523180130,Yura, Hunter of Bloody Fingers,26
+523180210,Yura, Hunter of Bloody Fingers,26
+523180230,Yura, Hunter of Bloody Fingers,26
+523180330,Yura, Hunter of Bloody Fingers,26
+523190000,D, Hunter of the Dead,26
+523190010,D, Hunter of the Dead,26
+523190065,D, Hunter of the Dead,0
+523190066,D, Hunter of the Dead,26
+523190079,D, Hunter of the Dead,0
+523190110,D, Hunter of the Dead,26
+523190179,D, Hunter of the Dead,0
+523200000,Heartbroken Maiden,26
+523200010,Heartbroken Maiden,0
+523200079,Roderika,0
+523200179,Roderika, Spirit Tuner,0
+523200279,Roderika, Spirit Tuner,0
+523210000,Kenneth Haight, Limgrave Heir,26
+523210010,Kenneth Haight, Limgrave Heir,26
+523210014,Kenneth Haight, Limgrave Heir,0
+523210110,Kenneth Haight, Limgrave Heir,26
+523220000,Fia, Deathbed Companion,26
+523220066,Fia, Deathbed Companion,0
+523220079,Fia, Deathbed Companion,0
+523220166,Fia, Deathbed Companion,0
+523220179,Fia, Deathbed Companion,0
+523220266,Fia, Deathbed Companion,26
+523220366,Fia, Deathbed Companion,0
+523230000,Dung Eater,26
+523230020,Dung Eater,0
+523230033,Dung Eater,0
+523230035,Dung Eater,26
+523230079,Dung Eater,0
+523230135,Dung Eater,26
+523230179,Dung Eater,0
+523230279,Dung Eater,26
+523240000,Sir Gideon Ofnir, the All-Knowing,26
+523240070,Sir Gideon Ofnir, the All-Knowing,0
+523240079,Sir Gideon Ofnir, the All-Knowing,0
+523240179,Sir Gideon Ofnir, the All-Knowing,0
+523250000,Sorcerer Rogier,26
+523250014,Sorcerer Rogier,26
+523250050,Sorcerer Rogier,26
+523250066,Sorcerer Rogier,6
+523250079,Sorcerer Rogier,0
+523250114,Sorcerer Rogier,0
+523250166,Sorcerer Rogier,27
+523250214,Sorcerer Rogier,26
+523260000,Knight Bernahl,26
+523260010,Knight Bernahl,26
+523260038,Knight Bernahl,0
+523260070,Recusant Bernahl,26
+523270000,Eleonora, Violet Bloody Finger,27
+523270030,Eleonora, Violet Bloody Finger,26
+523270130,Eleonora, Violet Bloody Finger,27
+523290000,,27
+523290040,,0
+523290066,,6
+523310000,Blackguard,26
+523310020,Blackguard,26
+523310033,Blackguard,26
+523310133,Blackguard,26
+523320000,,26
+523320038,,0
+523330000,Sorcerer Thops,26
+523330020,Sorcerer Thops,26
+523330024,Sorcerer Thops,26
+523340000,Nepheli Loux, Warrior,26
+523340014,Nepheli Loux, Warrior,26
+523340020,Nepheli Loux, Warrior,26
+523340079,Nepheli Loux, Warrior,0
+523340114,Nepheli Loux, Warrior,26
+523340120,Nepheli Loux, Warrior,0
+523340179,Nepheli Loux, Warrior,0
+523340214,Nepheli Loux, Warrior,0
+523350000,Reeling Rico,26
+523350010,Reeling Rico,26
+523350052,Reeling Rico,26
+523350068,Reeling Rico,0
+523350079,Reeling Rico,0
+523360000,Vyke's Finger Maiden,26
+523360012,Vyke's Finger Maiden,26
+523370000,,26
+523370034,,26
+523370134,,26
+523380000,Finger Maiden,26
+523380016,Finger Maiden,0
+523390000,Ensha of the Royal Remains,26
+523390079,Ensha of the Royal Remains,0
+523400000,Bloody Finger Ravenmount Assassin,27
+523400020,Bloody Finger Ravenmount Assassin,27
+523410000,,26
+523420000,Sanguine Noble,26
+523420024,Sanguine Noble,0
+523430000,Bloody Finger Nerijus,27
+523440000,Great Horned Tragoth,26
+523440026,Great Horned Tragoth,27
+523440040,Great Horned Tragoth,0
+523450000,Old Knight Istvan,27
+523450010,Old Knight Istvan,6
+523460000,Rileigh the Idle,27
+523460030,Rileigh the Idle,6
+523470000,Juno Hoslow, Knight of Blood,27
+523470050,Juno Hoslow, Knight of Blood,6
+523480000,Millicent,26
+523480030,Millicent,26
+523480040,Millicent,0
+523480050,Millicent,26
+523480056,Millicent,26
+523480130,Millicent,26
+523480140,Millicent,26
+523480156,Millicent,27
+523480230,Millicent,26
+523480240,Millicent,28
+523480256,Millicent,26
+523480340,Millicent,28
+523480440,Millicent,26
+523490000,Sage Gowry,26
+523490040,Sage Gowry,26
+523490140,Sage Gowry,26
+523490240,Sage Gowry,26
+523490340,Sage Gowry,26
+523500000,,26
+523500032,,26
+523510000,Scribe Corhyn,26
+523510030,Scribe Corhyn,26
+523510034,Scribe Corhyn,26
+523510050,Scribe Corhyn,26
+523510070,Scribe Corhyn,26
+523510079,Brother Corhyn,0
+523510130,Brother Corhyn,26
+523510170,Scribe Corhyn,26
+523520000,Preceptor Miriam,27
+523520028,Preceptor Miriam,27
+523521000,Preceptor Miriam,27
+523521028,Preceptor Miriam,27
+523530000,Anastasia, Tarnished-Eater,27
+523530032,Anastasia, Tarnished-Eater,27
+523530040,Anastasia, Tarnished-Eater,27
+523530052,Anastasia, Tarnished-Eater,27
+523540000,,27
+523550000,Okina,27
+523550040,Okina,0
+523550050,Bloody Finger Okina,27
+523560000,Adan, Thief of Fire,27
+523560020,,27
+523570000,,27
+523580000,,27
+523590000,Moongrum, Carian Knight,27
+523590024,Moongrum, Carian Knight,6
+523600000,Vargram the Raging Wolf,27
+523600034,Vargram the Raging Wolf,6
+523610000,Fia's Champion,27
+523610066,,6
+523620000,,27
+523630000,Finger Maiden Therolina,27
+523630020,Finger Maiden Therolina,0
+523630040,Finger Maiden Therolina,0
+523640000,Dolores the Sleeping Arrow,27
+523640020,Dolores the Sleeping Arrow,0
+523650000,Jarwight,27
+523650020,Jarwight,0
+523670000,Inaba, Disciple of Okina,27
+523670050,Inaba, Disciple of Okina,6
+523680000,Silver Tear,27
+523680062,Silver Tear,6
+523680065,Silver Tear,6
+523690000,Recusant Henricus,27
+523700000,Fia's Champion,27
+523710000,Fia's Champion,27
+523720000,Maleigh Marais, Shaded Castle Castellan,27
+523720030,Maleigh Marais, Shaded Castle Castellan,27
+523730000,Knight of the Great Jar,27
+523730040,Knight of the Great Jar,27
+523740000,Knight of the Great Jar,27
+523740040,Knight of the Great Jar,27
+523750000,Knight of the Great Jar,27
+523750040,Knight of the Great Jar,27
+523760000,Necromancer Garris,27
+523760930,Necromancer Garris,6
+523770000,Nameless White Mask,27
+523770068,Nameless White Mask,27
+523790000,,27
+523800000,Errant Sorcerer Wilhelm,27
+523800034,Errant Sorcerer Wilhelm,6
+523810000,,27
+523820000,Chief Guardian Arghanthy,27
+523820050,Chief Guardian Arghanthy,6
+523830000,Flame Guardian,27
+523830050,Flame Guardian,6
+523840000,Inquisitor Ghiza,27
+523840038,Inquisitor Ghiza,27
+523850000,Mad Tongue Alberich,27
+523860000,,33
+523870000,Mary, Eldest Sister,27
+523870056,Mary, Eldest Sister,27
+523880000,Maureen, Second Sister,27
+523880056,Maureen, Second Sister,27
+523890000,Amy, Third Sister,27
+523890056,Amy, Third Sister,27
+523900000,Polyanna, Youngest Sister,27
+523900056,Polyanna, Youngest Sister,27
+523910000,,27
+523920000,,27
+523930000,,27
+526000000,,6
+526050000,,6
+526060000,,6
+526100000,,6
+526100052,,6
+526100965,,6
+527900000,,0
+527900010,,0
+528500000,,0
+529000000,,0
+533030100,,2
+533040100,Roundtable Knight Vyke,2
+533090000,Patches,2
+533090040,Patches,2
+533110000,Castellan Edgar,2
+533110012,Castellan Edgar,2
+533120000,Witch-Hunter Jerren,2
+533120024,Witch-Hunter Jerren,2
+533121000,Castellan Jerren,2
+533121040,Castellan Jerren,2
+533160000,Sorceress Sellen,2
+533160024,Sorceress Sellen,2
+533180000,Yura, Hunter of Bloody Fingers,2
+533180030,Yura, Hunter of Bloody Fingers,2
+533181000,Yura, Hunter of Bloody Fingers,2
+533181010,Yura, Hunter of Bloody Fingers,2
+533181020,Yura, Hunter of Bloody Fingers,2
+533181110,Yura, Hunter of Bloody Fingers,2
+533190000,D, Hunter of the Dead,2
+533190020,D, Hunter of the Dead,2
+533190120,D, Hunter of the Dead,2
+533250000,Sorcerer Rogier,2
+533250014,Sorcerer Rogier,2
+533260000,Knight Bernahl,2
+533260034,Recusant Bernahl,2
+533290000,Recusant Bernahl,2
+533290040,,2
+533310000,Blackguard,2
+533310026,Blackguard,2
+533340000,Nepheli Loux, Warrior,2
+533340014,Nepheli Loux, Warrior,2
+533340020,Nepheli Loux, Warrior,2
+533350000,Reeling Rico,2
+533350068,Reeling Rico,2
+533440000,Great Horned Tragoth,2
+533440026,Great Horned Tragoth,2
+533440040,Great Horned Tragoth,2
+533450000,Old Knight Istvan,2
+533450010,Old Knight Istvan,2
+533480000,Millicent,2
+533480056,Millicent,2
+533481000,Millicent,2
+533481026,Millicent,2
+533481030,Millicent,2
+533481033,Millicent,2
+533481050,Millicent,2
+533550000,Okina,2
+533550040,Okina,2
+533630000,Finger Maiden Therolina,2
+533630040,Finger Maiden Therolina,2
+533870000,Mary, Eldest Sister,2
+533870056,Mary, Eldest Sister,6
+533880000,Maureen, Second Sister,2
+533880056,Maureen, Second Sister,2
+533890000,Amy, Third Sister,2
+533890056,Amy, Third Sister,2
+533900000,Polyanna, Youngest Sister,2
+533900056,Polyanna, Youngest Sister,2
+534000000,,2
+534100000,,2
+534200000,,2
+534300000,,2
+534400000,,2
+534500000,,2
+534600000,,2
+534700000,,2
+534800000,,2
+534900000,,2
+543030200,,27
+543110000,Edgar the Revenger,27
+543110020,Edgar the Revenger,27
+543260000,Knight Bernahl,27
+543260072,Recusant Bernahl,27
+543270000,Eleonora, Violet Bloody Finger,27
+543270030,Eleonora, Violet Bloody Finger,27
+543270130,Eleonora, Violet Bloody Finger,27
+543390000,Ensha of the Royal Remains,27
+543390079,Ensha of the Royal Remains,27
+543430000,Bloody Finger Nerijus,27
+543430010,Bloody Finger Nerijus,27
+543430052,Sanguine Noble,27
+543480000,Millicent,27
+543480040,Millicent,27
+543690000,Sage Gowry,27
+543690010,Sage Gowry,27
+543850000,Mad Tongue Alberich,27
+543850079,Mad Tongue Alberich,27
+544000000,,27
+544100000,,27
+544200000,,27
+544300000,,27
+544400000,,27
+544500000,,27
+544600000,,27
+544700000,,27
+544800000,,27
+544900000,,27
+599999999,,0

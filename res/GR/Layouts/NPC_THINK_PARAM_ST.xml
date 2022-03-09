@@ -7,13 +7,6 @@
     <item value="3" name="Run to Source" />
     <item value="4" name="Immediate Battle AI" />
   </enum>
-  <enum name="ToFind" type="u8">
-    <item value="0" name="Wait for Battle Start Distance" />
-    <item value="1" name="Look at Source" />
-    <item value="2" name="Approach Source" />
-    <item value="3" name="Run to Source" />
-    <item value="4" name="Immediate Battle AI" />
-  </enum>
   <entry>
     <name>Unknown</name>
     <type>s32</type>
@@ -265,7 +258,6 @@
     <type>u8</type>
     <default>2</default>
     <description>Type of action taken when AI enters the 'Search' state.</description>
-    <enum>ToFind</enum>
   </entry>
   <entry>
     <name>Call Help - Reply Behavior Type</name>

@@ -35,6 +35,15 @@
     <item value="31" name="31 - Co-op Mad Phantom" />
     <item value="32" name="32 - Invader Mad Phantom" />
     <item value="33" name="33 - Arch Enemy Team" />
+    <item value="47" name="47 - Spirit Summon" />
+    <item value="48" name="48 - Unknown" />
+    <item value="51" name="51 - Unknown" />
+    <item value="54" name="54 - Unknown" />
+    <item value="55" name="55 - Unknown" />
+    <item value="59" name="59 - Unknown" />
+    <item value="60" name="60 - Unknown" />
+    <item value="63" name="63 - Unknown" />
+    <item value="66" name="66 - Unknown" />
   </enum>
   <entry>
     <name>Unknown</name>
@@ -1211,7 +1220,6 @@
     <name>Sub Team Type</name>
     <type>u8</type>
     <default>6</default>
-    <enum>TeamType</enum>
   </entry>
   <entry>
     <name>Lock Cam Param ID</name>

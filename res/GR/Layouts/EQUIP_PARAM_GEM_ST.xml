@@ -6,13 +6,18 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Sort ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk1</name>
-    <type>s16</type>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>

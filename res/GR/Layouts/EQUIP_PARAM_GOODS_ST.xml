@@ -120,12 +120,7 @@
   </entry>
   <entry>
     <name>Throwable Type</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -193,7 +188,7 @@
   </entry>
   <entry>
     <name>Goods Use Animation</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -557,12 +552,7 @@
   </entry>
   <entry>
     <name>Unk18</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>u8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -577,12 +567,7 @@
   </entry>
   <entry>
     <name>Unk22</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>u8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -592,22 +577,12 @@
   </entry>
   <entry>
     <name>Unk25</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk27</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
