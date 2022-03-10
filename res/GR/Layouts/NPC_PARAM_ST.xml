@@ -46,7 +46,7 @@
     <item value="66" name="66 - Unknown" />
   </enum>
   <entry>
-    <name>Unknown</name>
+    <name>Unk10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -116,37 +116,37 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk11</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk12</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk13</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk14</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk15</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk16</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk17</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
@@ -466,7 +466,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Poise</name>
+    <name>Unk18</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -972,7 +972,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Unk19</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -982,7 +982,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk20</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -992,17 +992,17 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk21</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk22</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk23</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1097,12 +1097,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Tentative Player ID</name>
+    <name>Unk34</name>
     <type>s32</type>
     <default>101</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk35</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1157,73 +1157,58 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Max Ankle Angle</name>
-    <type>s8</type>
+    <name>Unk36</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Cloth Update Offset</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>SP Npc Type</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Normal Change Model ID</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Normal Change Anim Chr ID</name>
-    <type>s16</type>
-    <default>256</default>
-  </entry>
-  <entry>
-    <name>Guard Absorption %: Stamina Value</name>
+    <name>Unk37</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk38</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Phantom Param ID</name>
+    <name>Unk39</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk40</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Estus Flask Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Multiplay Correction ID</name>
+    <name>Unk41</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Foot Ankle</name>
+    <name>Unk42</name>
     <type>s32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Resist: Frost</name>
-    <type>s16</type>
-    <default>112</default>
-  </entry>
-  <entry>
-    <name>Sub Npc Type</name>
-    <type>u8</type>
+    <name>Unk43</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sub Team Type</name>
-    <type>u8</type>
-    <default>6</default>
+    <name>Resist: Frost</name>
+    <type>s16</type>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Lock Cam Param ID</name>
-    <type>s32</type>
+    <name>Unk44</name>
+    <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -1307,287 +1292,303 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lock Correction</name>
+    <name>Lock Correction ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sub Cloth Update Offset</name>
+    <name>Unk45</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Unk46</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Estus Flask Param ID</name>
-    <type>s16</type>
-    <default>1001</default>
+    <name>Unk47a</name>
+    <type>s8</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk47b</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk47c</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk47d</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk49</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>HP/FP Restore ID 0</name>
+    <name>Unk50</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP Restore ID 0</name>
+    <name>Unk51</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FP Restore ID 0</name>
+    <name>Unk52</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP/FP Restore ID 1</name>
+    <name>Unk53</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP Restore ID 1</name>
+    <name>Unk54</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FP Restore ID 1</name>
+    <name>Unk55</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sub Phantom Param ID</name>
+    <name>Unk56</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Activate Distance</name>
+    <name>Unk57</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Deactivate Distance</name>
+    <name>Unk58</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Float</name>
+    <name>Unk59</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Model ID</name>
+    <name>Unk60</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Unk61</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unk62</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Unk63</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Unk64</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk65</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk66</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk67</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Unk68</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk69</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Float</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
+    <name>Unk70a</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Unk70b</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Unk71</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Unk72</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
+    <name>Unk73</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
+    <name>Unk74</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
+    <name>Unk75</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
+    <name>Material Ex Param ID</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Either this or AssetEnvironmentGeometryParam</description>
+  </entry>
+  <entry>
+    <name>Unk77</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk30</name>
+    <name>Unk78</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk31</name>
+    <name>Unk79</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk32</name>
+    <name>Unk80</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk33</name>
+    <name>Unk81</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk82</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk83</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk34</name>
+    <name>Unk84</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk35</name>
+    <name>Unk85</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk86</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk87</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk88</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk89</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist Correct ID: </name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk36</name>
+    <name>Resist Correct ID: </name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk37</name>
+    <name>Resist Correct ID: </name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist Correct ID: </name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist Correct ID: </name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk95</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk96</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk97</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk98</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk99</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk100</name>
     <type>s32</type>
     <default>0</default>
   </entry>
