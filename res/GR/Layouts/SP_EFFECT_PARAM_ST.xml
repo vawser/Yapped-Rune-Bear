@@ -1599,24 +1599,28 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Anti-Demon %</name>
+    <name>Bonus Damage %: Void</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Void.</description>
   </entry>
   <entry>
-    <name>Anti-Undead %</name>
+    <name>Bonus Damage %: Undead</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Undead.</description>
   </entry>
   <entry>
-    <name>Anti-Hollow %</name>
+    <name>Bonus Damage %: Ancient Draconic</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Ancient Draconic.</description>
   </entry>
   <entry>
-    <name>Anti-Abyss %</name>
+    <name>Bonus Damage %: Draconic</name>
     <type>f32</type>
     <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Draconic.</description>
   </entry>
   <entry>
     <name>Unk16</name>

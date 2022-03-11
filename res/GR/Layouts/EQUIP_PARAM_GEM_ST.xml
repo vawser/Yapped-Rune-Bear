@@ -21,11 +21,6 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Unk3</name>
     <type>s32</type>
     <default>0</default>
@@ -41,14 +36,20 @@
     <default>0</default>
   </entry>
   <entry>
+    <name>Unk6</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Sword Arts ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type>
+    <size>4</size>
+    <description>Value is never changed in base files</description>
   </entry>
   <entry>
     <name>Unk8</name>
@@ -71,18 +72,63 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Unk12a</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
+    <name>Unk12b</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
+    <name>Unk12c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk13d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -122,13 +168,15 @@
   </entry>
   <entry>
     <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type>
+    <size>4</size>
+    <description>Value is never changed in base files</description>
   </entry>
   <entry>
     <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type>
+    <size>4</size>
+    <description>Value is never changed in base files</description>
   </entry>
 
 </layout>

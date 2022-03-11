@@ -17,8 +17,9 @@
   </entry>
   <entry>
     <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>dummy8</type>
+    <size>4</size>
+    <description>Value is never changed in base files</description>
   </entry>
 
 

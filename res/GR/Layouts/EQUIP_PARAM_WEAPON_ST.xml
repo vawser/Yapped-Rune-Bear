@@ -14,7 +14,7 @@
     <item value="3" name="0 - Incantation Catalyst" />
   </enum>
   <entry>
-    <name>Unknown</name>
+    <name>Unk1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -245,10 +245,10 @@
     <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
   </entry>
   <entry>
-    <name>Bonus Damage %: Demon</name>
+    <name>Bonus Damage %: Void</name>
     <type>f32</type>
     <default>1</default>
-    <description>Applies the specified multiplier to damage against enemies tagged as Demon.</description>
+    <description>Applies the specified multiplier to damage against enemies tagged as Void.</description>
   </entry>
   <entry>
     <name>Bonus Damage %: Undead</name>
@@ -257,29 +257,29 @@
     <description>Applies the specified multiplier to damage against enemies tagged as Undead.</description>
   </entry>
   <entry>
-    <name>Bonus Damage %: Hollow</name>
+    <name>Bonus Damage %: Ancient Draconic</name>
     <type>f32</type>
     <default>1</default>
-    <description>Applies the specified multiplier to damage against enemies tagged as Hollow.</description>
+    <description>Applies the specified multiplier to damage against enemies tagged as Ancient Draconic.</description>
   </entry>
   <entry>
-    <name>Bonus Damage %: Abyssal</name>
+    <name>Bonus Damage %: Draconic</name>
     <type>f32</type>
     <default>1</default>
-    <description>Applies the specified multiplier to damage against enemies tagged as Abyssal.</description>
+    <description>Applies the specified multiplier to damage against enemies tagged as Draconic.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk2</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk3</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk4</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -349,7 +349,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk90</name>
     <type>s16</type>
     <default>60</default>
     <description>Was Guard Angle</description>
@@ -373,7 +373,7 @@
     <description>Determines if this weapon is part of an achievement.</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk91</name>
     <type>s16</type>
     <default>-1</default>
     <description>Was Trophy Seq ID</description>
@@ -397,7 +397,7 @@
     <description>Always 7</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk92</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Equip Model Gender</description>
@@ -431,7 +431,7 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk93</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Defence SFX Material</description>
@@ -492,19 +492,19 @@
     <description>Determines Faith required to wield this weapon properly.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk5</name>
     <type>u8</type>
     <default>99</default>
     <description>Was overStrength</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk6</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Base Parry Attack</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk7</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Base Parry Defense</description>
@@ -576,7 +576,7 @@
     <description>Flat adjustment to Death inflict whilst guarding.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk9</name>
     <type>u8</type>
     <default>0</default>
     <description>Unknown</description>
@@ -667,37 +667,37 @@
     <description>Determines if weapon buff effects can be applied to this weapon.</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk94</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Is Luck Scaling</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk10</name>
     <type>b8</type>
     <default>True</default>
     <description>Was Is Reinforcable</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk11</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Is Base Change Reset Disable</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk12</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Is Repair Disabled</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk13</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Is Dark Hand for DLC</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk14</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Is Simple Model for DLC</description>
@@ -715,36 +715,36 @@
     <description>Allows the weapon to hit enemies tagged as Ghost</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk15</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Infusion Flag 1</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk16</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Infusion Flag 2</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk17</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Infusion Flag 3</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk18</name>
     <type>b8</type>
     <default>False</default>
     <description>Was Infusion Flag 4</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk19</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk20</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -774,61 +774,61 @@
     <default>True</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk21</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk22</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk23</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk24</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk25</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk26</name>
     <type>u8</type>
     <default>0</default>
     <description>Unknown</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk27</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
-  </entry>
-  <entry>
-    <name>Undetermined</name>
+    <name>Unk28</name>
     <type>u8</type>
     <default>0</default>
     <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk29</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
+  </entry>
+  <entry>
+    <name>Unk30</name>
     <type>u8</type>
     <default>0</default>
     <description>Varies based on weapon category</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk31</name>
     <type>u8</type>
     <default>0</default>
     <description>Varies based on weapon category</description>
@@ -994,29 +994,29 @@
     <description>Used by Ammunition to automatically equip into an empty arrow or bolt slot.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk32</name>
     <type>b8</type>
     <default>True</default>
     <description>Set False for Throwables, some Shields and Ammunition</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk33</name>
     <type>b8</type>
     <default>True</default>
     <description>Only used by Nox Flowing Sword</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk34</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk35</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk36</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1039,12 +1039,12 @@
     <description>Apply the specified Correction curve to Lightning damage/FTH-based Spell Buff.</description>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk37</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk38</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1065,19 +1065,19 @@
     <description>Apply the specified Correction curve to Holy damage/FTH-based Spell Buff.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk39</name>
     <type>u8</type>
     <default>7</default>
     <description>Differs based on general category</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk40</name>
     <type>u8</type>
     <default>0</default>
     <description>Potentially HitEffectSfxParam</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk41</name>
     <type>s8</type>
     <default>0</default>
     <description>Differs based on general category</description>
@@ -1095,7 +1095,7 @@
     <description>Flat adjustment to Madness inflict whilst guarding.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk42</name>
     <type>u8</type>
     <default>7</default>
     <description>Differs based on general category</description>
@@ -1113,7 +1113,7 @@
     <description>Flat adjustment to Frostbite inflict whilst guarding.</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk43</name>
     <type>u8</type>
     <default>0</default>
     <description>Set to 2 for Arrows/Bolts</description>
@@ -1129,13 +1129,13 @@
     <default>20</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk44</name>
     <type>s32</type>
     <default>0</default>
     <description>Used by Bows/Crossbows</description>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk45</name>
     <type>s16</type>
     <default>0</default>
     <description>Likely linked to VFX Offset</description>
@@ -1246,67 +1246,67 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk46</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk47</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk48</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk49</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk50</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk51</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk52</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk53</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk54</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk55</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk56</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk57</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk58</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1316,7 +1316,7 @@
     <default>10000</default>
   </entry>
   <entry>
-    <name>Unused</name>
+    <name>Unk59</name>
     <type>s32</type>
     <default>-1</default>
     <description>Was Purchase Price</description>
@@ -1390,32 +1390,32 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Unk60</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Unk61</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Unk62</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Unk63</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Unk64</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk65</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -1426,12 +1426,12 @@
     <description>Related to Aux Inflict SpEffect</description>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk67</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Unk68</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1496,43 +1496,43 @@
     <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Unk69</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Unk70</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Unk71</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Unk72</name>
     <type>s32</type>
     <default>0</default>
     <description>Likely linked to VFX Offset</description>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Unk73</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Unk74</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Unk75</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Unk76</name>
     <type>s32</type>
     <default>0</default>
   </entry>

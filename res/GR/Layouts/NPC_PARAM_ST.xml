@@ -682,7 +682,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Demon</name>
+    <name>Enemy Type: Void</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -807,19 +807,20 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Undead</name>
+    <name>Enemy Type: Undead</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Hollow</name>
+    <name>Enemy Type: Ancient Dragon</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Abyssal</name>
+    <name>Enemy Type: Dragon/Wyrm</name>
     <type>b8</type>
     <default>False</default>
+    <description>Is used by Banished Knight too for some reason</description>
   </entry>
   <entry>
     <name>Is Enable Drop Soul Capture</name>
