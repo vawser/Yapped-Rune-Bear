@@ -5,12 +5,6 @@ Requires .NET 4.7.2 - Windows 10 users should already have this.
 
 Credit to JKAnderson for the [original version](https://github.com/JKAnderson/Yapped). 
 
-# Warning
-
-As far as we know, in Elden Ring any edits to the regulation file (where params are stored) will trigger anticheat, including simply opening it and resaving it.
-
-Only use modified params in offline mode. Back up your save file and restore it before going online again if you're doing anything that could affect it.
-
 # Usage
 
 To edit params and have them used by the game, you need to first unpack and patch the game with UXM.
@@ -21,5 +15,11 @@ Once unpacked, open the regulation.bin file found in the ELDEN RING\Game with Ya
 Note that the layouts are incomplete, so using altered params in-game may result in bugged behavior:
 
 Current known bugs:
- - Goods sidebar UI notifications don't display.
- - Spectral Stead Whistle shows the Resummon message incorrectly with any usage.
+ - Saving the EquipParamGoods will result in bugged behavior with Torrent and item UI notifications.
+  - You can workaround this by ensuring the "Params to Ignore" setting has "EquipParamGoods" in its setting string.
+
+# Warning
+
+As far as we know, in Elden Ring any edits to the regulation file (where params are stored) will trigger anticheat, including simply opening it and resaving it.
+
+Only use modified params in offline mode. Back up your save file and restore it before going online again if you're doing anything that could affect it.
