@@ -4,28 +4,31 @@
 11 Bloody Finger - Attempt Invasion
 16 Festering/Recusant Finger - Attempt Invasion
 31 [Behavior] Counter Frames
+70 Blight Effect
 81 Spectral Steed Whistle
 100 Grace - Restore HP
 101 Grace - Remove All Status
 102 Grace - Remove Hemorrhage
 103 Grace - Remove Poison
-104 Grace - Remove Blight
+104 Grace - Remove Scarlet Rot
 105 Grace - Remove Frostbite
 106 Grace -
 107 Grace - Remove Madness
 108 Grace - Remove Sleep
-109 Grace - Remove Death
+109 Grace - Remove Blight
 125 Torrent
 126 Torrent
 415 Torch Effect
 416 Sentry's Torch - Effect
 420 Oil Pot
+425 Slug - Bullet
 460 Beast-Repellent Torch Effect
 467 Swarm Pot [Cycle]
 470 Gravity - Pull towards Caster
 473 Swarm Pot
 474 Heal - HP Regen
 475 Blessing of the Erdtree - HP Regen
+481 Shadow Bait
 482 Alluring Pot
 483 Alluring Pot
 484 Beastlure Pot Effect
@@ -34,8 +37,8 @@
 499 Rune Arc
 500 Hemorrhage [Cycle]
 501 Hemorrhage - Presence of Blood
-505 Poison/Blight [Cycle]
-506 Poison/Blight - Presence of Rot
+505 Poison/Scarlet Rot [Cycle]
+506 Poison/Scarlet Rot - Presence of Rot
 530 Furlcalling Finger Remedy - Reveal Phantom Signs
 531 White Cipher Ring - Request Aid
 532 Blue Cipher Ring - Answer Aid Request
@@ -43,6 +46,21 @@
 534 Small Golden Effigy - Send Summon Sign to Summoning Pool
 535 Small Red Effigy - Send Invasion Sign to Summoning Pool
 536 Phantom Bloody/Recusant Finger - Attempt Invasion
+860 Gargoyle's Blackblade - Bullet
+870 Reduvia - Bullet
+1525 Erdtree Greatshield - Bullet
+1545 Winged Greathorn - Bullet
+1576 Royal Greatsword - Bullet
+1625 Mohgwyn's Sacred Spear - Bullet
+1768 Commander's Standard - Bullet
+1769 Commander's Standard [Cycle]
+1770 Commander's Standard [Cycle]
+1789 Eclipse Shotel - Bullet
+1855 Sword of Milos - Bullet
+1856 Sword of Milos - Bullet
+1885 Sword of St. Trina - Bullet
+1896 Devourer's Scepter - Bullet
+1897 Scepter of the All-Knowing - Bullet
 1910 Carian Regal Scepter - Boost Damage
 1911 Carian Glintstone Staff - Boost Damage
 1912 Carian Glintblade Staff - Boost Damage
@@ -82,8 +100,8 @@
 3093 Thawfrost Boluses [Chain]
 3115 Kukri
 3120 Fetid Pot
-3125 Swarm Pot - Hemorrhage [Cycle]
-3126 Swarm Pot  - Hemorrhage
+3125 Swarm of Flies - Hemorrhage [Cycle]
+3126 Swarm of Flies  - Hemorrhage
 3140 Freezing Grease
 3141 Freezing Grease [Attack]
 3142 Drawstring Freezing Grease
@@ -235,6 +253,7 @@
 3963 Dappled Cured Meat
 3970 Silver-Pickled Fowl Foot
 3971 Gold-Pickled Fowl Foot
+4101 Sanguine Noble
 5836 Undead Enemy
 5837 Undead Enemy
 6350 Toughness 1
@@ -275,12 +294,12 @@
 6513 Poison - Type 2 - Special 4
 6514 Poison - Type 2 - Special 5
 6515 Poison - Type 2 - Special 6
-6600 Blight - Type 1 - Special 1
-6601 Blight - Type 1 - Special 2
-6602 Blight - Type 1 - Special 3
-6603 Blight - Type 1 - Special 4
-6604 Blight - Type 1 - Special 5
-6605 Blight - Type 1 - Special 6
+6600 Scarlet Rot - Type 1 - Special 1
+6601 Scarlet Rot - Type 1 - Special 2
+6602 Scarlet Rot - Type 1 - Special 3
+6603 Scarlet Rot - Type 1 - Special 4
+6604 Scarlet Rot - Type 1 - Special 5
+6605 Scarlet Rot - Type 1 - Special 6
 6700 Frostbite - Type 1 - Special 1
 6701 Frostbite - Type 1 - Special 2
 6702 Frostbite - Type 1 - Special 3
@@ -293,12 +312,14 @@
 6753 Madness - Type 1 - Special 4
 6754 Madness - Type 1 - Special 5
 6755 Madness - Type 1 - Special 6
-6800 Death - Type 1 - Special 1
-6801 Death - Type 1 - Special 2
-6802 Death - Type 1 - Special 3
-6803 Death - Type 1 - Special 4
-6804 Death - Type 1 - Special 5
-6805 Death - Type 1 - Special 6
+6800 Blight - Type 1 - Special 1
+6801 Blight - Type 1 - Special 2
+6802 Blight - Type 1 - Special 3
+6803 Blight - Type 1 - Special 4
+6804 Blight - Type 1 - Special 5
+6805 Blight - Type 1 - Special 6
+6845 Black Knife - Bullet
+6850 [Incantation] Black Blade
 6930 Crystal Dart
 7000 Area Scaling -
 7010 Area Scaling -
@@ -358,33 +379,74 @@
 7660 NG+ Scaling -
 7670 NG+ Scaling -
 7680 NG+ Scaling -
-10165 Dragon-faced Flamethrower
-10690 Mohg
-10691 Mohg
+10000 Castle Exile - Bullet
+10001 Dog - Bullet
+10002 Demi-human - Bullet
+10003 Wandering Noble - Bullet
+10005 Castle Foot Soldier - Bullet
+10006 Fallen Hawk Soldier - Bullet
+10008 Man-Serpent - Bullet
+10010 Dominula Celebrant - Bullet
+10165 Dragon-faced Flamethrower - Bullet
+10317 Fallen Hawk Soldier - Bullet
+10318 Fallen Hawk Soldier - Bullet [Chain]
+10690 Mohg - Bullet
+10691 Mohg - Bullet [Cycle]
+10945 Warhawk - Bullet
 11010 Tarnished's Furled Finger
 11030 Duelist's Furled Finger
+11140 Commander - Bullet
+11141 Commander - Bullet
 11657 Nox Swordstress
-11971 Vulgar Militia
-12018 Enchanted Hand - Large
+11691 Nox Swordstress/Silver Tear - Bullet
+11954 Writhing Mass - Bullet
+11971 Vulgar Militia - Bullet
+12000 Large Enchanted Hand - Bullet
+12018 Giant Enchanted Hand
+13020 Wolf - Bullet
 13025 Wolf
 13067 Castle Soldier
+13120 Alabaster Lord - Bullet
+13121 Alabaster Lord - Bullet
+13153 Ancestral Follower - Bullet
+13154 Ancestral Follower - Bullet
+13156 Ancestral Follower Shaman - Bullet
 13164 Ancestral Follower
 13175 Ancestral Follower - Buff
 13191 Ancestral Follower - HP Restore
+13258 Mad Pumpkin Head/Grinning Torturer - Bullet
 13296 Castle Soldier
 13462 Putrid Corpse - Explosion
-13617 Ancestor Spirit
+13617 Ancestor Spirit - Bullet
+13780 Tree Sentinel - Bullet
+13782 Tree Sentinel - Bullet
+13855 Cleanrot Knight - Bullet
+13856 Cleanrot Knight - Bullet
+14016 Monstrous Crow - Bullet
+14028 Monstrous Dog - Bullet
+14351 [Rennala]
+14352 [Rennala]
+14353 [Rennala]
+14354 [Rennala]
 14386 Rennala Student - Main Target
-14405 Depraved Perfumer
-14406 Depraved Perfumer
+14405 Depraved Perfumer - Bullet
+14406 Depraved Perfumer - Bullet
 14435 Depraved Perfumer
 14439 Depraved Perfumer
-14898 Ancient Dragon
-15467 Godskin Noble
-15511 Grave Warden Duelist
+14553 Blaidd the Half-Wolf - Bullet
+14577 Rennala - Bullet
+14596 Rennala 2 - Bullet
+14898 Ancient Dragon - Bullet
+15321 Tibia Mariner - Bullet
+15322 Tibia Mariner - Bullet [Chain]
+15452 Godskin Apostle - Bullet
+15467 Godskin Apostle
+15511 Godskin Noble
 16414 Elemer of the Briar
+16482 Fallingstar Beast - Bullet
 16488 Fallingstar Beast
 17171 Imp
+17654 Death Rite Bird - Bullet
 18400 NPC: HP Recovery on Hit
 18401 NPC: HP Recovery on Hit
 18402 NPC: HP Recovery on Hit
@@ -401,6 +463,7 @@
 18417 NPC: HP Recovery on Hit
 18418 NPC: HP Recovery on Hit
 18419 NPC: HP Recovery on Hit
+18454 Malenia - Bullet
 18731 Melina - HP Recovery
 20000 NPC: Poison
 20001 NPC: Poison
@@ -461,29 +524,29 @@
 20518 NPC: Poison
 20519 NPC: Poison
 20600 NPC: Poison - Affect Self
-21000 NPC: Blight
-21001 NPC: Blight
-21002 NPC: Blight
-21003 NPC: Blight
-21004 NPC: Blight
-21005 NPC: Blight
-21006 NPC: Blight
-21007 NPC: Blight
-21008 NPC: Blight
-21009 NPC: Blight
-21010 NPC: Blight
-21011 NPC: Blight
-21012 NPC: Blight
-21013 NPC: Blight
-21014 NPC: Blight
-21015 NPC: Blight
-21016 NPC: Blight
-21017 NPC: Blight
-21018 NPC: Blight
-21019 NPC: Blight
-21100 NPC: Blight
-21101 NPC: Blight
-21102 NPC: Blight
+21000 NPC: Scarlet Rot
+21001 NPC: Scarlet Rot
+21002 NPC: Scarlet Rot
+21003 NPC: Scarlet Rot
+21004 NPC: Scarlet Rot
+21005 NPC: Scarlet Rot
+21006 NPC: Scarlet Rot
+21007 NPC: Scarlet Rot
+21008 NPC: Scarlet Rot
+21009 NPC: Scarlet Rot
+21010 NPC: Scarlet Rot
+21011 NPC: Scarlet Rot
+21012 NPC: Scarlet Rot
+21013 NPC: Scarlet Rot
+21014 NPC: Scarlet Rot
+21015 NPC: Scarlet Rot
+21016 NPC: Scarlet Rot
+21017 NPC: Scarlet Rot
+21018 NPC: Scarlet Rot
+21019 NPC: Scarlet Rot
+21100 NPC: Scarlet Rot
+21101 NPC: Scarlet Rot
+21102 NPC: Scarlet Rot
 22000 NPC: Hemorrhage
 22001 NPC: Hemorrhage
 22002 NPC: Hemorrhage
@@ -513,34 +576,34 @@
 22131 NPC: Maggots - Hemorrhage
 22132 NPC: Maggots - Hemorrhage
 22133 NPC: Maggots - Hemorrhage
-23000 NPC: Death
-23001 NPC: Death
-23002 NPC: Death
-23003 NPC: Death
-23004 NPC: Death
-23005 NPC: Death
-23006 NPC: Death
-23007 NPC: Death
-23008 NPC: Death
-23009 NPC: Death
-23010 NPC: Death
-23011 NPC: Death
-23012 NPC: Death
-23013 NPC: Death
-23014 NPC: Death
-23015 NPC: Death
-23016 NPC: Death
-23017 NPC: Death
-23018 NPC: Death
-23019 NPC: Death
-23100 NPC: Death
-23101 NPC: Death
-23102 NPC: Death
-23110 NPC: Death
-23111 NPC: Death
-23112 NPC: Death
-23113 NPC: Death
-23150 NPC: Death
+23000 NPC: Blight
+23001 NPC: Blight
+23002 NPC: Blight
+23003 NPC: Blight
+23004 NPC: Blight
+23005 NPC: Blight
+23006 NPC: Blight
+23007 NPC: Blight
+23008 NPC: Blight
+23009 NPC: Blight
+23010 NPC: Blight
+23011 NPC: Blight
+23012 NPC: Blight
+23013 NPC: Blight
+23014 NPC: Blight
+23015 NPC: Blight
+23016 NPC: Blight
+23017 NPC: Blight
+23018 NPC: Blight
+23019 NPC: Blight
+23100 NPC: Blight
+23101 NPC: Blight
+23102 NPC: Blight
+23110 NPC: Blight
+23111 NPC: Blight
+23112 NPC: Blight
+23113 NPC: Blight
+23150 NPC: Blight
 24000 NPC: Frostbite
 24001 NPC: Frostbite
 24002 NPC: Frostbite
@@ -638,9 +701,9 @@
 29520 NPC: Max HP Reduction on Hit
 29521 NPC: Max HP Reduction on Hit
 30000 NPC: Disable Poison
-30010 NPC: Disable Blight
+30010 NPC: Disable Scarlet Rot
 30020 NPC: Disable Hemorrhage
-30030 NPC: Disable Death
+30030 NPC: Disable Blight
 30040 NPC: Disable Frostbite
 30050 NPC: Disable Sleep
 30060 NPC: Disable Madness
@@ -1117,162 +1180,162 @@
 106273 Poison - High - Innate +23
 106274 Poison - High - Innate +24
 106275 Poison - High - Innate +25
-107000 Blight - Low - Addition +0
-107001 Blight - Low - Addition +1
-107002 Blight - Low - Addition +2
-107003 Blight - Low - Addition +3
-107004 Blight - Low - Addition +4
-107005 Blight - Low - Addition +5
-107006 Blight - Low - Addition +6
-107007 Blight - Low - Addition +7
-107008 Blight - Low - Addition +8
-107009 Blight - Low - Addition +9
-107010 Blight - Low - Addition +10
-107011 Blight - Low - Addition +11
-107012 Blight - Low - Addition +12
-107013 Blight - Low - Addition +13
-107014 Blight - Low - Addition +14
-107015 Blight - Low - Addition +15
-107016 Blight - Low - Addition +16
-107017 Blight - Low - Addition +17
-107018 Blight - Low - Addition +18
-107019 Blight - Low - Addition +19
-107020 Blight - Low - Addition +20
-107021 Blight - Low - Addition +21
-107022 Blight - Low - Addition +22
-107023 Blight - Low - Addition +23
-107024 Blight - Low - Addition +24
-107025 Blight - Low - Addition +25
-107050 Blight - Low - Innate +0
-107051 Blight - Low - Innate +1
-107052 Blight - Low - Innate +2
-107053 Blight - Low - Innate +3
-107054 Blight - Low - Innate +4
-107055 Blight - Low - Innate +5
-107056 Blight - Low - Innate +6
-107057 Blight - Low - Innate +7
-107058 Blight - Low - Innate +8
-107059 Blight - Low - Innate +9
-107060 Blight - Low - Innate +10
-107061 Blight - Low - Innate +11
-107062 Blight - Low - Innate +12
-107063 Blight - Low - Innate +13
-107064 Blight - Low - Innate +14
-107065 Blight - Low - Innate +15
-107066 Blight - Low - Innate +16
-107067 Blight - Low - Innate +17
-107068 Blight - Low - Innate +18
-107069 Blight - Low - Innate +19
-107070 Blight - Low - Innate +20
-107071 Blight - Low - Innate +21
-107072 Blight - Low - Innate +22
-107073 Blight - Low - Innate +23
-107074 Blight - Low - Innate +24
-107075 Blight - Low - Innate +25
-107100 Blight - Medium - Addition +0
-107101 Blight - Medium - Addition +1
-107102 Blight - Medium - Addition +2
-107103 Blight - Medium - Addition +3
-107104 Blight - Medium - Addition +4
-107105 Blight - Medium - Addition +5
-107106 Blight - Medium - Addition +6
-107107 Blight - Medium - Addition +7
-107108 Blight - Medium - Addition +8
-107109 Blight - Medium - Addition +9
-107110 Blight - Medium - Addition +10
-107111 Blight - Medium - Addition +11
-107112 Blight - Medium - Addition +12
-107113 Blight - Medium - Addition +13
-107114 Blight - Medium - Addition +14
-107115 Blight - Medium - Addition +15
-107116 Blight - Medium - Addition +16
-107117 Blight - Medium - Addition +17
-107118 Blight - Medium - Addition +18
-107119 Blight - Medium - Addition +19
-107120 Blight - Medium - Addition +20
-107121 Blight - Medium - Addition +21
-107122 Blight - Medium - Addition +22
-107123 Blight - Medium - Addition +23
-107124 Blight - Medium - Addition +24
-107125 Blight - Medium - Addition +25
-107150 Blight - Medium - Innate +0
-107151 Blight - Medium - Innate +1
-107152 Blight - Medium - Innate +2
-107153 Blight - Medium - Innate +3
-107154 Blight - Medium - Innate +4
-107155 Blight - Medium - Innate +5
-107156 Blight - Medium - Innate +6
-107157 Blight - Medium - Innate +7
-107158 Blight - Medium - Innate +8
-107159 Blight - Medium - Innate +9
-107160 Blight - Medium - Innate +10
-107161 Blight - Medium - Innate +11
-107162 Blight - Medium - Innate +12
-107163 Blight - Medium - Innate +13
-107164 Blight - Medium - Innate +14
-107165 Blight - Medium - Innate +15
-107166 Blight - Medium - Innate +16
-107167 Blight - Medium - Innate +17
-107168 Blight - Medium - Innate +18
-107169 Blight - Medium - Innate +19
-107170 Blight - Medium - Innate +20
-107171 Blight - Medium - Innate +21
-107172 Blight - Medium - Innate +22
-107173 Blight - Medium - Innate +23
-107174 Blight - Medium - Innate +24
-107175 Blight - Medium - Innate +25
-107200 Blight - High - Addition +0
-107201 Blight - High - Addition +1
-107202 Blight - High - Addition +2
-107203 Blight - High - Addition +3
-107204 Blight - High - Addition +4
-107205 Blight - High - Addition +5
-107206 Blight - High - Addition +6
-107207 Blight - High - Addition +7
-107208 Blight - High - Addition +8
-107209 Blight - High - Addition +9
-107210 Blight - High - Addition +10
-107211 Blight - High - Addition +11
-107212 Blight - High - Addition +12
-107213 Blight - High - Addition +13
-107214 Blight - High - Addition +14
-107215 Blight - High - Addition +15
-107216 Blight - High - Addition +16
-107217 Blight - High - Addition +17
-107218 Blight - High - Addition +18
-107219 Blight - High - Addition +19
-107220 Blight - High - Addition +20
-107221 Blight - High - Addition +21
-107222 Blight - High - Addition +22
-107223 Blight - High - Addition +23
-107224 Blight - High - Addition +24
-107225 Blight - High - Addition +25
-107250 Blight - High - Innate +0
-107251 Blight - High - Innate +1
-107252 Blight - High - Innate +2
-107253 Blight - High - Innate +3
-107254 Blight - High - Innate +4
-107255 Blight - High - Innate +5
-107256 Blight - High - Innate +6
-107257 Blight - High - Innate +7
-107258 Blight - High - Innate +8
-107259 Blight - High - Innate +9
-107260 Blight - High - Innate +10
-107261 Blight - High - Innate +11
-107262 Blight - High - Innate +12
-107263 Blight - High - Innate +13
-107264 Blight - High - Innate +14
-107265 Blight - High - Innate +15
-107266 Blight - High - Innate +16
-107267 Blight - High - Innate +17
-107268 Blight - High - Innate +18
-107269 Blight - High - Innate +19
-107270 Blight - High - Innate +20
-107271 Blight - High - Innate +21
-107272 Blight - High - Innate +22
-107273 Blight - High - Innate +23
-107274 Blight - High - Innate +24
-107275 Blight - High - Innate +25
+107000 Scarlet Rot - Low - Addition +0
+107001 Scarlet Rot - Low - Addition +1
+107002 Scarlet Rot - Low - Addition +2
+107003 Scarlet Rot - Low - Addition +3
+107004 Scarlet Rot - Low - Addition +4
+107005 Scarlet Rot - Low - Addition +5
+107006 Scarlet Rot - Low - Addition +6
+107007 Scarlet Rot - Low - Addition +7
+107008 Scarlet Rot - Low - Addition +8
+107009 Scarlet Rot - Low - Addition +9
+107010 Scarlet Rot - Low - Addition +10
+107011 Scarlet Rot - Low - Addition +11
+107012 Scarlet Rot - Low - Addition +12
+107013 Scarlet Rot - Low - Addition +13
+107014 Scarlet Rot - Low - Addition +14
+107015 Scarlet Rot - Low - Addition +15
+107016 Scarlet Rot - Low - Addition +16
+107017 Scarlet Rot - Low - Addition +17
+107018 Scarlet Rot - Low - Addition +18
+107019 Scarlet Rot - Low - Addition +19
+107020 Scarlet Rot - Low - Addition +20
+107021 Scarlet Rot - Low - Addition +21
+107022 Scarlet Rot - Low - Addition +22
+107023 Scarlet Rot - Low - Addition +23
+107024 Scarlet Rot - Low - Addition +24
+107025 Scarlet Rot - Low - Addition +25
+107050 Scarlet Rot - Low - Innate +0
+107051 Scarlet Rot - Low - Innate +1
+107052 Scarlet Rot - Low - Innate +2
+107053 Scarlet Rot - Low - Innate +3
+107054 Scarlet Rot - Low - Innate +4
+107055 Scarlet Rot - Low - Innate +5
+107056 Scarlet Rot - Low - Innate +6
+107057 Scarlet Rot - Low - Innate +7
+107058 Scarlet Rot - Low - Innate +8
+107059 Scarlet Rot - Low - Innate +9
+107060 Scarlet Rot - Low - Innate +10
+107061 Scarlet Rot - Low - Innate +11
+107062 Scarlet Rot - Low - Innate +12
+107063 Scarlet Rot - Low - Innate +13
+107064 Scarlet Rot - Low - Innate +14
+107065 Scarlet Rot - Low - Innate +15
+107066 Scarlet Rot - Low - Innate +16
+107067 Scarlet Rot - Low - Innate +17
+107068 Scarlet Rot - Low - Innate +18
+107069 Scarlet Rot - Low - Innate +19
+107070 Scarlet Rot - Low - Innate +20
+107071 Scarlet Rot - Low - Innate +21
+107072 Scarlet Rot - Low - Innate +22
+107073 Scarlet Rot - Low - Innate +23
+107074 Scarlet Rot - Low - Innate +24
+107075 Scarlet Rot - Low - Innate +25
+107100 Scarlet Rot - Medium - Addition +0
+107101 Scarlet Rot - Medium - Addition +1
+107102 Scarlet Rot - Medium - Addition +2
+107103 Scarlet Rot - Medium - Addition +3
+107104 Scarlet Rot - Medium - Addition +4
+107105 Scarlet Rot - Medium - Addition +5
+107106 Scarlet Rot - Medium - Addition +6
+107107 Scarlet Rot - Medium - Addition +7
+107108 Scarlet Rot - Medium - Addition +8
+107109 Scarlet Rot - Medium - Addition +9
+107110 Scarlet Rot - Medium - Addition +10
+107111 Scarlet Rot - Medium - Addition +11
+107112 Scarlet Rot - Medium - Addition +12
+107113 Scarlet Rot - Medium - Addition +13
+107114 Scarlet Rot - Medium - Addition +14
+107115 Scarlet Rot - Medium - Addition +15
+107116 Scarlet Rot - Medium - Addition +16
+107117 Scarlet Rot - Medium - Addition +17
+107118 Scarlet Rot - Medium - Addition +18
+107119 Scarlet Rot - Medium - Addition +19
+107120 Scarlet Rot - Medium - Addition +20
+107121 Scarlet Rot - Medium - Addition +21
+107122 Scarlet Rot - Medium - Addition +22
+107123 Scarlet Rot - Medium - Addition +23
+107124 Scarlet Rot - Medium - Addition +24
+107125 Scarlet Rot - Medium - Addition +25
+107150 Scarlet Rot - Medium - Innate +0
+107151 Scarlet Rot - Medium - Innate +1
+107152 Scarlet Rot - Medium - Innate +2
+107153 Scarlet Rot - Medium - Innate +3
+107154 Scarlet Rot - Medium - Innate +4
+107155 Scarlet Rot - Medium - Innate +5
+107156 Scarlet Rot - Medium - Innate +6
+107157 Scarlet Rot - Medium - Innate +7
+107158 Scarlet Rot - Medium - Innate +8
+107159 Scarlet Rot - Medium - Innate +9
+107160 Scarlet Rot - Medium - Innate +10
+107161 Scarlet Rot - Medium - Innate +11
+107162 Scarlet Rot - Medium - Innate +12
+107163 Scarlet Rot - Medium - Innate +13
+107164 Scarlet Rot - Medium - Innate +14
+107165 Scarlet Rot - Medium - Innate +15
+107166 Scarlet Rot - Medium - Innate +16
+107167 Scarlet Rot - Medium - Innate +17
+107168 Scarlet Rot - Medium - Innate +18
+107169 Scarlet Rot - Medium - Innate +19
+107170 Scarlet Rot - Medium - Innate +20
+107171 Scarlet Rot - Medium - Innate +21
+107172 Scarlet Rot - Medium - Innate +22
+107173 Scarlet Rot - Medium - Innate +23
+107174 Scarlet Rot - Medium - Innate +24
+107175 Scarlet Rot - Medium - Innate +25
+107200 Scarlet Rot - High - Addition +0
+107201 Scarlet Rot - High - Addition +1
+107202 Scarlet Rot - High - Addition +2
+107203 Scarlet Rot - High - Addition +3
+107204 Scarlet Rot - High - Addition +4
+107205 Scarlet Rot - High - Addition +5
+107206 Scarlet Rot - High - Addition +6
+107207 Scarlet Rot - High - Addition +7
+107208 Scarlet Rot - High - Addition +8
+107209 Scarlet Rot - High - Addition +9
+107210 Scarlet Rot - High - Addition +10
+107211 Scarlet Rot - High - Addition +11
+107212 Scarlet Rot - High - Addition +12
+107213 Scarlet Rot - High - Addition +13
+107214 Scarlet Rot - High - Addition +14
+107215 Scarlet Rot - High - Addition +15
+107216 Scarlet Rot - High - Addition +16
+107217 Scarlet Rot - High - Addition +17
+107218 Scarlet Rot - High - Addition +18
+107219 Scarlet Rot - High - Addition +19
+107220 Scarlet Rot - High - Addition +20
+107221 Scarlet Rot - High - Addition +21
+107222 Scarlet Rot - High - Addition +22
+107223 Scarlet Rot - High - Addition +23
+107224 Scarlet Rot - High - Addition +24
+107225 Scarlet Rot - High - Addition +25
+107250 Scarlet Rot - High - Innate +0
+107251 Scarlet Rot - High - Innate +1
+107252 Scarlet Rot - High - Innate +2
+107253 Scarlet Rot - High - Innate +3
+107254 Scarlet Rot - High - Innate +4
+107255 Scarlet Rot - High - Innate +5
+107256 Scarlet Rot - High - Innate +6
+107257 Scarlet Rot - High - Innate +7
+107258 Scarlet Rot - High - Innate +8
+107259 Scarlet Rot - High - Innate +9
+107260 Scarlet Rot - High - Innate +10
+107261 Scarlet Rot - High - Innate +11
+107262 Scarlet Rot - High - Innate +12
+107263 Scarlet Rot - High - Innate +13
+107264 Scarlet Rot - High - Innate +14
+107265 Scarlet Rot - High - Innate +15
+107266 Scarlet Rot - High - Innate +16
+107267 Scarlet Rot - High - Innate +17
+107268 Scarlet Rot - High - Innate +18
+107269 Scarlet Rot - High - Innate +19
+107270 Scarlet Rot - High - Innate +20
+107271 Scarlet Rot - High - Innate +21
+107272 Scarlet Rot - High - Innate +22
+107273 Scarlet Rot - High - Innate +23
+107274 Scarlet Rot - High - Innate +24
+107275 Scarlet Rot - High - Innate +25
 107500 Frostbite - Low - Addition +0
 107501 Frostbite - Low - Addition +1
 107502 Frostbite - Low - Addition +2
@@ -1429,162 +1492,162 @@
 107773 Frostbite - High - Innate +23
 107774 Frostbite - High - Innate +24
 107775 Frostbite - High - Innate +25
-108000 Death - Low - Addition +0
-108001 Death - Low - Addition +1
-108002 Death - Low - Addition +2
-108003 Death - Low - Addition +3
-108004 Death - Low - Addition +4
-108005 Death - Low - Addition +5
-108006 Death - Low - Addition +6
-108007 Death - Low - Addition +7
-108008 Death - Low - Addition +8
-108009 Death - Low - Addition +9
-108010 Death - Low - Addition +10
-108011 Death - Low - Addition +11
-108012 Death - Low - Addition +12
-108013 Death - Low - Addition +13
-108014 Death - Low - Addition +14
-108015 Death - Low - Addition +15
-108016 Death - Low - Addition +16
-108017 Death - Low - Addition +17
-108018 Death - Low - Addition +18
-108019 Death - Low - Addition +19
-108020 Death - Low - Addition +20
-108021 Death - Low - Addition +21
-108022 Death - Low - Addition +22
-108023 Death - Low - Addition +23
-108024 Death - Low - Addition +24
-108025 Death - Low - Addition +25
-108050 Death - Low - Innate +0
-108051 Death - Low - Innate +1
-108052 Death - Low - Innate +2
-108053 Death - Low - Innate +3
-108054 Death - Low - Innate +4
-108055 Death - Low - Innate +5
-108056 Death - Low - Innate +6
-108057 Death - Low - Innate +7
-108058 Death - Low - Innate +8
-108059 Death - Low - Innate +9
-108060 Death - Low - Innate +10
-108061 Death - Low - Innate +11
-108062 Death - Low - Innate +12
-108063 Death - Low - Innate +13
-108064 Death - Low - Innate +14
-108065 Death - Low - Innate +15
-108066 Death - Low - Innate +16
-108067 Death - Low - Innate +17
-108068 Death - Low - Innate +18
-108069 Death - Low - Innate +19
-108070 Death - Low - Innate +20
-108071 Death - Low - Innate +21
-108072 Death - Low - Innate +22
-108073 Death - Low - Innate +23
-108074 Death - Low - Innate +24
-108075 Death - Low - Innate +25
-108100 Death - Medium - Addition +0
-108101 Death - Medium - Addition +1
-108102 Death - Medium - Addition +2
-108103 Death - Medium - Addition +3
-108104 Death - Medium - Addition +4
-108105 Death - Medium - Addition +5
-108106 Death - Medium - Addition +6
-108107 Death - Medium - Addition +7
-108108 Death - Medium - Addition +8
-108109 Death - Medium - Addition +9
-108110 Death - Medium - Addition +10
-108111 Death - Medium - Addition +11
-108112 Death - Medium - Addition +12
-108113 Death - Medium - Addition +13
-108114 Death - Medium - Addition +14
-108115 Death - Medium - Addition +15
-108116 Death - Medium - Addition +16
-108117 Death - Medium - Addition +17
-108118 Death - Medium - Addition +18
-108119 Death - Medium - Addition +19
-108120 Death - Medium - Addition +20
-108121 Death - Medium - Addition +21
-108122 Death - Medium - Addition +22
-108123 Death - Medium - Addition +23
-108124 Death - Medium - Addition +24
-108125 Death - Medium - Addition +25
-108150 Death - Medium - Innate +0
-108151 Death - Medium - Innate +1
-108152 Death - Medium - Innate +2
-108153 Death - Medium - Innate +3
-108154 Death - Medium - Innate +4
-108155 Death - Medium - Innate +5
-108156 Death - Medium - Innate +6
-108157 Death - Medium - Innate +7
-108158 Death - Medium - Innate +8
-108159 Death - Medium - Innate +9
-108160 Death - Medium - Innate +10
-108161 Death - Medium - Innate +11
-108162 Death - Medium - Innate +12
-108163 Death - Medium - Innate +13
-108164 Death - Medium - Innate +14
-108165 Death - Medium - Innate +15
-108166 Death - Medium - Innate +16
-108167 Death - Medium - Innate +17
-108168 Death - Medium - Innate +18
-108169 Death - Medium - Innate +19
-108170 Death - Medium - Innate +20
-108171 Death - Medium - Innate +21
-108172 Death - Medium - Innate +22
-108173 Death - Medium - Innate +23
-108174 Death - Medium - Innate +24
-108175 Death - Medium - Innate +25
-108200 Death - High - Addition +0
-108201 Death - High - Addition +1
-108202 Death - High - Addition +2
-108203 Death - High - Addition +3
-108204 Death - High - Addition +4
-108205 Death - High - Addition +5
-108206 Death - High - Addition +6
-108207 Death - High - Addition +7
-108208 Death - High - Addition +8
-108209 Death - High - Addition +9
-108210 Death - High - Addition +10
-108211 Death - High - Addition +11
-108212 Death - High - Addition +12
-108213 Death - High - Addition +13
-108214 Death - High - Addition +14
-108215 Death - High - Addition +15
-108216 Death - High - Addition +16
-108217 Death - High - Addition +17
-108218 Death - High - Addition +18
-108219 Death - High - Addition +19
-108220 Death - High - Addition +20
-108221 Death - High - Addition +21
-108222 Death - High - Addition +22
-108223 Death - High - Addition +23
-108224 Death - High - Addition +24
-108225 Death - High - Addition +25
-108250 Death - High - Innate +0
-108251 Death - High - Innate +1
-108252 Death - High - Innate +2
-108253 Death - High - Innate +3
-108254 Death - High - Innate +4
-108255 Death - High - Innate +5
-108256 Death - High - Innate +6
-108257 Death - High - Innate +7
-108258 Death - High - Innate +8
-108259 Death - High - Innate +9
-108260 Death - High - Innate +10
-108261 Death - High - Innate +11
-108262 Death - High - Innate +12
-108263 Death - High - Innate +13
-108264 Death - High - Innate +14
-108265 Death - High - Innate +15
-108266 Death - High - Innate +16
-108267 Death - High - Innate +17
-108268 Death - High - Innate +18
-108269 Death - High - Innate +19
-108270 Death - High - Innate +20
-108271 Death - High - Innate +21
-108272 Death - High - Innate +22
-108273 Death - High - Innate +23
-108274 Death - High - Innate +24
-108275 Death - High - Innate +25
+108000 Blight - Low - Addition +0
+108001 Blight - Low - Addition +1
+108002 Blight - Low - Addition +2
+108003 Blight - Low - Addition +3
+108004 Blight - Low - Addition +4
+108005 Blight - Low - Addition +5
+108006 Blight - Low - Addition +6
+108007 Blight - Low - Addition +7
+108008 Blight - Low - Addition +8
+108009 Blight - Low - Addition +9
+108010 Blight - Low - Addition +10
+108011 Blight - Low - Addition +11
+108012 Blight - Low - Addition +12
+108013 Blight - Low - Addition +13
+108014 Blight - Low - Addition +14
+108015 Blight - Low - Addition +15
+108016 Blight - Low - Addition +16
+108017 Blight - Low - Addition +17
+108018 Blight - Low - Addition +18
+108019 Blight - Low - Addition +19
+108020 Blight - Low - Addition +20
+108021 Blight - Low - Addition +21
+108022 Blight - Low - Addition +22
+108023 Blight - Low - Addition +23
+108024 Blight - Low - Addition +24
+108025 Blight - Low - Addition +25
+108050 Blight - Low - Innate +0
+108051 Blight - Low - Innate +1
+108052 Blight - Low - Innate +2
+108053 Blight - Low - Innate +3
+108054 Blight - Low - Innate +4
+108055 Blight - Low - Innate +5
+108056 Blight - Low - Innate +6
+108057 Blight - Low - Innate +7
+108058 Blight - Low - Innate +8
+108059 Blight - Low - Innate +9
+108060 Blight - Low - Innate +10
+108061 Blight - Low - Innate +11
+108062 Blight - Low - Innate +12
+108063 Blight - Low - Innate +13
+108064 Blight - Low - Innate +14
+108065 Blight - Low - Innate +15
+108066 Blight - Low - Innate +16
+108067 Blight - Low - Innate +17
+108068 Blight - Low - Innate +18
+108069 Blight - Low - Innate +19
+108070 Blight - Low - Innate +20
+108071 Blight - Low - Innate +21
+108072 Blight - Low - Innate +22
+108073 Blight - Low - Innate +23
+108074 Blight - Low - Innate +24
+108075 Blight - Low - Innate +25
+108100 Blight - Medium - Addition +0
+108101 Blight - Medium - Addition +1
+108102 Blight - Medium - Addition +2
+108103 Blight - Medium - Addition +3
+108104 Blight - Medium - Addition +4
+108105 Blight - Medium - Addition +5
+108106 Blight - Medium - Addition +6
+108107 Blight - Medium - Addition +7
+108108 Blight - Medium - Addition +8
+108109 Blight - Medium - Addition +9
+108110 Blight - Medium - Addition +10
+108111 Blight - Medium - Addition +11
+108112 Blight - Medium - Addition +12
+108113 Blight - Medium - Addition +13
+108114 Blight - Medium - Addition +14
+108115 Blight - Medium - Addition +15
+108116 Blight - Medium - Addition +16
+108117 Blight - Medium - Addition +17
+108118 Blight - Medium - Addition +18
+108119 Blight - Medium - Addition +19
+108120 Blight - Medium - Addition +20
+108121 Blight - Medium - Addition +21
+108122 Blight - Medium - Addition +22
+108123 Blight - Medium - Addition +23
+108124 Blight - Medium - Addition +24
+108125 Blight - Medium - Addition +25
+108150 Blight - Medium - Innate +0
+108151 Blight - Medium - Innate +1
+108152 Blight - Medium - Innate +2
+108153 Blight - Medium - Innate +3
+108154 Blight - Medium - Innate +4
+108155 Blight - Medium - Innate +5
+108156 Blight - Medium - Innate +6
+108157 Blight - Medium - Innate +7
+108158 Blight - Medium - Innate +8
+108159 Blight - Medium - Innate +9
+108160 Blight - Medium - Innate +10
+108161 Blight - Medium - Innate +11
+108162 Blight - Medium - Innate +12
+108163 Blight - Medium - Innate +13
+108164 Blight - Medium - Innate +14
+108165 Blight - Medium - Innate +15
+108166 Blight - Medium - Innate +16
+108167 Blight - Medium - Innate +17
+108168 Blight - Medium - Innate +18
+108169 Blight - Medium - Innate +19
+108170 Blight - Medium - Innate +20
+108171 Blight - Medium - Innate +21
+108172 Blight - Medium - Innate +22
+108173 Blight - Medium - Innate +23
+108174 Blight - Medium - Innate +24
+108175 Blight - Medium - Innate +25
+108200 Blight - High - Addition +0
+108201 Blight - High - Addition +1
+108202 Blight - High - Addition +2
+108203 Blight - High - Addition +3
+108204 Blight - High - Addition +4
+108205 Blight - High - Addition +5
+108206 Blight - High - Addition +6
+108207 Blight - High - Addition +7
+108208 Blight - High - Addition +8
+108209 Blight - High - Addition +9
+108210 Blight - High - Addition +10
+108211 Blight - High - Addition +11
+108212 Blight - High - Addition +12
+108213 Blight - High - Addition +13
+108214 Blight - High - Addition +14
+108215 Blight - High - Addition +15
+108216 Blight - High - Addition +16
+108217 Blight - High - Addition +17
+108218 Blight - High - Addition +18
+108219 Blight - High - Addition +19
+108220 Blight - High - Addition +20
+108221 Blight - High - Addition +21
+108222 Blight - High - Addition +22
+108223 Blight - High - Addition +23
+108224 Blight - High - Addition +24
+108225 Blight - High - Addition +25
+108250 Blight - High - Innate +0
+108251 Blight - High - Innate +1
+108252 Blight - High - Innate +2
+108253 Blight - High - Innate +3
+108254 Blight - High - Innate +4
+108255 Blight - High - Innate +5
+108256 Blight - High - Innate +6
+108257 Blight - High - Innate +7
+108258 Blight - High - Innate +8
+108259 Blight - High - Innate +9
+108260 Blight - High - Innate +10
+108261 Blight - High - Innate +11
+108262 Blight - High - Innate +12
+108263 Blight - High - Innate +13
+108264 Blight - High - Innate +14
+108265 Blight - High - Innate +15
+108266 Blight - High - Innate +16
+108267 Blight - High - Innate +17
+108268 Blight - High - Innate +18
+108269 Blight - High - Innate +19
+108270 Blight - High - Innate +20
+108271 Blight - High - Innate +21
+108272 Blight - High - Innate +22
+108273 Blight - High - Innate +23
+108274 Blight - High - Innate +24
+108275 Blight - High - Innate +25
 200000 Black Knife Tiche
 200001 Black Knife Tiche +1
 200002 Black Knife Tiche +2
@@ -2639,7 +2702,14 @@
 511079 Ruptured Crystal Tear [Chain]
 511080 Ruptured Crystal Tear [Chain]
 511081 Ruptured Crystal Tear [Chain]
+1413000 [Sorcery] Terra Magicus
 1414000 [Sorcery] Starlight
+1436000 [Sorcery] Rennala's Full Moon
+1436100 [Sorcery] Ranni's Dark Moon
+1440000 [Sorcery] Glintstone Icecrag
+1441000 [Sorcery] Zamor Ice Storm
+1442000 [Sorcery] Freezing Mist
+1443101 [Sorcery] Adula's Moonblade
 1446000 [Sorcery] Scholar's Armament
 1447000 [Sorcery] Scholar's Shield
 1447001 [Sorcery] Scholar's Shield [Cycle]
@@ -2655,6 +2725,13 @@
 1467002 [Sorcery] Unseen Form
 1467005 [Sorcery] Unseen Form
 1467006 [Sorcery] Unseen Form
+1490010 [Sorcery] Briars of Sin
+1491010 [Sorcery] Briars of Punishment
+1501000 [Sorcery] Explosive Ghostflame
+1501001 [Sorcery] Explosive Ghostflame
+1502000 [Sorcery] Fia's Mist
+1504000 [Sorcery] Death Lightning
+1504001 [Sorcery] Death Lightning
 1604000 [Incantation] Flame, Cleanse Me
 1604001 [Incantation] Flame, Cleanse Me
 1604002 [Incantation] Flame, Cleanse Me
@@ -2665,6 +2742,8 @@
 1605001 [Incantation] Flame, Grant Me Strength
 1605002 [Incantation] Flame, Grant Me Strength
 1606000 [Incantation] Flame, Protect Me
+1621000 [Incantation] Black Flame
+1623000 [Incantation] Scouring Black Flame
 1624000 [Incantation] Noble Presence
 1624010 [Incantation] Noble Presence
 1625000 [Incantation] Black Flame Ritual
@@ -2672,9 +2751,13 @@
 1626001 [Incantation] Black Flame Blade
 1627000 [Incantation] Black Flame's Protection
 1627001 [Incantation] Black Flame's Protection
+1630000 [Incantation] Bloodflame Talons
+1630001 [Incantation] Bloodflame Talons [Cycle]
+1631000 [Incantation] Bloodboon
+1631001 [Incantation] Bloodboon [Cycle]
 1632000 [Incantation] Bloodflame Blade
-1632001 [Incantation] Bloodflame Blade
-1632002 [Incantation] Bloodflame Blade
+1632001 [Incantation] Bloodflame Blade [Attack]
+1632002 [Incantation] Bloodflame Blade [Cycle]
 1633000 [Incantation] Barrier of Gold
 1634000 [Incantation] Protection of the Erdtree
 1640000 [Incantation] Rejection
@@ -2714,12 +2797,12 @@
 1649000 [Incantation] Lord's Divine Fortification
 1650000 [Incantation] Night Maiden's Mist
 1651000 [Incantation] Assassin's Approach
-1651001 [Incantation] Assassin's Approach
+1651001 [Incantation] Assassin's Approach [Cycle]
 1651002 [Incantation] Assassin's Approach
 1653000 [Incantation] Darkness
-1653001 [Incantation] Darkness
+1653001 [Incantation] Darkness [Chain]
 1660000 [Incantation] Golden Vow
-1660001 [Incantation] Golden Vow
+1660001 [Incantation] Golden Vow [Cycle]
 1660002 [Incantation] Golden Vow
 1673000 [Incantation] Law of Regression
 1673001 [Incantation] Law of Regression
@@ -2752,17 +2835,17 @@
 1673033 [Incantation] Law of Regression
 1673034 [Incantation] Law of Regression
 1674000 [Incantation] Immutable Shield
-1674001 [Incantation] Immutable Shield
+1674001 [Incantation] Immutable Shield [Cycle]
 1674002 [Incantation] Immutable Shield
 1675000 [Incantation] Litany of Proper Death
 1676000 [Incantation] Law of Causality
-1676005 [Incantation] Law of Causality
-1676006 [Incantation] Law of Causality
-1676007 [Incantation] Law of Causality
-1676008 [Incantation] Law of Causality
-1676009 [Incantation] Law of Causality
+1676005 [Incantation] Law of Causality [Chain]
+1676006 [Incantation] Law of Causality [Chain]
+1676007 [Incantation] Law of Causality [Chain]
+1676008 [Incantation] Law of Causality [Chain]
+1676009 [Incantation] Law of Causality [Chain]
 1676010 [Incantation] Law of Causality
-1676011 [Incantation] Law of Causality
+1676011 [Incantation] Law of Causality [Chain]
 1677000 [Incantation] Order's Blade
 1678000 [Incantation] Order Healing
 1678001 [Incantation] Order Healing
@@ -2771,16 +2854,29 @@
 1686001 [Incantation] Bestial Constitution
 1686002 [Incantation] Bestial Constitution
 1686003 [Incantation] Bestial Constitution
+1692100 [Incantation] Frozen Lightning Spear
 1696000 [Incantation] Electrify Armament
 1697000 [Incantation] Vyke's Dragonbolt
 1697001 [Incantation] Vyke's Dragonbolt
-1697002 [Incantation] Vyke's Dragonbolt
+1697002 [Incantation] Vyke's Dragonbolt [Cycle]
 1697100 [Incantation] Dragonbolt Blessing
-1697101 [Incantation] Dragonbolt Blessing
+1697101 [Incantation] Dragonbolt Blessing [Cycle]
+1702000 [Incantation] Dragonice
+1702100 [Incantation] Borealis's Mist
+1703000 [Incantation] Rotten Breath
+1703100 [Incantation] Ekzykes's Decay
+1709000 [Incantation] Greyoll's Roar
+1722000 [Incantation] Poison Mist
 1723000 [Incantation] Poison Armament
 1723001 [Incantation] Poison Armament
 1724000 [Incantation] Scarlet Aeonia
 1724001 [Incantation] Scarlet Aeonia
+1731000 [Incantation] The Flame of Frenzy
+1731001 [Incantation] The Flame of Frenzy
+1731100 [Incantation] Unendurable Frenzy
+1731101 [Incantation] Unendurable Frenzy
+1732000 [Incantation] Frenzied Burst
+1732001 [Incantation] Frenzied Burst
 1733000 [Incantation] Howl of Shabriri
 1733001 [Incantation] Howl of Shabriri
 1733002 [Incantation] Howl of Shabriri
@@ -2794,6 +2890,7 @@
 1790010 [Incantation] Fire's Deadly Sin
 1790011 [Incantation] Fire's Deadly Sin
 1790012 [Incantation] Fire's Deadly Sin
+1790300 [Incantation] Golden Lightning Fortification
 5010600 Celebrant's Sickle - Rune Gain on Hit
 5010601 Celebrant's Sickle - Icon
 5011000 Cinquedea - Boost Incantation Power

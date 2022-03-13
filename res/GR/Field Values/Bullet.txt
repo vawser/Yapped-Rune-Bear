@@ -1,89 +1,1005 @@
-Row ID,Row Name,Unk12a
-10,,60
-120100,,5
-120105,,5
-120110,,5
-120115,,5
-120120,,10
-120125,,10
-170000,,70
-170001,,70
-170002,,70
-170003,,70
-2110554,,57
-2150010,,90
-3700110,,40
-3700130,,20
-3700131,,20
-3704170,,30
-3704220,,30
-4710610,,40
-8101100,,-7
-20000040,,70
-20000045,,70
-20000140,,70
-20000145,,70
-20000240,,70
-20000245,,70
-20000340,,70
-20000345,,70
-20000440,,70
-20000445,,70
-20000540,,70
-20000545,,70
-20000640,,70
-20000645,,70
-20000740,,70
-20000745,,70
-20000840,,70
-20000845,,70
-20000940,,70
-20000945,,70
-20001040,,70
-20001045,,70
-20001140,,70
-20001145,,70
-20001240,,70
-20001245,,70
-20001340,,70
-20001345,,70
-20001440,,70
-20001445,,70
-20001540,,70
-20001545,,70
-20001640,,70
-20001645,,70
-20001740,,70
-20001745,,70
-20001840,,70
-20001845,,70
-20001940,,70
-20001945,,70
-20002040,,70
-20002045,,70
-20002140,,70
-20002145,,70
-20002240,,70
-20002245,,70
-20002340,,70
-20002345,,70
-20002440,,70
-20002445,,70
-20002540,,70
-20002545,,70
-20002640,,70
-20002645,,70
-20002740,,70
-20002745,,70
-20002840,,70
-20002845,,70
-20002940,,70
-20002945,,70
-20003040,,70
-20003045,,70
-20003140,,70
-20003145,,70
-20003240,,70
-20003245,,70
-82200000,,5
-82210000,,10
+Row ID,Row Name,Target SpEffect ID 0
+127,,3380
+128,,3381
+129,,3382
+150,,3120
+151,,3120
+156,,473
+157,,473
+158,,3126
+260,,3200
+261,,3200
+431,,3360
+900,,6193012
+1000,Hemorrhage - Bullet,501
+1005,Poison/Blight - Bullet,506
+1101,,184
+1500,Flask of Crimson Tears,501075
+1501,Flask of Crimson Tears +1,501076
+1502,Flask of Crimson Tears +2,501077
+1503,Flask of Crimson Tears +3,501078
+1504,Flask of Crimson Tears +4,501079
+1505,Flask of Crimson Tears +5,501080
+1506,Flask of Crimson Tears +6,501081
+1507,Flask of Crimson Tears +7,501082
+1508,Flask of Crimson Tears +8,501083
+1509,Flask of Crimson Tears +9,501084
+1510,Flask of Crimson Tears +10,501085
+1511,Flask of Crimson Tears +11,501086
+1512,Flask of Crimson Tears +12,501087
+2040,,1500
+2041,,1501
+2065,Winged Greathorn,1545
+2071,,1640
+2073,,1641
+2114,Scepter of the All-Knowing,1897
+2115,,1898
+2116,Devourer's Scepter,1896
+2146,Eclipse Shotel,1789
+2150,,1631
+2151,,1632
+2155,,1636
+2180,,1603
+2190,,470
+2191,,470
+2192,,470
+2195,Royal Greatsword,1576
+2250,,1730
+2260,,1800
+2261,,1800
+2262,,1800
+2263,,1800
+2264,,1800
+2265,,1800
+2266,,1800
+2267,,1800
+2268,,1800
+2269,,1801
+2290,Death's Poker,6700
+2291,Death's Poker,6700
+2294,Death's Poker,6702
+2295,Death's Poker,6705
+2320,Maliketh's Black Blade,6850
+2321,Maliketh's Black Blade,6850
+2322,Maliketh's Black Blade,6850
+2335,Mohgwyn's Sacred Spear,1625
+2336,Mohgwyn's Sacred Spear,1625
+2337,Mohgwyn's Sacred Spear,1625
+2338,Mohgwyn's Sacred Spear,1625
+2339,Mohgwyn's Sacred Spear,1625
+2340,Mohgwyn's Sacred Spear,1625
+2411,,829
+2416,,834
+2430,,835
+2431,,835
+2490,,1530
+2580,Black Knife,6845
+2635,,1761
+2636,,1761
+2637,,1761
+2651,,1515
+2672,,487
+2700,,1750
+2701,,1751
+2710,Commander's Standard,1768
+2715,Reduvia,870
+2716,Reduvia,870
+2717,Reduvia,870
+2720,Sword of St. Trina,1885
+2841,Erdtree Greatshield,1525
+2960,Sword of Milos,1855
+2961,Sword of Milos,1856
+2990,Alabaster Lord's Sword,470
+2991,Alabaster Lord's Sword,470
+2992,Alabaster Lord's Sword,470
+3000,Onyx Lord's Greatsword,470
+3001,Onyx Lord's Greatsword,470
+3002,Onyx Lord's Greatsword,470
+3055,Zamor Curved Sword,1441000
+3056,Zamor Curved Sword,1441000
+3057,Zamor Curved Sword,1441000
+3060,Gargoyle's Blackblade,860
+6110,,3810
+101110,,8570
+102100,,500360
+102101,,500360
+120200,,16610
+120201,,16611
+149401,,12699
+171000,,14501
+290000,,16481
+300003,,20003
+1000000,,21000
+2010271,[Blaidd the Half-Wolf],24011
+2010280,[Blaidd the Half-Wolf],14553
+2030100,[Rennala],14351
+2030110,[Rennala],14355
+2030120,[Rennala],14353
+2030150,[Rennala],14577
+2031150,[Rennala - 2],14596
+2031151,[Rennala - 2],14596
+2031152,[Rennala - 2],14596
+2100290,[Black Knife Assassin],29510
+2100300,[Black Knife Assassin],29510
+2100310,[Black Knife Assassin],29510
+2110351,[Beast Clergyman],29516
+2110352,[Beast Clergyman],29516
+2110421,[Beast Clergyman],29516
+2110422,[Beast Clergyman],29516
+2110442,[Beast Clergyman],29516
+2110451,[Beast Clergyman],29516
+2110452,[Beast Clergyman],29516
+2110453,[Beast Clergyman],29516
+2110456,[Beast Clergyman],29516
+2110457,[Beast Clergyman],29516
+2110458,[Beast Clergyman],29516
+2110476,[Beast Clergyman],29516
+2110479,[Beast Clergyman],29516
+2110753,[Beast Clergyman],29517
+2110754,[Beast Clergyman],29517
+2110755,[Beast Clergyman],29517
+2120292,[Malenia],18454
+2120293,[Malenia],18454
+2120652,[Malenia],18454
+2120653,[Malenia],18454
+2130193,[Morgott],22006
+2140290,[Omen Monstrosity],23003
+2180110,[Melina],18730
+2180116,[Melina],18731
+2180500,[Melina],18730
+2180506,[Melina],18731
+2270250,[Giant Crab],23003
+2270251,[Giant Crab],23003
+2270260,[Giant Crab],25006
+2270261,[Giant Crab],25003
+3000131,[Castle Exile],420
+3000425,[Castle Exile],10000
+3010225,[Banished Knight],24008
+3010226,[Banished Knight],24008
+3010235,[Banished Knight],24008
+3010245,[Banished Knight],24008
+3010815,[Banished Knight],24008
+3010820,[Banished Knight],24008
+3010845,[Banished Knight],24008
+3010847,[Banished Knight],24008
+3010925,[Banished Knight],24008
+3050400,[Sol Knight],11140
+3050410,[Sol Knight],11141
+3050900,[Sol Knight],24012
+3050905,[Sol Knight],21012
+3050910,[Sol Knight],24012
+3050915,[Sol Knight],21012
+3050920,[Sol Knight],24012
+3050925,[Sol Knight],21012
+3050930,[Sol Knight],24000
+3050935,[Sol Knight],21000
+3050940,[Sol Knight],24000
+3050945,[Sol Knight],21000
+3050950,[Sol Knight],24012
+3050955,[Sol Knight],21012
+3070170,[Dominula Celebrant],20003
+3070210,[Dominula Celebrant],420
+3070211,[Dominula Celebrant],420
+3070220,[Dominula Celebrant],20003
+3070380,[Dominula Celebrant],20003
+3070450,[Dominula Celebrant],20003
+3070570,[Dominula Celebrant],20003
+3070900,[Dominula Celebrant],10010
+3180057,[Dog],24140
+3180800,[Dog],10001
+3181800,[Red Wolf of Radagon],10001
+3200000,[Nomad Trader],26007
+3200001,[Nomad Trader],26007
+3200002,[Nomad Trader],26007
+3200003,[Nomad Trader],26007
+3200010,[Nomad Trader],26007
+3200011,[Nomad Trader],26007
+3200012,[Nomad Trader],26007
+3200013,[Nomad Trader],26007
+3200400,[Nomad Trader],26007
+3200401,[Nomad Trader],26007
+3200402,[Nomad Trader],26007
+3200403,[Nomad Trader],26007
+3200410,[Nomad Trader],26007
+3200411,[Nomad Trader],26007
+3200412,[Nomad Trader],26007
+3200413,[Nomad Trader],26007
+3251320,[Tree Sentinel],13780
+3251321,[Tree Sentinel],13780
+3251322,[Tree Sentinel],13782
+3251323,[Tree Sentinel],13782
+3310500,[Nox Swordstress 2],11691
+3320160,[Silver Tear],11691
+3320170,[Silver Tear],11691
+3350407,[Crystalian],21002
+3350408,[Crystalian],21002
+3350409,[Crystalian],21002
+3350415,[Crystalian],21002
+3350417,[Crystalian],21002
+3350425,[Crystalian],21009
+3350440,[Crystalian],21002
+3350442,[Crystalian],21002
+3350445,[Crystalian],21002
+3350447,[Crystalian],21002
+3350550,[Crystalian],21002
+3350560,[Crystalian],21002
+3360320,[Ancestral Follower],13153
+3360490,[Ancestral Follower],21011
+3360500,[Ancestral Follower],13154
+3370140,[Ancestral Follower Shaman],13156
+3370141,[Ancestral Follower Shaman],10007
+3400500,[Exiled Duelist],21101
+3400501,[Exiled Duelist],21101
+3470027,[Albinauric],24150
+3510092,[Skeleton (Scimitar)],-1
+3510093,[Skeleton (Scimitar)],-1
+3550280,[Godskin Apostle],22004
+3550295,[Godskin Apostle],4101
+3560250,[Godskin Noble],29000
+3560251,[Godskin Noble],29002
+3560260,[Godskin Noble],29001
+3560261,[Godskin Noble],29001
+3560270,[Godskin Noble],29001
+3560350,[Godskin Noble],15452
+3570302,[Grave Warden Duelist],29001
+3570303,[Grave Warden Duelist],29001
+3570310,[Grave Warden Duelist],29001
+3570311,[Grave Warden Duelist],29001
+3570320,[Grave Warden Duelist],29001
+3570410,[Grave Warden Duelist],15502
+3570420,[Grave Warden Duelist],29001
+3570421,[Grave Warden Duelist],29001
+3600204,[Alabaster Lord],13120
+3600220,[Alabaster Lord],13120
+3600403,[Alabaster Lord],13121
+3600440,[Alabaster Lord],13121
+3640110,,14405
+3650310,[Erdtree Guardian],20004
+3650311,[Erdtree Guardian],20004
+3650312,[Erdtree Guardian],20004
+3650313,[Erdtree Guardian],20004
+3650343,[Erdtree Guardian],20004
+3650345,[Erdtree Guardian],20004
+3650700,[Erdtree Guardian],20004
+3660200,[Devious Commoner],420
+3660201,[Devious Commoner],420
+3660210,[Devious Commoner],20003
+3660211,[Devious Commoner],20002
+3660220,[Devious Commoner],23001
+3660221,[Devious Commoner],23001
+3660250,[Devious Commoner],420
+3660260,[Devious Commoner],20003
+3660290,[Devious Commoner],420
+3660300,[Devious Commoner],20003
+3660320,[Devious Commoner],26004
+3660321,[Devious Commoner],26004
+3660322,[Devious Commoner],26004
+3660323,[Devious Commoner],26004
+3661900,[Putrid Corpse 1],20009
+3661901,[Putrid Corpse 1],20004
+3661905,[Putrid Corpse 1],21009
+3661906,[Putrid Corpse 1],21004
+3661921,[Putrid Corpse 1],22002
+3661925,[Putrid Corpse 1],13462
+3661926,[Putrid Corpse 1],22005
+3661927,[Putrid Corpse 1],22010
+3662900,[Putrid Corpse 2],20009
+3662901,[Putrid Corpse 2],20004
+3662905,[Putrid Corpse 2],21009
+3662906,[Putrid Corpse 2],21004
+3662921,[Putrid Corpse 2],22002
+3662925,[Putrid Corpse 2],13462
+3662926,[Putrid Corpse 2],22005
+3662927,[Putrid Corpse 2],22010
+3670101,[Albinauric Lookout],20003
+3670401,[Albinauric Lookout],20003
+3700120,[Depraved Perfumer],14406
+3700122,[Depraved Perfumer],14405
+3700130,[Depraved Perfumer],14406
+3700131,[Depraved Perfumer],14406
+3700132,[Depraved Perfumer],14406
+3700572,[Depraved Perfumer],14439
+3700620,[Depraved Perfumer],20600
+3700621,[Depraved Perfumer],20600
+3800240,[Cleanrot Knight],13855
+3800241,[Cleanrot Knight],13856
+3800290,[Cleanrot Knight],21019
+3800291,[Cleanrot Knight],21009
+3901131,[Godskin Monk],29001
+3901201,[Godskin Monk],29000
+3901211,[Godskin Monk],29001
+3901220,[Godskin Monk],29000
+3901333,[Godskin Monk],29001
+3901450,[Godskin Monk],29000
+3901451,[Godskin Monk],29000
+3901460,[Godskin Monk],29001
+3901461,[Godskin Monk],29001
+3950180,[Man-Serpent],20130
+3950700,[Man-Serpent],10008
+4020140,[Royal Revenant],20510
+4020142,[Royal Revenant],20504
+4020230,[Royal Revenant],20510
+4020232,[Royal Revenant],20504
+4040160,[Slug],425
+4070090,[Wolf],-1
+4070700,[Wolf],13020
+4070730,[Wolf],13020
+4070800,[Wolf],10001
+4100900,[Demi-Human],10002
+4101900,[Demi-Human - Large],10002
+4110900,[Demi-Human Shaman],10002
+4120900,[Demi-Human Beastman],10002
+4130910,[Demi-Human Queen],10002
+4140140,[Snail],20008
+4140141,[Snail],20008
+4140150,[Snail],20009
+4140151,[Snail],20009
+4140160,[Snail],20001
+4140161,[Snail],20001
+4150100,[Basilisk],23001
+4150101,[Basilisk],23001
+4150102,[Basilisk],23001
+4150110,[Basilisk],23001
+4150111,[Basilisk],23001
+4180050,[Jellyfish],20006
+4180051,[Jellyfish],20006
+4201130,[Bat Harpy],20003
+4201132,[Bat Harpy],20003
+4201133,[Bat Harpy],20003
+4201200,[Bat Harpy],20003
+4201202,[Bat Harpy],20003
+4201203,[Bat Harpy],20003
+4201990,[Bat Harpy],26000
+4210550,[Warhawk],10945
+4240402,[Enchanted Hand - Large 1],12000
+4241402,[Enchanted Hand - Large 2],12000
+4260360,[Burial Watchdog],24012
+4260371,[Burial Watchdog],24003
+4260376,[Burial Watchdog],24003
+4270350,[Lion Guardian],24005
+4270356,[Lion Guardian],24002
+4300600,[Wandering Noble],10003
+4300700,[Wandering Noble],20003
+4310170,[Castle Soldier],20190
+4310171,[Castle Soldier],20190
+4310400,[Castle Soldier],10004
+4310410,[Castle Soldier],10004
+4310420,[Castle Soldier],10004
+4310942,[Castle Soldier],26100
+4310943,[Castle Soldier],26100
+4321701,[Vulgar Militia],11971
+4321711,[Vulgar Militia],11971
+4321901,[Vulgar Militia],11971
+4340510,[Mad Pumpkin Head],13258
+4341510,[Grinning Torturer],13258
+4350220,[Castle Knight],26000
+4350280,[Castle Knight],26005
+4350281,[Castle Knight],26005
+4350282,[Castle Knight],26005
+4350283,[Castle Knight],26005
+4350284,[Castle Knight],26005
+4350302,[Castle Knight],22010
+4350360,[Castle Knight],14465
+4350780,[Castle Knight],14496
+4350820,[Castle Knight],26005
+4350821,[Castle Knight],26005
+4350822,[Castle Knight],26005
+4350823,[Castle Knight],26005
+4350824,[Castle Knight],26005
+4370120,[Castle Foot Soldier],-1
+4370121,[Castle Foot Soldier],500610
+4370270,[Castle Foot Soldier],3120
+4370271,[Castle Foot Soldier],3120
+4370280,[Castle Foot Soldier],3120
+4370281,[Castle Foot Soldier],3120
+4370370,[Castle Foot Soldier],26004
+4370371,[Castle Foot Soldier],26004
+4370372,[Castle Foot Soldier],26004
+4370373,[Castle Foot Soldier],26004
+4370900,[Castle Foot Soldier],10005
+4381180,[Bloodthorn Exile],22003
+4381181,[Bloodthorn Exile],22003
+4381182,[Bloodthorn Exile],22003
+4381195,[Bloodthorn Exile],22003
+4382280,[Tunnel Miner],20004
+4382290,[Tunnel Miner],20004
+4382291,[Tunnel Miner],20004
+4385330,[Fungal Sorcerer],20004
+4385331,[Fungal Sorcerer],20003
+4385343,[Fungal Sorcerer],20002
+4385353,[Fungal Sorcerer],20002
+4385363,[Fungal Sorcerer],20002
+4385373,[Fungal Sorcerer],20002
+4410400,,8501
+4410401,,8506
+4410402,,8505
+4420230,[Giant Lobster],24130
+4420240,[Giant Lobster],24131
+4440100,[Fungal Pod],20003
+4440110,[Fungal Pod],20002
+4440130,[Fungal Pod],20008
+4440131,[Fungal Pod],20008
+4440132,[Fungal Pod],20002
+4441200,[Giant Fungal Pod 1],20004
+4441201,[Giant Fungal Pod 1],20004
+4441210,[Giant Fungal Pod 1],20004
+4441230,[Giant Fungal Pod 1],20008
+4441231,[Giant Fungal Pod 1],20008
+4441232,[Giant Fungal Pod 1],20003
+4442300,[Giant Fungal Pod 2],21004
+4442301,[Giant Fungal Pod 2],21004
+4442310,[Giant Fungal Pod 2],21004
+4442330,[Giant Fungal Pod 2],21008
+4442331,[Giant Fungal Pod 2],21008
+4442332,[Giant Fungal Pod 2],21003
+4480401,[Giant Miranda Sprout],20002
+4480411,[Giant Miranda Sprout],20504
+4480421,[Giant Miranda Sprout],26002
+4480431,[Giant Miranda Sprout],21002
+4480500,[Giant Miranda Sprout],20019
+4480501,[Giant Miranda Sprout],20002
+4480510,[Giant Miranda Sprout],20519
+4480511,[Giant Miranda Sprout],20504
+4480520,[Giant Miranda Sprout],26019
+4480521,[Giant Miranda Sprout],26002
+4480530,[Giant Miranda Sprout],21019
+4480531,[Giant Miranda Sprout],21002
+4481400,[Miranda Sprout],20001
+4481401,[Miranda Sprout],20001
+4481410,[Miranda Sprout],20502
+4481411,[Miranda Sprout],20502
+4481420,[Miranda Sprout],26001
+4481421,[Miranda Sprout],26001
+4481430,[Miranda Sprout],21001
+4481431,[Miranda Sprout],21001
+4481500,[Miranda Sprout],20012
+4481501,[Miranda Sprout],20001
+4481510,[Miranda Sprout],20512
+4481511,[Miranda Sprout],20502
+4481520,[Miranda Sprout],26012
+4481521,[Miranda Sprout],26001
+4481530,[Miranda Sprout],21012
+4481531,[Miranda Sprout],21001
+4481600,[Miranda Sprout],20001
+4481610,[Miranda Sprout],20503
+4481620,[Miranda Sprout],26001
+4481630,[Miranda Sprout],21001
+4481700,[Miranda Sprout],26002
+4481705,[Miranda Sprout],26014
+4481900,[Miranda Sprout],20001
+4481901,[Miranda Sprout],20001
+4481910,[Miranda Sprout],20502
+4481911,[Miranda Sprout],20502
+4481920,[Miranda Sprout],26001
+4481921,[Miranda Sprout],26001
+4481930,[Miranda Sprout],21001
+4481931,[Miranda Sprout],21001
+4501100,[Dragon 2],21019
+4501101,[Dragon 2],21019
+4501110,[Dragon 2],21019
+4501202,[Dragon 2],21003
+4501212,[Dragon 2],21003
+4501230,[Dragon 2],21019
+4501231,[Dragon 2],21019
+4501232,[Dragon 2],21019
+4501240,[Dragon 2],21019
+4501241,[Dragon 2],21019
+4501242,[Dragon 2],21019
+4501272,[Dragon 2],21003
+4501282,[Dragon 2],21003
+4501290,[Dragon 2],21019
+4501291,[Dragon 2],21019
+4501292,[Dragon 2],21019
+4501300,[Dragon 2],21019
+4501301,[Dragon 2],21019
+4501302,[Dragon 2],21019
+4501312,[Dragon 2],21003
+4501400,[Dragon 2],21003
+4501401,[Dragon 2],21003
+4501410,[Dragon 2],21003
+4501411,[Dragon 2],21003
+4502451,[Dragon 3],24170
+4503100,[Dragon 4],24019
+4503101,[Dragon 4],24019
+4503110,[Dragon 4],24019
+4503202,[Dragon 4],24003
+4503212,[Dragon 4],24003
+4503230,[Dragon 4],24019
+4503231,[Dragon 4],24019
+4503232,[Dragon 4],24019
+4503240,[Dragon 4],24019
+4503241,[Dragon 4],24019
+4503242,[Dragon 4],24019
+4503272,[Dragon 4],24003
+4503282,[Dragon 4],24003
+4503290,[Dragon 4],24019
+4503291,[Dragon 4],24019
+4503292,[Dragon 4],24019
+4503300,[Dragon 4],24019
+4503301,[Dragon 4],24019
+4503302,[Dragon 4],24019
+4503312,[Dragon 4],24003
+4503330,[Dragon 4],24019
+4503331,[Dragon 4],24019
+4503332,[Dragon 4],24019
+4503340,[Dragon 4],24019
+4503341,[Dragon 4],24019
+4503342,[Dragon 4],24019
+4503470,[Dragon 4],24004
+4503471,[Dragon 4],24004
+4503472,[Dragon 4],24007
+4503480,[Dragon 4],24003
+4510392,[Ancient Dragon],23003
+4510393,[Ancient Dragon],23001
+4510980,[Ancient Dragon],14898
+4550370,[Monstrous Dog],21008
+4550371,[Monstrous Dog],21008
+4550375,[Monstrous Dog],21001
+4550950,[Monstrous Dog],10009
+4550951,[Monstrous Dog],14028
+4560520,[Monstrous Crow],14016
+4570170,[Wormface],23005
+4570171,[Wormface],23005
+4570172,[Wormface],23001
+4570180,[Wormface],23005
+4570181,[Wormface],23005
+4570190,[Wormface],23005
+4570191,[Wormface],23005
+4570192,[Wormface],23005
+4570193,[Wormface],23005
+4570194,[Wormface],23005
+4570200,[Wormface],23004
+4570210,[Wormface],23005
+4570211,[Wormface],23005
+4570220,[Wormface],23005
+4570221,[Wormface],23005
+4570230,[Wormface],23004
+4570240,[Wormface],23004
+4570250,[Wormface],23005
+4570251,[Wormface],23005
+4570260,[Wormface],23005
+4570261,[Wormface],23005
+4580120,[Wormface 2],23004
+4580121,[Wormface 2],23004
+4580122,[Wormface 2],23001
+4580130,[Wormface 2],23005
+4580131,[Wormface 2],23005
+4580132,[Wormface 2],23005
+4580133,[Wormface 2],23005
+4580140,[Wormface 2],23001
+4580190,[Wormface 2],23004
+4580191,[Wormface 2],23004
+4580200,[Wormface 2],23004
+4580201,[Wormface 2],23004
+4580270,[Wormface 2],23005
+4580271,[Wormface 2],23005
+4600700,[Troll Knight],26007
+4600701,[Troll Knight],26007
+4600702,[Troll Knight],26007
+4600703,[Troll Knight],26007
+4600704,[Troll Knight],26007
+4600710,[Troll Knight],26007
+4600711,[Troll Knight],26007
+4600712,[Troll Knight],26007
+4600720,[Troll Knight],26007
+4600721,[Troll Knight],26007
+4600722,[Troll Knight],26007
+4600730,[Troll Knight],26007
+4600731,[Troll Knight],26007
+4600732,[Troll Knight],26007
+4640145,[Ulcerated Tree Spirit],21010
+4640146,[Ulcerated Tree Spirit],21010
+4640155,[Ulcerated Tree Spirit],21010
+4640156,[Ulcerated Tree Spirit],21010
+4640484,[Ulcerated Tree Spirit],21012
+4640485,[Ulcerated Tree Spirit],21015
+4640495,[Ulcerated Tree Spirit],21010
+4640496,[Ulcerated Tree Spirit],21010
+4650240,[Dragonkin Soldier],24013
+4650432,[Dragonkin Soldier],24007
+4650441,[Dragonkin Soldier],24007
+4650452,[Dragonkin Soldier],24007
+4650462,[Dragonkin Soldier],24007
+4650482,[Dragonkin Soldier],24007
+4650494,[Dragonkin Soldier],24007
+4650502,[Dragonkin Soldier],24007
+4650503,[Dragonkin Soldier],24010
+4650514,[Dragonkin Soldier],24010
+4650582,[Dragonkin Soldier],24007
+4650583,[Dragonkin Soldier],24010
+4650594,[Dragonkin Soldier],24010
+4650661,[Dragonkin Soldier],24007
+4650681,[Dragonkin Soldier],24007
+4650694,[Dragonkin Soldier],24007
+4650696,[Dragonkin Soldier],24013
+4650704,[Dragonkin Soldier],24007
+4650706,[Dragonkin Soldier],24013
+4650711,[Dragonkin Soldier],24019
+4650712,[Dragonkin Soldier],24017
+4650720,[Dragonkin Soldier],24010
+4650731,[Dragonkin Soldier],24010
+4650781,[Dragonkin Soldier],24007
+4650791,[Dragonkin Soldier],24007
+4650808,[Dragonkin Soldier],24007
+4650809,[Dragonkin Soldier],24007
+4650826,[Dragonkin Soldier],24007
+4650827,[Dragonkin Soldier],24007
+4670190,[Ancestor Spirit],13617
+4670191,[Ancestor Spirit],-1
+4680290,[Fallingstar Beast],16482
+4710540,[Writhing Mass],20006
+4710541,[Writhing Mass],20004
+4710545,[Writhing Mass],20006
+4710601,[Writhing Mass],11954
+4770380,[Gargoyle],29500
+4770385,[Gargoyle],29502
+4770395,[Gargoyle],29502
+4770434,[Gargoyle],29502
+4770450,[Gargoyle],-1
+4770451,[Gargoyle],20003
+4770751,[Gargoyle],29500
+4770755,[Gargoyle],29502
+4770823,[Gargoyle],29500
+4770824,[Gargoyle],29500
+4770826,[Gargoyle],29501
+4770834,[Gargoyle],29502
+4770842,[Gargoyle],29502
+4770860,[Gargoyle],20003
+4770861,[Gargoyle],20003
+4770862,[Gargoyle],20003
+4770865,[Gargoyle],20003
+4770866,[Gargoyle],20003
+4770930,[Gargoyle],29500
+4770931,[Gargoyle],29500
+4800000,[Mohg],10690
+4800001,[Mohg],10690
+4800002,[Mohg],10690
+4800020,[Mohg],10690
+4800030,[Mohg],10690
+4800040,[Mohg],10690
+4800050,[Mohg],10690
+4800110,[Mohg],10690
+4800211,[Mohg],10690
+4800240,[Mohg],10690
+4800261,[Mohg],10690
+4800320,[Mohg],10690
+4800431,[Mohg],10690
+4800751,[Mohg],10690
+4800753,[Mohg],10690
+4810265,[Erdtree Avatar],21008
+4810266,[Erdtree Avatar],21008
+4810269,[Erdtree Avatar],21002
+4950220,[Tibia Mariner],15321
+4950221,[Tibia Mariner],15321
+4980300,[Death Rite Bird],17654
+4980660,[Death Rite Bird],17654
+7000200,[Fallen Hawk Soldier],24160
+7000210,[Fallen Hawk Soldier],24160
+7000220,[Fallen Hawk Soldier],24160
+7000230,[Fallen Hawk Soldier],24160
+7000400,[Fallen Hawk Soldier],10317
+7000410,[Fallen Hawk Soldier],10006
+7000420,[Fallen Hawk Soldier],24160
+7000421,[Fallen Hawk Soldier],24160
+7100181,[White Mask Assailant],24006
+7100192,[White Mask Assailant],24002
+7100193,[White Mask Assailant],24004
+7100200,[White Mask Assailant],24006
+7100206,[White Mask Assailant],24002
+7100220,[White Mask Assailant],24006
+8110010,[Dragon-faced Flamethrower],10165
+9410000,,8500
+9410001,,8501
+9460000,,8730
+10000000,,-1
+10000001,,-1
+10000002,,-1
+10013500,Phantom Great Rune,500135
+10013501,Phantom Great Rune [Hit],500138
+10030002,Fire Pot [Hit],-1
+10030003,Fire Pot [Hit],-1
+10030102,Redmane Fire Pot [Hit],-1
+10030103,Redmane Fire Pot [Hit],-1
+10030202,Giantsflame Fire Pot [Hit],-1
+10030203,Giantsflame Fire Pot [Hit],-1
+10033001,Fetid Pot [Hit],3120
+10034001,Swarm Pot [Hit],473
+10034002,Swarm Pot [Hit],473
+10034003,Swarm Pot [Hit],3126
+10035001,Holy Water Pot [Hit],3200
+10035101,Sacred Order Pot [Hit],500351
+10036001,Freezing Pot [Hit],500360
+10037001,Poison Pot [Hit],500370
+10038001,Oil Pot [Hit],420
+10039002,Alluring Pot [Hit],482
+10039101,Beastlure Pot [Hit],484
+10040002,Roped Fire Pot [Hit],-1
+10040003,Roped Fire Pot [Hit],-1
+10043001,Roped Fetid Pot [Hit],500430
+10044001,Roped Poison Pot [Hit],500440
+10045001,Roped Oil Pot [Hit],420
+10047001,Roped Fly Pot [Hit],473
+10047002,Roped Fly Pot - Emitter,473
+10047003,Roped Fly Pot - Emitted,500470
+10048001,Roped Freezing Pot [Hit],500480
+10051001,Roped Holy Water Pot [Hit],500510
+10061001,Albinauric Pot [Hit],500610
+10063001,Cursed-Blood Pot [Hit],3380
+10063002,Cursed-Blood Pot [Hit],3381
+10063003,Cursed-Blood Pot [Hit],3382
+10064001,Sleep Pot [Hit],500640
+10067001,Rot Pot [Hit],500670
+10081000,Rowa Raisin,500810
+10081100,Sweet Raisin,500811
+10081200,Frozen Raisin,500812
+10172000,Poisonbone Dart,501720
+10173000,Kukri,3115
+10174000,Crystal Dart,6930
+10184000,Poisoned Stone,501840
+10184100,Poisoned Stone Clump,501841
+10210000,Soft Cotton,502100
+10304000,Mimic's Veil,503040
+10331001,Warming Stone,3360
+10331101,Frenzyflame Stone,503311
+10335000,Bewitching Branch,503350
+10335001,Bewitching Branch,503350
+10350000,Uplifting Aromatic,503500
+10352000,Ironjar Aromatic,503520
+10355000,Bloodboil Aromatic,503550
+10358000,Poison Spraymist,503580
+10358001,Poison Spraymist [Hit],503580
+10361000,Acid Spraymist,503610
+10361001,Acid Spraymist [Hit],503610
+10413003,Terra Magicus,1413000
+10436001,Rennala's Full Moon,1436000
+10436101,Ranni's Dark Moon,1436100
+10440000,Glintstone Icecrag,1440000
+10441000,Zamor Ice Storm,1441000
+10441001,Zamor Ice Storm,1441000
+10441002,Zamor Ice Storm,1441000
+10441050,Zamor Ice Storm,1441000
+10441051,Zamor Ice Storm,1441000
+10441052,Zamor Ice Storm,1441000
+10442000,Freezing Mist,1442000
+10442001,Freezing Mist,1442000
+10442050,Freezing Mist,1442000
+10442051,Freezing Mist,1442000
+10443100,Adula's Moonblade,1443101
+10443101,Adula's Moonblade,1443101
+10443110,Adula's Moonblade,1443101
+10443111,Adula's Moonblade,1443101
+10443120,Adula's Moonblade,1443101
+10443121,Adula's Moonblade,1443101
+10443130,Adula's Moonblade,1443101
+10443131,Adula's Moonblade,1443101
+10448000,Lucidity,1448000
+10448001,Lucidity,1448002
+10464001,Carian Retaliation,1464000
+10464011,Carian Retaliation <unused>,1464010
+10464021,Carian Retaliation <unused>,1464020
+10467001,Unseen Form,1467005
+10472000,Gravity Well,470
+10472050,Gravity Well,470
+10472100,Collapsing Stars,470
+10472101,Collapsing Stars,470
+10472105,Collapsing Stars,470
+10472150,Collapsing Stars,470
+10472151,Collapsing Stars,470
+10472155,Collapsing Stars,470
+10490000,Briars of Sin,1490010
+10490001,Briars of Sin,1490010
+10490002,Briars of Sin,1490010
+10490090,Briars of Sin,1490010
+10490091,Briars of Sin,1490010
+10490092,Briars of Sin,1490010
+10491005,Briars of Punishment,1491010
+10491006,Briars of Punishment,1491010
+10491095,Briars of Punishment,1491010
+10491096,Briars of Punishment,1491010
+10501000,Explosive Ghostflame,1501000
+10501002,Explosive Ghostflame,1501001
+10501004,Explosive Ghostflame,1501001
+10501006,Explosive Ghostflame,1501001
+10501008,Explosive Ghostflame,1501001
+10501010,Explosive Ghostflame,1501001
+10501020,Explosive Ghostflame,1501001
+10502000,Fia's Mist,1502000
+10502001,Fia's Mist,1502000
+10502050,Fia's Mist,1502000
+10502051,Fia's Mist,1502000
+10504001,Death Lightning,1504000
+10504002,Death Lightning,1504000
+10504004,Death Lightning,1504001
+10504051,Death Lightning,1504000
+10504052,Death Lightning,1504000
+10504054,Death Lightning,1504001
+10604000,Flame, Cleanse Me,1604000
+10604001,Flame, Cleanse Me,1604002
+10604002,Flame, Cleanse Me,1604004
+10621001,Black Flame,1621000
+10621051,Black Flame,1621000
+10623000,Scouring Black Flame,1623000
+10623001,Scouring Black Flame,1623000
+10623050,Scouring Black Flame,1623000
+10623051,Scouring Black Flame,1623000
+10624000,Noble Presence,1624010
+10624001,Noble Presence,1624010
+10624050,Noble Presence,1624010
+10624051,Noble Presence,1624010
+10625002,Black Flame Ritual,1625000
+10625003,Black Flame Ritual,1625000
+10625052,Black Flame Ritual,1625000
+10625053,Black Flame Ritual,1625000
+10630001,Bloodflame Talons,1630000
+10631000,Bloodboon,1631000
+10631002,Bloodboon,1631000
+10631005,Bloodboon,1631000
+10633000,Barrier of Gold,1633000
+10633001,Barrier of Gold,1633000
+10634000,Protection of the Erdtree,1634000
+10634001,Protection of the Erdtree,1634000
+10642000,Urgent Heal,1642000
+10642100,Heal,1642100
+10642101,Heal,1642101
+10642200,Great Heal,1642200
+10642201,Great Heal,1642201
+10642300,Lord's Heal,1642300
+10642301,Lord's Heal,1642301
+10642400,Erdtree Heal,1642400
+10642401,Erdtree Heal,1642401
+10643000,Blessing's Boon,1643000
+10643001,Blessing's Boon,1643001
+10643100,Blessing of the Erdtree,1643100
+10643101,Blessing of the Erdtree,1643101
+10644000,Cure Poison,1644000
+10644100,Cure Poison,1644100
+10644101,Lord's Aid,1644104
+10644110,Lord's Aid,1644110
+10644111,Lord's Aid,1644114
+10649000,Lord's Divine Fortification,1649000
+10649001,Lord's Divine Fortification,1649000
+10650001,Night Maiden's Mist,1650000
+10650002,Night Maiden's Mist,1650000
+10650051,Night Maiden's Mist,1650000
+10650052,Night Maiden's Mist,1650000
+10651001,Assassin's Approach,1651002
+10652001,Shadow Bait,481
+10653001,Darkness,1653000
+10660000,Golden Vow,1660000
+10673000,Law of Regression,1673000
+10673001,Law of Regression,1673005
+10673002,Law of Regression,1673010
+10673010,Law of Regression,1673020
+10673011,Law of Regression,1673025
+10673012,Law of Regression,1673030
+10673013,Law of Regression,503041
+10676000,Law of Causality,1676010
+10678000,Order Healing,1678000
+10686000,Bestial Constitution,1686000
+10686001,Bestial Constitution,1686002
+10692100,Frozen Lightning Spear,1692100
+10692101,Frozen Lightning Spear,1692100
+10692111,Frozen Lightning Spear,1692100
+10692112,Frozen Lightning Spear,1692100
+10702000,Dragonice,1702000
+10702002,Dragonice,1702000
+10702100,Borealis's Mist,1702100
+10702101,Borealis's Mist,1702100
+10702102,Borealis's Mist,1702100
+10702122,Borealis's Mist,1702100
+10703000,Rotten Breath,1703000
+10703002,Rotten Breath,1703000
+10703100,Ekzykes's Decay,1703100
+10703101,Ekzykes's Decay,1703100
+10703102,Ekzykes's Decay,1703100
+10703122,Ekzykes's Decay,1703100
+10709000,Greyoll's Roar,1709000
+10721001,Swarm of Flies,3126
+10722000,Poison Mist,1722000
+10722001,Poison Mist,1722000
+10724001,Scarlet Aeonia,1724000
+10731000,The Flame of Frenzy,1731000
+10731001,The Flame of Frenzy,1731000
+10731002,The Flame of Frenzy,1731000
+10731005,The Flame of Frenzy,1731000
+10731006,The Flame of Frenzy,1731000
+10731050,The Flame of Frenzy,1731001
+10731051,The Flame of Frenzy,1731001
+10731052,The Flame of Frenzy,1731001
+10731055,The Flame of Frenzy,1731001
+10731056,The Flame of Frenzy,1731001
+10731100,Unendurable Frenzy,1731100
+10731103,Unendurable Frenzy,1731100
+10731104,Unendurable Frenzy,1731100
+10731105,Unendurable Frenzy,1731100
+10731106,Unendurable Frenzy,1731100
+10731107,Unendurable Frenzy,1731100
+10731108,Unendurable Frenzy,1731100
+10731115,Unendurable Frenzy,1731100
+10731116,Unendurable Frenzy,1731100
+10731117,Unendurable Frenzy,1731100
+10732000,Frenzied Burst,1732000
+10732050,Frenzied Burst,1732001
+10733000,Howl of Shabriri,1733001
+10733001,Howl of Shabriri,1733002
+10753000,Black Blade,6850
+10753001,Black Blade,6850
+10753010,Black Blade,6850
+10753011,Black Blade,6850
+10753020,Black Blade,6850
+10753021,Black Blade,6850
+10753030,Black Blade,6850
+10753031,Black Blade,6850
+10790099,Fire's Deadly Sin,1790003
+10790300,Golden Lightning Fortification,1790300
+10790301,Golden Lightning Fortification,1790300
+20005201,Golden Great Arrow,1730
+81110000,,500360
+81110001,,500360
+81110010,,500360
+81110011,,500360
+81110020,,500360
+81110021,,500360
+81110030,,500360
+81110031,,500360
+81110040,,500360
+81110041,,500360
+81110050,,500360
+81110051,,500360
+81110060,,500360
+81110061,,500360
+81110070,,500360
+81110071,,500360
+81300000,,8570
+81301200,,8570
+81301210,,8570
+81301220,,8570
+81301230,,8570
+81301240,,8570
+81301250,,8570
+81301260,,8570
+81301270,,8570
+81303200,,8570
+81303210,,8570
+81303220,,8570
+81303230,,8570
+81303240,,8570
+81303250,,8570
+81303260,,8570
+81303270,,8570
+82300000,,16610
+82300005,,16611
+82700001,,21005
+82700002,,21000
+82700011,,21005
+82700012,,21000
+82700021,,21005
+82700022,,21000
+82700031,,21005
+82700032,,21000
+82700041,,21005
+82700042,,21000
+82700051,,21005
+82700052,,21000
+82700061,,21005
+82700062,,21000
+82700071,,21005
+82700072,,21000
+82730001,,21005
+82730002,,21000
+82730011,,21005
+82730012,,21000
+82730021,,21005
+82730022,,21000
+82730031,,21005
+82730032,,21000
+82730041,,21005
+82730042,,21000
+82730051,,21005
+82730052,,21000
+82730061,,21005
+82730062,,21000
+82730071,,21005
+82730072,,21000
+83100000,,14507
+87100001,,20003

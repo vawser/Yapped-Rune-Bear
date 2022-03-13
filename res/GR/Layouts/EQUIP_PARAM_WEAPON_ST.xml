@@ -6,6 +6,13 @@
     <item value="11" name="11 - Fire" />
     <item value="12" name="12 - Lightning" />
     <item value="13" name="13 - Holy" />
+    <item value="20" name="20 - Poison" />
+    <item value="21" name="21 - Scarlet Rot" />
+    <item value="22" name="22 - Hemorrhage" />
+    <item value="23" name="23 - Frostbite" />
+    <item value="24" name="24 - Sleep" />
+    <item value="25" name="25 - Madness" />
+    <item value="26" name="26 - Blight" />
   </enum>
   <enum name="ReinforcementMenuType" type="u8">
     <item value="0" name="0 - No Reinforcement" />
@@ -558,10 +565,10 @@
     <description>Flat adjustment to Poison inflict whilst guarding.</description>
   </entry>
   <entry>
-    <name>Guard Resist: Blight</name>
+    <name>Guard Resist: Scarlet Rot</name>
     <type>u8</type>
     <default>0</default>
-    <description>Flat adjustment to Blight inflict whilst guarding.</description>
+    <description>Flat adjustment to Scarlet Rot inflict whilst guarding.</description>
   </entry>
   <entry>
     <name>Guard Resist: Hemorrhage</name>
@@ -570,10 +577,10 @@
     <description>Flat adjustment to Hemorrhage inflict whilst guarding.</description>
   </entry>
   <entry>
-    <name>Guard Resist: Death</name>
+    <name>Guard Resist: Blight</name>
     <type>u8</type>
     <default>0</default>
-    <description>Flat adjustment to Death inflict whilst guarding.</description>
+    <description>Flat adjustment to Blight inflict whilst guarding.</description>
   </entry>
   <entry>
     <name>Unk9</name>
@@ -1379,7 +1386,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Infusion Price</name>
+    <name>Upgrade Price</name>
     <type>s32</type>
     <default>0</default>
     <description>Price to infuse the weapon.</description>

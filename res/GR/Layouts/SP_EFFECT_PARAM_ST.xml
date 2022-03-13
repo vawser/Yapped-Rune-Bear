@@ -5,13 +5,13 @@
     <item value="2" name="2 - Poison" />
     <item value="3" name="3 - Unknown" />
     <item value="4" name="4 - Durability Damage" />
-    <item value="5" name="5 - Blight" />
+    <item value="5" name="5 - Scarlet Rot" />
     <item value="6" name="6 - Hemorrhage" />
     <item value="7" name="7 - Ghost" />
     <item value="8" name="8 - Enemy Sight Reduction" />
     <item value="9" name="9 - Tranquil Walk of Peace" />
     <item value="10" name="10 - Remove Poison" />
-    <item value="11" name="11 - Remove Blight" />
+    <item value="11" name="11 - Remove Scarlet Rot" />
     <item value="12" name="12 - Remove Hemorrhage" />
     <item value="13" name="13 - Remove All Status" />
     <item value="14" name="14 - Humanity Stolen" />
@@ -80,9 +80,9 @@
     <item value="113" name="113 - Unknown" />
     <item value="114" name="114 - Unknown" />
     <item value="115" name="115 - Backstep Animation Change" />
-    <item value="116" name="116 - Death" />
-    <item value="117" name="117 - Death - Instant Death animation" />
-    <item value="118" name="118 - Disable Death" />
+    <item value="116" name="116 - Blight" />
+    <item value="117" name="117 - Blight - Instant Death animation" />
+    <item value="118" name="118 - Disable Blight" />
     <item value="119" name="119 - Unknown" />
     <item value="120" name="120 - Damage Level Change before Poise Break" />
     <item value="121" name="121 - Damage Level Change" />
@@ -99,7 +99,7 @@
     <item value="133" name="133 - Enable Developer Messages" />
     <item value="134" name="134 - Iron Flesh" />
     <item value="135" name="135 - Mimic Sleep" />
-    <item value="136" name="136 - Death" />
+    <item value="136" name="136 - Blight" />
     <item value="137" name="137 - ResonanceLvl 0" />
     <item value="138" name="138 - ResonanceLvl 1" />
     <item value="139" name="139 - ResonanceLvl 2" />
@@ -414,7 +414,7 @@
     <item value="10002" name="10002 - Apply First (Dragonform)" />
 	<item value="10003" name="10003 - Apply First (Hemorrhage)" />
 	<item value="10004" name="10004 - Apply First (Poison)" />
-	<item value="10005" name="10005 - Apply First (Blight)" />
+	<item value="10005" name="10005 - Apply First (Scarlet Rot)" />
 	<item value="10006" name="10006 - Apply First ()" />
 	<item value="10007" name="10007 - Apply First (Frostbite)" />
 	<item value="10008" name="10008 - Apply First (Death)" />
@@ -477,12 +477,12 @@
     <item value="12" name="12 - Lightning" />
     <item value="13" name="13 - Holy" />
     <item value="20" name="20 - Poison" />
-    <item value="21" name="21 - Blight" />
+    <item value="21" name="21 - Scarlet Rot" />
     <item value="22" name="22 - Hemorrhage" />
     <item value="23" name="23 - Frostbite" />
     <item value="24" name="24 - Sleep" />
     <item value="25" name="25 - Madness" />
-    <item value="26" name="26 - Death" />
+    <item value="26" name="26 - Blight" />
     <item value="254" name="254 - None" />
   </enum>
   <entry>
@@ -752,7 +752,7 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Requires State Info 2</description>
   </entry>
   <entry>
-    <name>Inflict Blight +</name>
+    <name>Inflict Scarlet Rot +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 5</description>
@@ -764,7 +764,7 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Requires State Info 6</description>
   </entry>
   <entry>
-    <name>Inflict Death +</name>
+    <name>Inflict Blight +</name>
     <type>s32</type>
     <default>0</default>
     <description>Requires State Info 116</description>
@@ -834,7 +834,7 @@ Bullet Behavior - Requires State Info 334</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Blight</name>
+    <name>Resist %: Scarlet Rot</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -844,7 +844,7 @@ Bullet Behavior - Requires State Info 334</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist %: Death</name>
+    <name>Resist %: Blight</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1694,7 +1694,7 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Resist: Blight +</name>
+    <name>Resist: Scarlet Rot +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -1704,7 +1704,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Death +</name>
+    <name>Resist: Blight +</name>
     <type>s32</type>
     <default>0</default>
   </entry>

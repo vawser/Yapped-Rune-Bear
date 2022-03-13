@@ -339,18 +339,18 @@
 30107000 Banished Knight
 30107051 Banished Knight
 30108000 Banished Knight
-30200000 Castle Exile - Large
-30200014 Castle Exile - Large
-30200034 Castle Exile - Large
-30200100 Castle Exile - Large
-30200151 Castle Exile - Large
-30208000 Castle Exile - Large
-30208040 Castle Exile - Large
-30500000 Sol Knight
-30500051 Sol Knight
-30500100 Sol Knight
-30500140 Sol Knight
-30509999 Sol Knight
+30200000 Large Castle Exile
+30200014 Large Castle Exile
+30200034 Large Castle Exile
+30200100 Large Castle Exile
+30200151 Large Castle Exile
+30208000 Large Castle Exile
+30208040 Large Castle Exile
+30500000 Commander
+30500051 Commander
+30500100 Commander
+30500140 Commander
+30509999 Commander
 30600000 Undead Mariner
 30600020 Undead Mariner
 30600030 Undead Mariner
@@ -753,33 +753,33 @@
 33710000 Ancestral Follower Shaman
 33710062 Ancestral Follower Shaman
 33710100 Ancestral Follower Shaman
-34000000 Exiled Duelist
-34000030 Exiled Duelist
-34000034 Exiled Duelist
-34000040 Exiled Duelist
-34000100 Exiled Duelist
-34000200 Exiled Duelist
-34000252 Exiled Duelist
-34000254 Exiled Duelist
-34000256 Exiled Duelist
-34000300 Exiled Duelist
-34000800 Exiled Duelist
-34000852 Exiled Duelist
-34000900 Exiled Duelist
-34000940 Exiled Duelist
-34000952 Exiled Duelist
-34001000 Exiled Duelist
-34001034 Exiled Duelist
-34001100 Exiled Duelist
-34001110 Exiled Duelist
-34001133 Exiled Duelist
-34001200 Exiled Duelist
-34001252 Exiled Duelist
-34001254 Exiled Duelist
-34001256 Exiled Duelist
-34001300 Exiled Duelist
-34001800 Exiled Duelist
-34001852 Exiled Duelist
+34000000 Grave Warden Duelist
+34000030 Grave Warden Duelist
+34000034 Grave Warden Duelist
+34000040 Grave Warden Duelist
+34000100 Grave Warden Duelist
+34000200 Grave Warden Duelist
+34000252 Grave Warden Duelist
+34000254 Grave Warden Duelist
+34000256 Grave Warden Duelist
+34000300 Grave Warden Duelist
+34000800 Grave Warden Duelist
+34000852 Grave Warden Duelist
+34000900 Grave Warden Duelist
+34000940 Grave Warden Duelist
+34000952 Grave Warden Duelist
+34001000 Grave Warden Duelist
+34001034 Grave Warden Duelist
+34001100 Grave Warden Duelist
+34001110 Grave Warden Duelist
+34001133 Grave Warden Duelist
+34001200 Grave Warden Duelist
+34001252 Grave Warden Duelist
+34001254 Grave Warden Duelist
+34001256 Grave Warden Duelist
+34001300 Grave Warden Duelist
+34001800 Grave Warden Duelist
+34001852 Grave Warden Duelist
 34500000 Misbegotten
 34500012 Misbegotten
 34500013 Misbegotten
@@ -1017,27 +1017,27 @@
 35104032 Skeleton (Scimitar)
 35104100 Skeleton (Scimitar)
 35104110 Skeleton (Scimitar)
-35500000 Godskin Apostle
-35500020 Godskin Apostle
-35500030 Godskin Apostle
-35500050 Godskin Apostle
-35500068 Godskin Apostle
-35500930 Godskin Apostle
-35600000 Godskin Noble
-35600030 Godskin Noble
-35600040 Godskin Noble
-35600042 Godskin Noble
-35600100 Godskin Noble
-35600172 Godskin Noble
-35600900 Godskin Noble
-35600950 Godskin Noble
-35600972 Godskin Noble
-35700000 Grave Warden Duelist
-35700028 Grave Warden Duelist
-35700038 Grave Warden Duelist
-35700100 Grave Warden Duelist
-35700172 Grave Warden Duelist
-35700950 Grave Warden Duelist
+35500000 Sanguine Noble
+35500020 Sanguine Noble
+35500030 Sanguine Noble
+35500050 Sanguine Noble
+35500068 Sanguine Noble
+35500930 Sanguine Noble
+35600000 Godskin Apostle
+35600030 Godskin Apostle
+35600040 Godskin Apostle
+35600042 Godskin Apostle
+35600100 Godskin Apostle
+35600172 Godskin Apostle
+35600900 Godskin Apostle
+35600950 Godskin Apostle
+35600972 Godskin Apostle
+35700000 Godskin Noble
+35700028 Godskin Noble
+35700038 Godskin Noble
+35700100 Godskin Noble
+35700172 Godskin Noble
+35700950 Godskin Noble
 36000000 Alabaster Lord
 36000010 Alabaster Lord
 36000012 Alabaster Lord
@@ -1727,13 +1727,13 @@
 41009000 Demi-Human
 41009100 Demi-Human
 41009200 Demi-Human
-41010000 Demi-Human - Large
-41010010 Demi-Human - Large
-41010012 Demi-Human - Large
-41010020 Demi-Human - Large
-41010030 Demi-Human - Large
-41010032 Demi-Human - Large
-41010050 Demi-Human - Large
+41010000 Large Demi-Human
+41010010 Large Demi-Human
+41010012 Large Demi-Human
+41010020 Large Demi-Human
+41010030 Large Demi-Human
+41010032 Large Demi-Human
+41010050 Large Demi-Human
 41100000 Demi-Human Shaman
 41100010 Demi-Human Shaman
 41100012 Demi-Human Shaman
@@ -2294,115 +2294,115 @@
 42105000 Warhawk
 42105051 Warhawk
 42105500 Warhawk
-42200000 Land Octopus - Large
-42200010 Land Octopus - Large
-42200012 Land Octopus - Large
-42200020 Land Octopus - Large
-42200026 Land Octopus - Large
-42200032 Land Octopus - Large
-42200040 Land Octopus - Large
-42200050 Land Octopus - Large
-42200052 Land Octopus - Large
-42200064 Land Octopus - Large
-42300000 Land Octopus - Small
-42300010 Land Octopus - Small
-42300012 Land Octopus - Small
-42300020 Land Octopus - Small
-42300026 Land Octopus - Small
-42300032 Land Octopus - Small
-42300040 Land Octopus - Small
-42300050 Land Octopus - Small
-42300052 Land Octopus - Small
-42300064 Land Octopus - Small
-42300830 Land Octopus - Small
-42300852 Land Octopus - Small
-42400000 Enchanted Hand - Large
-42400020 Enchanted Hand - Large
-42400021 Enchanted Hand - Large
-42400032 Enchanted Hand - Large
-42400034 Enchanted Hand - Large
-42400035 Enchanted Hand - Large
-42400100 Enchanted Hand - Large
-42400150 Enchanted Hand - Large
-42400200 Enchanted Hand - Large
-42400221 Enchanted Hand - Large
-42405000 Enchanted Hand - Large
-42405050 Enchanted Hand - Large
-42405100 Enchanted Hand - Large
-42405150 Enchanted Hand - Large
-42405200 Enchanted Hand - Large
-42405250 Enchanted Hand - Large
-42405300 Enchanted Hand - Large
-42405350 Enchanted Hand - Large
-42405400 Enchanted Hand - Large
-42405450 Enchanted Hand - Large
-42405500 Enchanted Hand - Large
-42405550 Enchanted Hand - Large
-42405600 Enchanted Hand - Large
-42405650 Enchanted Hand - Large
-42405700 Enchanted Hand - Large
-42405750 Enchanted Hand - Large
-42405800 Enchanted Hand - Large
-42405850 Enchanted Hand - Large
-42406000 Enchanted Hand - Large
-42406050 Enchanted Hand - Large
-42406100 Enchanted Hand - Large
-42406150 Enchanted Hand - Large
-42406200 Enchanted Hand - Large
-42406250 Enchanted Hand - Large
-42406300 Enchanted Hand - Large
-42406350 Enchanted Hand - Large
-42406400 Enchanted Hand - Large
-42406450 Enchanted Hand - Large
-42407000 Enchanted Hand - Large
-42407020 Enchanted Hand - Large
-42407021 Enchanted Hand - Large
-42407032 Enchanted Hand - Large
-42407034 Enchanted Hand - Large
-42407035 Enchanted Hand - Large
-42407100 Enchanted Hand - Large
-42407121 Enchanted Hand - Large
-42407132 Enchanted Hand - Large
-42407200 Enchanted Hand - Large
-42407221 Enchanted Hand - Large
-42407300 Enchanted Hand - Large
-42407321 Enchanted Hand - Large
-42407400 Enchanted Hand - Large
-42407421 Enchanted Hand - Large
-42407500 Enchanted Hand - Large
-42407521 Enchanted Hand - Large
-42407600 Enchanted Hand - Large
-42407621 Enchanted Hand - Large
-42407700 Enchanted Hand - Large
-42407721 Enchanted Hand - Large
-42407800 Enchanted Hand - Large
-42407821 Enchanted Hand - Large
-42408000 Enchanted Hand - Large
-42408021 Enchanted Hand - Large
-42408100 Enchanted Hand - Large
-42408121 Enchanted Hand - Large
-42408200 Enchanted Hand - Large
-42408221 Enchanted Hand - Large
-42408300 Enchanted Hand - Large
-42408321 Enchanted Hand - Large
-42408400 Enchanted Hand - Large
-42408421 Enchanted Hand - Large
-42408500 Enchanted Hand - Large
-42408521 Enchanted Hand - Large
-42408800 Enchanted Hand - Large
-42408821 Enchanted Hand - Large
-42410000 Enchanted Hand - Large
-42410100 Enchanted Hand - Large
-42410150 Enchanted Hand - Large
-42500000 Enchanted Hand - Small
-42500020 Enchanted Hand - Small
-42500021 Enchanted Hand - Small
-42500028 Enchanted Hand - Small
-42500032 Enchanted Hand - Small
-42500034 Enchanted Hand - Small
-42500035 Enchanted Hand - Small
-42500100 Enchanted Hand - Small
-42500150 Enchanted Hand - Small
+42200000 Giant Land Octopus
+42200010 Giant Land Octopus
+42200012 Giant Land Octopus
+42200020 Giant Land Octopus
+42200026 Giant Land Octopus
+42200032 Giant Land Octopus
+42200040 Giant Land Octopus
+42200050 Giant Land Octopus
+42200052 Giant Land Octopus
+42200064 Giant Land Octopus
+42300000 Small Land Octopus
+42300010 Small Land Octopus
+42300012 Small Land Octopus
+42300020 Small Land Octopus
+42300026 Small Land Octopus
+42300032 Small Land Octopus
+42300040 Small Land Octopus
+42300050 Small Land Octopus
+42300052 Small Land Octopus
+42300064 Small Land Octopus
+42300830 Small Land Octopus
+42300852 Small Land Octopus
+42400000 Giant Enchanted Hand
+42400020 Giant Enchanted Hand
+42400021 Giant Enchanted Hand
+42400032 Giant Enchanted Hand
+42400034 Giant Enchanted Hand
+42400035 Giant Enchanted Hand
+42400100 Giant Enchanted Hand
+42400150 Giant Enchanted Hand
+42400200 Giant Enchanted Hand
+42400221 Giant Enchanted Hand
+42405000 Giant Enchanted Hand
+42405050 Giant Enchanted Hand
+42405100 Giant Enchanted Hand
+42405150 Giant Enchanted Hand
+42405200 Giant Enchanted Hand
+42405250 Giant Enchanted Hand
+42405300 Giant Enchanted Hand
+42405350 Giant Enchanted Hand
+42405400 Giant Enchanted Hand
+42405450 Giant Enchanted Hand
+42405500 Giant Enchanted Hand
+42405550 Giant Enchanted Hand
+42405600 Giant Enchanted Hand
+42405650 Giant Enchanted Hand
+42405700 Giant Enchanted Hand
+42405750 Giant Enchanted Hand
+42405800 Giant Enchanted Hand
+42405850 Giant Enchanted Hand
+42406000 Giant Enchanted Hand
+42406050 Giant Enchanted Hand
+42406100 Giant Enchanted Hand
+42406150 Giant Enchanted Hand
+42406200 Giant Enchanted Hand
+42406250 Giant Enchanted Hand
+42406300 Giant Enchanted Hand
+42406350 Giant Enchanted Hand
+42406400 Giant Enchanted Hand
+42406450 Giant Enchanted Hand
+42407000 Giant Enchanted Hand
+42407020 Giant Enchanted Hand
+42407021 Giant Enchanted Hand
+42407032 Giant Enchanted Hand
+42407034 Giant Enchanted Hand
+42407035 Giant Enchanted Hand
+42407100 Giant Enchanted Hand
+42407121 Giant Enchanted Hand
+42407132 Giant Enchanted Hand
+42407200 Giant Enchanted Hand
+42407221 Giant Enchanted Hand
+42407300 Giant Enchanted Hand
+42407321 Giant Enchanted Hand
+42407400 Giant Enchanted Hand
+42407421 Giant Enchanted Hand
+42407500 Giant Enchanted Hand
+42407521 Giant Enchanted Hand
+42407600 Giant Enchanted Hand
+42407621 Giant Enchanted Hand
+42407700 Giant Enchanted Hand
+42407721 Giant Enchanted Hand
+42407800 Giant Enchanted Hand
+42407821 Giant Enchanted Hand
+42408000 Giant Enchanted Hand
+42408021 Giant Enchanted Hand
+42408100 Giant Enchanted Hand
+42408121 Giant Enchanted Hand
+42408200 Giant Enchanted Hand
+42408221 Giant Enchanted Hand
+42408300 Giant Enchanted Hand
+42408321 Giant Enchanted Hand
+42408400 Giant Enchanted Hand
+42408421 Giant Enchanted Hand
+42408500 Giant Enchanted Hand
+42408521 Giant Enchanted Hand
+42408800 Giant Enchanted Hand
+42408821 Giant Enchanted Hand
+42410000 Giant Enchanted Hand
+42410100 Giant Enchanted Hand
+42410150 Giant Enchanted Hand
+42500000 Small Enchanted Hand
+42500020 Small Enchanted Hand
+42500021 Small Enchanted Hand
+42500028 Small Enchanted Hand
+42500032 Small Enchanted Hand
+42500034 Small Enchanted Hand
+42500035 Small Enchanted Hand
+42500100 Small Enchanted Hand
+42500150 Small Enchanted Hand
 42600000 Burial Watchdog
 42600100 Burial Watchdog
 42600110 Burial Watchdog
@@ -3717,18 +3717,18 @@
 45609000 Monstrous Crow
 45610000 Monstrous Crow
 45610068 Monstrous Crow
-45700000 Wormface - Small
-45700030 Wormface - Small
-45701000 Wormface - Small
-45701072 Wormface - Small
-45702000 Wormface - Small
-45702030 Wormface - Small
-45800000 Wormface - Large
-45800030 Wormface - Large
-45801000 Wormface - Large
-45801072 Wormface - Large
-45802000 Wormface - Large
-45802132 Wormface - Large
+45700000 Small Wormface
+45700030 Small Wormface
+45701000 Small Wormface
+45701072 Small Wormface
+45702000 Small Wormface
+45702030 Small Wormface
+45800000 Giant Wormface
+45800030 Giant Wormface
+45801000 Giant Wormface
+45801072 Giant Wormface
+45802000 Giant Wormface
+45802132 Giant Wormface
 46000000 Troll Knight
 46000010 Troll Knight
 46000012 Troll Knight
