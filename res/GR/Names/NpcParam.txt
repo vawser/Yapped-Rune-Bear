@@ -132,19 +132,19 @@
 21403100 Omen Monstrosity
 21403150 Omen Monstrosity
 21409000 Omen Monstrosity
-21600000 Palm Reader
-21601000 Palm Reader
-21601010 Palm Reader
-21601012 Palm Reader
-21601020 Palm Reader
-21601030 Palm Reader
-21601033 Palm Reader
-21601040 Palm Reader
-21601050 Palm Reader
-21601066 Palm Reader
-21700000 Palm Reader
-21700079 Palm Reader
-21701000 Palm Reader
+21600000 Palm Reader - Wooden Chair
+21601000 Palm Reader - Wooden Chair
+21601010 Palm Reader - Wooden Chair
+21601012 Palm Reader - Wooden Chair
+21601020 Palm Reader - Wooden Chair
+21601030 Palm Reader - Wooden Chair
+21601033 Palm Reader - Wooden Chair
+21601040 Palm Reader - Wooden Chair
+21601050 Palm Reader - Wooden Chair
+21601066 Palm Reader - Wooden Chair
+21700000 Palm Reader - No Chair
+21700079 Palm Reader - No Chair
+21701000 Palm Reader - No Chair
 21800000 Melina
 21801000 Melina
 21801034 Melina
@@ -175,31 +175,31 @@
 22710060 Crab
 22710064 Crab
 22710065 Crab
-22720000 Giant Crab
-22720020 Giant Crab
-22720100 Giant Crab
-22720112 Giant Crab
-22730000 Giant Crab
-22730020 Crab
-22740000 Crab
-22740020 Crab
-22740021 Crab
-22740024 Crab
-22740052 Crab
-22740120 Crab
-22750000 Crab
-22750020 Crab
-22750024 Crab
-22750052 Crab
-22750120 Crab
-22751000 Crab
-22751024 Crab
-22760000 Crab
-22760020 Crab
-22760033 Crab
-22770000 Crab
-22770020 Crab
-22770033 Crab
+22720000 Giant Crab - Damaged
+22720020 Giant Crab - Damaged
+22720100 Giant Crab - Damaged
+22720112 Giant Crab - Damaged
+22730000 Giant Crab - Damaged
+22730020 Crab - Maggots
+22740000 Giant Crab - Clean
+22740020 Giant Crab - Clean
+22740021 Giant Crab - Clean
+22740024 Giant Crab - Clean
+22740052 Giant Crab - Clean
+22740120 Giant Crab - Clean
+22750000 Crab - Clean
+22750020 Crab - Clean
+22750024 Crab - Clean
+22750052 Crab - Clean
+22750120 Crab - Clean
+22751000 Crab - Clean
+22751024 Crab - Clean
+22760000 Giant Crab - Golden Tuffs
+22760020 Giant Crab - Golden Tuffs
+22760033 Giant Crab - Golden Tuffs
+22770000 Crab - Golden Tuffs
+22770020 Crab - Golden Tuffs
+22770033 Crab - Golden Tuffs
 25000000 Crucible Knight
 25000010 Crucible Knight
 25000014 Crucible Knight
@@ -472,8 +472,8 @@
 31709000 Albinauric Archer
 31709020 Albinauric Archer
 31709052 Albinauric Archer
-31710000 Albinauric Archer
-31710052 Albinauric Archer
+31710000 Giant Albinauric Archer
+31710052 Giant Albinauric Archer
 31800000 Dog
 31800020 Dog
 31800021 Dog
@@ -727,21 +727,21 @@
 33607064 Ancestral Follower
 33607200 Ancestral Follower
 33607264 Ancestral Follower
-33610000 Ancestral Follower
-33610062 Ancestral Follower
-33610200 Ancestral Follower
+33610000 Undead Ancestral Follower
+33610062 Undead Ancestral Follower
+33610200 Undead Ancestral Follower
 33610300 Ancestral Follower
-33610500 Ancestral Follower
-33610562 Ancestral Follower
-33610700 Ancestral Follower
-33611000 Ancestral Follower
-33611062 Ancestral Follower
-33611200 Ancestral Follower
-33611300 Ancestral Follower
-33612000 Ancestral Follower
-33612062 Ancestral Follower
-33612200 Ancestral Follower
-33612300 Ancestral Follower
+33610500 Undead Ancestral Follower
+33610562 Undead Ancestral Follower
+33610700 Undead Ancestral Follower
+33611000 Undead Ancestral Follower
+33611062 Undead Ancestral Follower
+33611200 Undead Ancestral Follower
+33611300 Undead Ancestral Follower
+33612000 Undead Ancestral Follower
+33612062 Undead Ancestral Follower
+33612200 Undead Ancestral Follower
+33612300 Undead Ancestral Follower
 33700000 Ancestral Follower Shaman
 33700052 Ancestral Follower Shaman
 33700064 Ancestral Follower Shaman
@@ -750,9 +750,9 @@
 33700200 Ancestral Follower Shaman
 33700265 Ancestral Follower Shaman
 33700865 Ancestral Follower Shaman
-33710000 Ancestral Follower Shaman
-33710062 Ancestral Follower Shaman
-33710100 Ancestral Follower Shaman
+33710000 Undead Ancestral Follower Shaman
+33710062 Undead Ancestral Follower Shaman
+33710100 Undead Ancestral Follower Shaman
 34000000 Grave Warden Duelist
 34000030 Grave Warden Duelist
 34000034 Grave Warden Duelist
@@ -1051,11 +1051,11 @@
 36100000 Oracle Envoy
 36100034 Oracle Envoy
 36100054 Oracle Envoy
-36200000 Oracle Envoy
-36200034 Oracle Envoy
-36200054 Oracle Envoy
-36300000 Oracle Envoy
-36300054 Oracle Envoy
+36200000 Large Oracle Envoy
+36200034 Large Oracle Envoy
+36200054 Large Oracle Envoy
+36300000 Giant Oracle Envoy
+36300054 Giant Oracle Envoy
 36500000 Erdtree Guardian
 36500012 Erdtree Guardian
 36500020 Erdtree Guardian
@@ -1179,33 +1179,33 @@
 36616040 Putrid Corpse
 36619000 Putrid Corpse
 36619040 Putrid Corpse
-36620000 Putrid Corpse
-36620012 Putrid Corpse
-36620034 Putrid Corpse
-36620040 Putrid Corpse
-36620054 Putrid Corpse
-36620100 Putrid Corpse
-36620140 Putrid Corpse
-36621000 Putrid Corpse
-36621031 Putrid Corpse
-36621035 Putrid Corpse
-36621100 Putrid Corpse
-36621140 Putrid Corpse
-36622000 Putrid Corpse
-36622040 Putrid Corpse
-36622200 Putrid Corpse
-36623000 Putrid Corpse
-36623054 Putrid Corpse
-36623100 Putrid Corpse
-36623154 Putrid Corpse
-36623200 Putrid Corpse
-36623254 Putrid Corpse
-36624000 Putrid Corpse
-36624024 Putrid Corpse
-36625000 Putrid Corpse
-36625068 Putrid Corpse
-36626000 Putrid Corpse
-36626040 Putrid Corpse
+36620000 Scarlet Putrid Corpse
+36620012 Scarlet Putrid Corpse
+36620034 Scarlet Putrid Corpse
+36620040 Scarlet Putrid Corpse
+36620054 Scarlet Putrid Corpse
+36620100 Scarlet Putrid Corpse
+36620140 Scarlet Putrid Corpse
+36621000 Scarlet Putrid Corpse
+36621031 Scarlet Putrid Corpse
+36621035 Scarlet Putrid Corpse
+36621100 Scarlet Putrid Corpse
+36621140 Scarlet Putrid Corpse
+36622000 Scarlet Putrid Corpse
+36622040 Scarlet Putrid Corpse
+36622200 Scarlet Putrid Corpse
+36623000 Scarlet Putrid Corpse
+36623054 Scarlet Putrid Corpse
+36623100 Scarlet Putrid Corpse
+36623154 Scarlet Putrid Corpse
+36623200 Scarlet Putrid Corpse
+36623254 Scarlet Putrid Corpse
+36624000 Scarlet Putrid Corpse
+36624024 Scarlet Putrid Corpse
+36625000 Scarlet Putrid Corpse
+36625068 Scarlet Putrid Corpse
+36626000 Scarlet Putrid Corpse
+36626040 Scarlet Putrid Corpse
 36640000 Cemetery Shade
 36640012 Cemetery Shade
 36640032 Cemetery Shade
@@ -1271,15 +1271,15 @@
 37001000 Depraved Perfumer
 37001030 Depraved Perfumer
 37001031 Depraved Perfumer
-37010000 Depraved Perfumer
-37010030 Depraved Perfumer
-37010033 Depraved Perfumer
-37010034 Depraved Perfumer
-37010830 Depraved Perfumer
-37011000 Depraved Perfumer
-37011030 Depraved Perfumer
-37011034 Depraved Perfumer
-37011930 Depraved Perfumer
+37010000 White Veil Perfumer
+37010030 White Veil Perfumer
+37010033 White Veil Perfumer
+37010034 White Veil Perfumer
+37010830 White Veil Perfumer
+37011000 White Veil Perfumer
+37011030 White Veil Perfumer
+37011034 White Veil Perfumer
+37011930 White Veil Perfumer
 37020000 Raya Lucaria Scholar
 37020020 Raya Lucaria Scholar
 37020021 Raya Lucaria Scholar
@@ -1325,9 +1325,9 @@
 37040800 Battlemage
 37040830 Battlemage
 37040940 Battlemage
-37100000 Crystallized Battlemage
-37100024 Crystallized Battlemage
-37100032 Crystallized Battlemage
+37100000 Azur Corpse
+37100024 Azur Corpse
+37100032 Azur Corpse
 37200000 Orbhead Sorcerer
 37200040 Orbhead Sorcerer
 37200042 Orbhead Sorcerer
@@ -1598,50 +1598,50 @@
 40600000 Horse
 40600010 Horse
 40600052 Horse
-40700000 Wolf
-40700009 Wolf
-40700010 Wolf
-40700012 Wolf
-40700013 Wolf
-40700020 Wolf
-40700030 Wolf
-40700032 Wolf
-40700033 Wolf
-40700036 Wolf
-40700042 Wolf
-40700051 Wolf
-40700052 Wolf
-40700065 Wolf
-40700100 Wolf
-40700110 Wolf
-40700112 Wolf
-40700152 Wolf
-40700165 Wolf
-40700550 Wolf
-40700900 Wolf
-40701000 Wolf
-40701010 Wolf
-40701012 Wolf
-40702000 Wolf
-40702010 Wolf
-40702012 Wolf
-40708000 Wolf
-40708024 Wolf
-40709000 Wolf
-40710000 Wolf
-40710009 Wolf
-40710010 Wolf
-40710012 Wolf
-40710020 Wolf
-40710022 Wolf
-40710030 Wolf
-40710032 Wolf
-40710033 Wolf
-40710042 Wolf
-40710051 Wolf
-40710052 Wolf
-40710065 Wolf
-40710550 Wolf
+40700000 Grey Wolf
+40700009 Grey Wolf
+40700010 Grey Wolf
+40700012 Grey Wolf
+40700013 Grey Wolf
+40700020 Grey Wolf
+40700030 Grey Wolf
+40700032 Grey Wolf
+40700033 Grey Wolf
+40700036 Grey Wolf
+40700042 Grey Wolf
+40700051 Grey Wolf
+40700052 Grey Wolf
+40700065 Grey Wolf
+40700100 Grey Wolf
+40700110 Grey Wolf
+40700112 Grey Wolf
+40700152 Grey Wolf
+40700165 Grey Wolf
+40700550 Grey Wolf
+40700900 Grey Wolf
+40701000 Grey Wolf
+40701010 Grey Wolf
+40701012 Grey Wolf
+40702000 Grey Wolf
+40702010 Grey Wolf
+40702012 Grey Wolf
+40708000 Grey Wolf
+40708024 Grey Wolf
+40709000 Grey Wolf
+40710000 White Wolf
+40710009 White Wolf
+40710010 White Wolf
+40710012 White Wolf
+40710020 White Wolf
+40710022 White Wolf
+40710030 White Wolf
+40710032 White Wolf
+40710033 White Wolf
+40710042 White Wolf
+40710051 White Wolf
+40710052 White Wolf
+40710065 White Wolf
+40710550 White Wolf
 40800000 Rat
 40800010 Rat
 40800012 Rat
@@ -1809,83 +1809,83 @@
 41500066 Basilisk
 41500100 Basilisk
 41500862 Basilisk
-41600000 Dog
-41600014 Dog
-41600024 Dog
-41600031 Dog
-41600032 Dog
-41600034 Dog
-41600035 Dog
-41601000 Dog
-41601010 Dog
-41601020 Dog
-41602000 Dog
-41602050 Dog
-41610000 Dog
-41610010 Dog
-41610012 Dog
-41610013 Dog
-41610014 Dog
-41610020 Dog
-41610024 Dog
-41610030 Dog
-41610031 Dog
-41610032 Dog
-41610033 Dog
-41610034 Dog
-41610038 Dog
-41610040 Dog
-41610041 Dog
-41610050 Dog
-41610064 Dog
-41610200 Dog
-41610210 Dog
-41610212 Dog
-41610220 Dog
-41610252 Dog
-41610300 Dog
-41610350 Dog
-41620000 Starved Dog
-41620072 Starved Dog
-41630000 Starved Dog
-41630072 Starved Dog
-41640000 Starved Dog
-41640030 Starved Dog
-41640052 Starved Dog
-41640830 Starved Dog
-41650000 Starved Dog
-41650030 Starved Dog
-41650052 Starved Dog
-41650068 Starved Dog
-41650830 Starved Dog
-41650935 Starved Dog
-41660000 Starved Dog
-41660040 Starved Dog
-41660042 Starved Dog
-41670000 Starved Dog
-41670040 Starved Dog
-41700000 Living Mass
-41700010 Living Mass
-41700013 Living Mass
-41700020 Living Mass
-41700030 Living Mass
-41700032 Living Mass
-41700040 Living Mass
-41700100 Living Mass
-41700110 Living Mass
-41700130 Living Mass
-41700140 Living Mass
-41700141 Living Mass
-41700152 Living Mass
-41700200 Living Mass
-41700240 Living Mass
-41700300 Living Mass
-41700312 Living Mass
-41700332 Living Mass
-41710000 Living Mass
-41710400 Living Mass
-41710430 Living Mass
-41710468 Living Mass
+41600000 Large Starved Dog
+41600014 Large Starved Dog
+41600024 Large Starved Dog
+41600031 Large Starved Dog
+41600032 Large Starved Dog
+41600034 Large Starved Dog
+41600035 Large Starved Dog
+41601000 Large Starved Dog
+41601010 Large Starved Dog
+41601020 Large Starved Dog
+41602000 Large Starved Dog
+41602050 Large Starved Dog
+41610000 Starved Dog
+41610010 Starved Dog
+41610012 Starved Dog
+41610013 Starved Dog
+41610014 Starved Dog
+41610020 Starved Dog
+41610024 Starved Dog
+41610030 Starved Dog
+41610031 Starved Dog
+41610032 Starved Dog
+41610033 Starved Dog
+41610034 Starved Dog
+41610038 Starved Dog
+41610040 Starved Dog
+41610041 Starved Dog
+41610050 Starved Dog
+41610064 Starved Dog
+41610200 Starved Dog
+41610210 Starved Dog
+41610212 Starved Dog
+41610220 Starved Dog
+41610252 Starved Dog
+41610300 Starved Dog
+41610350 Starved Dog
+41620000 Large Braided Dog
+41620072 Large Braided Dog
+41630000 Braided Dog
+41630072 Braided Dog
+41640000 Large Rotten Dog
+41640030 Large Rotten Dog
+41640052 Large Rotten Dog
+41640830 Large Rotten Dog
+41650000 Rotten Dog
+41650030 Rotten Dog
+41650052 Rotten Dog
+41650068 Rotten Dog
+41650830 Rotten Dog
+41650935 Rotten Dog
+41660000 Large Mushroom Dog
+41660040 Large Mushroom Dog
+41660042 Large Mushroom Dog
+41670000 Mushroom Dog
+41670040 Mushroom Dog
+41700000 Small Living Mass
+41700010 Small Living Mass
+41700013 Small Living Mass
+41700020 Small Living Mass
+41700030 Small Living Mass
+41700032 Small Living Mass
+41700040 Small Living Mass
+41700100 Small Living Mass
+41700110 Small Living Mass
+41700130 Small Living Mass
+41700140 Small Living Mass
+41700141 Small Living Mass
+41700152 Small Living Mass
+41700200 Small Living Mass
+41700240 Small Living Mass
+41700300 Small Living Mass
+41700312 Small Living Mass
+41700332 Small Living Mass
+41710000 Giant Living Mass
+41710400 Giant Living Mass
+41710430 GiantLiving Mass
+41710468 Giant Living Mass
 41800000 Jellyfish
 41800010 Jellyfish
 41800012 Jellyfish
@@ -1910,286 +1910,286 @@
 41801013 Jellyfish
 41809000 Jellyfish
 41809050 Jellyfish
-41900000 Scarab
-41900050 Scarab
-41900052 Scarab
-41901000 Scarab
-41901050 Scarab
-41901052 Scarab
-41902000 Scarab
-41902020 Scarab
-41902032 Scarab
-41902050 Scarab
-41902052 Scarab
-41902100 Scarab
-41902150 Scarab
-41902152 Scarab
-41902200 Scarab
-41902250 Scarab
-41902252 Scarab
-41903000 Scarab
-41903050 Scarab
-41903052 Scarab
-41903100 Scarab
-41903150 Scarab
-41903152 Scarab
-41903200 Scarab
-41903250 Scarab
-41903252 Scarab
-41904000 Scarab
-41904050 Scarab
-41904052 Scarab
-41904100 Scarab
-41904150 Scarab
-41904152 Scarab
-41904200 Scarab
-41904250 Scarab
-41904252 Scarab
-41905000 Scarab
-41905050 Scarab
-41905052 Scarab
-41905100 Scarab
-41905200 Scarab
-41905364 Scarab
-41906110 Scarab
-41907310 Scarab
-41908110 Scarab
-41909112 Scarab
-41910000 Scarab
-41910010 Scarab
-41910012 Scarab
-41910020 Scarab
-41910022 Scarab
-41910030 Scarab
-41910032 Scarab
-41910035 Scarab
-41910040 Scarab
-41910041 Scarab
-41910050 Scarab
-41910052 Scarab
-41910054 Scarab
-41910056 Scarab
-41910060 Scarab
-41910062 Scarab
-41910064 Scarab
-41910065 Scarab
-41910066 Scarab
-41910068 Scarab
-41911000 Scarab
-41911010 Scarab
-41911020 Scarab
-41911022 Scarab
-41911030 Scarab
-41911035 Scarab
-41911050 Scarab
-41911052 Scarab
-41911054 Scarab
-41911056 Scarab
-41911060 Scarab
-41911062 Scarab
-41911064 Scarab
-41911065 Scarab
-41911066 Scarab
-41911068 Scarab
-41912000 Scarab
-41912010 Scarab
-41912012 Scarab
-41912014 Scarab
-41912020 Scarab
-41912024 Scarab
-41912030 Scarab
-41912032 Scarab
-41912033 Scarab
-41912034 Scarab
-41912040 Scarab
-41912041 Scarab
-41912042 Scarab
-41912050 Scarab
-41912052 Scarab
-41912054 Scarab
-41912056 Scarab
-41912060 Scarab
-41912062 Scarab
-41912064 Scarab
-41912065 Scarab
-41912066 Scarab
-41912068 Scarab
-41912072 Scarab
-41912100 Scarab
-41912150 Scarab
-41912152 Scarab
-41912160 Scarab
-41912162 Scarab
-41912164 Scarab
-41912165 Scarab
-41912166 Scarab
-41912168 Scarab
-41912200 Scarab
-41912220 Scarab
-41912230 Scarab
-41912233 Scarab
-41912240 Scarab
-41912250 Scarab
-41912252 Scarab
-41912260 Scarab
-41912262 Scarab
-41912264 Scarab
-41912265 Scarab
-41912266 Scarab
-41912268 Scarab
-41913000 Scarab
-41913014 Scarab
-41913020 Scarab
-41913024 Scarab
-41913032 Scarab
-41913035 Scarab
-41913050 Scarab
-41913052 Scarab
-41913054 Scarab
-41913056 Scarab
-41913060 Scarab
-41913062 Scarab
-41913064 Scarab
-41913065 Scarab
-41913066 Scarab
-41913068 Scarab
-41913072 Scarab
-41913100 Scarab
-41913150 Scarab
-41913152 Scarab
-41913160 Scarab
-41913162 Scarab
-41913164 Scarab
-41913165 Scarab
-41913166 Scarab
-41913168 Scarab
-41913200 Scarab
-41913250 Scarab
-41913252 Scarab
-41913260 Scarab
-41913262 Scarab
-41913264 Scarab
-41913265 Scarab
-41913266 Scarab
-41913268 Scarab
-41914000 Scarab
-41914012 Scarab
-41914014 Scarab
-41914020 Scarab
-41914030 Scarab
-41914032 Scarab
-41914034 Scarab
-41914040 Scarab
-41914042 Scarab
-41914050 Scarab
-41914052 Scarab
-41914054 Scarab
-41914056 Scarab
-41914060 Scarab
-41914062 Scarab
-41914064 Scarab
-41914065 Scarab
-41914066 Scarab
-41914068 Scarab
-41914072 Scarab
-41914100 Scarab
-41914150 Scarab
-41914152 Scarab
-41914160 Scarab
-41914162 Scarab
-41914164 Scarab
-41914165 Scarab
-41914166 Scarab
-41914168 Scarab
-41914200 Scarab
-41914212 Scarab
-41914250 Scarab
-41914252 Scarab
-41914260 Scarab
-41914262 Scarab
-41914264 Scarab
-41914265 Scarab
-41914266 Scarab
-41914268 Scarab
-41915000 Scarab
-41915010 Scarab
-41915020 Scarab
-41915026 Scarab
-41915030 Scarab
-41915035 Scarab
-41915038 Scarab
-41915040 Scarab
-41915042 Scarab
-41915050 Scarab
-41915052 Scarab
-41915062 Scarab
-41915065 Scarab
-41915066 Scarab
-41915100 Scarab
-41915150 Scarab
-41915200 Scarab
-41915535 Scarab
-41915540 Scarab
-41915542 Scarab
-41915554 Scarab
-41915560 Scarab
-41915562 Scarab
-41915564 Scarab
-41915565 Scarab
-41915566 Scarab
-41915568 Scarab
-41916160 Scarab
-41916162 Scarab
-41916164 Scarab
-41916165 Scarab
-41916166 Scarab
-41917364 Scarab
-41917365 Scarab
-41917366 Scarab
-41918062 Scarab
-41918064 Scarab
-41918065 Scarab
-41918066 Scarab
-41918068 Scarab
-41918120 Scarab
-41918140 Scarab
-41918940 Scarab
-41919062 Scarab
-41919064 Scarab
-41919065 Scarab
-41919068 Scarab
-41919140 Scarab
-41920000 Scarab
-41920040 Scarab
-41920042 Scarab
-41921000 Scarab
-41921040 Scarab
-41921042 Scarab
-41922000 Scarab
-41922020 Scarab
-41922050 Scarab
-41922052 Scarab
-41922200 Scarab
-41922250 Scarab
-41922252 Scarab
-41923000 Scarab
-41923050 Scarab
-41923052 Scarab
-41923200 Scarab
-41923250 Scarab
-41923252 Scarab
-41924000 Scarab
-41924050 Scarab
-41924052 Scarab
-41924200 Scarab
-41924250 Scarab
-41924252 Scarab
-41925000 Scarab
-41925050 Scarab
-41925052 Scarab
-41925200 Scarab
-41925250 Scarab
-41927064 Scarab
+41900000 Large Tear Scarab
+41900050 Large Tear Scarab
+41900052 Large Tear Scarab
+41901000 Large Tear Scarab
+41901050 Large Tear Scarab
+41901052 Large Tear Scarab
+41902000 Large Tear Scarab
+41902020 Large Tear Scarab
+41902032 Large Tear Scarab
+41902050 Large Tear Scarab
+41902052 Large Tear Scarab
+41902100 Large Tear Scarab
+41902150 Large Tear Scarab
+41902152 Large Tear Scarab
+41902200 Large Tear Scarab
+41902250 Large Tear Scarab
+41902252 Large Tear Scarab
+41903000 Large Tear Scarab
+41903050 Large Tear Scarab
+41903052 Large Tear Scarab
+41903100 Large Tear Scarab
+41903150 Large Tear Scarab
+41903152 Large Tear Scarab
+41903200 Large Tear Scarab
+41903250 Large Tear Scarab
+41903252 Large Tear Scarab
+41904000 Large Tear Scarab
+41904050 Large Tear Scarab
+41904052 Large Tear Scarab
+41904100 Large Tear Scarab
+41904150 Large Tear Scarab
+41904152 Large Tear Scarab
+41904200 Large Tear Scarab
+41904250 Large Tear Scarab
+41904252 Large Tear Scarab
+41905000 Large Tear Scarab
+41905050 Large Tear Scarab
+41905052 Large Tear Scarab
+41905100 Large Tear Scarab
+41905200 Large Tear Scarab
+41905364 Large Tear Scarab
+41906110 Large Tear Scarab
+41907310 Large Tear Scarab
+41908110 Large Tear Scarab
+41909112 Large Tear Scarab
+41910000 Tear Scarab
+41910010 Tear Scarab
+41910012 Tear Scarab
+41910020 Tear Scarab
+41910022 Tear Scarab
+41910030 Tear Scarab
+41910032 Tear Scarab
+41910035 Tear Scarab
+41910040 Tear Scarab
+41910041 Tear Scarab
+41910050 Tear Scarab
+41910052 Tear Scarab
+41910054 Tear Scarab
+41910056 Tear Scarab
+41910060 Tear Scarab
+41910062 Tear Scarab
+41910064 Tear Scarab
+41910065 Tear Scarab
+41910066 Tear Scarab
+41910068 Tear Scarab
+41911000 Tear Scarab
+41911010 Tear Scarab
+41911020 Tear Scarab
+41911022 Tear Scarab
+41911030 Tear Scarab
+41911035 Tear Scarab
+41911050 Tear Scarab
+41911052 Tear Scarab
+41911054 Tear Scarab
+41911056 Tear Scarab
+41911060 Tear Scarab
+41911062 Tear Scarab
+41911064 Tear Scarab
+41911065 Tear Scarab
+41911066 Tear Scarab
+41911068 Tear Scarab
+41912000 Tear Scarab
+41912010 Tear Scarab
+41912012 Tear Scarab
+41912014 Tear Scarab
+41912020 Tear Scarab
+41912024 Tear Scarab
+41912030 Tear Scarab
+41912032 Tear Scarab
+41912033 Tear Scarab
+41912034 Tear Scarab
+41912040 Tear Scarab
+41912041 Tear Scarab
+41912042 Tear Scarab
+41912050 Tear Scarab
+41912052 Tear Scarab
+41912054 Tear Scarab
+41912056 Tear Scarab
+41912060 Tear Scarab
+41912062 Tear Scarab
+41912064 Tear Scarab
+41912065 Tear Scarab
+41912066 Tear Scarab
+41912068 Tear Scarab
+41912072 Tear Scarab
+41912100 Tear Scarab
+41912150 Tear Scarab
+41912152 Tear Scarab
+41912160 Tear Scarab
+41912162 Tear Scarab
+41912164 Tear Scarab
+41912165 Tear Scarab
+41912166 Tear Scarab
+41912168 Tear Scarab
+41912200 Tear Scarab
+41912220 Tear Scarab
+41912230 Tear Scarab
+41912233 Tear Scarab
+41912240 Tear Scarab
+41912250 Tear Scarab
+41912252 Tear Scarab
+41912260 Tear Scarab
+41912262 Tear Scarab
+41912264 Tear Scarab
+41912265 Tear Scarab
+41912266 Tear Scarab
+41912268 Tear Scarab
+41913000 Tear Scarab
+41913014 Tear Scarab
+41913020 Tear Scarab
+41913024 Tear Scarab
+41913032 Tear Scarab
+41913035 Tear Scarab
+41913050 Tear Scarab
+41913052 Tear Scarab
+41913054 Tear Scarab
+41913056 Tear Scarab
+41913060 Tear Scarab
+41913062 Tear Scarab
+41913064 Tear Scarab
+41913065 Tear Scarab
+41913066 Tear Scarab
+41913068 Tear Scarab
+41913072 Tear Scarab
+41913100 Tear Scarab
+41913150 Tear Scarab
+41913152 Tear Scarab
+41913160 Tear Scarab
+41913162 Tear Scarab
+41913164 Tear Scarab
+41913165 Tear Scarab
+41913166 Tear Scarab
+41913168 Tear Scarab
+41913200 Tear Scarab
+41913250 Tear Scarab
+41913252 Tear Scarab
+41913260 Tear Scarab
+41913262 Tear Scarab
+41913264 Tear Scarab
+41913265 Tear Scarab
+41913266 Tear Scarab
+41913268 Tear Scarab
+41914000 Tear Scarab
+41914012 Tear Scarab
+41914014 Tear Scarab
+41914020 Tear Scarab
+41914030 Tear Scarab
+41914032 Tear Scarab
+41914034 Tear Scarab
+41914040 Tear Scarab
+41914042 Tear Scarab
+41914050 Tear Scarab
+41914052 Tear Scarab
+41914054 Tear Scarab
+41914056 Tear Scarab
+41914060 Tear Scarab
+41914062 Tear Scarab
+41914064 Tear Scarab
+41914065 Tear Scarab
+41914066 Tear Scarab
+41914068 Tear Scarab
+41914072 Tear Scarab
+41914100 Tear Scarab
+41914150 Tear Scarab
+41914152 Tear Scarab
+41914160 Tear Scarab
+41914162 Tear Scarab
+41914164 Tear Scarab
+41914165 Tear Scarab
+41914166 Tear Scarab
+41914168 Tear Scarab
+41914200 Tear Scarab
+41914212 Tear Scarab
+41914250 Tear Scarab
+41914252 Tear Scarab
+41914260 Tear Scarab
+41914262 Tear Scarab
+41914264 Tear Scarab
+41914265 Tear Scarab
+41914266 Tear Scarab
+41914268 Tear Scarab
+41915000 Tear Scarab
+41915010 Tear Scarab
+41915020 Tear Scarab
+41915026 Tear Scarab
+41915030 Tear Scarab
+41915035 Tear Scarab
+41915038 Tear Scarab
+41915040 Tear Scarab
+41915042 Tear Scarab
+41915050 Tear Scarab
+41915052 Tear Scarab
+41915062 Tear Scarab
+41915065 Tear Scarab
+41915066 Tear Scarab
+41915100 Tear Scarab
+41915150 Tear Scarab
+41915200 Tear Scarab
+41915535 Tear Scarab
+41915540 Tear Scarab
+41915542 Tear Scarab
+41915554 Tear Scarab
+41915560 Tear Scarab
+41915562 Tear Scarab
+41915564 Tear Scarab
+41915565 Tear Scarab
+41915566 Tear Scarab
+41915568 Tear Scarab
+41916160 Tear Scarab
+41916162 Tear Scarab
+41916164 Tear Scarab
+41916165 Tear Scarab
+41916166 Tear Scarab
+41917364 Tear Scarab
+41917365 Tear Scarab
+41917366 Tear Scarab
+41918062 Tear Scarab
+41918064 Tear Scarab
+41918065 Tear Scarab
+41918066 Tear Scarab
+41918068 Tear Scarab
+41918120 Tear Scarab
+41918140 Tear Scarab
+41918940 Tear Scarab
+41919062 Tear Scarab
+41919064 Tear Scarab
+41919065 Tear Scarab
+41919068 Tear Scarab
+41919140 Tear Scarab
+41920000 Ash Scarab
+41920040 Ash Scarab
+41920042 Ash Scarab
+41921000 Ash Scarab
+41921040 Ash Scarab
+41921042 Ash Scarab
+41922000 Ash Scarab
+41922020 Ash Scarab
+41922050 Ash Scarab
+41922052 Ash Scarab
+41922200 Ash Scarab
+41922250 Ash Scarab
+41922252 Ash Scarab
+41923000 Ash Scarab
+41923050 Ash Scarab
+41923052 Ash Scarab
+41923200 Ash Scarab
+41923250 Ash Scarab
+41923252 Ash Scarab
+41924000 Ash Scarab
+41924050 Ash Scarab
+41924052 Ash Scarab
+41924200 Ash Scarab
+41924250 Ash Scarab
+41924252 Ash Scarab
+41925000 Ash Scarab
+41925050 Ash Scarab
+41925052 Ash Scarab
+41925200 Ash Scarab
+41925250 Ash Scarab
+41927064 Ash Scarab
 42000000 Giant Bat
 42000010 Giant Bat
 42000011 Giant Bat
@@ -2316,81 +2316,81 @@
 42300064 Small Land Octopus
 42300830 Small Land Octopus
 42300852 Small Land Octopus
-42400000 Giant Enchanted Hand
-42400020 Giant Enchanted Hand
-42400021 Giant Enchanted Hand
-42400032 Giant Enchanted Hand
-42400034 Giant Enchanted Hand
-42400035 Giant Enchanted Hand
-42400100 Giant Enchanted Hand
-42400150 Giant Enchanted Hand
-42400200 Giant Enchanted Hand
-42400221 Giant Enchanted Hand
-42405000 Giant Enchanted Hand
-42405050 Giant Enchanted Hand
-42405100 Giant Enchanted Hand
-42405150 Giant Enchanted Hand
-42405200 Giant Enchanted Hand
-42405250 Giant Enchanted Hand
-42405300 Giant Enchanted Hand
-42405350 Giant Enchanted Hand
-42405400 Giant Enchanted Hand
-42405450 Giant Enchanted Hand
-42405500 Giant Enchanted Hand
-42405550 Giant Enchanted Hand
-42405600 Giant Enchanted Hand
-42405650 Giant Enchanted Hand
-42405700 Giant Enchanted Hand
-42405750 Giant Enchanted Hand
-42405800 Giant Enchanted Hand
-42405850 Giant Enchanted Hand
-42406000 Giant Enchanted Hand
-42406050 Giant Enchanted Hand
-42406100 Giant Enchanted Hand
-42406150 Giant Enchanted Hand
-42406200 Giant Enchanted Hand
-42406250 Giant Enchanted Hand
-42406300 Giant Enchanted Hand
-42406350 Giant Enchanted Hand
-42406400 Giant Enchanted Hand
-42406450 Giant Enchanted Hand
-42407000 Giant Enchanted Hand
-42407020 Giant Enchanted Hand
-42407021 Giant Enchanted Hand
-42407032 Giant Enchanted Hand
-42407034 Giant Enchanted Hand
-42407035 Giant Enchanted Hand
-42407100 Giant Enchanted Hand
-42407121 Giant Enchanted Hand
-42407132 Giant Enchanted Hand
-42407200 Giant Enchanted Hand
-42407221 Giant Enchanted Hand
-42407300 Giant Enchanted Hand
-42407321 Giant Enchanted Hand
-42407400 Giant Enchanted Hand
-42407421 Giant Enchanted Hand
-42407500 Giant Enchanted Hand
-42407521 Giant Enchanted Hand
-42407600 Giant Enchanted Hand
-42407621 Giant Enchanted Hand
-42407700 Giant Enchanted Hand
-42407721 Giant Enchanted Hand
-42407800 Giant Enchanted Hand
-42407821 Giant Enchanted Hand
-42408000 Giant Enchanted Hand
-42408021 Giant Enchanted Hand
-42408100 Giant Enchanted Hand
-42408121 Giant Enchanted Hand
-42408200 Giant Enchanted Hand
-42408221 Giant Enchanted Hand
-42408300 Giant Enchanted Hand
-42408321 Giant Enchanted Hand
-42408400 Giant Enchanted Hand
-42408421 Giant Enchanted Hand
-42408500 Giant Enchanted Hand
-42408521 Giant Enchanted Hand
-42408800 Giant Enchanted Hand
-42408821 Giant Enchanted Hand
+42400000 Large Enchanted Hand
+42400020 Large Enchanted Hand
+42400021 Large Enchanted Hand
+42400032 Large Enchanted Hand
+42400034 Large Enchanted Hand
+42400035 Large Enchanted Hand
+42400100 Large Enchanted Hand
+42400150 Large Enchanted Hand
+42400200 Large Enchanted Hand
+42400221 Large Enchanted Hand
+42405000 Large Enchanted Hand
+42405050 Large Enchanted Hand
+42405100 Large Enchanted Hand
+42405150 Large Enchanted Hand
+42405200 Large Enchanted Hand
+42405250 Large Enchanted Hand
+42405300 Large Enchanted Hand
+42405350 Large Enchanted Hand
+42405400 Large Enchanted Hand
+42405450 Large Enchanted Hand
+42405500 Large Enchanted Hand
+42405550 Large Enchanted Hand
+42405600 Large Enchanted Hand
+42405650 Large Enchanted Hand
+42405700 Large Enchanted Hand
+42405750 Large Enchanted Hand
+42405800 Large Enchanted Hand
+42405850 Large Enchanted Hand
+42406000 Large Enchanted Hand
+42406050 Large Enchanted Hand
+42406100 Large Enchanted Hand
+42406150 Large Enchanted Hand
+42406200 Large Enchanted Hand
+42406250 Large Enchanted Hand
+42406300 Large Enchanted Hand
+42406350 Large Enchanted Hand
+42406400 Large Enchanted Hand
+42406450 Large Enchanted Hand
+42407000 Large Enchanted Hand
+42407020 Large Enchanted Hand
+42407021 Large Enchanted Hand
+42407032 Large Enchanted Hand
+42407034 Large Enchanted Hand
+42407035 Large Enchanted Hand
+42407100 Large Enchanted Hand
+42407121 Large Enchanted Hand
+42407132 Large Enchanted Hand
+42407200 Large Enchanted Hand
+42407221 Large Enchanted Hand
+42407300 Large Enchanted Hand
+42407321 Large Enchanted Hand
+42407400 Large Enchanted Hand
+42407421 Large Enchanted Hand
+42407500 Large Enchanted Hand
+42407521 Large Enchanted Hand
+42407600 Large Enchanted Hand
+42407621 Large Enchanted Hand
+42407700 Large Enchanted Hand
+42407721 Large Enchanted Hand
+42407800 Large Enchanted Hand
+42407821 Large Enchanted Hand
+42408000 Large Enchanted Hand
+42408021 Large Enchanted Hand
+42408100 Large Enchanted Hand
+42408121 Large Enchanted Hand
+42408200 Large Enchanted Hand
+42408221 Large Enchanted Hand
+42408300 Large Enchanted Hand
+42408321 Large Enchanted Hand
+42408400 Large Enchanted Hand
+42408421 Large Enchanted Hand
+42408500 Large Enchanted Hand
+42408521 Large Enchanted Hand
+42408800 Large Enchanted Hand
+42408821 Large Enchanted Hand
 42410000 Giant Enchanted Hand
 42410100 Giant Enchanted Hand
 42410150 Giant Enchanted Hand
@@ -3541,20 +3541,20 @@
 44811400 Miranda Sprout
 44811430 Miranda Sprout
 44811830 Miranda Sprout
-44820000 Giant Miranda Sprout
-44820031 Giant Miranda Sprout
-44820040 Giant Miranda Sprout
-44820054 Giant Miranda Sprout
-44820056 Giant Miranda Sprout
-44830000 Miranda Sprout
-44830030 Miranda Sprout
-44830031 Miranda Sprout
-44830040 Miranda Sprout
-44830054 Miranda Sprout
-44831000 Miranda Sprout
-44831040 Miranda Sprout
-44831054 Miranda Sprout
-44831056 Miranda Sprout
+44820000 Fading Giant Miranda Sprout
+44820031 Fading Giant Miranda Sprout
+44820040 Fading Giant Miranda Sprout
+44820054 Fading Giant Miranda Sprout
+44820056 Fading Giant Miranda Sprout
+44830000 Fading Miranda Sprout
+44830030 Fading Miranda Sprout
+44830031 Fading Miranda Sprout
+44830040 Fading Miranda Sprout
+44830054 Fading Miranda Sprout
+44831000 Fading Miranda Sprout
+44831040 Fading Miranda Sprout
+44831054 Fading Miranda Sprout
+44831056 Fading Miranda Sprout
 44900000 Living Pot - Large
 44900011 Living Pot - Large
 44900014 Living Pot - Large
@@ -3715,14 +3715,14 @@
 45601050 Monstrous Crow
 45601850 Monstrous Crow
 45609000 Monstrous Crow
-45610000 Monstrous Crow
-45610068 Monstrous Crow
-45700000 Small Wormface
-45700030 Small Wormface
-45701000 Small Wormface
-45701072 Small Wormface
-45702000 Small Wormface
-45702030 Small Wormface
+45610000 Monstrous Rotten Crow
+45610068 Monstrous Rotten Crow
+45700000 Large Wormface
+45700030 Large Wormface
+45701000 Large Wormface
+45701072 Large Wormface
+45702000 Large Wormface
+45702030 Large Wormface
 45800000 Giant Wormface
 45800030 Giant Wormface
 45801000 Giant Wormface
