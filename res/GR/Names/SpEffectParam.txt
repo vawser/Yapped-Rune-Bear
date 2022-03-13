@@ -15,12 +15,17 @@
 107 Grace - Remove Madness
 108 Grace - Remove Sleep
 109 Grace - Remove Death
+125 Torrent
+126 Torrent
 415 Torch Effect
 416 Sentry's Torch - Effect
 420 Oil Pot
 460 Beast-Repellent Torch Effect
 467 Swarm Pot [Cycle]
+470 Gravity - Pull towards Caster
 473 Swarm Pot
+474 Heal - HP Regen
+475 Blessing of the Erdtree - HP Regen
 482 Alluring Pot
 483 Alluring Pot
 484 Beastlure Pot Effect
@@ -230,6 +235,8 @@
 3963 Dappled Cured Meat
 3970 Silver-Pickled Fowl Foot
 3971 Gold-Pickled Fowl Foot
+5836 Undead Enemy
+5837 Undead Enemy
 6350 Toughness 1
 6351 Toughness 2
 6352 Toughness 3
@@ -351,8 +358,285 @@
 7660 NG+ Scaling -
 7670 NG+ Scaling -
 7680 NG+ Scaling -
+10165 Dragon-faced Flamethrower
+10690 Mohg
+10691 Mohg
 11010 Tarnished's Furled Finger
 11030 Duelist's Furled Finger
+11657 Nox Swordstress
+11971 Vulgar Militia
+12018 Enchanted Hand - Large
+13025 Wolf
+13067 Castle Soldier
+13164 Ancestral Follower
+13175 Ancestral Follower - Buff
+13191 Ancestral Follower - HP Restore
+13296 Castle Soldier
+13462 Putrid Corpse - Explosion
+13617 Ancestor Spirit
+14386 Rennala Student - Main Target
+14405 Depraved Perfumer
+14406 Depraved Perfumer
+14435 Depraved Perfumer
+14439 Depraved Perfumer
+14898 Ancient Dragon
+15467 Godskin Noble
+15511 Grave Warden Duelist
+16414 Elemer of the Briar
+16488 Fallingstar Beast
+17171 Imp
+18400 NPC: HP Recovery on Hit
+18401 NPC: HP Recovery on Hit
+18402 NPC: HP Recovery on Hit
+18403 NPC: HP Recovery on Hit
+18404 NPC: HP Recovery on Hit
+18405 NPC: HP Recovery on Hit
+18410 NPC: HP Recovery on Hit
+18411 NPC: HP Recovery on Hit
+18412 NPC: HP Recovery on Hit
+18413 NPC: HP Recovery on Hit
+18414 NPC: HP Recovery on Hit
+18415 NPC: HP Recovery on Hit
+18416 NPC: HP Recovery on Hit
+18417 NPC: HP Recovery on Hit
+18418 NPC: HP Recovery on Hit
+18419 NPC: HP Recovery on Hit
+18731 Melina - HP Recovery
+20000 NPC: Poison
+20001 NPC: Poison
+20002 NPC: Poison
+20003 NPC: Poison
+20004 NPC: Poison
+20005 NPC: Poison
+20006 NPC: Poison
+20007 NPC: Poison
+20008 NPC: Poison
+20009 NPC: Poison
+20010 NPC: Poison
+20011 NPC: Poison
+20012 NPC: Poison
+20013 NPC: Poison
+20014 NPC: Poison
+20015 NPC: Poison
+20016 NPC: Poison
+20017 NPC: Poison
+20018 NPC: Poison
+20019 NPC: Poison
+20110 NPC: Poison
+20120 NPC: Poison
+20130 NPC: Poison
+20140 NPC: Poison
+20141 NPC: Poison
+20142 NPC: Poison
+20150 NPC: Poison
+20151 NPC: Poison
+20152 NPC: Poison
+20160 NPC: Poison
+20161 NPC: Poison
+20162 NPC: Poison
+20163 NPC: Poison
+20170 NPC: Poison
+20175 NPC: Poison
+20180 NPC: Poison
+20181 NPC: Poison
+20190 NPC: Poison
+20500 NPC: Poison
+20501 NPC: Poison
+20502 NPC: Poison
+20503 NPC: Poison
+20504 NPC: Poison
+20505 NPC: Poison
+20506 NPC: Poison
+20507 NPC: Poison
+20508 NPC: Poison
+20509 NPC: Poison
+20510 NPC: Poison
+20511 NPC: Poison
+20512 NPC: Poison
+20513 NPC: Poison
+20514 NPC: Poison
+20515 NPC: Poison
+20516 NPC: Poison
+20517 NPC: Poison
+20518 NPC: Poison
+20519 NPC: Poison
+20600 NPC: Poison - Affect Self
+21000 NPC: Blight
+21001 NPC: Blight
+21002 NPC: Blight
+21003 NPC: Blight
+21004 NPC: Blight
+21005 NPC: Blight
+21006 NPC: Blight
+21007 NPC: Blight
+21008 NPC: Blight
+21009 NPC: Blight
+21010 NPC: Blight
+21011 NPC: Blight
+21012 NPC: Blight
+21013 NPC: Blight
+21014 NPC: Blight
+21015 NPC: Blight
+21016 NPC: Blight
+21017 NPC: Blight
+21018 NPC: Blight
+21019 NPC: Blight
+21100 NPC: Blight
+21101 NPC: Blight
+21102 NPC: Blight
+22000 NPC: Hemorrhage
+22001 NPC: Hemorrhage
+22002 NPC: Hemorrhage
+22003 NPC: Hemorrhage
+22004 NPC: Hemorrhage
+22005 NPC: Hemorrhage
+22006 NPC: Hemorrhage
+22007 NPC: Hemorrhage
+22008 NPC: Hemorrhage
+22009 NPC: Hemorrhage
+22010 NPC: Hemorrhage
+22011 NPC: Hemorrhage
+22012 NPC: Hemorrhage
+22013 NPC: Hemorrhage
+22014 NPC: Hemorrhage
+22015 NPC: Hemorrhage
+22016 NPC: Hemorrhage
+22017 NPC: Hemorrhage
+22018 NPC: Hemorrhage
+22019 NPC: Hemorrhage
+22100 NPC: Maggots - Hemorrhage
+22101 NPC: Maggots - Hemorrhage
+22110 NPC: Maggots - Hemorrhage
+22111 NPC: Maggots - Hemorrhage
+22120 NPC: Maggots - Hemorrhage
+22130 NPC: Maggots - Hemorrhage
+22131 NPC: Maggots - Hemorrhage
+22132 NPC: Maggots - Hemorrhage
+22133 NPC: Maggots - Hemorrhage
+23000 NPC: Death
+23001 NPC: Death
+23002 NPC: Death
+23003 NPC: Death
+23004 NPC: Death
+23005 NPC: Death
+23006 NPC: Death
+23007 NPC: Death
+23008 NPC: Death
+23009 NPC: Death
+23010 NPC: Death
+23011 NPC: Death
+23012 NPC: Death
+23013 NPC: Death
+23014 NPC: Death
+23015 NPC: Death
+23016 NPC: Death
+23017 NPC: Death
+23018 NPC: Death
+23019 NPC: Death
+23100 NPC: Death
+23101 NPC: Death
+23102 NPC: Death
+23110 NPC: Death
+23111 NPC: Death
+23112 NPC: Death
+23113 NPC: Death
+23150 NPC: Death
+24000 NPC: Frostbite
+24001 NPC: Frostbite
+24002 NPC: Frostbite
+24003 NPC: Frostbite
+24004 NPC: Frostbite
+24005 NPC: Frostbite
+24006 NPC: Frostbite
+24007 NPC: Frostbite
+24008 NPC: Frostbite
+24009 NPC: Frostbite
+24010 NPC: Frostbite
+24011 NPC: Frostbite
+24012 NPC: Frostbite
+24013 NPC: Frostbite
+24014 NPC: Frostbite
+24015 NPC: Frostbite
+24016 NPC: Frostbite
+24017 NPC: Frostbite
+24018 NPC: Frostbite
+24019 NPC: Frostbite
+24130 NPC: Frostbite
+24131 NPC: Frostbite
+24132 NPC: Frostbite
+24140 NPC: Frostbite
+24150 NPC: Frostbite
+24160 NPC: Frostbite
+24170 NPC: Frostbite
+25000 NPC: Sleep
+25001 NPC: Sleep
+25002 NPC: Sleep
+25003 NPC: Sleep
+25004 NPC: Sleep
+25005 NPC: Sleep
+25006 NPC: Sleep
+25007 NPC: Sleep
+25008 NPC: Sleep
+25009 NPC: Sleep
+25010 NPC: Sleep
+25011 NPC: Sleep
+25012 NPC: Sleep
+25013 NPC: Sleep
+25014 NPC: Sleep
+25015 NPC: Sleep
+25016 NPC: Sleep
+25017 NPC: Sleep
+25018 NPC: Sleep
+25019 NPC: Sleep
+26000 NPC: Madness
+26001 NPC: Madness
+26002 NPC: Madness
+26003 NPC: Madness
+26004 NPC: Madness
+26005 NPC: Madness
+26006 NPC: Madness
+26007 NPC: Madness
+26008 NPC: Madness
+26009 NPC: Madness
+26010 NPC: Madness
+26011 NPC: Madness
+26012 NPC: Madness
+26013 NPC: Madness
+26014 NPC: Madness
+26015 NPC: Madness
+26016 NPC: Madness
+26017 NPC: Madness
+26018 NPC: Madness
+26019 NPC: Madness
+26100 NPC: Madness
+26110 NPC: Madness
+29000 NPC: HP Burn on Hit
+29001 NPC: HP Burn on Hit
+29002 NPC: HP Burn on Hit
+29003 NPC: HP Burn on Hit
+29004 NPC: HP Burn on Hit
+29005 NPC: HP Burn on Hit
+29006 NPC: HP Burn on Hit
+29007 NPC: HP Burn on Hit
+29008 NPC: HP Burn on Hit
+29009 NPC: HP Burn on Hit
+29500 NPC: HP Burn on Hit
+29501 NPC: HP Burn on Hit
+29502 NPC: HP Burn on Hit
+29503 NPC: HP Burn on Hit
+29504 NPC: HP Burn on Hit
+29505 NPC: HP Burn on Hit
+29506 NPC: HP Burn on Hit
+29507 NPC: HP Burn on Hit
+29508 NPC: HP Burn on Hit
+29509 NPC: HP Burn on Hit
+29510 NPC: HP Burn on Hit
+29511 NPC: HP Burn on Hit
+29515 NPC: HP Burn on Hit
+29516 NPC: HP Burn on Hit
+29517 NPC: HP Burn on Hit
+29520 NPC: Max HP Reduction on Hit
+29521 NPC: Max HP Reduction on Hit
 30000 NPC: Disable Poison
 30010 NPC: Disable Blight
 30020 NPC: Disable Hemorrhage
@@ -2355,6 +2639,161 @@
 511079 Ruptured Crystal Tear [Chain]
 511080 Ruptured Crystal Tear [Chain]
 511081 Ruptured Crystal Tear [Chain]
+1414000 [Sorcery] Starlight
+1446000 [Sorcery] Scholar's Armament
+1447000 [Sorcery] Scholar's Shield
+1447001 [Sorcery] Scholar's Shield [Cycle]
+1448000 [Sorcery] Lucidity
+1448001 [Sorcery] Lucidity
+1448002 [Sorcery] Lucidity
+1448003 [Sorcery] Lucidity
+1449000 [Sorcery] Frozen Armament
+1449001 [Sorcery] Frozen Armament
+1466000 [Sorcery] Unseen Blade
+1467000 [Sorcery] Unseen Form
+1467001 [Sorcery] Unseen Form
+1467002 [Sorcery] Unseen Form
+1467005 [Sorcery] Unseen Form
+1467006 [Sorcery] Unseen Form
+1604000 [Incantation] Flame, Cleanse Me
+1604001 [Incantation] Flame, Cleanse Me
+1604002 [Incantation] Flame, Cleanse Me
+1604003 [Incantation] Flame, Cleanse Me
+1604004 [Incantation] Flame, Cleanse Me
+1604005 [Incantation] Flame, Cleanse Me
+1605000 [Incantation] Flame, Grant Me Strength
+1605001 [Incantation] Flame, Grant Me Strength
+1605002 [Incantation] Flame, Grant Me Strength
+1606000 [Incantation] Flame, Protect Me
+1624000 [Incantation] Noble Presence
+1624010 [Incantation] Noble Presence
+1625000 [Incantation] Black Flame Ritual
+1626000 [Incantation] Black Flame Blade
+1626001 [Incantation] Black Flame Blade
+1627000 [Incantation] Black Flame's Protection
+1627001 [Incantation] Black Flame's Protection
+1632000 [Incantation] Bloodflame Blade
+1632001 [Incantation] Bloodflame Blade
+1632002 [Incantation] Bloodflame Blade
+1633000 [Incantation] Barrier of Gold
+1634000 [Incantation] Protection of the Erdtree
+1640000 [Incantation] Rejection
+1641000 [Incantation] Wrath of Gold
+1642000 [Incantation] Urgent Heal
+1642001 [Incantation] Urgent Heal
+1642100 [Incantation] Heal
+1642101 [Incantation] Heal
+1642200 [Incantation] Great Heal
+1642201 [Incantation] Great Heal
+1642300 [Incantation] Lord's Heal
+1642301 [Incantation] Lord's Heal
+1642400 [Incantation] Erdtree Heal
+1642401 [Incantation] Erdtree Heal
+1643000 [Incantation] Blessing's Boon
+1643001 [Incantation] Blessing's Boon
+1643100 [Incantation] Blessing of the Erdtree
+1643101 [Incantation] Blessing of the Erdtree
+1644000 [Incantation] Cure Poison
+1644001 [Incantation] Cure Poison
+1644100 [Incantation] Lord's Aid
+1644101 [Incantation] Lord's Aid
+1644102 [Incantation] Lord's Aid
+1644103 [Incantation] Lord's Aid
+1644104 [Incantation] Lord's Aid
+1644105 [Incantation] Lord's Aid
+1644110 [Incantation] Lord's Aid
+1644111 [Incantation] Lord's Aid
+1644112 [Incantation] Lord's Aid
+1644113 [Incantation] Lord's Aid
+1644114 [Incantation] Lord's Aid
+1644115 [Incantation] Lord's Aid
+1645000 [Incantation] Flame Fortification
+1646000 [Incantation] Magic Fortification
+1647000 [Incantation] Lightning Fortification
+1648000 [Incantation] Divine Fortification
+1649000 [Incantation] Lord's Divine Fortification
+1650000 [Incantation] Night Maiden's Mist
+1651000 [Incantation] Assassin's Approach
+1651001 [Incantation] Assassin's Approach
+1651002 [Incantation] Assassin's Approach
+1653000 [Incantation] Darkness
+1653001 [Incantation] Darkness
+1660000 [Incantation] Golden Vow
+1660001 [Incantation] Golden Vow
+1660002 [Incantation] Golden Vow
+1673000 [Incantation] Law of Regression
+1673001 [Incantation] Law of Regression
+1673002 [Incantation] Law of Regression
+1673003 [Incantation] Law of Regression
+1673004 [Incantation] Law of Regression
+1673005 [Incantation] Law of Regression
+1673006 [Incantation] Law of Regression
+1673007 [Incantation] Law of Regression
+1673008 [Incantation] Law of Regression
+1673009 [Incantation] Law of Regression
+1673010 [Incantation] Law of Regression
+1673011 [Incantation] Law of Regression
+1673012 [Incantation] Law of Regression
+1673013 [Incantation] Law of Regression
+1673014 [Incantation] Law of Regression
+1673020 [Incantation] Law of Regression
+1673021 [Incantation] Law of Regression
+1673022 [Incantation] Law of Regression
+1673023 [Incantation] Law of Regression
+1673024 [Incantation] Law of Regression
+1673025 [Incantation] Law of Regression
+1673026 [Incantation] Law of Regression
+1673027 [Incantation] Law of Regression
+1673028 [Incantation] Law of Regression
+1673029 [Incantation] Law of Regression
+1673030 [Incantation] Law of Regression
+1673031 [Incantation] Law of Regression
+1673032 [Incantation] Law of Regression
+1673033 [Incantation] Law of Regression
+1673034 [Incantation] Law of Regression
+1674000 [Incantation] Immutable Shield
+1674001 [Incantation] Immutable Shield
+1674002 [Incantation] Immutable Shield
+1675000 [Incantation] Litany of Proper Death
+1676000 [Incantation] Law of Causality
+1676005 [Incantation] Law of Causality
+1676006 [Incantation] Law of Causality
+1676007 [Incantation] Law of Causality
+1676008 [Incantation] Law of Causality
+1676009 [Incantation] Law of Causality
+1676010 [Incantation] Law of Causality
+1676011 [Incantation] Law of Causality
+1677000 [Incantation] Order's Blade
+1678000 [Incantation] Order Healing
+1678001 [Incantation] Order Healing
+1685000 [Incantation] Bestial Vitality
+1686000 [Incantation] Bestial Constitution
+1686001 [Incantation] Bestial Constitution
+1686002 [Incantation] Bestial Constitution
+1686003 [Incantation] Bestial Constitution
+1696000 [Incantation] Electrify Armament
+1697000 [Incantation] Vyke's Dragonbolt
+1697001 [Incantation] Vyke's Dragonbolt
+1697002 [Incantation] Vyke's Dragonbolt
+1697100 [Incantation] Dragonbolt Blessing
+1697101 [Incantation] Dragonbolt Blessing
+1723000 [Incantation] Poison Armament
+1723001 [Incantation] Poison Armament
+1724000 [Incantation] Scarlet Aeonia
+1724001 [Incantation] Scarlet Aeonia
+1733000 [Incantation] Howl of Shabriri
+1733001 [Incantation] Howl of Shabriri
+1733002 [Incantation] Howl of Shabriri
+1733005 [Incantation] Howl of Shabriri
+1733006 [Incantation] Howl of Shabriri
+1733007 [Incantation] Howl of Shabriri
+1790000 [Incantation] Fire's Deadly Sin
+1790001 [Incantation] Fire's Deadly Sin
+1790002 [Incantation] Fire's Deadly Sin
+1790003 [Incantation] Fire's Deadly Sin
+1790010 [Incantation] Fire's Deadly Sin
+1790011 [Incantation] Fire's Deadly Sin
+1790012 [Incantation] Fire's Deadly Sin
 5010600 Celebrant's Sickle - Rune Gain on Hit
 5010601 Celebrant's Sickle - Icon
 5011000 Cinquedea - Boost Incantation Power

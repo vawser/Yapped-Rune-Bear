@@ -12,8 +12,9 @@
     <item value="3" name="Intelligence" />
   </enum>
   <enum name="MagicSchoolType" type="u8">
-    <item value="0" name="Sorcery" />
-	<item value="1" name="Incantation" />
+    <item value="0" name="School: Sorcery" />
+	<item value="1" name="School: Incantation" />
+	<item value="2" name="School: Unused" />
   </enum>
   <entry>
     <name>Unknown</name>
@@ -452,11 +453,16 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Reference ID 4</name>
+    <name>Category ID (unverified)</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
     <entry>
+    <name>Reference ID 4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Reference ID 5</name>
     <type>s32</type>
     <default>0</default>
@@ -466,12 +472,12 @@
     <type>s32</type>
     <default>0</default>
   </entry>
-  <entry>
+    <entry>
     <name>Reference ID 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
-    <entry>
+  <entry>
     <name>Reference ID 8</name>
     <type>s32</type>
     <default>0</default>
@@ -483,11 +489,6 @@
   </entry>
   <entry>
     <name>Reference ID 10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 11</name>
     <type>s32</type>
     <default>0</default>
   </entry>
