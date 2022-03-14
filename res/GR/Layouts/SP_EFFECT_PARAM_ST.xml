@@ -1714,42 +1714,42 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Damage %: Slash</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Damage %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Damage %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Damage %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>PVP Damage %: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>PVP Damage %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>PVP Damage %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>PVP Damage %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
