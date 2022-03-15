@@ -1804,44 +1804,9 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
     <name>Unk33</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk37 - Used by Attack Effects</name>

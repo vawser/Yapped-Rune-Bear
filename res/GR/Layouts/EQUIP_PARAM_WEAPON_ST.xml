@@ -829,13 +829,13 @@
     <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
   </entry>
   <entry>
-    <name>Unk30</name>
+    <name>Posture Control ID - Weapon Right</name>
     <type>u8</type>
     <default>0</default>
     <description>Varies based on weapon category</description>
   </entry>
   <entry>
-    <name>Unk31</name>
+    <name>Posture Control ID - Weapon Left</name>
     <type>u8</type>
     <default>0</default>
     <description>Varies based on weapon category</description>
