@@ -421,52 +421,6 @@
 	<item value="10009" name="10009 - Apply First (Sleep)" />
 	<item value="10010" name="10010 - Apply First (Madness)" />
   </enum>
-  <enum name="IconID" type="s32">
-    <item value="-1" name="None" />
-    <item value="0" name="None" />
-    <item value="10004" name="Dried Finger" />
-    <item value="10005" name="Shadowy Hollow" />
-    <item value="10006" name="Open Red Eye" />
-    <item value="10007" name="Closed Black Eye" />
-    <item value="10008" name="Estus with Down Blue Arrow" />
-    <item value="10009" name="Attack" />
-    <item value="10010" name="Magic" />
-    <item value="10011" name="Defence" />
-    <item value="10012" name="Resistances" />
-    <item value="10013" name="Stamina Regen" />
-    <item value="10014" name="HP Regen" />
-    <item value="10015" name="FP Regen" />
-    <item value="10016" name="Estus" />
-    <item value="10017" name="Ashen Estus" />
-    <item value="10018" name="Absorb HP" />
-    <item value="10019" name="Absorb FP" />
-    <item value="10020" name="FP Cost" />
-    <item value="10021" name="Weapon Skill" />
-    <item value="10022" name="Durability" />
-    <item value="10023" name="Carthus Milkring" />
-    <item value="10024" name="Silvercat Ring" />
-    <item value="10025" name="Slumbering Dragoncrest Ring" />
-    <item value="10026" name="Ring of Sacrifice" />
-    <item value="10027" name="Bow Distance" />
-    <item value="10028" name="Leo Ring" />
-    <item value="10029" name="Message Icon" />
-    <item value="10030" name="Item Discovery" />
-    <item value="10031" name="Souls" />
-    <item value="10032" name="Skull Ring" />
-    <item value="10033" name="Poise" />
-    <item value="10034" name="Calamity Ring" />
-    <item value="10035" name="Seed of a Giant Tree" />
-    <item value="10036" name="Damaged Helm" />
-    <item value="10037" name="Broken Helm" />
-    <item value="10038" name="Damaged Armor" />
-    <item value="10039" name="Broken Armor" />
-    <item value="10040" name="Damaged Gauntlets" />
-    <item value="10041" name="Broken Gauntlets" />
-    <item value="10042" name="Damaged Leggings" />
-    <item value="10043" name="Broken Leggings" />
-    <item value="10044" name="Password Seal icon" />
-    <item value="10045" name="Armor and Sword Blue Aura" />
-  </enum>
   <enum name="AttackAttribute" type="u8">
     <item value="254" name="254 - None" />
     <item value="255" name="255 - Standard" />
@@ -489,7 +443,6 @@
     <name>Icon ID</name>
     <type>s32</type>
     <default>-1</default>
-    <enum>IconID</enum>
   </entry>
   <entry>
     <name>Trigger at HP Below %</name>
@@ -659,7 +612,7 @@
   <entry>
     <name>No Guard Damage %</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Vital Spot Change %</name>
@@ -814,7 +767,7 @@ Bullet Behavior - Requires State Info 334</description>
   <entry>
     <name>Enemy Sight Reduction</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
     <description>Requires State Info 8</description>
   </entry>
   <entry>
@@ -1039,13 +992,13 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
-    <default>0</default>
+    <default>254</default>
     <enum>AttackAttribute</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
-    <default>0</default>
+    <default>254</default>
     <enum>EffectAttribute</enum>
   </entry>
   <entry>
@@ -1576,12 +1529,12 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk6</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk7</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Cast Speed</name>
@@ -1591,12 +1544,12 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk9</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Poise %</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Bonus Damage %: Void</name>
@@ -1691,7 +1644,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Resist: Poison +</name>
     <type>s32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Resist: Scarlet Rot +</name>
@@ -1716,7 +1669,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Damage %: Slash</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Damage %: Strike</name>
@@ -1756,7 +1709,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk19</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk20</name>
@@ -1806,7 +1759,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk33</name>
     <type>u8</type>
-    <default>0</default>
+    <default>100</default>
   </entry>
   <entry>
     <name>Unk37 - Used by Attack Effects</name>
@@ -1826,7 +1779,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk40</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>PVP Absorption %: Physical</name>
@@ -1941,18 +1894,18 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Trigger SpEffect ID</name>
     <type>s16</type>
-    <default>1</default>
+    <default>0</default>
     <enum>StateInfo</enum>
   </entry>
   <entry>
     <name>Unk41</name>
     <type>s8</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk42</name>
     <type>s8</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk43</name>
@@ -1967,47 +1920,47 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk45</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk46</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk47</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk48</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk49</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk50</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk51</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk52</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk53</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk54</name>
@@ -2017,12 +1970,12 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk55</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Skill FP Cost %</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Sorcery FP Cost %</name>
@@ -2035,39 +1988,39 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk56</name>
+    <name>Unused School FP Cost %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
     <name>Unk57</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Crimson Tear - HP Restore</name>
     <type>s32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk58</name>
     <type>s32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Cerulean Tear - FP Restore</name>
     <type>s32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Crimson Tear HP Restore %</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Cerulean Tear FP Restore %</name>
     <type>f32</type>
-    <default>-1</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Kill SpEffect ID</name>
@@ -2077,27 +2030,27 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Effect Duration %</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk59</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk60</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk61</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk62</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Vigor</name>
@@ -2173,17 +2126,17 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk67</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk68</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk69</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Inflict Sleep +</name>
@@ -2198,12 +2151,12 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Resist %: Sleep</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Resist %: Madness</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Resist: Madness +</name>
@@ -2218,7 +2171,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk70</name>
     <type>s16</type>
-    <default>0</default>
+    <default>100</default>
   </entry>
   <entry>
     <name>Unk71</name>
@@ -2243,37 +2196,37 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk75</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk76</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk77</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk78</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk79</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk80</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk81</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk82</name>
@@ -2288,7 +2241,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Unk84</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>Unk85</name>

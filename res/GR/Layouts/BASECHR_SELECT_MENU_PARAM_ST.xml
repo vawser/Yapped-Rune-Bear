@@ -16,7 +16,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Picture ID</name>
+    <name>Unk1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -26,19 +26,8 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
 </layout>
