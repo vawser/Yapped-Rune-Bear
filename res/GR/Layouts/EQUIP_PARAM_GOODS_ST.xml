@@ -57,24 +57,24 @@
     <item value="0" name="SpEffect" />
     <item value="5" name="Bullet" />
   </enum>
-  <entry>
+    <entry>
     <name>Unk1</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Effect ID - Right Hand</name>
+    <name>SpEffect Reference ID</name>
     <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk3</name>
-    <type>f32</type>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -85,12 +85,12 @@
   <entry>
     <name>Sell Value</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Behavior ID</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Replace Item ID</name>
@@ -105,7 +105,7 @@
   <entry>
     <name>Tool ID</name>
     <type>s32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Dialog Message ID</name>
@@ -113,10 +113,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Unk12</name>
     <type>s16</type>
     <default>0</default>
-    <description>Only used for Miquella's Needle., appears to reference SpEffect</description>
   </entry>
   <entry>
     <name>Throwable Type</name>
@@ -126,7 +125,7 @@
   <entry>
     <name>Icon ID</name>
     <type>s16</type>
-    <default>6</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Model ID</name>
@@ -136,22 +135,22 @@
   <entry>
     <name>Shop Level</name>
     <type>s16</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Comp Trophy Sed ID</name>
     <type>s16</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Trophy Seq ID</name>
     <type>s16</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Max Amount</name>
     <type>s16</type>
-    <default>99</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Consume Hero Point</name>
@@ -161,7 +160,7 @@
   <entry>
     <name>Over Dexterity</name>
     <type>u8</type>
-    <default>50</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Goods Type</name>
@@ -182,7 +181,7 @@
     <enum>EffectCategory</enum>
   </entry>
   <entry>
-    <name>Unk40</name>
+    <name>Unk13</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -203,386 +202,43 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk15</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>Vow Type 0</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 1</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 2</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 3</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 4</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 5</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 6</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 7</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 8</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 9</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 10</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 11</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 12</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 13</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 14</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 15</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable Host Player</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable as Phantom</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable as Friendly Phantom</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable as Hostile Phantom</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable in Multiplayer</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable Online Only</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Equippable</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Usable</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Is Auto Equipped</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Guidance Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Unique</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Drop</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Can be Deposited</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Is Exclusive</name>
-    <type>b8</type>
-    <default>False</default>
-    <description>Disables other items that have this set to true.</description>
-  </entry>
-  <entry>
-    <name>Is Travel Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Regenerative Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Regenerative Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Weapon Buff Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Disable Dropping in Multiplayer</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Disable Usage in Multiplayer Arena</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Has Rapid Application</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Throwable Item</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Crimson Tear</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Cerulean Tear</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Effect ID - Left Hand</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reinforce Param Weapon ID</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Vagrant Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Vagrant (Enemy) Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Vagrant (Enemy) Item Lot ID</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Use VFX 1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Use VFX 2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Use VFX 3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Is Not Great Rune/Physick Item</name>
-    <type>b8</type>
-    <default>True</default>
   </entry>
   <entry>
     <name>Unk16</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Can be used on Ladder</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Activatable Item</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Display Use Selected option</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Affect Left-hand</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Pureblood Knight's Medal</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk17</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Regenerative Item Type</name>
-    <type>u8</type>
-    <default>0</default>
-    <enum>RegenerativeItemType</enum>
-  </entry>
-  <entry>
-    <name>Item Display Type</name>
-    <type>u8</type>
-    <default>0</default>
-    <enum>ItemDisplayType</enum>
-  </entry>
-  <entry>
-    <name>Can be Dropped</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Max Number Stored in Itembox</name>
-    <type>s16</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>u8</type>
+    <name>[Boolean Section]</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk20</name>
     <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Is Spirit Summon</name>
-    <type>u8</type>
+    <name>Weapon Reference ID</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk22</name>
-    <type>u8</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk23</name>
-    <type>u8</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -592,16 +248,76 @@
   </entry>
   <entry>
     <name>Unk25</name>
-    <type>u8</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk26</name>
-    <type>s8</type>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk27</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>[Boolean Section]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Max Number Stored in Itembox</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk30</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Spirit Summon</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk32</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk33</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk34</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -621,51 +337,44 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk34</name>
+    <name>Unk37</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk35</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <name>Unk38</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unk36</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <name>Unk39</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk40</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk41</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk42</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk43</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk44</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
 
 </layout>
