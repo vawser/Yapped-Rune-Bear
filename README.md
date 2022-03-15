@@ -12,11 +12,7 @@ To edit params and have them used by the game, you need to first unpack and patc
 Once unpacked, open the regulation.bin file found in the ELDEN RING\Game with Yapped.
 
 # Issues
-Note that the layouts are incomplete, so using altered params in-game may result in bugged behavior:
-
-Current known bugs:
- - Saving the EquipParamGoods will result in bugged behavior with Torrent and item UI notifications.
-  - You can workaround this by ensuring the "Params to Ignore" setting has "EquipParamGoods" in its setting string.
+Note that the layouts are incomplete, so using altered params in-game may result in unintended behavior.
 
 # Warning
 
