@@ -884,7 +884,7 @@ Bullet Behavior - Requires State Info 334</description>
 Enemies - Requires State Info 152</description>
   </entry>
   <entry>
-    <name>Guard Defense Flick Power %</name>
+    <name>Guard Defense Weapon Repel Power %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -950,12 +950,12 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Defence Flick Power</name>
+    <name>Weapon Repel Power</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Flick Absorption %</name>
+    <name>Weapon Repel Absorption %</name>
     <type>u8</type>
     <default>0</default>
   </entry>

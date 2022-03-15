@@ -520,29 +520,28 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
     <entry>
-    <name>Unk1</name>
+    <name>Unk3</name>
     <type>s8</type>
     <default>0</default>
   </entry>
-
   <entry>
     <name>Regainable Slot ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Death Cause ID</name>
-    <type>s32</type>
+    <name>Unk40</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -946,17 +945,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>0x174</name>
+    <name>Unk4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0x178</name>
+    <name>Unk5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>0x17C</name>
+    <name>Unk6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -996,37 +995,37 @@
     <default>True</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk7</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk8</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk9</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk10</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk11</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18A</name>
+    <name>Unk12</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x18B</name>
+    <name>Unk13</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1066,107 +1065,92 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Attack Element Correct Id</name>
+    <name>Attack Element Correct ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
     <entry>
-    <name>Unk2</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-    <entry>
-    <name>Unk13</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Unk14</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk15</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk16</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk17</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk18</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk19</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk20</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+    <entry>
+    <name>Unk26</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk28</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk30</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk32</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk33</name>
     <type>s32</type>
     <default>0</default>
   </entry>

@@ -45,6 +45,31 @@
     <item value="63" name="63 - Unknown" />
     <item value="66" name="66 - Unknown" />
   </enum>
+  <enum name="DropType" type="s16">
+    <item value="0" name="0 - Corpse Emission" />
+	<item value="1" name="1 - Item Display" />
+  </enum>
+  <enum name="NPCType" type="u8">
+    <item value="0" name="0 - Standard" />
+	<item value="1" name="1 - Boss" />
+  </enum>
+  <enum name="MoveType" type="u8">
+    <item value="0" name="0 - Immobile Character" />
+	<item value="1" name="1 - Lumbering" />
+	<item value="2" name="2 - Tree Spirit" />
+	<item value="3" name="3 - Humanoid" />
+	<item value="4" name="4 - Beast" />
+	<item value="6" name="6 - Immobile Object" />
+	<item value="8" name="8 - Floating" />
+	<item value="9" name="9 - Ancient Dragon" />
+	<item value="11" name="11 - Wandering" />
+	<item value="12" name="12 - Still" />
+	<item value="13" name="13 - Swift" />
+  </enum>
+  <enum name="HitStopType" type="u8">
+    <item value="0" name="0 - Perform Hit Stop" />
+	<item value="1" name="1 - No Hit Stop" />
+  </enum>
   <entry>
     <name>Unk10</name>
     <type>s32</type>
@@ -231,12 +256,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Move Anim ID 1</name>
+    <name>Special Move Anim ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Move Anim ID 2</name>
+    <name>Special Move Anim ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -244,6 +269,7 @@
     <name>Network Warp Display</name>
     <type>f32</type>
     <default>16</default>
+    <description>Distance to warp instead of complementary movement in network synchronization. Faster entiries need to be longer.</description>
   </entry>
   <entry>
     <name>Debug Behavior R1</name>
@@ -306,7 +332,7 @@
     <default>700</default>
   </entry>
   <entry>
-    <name>Anim ID Offset</name>
+    <name>Anim ID Offset 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -411,7 +437,7 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Flick Power</name>
+    <name>Weapon Repel Power</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -441,7 +467,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Normal Change Resource ID</name>
+    <name>Override Resource Chr ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -466,12 +492,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Poise (Obsolete)</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Normal Change Texture Chr ID</name>
+    <name>Override Texture Chr ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -479,9 +505,10 @@
     <name>Drop Type</name>
     <type>s16</type>
     <default>0</default>
+    <enum>DropType</enum>
   </entry>
   <entry>
-    <name>Knockback Rate</name>
+    <name>Received Knockback %</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -491,7 +518,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Fall Damage Damp</name>
+    <name>Fall Damage Reduction %</name>
     <type>u8</type>
     <default>75</default>
   </entry>
@@ -546,7 +573,7 @@
     <default>10</default>
   </entry>
   <entry>
-    <name>Flick Absorption</name>
+    <name>Weapon Repel Absorption</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -564,6 +591,7 @@
     <name>NPC Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPCType</enum>
   </entry>
   <entry>
     <name>Team Type</name>
@@ -575,6 +603,7 @@
     <name>Move Type</name>
     <type>u8</type>
     <default>3</default>
+    <enum>MoveType</enum>
   </entry>
   <entry>
     <name>Lock Distance</name>
@@ -582,24 +611,25 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Material</name>
+    <name>SE Material</name>
     <type>s16</type>
     <default>110</default>
   </entry>
   <entry>
-    <name>Material SFX</name>
+    <name>SFX Material</name>
     <type>s16</type>
     <default>110</default>
   </entry>
   <entry>
-    <name>Parts Damage Type</name>
+    <name>Parts Damage - Attack Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Max Unduration Angle</name>
+    <name>Max Undulation Angle</name>
     <type>u8</type>
     <default>0</default>
+    <description>Upper limit angle when adjusting the angle to the undulations. If the total length is long, it is better to set it lower.</description>
   </entry>
   <entry>
     <name>Guard Level</name>
@@ -632,12 +662,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Parry Attack</name>
+    <name>Parry Attack Power</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Parry Defence</name>
+    <name>Parry Defence Power</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -652,9 +682,10 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit Stope Type</name>
+    <name>Hit Stop Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>HitStopType</enum>
   </entry>
   <entry>
     <name>Ladder End Check Offset Top</name>
@@ -667,7 +698,7 @@
     <default>8</default>
   </entry>
   <entry>
-    <name>Use Ragdoll Cam Hit</name>
+    <name>Use Ragdoll Camera Hit</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -695,16 +726,19 @@
     <name>Is No Damage Motion</name>
     <type>b8</type>
     <default>False</default>
+    <description>Do not play the damage motion when the damage is 0.</description>
   </entry>
   <entry>
-    <name>Is Unduration</name>
+    <name>Is Undulating</name>
     <type>b8</type>
     <default>False</default>
+    <description>Do you match the back and forth rotation of the character with the undulations of the ground? Cannot be used for flying characters.</description>
   </entry>
   <entry>
-    <name>Is Change Wander Ghost</name>
+    <name>Is Wandering Ghost</name>
     <type>b8</type>
     <default>False</default>
+    <description>Will it be a wandering ghost when the player is a client.</description>
   </entry>
   <entry>
     <name>Model Display Mask 0</name>
@@ -792,17 +826,17 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Disable Respawn</name>
+    <name>Disable Respawn upon Rest</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Move Anim Wait</name>
+    <name>Play Movement Anim until Over</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Crowd</name>
+    <name>Reduce Processing Load during Crowds</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -948,17 +982,17 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Item Search Radius</name>
+    <name>Item Pickup Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sub Hit Height</name>
+    <name>Sub-capsule - Hit Height</name>
     <type>f32</type>
     <default>1.9</default>
   </entry>
   <entry>
-    <name>Sub Hit Radius</name>
+    <name>Sub-capsule - Hit Radius</name>
     <type>f32</type>
     <default>0.4</default>
   </entry>
