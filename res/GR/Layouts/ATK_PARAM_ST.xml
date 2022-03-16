@@ -1069,45 +1069,30 @@
     <type>s32</type>
     <default>-1</default>
   </entry>
-    <entry>
-    <name>Unk14</name>
+  <entry>
+    <name>Unk14a</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Unk14b</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Unk14c</name>
     <type>s8</type>
-    <default>100</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Unk14d</name>
     <type>s8</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk18</name>
-    <type>s8</type>
-    <default>100</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s8</type>
-    <default>0</default>
+    <type>s32</type>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Unk22</name>
@@ -1125,7 +1110,7 @@
     <default>255</default>
   </entry>
   <entry>
-    <name>Unk28</name>
+    <name>Attack Correction: Posture</name>
     <type>f32</type>
     <default>0</default>
   </entry>
