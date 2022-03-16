@@ -341,22 +341,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage: Stamina</name>
+    <name>Damage: Stamina/Posture</name>
     <type>s16</type>
     <default>30</default>
   </entry>
   <entry>
-    <name>Damage: Poise</name>
+    <name>Unk90</name>
     <type>s16</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Poise Durability</name>
+    <name>Unk91</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk90</name>
+    <name>Unk92</name>
     <type>s16</type>
     <default>60</default>
     <description>Was Guard Angle</description>
@@ -380,7 +380,7 @@
     <description>Determines if this weapon is part of an achievement.</description>
   </entry>
   <entry>
-    <name>Unk91</name>
+    <name>Unk93</name>
     <type>s16</type>
     <default>-1</default>
     <description>Was Trophy Seq ID</description>
@@ -404,7 +404,7 @@
     <description>Always 7</description>
   </entry>
   <entry>
-    <name>Unk92</name>
+    <name>Unk94</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Equip Model Gender</description>
@@ -438,7 +438,7 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Unk93</name>
+    <name>Unk95</name>
     <type>u8</type>
     <default>0</default>
     <description>Was Defence SFX Material</description>

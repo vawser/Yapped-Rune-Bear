@@ -708,10 +708,21 @@
 30050 NPC: Disable Sleep
 30060 NPC: Disable Madness
 30100 NPC: Disable All Status
+90000 NPC: Disable Poison - Boolean
+90010 NPC: Disable Scarlet Rot - Boolean
+90020 NPC: Disable Hemorrhage - Boolean
+90030 NPC: Disable Blight - Boolean
+90040 NPC: Disable Frostbite
 90100 NPC: Ignore Fake Targets - All
 90110 NPC: Ignore Fake Targets - Normal
 90120 NPC: Ignore Fake Targets - Undead
 90130 NPC: Ignore Fake Targets - Animal
+90140 Unk71 - 2
+90150 Unk71 - 4
+90160 NPC: Ignore Fake Targets - Normal and Undead
+90161 NPC: Ignore Fake Targets - Animal
+90162 NPC: Ignore Fake Targets - Undead and Animal
+90200 NPC: Enable Charm
 105000 Hemorrhage - Low - Addition +0
 105001 Hemorrhage - Low - Addition +1
 105002 Hemorrhage - Low - Addition +2
@@ -2944,3 +2955,8 @@
 9100000 Stagger Resistance - Weak
 9100010 Stagger Resistance - Medium
 9100020 Stagger Resistance - Strong
+9199999 ### Weapons ###
+9200000 Sacred
+9299999 ### Talismans ###
+9300000 TEST Talisman
+9300001 TEST Talisman [Cycle]

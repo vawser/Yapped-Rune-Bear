@@ -46,7 +46,7 @@
     <name>Equip Type</name>
     <type>u8</type>
     <default>0</default>
-    
+    <enum>EquipType</enum>
   </entry>
   <entry>
     <name>Value (SAN)</name>

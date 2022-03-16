@@ -1217,22 +1217,22 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Disable Poison</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Disable Scarlet Rot</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Disable Hemorrhage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Disable Blight</name>
     <type>b8</type>
     <default>False</default>
   </entry>
