@@ -21,34 +21,44 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
+    <name>Spawn Offset: X</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Spawn Offset: Y</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Spawn Offset: Z</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk9</name>
-    <type>s32</type>
+    <type>s8</type>
     <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
   <entry>
     <name>Reinforcement SpEffect: +0</name>
@@ -116,9 +126,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
 
 </layout>
