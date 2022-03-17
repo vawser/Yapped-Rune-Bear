@@ -371,11 +371,10 @@
   </enum>
   <enum name="EffectCategory" type="s16">
     <item value="0" name="0 - None" />
-    <item value="1" name="1 - Persist through Death" />
 	<item value="10" name="10 - Stack Self" />
 	<item value="20" name="20 - Reset on Apply" />
     <item value="100" name="100 - Remove Previous" />
-	<item value="110" name="110 - Remove Previous (Resonance)" />
+	<item value="110" name="110 - Remove Previous" />
 	<item value="120" name="120 - Remove Previous" />
     <item value="130" name="130 - Remove Previous" />
     <item value="131" name="131 - Remove Previous" />
@@ -383,20 +382,20 @@
     <item value="133" name="133 - Remove Previous" />
     <item value="140" name="140 - Remove Previous" />
     <item value="150" name="150 - Remove Previous" />
-	<item value="151" name="151 - Remove Previous (Body Buff)" />
-    <item value="152" name="152 - Remove Previous (Body Buff)" />
+	<item value="151" name="151 - Remove Previous" />
+    <item value="152" name="152 - Remove Previous" />
     <item value="153" name="153 - Remove Previous" />
-	<item value="154" name="154 - Remove Previous (Spook)" />
+	<item value="154" name="154 - Remove Previous" />
     <item value="155" name="155 - Remove Previous" />
-	<item value="156" name="156 - Remove Previous (Stamina Recovery)" />
-    <item value="157" name="157 - Remove Previous (Body Buff)" />
+	<item value="156" name="156 - Remove Previous" />
+    <item value="157" name="157 - Remove Previous" />
     <item value="158" name="158 - Remove Previous" />
     <item value="159" name="159 - Remove Previous" />
-	<item value="160" name="160 - Remove Previous (Body Buff)" />
-	<item value="161" name="161 - Remove Previous (Body Buff)" />
-	<item value="162" name="162 - Remove Previous (Right-hand)" />
-	<item value="163" name="163 - Remove Previous (Left-hand)" />
-    <item value="164" name="164 - Remove Previous (Wet Aspect)" />
+	<item value="160" name="160 - Remove Previous" />
+	<item value="161" name="161 - Remove Previous" />
+	<item value="162" name="162 - Remove Previous" />
+	<item value="163" name="163 - Remove Previous" />
+    <item value="164" name="164 - Remove Previous" />
     <item value="165" name="165 - Remove Previous" />
     <item value="166" name="166 - Remove Previous" />
     <item value="167" name="167 - Remove Previous" />
@@ -409,9 +408,11 @@
 	<item value="1002" name="1002 - Apply Highest (Category Priority)" />
 	<item value="1003" name="1003 - Apply Highest (Category Priority)" />
 	<item value="1004" name="1004 - Apply Highest (Category Priority)" />
+	<item value="1005" name="1005 - Apply Highest (Category Priority)" />
+	<item value="1006" name="1006 - Apply Highest (Category Priority)" />
     <item value="10000" name="10000 - Apply First" />
 	<item value="10001" name="10001 - Apply First (Damage Level Change)" />
-    <item value="10002" name="10002 - Apply First (Dragonform)" />
+    <item value="10002" name="10002 - Apply First " />
 	<item value="10003" name="10003 - Apply First (Hemorrhage)" />
 	<item value="10004" name="10004 - Apply First (Poison)" />
 	<item value="10005" name="10005 - Apply First (Scarlet Rot)" />
