@@ -16,9 +16,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
    <entry>
     <name>Map Area</name>
@@ -41,17 +41,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Coodinate: X</name>
+    <name>Map Coodinate: X</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Coodinate: Y</name>
+    <name>Map Coodinate: Y</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Coodinate: Z</name>
+    <name>Map Coodinate: Z</name>
     <type>f32</type>
     <default>0</default>
   </entry>

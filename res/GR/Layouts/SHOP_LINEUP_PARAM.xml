@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="EquipType" type="u8">
-    <item value="0" name="Weapon" />
-	<item value="1" name="Armor" />
-	<item value="2" name="Accessory" />
-    <item value="3" name="Good" />
-    <item value="4" name="Ashes" />
+    <item value="0" name="0 - Weapon" />
+	<item value="1" name="1 - Armor" />
+	<item value="2" name="2 - Accessory" />
+    <item value="3" name="3 - Good" />
+    <item value="4" name="4 - Ashes" />
+  </enum>
+  <enum name="CurrencyType" type="s16">
+    <item value="0" name="0 - Runes" />
+    <item value="1" name="1 - Dragon Heart" />
+    <item value="2" name="2 - Starlight Shard" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - Lost Ashes of War" />
   </enum>
   <entry>
     <name>Equip ID</name>
@@ -38,9 +45,9 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Shop Type</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
   <entry>
     <name>Equip Type</name>
@@ -49,9 +56,10 @@
     <enum>EquipType</enum>
   </entry>
   <entry>
-    <name>Value (SAN)</name>
+    <name>Currency Type</name>
     <type>s16</type>
-    <default>-1</default>
+    <default>0</default>
+    <enum>CurrencyType</enum>
   </entry>
   <entry>
     <name>Quantity Produced</name>
@@ -59,14 +67,9 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s16</type>
-    <default>-1</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
   <entry>
     <name>Price Rate</name>
@@ -79,13 +82,13 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Shop Description Item</name>
+    <name>Shop Display ID</name>
     <type>s32</type>
     <default>0</default>
     <description>References a item that has a different description. Used for the Note items so you must buy them first.</description>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Spell Instruction - Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -100,14 +103,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
 
 </layout>

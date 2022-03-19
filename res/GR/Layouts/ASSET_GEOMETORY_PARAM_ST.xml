@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
+   <entry>
     <name>Unk0</name>
     <type>s32</type>
     <default>0</default>
@@ -16,13 +16,43 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Unk3a</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Unk3b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4a</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4b</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -56,13 +86,43 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Unk11a</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Unk11b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk11d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk12d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -71,13 +131,43 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>f32</type>
+    <name>Unk14a</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>Unk14b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14d</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -111,8 +201,23 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
+    <name>Unk22a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22c</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22d</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -271,8 +376,23 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk54</name>
-    <type>s32</type>
+    <name>Unk54a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk54b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk54c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk54d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -321,8 +441,23 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>s32</type>
+    <name>Unk64a</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk64b</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk64c</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk64d</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>

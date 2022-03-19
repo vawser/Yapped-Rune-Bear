@@ -20,6 +20,10 @@
     <item value="2" name="0 - Sorcery Catalyst" />
     <item value="3" name="0 - Incantation Catalyst" />
   </enum>
+  <enum name="AshOfWarType" type="s8">
+    <item value="0" name="0 - Prevent Change" />
+    <item value="2" name="2 - Allow Change" />
+  </enum>
   <entry>
     <name>Unk1</name>
     <type>s32</type>
@@ -801,7 +805,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Prevent Affinity Change</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1001,10 +1005,9 @@
     <description>Used by Ammunition to automatically equip into an empty arrow or bolt slot.</description>
   </entry>
   <entry>
-    <name>Unk32</name>
+    <name>Is Normal Weapon</name>
     <type>b8</type>
     <default>True</default>
-    <description>Set False for Throwables, some Shields and Ammunition</description>
   </entry>
   <entry>
     <name>Unk33</name>
@@ -1412,9 +1415,10 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk63</name>
+    <name>Ash of War Type</name>
     <type>s8</type>
     <default>0</default>
+    <enum>AshOfWarType</enum>
   </entry>
   <entry>
     <name>Unk64</name>

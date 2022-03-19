@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
+  <enum name="DisplayCategoryID" type="u8">
+    <item value="10" name="10 - Heavy" />
+	<item value="20" name="20 - Keen" />
+	<item value="30" name="30 - Quality" />
+    <item value="40" name="40 - Magic" />
+    <item value="50" name="50 - Fire" />
+    <item value="80" name="80 - Sacred" />
+    <item value="90" name="90 - Aux" />
+    <item value="120" name="120 - Occult" />
+    <item value="130" name="130 - Bow" />
+    <item value="140" name="140 - Shield" />
+    <item value="255" name="255 - None" />
+  </enum>
+  <enum name="BaseAffinitySet" type="s32">
+    <item value="0" name="0 - Standarrd" />
+	<item value="2047" name="2047 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
+	<item value="65537" name="65537 - Standard" />
+    <item value="65599" name="65599 - Standard" />
+    <item value="65743" name="65743 - Standard/Lightning/Sacred" />
+    <item value="66111" name="66111 - Standard/Cold" />
+    <item value="66127" name="66127 - Standard/Lightning/Cold" />
+    <item value="66319" name="66319 - Standard/Magic/Cold" />
+    <item value="66560" name="66560 - Standard/Poison" />
+    <item value="66063" name="66063 - Standard/Cold" />
+    <item value="67583" name="67583 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
+    <item value="70287" name="70287 - Standard/Sacred/Cold/Occult" />
+    <item value="72719" name="72719 - Standard/Poison/Blood/Occult" />
+    <item value="73727" name="73727 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
+    <item value="131073" name="131073 - Standard" />
+    <item value="131135" name="131135 - Standard" />
+    <item value="131279" name="131279 - Standard/Lightning/Sacred" />
+    <item value="131855" name="131855 - Standard/Magic/Cold" />
+    <item value="138255" name="138255 - Standard/Poison/Blood/Occult" />
+    <item value="139263" name="139263 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
+    <item value="197391" name="197391 - Standard/Magic/Cold" />
+    <item value="204799" name="204799 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
+  </enum>
+  <enum name="AdditionalAffinity" type="s32">
+    <item value="0" name="0 - None" />
+    <item value="98" name="98 - Standard" />
+	<item value="103" name="103 - Standard" />
+	<item value="359" name="359 - Heavy" />
+	<item value="615" name="615 - Keen" />
+	<item value="871" name="871 - Quality" />
+	<item value="1127" name="1127 - Fire" />
+	<item value="1383" name="1383 - Flame Art" />
+	<item value="1639" name="1639 - Lightning" />
+	<item value="1895" name="1895 - Sacred" />
+	<item value="2151" name="2151 - Magic" />
+	<item value="2407" name="2407 - Cold" />
+	<item value="2663" name="2663 - Poison" />
+	<item value="2919" name="2919 - Blood" />
+	<item value="3175" name="3175 - Occult" />
+  </enum>
+  <entry>
     <name>Unk0</name>
     <type>s32</type>
     <default>0</default>
@@ -16,9 +70,10 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Display Category ID</name>
     <type>u8</type>
     <default>0</default>
+    <enum>DisplayCategoryID</enum>
   </entry>
   <entry>
     <name>Unk3</name>
@@ -47,9 +102,8 @@
   </entry>
   <entry>
     <name>Unk7</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk8</name>
@@ -72,69 +126,218 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
+    <name>Base Affinity Set</name>
     <type>s32</type>
     <default>0</default>
+    <enum>BaseAffinitySet</enum>
+    <description>Probably set of booleans, but this is easier for now.</description>
+  </entry>
+  <entry>
+    <name>Additional Affinity</name>
+    <type>s32</type>
+    <default>0</default>
+    <enum>AdditionalAffinity</enum>
+    <description>Probably set of booleans, but this is easier for now.</description>
+  </entry>
+  <entry>
+    <name>Available: Dagger</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Straight Sword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Greatsword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Colossal Sword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Curved Sword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Curved Greatsword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Katana</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Twinblade</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Thrusting Sword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Heavy Thrusting Sword</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Hammer</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Great Hammer</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Axe</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Greataxe</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Flail</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Spear</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Unknown 1</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Great Spear</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Halberd</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Reaper</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Fist</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Claw</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Whip</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Colossal Weapon</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Light Bow</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Bow</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Greatbow</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Crossbow</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Unknown 2</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Staff</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Unknown 3</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Unknown 4</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Small Shield</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Medium Shield</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Greatshield</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Available: Torch</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk94</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk95</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk96</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk97</name>
+    <type>b32</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Unk16</name>
@@ -162,21 +365,19 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Compatibility - Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk22</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Unk23</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
 
 </layout>
