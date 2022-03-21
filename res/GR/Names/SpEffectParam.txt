@@ -442,6 +442,7 @@
 15452 Godskin Apostle - Bullet
 15467 Godskin Apostle
 15511 Godskin Noble
+16316 Spirit Summon - Fade In
 16414 Elemer of the Briar
 16482 Fallingstar Beast - Bullet
 16488 Fallingstar Beast
@@ -463,7 +464,12 @@
 18417 NPC: HP Recovery on Hit
 18418 NPC: HP Recovery on Hit
 18419 NPC: HP Recovery on Hit
+18430 Malenia - Scarlet Rot
+18431 Malenia - Scarlet Rot
+18432 Malenia - Scarlet Rot
+18433 Malenia - Scarlet Rot
 18454 Malenia - Bullet
+18699 Spirit Summon - Phantom Color
 18731 Melina - HP Recovery
 20000 NPC: Poison
 20001 NPC: Poison
@@ -708,10 +714,21 @@
 30050 NPC: Disable Sleep
 30060 NPC: Disable Madness
 30100 NPC: Disable All Status
+90000 NPC: Disable Poison - Boolean
+90010 NPC: Disable Scarlet Rot - Boolean
+90020 NPC: Disable Hemorrhage - Boolean
+90030 NPC: Disable Blight - Boolean
+90040 NPC: Disable Frostbite
 90100 NPC: Ignore Fake Targets - All
 90110 NPC: Ignore Fake Targets - Normal
 90120 NPC: Ignore Fake Targets - Undead
 90130 NPC: Ignore Fake Targets - Animal
+90140 Unk71 - 2
+90150 Unk71 - 4
+90160 NPC: Ignore Fake Targets - Normal and Undead
+90161 NPC: Ignore Fake Targets - Animal
+90162 NPC: Ignore Fake Targets - Undead and Animal
+90200 NPC: Enable Charm
 105000 Hemorrhage - Low - Addition +0
 105001 Hemorrhage - Low - Addition +1
 105002 Hemorrhage - Low - Addition +2
@@ -2396,6 +2413,39 @@
 290158 Spirit Summon Adjustment - Jarwright Puppet +8
 290159 Spirit Summon Adjustment - Jarwright Puppet +9
 290160 Spirit Summon Adjustment - Jarwright Puppet +10
+290200 Spirit Summon Adjustment - Mimic Tear +0
+290201 Spirit Summon Adjustment - Mimic Tear +1
+290202 Spirit Summon Adjustment - Mimic Tear +2
+290203 Spirit Summon Adjustment - Mimic Tear +3
+290204 Spirit Summon Adjustment - Mimic Tear +4
+290205 Spirit Summon Adjustment - Mimic Tear +5
+290206 Spirit Summon Adjustment - Mimic Tear +6
+290207 Spirit Summon Adjustment - Mimic Tear +7
+290208 Spirit Summon Adjustment - Mimic Tear +8
+290209 Spirit Summon Adjustment - Mimic Tear +9
+290210 Spirit Summon Adjustment - Mimic Tear +10
+295900 Spirit Summon -
+295901 Spirit Summon -
+295902 Spirit Summon -
+295910 Spirit Summon -
+296000 Spirit Summon - Damage/Absorption Setup
+296010 Spirit Summon - Damage/Absorption Setup
+296011 Spirit Summon - Damage/Absorption Setup
+296106 Spirit Summon - Damage/Absorption Setup
+296110 Spirit Summon - Damage/Absorption Setup
+296117 Spirit Summon - Damage/Absorption Setup
+296122 Spirit Summon - Damage/Absorption Setup
+296156 Spirit Summon - Damage/Absorption Setup
+296159 Spirit Summon - Damage/Absorption Setup
+297000 Spirit Summon -
+297100 Spirit Summon -
+297101 Spirit Summon -
+297102 Spirit Summon -
+297103 Spirit Summon -
+297200 Spirit Summon -
+297800 Spirit Summon -
+297810 Spirit Summon -
+297811 Spirit Summon -
 310000 Crimson Amber Medallion
 310010 Crimson Amber Medallion +1
 310020 Crimson Amber Medallion +2
@@ -2748,7 +2798,7 @@
 1624010 [Incantation] Noble Presence
 1625000 [Incantation] Black Flame Ritual
 1626000 [Incantation] Black Flame Blade
-1626001 [Incantation] Black Flame Blade
+1626001 [Incantation] Black Flame Blade [Attack]
 1627000 [Incantation] Black Flame's Protection
 1627001 [Incantation] Black Flame's Protection
 1630000 [Incantation] Bloodflame Talons
@@ -2929,3 +2979,11 @@
 5321400 Icon Shield - Grant HP Restoration
 5322200 Ant's Skull Plate - Raise Immunity
 5322400 Eclipse Crest Greatshield - Raise Immunity, Robustness and Focus
+9099999 ### Armor ###
+9100000 Stagger - Resistance - Weak
+9100010 Stagger - Resistance - Medium
+9100020 Stagger - Resistance - Strong
+9199999 ### Talismans ###
+9200000 Voidbane Talisman
+9200010 Deathbane Talisman
+9200020 Dragonbane Talisman

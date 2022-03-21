@@ -10,6 +10,7 @@
 100015 [Gatekeeper Gostoc] Bandit Manchettes
 100016 [Gatekeeper Gostoc] Bandit Boots
 100017 [Gatekeeper Gostoc] Bandit Garb
+100018 [Gatekeeper Gostoc] Ancient Dragon Smithing Stone
 100025 Memory Stone
 100025 Memory Stone
 100026 Stonesword Key
@@ -185,6 +186,7 @@
 100544 [Merchant - North Limgrave] Arrow
 100545 [Merchant - North Limgrave] Bolt
 100546 [Merchant - North Limgrave] Bandit Mask
+100547 [Merchant - North Limgrave] Smithing Stone [1]
 100550 [Merchant - East Limgrave] Nomadic Warrior's Cookbook [5]
 100551 [Merchant - East Limgrave] Armorer's Cookbook [3]
 100552 [Merchant - East Limgrave] Sliver of Meat
@@ -198,6 +200,7 @@
 100564 [Merchant - East Limgrave] Riveted Wooden Shield
 100565 [Merchant - East Limgrave] Blue-Gold Kite Shield
 100566 [Merchant - East Limgrave] St. Trina's Arrow
+100567 [Merchant - East Limgrave] Smithing Stone [1]
 100575 [Merchant - Coastal Cave] Armorer's Cookbook [2]
 100576 [Merchant - Coastal Cave] Note: Stonedigger Trolls
 100585 [Merchant - Coastal Cave] Note: Land Squirts
@@ -210,6 +213,7 @@
 100592 [Merchant - Coastal Cave] Neutralizing Boluses
 100593 [Merchant - Coastal Cave] Stanching Boluses
 100594 [Merchant - Coastal Cave] Stimulating Boluses
+100595 [Merchant - Coastal Cave] Smithing Stone [1]
 100600 [Merchant - East Weeping Peninsula] Stonesword Key
 100601 [Merchant - East Weeping Peninsula] Kukri
 100602 [Merchant - East Weeping Peninsula] Red Thorn Roundshield
@@ -227,9 +231,21 @@
 100614 [Merchant - East Weeping Peninsula] Scale Armor
 100615 [Merchant - East Weeping Peninsula] Iron Gauntlets
 100616 [Merchant - East Weeping Peninsula] Leather Trousers
+100617 [Merchant - East Weeping Peninsula] Smithing Stone [1]
+100618 [Merchant - East Weeping Peninsula] Smithing Stone [2]
 100625 [Merchant - Liurnia of the Lakes] Nomadic Warrior's Cookbook [11]
-100633 [Merchant - Liurnia of the Lakes] Estoc
-100634 [Merchant - Liurnia of the Lakes] Kite Shield
+100626 [Merchant - Liurnia of the Lakes] Estoc
+100627 [Merchant - Liurnia of the Lakes] Kite Shield
+100628 [Merchant - Liurnia of the Lakes] Astrologer Hood
+100629 [Merchant - Liurnia of the Lakes] Astrologer Robe
+100630 [Merchant - Liurnia of the Lakes] Astrologer Gloves
+100631 [Merchant - Liurnia of the Lakes] Astrologer Trousers
+100632 [Merchant - Liurnia of the Lakes] Lantern
+100633 [Merchant - Liurnia of the Lakes] Astrologer's Staff
+100634 [Merchant - Liurnia of the Lakes] Arrow
+100635 [Merchant - Liurnia of the Lakes] Bolt
+100636 [Merchant - Liurnia of the Lakes] Smithing Stone [1]
+100637 [Merchant - Liurnia of the Lakes] Smithing Stone [2]
 100650 [Isolated Merchant - Weeping Peninsula] Note: Walking Mausoleum
 100652 [Isolated Merchant - Weeping Peninsula] Stonesword Key
 100654 [Isolated Merchant - Weeping Peninsula] Arteria Leaf
@@ -241,6 +257,8 @@
 100661 [Isolated Merchant - Weeping Peninsula] Arrow
 100662 [Isolated Merchant - Weeping Peninsula] Bolt
 100663 [Isolated Merchant - Weeping Peninsula] Great Arrow
+100664 [Isolated Merchant - Weeping Peninsula] Festering Bloody Finger
+100665 [Isolated Merchant - Weeping Peninsula] Smithing Stone [2]
 100675 [Merchant - Academy of Raya Lucaria] Fevor's Cookbook [2]
 100676 [Merchant - Academy of Raya Lucaria] Trina's Lily
 100678 [Merchant - Academy of Raya Lucaria] Eye of Yelough
@@ -256,6 +274,8 @@
 100692 [Merchant - Academy of Raya Lucaria] Blue Cloth Vest
 100693 [Merchant - Academy of Raya Lucaria] Warrior Gauntlets
 100694 [Merchant - Academy of Raya Lucaria] Warrior Greaves
+100695 [Merchant - Academy of Raya Lucaria] Festering Bloody Finger
+100696 [Merchant - Academy of Raya Lucaria] Note: The Preceptor's Secret
 100700 [Merchant - North Liurnia] Nomadic Warrior's Cookbook [13]
 100704 [Merchant - North Liurnia] Composite Bow
 100705 [Merchant - North Liurnia] Rift Shield
@@ -268,16 +288,24 @@
 100719 [Merchant - North Liurnia] Invigorating White Cured Meat
 100720 [Merchant - North Liurnia] Clarifying White Cured Meat
 100725 [Hermit Merchant - Leyndell] Perfume Bottle
-100734 [Hermit Merchant - Leyndell] Golden Great Arrow
-100735 [Hermit Merchant - Leyndell] Sentry's Torch
-100736 [Hermit Merchant - Leyndell] Rune Arc
-100737 [Hermit Merchant - Leyndell] Golden Sunflower
-100738 [Hermit Merchant - Leyndell] Distinguished Greatshield
-100739 [Hermit Merchant - Leyndell] Arrow
-100740 [Hermit Merchant - Leyndell] Golden Arrow
-100741 [Hermit Merchant - Leyndell] Bolt
-100742 [Hermit Merchant - Leyndell] Golden Bolt
-100743 [Hermit Merchant - Leyndell] Great Arrow
+100726 [Hermit Merchant - Leyndell] Golden Great Arrow
+100727 [Hermit Merchant - Leyndell] Sentry's Torch
+100728 [Hermit Merchant - Leyndell] Rune Arc
+100729 [Hermit Merchant - Leyndell] Golden Sunflower
+100730 [Hermit Merchant - Leyndell] Distinguished Greatshield
+100731 [Hermit Merchant - Leyndell] Arrow
+100732 [Hermit Merchant - Leyndell] Golden Arrow
+100733 [Hermit Merchant - Leyndell] Bolt
+100734 [Hermit Merchant - Leyndell] Golden Bolt
+100735 [Hermit Merchant - Leyndell] Great Arrow
+100736 [Hermit Merchant - Leyndell] Ballista Bolt
+100737 [Hermit Merchant - Leyndell] Upper-Class Robe
+100738 [Hermit Merchant - Leyndell] Consort's Trousers
+100739 [Hermit Merchant - Leyndell] Prophet Blindfold
+100740 [Hermit Merchant - Leyndell] Prophet Trousers
+100741 [Hermit Merchant - Leyndell] Prophet Robe
+100742 [Hermit Merchant - Leyndell] Festering Bloody Finger
+100743 [Hermit Merchant - Leyndell] Note: Below the Capital
 100750 [Merchant - Altus Plateau] Ancient Dragon Apostle's Cookbook [2]
 100751 [Merchant - Altus Plateau] Note: Imp Shades
 100752 [Merchant - Altus Plateau] Note: Unseen Assassins
@@ -290,6 +318,7 @@
 100768 [Merchant - Altus Plateau] Arrow
 100769 [Merchant - Altus Plateau] Bolt
 100770 [Merchant - Altus Plateau] Tree Surcoat
+100771 [Merchant - Altus Plateau] Festering Bloody Finger
 100775 [Merchant - Mt. Gelmir] Nomadic Warrior's Cookbook [20]
 100777 [Merchant - Mt. Gelmir] Stonesword Key
 100784 [Merchant - Mt. Gelmir] Explosive Greatbolt
@@ -339,6 +368,7 @@
 100890 [Isolated Merchant - Dragonbarrow] Arrow
 100891 [Isolated Merchant - Dragonbarrow] Serpent Arrow
 100892 [Isolated Merchant - Dragonbarrow] Bolt
+100893 [Isolated Merchant - Dragonbarrow] Festering Bloody Finger
 100900 [Merchant - Mountaintops of the Giants] Missionary's Cookbook [7]
 100901 [Merchant - Mountaintops of the Giants] Stonesword Key
 100903 [Merchant - Mountaintops of the Giants] Thawfrost Boluses
@@ -507,6 +537,10 @@
 101875 [Twin Maiden Husks] Knight Armor
 101876 [Twin Maiden Husks] Knight Gauntlets
 101877 [Twin Maiden Husks] Knight Greaves
+101878 [Twin Maiden Husks] Flask of Wondrous Physick
+101879 [Twin Maiden Husks] Crafting Kit
+101880 [Twin Maiden Husks] Whetstone Knife
+101881 [Twin Maiden Husks] Talisman Pouch
 101900 [Remembrance of the Grafted] Axe of Godrick
 101901 [Remembrance of the Grafted] Grafted Dragon
 101902 [Remembrance of the Starscourge] Starscourge Greatsword
