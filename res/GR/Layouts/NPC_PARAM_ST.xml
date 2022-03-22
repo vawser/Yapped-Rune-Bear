@@ -528,23 +528,13 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>PC Attribute B</name>
-    <type>u8</type>
+    <name>Resist: Sleep</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PC Attribute W</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>PC Attribute L</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>PC Attribute R</name>
-    <type>u8</type>
+    <name>Resist: Madness</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
