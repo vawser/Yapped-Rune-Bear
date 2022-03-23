@@ -30,14 +30,16 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Event Flag</name>
+    <name>Set Event Flag</name>
     <type>s32</type>
     <default>-1</default>
+    <description>This event flag is set when the item is purchased.</description>
   </entry>
   <entry>
-    <name>QWC ID</name>
+    <name>Conditional Event Flag</name>
     <type>s32</type>
     <default>-1</default>
+    <description>This event flag must be set to ON before the item is visible in the shop menu.</description>
   </entry>
   <entry>
     <name>Quantity Available</name>
