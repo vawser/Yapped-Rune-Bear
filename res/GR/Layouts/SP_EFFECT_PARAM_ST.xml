@@ -285,42 +285,51 @@
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
   </enum>
-  <enum name="WeaponEffect" type="s8">
+  <enum name="ConditionalWeaponEffect" type="s8">
     <item value="0" name="0 - None" />
-    <item value="1" name="1 - Enhance Full Moon Sorcery" />
-    <item value="2" name="2 - Enhance Carian Sword Sorcery" />
-    <item value="3" name="3 - Enhance Glintblade Sorcery" />
-    <item value="4" name="4 - Enhance Stonedigger Sorcery" />
-    <item value="5" name="5 - Enhance Crystalian Sorcery" />
-    <item value="6" name="6 - Enhance Unknown Sorcery" />
-    <item value="7" name="7 - Enhance Unknown Sorcery" />
-    <item value="8" name="8 - Enhance Lava Sorcery" />
-    <item value="9" name="9 - Enhance Thorn Sorcery" />
-    <item value="10" name="10 - Enhance Death Sorcery" />
-    <item value="11" name="11 - Enhance Gravity Sorcery" />
-    <item value="12" name="12 - Limit to Invisibility Sorcery" />
-    <item value="20" name="20 - Enhance Godslayer Incantations" />
-    <item value="21" name="21 - Enhance Giants' Flame Incantations" />
-    <item value="22" name="22 - Enhance Dragon Cult Incantations" />
-    <item value="23" name="23 - Enhance Bestial Incantations" />
-    <item value="24" name="24 - Enhance Golden Order Incantations" />
-    <item value="25" name="25 - Enhance Frenzied Flame Incantations" />
-    <item value="100" name="100 - Enhance Charge Attack" />
-    <item value="101" name="101 - Enhance Horseback Attack" />
-    <item value="102" name="102 - Enhance Jump Attack" />
-    <item value="103" name="103 - Enhance Guard Counter Attack" />
-    <item value="104" name="104 - Enhance Final Chain Attack" />
-    <item value="105" name="105 - Enhance Arrow/Bolt Attack" />
-    <item value="106" name="106 - Enhance Roar/Breath Attack" />
-    <item value="108" name="108 - Enhance Pot Item" />
-    <item value="109" name="109 - Enhance Perfume Item" />
-    <item value="110" name="110 - Enhance Charged Attack" />
-    <item value="111" name="111 - Enhance Charged Skill Attack" />
-    <item value="112" name="112 - Enhance Skill Attack" />
-    <item value="113" name="113 - Enhance Ranged Skill Attack" />
-    <item value="118" name="118 - Enhance Bow" />
+    <item value="1" name="1 - Full Moon Spell" />
+    <item value="2" name="2 - Carian Sword Spell" />
+    <item value="3" name="3 - Glintblade Spell" />
+    <item value="4" name="4 - Stonedigger Spell" />
+    <item value="5" name="5 - Crystalian Spell" />
+    <item value="6" name="6 - Karolos Spell" />
+    <item value="7" name="7 - Olivinus Spell" />
+    <item value="8" name="8 - Lava Spell" />
+    <item value="9" name="9 - Thorn Spell" />
+    <item value="10" name="10 - Death Spell" />
+    <item value="11" name="11 - Gravity Spell" />
+    <item value="12" name="12 - Night Spell" />
+    <item value="13" name="13 - Ranni Spell" />
+    <item value="14" name="14 - Azur Spell" />
+    <item value="15" name="15 - Lusat Spell" />
+    <item value="20" name="20 - Black Flame Spell" />
+    <item value="21" name="21 - Flame Spell" />
+    <item value="22" name="22 - Dragon Cult Spell" />
+    <item value="23" name="23 - Bestial Spell" />
+    <item value="24" name="24 - Golden Order Spell" />
+    <item value="25" name="25 - Dragon Communion Spell" />
+    <item value="26" name="26 - Frenzied Flame Spell" />
+    <item value="27" name="27 - Godslayer Spell" />
+    <item value="28" name="28 - Primordial Crucible Spell" />
+    <item value="100" name="100 - Charge Attack" />
+    <item value="101" name="101 - Horseback Attack" />
+    <item value="102" name="102 - Jump Attack" />
+    <item value="103" name="103 - Guard Counter Attack" />
+    <item value="104" name="104 - Final Chain Attack" />
+    <item value="105" name="105 - Ammunition Attack" />
+    <item value="106" name="106 - Roar Attack" />
+    <item value="107" name="107 - Breath Attack" />
+    <item value="108" name="108 - Pot Item Attack" />
+    <item value="109" name="109 - Perfume Item Attack" />
+    <item value="110" name="110 - Charged Attack" />
+    <item value="111" name="111 - Charged Skill Attack" />
+    <item value="112" name="112 - Skill Attack" />
+    <item value="113" name="113 - Ranged Skill Attack" />
+    <item value="114" name="114 - Vapor Attack" />
+    <item value="116" name="116 - Unknown Attack" />
+    <item value="117" name="117 - Wraith Attack" />
+    <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
-  
   <enum name="DamageLevel" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
@@ -853,16 +862,18 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Weapon Effect 1</name>
+    <name>Conditional Weapon Effect 1</name>
     <type>s8</type>
     <default>0</default>
-    <enum>WeaponEffect</enum>
+    <enum>ConditionalWeaponEffect</enum>
+    <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
-    <name>Weapon Effect 2</name>
+    <name>Conditional Weapon Effect 2</name>
     <type>s8</type>
     <default>0</default>
-    <enum>WeaponEffect</enum>
+    <enum>ConditionalWeaponEffect</enum>
+    <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
     <name>Bow Effective Range</name>
@@ -2104,10 +2115,11 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Weapon Effect 3 (unverified)</name>
+    <name>Conditional Weapon Effect 3 (unverified)</name>
     <type>s8</type>
     <default>0</default>
-    <enum>WeaponEffect</enum>
+    <enum>ConditionalWeaponEffect</enum>
+    <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
     <name>Unk64</name>

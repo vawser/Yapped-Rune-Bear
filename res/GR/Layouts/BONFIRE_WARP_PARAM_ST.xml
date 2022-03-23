@@ -86,9 +86,10 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Grace - Text ID</name>
+    <name>Name ID - 1</name>
     <type>s32</type>
     <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
   </entry>
   <entry>
     <name>Unk5</name>
@@ -101,7 +102,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Name ID - 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -116,7 +117,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Name ID - 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -131,7 +132,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Name ID - 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -146,7 +147,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Name ID - 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -161,7 +162,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Name ID - 6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -176,7 +177,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Name ID - 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -191,7 +192,7 @@
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk25</name>
+    <name>Name ID - 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -236,42 +237,42 @@
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk34</name>
+    <name>Show Name 1 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk35</name>
+    <name>Show Name 2- Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk36</name>
+    <name>Show Name 3 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk37</name>
+    <name>Show Name 4 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk38</name>
+    <name>Show Name 5 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk39</name>
+    <name>Show Name 6 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk40</name>
+    <name>Show Name 7 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk41</name>
+    <name>Show Name 8 - Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>

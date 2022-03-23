@@ -1,20 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="ReferenceType" type="u8">
-    <item value="0" name="Attack" />
-	<item value="1" name="Bullet" />
-	<item value="2" name="SpEffect" />
+    <item value="0" name="0 - Attack" />
+	<item value="1" name="1 - Bullet" />
+	<item value="2" name="2 - SpEffect" />
   </enum>
   <enum name="AttributeType" type="u8">
-    <item value="0" name="Strength" />
-	<item value="1" name="Dexterity" />
-	<item value="2" name="Faith" />
-    <item value="3" name="Intelligence" />
+    <item value="0" name="0 - Strength" />
+	<item value="1" name="1 - Dexterity" />
+	<item value="2" name="2 - Faith" />
+    <item value="3" name="3 - Intelligence" />
   </enum>
   <enum name="MagicSchoolType" type="u8">
-    <item value="0" name="School: Sorcery" />
-	<item value="1" name="School: Incantation" />
-	<item value="2" name="School: Unused" />
+    <item value="0" name="0 - Sorcery" />
+	<item value="1" name="1 - Incantation" />
+	<item value="2" name="2 - Unused" />
+  </enum>
+  <enum name="ConditionalWeaponEffect" type="s8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Full Moon Spell" />
+    <item value="2" name="2 - Carian Sword Spell" />
+    <item value="3" name="3 - Glintblade Spell" />
+    <item value="4" name="4 - Stonedigger Spell" />
+    <item value="5" name="5 - Crystalian Spell" />
+    <item value="6" name="6 - Karolos Spell" />
+    <item value="7" name="7 - Olivinus Spell" />
+    <item value="8" name="8 - Lava Spell" />
+    <item value="9" name="9 - Thorn Spell" />
+    <item value="10" name="10 - Death Spell" />
+    <item value="11" name="11 - Gravity Spell" />
+    <item value="12" name="12 - Night Spell" />
+    <item value="13" name="13 - Ranni Spell" />
+    <item value="14" name="14 - Azur Spell" />
+    <item value="15" name="15 - Lusat Spell" />
+    <item value="20" name="20 - Black Flame Spell" />
+    <item value="21" name="21 - Flame Spell" />
+    <item value="22" name="22 - Dragon Cult Spell" />
+    <item value="23" name="23 - Bestial Spell" />
+    <item value="24" name="24 - Golden Order Spell" />
+    <item value="25" name="25 - Dragon Communion Spell" />
+    <item value="26" name="26 - Frenzied Flame Spell" />
+    <item value="27" name="27 - Godslayer Spell" />
+    <item value="28" name="28 - Primordial Crucible Spell" />
+    <item value="100" name="100 - Charge Attack" />
+    <item value="101" name="101 - Horseback Attack" />
+    <item value="102" name="102 - Jump Attack" />
+    <item value="103" name="103 - Guard Counter Attack" />
+    <item value="104" name="104 - Final Chain Attack" />
+    <item value="105" name="105 - Ammunition Attack" />
+    <item value="106" name="106 - Roar Attack" />
+    <item value="107" name="107 - Breath Attack" />
+    <item value="108" name="108 - Pot Item Attack" />
+    <item value="109" name="109 - Perfume Item Attack" />
+    <item value="110" name="110 - Charged Attack" />
+    <item value="111" name="111 - Charged Skill Attack" />
+    <item value="112" name="112 - Skill Attack" />
+    <item value="113" name="113 - Ranged Skill Attack" />
+    <item value="114" name="114 - Vapor Attack" />
+    <item value="116" name="116 - Unknown Attack" />
+    <item value="117" name="117 - Wraith Attack" />
+    <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
   <entry>
     <name>Unknown</name>
@@ -42,12 +87,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref 1: FP Cost</name>
+    <name>FP Cost</name>
     <type>s16</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>Ref 1: Stamina Cost</name>
+    <name>Stamina Cost</name>
     <type>s16</type>
     <default>30</default>
   </entry>
@@ -123,7 +168,7 @@
     <enum>MagicSchoolType</enum>
   </entry>
   <entry>
-    <name>Ref 1: Category</name>
+    <name>Bullet Category 1</name>
     <type>u8</type>
     <default>1</default>
     <enum>ReferenceType</enum>
@@ -144,9 +189,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref 4: Category</name>
+    <name>Bullet Category 2</name>
     <type>u8</type>
-    <default>0</default>
+    <default>1</default>
     <enum>ReferenceType</enum>
   </entry>
   <entry>
@@ -371,13 +416,13 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ref 2: Category</name>
+    <name>Bullet Category 3</name>
     <type>u8</type>
-    <default>0</default>
+    <default>1</default>
     <enum>ReferenceType</enum>
   </entry>
   <entry>
-    <name>Ref 4: Stamina Cost</name>
+    <name>Unk10</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -402,38 +447,45 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ref 2: FP Cost</name>
+    <name>Unk11</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref 2: Stamina Cost</name>
+    <name>Unk12</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Unk13</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref 3: Category</name>
+    <name>Bullet Category 4</name>
     <type>u8</type>
-    <default>0</default>
+    <default>1</default>
     <enum>ReferenceType</enum>
   </entry>
   <entry>
-    <name>Ref 4: FP Cost</name>
+    <name>Conditional Weapon Effect 1</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>ConditionalWeaponEffect</enum>
+  </entry>
+  <entry>
+    <name>Conditional Weapon Effect 2</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>ConditionalWeaponEffect</enum>
+  </entry>
+  <entry>
+    <name>Unk14</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Ref 3: FP Cost</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Ref 3: Stamina Cost</name>
+    <name>Unk15</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -493,56 +545,6 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Unk20</name>
     <type>s8</type>
     <default>0</default>
@@ -553,12 +555,62 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Unk22</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk28</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk30</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk32</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Unk33</name>
     <type>s32</type>
     <default>0</default>
   </entry>
