@@ -1,29 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>Player Post Death Timer 1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Player Post Death Timer 2</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>HP Bar - Visual Scale</name>
     <type>s32</type>
     <default>0</default>
+    <description>Determines the visual scale of the HP bar. The value entered here represents the bar at 100% width.</description>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>FP Bar - Visual Scale</name>
     <type>s32</type>
     <default>0</default>
+    <description>Determines the visual scale of the FP bar. The value entered here represents the bar at 100% width.</description>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Stamina Bar - Visual Scale</name>
     <type>s32</type>
     <default>0</default>
+    <description>Determines the visual scale of the Stamina bar. The value entered here represents the bar at 100% width.</description>
   </entry>
   <entry>
     <name>Unk5</name>
