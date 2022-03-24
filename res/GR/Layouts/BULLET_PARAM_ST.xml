@@ -636,16 +636,16 @@
     <description></description>
   </entry>
   <entry>
-    <name>Hit Object ID</name>
-    <type>s32</type>
+    <name>Unk24</name>
+    <type>f32</type>
     <default>-1</default>
     <description></description>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Runtime Bone Control ID</name>
     <type>s32</type>
     <default>0</default>
-    <description></description>
+    <description>Unverified</description>
   </entry>
   <entry>
     <name>Unk3</name>
@@ -655,22 +655,12 @@
   </entry>
   <entry>
     <name>Unk4</name>
-    <type>s8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s8</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -694,18 +684,13 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12a</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12b</name>
+    <name>Unk12</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk13</name>
-    <type>f32</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -715,27 +700,22 @@
   </entry>
   <entry>
     <name>Unk15</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
     <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16a</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16b</name>
-    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk17</name>
-    <type>s32</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk18</name>
-    <type>f32</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -745,11 +725,21 @@
   </entry>
   <entry>
     <name>Unk20</name>
-    <type>s32</type>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Unk21</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
     <type>s32</type>
     <default>0</default>
   </entry>

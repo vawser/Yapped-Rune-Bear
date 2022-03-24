@@ -2115,11 +2115,11 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Conditional Weapon Effect 3 (unverified)</name>
+    <name>Conditional Weapon Effect 3</name>
     <type>s8</type>
     <default>0</default>
     <enum>ConditionalWeaponEffect</enum>
-    <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
+    <description>Unverified</description>
   </entry>
   <entry>
     <name>Unk64</name>

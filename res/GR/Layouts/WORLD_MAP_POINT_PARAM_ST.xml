@@ -112,19 +112,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Flag (unverified)</name>
+    <name>Flag 1</name>
     <type>s32</type>
     <default>0</default>
+    <description>Unverified</description>
   </entry>
   <entry>
-    <name>Flag (unverified)</name>
+    <name>Flag 2</name>
     <type>s32</type>
     <default>0</default>
+    <description>Unverified</description>
   </entry>
   <entry>
-    <name>Flag (unverified)</name>
+    <name>Flag 3</name>
     <type>s32</type>
     <default>0</default>
+    <description>Unverified</description>
   </entry>
   <entry>
     <name>Unk21</name>

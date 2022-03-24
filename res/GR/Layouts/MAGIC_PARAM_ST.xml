@@ -505,9 +505,10 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Category ID (unverified)</name>
+    <name>Category ID</name>
     <type>s32</type>
     <default>-1</default>
+    <description>Unverified</description>
   </entry>
     <entry>
     <name>Reference ID 4</name>
