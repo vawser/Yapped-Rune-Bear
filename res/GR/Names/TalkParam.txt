@@ -155,8 +155,8 @@
 2039020 <blank>
 2039030 <blank>
 2039040 <blank>
-2039101 Before we begin, allow me to paint you the full picture.
 2039100 General Radahn is cursed ever to wander.
+2039101 Before we begin, allow me to paint you the full picture.
 2039110 Eaten from the inside, by Malenia's scarlet rot, his wits are long gone.
 2039120 Now he gathers the corpses of former friends and foes alike, gorging on them, like a dog.
 2039130 Howling at the sky.
@@ -393,6 +393,8 @@
 10010506 There is but one other thing I can do to offer you guidance.
 10010507 I can take you to the Roundtable Hold...
 10010508 Gathering place of Tarnished champions, guided by Grace...
+10010600 Very well.
+10010601 Let my hand rest upon you, for but a moment.
 10010700 Forgive me. I've been...testing you.
 10010701 To determine if the Elden Ring would truly have you.
 10010702 If you had the mettle to endure this long and arduous path.
@@ -402,8 +404,6 @@
 10010706 There is but one other thing I can do to offer you guidance.
 10010707 I can take you to the Roundtable Hold...
 10010708 Gathering place of Tarnished champions, guided by Grace...
-10010600 Very well.
-10010601 Let my hand rest upon you, for but a moment.
 10011000 Your seamster, Boc...
 10011001 He is always eager to see your return.
 10011002 Please, will you talk to him, when you can?
@@ -1982,9 +1982,6 @@
 22300500 Right, but I'll need a moment.
 22300501 I-I'm frightened of them... So I have to gather myself.
 22300502 My knees start knockin'...just thinking about that god-awful cave on the shore...
-22301300 Oh..
-22301301 It...hurts...
-22301302 Ooh...
 22301000 Oh, what are you doing here?
 22301001 You must leave this place at once. They'll rush in and beat you to a pulp.
 22301002 You'll end up just like me.
@@ -2000,6 +1997,9 @@
 22301201 You're very kind.
 22301202 I always wanted to be a seamster, l-like my mum.
 22301203 Then, I suppose I can't just curl up and die, can I.
+22301300 Oh..
+22301301 It...hurts...
+22301302 Ooh...
 22302000 Good to see you! Master.
 22302001 Do you remember me? Boc, the demi-human.
 22302002 You helped me before, and retrieved my sewing needle.
@@ -2073,12 +2073,6 @@
 22305003 Oh? Me? Reborn?
 22305004 Oh, look at me. When you're this ugly...
 22305005 well, being reborn? It would hardly make a difference, I'm afraid.
-22305400 Master... Have you ever wished you might be born again?
-22305401 Well, they say that Rennala of Raya Lucaria
-22305402 has the power to help people be reborn.
-22305403 Oh? Me? Reborn?
-22305404 Oh, look at me. When you're this ugly...
-22305405 well, being reborn? It would hardly make a difference, I'm afraid.
 22305100 M'lord, what's this?
 22305101 Oh! Oh!
 22305102 It can't be� For my rebirth?
@@ -2086,6 +2080,21 @@
 22305104 Oh...
 22305105 M'lord, how did you know?
 22305106 It was my only wish, that I might honour you with a decent appearance.
+22305200 M'lord, it shouldn't take me long.
+22305201 I'm off to see Rennala of Raya Lucaria.
+22305202 I'll be reborn, fresh and new.
+22305300 M'lord.
+22305301 In all honesty, what do you think of me?
+22305302 Am I fit to serve a lord such as you, in all my ugliness?
+22305303 Must I be reborn, no matter what ill fate awaits me?
+22305304 Oh, I'm such a fool.
+22305305 I don't even have answers to the simplest of questions.
+22305400 Master... Have you ever wished you might be born again?
+22305401 Well, they say that Rennala of Raya Lucaria
+22305402 has the power to help people be reborn.
+22305403 Oh? Me? Reborn?
+22305404 Oh, look at me. When you're this ugly...
+22305405 well, being reborn? It would hardly make a difference, I'm afraid.
 22305500 Master, what's this?
 22305501 Oh! Oh!
 22305502 It can't be� For my rebirth?
@@ -2093,18 +2102,9 @@
 22305504 Oh...
 22305505 Master, how did you know?
 22305505 Master, how did you know?
-22305200 M'lord, it shouldn't take me long.
-22305201 I'm off to see Rennala of Raya Lucaria.
-22305202 I'll be reborn, fresh and new.
 22305600 Master, it shouldn't take me long.
 22305601 I'm off to see Rennala of Raya Lucaria.
 22305602 I'll be reborn, fresh and new.
-22305300 M'lord.
-22305301 In all honesty, what do you think of me?
-22305302 Am I fit to serve a lord such as you, in all my ugliness?
-22305303 Must I be reborn, no matter what ill fate awaits me?
-22305304 Oh, I'm such a fool.
-22305305 I don't even have answers to the simplest of questions.
 22305700 Master.
 22305701 In all honesty, what do you think of me?
 22305702 Am I fit to serve you, master, in all my ugliness?
@@ -2286,22 +2286,6 @@
 22404201 Descend underground alone where the fallen star struck Limgrave.
 22404202 And make it yours. The precious treasure of Nokron.
 22404203 So that Lady Ranni may tread the dark path of the Empyrean.
-22410000 Oh, so you were the one. Lady Ranni has explained everything.
-22410001 You've defeated General Radahn, unlocking the stars.
-22410002 A grand reward, justly procured by any measure.
-22410003 Again, I am Iji.
-22410004 The Carian royal family's dedicated blacksmith, and Lady Ranni's war counsellor.
-22410005 I welcome one of your calibre. A fellow champion in service of Lady Ranni.
-22410100 Thanks to you, Lady Ranni's fate once again stirs, and the path to Nokron has opened.
-22410101 Descend underground where the fallen star struck Limgrave.
-22410102 And make it yours. The precious treasure of Nokron.
-22410103 So that Lady Ranni may tread the dark path of the Empyrean.
-22410200 Oh, so you must be the one. Lady Ranni has explained everything.
-22410201 You've defeated General Radahn, unlocking the stars.
-22410202 A grand reward, justly procured by any measure.
-22410203 The pleasure is mine. I am Iji.
-22410204 The Carian royal family's dedicated blacksmith, and Lady Ranni's war counsellor.
-22410205 I welcome one of your calibre. A fellow champion in service of Lady Ranni.
 22405000 Now the festival is over, and General Radahn is defeated...
 22405001 Jerren's duties are finally fulfilled.
 22405002 Though we served different masters, I could see he was truly adept in his role.
@@ -2328,6 +2312,22 @@
 22407004 I've made a grave misjudgment. And I thought myself a capable war counsellor...
 22407005 I'll catch up with you soon enough, Blaidd.
 22407006 When I do, I only hope you'll accept my apology.
+22410000 Oh, so you were the one. Lady Ranni has explained everything.
+22410001 You've defeated General Radahn, unlocking the stars.
+22410002 A grand reward, justly procured by any measure.
+22410003 Again, I am Iji.
+22410004 The Carian royal family's dedicated blacksmith, and Lady Ranni's war counsellor.
+22410005 I welcome one of your calibre. A fellow champion in service of Lady Ranni.
+22410100 Thanks to you, Lady Ranni's fate once again stirs, and the path to Nokron has opened.
+22410101 Descend underground where the fallen star struck Limgrave.
+22410102 And make it yours. The precious treasure of Nokron.
+22410103 So that Lady Ranni may tread the dark path of the Empyrean.
+22410200 Oh, so you must be the one. Lady Ranni has explained everything.
+22410201 You've defeated General Radahn, unlocking the stars.
+22410202 A grand reward, justly procured by any measure.
+22410203 The pleasure is mine. I am Iji.
+22410204 The Carian royal family's dedicated blacksmith, and Lady Ranni's war counsellor.
+22410205 I welcome one of your calibre. A fellow champion in service of Lady Ranni.
 22415000 Oh, there you are. Good of you to drop by.
 22415001 Have you heard? Lady Ranni has departed on her journey.
 22415002 Along the dark path of the Empyrean, from Renna's Rise, as she calls it.
@@ -2624,18 +2624,12 @@
 30000901 Your decision is most welcome.
 30000902 Now you belong to the Volcano Manor family.
 30000903 The drawing room lies down the hall. Make yourself comfortable.
-30007600 Now, time for you to leave, I should think.
-30007601 Let this intersection of our paths be the last.
-30007700 The drawing room is through the hall.
-30007701 Use the key I handed you, and make yourself comfortable.
 30001000 You've completed your task.
 30001001 I am pleased. Now you are a recusant true, and a full-fledged member of the Volcano Manor.
 30001002 This is your reward, as promised.
 30001005 Never forget. That the recusant fights to tread the path of the champion.
 30001006 The way is tainted, but for this very reason,
 30001007 it is the true path to valour.
-30008200 Now you are a recusant true, and a full-fledged member of the Volcano Manor.
-30008201 I am pleased to have you on our side.
 30001200 I see you've performed another task for us.
 30001201 Here is your usual reward. Please, take it.
 30001205 Now, perhaps the time has come to tell you.
@@ -2655,25 +2649,12 @@
 30001301 You will be compensated once the deed is done. Good luck.
 30001400 If you follow this heroic path, one day the Lord will see you.
 30001401 It cannot come a day too soon!
-30011000 Did you see her?
-30011001 The girl, Rya�with her true face.
-30011002 ...
-30011003 Well, if she confided in you the name Zorayas,
-30011004 then perhaps it is not my place to speak.
-30011005 But as her adoptive mother, I ask of you.
-30011006 Please, be kind to her. Look after young Zorayas.
-30011007 Her true visage belies the purity of her heart.
-30011008 �Honestly, I hardly deserve the sweet child.
-30011100 Please, be kind to her. Look after young Zorayas.
-30011101 Her true visage belies the purity of her heart.
 30002100 She said that, to you?
 30002101 I should have known something was wrong. The signs were clear enough.
 30002102 Well. Zorayas has placed her trust in you. All the more reason I must tell you.
 30002103 That some things are better left unknown. Besides, no-one should be blamed for their heritage.
 30002104 Think about it. We are resisting the ways of the Erdtree itself.
 30002105 What matters one's lineage in such a crisis?
-30011200 Zorayas has placed her trust in you. All the more reason I must tell you.
-30011201 That some things are better left unknown. Besides, no-one should be blamed for their heritage.
 30002200 No, I haven't seen Zorayas anywhere.
 30002201 And she has no scouting duties now.
 30002202 Has she gone off in search of answers?
@@ -2687,13 +2668,10 @@
 30002401 My wish is a grave disrespect to her.
 30002402 No different than the Erdtree's imposition.
 30002403 But I've no choice... It must be done.
-30011300 My wish is a grave disrespect to her.
-30011301 But I've no choice... It must be done.
 30002500 Thank you, for allowing me this.
 30002501 I will never be a good mother. My heart is too frail.
 30002502 Our Lord must have known this all along.
 30002503 My meekness is all too clear...
-30011400 Sweet Zorayas, have I earned your scorn?
 30002600 Really, she is dead, then...
 30002601 My gratitude for your forthrightness.
 30002602 If you would...allow me some time alone.
@@ -2722,14 +2700,6 @@
 30004102 I will miss these encounters.
 30004103 The champion who walks the tainted path shines all the more.
 30004104 I always was an admirer.
-30020000 This is farewell.
-30020001 Perhaps we will meet again, along the path.
-30020100 What is it?
-30020101 I have no need of that.
-30020102 I must continue devouring my beloved lord...
-30020200 Oh, you...
-30020201 Allow me some time.
-30020202 Our lord's carcass is not easily consumed.
 30005000 Oh, you...
 30005001 Allow me some time.
 30005002 Our Lord's carcass is vast, and not easily consumed.
@@ -2739,6 +2709,36 @@
 30005100 Dear Rykard, please find purchase within me,
 30005101 I wish to be your serpent; your family.
 30005102 One day, let us devour the gods together.
+30007600 Now, time for you to leave, I should think.
+30007601 Let this intersection of our paths be the last.
+30007700 The drawing room is through the hall.
+30007701 Use the key I handed you, and make yourself comfortable.
+30008200 Now you are a recusant true, and a full-fledged member of the Volcano Manor.
+30008201 I am pleased to have you on our side.
+30011000 Did you see her?
+30011001 The girl, Rya�with her true face.
+30011002 ...
+30011003 Well, if she confided in you the name Zorayas,
+30011004 then perhaps it is not my place to speak.
+30011005 But as her adoptive mother, I ask of you.
+30011006 Please, be kind to her. Look after young Zorayas.
+30011007 Her true visage belies the purity of her heart.
+30011008 �Honestly, I hardly deserve the sweet child.
+30011100 Please, be kind to her. Look after young Zorayas.
+30011101 Her true visage belies the purity of her heart.
+30011200 Zorayas has placed her trust in you. All the more reason I must tell you.
+30011201 That some things are better left unknown. Besides, no-one should be blamed for their heritage.
+30011300 My wish is a grave disrespect to her.
+30011301 But I've no choice... It must be done.
+30011400 Sweet Zorayas, have I earned your scorn?
+30020000 This is farewell.
+30020001 Perhaps we will meet again, along the path.
+30020100 What is it?
+30020101 I have no need of that.
+30020102 I must continue devouring my beloved lord...
+30020200 Oh, you...
+30020201 Allow me some time.
+30020202 Our lord's carcass is not easily consumed.
 30080000 <blank>
 30080001 <blank>
 30080200 Ahh, my lord...
@@ -4519,20 +4519,10 @@
 31801014 If you stay the path, you are certain to face more of them.
 31801015 Just remember. No kinship with their ilk remains. Their madness precludes it.
 31801016 Don't let your emotions stay your blade.
-31802300 Ah, we meet again.
-31802301 To have fought Nerijus and lived, you must have seen your share of battle.
-31802302 I am Yura, as you might recall, hunter of Bloody Fingers.
-31802303 Tarnished held in thrall by cessblood. Zealots who stalk their own.
-31802304 If you stay the path, you are certain to face more of them.
-31802305 Just remember. No kinship with their ilk remains. Their madness precludes it.
-31802306 Don't let your emotions stay your blade.
-31802310 Ah, we meet again.
-31802311 To have fought Nerijus and escaped, fortune must smile upon you indeed.
-31802312 I am Yura, as you might recall, hunter of Bloody Fingers.
-31802313 Tarnished held in thrall by cessblood. Zealots who stalk their own.
-31802314 If you stay the path, you are certain to face more of them.
-31802315 Just remember. No kinship with their ilk remains. Their madness precludes it.
-31802316 Don't let your emotions stay your blade.
+31801100 Oh, one other thing...
+31801101 There are other Tarnished, like me, who hunt the Bloody Fingers.
+31801102 If a Bloody Finger threatens you, use this ring.
+31801103 If fortune takes your side, a hunter will come to your aid.
 31801300 Just joining the fray, Tarnished?
 31801301 I am Yura, hunter of Bloody Fingers.
 31801302 Have you ever faced a Bloody Finger?
@@ -4540,10 +4530,6 @@
 31801304 If you stay the path, you will face this blight, sooner or later.
 31801305 Just remember. No kinship with their ilk remains. Their madness precludes it.
 31801306 Don't let your emotions stay your blade.
-31801100 Oh, one other thing...
-31801101 There are other Tarnished, like me, who hunt the Bloody Fingers.
-31801102 If a Bloody Finger threatens you, use this ring.
-31801103 If fortune takes your side, a hunter will come to your aid.
 31801500 One last word of warning.
 31801501 Stay clear of Agheel Lake. A great dragon roosts there.
 31801502 And it's as fearsome as it is majestic.
@@ -4560,6 +4546,20 @@
 31802101 To stay clear of Agheel Lake, a known dragon roost.
 31802102 Don't be a fool. Turn back, before it's too late.
 31802200 Don't be a fool. Turn back, before it's too late.
+31802300 Ah, we meet again.
+31802301 To have fought Nerijus and lived, you must have seen your share of battle.
+31802302 I am Yura, as you might recall, hunter of Bloody Fingers.
+31802303 Tarnished held in thrall by cessblood. Zealots who stalk their own.
+31802304 If you stay the path, you are certain to face more of them.
+31802305 Just remember. No kinship with their ilk remains. Their madness precludes it.
+31802306 Don't let your emotions stay your blade.
+31802310 Ah, we meet again.
+31802311 To have fought Nerijus and escaped, fortune must smile upon you indeed.
+31802312 I am Yura, as you might recall, hunter of Bloody Fingers.
+31802313 Tarnished held in thrall by cessblood. Zealots who stalk their own.
+31802314 If you stay the path, you are certain to face more of them.
+31802315 Just remember. No kinship with their ilk remains. Their madness precludes it.
+31802316 Don't let your emotions stay your blade.
 31802400 Ah, you must be the new Tarnished.
 31802401 You'd do well to steer clear of Agheel Lake, fledgling. A dragon roosts there...
 31802402 And it's as fearsome as it is majestic.
@@ -5816,6 +5816,14 @@
 32600202 Any interest in bearing the torch, of my battle arts?
 32600203 All I know is the sword. Picked up a fair few tricks in my time, too.
 32600204 Now's the time to pass 'em on. To a good and proper Tarnished, like you.
+32600300 Oh, not had your fill, eh? Worry not, I've enough to keep you busy.
+32600400 Ah, hello. Glad to see you safe.
+32600401 Here to learn a battle art or two?
+32600500 There's a myriad of battle arts in these lands that I've yet to discover.
+32600501 Mementos of all the warriors who raised their arms in battle, lost, and died.
+32600502 A fine tale, all told, of true chivalric romance.
+32600503 That's how I fell in love with the sword, and the arts of combat.
+32600504 It grants meaning even to falling in battle, to death itself.
 32600600 Honest to a fault, I see.
 32600601 Such thoughts won't behove you, as a Tarnished.
 32600602 But there's nothing wrong with that.
@@ -5825,15 +5833,7 @@
 32600700 Not floating your boat, eh?
 32600701 Well, there's no rush. Knowledge of the arts can wait another day.
 32600800 There you are. Decided to bear the torch of my battle arts?
-32600300 Oh, not had your fill, eh? Worry not, I've enough to keep you busy.
-32600400 Ah, hello. Glad to see you safe.
-32600401 Here to learn a battle art or two?
 32600900 Well, until we meet again.
-32600500 There's a myriad of battle arts in these lands that I've yet to discover.
-32600501 Mementos of all the warriors who raised their arms in battle, lost, and died.
-32600502 A fine tale, all told, of true chivalric romance.
-32600503 That's how I fell in love with the sword, and the arts of combat.
-32600504 It grants meaning even to falling in battle, to death itself.
 32601000 You...
 32601001 What in heaven's name are you doing here?
 32601002 The Volcano Manor is a pit of recusants who spit at grace and hunt our own kind.
@@ -5843,28 +5843,6 @@
 32601102 Perhaps playing that part led you to your doubts, I wonder.
 32601103 But know that the path you walk is blasphemy, and leads only to a miserable death.
 32601104 Before you consider hunting any of your own kind, think on that.
-32601800 Ah, I had hoped you'd soon return.
-32601801 I have the reward from Lady Tanith.
-32601802 Take it. It's yours, by right.
-32601805 Let us tread the path of the recusant together.
-32601806 Till we reach the miserable death that awaits us.
-32603000 Who are you?
-32603001 And what in heaven's name are you doing here?
-32603002 The Volcano Manor is a pit of recusants who spit at grace and hunt our own kind.
-32603003 I hope you understand the weight of my words.
-32604000 Well. As long as you understand what you're saying.
-32604001 You have harboured doubts from the very beginning.
-32604002 Perhaps this day was always lurking on the horizon.
-32604003 But know that the path you walk is blasphemy, and leads only to a miserable death.
-32604004 Before you consider hunting any of your own kind, think on that.
-32604100 Then you must leave immediately.
-32604101 Those with weak stomachs have no place here.
-32604200 I thought I told you to leave.
-32604201 Or do you claim to understand?
-32604202 What it means to be a recusant, renouncing grace and hunting down one's own.
-32604300 Well. As long as you understand what you're saying.
-32604301 But know that the path you walk is blasphemy, and leads only to a miserable death.
-32604302 Before you consider hunting any of your own kind, think on that.
 32601200 This blasphemous path leads only to a pitiful death.
 32601201 Before you consider hunting any of your own kind, think on that.
 32601300 So. You've bloodied your sword in the hunt.
@@ -5885,6 +5863,11 @@
 32601702 Take this.
 32601705 A special invitation, to hunt some of the first Tarnished who sat at the Roundtable Hold.
 32601706 If you should accept, I'll next see you on the field of battle.
+32601800 Ah, I had hoped you'd soon return.
+32601801 I have the reward from Lady Tanith.
+32601802 Take it. It's yours, by right.
+32601805 Let us tread the path of the recusant together.
+32601806 Till we reach the miserable death that awaits us.
 32602000 So. You killed Rykard?
 32602001 I harbour you no ill will. The strong take. Such is our code.
 32602002 Even he was prepared to meet a wretched end when he first took blasphemy unto his very flesh.
@@ -5895,6 +5878,23 @@
 32602100 O Greater Will, hear my voice.
 32602101 I am the recusant Bernahl, inheritor of my brother's will, and you will fall to my blade.
 32602102 We refuse to become your pawns. Consider this fair warning.
+32603000 Who are you?
+32603001 And what in heaven's name are you doing here?
+32603002 The Volcano Manor is a pit of recusants who spit at grace and hunt our own kind.
+32603003 I hope you understand the weight of my words.
+32604000 Well. As long as you understand what you're saying.
+32604001 You have harboured doubts from the very beginning.
+32604002 Perhaps this day was always lurking on the horizon.
+32604003 But know that the path you walk is blasphemy, and leads only to a miserable death.
+32604004 Before you consider hunting any of your own kind, think on that.
+32604100 Then you must leave immediately.
+32604101 Those with weak stomachs have no place here.
+32604200 I thought I told you to leave.
+32604201 Or do you claim to understand?
+32604202 What it means to be a recusant, renouncing grace and hunting down one's own.
+32604300 Well. As long as you understand what you're saying.
+32604301 But know that the path you walk is blasphemy, and leads only to a miserable death.
+32604302 Before you consider hunting any of your own kind, think on that.
 32680000 Agh!
 32680001 What's wrong with you?
 32680002 I won't say it twice. Stop this.

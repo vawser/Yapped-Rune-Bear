@@ -2,6 +2,7 @@
 1010 Impact
 40000 Glintstone Pebble
 40010 Great Glintstone Shard
+40070 Glintstone Arc
 40100 Swift Glintstone Shard
 40200 Comet
 40201 Comet
@@ -30,7 +31,6 @@
 40515 Star Shower
 40600 Crystal Barrage
 40601 Crystal Barrage
-40070 Glintstone Arc
 40800 Cannon of Haima
 40801 Cannon of Haima
 40805 Cannon of Haima
@@ -4087,8 +4087,6 @@
 4100600 Default - Bow
 4100600 Default - Bow
 4100800 Default - Bow
-4600800 Default - Crossbow
-4600801 Default - Crossbow
 4200600 Default - Greatbow
 4200605 Default - Greatbow
 4200610 Default - Greatbow
@@ -4137,6 +4135,8 @@
 4400750 Default - Ballista
 4400760 Default - Ballista
 4400765 Default - Ballista
+4600800 Default - Crossbow
+4600801 Default - Crossbow
 5000300 Arrow
 5000310 Arrow
 5000400 Arrow
@@ -4903,6 +4903,9 @@
 10355000 Bloodboil Aromatic
 10358000 Poison Spraymist [Hit]
 10361000 Acid Spraymist [Hit]
+30090011 Dragon Halberd
+30200921 Golden Great Arrow
+300000920 Gargoyle's Blackblade
 300100310 Default - Dagger
 300100311 Default - Dagger
 300100312 Default - Dagger
@@ -4911,32 +4914,6 @@
 300100316 Default - Dagger
 300100317 Default - Dagger
 300100318 Default - Dagger
-301000441 Default - Twinblade
-301000442 Default - Twinblade
-301000443 Default - Twinblade
-301000444 Default - Twinblade
-301600441 Default - Spear
-301600442 Default - Spear
-301600443 Default - Spear
-301600444 Default - Spear
-301700441 Default - Lance
-301700442 Default - Lance
-301700443 Default - Lance
-301700444 Default - Lance
-301800441 Default - Halberd
-301800442 Default - Halberd
-301800443 Default - Halberd
-301800444 Default - Halberd
-301900441 Default - Scythe
-301900442 Default - Scythe
-301900443 Default - Scythe
-301900444 Default - Scythe
-301000490 Default - Twinblade
-301000491 Default - Twinblade
-301000492 Default - Twinblade
-301000495 Default - Twinblade
-301000496 Default - Twinblade
-301000497 Default - Twinblade
 300100530 Default - Dagger
 300100531 Default - Dagger
 300100532 Default - Dagger
@@ -4951,7 +4928,6 @@
 300100545 Default - Dagger
 300100546 Default - Dagger
 300100547 Default - Dagger
-300000920 Gargoyle's Blackblade
 300101900 Black Knife
 300101905 Black Knife
 300104900 Reduvia
@@ -4972,7 +4948,40 @@
 300107912 Glintstone Kris
 300116900 Blade of Calling
 300116905 Blade of Calling
-30200921 Golden Great Arrow
+300200950 Default - Straight Sword
+300200951 Default - Straight Sword
+300200952 Default - Straight Sword
+300200953 Default - Straight Sword
+300200954 Default - Straight Sword
+300200955 Default - Straight Sword
+300200956 Default - Straight Sword
+300200957 Default - Straight Sword
+300200958 Default - Straight Sword
+300200959 Default - Straight Sword
+300200960 Default - Straight Sword
+300200961 Default - Straight Sword
+300200962 Default - Straight Sword
+300200963 Default - Straight Sword
+300200964 Default - Straight Sword
+300200965 Default - Straight Sword
+300200966 Default - Straight Sword
+300200967 Default - Straight Sword
+300200968 Default - Straight Sword
+300200969 Default - Straight Sword
+300200980 Default - Straight Sword
+300200981 Default - Straight Sword
+300200982 Default - Straight Sword
+300200983 Default - Straight Sword
+300200984 Default - Straight Sword
+300200985 Default - Straight Sword
+300200986 Default - Straight Sword
+300200987 Default - Straight Sword
+300200988 Default - Straight Sword
+300200989 Default - Straight Sword
+300200990 Default - Straight Sword
+300200991 Default - Straight Sword
+300200992 Default - Straight Sword
+300200993 Default - Straight Sword
 300208910 Sword of St. Trina
 300208912 Sword of St. Trina
 300208920 Regalia of Eochaid
@@ -4994,6 +5003,36 @@
 300214925 Sword of Night and Flame
 300214926 Sword of Night and Flame
 300214930 Sword of Night and Flame
+300300950 Default - Greatsword
+300300951 Default - Greatsword
+300300952 Default - Greatsword
+300300953 Default - Greatsword
+300300954 Default - Greatsword
+300300955 Default - Greatsword
+300300956 Default - Greatsword
+300300958 Default - Greatsword
+300300960 Default - Greatsword
+300300961 Default - Greatsword
+300300962 Default - Greatsword
+300300963 Default - Greatsword
+300300964 Default - Greatsword
+300300965 Default - Greatsword
+300300966 Default - Greatsword
+300300968 Default - Greatsword
+300300980 Default - Greatsword
+300300981 Default - Greatsword
+300300982 Default - Greatsword
+300300983 Default - Greatsword
+300300984 Default - Greatsword
+300300985 Default - Greatsword
+300300986 Default - Greatsword
+300300987 Default - Greatsword
+300300988 Default - Greatsword
+300300989 Default - Greatsword
+300300990 Default - Greatsword
+300300991 Default - Greatsword
+300300992 Default - Greatsword
+300300993 Default - Greatsword
 300306900 Ordovis's Greatsword
 300306905 Ordovis's Greatsword
 300306906 Ordovis's Greatsword
@@ -5024,6 +5063,36 @@
 300317912 Golden Order Greatsword
 300317915 Golden Order Greatsword
 300317916 Golden Order Greatsword
+300400950 Default - Colossal Sword
+300400951 Default - Colossal Sword
+300400952 Default - Colossal Sword
+300400953 Default - Colossal Sword
+300400954 Default - Colossal Sword
+300400955 Default - Colossal Sword
+300400956 Default - Colossal Sword
+300400958 Default - Colossal Sword
+300400960 Default - Colossal Sword
+300400961 Default - Colossal Sword
+300400962 Default - Colossal Sword
+300400963 Default - Colossal Sword
+300400964 Default - Colossal Sword
+300400965 Default - Colossal Sword
+300400966 Default - Colossal Sword
+300400968 Default - Colossal Sword
+300400980 Default - Colossal Sword
+300400981 Default - Colossal Sword
+300400982 Default - Colossal Sword
+300400983 Default - Colossal Sword
+300400984 Default - Colossal Sword
+300400985 Default - Colossal Sword
+300400986 Default - Colossal Sword
+300400987 Default - Colossal Sword
+300400988 Default - Colossal Sword
+300400989 Default - Colossal Sword
+300400990 Default - Colossal Sword
+300400991 Default - Colossal Sword
+300400992 Default - Colossal Sword
+300400993 Default - Colossal Sword
 300405900 Starscourge Greatsword
 300405901 Starscourge Greatsword
 300405902 Starscourge Greatsword
@@ -5071,6 +5140,40 @@
 300602906 Bloody Helice
 300602907 Bloody Helice
 300602908 Bloody Helice
+300700950 Default - Curved Sword
+300700951 Default - Curved Sword
+300700952 Default - Curved Sword
+300700953 Default - Curved Sword
+300700954 Default - Curved Sword
+300700955 Default - Curved Sword
+300700956 Default - Curved Sword
+300700957 Default - Curved Sword
+300700958 Default - Curved Sword
+300700959 Default - Curved Sword
+300700960 Default - Curved Sword
+300700961 Default - Curved Sword
+300700962 Default - Curved Sword
+300700963 Default - Curved Sword
+300700964 Default - Curved Sword
+300700965 Default - Curved Sword
+300700966 Default - Curved Sword
+300700967 Default - Curved Sword
+300700968 Default - Curved Sword
+300700969 Default - Curved Sword
+300700980 Default - Curved Sword
+300700981 Default - Curved Sword
+300700982 Default - Curved Sword
+300700983 Default - Curved Sword
+300700984 Default - Curved Sword
+300700985 Default - Curved Sword
+300700986 Default - Curved Sword
+300700987 Default - Curved Sword
+300700988 Default - Curved Sword
+300700989 Default - Curved Sword
+300700990 Default - Curved Sword
+300700991 Default - Curved Sword
+300700992 Default - Curved Sword
+300700993 Default - Curved Sword
 300702900 Nox Flowing Sword - Shotel
 300702901 Nox Flowing Sword - Shotel
 300707900 Wing of Astel
@@ -5094,6 +5197,36 @@
 300800310 Godslayer's Greatsword
 300800311 Godslayer's Greatsword
 300800315 Godslayer's Greatsword
+300800950 Default - Curved Greatsword
+300800951 Default - Curved Greatsword
+300800952 Default - Curved Greatsword
+300800953 Default - Curved Greatsword
+300800954 Default - Curved Greatsword
+300800955 Default - Curved Greatsword
+300800956 Default - Curved Greatsword
+300800958 Default - Curved Greatsword
+300800960 Default - Curved Greatsword
+300800961 Default - Curved Greatsword
+300800962 Default - Curved Greatsword
+300800963 Default - Curved Greatsword
+300800964 Default - Curved Greatsword
+300800965 Default - Curved Greatsword
+300800966 Default - Curved Greatsword
+300800968 Default - Curved Greatsword
+300800980 Default - Curved Greatsword
+300800981 Default - Curved Greatsword
+300800982 Default - Curved Greatsword
+300800983 Default - Curved Greatsword
+300800984 Default - Curved Greatsword
+300800985 Default - Curved Greatsword
+300800986 Default - Curved Greatsword
+300800987 Default - Curved Greatsword
+300800988 Default - Curved Greatsword
+300800989 Default - Curved Greatsword
+300800990 Default - Curved Greatsword
+300800991 Default - Curved Greatsword
+300800992 Default - Curved Greatsword
+300800993 Default - Curved Greatsword
 300804900 Bloodhound's Fang
 300804901 Bloodhound's Fang
 300804905 Bloodhound's Fang
@@ -5106,7 +5239,6 @@
 300810910 Morgott's Cursed Sword
 300810911 Morgott's Cursed Sword
 300900100 Dragonscale Blade
-30090011 Dragon Halberd
 300900113 Dragonscale Blade
 300900200 Hand of Malenia
 300900201 Hand of Malenia
@@ -5128,6 +5260,80 @@
 300900220 Hand of Malenia
 300900221 Hand of Malenia
 300900222 Hand of Malenia
+300900950 Default - Katana
+300900951 Default - Katana
+300900952 Default - Katana
+300900953 Default - Katana
+300900954 Default - Katana
+300900955 Default - Katana
+300900956 Default - Katana
+300900957 Default - Katana
+300900958 Default - Katana
+300900959 Default - Katana
+300900960 Default - Katana
+300900961 Default - Katana
+300900962 Default - Katana
+300900963 Default - Katana
+300900964 Default - Katana
+300900965 Default - Katana
+300900966 Default - Katana
+300900967 Default - Katana
+300900968 Default - Katana
+300900969 Default - Katana
+300900980 Default - Katana
+300900981 Default - Katana
+300900982 Default - Katana
+300900983 Default - Katana
+300900984 Default - Katana
+300900985 Default - Katana
+300900986 Default - Katana
+300900987 Default - Katana
+300900988 Default - Katana
+300900989 Default - Katana
+300900990 Default - Katana
+300900991 Default - Katana
+300900992 Default - Katana
+300900993 Default - Katana
+301000441 Default - Twinblade
+301000442 Default - Twinblade
+301000443 Default - Twinblade
+301000444 Default - Twinblade
+301000490 Default - Twinblade
+301000491 Default - Twinblade
+301000492 Default - Twinblade
+301000495 Default - Twinblade
+301000496 Default - Twinblade
+301000497 Default - Twinblade
+301000950 Default - Twinblade
+301000951 Default - Twinblade
+301000952 Default - Twinblade
+301000953 Default - Twinblade
+301000954 Default - Twinblade
+301000955 Default - Twinblade
+301000956 Default - Twinblade
+301000958 Default - Twinblade
+301000960 Default - Twinblade
+301000961 Default - Twinblade
+301000962 Default - Twinblade
+301000963 Default - Twinblade
+301000964 Default - Twinblade
+301000965 Default - Twinblade
+301000966 Default - Twinblade
+301000968 Default - Twinblade
+301000980 Default - Twinblade
+301000981 Default - Twinblade
+301000982 Default - Twinblade
+301000983 Default - Twinblade
+301000984 Default - Twinblade
+301000985 Default - Twinblade
+301000986 Default - Twinblade
+301000987 Default - Twinblade
+301000988 Default - Twinblade
+301000989 Default - Twinblade
+301000990 Default - Twinblade
+301000991 Default - Twinblade
+301000992 Default - Twinblade
+301000993 Default - Twinblade
 301005900 Eleonora's Poleblade
 301005901 Eleonora's Poleblade
 301005902 Eleonora's Poleblade
@@ -5143,6 +5349,40 @@
 301005921 Eleonora's Poleblade
 301005925 Eleonora's Poleblade
 301005926 Eleonora's Poleblade
+301100950 Default - Hammer
+301100951 Default - Hammer
+301100952 Default - Hammer
+301100953 Default - Hammer
+301100954 Default - Hammer
+301100955 Default - Hammer
+301100956 Default - Hammer
+301100957 Default - Hammer
+301100958 Default - Hammer
+301100959 Default - Hammer
+301100960 Default - Hammer
+301100961 Default - Hammer
+301100962 Default - Hammer
+301100963 Default - Hammer
+301100964 Default - Hammer
+301100965 Default - Hammer
+301100966 Default - Hammer
+301100967 Default - Hammer
+301100968 Default - Hammer
+301100969 Default - Hammer
+301100980 Default - Hammer
+301100981 Default - Hammer
+301100982 Default - Hammer
+301100983 Default - Hammer
+301100984 Default - Hammer
+301100985 Default - Hammer
+301100986 Default - Hammer
+301100987 Default - Hammer
+301100988 Default - Hammer
+301100989 Default - Hammer
+301100990 Default - Hammer
+301100991 Default - Hammer
+301100992 Default - Hammer
+301100993 Default - Hammer
 301110900 Envoy's Horn
 301110901 Envoy's Horn
 301112900 Nox Flowing Hammer
@@ -5160,6 +5400,36 @@
 301115912 Marika's Hammer
 301115913 Marika's Hammer
 301115915 Marika's Hammer
+301200950 Default - Warhammer
+301200951 Default - Warhammer
+301200952 Default - Warhammer
+301200953 Default - Warhammer
+301200954 Default - Warhammer
+301200955 Default - Warhammer
+301200956 Default - Warhammer
+301200958 Default - Warhammer
+301200960 Default - Warhammer
+301200961 Default - Warhammer
+301200962 Default - Warhammer
+301200963 Default - Warhammer
+301200964 Default - Warhammer
+301200965 Default - Warhammer
+301200966 Default - Warhammer
+301200968 Default - Warhammer
+301200980 Default - Warhammer
+301200981 Default - Warhammer
+301200982 Default - Warhammer
+301200983 Default - Warhammer
+301200984 Default - Warhammer
+301200985 Default - Warhammer
+301200986 Default - Warhammer
+301200987 Default - Warhammer
+301200988 Default - Warhammer
+301200989 Default - Warhammer
+301200990 Default - Warhammer
+301200991 Default - Warhammer
+301200992 Default - Warhammer
+301200993 Default - Warhammer
 301202900 Devourer's Scepter
 301202901 Devourer's Scepter
 301216900 Envoy's Long Horn
@@ -5179,6 +5449,40 @@
 301217922 Cranial Vessel Candlestand
 301217925 Cranial Vessel Candlestand
 301217930 Cranial Vessel Candlestand
+301300950 Default - Flail
+301300951 Default - Flail
+301300952 Default - Flail
+301300953 Default - Flail
+301300954 Default - Flail
+301300955 Default - Flail
+301300956 Default - Flail
+301300957 Default - Flail
+301300958 Default - Flail
+301300959 Default - Flail
+301300960 Default - Flail
+301300961 Default - Flail
+301300962 Default - Flail
+301300963 Default - Flail
+301300964 Default - Flail
+301300965 Default - Flail
+301300966 Default - Flail
+301300967 Default - Flail
+301300968 Default - Flail
+301300969 Default - Flail
+301300980 Default - Flail
+301300981 Default - Flail
+301300982 Default - Flail
+301300983 Default - Flail
+301300984 Default - Flail
+301300985 Default - Flail
+301300986 Default - Flail
+301300987 Default - Flail
+301300988 Default - Flail
+301300989 Default - Flail
+301300990 Default - Flail
+301300991 Default - Flail
+301300992 Default - Flail
+301300993 Default - Flail
 301302900 Family Heads
 301302901 Family Heads
 301302902 Family Heads
@@ -5196,6 +5500,40 @@
 301400808 Default - Axe
 301400809 Default - Axe
 301400810 Default - Axe
+301400950 Default - Axe
+301400951 Default - Axe
+301400952 Default - Axe
+301400953 Default - Axe
+301400954 Default - Axe
+301400955 Default - Axe
+301400956 Default - Axe
+301400957 Default - Axe
+301400958 Default - Axe
+301400959 Default - Axe
+301400960 Default - Axe
+301400961 Default - Axe
+301400962 Default - Axe
+301400963 Default - Axe
+301400964 Default - Axe
+301400965 Default - Axe
+301400966 Default - Axe
+301400967 Default - Axe
+301400968 Default - Axe
+301400969 Default - Axe
+301400980 Default - Axe
+301400981 Default - Axe
+301400982 Default - Axe
+301400983 Default - Axe
+301400984 Default - Axe
+301400985 Default - Axe
+301400986 Default - Axe
+301400987 Default - Axe
+301400988 Default - Axe
+301400989 Default - Axe
+301400990 Default - Axe
+301400991 Default - Axe
+301400992 Default - Axe
+301400993 Default - Axe
 301412900 Rosus' Axe
 301412901 Rosus' Axe
 301412902 Rosus' Axe
@@ -5226,6 +5564,36 @@
 301414936 Stormhawk Axe
 301414940 Stormhawk Axe
 301414941 Stormhawk Axe
+301500950 Default - Greataxe
+301500951 Default - Greataxe
+301500952 Default - Greataxe
+301500953 Default - Greataxe
+301500954 Default - Greataxe
+301500955 Default - Greataxe
+301500956 Default - Greataxe
+301500958 Default - Greataxe
+301500960 Default - Greataxe
+301500961 Default - Greataxe
+301500962 Default - Greataxe
+301500963 Default - Greataxe
+301500964 Default - Greataxe
+301500965 Default - Greataxe
+301500966 Default - Greataxe
+301500968 Default - Greataxe
+301500980 Default - Greataxe
+301500981 Default - Greataxe
+301500982 Default - Greataxe
+301500983 Default - Greataxe
+301500984 Default - Greataxe
+301500985 Default - Greataxe
+301500986 Default - Greataxe
+301500987 Default - Greataxe
+301500988 Default - Greataxe
+301500989 Default - Greataxe
+301500990 Default - Greataxe
+301500991 Default - Greataxe
+301500992 Default - Greataxe
+301500993 Default - Greataxe
 301504900 Axe of Godrick
 301504905 Axe of Godrick
 301504906 Axe of Godrick
@@ -5245,6 +5613,40 @@
 301504935 Axe of Godrick
 301504940 Axe of Godrick
 301511900 Winged Greathorn
+301600441 Default - Spear
+301600442 Default - Spear
+301600443 Default - Spear
+301600444 Default - Spear
+301600950 Default - Spear
+301600951 Default - Spear
+301600952 Default - Spear
+301600953 Default - Spear
+301600954 Default - Spear
+301600955 Default - Spear
+301600956 Default - Spear
+301600958 Default - Spear
+301600960 Default - Spear
+301600961 Default - Spear
+301600962 Default - Spear
+301600963 Default - Spear
+301600964 Default - Spear
+301600965 Default - Spear
+301600966 Default - Spear
+301600968 Default - Spear
+301600980 Default - Spear
+301600981 Default - Spear
+301600982 Default - Spear
+301600983 Default - Spear
+301600984 Default - Spear
+301600985 Default - Spear
+301600986 Default - Spear
+301600987 Default - Spear
+301600988 Default - Spear
+301600989 Default - Spear
+301600990 Default - Spear
+301600991 Default - Spear
+301600992 Default - Spear
+301600993 Default - Spear
 301604900 Cleanrot Spear
 301604905 Cleanrot Spear
 301612900 Death Ritual Spear
@@ -5256,6 +5658,40 @@
 301612910 Death Ritual Spear
 301612911 Death Ritual Spear
 301612915 Death Ritual Spear
+301700441 Default - Lance
+301700442 Default - Lance
+301700443 Default - Lance
+301700444 Default - Lance
+301700950 Default - Lance
+301700951 Default - Lance
+301700952 Default - Lance
+301700953 Default - Lance
+301700954 Default - Lance
+301700955 Default - Lance
+301700956 Default - Lance
+301700958 Default - Lance
+301700960 Default - Lance
+301700961 Default - Lance
+301700962 Default - Lance
+301700963 Default - Lance
+301700964 Default - Lance
+301700965 Default - Lance
+301700966 Default - Lance
+301700968 Default - Lance
+301700980 Default - Lance
+301700981 Default - Lance
+301700982 Default - Lance
+301700983 Default - Lance
+301700984 Default - Lance
+301700985 Default - Lance
+301700986 Default - Lance
+301700987 Default - Lance
+301700988 Default - Lance
+301700989 Default - Lance
+301700990 Default - Lance
+301700991 Default - Lance
+301700992 Default - Lance
+301700993 Default - Lance
 301702900 Siluria's Tree
 301702905 Siluria's Tree
 301702910 Siluria's Tree
@@ -5292,12 +5728,80 @@
 301711935 Mohgwyn's Sacred Spear
 301711940 Mohgwyn's Sacred Spear
 301711945 Mohgwyn's Sacred Spear
+301800441 Default - Halberd
+301800442 Default - Halberd
+301800443 Default - Halberd
+301800444 Default - Halberd
+301800950 Default - Halberd
+301800951 Default - Halberd
+301800952 Default - Halberd
+301800953 Default - Halberd
+301800954 Default - Halberd
+301800955 Default - Halberd
+301800956 Default - Halberd
+301800958 Default - Halberd
+301800960 Default - Halberd
+301800961 Default - Halberd
+301800962 Default - Halberd
+301800963 Default - Halberd
+301800964 Default - Halberd
+301800965 Default - Halberd
+301800966 Default - Halberd
+301800968 Default - Halberd
+301800980 Default - Halberd
+301800981 Default - Halberd
+301800982 Default - Halberd
+301800983 Default - Halberd
+301800984 Default - Halberd
+301800985 Default - Halberd
+301800986 Default - Halberd
+301800987 Default - Halberd
+301800988 Default - Halberd
+301800989 Default - Halberd
+301800990 Default - Halberd
+301800991 Default - Halberd
+301800992 Default - Halberd
+301800993 Default - Halberd
 301804900 Commander's Standard
 301810900 Loretta's War Sickle
 301810905 Loretta's War Sickle
 301810906 Loretta's War Sickle
 301810910 Loretta's War Sickle
 301810911 Loretta's War Sickle
+301900441 Default - Scythe
+301900442 Default - Scythe
+301900443 Default - Scythe
+301900444 Default - Scythe
+301900950 Default - Scythe
+301900951 Default - Scythe
+301900952 Default - Scythe
+301900953 Default - Scythe
+301900954 Default - Scythe
+301900955 Default - Scythe
+301900956 Default - Scythe
+301900958 Default - Scythe
+301900960 Default - Scythe
+301900961 Default - Scythe
+301900962 Default - Scythe
+301900963 Default - Scythe
+301900964 Default - Scythe
+301900965 Default - Scythe
+301900966 Default - Scythe
+301900968 Default - Scythe
+301900980 Default - Scythe
+301900981 Default - Scythe
+301900982 Default - Scythe
+301900983 Default - Scythe
+301900984 Default - Scythe
+301900985 Default - Scythe
+301900986 Default - Scythe
+301900987 Default - Scythe
+301900988 Default - Scythe
+301900989 Default - Scythe
+301900990 Default - Scythe
+301900991 Default - Scythe
+301900992 Default - Scythe
+301900993 Default - Scythe
 301902900 Halo Scythe
 301902901 Halo Scythe
 301902902 Halo Scythe
@@ -5337,6 +5841,44 @@
 302006912 Giant's Red Braid
 302006913 Giant's Red Braid
 302006914 Giant's Red Braid
+302100950 Default - Fist
+302100951 Default - Fist
+302100952 Default - Fist
+302100953 Default - Fist
+302100954 Default - Fist
+302100955 Default - Fist
+302100956 Default - Fist
+302100957 Default - Fist
+302100958 Default - Fist
+302100959 Default - Fist
+302100960 Default - Fist
+302100961 Default - Fist
+302100962 Default - Fist
+302100963 Default - Fist
+302100964 Default - Fist
+302100965 Default - Fist
+302100966 Default - Fist
+302100967 Default - Fist
+302100968 Default - Fist
+302100969 Default - Fist
+302100980 Default - Fist
+302100981 Default - Fist
+302100982 Default - Fist
+302100983 Default - Fist
+302100984 Default - Fist
+302100985 Default - Fist
+302100986 Default - Fist
+302100987 Default - Fist
+302100988 Default - Fist
+302100989 Default - Fist
+302100990 Default - Fist
+302100991 Default - Fist
+302100992 Default - Fist
+302100993 Default - Fist
+302100994 Default - Fist
+302100995 Default - Fist
+302100996 Default - Fist
+302100997 Default - Fist
 302106900 Grafted Dragon
 302106901 Grafted Dragon
 302106902 Grafted Dragon
@@ -5367,6 +5909,74 @@
 302112919 Veteran's Prosthesis
 302113900 Cipher Pata
 302113905 Cipher Pata
+302200950 Default - Claw
+302200951 Default - Claw
+302200952 Default - Claw
+302200953 Default - Claw
+302200954 Default - Claw
+302200955 Default - Claw
+302200956 Default - Claw
+302200957 Default - Claw
+302200958 Default - Claw
+302200959 Default - Claw
+302200960 Default - Claw
+302200961 Default - Claw
+302200962 Default - Claw
+302200963 Default - Claw
+302200964 Default - Claw
+302200965 Default - Claw
+302200966 Default - Claw
+302200967 Default - Claw
+302200968 Default - Claw
+302200969 Default - Claw
+302200980 Default - Claw
+302200981 Default - Claw
+302200982 Default - Claw
+302200983 Default - Claw
+302200984 Default - Claw
+302200985 Default - Claw
+302200986 Default - Claw
+302200987 Default - Claw
+302200988 Default - Claw
+302200989 Default - Claw
+302200990 Default - Claw
+302200991 Default - Claw
+302200992 Default - Claw
+302200993 Default - Claw
+302200994 Default - Claw
+302200995 Default - Claw
+302200996 Default - Claw
+302200997 Default - Claw
+302300950 Default - Colossal Weapon
+302300951 Default - Colossal Weapon
+302300952 Default - Colossal Weapon
+302300953 Default - Colossal Weapon
+302300954 Default - Colossal Weapon
+302300955 Default - Colossal Weapon
+302300956 Default - Colossal Weapon
+302300958 Default - Colossal Weapon
+302300960 Default - Colossal Weapon
+302300961 Default - Colossal Weapon
+302300962 Default - Colossal Weapon
+302300963 Default - Colossal Weapon
+302300964 Default - Colossal Weapon
+302300965 Default - Colossal Weapon
+302300966 Default - Colossal Weapon
+302300968 Default - Colossal Weapon
+302300980 Default - Colossal Weapon
+302300981 Default - Colossal Weapon
+302300982 Default - Colossal Weapon
+302300983 Default - Colossal Weapon
+302300984 Default - Colossal Weapon
+302300985 Default - Colossal Weapon
+302300986 Default - Colossal Weapon
+302300987 Default - Colossal Weapon
+302300988 Default - Colossal Weapon
+302300989 Default - Colossal Weapon
+302300990 Default - Colossal Weapon
+302300991 Default - Colossal Weapon
+302300992 Default - Colossal Weapon
+302300993 Default - Colossal Weapon
 302301901 Watchdog's Staff
 302301905 Watchdog's Staff
 302305900 Axe of Godfrey
@@ -5405,6 +6015,22 @@
 302309906 Ghiza's Wheel
 302309907 Ghiza's Wheel
 302309908 Ghiza's Wheel
+302400950 Sword of Milos
+302400951 Sword of Milos
+302400952 Sword of Milos
+302400953 Sword of Milos
+302400954 Sword of Milos
+302400955 Sword of Milos
+302400956 Sword of Milos
+302400958 Sword of Milos
+302400960 Sword of Milos
+302400961 Sword of Milos
+302400962 Sword of Milos
+302400963 Sword of Milos
+302400964 Sword of Milos
+302400965 Sword of Milos
+302400966 Sword of Milos
+302400968 Sword of Milos
 302404900 St. Trina's Torch
 302404901 St. Trina's Torch
 303020900 Coil Shield
@@ -5500,629 +6126,3 @@
 303401700 Gargoyle's Blackblade
 303401701 Gargoyle's Blackblade
 303401800 Golden Epitaph
-300200950 Default - Straight Sword
-300200951 Default - Straight Sword
-300200952 Default - Straight Sword
-300200953 Default - Straight Sword
-300200954 Default - Straight Sword
-300200955 Default - Straight Sword
-300200956 Default - Straight Sword
-300200957 Default - Straight Sword
-300200958 Default - Straight Sword
-300200959 Default - Straight Sword
-300200960 Default - Straight Sword
-300200961 Default - Straight Sword
-300200962 Default - Straight Sword
-300200963 Default - Straight Sword
-300200964 Default - Straight Sword
-300200965 Default - Straight Sword
-300200966 Default - Straight Sword
-300200967 Default - Straight Sword
-300200968 Default - Straight Sword
-300200969 Default - Straight Sword
-300300950 Default - Greatsword
-300300951 Default - Greatsword
-300300952 Default - Greatsword
-300300953 Default - Greatsword
-300300954 Default - Greatsword
-300300955 Default - Greatsword
-300300956 Default - Greatsword
-300300958 Default - Greatsword
-300300960 Default - Greatsword
-300300961 Default - Greatsword
-300300962 Default - Greatsword
-300300963 Default - Greatsword
-300300964 Default - Greatsword
-300300965 Default - Greatsword
-300300966 Default - Greatsword
-300300968 Default - Greatsword
-300400950 Default - Colossal Sword
-300400951 Default - Colossal Sword
-300400952 Default - Colossal Sword
-300400953 Default - Colossal Sword
-300400954 Default - Colossal Sword
-300400955 Default - Colossal Sword
-300400956 Default - Colossal Sword
-300400958 Default - Colossal Sword
-300400960 Default - Colossal Sword
-300400961 Default - Colossal Sword
-300400962 Default - Colossal Sword
-300400963 Default - Colossal Sword
-300400964 Default - Colossal Sword
-300400965 Default - Colossal Sword
-300400966 Default - Colossal Sword
-300400968 Default - Colossal Sword
-300700950 Default - Curved Sword
-300700951 Default - Curved Sword
-300700952 Default - Curved Sword
-300700953 Default - Curved Sword
-300700954 Default - Curved Sword
-300700955 Default - Curved Sword
-300700956 Default - Curved Sword
-300700957 Default - Curved Sword
-300700958 Default - Curved Sword
-300700959 Default - Curved Sword
-300700960 Default - Curved Sword
-300700961 Default - Curved Sword
-300700962 Default - Curved Sword
-300700963 Default - Curved Sword
-300700964 Default - Curved Sword
-300700965 Default - Curved Sword
-300700966 Default - Curved Sword
-300700967 Default - Curved Sword
-300700968 Default - Curved Sword
-300700969 Default - Curved Sword
-300800950 Default - Curved Greatsword
-300800951 Default - Curved Greatsword
-300800952 Default - Curved Greatsword
-300800953 Default - Curved Greatsword
-300800954 Default - Curved Greatsword
-300800955 Default - Curved Greatsword
-300800956 Default - Curved Greatsword
-300800958 Default - Curved Greatsword
-300800960 Default - Curved Greatsword
-300800961 Default - Curved Greatsword
-300800962 Default - Curved Greatsword
-300800963 Default - Curved Greatsword
-300800964 Default - Curved Greatsword
-300800965 Default - Curved Greatsword
-300800966 Default - Curved Greatsword
-300800968 Default - Curved Greatsword
-300900950 Default - Katana
-300900951 Default - Katana
-300900952 Default - Katana
-300900953 Default - Katana
-300900954 Default - Katana
-300900955 Default - Katana
-300900956 Default - Katana
-300900957 Default - Katana
-300900958 Default - Katana
-300900959 Default - Katana
-300900960 Default - Katana
-300900961 Default - Katana
-300900962 Default - Katana
-300900963 Default - Katana
-300900964 Default - Katana
-300900965 Default - Katana
-300900966 Default - Katana
-300900967 Default - Katana
-300900968 Default - Katana
-300900969 Default - Katana
-301000950 Default - Twinblade
-301000951 Default - Twinblade
-301000952 Default - Twinblade
-301000953 Default - Twinblade
-301000954 Default - Twinblade
-301000955 Default - Twinblade
-301000956 Default - Twinblade
-301000958 Default - Twinblade
-301000960 Default - Twinblade
-301000961 Default - Twinblade
-301000962 Default - Twinblade
-301000963 Default - Twinblade
-301000964 Default - Twinblade
-301000965 Default - Twinblade
-301000966 Default - Twinblade
-301000968 Default - Twinblade
-301100950 Default - Hammer
-301100951 Default - Hammer
-301100952 Default - Hammer
-301100953 Default - Hammer
-301100954 Default - Hammer
-301100955 Default - Hammer
-301100956 Default - Hammer
-301100957 Default - Hammer
-301100958 Default - Hammer
-301100959 Default - Hammer
-301100960 Default - Hammer
-301100961 Default - Hammer
-301100962 Default - Hammer
-301100963 Default - Hammer
-301100964 Default - Hammer
-301100965 Default - Hammer
-301100966 Default - Hammer
-301100967 Default - Hammer
-301100968 Default - Hammer
-301100969 Default - Hammer
-301200950 Default - Warhammer
-301200951 Default - Warhammer
-301200952 Default - Warhammer
-301200953 Default - Warhammer
-301200954 Default - Warhammer
-301200955 Default - Warhammer
-301200956 Default - Warhammer
-301200958 Default - Warhammer
-301200960 Default - Warhammer
-301200961 Default - Warhammer
-301200962 Default - Warhammer
-301200963 Default - Warhammer
-301200964 Default - Warhammer
-301200965 Default - Warhammer
-301200966 Default - Warhammer
-301200968 Default - Warhammer
-301300950 Default - Flail
-301300951 Default - Flail
-301300952 Default - Flail
-301300953 Default - Flail
-301300954 Default - Flail
-301300955 Default - Flail
-301300956 Default - Flail
-301300957 Default - Flail
-301300958 Default - Flail
-301300959 Default - Flail
-301300960 Default - Flail
-301300961 Default - Flail
-301300962 Default - Flail
-301300963 Default - Flail
-301300964 Default - Flail
-301300965 Default - Flail
-301300966 Default - Flail
-301300967 Default - Flail
-301300968 Default - Flail
-301300969 Default - Flail
-301400950 Default - Axe
-301400951 Default - Axe
-301400952 Default - Axe
-301400953 Default - Axe
-301400954 Default - Axe
-301400955 Default - Axe
-301400956 Default - Axe
-301400957 Default - Axe
-301400958 Default - Axe
-301400959 Default - Axe
-301400960 Default - Axe
-301400961 Default - Axe
-301400962 Default - Axe
-301400963 Default - Axe
-301400964 Default - Axe
-301400965 Default - Axe
-301400966 Default - Axe
-301400967 Default - Axe
-301400968 Default - Axe
-301400969 Default - Axe
-301500950 Default - Greataxe
-301500951 Default - Greataxe
-301500952 Default - Greataxe
-301500953 Default - Greataxe
-301500954 Default - Greataxe
-301500955 Default - Greataxe
-301500956 Default - Greataxe
-301500958 Default - Greataxe
-301500960 Default - Greataxe
-301500961 Default - Greataxe
-301500962 Default - Greataxe
-301500963 Default - Greataxe
-301500964 Default - Greataxe
-301500965 Default - Greataxe
-301500966 Default - Greataxe
-301500968 Default - Greataxe
-301600950 Default - Spear
-301600951 Default - Spear
-301600952 Default - Spear
-301600953 Default - Spear
-301600954 Default - Spear
-301600955 Default - Spear
-301600956 Default - Spear
-301600958 Default - Spear
-301600960 Default - Spear
-301600961 Default - Spear
-301600962 Default - Spear
-301600963 Default - Spear
-301600964 Default - Spear
-301600965 Default - Spear
-301600966 Default - Spear
-301600968 Default - Spear
-301700950 Default - Lance
-301700951 Default - Lance
-301700952 Default - Lance
-301700953 Default - Lance
-301700954 Default - Lance
-301700955 Default - Lance
-301700956 Default - Lance
-301700958 Default - Lance
-301700960 Default - Lance
-301700961 Default - Lance
-301700962 Default - Lance
-301700963 Default - Lance
-301700964 Default - Lance
-301700965 Default - Lance
-301700966 Default - Lance
-301700968 Default - Lance
-301800950 Default - Halberd
-301800951 Default - Halberd
-301800952 Default - Halberd
-301800953 Default - Halberd
-301800954 Default - Halberd
-301800955 Default - Halberd
-301800956 Default - Halberd
-301800958 Default - Halberd
-301800960 Default - Halberd
-301800961 Default - Halberd
-301800962 Default - Halberd
-301800963 Default - Halberd
-301800964 Default - Halberd
-301800965 Default - Halberd
-301800966 Default - Halberd
-301800968 Default - Halberd
-301900950 Default - Scythe
-301900951 Default - Scythe
-301900952 Default - Scythe
-301900953 Default - Scythe
-301900954 Default - Scythe
-301900955 Default - Scythe
-301900956 Default - Scythe
-301900958 Default - Scythe
-301900960 Default - Scythe
-301900961 Default - Scythe
-301900962 Default - Scythe
-301900963 Default - Scythe
-301900964 Default - Scythe
-301900965 Default - Scythe
-301900966 Default - Scythe
-301900968 Default - Scythe
-302100950 Default - Fist
-302100951 Default - Fist
-302100952 Default - Fist
-302100953 Default - Fist
-302100954 Default - Fist
-302100955 Default - Fist
-302100956 Default - Fist
-302100957 Default - Fist
-302100958 Default - Fist
-302100959 Default - Fist
-302100960 Default - Fist
-302100961 Default - Fist
-302100962 Default - Fist
-302100963 Default - Fist
-302100964 Default - Fist
-302100965 Default - Fist
-302100966 Default - Fist
-302100967 Default - Fist
-302100968 Default - Fist
-302100969 Default - Fist
-302200950 Default - Claw
-302200951 Default - Claw
-302200952 Default - Claw
-302200953 Default - Claw
-302200954 Default - Claw
-302200955 Default - Claw
-302200956 Default - Claw
-302200957 Default - Claw
-302200958 Default - Claw
-302200959 Default - Claw
-302200960 Default - Claw
-302200961 Default - Claw
-302200962 Default - Claw
-302200963 Default - Claw
-302200964 Default - Claw
-302200965 Default - Claw
-302200966 Default - Claw
-302200967 Default - Claw
-302200968 Default - Claw
-302200969 Default - Claw
-302300950 Default - Colossal Weapon
-302300951 Default - Colossal Weapon
-302300952 Default - Colossal Weapon
-302300953 Default - Colossal Weapon
-302300954 Default - Colossal Weapon
-302300955 Default - Colossal Weapon
-302300956 Default - Colossal Weapon
-302300958 Default - Colossal Weapon
-302300960 Default - Colossal Weapon
-302300961 Default - Colossal Weapon
-302300962 Default - Colossal Weapon
-302300963 Default - Colossal Weapon
-302300964 Default - Colossal Weapon
-302300965 Default - Colossal Weapon
-302300966 Default - Colossal Weapon
-302300968 Default - Colossal Weapon
-302400950 Sword of Milos
-302400951 Sword of Milos
-302400952 Sword of Milos
-302400953 Sword of Milos
-302400954 Sword of Milos
-302400955 Sword of Milos
-302400956 Sword of Milos
-302400958 Sword of Milos
-302400960 Sword of Milos
-302400961 Sword of Milos
-302400962 Sword of Milos
-302400963 Sword of Milos
-302400964 Sword of Milos
-302400965 Sword of Milos
-302400966 Sword of Milos
-302400968 Sword of Milos
-300200980 Default - Straight Sword
-300200981 Default - Straight Sword
-300200982 Default - Straight Sword
-300200983 Default - Straight Sword
-300200984 Default - Straight Sword
-300200985 Default - Straight Sword
-300200986 Default - Straight Sword
-300200987 Default - Straight Sword
-300200988 Default - Straight Sword
-300200989 Default - Straight Sword
-300200990 Default - Straight Sword
-300200991 Default - Straight Sword
-300200992 Default - Straight Sword
-300200993 Default - Straight Sword
-300300980 Default - Greatsword
-300300981 Default - Greatsword
-300300982 Default - Greatsword
-300300983 Default - Greatsword
-300300984 Default - Greatsword
-300300985 Default - Greatsword
-300300986 Default - Greatsword
-300300987 Default - Greatsword
-300300988 Default - Greatsword
-300300989 Default - Greatsword
-300300990 Default - Greatsword
-300300991 Default - Greatsword
-300300992 Default - Greatsword
-300300993 Default - Greatsword
-300400980 Default - Colossal Sword
-300400981 Default - Colossal Sword
-300400982 Default - Colossal Sword
-300400983 Default - Colossal Sword
-300400984 Default - Colossal Sword
-300400985 Default - Colossal Sword
-300400986 Default - Colossal Sword
-300400987 Default - Colossal Sword
-300400988 Default - Colossal Sword
-300400989 Default - Colossal Sword
-300400990 Default - Colossal Sword
-300400991 Default - Colossal Sword
-300400992 Default - Colossal Sword
-300400993 Default - Colossal Sword
-300700980 Default - Curved Sword
-300700981 Default - Curved Sword
-300700982 Default - Curved Sword
-300700983 Default - Curved Sword
-300700984 Default - Curved Sword
-300700985 Default - Curved Sword
-300700986 Default - Curved Sword
-300700987 Default - Curved Sword
-300700988 Default - Curved Sword
-300700989 Default - Curved Sword
-300700990 Default - Curved Sword
-300700991 Default - Curved Sword
-300700992 Default - Curved Sword
-300700993 Default - Curved Sword
-300800980 Default - Curved Greatsword
-300800981 Default - Curved Greatsword
-300800982 Default - Curved Greatsword
-300800983 Default - Curved Greatsword
-300800984 Default - Curved Greatsword
-300800985 Default - Curved Greatsword
-300800986 Default - Curved Greatsword
-300800987 Default - Curved Greatsword
-300800988 Default - Curved Greatsword
-300800989 Default - Curved Greatsword
-300800990 Default - Curved Greatsword
-300800991 Default - Curved Greatsword
-300800992 Default - Curved Greatsword
-300800993 Default - Curved Greatsword
-300900980 Default - Katana
-300900981 Default - Katana
-300900982 Default - Katana
-300900983 Default - Katana
-300900984 Default - Katana
-300900985 Default - Katana
-300900986 Default - Katana
-300900987 Default - Katana
-300900988 Default - Katana
-300900989 Default - Katana
-300900990 Default - Katana
-300900991 Default - Katana
-300900992 Default - Katana
-300900993 Default - Katana
-301000980 Default - Twinblade
-301000981 Default - Twinblade
-301000982 Default - Twinblade
-301000983 Default - Twinblade
-301000984 Default - Twinblade
-301000985 Default - Twinblade
-301000986 Default - Twinblade
-301000987 Default - Twinblade
-301000988 Default - Twinblade
-301000989 Default - Twinblade
-301000990 Default - Twinblade
-301000991 Default - Twinblade
-301000992 Default - Twinblade
-301000993 Default - Twinblade
-301100980 Default - Hammer
-301100981 Default - Hammer
-301100982 Default - Hammer
-301100983 Default - Hammer
-301100984 Default - Hammer
-301100985 Default - Hammer
-301100986 Default - Hammer
-301100987 Default - Hammer
-301100988 Default - Hammer
-301100989 Default - Hammer
-301100990 Default - Hammer
-301100991 Default - Hammer
-301100992 Default - Hammer
-301100993 Default - Hammer
-301200980 Default - Warhammer
-301200981 Default - Warhammer
-301200982 Default - Warhammer
-301200983 Default - Warhammer
-301200984 Default - Warhammer
-301200985 Default - Warhammer
-301200986 Default - Warhammer
-301200987 Default - Warhammer
-301200988 Default - Warhammer
-301200989 Default - Warhammer
-301200990 Default - Warhammer
-301200991 Default - Warhammer
-301200992 Default - Warhammer
-301200993 Default - Warhammer
-301300980 Default - Flail
-301300981 Default - Flail
-301300982 Default - Flail
-301300983 Default - Flail
-301300984 Default - Flail
-301300985 Default - Flail
-301300986 Default - Flail
-301300987 Default - Flail
-301300988 Default - Flail
-301300989 Default - Flail
-301300990 Default - Flail
-301300991 Default - Flail
-301300992 Default - Flail
-301300993 Default - Flail
-301400980 Default - Axe
-301400981 Default - Axe
-301400982 Default - Axe
-301400983 Default - Axe
-301400984 Default - Axe
-301400985 Default - Axe
-301400986 Default - Axe
-301400987 Default - Axe
-301400988 Default - Axe
-301400989 Default - Axe
-301400990 Default - Axe
-301400991 Default - Axe
-301400992 Default - Axe
-301400993 Default - Axe
-301500980 Default - Greataxe
-301500981 Default - Greataxe
-301500982 Default - Greataxe
-301500983 Default - Greataxe
-301500984 Default - Greataxe
-301500985 Default - Greataxe
-301500986 Default - Greataxe
-301500987 Default - Greataxe
-301500988 Default - Greataxe
-301500989 Default - Greataxe
-301500990 Default - Greataxe
-301500991 Default - Greataxe
-301500992 Default - Greataxe
-301500993 Default - Greataxe
-301600980 Default - Spear
-301600981 Default - Spear
-301600982 Default - Spear
-301600983 Default - Spear
-301600984 Default - Spear
-301600985 Default - Spear
-301600986 Default - Spear
-301600987 Default - Spear
-301600988 Default - Spear
-301600989 Default - Spear
-301600990 Default - Spear
-301600991 Default - Spear
-301600992 Default - Spear
-301600993 Default - Spear
-301700980 Default - Lance
-301700981 Default - Lance
-301700982 Default - Lance
-301700983 Default - Lance
-301700984 Default - Lance
-301700985 Default - Lance
-301700986 Default - Lance
-301700987 Default - Lance
-301700988 Default - Lance
-301700989 Default - Lance
-301700990 Default - Lance
-301700991 Default - Lance
-301700992 Default - Lance
-301700993 Default - Lance
-301800980 Default - Halberd
-301800981 Default - Halberd
-301800982 Default - Halberd
-301800983 Default - Halberd
-301800984 Default - Halberd
-301800985 Default - Halberd
-301800986 Default - Halberd
-301800987 Default - Halberd
-301800988 Default - Halberd
-301800989 Default - Halberd
-301800990 Default - Halberd
-301800991 Default - Halberd
-301800992 Default - Halberd
-301800993 Default - Halberd
-301900980 Default - Scythe
-301900981 Default - Scythe
-301900982 Default - Scythe
-301900983 Default - Scythe
-301900984 Default - Scythe
-301900985 Default - Scythe
-301900986 Default - Scythe
-301900987 Default - Scythe
-301900988 Default - Scythe
-301900989 Default - Scythe
-301900990 Default - Scythe
-301900991 Default - Scythe
-301900992 Default - Scythe
-301900993 Default - Scythe
-302100980 Default - Fist
-302100981 Default - Fist
-302100982 Default - Fist
-302100983 Default - Fist
-302100984 Default - Fist
-302100985 Default - Fist
-302100986 Default - Fist
-302100987 Default - Fist
-302100988 Default - Fist
-302100989 Default - Fist
-302100990 Default - Fist
-302100991 Default - Fist
-302100992 Default - Fist
-302100993 Default - Fist
-302100994 Default - Fist
-302100995 Default - Fist
-302100996 Default - Fist
-302100997 Default - Fist
-302200980 Default - Claw
-302200981 Default - Claw
-302200982 Default - Claw
-302200983 Default - Claw
-302200984 Default - Claw
-302200985 Default - Claw
-302200986 Default - Claw
-302200987 Default - Claw
-302200988 Default - Claw
-302200989 Default - Claw
-302200990 Default - Claw
-302200991 Default - Claw
-302200992 Default - Claw
-302200993 Default - Claw
-302200994 Default - Claw
-302200995 Default - Claw
-302200996 Default - Claw
-302200997 Default - Claw
-302300980 Default - Colossal Weapon
-302300981 Default - Colossal Weapon
-302300982 Default - Colossal Weapon
-302300983 Default - Colossal Weapon
-302300984 Default - Colossal Weapon
-302300985 Default - Colossal Weapon
-302300986 Default - Colossal Weapon
-302300987 Default - Colossal Weapon
-302300988 Default - Colossal Weapon
-302300989 Default - Colossal Weapon
-302300990 Default - Colossal Weapon
-302300991 Default - Colossal Weapon
-302300992 Default - Colossal Weapon
-302300993 Default - Colossal Weapon
