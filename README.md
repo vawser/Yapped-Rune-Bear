@@ -32,7 +32,7 @@ If you want to update a mod to the latest patch without re-building it from scra
 - Change the Project Name to the name of your mod, for example "Great-Rune".
 - Click "Mass Export Data". Wait for it to finish.
 - You can now use a file diff tool such as WinMerge or K-Diff to quickly check which rows are different between vanilla's and your mod's CSV files. Merge in those that are not changed on your side, and choose whether to merge in those that are.
-- Once you have merged in the differences from vanilla into your mod's CSV files, open Yapped.
+- Once you have merged in the differences from vanilla into your mod's CSV files, open Yapped and load your mod's regulation.bin
 - Make sure the Project Name is the name of your mod, and click "Mass Import Data".
 - This will import data from the merged CSV files you just changed.
 
