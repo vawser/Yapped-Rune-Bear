@@ -15,11 +15,11 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
-    <name>Unk3</name>
+    <name>padding</name>
     <type>dummy8</type>
     <size>4</size>
-    <description>Value is never changed in base files</description>
   </entry>
 
 

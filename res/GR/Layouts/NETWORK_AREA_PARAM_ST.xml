@@ -15,6 +15,7 @@
     <type>f32</type>
     <default>30</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
     <name>pad1</name>
     <type>dummy8</type>
@@ -36,30 +37,31 @@
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk1</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk2</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk3</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk4</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Unk5</name>
     <type>b8</type>
     <default>True</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
     <name>pad2</name>
     <type>dummy8</type>

@@ -46,6 +46,7 @@
     <type>s16</type>
     <default>1</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
     <name>padding</name>
     <type>dummy8</type>
@@ -68,6 +69,7 @@
     <type>s16</type>
     <default>-1</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
     <name>padding</name>
     <type>dummy8</type>
@@ -104,6 +106,7 @@
     <type>s8</type>
     <default>0</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
     <name>padding</name>
     <type>dummy8</type>

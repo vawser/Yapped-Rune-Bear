@@ -25,24 +25,24 @@
     <type>u8</type>
     <default>0</default>
   </entry>
-  <!-- Confirmed empty -->
+  <!-- Verified zero -->
   <entry>
     <name>pad1</name>
     <type>dummy8</type>
     <size>3</size>
   </entry>
-  <!-- Confirmed empty -->
   <entry>
     <name>Menu Type</name>
     <type>s8</type>
     <default>2</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
-    <name>pad2</name>
+    <name>padding</name>
     <type>dummy8</type>
-    <size>11</size>
+    <size>3</size>
   </entry>
-    <entry>
+  <entry>
     <name>Unk0</name>
     <type>s32</type>
     <default>0</default>
@@ -59,6 +59,16 @@
   </entry>
   <entry>
     <name>Unk3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
     <type>s32</type>
     <default>0</default>
   </entry>

@@ -410,7 +410,9 @@
     <type>s16</type>
     <default>100</default>
   </entry>
-    <entry>
+  
+  <!-- Verified zero -->
+  <entry>
     <name>padding</name>
     <type>dummy8</type>
     <size>24</size>

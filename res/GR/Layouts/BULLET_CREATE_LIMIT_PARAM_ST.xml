@@ -10,11 +10,10 @@
     <type>u8</type>
     <default>1</default>
   </entry>
-  <!-- Confirmed empty -->
+  <!-- Verified zero -->
   <entry>
-    <name>pad1</name>
+    <name>padding</name>
     <type>dummy8</type>
     <size>30</size>
   </entry>
-  <!-- Confirmed empty -->
 </layout>

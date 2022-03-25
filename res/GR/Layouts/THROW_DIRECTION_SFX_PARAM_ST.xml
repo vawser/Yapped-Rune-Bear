@@ -100,59 +100,10 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
-    <name>SFX ID 21</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 22</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 28</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SFX ID 30</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>pad1</name>
+    <name>padding</name>
     <type>dummy8</type>
-    <size>24</size>
+    <size>64</size>
   </entry>
 </layout>

@@ -135,7 +135,8 @@
     <type>f32</type>
     <default>3</default>
   </entry>
-    <entry>
+  <!-- Verified zero -->
+  <entry>
     <name>padding</name>
     <type>dummy8</type>
     <size>28</size>

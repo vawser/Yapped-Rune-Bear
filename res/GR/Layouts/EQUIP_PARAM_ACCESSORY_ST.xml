@@ -34,15 +34,13 @@
   </entry>
   <entry>
     <name>Behavior ID</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Base Price</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Sell Value</name>
@@ -56,15 +54,13 @@
   </entry>
   <entry>
     <name>QWC ID</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Equip Model ID</name>
-    <type>dummy8</type>
-    <size>2</size>
-    <description>Value is never changed in base files</description>
+    <type>s16</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Icon ID</name>
@@ -73,39 +69,28 @@
   </entry>
   <entry>
     <name>Shop Level</name>
-    <type>dummy8</type>
-    <size>2</size>
-    <description>Value is never changed in base files</description>
+    <type>s16</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
-    <type>dummy8</type>
-    <size>2</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Undetermined</name>
-    <type>dummy8</type>
-    <size>2</size>
-    <description>Value is never changed in base files</description>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Equip Model Category</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Equip Model Gender</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Accessory Type</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Reference Type</name>
@@ -125,21 +110,18 @@
   </entry>
   <entry>
     <name>Vagrant Item Lot ID</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vagrant Bonus Item Lot ID</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vagrant Enemy Item Lot ID</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Is Depositable</name>
@@ -189,21 +171,13 @@
   </entry>
   <entry>
     <name>Unk5</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>s16</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Shop Price</name>
-    <type>dummy8</type>
-    <size>4</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Ring Compatibility ID</name>
@@ -212,9 +186,8 @@
   </entry>
   <entry>
     <name>Unk4</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Achievement ID</name>
@@ -243,27 +216,8 @@
   </entry>
     <entry>
     <name>Unk7</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>dummy8</type>
-    <size>1</size>
-    <description>Value is never changed in base files</description>
+    <type>s32</type>
+    <default>0</default>
   </entry>
 
 </layout>
