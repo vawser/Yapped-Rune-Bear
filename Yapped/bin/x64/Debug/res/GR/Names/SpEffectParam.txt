@@ -46,21 +46,37 @@
 534 Small Golden Effigy - Send Summon Sign to Summoning Pool
 535 Small Red Effigy - Send Invasion Sign to Summoning Pool
 536 Phantom Bloody/Recusant Finger - Attempt Invasion
+829 Unknown - Frostbite
 860 Gargoyle's Blackblade - Bullet
-870 Reduvia - Bullet
+870 Reduvia - Hemorrhage
+875 Unknown - Frostbite
 1525 Erdtree Greatshield - Bullet
+1530 Unknown - Frostbite
 1545 Winged Greathorn - Bullet
-1576 Royal Greatsword - Bullet
-1625 Mohgwyn's Sacred Spear - Bullet
+1575 Unknown - Frostbite
+1576 Royal Greatsword - Bullet - Frostbite
+1615 Unknown - Hemorrhage
+1616 Unknown - Hemorrhage
+1625 Mohgwyn's Sacred Spear - Hemorrhage
+1724 Unknown - Frostbite
+1753 Unknown - Hemorrhage
+1756 Unknown - Hemorrhage
+1759 Unknown - Hemorrhage
+1761 Unknown - Hemorrhage
 1768 Commander's Standard - Bullet
 1769 Commander's Standard [Cycle]
 1770 Commander's Standard [Cycle]
 1789 Eclipse Shotel - Bullet
+1800 Unknown - Frostbite
+1801 Unknown - Frostbite
+1809 Unknown - Frostbite
 1855 Sword of Milos - Bullet
 1856 Sword of Milos - Bullet
 1885 Sword of St. Trina - Bullet
+1894 Unknown - Frostbite
 1896 Devourer's Scepter - Bullet
 1897 Scepter of the All-Knowing - Bullet
+1901 Unknown - Frostbite
 1910 Carian Regal Scepter - Boost Damage
 1911 Carian Glintstone Staff - Boost Damage
 1912 Carian Glintblade Staff - Boost Damage
@@ -102,14 +118,22 @@
 3120 Fetid Pot
 3125 Swarm of Flies - Hemorrhage [Cycle]
 3126 Swarm of Flies  - Hemorrhage
-3140 Freezing Grease
-3141 Freezing Grease [Attack]
-3142 Drawstring Freezing Grease
-3143 Drawstring Freezing Grease [Attack]
-3150 Soporific Grease
-3151 Soporific Grease [Attack]
-3152 Drawstring Soporific Grease
-3153 Drawstring Soporific Grease [Attack]
+3140 Freezing Grease - Right
+3141 Freezing Grease - Right [Attack]
+3142 Drawstring Freezing Grease - Right
+3143 Drawstring Freezing Grease - Right [Attack]
+3144 Freezing Grease - Left
+3145 Freezing Grease - Left [Attack]
+3146 Drawstring Freezing Grease - Left
+3147 Drawstring Freezing Grease - Left [Attack]
+3150 Soporific Grease - Right
+3151 Soporific Grease - Right [Attack]
+3152 Drawstring Soporific Grease - Right
+3153 Drawstring Soporific Grease - Right [Attack]
+3154 Soporific Grease - Left
+3155 Soporific Grease - Left [Attack]
+3156 Drawstring Soporific Grease - Left
+3157 Drawstring Soporific Grease - Left [Attack]
 3160 Fire Grease - Right
 3161 Drawstring Fire Grease - Right
 3162 Fire Grease - Left
@@ -168,6 +192,9 @@
 3286 Hero's Rune [4]
 3287 Hero's Rune [5]
 3288 Lord's Rune
+3290 Holding Rune
+3300 Unknown - Frostbite
+3309 Unknown - Frostbite
 3310 Rot Grease - Right
 3311 Rot Grease - Right [Attack]
 3312 Drawstring Rot Grease - Right
@@ -241,6 +268,7 @@
 3732 Remembrance of the Regal Ancestor
 3733 Elden Remembrance
 3734 Remembrance of the Naturalborn
+3751 Unknown - Hemorrhage
 3910 Spellproof Dried Liver
 3920 Fireproof Dried Liver
 3930 Lightningproof Dried Liver
@@ -371,35 +399,35 @@
 6845 Black Knife - Bullet
 6850 [Incantation] Black Blade
 6930 Crystal Dart
-7000 Area Scaling - Tier 1
-7010 Area Scaling - Tier 2
-7020 Area Scaling - Tier 3
-7030 Area Scaling - Tier 4
-7040 Area Scaling - Tier 5
-7050 Area Scaling - Tier 6
-7060 Area Scaling - Tier 7
-7070 Area Scaling - Tier 8
-7080 Area Scaling - Tier 9
-7090 Area Scaling - Tier 10
-7100 Area Scaling - Tier 11
-7110 Area Scaling - Tier 12
-7120 Area Scaling - Tier 13
-7130 Area Scaling - Tier 22
-7140 Area Scaling - Tier 23
-7150 Area Scaling - Tier 24
-7160 Area Scaling - Tier 25
-7170 Area Scaling - Tier 26
-7180 Area Scaling - Tier 27
-7190 Area Scaling - Tier 28
-7200 Area Scaling - Tier 29
-7210 Area Scaling - Tier 14
-7220 Area Scaling - Tier 15
-7230 Area Scaling - Tier 16
-7240 Area Scaling - Tier 17
-7250 Area Scaling - Tier 18
-7260 Area Scaling - Tier 19
-7270 Area Scaling - Tier 20
-7280 Area Scaling - Tier 21
+7000 Area Scaling - Tier 1 - Stranded Graveyard
+7010 Area Scaling - Tier 2 - Limgrave Middle
+7020 Area Scaling - Tier 3 - Limgrave South
+7030 Area Scaling - Tier 4 - Limgrave North
+7040 Area Scaling - Tier 5 - Stormveil
+7050 Area Scaling - Tier 6 - Siofra River
+7060 Area Scaling - Tier 7 - South Liurnia / Academy
+7070 Area Scaling - Tier 8 - North Liurnia / Academy
+7080 Area Scaling - Tier 9 - Lower Mt. Gelmir / Ainsel River
+7090 Area Scaling - Tier 10 - Upper Mt. Gelmir / West Caelid
+7100 Area Scaling - Tier 11 - Altus Plateau / South Caelid
+7110 Area Scaling - Tier 12 - Leyndell / Nokstella
+7120 Area Scaling - Tier 13 - Volcano Manor / North Caelid
+7130 Area Scaling - Tier 14 - Leyndell Sewers
+7140 Area Scaling - Tier 15 - Mountaintops / Early Farum Azula
+7150 Area Scaling - Tier 16 - Late Farum Azula
+7160 Area Scaling - Tier 17 - Ashen Leyndell / Consecrated Snowfield
+7170 Area Scaling - Tier 18 - Elden Throne
+7180 Area Scaling - Tier 19 - Haligtree / Mohgwyn Palace
+7190 Area Scaling - Tier 20 - Elphael
+7200 Area Scaling - Tier 21 - Haligtree Roots
+7210 Area Scaling - Unused
+7220 Area Scaling - Unused
+7230 Area Scaling - Unused
+7240 Area Scaling - Unused
+7250 Area Scaling - Unused
+7260 Area Scaling - Unused
+7270 Area Scaling - Unused
+7280 Area Scaling - Unused
 7400 NG+ Scaling -
 7410 NG+ Scaling -
 7420 NG+ Scaling -
@@ -429,6 +457,7 @@
 7660 NG+ Scaling -
 7670 NG+ Scaling -
 7680 NG+ Scaling -
+8570 Unknown - Hemorrhage
 10000 Castle Exile - Bullet
 10001 Dog - Bullet
 10002 Demi-human - Bullet
@@ -441,7 +470,7 @@
 10317 Fallen Hawk Soldier - Bullet
 10318 Fallen Hawk Soldier - Bullet [Chain]
 10690 Mohg - Bullet
-10691 Mohg - Bullet [Cycle]
+10691 Mohg - Bullet - Hemorrhage [Cycle]
 10945 Warhawk - Bullet
 11010 Tarnished's Furled Finger
 11030 Duelist's Furled Finger
@@ -472,6 +501,7 @@
 13782 Tree Sentinel - Bullet
 13855 Cleanrot Knight - Bullet
 13856 Cleanrot Knight - Bullet
+13944 Unknown - Hemorrhage
 14016 Monstrous Crow - Bullet
 14028 Monstrous Dog - Bullet
 14351 [Rennala]
@@ -496,6 +526,9 @@
 16414 Elemer of the Briar
 16482 Fallingstar Beast - Bullet
 16488 Fallingstar Beast
+17051 Unknown - Hemorrhage
+17061 Unknown - Hemorrhage
+17063 Unknown - Hemorrhage
 17171 Imp
 17654 Death Rite Bird - Bullet
 18400 NPC: HP Recovery on Hit
@@ -2811,6 +2844,7 @@
 1440000 [Sorcery] Glintstone Icecrag
 1441000 [Sorcery] Zamor Ice Storm
 1442000 [Sorcery] Freezing Mist
+1443100 Unknown - Frostbite
 1443101 [Sorcery] Adula's Moonblade
 1446000 [Sorcery] Scholar's Armament
 1447000 [Sorcery] Scholar's Shield
@@ -2827,8 +2861,10 @@
 1467002 [Sorcery] Unseen Form
 1467005 [Sorcery] Unseen Form
 1467006 [Sorcery] Unseen Form
-1490010 [Sorcery] Briars of Sin
-1491010 [Sorcery] Briars of Punishment
+1490001 Unknown - Hemorrhage
+1490010 [Sorcery] Briars of Sin - Hemorrhage
+1491001 Unknown - Hemorrhage
+1491010 [Sorcery] Briars of Punishment - Hemorrhage
 1501000 [Sorcery] Explosive Ghostflame
 1501001 [Sorcery] Explosive Ghostflame
 1502000 [Sorcery] Fia's Mist
@@ -2968,6 +3004,7 @@
 1703000 [Incantation] Rotten Breath
 1703100 [Incantation] Ekzykes's Decay
 1709000 [Incantation] Greyoll's Roar
+1721001 Unknown - Hemorrhage
 1722000 [Incantation] Poison Mist
 1723000 [Incantation] Poison Armament
 1723001 [Incantation] Poison Armament
@@ -3031,3 +3068,13 @@
 5321400 Icon Shield - Grant HP Restoration
 5322200 Ant's Skull Plate - Raise Immunity
 5322400 Eclipse Crest Greatshield - Raise Immunity, Robustness and Focus
+9099999 ### Armor ###
+9100000 Stagger - Resistance - Weak
+9100010 Stagger - Resistance - Medium
+9100020 Stagger - Resistance - Strong
+9199999 ### Talismans ###
+9200000 Voidbane Talisman
+9200010 Deathbane Talisman
+9200020 Dragonbane Talisman
+9200030 Godskin Ward
+9200040 Marika's Golden Sigil

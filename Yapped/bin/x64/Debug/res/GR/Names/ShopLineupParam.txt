@@ -41,7 +41,6 @@
 100085 [Knight Bernahl] Ash of War: Assassin's Gambit
 100086 [Knight Bernahl] Ash of War: No Skill
 100100 [Patches] Margit's Shackle
-100101 [Patches] Missionary's Cookbook [2]
 100102 [Patches] Stonesword Key
 100103 [Patches] Furlcalling Finger Remedy
 100104 [Patches] Glass Shard
@@ -61,6 +60,7 @@
 100122 [Patches] Horse Crest Wooden Shield
 100126 [D, Hunter of The Dead] Litany of Proper Death
 100127 [D, Hunter of The Dead] Order's Blade
+100128 [D, Hunter of The Dead] Deathbane Talisman
 100150 [Blackguard Big Boggart] Rya's Necklace
 100155 [Blackguard Big Boggart] Boiled Crab
 100160 [Blackguard Big Boggart] Boiled Prawn
@@ -93,7 +93,6 @@
 100301 [Preceptor Seluvis - Ranni Quest] Dolores the Sleeping Arrow Puppet
 100302 [Preceptor Seluvis - Ranni Quest] Jarwight Puppet
 100310 [Preceptor Seluvis - Dung Eater Quest] Dung Eater Puppet
-100325 [Pidia, Carian Servant] Glintstone Craftsman's Cookbook [7]
 100326 [Pidia, Carian Servant] Ritual Pot
 100329 [Pidia, Carian Servant] Old Fang
 100330 [Pidia, Carian Servant] Slumbering Egg
@@ -160,9 +159,7 @@
 100443 [Miriel - Ancient Dragon Prayerbook] Ancient Dragons' Lightning Strike
 100500 [Merchant Kale] Note: Flask of Wondrous Physick
 100501 [Merchant Kale] Crafting Kit
-100502 [Merchant Kale] Nomadic Warrior's Cookbook [1]
-100503 [Merchant Kale] Nomadic Warrior's Cookbook [2]
-100504 [Merchant Kale] Missionary's Cookbook [1]
+100502 [Merchant Kale] Fetid Warrior's Cookbook
 100505 [Merchant Kale] Furlcalling Finger Remedy
 100506 [Merchant Kale] Cracked Pot
 100507 [Merchant Kale] Throwing Dagger
@@ -176,7 +173,6 @@
 100518 [Merchant Kale] Chain Leggings
 100519 [Merchant Kale] Arrow
 100520 [Merchant Kale] Bolt
-100525 [Merchant - North Limgrave] Nomadic Warrior's Cookbook [3]
 100539 [Merchant - North Limgrave] Note: Flame Chariots
 100540 [Merchant - North Limgrave] Cracked Pot
 100541 [Merchant - North Limgrave] Pickled Turtle Neck
@@ -186,8 +182,7 @@
 100545 [Merchant - North Limgrave] Bolt
 100546 [Merchant - North Limgrave] Bandit Mask
 100547 [Merchant - North Limgrave] Smithing Stone [1]
-100550 [Merchant - East Limgrave] Nomadic Warrior's Cookbook [5]
-100551 [Merchant - East Limgrave] Armorer's Cookbook [3]
+100551 [Merchant - East Limgrave] Bloodied Warrior's Cookbook
 100552 [Merchant - East Limgrave] Sliver of Meat
 100553 [Merchant - East Limgrave] Beast Liver
 100554 [Merchant - East Limgrave] Lump of Flesh
@@ -200,7 +195,6 @@
 100565 [Merchant - East Limgrave] Blue-Gold Kite Shield
 100566 [Merchant - East Limgrave] St. Trina's Arrow
 100567 [Merchant - East Limgrave] Smithing Stone [1]
-100575 [Merchant - Coastal Cave] Armorer's Cookbook [2]
 100576 [Merchant - Coastal Cave] Note: Stonedigger Trolls
 100585 [Merchant - Coastal Cave] Note: Land Squirts
 100586 [Merchant - Coastal Cave] Club
@@ -232,7 +226,7 @@
 100616 [Merchant - East Weeping Peninsula] Leather Trousers
 100617 [Merchant - East Weeping Peninsula] Smithing Stone [1]
 100618 [Merchant - East Weeping Peninsula] Smithing Stone [2]
-100625 [Merchant - Liurnia of the Lakes] Nomadic Warrior's Cookbook [11]
+100625 [Merchant - Liurnia of the Lakes] Glintstone Craftsman's Cookbook
 100626 [Merchant - Liurnia of the Lakes] Estoc
 100627 [Merchant - Liurnia of the Lakes] Kite Shield
 100628 [Merchant - Liurnia of the Lakes] Astrologer Hood
@@ -258,7 +252,6 @@
 100663 [Isolated Merchant - Weeping Peninsula] Great Arrow
 100664 [Isolated Merchant - Weeping Peninsula] Festering Bloody Finger
 100665 [Isolated Merchant - Weeping Peninsula] Smithing Stone [2]
-100675 [Merchant - Academy of Raya Lucaria] Fevor's Cookbook [2]
 100676 [Merchant - Academy of Raya Lucaria] Trina's Lily
 100678 [Merchant - Academy of Raya Lucaria] Eye of Yelough
 100680 [Merchant - Academy of Raya Lucaria] Stonesword Key
@@ -275,7 +268,6 @@
 100694 [Merchant - Academy of Raya Lucaria] Warrior Greaves
 100695 [Merchant - Academy of Raya Lucaria] Festering Bloody Finger
 100696 [Merchant - Academy of Raya Lucaria] Note: The Preceptor's Secret
-100700 [Merchant - North Liurnia] Nomadic Warrior's Cookbook [13]
 100704 [Merchant - North Liurnia] Composite Bow
 100705 [Merchant - North Liurnia] Rift Shield
 100706 [Merchant - North Liurnia] Blue Crest Heater Shield
@@ -305,7 +297,7 @@
 100741 [Hermit Merchant - Leyndell] Prophet Robe
 100742 [Hermit Merchant - Leyndell] Festering Bloody Finger
 100743 [Hermit Merchant - Leyndell] Note: Below the Capital
-100750 [Merchant - Altus Plateau] Ancient Dragon Apostle's Cookbook [2]
+100750 [Merchant - Altus Plateau] Ancient Dragon Apostle's Cookbook
 100751 [Merchant - Altus Plateau] Note: Imp Shades
 100752 [Merchant - Altus Plateau] Note: Unseen Assassins
 100753 [Merchant - Altus Plateau] Stonesword Key
@@ -318,7 +310,7 @@
 100769 [Merchant - Altus Plateau] Bolt
 100770 [Merchant - Altus Plateau] Tree Surcoat
 100771 [Merchant - Altus Plateau] Festering Bloody Finger
-100775 [Merchant - Mt. Gelmir] Nomadic Warrior's Cookbook [20]
+100775 [Merchant - Mt. Gelmir] Burnt Warrior's Cookbook
 100777 [Merchant - Mt. Gelmir] Stonesword Key
 100784 [Merchant - Mt. Gelmir] Explosive Greatbolt
 100789 [Merchant - Mt. Gelmir] Arrow
@@ -339,7 +331,6 @@
 100815 Arrow
 100816 Fire Arrow
 100817 Bolt
-100825 [Merchant - South Caelid] Nomadic Warrior's Cookbook [15]
 100826 [Merchant - South Caelid] Stonesword Key
 100827 [Merchant - South Caelid] Cracked Pot
 100837 [Merchant - South Caelid] Note: Gravity's Advantage
@@ -368,7 +359,6 @@
 100891 [Isolated Merchant - Dragonbarrow] Serpent Arrow
 100892 [Isolated Merchant - Dragonbarrow] Bolt
 100893 [Isolated Merchant - Dragonbarrow] Festering Bloody Finger
-100900 [Merchant - Mountaintops of the Giants] Missionary's Cookbook [7]
 100901 [Merchant - Mountaintops of the Giants] Stonesword Key
 100903 [Merchant - Mountaintops of the Giants] Thawfrost Boluses
 100909 [Merchant - Mountaintops of the Giants] Rune Arc
@@ -381,8 +371,6 @@
 100916 [Merchant - Mountaintops of the Giants] Vagabond Knight Armor
 100917 [Merchant - Mountaintops of the Giants] Vagabond Knight Gauntlets
 100918 [Merchant - Mountaintops of the Giants] Vagabond Knight Greaves
-100925 [Merchant - Siofra River] Nomadic Warrior's Cookbook [17]
-100926 [Merchant - Siofra River] Nomadic Warrior's Cookbook [18]
 100928 [Merchant - Siofra River] Stonesword Key
 100935 [Merchant - Siofra River] Dwelling Arrow
 100936 [Merchant - Siofra River] Larval Tear
@@ -391,8 +379,6 @@
 100939 [Merchant - Siofra River] Bolt
 100940 [Merchant - Siofra River] Soap
 100941 [Merchant - Siofra River] Nascent Butterfly
-100950 [Merchant - Ainsel River] Nomadic Warrior's Cookbook [16]
-100951 [Merchant - Ainsel River] Perfumer's Cookbook [4]
 100953 [Merchant - Ainsel River] Lost Ashes of War
 100962 [Merchant - Ainsel River] Celestial Dew
 100963 [Merchant - Ainsel River] Gravity Stone Fan
@@ -464,7 +450,6 @@
 101803 [Twin Maiden Husks] Lone Wolf Ashes
 101804 [Twin Maiden Husks - Haligtree] Black Flame's Protection
 101805 [Twin Maiden Husks - Haligtree] Lord's Divine Fortification
-101806 [Twin Maiden Husks - Mohgwyn] Fevor's Cookbook [3]
 101807 [Twin Maiden Husks - Mohg] Law of Causality
 101808 [Twin Maiden Husks] Smithing Stone [1]
 101809 [Twin Maiden Husks] Smithing Stone [2]

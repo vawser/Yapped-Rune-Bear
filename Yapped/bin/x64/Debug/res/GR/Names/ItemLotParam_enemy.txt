@@ -535,38 +535,51 @@
 321000003 [Nomad Mule] Thin Beast Bones
 325000000 [Draconic Tree Sentinel] None
 325100000 [Tree Sentinel] None
-325200000 [Fallen Tree Sentinel] None
-325200100 [Fallen Tree Sentinel] Nox Swordstress Crown
-325200101 [Fallen Tree Sentinel] Nox Swordstress Armor
-325200102 [Fallen Tree Sentinel] Nox Monk Bracelets
-325200103 [Fallen Tree Sentinel] Nox Monk Greaves
-325200200 [Fallen Tree Sentinel] Night Maiden Twin Crown
-325200201 [Fallen Tree Sentinel] Night Maiden Armor
-325200202 [Fallen Tree Sentinel] Nox Monk Bracelets
-325200203 [Fallen Tree Sentinel] Nox Monk Greaves
-330000000 [Nox Swordstress] Nox Monk Hood
-330000001 [Nox Swordstress] Nox Monk Armor
-330000002 [Nox Swordstress] Nox Monk Bracelets
-330000003 [Nox Swordstress] Nox Monk Greaves
+325200000 [Nox Swordstress] None
+325200100 [Nox Swordstress] Nox Swordstress Crown
+325200101 [Nox Swordstress] Nox Swordstress Armor
+325200102 [Nox Swordstress] Nox Monk Bracelets
+325200103 [Nox Swordstress] Nox Monk Greaves
+325200200 [Nox Swordstress] Night Maiden Twin Crown
+325200201 [Nox Swordstress] Night Maiden Armor
+325200202 [Nox Swordstress] Nox Monk Bracelets
+325200203 [Nox Swordstress] Nox Monk Greaves
+330000000 [Nox Priest] Nox Monk Hood
+330000001 [Nox Priest] Nox Monk Armor
+330000002 [Nox Priest] Nox Monk Bracelets
+330000003 [Nox Priest] Nox Monk Greaves
 332000000 [Silver Tear] Silver Tear Husk
+332000001 [Silver Tear] Larval Tear
 332000100 [Silver Tear] Silver Tear Husk
+332000101 [Silver Tear] Larval Tear
 332000200 [Silver Tear] Silver Tear Husk
+332000201 [Silver Tear] Larval Tear
 332000300 [Silver Tear] Silver Tear Husk
 332000301 [Silver Tear] Gravel Stone
+332000302 [Silver Tear] Larval Tear
 332000400 [Silver Tear] Silver Tear Husk
+332000401 [Silver Tear] Larval Tear
 332000500 [Silver Tear] Silver Tear Husk
+332000501 [Silver Tear] Larval Tear
 332000600 [Silver Tear] Silver Tear Husk
 332000601 [Silver Tear] Golden Rune [7]
+332000602 [Silver Tear] Larval Tear
 333000000 [Silver Tear Orb] Silver Tear Husk
+333000001 [Silver Tear Orb] Larval Tear
 333000100 [Silver Tear Orb] Silver Tear Husk
+333000101 [Silver Tear Orb] Larval Tear
 333062000 [Silver Tear Orb] Silver Tear Husk
 333062001 [Silver Tear Orb] Larval Tear
+333062002 [Silver Tear Orb] Larval Tear
 333062010 [Silver Tear Orb] Silver Tear Husk
 333062011 [Silver Tear Orb] Larval Tear
+333062012 [Silver Tear Orb] Larval Tear
 333062020 [Silver Tear Orb] Silver Tear Husk
 333062021 [Silver Tear Orb] Larval Tear
+333062022 [Silver Tear Orb] Larval Tear
 333065000 [Silver Tear Orb] Silver Tear Husk
 333065001 [Silver Tear Orb] Larval Tear
+333065002 [Silver Tear Orb] Larval Tear
 335000000 [Crystalian] None
 335000100 [Crystalian] None
 335000200 [Crystalian] None
@@ -3266,58 +3279,72 @@
 496000100 [Giant Skeleton Torso] None
 600000000 [Hawk] Flight Pinion, Flight Pinion, Flight Pinion
 600000001 [Hawk] Four-Toed Fowl Foot
+600000002 [Hawk] Feather of Khandros
 601000000 [Deer] Sliver of Meat
 601000001 [Deer] Beast Liver
 601000002 [Deer] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 601000003 [Deer] Budding Horn
+601000004 [Deer] Horn of Cernulos
 601065000 [Deer] None
 603000000 [Bear] Lump of Flesh
 603000001 [Bear] Hefty Beast Bone, Hefty Beast Bone, Hefty Beast Bone
 603000002 [Bear] Beast Blood
+603000003 [Bear] Fang of Madhros
 604000000 [Owl] Slumbering Egg
+604000001 [Owl] Feather of Khandros
 605000000 [Boar] Lump of Flesh
 605000001 [Boar] Hefty Beast Bone, Hefty Beast Bone, Hefty Beast Bone
 605000002 [Boar] Old Fang
 605000003 [Boar] Gold-Tinged Excrement
+605000004 [Boar] Fang of Madhros
 605000100 [Boar] Lump of Flesh
 605000101 [Boar] Hefty Beast Bone, Hefty Beast Bone, Hefty Beast Bone
 605000102 [Boar] Beast Blood
 605000103 [Boar] Old Fang
 605000104 [Boar] Gold-Tinged Excrement
+605000105 [Boar] Fang of Madhros
 606000000 [Goat] Sliver of Meat
 606000001 [Goat] Beast Liver
 606000002 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 606000003 [Goat] Budding Horn
+606000004 [Goat] Horn of Cernulos
 606000010 [Goat] Sliver of Meat
 606000011 [Goat] Beast Liver
 606000012 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 606000013 [Goat] Budding Horn
 606000014 [Goat] Fulgurbloom
+606000015 [Goat] Horn of Cernulos
 606000100 [Goat] Sliver of Meat
 606000101 [Goat] Beast Liver
 606000102 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 606000103 [Goat] Budding Horn
+606000104 [Goat] Horn of Cernulos
 606000110 [Goat] Sliver of Meat
 606000111 [Goat] Beast Liver
 606000112 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 606000113 [Goat] Budding Horn
 606000114 [Goat] Fulgurbloom
+606000115 [Goat] Horn of Cernulos
 606000200 [Goat] Sliver of Meat
 606000201 [Goat] Beast Liver
 606000202 [Goat] Budding Horn
 606000203 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
+606000204 [Goat] Horn of Cernulos
 606000210 [Goat] Sliver of Meat
 606000211 [Goat] Beast Liver
 606000212 [Goat] Budding Horn
 606000213 [Goat] Fulgurbloom
 606000214 [Goat] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
+606000215 [Goat] Horn of Cernulos
 607000000 [Gull] Flight Pinion, Flight Pinion, Flight Pinion
 607000001 [Gull] Four-Toed Fowl Foot
+607000002 [Gull] Feather of Khandros
 607200000 [Gull] None
 608000000 [Dragonfly] Great Dragonfly Head
 608000100 [Dragonfly] Great Dragonfly Head
 609000000 [Turtle] Turtle Neck Meat
 609000001 [Turtle] Strip of White Flesh
+609000002 [Turtle] Tear of Miriel
 610000000 [Rabbitgaroo] Thin Beast Bones, Thin Beast Bones, Thin Beast Bones
 610000001 [Rabbitgaroo] Sliver of Meat
 610000002 [Rabbitgaroo] Beast Liver
