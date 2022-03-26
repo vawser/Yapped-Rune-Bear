@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC08F234-1269-484E-BDE6-0C28F289DE80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Yapped</RootNamespace>
+    <AssemblyName>Yapped</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Octokit, Version=0.32.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Octokit.0.32.0\lib\net45\Octokit.dll</HintPath>
+    </Reference>
+    <Reference Include="Semver, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Semver.2.0.4\lib\net452\Semver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="StringToFormula.cs" />
+    <Compile Include="CryptographyUtility.cs" />
+    <Compile Include="FormReferenceFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReferenceFinder.Designer.cs">
+      <DependentUpon>FormReferenceFinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFind.Designer.cs">
+      <DependentUpon>FormFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGoto.Designer.cs">
+      <DependentUpon>FormGoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFieldAdjuster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFieldAdjuster.Designer.cs">
+      <DependentUpon>FormFieldAdjuster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFieldExporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFieldExporter.Designer.cs">
+      <DependentUpon>FormFieldExporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewRow.Designer.cs">
+      <DependentUpon>FormNewRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameMode.cs" />
+    <Compile Include="ParamInfo.cs" />
+    <Compile Include="ParamWrapper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="FormReferenceFinder.resx">
+      <DependentUpon>FormReferenceFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFind.resx">
+      <DependentUpon>FormFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGoto.resx">
+      <DependentUpon>FormGoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFieldAdjuster.resx">
+      <DependentUpon>FormFieldAdjuster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFieldExporter.resx">
+      <DependentUpon>FormFieldExporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewRow.resx">
+      <DependentUpon>FormNewRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SoulsFormats\SoulsFormats\SoulsFormats.csproj">
+      <Project>{22c664bd-877b-44df-8ecf-2808522469a8}</Project>
+      <Name>SoulsFormats</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

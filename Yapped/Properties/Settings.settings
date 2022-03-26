@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Yapped.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UpgradeRequired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WindowLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="WindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">776, 584</Value>
+    </Setting>
+    <Setting Name="WindowMaximized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RegulationPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Steam\steamapps\common\Sekiro\param\gameparam\gameparam.parambnd.dcx</Value>
+    </Setting>
+    <Setting Name="SplitterDistance1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="SelectedParam" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="VerifyRowDeletion" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SplitterDistance2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">249</Value>
+    </Setting>
+    <Setting Name="DGVIndices" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HideUnusedParams" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GameType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DarkSouls3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
