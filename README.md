@@ -1,4 +1,4 @@
-# Yapped
+# Yapped - Rune Bear
 An editor for Elden Ring param files, which determine the properties of items, attacks, effects, enemies, objects, and a whole lot more. 
 For detailed instructions, please refer to the included readme.
 
