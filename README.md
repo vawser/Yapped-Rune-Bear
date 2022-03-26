@@ -4,6 +4,8 @@ For detailed instructions, please refer to the included readme.
 
 Requires .NET 4.7.2 - Windows 10 users should already have this.
 
+Thanks to TKGP for the [original version](https://github.com/JKAnderson/Yapped).
+
 # Files
 If you are only interested in Yapped for modding, you only need to extract the contents of Yapped/bin/x64/Debug/, everything else is not needed.
 
