@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>CorrectionVal0</name>
+    <type>s32</type>
+    <default>140201</default>
+  </entry>
+  <entry>
+    <name>CorrectionVal1</name>
+    <type>s32</type>
+    <default>140202</default>
+  </entry>
+  <entry>
+    <name>CorrectionVal2</name>
+    <type>s32</type>
+    <default>140203</default>
+  </entry>
+  <entry>
+    <name>CorrectionVal3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+</layout>

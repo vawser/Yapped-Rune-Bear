@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Radius</name>
+    <type>f32</type>
+    <default>5</default>
+  </entry>
+  <entry>
+    <name>lifeFrame</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>bSpEffectEnable [ON_OFF]</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Type [AI_SOUND_RATE_TYPE]</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>fakeTargetType [AI_SOUND_FAKE_TARGET_TYPE]</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>InterestCategory</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>UseHitDamageTeam [ON_OFF]</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad</name>
+    <type>dummy8</type>
+    <size>19</size>
+  </entry>
+</layout>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="ReferenceType" type="u8">
+    <item value="0" name="Behavior / None" />
+	<item value="1" name="Bullet" />
+	<item value="2" name="SpEffect" />
+  </enum>
+  <enum name="Rarity" type="u8">
+    <item value="0" name="Default" />
+	<item value="1" name="Common" />
+	<item value="2" name="Rare" />
+	<item value="3" name="Legendary" />
+  </enum>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX Variation ID</name>
+    <type>dummy8</type>
+    <size>4</size>
+    <description>Value is never changed in base files</description>
+  </entry>
+  <entry>
+    <name>Weight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Behavior ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Base Price</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sell Value</name>
+    <type>s32</type>
+    <default>150</default>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>80000</default>
+  </entry>
+  <entry>
+    <name>QWC ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Equip Model ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>s16</type>
+    <default>5000</default>
+  </entry>
+  <entry>
+    <name>Shop Level</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Equip Model Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Equip Model Gender</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Accessory Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference Type</name>
+    <type>u8</type>
+    <default>2</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>SpEffect Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Vagrant Item Lot ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Vagrant Bonus Item Lot ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Vagrant Enemy Item Lot ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Depositable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Break upon Unequip</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Dropping Disabled in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Discardable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Droppable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Rarity</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>Rarity</enum>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Shop Price</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ring Compatibility ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Achievement ID</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID 3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID 4</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+    <entry>
+    <name>Unk7</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
+</layout>

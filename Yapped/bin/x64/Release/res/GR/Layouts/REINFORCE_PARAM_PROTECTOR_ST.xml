@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Absorption % - Physical</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Magic</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Fire</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Lightning</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Slash</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Strike</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Thrust</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Resistance % - Poison</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Resistance % - Scarlet Rot</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Resistance % - Hemorrhage</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Resistance % - Blight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID Offset 1</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID Offset 2</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID Offset 3</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Set ID</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Absorption % - Holy</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Resistance % - Frost</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+    <entry>
+    <name>Unk1</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+
+</layout>

@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="MovesetAttribute" type="u8">
+    <item value="0" name="0 - Physical" />
+    <item value="10" name="10 - Magic" />
+    <item value="11" name="11 - Fire" />
+    <item value="12" name="12 - Lightning" />
+    <item value="13" name="13 - Holy" />
+    <item value="20" name="20 - Poison" />
+    <item value="21" name="21 - Scarlet Rot" />
+    <item value="22" name="22 - Hemorrhage" />
+    <item value="23" name="23 - Frostbite" />
+    <item value="24" name="24 - Sleep" />
+    <item value="25" name="25 - Madness" />
+    <item value="26" name="26 - Blight" />
+  </enum>
+  <enum name="ReinforcementMenuType" type="u8">
+    <item value="0" name="0 - No Reinforcement" />
+    <item value="1" name="0 - Weapon" />
+    <item value="2" name="0 - Sorcery Catalyst" />
+    <item value="3" name="0 - Incantation Catalyst" />
+  </enum>
+  <enum name="AshOfWarType" type="s8">
+    <item value="0" name="0 - Prevent Change" />
+    <item value="2" name="2 - Allow Change" />
+  </enum>
+  <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Behavior Variation ID</name>
+    <type>s32</type>
+    <default>4200</default>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>220300</default>
+  </entry>
+  <entry>
+    <name>Wandering Equip ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Weapon Weight %</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Repair Price</name>
+    <type>s32</type>
+    <default>500</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Price</name>
+    <type>s32</type>
+    <default>250</default>
+  </entry>
+  <entry>
+    <name>Sell Price</name>
+    <type>s32</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Scaling: STR</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+  </entry>
+  <entry>
+    <name>Scaling: DEX</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+  </entry>
+  <entry>
+    <name>Scaling: INT</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+  </entry>
+  <entry>
+    <name>Scaling: FTH</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Physical</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Magic</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Fire</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Lightning</name>
+    <type>f32</type>
+    <default>0</default>
+    <description>Absorption used when guarding with this weapon.</description>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 1</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 2</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 3</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to an entity hit by this weapon.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 1</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 2</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 3</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>SpEffect applied to the wielder of this weapon.</description>
+  </entry>
+  <entry>
+    <name>Reinforcement Material Set ID</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>The reinforcement material set to use. Determines which materials are required for each level of reinforcement.</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +0</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +1</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +2</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +3</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +4</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +5</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +6</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +7</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +8</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +9</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +10</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +11</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +12</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +13</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +14</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +15</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Bonus Damage %: Void</name>
+    <type>f32</type>
+    <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Void.</description>
+  </entry>
+  <entry>
+    <name>Bonus Damage %: Undead</name>
+    <type>f32</type>
+    <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Undead.</description>
+  </entry>
+  <entry>
+    <name>Bonus Damage %: Ancient Draconic</name>
+    <type>f32</type>
+    <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Ancient Draconic.</description>
+  </entry>
+  <entry>
+    <name>Bonus Damage %: Draconic</name>
+    <type>f32</type>
+    <default>1</default>
+    <description>Applies the specified multiplier to damage against enemies tagged as Draconic.</description>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Equip Model ID</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Durability</name>
+    <type>s16</type>
+    <default>60</default>
+  </entry>
+  <entry>
+    <name>Max Durability</name>
+    <type>s16</type>
+    <default>60</default>
+  </entry>
+  <entry>
+    <name>Attack Throw Escape</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Parry Damage Life</name>
+    <type>s16</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>Damage: Physical</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Damage: Magic</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Fire</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Lightning</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Stamina/Posture</name>
+    <type>s16</type>
+    <default>30</default>
+  </entry>
+  <entry>
+    <name>Unk90</name>
+    <type>s16</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Unk91</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk92</name>
+    <type>s16</type>
+    <default>60</default>
+    <description>Was Guard Angle</description>
+  </entry>
+  <entry>
+    <name>Guard Stability</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Determines guard stability, which acts a multiplier to stamina loss while guarding. 100 is equal to -100% stamina loss.</description>
+  </entry>
+  <entry>
+    <name>Reinforce Type ID</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Determines which reinforcement multiplier set to use from ReinforceWeaponParam.</description>
+  </entry>
+  <entry>
+    <name>Achievement ID</name>
+    <type>s16</type>
+    <default>-1</default>
+    <description>Determines if this weapon is part of an achievement.</description>
+  </entry>
+  <entry>
+    <name>Unk93</name>
+    <type>s16</type>
+    <default>-1</default>
+    <description>Was Trophy Seq ID</description>
+  </entry>
+  <entry>
+    <name>Critical</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Added to the base 100 critical. Acts a a multiplier to damage, i.e 100 is equal to a 1.0 multiplier.</description>
+  </entry>
+  <entry>
+    <name>Bow Distance</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Applies an adjustment to the effective range of the bow/crossbow.</description>
+  </entry>
+  <entry>
+    <name>Equip Model Category</name>
+    <type>u8</type>
+    <default>7</default>
+    <description>Always 7</description>
+  </entry>
+  <entry>
+    <name>Unk94</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Was Equip Model Gender</description>
+  </entry>
+  <entry>
+    <name>Weapon Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines weapon category.</description>
+  </entry>
+  <entry>
+    <name>Weapon Moveset Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines which TAE category to use as the base category.</description>
+  </entry>
+  <entry>
+    <name>Guard Moveset Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines which TAE category to use as an guard override to the base category.</description>
+  </entry>
+  <entry>
+    <name>Attack Material</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Defence Material</name>
+    <type>u8</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Unk95</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Was Defence SFX Material</description>
+  </entry>
+  <entry>
+    <name>Correction Type: Physical</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Apply the specified Correction curve to Physical damage/STR or DEX-based Spell Buff.</description>
+  </entry>
+  <entry>
+    <name>Moveset Attribute</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>MovesetAttribute</enum>
+    <description>Determines which hit attribute to use.</description>
+  </entry>
+  <entry>
+    <name>Moveset Override Category</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Determines which TAE category to use as an override to the base category.</description>
+  </entry>
+  <entry>
+    <name>Weapon Hold Position - 1H</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines which Idle Category to use in 1H hold from TAE.</description>
+  </entry>
+  <entry>
+    <name>Weapon Hold Position - 2H</name>
+    <type>u8</type>
+    <default>10</default>
+    <description>Determines which Idle Category to use in 2H hold from TAE.</description>
+  </entry>
+  <entry>
+    <name>Requirement: STR</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines Strength required to wield this weapon properly.</description>
+  </entry>
+  <entry>
+    <name>Requirement: DEX</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines Dexterity required to wield this weapon properly.</description>
+  </entry>
+  <entry>
+    <name>Requirement: INT</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines Intelligence required to wield this weapon properly.</description>
+  </entry>
+  <entry>
+    <name>Requirement: FTH</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines Faith required to wield this weapon properly.</description>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>u8</type>
+    <default>99</default>
+    <description>Was overStrength</description>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Was Base Parry Attack</description>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Was Base Parry Defense</description>
+  </entry>
+  <entry>
+    <name>Base Guard Repel</name>
+    <type>u8</type>
+    <default>10</default>
+    <description>Determines the repel value used when attacking. If this is higher than the target's attack repel, the attack will bounce.</description>
+  </entry>
+  <entry>
+    <name>Base Attack Repel</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines the repel value used when attacking. If this is lower than the target's guard repel, the attack will bounce.</description>
+  </entry>
+  <entry>
+    <name>Guard Bypass</name>
+    <type>s8</type>
+    <default>0</default>
+    <description>Determines the amount of guard absorption to ignore when attacked a guarded enemy.</description>
+  </entry>
+  <entry>
+    <name>Guard Level</name>
+    <type>u8</type>
+    <default>1</default>
+    <description>Determines animation handling in HKS used when guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Slash</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Slash absorption whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Strike</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Strike absorption whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Piercing</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Piercing absorption whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Poison</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Poison inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Scarlet Rot</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Scarlet Rot inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Hemorrhage</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Hemorrhage inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Blight</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Blight inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Unknown</description>
+  </entry>
+  <entry>
+    <name>Can be used in Right Hand</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Can be used in Left Hand</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Can be used in Both Hands</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Draws Ammunition from Arrow Slot</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Draws Ammunition from Bolt Slot</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Guarding</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Parrying</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Sorcery</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Pyromancy</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Incantations</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enables Vow Magic</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Type Display: Normal</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Only affects the display of attack type in the menu.</description>
+  </entry>
+  <entry>
+    <name>Type Display: Strike</name>
+    <type>b8</type>
+    <default>True</default>
+    <description>Only affects the display of attack type in the menu.</description>
+  </entry>
+  <entry>
+    <name>Type Display: Slash</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Only affects the display of attack type in the menu.</description>
+  </entry>
+  <entry>
+    <name>Type Display: Thrust</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Only affects the display of attack type in the menu.</description>
+  </entry>
+  <entry>
+    <name>Is Buffable</name>
+    <type>b8</type>
+    <default>True</default>
+    <description>Determines if weapon buff effects can be applied to this weapon.</description>
+  </entry>
+  <entry>
+    <name>Unk94</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Is Luck Scaling</description>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>b8</type>
+    <default>True</default>
+    <description>Was Is Reinforcable</description>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Is Base Change Reset Disable</description>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Is Repair Disabled</description>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Is Dark Hand for DLC</description>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Is Simple Model for DLC</description>
+  </entry>
+  <entry>
+    <name>Is a Light Source</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Determines whether this weapon is considered a Light Source.</description>
+  </entry>
+  <entry>
+    <name>Can Hit Ghost Enemy</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Allows the weapon to hit enemies tagged as Ghost</description>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Infusion Flag 1</description>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Infusion Flag 2</description>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Infusion Flag 3</description>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Was Infusion Flag 4</description>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Uses Greatarrow Ammunition</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Can be stored in Itembox</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Can be Dropped in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Can be Discarded</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Can be Dropped</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Prevent Affinity Change</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Unknown</description>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk28</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
+  </entry>
+  <entry>
+    <name>Unk29</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Varies between 1 for 'light' weapons, and 2 for 'normal' and 'heavy' weapons</description>
+  </entry>
+  <entry>
+    <name>Posture Control ID - Weapon Right</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Varies based on weapon category</description>
+  </entry>
+  <entry>
+    <name>Posture Control ID - Weapon Left</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Varies based on weapon category</description>
+  </entry>
+  <entry>
+    <name>Hit VFX 0</name>
+    <type>s32</type>
+    <default>401000</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 0 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>300</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 0 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Material Value 0</name>
+    <type>s16</type>
+    <default>139</default>
+  </entry>
+  <entry>
+    <name>Material Value 1</name>
+    <type>s16</type>
+    <default>139</default>
+  </entry>
+  <entry>
+    <name>Weapon Sheath Position ID</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Dummy Poly ID that the weapon is sheathed at.</description>
+  </entry>
+  <entry>
+    <name>Poise Health Multiplier</name>
+    <type>f32</type>
+    <default>1</default>
+    <description>Multiplier to apply to current Poise Health when this weapon is wielded.</description>
+  </entry>
+  <entry>
+    <name>Is Heavy Weapon</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Used by typically heavy weapons.</description>
+  </entry>
+  <entry>
+    <name>Is Dual Weapon</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Determines whether the weapon utilises both hands.</description>
+  </entry>
+  <entry>
+    <name>Is Auto Equipped</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Used by Ammunition to automatically equip into an empty arrow or bolt slot.</description>
+  </entry>
+  <entry>
+    <name>Is Normal Weapon</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk33</name>
+    <type>b8</type>
+    <default>True</default>
+    <description>Only used by Nox Flowing Sword</description>
+  </entry>
+  <entry>
+    <name>Unk34</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk35</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk36</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Magic</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Apply the specified Correction curve to Magic damage/INT-based Spell Buff.</description>
+  </entry>
+  <entry>
+    <name>Correction Type: Fire</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Apply the specified Correction curve to Fire damage/INT/FTH-based Spell Buff.</description>
+  </entry>
+  <entry>
+    <name>Correction Type: Lightning</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Apply the specified Correction curve to Lightning damage/FTH-based Spell Buff.</description>
+  </entry>
+  <entry>
+    <name>Unk37</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk38</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption: Holy</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Damage: Holy</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Holy</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Apply the specified Correction curve to Holy damage/FTH-based Spell Buff.</description>
+  </entry>
+  <entry>
+    <name>Unk39</name>
+    <type>u8</type>
+    <default>7</default>
+    <description>Differs based on general category</description>
+  </entry>
+  <entry>
+    <name>Unk40</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Potentially HitEffectSfxParam</description>
+  </entry>
+  <entry>
+    <name>Unk41</name>
+    <type>s8</type>
+    <default>0</default>
+    <description>Differs based on general category</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Sleep</name>
+    <type>s8</type>
+    <default>0</default>
+    <description>Flat adjustment to Sleep inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Madness</name>
+    <type>s8</type>
+    <default>0</default>
+    <description>Flat adjustment to Madness inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Unk42</name>
+    <type>u8</type>
+    <default>7</default>
+    <description>Differs based on general category</description>
+  </entry>
+  <entry>
+    <name>Requirement: ARC</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Determines Arcane required to wield this weapon properly.</description>
+  </entry>
+  <entry>
+    <name>Guard Resist: Frostbite</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Flat adjustment to Frostbite inflict whilst guarding.</description>
+  </entry>
+  <entry>
+    <name>Unk43</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Set to 2 for Arrows/Bolts</description>
+  </entry>
+  <entry>
+    <name>Weapon Art ID</name>
+    <type>s32</type>
+    <default>1703</default>
+  </entry>
+  <entry>
+    <name>Scaling: ARC</name>
+    <type>f32</type>
+    <default>20</default>
+  </entry>
+  <entry>
+    <name>Unk44</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Used by Bows/Crossbows</description>
+  </entry>
+  <entry>
+    <name>Unk45</name>
+    <type>s16</type>
+    <default>0</default>
+    <description>Likely linked to VFX Offset</description>
+  </entry>
+  <entry>
+    <name>Display Type ID</name>
+    <type>s16</type>
+    <default>35</default>
+  </entry>
+  <entry>
+    <name>Correction Value 0</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 1</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 2</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 3</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 4</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 5</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 6</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 7</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 8</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 9</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 10</name>
+    <type>f32</type>
+    <default>5</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 1 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 2 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 3 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 4 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Stamina Usage %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk46</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk47</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk48</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk49</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk50</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk51</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk52</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk53</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk54</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk55</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk56</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk57</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk58</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Attack Element Correct ID</name>
+    <type>s32</type>
+    <default>10000</default>
+  </entry>
+  <entry>
+    <name>Unk59</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>Was Purchase Price</description>
+  </entry>
+  <entry>
+    <name>Reinforcement Menu Type</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>ReinforcementMenuType</enum>
+    <description>Determines how the game handles the reinforcement of this weapon in the menu.</description>
+  </entry>
+  <entry>
+    <name>Max Number Held</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 1</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 2</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>TAE Sound Event - Sound Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Upgrade Price</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Price to infuse the weapon.</description>
+  </entry>
+  <entry>
+    <name>Multiplayer Weapon Adjustment</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk60</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk61</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk62</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ash of War Type</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>AshOfWarType</enum>
+  </entry>
+  <entry>
+    <name>Unk64</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk65</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Related to Aux Inflict SpEffect</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Related to Aux Inflict SpEffect</description>
+  </entry>
+  <entry>
+    <name>Unk67</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk68</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon +16</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +17</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +18</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +19</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +20</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +21</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +22</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +23</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +24</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Origin Weapon +25</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>ID to revert to when uninfused. Determines maximum reinforcement level (-1 means it will not reinforce to that level).</description>
+  </entry>
+  <entry>
+    <name>Unk69</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk70</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk71</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk72</name>
+    <type>s32</type>
+    <default>0</default>
+    <description>Likely linked to VFX Offset</description>
+  </entry>
+  <entry>
+    <name>Unk73</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk74</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk75</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk76</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
+</layout>

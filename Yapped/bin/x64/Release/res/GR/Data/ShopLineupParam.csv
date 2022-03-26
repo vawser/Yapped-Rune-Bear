@@ -1,0 +1,953 @@
+Row ID;Row Name;Equip ID;Value;Material ID;Event Flag;QWC ID;Quantity Available;Shop Type;Equip Type;Value (SAN);Quantity Produced;Unk2;Unk3;Price Rate;Unk4;Shop Description Item;Unk5;Unk6;Unk7;Unk8;Unk9
+1;;240;100;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1000;;290;100000;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1001;;292;100000;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1002;;240;100000;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1003;;201000;100000;-1;0;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100000;[Gatekeeper Gostoc] Festering Bloody Finger;111;1000;-1;100000;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100002;[Gatekeeper Gostoc] Ruin Fragment;1760;100;-1;100020;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100004;[Gatekeeper Gostoc] Buckler;30000000;1500;-1;100040;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100009;[Gatekeeper Gostoc] Furlcalling Finger Remedy;150;1000;-1;100090;0;4;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100010;[Gatekeeper Gostoc] Silver-Pickled Fowl Foot;1190;2000;-1;100100;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100011;[Gatekeeper Gostoc] Stormhawk Feather;15430;500;-1;100110;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100012;[Gatekeeper Gostoc] Caestus;21000000;800;-1;100120;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100013;[Gatekeeper Gostoc] Great Arrow;51000000;300;-1;100130;0;5;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100014;[Gatekeeper Gostoc] Ballista Bolt;53000000;300;-1;100140;0;5;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100015;[Gatekeeper Gostoc] Bandit Manchettes;930200;1000;-1;100150;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100016;[Gatekeeper Gostoc] Bandit Boots;930300;1000;-1;100160;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100017;[Gatekeeper Gostoc] Bandit Garb;931100;1500;-1;100170;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100018;;10140;20000;-1;100180;10009516;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100025;Memory Stone;10030;3000;-1;100250;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100025;Memory Stone;10030;3000;-1;100250;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100026;Stonesword Key;8000;4000;-1;100260;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100026;Stonesword Key;8000;4000;-1;100260;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100050;[Sorceress Sellen] Glintstone Pebble;4000;1000;-1;100500;0;1;0;3;0;1;0;0;1;-1;-1;231010;17;0;0;0
+100051;[Sorceress Sellen] Scholar's Armament;4460;3000;-1;100510;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100052;[Sorceress Sellen] Scholar's Shield;4470;2500;-1;100520;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100053;[Sorceress Sellen] Crystal Barrage;4060;1500;-1;100530;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100054;[Sorceress Sellen] Glintstone Arc;4070;1500;-1;100540;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100055;[Sorceress Sellen] Glintstone Stars;4040;3000;-1;100550;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100056;[Sorceress Sellen - Quest] Shard Spiral;4030;8000;-1;100560;14009267;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100057;[Sorceress Sellen - Conspectus Scroll] Glintstone Cometshard;4020;12000;-1;100570;1044369244;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100058;[Sorceress Sellen - Conspectus Scroll] Star Shower;4050;10000;-1;100580;1044369244;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100059;[Sorceress Sellen - Academy Scroll] Great Glintstone Shard;4001;2000;-1;100590;1044369250;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100060;[Sorceress Sellen - Academy Scroll] Swift Glintstone Shard;4010;600;-1;100600;1044369250;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100061;[Sorceress Sellen] Glintblade Phalanx;4300;2500;-1;100610;1044369245;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100062;[Sorceress Sellen] Carian Slicer;4440;1500;-1;100620;1044369245;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100075;[Knight Bernahl] Ash of War: Impaling Thrust;10100;1000;-1;100750;0;1;0;4;0;1;0;0;1;-1;-1;231030;19;0;0;0
+100076;[Knight Bernahl] Ash of War: Spinning Slash;10300;1200;-1;100760;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100077;[Knight Bernahl] Ash of War: Quickstep;80000;800;-1;100770;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100078;[Knight Bernahl] Ash of War: Stamp (Upward Cut);10600;1500;-1;100780;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100079;[Knight Bernahl] Ash of War: Kick;50300;800;-1;100790;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100080;[Knight Bernahl] Ash of War: War Cry;65100;800;-1;100800;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100081;[Knight Bernahl] Ash of War: Endure;70000;600;-1;100810;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100082;[Knight Bernahl] Ash of War: Parry;30200;600;-1;100820;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100083;[Knight Bernahl] Ash of War: Storm Blade;21000;1800;-1;100830;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100084;[Knight Bernahl] Ash of War: Eruption;20700;8000;-1;100840;16009208;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100085;[Knight Bernahl] Ash of War: Assassin's Gambit;60200;6500;-1;100850;16009208;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100086;[Knight Bernahl] Ash of War: No Skill;30900;600;-1;100860;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100100;[Patches] Margit's Shackle;2140;5000;-1;110000;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100101;[Patches] Missionary's Cookbook [2];9360;800;-1;67600;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100102;[Patches] Stonesword Key;8000;5000;-1;110020;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100103;[Patches] Furlcalling Finger Remedy;150;1000;-1;110030;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100104;[Patches] Glass Shard;10000;100;-1;110040;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100105;[Patches] Gold-Pickled Fowl Foot;1200;600;-1;110050;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100108;[Patches] Parrying Dagger;1020000;1600;-1;110080;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100111;[Patches] Sacrificial Twig;6070;5000;-1;110110;0;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100112;[Patches] Festering Bloody Finger;111;1000;-1;110120;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100113;[Patches] Grace Mimic;2050;100;-1;110130;0;15;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100114;[Patches] Fan Daggers;1750;160;-1;110140;1038419270;20;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100115;[Patches] Great Arrow;51000000;300;-1;110150;0;10;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100116;[Patches] Ballista Bolt;53000000;300;-1;110160;0;5;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100117;[Patches] Festering Bloody Finger;111;1000;-1;110170;1038419271;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100118;[Patches] Fan Daggers;1750;160;-1;110180;1038419271;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100119;[Patches] Estoc;5000000;3000;-1;110190;1038419271;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100120;[Patches] Great Arrow;51000000;300;-1;110200;1038419271;10;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100121;[Patches] Ballista Bolt;53000000;300;-1;110210;1038419271;5;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100122;[Patches] Horse Crest Wooden Shield;31240000;1000;-1;110220;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100126;[D, Hunter of The Dead] Litany of Proper Death;6750;2500;-1;110260;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100127;[D, Hunter of The Dead] Order's Blade;6770;3000;-1;110270;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100150;[Blackguard Big Boggart] Rya's Necklace;8136;1000;-1;400300;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100155;[Blackguard Big Boggart] Boiled Crab;820;600;-1;110550;1044529255;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100160;[Blackguard Big Boggart] Boiled Prawn;830;600;-1;110600;1036439209;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100175;[Gowry] Night Shard;4610;4000;-1;110750;0;1;0;3;0;1;0;0;1;-1;-1;231010;17;0;0;0
+100176;[Gowry] Night Maiden's Mist;6500;5000;-1;110760;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100177;[Gowry] Glintstone Stars;4040;3000;-1;110770;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100185;[Gowry] Pest Threads;7200;7500;-1;110850;1038519257;1;0;3;0;1;0;0;1;-1;-1;231020;18;0;0;0
+100200;[Sorcerer Rogier] Ash of War: Spinning Weapon;12000;1000;-1;120000;0;1;0;4;0;1;0;0;1;-1;-1;231030;19;0;0;0
+100201;[Sorcerer Rogier] Ash of War: Glintstone Pebble;20300;1500;-1;120010;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100202;[Sorcerer Rogier] Ash of War: Carian Greatsword;21900;2500;-1;120020;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100225;[Sorcerer Rogier] Somber Smithing Stone [1];10160;2000;-1;120250;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100226;[Sorcerer Rogier] Somber Smithing Stone [2];10161;3000;-1;120260;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100227;[Sorcerer Rogier] Somber Smithing Stone [3];10162;4000;-1;120270;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100228;[Sorcerer Rogier] Somber Smithing Stone [4];10163;6000;-1;120280;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100229;[Sorcerer Rogier] Carian Filigreed Crest;6020;5000;-1;120290;1034509360;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100250;[Preceptor Seluvis] Glintstone Pebble;4000;1000;-1;120500;0;1;0;3;0;1;0;0;1;-1;-1;231010;17;0;0;0
+100251;[Preceptor Seluvis] Glintstone Arc;4070;1500;-1;120510;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100252;[Preceptor Seluvis] Starlight;4140;2500;-1;120520;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100275;[Preceptor Seluvis] Carian Phalanx;4301;12000;-1;120750;0;1;0;3;0;1;0;0;1;-1;-1;231010;17;0;0;0
+100276;[Preceptor Seluvis] Glintstone Icecrag;4400;7500;-1;120760;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100277;[Preceptor Seluvis] Freezing Mist;4420;6000;-1;120770;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100278;[Preceptor Seluvis] Carian Retaliation;4640;9000;-1;120780;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100279;[Preceptor Seluvis] Glintstone Cometshard;4020;12000;-1;120790;1034509450;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100280;[Preceptor Seluvis] Star Shower;4050;10000;-1;120800;1034509450;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100281;[Preceptor Seluvis] Great Glintstone Shard;4001;2000;-1;120810;1034509455;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100282;[Preceptor Seluvis] Swift Glintstone Shard;4010;600;-1;120820;1034509455;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100283;[Preceptor Seluvis] Glintblade Phalanx;4300;2500;-1;120830;1034509451;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100284;[Preceptor Seluvis] Carian Slicer;4440;1500;-1;120840;1034509451;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100300;[Preceptor Seluvis - Ranni Quest] Finger Maiden Therolina Puppet;261000;2;-1;130000;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100301;[Preceptor Seluvis - Ranni Quest] Dolores the Sleeping Arrow Puppet;262000;5;-1;130010;11109919;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100302;[Preceptor Seluvis - Ranni Quest] Jarwight Puppet;263000;3;-1;130020;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100310;[Preceptor Seluvis - Dung Eater Quest] Dung Eater Puppet;260000;5;-1;130100;35009326;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100325;[Pidia, Carian Servant] Glintstone Craftsman's Cookbook [7];9347;2500;-1;67470;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100326;[Pidia, Carian Servant] Ritual Pot;9501;1500;-1;66450;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100329;[Pidia, Carian Servant] Old Fang;15040;800;-1;130290;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100330;[Pidia, Carian Servant] Slumbering Egg;15120;600;-1;130300;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100334;[Pidia, Carian Servant] Ash of War: Carian Retaliation;30500;3000;-1;130340;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100335;[Pidia, Carian Servant] Celestial Dew;2130;5000;-1;130350;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100336;[Pidia, Carian Servant] Larval Tear;8185;3000;-1;130360;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100337;[Pidia, Carian Servant] Budding Horn;15050;1500;-1;130370;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100338;[Pidia, Carian Servant] Ripple Blade;14050000;3500;-1;130380;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100339;[Pidia, Carian Servant] Black Leather Shield;31340000;2500;-1;130390;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100340;;8225;600;-1;69900;0;1;0;3;0;1;0;0;1;3287;8227;-1;-1;-1;0;0
+100350;[Brother Corhyn] Rejection;6400;1500;-1;130500;0;1;0;3;0;1;0;0;1;-1;-1;231020;18;0;0;0
+100351;[Brother Corhyn] Urgent Heal;6420;1000;-1;130510;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100352;[Brother Corhyn] Heal;6421;1500;-1;130520;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100353;[Brother Corhyn] Cure Poison;6440;1000;-1;130530;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100354;[Brother Corhyn] Flame Fortification;6450;3000;-1;130540;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100355;[Brother Corhyn] Magic Fortification;6460;3500;-1;130550;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100356;[Brother Corhyn] Catch Flame;6000;600;-1;130560;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100357;[Brother Corhyn] Flame Sling;6010;800;-1;130570;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100358;[Brother Corhyn - Altus Plateau] Great Heal;6422;9000;-1;130580;1040529255;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100359;[Brother Corhyn - Altus Plateau] Lightning Fortification;6470;7500;-1;130590;1040529255;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100360;[Brother Corhyn - Goldmask] Discus of Light;6700;11000;-1;130600;1040549205;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100361;[Brother Corhyn - Erdtree Sanctuary] Immutable Shield;6740;13000;-1;130610;11009455;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100362;[Brother Corhyn - Fire Monks' Prayerbook] O, Flame!;6001;6000;-1;130620;11109874;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100363;[Brother Corhyn - Fire Monks' Prayerbook] Surge;6220;5500;-1;130630;11109874;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100364;[Brother Corhyn - Giant's Prayerbook] Giantsflame Take Thee;6100;13000;-1;130640;11109875;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100365;[Brother Corhyn - Giant's Prayerbook] Flame;6020;10000;-1;130650;11109875;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100366;[Brother Corhyn - Godskin Prayerbook] Black Flame;6210;7500;-1;130660;11109876;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100367;[Brother Corhyn - Godskin Prayerbook] Black Flame Blade;6250;6000;-1;130670;11109876;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100368;[Brother Corhyn - Two Fingers' Prayerbook] Lord's Heal;6423;8000;-1;130680;11109877;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100369;[Brother Corhyn - Two Fingers' Prayerbook] Lord's Aid;6441;2500;-1;130690;11109877;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100370;[Brother Corhyn - Assassin's Prayerbook] Assassin's Approach;6510;2000;-1;130700;11109878;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100371;[Brother Corhyn - Assassin's Prayerbook] Darkness;6530;3500;-1;130710;11109878;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100372;[Brother Corhyn - Golden Order Principia] Radagon's Rings of Light;6710;7500;-1;130720;11109881;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100373;[Brother Corhyn - Golden Order Principia] Law of Regression;6730;10000;-1;130730;11109881;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100374;[Brother Corhyn - Dragon Cult Prayerbook] Lightning Spear;6900;6000;-1;130740;11109883;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100375;[Brother Corhyn - Dragon Cult Prayerbook] Honed Bolt;6930;7000;-1;130750;11109883;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100376;[Brother Corhyn - Dragon Cult Prayerbook] Electrify Armament;6960;4000;-1;130760;11109883;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100377;[Brother Corhyn - Ancient Dragon Prayerbook] Ancient Dragons' Lightning Spear;6940;8500;-1;130770;11109884;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100378;[Brother Corhyn - Ancient Dragon Prayerbook] Ancient Dragons' Lightning Strike;6910;10000;-1;130780;11109884;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100400;[Miriel] Magic Glintblade;4390;3000;-1;140000;0;1;0;3;0;1;0;0;1;-1;-1;231010;17;0;0;0
+100401;[Miriel] Carian Greatsword;4430;10000;-1;140010;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100402;[Miriel - Conspectus Scroll] Glintstone Cometshard;4020;12000;-1;140020;1037469300;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100403;[Miriel - Conspectus Scroll] Star Shower;4050;10000;-1;140030;1037469300;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100404;[Miriel - Academy Scroll] Great Glintstone Shard;4001;2000;-1;140040;1037469316;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100405;[Miriel - Academy Scroll] Swift Glintstone Shard;4010;600;-1;140050;1037469316;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100406;[Miriel] Glintblade Phalanx;4300;2500;-1;140060;1037469301;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100407;[Miriel] Carian Slicer;4440;1500;-1;140070;1037469301;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100425;[Miriel] Blessing's Boon;6430;4000;-1;140250;0;1;0;3;0;1;0;0;1;-1;-1;231020;18;0;0;0
+100426;[Miriel - Fire Monks' Prayerbook] O, Flame!;6001;6000;-1;140260;1037469305;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100428;[Miriel - Fire Monks' Prayerbook] Surge;6220;5500;-1;140280;1037469305;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100429;[Miriel - Giant's Prayerbook] Giantsflame Take Thee;6100;13000;-1;140290;1037469306;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100430;[Miriel - Giant's Prayerbook] Flame;6020;10000;-1;140300;1037469306;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100431;[Miriel - Godskin Prayerbook] Black Flame;6210;7500;-1;140310;1037469307;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100432;[Miriel - Godskin Prayerbook] Black Flame Blade;6250;6000;-1;140320;1037469307;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100433;[Miriel - Two Fingers' Prayerbook] Lord's Heal;6423;8000;-1;140330;1037469308;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100434;[Miriel - Two Fingers' Prayerbook] Lord's Aid;6441;2500;-1;140340;1037469308;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100435;[Miriel - Assassin's Prayerbook] Assassin's Approach;6510;2000;-1;140350;1037469309;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100436;[Miriel - Assassin's Prayerbook] Darkness;6530;3500;-1;140360;1037469309;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100437;[Miriel - Golden Order Principia] Radagon's Rings of Light;6710;7500;-1;140370;1037469312;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100438;[Miriel - Golden Order Principia] Law of Regression;6730;10000;-1;140380;1037469312;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100439;[Miriel - Dragon Cult Prayerbook] Lightning Spear;6900;6000;-1;140390;1037469314;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100440;[Miriel - Dragon Cult Prayerbook] Honed Bolt;6930;7000;-1;140400;1037469314;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100441;[Miriel - Dragon Cult Prayerbook] Electrify Armament;6960;4000;-1;140410;1037469314;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100442;[Miriel - Ancient Dragon Prayerbook] Ancient Dragons' Lightning Spear;6940;8500;-1;140420;1037469315;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100443;[Miriel - Ancient Dragon Prayerbook] Ancient Dragons' Lightning Strike;6910;10000;-1;140430;1037469315;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100500;[Merchant Kale] Note: Flask of Wondrous Physick;8702;200;-1;69620;0;1;0;3;0;1;0;0;1;-1;8752;-1;-1;-1;0;0
+100501;[Merchant Kale] Crafting Kit;8500;300;-1;60120;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100502;[Merchant Kale] Nomadic Warrior's Cookbook [1];9300;500;-1;67000;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100503;[Merchant Kale] Nomadic Warrior's Cookbook [2];9311;500;-1;67110;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100504;[Merchant Kale] Missionary's Cookbook [1];9361;1000;-1;67610;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100505;[Merchant Kale] Furlcalling Finger Remedy;150;1000;-1;150050;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100506;[Merchant Kale] Cracked Pot;9500;300;-1;66030;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100507;[Merchant Kale] Throwing Dagger;1700;40;-1;150070;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100510;[Merchant Kale] Torch;24000000;200;-1;150100;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100511;[Merchant Kale] Large Leather Shield;31230000;600;-1;150110;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100513;[Merchant Kale] Telescope;2040;500;-1;150130;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100514;[Merchant Kale] Note: Waypoint Ruins;8712;200;-1;69720;0;1;0;3;0;1;0;0;1;-1;8762;-1;-1;-1;0;0
+100515;[Merchant Kale] Chain Coif;1100000;1000;-1;150150;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100516;[Merchant Kale] Chain Armor;1100100;1500;-1;150160;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100517;[Merchant Kale] Chain Gauntlets;1100200;1000;-1;150170;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100518;[Merchant Kale] Chain Leggings;1100300;1000;-1;150180;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100519;[Merchant Kale] Arrow;50000000;20;-1;150190;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100520;[Merchant Kale] Bolt;52000000;40;-1;150200;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100525;[Merchant - North Limgrave] Nomadic Warrior's Cookbook [3];9301;500;-1;67010;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100539;[Merchant - North Limgrave] Note: Flame Chariots;8707;300;-1;69670;0;1;0;3;0;1;0;0;1;-1;8757;-1;-1;-1;0;0
+100540;[Merchant - North Limgrave] Cracked Pot;9500;600;-1;66060;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100541;[Merchant - North Limgrave] Pickled Turtle Neck;1100;800;-1;150410;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100542;[Merchant - North Limgrave] Short Sword;2010000;600;-1;150420;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100543;[Merchant - North Limgrave] Halberd;18000000;1200;-1;150430;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100544;[Merchant - North Limgrave] Arrow;50000000;20;-1;150440;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100545;[Merchant - North Limgrave] Bolt;52000000;40;-1;150450;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100546;[Merchant - North Limgrave] Bandit Mask;1401000;1500;-1;150460;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100547;;10100;200;-1;150470;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100550;[Merchant - East Limgrave] Nomadic Warrior's Cookbook [5];9383;1500;-1;67830;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100551;[Merchant - East Limgrave] Armorer's Cookbook [3];9328;2000;-1;67280;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100552;[Merchant - East Limgrave] Sliver of Meat;15000;500;-1;150520;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100553;[Merchant - East Limgrave] Beast Liver;15010;500;-1;150530;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100554;[Merchant - East Limgrave] Lump of Flesh;15020;800;-1;150540;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100557;[Merchant - East Limgrave] Arrow;50000000;20;-1;150570;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100560;[Merchant - East Limgrave] Bolt;52000000;40;-1;150600;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100561;[Merchant - East Limgrave] Festering Bloody Finger;111;1000;-1;150610;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100562;[Merchant - East Limgrave] Trina's Lily;20651;1000;-1;150620;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100563;[Merchant - East Limgrave] Hand Axe;14020000;600;-1;150630;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100564;[Merchant - East Limgrave] Riveted Wooden Shield;30090000;600;-1;150640;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100565;[Merchant - East Limgrave] Blue-Gold Kite Shield;31100000;1000;-1;150650;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100566;[Merchant - East Limgrave] St. Trina's Arrow;50040000;160;-1;150660;0;10;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100567;;10100;200;-1;150670;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100575;[Merchant - Coastal Cave] Armorer's Cookbook [2];9321;600;-1;67210;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100576;[Merchant - Coastal Cave] Note: Stonedigger Trolls;8703;400;-1;69630;0;1;0;3;0;1;0;0;1;-1;8753;-1;-1;-1;0;0
+100585;[Merchant - Coastal Cave] Note: Land Squirts;8709;200;-1;69690;0;1;0;3;0;1;0;0;1;-1;8759;-1;-1;-1;0;0
+100586;[Merchant - Coastal Cave] Club;11010000;600;-1;150860;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100587;[Merchant - Coastal Cave] Broadsword;2020000;1800;-1;150870;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100588;[Merchant - Coastal Cave] Iron Roundshield;30120000;900;-1;150880;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100589;[Merchant - Coastal Cave] Shortbow;40000000;600;-1;150890;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100590;[Merchant - Coastal Cave] Arrow;50000000;20;-1;150900;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100591;[Merchant - Coastal Cave] Bolt;52000000;40;-1;150910;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100592;[Merchant - Coastal Cave] Neutralizing Boluses;900;600;-1;150920;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100593;[Merchant - Coastal Cave] Stanching Boluses;910;600;-1;150930;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100594;[Merchant - Coastal Cave] Stimulating Boluses;930;1500;-1;150940;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100595;;10100;200;-1;150950;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100600;[Merchant - East Weeping Peninsula] Stonesword Key;8000;2000;-1;160000;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100601;[Merchant - East Weeping Peninsula] Kukri;1730;60;-1;160080;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100602;[Merchant - East Weeping Peninsula] Red Thorn Roundshield;30070000;600;-1;160130;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100603;[Merchant - East Weeping Peninsula] Round Shield;31070000;1000;-1;160140;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100604;[Merchant - East Weeping Peninsula] Crimson Amber Medallion;1000;1500;-1;160160;0;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100605;[Merchant - East Weeping Peninsula] Note: Demi-human Mobs;8708;500;-1;69680;0;1;0;3;0;1;0;0;1;-1;8758;-1;-1;-1;0;0
+100606;[Merchant - East Weeping Peninsula] Cracked Pot;9500;600;-1;66070;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100607;[Merchant - East Weeping Peninsula] Bastard Sword;3000000;3000;-1;160190;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100608;[Merchant - East Weeping Peninsula] Light Crossbow;43020000;1500;-1;160200;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100609;[Merchant - East Weeping Peninsula] Arrow;50000000;20;-1;160210;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100610;[Merchant - East Weeping Peninsula] Bolt;52000000;40;-1;160220;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100611;[Merchant - East Weeping Peninsula] Great Arrow;51000000;300;-1;160230;0;8;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100612;[Merchant - East Weeping Peninsula] Ballista Bolt;53000000;300;-1;160240;0;8;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100613;[Merchant - East Weeping Peninsula] Iron Helmet;40000;1500;-1;180500;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100614;[Merchant - East Weeping Peninsula] Scale Armor;40100;2400;-1;180510;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100615;[Merchant - East Weeping Peninsula] Iron Gauntlets;40200;1500;-1;180520;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100616;[Merchant - East Weeping Peninsula] Leather Trousers;40300;1500;-1;180530;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100617;;10100;200;-1;180540;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100618;;10101;400;-1;180550;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100625;[Merchant - Liurnia of the Lakes] Nomadic Warrior's Cookbook [11];9322;1500;-1;67220;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100626;;5000000;3000;-1;160330;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100627;;31000000;1000;-1;160340;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100628;;630000;1000;-1;160410;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100629;;630100;1500;-1;160420;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100630;;630200;1000;-1;160430;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100631;;630300;1000;-1;160440;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100632;;2070;1800;-1;160450;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100633;[Merchant - Liurnia of the Lakes] Estoc;33130000;800;-1;160460;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100634;[Merchant - Liurnia of the Lakes] Kite Shield;50000000;20;-1;160470;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100635;;52000000;40;-1;160480;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100636;;10100;200;-1;160490;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100637;;10101;400;-1;200250;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100650;[Isolated Merchant - Weeping Peninsula] Note: Walking Mausoleum;8704;600;-1;69640;0;1;0;3;0;1;0;0;1;-1;8754;-1;-1;-1;0;0
+100652;[Isolated Merchant - Weeping Peninsula] Stonesword Key;8000;2000;-1;160520;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100654;[Isolated Merchant - Weeping Peninsula] Arteria Leaf;20691;1000;-1;160540;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100656;[Isolated Merchant - Weeping Peninsula] Ballista Bolt;53000000;300;-1;160560;0;15;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100657;[Isolated Merchant - Weeping Peninsula] Sacrificial Twig;6070;3000;-1;160570;0;3;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100658;[Isolated Merchant - Weeping Peninsula] Lantern;2070;1800;-1;160580;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100659;[Isolated Merchant - Weeping Peninsula] Lost Ashes of War;10070;3000;-1;160590;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100660;[Isolated Merchant - Weeping Peninsula] Zweihander;4040000;3500;-1;160600;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100661;[Isolated Merchant - Weeping Peninsula] Arrow;50000000;20;-1;160610;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100662;[Isolated Merchant - Weeping Peninsula] Bolt;52000000;40;-1;160620;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100663;[Isolated Merchant - Weeping Peninsula] Great Arrow;51000000;300;-1;160630;0;15;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100664;;111;1000;-1;160640;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100665;;10101;400;-1;160650;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100675;[Merchant - Academy of Raya Lucaria] Fevor's Cookbook [2];9422;3500;-1;68220;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100676;[Merchant - Academy of Raya Lucaria] Trina's Lily;20651;1000;-1;160760;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100678;[Merchant - Academy of Raya Lucaria] Eye of Yelough;20740;1500;-1;160780;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100680;[Merchant - Academy of Raya Lucaria] Stonesword Key;8000;3000;-1;160800;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100681;[Merchant - Academy of Raya Lucaria] Lost Ashes of War;10070;4000;-1;160810;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100682;[Merchant - Academy of Raya Lucaria] Sacrificial Twig;6070;3000;-1;160820;0;3;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100686;[Merchant - Academy of Raya Lucaria] Note: Revenants;8711;800;-1;69710;0;1;0;3;0;1;0;0;1;-1;8761;-1;-1;-1;0;0
+100687;[Merchant - Academy of Raya Lucaria] Note: Frenzied Flame Village;8715;800;-1;69750;0;1;0;3;0;1;0;0;1;-1;8765;-1;-1;-1;0;0
+100688;[Merchant - Academy of Raya Lucaria] Fanged Imp Ashes;203000;2000;-1;160880;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100689;[Merchant - Academy of Raya Lucaria] St. Trina's Arrow;50040000;160;-1;160890;0;20;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100690;[Merchant - Academy of Raya Lucaria] Meteor Bolt;52050000;120;-1;160900;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100691;[Merchant - Academy of Raya Lucaria] Blue Cloth Cowl;670000;1000;-1;160910;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100692;[Merchant - Academy of Raya Lucaria] Blue Cloth Vest;670100;1500;-1;160920;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100693;[Merchant - Academy of Raya Lucaria] Warrior Gauntlets;670200;1000;-1;160930;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100694;[Merchant - Academy of Raya Lucaria] Warrior Greaves;670300;1000;-1;160940;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100695;;111;1500;-1;160950;0;8;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100696;;8224;1200;-1;69910;0;1;0;3;0;1;0;0;1;-1;8226;-1;-1;-1;0;0
+100700;[Merchant - North Liurnia] Nomadic Warrior's Cookbook [13];9308;2000;-1;67080;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100704;[Merchant - North Liurnia] Composite Bow;40050000;3500;-1;170040;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100705;[Merchant - North Liurnia] Rift Shield;30110000;1800;-1;170050;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100706;[Merchant - North Liurnia] Blue Crest Heater Shield;31300000;1500;-1;170060;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100714;[Merchant - North Liurnia] Rune Arc;190;4000;-1;170140;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100715;[Merchant - North Liurnia] Bewitching Branch;3350;1600;-1;170150;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100716;[Merchant - North Liurnia] Arrow;50000000;20;-1;170160;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100717;[Merchant - North Liurnia] Bolt;52000000;40;-1;170170;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100718;[Merchant - North Liurnia] Immunizing White Cured Meat;1310;2000;-1;170180;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100719;[Merchant - North Liurnia] Invigorating White Cured Meat;1320;2000;-1;170190;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100720;[Merchant - North Liurnia] Clarifying White Cured Meat;1330;2000;-1;170200;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100725;[Hermit Merchant - Leyndell] Perfume Bottle;9510;2000;-1;66750;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100726;;51020000;500;-1;170340;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100727;;24070000;7000;-1;170350;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100728;;190;4000;-1;170360;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100729;;20683;300;-1;170370;0;10;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100730;;32020000;5500;-1;170380;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100731;;50000000;20;-1;170390;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100732;;50090000;120;-1;170400;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100733;;52000000;40;-1;170410;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100734;[Hermit Merchant - Leyndell] Golden Great Arrow;52070000;120;-1;170420;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100735;[Hermit Merchant - Leyndell] Sentry's Torch;51000000;300;-1;170430;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100736;[Hermit Merchant - Leyndell] Rune Arc;53000000;300;-1;170440;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100737;[Hermit Merchant - Leyndell] Golden Sunflower;962100;2400;-1;170450;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100738;[Hermit Merchant - Leyndell] Distinguished Greatshield;960300;1500;-1;170460;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100739;[Hermit Merchant - Leyndell] Arrow;620000;1000;-1;170470;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100740;[Hermit Merchant - Leyndell] Golden Arrow;620300;1000;-1;170480;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100741;[Hermit Merchant - Leyndell] Bolt;622100;1500;-1;170490;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100742;[Hermit Merchant - Leyndell] Golden Bolt;111;3000;-1;200000;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100743;[Hermit Merchant - Leyndell] Great Arrow;8717;800;-1;69770;0;1;0;3;0;1;0;0;1;-1;8767;-1;-1;-1;0;0
+100750;[Merchant - Altus Plateau] Ancient Dragon Apostle's Cookbook [2];9401;4500;-1;68010;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100751;[Merchant - Altus Plateau] Note: Imp Shades;8701;1200;-1;69610;0;1;0;3;0;1;0;0;1;-1;8751;-1;-1;-1;0;0
+100752;[Merchant - Altus Plateau] Note: Unseen Assassins;8705;2000;-1;69650;0;1;0;3;0;1;0;0;1;-1;8755;-1;-1;-1;0;0
+100753;[Merchant - Altus Plateau] Stonesword Key;8000;4000;-1;170530;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100761;[Merchant - Altus Plateau] Lightning Bolt;52010000;160;-1;170610;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100764;[Merchant - Altus Plateau] Scorpion Kite Shield;31080000;2000;-1;170640;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100765;[Merchant - Altus Plateau] Gravel Stone;20855;2000;-1;170650;0;8;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100766;[Merchant - Altus Plateau] Red Crest Heater Shield;31290000;2500;-1;170660;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100767;[Merchant - Altus Plateau] Crossed-Tree Towershield;32200000;3800;-1;170670;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100768;[Merchant - Altus Plateau] Arrow;50000000;20;-1;170680;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100769;[Merchant - Altus Plateau] Bolt;52000000;40;-1;170690;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100770;[Merchant - Altus Plateau] Tree Surcoat;1102100;3500;-1;170700;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100771;;111;2000;-1;170710;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100775;[Merchant - Mt. Gelmir] Nomadic Warrior's Cookbook [20];9323;3000;-1;67230;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100777;[Merchant - Mt. Gelmir] Stonesword Key;8000;5000;-1;170770;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100784;[Merchant - Mt. Gelmir] Explosive Greatbolt;53020000;800;-1;170840;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100789;[Merchant - Mt. Gelmir] Arrow;50000000;20;-1;170890;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100790;[Merchant - Mt. Gelmir] Great Arrow;51000000;300;-1;170900;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100791;[Merchant - Mt. Gelmir] Bolt;52000000;40;-1;170910;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100792;[Merchant - Mt. Gelmir] Explosive Bolt;52060000;160;-1;170920;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100793;[Merchant - Mt. Gelmir] Ballista Bolt;53000000;300;-1;170930;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100794;[Merchant - Mt. Gelmir] Confessor Hood;880000;1000;-1;170940;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100795;[Merchant - Mt. Gelmir] Confessor Armor;880100;1500;-1;170950;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100796;[Merchant - Mt. Gelmir] Confessor Gloves;880200;1000;-1;170960;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100797;[Merchant - Mt. Gelmir] Confessor Boots;880300;1000;-1;170970;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100798;[Merchant - Mt. Gelmir] Guilty Hood;160000;500;-1;170980;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100801;Poisonbone Dart;1720;120;-1;180010;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100802;Poisoned Stone;1840;150;-1;180020;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100803;Poisoned Stone Clump;1841;250;-1;180030;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100813;Preserving Boluses;940;2500;-1;180130;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100814;Aeonian Butterfly;20801;1500;-1;180140;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100815;Arrow;50000000;20;-1;180150;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100816;Fire Arrow;50010000;120;-1;180160;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100817;Bolt;52000000;40;-1;180170;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100825;[Merchant - South Caelid] Nomadic Warrior's Cookbook [15];9390;4000;-1;67900;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100826;[Merchant - South Caelid] Stonesword Key;8000;4000;-1;180260;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100827;[Merchant - South Caelid] Cracked Pot;9500;1500;-1;66180;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100837;[Merchant - South Caelid] Note: Gravity's Advantage;8710;800;-1;69700;0;1;0;3;0;1;0;0;1;-1;8760;-1;-1;-1;0;0
+100838;[Merchant - South Caelid] Arrow;50000000;20;-1;180380;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100839;[Merchant - South Caelid] Bolt;52000000;40;-1;180390;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100840;[Merchant - South Caelid] Flaming Bolt;52190000;120;-1;180400;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100841;[Merchant - South Caelid] Champion Headband;730000;1000;-1;180410;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100842;[Merchant - South Caelid] Champion Pauldron;730100;1500;-1;180420;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100843;[Merchant - South Caelid] Champion Bracers;730200;1000;-1;180430;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100844;[Merchant - South Caelid] Champion Gaiters;730300;1000;-1;180440;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100845;[Merchant - South Caelid] Greathelm;1101000;1800;-1;180450;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100875;[Isolated Merchant - Dragonbarrow] Note: Hidden Cave;8700;1200;-1;69600;0;1;0;3;0;1;0;0;1;-1;8750;-1;-1;-1;0;0
+100876;[Isolated Merchant - Dragonbarrow] Ritual Pot;9501;3000;-1;66460;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100877;[Isolated Merchant - Dragonbarrow] Lost Ashes of War;10070;5000;-1;180770;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100878;[Isolated Merchant - Dragonbarrow] Gravel Stone;20855;2000;-1;180780;0;10;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100880;[Isolated Merchant - Dragonbarrow] Sacrificial Twig;6070;3000;-1;180800;0;3;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100882;[Isolated Merchant - Dragonbarrow] Land of Reeds Helm;870000;1000;-1;180820;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100883;[Isolated Merchant - Dragonbarrow] Land of Reeds Armor;870100;1500;-1;180830;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100884;[Isolated Merchant - Dragonbarrow] Land of Reeds Gauntlets;870200;1000;-1;180840;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100885;[Isolated Merchant - Dragonbarrow] Land of Reeds Greaves;870300;1000;-1;180850;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100886;[Isolated Merchant - Dragonbarrow] Note: Gateway;8713;1200;-1;69730;0;1;0;3;0;1;0;0;1;-1;8763;-1;-1;-1;0;0
+100887;[Isolated Merchant - Dragonbarrow] Dragonwound Grease;1480;3000;-1;180870;0;2;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100888;[Isolated Merchant - Dragonbarrow] Spiked Caestus;21010000;4000;-1;180880;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100889;[Isolated Merchant - Dragonbarrow] Beast-Repellent Torch;24060000;1200;-1;180890;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100890;[Isolated Merchant - Dragonbarrow] Arrow;50000000;20;-1;180900;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100891;[Isolated Merchant - Dragonbarrow] Serpent Arrow;50020000;120;-1;180910;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100892;[Isolated Merchant - Dragonbarrow] Bolt;52000000;40;-1;180920;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100893;;111;1500;-1;180930;0;8;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100900;[Merchant - Mountaintops of the Giants] Missionary's Cookbook [7];9423;7500;-1;68230;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100901;[Merchant - Mountaintops of the Giants] Stonesword Key;8000;5000;-1;190010;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100903;[Merchant - Mountaintops of the Giants] Thawfrost Boluses;920;1200;-1;190030;0;10;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100909;[Merchant - Mountaintops of the Giants] Rune Arc;190;8000;-1;190090;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100910;[Merchant - Mountaintops of the Giants] Arrow;50000000;20;-1;190100;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100911;[Merchant - Mountaintops of the Giants] Bolt;52000000;40;-1;190110;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100912;[Merchant - Mountaintops of the Giants] Great Arrow;51000000;300;-1;190120;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100913;[Merchant - Mountaintops of the Giants] Ballista Bolt;53000000;300;-1;190130;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100914;[Merchant - Mountaintops of the Giants] Lightning Greatbolt;53010000;500;-1;190140;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100915;[Merchant - Mountaintops of the Giants] Vagabond Knight Helm;660000;1000;-1;190150;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100916;[Merchant - Mountaintops of the Giants] Vagabond Knight Armor;660100;1500;-1;190160;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100917;[Merchant - Mountaintops of the Giants] Vagabond Knight Gauntlets;660200;1000;-1;190170;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100918;[Merchant - Mountaintops of the Giants] Vagabond Knight Greaves;660300;1000;-1;190180;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100925;[Merchant - Siofra River] Nomadic Warrior's Cookbook [17];9310;1000;-1;67100;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100926;[Merchant - Siofra River] Nomadic Warrior's Cookbook [18];9327;6000;-1;67270;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100928;[Merchant - Siofra River] Stonesword Key;8000;2000;-1;190280;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100935;[Merchant - Siofra River] Dwelling Arrow;50100000;160;-1;190350;0;30;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100936;[Merchant - Siofra River] Larval Tear;8185;3000;-1;190360;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100937;[Merchant - Siofra River] Shotel;7020000;2500;-1;190370;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100938;[Merchant - Siofra River] Arrow;50000000;20;-1;190380;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100939;[Merchant - Siofra River] Bolt;52000000;40;-1;190390;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100940;[Merchant - Siofra River] Soap;2120;400;-1;190400;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100941;[Merchant - Siofra River] Nascent Butterfly;20800;1500;-1;190410;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100950;[Merchant - Ainsel River] Nomadic Warrior's Cookbook [16];9329;2500;-1;67290;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100951;[Merchant - Ainsel River] Perfumer's Cookbook [4];9392;3000;-1;67920;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100953;[Merchant - Ainsel River] Lost Ashes of War;10070;3000;-1;190530;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100962;[Merchant - Ainsel River] Celestial Dew;2130;7500;-1;190620;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100963;[Merchant - Ainsel River] Gravity Stone Fan;3060;200;-1;190630;0;20;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100964;[Merchant - Ainsel River] Gravity Stone Chunk;3070;300;-1;190640;0;10;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100965;[Merchant - Ainsel River] Prisoner Iron Mask;890000;1000;-1;190650;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100966;[Merchant - Ainsel River] Prisoner Clothing;890100;1500;-1;190660;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100967;[Merchant - Ainsel River] Prisoner Trousers;890300;1000;-1;190670;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100976;[Imprisoned Merchant - Mohgwyn] Stonesword Key;8000;5000;-1;190760;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100977;[Imprisoned Merchant - Mohgwyn] Lost Ashes of War;10070;5000;-1;190770;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100981;[Imprisoned Merchant - Mohgwyn] Rune Arc;190;8000;-1;190810;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100982;[Imprisoned Merchant - Mohgwyn] Festering Bloody Finger;111;2000;-1;190820;0;10;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100983;[Imprisoned Merchant - Mohgwyn] Stanching Boluses;910;1200;-1;190830;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100984;[Imprisoned Merchant - Mohgwyn] Bloodrose;20723;800;-1;190840;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100985;[Imprisoned Merchant - Mohgwyn] Dwelling Arrow;50100000;160;-1;190850;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+100986;[Imprisoned Merchant - Mohgwyn] Burred Bolt;52040000;200;-1;190860;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101503;[Enia - Godfrey] Elden Lord Crown;460000;12000;-1;250030;9107;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101504;[Enia - Godfrey] Elden Lord Armor;460100;20000;-1;250040;9107;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101505;[Enia - Godfrey] Elden Lord Bracers;460200;12000;-1;250050;9107;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101506;[Enia - Godfrey] Elden Lord Greaves;460300;12000;-1;250060;9107;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101507;[Enia - Radahn] Radahn's Redmane Helm;470000;8000;-1;250070;9130;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101508;[Enia - Radahn] Radahn's Lion Armor;470100;12000;-1;250080;9130;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101509;[Enia - Radahn] Radahn's Gauntlets;470200;8000;-1;250090;9130;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101510;[Enia - Radahn] Radahn's Greaves;470300;8000;-1;250100;9130;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101511;[Enia - Mohg] Lord of Blood's Robe;480100;20000;-1;250110;9112;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101512;[Enia - Rennala] Queen's Crescent Crown;510000;7000;-1;250120;9118;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101513;[Enia - Rennala] Queen's Robe;510100;10000;-1;250130;9118;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101514;[Enia - Rennala] Queen's Bracelets;510200;7000;-1;250140;9118;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101515;[Enia - Rennala] Queen's Leggings;510300;7000;-1;250150;9118;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101516;[Enia - Maliketh] Maliketh's Helm;760000;10000;-1;250160;9116;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101517;[Enia - Maliketh] Maliketh's Armor;760100;15000;-1;250170;9116;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101518;[Enia - Maliketh] Maliketh's Gauntlets;760200;10000;-1;250180;9116;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101519;[Enia - Maliketh] Maliketh's Greaves;760300;10000;-1;250190;9116;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101520;[Enia - Malenia] Malenia's Winged Helm;770000;12000;-1;250200;9120;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101521;[Enia - Malenia] Malenia's Armor;770100;20000;-1;250210;9120;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101522;[Enia - Malenia] Malenia's Gauntlet;770200;12000;-1;250220;9120;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101523;[Enia - Malenia] Malenia's Greaves;770300;12000;-1;250230;9120;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101524;[Enia - Margit] Fell Omen Cloak;1050100;12000;-1;250240;9104;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101525;[Enia - Royal Knight Loretta] Royal Knight Helm;280000;4000;-1;250250;9119;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101526;[Enia - Royal Knight Loretta] Royal Knight Armor;280100;6000;-1;250260;9119;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101527;[Enia - Royal Knight Loretta] Royal Knight Gauntlets;280200;4000;-1;250270;9119;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101528;[Enia - Royal Knight Loretta] Royal Knight Greaves;280300;4000;-1;250280;9119;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101529;[Enia - Commander Niall] Veteran's Helm;780000;4000;-1;250290;9184;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101530;[Enia - Commander Niall] Veteran's Armor;780100;6000;-1;250300;9184;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101531;[Enia - Commander Niall] Veteran's Gauntlets;780200;4000;-1;250310;9184;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101532;[Enia - Commander Niall] Veteran's Greaves;780300;4000;-1;250320;9184;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101549;[Enia - Radahn] Radahn's Spear;51040000;800;-1;250490;9130;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101550;[Enia - Elemer of the Briar] Briar Helm;210000;4000;-1;250500;9182;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101551;[Enia - Elemer of the Briar] Briar Armor;210100;6000;-1;250510;9182;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101552;[Enia - Elemer of the Briar] Briar Gauntlets;210200;4000;-1;250520;9182;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101553;[Enia - Elemer of the Briar] Briar Greaves;210300;4000;-1;250530;9182;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101775;[Enia - Forging] Remembrance of the Grafted;2950;0;-1;270750;9101;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101776;[Enia - Forging] Remembrance of the Starscourge;2951;0;-1;270760;9130;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101777;[Enia - Forging] Remembrance of the Omen King;2952;0;-1;270770;9104;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101778;[Enia - Forging] Remembrance of the Blasphemous;2953;0;-1;270780;9122;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101779;[Enia - Forging] Remembrance of the Rot Goddess;2954;0;-1;270790;9120;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101780;[Enia - Forging] Remembrance of the Full Moon Queen;2959;0;-1;270800;9118;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101781;[Enia - Forging] Remembrance of the Blood Lord;2955;0;-1;270810;9112;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101785;[Enia - Forging] Remembrance of the Black Blade;2956;0;-1;270850;9116;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101786;[Enia - Forging] Remembrance of Hoarah Loux;2957;0;-1;270860;9107;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101787;[Enia - Forging] Remembrance of the Dragonlord;2958;0;-1;270870;9115;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101788;[Enia - Forging] Remembrance of the Lichdragon;2960;0;-1;270880;9111;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101789;[Enia - Forging] Remembrance of the Fire Giant;2961;0;-1;270890;9131;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101790;[Enia - Forging] Remembrance of the Regal Ancestor;2962;0;-1;270900;9133;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101791;[Enia - Forging] Elden Remembrance;2963;0;-1;270910;9123;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101792;[Enia - Forging] Remembrance of the Naturalborn;2964;0;-1;270920;9108;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101800;[Twin Maiden Husks] White Cipher Ring;104;1000;-1;60280;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101801;[Twin Maiden Husks] Blue Cipher Ring;105;1000;-1;60290;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101802;[Twin Maiden Husks] Spirit Calling Bell;8158;100;-1;60110;1042369416;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101803;[Twin Maiden Husks] Lone Wolf Ashes;232000;500;-1;280030;1042369416;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101804;[Twin Maiden Husks - Haligtree] Black Flame's Protection;6260;2500;-1;280040;11109770;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101805;[Twin Maiden Husks - Haligtree] Lord's Divine Fortification;6490;3500;-1;280050;11109771;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101806;[Twin Maiden Husks - Mohgwyn] Fevor's Cookbook [3];9421;2000;-1;68210;11109772;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101807;[Twin Maiden Husks - Mohg] Law of Causality;6760;5000;-1;280070;11109773;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101808;[Twin Maiden Husks] Smithing Stone [1];10100;200;-1;280080;11109751;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101809;[Twin Maiden Husks] Smithing Stone [2];10101;400;-1;280090;11109751;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101810;[Twin Maiden Husks] Glintstone Scrap;3050;300;-1;280100;11109781;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101811;[Twin Maiden Husks] Smithing Stone [3];10102;600;-1;280110;11109752;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101812;[Twin Maiden Husks] Smithing Stone [4];10103;900;-1;280120;11109752;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101813;[Twin Maiden Husks] Explosive Stone;1830;300;-1;280130;11109752;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101814;[Twin Maiden Husks] Smithing Stone [5];10104;1200;-1;280140;11109753;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101815;[Twin Maiden Husks] Smithing Stone [6];10105;1500;-1;280150;11109753;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101816;[Twin Maiden Husks] Smithing Stone [7];10106;2400;-1;280160;11109754;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101817;[Twin Maiden Husks] Smithing Stone [8];10107;3600;-1;280170;11109754;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101818;[Twin Maiden Husks] Somber Smithing Stone [1];10160;2000;-1;280180;11109755;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101819;[Twin Maiden Husks] Somber Smithing Stone [2];10161;3000;-1;280190;11109755;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101820;[Twin Maiden Husks] Somber Smithing Stone [3];10162;4000;-1;280200;11109756;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101821;[Twin Maiden Husks] Somber Smithing Stone [4];10163;6000;-1;280210;11109756;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101822;[Twin Maiden Husks] Cracked Crystal;20780;300;-1;280220;11109756;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101823;[Twin Maiden Husks] Somber Smithing Stone [5];10164;9000;-1;280230;11109757;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101824;[Twin Maiden Husks] Somber Smithing Stone [6];10165;12000;-1;280240;11109757;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101825;[Twin Maiden Husks] Somber Smithing Stone [7];10166;16000;-1;280250;11109758;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101826;[Twin Maiden Husks] Somber Smithing Stone [8];10167;20000;-1;280260;11109758;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101827;[Twin Maiden Husks] Sanctuary Stone;20795;600;-1;280270;11109758;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101828;[Twin Maiden Husks] Somber Smithing Stone [9];10200;25000;-1;280280;11109759;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101829;[Twin Maiden Husks] Grave Glovewort [1];10900;800;-1;280290;11109760;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101830;[Twin Maiden Husks] Grave Glovewort [2];10901;1200;-1;280300;11109760;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101831;[Twin Maiden Husks] Grave Glovewort [3];10902;1600;-1;280310;11109760;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101832;[Twin Maiden Husks] Grave Glovewort [4];10903;2400;-1;280320;11109761;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101833;[Twin Maiden Husks] Grave Glovewort [5];10904;3200;-1;280330;11109761;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101834;[Twin Maiden Husks] Grave Glovewort [6];10905;4000;-1;280340;11109761;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101835;[Twin Maiden Husks] Grave Glovewort [7];10906;5000;-1;280350;11109762;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101836;[Twin Maiden Husks] Grave Glovewort [8];10907;6000;-1;280360;11109762;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101837;[Twin Maiden Husks] Grave Glovewort [9];10908;8000;-1;280370;11109762;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101838;[Twin Maiden Husks] Ghost Glovewort [1];10910;1200;-1;280380;11109763;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101839;[Twin Maiden Husks] Ghost Glovewort [2];10911;1800;-1;280390;11109763;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101840;[Twin Maiden Husks] Ghost Glovewort [3];10912;2400;-1;280400;11109763;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101841;[Twin Maiden Husks] Ghost Glovewort [4];10913;3600;-1;280410;11109764;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101842;[Twin Maiden Husks] Ghost Glovewort [5];10914;4800;-1;280420;11109764;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101843;[Twin Maiden Husks] Ghost Glovewort [6];10915;6000;-1;280430;11109764;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101844;[Twin Maiden Husks] Ghost Glovewort [7];10916;7500;-1;280440;11109765;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101845;[Twin Maiden Husks] Ghost Glovewort [8];10917;9000;-1;280450;11109765;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101846;[Twin Maiden Husks] Ghost Glovewort [9];10918;12000;-1;280460;11109765;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101847;[Twin Maiden Husks] Thin Beast Bones;15340;150;-1;280470;11109745;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101848;[Twin Maiden Husks] Hefty Beast Bone;15341;250;-1;280480;11109745;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101849;[Twin Maiden Husks] Sliver of Meat;15000;1000;-1;280490;11109746;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101850;[Twin Maiden Husks] Lump of Flesh;15020;1500;-1;280500;11109746;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101851;[Twin Maiden Husks] Turtle Neck Meat;15090;1200;-1;280510;11109746;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101852;[Twin Maiden Husks] Neutralizing Boluses;900;1200;-1;280520;11109747;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101853;[Twin Maiden Husks] Stanching Boluses;910;1200;-1;280530;11109747;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101854;[Twin Maiden Husks] Thawfrost Boluses;920;2400;-1;280540;11109747;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101855;[Twin Maiden Husks] Stimulating Boluses;930;3000;-1;280550;11109747;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101856;[Twin Maiden Husks] Gravity Stone Fan;3060;400;-1;280560;11109748;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101857;[Twin Maiden Husks] Gravity Stone Chunk;3070;600;-1;280570;11109748;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101858;[Twin Maiden Husks] Ruin Fragment;1760;100;-1;280580;11109754;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101859;[Twin Maiden Husks] Memory Stone;10030;3000;-1;60470;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101860;[Twin Maiden Husks] Stonesword Key;8000;4000;-1;250010;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101861;[Twin Maiden Husks] Rune Arc;190;4000;-1;250020;0;5;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101862;[Twin Maiden Husks] Furled Finger's Trick-Mirror;6080;5000;-1;250330;0;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101863;[Twin Maiden Husks] Host's Trick-Mirror;6090;5000;-1;250340;0;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101864;[Twin Maiden Husks] Dagger;1000000;400;-1;250350;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101865;[Twin Maiden Husks] Longsword;2000000;1000;-1;250360;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101866;[Twin Maiden Husks] Scimitar;7140000;600;-1;250370;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101867;[Twin Maiden Husks] Battle Axe;14000000;800;-1;250380;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101868;[Twin Maiden Husks] Mace;11000000;800;-1;250390;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101869;[Twin Maiden Husks] Short Spear;16000000;600;-1;250400;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101870;[Twin Maiden Husks] Rapier;5020000;1000;-1;250410;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101871;[Twin Maiden Husks] Finger Seal;34000000;800;-1;250420;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101872;[Twin Maiden Husks] Longbow;41000000;1200;-1;250430;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101873;[Twin Maiden Husks] Heater Shield;31330000;1500;-1;250440;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101874;[Twin Maiden Husks] Knight Helm;1500000;3000;-1;250450;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101875;[Twin Maiden Husks] Knight Armor;1500100;4500;-1;250460;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101876;[Twin Maiden Husks] Knight Gauntlets;1500200;3000;-1;250470;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101877;[Twin Maiden Husks] Knight Greaves;1500300;3000;-1;250480;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101878;;250;500;-1;60020;11109774;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101879;;8500;500;-1;60120;11109775;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101880;;8590;500;-1;60130;11109776;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101881;;10040;500;-1;60500;11109777;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101900;[Remembrance of the Grafted] Axe of Godrick;15040000;0;900000;290000;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101901;[Remembrance of the Grafted] Grafted Dragon;21060000;2000;900001;290010;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101902;[Remembrance of the Starscourge] Starscourge Greatsword;4050000;0;900002;290020;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101903;[Remembrance of the Starscourge] Lion Greatbow;42000000;0;900003;290030;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101904;[Remembrance of the Omen King] Morgott's Cursed Sword;8100000;0;900004;290040;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101905;[Remembrance of the Omen King] Regal Omen Bairn;3011;5000;900005;290050;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101906;[Remembrance of the Blasphemous] Blasphemous Blade;3140000;0;900006;290060;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101907;[Remembrance of the Blasphemous] Rykard's Rancor;4830;0;900007;290070;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101908;[Remembrance of the Rot Goddess] Hand of Malenia;9020000;0;900008;290080;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101909;[Remembrance of the Rot Goddess] Scarlet Aeonia;7240;0;900009;290090;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101910;[Remembrance of the Blood Lord] Mohgwyn's Sacred Spear;17010000;0;900010;290100;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101911;[Remembrance of the Blood Lord] Bloodboon;6310;0;900011;290110;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101912;[Remembrance of the Black Blade] Maliketh's Black Blade;4020000;0;900012;290120;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101913;[Remembrance of the Black Blade] Black Blade;7530;0;900013;290130;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101914;[Remembrance of Hoarah Loux] Axe of Godfrey;23050000;0;900014;290140;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101915;[Remembrance of Hoarah Loux] Ash of War: Hoarah Loux's Earthshaker;50900;15000;900015;290150;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101916;[Remembrance of the Dragonlord] Dragon King's Cragblade;6040000;20000;900016;290160;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101917;[Remembrance of the Dragonlord] Placidusax's Ruin;7050;0;900017;290170;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101918;[Remembrance of The Full Moon Queen] Carian Regal Scepter;33090000;0;900018;290180;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101919;[Remembrance of The Full Moon Queen] Rennala's Full Moon;4360;0;900019;290190;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101920;[Remembrance of the Lichdragon] Fortissax's Lightning Spear;6941;0;900020;290200;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101921;[Remembrance of the Lichdragon] Death Lightning;5040;0;900021;290210;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101922;[Remembrance of the Fire Giant] Giant's Red Braid;20060000;10000;900022;290220;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101923;[Remembrance of the Fire Giant] Burn;6120;0;900023;290230;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101924;[Remembrance of the Regal Ancestor] Winged Greathorn;15110000;3000;900024;290240;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101925;[Remembrance of the Regal Ancestor] Ancestral Spirit's Horn;6110;3000;900025;290250;0;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101926;[Elden Remembrance] Marika's Hammer;11150000;0;900026;290260;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101927;[Elden Remembrance] Sacred Relic Sword;3100000;20000;900027;290270;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101928;[Remembrance of the Naturalborn] Bastard's Stars;13030000;10000;900028;290280;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101929;[Remembrance of the Naturalborn] Ash of War: Waves of Darkness;50800;10000;900029;290290;0;1;0;4;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101950;[Dragon Communion] Dragonfire;7000;1;-1;290500;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101951;[Dragon Communion] Dragonice;7020;1;-1;290510;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101952;[Dragon Communion] Glintstone Breath;7040;1;-1;290520;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101953;[Dragon Communion] Rotten Breath;7030;1;-1;290530;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101954;[Dragon Communion] Agheel's Flame;7001;2;-1;290540;1043360800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101955;[Dragon Communion] Borealis's Mist;7021;2;-1;290550;1254560800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101956;[Dragon Communion] Smarag's Glintstone Breath;7041;2;-1;290560;1034450800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101957;[Dragon Communion] Ekzykes's Decay;7031;2;-1;290570;1048370800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101958;[Dragon Communion] Dragonclaw;7060;1;-1;290750;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101959;[Dragon Communion] Dragonmaw;7080;1;-1;290760;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101960;[Dragon Communion] Magma Breath;7010;1;-1;290770;1035530800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101961;[Dragon Communion] Theodorix's Magma;7011;2;-1;290780;1050560800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101962;[Dragon Communion] Greyoll's Roar;7090;3;-1;290790;1050400800;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101975;[Dragon Communion] Dragonclaw;7060;1;-1;290750;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101976;[Dragon Communion] Dragonmaw;7080;1;-1;290760;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+101980;[Dragon Communion] Dragonfire;7000;1;-1;290500;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110000;[Sorcery] Glintstone Pebble;4000;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110001;[Sorcery] Great Glintstone Shard;4001;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110002;[Sorcery] Swift Glintstone Shard;4010;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110003;[Sorcery] Glintstone Cometshard;4020;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110004;[Sorcery] Comet;4021;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110005;[Sorcery] Shard Spiral;4030;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110006;[Sorcery] Glintstone Stars;4040;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110007;[Sorcery] Star Shower;4050;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110008;[Sorcery] Crystal Barrage;4060;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110009;[Sorcery] Glintstone Arc;4070;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110010;[Sorcery] Cannon of Haima;4080;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110011;[Sorcery] Crystal Burst;4090;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110012;[Sorcery] Shatter Earth;4100;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110013;[Sorcery] Rock Blaster;4110;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110014;[Sorcery] Gavel of Haima;4120;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110015;[Sorcery] Terra Magicus;4130;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110016;[Sorcery] Starlight;4140;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110017;[Sorcery] Comet Azur;4200;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110018;[Sorcery] Founding Rain of Stars;4210;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110019;[Sorcery] Stars of Ruin;4220;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110020;[Sorcery] Glintblade Phalanx;4300;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110021;[Sorcery] Carian Phalanx;4301;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110022;[Sorcery] Greatblade Phalanx;4302;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110023;[Sorcery] Rennala's Full Moon;4360;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110024;[Sorcery] Ranni's Dark Moon;4361;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110025;[Sorcery] Magic Downpour;4370;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110026;[Sorcery] Loretta's Greatbow;4380;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110027;[Sorcery] Loretta's Mastery;4381;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110028;[Sorcery] Magic Glintblade;4390;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110029;[Sorcery] Glintstone Icecrag;4400;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110030;[Sorcery] Zamor Ice Storm;4410;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110031;[Sorcery] Freezing Mist;4420;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110032;[Sorcery] Carian Greatsword;4430;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110033;[Sorcery] Adula's Moonblade;4431;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110034;[Sorcery] Carian Slicer;4440;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110035;[Sorcery] Carian Piercer;4450;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110036;[Sorcery] Scholar's Armament;4460;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110037;[Sorcery] Scholar's Shield;4470;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110038;[Sorcery] Lucidity;4480;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110039;[Sorcery] Frozen Armament;4490;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110040;[Sorcery] Shattering Crystal;4500;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110041;[Sorcery] Crystal Release;4510;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110042;[Sorcery] Crystal Torrent;4520;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110043;[Sorcery] Ambush Shard;4600;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110044;[Sorcery] Night Shard;4610;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110045;[Sorcery] Night Comet;4620;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110046;[Sorcery] Thops's Barrier;4630;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110047;[Sorcery] Carian Retaliation;4640;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110048;[Sorcery] Eternal Darkness;4650;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110049;[Sorcery] Unseen Blade;4660;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110050;[Sorcery] Unseen Form;4670;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110051;[Sorcery] Meteorite;4700;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110052;[Sorcery] Meteorite of Astel;4701;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110053;[Sorcery] Rock Sling;4710;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110054;[Sorcery] Gravity Well;4720;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110055;[Sorcery] Collapsing Stars;4721;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110056;[Sorcery] Magma Shot;4800;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110057;[Sorcery] Gelmir's Fury;4810;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110058;[Sorcery] Roiling Magma;4820;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110059;[Sorcery] Rykard's Rancor;4830;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110060;[Sorcery] Briars of Sin;4900;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110061;[Sorcery] Briars of Punishment;4910;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110062;[Sorcery] Rancorcall;5000;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110063;[Sorcery] Ancient Death Rancor;5001;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110064;[Sorcery] Explosive Ghostflame;5010;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110065;[Sorcery] Fia's Mist;5020;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110066;[Sorcery] Tibia's Summons;5030;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110067;[Sorcery] Death Lightning;5040;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110068;[Sorcery] Oracle Bubbles;5100;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110069;[Sorcery] Great Oracular Bubble;5110;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110070;[Incantation] Catch Flame;6000;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110071;[Incantation] O;6001;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110072;[Incantation] Flame Sling;6010;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110073;[Incantation] Flame;6020;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110074;[Incantation] Whirl;6030;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110075;[Incantation] Flame;6040;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110076;[Incantation] Flame;6050;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110077;[Incantation] Flame;6060;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110078;[Incantation] Giantsflame Take Thee;6100;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110079;[Incantation] Flame of the Fell God;6110;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110080;[Incantation] Burn;6120;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110081;[Incantation] Black Flame;6210;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110082;[Incantation] Surge;6220;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110083;[Incantation] Scouring Black Flame;6230;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110084;[Incantation] Black Flame Ritual;6240;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110085;[Incantation] Black Flame Blade;6250;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110086;[Incantation] Black Flame's Protection;6260;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110087;[Incantation] Noble Presence;6270;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110088;[Incantation] Bloodflame Talons;6300;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110089;[Incantation] Bloodboon;6310;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110090;[Incantation] Bloodflame Blade;6320;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110091;[Incantation] Barrier of Gold;6330;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110092;[Incantation] Protection of the Erdtree;6340;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110093;[Incantation] Rejection;6400;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110094;[Incantation] Wrath of Gold;6410;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110095;[Incantation] Urgent Heal;6420;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110096;[Incantation] Heal;6421;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110097;[Incantation] Great Heal;6422;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110098;[Incantation] Lord's Heal;6423;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110099;[Incantation] Erdtree Heal;6424;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110100;[Incantation] Blessing's Boon;6430;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110101;[Incantation] Blessing of the Erdtree;6431;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110102;[Incantation] Cure Poison;6440;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110103;[Incantation] Lord's Aid;6441;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110104;[Incantation] Flame Fortification;6450;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110105;[Incantation] Magic Fortification;6460;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110106;[Incantation] Lightning Fortification;6470;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110107;[Incantation] Divine Fortification;6480;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110108;[Incantation] Lord's Divine Fortification;6490;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110109;[Incantation] Night Maiden's Mist;6500;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110110;[Incantation] Assassin's Approach;6510;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110111;[Incantation] Shadow Bait;6520;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110112;[Incantation] Darkness;6530;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110113;[Incantation] Golden Vow;6600;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110114;[Incantation] Discus of Light;6700;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110115;[Incantation] Triple Rings of Light;6701;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110116;[Incantation] Radagon's Rings of Light;6710;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110117;[Incantation] Elden Stars;6720;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110118;[Incantation] Law of Regression;6730;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110119;[Incantation] Immutable Shield;6740;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110120;[Incantation] Litany of Proper Death;6750;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110121;[Incantation] Law of Causality;6760;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110122;[Incantation] Order's Blade;6770;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110123;[Incantation] Order Healing;6780;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110124;[Incantation] Bestial Sling;6800;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110125;[Incantation] Stone of Gurranq;6810;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110126;[Incantation] Beast Claw;6820;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110127;[Incantation] Gurranq's Beast Claw;6830;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110128;[Incantation] Bestial Vitality;6840;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110129;[Incantation] Bestial Constitution;6850;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110130;[Incantation] Lightning Spear;6900;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110131;[Incantation] Ancient Dragons' Lightning Strike;6910;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110132;[Incantation] Lightning Strike;6920;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110133;[Incantation] Frozen Lightning Spear;6921;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110134;[Incantation] Honed Bolt;6930;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110135;[Incantation] Ancient Dragons' Lightning Spear;6940;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110136;[Incantation] Fortissax's Lightning Spear;6941;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110137;[Incantation] Lansseax's Glaive;6950;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110138;[Incantation] Electrify Armament;6960;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110139;[Incantation] Vyke's Dragonbolt;6970;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110140;[Incantation] Dragonbolt Blessing;6971;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110141;[Incantation] Dragonfire;7000;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110142;[Incantation] Agheel's Flame;7001;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110143;[Incantation] Magma Breath;7010;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110144;[Incantation] Theodorix's Magma;7011;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110145;[Incantation] Dragonice;7020;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110146;[Incantation] Borealis's Mist;7021;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110147;[Incantation] Rotten Breath;7030;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110148;[Incantation] Ekzykes's Decay;7031;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110149;[Incantation] Glintstone Breath;7040;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110150;[Incantation] Smarag's Glintstone Breath;7041;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110151;[Incantation] Placidusax's Ruin;7050;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110152;[Incantation] Dragonclaw;7060;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110153;[Incantation] Dragonmaw;7080;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110154;[Incantation] Greyoll's Roar;7090;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110155;[Incantation] Pest Threads;7200;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110156;[Incantation] Swarm of Flies;7210;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110157;[Incantation] Poison Mist;7220;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110158;[Incantation] Poison Armament;7230;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110159;[Incantation] Scarlet Aeonia;7240;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110160;[Incantation] Inescapable Frenzy;7300;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110161;[Incantation] The Flame of Frenzy;7310;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110162;[Incantation] Unendurable Frenzy;7311;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110163;[Incantation] Frenzied Burst;7320;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110164;[Incantation] Howl of Shabriri;7330;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110165;[Incantation] Aspects of the Crucible: Tail;7500;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110166;[Incantation] Aspects of the Crucible: Horns;7510;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110167;[Incantation] Aspects of the Crucible: Breath;7520;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110168;[Incantation] Black Blade;7530;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110169;[Incantation] Fire's Deadly Sin;7900;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+110170;[Incantation] Golden Lightning Fortification;7903;1;-1;0;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112000;Ash of War: Impaling Thrust;10100;1;-1;0;65810;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112001;Ash of War: Piercing Fang;10200;1;-1;0;65811;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112002;Ash of War: Spinning Slash;10300;1;-1;0;65812;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112003;Ash of War: Repeating Thrust;10900;1;-1;0;65813;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112004;Ash of War: Double Slash;11200;1;-1;0;65814;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112005;Ash of War: Unsheathe;11400;1;-1;0;65815;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112006;Ash of War: Sword Dance;12400;1;-1;0;65816;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112008;Ash of War: Quickstep;80000;1;-1;0;65818;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112009;Ash of War: Bloodhound's Step;80100;1;-1;0;65819;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112010;Ash of War: Lion's Claw;10000;1;-1;0;65820;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112011;Ash of War: Stamp (Upward Cut);10600;1;-1;0;65821;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112012;Ash of War: Stamp (Sweep);10700;1;-1;0;65822;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112013;Ash of War: Wild Strikes;11000;1;-1;0;65823;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112014;Ash of War: Earthshaker;21200;1;-1;0;65824;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112015;Ash of War: Kick;50300;1;-1;0;65825;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112016;Ash of War: Ground Slam;50600;1;-1;0;65826;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112017;Ash of War: Hoarah Loux's Earthshaker;50900;1;-1;0;65827;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112018;Ash of War: Barbaric Roar;65000;1;-1;0;65828;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112019;Ash of War: War Cry;65100;1;-1;0;65829;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112020;Ash of War: Troll's Roar;65300;1;-1;0;65830;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112021;Ash of War: Braggart's Roar;65400;1;-1;0;65831;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112022;Ash of War: Endure;70000;1;-1;0;65832;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112023;Ash of War: Charge Forth;10500;1;-1;0;65833;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112024;Ash of War: Square Off;11500;1;-1;0;65834;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112025;Ash of War: Giant Hunt;11600;1;-1;0;65835;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112026;Ash of War: Spinning Strikes;11100;1;-1;0;65836;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112027;Ash of War: Storm Assault;12200;1;-1;0;65837;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112028;Ash of War: Stormcaller;12300;1;-1;0;65838;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112029;Ash of War: Storm Blade;21000;1;-1;0;65839;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112030;Ash of War: Vacuum Slice;22000;1;-1;0;65840;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112031;Ash of War: Storm Stomp;50200;1;-1;0;65841;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112032;Ash of War: Determination;60000;1;-1;0;65842;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112033;Ash of War: Royal Knight's Resolve;60100;1;-1;0;65843;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112034;Ash of War: Prelate's Charge;11300;1;-1;0;65844;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112035;Ash of War: Eruption;20700;1;-1;0;65845;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112036;Ash of War: Flaming Strike;21400;1;-1;0;65846;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112037;Ash of War: Black Flame Tornado;22100;1;-1;0;65847;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112038;Ash of War: Flame of the Redmanes;50500;1;-1;0;65848;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112039;Ash of War: Thunderbolt;21600;1;-1;0;65849;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112040;Ash of War: Lightning Slash;21700;1;-1;0;65850;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112041;Ash of War: Lightning Ram;50400;1;-1;0;65851;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112042;Ash of War: Loretta's Slash;11800;1;-1;0;65852;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112043;Ash of War: Spinning Weapon;12000;1;-1;0;65853;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112044;Ash of War: Glintblade Phalanx;20000;1;-1;0;65854;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112045;Ash of War: Glintstone Pebble;20300;1;-1;0;65855;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112046;Ash of War: Gravitas;20900;1;-1;0;65856;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112047;Ash of War: Carian Grandeur;21800;1;-1;0;65857;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112048;Ash of War: Carian Greatsword;21900;1;-1;0;65858;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112049;Ash of War: Waves of Darkness;50800;1;-1;0;65859;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112050;Ash of War: Cragblade;60700;1;-1;0;65860;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112051;Ash of War: Sacred Blade;20100;1;-1;0;65861;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112052;Ash of War: Prayerful Strike;20800;1;-1;0;65862;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112053;Ash of War: Golden Land;21300;1;-1;0;65863;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112054;Ash of War: Sacred Ring of Light;22200;1;-1;0;65864;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112055;Ash of War: Golden Slam;50700;1;-1;0;65865;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112056;Ash of War: Golden Vow;60300;1;-1;0;65866;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112057;Ash of War: Sacred Order;60400;1;-1;0;65867;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112058;Ash of War: Shared Order;60500;1;-1;0;65868;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112059;Ash of War: Beast's Roar;65200;1;-1;0;65869;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112060;Ash of War: Phantom Slash;22500;1;-1;0;65870;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112061;Ash of War: Spectral Lance;22600;1;-1;0;65871;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112062;Ash of War: Raptor of the Mists;80200;1;-1;0;65872;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112063;Ash of War: White Shadow's Lure;85000;1;-1;0;65873;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112064;Ash of War: Poison Moth Flight;11900;1;-1;0;65874;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112065;Ash of War: Poisonous Mist;22800;1;-1;0;65875;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112066;Ash of War: Blood Tax;10800;1;-1;0;65876;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112067;Ash of War: Bloody Slash;20400;1;-1;0;65877;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112068;Ash of War: Lifesteal Fist;20500;1;-1;0;65878;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112069;Ash of War: Blood Blade;22400;1;-1;0;65879;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112070;Ash of War: Assassin's Gambit;60200;1;-1;0;65880;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112071;Ash of War: Seppuku;60600;1;-1;0;65881;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112072;Ash of War: Ice Spear;20200;1;-1;0;65882;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112073;Ash of War: Chilling Mist;22700;1;-1;0;65883;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112074;Ash of War: Hoarfrost Stomp;50100;1;-1;0;65884;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112075;Ash of War: No Skill;30900;1;-1;0;65885;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112076;Ash of War: Shield Bash;30000;1;-1;0;65886;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112077;Ash of War: Shield Crash;30800;1;-1;0;65887;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112078;Ash of War: Barricade Shield;30100;1;-1;0;65888;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112079;Ash of War: Parry;30200;1;-1;0;65889;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112080;Ash of War: Carian Retaliation;30500;1;-1;0;65890;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112081;Ash of War: Storm Wall;30600;1;-1;0;65891;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112082;Ash of War: Golden Parry;30700;1;-1;0;65892;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112083;Ash of War: Thops's Barrier;31000;1;-1;0;65893;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112084;Ash of War: Holy Ground;70200;1;-1;0;65894;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112085;Ash of War: Vow of the Indomitable;70100;1;-1;0;65895;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112086;Ash of War: Barrage;40100;1;-1;0;65896;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112087;Ash of War: Mighty Shot;40200;1;-1;0;65897;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112088;Ash of War: Sky Shot;40500;1;-1;0;65898;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112089;Ash of War: Through and Through;40000;1;-1;0;65899;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112090;Ash of War: Enchanted Shot;40400;1;-1;0;65900;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+112091;Ash of War: Rain of Arrows;40600;1;-1;0;65901;-1;0;4;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600000;Dagger;1000000;400;-1;220500;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600001;Longsword;2000000;600;-1;220510;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600002;Short Spear;16000000;800;-1;220520;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600003;Mace;11000000;800;-1;220530;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600004;Longbow;41000000;800;-1;220540;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600005;Falchion;7000000;800;-1;220550;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600006;Hand Axe;14020000;800;-1;220560;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600007;Buckler;30000000;1000;-1;220570;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600008;Round Shield;31070000;1000;-1;220580;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600009;Blue Cloth Cowl;670000;1200;-1;220590;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600010;Blue Cloth Vest;670100;1600;-1;220600;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600011;Warrior Gauntlets;670200;1200;-1;220610;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600012;Warrior Greaves;670300;1200;-1;220620;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600013;Lone Wolf Ashes;232000;500;-1;220630;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600014;Cracked Pot;9500;300;-1;220640;0;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600015;;8550;500;-1;220650;0;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600016;Arrow;50000000;20;-1;220660;0;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600017;String;15400;50;-1;220670;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600018;Note: Imp Shades;8701;300;-1;220680;0;1;0;3;0;1;0;0;1;-1;8751;-1;-1;-1;0;0
+600019;Note: Flask of Wondrous Physick;8702;300;-1;220690;0;1;0;3;0;1;0;0;1;-1;8752;-1;-1;-1;0;0
+600020;;15390;100;-1;220700;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600021;Miranda Powder;15150;150;-1;220710;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+600022;;15210;150;-1;220720;0;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900000;[Incantation] Dragonfire;7000;1;-1;190000;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900001;[Incantation] Agheel's Flame;7001;2;-1;190010;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900002;[Incantation] Magma Breath;7010;3;-1;190020;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900003;[Incantation] Dragonice;7020;4;-1;190030;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900004;[Incantation] Rotten Breath;7030;5;-1;190040;0;1;0;3;1;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900010;[Incantation] Dragonfire;7000;1;-1;190000;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900011;[Incantation] Agheel's Flame;7001;2;-1;190010;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900012;[Incantation] Magma Breath;7010;3;-1;190020;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900013;[Incantation] Dragonice;7020;4;-1;190030;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900014;[Incantation] Rotten Breath;7030;5;-1;190040;0;1;0;3;2;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900020;[Incantation] Dragonfire;7000;1;-1;190000;0;1;0;3;3;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900021;[Incantation] Agheel's Flame;7001;2;-1;190010;0;1;0;3;3;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900022;[Incantation] Magma Breath;7010;3;-1;190020;0;1;0;3;3;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900023;[Incantation] Dragonice;7020;4;-1;190030;0;1;0;3;3;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900024;[Incantation] Rotten Breath;7030;5;-1;190040;0;1;0;3;3;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900030;[Incantation] Dragonfire;7000;1;-1;190000;0;1;0;3;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900031;[Incantation] Agheel's Flame;7001;2;-1;190010;0;1;0;3;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900032;[Incantation] Magma Breath;7010;3;-1;190020;0;1;0;3;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900033;[Incantation] Dragonice;7020;4;-1;190030;0;1;0;3;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+900034;[Incantation] Rotten Breath;7030;5;-1;190040;0;1;0;3;4;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600101;Dagger;1000000;400;-1;220500;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600102;Longsword;2000000;600;-1;220510;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600103;Short Spear;16000000;800;-1;220520;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600104;Mace;11000000;800;-1;220530;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600105;Longbow;41000000;800;-1;220540;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600106;Falchion;7000000;800;-1;220550;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600107;Hand Axe;14020000;800;-1;220560;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600108;Buckler;30000000;1000;-1;220570;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600109;Round Shield;31070000;1000;-1;220580;99019775;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600110;Blue Cloth Cowl;670000;1200;-1;220590;99019775;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600111;Blue Cloth Vest;670100;1600;-1;220600;99019775;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600112;Warrior Gauntlets;670200;1200;-1;220610;99019775;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600113;Warrior Greaves;670300;1200;-1;220620;99019775;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600114;;2529;500;-1;220630;99019775;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600115;Cracked Pot;9500;300;-1;220640;99019775;3;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600116;;8550;500;-1;220650;99019775;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600117;Arrow;50000000;20;-1;220660;99019775;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600118;String;15400;50;-1;220670;99019775;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600119;Note: Imp Shades;8701;300;-1;220680;99019775;1;0;3;0;1;0;0;1;-1;8751;-1;-1;-1;0;0
+1600120;Note: Flask of Wondrous Physick;8702;300;-1;220690;99019775;1;0;3;0;1;0;0;1;-1;8752;-1;-1;-1;0;0
+1600121;;15390;100;-1;220700;99019775;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600122;Miranda Powder;15150;150;-1;220710;99019775;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600123;;15210;150;-1;220720;99019775;-1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600401;Glintstone Staff;33000000;1000;-1;230000;99019780;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600402;Finger Seal;34000000;1500;-1;230010;99019780;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600403;Clawmark Seal;34040000;1500;-1;230020;99019780;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600404;[Sorcery] Glintstone Pebble;4000;800;-1;230030;99019780;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600405;[Sorcery] Stars of Ruin;4220;1200;-1;230040;99019780;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600406;;5510;600;-1;230050;99019780;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600407;[Incantation] Flame;6020;1000;-1;230060;99019780;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600408;[Incantation] Frenzied Burst;7320;1000;-1;230070;99019780;1;0;3;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600409;Carian Knight Helm;980000;1600;-1;230080;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600410;Carian Knight Armor (Altered);981100;2000;-1;230090;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600411;Carian Knight Gauntlets;980200;1600;-1;230100;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600412;Carian Knight Greaves;980300;1600;-1;230110;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600413;Champion Headband;730000;1600;-1;230120;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600414;Champion Pauldron;730100;2000;-1;230130;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600415;Champion Bracers;730200;1600;-1;230140;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600416;Champion Gaiters;730300;1600;-1;230150;99019780;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600417;Crimson Amber Medallion;1000;800;-1;230160;99019780;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600418;Axe Talisman;2130;1000;-1;230170;99019780;1;0;2;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600419;Fire Arrow;50010000;100;-1;230180;99019780;-1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+1600420;Note: Stonedigger Trolls;8703;500;-1;230190;99019780;1;0;3;0;1;0;0;1;-1;8753;-1;-1;-1;0;0
+9000000;Forked Greatsword;3010000;0;900000;400000;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9000001;Iron Greatsword;3020000;0;900001;400010;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9000002;Lordsworn's Greatsword;3030000;0;900002;400020;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9000003;Knight's Greatsword;3040000;0;900003;400030;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9000004;Ordovis's Greatsword;3060000;0;900004;400040;0;1;0;0;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9001000;Omen Helm;970000;0;901000;400000;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9001001;Omen Armor;970100;0;901001;400010;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9001002;Omen Gauntlets;970200;0;901002;400020;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9001003;Omen Greaves;970300;0;901003;400030;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0
+9001004;;970400;0;901004;400040;0;1;0;1;0;1;0;0;1;-1;-1;-1;-1;-1;0;0

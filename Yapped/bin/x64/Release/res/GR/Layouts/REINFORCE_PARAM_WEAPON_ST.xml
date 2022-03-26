@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Damage %: Physical</name>
+    <type>f32</type>
+    <default>1.1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Magic</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Fire</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Lightning</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Stamina</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Poise</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage %: Poise Durability</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Scaling %: STR</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scaling %: DEX</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scaling %: INT</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Scaling %: FTH</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Physical</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Magic</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Fire</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Lightning</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Poison</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Scarlet Rot</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Hemorrhage</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Blight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Stability</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 1 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 1.</description>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 2 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 2.</description>
+  </entry>
+  <entry>
+    <name>Behavior SpEffect 3 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Behavior SpEffect 3.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 1 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 1.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 2 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 2.</description>
+  </entry>
+  <entry>
+    <name>Passive SpEffect 3 Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the SpEffect within the EquipWeaponParam field for Passive SpEffect 3.</description>
+  </entry>
+  <entry>
+    <name>Reinforcement Material Set Offset</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Applies the specified offset value to the Material Set ID used by the EquipWeaponParam.</description>
+  </entry>
+  <entry>
+    <name>Multiplayer Reinforcement Level</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage %: Holy</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Holy</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Scaling %: ARC</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Frostbite</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Undetermined</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Infusion Cost %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Undetermined</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Sleep</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Madness</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Cost %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+</layout>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="SoundType" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="Default" />
+	<item value="2" name="CollisionBased" />
+  </enum>
+  <entry>
+    <name>Radius</name>
+    <type>f32</type>
+    <default>5</default>
+  </entry>
+  <entry>
+    <name>Lifeframe</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Is SpEffect Enabled</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Rate Type</name>
+    <type>u8</type>
+    <default>0</default>
+	<enum>SoundType</enum>
+	<description>AI_SOUND_RATE_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 1</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 2</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 3</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Interest Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Hit Damage Team</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+    <entry>
+    <name>Unk13</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk28</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk29</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk30</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk31</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+
+</layout>

@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="GoodsUseAnim" type="s8">
+    <item value="0" name="0 - Consumable" />
+	<item value="1" name="1 - Apply to Weapon" />
+	<item value="2" name="2 - Quick Throw" />
+	<item value="3" name="3 - Slow Throw" />
+	<item value="4" name="4 - Binoculars" />
+	<item value="5" name="5 - Scatter" />
+	<item value="6" name="6 - Tool Kneel" />
+	<item value="7" name="7 - Prism Stone" />
+	<item value="8" name="8 - Apply to Ground" />
+	<item value="9" name="9 - Crush Consumable" />
+	<item value="10" name="10 - Estus Flask" />
+	<item value="11" name="11 - Dragon Head Stone" />
+	<item value="12" name="12 - Dragon Torso Stone" />
+	<item value="13" name="13 - Pray" />
+	<item value="14" name="14 - Cross Arms and Apply" />
+	<item value="16" name="16 - Quick Apply to Weapon" />
+	<item value="17" name="17 - Throwing Knife" />
+	<item value="18" name="18 - Quick Throw Bottle" />
+	<item value="19" name="19 - Ashen Estus Flask" />
+	<item value="20" name="20 - Throw Backwards" />
+	<item value="21" name="21 - Siegbräu" />
+	<item value="22" name="22 - Transform" />
+	<item value="23" name="23 - Twinkling Dragon Head Stone" />
+	<item value="24" name="24 - Twinkling Dragon Torso Stone" />
+	<item value="25" name="25 - Spear Fragment" />
+	<item value="26" name="26 - Church Guardian Shiv" />
+  </enum>
+  <enum name="OpenMenuType" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="Yes / No" />
+	<item value="4" name="Yes / No (Session)" />
+	<item value="5" name="Unknown" />
+	<item value="6" name="Create Blood Message" />
+	<item value="7" name="Roster Of Knights" />
+	<item value="8" name="Unknown" />
+	<item value="9" name="Ok / Cancel" />
+	<item value="10" name="Invasion" />
+	<item value="11" name="Coiled Sword Fragment" />
+	<item value="12" name="Darksign" />
+  </enum>
+  <enum name="SpEffectCategory" type="u8">
+    <item value="0" name="Default" />
+    <item value="5" name="Weapon" />
+  </enum>
+  <enum name="ReferenceType" type="u8">
+    <item value="0" name="Behavior / None" />
+	<item value="1" name="Bullet" />
+	<item value="2" name="SpEffect" />
+  </enum>
+  <enum name="GoodsType" type="u8">
+    <item value="0" name="Consumable" />
+	<item value="1" name="Key Item" />
+	<item value="2" name="Material" />
+    <item value="5" name="Spell" />
+  </enum>
+  
+  <entry>
+    <name>Ref ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX Variation ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weight</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Base Price</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sell Value</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Replace Item ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Behavior ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>80000</default>
+  </entry>
+  <entry>
+    <name>QWC ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Dialog Message ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Magic ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>s16</type>
+    <default>6</default>
+  </entry>
+  <entry>
+    <name>Model ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Shop Level</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Comp Trophy Sed ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Trophy Seq ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Max Amount</name>
+    <type>s16</type>
+    <default>99</default>
+  </entry>
+  <entry>
+    <name>Consume Hero Point</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Over Dexterity</name>
+    <type>u8</type>
+    <default>50</default>
+  </entry>
+  <entry>
+    <name>Goods Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GoodsType</enum>
+  </entry>
+  <entry>
+    <name>Reference Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>SpEffect Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>SpEffectCategory</enum>
+  </entry>
+  <entry>
+    <name>Goods Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Goods Use Animation</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>GoodsUseAnim</enum>
+  </entry>
+  <entry>
+    <name>Open Menu Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>OpenMenuType</enum>
+  </entry>
+  <entry>
+    <name>Use Limit Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Replace Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Vow Type 0</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 1</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 2</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 3</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 4</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 5</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 6</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 7</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 8</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 9</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 10</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 11</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 12</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 13</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 14</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 15</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Live</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Gray</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable White</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Black</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Multiplayer</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Offline</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Equip</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Consume</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Auto Equip</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Establishment</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Only One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Drop</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Deposit</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Disable Hand</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Travel Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Supple Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Full Supple Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Enhance</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Fix Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Disable Multi Drop Share</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Disable Use At Colliseum</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Disable Use Out of Colliseum</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Use Bullet Max Num</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Use Hp Cure Max Num</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Auto Replenish</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Can Multi Use</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Guest Drop</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Enchant Left Hand</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Apply Special Effect</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Ref ID - Offhand</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reinforce Param Weapon ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Vagrant Item Lot ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Vagrant (Enemy) Item Lot ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Vagrant (Enemy) Item Lot ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Use VFX 1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use VFX 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use VFX 3</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Ember Stays Active</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Get Play Region Info</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Using Ladder</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Enable On Session Creation</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Use Selected</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Enchant Left</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Always Valid</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Net Penalized</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Supple Item Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Enable Scaleform</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Can Drop</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Max Rep Number</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Invade Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  <entry>
+    <name>Shop Price</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>FP Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Limit Category 2</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>pad2</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+</layout>

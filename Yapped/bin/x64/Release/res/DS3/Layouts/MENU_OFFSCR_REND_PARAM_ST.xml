@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Menu Offset - Screen Value 0</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 1</name>
+    <type>f32</type>
+    <default>0.85</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 2</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 3</name>
+    <type>f32</type>
+    <default>2.66</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 4</name>
+    <type>f32</type>
+    <default>1.719</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 5</name>
+    <type>f32</type>
+    <default>-14.85</default>
+  </entry>
+  <entry>
+    <name>Menu Offset - Screen Value 6</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+  <entry>
+    <name>Screen Render ID</name>
+    <type>s32</type>
+    <default>11</default>
+  </entry>
+  <entry>
+    <name>pad2</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+</layout>

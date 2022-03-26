@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="WeaponMovesetCategory" type="u8">
+    <item value="0" name="0 None" />
+    <item value="20" name="20 Dagger" />
+    <item value="23" name="23 - Straight Sword" />
+    <item value="25" name="25 - Greatsword" />
+    <item value="26" name="26 - Ultra Greatsword" />
+    <item value="27" name="27 - Thrusting Sword" />
+    <item value="28" name="28 - Curved Sword" />
+    <item value="29" name="29 - Katana" />
+    <item value="30" name="30 - Axe" />
+    <item value="32" name="32 - Greataxe" />
+    <item value="33" name="33 - Hammer" />
+    <item value="35" name="35 - Great Hammer" />
+    <item value="36" name="36 - Spear" />
+    <item value="38" name="38 - Halberd" />
+    <item value="41" name="41 - Spell Tool" />
+    <item value="42" name="42 - Fist" />
+    <item value="43" name="43 - Whip/Claw" />
+    <item value="44" name="44 - Bow" />
+    <item value="45" name="45 - Greatbow" />
+    <item value="46" name="46 - Crossbow" />
+    <item value="47" name="47 - Greatshield" />
+    <item value="48" name="48 - Shield" />
+    <item value="49" name="49 - Torch" />
+    <item value="50" name="50 - Great Scythe" />
+    <item value="51" name="51 - Curved Greatsword" />
+  </enum>
+  <enum name="GuardMovesetCategory" type="u8">
+    <item value="0" name="0 - Shield" />
+    <item value="1" name="1 - Greatshield" />
+    <item value="2" name="2 - Weapon" />
+  </enum>
+  <enum name="MovesetAttribute" type="u8">
+    <item value="0" name="0 - None" />
+	<item value="1" name="1 - Physical" />
+	<item value="2" name="2 - Fire" />
+    <item value="3" name="3 - Magic" />
+    <item value="4" name="4 - Poison/Bleed" />
+    <item value="6" name="6 - Lightning" />
+    <item value="7" name="7 - Petrify" />
+    <item value="8" name="8 - Crystallize" />
+    <item value="9" name="9 - Dark" />
+  </enum>
+  <enum name="WeaponCategory" type="u8">
+    <item value="0" name="0 - Dagger" />
+    <item value="1" name="1 - Straight Sword / Greatsword / Ultra Greatsword / Whip" />
+    <item value="2" name="2 - Thrusting Sword" />
+    <item value="3" name="3 - Curved Sword / Curved Greatsword" />
+    <item value="4" name="4 - Axe" />
+    <item value="5" name="5 - Hammer" />
+    <item value="6" name="6 - Spear" />
+    <item value="7" name="7 - Halberd / Reaper" />
+    <item value="8" name="8 - Spell Tool" />
+    <item value="9" name="9 - Fist" />
+    <item value="10" name="10 - Bow / Greatbow" />
+    <item value="11" name="11 - Crossbow" />
+    <item value="12" name="12 - Shield / Torch" />
+    <item value="13" name="13 - Arrow" />
+    <item value="14" name="14 - Bolt" />
+  </enum>
+  <enum name="WeaponHoldPosition" type="u8">
+    <item value="0" name="0 - Idle Hold: 1H Hip" />
+    <item value="1" name="1 - Idle Hold: 1H Hip (Quick)" />
+	<item value="2" name="2 - Idle Hold: 1H Shoulder" />
+    <item value="3" name="3 - Idle Hold: 1H Spear" />
+    <item value="10" name="10 - Idle Hold: 2H Front" />
+    <item value="12" name="12 - Idle Hold: 2H Shoulder" />
+    <item value="13" name="13 - Idle Hold: 2H Spear" />
+    <item value="14" name="14 - Idle Hold: 2H Bow" />
+    <item value="15" name="15 - Idle Hold: 2H Shield" />
+    <item value="16" name="16 - Idle Hold: 2H Crossbow" />
+    <item value="17" name="17 - Idle Hold: 2H Cannon" />
+  </enum>
+  <enum name="DisplayType" type="s16">
+    <item value="1" name="Dagger" />
+    <item value="3" name="Straight Sword" />
+    <item value="5" name="Greatsword" />
+    <item value="7" name="Ultra Greatsword" />
+    <item value="15" name="Thrusting Sword" />
+    <item value="9" name="Curved Sword" />
+    <item value="13" name="Katana" />
+    <item value="11" name="Curved Greatsword" />
+    <item value="17" name="Axe" />
+    <item value="19" name="Greataxe" />
+    <item value="21" name="Hammer" />
+    <item value="23" name="Great Hammer" />
+    <item value="25" name="Spear" />
+    <item value="27" name="Lance" />
+    <item value="29" name="Halberd" />
+    <item value="31" name="Scythe" />
+    <item value="37" name="Paired Fist" />
+    <item value="57" name="Staff" />
+    <item value="61" name="Talisman" />
+    <item value="63" name="Chime" />
+    <item value="59" name="Pyromancy Flame" />
+    <item value="39" name="Whip" />
+    <item value="51" name="Bow" />
+    <item value="53" name="Greatbow" />
+    <item value="55" name="Crossbow" />
+    <item value="33" name="Fist" />
+    <item value="65" name="Small Shield" />
+    <item value="67" name="Medium Shield" />
+    <item value="69" name="Greatshield" />
+    <item value="81" name="Arrow" />
+    <item value="83" name="Greatarrow" />
+    <item value="85" name="Bolt" />
+    <item value="87" name="Torch" />
+    <item value="101" name="Paired Dagger" />
+    <item value="103" name="Paired Straight Sword" />
+    <item value="107" name="Paired Curved Sword" />
+    <item value="109" name="Paired Katana" />
+    <item value="111" name="Paired Axe" />
+    <item value="113" name="Paired Hammer" />
+    <item value="115" name="Paired Spear" />
+    <item value="116" name="Paired Sword and Shield" />
+    <item value="119" name="Paired Thrusting Sword" />
+    <item value="131" name="Paired Greatshield" />
+    <item value="133" name="Paired Ultra Greatsword" />
+  </enum>
+  <entry>
+    <name>Behavior Variation ID</name>
+    <type>s32</type>
+    <default>4200</default>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>220300</default>
+  </entry>
+  <entry>
+    <name>Wandering Equip ID</name>
+    <type>s32</type>
+    <default>933200</default>
+  </entry>
+  <entry>
+    <name>Weight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Weapon Weight %</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Repair Price</name>
+    <type>s32</type>
+    <default>500</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Price</name>
+    <type>s32</type>
+    <default>250</default>
+  </entry>
+  <entry>
+    <name>Sell Price</name>
+    <type>s32</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Scaling: STR</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scaling: DEX</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scaling: INT</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scaling: FTH</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Absorption: Physical</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Absorption: Magic</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Absorption: Fire</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Absorption: Lightning</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Behavior 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Behavior 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Behavior 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Effect 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Material Set ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 4</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 5</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 6</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 7</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 8</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 9</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 10</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 11</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 12</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 13</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 14</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Origin Weapon 15</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Anti-Demon %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Anti-Undead %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Anti-Hollow %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Anti-Abyss %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Vagrant Item ID</name>
+    <type>s32</type>
+    <default>100700</default>
+  </entry>
+  <entry>
+    <name>Vagrant Item ID 2</name>
+    <type>s32</type>
+    <default>100710</default>
+  </entry>
+  <entry>
+    <name>Vagrant Item ID 3</name>
+    <type>s32</type>
+    <default>100720</default>
+  </entry>
+  <entry>
+    <name>Equip Model ID</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Durability</name>
+    <type>s16</type>
+    <default>60</default>
+  </entry>
+  <entry>
+    <name>Max Durability</name>
+    <type>s16</type>
+    <default>60</default>
+  </entry>
+  <entry>
+    <name>Attack Throw Escape</name>
+    <type>s16</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Parry Damage Life</name>
+    <type>s16</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>Damage: Physical</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Damage: Magic</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Fire</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Lightning</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Damage: Stamina</name>
+    <type>s16</type>
+    <default>30</default>
+  </entry>
+  <entry>
+    <name>Damage: Poise</name>
+    <type>s16</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Poise Durability</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Angle</name>
+    <type>s16</type>
+    <default>60</default>
+  </entry>
+  <entry>
+    <name>Stability</name>
+    <type>s16</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>Reinforce Type ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Trophy S-Grade ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Trophy Seq ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Critical</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bow Distance</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Equip Model Category</name>
+    <type>u8</type>
+    <default>7</default>
+    <description>7 - Default</description>
+  </entry>
+  <entry>
+    <name>Equip Model Gender</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weapon Category</name>
+    <type>u8</type>
+    <default>9</default>
+    <enum>WeaponCategory</enum>
+  </entry>
+  <entry>
+    <name>Weapon Moveset Category</name>
+    <type>u8</type>
+    <default>42</default>
+  </entry>
+  <entry>
+    <name>Guard Moveset Category</name>
+    <type>u8</type>
+    <default>2</default>
+    <enum>GuardMovesetCategory</enum>
+  </entry>
+  <entry>
+    <name>Attack Material</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Defence Material</name>
+    <type>u8</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Defence SFX Material</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Physical</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Moveset Attribute</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>MovesetAttribute</enum>
+  </entry>
+  <entry>
+    <name>Moveset Override Category</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weapon Hold Position - 1H</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WeaponHoldPosition</enum>
+  </entry>
+  <entry>
+    <name>Weapon Hold Position - 2H</name>
+    <type>u8</type>
+    <default>10</default>
+    <enum>WeaponHoldPosition</enum>
+  </entry>
+  <entry>
+    <name>Requirement: STR</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Requirement: DEX</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Requirement: INT</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Requirement: FTH</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>overStrength</name>
+    <type>u8</type>
+    <default>99</default>
+  </entry>
+  <entry>
+    <name>Base Parry Attack</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Base Parry Defense</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Base Guard Repel</name>
+    <type>u8</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>Base Attack Repel</name>
+    <type>u8</type>
+    <default>22</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction %</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Level</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction %: Slash</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction %: Strike</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction %: Thrust</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Poison</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Toxic</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Bleed</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Curse</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Durability Divergence</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Right Hand Usable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Left Hand Usable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is 2H Usable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Arrow Slot Usable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Bolt Slot Usable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Guard Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Parry Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sorcery Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Pyromancy Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Miracles Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Vow Magic Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Type Display: Normal</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Type Display: Strike</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Type Display: Slash</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Type Display: Thrust</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Buffable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Luck Scaling</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Reinforcable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Base Change Reset Disable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Repair Disabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Dark Hand</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Simple Model for DLC</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Lantern</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Anti-Ghost</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Infusion Flag 1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Infusion Flag 2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Infusion Flag 3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Infusion Flag 4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Greatarrow</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Storable in Bonfire</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Droppable in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Discardable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Droppable</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Bool3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool5</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool6</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Bool7</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>u8</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>UnkState1</name>
+    <type>u8</type>
+    <default>2</default>
+  </entry>
+  <entry>
+    <name>UnkState2</name>
+    <type>u8</type>
+    <default>2</default>
+  </entry>
+  <entry>
+    <name>UnkState3</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>UnkState4</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 0</name>
+    <type>s32</type>
+    <default>401000</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 0 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>300</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 0 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 1 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 2 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 3 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 4 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 5 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 6 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7 - Dummy Poly ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hit VFX 7 - Dummy Poly ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Material Value 0</name>
+    <type>s16</type>
+    <default>139</default>
+  </entry>
+  <entry>
+    <name>Material Value 1</name>
+    <type>s16</type>
+    <default>139</default>
+  </entry>
+  <entry>
+    <name>Weapon Sheath Position ID</name>
+    <type>s32</type>
+    <default>1042</default>
+  </entry>
+  <entry>
+    <name>Poise Health Multiplier</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Dual Weapon</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Auto Equip</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk19</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk20</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Magic</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Fire</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Lightning</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption: Dark</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Damage: Dark</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Correction Type: Dark</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Throw Escape A</name>
+    <type>u8</type>
+    <default>7</default>
+  </entry>
+  <entry>
+    <name>Weapon Art Anim ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Throw Escape B</name>
+    <type>u8</type>
+    <default>7</default>
+  </entry>
+  <entry>
+    <name>Damage Penalty</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Reduction +: Frostbite</name>
+    <type>u8</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>Menu Adhoc</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weapon Art ID</name>
+    <type>s32</type>
+    <default>1703</default>
+  </entry>
+  <entry>
+    <name>Scaling: LCK</name>
+    <type>f32</type>
+    <default>20</default>
+  </entry>
+  <entry>
+    <name>Reinforce Weapon ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk34</name>
+    <type>s16</type>
+    <default>1280</default>
+  </entry>
+  <entry>
+    <name>Display Type ID</name>
+    <type>s16</type>
+    <default>35</default>
+  </entry>
+  <entry>
+    <name>Correction Value 0</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 1</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 2</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 3</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 4</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 5</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 6</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 7</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 8</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 9</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>Correction Value 10</name>
+    <type>f32</type>
+    <default>5</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 1 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 2 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 3 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Weapon VFX 4 Position</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Stamina Usage %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk48</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk49</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk50</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk51</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk52</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk53</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk54</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Unk55</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Menu - Strength</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu - Dexterity</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu - Intelligence</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu - Faith</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu - Removed Stat</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Attack Element Correct ID</name>
+    <type>s32</type>
+    <default>10000</default>
+  </entry>
+  <entry>
+    <name>Purchase Price</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Reinforcement Menu Type</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Max Num</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sheath Weapon Enable 4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 1</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 2</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weapon Absorption Position 4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>TAE Sound Event - Sound Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Infusion Price</name>
+    <type>s32</type>
+    <default>450</default>
+  </entry>
+  <entry>
+    <name>Multiplayer Weapon Adjustment</name>
+    <type>s16</type>
+    <default>310</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>38</size>
+  </entry>
+</layout>

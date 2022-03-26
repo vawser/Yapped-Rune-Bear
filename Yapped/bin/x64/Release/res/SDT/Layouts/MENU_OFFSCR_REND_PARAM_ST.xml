@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>MenuContent0 Y</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>MenuContent0 X</name>
+    <type>f32</type>
+    <default>0.85</default>
+  </entry>
+  <entry>
+    <name>MenuContent0 Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>MenuContent1 Y</name>
+    <type>f32</type>
+    <default>2.66</default>
+  </entry>
+  <entry>
+    <name>MenuContent1 X</name>
+    <type>f32</type>
+    <default>1.719</default>
+  </entry>
+  <entry>
+    <name>MenuContent1 Reverse X</name>
+    <type>f32</type>
+    <default>-14.85</default>
+  </entry>
+  <entry>
+    <name>MenuContent1 Distance</name>
+    <type>f32</type>
+    <default>15</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+  <entry>
+    <name>screenRendId</name>
+    <type>s32</type>
+    <default>11</default>
+  </entry>
+  <entry>
+    <name>pad2</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+</layout>

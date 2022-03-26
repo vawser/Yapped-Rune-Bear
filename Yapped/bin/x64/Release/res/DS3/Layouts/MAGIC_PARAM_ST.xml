@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="MagicSchoolType" type="u8">
+    <item value="0" name="Sorcery" />
+	<item value="1" name="Miracle" />
+	<item value="2" name="Pyromancy" />
+    <item value="3" name="Hexes" />
+  </enum>
+  <enum name="CastAnimation" type="u8">
+    <item value="0" name="0 - Quick Soul Arrow [0.5]" />
+	<item value="1" name="1 - Magic Weapon [1.0]" />
+	<item value="2" name="2 - Hidden Body [1.0]" />
+    <item value="3" name="3 - Unused" />
+    <item value="4" name="4 - Unused" />
+    <item value="5" name="5 - Fireball [1.0]" />
+    <item value="6" name="6 - Iron Flesh [1.5]" />
+    <item value="7" name="7 - Unused" />
+    <item value="8" name="8 - Great Combustion [0.5]" />
+    <item value="9" name="9 - Poison Mist [1.33]" />
+    <item value="10" name="10 - Firestorm [1.67]" />
+    <item value="11" name="11 - Rapport [1.33]" />
+    <item value="12" name="12 - Force [0.33]" />
+    <item value="13" name="13 - Chameleon [1.0]" />
+    <item value="14" name="14 - Unused" />
+    <item value="15" name="15 - Unused" />
+    <item value="16" name="16 - Unused" />
+    <item value="17" name="17 - Magic Shield [1.17]" />
+    <item value="18" name="18 - Emit Force [1.33]" />
+    <item value="19" name="19 - Lightning Spear [0.43]" />
+    <item value="20" name="20 - Cast Light [1.33]" />
+    <item value="21" name="21 - Unused" />
+    <item value="22" name="22 - Very Slow Soul Arrow [1.67]" />
+    <item value="23" name="23 - Fire Surge [0.67]" />
+    <item value="24" name="24 - Fire Whip [0.67]" />
+    <item value="25" name="25 - Soul Greatsword [0.67]" />
+    <item value="26" name="26 - Heal [1.83] (3.66)" />
+    <item value="27" name="27 - Heal Aid [0.73]" />
+    <item value="28" name="28 - Sacred Oath [1.83]" />
+    <item value="29" name="29 - Farron Dart [0.4]" />
+    <item value="30" name="30 - Farron Flashsword [0.67]" />
+    <item value="31" name="31 - Soul Stream [2.83]" />
+    <item value="32" name="32 - Profaned Flame [1.0]" />
+    <item value="33" name="33 - Sacred Flame [1.83]" />
+    <item value="34" name="34 - Lightning Stake [1.0]" />
+    <item value="35" name="35 - Gnaw [1.67]" />
+    <item value="36" name="36 - Lightning Storm [1.67]" />
+    <item value="37" name="37 - Dark Edge [0.67]" />
+    <item value="38" name="38 - Warmth [1.33]" />
+    <item value="39" name="39 - Wrath of the Gods [1.63]" />
+    <item value="40" name="40 - Farron Hail [1.57]" />
+    <item value="41" name="41 - Slow Soul Arrow [1.67]" />
+    <item value="42" name="42 - Black Serpent [1.0]" />
+    <item value="43" name="43 - Chaos Bed Vestiges [0.97]" />
+    <item value="44" name="44 - Lifehunt Scythe [1.17]" />
+    <item value="45" name="45 - Divine Pillars of Light [1.67]" />
+    <item value="46" name="46 - Old Moonlight [0.67]" />
+    <item value="47" name="47 - Floating Chaos [1.33]" />
+    <item value="48" name="48 - Way of White Corona [0.43]" />
+    <item value="49" name="49 - Lightning Arrow [1.83]"/>
+    <item value="50" name="50 - Flame Fan [0.5]" />
+  </enum>
+  <enum name="ReferenceType" type="u8">
+    <item value="0" name="Behavior" />
+	<item value="1" name="Bullet" />
+	<item value="2" name="SpEffect" />
+  </enum>
+  <enum name="AttributeType" type="u8">
+    <item value="0" name="Strength" />
+	<item value="1" name="Dexterity" />
+	<item value="2" name="Faith" />
+    <item value="3" name="Intelligence" />
+  </enum>
+  <entry>
+    <name>Message ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Limit Cancel Effect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Reference ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 1: FP Cost</name>
+    <type>s16</type>
+    <default>20</default>
+  </entry>
+  <entry>
+    <name>Ref 1: Stamina Cost</name>
+    <type>s16</type>
+    <default>30</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>s16</type>
+    <default>4130</default>
+  </entry>
+  <entry>
+    <name>Behavior ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Item ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Replace Magic ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Number of Uses</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Hero Point</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Over Dexterity</name>
+    <type>u8</type>
+    <default>99</default>
+  </entry>
+  <entry>
+    <name>SFX Variation ID</name>
+    <type>u8</type>
+    <default>6</default>
+  </entry>
+  <entry>
+    <name>Slot Usage</name>
+    <type>u8</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Requirement: INT</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Requirement: FTH</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>DEX Casting Speed Min</name>
+    <type>u8</type>
+    <default>10</default>
+  </entry>
+  <entry>
+    <name>DEX Casting Speed Max</name>
+    <type>u8</type>
+    <default>50</default>
+  </entry>
+  <entry>
+    <name>Magic School Type</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>MagicSchoolType</enum>
+  </entry>
+  <entry>
+    <name>Ref 1: Category</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>Effect Category</name>
+    <type>u8</type>
+    <default>4</default>
+  </entry>
+  <entry>
+    <name>Animation Category</name>
+    <type>u8</type>
+    <default>26</default>
+    <enum>CastAnimation</enum>
+  </entry>
+  <entry>
+    <name>Menu Type</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 4: Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>Has Effect Type</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable Spell Enhance</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable Spell Enhance</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk3</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk5</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk6</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk11</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk12</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk13</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type 0</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 1</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 2</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 3</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 4</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 5</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 6</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 7</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Vow Type 8</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Multiplayer Only</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Enchant</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Shield Enchant</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable Live</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Gray</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable White</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Enable Black</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Unk7</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk8</name>
+    <type>u8</type>
+    <default>255</default>
+  </entry>
+  <entry>
+    <name>Cast SFX 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Cast SFX 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Cast SFX 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Unk9</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Attribute Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AttributeType</enum>
+  </entry>
+  <entry>
+    <name>Attribute Value 0</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Attribute Value 1</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Attribute Value 2</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Attribute Value 3</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Ref 2: Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>Ref 4: Stamina Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Magic ID 0</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic ID 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic ID 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Ref 2: FP Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 2: Stamina Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk10</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 3: Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>ReferenceType</enum>
+  </entry>
+  <entry>
+    <name>Ref 4: FP Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 3: FP Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref 3: Stamina Cost</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ref ID 1</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Ref ID 2</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Ref ID 3</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Ref ID 4</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>12</size>
+  </entry>
+</layout>

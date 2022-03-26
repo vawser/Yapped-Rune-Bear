@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>VFX 0 - Time</name>
+    <type>f32</type>
+    <default>500</default>
+  </entry>
+  <entry>
+    <name>VFX 1 - Time</name>
+    <type>f32</type>
+    <default>500</default>
+  </entry>
+  <entry>
+    <name>VFX 2 - Time</name>
+    <type>f32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 0 - Init</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 0 - Main</name>
+    <type>s32</type>
+    <default>430041</default>
+  </entry>
+  <entry>
+    <name>VFX 0 - Sub</name>
+    <type>s32</type>
+    <default>430042</default>
+  </entry>
+  <entry>
+    <name>VFX 1 - Init</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 1 - Main</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 1 - Sub</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 2 - Init</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 2 - Main</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>VFX 2 - Sub</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>pad1</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+</layout>

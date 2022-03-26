@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <enum name="ItemCategory" type="x32">
+    <item value="0xFFFFFFFF" name="None" />
+	<item value="0x00000000" name="None" />
+	<item value="0x00000001" name="Good" />
+	<item value="0x00000002" name="Weapon" />
+	<item value="0x00000003" name="Armor" />
+	<item value="0x00000004" name="Accessory" />
+  </enum>
+  <entry>
+    <name>Loadscreen Category ID</name>
+    <type>x32</type>
+    <default>0x00000000</default>
+    <enum>ItemCategory</enum>
+  </entry>
+  <entry>
+    <name>Knowledge ID</name>
+    <type>s32</type>
+    <default>23000000</default>
+  </entry>
+    <entry>
+    <name>Unk1</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+
+</layout>

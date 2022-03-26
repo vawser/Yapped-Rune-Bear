@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <entry>
+    <name>Physical Scaling: STR</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Physical Scaling: DEX</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Physical Scaling: INT</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Physical Scaling: FTH</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Physical Scaling: ARC</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Magic Scaling: STR</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Magic Scaling: DEX</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Magic Scaling: INT</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Magic Scaling: FTH</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Magic Scaling: ARC</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Fire Scaling: STR</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Fire Scaling: DEX</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Fire Scaling: INT</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Fire Scaling: FTH</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Fire Scaling: ARC</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Lightning Scaling: STR</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Lightning Scaling: DEX</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Lightning Scaling: INT</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Lightning Scaling: FTH</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Lightning Scaling: ARC</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Holy Scaling: STR</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Holy Scaling: DEX</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Holy Scaling: INT</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Holy Scaling: FTH</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Holy Scaling: ARC</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Physical Add Rate: STR</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Physical Add Rate: DEX</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Physical Add Rate: INT</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Physical Add Rate: FTH</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Physical Add Rate: ARC</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic Add Rate: STR</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic Add Rate: DEX</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic Add Rate: INT</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic Add Rate: FTH</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Magic Add Rate: ARC</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Fire Add Rate: STR</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Fire Add Rate: DEX</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Fire Add Rate: INT</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Fire Add Rate: FTH</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Fire Add Rate: ARC</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Lightning Add Rate: STR</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Lightning Add Rate: DEX</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Lightning Add Rate: INT</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Lightning Add Rate: FTH</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Lightning Add Rate: ARC</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Holy Add Rate: STR</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Holy Add Rate: DEX</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Holy Add Rate: INT</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Holy Add Rate: FTH</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Holy Add Rate: ARC</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Physical Correction: STR</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Physical Correction: DEX</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Physical Correction: INT</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Physical Correction: FTH</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Physical Correction: ARC</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Magic Correction: STR</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Magic Correction: DEX</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Magic Correction: INT</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Magic Correction: FTH</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Magic Correction: ARC</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Fire Correction: STR</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Fire Correction: DEX</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Fire Correction: INT</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Fire Correction: FTH</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Fire Correction: ARC</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Lightning Correction: STR</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Lightning Correction: DEX</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Lightning Correction: INT</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Lightning Correction: FTH</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Lightning Correction: ARC</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Holy Correction: STR</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Holy Correction: DEX</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Holy Correction: INT</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Holy Correction: FTH</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  <entry>
+    <name>Holy Correction: ARC</name>
+    <type>s16</type>
+    <default>100</default>
+  </entry>
+  
+  <!-- Verified zero -->
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>24</size>
+  </entry>
+
+</layout>
