@@ -7,7 +7,7 @@ Requires .NET 4.7.2 - Windows 10 users should already have this.
 Thanks to TKGP for the [original version](https://github.com/JKAnderson/Yapped).
 
 # Files
-If you are only interested in Yapped for modding, you only need to extract the contents of Yapped/bin/x64/Debug/, everything else is not needed.
+If you are only interested in Yapped for modding, you only need to extract the contents of Yapped/bin/x64/Release/, everything else is not needed.
 
 # Warning
 As far as we know, in Elden Ring any edits to the regulation file (where params are stored) will trigger anticheat, including simply opening it and resaving it.
