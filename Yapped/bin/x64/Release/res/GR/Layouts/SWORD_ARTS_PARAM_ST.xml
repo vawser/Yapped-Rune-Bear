@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="UsagePriority" type="u8">
+    <item value="0" name="0 - Shield (Override Right-hand)" />
+	<item value="2" name="2 - Ranged Weapon (Override Right-hand, Force 2H" />
+    <item value="3" name="3 - Weapon (Override Left-hand)" />
+    <item value="12" name="12 - Torch" />
+  </enum>
   <entry>
     <name>Act Type 0</name>
     <type>u8</type>
@@ -16,17 +22,33 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk1</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>Unknown</name>
-    <type>s32</type>
+    <name>Index</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk2</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk4</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Usage Priority</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>UsagePriority</enum>
+  </entry>
+  <entry>
+    <name>Unk6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -36,12 +58,12 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk7</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
+    <name>Unk8</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -71,27 +93,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>u8</type>
+    <name>Unk9</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>u8</type>
+    <name>Unk10</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SpEffect Set ID</name>
+    <name>Unk11</name>
     <type>s32</type>
     <default>0</default>
   </entry>

@@ -18,6 +18,8 @@
 107 Grace - Remove Madness
 108 Grace - Remove Sleep
 109 Grace - Remove Blight
+117 Unknown - Remove Madness
+118 Unknown - Remove Sleep
 125 Torrent
 126 Torrent
 415 Torch Effect
@@ -48,6 +50,12 @@
 534 Small Golden Effigy - Send Summon Sign to Summoning Pool
 535 Small Red Effigy - Send Invasion Sign to Summoning Pool
 536 Phantom Bloody/Recusant Finger - Attempt Invasion
+600 Godrick's Great Rune
+610 Radahn's Great Rune
+620 Morgott's Great Rune
+630 Rykard's Great Rune
+640 Mohg's Great Rune
+650 Malenia's Great Rune
 829 Unknown - Frostbite
 860 Gargoyle's Blackblade - Bullet
 870 Reduvia - Hemorrhage
@@ -68,6 +76,9 @@
 1768 Commander's Standard - Bullet
 1769 Commander's Standard [Cycle]
 1770 Commander's Standard [Cycle]
+1780 Unknown - Madness
+1781 Unknown - Madness
+1782 Unknown - Madness
 1789 Eclipse Shotel - Bullet
 1800 Unknown - Frostbite
 1801 Unknown - Frostbite
@@ -2698,6 +2709,7 @@
 361000 Entwining Umbilical Cord
 361100 Ancestral Spirit's Horn
 361101 Ancestral Spirit's Horn [Kill]
+500030 Rykard's Great Rune [Kill]
 500135 Phantom Great Rune
 500136 Phantom Great Rune
 500137 Phantom Great Rune [Kill]
@@ -3094,3 +3106,7 @@
 9200060 Fang of Madhros
 9200070 Horn of Cernulos
 9200080 Tear of Miriel
+9299999 ### Items ###
+9300000 Bloodied Flesh
+9300010 Sorcerous Flesh
+9300020 Hallowed Flesh
