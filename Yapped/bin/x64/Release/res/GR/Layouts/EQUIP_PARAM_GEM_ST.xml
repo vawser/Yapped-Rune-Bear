@@ -13,47 +13,6 @@
     <item value="140" name="140 - Shield" />
     <item value="255" name="255 - None" />
   </enum>
-  <enum name="BaseAffinitySet" type="s32">
-    <item value="0" name="0 - Standarrd" />
-	<item value="2047" name="2047 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
-	<item value="65537" name="65537 - Standard" />
-    <item value="65599" name="65599 - Standard" />
-    <item value="65743" name="65743 - Standard/Lightning/Sacred" />
-    <item value="66111" name="66111 - Standard/Cold" />
-    <item value="66127" name="66127 - Standard/Lightning/Cold" />
-    <item value="66319" name="66319 - Standard/Magic/Cold" />
-    <item value="66560" name="66560 - Standard/Poison" />
-    <item value="66063" name="66063 - Standard/Cold" />
-    <item value="67583" name="67583 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
-    <item value="70287" name="70287 - Standard/Sacred/Cold/Occult" />
-    <item value="72719" name="72719 - Standard/Poison/Blood/Occult" />
-    <item value="73727" name="73727 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-    <item value="131073" name="131073 - Standard" />
-    <item value="131135" name="131135 - Standard" />
-    <item value="131279" name="131279 - Standard/Lightning/Sacred" />
-    <item value="131855" name="131855 - Standard/Magic/Cold" />
-    <item value="138255" name="138255 - Standard/Poison/Blood/Occult" />
-    <item value="139263" name="139263 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-    <item value="197391" name="197391 - Standard/Magic/Cold" />
-    <item value="204799" name="204799 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-  </enum>
-  <enum name="AdditionalAffinity" type="s32">
-    <item value="0" name="0 - None" />
-    <item value="98" name="98 - Standard" />
-	<item value="103" name="103 - Standard" />
-	<item value="359" name="359 - Heavy" />
-	<item value="615" name="615 - Keen" />
-	<item value="871" name="871 - Quality" />
-	<item value="1127" name="1127 - Fire" />
-	<item value="1383" name="1383 - Flame Art" />
-	<item value="1639" name="1639 - Lightning" />
-	<item value="1895" name="1895 - Sacred" />
-	<item value="2151" name="2151 - Magic" />
-	<item value="2407" name="2407 - Cold" />
-	<item value="2663" name="2663 - Poison" />
-	<item value="2919" name="2919 - Blood" />
-	<item value="3175" name="3175 - Occult" />
-  </enum>
   <entry>
     <name>Unk0</name>
     <type>s32</type>
@@ -76,6 +35,11 @@
     <enum>DisplayCategoryID</enum>
   </entry>
   <entry>
+    <name>Unk2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Unk3</name>
     <type>s32</type>
     <default>0</default>
@@ -91,12 +55,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Sword Arts ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sword Arts ID</name>
+    <name>Unk6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -111,33 +75,124 @@
     <default>0</default>
   </entry>
   <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
     <name>Unk9</name>
     <type>s32</type>
     <default>0</default>
   </entry>
+    <entry>
+    <name>Affinity: Standard</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Heavy</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Keen</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Quality</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Fire</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Flame Art</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Lightning</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Sacred</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Magic</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Cold</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Poison</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Blood</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Occult</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
   <entry>
     <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>b16</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Unk11</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>b16</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Base Affinity Set</name>
-    <type>s32</type>
-    <default>0</default>
-    <enum>BaseAffinitySet</enum>
-    <description>Probably set of booleans, but this is easier for now.</description>
+    <name>Unk12</name>
+    <type>b16</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Additional Affinity</name>
-    <type>s32</type>
+    <name>Unk13</name>
+    <type>b16</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk14</name>
+    <type>b16</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk15</name>
+    <type>b16</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk16</name>
+    <type>b16</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk17</name>
+    <type>b16</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk18</name>
+    <type>s16</type>
     <default>0</default>
-    <enum>AdditionalAffinity</enum>
-    <description>Probably set of booleans, but this is easier for now.</description>
   </entry>
   <entry>
     <name>Available: Dagger</name>
@@ -320,47 +375,47 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk94</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk95</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk96</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk97</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
     <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
+    <type>b32</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Unk20</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk21</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk22</name>
+    <type>b32</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unk23</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk24</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk25</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk26</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unk27</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -369,15 +424,10 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
 </layout>
