@@ -126,287 +126,287 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk26</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk27</name>
+    <name></name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Physical Add Rate: STR</name>
+    <name>Physical Replacement Scaling: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Physical Add Rate: DEX</name>
+    <name>Physical Replacement Scaling: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Physical Add Rate: INT</name>
+    <name>Physical Replacement Scaling: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Physical Add Rate: FTH</name>
+    <name>Physical Replacement Scaling: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Physical Add Rate: ARC</name>
+    <name>Physical Replacement Scaling: ARC</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic Add Rate: STR</name>
+    <name>Magic Replacement Scaling: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic Add Rate: DEX</name>
+    <name>Magic Replacement Scaling: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic Add Rate: INT</name>
+    <name>Magic Replacement Scaling: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic Add Rate: FTH</name>
+    <name>Magic Replacement Scaling: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic Add Rate: ARC</name>
+    <name>Magic Replacement Scaling: ARC</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Fire Add Rate: STR</name>
+    <name>Fire Replacement Scaling: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Fire Add Rate: DEX</name>
+    <name>Fire Replacement Scaling: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Fire Add Rate: INT</name>
+    <name>Fire Replacement Scaling: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Fire Add Rate: FTH</name>
+    <name>Fire Replacement Scaling: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Fire Add Rate: ARC</name>
+    <name>Fire Replacement Scaling: ARC</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lightning Add Rate: STR</name>
+    <name>Lightning Replacement Scaling: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lightning Add Rate: DEX</name>
+    <name>Lightning Replacement Scaling: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lightning Add Rate: INT</name>
+    <name>Lightning Replacement Scaling: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lightning Add Rate: FTH</name>
+    <name>Lightning Replacement Scaling: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Lightning Add Rate: ARC</name>
+    <name>Lightning Replacement Scaling: ARC</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Holy Add Rate: STR</name>
+    <name>Holy Replacement Scaling: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Holy Add Rate: DEX</name>
+    <name>Holy Replacement Scaling: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Holy Add Rate: INT</name>
+    <name>Holy Replacement Scaling: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Holy Add Rate: FTH</name>
+    <name>Holy Replacement Scaling: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Holy Add Rate: ARC</name>
+    <name>Holy Replacement Scaling: ARC</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Physical Correction: STR</name>
+    <name>Physical Correction Ratio: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Physical Correction: DEX</name>
+    <name>Physical Correction Ratio: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Physical Correction: INT</name>
+    <name>Physical Correction Ratio: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Physical Correction: FTH</name>
+    <name>Physical Correction Ratio: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Physical Correction: ARC</name>
+    <name>Physical Correction Ratio: ARC</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Magic Correction: STR</name>
+    <name>Magic Correction Ratio: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Magic Correction: DEX</name>
+    <name>Magic Correction Ratio: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Magic Correction: INT</name>
+    <name>Magic Correction Ratio: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Magic Correction: FTH</name>
+    <name>Magic Correction Ratio: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Magic Correction: ARC</name>
+    <name>Magic Correction Ratio: ARC</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Fire Correction: STR</name>
+    <name>Fire Correction Ratio: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Fire Correction: DEX</name>
+    <name>Fire Correction Ratio: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Fire Correction: INT</name>
+    <name>Fire Correction Ratio: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Fire Correction: FTH</name>
+    <name>Fire Correction Ratio: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Fire Correction: ARC</name>
+    <name>Fire Correction Ratio: ARC</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Lightning Correction: STR</name>
+    <name>Lightning Correction Ratio: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Lightning Correction: DEX</name>
+    <name>Lightning Correction Ratio: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Lightning Correction: INT</name>
+    <name>Lightning Correction Ratio: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Lightning Correction: FTH</name>
+    <name>Lightning Correction Ratio: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Lightning Correction: ARC</name>
+    <name>Lightning Correction Ratio: ARC</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Holy Correction: STR</name>
+    <name>Holy Correction Ratio: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Holy Correction: DEX</name>
+    <name>Holy Correction Ratio: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Holy Correction: INT</name>
+    <name>Holy Correction Ratio: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Holy Correction: FTH</name>
+    <name>Holy Correction Ratio: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Holy Correction: ARC</name>
+    <name>Holy Correction Ratio: ARC</name>
     <type>s16</type>
     <default>100</default>
   </entry>

@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped", "Yapped\Yapped.csproj", "{DC08F234-1269-484E-BDE6-0C28F289DE80}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped.Test", "Yapped.Test\Yapped.Test.csproj", "{D72F604F-9DBD-4363-8837-035B1B80B5C7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped.Dump", "Yapped.Dump\Yapped.Dump.csproj", "{E89CC074-5DBE-4BB2-B15E-C711F46243D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulsFormats", "..\SoulsFormats\SoulsFormats\SoulsFormats.csproj", "{22C664BD-877B-44DF-8ECF-2808522469A8}"
 EndProject
@@ -21,14 +17,6 @@ Global
 		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Debug|x64.Build.0 = Debug|x64
 		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Release|x64.ActiveCfg = Release|x64
 		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Release|x64.Build.0 = Release|x64
-		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Debug|x64.ActiveCfg = Debug|x64
-		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Debug|x64.Build.0 = Debug|x64
-		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Release|x64.ActiveCfg = Release|x64
-		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Release|x64.Build.0 = Release|x64
-		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Debug|x64.ActiveCfg = Debug|x64
-		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Debug|x64.Build.0 = Debug|x64
-		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Release|x64.ActiveCfg = Release|x64
-		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Release|x64.Build.0 = Release|x64
 		{22C664BD-877B-44DF-8ECF-2808522469A8}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{22C664BD-877B-44DF-8ECF-2808522469A8}.Debug|x64.Build.0 = Debug|Any CPU
 		{22C664BD-877B-44DF-8ECF-2808522469A8}.Release|x64.ActiveCfg = Release|Any CPU

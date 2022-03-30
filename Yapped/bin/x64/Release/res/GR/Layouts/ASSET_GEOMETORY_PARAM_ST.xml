@@ -1,538 +1,701 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="AssetHitCreateType" type="s8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+  </enum>
+  <enum name="AssetBehaviorType" type="u8">
+    <item value="0" name="0 - Dynamic" />
+	<item value="1" name="1 - Static" />
+	<item value="2" name="2 - Partial Static" />
+  </enum>
+  <enum name="AssetCollisionType" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="11" name="11 - Unknown" />
+	<item value="12" name="12 - Unknown" />
+	<item value="13" name="13 - Unknown" />
+	<item value="14" name="14 - Unknown" />
+	<item value="15" name="15 - Unknown" />
+  </enum>
+  <enum name="RainBlockingType" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+  </enum>
+  <enum name="AssetBreakItemLotType" type="s8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+  </enum>
+  <enum name="AssetBreakAttributeDamageType" type="s8">
+  </enum>
+  <enum name="AssetNavimeshFlag" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+  </enum>
+  <enum name="AssetWindEffectType" type="u8">
+  </enum>
+  <enum name="AssetCamNearBehaviorType" type="s8">
+  </enum>
+  <enum name="AssetAutoDrawGroupBackfaceCheckType" type="u8">
+  </enum>
+  <enum name="AssetAutoDrawGroupDepthWriteType" type="u8">
+  </enum>
+  <enum name="AssetAutoDrawGroupShadowTestType" type="u8">
+  </enum>
+  <enum name="HitCarverCancelAreaFlag" type="u8">
+  </enum>
+  <enum name="AssetNavimeshGenerateAttribute" type="u8">
+  </enum>
+  <enum name="AssetNavimeshFlagApplyType" type="u8">
+  </enum>
+  <enum name="AssetSlidingBulletHitType" type="u8">
+  </enum>
+  <enum name="AssetPenetrationBulletType" type="u8">
+  </enum>
+  <enum name="MultiForbiddenRegionGenerateAttribute" type="u8">
+  </enum>
+  <enum name="AssetExcludeActivateRatioType" type="u8">
+  </enum>
+  
    <entry>
-    <name>Unk0</name>
+    <name>Sound Bank ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Sound Break SE ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Draw Param Reference ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk3a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4a</name>
+    <name>Hit Create Type</name>
     <type>s8</type>
     <default>0</default>
+    <enum>AssetHitCreateType</enum>
+    <description>Ignored for dynamic assets.</description>
   </entry>
   <entry>
-    <name>Unk4b</name>
+    <name>Behavior Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetBehaviorType</enum>
+  </entry>
+  <entry>
+    <name>Collision Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetCollisionType</enum>
+  </entry>
+  <entry>
+    <name>Rain Blocking Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>RainBlockingType</enum>
+  </entry>
+  <entry>
+    <name>HP</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Defence</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destruction Stop Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destruction SFX ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Destruction SFX Dummy Poly ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Destruction Landing SFX ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Destruction Bullet Behavior ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destruction Bullet Dummy Poly ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Debris - Wait Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Debris - Time to Hide</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destruction AI Sound ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destruction Item Lot Type</name>
     <type>s8</type>
     <default>0</default>
+    <enum>AssetBreakItemLotType</enum>
   </entry>
   <entry>
-    <name>Unk4c</name>
+    <name>Anim Break ID Max</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22a</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22b</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22c</name>
+    <name>Destruction Bullet Attribute Damage Type</name>
     <type>s8</type>
     <default>0</default>
+    <enum>AssetBreakAttributeDamageType</enum>
   </entry>
   <entry>
-    <name>Unk22d</name>
+    <name>Is Destroyed on Player Collision</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destroyed on Enemy Collision</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destroyed by Riding</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destroyed by Default</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Animated Destruction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Damage Transferred</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Attack Backlash</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Ladder</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Moving Object</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Skydome</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Paused during Cutscene</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Flammable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Repicked</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destroyed on Pickup</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destroyed by Giant Collision</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Navmesh Flag</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetNavimeshFlag</enum>
+  </entry>
+  <entry>
+    <name>Burn Bullet Interval</name>
+    <type>u16</type>
+    <default>0</default>
+    <enum>AssetNavimeshFlag</enum>
+  </entry>
+  <entry>
+    <name>Camera Distance to Update Cloth</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Duration after Creation until Disappearance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Contact SE ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Repick Anim ID Offset</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wind Effect Rate [0]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wind Effect Rate [1]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wind Effect Type [0]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetWindEffectType</enum>
+  </entry>
+  <entry>
+    <name>Wind Effect Type [1]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetWindEffectType</enum>
+  </entry>
+  <entry>
+    <name>Override Material ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Automatic Generation Height Offset</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn Destroy Rate</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX ID [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn SFX ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn SFX ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn SFX ID [3]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Minimum Delay Time [0]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Minimum Delay Time [1]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Minimum Delay Time [2]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Minimum Delay Time [3]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Maximum Delay Time [0]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Maximum Delay Time [1]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Maximum Delay Time [2]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn SFX Maximum Delay Time [3]</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Burn Bullet Behavior ID [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn Bullet Behavior ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn Bullet Behavior ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn Bullet Behavior ID [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Burn Bullet Delay Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Paint Decal Target Texture Size</name>
+    <type>u16</type>
+    <default>0</default>
+    <description>Value must be power of 2, max 4096</description>
+  </entry>
+  <entry>
+    <name>Navmesh Flag - Destroyed Asset</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetNavimeshFlag</enum>
+  </entry>
+  <entry>
+    <name>Near Camera Behavior Type</name>
     <type>s8</type>
     <default>0</default>
+    <enum>AssetCamNearBehaviorType</enum>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Destroyed Item Lot Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Pickup Action Button Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Pickup Item Lot Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  
+  <entry>
+    <name>Auto Draw Group: Backface Check</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetAutoDrawGroupBackfaceCheckType</enum>
+  </entry>
+  <entry>
+    <name>Auto Draw Group: Depth Write</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetAutoDrawGroupDepthWriteType</enum>
+  </entry>
+  <entry>
+    <name>Auto Draw Group: Shadow Test</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetAutoDrawGroupShadowTestType</enum>
+  </entry>
+  <entry>
+    <name>Is Height Check Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Exclude from Subfloor Navmesh if below Hit</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>HitCarverCancelAreaFlag</enum>
+  </entry>
+  <entry>
+    <name>Block Navmesh Combine</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetNavimeshGenerateAttribute</enum>
+  </entry>
+  <entry>
+    <name>Navmesh Flag Apply Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetNavimeshFlagApplyType</enum>
+  </entry>
+  <entry>
+    <name>Navmesh Flag Apply Type - Destroyed</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetNavimeshFlagApplyType</enum>
+  </entry>
+  <entry>
+    <name>Auto Draw Group: Pass Pixel Number</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Pickup Replacement - Event Flag</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Pickup Replacement - Anim ID Offset</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Pickup Replacement - Action Button Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Pickup Replacement - Item Lot Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Sliding Bullet Hit Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetSlidingBulletHitType</enum>
+  </entry>
+  <entry>
+    <name>Is Damaged by Special Attacks</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Penetration Bullet Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AssetPenetrationBulletType</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>5</size>
+  </entry>
+  
+  <entry>
+    <name>Destruction - Sound SE Dummy Poly ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Debug - Height Check Minimum</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk46</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
+    <name>Debug - Height Check Maximum</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk50</name>
+    <name>Repick - Action Button ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Repick - Item Lot Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Repick Replacement - Anim ID Offset</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk51</name>
+    <name>Repick Replacement - Action Button Param ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk52</name>
+    <name>Repick Replacement - Item Lot ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk53</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Is Hit Carver Generation Blocked</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk54a</name>
+    <name>Is Giant Enemy Hit by Destruction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Destruction Synchronized</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Hidden on Repick</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Valid for Multiplayer Only</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Bullet Hit SFX Disabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Bloodstain/Sign Enabled before Destruction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Bloodstain/Sign Enabled after Destruction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Multiplayer Forbidden Region Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>MultiForbiddenRegionGenerateAttribute</enum>
   </entry>
   <entry>
-    <name>Unk54b</name>
+    <name>Resident SE ID [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID - Dummy Poly [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID - Dummy Poly [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID - Dummy Poly [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Resident SE ID - Dummy Poly [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Exclude Activate Ratio - Xbox One Grid</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AssetExcludeActivateRatioType</enum>
   </entry>
   <entry>
-    <name>Unk54c</name>
+    <name>Exclude Activate Ratio - Xbox One Legacy</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AssetExcludeActivateRatioType</enum>
   </entry>
   <entry>
-    <name>Unk54d</name>
+    <name>Exclude Activate Ratio - PS4 Grid</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AssetExcludeActivateRatioType</enum>
   </entry>
   <entry>
-    <name>Unk55</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk56</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk57</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk59</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk60</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk61</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk62</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk63</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk64a</name>
+    <name>Exclude Activate Ratio - PS4 Legacy</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AssetExcludeActivateRatioType</enum>
   </entry>
   <entry>
-    <name>Unk64b</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>24</size>
   </entry>
-  <entry>
-    <name>Unk64c</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk64d</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk65</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk66</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk67</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk68</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk69</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk70</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk71</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk72</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk73</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk74</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk75</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk76</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk77</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk78</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk79</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+  
 </layout>

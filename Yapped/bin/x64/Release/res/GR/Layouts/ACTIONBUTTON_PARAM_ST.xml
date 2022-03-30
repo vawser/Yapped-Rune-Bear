@@ -1,32 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="ActionButtonRegionType" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+  </enum>
+  <enum name="ActionButtonCategory" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+    <item value="3" name="3 - Unknown" />
+	<item value="4" name="4 - Unknown" />
+	<item value="5" name="5 - Unknown" />
+    <item value="6" name="6 - Unknown" />
+	<item value="7" name="7 - Unknown" />
+	<item value="8" name="8 - Unknown" />
+	<item value="9" name="9 - Unknown" />
+	<item value="10" name="10 - Unknown" />
+  </enum>
+  <enum name="ActionButtonTextBoxType" type="u8">
+  </enum>
+
   <entry>
-    <name>Unk1</name>
+    <name>Region Type</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
-    <entry>
-    <name>Region Type</name>
-    <type>s8</type>
-    <default>0</default>
+    <enum>ActionButtonRegionType</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s8</type>
+    <name>Category</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>ActionButtonCategory</enum>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
   <entry>
-    <name>Dummy Poly 1</name>
+    <name>Dummy Poly [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Dummy Poly 2</name>
+    <name>Dummy Poly [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -66,19 +84,9 @@
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
   <entry>
     <name>Allow Angle</name>
@@ -86,29 +94,40 @@
     <default>90</default>
   </entry>
   <entry>
+    <name>Spot Dummy Poly</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
     <name>Textbox Type</name>
     <type>u8</type>
-    <default>255</default>
-  </entry>
-    <entry>
-    <name>Unk7</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
     <default>0</default>
+    <enum>ActionButtonTextBoxType</enum>
+  </entry>
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  <entry>
+    <name>Invalid for Ride</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Greyout for Ride</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Invalid for Crouching</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Greyout for Crouching</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Text ID</name>
@@ -126,7 +145,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Priority</name>
+    <name>Override Button ID for Ride</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

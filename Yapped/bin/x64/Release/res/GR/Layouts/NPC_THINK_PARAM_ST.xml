@@ -241,7 +241,6 @@
     <type>u8</type>
     <default>1</default>
     <description>Type of action taken when AI enters the 'Caution' state.</description>
-    <enum>ToCaution</enum>
   </entry>
   <entry>
     <name>Goal Action - To Find (Sight)</name>

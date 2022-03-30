@@ -1,22 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+  <entry>
+    <name>Enable Param - Live</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Chr Init Param ID - Class</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Face Param ID</name>
-    <type>s32</type>
+    <name>Chr Init Param ID - Origin</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Chara Init ID</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
+    <name>Image ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>

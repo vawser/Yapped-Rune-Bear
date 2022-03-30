@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="1">
+  <ParamType>MENU_TUTORIAL_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>201</FormatVersion>
+  <Fields>
+    <Field Def="s32 Unk1" />
+    <Field Def="s32 EventFlagId1 = -1" />
+    <Field Def="s32 EventFlagId2 = -1" />
+    <Field Def="s32 Header MessageId = -1" />
+    <Field Def="s32 MessageId = -1" />
+    <Field Def="s32 Unk2 = -1" />
+    <Field Def="dummy8 pad1[8]" />
+  </Fields>
+</PARAMDEF>
