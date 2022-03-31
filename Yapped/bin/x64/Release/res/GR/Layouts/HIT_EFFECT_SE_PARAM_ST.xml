@@ -1,3203 +1,699 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Iron - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Fire - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wood - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Flesh - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Energy - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>None - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 1 - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 2 - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Dummy 3 - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Maggot - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Wax - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Burning - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Corrosion Gas - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Slash: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Slash: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Slash: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Thrust: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Thrust: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Thrust: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Strike: Small</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Strike: Large</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
+    <name>Strong Energy - Strike: Giant</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>100</size>
   </entry>
+
 </layout>

@@ -1,133 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Recovery Count 0</name>
+    <name>Host</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 1</name>
+    <name>Invasion Orb - None</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 2</name>
+    <name>Invasion Orb - Umbasa</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 3</name>
+    <name>Invasion Orb - Berserker</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 4</name>
+    <name>Invasion Orb - Sinner</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 5</name>
+    <name>Invasion Sign - None</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 6</name>
+    <name>Invasion Sign - Umbasa</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 7</name>
+    <name>Invasion Sign - Berserker</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 8</name>
+    <name>Invasion Sign - Sinner</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 9</name>
+    <name>Invasion Ring - Sinner</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 10</name>
+    <name>Invasion Ring - Rosalia</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 11</name>
+    <name>Invasion Ring - Forest</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 12</name>
+    <name>Coop Sign - None</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 13</name>
+    <name>Coop Sign - Umbasa</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 14</name>
+    <name>Coop Sign - Berserker</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 15</name>
+    <name>Coop Sign - Sinner</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 16</name>
+    <name>Coop Sign - Red Hunter</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 17</name>
+    <name>Invasion Ring - Darkmoon Blade</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 18</name>
-    <type>u8</type>
+    <name>Replacement Rate</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery Count 19</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Recovery Count 20</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Recovery Count 21</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Recovery Count 22</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Recovery Count 23</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk0</name>
+    <name>Replace ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
 </layout>

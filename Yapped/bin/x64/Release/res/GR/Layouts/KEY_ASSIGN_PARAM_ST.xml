@@ -1,44 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
    <entry>
-    <name>Unk0</name>
+    <name>Pad Key ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Keyboard Modify Key</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Keyboard Key ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Mouse Modify Key</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Mouse Key ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
 
 </layout>

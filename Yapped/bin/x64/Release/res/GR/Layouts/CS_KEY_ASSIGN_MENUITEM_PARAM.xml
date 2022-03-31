@@ -1,34 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
+   <entry>
+    <name>Text ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Key</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+   <entry>
+    <name>Allow Unassignment</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Allow Pad Config</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Allow Mouse Config</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Group</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Mapping Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>View Pad</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>View Keyboard/Mouse</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>7</size>
   </entry>
 
 </layout>

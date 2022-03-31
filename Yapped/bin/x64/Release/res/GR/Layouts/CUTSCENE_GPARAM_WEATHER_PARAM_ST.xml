@@ -23,85 +23,85 @@
   </entry>
   
   <entry>
-    <name>DST Weather: Sunny</name>
+    <name>Destination Weather: Sunny</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Clear Sky</name>
+    <name>Destination Weather: Clear Sky</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Lightly Cloudy</name>
+    <name>Destination Weather: Lightly Cloudy</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Cloudy</name>
+    <name>Destination Weather: Cloudy</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Rain</name>
+    <name>Destination Weather: Rain</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Heavy Rain</name>
+    <name>Destination Weather: Heavy Rain</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Storm</name>
+    <name>Destination Weather: Storm</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Storm for Battle</name>
+    <name>Destination Weather: Storm for Battle</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Snow</name>
+    <name>Destination Weather: Snow</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Heavy Snow</name>
+    <name>Destination Weather: Heavy Snow</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Fog</name>
+    <name>Destination Weather: Fog</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Heavy Fog</name>
+    <name>Destination Weather: Heavy Fog</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Sandstorm</name>
+    <name>Destination Weather: Sandstorm</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
   </entry>
   <entry>
-    <name>DST Weather: Heavy Fog and Rain</name>
+    <name>Destination Weather: Heavy Fog and Rain</name>
     <type>s16</type>
     <default>0</default>
     <enum>WeatherType</enum>
@@ -119,67 +119,67 @@
     <enum>IndoorOutdoorType</enum>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Sunny</name>
+    <name>Replacement Weather: Sunny</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Lightly Cloudy</name>
+    <name>Replacement Weather: Lightly Cloudy</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Cloudy</name>
+    <name>Replacement Weather: Cloudy</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Rain</name>
+    <name>Replacement Weather: Rain</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Heavy Rain</name>
+    <name>Replacement Weather: Heavy Rain</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Storm</name>
+    <name>Replacement Weather: Storm</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Storm for Battle</name>
+    <name>Replacement Weather: Storm for Battle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Snow</name>
+    <name>Replacement Weather: Snow</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Heavy Snow</name>
+    <name>Replacement Weather: Heavy Snow</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Fog</name>
+    <name>Replacement Weather: Fog</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Heavy Fog</name>
+    <name>Replacement Weather: Heavy Fog</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Sandstorm</name>
+    <name>Replacement Weather: Sandstorm</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Heavy Fog and Rain</name>
+    <name>Replacement Weather: Heavy Fog and Rain</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -191,82 +191,82 @@
   </entry>
   
   <entry>
-    <name>DST Weather: Snowstorm</name>
+    <name>Destination Weather: Snowstorm</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Lightning Storm</name>
+    <name>Destination Weather: Lightning Storm</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 3</name>
+    <name>Destination Weather: Reserved 3</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 4</name>
+    <name>Destination Weather: Reserved 4</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 5</name>
+    <name>Destination Weather: Reserved 5</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 6</name>
+    <name>Destination Weather: Reserved 6</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 7</name>
+    <name>Destination Weather: Reserved 7</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DST Weather: Reserved 8</name>
+    <name>Destination Weather: Reserved 8</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Snowstorm</name>
+    <name>Replacement Weather: Snowstorm</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Lightning Storm</name>
+    <name>Replacement Weather: Lightning Storm</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 3</name>
+    <name>Replacement Weather: Reserved 3</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 4</name>
+    <name>Replacement Weather: Reserved 4</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 5</name>
+    <name>Replacement Weather: Reserved 5</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 6</name>
+    <name>Replacement Weather: Reserved 6</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 7</name>
+    <name>Replacement Weather: Reserved 7</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Takeover DST Weather: Reserved 8</name>
+    <name>Replacement Weather: Reserved 8</name>
     <type>u8</type>
     <default>0</default>
   </entry>

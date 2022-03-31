@@ -21,43 +21,43 @@
   </entry>
 
   <entry>
-    <name>DST Timezone: Morning</name>
+    <name>Destination Timezone: Morning</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Noon</name>
+    <name>Destination Timezone: Noon</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Afternoon</name>
+    <name>Destination Timezone: Afternoon</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Evening</name>
+    <name>Destination Timezone: Evening</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Night</name>
+    <name>Destination Timezone: Night</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Deep Night A</name>
+    <name>Destination Timezone: Deep Night A</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>DST Timezone: Deep Night B</name>
+    <name>Destination Timezone: Deep Night B</name>
     <type>u8</type>
     <default>0</default>
     <enum>CUTSCENE_TIMEZONE_TYPE</enum>

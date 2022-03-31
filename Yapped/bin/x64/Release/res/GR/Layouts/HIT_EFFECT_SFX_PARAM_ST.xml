@@ -1,83 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Hit SFX ID 0</name>
+    <name>Slash - Normal</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 1</name>
+    <name>Slash - Small</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 2</name>
+    <name>Slash - Large</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 3</name>
+    <name>Slash - Specific 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 4</name>
+    <name>Slash - Specific 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Strike - Normal</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 5</name>
+    <name>Strike - Small</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 6</name>
+    <name>Strike - Large</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 7</name>
+    <name>Strike - Specific 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 8</name>
+    <name>Strike - Specific 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Thrust - Normal</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 9</name>
+    <name>Thrust - Small</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 10</name>
+    <name>Thrust - Large</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 11</name>
+    <name>Thrust - Specific 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 12</name>
+    <name>Thrust - Specific 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Neutral - Normal</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 13</name>
+    <name>Neutral - Small</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit SFX ID 14</name>
+    <name>Neutral - Large</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>20</size>
+    <name>Neutral - Specific 1</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
+  <entry>
+    <name>Neutral - Specific 2</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  
 </layout>
