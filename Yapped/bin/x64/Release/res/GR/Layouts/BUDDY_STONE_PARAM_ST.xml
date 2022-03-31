@@ -1,61 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-      <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Talk Chr Entity ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Eliminate Target Entity ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown Flag</name>
+    <name>Summoned Event Flag ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown Flag</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>-1 will allow for usage, otherwise flag must be present for usage.</description>
+    <name>Is Special Monument</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unknown Flag</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>-1 will allow for usage, otherwise flag must be present for usage.</description>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
+  
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
+    <name>Buddy ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Applied SpEffect ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Activation Range</name>
+    <type>u16</type>
+    <default>999</default>
+  </entry>
+  <entry>
+    <name>Overwrite Return Range</name>
     <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Overwrite Activation Region Entity ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unknown Flag</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>-1 will allow for usage, otherwise flag must be present for usage.</description>
-  </entry>
-  <entry>
-    <name>Unknown Flag</name>
-    <type>s32</type>
+    <name>Warn Region Entity ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <!-- Verified zero -->

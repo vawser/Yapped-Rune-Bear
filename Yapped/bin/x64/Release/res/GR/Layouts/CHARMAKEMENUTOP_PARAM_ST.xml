@@ -1,76 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="CharMakeMenuCmdType" type="s32">
+  </enum>
+  <enum name="CharMakeMenuViewcondition" type="s32">
+  </enum>
+  <enum name="CharMakeMenuPreviewMode" type="s8">
+  </enum>
+  
   <entry>
-    <name>Command ID</name>
+    <name>Command Type</name>
     <type>s32</type>
-    <default>1</default>
+    <default>-1</default>
+    <enum>CharMakeMenuCmdType</enum>
   </entry>
   <entry>
-    <name>Text ID</name>
+    <name>Caption ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Table ID</name>
+    <name>Face Param ID</name>
     <type>s32</type>
     <default>0</default>
+  </entry>
+  <entry>
+    <name>Table ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
   </entry>
   <entry>
     <name>View Condition</name>
     <type>s32</type>
     <default>0</default>
+    <enum>CharMakeMenuViewcondition</enum>
   </entry>
   <entry>
     <name>Preview Mode</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <!-- Verified zero -->
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>3</size>
-  </entry>
-  <entry>
-    <name>Menu Type</name>
     <type>s8</type>
-    <default>2</default>
+    <default>-1</default>
+    <enum>CharMakeMenuPreviewMode</enum>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>padding</name>
     <type>dummy8</type>
     <size>3</size>
   </entry>
+  
   <entry>
-    <name>Unk0</name>
+    <name>Table ID [2]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Reference Face Param ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Reference Text ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Help Text ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Unlock Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
-
+  
 </layout>

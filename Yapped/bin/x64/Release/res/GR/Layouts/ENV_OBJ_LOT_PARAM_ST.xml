@@ -1,84 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>Asset ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Asset ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Asset ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Asset ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Asset ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Asset ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Asset ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Asset ID [7]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Create Weight [0]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s32</type>
+    <name>Create Weight [1]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Create Weight [2]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Create Weight [3]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Create Weight [4]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
+    <name>Create Weight [5]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
+    <name>Create Weight [6]</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>Create Weight [7]</name>
+    <type>u8</type>
     <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>24</size>
   </entry>
 
 </layout>

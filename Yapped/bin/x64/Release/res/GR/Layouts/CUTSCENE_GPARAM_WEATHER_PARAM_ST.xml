@@ -1,124 +1,297 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+   <enum name="WeatherType" type="s16">
+  </enum>
+   <enum name="IndoorOutdoorType" type="u8">
+  </enum>
+  
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Param - Debug</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>DST Weather: Sunny</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Clear Sky</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Lightly Cloudy</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Cloudy</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Rain</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Heavy Rain</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Storm</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Storm for Battle</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Snow</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Heavy Snow</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Fog</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Heavy Fog</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Sandstorm</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>DST Weather: Heavy Fog and Rain</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>Post Cutscene In-game Weather</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>WeatherType</enum>
+  </entry>
+  <entry>
+    <name>Indoor/Outdoor Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>IndoorOutdoorType</enum>
+  </entry>
+  <entry>
+    <name>Takeover DST Weather: Sunny</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Lightly Cloudy</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Cloudy</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Rain</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Heavy Rain</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Storm</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Storm for Battle</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Snow</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Heavy Snow</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Fog</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Heavy Fog</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Sandstorm</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Heavy Fog and Rain</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  
+  <entry>
+    <name>DST Weather: Snowstorm</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
+    <name>DST Weather: Lightning Storm</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 3</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 4</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 5</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 6</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 7</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>s32</type>
+    <name>DST Weather: Reserved 8</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Snowstorm</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Lightning Storm</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Reserved 3</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
+    <name>Takeover DST Weather: Reserved 4</name>
+    <type>u8</type>
     <default>0</default>
+  </entry>
+  <entry>
+    <name>Takeover DST Weather: Reserved 5</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Takeover DST Weather: Reserved 6</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Takeover DST Weather: Reserved 7</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Takeover DST Weather: Reserved 8</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Apply MapGdRegionID for GPARAM Enabled</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Override MapGdRegion ID</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
 
 </layout>

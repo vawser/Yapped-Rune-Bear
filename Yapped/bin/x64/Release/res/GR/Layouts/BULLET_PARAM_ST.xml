@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="AttackAttribute" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Slash" />
-	<item value="2" name="Strike" />
-    <item value="3" name="Thrust" />
-    <item value="4" name="Standard" />
+    <item value="0" name="0 - None" />
+	<item value="1" name="1 - Slash" />
+	<item value="2" name="2 - Strike" />
+    <item value="3" name="3 - Thrust" />
+    <item value="4" name="4 - Standard" />
   </enum>
   <enum name="EffectAttribute" type="u8">
     <item value="0" name="0 - None" />
@@ -28,9 +28,24 @@
     <item value="2" name="2 - Forward/Down" />
   </enum>
   <enum name="CounterType" type="u8">
-    <item value="0" name="0 - Unk" />
-	<item value="1" name="1 - Unk" />
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
   </enum>
+  <enum name="MaterialAttackType" type="u8">
+  </enum>
+  <enum name="MaterialAttackMaterial" type="u8">
+  </enum>
+  <enum name="BulletLaunchConditionType" type="u8">
+  </enum>
+  <enum name="BulletSFXDeleteType" type="s8">
+  </enum>
+  <enum name="BulletSFXCreatePostureType" type="u8">
+  </enum>
+  <enum name="BulletBallisticCalcType" type="u8">
+  </enum>
+  <enum name="BulletAttachEffectType" type="u8">
+  </enum>
+  
   <entry>
     <name>AtkParam ID</name>
     <type>s32</type>
@@ -38,19 +53,19 @@
     <description>Attack parameters for bullet impact.</description>
   </entry>
   <entry>
-    <name>Projectile FX ID</name>
+    <name>Projectile SFX ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Visual effect ID for bullet projectile.</description>
   </entry>
   <entry>
-    <name>Impact FX ID</name>
+    <name>Impact SFX ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Visual effect ID for bullet impact.</description>
   </entry>
   <entry>
-    <name>Flick FX ID</name>
+    <name>Flick SFX ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>Visual effect ID for bullet flick. Normally triggered by guarding.</description>
@@ -170,10 +185,10 @@
     <description>Duration of bullet impact hitbox. A value of zero means it is disabled immediately after first impact.</description>
   </entry>
   <entry>
-    <name>External Force</name>
+    <name>External Force in Bullet Direction</name>
     <type>f32</type>
     <default>0</default>
-    <description>Unknown</description>
+    <description>External force applied in the direction of shooting. (Y-axis is removed)</description>
   </entry>
   <entry>
     <name>Owner SpEffect ID</name>
@@ -301,12 +316,13 @@
     <default>0</default>
     <description>Unknown</description>
   </entry>
+  
   <entry>
-    <name>Is Object Penetration</name>
-    <type>u8</type>
-    <default>1</default>
-    <description>Bullet will go through objects, players, and NPCs.</description>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
     <name>Previous Velocity Direction Rate</name>
     <type>u8</type>
@@ -332,25 +348,33 @@
     <type>u8</type>
     <default>0</default>
     <description>Determines visual effects of bullet hit.</description>
+    <enum>MaterialAttackType</enum>
   </entry>
   <entry>
     <name>Material Attack Material</name>
     <type>u8</type>
-    <default>6</default>
+    <default>0</default>
     <description>Sound and visual effects on hit.</description>
+    <enum>MaterialAttackMaterial</enum>
   </entry>
   <entry>
-    <name>Material Size</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>'Size' of attack.</description>
+    <name>Is Penetrate Character</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Penetrate Object</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Launch Condition Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Condition for determing if a new bullet will be generated when this bullet lands or expires.</description>
+    <enum>BulletLaunchConditionType</enum>
   </entry>
+
   <entry>
     <name>Follow Type: Soulmass</name>
     <type>b8</type>
@@ -418,79 +442,78 @@
     <description>Repeating bullets share the amount of times they have hit a target.</description>
   </entry>
   <entry>
-    <name>Use Multiple Model Points</name>
+    <name>Use Multiple Dummy Polys</name>
     <type>b8</type>
     <default>False</default>
     <description>Set to True if the same model point ('damipoly') is used multiple times when spawning the bullet.</description>
   </entry>
   <entry>
-    <name>Attach Effect Type 0</name>
+    <name>Force Erase Bullet A if Hit by Other Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Attach Effect Type 1</name>
+    <name>Force Erase Bullet B if Hit by Other Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Can be Deflected by Magic</name>
+    <name>Is Bullet deflected by Magic</name>
     <type>b8</type>
     <default>False</default>
     <description>If true, this bullet will impact appropriate Force-type magic (e.g. arrows, bolts, knives).</description>
   </entry>
   <entry>
-    <name>Ignore FX On Water Hit</name>
+    <name>Is SFX ignored on Water Hit</name>
     <type>b8</type>
     <default>False</default>
     <description>If true, hit FX are not produced if the bullet impacts water.</description>
   </entry>
   <entry>
-    <name>Ignore State Transition On Water Hit</name>
+    <name>Is Move State Ignored on Water Hit</name>
     <type>b8</type>
     <default>False</default>
-    <description>Unclear effect, but True for knives/arrows/bolts and False otherwise.</description>
   </entry>
   <entry>
-    <name>Can Be Deflected By Bullet Deflection</name>
+    <name>Is Bullet deflected by Bullet Deflection</name>
     <type>b8</type>
     <default>False</default>
     <description>If True, this bullet will be deflected by AtkParam deflection effect.</description>
   </entry>
   <entry>
-    <name>Transfer Effect to Child Bullet</name>
+    <name>Is Effect transferred to Child Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Transfer Speed to Child Bullet</name>
+    <name>Is Speed transferred to Child Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Lock Module</name>
+    <name>Is Auto Homing Enabled</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Search For Target</name>
+    <name>Is Emitter Position Synced with Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Emitted Bullet</name>
+    <name>Is Direction Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Transfer Duration to Child Bullet</name>
+    <name>Is SFX Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
@@ -502,31 +525,32 @@
     <description></description>
   </entry>
   <entry>
-    <name>Bullet Hit Type 0</name>
-    <type>u8</type>
+    <name>Bullet SFX Delete Type - By Hit</name>
+    <type>s8</type>
     <default>0</default>
-    <description></description>
+    <enum>BulletSFXDeleteType</enum>
   </entry>
   <entry>
-    <name>Bullet Hit Type 1</name>
-    <type>u8</type>
+    <name>Bullet SFX Delete Type - By Expiration</name>
+    <type>s8</type>
     <default>0</default>
     <description></description>
+    <enum>BulletSFXDeleteType</enum>
   </entry>
   <entry>
-    <name>Sp Homing Y Angle</name>
+    <name>Landing Position - Vertical Offset Range</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Emitted Bullet - Random Angle XZ</name>
+    <name>Firing Angle - Random Horizontal Range</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Emitted Bullet - Random Angle Y</name>
+    <name>Firing Angle - Random Vertical Range</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
@@ -538,97 +562,92 @@
     <description></description>
   </entry>
   <entry>
-    <name>Bullet Emitter: Shoot Interval 1</name>
+    <name>Bullet Emitter: Minimum Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Bullet Emitter: Initial Shoot Interval</name>
+    <name>Bullet Emitter: Maximum Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Sp Homing Y Angle For Enemy</name>
+    <name>Prediction Shoot Observe Time</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Bullet Emitter: Shoot Interval 2</name>
+    <name>Bullet Emitter: Initial Wait Time</name>
     <type>f32</type>
     <default>0</default>
     <description></description>
   </entry>
+  
   <entry>
-    <name>Launch Type</name>
+    <name>SFX Pose Type</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
-    <enum>LaunchType</enum>
+    <enum>BulletSFXCreatePostureType</enum>
   </entry>
   <entry>
-    <name>Limit Bullet Param ID</name>
+    <name>Create Limit Group ID</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
   </entry>
+  
   <entry>
-    <name>Counter Hit Type</name>
-    <type>u8</type>
-    <default>1</default>
-    <description></description>
-    <enum>CounterType</enum>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
-    <name>Is Position Hit Bullet</name>
+    <name>Is Speed Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Attach Attack SFX</name>
+    <name>Is SFX Disabled on Chr/Object Hit</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Sp Correction 0</name>
+    <name>Is Wall Checked by Center Ray</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Sp Correction 1</name>
-    <type>b8</type>
-    <default>True</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Is Penetrate Target</name>
+    <name>Is Hit Flare</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Sp Correction 2</name>
+    <name>Is Bullet Wall Filter Used</name>
+    <type>b8</type>
+    <default>False</default>
+    <description></description>
+  </entry>
+  
+  <entry>
+    <name>Is Follow Bullet Count not scaled by INT</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Is Disable Int Scale</name>
+    <name>Is AI Interrupted by Bullet</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>b8</type>
-    <default>False</default>
-    <description></description>
-  </entry>
+  
   <entry>
     <name>Emitter Position Radius</name>
     <type>f32</type>
@@ -636,112 +655,122 @@
     <description></description>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Follow Bullet - Height Offset</name>
     <type>f32</type>
     <default>-1</default>
     <description></description>
   </entry>
   <entry>
-    <name>Runtime Bone Control ID</name>
+    <name>Asset Generated on Hit</name>
     <type>s32</type>
-    <default>0</default>
-    <description>Unverified</description>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Duration - Random Range</name>
     <type>f32</type>
     <default>-1</default>
-    <description></description>
+    <description>Added to the base duration.</description>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Homing Angle: X</name>
     <type>s16</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s16</type>
+    <name>Ballistic Calc Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>BulletBallisticCalcType</enum>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Attach Effect Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>BulletAttachEffectType</enum>
+  </entry>
+  <entry>
+    <name>Insert SE ID - Bullet [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Insert SE ID - Bullet [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Insert SE ID - Hit</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Insert SE ID - Flick</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Howitzer - Minimum Shoot Angle: X</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Howitzer - Maximum Shoot Angle: X</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Howitzer - Minimum Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Howitzer - Maximum Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>SFX ID - Force Erase</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Bullet SFX Delete Type - By Force Erase</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>BulletSFXDeleteType</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Follow Bullet - Dummy Poly for SFX Pose</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
+    <name>Follow Bullet - Radius Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>SpEffect Bullet Distance - Magnification</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Target Range when Unlocked</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
+  
 </layout>

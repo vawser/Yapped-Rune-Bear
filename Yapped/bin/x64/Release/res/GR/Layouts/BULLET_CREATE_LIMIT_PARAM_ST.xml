@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Max Amount</name>
+    <name>Max Amount - By Group</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk0</name>
-    <type>u8</type>
-    <default>1</default>
+    <name>Is Limited for each Owner</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <!-- Verified zero -->
   <entry>

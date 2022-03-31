@@ -1,32 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="GaiItem_Category" type="u8">
+  </enum>
+ 
   <entry>
-    <name>Material ID 1</name>
+    <name>Material ID [1]</name>
     <type>s32</type>
     <default>1000</default>
   </entry>
   <entry>
-    <name>Material ID 2</name>
+    <name>Material ID [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Material ID 3</name>
+    <name>Material ID [3]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Material ID 4</name>
+    <name>Material ID [4]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Material ID 5</name>
+    <name>Material ID [5]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Material ID 6</name>
+    <name>Material ID [6]</name>
     <type>s32</type>
     <default>1</default>
   </entry>
@@ -36,32 +39,32 @@
     <size>8</size>
   </entry>
   <entry>
-    <name>Material Amount 1</name>
+    <name>Material Amount [1]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Material Amount 2</name>
+    <name>Material Amount [2]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Material Amount 3</name>
+    <name>Material Amount [3]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Material Amount 4</name>
+    <name>Material Amount [4]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Material Amount 5</name>
+    <name>Material Amount [5]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Material Amount 6</name>
+    <name>Material Amount [6]</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -71,39 +74,80 @@
     <size>2</size>
   </entry>
   <entry>
-    <name>Material Type 1</name>
+    <name>Material Category [1]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
-    <name>Material Type 2</name>
+    <name>Material Category [2]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
-    <name>Material Type 3</name>
+    <name>Material Category [3]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
-    <name>Material Type 4</name>
+    <name>Material Category [4]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
-    <name>Material Type 5</name>
+    <name>Material Category [5]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
-    <name>Material Type 6</name>
+    <name>Material Category [6]</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GaiItem_Category</enum>
   </entry>
   <entry>
     <name>padding</name>
     <type>dummy8</type>
-    <size>6</size>
+    <size>2</size>
+  </entry>
+  <entry>
+    <name>Disable Display Number [1]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Display Number [2]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Display Number [3]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Display Number [4]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Display Number [5]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Display Number [6]</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
 
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
 </layout>
