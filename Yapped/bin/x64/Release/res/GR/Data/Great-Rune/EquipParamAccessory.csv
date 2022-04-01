@@ -1,123 +1,127 @@
-Row ID;Row Name;Unk1;SpEffect ID 1;Weight;Sell Value;Sort ID;Icon ID;Reference Type;SpEffect Category;Unk2;Is Depositable;Is Break upon Unequip;Is Dropping Disabled in Multiplayer;Is Discardable;Is Droppable;Unk3;Unk4;Unk5;Rarity;Ring Compatibility ID;Achievement ID;SpEffect ID 2;SpEffect ID 2;SpEffect ID 3;SpEffect ID 4
-1000;Crimson Amber Medallion;0;310000;0.3;100;400000;18000;2;0;10;True;False;False;True;True;True;False;True;2;1000;-1;0;0;0;0
-1001;Crimson Amber Medallion +1;1;310010;0.3;500;400010;18001;2;0;10;True;False;False;True;True;True;False;True;2;1000;-1;0;0;0;0
-1002;Crimson Amber Medallion +2;1;310020;0.3;1000;400020;18002;2;0;10;True;False;False;True;True;True;False;True;2;1000;-1;0;0;0;0
-1010;Cerulean Amber Medallion;1;310100;0.3;100;400050;18010;2;0;10;True;False;False;True;True;True;False;True;2;1010;-1;0;0;0;0
-1011;Cerulean Amber Medallion +1;1;310110;0.3;500;400060;18011;2;0;10;True;False;False;True;True;True;False;True;2;1010;-1;0;0;0;0
-1012;Cerulean Amber Medallion +2;1;310120;0.3;1000;400070;18012;2;0;10;True;False;False;True;True;True;False;True;2;1010;-1;0;0;0;0
-1020;Viridian Amber Medallion;0;310200;0.3;100;400090;18020;2;0;10;True;False;False;True;True;True;False;True;2;1020;-1;0;0;0;0
-1021;Viridian Amber Medallion +1;1;310210;0.3;500;400100;18021;2;0;10;True;False;False;True;True;True;False;True;2;1020;-1;0;0;0;0
-1022;Viridian Amber Medallion +2;1;310220;0.3;1000;400110;18022;2;0;10;True;False;False;True;True;True;False;True;2;1020;-1;0;0;0;0
-1030;Arsenal Charm;0;310300;1.5;100;400130;18030;2;0;10;True;False;False;True;True;True;False;True;2;1030;-1;0;0;0;0
-1031;Arsenal Charm +1;1;310310;1.5;500;400140;18031;2;0;10;True;False;False;True;True;True;False;True;2;1030;-1;0;0;0;0
-1032;Great-Jar's Arsenal;1;310320;1.5;1000;400150;18032;2;0;10;True;False;False;True;True;True;False;True;2;1030;-1;0;0;0;0
-1040;Erdtree's Favor;1;310400;1.5;500;400160;18040;2;0;10;True;False;False;True;True;True;False;True;2;1040;-1;0;0;0;0
-1041;Erdtree's Favor +1;1;310410;1.5;1500;400170;18041;2;0;10;True;False;False;True;True;True;False;True;2;1040;-1;0;0;0;0
-1042;Erdtree's Favor +2;1;310420;1.5;3000;400180;18042;2;0;10;True;False;False;True;True;True;False;True;3;1040;17;0;0;0;0
-1050;Radagon's Scarseal;1;310500;0.8;3000;400190;18050;2;0;10;True;False;False;True;True;True;False;True;2;1050;-1;0;0;0;0
-1051;Radagon's Soreseal;1;310510;0.8;3000;400200;18051;2;0;10;True;False;False;True;True;True;False;True;3;1050;17;0;0;0;0
-1060;Starscourge Heirloom;1;310600;0.8;1000;400230;18070;2;0;10;True;False;False;True;True;True;False;True;2;1060;-1;0;0;0;0
-1070;Prosthesis-Wearer Heirloom;1;310700;0.8;1000;400240;18080;2;0;10;True;False;False;True;True;True;False;True;2;1070;-1;0;0;0;0
-1080;Stargazer Heirloom;1;310800;0.6;1000;400250;18090;2;0;10;True;False;False;True;True;True;False;True;2;1080;-1;0;0;0;0
-1090;Two Fingers Heirloom;1;310900;0.6;1000;400260;18100;2;0;10;True;False;False;True;True;True;False;True;2;1090;-1;0;0;0;0
-1100;Silver Scarab;1;311000;1.2;500;406150;18110;2;0;70;True;False;False;True;True;True;False;True;2;1100;-1;0;0;0;0
-1110;Gold Scarab;1;311100;1.2;500;406140;18120;2;0;70;True;False;False;True;True;True;False;True;2;1110;-1;0;0;0;0
-1140;Moon of Nokstella;1;311400;0.8;2000;403050;18150;2;0;40;True;False;False;True;True;True;False;True;3;1140;17;0;0;0;0
-1150;Green Turtle Talisman;1;311500;0.7;500;400120;18160;2;0;10;True;False;False;True;True;True;False;True;2;1150;-1;0;0;0;0
-1160;Stalwart Horn Charm;1;311600;0.6;500;401210;18170;2;0;20;True;False;False;True;True;True;False;True;2;1160;-1;0;0;0;0
-1161;Stalwart Horn Charm +1;1;311610;0.6;1000;401220;18171;2;0;20;True;False;False;True;True;True;False;True;2;1160;-1;0;0;0;0
-1170;Immunizing Horn Charm;1;311700;0.6;500;401190;18180;2;0;20;True;False;False;True;True;True;False;True;2;1170;-1;0;0;0;0
-1171;Immunizing Horn Charm +1;1;311710;0.6;1000;401200;18181;2;0;20;True;False;False;True;True;True;False;True;2;1170;-1;0;0;0;0
-1180;Clarifying Horn Charm;1;311800;0.6;500;401230;18190;2;0;20;True;False;False;True;True;True;False;True;2;1180;-1;0;0;0;0
-1181;Clarifying Horn Charm +1;1;311810;0.6;1000;401240;18191;2;0;20;True;False;False;True;True;True;False;True;2;1180;-1;0;0;0;0
-1190;Prince of Death's Pustule;1;311900;0.6;500;401270;3220;2;0;20;True;False;False;True;True;True;False;True;2;1190;-1;0;0;0;0
-1191;Prince of Death's Cyst;1;311910;0.6;1000;401280;18201;2;0;20;True;False;False;True;True;True;False;True;2;1190;-1;0;0;0;0
-1200;Mottled Necklace;1;312000;0.9;1000;401250;18210;2;0;20;True;False;False;True;True;True;False;True;2;1200;-1;0;0;0;0
-1201;Mottled Necklace +1;1;312010;0.9;2000;401260;18211;2;0;20;True;False;False;True;True;True;False;True;2;1200;-1;0;0;0;0
-1210;Bull-Goat's Talisman;1;312100;0.5;1000;405000;18220;2;0;60;True;False;False;True;True;True;False;True;2;1210;-1;0;0;0;0
-1220;Marika's Scarseal;1;312200;0.8;3000;400210;18060;2;0;10;True;False;False;True;True;True;False;True;2;1220;-1;0;0;0;0
-1221;Marika's Soreseal;1;312210;0.8;3000;400220;18061;2;0;10;True;False;False;True;True;True;False;True;3;1220;17;0;0;0;0
-1230;Warrior Jar Shard;1;312300;0.9;500;404040;18870;2;0;50;True;False;False;True;True;True;False;True;2;1230;-1;0;0;0;0
-1231;Shard of Alexander;1;312310;0.9;1000;404050;18871;2;0;50;True;False;False;True;True;True;False;True;2;1230;-1;0;0;0;0
-1250;Millicent's Prosthesis;1;312500;1.6;1000;406080;18890;2;0;70;True;False;False;True;True;True;False;True;2;1250;-1;312501;312502;312503;312504
-2000;Magic Scorpion Charm;1;320000;0.8;500;405020;18230;2;0;60;True;False;False;True;True;True;False;True;2;2000;-1;0;0;0;0
-2010;Lightning Scorpion Charm;1;320100;0.8;500;405040;18240;2;0;60;True;False;False;True;True;True;False;True;2;2010;-1;0;0;0;0
-2020;Fire Scorpion Charm;1;320200;0.8;500;405030;18250;2;0;60;True;False;False;True;True;True;False;True;2;2020;-1;0;0;0;0
-2030;Sacred Scorpion Charm;1;320300;0.8;500;405050;18260;2;0;60;True;False;False;True;True;True;False;True;2;2030;-1;0;0;0;0
-2040;Red-Feathered Branchsword;1;320400;1.4;500;406000;18270;2;0;70;True;False;False;True;True;True;False;True;2;2040;-1;0;0;0;0
-2050;Ritual Sword Talisman;1;320500;0.9;500;406020;18280;2;0;70;True;False;False;True;True;True;False;True;2;2050;-1;0;0;0;0
-2060;Spear Talisman;1;320600;0.5;500;402050;18290;2;0;30;True;False;False;True;True;True;False;True;2;2060;-1;0;0;0;0
-2070;Hammer Talisman;1;320700;0.9;500;402040;18300;2;0;30;True;False;False;True;True;True;False;True;2;2070;-1;0;0;0;0
-2080;Winged Sword Insignia;1;320800;1.4;500;406060;18310;2;0;70;True;False;False;True;True;True;False;True;2;2080;-1;320801;320802;320803;0
-2081;Rotten Winged Sword Insignia;1;320810;1.4;500;406070;18311;2;0;70;True;False;False;True;True;True;False;True;2;2080;-1;320811;320812;320813;0
-2090;Dagger Talisman;1;320900;1.1;500;402000;18320;2;0;30;True;False;False;True;True;True;False;True;2;2090;-1;0;0;0;0
-2100;Arrow's Reach Talisman;1;321000;0.7;500;402100;18330;2;0;30;True;False;False;True;True;True;False;True;2;2100;-1;0;0;0;0
-2110;Blue Dancer Charm;1;321100;0.9;500;405010;18350;2;0;60;True;False;False;True;True;True;False;True;2;2110;-1;0;0;0;0
-2120;Twinblade Talisman;1;321200;0.7;500;402020;18360;2;0;30;True;False;False;True;True;True;False;True;2;2120;-1;0;0;0;0
-2130;Axe Talisman;1;321300;0.8;500;402030;18370;2;0;30;True;False;False;True;True;True;False;True;2;2130;-1;0;0;0;0
-2140;Lance Talisman;1;321400;0.7;500;402060;18380;2;0;30;True;False;False;True;True;True;False;True;2;2140;-1;0;0;0;0
-2150;Arrow's Sting Talisman;1;321500;0.7;500;402090;18340;2;0;30;True;False;False;True;True;True;False;True;2;2150;-1;0;0;0;0
-2160;Lord of Blood's Exultation;1;321600;0.9;500;406110;18390;2;0;70;True;False;False;True;True;True;False;True;2;2160;-1;0;0;0;0
-2170;Kindred of Rot's Exultation;1;321700;0.9;500;406100;18400;2;0;70;True;False;False;True;True;True;False;True;2;2170;-1;0;0;0;0
-2180;Claw Talisman;1;321800;0.7;500;402070;18800;2;0;30;True;False;False;True;True;True;False;True;2;2180;-1;0;0;0;0
-2190;Roar Medallion;1;321900;0.7;500;404000;18810;2;0;50;True;False;False;True;True;True;False;True;2;2190;-1;0;0;0;0
-2200;Curved Sword Talisman;0;322000;0.7;500;402010;18820;2;0;30;True;False;False;True;True;True;False;True;2;2200;-1;0;0;0;0
-2210;Companion Jar;1;322100;0.6;500;404010;18830;2;0;50;True;False;False;True;True;True;False;True;2;2210;-1;0;0;0;0
-2220;Perfumer's Talisman;1;322200;0.6;500;404020;18840;2;0;50;True;False;False;True;True;True;False;True;2;2220;-1;0;0;0;0
-3000;Graven-School Talisman;1;330000;0.7;1000;403000;18410;2;0;40;True;False;False;True;True;True;False;True;2;3000;-1;0;0;0;0
-3001;Graven-Mass Talisman;1;330010;1;2000;403010;18411;2;0;40;True;False;False;True;True;True;False;True;2;3001;-1;0;0;0;0
-3040;Faithful's Canvas Talisman;1;330400;0.7;1000;403020;18440;2;0;40;True;False;False;True;True;True;False;True;2;3040;-1;0;0;0;0
-3050;Flock's Canvas Talisman;1;330500;1;2000;403030;18450;2;0;40;True;False;False;True;True;True;False;True;2;3050;-1;0;0;0;0
-3060;Old Lord's Talisman;1;330600;0.5;1000;403060;18460;2;0;40;True;False;False;True;True;True;False;True;3;3060;17;0;0;0;0
-3070;Radagon Icon;1;330700;0.7;1000;403070;18470;2;0;40;True;False;False;True;True;True;False;True;3;3070;17;0;0;0;0
-3080;Primal Glintstone Blade;1;330800;0.6;2000;403040;18480;2;0;40;True;False;False;True;True;True;False;True;2;3080;-1;0;0;0;0
-3090;Godfrey Icon;1;330900;0.8;1000;404060;18860;2;0;50;True;False;False;True;True;True;False;True;3;3090;17;0;0;0;0
-4000;Dragoncrest Shield Talisman;1;340000;0.8;100;401000;18490;2;0;20;True;False;False;True;True;True;False;True;2;4000;-1;0;0;0;0
-4001;Dragoncrest Shield Talisman +1;1;340010;0.8;500;401010;18491;2;0;20;True;False;False;True;True;True;False;True;2;4000;-1;0;0;0;0
-4002;Dragoncrest Shield Talisman +2;1;340020;0.8;1000;401020;18492;2;0;20;True;False;False;True;True;True;False;True;2;4000;-1;0;0;0;0
-4003;Dragoncrest Greatshield Talisman;1;340030;0.8;2000;401030;18493;2;0;20;True;False;False;True;True;True;False;True;3;4000;17;0;0;0;0
-4010;Spelldrake Talisman;1;340100;0.6;100;401040;18500;2;0;20;True;False;False;True;True;True;False;True;2;4010;-1;0;0;0;0
-4011;Spelldrake Talisman +1;1;340110;0.6;500;401050;18501;2;0;20;True;False;False;True;True;True;False;True;2;4010;-1;0;0;0;0
-4012;Spelldrake Talisman +2;1;340120;0.6;1000;401060;18502;2;0;20;True;False;False;True;True;True;False;True;2;4010;-1;0;0;0;0
-4020;Flamedrake Talisman;1;340200;0.6;100;401070;18510;2;0;20;True;False;False;True;True;True;False;True;2;4020;-1;0;0;0;0
-4021;Flamedrake Talisman +1;1;340210;0.6;500;401080;18511;2;0;20;True;False;False;True;True;True;False;True;2;4020;-1;0;0;0;0
-4022;Flamedrake Talisman +2;1;340220;0.6;1000;401090;18512;2;0;20;True;False;False;True;True;True;False;True;2;4020;-1;0;0;0;0
-4030;Boltdrake Talisman;1;340300;0.6;100;401100;18520;2;0;20;True;False;False;True;True;True;False;True;2;4030;-1;0;0;0;0
-4031;Boltdrake Talisman +1;1;340310;0.6;500;401110;18521;2;0;20;True;False;False;True;True;True;False;True;2;4030;-1;0;0;0;0
-4032;Boltdrake Talisman +2;1;340320;0.6;1000;401120;18522;2;0;20;True;False;False;True;True;True;False;True;2;4030;-1;0;0;0;0
-4040;Haligdrake Talisman;1;340400;0.6;100;401130;18530;2;0;20;True;False;False;True;True;True;False;True;2;4040;-1;0;0;0;0
-4041;Haligdrake Talisman +1;1;340410;0.6;500;401140;18531;2;0;20;True;False;False;True;True;True;False;True;2;4040;-1;0;0;0;0
-4042;Haligdrake Talisman +2;1;340420;0.6;1000;401150;18532;2;0;20;True;False;False;True;True;True;False;True;2;4040;-1;0;0;0;0
-4050;Pearldrake Talisman;1;340500;0.9;100;401160;18540;2;0;20;True;False;False;True;True;True;False;True;2;4050;-1;0;0;0;0
-4051;Pearldrake Talisman +1;1;340510;0.9;500;401170;18541;2;0;20;True;False;False;True;True;True;False;True;2;4050;-1;0;0;0;0
-4052;Pearldrake Talisman +2;1;340520;0.9;1000;401180;18542;2;0;20;True;False;False;True;True;True;False;True;2;4050;-1;0;0;0;0
-4060;Crucible Scale Talisman;1;340600;1.1;500;405060;18550;2;0;60;True;False;False;True;True;True;False;True;2;4060;-1;0;0;0;0
-4070;Crucible Feather Talisman;1;340700;0.8;1000;405070;18560;2;0;60;True;False;False;True;True;True;False;True;2;4070;-1;0;0;0;0
-4080;Blue-Feathered Branchsword;1;340800;1.1;500;406010;18570;2;0;70;True;False;False;True;True;True;False;True;2;4080;-1;0;0;0;0
-4090;Ritual Shield Talisman;1;340900;0.9;500;406030;18580;2;0;70;True;False;False;True;True;True;False;True;2;4090;-1;0;0;0;0
-4100;Greatshield Talisman;1;341000;0.9;500;402080;18590;2;0;30;True;False;False;True;True;True;False;True;2;4100;-1;0;0;0;0
-4110;Crucible Knot Talisman;1;341100;0.5;500;405080;18600;2;0;60;True;False;False;True;True;True;False;True;2;4110;-1;0;0;0;0
-5000;Crimson Seed Talisman;1;350000;0.8;1000;400030;18610;2;0;10;True;False;False;True;True;True;False;True;2;5000;-1;0;0;0;0
-5010;Cerulean Seed Talisman;1;350100;0.8;1000;400080;18620;2;0;10;True;False;False;True;True;True;False;True;2;5010;-1;0;0;0;0
-5020;Blessed Dew Talisman;1;350200;0.6;1000;400040;18630;2;0;10;True;False;False;True;True;True;False;True;2;5020;-1;0;0;0;0
-5030;Taker's Cameo;1;350300;1;1000;406120;18640;2;0;70;True;False;False;True;True;True;False;True;2;5030;-1;0;0;0;0
-5040;Godskin Swaddling Cloth;1;350400;0.9;1000;406090;18650;2;0;70;True;False;False;True;True;True;False;True;2;5040;-1;0;0;0;0
-5050;Assassin's Crimson Dagger;1;350500;0.8;1500;406040;18660;2;0;70;True;False;False;True;True;True;False;True;2;5050;-1;0;0;0;0
-5060;Assassin's Cerulean Dagger;1;350600;0.8;1500;406050;18670;2;0;70;True;False;False;True;True;True;False;True;2;5060;-1;0;0;0;0
-6000;Crepus's Vial;1;360000;0.7;500;407000;18680;2;0;80;True;False;False;True;True;True;False;True;2;6000;-1;0;0;0;0
-6010;Concealing Veil;1;360100;0.9;500;407010;18690;2;0;80;True;False;False;True;True;True;False;True;2;6010;-1;0;0;0;0
-6020;Carian Filigreed Crest;1;360200;0.8;1000;404030;18700;2;0;50;True;False;False;True;True;True;False;True;2;6020;-1;0;0;0;0
-6040;Longtail Cat Talisman;1;360400;0.6;500;407020;18720;2;0;80;True;False;False;True;True;True;False;True;2;6040;-1;0;0;0;0
-6050;Shabriri's Woe;1;360500;0.6;500;407050;18730;2;0;80;True;False;False;True;True;True;False;True;2;6050;-1;0;0;0;0
-6060;Daedicar's Woe;1;360600;0.8;500;407060;18740;2;0;80;True;False;False;True;True;True;False;True;2;6060;-1;0;0;0;0
-6070;Sacrificial Twig;1;360700;1;1000;407070;18750;2;0;80;True;False;False;True;True;True;False;True;1;6070;-1;0;0;0;0
-6080;Furled Finger's Trick-Mirror;1;360800;0.7;1000;407030;18760;2;0;80;True;False;False;True;True;True;False;True;2;6080;-1;0;0;0;0
-6090;Host's Trick-Mirror;1;360900;0.7;1000;407040;18770;2;0;80;True;False;False;True;True;True;False;True;2;6080;-1;0;0;0;0
-6100;Entwining Umbilical Cord;1;361000;0.5;1000;999999;18780;2;0;255;True;False;False;True;True;True;False;True;2;6100;-1;0;0;0;0
-6110;Ancestral Spirit's Horn;1;361100;1.2;500;406130;18880;2;0;70;True;False;False;True;True;True;False;True;3;6110;-1;0;0;0;0
-9000;Voidbane Talisman;1;9200000;1.2;500;406200;18900;2;0;70;True;False;False;True;True;True;False;True;2;9000;-1;0;0;0;0
-9010;Deathbane Talisman;1;9200010;1.2;500;406200;18901;2;0;70;True;False;False;True;True;True;False;True;2;9010;-1;0;0;0;0
-9020;Dragonbane Talisman;1;9200020;1.2;500;406200;18902;2;0;70;True;False;False;True;True;True;False;True;2;9020;-1;0;0;0;0
-9030;Godskin Ward;1;9200030;3;500;401300;18910;2;0;20;True;False;False;True;True;True;False;True;2;9030;-1;0;0;0;0
-9040;Marika's Golden Sigil;1;9200040;1.5;500;401310;18911;2;0;20;True;False;False;True;True;True;False;True;2;9040;-1;0;0;0;0
-999999999;;1;361100;0.8;100;9999999;18880;2;0;255;True;False;False;True;False;True;False;True;1;6100;-1;0;0;0;0
+Row ID;Row Name;Disable Param - Network Test;Disable Param - Debug;SpEffect ID [0];SFX Variation ID;Weight;Behavior ID;Basic Price;Sell Value;Sort ID;QWC ID;Equip Model ID;Icon ID;Shop Level;Achievement Grade ID;Achievement Sequential ID;Equip Model Category;Equip Model Gender;Accessory Type;Reference Type;SpEffect Category;Sort Group ID;Vagrant Item Lot ID;Vagrant Bonus Item Lot ID;Vagrant Enemy Item Lot ID;Is Depositable;Is Destroyed on Unequip;Is Dropping Disabled in Multiplayer;Is Discardable;Is Droppable;Show Log Condition Type;Show Dialog Condition Type [1];Show Dialog Condition Type [2];Rarity;Sale Price;Accessory Group;Number of Completed Achievement ID;SpEffect ID [1];SpEffect ID [2];SpEffect ID [3];SpEffect ID [4]
+1000;Crimson Amber Medallion;False;False;310000;0;0.3;0;0;100;400000;0;0;18000;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1000;-1;0;0;0;0
+1001;Crimson Amber Medallion +1;True;False;310010;0;0.3;0;0;500;400010;0;0;18001;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1000;-1;0;0;0;0
+1002;Crimson Amber Medallion +2;True;False;310020;0;0.3;0;0;1000;400020;0;0;18002;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1000;-1;0;0;0;0
+1010;Cerulean Amber Medallion;True;False;310100;0;0.3;0;0;100;400050;0;0;18010;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1010;-1;0;0;0;0
+1011;Cerulean Amber Medallion +1;True;False;310110;0;0.3;0;0;500;400060;0;0;18011;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1010;-1;0;0;0;0
+1012;Cerulean Amber Medallion +2;True;False;310120;0;0.3;0;0;1000;400070;0;0;18012;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1010;-1;0;0;0;0
+1020;Viridian Amber Medallion;False;False;310200;0;0.3;0;0;100;400090;0;0;18020;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1020;-1;0;0;0;0
+1021;Viridian Amber Medallion +1;True;False;310210;0;0.3;0;0;500;400100;0;0;18021;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1020;-1;0;0;0;0
+1022;Viridian Amber Medallion +2;True;False;310220;0;0.3;0;0;1000;400110;0;0;18022;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1020;-1;0;0;0;0
+1030;Arsenal Charm;False;False;310300;0;1.5;0;0;100;400130;0;0;18030;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1030;-1;0;0;0;0
+1031;Arsenal Charm +1;True;False;310310;0;1.5;0;0;500;400140;0;0;18031;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1030;-1;0;0;0;0
+1032;Great-Jar's Arsenal;True;False;310320;0;1.5;0;0;1000;400150;0;0;18032;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1030;-1;0;0;0;0
+1040;Erdtree's Favor;True;False;310400;0;1.5;0;0;500;400160;0;0;18040;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1040;-1;0;0;0;0
+1041;Erdtree's Favor +1;True;False;310410;0;1.5;0;0;1500;400170;0;0;18041;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1040;-1;0;0;0;0
+1042;Erdtree's Favor +2;True;False;310420;0;1.5;0;0;3000;400180;0;0;18042;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;3;0;1040;17;0;0;0;0
+1050;Radagon's Scarseal;True;False;310500;0;0.8;0;0;3000;400190;0;0;18050;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1050;-1;0;0;0;0
+1051;Radagon's Soreseal;True;False;310510;0;0.8;0;0;3000;400200;0;0;18051;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;3;0;1050;17;0;0;0;0
+1060;Starscourge Heirloom;True;False;310600;0;0.8;0;0;1000;400230;0;0;18070;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1060;-1;0;0;0;0
+1070;Prosthesis-Wearer Heirloom;True;False;310700;0;0.8;0;0;1000;400240;0;0;18080;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1070;-1;0;0;0;0
+1080;Stargazer Heirloom;True;False;310800;0;0.6;0;0;1000;400250;0;0;18090;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1080;-1;0;0;0;0
+1090;Two Fingers Heirloom;True;False;310900;0;0.6;0;0;1000;400260;0;0;18100;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1090;-1;0;0;0;0
+1100;Silver Scarab;True;False;311000;0;1.2;0;0;500;406150;0;0;18110;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;1100;-1;0;0;0;0
+1110;Gold Scarab;True;False;311100;0;1.2;0;0;500;406140;0;0;18120;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;1110;-1;0;0;0;0
+1140;Moon of Nokstella;True;False;311400;0;0.8;0;0;2000;403050;0;0;18150;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;3;0;1140;17;0;0;0;0
+1150;Green Turtle Talisman;True;False;311500;0;0.7;0;0;500;400120;0;0;18160;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1150;-1;0;0;0;0
+1160;Stalwart Horn Charm;True;False;311600;0;0.6;0;0;500;401210;0;0;18170;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1160;-1;0;0;0;0
+1161;Stalwart Horn Charm +1;True;False;311610;0;0.6;0;0;1000;401220;0;0;18171;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1160;-1;0;0;0;0
+1170;Immunizing Horn Charm;True;False;311700;0;0.6;0;0;500;401190;0;0;18180;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1170;-1;0;0;0;0
+1171;Immunizing Horn Charm +1;True;False;311710;0;0.6;0;0;1000;401200;0;0;18181;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1170;-1;0;0;0;0
+1180;Clarifying Horn Charm;True;False;311800;0;0.6;0;0;500;401230;0;0;18190;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1180;-1;0;0;0;0
+1181;Clarifying Horn Charm +1;True;False;311810;0;0.6;0;0;1000;401240;0;0;18191;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1180;-1;0;0;0;0
+1190;Prince of Death's Pustule;True;False;311900;0;0.6;0;0;500;401270;0;0;3220;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1190;-1;0;0;0;0
+1191;Prince of Death's Cyst;True;False;311910;0;0.6;0;0;1000;401280;0;0;18201;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1190;-1;0;0;0;0
+1200;Mottled Necklace;True;False;312000;0;0.9;0;0;1000;401250;0;0;18210;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1200;-1;0;0;0;0
+1201;Mottled Necklace +1;True;False;312010;0;0.9;0;0;2000;401260;0;0;18211;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;1200;-1;0;0;0;0
+1210;Bull-Goat's Talisman;True;False;312100;0;0.5;0;0;1000;405000;0;0;18220;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;1210;-1;0;0;0;0
+1220;Marika's Scarseal;True;False;312200;0;0.8;0;0;3000;400210;0;0;18060;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;1220;-1;0;0;0;0
+1221;Marika's Soreseal;True;False;312210;0;0.8;0;0;3000;400220;0;0;18061;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;3;0;1220;17;0;0;0;0
+1230;Warrior Jar Shard;True;False;312300;0;0.9;0;0;500;404040;0;0;18870;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;1230;-1;0;0;0;0
+1231;Shard of Alexander;True;False;312310;0;0.9;0;0;1000;404050;0;0;18871;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;1230;-1;0;0;0;0
+1250;Millicent's Prosthesis;True;False;312500;0;1.6;0;0;1000;406080;0;0;18890;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;1250;-1;312501;312502;312503;312504
+2000;Magic Scorpion Charm;True;False;320000;0;0.8;0;0;500;405020;0;0;18230;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;2000;-1;0;0;0;0
+2010;Lightning Scorpion Charm;True;False;320100;0;0.8;0;0;500;405040;0;0;18240;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;2010;-1;0;0;0;0
+2020;Fire Scorpion Charm;True;False;320200;0;0.8;0;0;500;405030;0;0;18250;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;2020;-1;0;0;0;0
+2030;Sacred Scorpion Charm;True;False;320300;0;0.8;0;0;500;405050;0;0;18260;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;2030;-1;0;0;0;0
+2040;Red-Feathered Branchsword;True;False;320400;0;1.4;0;0;500;406000;0;0;18270;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2040;-1;0;0;0;0
+2050;Ritual Sword Talisman;True;False;320500;0;0.9;0;0;500;406020;0;0;18280;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2050;-1;0;0;0;0
+2060;Spear Talisman;True;False;320600;0;0.5;0;0;500;402050;0;0;18290;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2060;-1;0;0;0;0
+2070;Hammer Talisman;True;False;320700;0;0.9;0;0;500;402040;0;0;18300;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2070;-1;0;0;0;0
+2080;Winged Sword Insignia;True;False;320800;0;1.4;0;0;500;406060;0;0;18310;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2080;-1;320801;320802;320803;0
+2081;Rotten Winged Sword Insignia;True;False;320810;0;1.4;0;0;500;406070;0;0;18311;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2080;-1;320811;320812;320813;0
+2090;Dagger Talisman;True;False;320900;0;1.1;0;0;500;402000;0;0;18320;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2090;-1;0;0;0;0
+2100;Arrow's Reach Talisman;True;False;321000;0;0.7;0;0;500;402100;0;0;18330;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2100;-1;0;0;0;0
+2110;Blue Dancer Charm;True;False;321100;0;0.9;0;0;500;405010;0;0;18350;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;2110;-1;0;0;0;0
+2120;Twinblade Talisman;True;False;321200;0;0.7;0;0;500;402020;0;0;18360;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2120;-1;0;0;0;0
+2130;Axe Talisman;True;False;321300;0;0.8;0;0;500;402030;0;0;18370;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2130;-1;0;0;0;0
+2140;Lance Talisman;True;False;321400;0;0.7;0;0;500;402060;0;0;18380;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2140;-1;0;0;0;0
+2150;Arrow's Sting Talisman;True;False;321500;0;0.7;0;0;500;402090;0;0;18340;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2150;-1;0;0;0;0
+2160;Lord of Blood's Exultation;True;False;321600;0;0.9;0;0;500;406110;0;0;18390;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2160;-1;0;0;0;0
+2170;Kindred of Rot's Exultation;True;False;321700;0;0.9;0;0;500;406100;0;0;18400;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;2170;-1;0;0;0;0
+2180;Claw Talisman;True;False;321800;0;0.7;0;0;500;402070;0;0;18800;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2180;-1;0;0;0;0
+2190;Roar Medallion;True;False;321900;0;0.7;0;0;500;404000;0;0;18810;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;2190;-1;0;0;0;0
+2200;Curved Sword Talisman;False;False;322000;0;0.7;0;0;500;402010;0;0;18820;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;2200;-1;0;0;0;0
+2210;Companion Jar;True;False;322100;0;0.6;0;0;500;404010;0;0;18830;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;2210;-1;0;0;0;0
+2220;Perfumer's Talisman;True;False;322200;0;0.6;0;0;500;404020;0;0;18840;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;2220;-1;0;0;0;0
+3000;Graven-School Talisman;True;False;330000;0;0.7;0;0;1000;403000;0;0;18410;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;2;0;3000;-1;0;0;0;0
+3001;Graven-Mass Talisman;True;False;330010;0;1;0;0;2000;403010;0;0;18411;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;2;0;3001;-1;0;0;0;0
+3040;Faithful's Canvas Talisman;True;False;330400;0;0.7;0;0;1000;403020;0;0;18440;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;2;0;3040;-1;0;0;0;0
+3050;Flock's Canvas Talisman;True;False;330500;0;1;0;0;2000;403030;0;0;18450;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;2;0;3050;-1;0;0;0;0
+3060;Old Lord's Talisman;True;False;330600;0;0.5;0;0;1000;403060;0;0;18460;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;3;0;3060;17;0;0;0;0
+3070;Radagon Icon;True;False;330700;0;0.7;0;0;1000;403070;0;0;18470;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;3;0;3070;17;0;0;0;0
+3080;Primal Glintstone Blade;True;False;330800;0;0.6;0;0;2000;403040;0;0;18480;0;0;0;0;0;0;2;0;40;0;0;0;True;False;False;True;True;True;False;True;2;0;3080;-1;0;0;0;0
+3090;Godfrey Icon;True;False;330900;0;0.8;0;0;1000;404060;0;0;18860;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;3;0;3090;17;0;0;0;0
+4000;Dragoncrest Shield Talisman;True;False;340000;0;0.8;0;0;100;401000;0;0;18490;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4000;-1;0;0;0;0
+4001;Dragoncrest Shield Talisman +1;True;False;340010;0;0.8;0;0;500;401010;0;0;18491;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4000;-1;0;0;0;0
+4002;Dragoncrest Shield Talisman +2;True;False;340020;0;0.8;0;0;1000;401020;0;0;18492;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4000;-1;0;0;0;0
+4003;Dragoncrest Greatshield Talisman;True;False;340030;0;0.8;0;0;2000;401030;0;0;18493;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;3;0;4000;17;0;0;0;0
+4010;Spelldrake Talisman;True;False;340100;0;0.6;0;0;100;401040;0;0;18500;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4010;-1;0;0;0;0
+4011;Spelldrake Talisman +1;True;False;340110;0;0.6;0;0;500;401050;0;0;18501;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4010;-1;0;0;0;0
+4012;Spelldrake Talisman +2;True;False;340120;0;0.6;0;0;1000;401060;0;0;18502;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4010;-1;0;0;0;0
+4020;Flamedrake Talisman;True;False;340200;0;0.6;0;0;100;401070;0;0;18510;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4020;-1;0;0;0;0
+4021;Flamedrake Talisman +1;True;False;340210;0;0.6;0;0;500;401080;0;0;18511;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4020;-1;0;0;0;0
+4022;Flamedrake Talisman +2;True;False;340220;0;0.6;0;0;1000;401090;0;0;18512;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4020;-1;0;0;0;0
+4030;Boltdrake Talisman;True;False;340300;0;0.6;0;0;100;401100;0;0;18520;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4030;-1;0;0;0;0
+4031;Boltdrake Talisman +1;True;False;340310;0;0.6;0;0;500;401110;0;0;18521;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4030;-1;0;0;0;0
+4032;Boltdrake Talisman +2;True;False;340320;0;0.6;0;0;1000;401120;0;0;18522;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4030;-1;0;0;0;0
+4040;Haligdrake Talisman;True;False;340400;0;0.6;0;0;100;401130;0;0;18530;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4040;-1;0;0;0;0
+4041;Haligdrake Talisman +1;True;False;340410;0;0.6;0;0;500;401140;0;0;18531;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4040;-1;0;0;0;0
+4042;Haligdrake Talisman +2;True;False;340420;0;0.6;0;0;1000;401150;0;0;18532;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4040;-1;0;0;0;0
+4050;Pearldrake Talisman;True;False;340500;0;0.9;0;0;100;401160;0;0;18540;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4050;-1;0;0;0;0
+4051;Pearldrake Talisman +1;True;False;340510;0;0.9;0;0;500;401170;0;0;18541;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4050;-1;0;0;0;0
+4052;Pearldrake Talisman +2;True;False;340520;0;0.9;0;0;1000;401180;0;0;18542;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;4050;-1;0;0;0;0
+4060;Crucible Scale Talisman;True;False;340600;0;1.1;0;0;500;405060;0;0;18550;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;4060;-1;0;0;0;0
+4070;Crucible Feather Talisman;True;False;340700;0;0.8;0;0;1000;405070;0;0;18560;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;4070;-1;0;0;0;0
+4080;Blue-Feathered Branchsword;True;False;340800;0;1.1;0;0;500;406010;0;0;18570;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;4080;-1;0;0;0;0
+4090;Ritual Shield Talisman;True;False;340900;0;0.9;0;0;500;406030;0;0;18580;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;4090;-1;0;0;0;0
+4100;Greatshield Talisman;True;False;341000;0;0.9;0;0;500;402080;0;0;18590;0;0;0;0;0;0;2;0;30;0;0;0;True;False;False;True;True;True;False;True;2;0;4100;-1;0;0;0;0
+4110;Crucible Knot Talisman;True;False;341100;0;0.5;0;0;500;405080;0;0;18600;0;0;0;0;0;0;2;0;60;0;0;0;True;False;False;True;True;True;False;True;2;0;4110;-1;0;0;0;0
+5000;Crimson Seed Talisman;True;False;350000;0;0.8;0;0;1000;400030;0;0;18610;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;5000;-1;0;0;0;0
+5010;Cerulean Seed Talisman;True;False;350100;0;0.8;0;0;1000;400080;0;0;18620;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;5010;-1;0;0;0;0
+5020;Blessed Dew Talisman;True;False;350200;0;0.6;0;0;1000;400040;0;0;18630;0;0;0;0;0;0;2;0;10;0;0;0;True;False;False;True;True;True;False;True;2;0;5020;-1;0;0;0;0
+5030;Taker's Cameo;True;False;350300;0;1;0;0;1000;406120;0;0;18640;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;5030;-1;0;0;0;0
+5040;Godskin Swaddling Cloth;True;False;350400;0;0.9;0;0;1000;406090;0;0;18650;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;5040;-1;0;0;0;0
+5050;Assassin's Crimson Dagger;True;False;350500;0;0.8;0;0;1500;406040;0;0;18660;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;5050;-1;0;0;0;0
+5060;Assassin's Cerulean Dagger;True;False;350600;0;0.8;0;0;1500;406050;0;0;18670;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;5060;-1;0;0;0;0
+6000;Crepus's Vial;True;False;360000;0;0.7;0;0;500;407000;0;0;18680;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6000;-1;0;0;0;0
+6010;Concealing Veil;True;False;360100;0;0.9;0;0;500;407010;0;0;18690;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6010;-1;0;0;0;0
+6020;Carian Filigreed Crest;True;False;360200;0;0.8;0;0;1000;404030;0;0;18700;0;0;0;0;0;0;2;0;50;0;0;0;True;False;False;True;True;True;False;True;2;0;6020;-1;0;0;0;0
+6040;Longtail Cat Talisman;True;False;360400;0;0.6;0;0;500;407020;0;0;18720;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6040;-1;0;0;0;0
+6050;Shabriri's Woe;True;False;360500;0;0.6;0;0;500;407050;0;0;18730;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6050;-1;0;0;0;0
+6060;Daedicar's Woe;True;False;360600;0;0.8;0;0;500;407060;0;0;18740;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6060;-1;0;0;0;0
+6070;Sacrificial Twig;True;False;360700;0;1;0;0;1000;407070;0;0;18750;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;1;0;6070;-1;0;0;0;0
+6080;Furled Finger's Trick-Mirror;True;False;360800;0;0.7;0;0;1000;407030;0;0;18760;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6080;-1;0;0;0;0
+6090;Host's Trick-Mirror;True;False;360900;0;0.7;0;0;1000;407040;0;0;18770;0;0;0;0;0;0;2;0;80;0;0;0;True;False;False;True;True;True;False;True;2;0;6080;-1;0;0;0;0
+6100;Entwining Umbilical Cord;True;False;361000;0;0.5;0;0;1000;999999;0;0;18780;0;0;0;0;0;0;2;0;255;0;0;0;True;False;False;True;True;True;False;True;2;0;6100;-1;0;0;0;0
+6110;Ancestral Spirit's Horn;True;False;361100;0;1.2;0;0;500;406130;0;0;18880;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;3;0;6110;-1;0;0;0;0
+9000;Voidbane Talisman;True;False;9200000;0;1.2;0;0;500;406200;0;0;18900;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9000;-1;0;0;0;0
+9010;Deathbane Talisman;True;False;9200010;0;1.2;0;0;500;406210;0;0;18901;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9010;-1;0;0;0;0
+9020;Dragonbane Talisman;True;False;9200020;0;1.2;0;0;500;406220;0;0;18902;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9020;-1;0;0;0;0
+9030;Godskin Ward;True;False;9200030;0;3;0;0;500;401300;0;0;18910;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;9030;-1;0;0;0;0
+9040;Marika's Golden Sigil;True;False;9200040;0;1.5;0;0;500;401310;0;0;18911;0;0;0;0;0;0;2;0;20;0;0;0;True;False;False;True;True;True;False;True;2;0;9040;-1;0;0;0;0
+9050;Feather of Khandros;True;False;9200050;0;1;0;0;500;406230;0;0;1047;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9050;-1;0;0;0;0
+9060;Fang of Madhros;True;False;9200060;0;2;0;0;500;406240;0;0;510;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9060;-1;0;0;0;0
+9070;Horn of Cernulos;True;False;9200070;0;2;0;0;500;406250;0;0;511;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9070;-1;0;0;0;0
+9080;Tear of Miriel;True;False;9200080;0;3;0;0;500;406260;0;0;384;0;0;0;0;0;0;2;0;70;0;0;0;True;False;False;True;True;True;False;True;2;0;9080;-1;0;0;0;0
+999999999;;True;False;361100;0;0.8;0;0;100;9999999;0;0;18880;0;0;0;0;0;0;2;0;255;0;0;0;True;False;False;True;False;True;False;True;1;0;6100;-1;0;0;0;0

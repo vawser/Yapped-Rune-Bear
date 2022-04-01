@@ -1,69 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="NPCAIActionMoveDir" type="u8">
+  </enum>
+  <enum name="NPCAIActionKey" type="u8">
+  </enum>
+  
   <entry>
-    <name>Direction Movement ID</name>
+    <name>Move Direction</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPCAIActionMoveDir</enum>
   </entry>
   <entry>
-    <name>Act ID 0</name>
-    <type>u8</type>
-    <default>22</default>
-  </entry>
-  <entry>
-    <name>Act ID 1</name>
+    <name>Key [1]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPCAIActionKey</enum>
   </entry>
   <entry>
-    <name>Act ID 2</name>
+    <name>Key [2]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPCAIActionKey</enum>
   </entry>
   <entry>
-    <name>Disable Directional Movement</name>
+    <name>Key [3]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPCAIActionKey</enum>
   </entry>
   <entry>
-    <name>Disable Act 0</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Handle Move Direction as Long Press</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Disable Act 1</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Handle Key [1] Hold as Long Press</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Disable Act 2</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Handle Key [2] Hold as Long Press</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Act Type</name>
+    <name>Handle Key [3] Hold as Long Press</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Gesture ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Disable AI Check</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>AI Goal Waits For Duration End</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
-    <entry>
-    <name>Unk1</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
 
 </layout>

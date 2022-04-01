@@ -1,4 +1,4 @@
-Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Reference Type;Reference ID;SFX Variation ID;Stamina Cost;Durability Cost;Category;Humanity Cost
+Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Reference Type;Reference ID;Poise Cost;Stamina Cost;Durability Cost;Category;Humanity Cost
 0;;0;0;0;0;-1;0;0;0;0;0
 5;;0;0;0;0;4;0;0;0;0;0
 7;;0;0;3;2;4;0;0;0;0;0
@@ -2410,11 +2410,11 @@ Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Refe
 235100010;[Skeleton (Scimitar)];35100;10;2;0;3510010;0;0;0;6;0
 235100020;[Skeleton (Scimitar)];35100;20;2;0;3510020;0;0;0;6;0
 235100030;[Skeleton (Scimitar)];35100;30;2;0;3510030;0;0;0;6;0
-235100040;[Skeleton (Scimitar)];35100;40;2;0;3510040;1101004800;0;0;6;0
+235100040;[Skeleton (Scimitar)];35100;40;2;0;3510040;20;0;0;6;0
 235100050;[Skeleton (Scimitar)];35100;50;2;0;3510050;0;0;0;6;0
 235100060;[Skeleton (Scimitar)];35100;60;2;0;3510060;0;0;0;6;0
 235100070;[Skeleton (Scimitar)];35100;70;2;0;3510070;0;0;0;6;0
-235100080;[Skeleton (Scimitar)];35100;80;2;0;3510080;1101004800;0;0;6;0
+235100080;[Skeleton (Scimitar)];35100;80;2;0;3510080;20;0;0;6;0
 235100090;[Skeleton (Scimitar)];35100;90;2;1;3510090;0;0;0;6;0
 235100100;[Skeleton (Scimitar)];35100;100;2;0;3510100;0;0;0;6;0
 235100105;[Skeleton (Scimitar)];35100;105;2;0;3510105;0;0;0;6;0
@@ -2422,13 +2422,13 @@ Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Refe
 235100120;[Skeleton (Scimitar)];35100;120;2;0;3510120;0;0;0;6;0
 235100130;[Skeleton (Scimitar)];35100;130;2;0;3510130;0;0;0;6;0
 235100140;[Skeleton (Scimitar)];35100;140;2;0;3510140;0;0;0;6;0
-235100150;[Skeleton (Scimitar)];35100;150;2;0;3510150;1101004800;0;0;6;0
+235100150;[Skeleton (Scimitar)];35100;150;2;0;3510150;20;0;0;6;0
 235100160;[Skeleton (Scimitar)];35100;160;2;0;3510160;0;0;0;6;0
 235100170;[Skeleton (Scimitar)];35100;170;2;0;3510170;0;0;0;6;0
-235100180;[Skeleton (Scimitar)];35100;180;2;0;3510180;1101004800;0;0;6;0
-235100190;[Skeleton (Scimitar)];35100;190;2;0;3510190;1101004800;0;0;6;0
+235100180;[Skeleton (Scimitar)];35100;180;2;0;3510180;20;0;0;6;0
+235100190;[Skeleton (Scimitar)];35100;190;2;0;3510190;20;0;0;6;0
 235100200;[Skeleton (Scimitar)];35100;200;2;0;3510200;0;0;0;6;0
-235100210;[Skeleton (Scimitar)];35100;210;2;0;3510210;1101004800;0;0;6;0
+235100210;[Skeleton (Scimitar)];35100;210;2;0;3510210;20;0;0;6;0
 235100220;[Skeleton (Scimitar)];35100;220;2;0;3510220;0;0;0;6;0
 235100230;[Skeleton (Scimitar)];35100;230;2;1;3510230;0;0;0;6;0
 235100240;[Skeleton (Scimitar)];35100;240;2;0;3510240;0;0;0;6;0

@@ -291,22 +291,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Soul Absorption Multiplier - Normal Enemy - Host</name>
+    <name>Rune Absorption Multiplier - Normal Enemy - Host</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Soul Absorption Multiplier - Normal Enemy - Friendly Phantom</name>
+    <name>Rune Absorption Multiplier - Normal Enemy - Friendly Phantom</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Soul Absorption Multiplier - Boss - Host</name>
+    <name>Rune Absorption Multiplier - Boss - Host</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Soul Absorption Multiplier - Boss - Friendly Phantom</name>
+    <name>Rune Absorption Multiplier - Boss - Friendly Phantom</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -556,22 +556,22 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Friendly Phantom - Soul Level Coefficient 1</name>
+    <name>Friendly Phantom - Level Coefficient 1</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Friendly Phantom - Soul Level Coefficient 2</name>
+    <name>Friendly Phantom - Level Coefficient 2</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hostile Phantom - Soul Level Coefficient 1</name>
+    <name>Hostile Phantom - Level Coefficient 1</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hostile Phantom - Soul Level Coefficient 2</name>
+    <name>Hostile Phantom - Level Coefficient 2</name>
     <type>u8</type>
     <default>0</default>
   </entry>

@@ -7,11 +7,19 @@
     <item value="3" name="Run to Source" />
     <item value="4" name="Immediate Battle AI" />
   </enum>
+  
   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
   <entry>
     <name>Logic ID</name>
     <type>s32</type>
@@ -25,48 +33,66 @@
     <description>Battle goal ID used to look up battle Lua script.</description>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Eyesight - Distance</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Eyesight - Y Angle</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Don't Avoid Giant Enemy</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable Weapon Switch</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Aim for AI Target Lock Dummy Poly ID</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>Ranged Attack - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
+    <name>Search Target - Forget Time [1]</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Search Target - Forget Time [2]</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Retreat Time after NPC Wall Collision</name>
+    <name>BackToHome Goal Duration after NPC Wall Collision</name>
     <type>f32</type>
     <default>5</default>
-    <description>Retreat goal time when touching an 'enemy wall' that blocks the NPC's path.</description>
   </entry>
   <entry>
-    <name>Goal ID - To Caution (Sound)</name>
+    <name>Search Target - Visual Forget Time</name>
     <type>f32</type>
     <default>8</default>
-    <description>Goal ID to use when NPC's AI enters the 'Caution' state. Requires a Caution Goal Action value of 4.</description>
   </entry>
   <entry>
-    <name>Animation ID - Attack Cannot Move</name>
+    <name>Blocked Movement - Anim ID</name>
     <type>s32</type>
     <default>3000</default>
     <description>Animation to use if the NPC gets stuck on a destructible object.</description>
   </entry>
   <entry>
-    <name>Goal ID - To Find (Sight)</name>
+    <name>Hearing - Distance</name>
     <type>f32</type>
     <default>0.1</default>
-    <description>Goal ID to use when NPC's AI enters the 'Search' state. Requires a SearchGoalAction value of 4.</description>
   </entry>
   <entry>
     <name>Call Help - Action Animation ID</name>
@@ -81,17 +107,23 @@
     <description>Animation to play when calling for help. Only used by Female Ghost (7300) and Male Ghost and summons (-1). I assume -1 means no animation is played. Set to 0 for all other NPCs.)</description>
   </entry>
   <entry>
-    <name>Distance - Sight</name>
-    <type>s16</type>
+    <name>Sight - Distance</name>
+    <type>u16</type>
     <default>20</default>
     <description>Distance of NPC eyesight (in meters).</description>
   </entry>
   <entry>
-    <name>Distance - Listen</name>
-    <type>s16</type>
-    <default>0</default>
-    <description>Distance of NPC hearing (in meters).</description>
+    <name>Use Guard against Actions</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
   <entry>
     <name>Listen - Sound Cut Distance</name>
     <type>s16</type>
