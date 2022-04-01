@@ -1,159 +1,159 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+  <enum name="MapAISightType" type="u8">
+  </enum>
+  <enum name="SoundIndoorType" type="u8">
+  </enum>
+  <enum name="SoundMapDefaultReverbType" type="s8">
+  </enum>
+  <enum name="SoundBGMMapPlaceType" type="s16">
+  </enum>
+  <enum name="SoundEnvMapPlaceType" type="s16">
+  </enum>
+  <enum name="MapGIResolutionOverrideType" type="s8">
+  </enum>
+  
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
 
+  <entry>
+    <name>Enable Fast Travel Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lot - Time Offset</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Create Asset Limit ID</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map AI Sight Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>MapAISightType</enum>
+  </entry>
+  <entry>
+    <name>Sound Indoor Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>SoundIndoorType</enum>
+  </entry>
+  <entry>
+    <name>Reverb Default Type</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>SoundMapDefaultReverbType</enum>
+  </entry>
+  <entry>
+    <name>BGM Place Info</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>SoundBGMMapPlaceType</enum>
+  </entry>
+  <entry>
+    <name>Env Place Info</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>SoundEnvMapPlaceType</enum>
+  </entry>
+  <entry>
+    <name>Map Additional Sound Bank ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Height for Sound</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Blend Timezone Envmap</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Override GI Resolution - XSS</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MapGIResolutionOverrideType</enum>
+  </entry>
+  <entry>
+    <name>Map High Hit Switch - AABB Depth</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map High Hit Switch - AABB Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map High Hit Switch - Play Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Automatic Draw Group - Back Side Pixel Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Player Light Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Timezone Player Light Scale</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Automatic Cliff Wind</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Open Character Activation Threshold</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Mimicry Establishment Param ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Override GI Resolution - XSX</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MapGIResolutionOverrideType</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>7</size>
+  </entry>
+  
 </layout>

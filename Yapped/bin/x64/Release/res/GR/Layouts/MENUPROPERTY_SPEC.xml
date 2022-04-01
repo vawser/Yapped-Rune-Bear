@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="MenuPropertyCMPType" type="u8">
+  </enum>
+  <enum name="MenuPropertyFormatType" type="u16">
+  </enum>
+  
   <entry>
     <name>Caption Text ID</name>
     <type>s32</type>
@@ -12,23 +17,32 @@
   </entry>
   <entry>
     <name>Required Property ID</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Compare Type</name>
     <type>u8</type>
     <default>1</default>
+    <enum>MenuPropertyCMPType</enum>
   </entry>
+  
   <entry>
-    <name>Required Property Format ID</name>
-    <type>u8</type>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Format Type</name>
+    <type>u16</type>
     <default>0</default>
+    <enum>MenuPropertyFormatType</enum>
   </entry>
+    
   <entry>
-    <name>Developer Caption</name>
-    <type>fixstrW</type>
-    <size>18</size>
-    <default></default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>16</size>
   </entry>
 </layout>

@@ -1,44 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <entry>
-    <name>Correction Value 0</name>
-    <type>s32</type>
-    <default>140201</default>
+   <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Correction Value 1</name>
-    <type>s32</type>
-    <default>140202</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
+  
   <entry>
-    <name>Correction Value 2</name>
-    <type>s32</type>
-    <default>140203</default>
-  </entry>
-  <entry>
-    <name>Correction Value 3</name>
+    <name>Friendly Client [1] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
-    <entry>
-    <name>Unk1</name>
+   <entry>
+    <name>Friendly Client [2] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Friendly Client [3] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Override SpEffect when Client Count Changes</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
 
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>15</size>
+  </entry>
 </layout>

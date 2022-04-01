@@ -1001,7 +1001,7 @@
     <description>Multiplier to apply to current Poise Health when this weapon is wielded.</description>
   </entry>
   <entry>
-    <name>Is Heavy Weapon</name>
+    <name>Is Toughness Perfomed if Poise is Initial Value</name>
     <type>b8</type>
     <default>False</default>
     <description>Used by typically heavy weapons.</description>

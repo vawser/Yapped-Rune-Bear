@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Player Post Death Timer 1</name>
+    <name>[YOU DIED] Fade Out Duration - Host</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Player Post Death Timer 2</name>
+    <name>[YOU DIED] Fade Out Duration - Phnatom</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -29,299 +29,284 @@
     <description>Determines the visual scale of the Stamina bar. The value entered here represents the bar at 100% width.</description>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Action Panel Change Threshold - Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Action Panel Change Threshold - Pass Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Vertical Position of Key Guide Icon</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>World Map - Cursor Select Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk9</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
+  
   <entry>
-    <name>Unk10</name>
+    <name>Decal Position Offset: X</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Decal Position Offset: Y</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>FE Search Icon Fade Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>FE Battle Icon Fade Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>World Map - Cursor Speed</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>World Map - Cursor First Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>World Map - Cursor First Delay</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>World Map - Cursor Wait Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>World Map - Cursor Snap Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>World Map - Cursor Snap Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Item Get Log Alive Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Player Max Poise Guage Length</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>World Map - Is Changeable Layer Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>World Map - Travel Margin</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>System Announcement - Scroll Buffer Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>System Announcement - Scroll Speed</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>System Announcement - No Scroll Wait Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>System Announcement - Scroll Count</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Compass Memo Display Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Compass Bonfire Display Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destination Marrker Threshold</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Saturation/Brightness Slider Step</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Pre-opening Movie - Wait Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Key Guide Icon - Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Key Guide Icon for Table - Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Key Guide Icon for Table - Vertical Position</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
+    <name>Key Guide Icon for Key Config - Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
+    <name>Key Guide Icon for Key Config - Vertical Position</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>World Map Search Radius</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Tutorial Display Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Compass Friendly Phantom Display Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Compass Hostile Phantom Display Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Compass Guest Phantom Display Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Cutscene Key Guide - Display Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Auto HUD: HP Ratio to display HUD</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Auto HUD: Display HUD when below X HP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
+    <name>Auto HUD: FP Ratio to display HUD</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
+    <name>Auto HUD: Display HUD when below X FP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk36</name>
+    <name>Auto HUD: Stamina Ratio to display HUD</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk37</name>
+    <name>Auto HUD: Display HUD when below X Stamina</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk38</name>
+    <name>World Map Zoom Animation Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk39</name>
+    <name>World Map Icon Minimum Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk40</name>
+    <name>World Map - Travel Margin Point</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk41</name>
-    <type>f32</type>
+    <name>Enemy HP Guage - Max Left Justification</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk42</name>
-    <type>f32</type>
+    <name>Enemy HP Guage - Max Right Justification</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk43</name>
-    <type>f32</type>
+    <name>Enemy HP Guage - Max Top Justification</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk44</name>
-    <type>f32</type>
+    <name>Enemy HP Guage - Max Bottom Justification</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk45</name>
-    <type>s32</type>
+    <name>HP Threshold to display Horse HP</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk46</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk51</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk52</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk53</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk54</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk55</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk56</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk57</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk59</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk60</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk61</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk62</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk63</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>32</size>
   </entry>
 
 </layout>

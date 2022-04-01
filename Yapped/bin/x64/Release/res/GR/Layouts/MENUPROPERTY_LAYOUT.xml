@@ -21,9 +21,10 @@
     <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
 </layout>

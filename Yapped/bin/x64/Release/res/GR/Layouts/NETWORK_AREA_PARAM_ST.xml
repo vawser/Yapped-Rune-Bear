@@ -1,69 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Limitation Time 1</name>
+    <name>Cell Size: X</name>
     <type>f32</type>
-    <default>30</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Limitation Time 2</name>
+    <name>Cell Size: Y</name>
     <type>f32</type>
-    <default>20</default>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Limitation Time 3</name>
+    <name>Cell Size: Z</name>
     <type>f32</type>
-    <default>30</default>
-  </entry>
-  <!-- Verified zero -->
-  <entry>
-    <name>pad1</name>
-    <type>dummy8</type>
-    <size>12</size>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Is Enable 1</name>
+    <name>Cell Offset: X</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Cell Offset: Y</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Cell Offset: Z</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Bloodstain</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Is Enable 2</name>
+    <name>Enable Blood Message</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Is Enable 3</name>
+    <name>Enable Ghost</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Enable Multiplayer</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Enable Ring Search</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Enable Invasion Search</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk4</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <!-- Verified zero -->
-  <entry>
-    <name>pad2</name>
+    <name>padding</name>
     <type>dummy8</type>
     <size>3</size>
   </entry>
