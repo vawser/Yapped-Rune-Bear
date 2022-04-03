@@ -1,48 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+  <enum name="SOUND_BGM_MAP_PLACE_TYPE" type="s16">
+  </enum>
+  <enum name="WORLD_MAP_POINT_TEXT_TYPE" type="u8">
+  </enum>
+  <enum name="WORLD_MAP_ENTRY_FE_TYPE" type="u8">
+  </enum>
+  
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Icon Type</name>
-    <type>s16</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   
   <entry>
-    <name>Unk3</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Open - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Distant View - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Icon ID</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>BGM Place Type</name>
     <type>s16</type>
     <default>0</default>
+    <enum>SOUND_BGM_MAP_PLACE_TYPE</enum>
+  </entry>
+   <entry>
+    <name>Is Area Icon</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Overwrite Coordinates when Distant View Marker</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable with No Text</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>Distant View Marker - Map Area</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Distant View Marker - Map Block</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Distant View Marker - Map Region</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Cleared - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Display Mask [0]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Display Mask [1]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+
+  <entry>
+    <name>Distant View - Icon ID</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Display Icon Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -81,184 +138,232 @@
     <type>f32</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>Area - Text ID</name>
+ <entry>
+    <name>Text ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Text Enable Flag [1]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [1]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Text Enable Flag [2]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [2]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+   <entry>
+    <name>Text ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Text Enable Flag [3]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [3]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Text Enable Flag [4]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [4]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Text Enable Flag [5]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [5]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Flag 1</name>
-    <type>s32</type>
+    <name>Text Enable Flag [6]</name>
+    <type>u32</type>
     <default>0</default>
-    <description>Unverified</description>
   </entry>
   <entry>
-    <name>Flag 2</name>
-    <type>s32</type>
+    <name>Text Disable Flag [6]</name>
+    <type>u32</type>
     <default>0</default>
-    <description>Unverified</description>
   </entry>
   <entry>
-    <name>Flag 3</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>Unverified</description>
-  </entry>
-  <entry>
-    <name>Unk21</name>
+    <name>Text ID [7]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Text Enable Flag [7]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [7]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text ID [8]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Text Enable Flag [8]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Disable Flag [8]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Text Type [1]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [2]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [3]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [4]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [5]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [6]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [7]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Text Type [8]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Distant View ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Distant View Marker - Coordinate: X</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Distant View Marker - Coordinate: Y</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Distant View Marker - Coordinate: Z</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Distant View ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Distant View ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
+    <name>Distant View ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>s32</type>
+    <name>Display - Min Zoom Step</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>s32</type>
+    <name>Selection - Min Zoom Step</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>s32</type>
+    <name>Entry FE Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_ENTRY_FE_TYPE</enum>
   </entry>
+  
   <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
+  
   <entry>
     <name>Unk46</name>
     <type>s32</type>

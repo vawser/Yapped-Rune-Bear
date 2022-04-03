@@ -1,23 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+  <enum name="TutorialMenuType" type="u8">
+  </enum>
+  <enum name="TutorialTriggerType" type="u8">
+  </enum>
+  <enum name="TutorialRepeatType" type="u8">
+  </enum>
+  
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Menu Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>TutorialMenuType</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Trigger Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>TutorialTriggerType</enum>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Repeat Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>TutorialRepeatType</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Image ID</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Unlock Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -26,19 +67,20 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Display Minimum Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Display Time</name>
     <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
 
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
 </layout>

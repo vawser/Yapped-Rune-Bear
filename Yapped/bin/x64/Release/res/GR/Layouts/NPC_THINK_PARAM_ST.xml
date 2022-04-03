@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ToCaution" type="u8">
+  <enum name="NPCThinkGoalAction" type="u8">
     <item value="0" name="Wait for Battle Start Distance" />
     <item value="1" name="Look at Source" />
     <item value="2" name="Approach Source" />
     <item value="3" name="Run to Source" />
     <item value="4" name="Immediate Battle AI" />
+  </enum>
+  <enum name="NPCThinkCavaranRole" type="u8">
+  </enum>
+  <enum name="NPCThinkReplyBehaviorType" type="u8">
+  </enum>
+  <enum name="NPCThinkActTypeOnFailedPath" type="u8">
+  </enum>
+  <enum name="NPCThinkActTypeOnNonBTLFailedPath" type="u8">
+  </enum>
+  <enum name="NPCThinkJumpUserEdgeUseType" type="u8">
+  </enum>
+  <enum name="NPCThinkChangeStateAction" type="u8">
+  </enum>
+  <enum name="NPCThinkBackToHomeStuckAct" type="u8">
   </enum>
   
   <entry>
@@ -33,12 +47,12 @@
     <description>Battle goal ID used to look up battle Lua script.</description>
   </entry>
   <entry>
-    <name>Eyesight - Distance</name>
+    <name>Sight - Distance</name>
     <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Eyesight - Y Angle</name>
+    <name>Sight - Y Angle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -90,7 +104,7 @@
     <description>Animation to use if the NPC gets stuck on a destructible object.</description>
   </entry>
   <entry>
-    <name>Hearing - Distance</name>
+    <name>Listen - Distance</name>
     <type>f32</type>
     <default>0.1</default>
   </entry>
@@ -110,7 +124,7 @@
     <name>Sight - Distance</name>
     <type>u16</type>
     <default>20</default>
-    <description>Distance of NPC eyesight (in meters).</description>
+    <description>Distance of NPC Sight (in meters).</description>
   </entry>
   <entry>
     <name>Use Guard against Actions</name>
@@ -125,86 +139,79 @@
   </entry>
   
   <entry>
-    <name>Listen - Sound Cut Distance</name>
-    <type>s16</type>
+    <name>Listen - Sound Cutoff Distance</name>
+    <type>u16</type>
     <default>0</default>
-    <description>Distance to reduce the size of the sound source. Sounds less than this distance will not be heard.</description>
   </entry>
   <entry>
-    <name>Distance - Sense</name>
-    <type>s16</type>
+    <name>Sense - Distance</name>
+    <type>u16</type>
     <default>0</default>
     <description>Distance of NPC sense (auto-detect).</description>
   </entry>
   <entry>
     <name>Retreat Home - Max Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>75</default>
     <description>Absolute furthest the NPC can travel from their nest before retreating, in or out of battle. Usually set to about 50% more than BattleRetreatDistance.</description>
   </entry>
   <entry>
     <name>Retreat Home - Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>50</default>
     <description>Furthest distance the NPC can travel from their nest before retreating in battle.</description>
   </entry>
   <entry>
     <name>Retreat Home - Battle Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>50</default>
     <description>Target distance at which battle mode is triggered while the enemy is retreating.</description>
   </entry>
   <entry>
     <name>Non-Battle Act Life</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>1</default>
     <description>Lifespan of Acts outside of battle.</description>
   </entry>
   <entry>
     <name>Retreat Home - Look for Target Time</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>7</default>
     <description>Time that NPC will search for a lost target before retreating.</description>
   </entry>
   <entry>
     <name>Retreat Home - Look for Target Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>12</default>
     <description>Distance that NPC will search for a lost target before retreating.</description>
   </entry>
   <entry>
-    <name>Target - Sight Forget Time</name>
-    <type>s16</type>
+    <name>Sound Target - Forget Time</name>
+    <type>f32</type>
     <default>0</default>
     <description>Time to forget about sighted targets.</description>
   </entry>
   <entry>
-    <name>Target - Listen Forget Time</name>
-    <type>s16</type>
-    <default>16448</default>
-    <description>Time to forget about heard targets.</description>
-  </entry>
-  <entry>
     <name>Battle - Start Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>20</default>
     <description>Target distance at which battle mode is triggered.</description>
   </entry>
   <entry>
     <name>Call Help - My Peer ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
     <description>Determines which calls for help this NPC will respond to (must match caller's HelpCallGroupID).</description>
   </entry>
   <entry>
     <name>Call Help - Call Peer ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
     <description>HelpGroupID value of NPCs who should respond to calls for help by this NPC.</description>
   </entry>
   <entry>
     <name>Target System - Damage Effect Rate</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
     <description>Get damage rate (%) for target system evaluation information</description>
   </entry>
@@ -227,16 +234,17 @@
     <description>Angular height of sight field in degrees.</description>
   </entry>
   <entry>
-    <name>State 0</name>
+    <name>Disable Darkness Modifier to Distance</name>
     <type>u8</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>State 1</name>
+    <name>Caravan Role</name>
     <type>u8</type>
     <default>0</default>
     <description></description>
+    <enum>NPCThinkCavaranRole</enum>
   </entry>
   <entry>
     <name>Call Help - Valid Target Min Distance</name>
@@ -273,24 +281,24 @@
     <type>u8</type>
     <default>1</default>
     <description>Type of action taken when AI enters the 'Caution' state.</description>
+    <enum>NPCThinkGoalAction</enum>
   </entry>
   <entry>
-    <name>Goal Action - To Find (Sight)</name>
+    <name>Listen - Listen Level</name>
     <type>u8</type>
-    <default>2</default>
-    <description>Type of action taken when AI enters the 'Search' state.</description>
+    <default>0</default>
   </entry>
   <entry>
     <name>Call Help - Reply Behavior Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Set to 0 for NPCs who do not reply to calls for help and 1 for NPCs who do.</description>
+    <enum>NPCThinkReplyBehaviorType</enum>
   </entry>
   <entry>
-    <name>Ignore Navmesh</name>
-    <type>u8</type>
-    <default>0</default>
-    <description>If 1, this NPC will ignore navmesh when moving. True for Ghosts and enemies that don't move at all.</description>
+    <name>Disable Path Move</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Skip Arrival Visibility Check</name>
@@ -341,44 +349,31 @@
     <description>If True, this NPC can go through walls (i.e. ignores navmesh walls).</description>
   </entry>
   <entry>
-    <name>Navigation - Ordinary Edge</name>
+    <name>Navigation - Lava</name>
     <type>b8</type>
     <default>False</default>
     <description></description>
   </entry>
   <entry>
-    <name>Navigation - Reserve</name>
+    <name>Navigation - Cliff Edge</name>
     <type>b8</type>
     <default>True</default>
     <description></description>
   </entry>
-  <!-- Verified zero -->
   <entry>
     <name>padding</name>
     <type>dummy8</type>
     <size>3</size>
   </entry>
   <entry>
-    <name>Sight Distance (Dark)</name>
-    <type>s16</type>
+    <name>Search Threshold - Level 0 to Level 1</name>
+    <type>s32</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Battle - Start Distance (Dark)</name>
-    <type>s16</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Sight Distance (Pitch Dark)</name>
-    <type>s16</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Battle - Start Distance (Pitch Dark)</name>
-    <type>s16</type>
+    <name>Search Threshold - Level 1 to Level 2</name>
+    <type>s32</type>
     <default>0</default>
     <description></description>
   </entry>
@@ -395,204 +390,216 @@
     <description></description>
   </entry>
   <entry>
-    <name>Sight - Back Offset Distance</name>
-    <type>s16</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Sight - Begin Distance</name>
-    <type>s16</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Target Arrival Distance</name>
-    <type>f32</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Point Arrival Distance</name>
-    <type>f32</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Change State Action - To Find</name>
+    <name>Search Sight - Angle X</name>
     <type>u8</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Change State Action - To Caution</name>
-    <type>u8</type>
+    <name>Update Battle Sight</name>
+    <type>b8</type>
+    <default>False</default>
+    <description></description>
+  </entry>
+  <entry>
+    <name>Battle Sight - Overwrite Distance</name>
+    <type>u16</type>
     <default>0</default>
     <description></description>
   </entry>
   <entry>
-    <name>Change State Action - To Battle</name>
+    <name>Battle Sight - Overwrite Angle Height</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
   </entry>
   <entry>
-    <name>Goal Action - To Disappear</name>
+    <name>Battle Sight - Overwrite Angle Width</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>16</size>
+  </entry>
+  
+  <entry>
+    <name>Sight - Start Position - Backward Offset</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sight - Start Distance</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Act Type on Failed Path</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkActTypeOnFailedPath</enum>
+  </entry>
+  <entry>
+    <name>Goal Action - Target Alerted by Important Sound</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkGoalAction</enum>
+  </entry>
+  <entry>
+    <name>Shift Animation ID on Ranged Attack</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Act Type on Non-BTL Failed Path</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkActTypeOnNonBTLFailedPath</enum>
+  </entry>
+  <entry>
+    <name>Is Spirit Summon AI</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Goal Action - Target Search Level 1</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkGoalAction</enum>
+  </entry>
+  <entry>
+    <name>Goal Action - Target Search Level 2</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkGoalAction</enum>
+  </entry>
+  <entry>
+    <name>Jump Move Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkJumpUserEdgeUseType</enum>
   </entry>
   <entry>
     <name>Disable Local Steering</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Goal Action - Target Lost</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
+    <enum>NPCThinkGoalAction</enum>
   </entry>
   <entry>
-    <name>Act Type On Failed Path</name>
+    <name>Change State Action - To Normal</name>
     <type>u8</type>
     <default>0</default>
-    <description></description>
+    <enum>NPCThinkChangeStateAction</enum>
   </entry>
   <entry>
-    <name>Interest Category</name>
-    <type>u8</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Goal Action - To Interest</name>
-    <type>u8</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s16</type>
-    <default>0</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Listen - Angle X</name>
-    <type>s16</type>
-    <default>3</default>
-    <description>Angular width of hearing field in degrees.</description>
-  </entry>
-  <entry>
-    <name>Listen - Angle Y</name>
-    <type>s16</type>
-    <default>3</default>
-    <description>Angular height of hearing field in degrees.</description>
-  </entry>
-  <entry>
-    <name>Change State Action - To Interest</name>
-    <type>u8</type>
-    <default>2</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Change State Action - to Normal</name>
-    <type>u8</type>
-    <default>2</default>
-    <description></description>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
+    <name>Time to Forget Target</name>
     <type>f32</type>
-    <default>2</default>
+    <default>0</default>
   </entry>
-    <entry>
-    <name>Unk12</name>
+  <entry>
+    <name>Attack ID - On Ranged Attack</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Use Fall Jump - Outside of Combat</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkJumpUserEdgeUseType</enum>
+  </entry>
+  <entry>
+    <name>Use Fall Jump - In Combat</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkJumpUserEdgeUseType</enum>
+  </entry>
+  <entry>
+    <name>Enable Jump - In Combat</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkJumpUserEdgeUseType</enum>
+  </entry>
+  <entry>
+    <name>Back to Home Stuck Act</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPCThinkBackToHomeStuckAct</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
+  <entry>
+    <name>Sound Behavior ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-    <entry>
-    <name>Unk15</name>
+    <name>Sound Behavior ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Sound Behavior ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Sound Behavior ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Sound Behavior ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Sound Behavior ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Sound Behavior ID [7]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Sound Behavior ID [8]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Weapon Switch Out - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Weapon Switch In - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Weapon Switch Out - Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Weapon Switch In - Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
+    <name>Stealth Attack - Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>

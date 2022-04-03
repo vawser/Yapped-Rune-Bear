@@ -1,57 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk0</name>
+    <name>Revert Type</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Condition: Area Number</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
+    <name>Condition: Indoor/Outdoor</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Condition: Evaluation Distance A</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Condition: Evaluation Distance B</name>
     <type>s8</type>
     <default>0</default>
   </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s8</type>
-    <default>0</default>
+ 
+ <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
+    <name>Condition: Evaluation Distance A - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Condition: Evaluation Distance A - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Condition: Evaluation Distance B - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Condition: Evaluation Distance B - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Condition: No Hit Number</name>
     <type>s32</type>
     <default>0</default>
   </entry>

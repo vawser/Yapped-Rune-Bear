@@ -630,292 +630,296 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 02</name>
+    <name>Mask 02 - Hide middle front face</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 03</name>
+    <name>Mask 03 - Hide top and back of head</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 04</name>
+    <name>Mask 04 - Hide neck</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 05</name>
+    <name>Mask 05 - Hide neckline and shoulders</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 06</name>
+    <name>Mask 06 - Hide upper torso area, reduce back size</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Affects hair 10 and 24</description>
+  </entry>
+  <entry>
+    <name>Mask 07 - Reduce bicep size</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Affects hair 10 and 24</description>
+  </entry>
+  <entry>
+    <name>Mask 08 - Reduce shoulder and upper bicep size</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Affects hair 10 and 24</description>
+  </entry>
+  <entry>
+    <name>Mask 09 - Hide elbows</name>
+    <type>u8</type>
+    <default>0</default>
+    <description>Affects hair 10 and 24</description>
+  </entry>
+  <entry>
+    <name>Mask 10 - Hide lower forearms</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 07</name>
+    <name>Mask 11 - Hide right hand</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 08</name>
+    <name>Mask 12 - Hide upper leg area</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 09</name>
+    <name>Mask 13 - Hide left hand</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 10</name>
+    <name>Mask 14 - Hide lower leg area</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 11</name>
+    <name>Mask 15 - Hide calves</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 12</name>
+    <name>Mask 16 - Hide feet</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 13</name>
+    <name>Mask 17 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 14</name>
+    <name>Mask 18 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 15</name>
+    <name>Mask 19 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 16</name>
+    <name>Mask 20 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 17</name>
+    <name>Mask 21 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 18</name>
+    <name>Mask 22 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 19</name>
+    <name>Mask 23 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 20</name>
+    <name>Mask 24 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 21</name>
+    <name>Mask 25 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 22</name>
+    <name>Mask 26 - Hide arms (for specific chest armor)</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 23</name>
+    <name>Mask 27 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 24</name>
+    <name>Mask 28 - Hide shoulders and shoulder armor</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 25</name>
+    <name>Mask 29 - Hide wrist cloth</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 26</name>
+    <name>Mask 30 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 27</name>
+    <name>Mask 31 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 28</name>
+    <name>Mask 32 - Alter Neck Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 29</name>
+    <name>Mask 33 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 30</name>
+    <name>Mask 34 - Alter Neck/Shoulder Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 31</name>
+    <name>Mask 35 - Alter Lower Stomach Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 32</name>
+    <name>Mask 36 - Alter Hood Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 33</name>
+    <name>Mask 37 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 34</name>
+    <name>Mask 38 - Hide Left Shoulder Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 35</name>
+    <name>Mask 39 - Hide Right Shoulder Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 36</name>
+    <name>Mask 40 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 37</name>
+    <name>Mask 41 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 38</name>
+    <name>Mask 42 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 39</name>
+    <name>Mask 43 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 40</name>
+    <name>Mask 44 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 41</name>
+    <name>Mask 45 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 42</name>
+    <name>Mask 46 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 43</name>
+    <name>Mask 47 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 44</name>
+    <name>Mask 48 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 45</name>
+    <name>Mask 49 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 46</name>
+    <name>Mask 50 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 47</name>
+    <name>Mask 51 - Head: Hide Leg Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 48</name>
+    <name>Mask 52 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 49</name>
+    <name>Mask 53 - Head: Hide Knee Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 50</name>
+    <name>Mask 54 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 51</name>
+    <name>Mask 55 - Head: Hide Belt Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 52</name>
+    <name>Mask 56 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 53</name>
+    <name>Mask 57 - Head: Hide Skirt Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 54</name>
+    <name>Mask 58 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 55</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Mask 56</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Mask 57</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Mask 58</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Mask 59</name>
+    <name>Mask 59 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -930,7 +934,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 62</name>
+    <name>Mask 62 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -965,137 +969,137 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 69</name>
+    <name>Mask 69 - Hide ponytail</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 70</name>
+    <name>Mask 70 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 71</name>
+    <name>Mask 71 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 72</name>
+    <name>Mask 72 - Alter Prisoner Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 73</name>
+    <name>Mask 73 - Alter Fia Clothing Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 74</name>
+    <name>Mask 74 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 75</name>
+    <name>Mask 75 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 76</name>
+    <name>Mask 76 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 77</name>
+    <name>Mask 77 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 78</name>
+    <name>Mask 78 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 79</name>
+    <name>Mask 79 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 80</name>
+    <name>Mask 80 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 81</name>
+    <name>Mask 81 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 82</name>
+    <name>Mask 82 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 83</name>
+    <name>Mask 83 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 84</name>
+    <name>Mask 84 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 85</name>
+    <name>Mask 85 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 86</name>
+    <name>Mask 86 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 87</name>
+    <name>Mask 87 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 88</name>
+    <name>Mask 88 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 89</name>
+    <name>Mask 89 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 90</name>
+    <name>Mask 90 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 91</name>
+    <name>Mask 91 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 92</name>
+    <name>Mask 92 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 93</name>
+    <name>Mask 93 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 94</name>
+    <name>Mask 94 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask 95</name>
+    <name>Mask 95 - Alter Armor Part</name>
     <type>u8</type>
     <default>0</default>
   </entry>

@@ -1,114 +1,138 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="WEATHER_ASSET_CREATE_CONDITION_TYPE" type="u8">
+  </enum>
+  <enum name="WEATHER_TYPE" type="s16">
+  </enum>
+  
    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+    <name>Asset ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Slot Number</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Create Condition Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WEATHER_ASSET_CREATE_CONDITION_TYPE</enum>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Transition Source Weather</name>
     <type>s16</type>
     <default>0</default>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Transition Destination Weather</name>
     <type>s16</type>
     <default>0</default>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
+    <name>Check Weather Elapsed Time</name>
     <type>s16</type>
     <default>0</default>
+    <enum>WEATHER_TYPE</enum>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
+    <name>Elapsed Time</name>
     <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
 
+  <entry>
+    <name>Create Delay Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Probability</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Duration</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Fade Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Create Time Min</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Create Time Max</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Point [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Point [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Point [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Point [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Asset Limit ID [0]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Asset Limit ID [1]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Asset Limit ID [2]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Create Asset Limit ID [3]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
 </layout>

@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>Sound Number</name>
     <type>s32</type>
     <default>0</default>
+    <description>Sound Type is fixed to "a"</description>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Expand Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Follow Speed</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Follow Rate</name>
     <type>f32</type>
     <default>0</default>
   </entry>

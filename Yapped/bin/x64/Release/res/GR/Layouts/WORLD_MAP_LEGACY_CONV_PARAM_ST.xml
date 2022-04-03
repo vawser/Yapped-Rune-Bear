@@ -1,89 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
-  <entry>
-    <name>Map A Area</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Block</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Region</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Index</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Coordinate: X</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Coordinate: Y</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map A Coordinate: Z</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Area</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Block</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Region</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Index</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Coordinate: X</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Coordinate: Y</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Map B Coordinate: Z</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>padding</name>
     <type>dummy8</type>
-    <size>8</size>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Source Map Area</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Source Map Block</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Source Map Region</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Source Map Coordinate: X</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Source Map Coordinate: Y</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Source Map Coordinate: Z</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Destination Map Area</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destination Map Block</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destination Map Region</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Destination Map Coordinate: X</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destination Map Coordinate: Y</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Destination Map Coordinate: Z</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Reference Connection Point</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>11</size>
   </entry>
 </layout>

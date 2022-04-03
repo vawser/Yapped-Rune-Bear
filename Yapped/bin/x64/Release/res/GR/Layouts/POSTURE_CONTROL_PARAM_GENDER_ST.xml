@@ -1,164 +1,144 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>[a000] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>[a000] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>[a000] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>[a002] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>[a002] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>[a002] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>[a003] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>[a003] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>[a003] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>[a010] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>[a010] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>[a010] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>[a012] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>[a012] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>[a012] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>[a013] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>[a013] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>[a013] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>[a014] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>[a014] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>[a014] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>[a015] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>[a015] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>[a015] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>[a016] Right Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>[a016] Left Elbow - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
+    <name>[a016] Both Legs - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk27</name>
-    <type>s16</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>10</size>
   </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-
 </layout>

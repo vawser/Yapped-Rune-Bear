@@ -25,46 +25,59 @@
     <item value="21" name="None" />
     <item value="22" name="White" />
     <item value="23" name="White Outline" />
-    
   </enum>
+  
+  <enum name="EffectTypeVFX" type="u8">
+  </enum>
+  <enum name="VFXPlayCategory" type="u8">
+  </enum>
+  <enum name="VFXForceDeceasedType" type="u8">
+  </enum>
+  <enum name="VFXSFXIDOffsetType" type="u8">
+  </enum>
+  <enum name="OverwritePhantomParamType" type="u8">
+  </enum>
+  <enum name="VFXWetAspectType" type="u8">
+  </enum>
+  
   <entry>
-    <name>Ongoing Visual FX ID</name>
+    <name>Ongoing SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ongoing Sound FX ID</name>
+    <name>Ongoing SE ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Initial Visual FX ID</name>
+    <name>Initial SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Initial Sound FX ID</name>
+    <name>Initial SE ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Finish Visual FX ID</name>
+    <name>Finish SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Finish Sound FX ID</name>
+    <name>Finish SE ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hide Start Distance</name>
+    <name>Camouflage - Start Distance</name>
     <type>f32</type>
     <default>-1</default>
     <description>Closest distance at which effect is disabled.</description>
   </entry>
   <entry>
-    <name>Hide End Distance</name>
+    <name>Camouflage - End Distance</name>
     <type>f32</type>
     <default>-1</default>
     <description>Furthest distance at which effect is disabled.</description>
@@ -75,17 +88,17 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Ongoing Model Point ID</name>
+    <name>Ongoing Dummy Poly ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Initial Model Point ID</name>
+    <name>Initial Dummy Poly ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Finish Model Point ID</name>
+    <name>Finish Dummy Poly ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -93,17 +106,20 @@
     <name>Effect Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>EffectTypeVFX</enum>
   </entry>
   <entry>
-    <name>Weapon Enchant ID 0</name>
+    <name>Weapon Enchant - Soul Param ID</name>
     <type>u8</type>
     <default>0</default>
+    <enum>SoulParamID</enum>
   </entry>
   <entry>
     <name>Play Category</name>
     <type>u8</type>
     <default>0</default>
     <description>Only one effect in each category can be active at once (determined by PlaybackPriority).</description>
+    <enum>VFXPlayCategory</enum>
   </entry>
   <entry>
     <name>Play Priority</name>
@@ -124,29 +140,28 @@
     <description>Indicates if a 'soul' version of the effect exists.</description>
   </entry>
   <entry>
-    <name>Invisible Whilst Hidden</name>
+    <name>Camouflage - Invisible while Active</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Enable Hide Fields</name>
+    <name>Camouflage - Fields</name>
     <type>b8</type>
     <default>False</default>
     <description>Enables the disable distance fields for the effect.</description>
   </entry>
   <entry>
-    <name>Invisible in Camouflage for Friend</name>
+    <name>Camouflage - Invisible for Friend</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Add Map Area Block Offset</name>
+    <name>Camouflage - Hide Foot Effect</name>
     <type>b8</type>
     <default>False</default>
-    <description>Ads map ID digits to effect ID.</description>
   </entry>
   <entry>
-    <name>Enable Half Hidden</name>
+    <name>Camouflage - Translucent Appearance</name>
     <type>b8</type>
     <default>False</default>
     <description>If enabled, effects are made semi-transparent rather than fully hidden.</description>
@@ -167,214 +182,201 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Hand Protector ID</name>
+    <name>Is Ongoing SFX Full Body</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Is Initial SFX Full Body</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Is Finish SFX Full Body</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Is Visible on Dead Chr</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Use Enchant SFX Size to Offset SFX ID</name>
     <type>b8</type>
     <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Decal ID 0</name>
+    <name>Decal ID [0]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Decal ID 1</name>
+    <name>Decal ID [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Weapon Enchant ID 1</name>
+    <name>Foot Effect Priority</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect VFX Type 0</name>
+    <name>Foot Effect Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect VFX Type 1</name>
+    <name>Trace SFX ID Offset Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>SoulParamID</enum>
   </entry>
   <entry>
-    <name>Body Protector Type</name>
+    <name>Force Deceased Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>VFXForceDeceasedType</enum>
+  </entry>
+  <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX end - Dummy Poly ID [0]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+   <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+   <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [4]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [4]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [5]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [5]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+   <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [6]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [6]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+   <entry>
+    <name>Enchant SFX Start - Dummy Poly ID [7]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Enchant SFX End - Dummy Poly ID [7]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>SFX ID OffsetType</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>VFXSFXIDOffsetType</enum>
+  </entry>
+  <entry>
+    <name>Phantom Param Overwrite Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>OverwritePhantomParamType</enum>
+  </entry>
+  <entry>
+    <name>Camouflage - Min Alpha</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect VFX - Dummy ID 0</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 1</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 2</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 3</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 4</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 5</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 6</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 7</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 8</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 9</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 10</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 11</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 12</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 13</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 14</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Effect VFX - Dummy ID 15</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
+    <name>Wet Aspect Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>VFXWetAspectType</enum>
   </entry>
   <entry>
-    <name>Phantom Type</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Camouflage Ghost</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Phantom Param ID</name>
+    <name>Phantom Param Overwrite ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Emissive Intensity Scale</name>
+    <name>Material Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Material Param - Start Fade</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Body Protector Val</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Ember Intensity Scale</name>
+    <name>Material Param - End Fade</name>
     <type>f32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Material Param - Fade Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Foot Decal Material Offset Overwrite ID</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>14</size>
   </entry>
+  
 </layout>

@@ -109,28 +109,28 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Scaling: STR</name>
+    <name>Correction: STR</name>
     <type>f32</type>
     <default>0</default>
-    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+    <description>Base Correction value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
-    <name>Scaling: DEX</name>
+    <name>Correction: DEX</name>
     <type>f32</type>
     <default>0</default>
-    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+    <description>Base Correction value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
-    <name>Scaling: INT</name>
+    <name>Correction: INT</name>
     <type>f32</type>
     <default>0</default>
-    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+    <description>Base Correction value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
-    <name>Scaling: FTH</name>
+    <name>Correction: FTH</name>
     <type>f32</type>
     <default>0</default>
-    <description>Base scaling value. Is affected by ReinforceWeaponParam multiplier.</description>
+    <description>Base Correction value. Is affected by ReinforceWeaponParam multiplier.</description>
   </entry>
   <entry>
     <name>Guard Absorption: Physical</name>
@@ -707,7 +707,7 @@
     <description>Determines if weapon buff effects can be applied to this weapon.</description>
   </entry>
   <entry>
-    <name>Is Arcane Scaling</name>
+    <name>Is Arcane Correction</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1129,7 +1129,7 @@
     <default>1703</default>
   </entry>
   <entry>
-    <name>Scaling: ARC</name>
+    <name>Correction: ARC</name>
     <type>f32</type>
     <default>20</default>
   </entry>

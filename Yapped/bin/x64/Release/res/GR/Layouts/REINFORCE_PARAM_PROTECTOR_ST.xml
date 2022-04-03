@@ -56,17 +56,17 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>SpEffect ID Offset 1</name>
+    <name>Passive SpEffect ID Offset [1]</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect ID Offset 2</name>
+    <name>Passive SpEffect ID Offset [2]</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect ID Offset 3</name>
+    <name>Passive SpEffect ID Offset [3]</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -86,12 +86,12 @@
     <default>1</default>
   </entry>
     <entry>
-    <name>Unk1</name>
+    <name>Resistance % - Sleep</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Resistance % - Madness</name>
     <type>f32</type>
     <default>0</default>
   </entry>

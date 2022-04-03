@@ -1,794 +1,794 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk1</name>
+    <name>Common - Sign Vertical Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Common - Max Sign Position Correction Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Common - Summon Timeout Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
+  <entry>
+    <name>Summon Sign - Sign Puddle Active Message Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Summon Sign - Key Guide Height</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Summon Sign - Reload Sign Interval Time [1]</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Summon Sign - Reload Sign Interval Time [2]</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Summon Sign - Reload Sign Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Reload Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Update Sign Interval Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Summon Sign - Basic Exclusive Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Summon Sign - Basic Exclusive Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Preview Chr Waiting Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Sign Visible Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Cell Group Horizontal Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Cell Group Top Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Cell Group Bottom Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Min White Phantom Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Min Small Phantom Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - White Keyword Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Small Keyword Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Black Keyword Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Dragon Keyword Limit Time Scale</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Sign Get Max</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Sign Download Span</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summon Sign - Sign Update Span</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+
+  <entry>
+    <name>Break In - Max Break In Target List Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Break In - Break In Request Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Break In - Break In Request Time Out</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
+  <entry>
+    <name>Blood Message - Key Guide Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Key Guide Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Reload Sign Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Reload New Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Reload Random Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Max Sign Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Max Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Basic Exclusive Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Basic Exclusive Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Sign Visible Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Max Write Sign Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Max Read Sign Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Reload Sign Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Cell Group Horizontal Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Cell Group Top Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Cell Group Bottom Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Lifetime</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Download Span</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Blood Message - Download Evaluation Span</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
+  <entry>
+    <name>Bloodstain - Dead Ghost Start Position Threshold</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Key Guide Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Key Guide Range Player</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Key Guide Height Player</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Reload Sign Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Reload Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Max Sign Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Max Sign Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Reload Sign Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Sign Visible Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Basic Exclusive Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Basic Exclusive Height</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Cell Group Horizontal Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Cell Group Top Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Cell Group Bottom Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Lifetime</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Bloodstain - Record Dead Ghost Total Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Record Dead Ghost Min Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Download Span</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bloodstain - Statue Creatable Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Reload Ghost Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Reload Ghost Cell Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Max Ghost Total Count</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Begin Record Distance (Versus)</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - End Record Distance (Versus)</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Update Wandering Ghost Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Update Versus Ghost Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Record Wandering Ghost Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Record Wandering Ghost Min Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Update Bonfire Ghost Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Ghost Range On View</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Ghost Range Out View</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Bonfire Ghost Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Bonfire Ghost Min Valid Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Bonfire Ghost Max Valid Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Interval Min Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Interval Max Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Reload Ghost Interval Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Cell Group Horizontal Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Cell Group Top Range</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ghost - Replay Bonfire Phantom Param ID (Codename)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Ghost - Replay Bonfire Mode Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
+    <name>Ghost - Replay Bonfire Phantom Param ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk46</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk51</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk52</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk53</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk54</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk55</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk56</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk57</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk59</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk60</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk61</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk62</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
+
   <entry>
-    <name>Unk63</name>
+    <name>Visit - Reload Visit List Cool time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk65</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk66</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk67</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk68</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk69</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk70</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk71</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk72</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk73</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk74</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk75</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk76</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk77</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk78</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk79</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk80</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk81</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk82</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk83</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk84</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk85</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk86</name>
-    <type>f32</type>
+    <name>Visit - Max Coop Blue Summon Count</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk87</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk88</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk89</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk90</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk91</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk92</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk93</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk94</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk95</name>
-    <type>s32</type>
+    <name>Visit - Max Bell Guard Summon Count</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk96</name>
-    <type>f32</type>
+    <name>Visit - Max Visit List Count</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk97</name>
+    <name>Visit - Reload Search - Coop Blue - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk98</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk99</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk100</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk101</name>
+    <name>Visit - Reload Search - Coop Blue - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk102</name>
+    <name>Visit - Reload Search - Bell Guard - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk103</name>
+    <name>Visit - Reload Search - Bell Guard - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk104</name>
+    <name>Visit - Reload Search - Rat King - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk105</name>
+    <name>Visit - Reload Search - Rat King - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk106</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
+
   <entry>
-    <name>Unk107</name>
+    <name>Extra - SSRT Max Limit</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk108</name>
+    <name>Extra - SSRT Mean Limit</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk109</name>
+    <name>Extra - SSRT Mean Deviation Limit</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk110</name>
+    <name>Extra - Dark Phantom Limit Boost Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk111</name>
+    <name>Extra - Dark Phantom Limit Boost Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk112</name>
+    <name>Extra - Multiplayer Disable Lifetime</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk113</name>
-    <type>f32</type>
+    <name>Extra - Abyss Multiplayer Limit</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk114</name>
-    <type>f32</type>
+    <name>Extra - Phantom Warp Minimum Time</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk115</name>
-    <type>s32</type>
+    <name>Extra - Phantom Return Delay Time</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk116</name>
-    <type>s32</type>
+    <name>Extra - Terminate Timeout Time</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk117</name>
-    <type>s32</type>
+    <name>Extra - Penalty Point LAN Disconnet</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk118</name>
-    <type>f32</type>
+    <name>Extra - Penalty Point Signout</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk119</name>
-    <type>s32</type>
+    <name>Extra - Penalty Point Reboot</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk120</name>
-    <type>f32</type>
+    <name>Extra - Penalty Point Begin Penalize</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk121</name>
+    <name>Extra - Penalty Forgive Item Limit Time</name>
     <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk122</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk123</name>
-    <type>f32</type>
+    <name>Extra - All Area Search Rate - Coop Blue</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk124</name>
-    <type>f32</type>
+    <name>Extra - All Area Search Rate - Vs. Coop Blue</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk125</name>
-    <type>f32</type>
+    <name>Extra - All Area Search Rate - Bell Guard</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk126</name>
-    <type>f32</type>
+    <name>Extra - Blood Message Eval Heal Rate</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk127</name>
-    <type>f32</type>
+    <name>Extra - Small Gold Success Host Reward ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk128</name>
+    <name>Extra - Door Invalid Play Area Extents</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk129</name>
-    <type>f32</type>
+    <name>Extra - Sign Display Max</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk130</name>
-    <type>f32</type>
+    <name>Extra - Bloodstain Display Max</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk131</name>
-    <type>f32</type>
+    <name>Extra - Blood Message Display Max</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk132</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>9</size>
   </entry>
+  
   <entry>
-    <name>Unk133</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>32</size>
   </entry>
+  
   <entry>
-    <name>Unk134</name>
+    <name>Quick Match - Summon Message Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk135</name>
+    <name>Quick Match - Host Register Update Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk136</name>
+    <name>Quick Match - Host Time Out Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk137</name>
+    <name>Quick Match - Guest Update Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk138</name>
+    <name>Quick Match - Guest Player No Time Out Time</name>
     <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk139</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk140</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk141</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk142</name>
-    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk143</name>
+    <name>Quick Match - Host Player No Time Out Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk144</name>
-    <type>f32</type>
+    <name>Quick Match - Request Search Quick Match Limit</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk145</name>
-    <type>s32</type>
+    <name>Quick Match - Avatar Match Search Max</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk146</name>
-    <type>f32</type>
+    <name>Quick Match - Battle Royale Match Search Min</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk147</name>
-    <type>f32</type>
+    <name>Quick Match - Battle Royale Match Search Max</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk148</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
+  
   <entry>
-    <name>Unk149</name>
-    <type>f32</type>
+    <name>Visitor - Visitor List Max</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk150</name>
+    <name>Visitor - Visitor Time Out Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk151</name>
+    <name>Visitor - Download Span</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk152</name>
+    <name>Visitor - Visitor Guest Request Message Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk153</name>
+    <name>Ghost Addition - Wandering Ghost Interval Lifetime</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk154</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
+  
   <entry>
-    <name>Unk155</name>
+    <name>Yellow Monk - Yellow Monk Timeout Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk156</name>
+    <name>Yellow Monk - Yellow Monk Download Span</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk157</name>
+    <name>Yellow Monk - Yellow Monk Overall Flow Time Out Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk158</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
 
 </layout>

@@ -1,169 +1,135 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="ObjActSpQualifiedType" type="u8">
+  </enum>
+  <enum name="ObjActChrSorbType" type="u8">
+  </enum>
+  <enum name="ObjActEventKickTiming" type="u8">
+  </enum>
+  
   <entry>
-    <name>Action Enabled Message ID</name>
+    <name>Action Enabled - Message ID</name>
     <type>s32</type>
     <default>10010400</default>
   </entry>
   <entry>
-    <name>Action Failed Message ID</name>
+    <name>Action Failed - Message ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Qualified Event ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <name>Unconditional Qualified Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Player Animation ID</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>60000</default>
   </entry>
   <entry>
     <name>Character Animation ID</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>7120</default>
   </entry>
   <entry>
     <name>Valid Distance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>70</default>
   </entry>
   <entry>
-    <name>Qualified Item ID</name>
-    <type>s16</type>
+    <name>Conditional Qualified Event Flag ID [1]</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Qualified Item ID</name>
-    <type>s16</type>
+    <name>Conditional Qualified Event Flag ID [2]</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Object Dummy ID</name>
+    <name>Object Dummy Poly ID</name>
     <type>u8</type>
     <default>120</default>
   </entry>
   <entry>
-    <name>Unk0</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Is Event Execution Synchronized</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Object Animation ID</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>1</default>
   </entry>
   <entry>
     <name>Valid Player Angle</name>
     <type>u8</type>
     <default>60</default>
+    <description>The effective angle of the player's action. Effective angle difference between the player's orientation vector and the orientation vector to the object</description>
   </entry>
   <entry>
-    <name>Qualified ID 1 Type</name>
+    <name>Qualified ID Type [1]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ObjActSpQualifiedType</enum>
   </entry>
-  <entry>
-    <name>Qualified ID 2 Type</name>
+ <entry>
+    <name>Qualified ID Type [2]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ObjActSpQualifiedType</enum>
   </entry>
   <entry>
     <name>Valid Object Angle</name>
     <type>u8</type>
     <default>60</default>
+    <description>The action effective angle of the object. Effective angle difference between the action vector of the object and the character vector</description>
   </entry>
   <entry>
     <name>Character Absorb Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ObjActChrSorbType</enum>
   </entry>
   <entry>
-    <name>Event Kick Timing</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
+    <name>Event Execution Timing</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ObjActEventKickTiming</enum>
   </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
+  
   <entry>
     <name>Action Button Param ID</name>
     <type>s32</type>
     <default>7200</default>
   </entry>
   <entry>
-    <name>Action Success Message ID</name>
-    <type>s32</type>
+    <name>Treasure Enable Delay</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk1</name>
+    <name>Pre-action SFX Dummy Poly ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Pre-action SFX ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>40</size>
   </entry>
 
 </layout>

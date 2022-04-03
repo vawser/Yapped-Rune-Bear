@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>Weather SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Wind SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Ground Hit SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Sound ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Wet Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>GPARAM ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Next Weather Lot - Min Duration</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Next Weather Lot - Max Duration</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wet SpEffect [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Wet SpEffect [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Wet SpEffect [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Wet SpEffect [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Wet SpEffect [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Weather SFX - Indoors Only - SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Weather SFX - Outdoors Only - SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
+    <name>AI Sight Rate</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Overwrite Weight Valuue in Distant View Camera</name>
     <type>f32</type>
     <default>0</default>
   </entry>

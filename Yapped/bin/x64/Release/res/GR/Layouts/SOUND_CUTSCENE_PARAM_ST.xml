@@ -1,45 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-   <entry>
-    <name>Unk0</name>
+  <enum name="SoundCutsceneBGMBehaviorType" type="s16">
+  </enum>
+  
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>ReverbType</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>BGM Behavior Type On Start</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>SoundCutsceneBGMBehaviorType</enum>
+  </entry>
+  <entry>
+    <name>One-shot BGM Behavior Type On Start</name>
+    <type>s16</type>
+    <default>0</default>
+    <enum>SoundCutsceneBGMBehaviorType</enum>
+  </entry>
+  
+  <entry>
+    <name>Post Play SE ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Post Play SE ID for Skip</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
+    <name>Enter Map Mute Stop Time on Draw Cutscene</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
 
 </layout>

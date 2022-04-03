@@ -1,85 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-     <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>[a000] Left Arm - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>[a000] Left Wrist - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>[a000] Left Wrist - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>[a002] Left Arm - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>[a002] Left Wrist - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>[a002] Left Wrist - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>[a003] Left Arm - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>[a003] Left Wrist - Front/Back</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
+    <name>[a003] Left Wrist - Inside/Outside</name>
     <type>s16</type>
     <default>0</default>
   </entry>
 
-
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>14</size>
+  </entry>
 </layout>
