@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="RuntimeBoneControlType" type="u8">
+  <enum name="RUNTIME_BONE_CONTROL_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -12,7 +12,7 @@
     <name>Bone Control Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>RuntimeBoneControlType</enum>
+    <enum>RUNTIME_BONE_CONTROL_TYPE</enum>
   </entry>
   
   <entry>

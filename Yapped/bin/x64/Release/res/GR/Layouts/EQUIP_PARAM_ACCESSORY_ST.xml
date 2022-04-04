@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ReferenceType" type="u8">
+  <enum name="BEHAVIOR_REF_TYPE" type="u8">
     <item value="0" name="Behavior / None" />
 	<item value="1" name="Bullet" />
 	<item value="2" name="SpEffect" />
   </enum>
-  <enum name="Rarity" type="u8">
+  <enum name="RARITY" type="u8">
     <item value="0" name="Default" />
 	<item value="1" name="Common" />
 	<item value="2" name="Rare" />
 	<item value="3" name="Legendary" />
   </enum>
-  <enum name="EquipModelCategory" type="u8">
+  <enum name="EQUIP_MODEL_CATEGORY" type="u8">
   </enum>
-  <enum name="EquipModelGender" type="u8">
+  <enum name="EQUIP_MODEL_GENDER" type="u8">
   </enum>
-  <enum name="AccessoryType" type="u8">
+  <enum name="ACCESSORY_CATEGORY" type="u8">
   </enum>
-  <enum name="BehaviorCategory" type="u8">
+  <enum name="BEHAVIOR_CATEGORY" type="u8">
   </enum>
   
   <entry>
@@ -106,31 +106,31 @@
     <name>Equip Model Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EquipModelCategory</enum>
+    <enum>EQUIP_MODEL_CATEGORY</enum>
   </entry>
   <entry>
     <name>Equip Model Gender</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EquipModelGender</enum>
+    <enum>EQUIP_MODEL_GENDER</enum>
   </entry>
   <entry>
     <name>Accessory Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AccessoryType</enum>
+    <enum>ACCESSORY_CATEGORY</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
     <type>u8</type>
     <default>2</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>SpEffect Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>BehaviorCategory</enum>
+    <enum>BEHAVIOR_CATEGORY</enum>
   </entry>
   <entry>
     <name>Sort Group ID</name>
@@ -196,7 +196,7 @@
     <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
-    <enum>Rarity</enum>
+    <enum>RARITY</enum>
   </entry>
   
   <entry>

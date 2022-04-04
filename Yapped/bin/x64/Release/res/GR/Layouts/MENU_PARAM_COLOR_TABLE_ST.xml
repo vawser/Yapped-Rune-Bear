@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="MenuColorLerpMode" type="u8">
+  <enum name="MENU_COLOR_LERP_MODE" type="u8">
   </enum>
   
   <entry>
     <name>Lerp Mode</name>
     <type>u8</type>
     <default>0</default>
-    <enum>MenuColorLerpMode</enum>
+    <enum>MENU_COLOR_LERP_MODE</enum>
   </entry>
   
   <entry>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="MovesetAttribute" type="u8">
+  <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="0" name="0 - Physical" />
     <item value="10" name="10 - Magic" />
     <item value="11" name="11 - Fire" />
@@ -14,45 +14,43 @@
     <item value="25" name="25 - Madness" />
     <item value="26" name="26 - Blight" />
   </enum>
-  <enum name="ReinforcementMenuType" type="u8">
+  <enum name="REINFORCE_SHOP_CATEGORY" type="u8">
     <item value="0" name="0 - No Reinforcement" />
     <item value="1" name="0 - Weapon" />
     <item value="2" name="0 - Sorcery Catalyst" />
     <item value="3" name="0 - Incantation Catalyst" />
   </enum>
-  <enum name="AshOfWarType" type="s8">
+  <enum name="GEM_MOUNT_TYPE" type="s8">
     <item value="0" name="0 - Prevent Change" />
     <item value="2" name="2 - Allow Change" />
   </enum>
-  <enum name="EquipModelCategory" type="u8">
+  <enum name="EQUIP_MODEL_CATEGORY" type="u8">
   </enum>
-  <enum name="EquipModelGender" type="u8">
+  <enum name="EQUIP_MODEL_GENDER" type="u8">
   </enum>
-  <enum name="WeaponCategory" type="u8">
+  <enum name="WEAPON_CATEGORY" type="u8">
   </enum>
-  <enum name="WepMotionCategory" type="u8">
+  <enum name="WEPMOTION_CATEGORY" type="u8">
   </enum>
-  <enum name="GuardMotionCategory" type="u8">
+  <enum name="GUARDMOTION_CATEGORY" type="u8">
   </enum>
-  <enum name="WepMaterialAttack" type="u8">
+  <enum name="WEP_MATERIAL_ATK" type="u8">
   </enum>
-  <enum name="WepMaterialDefence" type="u8">
+  <enum name="WEP_MATERIAL_DEF" type="u8">
   </enum>
-  <enum name="AtkParamAttackAttributeType" type="u8">
+  <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
   </enum>
-  <enum name="WepMaterialDefSFX" type="u8">
+  <enum name="WEP_MATERIAL_DEF_SFX" type="u8">
   </enum>
-  <enum name="WepCollidableType" type="u8">
+  <enum name="WEP_COLLIDABLE_TYPE" type="u8">
   </enum>
-  <enum name="AtkParamAtrAttributeType" type="u8">
+  <enum name="AUTO_REPLENISH_TYPE" type="u8">
   </enum>
-  <enum name="AutoReplenishType" type="u8">
+  <enum name="WEAPON_DERIVATION_LEVEL_TYPE" type="u8">
   </enum>
-  <enum name="WeaponDerivationLevelType" type="u8">
+  <enum name="WEP_ENCHANT_SFX_SIZE" type="u8">
   </enum>
-  <enum name="WepEnchantSFXSize" type="u8">
-  </enum>
-  <enum name="WepType" type="s16">
+  <enum name="WEP_TYPE" type="s16">
   </enum>
   
   
@@ -438,46 +436,46 @@
     <name>Equip Model Category</name>
     <type>u8</type>
     <default>7</default>
-    <enum>EquipModelCategory</enum>
+    <enum>EQUIP_MODEL_CATEGORY</enum>
   </entry>
   <entry>
     <name>Equip Model Gender</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EquipModelGender</enum>
+    <enum>EQUIP_MODEL_GENDER</enum>
   </entry>
   <entry>
     <name>Weapon Category</name>
     <type>u8</type>
     <default>0</default>
     <description>Determines weapon category.</description>
-    <enum>WeaponCategory</enum>
+    <enum>WEAPON_CATEGORY</enum>
   </entry>
   <entry>
     <name>Weapon Moveset Category</name>
     <type>u8</type>
     <default>0</default>
     <description>Determines which TAE category to use as the base category.</description>
-    <enum>WepMotionCategory</enum>
+    <enum>WEPMOTION_CATEGORY</enum>
   </entry>
   <entry>
     <name>Guard Moveset Category</name>
     <type>u8</type>
     <default>0</default>
     <description>Determines which TAE category to use as an guard override to the base category.</description>
-    <enum>GuardMotionCategory</enum>
+    <enum>GUARDMOTION_CATEGORY</enum>
   </entry>
   <entry>
     <name>Attack Material</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WepMaterialAttack</enum>
+    <enum>WEP_MATERIAL_ATK</enum>
   </entry>
   <entry>
     <name>Defence SE Material [1]</name>
     <type>u16</type>
     <default>100</default>
-    <enum>WepMaterialDefence</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Correction Type: Physical</name>
@@ -489,7 +487,7 @@
     <name>Moveset Attribute</name>
     <type>u8</type>
     <default>1</default>
-    <enum>MovesetAttribute</enum>
+    <enum>ATKPARAM_SPATTR_TYPE</enum>
     <description>Determines which hit attribute to use.</description>
   </entry>
   <entry>
@@ -619,7 +617,7 @@
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamAttackAttributeType</enum>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Can wield in Right Hand</name>
@@ -832,19 +830,19 @@
     <name>Defence SFX Material [1]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Weapon Collidable Type [0]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WepCollidableType</enum>
+    <enum>WEP_COLLIDABLE_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Collidable Type [1]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WepCollidableType</enum>
+    <enum>WEP_COLLIDABLE_TYPE</enum>
   </entry>
   <entry>
     <name>Posture Control ID - Weapon Right</name>
@@ -1086,7 +1084,7 @@
     <name>Attack Attribute [2]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamAtrAttributeType</enum>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Guard Resist: Sleep</name>
@@ -1121,7 +1119,7 @@
     <name>Auto Replenish Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AutoReplenishType</enum>
+    <enum>AUTO_REPLENISH_TYPE</enum>
   </entry>
   <entry>
     <name>Sword Arts Param ID</name>
@@ -1142,19 +1140,19 @@
     <name>Derivation Level Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WeaponDerivationLevelType</enum>
+    <enum>WEAPON_DERIVATION_LEVEL_TYPE</enum>
   </entry>
   <entry>
     <name>Enchantment SFX Size</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WepEnchantSFXSize</enum>
+    <enum>WEP_ENCHANT_SFX_SIZE</enum>
   </entry>
   <entry>
     <name>Weapon Type</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WepType</enum>
+    <enum>WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Physical Guard Absorption - Max Correction</name>
@@ -1327,7 +1325,7 @@
     <default>10000</default>
   </entry>
   <entry>
-    <name>Sale Vale</name>
+    <name>Sale Value</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -1335,7 +1333,7 @@
     <name>Reinforcement Menu Type</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ReinforcementMenuType</enum>
+    <enum>REINFORCE_SHOP_CATEGORY</enum>
     <description>Determines how the game handles the reinforcement of this weapon in the menu.</description>
   </entry>
   <entry>
@@ -1418,7 +1416,7 @@
     <name>Ash of War Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>AshOfWarType</enum>
+    <enum>GEM_MOUNT_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Regain HP</name>

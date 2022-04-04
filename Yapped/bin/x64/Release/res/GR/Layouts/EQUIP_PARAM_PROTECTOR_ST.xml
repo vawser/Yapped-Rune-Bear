@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="EquipModelCategory" type="u8">
+  <enum name="EQUIP_MODEL_CATEGORY" type="u8">
   </enum>
-  <enum name="EquipModelGender" type="u8">
+  <enum name="EQUIP_MODEL_GENDER" type="u8">
   </enum>
-  <enum name="ProtectorCategory" type="u8">
+  <enum name="PROTECTOR_CATEGORY" type="u8">
   </enum>
-  <enum name="AtkParamPartsDmgType" type="u8">
+  <enum name="ATK_PARAM_PARTSDMGTYPE" type="u8">
   </enum>
   
   <entry>
@@ -360,19 +360,19 @@
     <name>Equip Model Category</name>
     <type>u8</type>
     <default>5</default>
-    <enum>EquipModelCategory</enum>
+    <enum>EQUIP_MODEL_CATEGORY</enum>
   </entry>
   <entry>
     <name>Equip Model Gender</name>
     <type>u8</type>
     <default>4</default>
-    <enum>EquipModelGender</enum>
+    <enum>EQUIP_MODEL_GENDER</enum>
   </entry>
   <entry>
     <name>Armor Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ProtectorCategory</enum>
+    <enum>PROTECTOR_CATEGORY</enum>
   </entry>
   <entry>
     <name>Rarity</name>
@@ -388,7 +388,7 @@
     <name>Parts Damage Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamPartsDmgType</enum>
+    <enum>ATK_PARAM_PARTSDMGTYPE</enum>
   </entry>
   
   <entry>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="PhantomBlendType" type="u8">
+  <enum name="PHANTOM_BLEN_TYPE_ENUM" type="u8">
     <item value="0" name="0 - Player" />
     <item value="1" name="1 - Player" />
     <item value="2" name="2 - Player/Enemy" />
@@ -127,7 +127,7 @@
     <name>Blend Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>PhantomBlendType</enum>
+    <enum>PHANTOM_BLEN_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>Is Edge Color Subtraction</name>

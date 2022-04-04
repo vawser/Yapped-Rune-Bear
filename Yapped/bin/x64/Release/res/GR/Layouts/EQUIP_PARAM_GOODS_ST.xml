@@ -1,21 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ReferenceType" type="u8">
+  <enum name="BEHAVIOR_REF_TYPE" type="u8">
     <item value="0" name="None" />
 	<item value="1" name="Bullet" />
 	<item value="2" name="SpEffect" />
   </enum>
-  <enum name="RegenerativeItemType" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Crimson Tear" />
-	<item value="2" name="Cerulean Tear" />
-  </enum>
-  <enum name="ItemDisplayType" type="u8">
-    <item value="0" name="Consumable" />
-	<item value="1" name="Material" />
-	<item value="2" name="Key Item" />
-  </enum>
-  <enum name="InteractionMenuType" type="u8">
+  <enum name="GOODS_OPEN_MENU" type="u8">
     <item value="0" name="None" />
     <item value="1" name="Common Interaction" />
     <item value="4" name="Leave World" />
@@ -32,7 +22,7 @@
     <item value="21" name="Invade World (Recusant Finger)" />
     <item value="22" name="Invade World (Festering Bloody Finger)" />
   </enum>
-  <enum name="GoodsType" type="u8">
+  <enum name="GOODS_TYPE" type="u8">
     <item value="0" name="Normal Item" />
 	<item value="1" name="Key Item" />
 	<item value="2" name="Crafting Material" />
@@ -53,25 +43,23 @@
 	<item value="17" name="Self Buff - Sorcery" />
 	<item value="18" name="Self Buff - Incantation" />
   </enum>
-  <enum name="EffectCategory" type="u8">
+  <enum name="BEHAVIOR_CATEGORY" type="u8">
     <item value="0" name="SpEffect" />
     <item value="5" name="Bullet" />
   </enum>
-  <enum name="SpEffectType" type="s16">
+  <enum name="SP_EFFECT_TYPE" type="u16">
   </enum>
-  <enum name="GoodsUseAnim" type="u8">
+  <enum name="GOODS_USE_ANIM" type="u8">
   </enum>
-  <enum name="SpEffectUseLimitCategory" type="u8">
+  <enum name="SP_EFFECT_USELIMIT_CATEGORY" type="u8">
   </enum>
-  <enum name="ReplaceCategory" type="u8">
+  <enum name="REPLACE_CATEGORY" type="u8">
   </enum>
-  <enum name="GoodsSuppleType" type="u8">
+  <enum name="GOODS_SUPPLE_TYPE" type="u8">
   </enum>
-  <enum name="AutoReplenishType" type="u8">
+  <enum name="AUTO_REPLENISH_TYPE" type="u8">
   </enum>
-  <enum name="GoodsUseLimitSummonBuddy" type="u8">
-  </enum>
-  <enum name="SpEffectType" type="u8">
+  <enum name="GOODS_USELIMIT_SUMMONBUDDY" type="u8">
   </enum>
   
   <entry>
@@ -138,9 +126,9 @@
   </entry>
   <entry>
     <name>Use Enable SpEffect Type</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
-    <enum>SpEffectType</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Pot Group ID</name>
@@ -199,19 +187,19 @@
     <name>Goods Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsType</enum>
+    <enum>GOODS_TYPE</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectCategory</enum>
+    <enum>BEHAVIOR_CATEGORY</enum>
   </entry>
   
   <entry>
@@ -224,25 +212,25 @@
     <name>Goods Use Animation</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsUseAnim</enum>
+    <enum>GOODS_USE_ANIM</enum>
   </entry>
   <entry>
     <name>Interaction Menu Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>InteractionMenuType</enum>
+    <enum>GOODS_OPEN_MENU</enum>
   </entry>
   <entry>
     <name>Use Limit Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectUseLimitCategory</enum>
+    <enum>SP_EFFECT_USELIMIT_CATEGORY</enum>
   </entry>
   <entry>
     <name>Replace Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ReplaceCategory</enum>
+    <enum>REPLACE_CATEGORY</enum>
   </entry>
   
   <entry>
@@ -453,7 +441,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Usable if Disconnet Penalty is Active</name>
+    <name>Usable if Disconnect Penalty is Active</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -461,13 +449,13 @@
     <name>Regenerative Item Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsSuppleType</enum>
+    <enum>GOODS_SUPPLE_TYPE</enum>
   </entry>
   <entry>
     <name>Auto Replenishment Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AutoReplenishType</enum>
+    <enum>AUTO_REPLENISH_TYPE</enum>
   </entry>
   <entry>
     <name>Can be Dropped</name>
@@ -538,13 +526,13 @@
     <name>Use Limit - Spirit Summon</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsUseLimitSummonBuddy</enum>
+    <enum>GOODS_USELIMIT_SUMMONBUDDY</enum>
   </entry>
   <entry>
     <name>Use Limit - SpEffect Type</name>
     <type>u16</type>
     <default>0</default>
-    <enum>SpEffectType</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>AI Usage Judgment ID</name>

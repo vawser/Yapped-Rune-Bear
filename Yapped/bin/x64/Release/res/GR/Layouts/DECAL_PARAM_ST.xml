@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="DECAL_PARAM_BLEND_MODE" type="s8">
+  </enum>
+  <enum name="DECAL_PARAM_DIR_TYPE" type="s8">
+  </enum>
+  <enum name="DECAL_PARAM_THIN_OUT_MODE" type="s8">
+  </enum>
+  
   <entry>
-    <name>Texture ID 0</name>
+    <name>Texture ID</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
@@ -111,22 +118,22 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Target Attacker Chr</name>
+    <name>Blood Type Enable</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Target Damaged Chr</name>
+    <name>Use Normal</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Target Other Chr</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Target Map Object</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
@@ -136,72 +143,12 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Use Emissive</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
+    <name>Put Vertical</name>
     <type>b32</type>
     <default>False</default>
   </entry>
@@ -261,442 +208,423 @@
     <default>64</default>
   </entry>
   <entry>
-    <name>Contrast 1</name>
-    <type>u8</type>
+    <name>Blend Mode</name>
+    <type>s8</type>
     <default>1</default>
+    <enum>DECAL_PARAM_BLEND_MODE</enum>
   </entry>
   <entry>
-    <name>Texture Length Type</name>
-    <type>u8</type>
+    <name>Appearance Direction Type</name>
+    <type>s8</type>
     <default>0</default>
-    <description>[0-3]</description>
+    <enum>DECAL_PARAM_DIR_TYPE</enum>
   </entry>
   <entry>
-    <name>Texture Width: X</name>
-    <type>f32</type>
-    <default>40</default>
-  </entry>
-  <entry>
-    <name>Texture Width: Z</name>
+    <name>Emissive Value: Start</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Texture Lifetime</name>
+    <name>Emissive Value: End</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>Emissive Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Enable Interpolation</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Interpolation Interval</name>
     <type>f32</type>
     <default>0.05</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Interpolation Start - Texture ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Interpolation End - Texture ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Appearance SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Appearance SFX Offset Position</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Texture ID 1</name>
+    <name>Mask Texture ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Texture ID 2</name>
+    <name>Diffuse Texture ID</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>Texture ID 3</name>
+    <name>Reflect Texture ID</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>Brightness</name>
+    <name>Mask Scale</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Texture ID 4</name>
+    <name>Normal Texture ID</name>
     <type>s32</type>
     <default>100000</default>
   </entry>
   <entry>
-    <name>Texture ID 5</name>
+    <name>Height Texture ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Texture ID 6</name>
+    <name>Emissive Texture ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Diffuse: R</name>
+    <name>Diffuse Color: R</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>Diffuse: G</name>
+    <name>Diffuse Color: G</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>Diffuse: B</name>
+    <name>Diffuse Color: B</name>
     <type>u8</type>
     <default>2</default>
   </entry>
+  
   <entry>
-    <name>Unk22</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
-    <name>Specular: R</name>
+    <name>Reflect Color: R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Specular: G</name>
+    <name>Reflect Color: G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Specular: B</name>
+    <name>Reflect Color: B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Delayed Spawn State</name>
-    <type>s8</type>
-    <default>0</default>
-    <description>[ON_OFF]</description>
+    <name>Life Enable</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Contrast 2</name>
+    <name>Shininess Scale</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Decal Duration</name>
     <type>f32</type>
     <default>60</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Decal Fadeout Time</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Unk25</name>
+    <name>Decal Priority</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Thin Out Nearby Decal</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable Aligned Texture Random Variation</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Unknown</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Minimum Value</name>
+    <name>Decal Thin Out - Check Distance</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Maximum Value</name>
+    <name>Decal Thin Out - Check Angle</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Unk29</name>
+    <name>Decal Thin Out - Max Count</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>Unk30</name>
+    <name>Decal Thin Out - Check Count</name>
     <type>u8</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>Decal SpawnDelay</name>
-    <type>u16</type>
+    <name>Decal Spawn Delay</name>
+    <type>s16</type>
     <default>0</default>
-    <description>In seconds.</description>
   </entry>
   <entry>
-    <name>Unk31</name>
+    <name>Random Variation: Albedo 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk32</name>
+    <name>Random Variation: Albedo 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk33</name>
+    <name>Random Variation: Albedo 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk34</name>
+    <name>Random Variation: Albedo 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk35</name>
+    <name>Random Variation: Mask 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Contact Player</name>
+    <name>Random Variation: Mask 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Form Cube</name>
+    <name>Random Variation: Mask 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk36</name>
+    <name>Random Variation: Mask 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk37</name>
+    <name>Random Variation: Reflection 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk38</name>
+    <name>Random Variation: Reflection 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk39</name>
+    <name>Random Variation: Reflection 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk40</name>
+    <name>Random Variation: Reflection 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk41</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk42</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk43</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk44</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk45</name>
+    <name>Random Variation: Normal 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk46</name>
+    <name>Random Variation: Normal 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk47</name>
+    <name>Random Variation: Normal 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk48</name>
+    <name>Random Variation: Normal 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk49</name>
+    <name>Random Variation: Height 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk50</name>
+    <name>Random Variation: Height 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk51</name>
+    <name>Random Variation: Height 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk52</name>
+    <name>Random Variation: Height 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk53</name>
+    <name>Random Variation: Emissive 1</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk54</name>
+    <name>Random Variation: Emissive 2</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk55</name>
+    <name>Random Variation: Emissive 3</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk56</name>
+    <name>Random Variation: Emissive 4</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk57</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk58</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk59</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk60</name>
+    <name>Blank</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Texture Spawn Delay</name>
+    <name>Fade In Spawn Delay</name>
     <type>f32</type>
     <default>0</default>
     <description>In seconds.</description>
   </entry>
     <entry>
-    <name>Unk61</name>
+    <name>Thin Out - Overlap Multiplier Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk62</name>
+    <name>Thin Out - Neighbor Addition Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk63</name>
-    <type>s32</type>
+    <name>Thin Out - Overlap Limit Number</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>s32</type>
+    <name>Thin Out - Neighbor Limit Number</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk65</name>
-    <type>s32</type>
+    <name>Thin Out Mode</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>DECAL_PARAM_THIN_OUT_MODE</enum>
+  </entry>
+  <entry>
+    <name>Emissive Color: R</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk66</name>
+    <name>Emissive Color: G</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Emissive Color: B</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Decal SFX Creation Max Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk67</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>40</size>
   </entry>
-  <entry>
-    <name>Unk68</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk69</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk70</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk71</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk72</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk73</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk74</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk75</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk76</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+  
 </layout>

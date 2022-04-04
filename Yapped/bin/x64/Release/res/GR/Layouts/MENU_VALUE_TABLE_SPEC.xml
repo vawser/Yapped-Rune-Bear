@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="MenuValueTableCMPType" type="s8">
+  <enum name="MENU_VALUE_TABLE_CMP_TYPE" type="s8">
   </enum>
   
   <entry>
@@ -17,7 +17,7 @@
     <name>Compare Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>MenuValueTableCMPType</enum>
+    <enum>MENU_VALUE_TABLE_CMP_TYPE</enum>
   </entry>
   
   <entry>

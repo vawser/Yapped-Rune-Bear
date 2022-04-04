@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ActionButtonRegionType" type="u8">
+  <enum name="ACTION_BUTTON_REGION_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
   </enum>
-  <enum name="ActionButtonCategory" type="u8">
+  <enum name="ACTION_BUTTON_CATEGORY" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
@@ -18,20 +18,22 @@
 	<item value="9" name="9 - Unknown" />
 	<item value="10" name="10 - Unknown" />
   </enum>
-  <enum name="ActionButtonTextBoxType" type="u8">
+  <enum name="ACTION_BUTTON_ANGLE_CHECK_TYPE" type="u8">
+  </enum>
+  <enum name="ACTION_BUTTON_TEXT_BOX_TYPE" type="u8">
   </enum>
 
   <entry>
     <name>Region Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ActionButtonRegionType</enum>
+    <enum>ACTION_BUTTON_REGION_TYPE</enum>
   </entry>
   <entry>
     <name>Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ActionButtonCategory</enum>
+    <enum>ACTION_BUTTON_CATEGORY</enum>
   </entry>
   <entry>
     <name>padding</name>
@@ -82,6 +84,7 @@
     <name>Angle Check Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ACTION_BUTTON_ANGLE_CHECK_TYPE</enum>
   </entry>
     <entry>
     <name>padding</name>
@@ -102,7 +105,7 @@
     <name>Textbox Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ActionButtonTextBoxType</enum>
+    <enum>ACTION_BUTTON_TEXT_BOX_TYPE</enum>
   </entry>
   <entry>
     <name>padding</name>

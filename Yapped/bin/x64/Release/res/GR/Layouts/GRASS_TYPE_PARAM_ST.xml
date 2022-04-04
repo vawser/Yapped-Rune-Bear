@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="GrassClusterType" type="u8">
+  <enum name="GRASS_CLUSTER_TYPE_ENUM" type="u8">
   </enum>
-  <enum name="GrassDistributionType" type="u8">
+  <enum name="GRASS_DISTRIBUTION_TYPE_ENUM" type="u8">
   </enum>
-  <enum name="GrassFlatSplitType" type="u8">
+  <enum name="GRASS_FLAT_SPLIT_TYPE_ENUM" type="u8">
   </enum>
-  <enum name="GrassShadowType" type="u8">
+  <enum name="GRASS_SHADOW_TYPE_ENUM" type="u8">
   </enum>
-  <enum name="GrassDitheringType" type="u8">
+  <enum name="GRASS_DITHERING_TYPE_ENUM" type="u8">
   </enum>
   
   <entry>
@@ -20,19 +20,19 @@
     <name>LOD0 - Cluster Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassClusterType</enum>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>LOD1 - Cluster Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassClusterType</enum>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>LOD2 - Cluster Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassClusterType</enum>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
   </entry>
   
   <entry>
@@ -45,7 +45,7 @@
     <name>Distribution Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassDistributionType</enum>
+    <enum>GRASS_DISTRIBUTION_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>Base Density</name>
@@ -139,7 +139,7 @@
     <name>Flat Split Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassFlatSplitType</enum>
+    <enum>GRASS_FLAT_SPLIT_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>Flat Blade Count</name>
@@ -160,7 +160,7 @@
     <name>Cast Shadow Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassShadowType</enum>
+    <enum>GRASS_SHADOW_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>Wind Amplitude</name>
@@ -198,7 +198,7 @@
     <name>Dithering Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GrassDitheringType</enum>
+    <enum>GRASS_DITHERING_TYPE_ENUM</enum>
   </entry>
   
   <entry>

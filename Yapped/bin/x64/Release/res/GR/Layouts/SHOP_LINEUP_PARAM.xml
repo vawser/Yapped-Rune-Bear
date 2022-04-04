@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="EquipType" type="u8">
+  <enum name="SHOP_LINEUP_EQUIPTYPE" type="u8">
     <item value="0" name="0 - Weapon" />
 	<item value="1" name="1 - Armor" />
 	<item value="2" name="2 - Accessory" />
     <item value="3" name="3 - Good" />
     <item value="4" name="4 - Ashes" />
   </enum>
-  <enum name="CurrencyType" type="u8">
+  <enum name="SHOP_LINEUP_COSTTYPE" type="u8">
     <item value="0" name="0 - Runes" />
     <item value="1" name="1 - Dragon Heart" />
     <item value="2" name="2 - Starlight Shard" />
@@ -55,13 +55,13 @@
     <name>Equip Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EquipType</enum>
+    <enum>SHOP_LINEUP_EQUIPTYPE</enum>
   </entry>
   <entry>
     <name>Currency Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>CurrencyType</enum>
+    <enum>SHOP_LINEUP_COSTTYPE</enum>
   </entry>
   
   <entry>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ReferenceType" type="u8">
+  <enum name="BEHAVIOR_REF_TYPE" type="u8">
     <item value="0" name="0 - Attack" />
 	<item value="1" name="1 - Bullet" />
 	<item value="2" name="2 - SpEffect" />
   </enum>
-  <enum name="BehaviorCategory" type="u8">
+  <enum name="BEHAVIOR_CATEGORY" type="u8">
     <item value="0" name="0 - No Category" />
 	<item value="1" name="1 - PC - Right-Hand" />
 	<item value="2" name="2 - PC - Left-hand" />
@@ -19,7 +19,7 @@
     <item value="11" name="11 - PC - Both-hand" />
     <item value="12" name="12 - PC - Right-hand #2" />
   </enum>
-  <enum name="StateBehaviorType" type="u8">
+  <enum name="STATE_BEHAVIOR_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Player" />
 	<item value="2" name="2 - NPC" />
@@ -38,15 +38,15 @@
     <name>State Behavior Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>StateBehaviorType</enum>
+    <enum>STATE_BEHAVIOR_TYPE</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>padding</name>
     <type>dummy8</type>
@@ -77,7 +77,7 @@
     <type>u8</type>
     <default>0</default>
     <description>Determines compatibility with special effects that affect certain types of attacks.</description>
-    <enum>BehaviorCategory</enum>
+    <enum>BEHAVIOR_CATEGORY</enum>
   </entry>
   <entry>
     <name>Humanity Cost</name>

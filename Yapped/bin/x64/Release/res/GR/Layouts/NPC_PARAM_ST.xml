@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="TeamType" type="u8">
+  <enum name="TEAM_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Live" />
 	<item value="2" name="2 - White Ghost" />
@@ -45,15 +45,15 @@
     <item value="63" name="63 - Unknown" />
     <item value="66" name="66 - Unknown" />
   </enum>
-  <enum name="DropType" type="s16">
+  <enum name="NPC_ITEMDROP_TYPE" type="s16">
     <item value="0" name="0 - Corpse Emission" />
 	<item value="1" name="1 - Item Display" />
   </enum>
-  <enum name="NPCType" type="u8">
+  <enum name="NPC_TYPE" type="u8">
     <item value="0" name="0 - Standard" />
 	<item value="1" name="1 - Boss" />
   </enum>
-  <enum name="MoveType" type="u8">
+  <enum name="NPC_MOVE_TYPE" type="u8">
     <item value="0" name="0 - Immobile Character" />
 	<item value="1" name="1 - Lumbering" />
 	<item value="2" name="2 - Tree Spirit" />
@@ -66,29 +66,35 @@
 	<item value="12" name="12 - Still" />
 	<item value="13" name="13 - Swift" />
   </enum>
-  <enum name="HitStopType" type="u8">
+  <enum name="NPC_HITSTOP_TYPE" type="u8">
     <item value="0" name="0 - Perform Hit Stop" />
 	<item value="2" name="2 - No Hit Stop" />
   </enum>
-  <enum name="WepMaterialDef" type="u16">
+  <enum name="WEP_MATERIAL_DEF" type="u16">
   </enum>
-  <enum name="WepMaterialDefSFX" type="u16">
+  <enum name="WEP_MATERIAL_DEF_SFX" type="u16">
   </enum>
-  <enum name="AtkParamPartsDmgType" type="u8">
+  <enum name="ATK_PARAM_PARTSDMGTYPE" type="u8">
   </enum>
-  <enum name="VowType" type="u8">
+  <enum name="VOW_TYPE" type="u8">
   </enum>
-  <enum name="BurnSFXType" type="u8">
+  <enum name="NPC_BURN_TYPE" type="u8">
   </enum>
-  <enum name="NPCSFXSize" type="u8">
+  <enum name="NPC_SFX_SIZE" type="u8">
   </enum>
-  <enum name="NPCSpecialTurnType" type="u8">
+  <enum name="NPC_SPECIAL_TURN_TYPE" type="u8">
   </enum>
-  <enum name="NPCWeightType" type="u8">
+  <enum name="NPC_WEIGHT_TYPE" type="u8">
   </enum>
-  <enum name="NPCNavmeshFlag" type="u8">
+  <enum name="NPC_NAVIMESH_FLAG" type="u8">
   </enum>
-  <enum name="NPCWheelRotType" type="u8">
+  <enum name="NPC_WHEEL_ROT_TYPE" type="u8">
+  </enum>
+  <enum name="CHR_HIT_GROUP" type="u8">
+  </enum>
+  <enum name="CHR_ACTIVATE_CONDITION_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_DRAW_TYPE" type="s8">
   </enum>
   
   <entry>
@@ -177,6 +183,7 @@
     <name>Chr Hit Judgment</name>
     <type>u8</type>
     <default>0</default>
+    <enum>CHR_HIT_GROUP</enum>
   </entry>
   <entry>
     <name>Face Icon ID</name>
@@ -192,6 +199,7 @@
     <name>Chr Activate Condition Param ID</name>
     <type>u32</type>
     <default>0</default>
+    <enum>CHR_ACTIVATE_CONDITION_TYPE</enum>
   </entry>
   <entry>
     <name>Foot IK Apperance Height Limit</name>
@@ -544,7 +552,7 @@
     <name>Drop Type</name>
     <type>s16</type>
     <default>0</default>
-    <enum>DropType</enum>
+    <enum>NPC_ITEMDROP_TYPE</enum>
   </entry>
   <entry>
     <name>Received Knockback %</name>
@@ -610,24 +618,25 @@
     <name>Draw Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPC_DRAW_TYPE</enum>
   </entry>
   <entry>
     <name>NPC Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCType</enum>
+    <enum>NPC_TYPE</enum>
   </entry>
   <entry>
     <name>Team Type</name>
     <type>u8</type>
     <default>6</default>
-    <enum>TeamType</enum>
+    <enum>TEAM_TYPE</enum>
   </entry>
   <entry>
     <name>Move Type</name>
     <type>u8</type>
     <default>3</default>
-    <enum>MoveType</enum>
+    <enum>NPC_MOVE_TYPE</enum>
   </entry>
   <entry>
     <name>Lock Distance</name>
@@ -638,25 +647,25 @@
     <name>Weak Point - SE Material</name>
     <type>u16</type>
     <default>110</default>
-    <enum>WepMaterialDef</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Weak Point - SFX Material</name>
     <type>u16</type>
     <default>110</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Parts Damage - Attack Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamPartsDmgType</enum>
+    <enum>ATK_PARAM_PARTSDMGTYPE</enum>
   </entry>
   <entry>
     <name>Vow Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>VowType</enum>
+    <enum>VOW_TYPE</enum>
   </entry>
   <entry>
     <name>Guard Level</name>
@@ -667,7 +676,7 @@
     <name>Burn SFX Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>BurnSFXType</enum>
+    <enum>NPC_BURN_TYPE</enum>
   </entry>
   <entry>
     <name>Guard Resist: Poison</name>
@@ -703,7 +712,7 @@
     <name>SFX Size</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCSFXSize</enum>
+    <enum>NPC_SFX_SIZE</enum>
   </entry>
   <entry>
     <name>Push Out Camera Region Radius</name>
@@ -714,7 +723,7 @@
     <name>Hit Stop Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitStopType</enum>
+    <enum>NPC_HITSTOP_TYPE</enum>
   </entry>
   <entry>
     <name>Ladder End Check Offset Top</name>
@@ -1030,7 +1039,7 @@
     <name>Special Turn Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCSpecialTurnType</enum>
+    <enum>NPC_SPECIAL_TURN_TYPE</enum>
   </entry>
   <entry>
     <name>Is Boss Soul Drop</name>
@@ -1096,37 +1105,37 @@
     <name>Damaged - Material SE [1]</name>
     <type>u16</type>
     <default>139</default>
-    <enum>WepMaterialDef</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Damaged - Material SFX [1]</name>
     <type>u16</type>
     <default>139</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Weak Point - Material SE [2]</name>
     <type>s16</type>
     <default>139</default>
-    <enum>WepMaterialDef</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Weak Point - Material SFX [2]</name>
     <type>s16</type>
     <default>139</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Damaged - Material SE [2]</name>
     <type>u16</type>
     <default>139</default>
-    <enum>WepMaterialDef</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Damaged - Material SFX [2]</name>
     <type>u16</type>
     <default>139</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>SpEffect ID [8]</name>
@@ -1237,7 +1246,7 @@
     <name>NPC Player Weight Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCWeightType</enum>
+    <enum>NPC_WEIGHT_TYPE</enum>
   </entry>
   <entry>
     <name>Replacement Change - Model ID</name>
@@ -1540,13 +1549,13 @@
     <name>Chr Navmesh Flag - Alive</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCNavmeshFlag</enum>
+    <enum>NPC_NAVIMESH_FLAG</enum>
   </entry>
   <entry>
     <name>Chr Navmesh Flag - Dead</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCNavmeshFlag</enum>
+    <enum>NPC_NAVIMESH_FLAG</enum>
   </entry>
   
   <entry>
@@ -1559,7 +1568,7 @@
     <name>Wheel Rotation Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCWheelRotType</enum>
+    <enum>NPC_WHEEL_ROT_TYPE</enum>
   </entry>
   
   <entry>

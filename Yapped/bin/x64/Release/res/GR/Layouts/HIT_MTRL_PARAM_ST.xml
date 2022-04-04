@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="HMPHardnessType" type="u8">
+  <enum name="HMP_HARDNESS_TYPE" type="u8">
   </enum>
 
   <entry>
@@ -62,7 +62,7 @@
     <name>Hardness Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HMPHardnessType</enum>
+    <enum>HMP_HARDNESS_TYPE</enum>
   </entry>
 
   <entry>

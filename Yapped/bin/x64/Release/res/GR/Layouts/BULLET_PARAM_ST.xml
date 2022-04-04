@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="AttackAttribute" type="u8">
+  <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Slash" />
 	<item value="2" name="2 - Strike" />
     <item value="3" name="3 - Thrust" />
     <item value="4" name="4 - Standard" />
   </enum>
-  <enum name="EffectAttribute" type="u8">
+  <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
     <item value="10" name="10 - Magic" />
     <item value="11" name="11 - Fire" />
@@ -22,28 +22,19 @@
     <item value="26" name="26 - Blight" />
     <item value="254" name="254 - None" />
   </enum>
-  <enum name="LaunchType" type="u8">
-    <item value="0" name="0 - Forward" />
-	<item value="1" name="1 - Down" />
-    <item value="2" name="2 - Forward/Down" />
+  <enum name="BEHAVIOR_ATK_TYPE" type="u8">
   </enum>
-  <enum name="CounterType" type="u8">
-    <item value="0" name="0 - Unknown" />
-	<item value="1" name="1 - Unknown" />
+  <enum name="WEP_MATERIAL_ATK" type="u8">
   </enum>
-  <enum name="MaterialAttackType" type="u8">
+  <enum name="BULLET_LAUNCH_CONDITION_TYPE" type="u8">
   </enum>
-  <enum name="MaterialAttackMaterial" type="u8">
+  <enum name="BULLET_SFX_DELETE_TYPE" type="s8">
   </enum>
-  <enum name="BulletLaunchConditionType" type="u8">
+  <enum name="BULLET_SFX_CREATE_POSTURE_TYPE" type="u8">
   </enum>
-  <enum name="BulletSFXDeleteType" type="s8">
+  <enum name="BULLET_BALLISTIC_CALC_TYPE" type="u8">
   </enum>
-  <enum name="BulletSFXCreatePostureType" type="u8">
-  </enum>
-  <enum name="BulletBallisticCalcType" type="u8">
-  </enum>
-  <enum name="BulletAttachEffectType" type="u8">
+  <enum name="BULLET_ATTACH_EFFECT_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -334,28 +325,28 @@
     <type>u8</type>
     <default>4</default>
     <description>Attack type.</description>
-    <enum>AttackAttribute</enum>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>1</default>
     <description>Element attached to bullet hit.</description>
-    <enum>EffectAttribute</enum>
+    <enum>ATKPARAM_SPATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Material Attack Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Determines visual effects of bullet hit.</description>
-    <enum>MaterialAttackType</enum>
+    <enum>BEHAVIOR_ATK_TYPE</enum>
   </entry>
   <entry>
     <name>Material Attack Material</name>
     <type>u8</type>
     <default>0</default>
     <description>Sound and visual effects on hit.</description>
-    <enum>MaterialAttackMaterial</enum>
+    <enum>WEP_MATERIAL_ATK</enum>
   </entry>
   <entry>
     <name>Is Penetrate Character</name>
@@ -372,7 +363,7 @@
     <type>u8</type>
     <default>0</default>
     <description>Condition for determing if a new bullet will be generated when this bullet lands or expires.</description>
-    <enum>BulletLaunchConditionType</enum>
+    <enum>BULLET_LAUNCH_CONDITION_TYPE</enum>
   </entry>
 
   <entry>
@@ -528,14 +519,14 @@
     <name>Bullet SFX Delete Type - By Hit</name>
     <type>s8</type>
     <default>0</default>
-    <enum>BulletSFXDeleteType</enum>
+    <enum>BULLET_SFX_DELETE_TYPE</enum>
   </entry>
   <entry>
     <name>Bullet SFX Delete Type - By Expiration</name>
     <type>s8</type>
     <default>0</default>
     <description></description>
-    <enum>BulletSFXDeleteType</enum>
+    <enum>BULLET_SFX_DELETE_TYPE</enum>
   </entry>
   <entry>
     <name>Landing Position - Vertical Offset Range</name>
@@ -590,7 +581,7 @@
     <name>SFX Pose Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>BulletSFXCreatePostureType</enum>
+    <enum>BULLET_SFX_CREATE_POSTURE_TYPE</enum>
   </entry>
   <entry>
     <name>Create Limit Group ID</name>
@@ -680,13 +671,13 @@
     <name>Ballistic Calc Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>BulletBallisticCalcType</enum>
+    <enum>BULLET_BALLISTIC_CALC_TYPE</enum>
   </entry>
   <entry>
     <name>Attach Effect Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>BulletAttachEffectType</enum>
+    <enum>BULLET_ATTACH_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Insert SE ID - Bullet [1]</name>
@@ -737,7 +728,7 @@
     <name>Bullet SFX Delete Type - By Force Erase</name>
     <type>s8</type>
     <default>0</default>
-    <enum>BulletSFXDeleteType</enum>
+    <enum>BULLET_SFX_DELETE_TYPE</enum>
   </entry>
   
   <entry>

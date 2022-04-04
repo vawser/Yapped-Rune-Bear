@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ChrMemoryType" type="u8">
-  </enum>
-  <enum name="TextureMemoryType" type="u8">
+  <enum name="CHR_MEMORY_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -21,13 +19,13 @@
     <name>Model Memory Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ChrMemoryType</enum>
+    <enum>CHR_MEMORY_TYPE</enum>
   </entry>
   <entry>
     <name>Texture Memory Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>TextureMemoryType</enum>
+    <enum>CHR_MEMORY_TYPE</enum>
   </entry>
   <entry>
     <name>Camera Dither Fade ID</name>

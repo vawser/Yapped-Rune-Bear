@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="NPCAIActionMoveDir" type="u8">
+  <enum name="NPC_AI_ACTION_MOVE_DIR" type="u8">
   </enum>
-  <enum name="NPCAIActionKey" type="u8">
+  <enum name="NPC_AI_ACTION_KEY" type="u8">
   </enum>
   
   <entry>
     <name>Move Direction</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCAIActionMoveDir</enum>
+    <enum>NPC_AI_ACTION_MOVE_DIR</enum>
   </entry>
   <entry>
     <name>Key [1]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCAIActionKey</enum>
+    <enum>NPC_AI_ACTION_KEY</enum>
   </entry>
   <entry>
     <name>Key [2]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCAIActionKey</enum>
+    <enum>NPC_AI_ACTION_KEY</enum>
   </entry>
   <entry>
     <name>Key [3]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCAIActionKey</enum>
+    <enum>NPC_AI_ACTION_KEY</enum>
   </entry>
   <entry>
     <name>Handle Move Direction as Long Press</name>

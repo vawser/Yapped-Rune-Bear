@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="StateInfo" type="u16">
+  <enum name="SP_EFFECT_TYPE" type="u16">
     <item value="0" name="0 - None" />
     <item value="2" name="2 - Poison" />
     <item value="3" name="3 - Unknown" />
@@ -288,7 +288,7 @@
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
   </enum>
-  <enum name="ConditionalWeaponEffect" type="u8">
+  <enum name="ATK_SUB_CATEGORY" type="u8">
     <item value="0" name="0 - None" />
     <item value="1" name="1 - Full Moon Spell" />
     <item value="2" name="2 - Carian Sword Spell" />
@@ -333,7 +333,7 @@
     <item value="117" name="117 - Wraith Attack" />
     <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
-  <enum name="DamageLevel" type="s8">
+  <enum name="ATKPARAM_REP_DMGTYPE" type="s8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
 	<item value="2" name="2 - Short Stagger" />
@@ -348,7 +348,7 @@
     <item value="11" name="11 - Strong Stagger" />
     <item value="12" name="12 - Stagger Backwards" />
   </enum>
-  <enum name="ThrowTrigger" type="u8">
+  <enum name="SP_EFFECT_THROW_CONDITION_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Forbidden" />
 	<item value="2" name="2 - Parry" />
@@ -366,7 +366,7 @@
     <item value="14" name="14 - Unknown" />
     <item value="15" name="15 - Unknown" />
   </enum>
-  <enum name="MoveType" type="u8">
+  <enum name="SP_EFFECT_MOVE_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
     <item value="1" name="1 - Unknown" />
     <item value="2" name="2 - Unknown" />
@@ -374,14 +374,14 @@
 	<item value="4" name="4 - Unknown" />
     <item value="5" name="5 - Unknown" />
   </enum>
-  <enum name="WeaponParamChange" type="u8">
+  <enum name="SP_EFE_WEP_CHANGE_PARAM" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Right-hand" />
 	<item value="2" name="2 - Left-hand" />
     <item value="3" name="3 - Self" />
     <item value="4" name="4 - Kick" />
   </enum>
-  <enum name="EffectCategory" type="s16">
+  <enum name="SP_EFFECT_SPCATEGORY" type="s16">
     <item value="0" name="0 - None" />
 	<item value="10" name="10 - Stack Self" />
 	<item value="20" name="20 - Reset on Apply" />
@@ -434,11 +434,11 @@
 	<item value="10009" name="10009 - Apply First (Sleep)" />
 	<item value="10010" name="10010 - Apply First (Madness)" />
   </enum>
-  <enum name="AttackAttribute" type="u8">
+  <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
     <item value="254" name="254 - None" />
     <item value="255" name="255 - Standard" />
   </enum>
-  <enum name="EffectAttribute" type="u8">
+  <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="10" name="10 - Magic" />
     <item value="11" name="11 - Fire" />
     <item value="12" name="12 - Lightning" />
@@ -453,11 +453,15 @@
     <item value="254" name="254 - None" />
   </enum>
   
-  <enum name="SpEffectParamDeleteDamageType" type="u8">
+  <enum name="SP_EFFECT_PARAM_DELETE_DAMAGE_TYPE" type="u8">
   </enum>
-  <enum name="SpEffectWetConditionDepth" type="u8">
+  <enum name="SP_EFFECT_WET_CONDITION_DEPTH" type="u8">
   </enum>
-  <enum name="SpEffectApplyPartsGroup" type="u8">
+  <enum name="SP_EFFECT_APPLY_PARTS_GROUP" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_SAVE_CATEGORY" type="s8">
+  </enum>
+  <enum name="SP_EFFECT_CHANGE_TEAM_TYPE" type="s8">
   </enum>
   
   <entry>
@@ -876,14 +880,14 @@ Enemies - Requires State Info 152</description>
     <name>Conditional Weapon Effect 1</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
     <name>Conditional Weapon Effect 2</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
@@ -896,7 +900,7 @@ Enemies - Requires State Info 152</description>
     <name>Effect Category</name>
     <type>s16</type>
     <default>0</default>
-    <enum>EffectCategory</enum>
+    <enum>SP_EFFECT_SPCATEGORY</enum>
   </entry>
   <entry>
     <name>Category Priority</name>
@@ -909,6 +913,7 @@ Enemies - Requires State Info 152</description>
     <type>s8</type>
     <default>-1</default>
     <description>Determines automatic game saving behavior (used for status ailments only). Set to -1 for no saving.</description>
+    <enum>SP_EFFECT_SAVE_CATEGORY</enum>
   </entry>
   <entry>
     <name>Memory Slot</name>
@@ -944,115 +949,116 @@ Enemies - Requires State Info 152</description>
     <name>Damage Level: No Impact</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Small Impact</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Medium Impact</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Large Impact</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blowoff</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Push</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Strike</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blow</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Minimal</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Launch</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blow Backward</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Breath</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AttackAttribute</enum>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectAttribute</enum>
+    <enum>ATKPARAM_SPATTR_TYPE</enum>
   </entry>
   <entry>
     <name>State Info</name>
     <type>u16</type>
     <default>0</default>
-    <enum>StateInfo</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Change</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WeaponParamChange</enum>
+    <enum>SP_EFE_WEP_CHANGE_PARAM</enum>
   </entry>
   <entry>
     <name>Move Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>MoveType</enum>
+    <enum>SP_EFFECT_MOVE_TYPE</enum>
   </entry>
   <entry>
-    <name>Effect Duration Multiplier Type</name>
+    <name>Effect Duration Multiplier - State Info</name>
     <type>u16</type>
     <default>0</default>
     <description>Type of effect whose duration is affected by Effect Duration Multiplier.</description>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Throw Trigger</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowTrigger</enum>
+    <enum>SP_EFFECT_THROW_CONDITION_TYPE</enum>
   </entry>
   <entry>
     <name>Add Behavior Judge ID - Trigger</name>
@@ -1391,13 +1397,13 @@ Enemies - Requires State Info 152</description>
     <name>Change Attacker Damage Level</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>AI Sight Adjustment</name>
     <type>f32</type>
     <default>1</default>
-    <description>StateInfo 267</description>
+    <description>State Info 267</description>
   </entry>
   <entry>
     <name>Trigger for Opponent</name>
@@ -1444,6 +1450,7 @@ Enemies - Requires State Info 152</description>
     <type>s8</type>
     <default>-1</default>
     <description>Requires State Info 132</description>
+    <enum>SP_EFFECT_CHANGE_TEAM_TYPE</enum>
   </entry>
   <entry>
     <name>Bullet Behavior ID - DmyPoly ID</name>
@@ -1489,11 +1496,11 @@ Enemies - Requires State Info 152</description>
     <name>Sight - Angle X</name>
     <type>u8</type>
     <default>0</default>
-    <description>StateInfo 267</description>
+    <description>State Info 267</description>
   </entry>
   <entry>
     <name>Sight - Angle Y</name>
-    <description>StateInfo 267</description>
+    <description>State Info 267</description>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1957,19 +1964,19 @@ Enemies - Requires State Info 152</description>
     <name>Trigger on State Info [1]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>StateInfo</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Trigger on State Info [2]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>StateInfo</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Trigger on State Info [3]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>StateInfo</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Listen - AI Sound Level</name>
@@ -2145,13 +2152,13 @@ Enemies - Requires State Info 152</description>
     <name>Delete Criteria Damage</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectParamDeleteDamageType</enum>
+    <enum>SP_EFFECT_PARAM_DELETE_DAMAGE_TYPE</enum>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 3</name>
     <type>s8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
   </entry>
   <entry>
     <name>Effect Attribute Variation Value</name>
@@ -2167,7 +2174,7 @@ Enemies - Requires State Info 152</description>
     <name>Wet Condition Depth</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectWetConditionDepth</enum>
+    <enum>SP_EFFECT_WET_CONDITION_DEPTH</enum>
   </entry>
   <entry>
     <name>Poise Recovery Time %</name>
@@ -2223,7 +2230,7 @@ Enemies - Requires State Info 152</description>
     <name>Apply Parts Group</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SpEffectApplyPartsGroup</enum>
+    <enum>SP_EFFECT_APPLY_PARTS_GROUP</enum>
   </entry>
   <entry>
     <name>Clear Target</name>

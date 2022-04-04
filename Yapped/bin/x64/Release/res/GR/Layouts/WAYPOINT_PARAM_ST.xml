@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout> 
-  <enum name="WaypointAttribute" type="s16">
+  <enum name="WAYPOINT_ATTRIBUTE" type="s16">
   </enum>
   
   <entry>
     <name>Attribute [1]</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WaypointAttribute</enum>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
   <entry>
     <name>Attribute [2]</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WaypointAttribute</enum>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
   <entry>
     <name>Attribute [3]</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WaypointAttribute</enum>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
   <entry>
     <name>Attribute [4]</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WaypointAttribute</enum>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
 
   <entry>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-   <enum name="WeatherType" type="s16">
+   <enum name="WEATHER_TYPE" type="s16">
   </enum>
-   <enum name="IndoorOutdoorType" type="u8">
+   <enum name="CUTSCENE_INDOOR_OUTDOOR_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -26,97 +26,97 @@
     <name>Destination Weather: Sunny</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Clear Sky</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Lightly Cloudy</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Cloudy</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Rain</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Heavy Rain</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Storm</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Storm for Battle</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Snow</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Heavy Snow</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Fog</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Heavy Fog</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Sandstorm</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Destination Weather: Heavy Fog and Rain</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Post Cutscene In-game Weather</name>
     <type>s16</type>
     <default>0</default>
-    <enum>WeatherType</enum>
+    <enum>WEATHER_TYPE</enum>
   </entry>
   <entry>
     <name>Indoor/Outdoor Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>IndoorOutdoorType</enum>
+    <enum>CUTSCENE_INDOOR_OUTDOOR_TYPE</enum>
   </entry>
   <entry>
     <name>Replacement Weather: Sunny</name>

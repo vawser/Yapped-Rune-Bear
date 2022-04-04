@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="SortGroupID" type="u8">
+  <enum name="SORT_GROUP_ID" type="u8">
     <item value="10" name="10 - Heavy" />
 	<item value="20" name="20 - Keen" />
 	<item value="30" name="30 - Quality" />
@@ -40,7 +40,7 @@
     <name>Sort Group ID</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SortGroupID</enum>
+    <enum>SORT_GROUP_ID</enum>
   </entry>
   <entry>
     <name>SpEffect ID [0]</name>

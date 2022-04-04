@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="AssetHitCreateType" type="s8">
+  <enum name="ASSET_HIT_CREATE_TYPE_ENUM" type="s8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
   </enum>
-  <enum name="AssetBehaviorType" type="u8">
+  <enum name="ASSET_BEHAVIOR_TYPE" type="u8">
     <item value="0" name="0 - Dynamic" />
 	<item value="1" name="1 - Static" />
 	<item value="2" name="2 - Partial Static" />
   </enum>
-  <enum name="AssetCollisionType" type="u8">
+  <enum name="ASSET_COLLISION_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="11" name="11 - Unknown" />
 	<item value="12" name="12 - Unknown" />
@@ -18,45 +18,45 @@
 	<item value="14" name="14 - Unknown" />
 	<item value="15" name="15 - Unknown" />
   </enum>
-  <enum name="RainBlockingType" type="u8">
+  <enum name="RAIN_BLOCKING_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
   </enum>
-  <enum name="AssetBreakItemLotType" type="s8">
+  <enum name="ASSET_BREAK_ITEM_LOT_TYPE_ENUM" type="s8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
   </enum>
-  <enum name="AssetBreakAttributeDamageType" type="s8">
+  <enum name="ASSET_BREAK_ATTRIBUTE_DAMAGE_TYPE" type="s8">
   </enum>
-  <enum name="AssetNavimeshFlag" type="u8">
+  <enum name="ASSET_NAVIMESH_FLAG" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
   </enum>
-  <enum name="AssetWindEffectType" type="u8">
+  <enum name="ASSET_WIND_EFFECT_TYPE" type="u8">
   </enum>
-  <enum name="AssetCamNearBehaviorType" type="s8">
+  <enum name="ASSET_CAM_NEAR_BEHAVIOR_TYPE" type="s8">
   </enum>
-  <enum name="AssetAutoDrawGroupBackfaceCheckType" type="u8">
+  <enum name="ASSET_AUTO_DRAW_GROUP_BACKFACE_CHECK_TYPE" type="u8">
   </enum>
-  <enum name="AssetAutoDrawGroupDepthWriteType" type="u8">
+  <enum name="ASSET_AUTO_DRAW_GROUP_DEPTH_WRITE_TYPE" type="u8">
   </enum>
-  <enum name="AssetAutoDrawGroupShadowTestType" type="u8">
+  <enum name="ASSET_AUTO_DRAW_GROUP_SHADOW_TEST_TYPE" type="u8">
   </enum>
-  <enum name="HitCarverCancelAreaFlag" type="u8">
+  <enum name="HIT_CARVER_CANCEL_AREA_FLAG" type="u8">
   </enum>
-  <enum name="AssetNavimeshGenerateAttribute" type="u8">
+  <enum name="ASSET_NAVIMESH_GENERATE_ATTRIBUTE" type="u8">
   </enum>
-  <enum name="AssetNavimeshFlagApplyType" type="u8">
+  <enum name="ASSET_NAVIMESH_FLAG_APPLY_TYPE" type="u8">
   </enum>
-  <enum name="AssetSlidingBulletHitType" type="u8">
+  <enum name="ASSET_SLIDING_BULLET_HIT_TYPE" type="u8">
   </enum>
-  <enum name="AssetPenetrationBulletType" type="u8">
+  <enum name="ASSET_PENETRATION_BULLET_TYPE" type="u8">
   </enum>
-  <enum name="MultiForbiddenRegionGenerateAttribute" type="u8">
+  <enum name="MULTI_FORBIDDEN_REGION_GENERATE_ATTRIBUTE" type="u8">
   </enum>
-  <enum name="AssetExcludeActivateRatioType" type="u8">
+  <enum name="ASSET_EXCLUDE_ACTIVATE_RATIO_TYPE" type="u8">
   </enum>
   
    <entry>
@@ -78,26 +78,26 @@
     <name>Hit Create Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>AssetHitCreateType</enum>
+    <enum>ASSET_HIT_CREATE_TYPE_ENUM</enum>
     <description>Ignored for dynamic assets.</description>
   </entry>
   <entry>
     <name>Behavior Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetBehaviorType</enum>
+    <enum>ASSET_BEHAVIOR_TYPE</enum>
   </entry>
   <entry>
     <name>Collision Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetCollisionType</enum>
+    <enum>ASSET_COLLISION_TYPE</enum>
   </entry>
   <entry>
     <name>Rain Blocking Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>RainBlockingType</enum>
+    <enum>RAIN_BLOCKING_TYPE</enum>
   </entry>
   <entry>
     <name>HP</name>
@@ -158,7 +158,7 @@
     <name>Destruction Item Lot Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>AssetBreakItemLotType</enum>
+    <enum>ASSET_BREAK_ITEM_LOT_TYPE_ENUM</enum>
   </entry>
   <entry>
     <name>Anim Break ID Max</name>
@@ -169,7 +169,7 @@
     <name>Destruction Bullet Attribute Damage Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>AssetBreakAttributeDamageType</enum>
+    <enum>ASSET_BREAK_ATTRIBUTE_DAMAGE_TYPE</enum>
   </entry>
   <entry>
     <name>Is Destroyed on Player Collision</name>
@@ -250,13 +250,13 @@
     <name>Navmesh Flag</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetNavimeshFlag</enum>
+    <enum>ASSET_NAVIMESH_FLAG</enum>
   </entry>
   <entry>
     <name>Burn Bullet Interval</name>
     <type>u16</type>
     <default>0</default>
-    <enum>AssetNavimeshFlag</enum>
+    <enum>ASSET_NAVIMESH_FLAG</enum>
   </entry>
   <entry>
     <name>Camera Distance to Update Cloth</name>
@@ -292,13 +292,13 @@
     <name>Wind Effect Type [0]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetWindEffectType</enum>
+    <enum>ASSET_WIND_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Wind Effect Type [1]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetWindEffectType</enum>
+    <enum>ASSET_WIND_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Override Material ID</name>
@@ -415,13 +415,13 @@
     <name>Navmesh Flag - Destroyed Asset</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetNavimeshFlag</enum>
+    <enum>ASSET_NAVIMESH_FLAG</enum>
   </entry>
   <entry>
     <name>Near Camera Behavior Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>AssetCamNearBehaviorType</enum>
+    <enum>ASSET_CAM_NEAR_BEHAVIOR_TYPE</enum>
   </entry>
   <entry>
     <name>Destroyed Item Lot Param ID</name>
@@ -443,19 +443,19 @@
     <name>Auto Draw Group: Backface Check</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetAutoDrawGroupBackfaceCheckType</enum>
+    <enum>ASSET_AUTO_DRAW_GROUP_BACKFACE_CHECK_TYPE</enum>
   </entry>
   <entry>
     <name>Auto Draw Group: Depth Write</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetAutoDrawGroupDepthWriteType</enum>
+    <enum>ASSET_AUTO_DRAW_GROUP_DEPTH_WRITE_TYPE</enum>
   </entry>
   <entry>
     <name>Auto Draw Group: Shadow Test</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetAutoDrawGroupShadowTestType</enum>
+    <enum>ASSET_AUTO_DRAW_GROUP_SHADOW_TEST_TYPE</enum>
   </entry>
   <entry>
     <name>Is Height Check Enabled</name>
@@ -466,25 +466,25 @@
     <name>Exclude from Subfloor Navmesh if below Hit</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitCarverCancelAreaFlag</enum>
+    <enum>HIT_CARVER_CANCEL_AREA_FLAG</enum>
   </entry>
   <entry>
     <name>Block Navmesh Combine</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetNavimeshGenerateAttribute</enum>
+    <enum>ASSET_NAVIMESH_GENERATE_ATTRIBUTE</enum>
   </entry>
   <entry>
     <name>Navmesh Flag Apply Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetNavimeshFlagApplyType</enum>
+    <enum>ASSET_NAVIMESH_FLAG_APPLY_TYPE</enum>
   </entry>
   <entry>
     <name>Navmesh Flag Apply Type - Destroyed</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetNavimeshFlagApplyType</enum>
+    <enum>ASSET_NAVIMESH_FLAG_APPLY_TYPE</enum>
   </entry>
   <entry>
     <name>Auto Draw Group: Pass Pixel Number</name>
@@ -515,7 +515,7 @@
     <name>Sliding Bullet Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetSlidingBulletHitType</enum>
+    <enum>ASSET_SLIDING_BULLET_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Is Damaged by Special Attacks</name>
@@ -526,7 +526,7 @@
     <name>Penetration Bullet Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetPenetrationBulletType</enum>
+    <enum>ASSET_PENETRATION_BULLET_TYPE</enum>
   </entry>
   
   <entry>
@@ -626,7 +626,7 @@
     <name>Multiplayer Forbidden Region Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>MultiForbiddenRegionGenerateAttribute</enum>
+    <enum>MULTI_FORBIDDEN_REGION_GENERATE_ATTRIBUTE</enum>
   </entry>
   <entry>
     <name>Resident SE ID [0]</name>
@@ -672,25 +672,25 @@
     <name>Exclude Activate Ratio - Xbox One Grid</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetExcludeActivateRatioType</enum>
+    <enum>ASSET_EXCLUDE_ACTIVATE_RATIO_TYPE</enum>
   </entry>
   <entry>
     <name>Exclude Activate Ratio - Xbox One Legacy</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetExcludeActivateRatioType</enum>
+    <enum>ASSET_EXCLUDE_ACTIVATE_RATIO_TYPE</enum>
   </entry>
   <entry>
     <name>Exclude Activate Ratio - PS4 Grid</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetExcludeActivateRatioType</enum>
+    <enum>ASSET_EXCLUDE_ACTIVATE_RATIO_TYPE</enum>
   </entry>
   <entry>
     <name>Exclude Activate Ratio - PS4 Legacy</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AssetExcludeActivateRatioType</enum>
+    <enum>ASSET_EXCLUDE_ACTIVATE_RATIO_TYPE</enum>
   </entry>
   <entry>
     <name>padding</name>

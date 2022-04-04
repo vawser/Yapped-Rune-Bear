@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="AiSoundRateType" type="u8">
+  <enum name="AI_SOUND_RATE_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Default" />
 	<item value="2" name="2 - Collision Based" />
   </enum>
-  <enum name="AiSoundRank" type="u8">
+  <enum name="AI_SOUND_RANK" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
@@ -17,7 +17,7 @@
 	<item value="8" name="8 - Unknown" />
 	<item value="9" name="9 - Unknown" />
   </enum>
-  <enum name="AiSoundReplanningStateType" type="u8">
+  <enum name="AI_SOUND_REPLANNING_STATE_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
 	<item value="1" name="1 - Unknown" />
 	<item value="2" name="2 - Unknown" />
@@ -34,15 +34,15 @@
   </entry>
   <entry>
     <name>Is Affected by Sound Radius Magnification</name>
-    <type>u8</type>
-    <default>0</default>
+    <type>b8</type>
+    <default>False</default>
     <description>Sound Radius Magnification is in SpEffects</description>
   </entry>
   <entry>
     <name>Rate Type</name>
     <type>u8</type>
     <default>0</default>
-	<enum>AiSoundRateType</enum>
+	<enum>AI_SOUND_RATE_TYPE</enum>
   </entry>
   <entry>
     <name>Target: Hostile</name>
@@ -68,7 +68,7 @@
     <name>Rank</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AiSoundRank</enum>
+    <enum>AI_SOUND_RANK</enum>
   </entry>
   <entry>
     <name>Forget Time</name>
@@ -94,7 +94,7 @@
     <name>Replanning State</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AiSoundReplanningStateType</enum>
+    <enum>AI_SOUND_REPLANNING_STATE_TYPE</enum>
   </entry>
   <entry>
     <name>padding</name>

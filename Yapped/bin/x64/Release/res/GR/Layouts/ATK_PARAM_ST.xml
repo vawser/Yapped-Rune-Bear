@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="AttackAttribute" type="u8">
+  <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Slash" />
 	<item value="2" name="2 - Strike" />
     <item value="3" name="3 - Thrust" />
     <item value="4" name="4 - Standard" />
   </enum>
-  <enum name="EffectAttribute" type="u8">
+  <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
     <item value="10" name="10 - Magic" />
     <item value="11" name="11 - Fire" />
@@ -22,7 +22,12 @@
     <item value="26" name="26 - Blight" />
     <item value="254" name="254 - None" />
   </enum>
-  <enum name="DamageLevel" type="u8">
+  <enum name="BEHAVIOR_ATK_TYPE" type="u8">
+    <item value="0" name="0 - Slash" />
+	<item value="1" name="1 - Strike" />
+	<item value="2" name="2 - Thrust" />
+  </enum>
+  <enum name="ATKPARAM_REP_DMGTYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
 	<item value="2" name="2 - Short Stagger" />
@@ -37,21 +42,16 @@
     <item value="11" name="11 - Strong Stagger" />
     <item value="12" name="12 - Stagger Backwards" />
   </enum>
-  <enum name="AttackType" type="u8">
-    <item value="0" name="0 - Slash" />
-	<item value="1" name="1 - Strike" />
-	<item value="2" name="2 - Thrust" />
-  </enum>
-  <enum name="HitType" type="u8">
+  <enum name="ATK_PARAM_HIT_TYPE" type="u8">
     <item value="0" name="0 - Ignore Collision" />
 	<item value="2" name="2 - Invoke Collision" />
   </enum>
-  <enum name="MapHitType" type="u8">
+  <enum name="ATK_PARAM_MAP_HIT" type="u8">
     <item value="0" name="0 - Default" />
 	<item value="1" name="1 - Projectile" />
 	<item value="2" name="2 - Hazard" />
   </enum>
-  <enum name="ConditionalWeaponEffect" type="u8">
+  <enum name="ATK_SUB_CATEGORY" type="u8">
     <item value="0" name="0 - None" />
     <item value="1" name="1 - Full Moon Spell" />
     <item value="2" name="2 - Carian Sword Spell" />
@@ -97,23 +97,29 @@
     <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
   
-  <enum name="GuardRangeType" type="u8">
+  <enum name="WEP_MATERIAL_ATK" type="u8">
   </enum>
-  <enum name="HitSourceType" type="u8">
+  <enum name="WEP_MATERIAL_DEF" type="u8">
   </enum>
-  <enum name="ThrowflagType" type="u8">
+  <enum name="ATKPARAM_GUARD_RANGE_TYPE" type="u8">
   </enum>
-  <enum name="SFXAttackPOW" type="s8">
+  <enum name="ATK_PARAM_HIT_SOURCE" type="u8">
   </enum>
-  <enum name="SFXAttackDirection" type="s8">
+  <enum name="ATK_PATAM_THROWFLAG_TYPE" type="u8">
   </enum>
-  <enum name="AtkParamBehaviorID" type="u8">
+  <enum name="ATKPARAM_SFX_ATK_POW" type="s8">
   </enum>
-  <enum name="WepMaterialDefSFX" type="u16">
+  <enum name="ATKPARAM_SFX_ATK_DIR" type="s8">
   </enum>
-  <enum name="WepMaterialDef" type="u16">
+  <enum name="ATKPARAM_BEHAVIOR_ID" type="u8">
   </enum>
-  <enum name="ThrowAttributeType" type="u8">
+  <enum name="WEP_MATERIAL_DEF_SFX" type="u16">
+  </enum>
+  <enum name="WEP_MATERIAL_DEF" type="u16">
+  </enum>
+  <enum name="ATKPARAM_THROWATTR_TYPE" type="u8">
+  </enum>
+  <enum name="ATKPARAM_SE_ATK_POW" type="s8">
   </enum>
   
   <entry>
@@ -287,14 +293,14 @@
     <name>Conditional Weapon Effect 1</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a SpEffect row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
     <name>Conditional Weapon Effect 2</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a SpEffect row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
@@ -387,28 +393,28 @@
     <type>u8</type>
     <default>0</default>
     <description>Type of hit applied by hitbox.</description>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 1: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Type of hit applied by hitbox.</description>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 2: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Type of hit applied by hitbox.</description>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 3: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Type of hit applied by hitbox.</description>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 0: Priority</name>
@@ -438,7 +444,7 @@
     <name>Damage Level</name>
     <type>u8</type>
     <default>2</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
     <description>Impact level of attack, which determines how the target reacts to it (e.g. knocked backward, launched into the air, etc.). Certain special effects on the target (e.g. Iron Flesh) may re-map this impact level to a different one.</description>
   </entry>
   <entry>
@@ -446,7 +452,7 @@
     <type>u8</type>
     <default>0</default>
     <description>Determines how this attack interacts with the map.</description>
-    <enum>MapHitType</enum>
+    <enum>ATK_PARAM_MAP_HIT</enum>
   </entry>
   <entry>
     <name>Guard Absorption Bypass Rate</name>
@@ -458,21 +464,21 @@
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AttackAttribute</enum>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
     <description>Type of physical damage done by attack.</description>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectAttribute</enum>
+    <enum>ATKPARAM_SPATTR_TYPE</enum>
     <description>Type of elemental damage done by attack.</description>
   </entry>
   <entry>
     <name>Attack Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AttackType</enum>
+    <enum>BEHAVIOR_ATK_TYPE</enum>
     <description>Determines the sounds and visual effects generated by the attack itself (before hit).</description>
   </entry>
   <entry>
@@ -480,32 +486,34 @@
     <type>u8</type>
     <default>0</default>
     <description>Determines the sounds and visual effects generated when the attack hits. A value of 255 uses the weapon default.</description>
+    <enum>WEP_MATERIAL_ATK</enum>
   </entry>
   <entry>
     <name>Guard Range Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GuardRangeType</enum>
+    <enum>ATKPARAM_GUARD_RANGE_TYPE</enum>
   </entry>
   <entry>
     <name>Defence SE Material</name>
     <type>u16</type>
     <default>0</default>
     <description>Determines the sound effects used when guarding. Usually 255 for Player Attacks and 0 (if not a block) or 50 (if blocking) for Non-Player Attacks.</description>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Hit Source Type</name>
     <type>u8</type>
     <default>0</default>
     <description>Specify where you get the model point for attack. Set to 1 for parries, ripostes, and basic body attacks (falling, rolling, etc.), and zero otherwise. Use that pattern.</description>
-    <enum>HitSourceType</enum>
+    <enum>ATK_PARAM_HIT_SOURCE</enum>
   </entry>
   <entry>
     <name>Throw Flag</name>
     <type>u8</type>
     <default>0</default>
     <description>Determines how this attack relates to throws: not at all, a throw trigger, or a throw damage parameter.</description>
-    <enum>ThrowflagType</enum>
+    <enum>ATK_PATAM_THROWFLAG_TYPE</enum>
   </entry>
   <entry>
     <name>Disable Guard</name>
@@ -559,13 +567,13 @@
     <name>Attack Power - SFX Effect</name>
     <type>s8</type>
     <default>0</default>
-    <enum>SFXAttackPOW</enum>
+    <enum>ATKPARAM_SFX_ATK_POW</enum>
   </entry>
   <entry>
     <name>Attack Direction - SFX Effect</name>
     <type>s8</type>
     <default>0</default>
-    <enum>SFXAttackDirection</enum>
+    <enum>ATKPARAM_SFX_ATK_DIR</enum>
   </entry>
   <entry>
     <name>Oppose Target</name>
@@ -607,12 +615,13 @@
     <name>Attack Behavior ID [1]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamBehaviorID</enum>
+    <enum>ATKPARAM_BEHAVIOR_ID</enum>
   </entry>
   <entry>
     <name>Attack Power - SE Effect</name>
     <type>s8</type>
     <default>0</default>
+    <enum>ATKPARAM_SE_ATK_POW</enum>
   </entry>
   <entry>
     <name>Damage: Poise</name>
@@ -963,73 +972,73 @@
     <name>Hit 4: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 5: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 6: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 7: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 8: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 9: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 10: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 11: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 12: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 13: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 14: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 15: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitType</enum>
+    <enum>ATK_PARAM_HIT_TYPE</enum>
   </entry>
   <entry>
     <name>Hit 4: Priority</name>
@@ -1095,19 +1104,19 @@
     <name>Defence SFX Material [1]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Defence SE Material [2]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>WepMaterialDef</enum>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
     <name>Defence SFX Material [2]</name>
     <type>u16</type>
     <default>0</default>
-    <enum>WepMaterialDefSFX</enum>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Attack Correction: Holy</name>
@@ -1141,7 +1150,7 @@
     <name>Damage Level - Vs. Player</name>
     <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Status Ailment Correction</name>
@@ -1167,13 +1176,13 @@
     <name>Attack Behavior ID [2]</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AtkParamBehaviorID</enum>
+    <enum>ATKPARAM_BEHAVIOR_ID</enum>
   </entry>
   <entry>
     <name>Throw Damage Attribute</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowAttributeType</enum>
+    <enum>ATKPARAM_THROWATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Status Ailment Correction - By Point</name>

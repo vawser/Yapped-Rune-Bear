@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ThrowPadType" type="u8">
+  <enum name="THROW_PAD_TYPE" type="u8">
   </enum>
-  <enum name="ThrowEnableState" type="u8">
+  <enum name="THROW_ENABLE_STATE" type="u8">
   </enum>
-  <enum name="ThrowFollowingType" type="u8">
+  <enum name="THROW_FOLLOWING_TYPE" type="u8">
   </enum>
-  <enum name="ThrowType" type="u8">
+  <enum name="THROW_TYPE" type="u8">
   </enum>
-  <enum name="ThrowDmyChrDirType" type="u8">
+  <enum name="THROW_DMY_CHR_DIR_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -90,19 +90,19 @@
     <name>Pad Type</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ThrowPadType</enum>
+    <enum>THROW_PAD_TYPE</enum>
   </entry>
   <entry>
     <name>Attack Enable State</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowEnableState</enum>
+    <enum>THROW_ENABLE_STATE</enum>
   </entry>
   <entry>
     <name>Throw Following Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowFollowingType</enum>
+    <enum>THROW_FOLLOWING_TYPE</enum>
   </entry>
   
   <entry>
@@ -115,7 +115,7 @@
     <name>Throw Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowType</enum>
+    <enum>THROW_TYPE</enum>
   </entry>
   <entry>
     <name>Self Escape - Cycle Count</name>
@@ -126,7 +126,7 @@
     <name>Character Throw - Dummy Poly Direction Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowDmyChrDirType</enum>
+    <enum>THROW_DMY_CHR_DIR_TYPE</enum>
   </entry>
   <entry>
     <name>Throw can Side Turn</name>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="SwordArtsRefStatusType" type="s8">
+  <enum name="SWORD_ARTS_REF_STATUS_TYPE" type="s8">
   </enum>
-  <enum name="SwordArtsShieldIconType" type="s8">
+  <enum name="SWORD_ARTS_SHIELD_ICON_TYPE" type="s8">
   </enum>
   
   <entry>
@@ -31,7 +31,7 @@
     <name>Reference Status Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>SwordArtsRefStatusType</enum>
+    <enum>SWORD_ARTS_REF_STATUS_TYPE</enum>
   </entry>
   <entry>
     <name>Is Right-hand Arts Reference</name>
@@ -102,7 +102,7 @@
     <name>Shield Icon Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>SwordArtsShieldIconType</enum>
+    <enum>SWORD_ARTS_SHIELD_ICON_TYPE</enum>
   </entry>
   
   <entry>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="MapAISightType" type="u8">
+  <enum name="MAP_AI_SIGHT_TYPE" type="u8">
   </enum>
-  <enum name="SoundIndoorType" type="u8">
+  <enum name="SOUND_INDOOR_TYPE" type="u8">
   </enum>
-  <enum name="SoundMapDefaultReverbType" type="s8">
+  <enum name="SOUND_MAP_DEFAULT_REVERB_TYPE" type="s8">
   </enum>
-  <enum name="SoundBGMMapPlaceType" type="s16">
+  <enum name="SOUND_BGM_MAP_PLACE_TYPE" type="s16">
   </enum>
-  <enum name="SoundEnvMapPlaceType" type="s16">
+  <enum name="SOUND_ENV_MAP_PLACE_TYPE" type="s16">
   </enum>
-  <enum name="MapGIResolutionOverrideType" type="s8">
+  <enum name="MAP_GI_RESOLUTION_OVERRIDE_TYPE" type="s8">
   </enum>
   
   <entry>
@@ -44,31 +44,31 @@
     <name>Map AI Sight Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>MapAISightType</enum>
+    <enum>MAP_AI_SIGHT_TYPE</enum>
   </entry>
   <entry>
     <name>Sound Indoor Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SoundIndoorType</enum>
+    <enum>SOUND_INDOOR_TYPE</enum>
   </entry>
   <entry>
     <name>Reverb Default Type</name>
     <type>s8</type>
     <default>0</default>
-    <enum>SoundMapDefaultReverbType</enum>
+    <enum>SOUND_MAP_DEFAULT_REVERB_TYPE</enum>
   </entry>
   <entry>
     <name>BGM Place Info</name>
     <type>s16</type>
     <default>0</default>
-    <enum>SoundBGMMapPlaceType</enum>
+    <enum>SOUND_BGM_MAP_PLACE_TYPE</enum>
   </entry>
   <entry>
     <name>Env Place Info</name>
     <type>s16</type>
     <default>0</default>
-    <enum>SoundEnvMapPlaceType</enum>
+    <enum>SOUND_ENV_MAP_PLACE_TYPE</enum>
   </entry>
   <entry>
     <name>Map Additional Sound Bank ID</name>
@@ -89,7 +89,7 @@
     <name>Override GI Resolution - XSS</name>
     <type>s8</type>
     <default>0</default>
-    <enum>MapGIResolutionOverrideType</enum>
+    <enum>MAP_GI_RESOLUTION_OVERRIDE_TYPE</enum>
   </entry>
   <entry>
     <name>Map High Hit Switch - AABB Depth</name>
@@ -147,7 +147,7 @@
     <name>Override GI Resolution - XSX</name>
     <type>s8</type>
     <default>0</default>
-    <enum>MapGIResolutionOverrideType</enum>
+    <enum>MAP_GI_RESOLUTION_OVERRIDE_TYPE</enum>
   </entry>
   
   <entry>

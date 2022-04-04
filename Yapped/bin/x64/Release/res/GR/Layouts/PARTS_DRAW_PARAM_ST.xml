@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="PartsDrawLODType" type="u8">
+  <enum name="PARTS_DRAW_LOD_TYPE" type="u8">
   </enum>
-  <enum name="PartsDrawForwardDrawEnvmapBlendType" type="u8">
+  <enum name="PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -139,7 +139,7 @@
     <name>LOD Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>PartsDrawLODType</enum>
+    <enum>PARTS_DRAW_LOD_TYPE</enum>
   </entry>
   <entry>
     <name>Shadow Draw LOD Offset</name>
@@ -190,7 +190,7 @@
     <name>Forward Draw Envmap Blend Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>PartsDrawForwardDrawEnvmapBlendType</enum>
+    <enum>PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE</enum>
   </entry>
   <entry>
     <name>Load Balancer - Draw Distance Scale Param ID</name>

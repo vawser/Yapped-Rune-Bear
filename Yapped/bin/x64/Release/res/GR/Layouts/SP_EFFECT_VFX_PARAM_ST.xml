@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="SoulParamID" type="u8">
+  <enum name="SP_EFFECT_VFX_SOUL_PARAM_TYPE" type="u8">
     <item value="0" name="None" />
 	<item value="1" name="Bright Blue" />
     <item value="2" name="Red Orange" />
@@ -27,17 +27,17 @@
     <item value="23" name="White Outline" />
   </enum>
   
-  <enum name="EffectTypeVFX" type="u8">
+  <enum name="SP_EFFECT_VFX_EFFECT_TYPE" type="u8">
   </enum>
-  <enum name="VFXPlayCategory" type="u8">
+  <enum name="SP_EFFECT_VFX_PLAYCATEGORY" type="u8">
   </enum>
-  <enum name="VFXForceDeceasedType" type="u8">
+  <enum name="SP_EFFECT_VFX_FORCE_DECEASED_TYPE" type="u8">
   </enum>
-  <enum name="VFXSFXIDOffsetType" type="u8">
+  <enum name="SP_EFFECT_VFX_SFX_ID_OFFSET_TYPE" type="u8">
   </enum>
-  <enum name="OverwritePhantomParamType" type="u8">
+  <enum name="SP_EFFECT_OVERWRITE_PHANTOM_PARAM_TYPE" type="u8">
   </enum>
-  <enum name="VFXWetAspectType" type="u8">
+  <enum name="SP_EFFECT_VFX_WET_ASPECT_TYPE" type="u8">
   </enum>
   
   <entry>
@@ -106,20 +106,20 @@
     <name>Effect Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectTypeVFX</enum>
+    <enum>SP_EFFECT_VFX_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Enchant - Soul Param ID</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SoulParamID</enum>
+    <enum>SP_EFFECT_VFX_SOUL_PARAM_TYPE</enum>
   </entry>
   <entry>
     <name>Play Category</name>
     <type>u8</type>
     <default>0</default>
     <description>Only one effect in each category can be active at once (determined by PlaybackPriority).</description>
-    <enum>VFXPlayCategory</enum>
+    <enum>SP_EFFECT_VFX_PLAYCATEGORY</enum>
   </entry>
   <entry>
     <name>Play Priority</name>
@@ -231,13 +231,13 @@
     <name>Trace SFX ID Offset Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>SoulParamID</enum>
+    <enum>SP_EFFECT_VFX_SOUL_PARAM_TYPE</enum>
   </entry>
   <entry>
     <name>Force Deceased Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>VFXForceDeceasedType</enum>
+    <enum>SP_EFFECT_VFX_FORCE_DECEASED_TYPE</enum>
   </entry>
   <entry>
     <name>Enchant SFX Start - Dummy Poly ID [0]</name>
@@ -323,13 +323,13 @@
     <name>SFX ID OffsetType</name>
     <type>u8</type>
     <default>0</default>
-    <enum>VFXSFXIDOffsetType</enum>
+    <enum>SP_EFFECT_VFX_SFX_ID_OFFSET_TYPE</enum>
   </entry>
   <entry>
     <name>Phantom Param Overwrite Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>OverwritePhantomParamType</enum>
+    <enum>SP_EFFECT_OVERWRITE_PHANTOM_PARAM_TYPE</enum>
   </entry>
   <entry>
     <name>Camouflage - Min Alpha</name>
@@ -340,7 +340,7 @@
     <name>Wet Aspect Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>VFXWetAspectType</enum>
+    <enum>SP_EFFECT_VFX_WET_ASPECT_TYPE</enum>
   </entry>
   <entry>
     <name>Phantom Param Overwrite ID</name>

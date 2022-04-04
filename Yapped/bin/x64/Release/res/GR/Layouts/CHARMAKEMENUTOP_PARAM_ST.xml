@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="CharMakeMenuCmdType" type="s32">
+  <enum name="CHARMAKEMENU_CMD_TYPE" type="s32">
   </enum>
-  <enum name="CharMakeMenuViewcondition" type="s32">
+  <enum name="CHARMAKEMENU_VIEW_CONDITION" type="s32">
   </enum>
-  <enum name="CharMakeMenuPreviewMode" type="s8">
+  <enum name="CHARMAKEMENU_PREVIEW_MODE" type="s8">
   </enum>
   
   <entry>
     <name>Command Type</name>
     <type>s32</type>
     <default>-1</default>
-    <enum>CharMakeMenuCmdType</enum>
+    <enum>CHARMAKEMENU_CMD_TYPE</enum>
   </entry>
   <entry>
     <name>Caption ID</name>
@@ -32,13 +32,13 @@
     <name>View Condition</name>
     <type>s32</type>
     <default>0</default>
-    <enum>CharMakeMenuViewcondition</enum>
+    <enum>CHARMAKEMENU_VIEW_CONDITION</enum>
   </entry>
   <entry>
     <name>Preview Mode</name>
     <type>s8</type>
     <default>-1</default>
-    <enum>CharMakeMenuPreviewMode</enum>
+    <enum>CHARMAKEMENU_PREVIEW_MODE</enum>
   </entry>
   
   <entry>

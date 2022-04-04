@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="NPCThinkGoalAction" type="u8">
+  <enum name="NPC_THINK_GOAL_ACTION" type="u8">
     <item value="0" name="Wait for Battle Start Distance" />
     <item value="1" name="Look at Source" />
     <item value="2" name="Approach Source" />
     <item value="3" name="Run to Source" />
     <item value="4" name="Immediate Battle AI" />
   </enum>
-  <enum name="NPCThinkCavaranRole" type="u8">
+  <enum name="NPC_THINK_CARAVAN_ROLE" type="u8">
   </enum>
-  <enum name="NPCThinkReplyBehaviorType" type="u8">
+  <enum name="NPC_THINK_REPLY_BEHAVIOR_TYPE" type="u8">
   </enum>
-  <enum name="NPCThinkActTypeOnFailedPath" type="u8">
+  <enum name="NPC_THINK_ACTTYPE_ON_FAILEDPATH" type="u8">
   </enum>
-  <enum name="NPCThinkActTypeOnNonBTLFailedPath" type="u8">
+  <enum name="NPC_THINK_ACTTYPE_ON_NONBTL_FAILEDPATH" type="u8">
   </enum>
-  <enum name="NPCThinkJumpUserEdgeUseType" type="u8">
+  <enum name="NPC_THINK_JUMPUSEREDGE_USE_TYPE" type="u8">
   </enum>
-  <enum name="NPCThinkChangeStateAction" type="u8">
+  <enum name="NPC_THINK_CHANGE_STATE_ACTION" type="u8">
   </enum>
-  <enum name="NPCThinkBackToHomeStuckAct" type="u8">
+  <enum name="NPC_THINK_BackToHomeStuckAct" type="u8">
   </enum>
   
   <entry>
@@ -244,7 +244,7 @@
     <type>u8</type>
     <default>0</default>
     <description></description>
-    <enum>NPCThinkCavaranRole</enum>
+    <enum>NPC_THINK_CARAVAN_ROLE</enum>
   </entry>
   <entry>
     <name>Call Help - Valid Target Min Distance</name>
@@ -281,7 +281,7 @@
     <type>u8</type>
     <default>1</default>
     <description>Type of action taken when AI enters the 'Caution' state.</description>
-    <enum>NPCThinkGoalAction</enum>
+    <enum>NPC_THINK_GOAL_ACTION</enum>
   </entry>
   <entry>
     <name>Listen - Listen Level</name>
@@ -293,7 +293,7 @@
     <type>u8</type>
     <default>0</default>
     <description>Set to 0 for NPCs who do not reply to calls for help and 1 for NPCs who do.</description>
-    <enum>NPCThinkReplyBehaviorType</enum>
+    <enum>NPC_THINK_REPLY_BEHAVIOR_TYPE</enum>
   </entry>
   <entry>
     <name>Disable Path Move</name>
@@ -438,13 +438,13 @@
     <name>Act Type on Failed Path</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkActTypeOnFailedPath</enum>
+    <enum>NPC_THINK_ACTTYPE_ON_FAILEDPATH</enum>
   </entry>
   <entry>
     <name>Goal Action - Target Alerted by Important Sound</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkGoalAction</enum>
+    <enum>NPC_THINK_GOAL_ACTION</enum>
   </entry>
   <entry>
     <name>Shift Animation ID on Ranged Attack</name>
@@ -455,7 +455,7 @@
     <name>Act Type on Non-BTL Failed Path</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkActTypeOnNonBTLFailedPath</enum>
+    <enum>NPC_THINK_ACTTYPE_ON_NONBTL_FAILEDPATH</enum>
   </entry>
   <entry>
     <name>Is Spirit Summon AI</name>
@@ -466,19 +466,19 @@
     <name>Goal Action - Target Search Level 1</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkGoalAction</enum>
+    <enum>NPC_THINK_GOAL_ACTION</enum>
   </entry>
   <entry>
     <name>Goal Action - Target Search Level 2</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkGoalAction</enum>
+    <enum>NPC_THINK_GOAL_ACTION</enum>
   </entry>
   <entry>
     <name>Jump Move Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkJumpUserEdgeUseType</enum>
+    <enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</enum>
   </entry>
   <entry>
     <name>Disable Local Steering</name>
@@ -489,13 +489,13 @@
     <name>Goal Action - Target Lost</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkGoalAction</enum>
+    <enum>NPC_THINK_GOAL_ACTION</enum>
   </entry>
   <entry>
     <name>Change State Action - To Normal</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkChangeStateAction</enum>
+    <enum>NPC_THINK_CHANGE_STATE_ACTION</enum>
   </entry>
   <entry>
     <name>Time to Forget Target</name>
@@ -511,25 +511,25 @@
     <name>Use Fall Jump - Outside of Combat</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkJumpUserEdgeUseType</enum>
+    <enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</enum>
   </entry>
   <entry>
     <name>Use Fall Jump - In Combat</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkJumpUserEdgeUseType</enum>
+    <enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</enum>
   </entry>
   <entry>
     <name>Enable Jump - In Combat</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkJumpUserEdgeUseType</enum>
+    <enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</enum>
   </entry>
   <entry>
     <name>Back to Home Stuck Act</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCThinkBackToHomeStuckAct</enum>
+    <enum>NPC_THINK_BackToHomeStuckAct</enum>
   </entry>
   
   <entry>
