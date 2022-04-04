@@ -31,27 +31,27 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Poise Durability</name>
+    <name>Poise Durability</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Scaling %: STR</name>
+    <name>Correction %: STR</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Scaling %: DEX</name>
+    <name>Correction %: DEX</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Scaling %: INT</name>
+    <name>Correction %: INT</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Scaling %: FTH</name>
+    <name>Correction %: FTH</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -143,7 +143,7 @@
     <description>Applies the specified offset value to the Material Set ID used by the EquipWeaponParam.</description>
   </entry>
   <entry>
-    <name>Multiplayer Reinforcement Level</name>
+    <name>Max Reinforcement Level</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -158,7 +158,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Scaling %: ARC</name>
+    <name>Correction %: ARC</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -168,20 +168,27 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Reinforce Price Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Infusion Cost %</name>
+    <name>Base Change Price Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
-    <type>f32</type>
-    <default>1</default>
+    <name>Ash of War Rank</name>
+    <type>s8</type>
+    <default>0</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
   <entry>
     <name>Guard Absorption %: Sleep</name>
     <type>f32</type>
@@ -193,7 +200,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>Reinforcement Cost %</name>
+    <name>Base Damage %: Overall</name>
     <type>f32</type>
     <default>1</default>
   </entry>

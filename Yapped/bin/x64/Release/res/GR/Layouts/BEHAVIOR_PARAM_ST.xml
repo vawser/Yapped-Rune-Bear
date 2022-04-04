@@ -9,20 +9,19 @@
     <item value="0" name="0 - No Category" />
 	<item value="1" name="1 - PC - Right-Hand" />
 	<item value="2" name="2 - PC - Left-hand" />
-	<item value="3" name="3 - Magic" />
     <item value="4" name="4 - Magic" />
 	<item value="5" name="5 - Basic" />
 	<item value="6" name="6 - NPC - Right-hand" />
 	<item value="7" name="7 - NPC - Left-hand" />
 	<item value="9" name="9 - Kick" />
-    <item value="10" name="10 - PC - Both-hand" />
     <item value="11" name="11 - PC - Both-hand" />
-    <item value="12" name="12 - PC - Right-hand #2" />
+    <item value="12" name="12 - PC - Right-hand" />
   </enum>
   <enum name="STATE_BEHAVIOR_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Player" />
 	<item value="2" name="2 - NPC" />
+	<item value="3" name="3 - NPC" />
   </enum>
   <entry>
     <name>Behavior Variation ID</name>

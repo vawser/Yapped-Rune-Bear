@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Rumble State</name>
-    <type>u8</type>
-    <default>1</default>
+    <name>Is Use Option</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <!-- Verified zero -->
   <entry>

@@ -48,6 +48,7 @@
             this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.checkbox_SaveNoEncryption = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textbox_ignore_list = new System.Windows.Forms.TextBox();
@@ -63,6 +64,7 @@
             this.groupbox_Workflow = new System.Windows.Forms.GroupBox();
             this.groupbox_Saving = new System.Windows.Forms.GroupBox();
             this.groupbox_Actions = new System.Windows.Forms.GroupBox();
+            this.checkbox_ExportUniqueOnly = new System.Windows.Forms.CheckBox();
             this.groupbox_General.SuspendLayout();
             this.groupbox_Data.SuspendLayout();
             this.groupbox_Workflow.SuspendLayout();
@@ -277,13 +279,14 @@
             // 
             // groupbox_Data
             // 
+            this.groupbox_Data.Controls.Add(this.checkbox_ExportUniqueOnly);
             this.groupbox_Data.Controls.Add(this.checkbox_IncludeRowNames);
             this.groupbox_Data.Controls.Add(this.checkbox_IncludeHeader);
             this.groupbox_Data.Controls.Add(this.label_CSV_Delimiter);
             this.groupbox_Data.Controls.Add(this.textbox_CSV_Delimiter);
             this.groupbox_Data.Location = new System.Drawing.Point(230, 12);
             this.groupbox_Data.Name = "groupbox_Data";
-            this.groupbox_Data.Size = new System.Drawing.Size(212, 107);
+            this.groupbox_Data.Size = new System.Drawing.Size(423, 107);
             this.groupbox_Data.TabIndex = 31;
             this.groupbox_Data.TabStop = false;
             this.groupbox_Data.Text = "Data";
@@ -317,12 +320,23 @@
             // groupbox_Actions
             // 
             this.groupbox_Actions.Controls.Add(this.button_LogParamSizes);
-            this.groupbox_Actions.Location = new System.Drawing.Point(448, 12);
+            this.groupbox_Actions.Location = new System.Drawing.Point(448, 125);
             this.groupbox_Actions.Name = "groupbox_Actions";
-            this.groupbox_Actions.Size = new System.Drawing.Size(205, 268);
+            this.groupbox_Actions.Size = new System.Drawing.Size(205, 155);
             this.groupbox_Actions.TabIndex = 34;
             this.groupbox_Actions.TabStop = false;
             this.groupbox_Actions.Text = "Actions";
+            // 
+            // checkbox_ExportUniqueOnly
+            // 
+            this.checkbox_ExportUniqueOnly.AutoSize = true;
+            this.checkbox_ExportUniqueOnly.Location = new System.Drawing.Point(208, 19);
+            this.checkbox_ExportUniqueOnly.Name = "checkbox_ExportUniqueOnly";
+            this.checkbox_ExportUniqueOnly.Size = new System.Drawing.Size(152, 17);
+            this.checkbox_ExportUniqueOnly.TabIndex = 9;
+            this.checkbox_ExportUniqueOnly.Text = "Export Unique Values Only";
+            this.toolTip9.SetToolTip(this.checkbox_SaveNoEncryption, "Field Exporter will only include each unique field value once. Useful for making a list of possible field values.");
+            this.checkbox_ExportUniqueOnly.UseVisualStyleBackColor = true;
             // 
             // FormSettings
             // 
@@ -374,6 +388,7 @@
         private System.Windows.Forms.ToolTip toolTip6;
         private System.Windows.Forms.ToolTip toolTip7;
         private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip9;
         private System.Windows.Forms.TextBox textbox_ignore_list;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -391,5 +406,6 @@
         private System.Windows.Forms.GroupBox groupbox_Saving;
         private System.Windows.Forms.CheckBox checkbox_SaveNoEncryption;
         private System.Windows.Forms.GroupBox groupbox_Actions;
+        private System.Windows.Forms.CheckBox checkbox_ExportUniqueOnly;
     }
 }

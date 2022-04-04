@@ -1,24 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="CUTSCENE_TIMEZONE_TYPE" type="u8">
+  </enum>
+  
   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Disable Param - Debug</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+
+  <entry>
+    <name>Destination Timezone: Morning</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Destination Timezone: Noon</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Destination Timezone: Afternoon</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Destination Timezone: Evening</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Destination Timezone: Night</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Destination Timezone: Deep Night A</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Destination Timezone: Deep Night B</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CUTSCENE_TIMEZONE_TYPE</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Post Cutscene In-game Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
-
+  
 </layout>

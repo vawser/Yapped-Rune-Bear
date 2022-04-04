@@ -1,546 +1,430 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unknown</name>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+
+  <entry>
+    <name>Match Area ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Play Region ID</name>
-    <type>s32</type>
+    <name>Multiplayer Start Limit - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Allow Summon Signs</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>-1 for disallow, 0 for allow</description>
-  </entry>
-  <entry>
-    <name>Limitation Time</name>
+    <name>Disable Intrusion if Other Ghost In Range</name>
     <type>f32</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>Event Flag ID 1</name>
-    <type>s32</type>
+    <name>Player Position Save Limit - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Event Flag ID 2</name>
-    <type>s32</type>
+    <name>Boss Area ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Dissolved Event Flag ID</name>
+    <name>White Phantom Entity ID - Free Frame</name>
     <type>s16</type>
     <default>180</default>
   </entry>
   <entry>
-    <name>Is Lord of Cinder</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Is Enable Event</name>
+    <name>Is Map Guardian Region</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Is Yellow Monk Region</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - Multiplayer Start Limit ID [1]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - Invasion Start Limit ID [1]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - White Sign Start Limit ID [1]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - Red Sign Start Limit ID [1]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - Invasion Start Limit ID [2]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Target Flag State - Invasion Start Limit ID [3]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Bonfire Object ID 0</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 1</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 2</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 3</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 4</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 5</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 6</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 7</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 8</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Bonfire Object ID 9</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
+    <name>Target Flag State - White Sign Start Limit ID [2]</name>
     <type>b8</type>
-    <default>True</default>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>Warp Item Usage Permitted - Bonfire ID [1]</name>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>b8</type>
-    <default>True</default>
+    <name>Warp Item Usage Permitted - Bonfire ID [2]</name>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
-    <type>b8</type>
-    <default>True</default>
+    <name>Warp Item Usage Permitted - Bonfire ID [3]</name>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Warp Item Usage Permitted - Bonfire ID [4]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Usage Permitted - Bonfire ID [5]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Prohibition - Event Flag ID [1]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Prohibition - Event Flag ID [2]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Prohibition - Event Flag ID [3]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Prohibition - Event Flag ID [4]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Warp Item Prohibition - Event Flag ID [5]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Enable Bloodstain</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Enable Blood Message</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Enable Ghost</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Display Mask 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Display Mask 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
-    <entry>
-    <name>Unk1</name>
+  <entry>
+    <name>Target Flag State - White Sign Start Limit ID [3]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Target Flag State - Red Sign Start Limit ID [2]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Target Flag State - Red Sign Start Limit ID [3]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>Is Automatic Invasion Point</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Block Yellow Monk Multiplayer - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Other Ghost Invasion Range - Max Limit</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Summoning Pool Open - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Map Area</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Map Block</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Map Region</name>
     <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk4</name>
-    <type>u8</type>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Coordinate: X</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>u8</type>
+    <name>Coordinate: Y</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>u8</type>
+    <name>Coordinate: Z</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
 
-    <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+  <entry>
+    <name>Invasion Restriction - Event Flag ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Summon Restriction - Event Flag ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Summoning Pool Restriction - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Sign Aim ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Sign Aim ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Sign Aim ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Sign Aim ID [4]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s32</type>
+    <name>Sign Aim ID [5]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Sign Aim ID [6]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s32</type>
+    <name>Sign Aim ID [7]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Sign Aim ID [8]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Red Sign Limit - Event Flag ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Invasion Limit - Event Flag ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
+    <name>Invasion Limit - Event Flag ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
+    <name>White Sign Limit - Event Flag ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>White Sign Limit - Event Flag ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
-    <type>s32</type>
+    <name>Red Sign Limit - Event Flag ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
+    <name>Red Sign Limit - Event Flag ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>s32</type>
+    <name>Boss ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>s32</type>
+    <name>Boss ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>s32</type>
+    <name>Boss ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>s32</type>
+    <name>Boss ID [4]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
+    <name>Boss ID [5]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
+    <name>Boss ID [6]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
-    <type>s32</type>
+    <name>Boss ID [7]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
-    <type>s32</type>
+    <name>Boss ID [8]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>s32</type>
+    <name>Boss ID [9]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>s32</type>
+    <name>Boss ID [10]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>s32</type>
+    <name>Boss ID [11]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>s32</type>
+    <name>Boss ID [12]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk30</name>
-    <type>s32</type>
+    <name>Boss ID [13]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk31</name>
-    <type>s32</type>
+    <name>Boss ID [14]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk32</name>
-    <type>s32</type>
+    <name>Boss ID [15]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk33</name>
-    <type>s32</type>
+    <name>Boss ID [16]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk34</name>
-    <type>s32</type>
+    <name>Map Menu Unlock - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>32</size>
   </entry>
 
 </layout>

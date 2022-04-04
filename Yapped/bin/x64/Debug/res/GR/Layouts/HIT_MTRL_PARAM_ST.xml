@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="HMP_HARDNESS_TYPE" type="u8">
+  </enum>
+
   <entry>
     <name>AI Volume Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>On Hit SpEffect 1</name>
+    <name>On Hit [1] - SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>On Hit SpEffect 2</name>
+    <name>On Hit [2] - SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -36,143 +39,145 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>New SpType 0</name>
+    <name>Floor Height Type 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>New SpType 1</name>
+    <name>Floor Height  Type 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>UnkB1</name>
+    <name>Disable Fall Damage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>UnkB2</name>
+    <name>Is Hardness for Sound Reverb</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Hit Material Type 1</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Hit Material Type 2</name>
+    <name>Hardness Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>HMP_HARDNESS_TYPE</enum>
+  </entry>
+
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>6</size>
+  </entry>
+  
+  <entry>
+    <name>On Hit [0] - NG+1 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Hit Material Type 3</name>
-    <type>u8</type>
+    <name>On Hit [0] - NG+2 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [0] - NG+3 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [0] - NG+4 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [0] - NG+5 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [0] - NG+6 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [0] - NG+7 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [1] - NG+1 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [2] - NG+2 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [3] - NG+3 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [4] - NG+4 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [5] - NG+5 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [6] - NG+6 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>On Hit [7] - NG+7 - SpEffect ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  
+  <entry>
+    <name>Rain - Replace Material ID</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>On Hit Effect 3</name>
-    <type>s32</type>
-    <default>-1</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
+  
   <entry>
-    <name>On Hit Effect 4</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 5</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 6</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 7</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 8</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 9</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 10</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 11</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 12</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 13</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 14</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 15</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 16</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>On Hit Effect 17</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-    <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
+    <name>Wetness [0] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Wetness [1] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Wetness [2] - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
+  <entry>
+    <name>Wetness [3] - SpEffect ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wetness [4] - SpEffect ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  
 </layout>

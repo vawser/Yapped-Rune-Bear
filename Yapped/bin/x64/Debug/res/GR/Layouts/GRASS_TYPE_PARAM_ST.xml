@@ -1,349 +1,223 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
+  <enum name="GRASS_CLUSTER_TYPE_ENUM" type="u8">
+  </enum>
+  <enum name="GRASS_DISTRIBUTION_TYPE_ENUM" type="u8">
+  </enum>
+  <enum name="GRASS_FLAT_SPLIT_TYPE_ENUM" type="u8">
+  </enum>
+  <enum name="GRASS_SHADOW_TYPE_ENUM" type="u8">
+  </enum>
+  <enum name="GRASS_DITHERING_TYPE_ENUM" type="u8">
+  </enum>
+  
+  <entry>
+    <name>LOD Range</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>LOD0 - Cluster Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
+  </entry>
+  <entry>
+    <name>LOD1 - Cluster Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
+  </entry>
+  <entry>
+    <name>LOD2 - Cluster Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GRASS_CLUSTER_TYPE_ENUM</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+
+  <entry>
+    <name>Distribution Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GRASS_DISTRIBUTION_TYPE_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Base Density</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Model Name [0]</name>
+    <type>fixstrW</type>
+    <size>32</size>
+    <default></default>
+  </entry>
+ <entry>
+    <name>Flat Texture Name</name>
+    <type>fixstrW</type>
+    <size>64</size>
+    <default></default>
+  </entry>
+  <entry>
+    <name>Billboard Texture Name</name>
+    <type>fixstrW</type>
+    <size>64</size>
+    <default></default>
+  </entry>
+  <entry>
+    <name>Normal Influence</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Inclination Max</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Inclination Jitter</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scale Base - Min</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scale Base - Max</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scale Height - Min</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Scale Height - Max</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 1 - R</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 1 - G</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 1 - B</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 2 - R</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 2 - G</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Color Shade 2 - B</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Flat Split Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GRASS_FLAT_SPLIT_TYPE_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Flat Blade Count</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Flat Slant</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Flat Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Cast Shadow Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GRASS_SHADOW_TYPE_ENUM</enum>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Wind Amplitude</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk46</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk51</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk52</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk53</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk54</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk55</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk56</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk57</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk59</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+
   <entry>
-    <name>Unk60</name>
-    <type>s32</type>
+    <name>Wind Cycle</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk61</name>
-    <type>s32</type>
+    <name>Orientation Angle</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk62</name>
-    <type>s32</type>
+    <name>Orientation Range</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk63</name>
-    <type>s32</type>
+    <name>Spacing</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>s32</type>
+    <name>Dithering Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GRASS_DITHERING_TYPE_ENUM</enum>
   </entry>
+  
   <entry>
-    <name>Unk65</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk66</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
+  
   <entry>
-    <name>Unk67</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Simple Model Name</name>
+    <type>fixstrW</type>
+    <size>32</size>
+    <default></default>
   </entry>
   <entry>
-    <name>Unk68</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Model Name [1]</name>
+    <type>fixstrW</type>
+    <size>32</size>
+    <default></default>
   </entry>
 
 </layout>

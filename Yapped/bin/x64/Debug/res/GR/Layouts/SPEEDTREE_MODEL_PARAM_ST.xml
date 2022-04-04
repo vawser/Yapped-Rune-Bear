@@ -1,52 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
    <entry>
-    <name>Unk0</name>
+    <name>Leaf - Min Fade</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Frond - Min Fade</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Branch - Min Fade</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Leaf - Min Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Leaf - Max Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Frond - Min Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Frond - Max Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Branch - Min Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Branch -MaxMin Translucency</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Billboard Specular Suppression Value</name>
     <type>f32</type>
     <default>0</default>
   </entry>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="StateInfo" type="s16">
+  <enum name="SP_EFFECT_TYPE" type="u16">
     <item value="0" name="0 - None" />
     <item value="2" name="2 - Poison" />
     <item value="3" name="3 - Unknown" />
@@ -288,7 +288,7 @@
     <item value="1000" name="1000 - SkipSpCategoryCheck1" />
     <item value="1001" name="1001 - SkipSpCategoryCheck2" />
   </enum>
-  <enum name="ConditionalWeaponEffect" type="s8">
+  <enum name="ATK_SUB_CATEGORY" type="u8">
     <item value="0" name="0 - None" />
     <item value="1" name="1 - Full Moon Spell" />
     <item value="2" name="2 - Carian Sword Spell" />
@@ -333,7 +333,7 @@
     <item value="117" name="117 - Wraith Attack" />
     <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
-  <enum name="DamageLevel" type="u8">
+  <enum name="ATKPARAM_REP_DMGTYPE" type="s8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - No Stagger" />
 	<item value="2" name="2 - Short Stagger" />
@@ -348,7 +348,7 @@
     <item value="11" name="11 - Strong Stagger" />
     <item value="12" name="12 - Stagger Backwards" />
   </enum>
-  <enum name="ThrowTrigger" type="u8">
+  <enum name="SP_EFFECT_THROW_CONDITION_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Forbidden" />
 	<item value="2" name="2 - Parry" />
@@ -366,7 +366,7 @@
     <item value="14" name="14 - Unknown" />
     <item value="15" name="15 - Unknown" />
   </enum>
-  <enum name="MoveType" type="u8">
+  <enum name="SP_EFFECT_MOVE_TYPE" type="u8">
     <item value="0" name="0 - Unknown" />
     <item value="1" name="1 - Unknown" />
     <item value="2" name="2 - Unknown" />
@@ -374,14 +374,14 @@
 	<item value="4" name="4 - Unknown" />
     <item value="5" name="5 - Unknown" />
   </enum>
-  <enum name="WeaponParamChange" type="u8">
+  <enum name="SP_EFE_WEP_CHANGE_PARAM" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Right-hand" />
 	<item value="2" name="2 - Left-hand" />
     <item value="3" name="3 - Self" />
     <item value="4" name="4 - Kick" />
   </enum>
-  <enum name="EffectCategory" type="s16">
+  <enum name="SP_EFFECT_SPCATEGORY" type="s16">
     <item value="0" name="0 - None" />
 	<item value="10" name="10 - Stack Self" />
 	<item value="20" name="20 - Reset on Apply" />
@@ -434,11 +434,11 @@
 	<item value="10009" name="10009 - Apply First (Sleep)" />
 	<item value="10010" name="10010 - Apply First (Madness)" />
   </enum>
-  <enum name="AttackAttribute" type="u8">
+  <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
     <item value="254" name="254 - None" />
     <item value="255" name="255 - Standard" />
   </enum>
-  <enum name="EffectAttribute" type="u8">
+  <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="10" name="10 - Magic" />
     <item value="11" name="11 - Fire" />
     <item value="12" name="12 - Lightning" />
@@ -452,6 +452,18 @@
     <item value="26" name="26 - Blight" />
     <item value="254" name="254 - None" />
   </enum>
+  
+  <enum name="SP_EFFECT_PARAM_DELETE_DAMAGE_TYPE" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_WET_CONDITION_DEPTH" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_APPLY_PARTS_GROUP" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_SAVE_CATEGORY" type="s8">
+  </enum>
+  <enum name="SP_EFFECT_CHANGE_TEAM_TYPE" type="s8">
+  </enum>
+  
   <entry>
     <name>Icon ID</name>
     <type>s32</type>
@@ -638,7 +650,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Max HP Change</name>
+    <name>Look-At Target Position Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -676,17 +688,17 @@ Bullet Behavior - Requires State Info 334</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Change SP %</name>
+    <name>Change Stamina %</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Change SP +</name>
+    <name>Change Stamina +</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Recovery</name>
+    <name>Stamina Recovery</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -770,6 +782,7 @@ Bullet Behavior - Requires State Info 334</description>
     <name>Rune Amount %</name>
     <type>f32</type>
     <default>1</default>
+    <description>Affects the rune amount specified in NPCParam</description>
   </entry>
   <entry>
     <name>Target Priority</name>
@@ -778,13 +791,13 @@ Bullet Behavior - Requires State Info 334</description>
     <description>Requires State Info 46</description>
   </entry>
   <entry>
-    <name>Enemy Sight Reduction</name>
+    <name>Enemy Sight Adjustment</name>
     <type>f32</type>
     <default>1</default>
     <description>Requires State Info 8</description>
   </entry>
   <entry>
-    <name>Enemy Listen Reduction</name>
+    <name>Enemy Listen Adjustment</name>
     <type>f32</type>
     <default>1</default>
     <description>Requires State Info 54</description>
@@ -823,7 +836,6 @@ Bullet Behavior - Requires State Info 334</description>
     <name>Effect Duration %</name>
     <type>f32</type>
     <default>1</default>
-    <description>Multiplier applied to the duration of the effect specified in EffectDurationMultiplierType.</description>
   </entry>
   <entry>
     <name>HP Recovery Effectiveness %</name>
@@ -850,7 +862,7 @@ Bullet Behavior - Requires State Info 334</description>
 Enemies - Requires State Info 152</description>
   </entry>
   <entry>
-    <name>Guard Defense Weapon Repel Power %</name>
+    <name>Guard Defense - Weapon Repel Power %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -866,20 +878,20 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 1</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
     <name>Conditional Weapon Effect 2</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
     <description>If this matches with any of the Conditional Weapon Effect fields in a AtkParam row, it will apply the SpEffect for that attack.</description> 
   </entry>
   <entry>
-    <name>Bow Effective Range</name>
+    <name>Bow Distance</name>
     <type>s16</type>
     <default>0</default>
     <description>Requires State Info 168</description>
@@ -888,7 +900,7 @@ Enemies - Requires State Info 152</description>
     <name>Effect Category</name>
     <type>s16</type>
     <default>0</default>
-    <enum>EffectCategory</enum>
+    <enum>SP_EFFECT_SPCATEGORY</enum>
   </entry>
   <entry>
     <name>Category Priority</name>
@@ -901,6 +913,7 @@ Enemies - Requires State Info 152</description>
     <type>s8</type>
     <default>-1</default>
     <description>Determines automatic game saving behavior (used for status ailments only). Set to -1 for no saving.</description>
+    <enum>SP_EFFECT_SAVE_CATEGORY</enum>
   </entry>
   <entry>
     <name>Memory Slot</name>
@@ -908,12 +921,12 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Miracle Attunement Slot (Obsolete)</name>
+    <name>Miracle Attunement Slot</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Humanity Damage (Obsolete)</name>
+    <name>Humanity Damage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -928,123 +941,124 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Bleed Damage Taken %</name>
+    <name>Hemorrhage Damage Taken %</name>
     <type>u8</type>
     <default>100</default>
   </entry>
   <entry>
     <name>Damage Level: No Impact</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Small Impact</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Medium Impact</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Large Impact</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blowoff</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Push</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Strike</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blow</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Minimal</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Launch</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Blow Backward</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Damage Level: Breath</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <enum>DamageLevel</enum>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
-    <default>254</default>
-    <enum>AttackAttribute</enum>
+    <default>0</default>
+    <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
-    <default>254</default>
-    <enum>EffectAttribute</enum>
+    <default>0</default>
+    <enum>ATKPARAM_SPATTR_TYPE</enum>
   </entry>
   <entry>
     <name>State Info</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
-    <enum>StateInfo</enum>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Change</name>
     <type>u8</type>
     <default>0</default>
-    <enum>WeaponParamChange</enum>
+    <enum>SP_EFE_WEP_CHANGE_PARAM</enum>
   </entry>
   <entry>
     <name>Move Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>MoveType</enum>
+    <enum>SP_EFFECT_MOVE_TYPE</enum>
   </entry>
   <entry>
-    <name>Effect Duration Multiplier Type</name>
-    <type>s16</type>
+    <name>Effect Duration Multiplier - State Info</name>
+    <type>u16</type>
     <default>0</default>
     <description>Type of effect whose duration is affected by Effect Duration Multiplier.</description>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
     <name>Throw Trigger</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ThrowTrigger</enum>
+    <enum>SP_EFFECT_THROW_CONDITION_TYPE</enum>
   </entry>
   <entry>
     <name>Add Behavior Judge ID - Trigger</name>
@@ -1052,8 +1066,8 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Add Behavior Judge ID</name>
-    <type>s8</type>
+    <name>Frostbite Damage Rate %</name>
+    <type>u8</type>
     <default>100</default>
   </entry>
   <entry>
@@ -1092,12 +1106,12 @@ Enemies - Requires State Info 152</description>
     <default>True</default>
   </entry>
   <entry>
-    <name>Target White Ghost</name>
+    <name>Disable Sleep</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Target Black Ghost</name>
+    <name>Disable Madness</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1112,28 +1126,26 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Use Visual Effect</name>
+    <name>Generate Regain Gauge</name>
     <type>b8</type>
     <default>False</default>
-    <description>Use visual effect from State Info Visuals table</description>
   </entry>
   <entry>
-    <name>Use Intelligence Scaling</name>
+    <name>Use Intelligence Correction</name>
     <type>b8</type>
     <default>False</default>
     <description>Scales certain fields based on spell buff derived from current INT.</description>
   </entry>
   <entry>
-    <name>Use Faith Scaling</name>
+    <name>Use Faith Correction</name>
     <type>b8</type>
     <default>False</default>
     <description>Scales certain fields based on spell buff derived from current FTH.</description>
   </entry>
   <entry>
-    <name>Enable in NG+</name>
+    <name>Enable after Game Clear</name>
     <type>b8</type>
     <default>False</default>
-    <description>Enables the SpEffect if in NG+</description>
   </entry>
   <entry>
     <name>Affects Sorcery</name>
@@ -1171,7 +1183,7 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Request: Returnt to Own World</name>
+    <name>Request: Return to Own World</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1227,7 +1239,7 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Ignore Gravity</name>
+    <name>Ignore Gravity Change</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1262,32 +1274,17 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Has Target</name>
+    <name>Adjust Strength Ability</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Cancel on Fire Damage</name>
+    <name>Adjust Dexterity Ability</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Extend Effect Duration</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Request: Leave Arena</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Charge Attack Param Change</name>
+    <name>Erase on Bonfire Rest</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1297,7 +1294,22 @@ Enemies - Requires State Info 152</description>
     <default>False</default>
   </entry>
   <entry>
-    <name>Check Equip Slot</name>
+    <name>Request: Leave Arena</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Has Effect Duration Adjustment Applied</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Has Target</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Replan on Fire Damage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1382,15 +1394,16 @@ Enemies - Requires State Info 152</description>
     <default>True</default>
   </entry>
   <entry>
-    <name>Damage Change State</name>
-    <type>u8</type>
+    <name>Change Attacker Damage Level</name>
+    <type>s8</type>
     <default>0</default>
+    <enum>ATKPARAM_REP_DMGTYPE</enum>
   </entry>
   <entry>
-    <name>Visual Distance Change - AI 1</name>
+    <name>AI Sight Adjustment</name>
     <type>f32</type>
     <default>1</default>
-    <description>StateInfo 267</description>
+    <description>State Info 267</description>
   </entry>
   <entry>
     <name>Trigger for Opponent</name>
@@ -1408,27 +1421,27 @@ Enemies - Requires State Info 152</description>
     <default>True</default>
   </entry>
   <entry>
-    <name>Trigger for Player</name>
+    <name>Trigger for Horse</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Trigger for AI</name>
+    <name>Trigger for Dead Player</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Trigger for Live</name>
+    <name>Can Duration be Reduced</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Trigger for Ghost</name>
+    <name>Delete in Wait Mode</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Trigger for Attacker</name>
+    <name>Apply through No Damage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1437,6 +1450,7 @@ Enemies - Requires State Info 152</description>
     <type>s8</type>
     <default>-1</default>
     <description>Requires State Info 132</description>
+    <enum>SP_EFFECT_CHANGE_TEAM_TYPE</enum>
   </entry>
   <entry>
     <name>Bullet Behavior ID - DmyPoly ID</name>
@@ -1449,49 +1463,49 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>State Effect 1 - SpEffect Trigger</name>
+    <name>Accumulator - Over Value - SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 1 - Conditional Value</name>
+    <name>Accumulator - Over Value</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 2 - SpEffect Trigger</name>
+    <name>Accumulator - Under Value - SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect 2 - Conditional Value</name>
+    <name>Accumulator - Under Value</name>
     <type>s32</type>
     <default>-1</default>
     <description>StateInfo303-311</description>
   </entry>
   <entry>
-    <name>State Effect - Value Increment</name>
+    <name>Accumulator - Increment Value</name>
     <type>s32</type>
     <default>0</default>
 	<description>StateInfo303-311</description>
   </entry>
    <entry>
-    <name>Visual Distance Change - AI 2</name>
+    <name>Sight - Angle X</name>
     <type>u8</type>
     <default>0</default>
-    <description>StateInfo 267</description>
+    <description>State Info 267</description>
   </entry>
   <entry>
-    <name>Visual Distance Change - AI 3</name>
-    <description>StateInfo 267</description>
+    <name>Sight - Angle Y</name>
+    <description>State Info 267</description>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk87</name>
+    <name>Add Deceased Level</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -1537,18 +1551,13 @@ Enemies - Requires State Info 152</description>
     <description>Requires State Info 260</description>
   </entry>
   <entry>
-    <name>Unk88</name>
+    <name>Appear AI Sound ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s8</type>
+    <name>Automatic Foot Effect - SFX ID Offset</name>
+    <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -1557,7 +1566,7 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Team Attack Effectivity</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
@@ -1591,12 +1600,12 @@ Enemies - Requires State Info 152</description>
     <description>Applies the specified multiplier to damage against enemies tagged as Draconic.</description>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Bonus Damage %: Unknown A</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Bonus Damage %: Unknown B</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1631,12 +1640,12 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk90</name>
+    <name>Full View in Darkness - Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Dark Sight Value</name>
+    <name>Full View in Darkness - Dummy Poly ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -1646,7 +1655,7 @@ Enemies - Requires State Info 152</description>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Weapon Stamina Usage %</name>
+    <name>Stamina Consumption %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1682,119 +1691,164 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage %: Slash</name>
+    <name>Attack %: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Strike</name>
+    <name>Attack %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Thrust</name>
+    <name>Attack %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Standard</name>
+    <name>Attack %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Damage %: Slash</name>
+    <name>Attack +: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Damage %: Strike</name>
+    <name>Power %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Damage %: Thrust</name>
+    <name>Power %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>PVP Damage %: Standard</name>
+    <name>Power %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Power +: Slash</name>
     <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage +: Strike</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage +: Thrust</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Damage +: Standard</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Correction +: STR</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>f32</type>
+    <name>Correction +: DEX</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>f32</type>
+    <name>Correction +: INT</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
-    <type>f32</type>
+    <name>Correction +: FTH</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>f32</type>
+    <name>Correction +: ARC</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
-    <type>f32</type>
+    <name>Weapon Art Restore: STR</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
-    <type>f32</type>
+    <name>Weapon Art Restore: DEX</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>f32</type>
+    <name>Weapon Art Restore: INT</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>f32</type>
+    <name>Weapon Art Restore: FTH</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
+    <name>Madness Damage Rate %</name>
     <type>u8</type>
-    <default>100</default>
-  </entry>
-  <entry>
-    <name>Unk37 - Used by Attack Effects</name>
-    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk38</name>
-    <type>u8</type>
+    <name>Use Status Ailment Attack Power Correction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Use AtkParam Attack Power Correction</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Retain on Dead</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Frostbite</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Do not Sync in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affects Pyromancy</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Stop Platoon Notifications</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Apply outside of Rain</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Add Behavior Judgment ID - Addition Value</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk39</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
+    <name>Absorption %: Poise Damage</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>PVP Absorption %: Physical</name>
@@ -1846,8 +1900,8 @@ Enemies - Requires State Info 152</description>
     <type>f32</type>
     <default>1</default>
   </entry>
-  <entry>
-    <name>Global Weapon Damage %</name>
+   <entry>
+    <name>Absorption %: Object</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1907,83 +1961,70 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Trigger SpEffect ID</name>
+    <name>Trigger on State Info [1]</name>
+    <type>u16</type>
+    <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Trigger on State Info [2]</name>
+    <type>u16</type>
+    <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Trigger on State Info [3]</name>
+    <type>u16</type>
+    <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Listen - AI Sound Level</name>
     <type>s16</type>
-    <default>0</default>
-    <enum>StateInfo</enum>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk46</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
+    <name>Proxy Height Capsule</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk48</name>
+    <name>Search Awareness - Addition Correction - Self</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk49</name>
+    <name>Search Awareness - Addition Correction - Target</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk50</name>
+    <name>Sight Search - Enemy Addition</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk51</name>
+    <name>Sight Search Addition</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk52</name>
+    <name>Listen Search Addition</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk53</name>
+    <name>Listen Search Correction</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk54</name>
+    <name>Listen Search - Enemy Addition</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk55</name>
+    <name>Sale Price %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -1998,42 +2039,42 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
+    <name>Pyromancy FP Cost %</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
     <name>Incantation FP Cost %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unused School FP Cost %</name>
+    <name>HP Flask - HP Restore %</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>HP Flask - HP Restore +</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>FP Flask - FP Restore %</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>FP Flask - FP Restore +</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>HP Flask - HP Restore Correction</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk57</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Crimson Tear - HP Restore</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Cerulean Tear - FP Restore</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Crimson Tear HP Restore %</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Cerulean Tear FP Restore %</name>
+    <name>FP Flask - HP Restore Correction</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -2043,29 +2084,24 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Effect Duration %</name>
+    <name>Extend SpEffect Duration %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk59</name>
+    <name>Contract SpEffect Duration %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk60</name>
+    <name>Object Damage %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk61</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk62</name>
-    <type>s8</type>
-    <default>-1</default>
+    <name>Decal Deletion Group ID</name>
+    <type>s16</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Vigor</name>
@@ -2113,44 +2149,45 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk63</name>
-    <type>s8</type>
+    <name>Delete Criteria Damage</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>SP_EFFECT_PARAM_DELETE_DAMAGE_TYPE</enum>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 3</name>
     <type>s8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
-    <description>Unverified</description>
+    <enum>ATK_SUB_CATEGORY</enum>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>s8</type>
+    <name>Effect Attribute Variation Value</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk65</name>
-    <type>s8</type>
+    <name>Weapon Repel Power +</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk66</name>
-    <type>s8</type>
+    <name>Wet Condition Depth</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>SP_EFFECT_WET_CONDITION_DEPTH</enum>
   </entry>
   <entry>
-    <name>Unk67</name>
+    <name>Poise Recovery Time %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk68</name>
+    <name>Regain Correction %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Unk69</name>
+    <name>Poise Damage %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -2185,89 +2222,123 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk70</name>
-    <type>s16</type>
-    <default>100</default>
-  </entry>
-  <entry>
-    <name>Unk71</name>
-    <type>s16</type>
+    <name>Sleep Damage Rate %</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk72</name>
+    <name>Apply Parts Group</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>SP_EFFECT_APPLY_PARTS_GROUP</enum>
+  </entry>
+  <entry>
+    <name>Clear Target</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Ignore Fake Target - Human</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Ignore Fake Target - Phantom</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Force Invasion</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Poise +</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Apply Poise Damage +</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Giant Enemy Height Overwrite</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk73</name>
+    <name>Status Damage %: Poison</name>
     <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Scarlet Rot</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Hemorrhage</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Blight</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Frostbite</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Sleep</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Status Damage %: Madness</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Override - Max Back Home Distance</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk74</name>
-    <type>s32</type>
+    <name>Override - Back Home Distance</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk75</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk76</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk77</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk78</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk79</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk80</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk81</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Unk82</name>
-    <type>s32</type>
+    <name>Override - Back Home Battle Distance</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk83</name>
-    <type>s32</type>
+    <name>Override - Look Target Distance</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk84</name>
+    <name>Item FP Consumption %</name>
     <type>f32</type>
     <default>1</default>
   </entry>
+  
   <entry>
-    <name>Unk85</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk86</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
 
 </layout>

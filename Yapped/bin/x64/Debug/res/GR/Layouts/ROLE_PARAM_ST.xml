@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="TeamType" type="u8">
+  <enum name="TEAM_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Live" />
 	<item value="2" name="2 - White Ghost" />
@@ -36,166 +36,175 @@
     <item value="32" name="32 - Invader Mad Phantom" />
     <item value="33" name="33 - Arch Enemy Team" />
   </enum>
+  
+  <enum name="VOICE_CHAT_GROUP_Type" type="u8">
+  </enum>
+  <enum name="ROLE_NAME_COLOR_TYPE" type="u8">
+  </enum>
+  
   <entry>
     <name>Team Type</name>
     <type>u8</type>
     <default>16</default>
-    <enum>TeamType</enum>
+    <enum>TEAM_TYPE</enum>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>pad1</name>
     <type>dummy8</type>
     <size>3</size>
   </entry>
+  
   <entry>
-    <name>Phantom Param ID 0</name>
+    <name>Phantom Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 0</name>
+    <name>SpEffect ID [0]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 1</name>
+    <name>SpEffect ID [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 2</name>
+    <name>SpEffect ID [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 3</name>
+    <name>SpEffect ID [3]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 4</name>
+    <name>SpEffect ID [4]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 5</name>
+    <name>SpEffect ID [5]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 6</name>
+    <name>SpEffect ID [6]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 7</name>
+    <name>SpEffect ID [7]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 8</name>
+    <name>SpEffect ID [8]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect ID 9</name>
+    <name>SpEffect ID [9]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX ID 0</name>
+    <name>SOS Sign - SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>VFX ID 1</name>
+    <name>Personal SOS Sign - SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Stay Anim ID</name>
+    <name>Player Summon Start - Animation ID</name>
     <type>s32</type>
     <default>63010</default>
   </entry>
   <entry>
-    <name>Itemlot ID</name>
+    <name>Map Itemlot Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect Condition</name>
+    <name>Voice Chat Group</name>
     <type>u8</type>
     <default>0</default>
+    <enum>VOICE_CHAT_GROUP_Type</enum>
   </entry>
   <entry>
-    <name>Display Team Name</name>
+    <name>Role Name Color</name>
     <type>u8</type>
     <default>2</default>
+    <enum>ROLE_NAME_COLOR_TYPE</enum>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>pad2</name>
     <type>dummy8</type>
     <size>2</size>
   </entry>
+  
   <entry>
-    <name>Text ID</name>
+    <name>Role Name - Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Team Type - Sub</name>
-    <type>s32</type>
-    <default>16</default>
-    <enum>TeamType</enum>
+    <name>Threat Level</name>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Phantom Param ID 1</name>
+    <name>Phantom Param ID - Vow Rank [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Phantom Param ID 2</name>
+    <name>Phantom Param ID - Vow Rank [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Phantom Param ID 3</name>
+    <name>Phantom Param ID - Vow Rank [3]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect ID 10</name>
+    <name>SpEffect ID - Vow Rank [0]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect ID 11</name>
+    <name>SpEffect ID - Vow Rank [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect ID 12</name>
+    <name>SpEffect ID - Vow Rank [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Effect ID 13</name>
+    <name>SpEffect ID - Vow Rank [3]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Ghost Phantom ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>NPC Summon Start - Animation ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>pad3</name>
     <type>dummy8</type>

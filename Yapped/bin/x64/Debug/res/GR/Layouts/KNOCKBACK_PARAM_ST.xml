@@ -1,152 +1,152 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Damage - Minimum - Cond Time</name>
+    <name>Damage - Minimum - Conditional Time</name>
     <type>f32</type>
     <default>0.02</default>
   </entry>
   <entry>
-    <name>Damage - Short - Cond Time</name>
+    <name>Damage - Short - Conditional Time</name>
     <type>f32</type>
     <default>0.01</default>
   </entry>
   <entry>
-    <name>Damage - Medium - Cond Time</name>
+    <name>Damage - Medium - Conditional Time</name>
     <type>f32</type>
     <default>0.03</default>
   </entry>
   <entry>
-    <name>Damage - Long - Cond Time</name>
+    <name>Damage - Long - Conditional Time</name>
     <type>f32</type>
     <default>0.05</default>
   </entry>
   <entry>
-    <name>Damage - Blow Short - Cond Time</name>
+    <name>Damage - Blow Short - Conditional Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Blow Medium - Cond Time</name>
+    <name>Damage - Blow Medium - Conditional Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Strike - Cond Time</name>
+    <name>Damage - Strike - Conditional Time</name>
     <type>f32</type>
     <default>0.1</default>
   </entry>
   <entry>
-    <name>Damage - Uppercut - Cond Time</name>
+    <name>Damage - Uppercut - Conditional Time</name>
     <type>f32</type>
     <default>0.45</default>
   </entry>
   <entry>
-    <name>Damage - Push - Cond Time</name>
+    <name>Damage - Push - Conditional Time</name>
     <type>f32</type>
     <default>0.1</default>
   </entry>
   <entry>
-    <name>Damage - Breath - Cond Time</name>
+    <name>Damage - Breath - Conditional Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Headshot - Cond Time</name>
+    <name>Damage - Headshot - Conditional Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard - Short - Cond Time</name>
+    <name>Guard - Short - Conditional Time</name>
     <type>f32</type>
     <default>0.05</default>
   </entry>
   <entry>
-    <name>Guard - Meidum - Cond Time</name>
+    <name>Guard - Meidum - Conditional Time</name>
     <type>f32</type>
     <default>0.02</default>
   </entry>
   <entry>
-    <name>Guard - Long - Cond Time</name>
+    <name>Guard - Long - Conditional Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Break - Cond Time</name>
+    <name>Guard Break - Conditional Time</name>
     <type>f32</type>
     <default>0.07</default>
   </entry>
   <entry>
-    <name>Damage - Minimum - Dec Time</name>
+    <name>Damage - Minimum - Deceleration Time</name>
     <type>f32</type>
     <default>0.06</default>
   </entry>
   <entry>
-    <name>Damage - Short - Dec Time</name>
+    <name>Damage - Short - Deceleration Time</name>
     <type>f32</type>
     <default>0.15</default>
   </entry>
   <entry>
-    <name>Damage - Medium - Dec Time</name>
+    <name>Damage - Medium - Deceleration Time</name>
     <type>f32</type>
     <default>0.69</default>
   </entry>
   <entry>
-    <name>Damage - Long - Dec Time</name>
+    <name>Damage - Long - Deceleration Time</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage - Blow Short - Dec Time</name>
+    <name>Damage - Blow Short - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Blow Medium - Dec Time</name>
+    <name>Damage - Blow Medium - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Strike - Dec Time</name>
+    <name>Damage - Strike - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Uppercut - Dec Time</name>
+    <name>Damage - Uppercut - Deceleration Time</name>
     <type>f32</type>
     <default>1.75</default>
   </entry>
   <entry>
-    <name>Damage - Push - Dec Time</name>
+    <name>Damage - Push - Deceleration Time</name>
     <type>f32</type>
     <default>0.9</default>
   </entry>
   <entry>
-    <name>Damage - Breath - Dec Time</name>
+    <name>Damage - Breath - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage - Headshot - Dec Time</name>
+    <name>Damage - Headshot - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard - Short - Dec Time</name>
+    <name>Guard - Short - Deceleration Time</name>
     <type>f32</type>
     <default>0.2</default>
   </entry>
   <entry>
-    <name>Guard - Medium - Dec Time</name>
+    <name>Guard - Medium - Deceleration Time</name>
     <type>f32</type>
     <default>0.7</default>
   </entry>
   <entry>
-    <name>Guard - Long - Dec Time</name>
+    <name>Guard - Long - Deceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Break - Dec Time</name>
+    <name>Guard Break - Deceleration Time</name>
     <type>f32</type>
     <default>0.2</default>
   </entry>

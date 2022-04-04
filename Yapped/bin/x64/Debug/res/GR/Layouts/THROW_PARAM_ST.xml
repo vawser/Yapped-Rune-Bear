@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="THROW_PAD_TYPE" type="u8">
+  </enum>
+  <enum name="THROW_ENABLE_STATE" type="u8">
+  </enum>
+  <enum name="THROW_FOLLOWING_TYPE" type="u8">
+  </enum>
+  <enum name="THROW_TYPE" type="u8">
+  </enum>
+  <enum name="THROW_DMY_CHR_DIR_TYPE" type="u8">
+  </enum>
+  
   <entry>
     <name>Attacker - Character ID</name>
     <type>s32</type>
@@ -11,17 +22,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Distance</name>
+    <name>Max Throw Distance</name>
     <type>f32</type>
     <default>1.5</default>
   </entry>
   <entry>
-    <name>Angle Difference - Min</name>
+    <name>Y Angle Difference - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Angle Difference - Max</name>
+    <name>Y Angle Difference - Max</name>
     <type>f32</type>
     <default>180</default>
   </entry>
@@ -79,166 +90,140 @@
     <name>Pad Type</name>
     <type>u8</type>
     <default>1</default>
+    <enum>THROW_PAD_TYPE</enum>
   </entry>
   <entry>
     <name>Attack Enable State</name>
     <type>u8</type>
     <default>0</default>
+    <enum>THROW_ENABLE_STATE</enum>
   </entry>
   <entry>
-    <name>Attacker - Absorb Dummy ID</name>
-    <type>u8</type>
-    <default>246</default>
-  </entry>
-  <entry>
-    <name>Defender - Absorb Dummy ID</name>
+    <name>Throw Following Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>THROW_FOLLOWING_TYPE</enum>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
   <entry>
     <name>Throw Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>THROW_TYPE</enum>
   </entry>
   <entry>
-    <name>Self Escape - Cycle Int</name>
+    <name>Self Escape - Cycle Count</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Dummy Has Character Direction Type</name>
+    <name>Character Throw - Dummy Poly Direction Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>THROW_DMY_CHR_DIR_TYPE</enum>
   </entry>
   <entry>
-    <name>Is Turn Attacker</name>
+    <name>Throw can Side Turn</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Is Skip Weapon Cast</name>
+    <name>Skip Attacker Weapon Category Check</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Skip Sphere Cast</name>
+    <name>Skip Sphere Cast</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Enable Correct Position for Throw Adjustment</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Enable Throw Following Fall Assist</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>Enable Throw Following Feedback</name>
     <type>b8</type>
     <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Attacker - Absorb Dummy ID - Sub</name>
+    <name>Attacker - Absorb Dummy ID</name>
     <type>s16</type>
     <default>246</default>
   </entry>
   <entry>
-    <name>Defender - Absorb Dummy ID - Sub</name>
+    <name>Defender - Absorb Dummy ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Distance 2</name>
+    <name>Back Stub - Max Throw Distance </name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Angle Difference - Min 2</name>
+    <name>Back Stub - Angle Difference - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Angle Difference - Max 2</name>
+    <name>Back Stub - Angle Difference - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Upper Y Range 2</name>
+    <name>Back Stub - Upper Y Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Lower Y Range 2</name>
+    <name>Back Stub - Lower Y Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Angle Difference - To Defender 2</name>
+    <name>Back Stub - Angle Difference - To Defender</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Perform - Dummy ID 0</name>
+    <name>Attacker - Throwing Range Judgment - Dummy Poly ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Perform - Dummy ID 1</name>
+    <name>Defender - Throwing Range Judgment - Dummy Poly ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
-    <entry>
-    <name>Unk1</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Absorb Model Position Interpolation Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Throw Following End Easing Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>24</size>
   </entry>
 
 </layout>

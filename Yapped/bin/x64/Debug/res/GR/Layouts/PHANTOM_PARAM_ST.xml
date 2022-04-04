@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="GhostType" type="u8">
+  <enum name="PHANTOM_BLEN_TYPE_ENUM" type="u8">
     <item value="0" name="0 - Player" />
     <item value="1" name="1 - Player" />
     <item value="2" name="2 - Player/Enemy" />
@@ -17,12 +17,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Diff Color: Alpha</name>
+    <name>Diffuse Color: Alpha</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Spec Color: Alpha</name>
+    <name>Specular Color: Alpha</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -62,32 +62,32 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Diff Color: R</name>
+    <name>Diffuse Color: R</name>
     <type>u8</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>Diff Color: G</name>
+    <name>Diffuse Color: G</name>
     <type>u8</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>Diff Color: B</name>
+    <name>Diffuse Color: B</name>
     <type>u8</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>Spec Color: R</name>
+    <name>Specular Color: R</name>
     <type>u8</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>Spec Color: G</name>
+    <name>Specular Color: G</name>
     <type>u8</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>Spec Color: B</name>
+    <name>Specular Color: B</name>
     <type>u8</type>
     <default>255</default>
   </entry>
@@ -106,49 +106,51 @@
     <type>u8</type>
     <default>0</default>
   </entry>
+ 
   <entry>
-    <name>Unk0</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+
   <entry>
-    <name>Ghost 1</name>
+    <name>Overall Alpha</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Ghost 2</name>
+    <name>Blend Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Ghost Type</name>
+    <name>Blend Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GhostType</enum>
+    <enum>PHANTOM_BLEN_TYPE_ENUM</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk2</name>
+    <name>Is Edge Color Subtraction</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Is Front Color Subtraction</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is 1 Pass Only</name>
     <type>u8</type>
     <default>0</default>
   </entry>
     <entry>
-    <name>Unk0</name>
+    <name>Edge Width</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Glow Strength</name>
     <type>f32</type>
     <default>0</default>
   </entry>

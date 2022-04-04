@@ -1,75 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="WORLD_MAP_POINT_TEXT_TYPE" type="u8">
+  </enum>
+  
   <entry>
-    <name>Unknown</name>
-    <type>s32</type>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unknown</name>
-    <type>s32</type>
+    <name>Bonfire Entity ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Bonfire Sub-Category Sort ID</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Location Event ID</name>
-    <type>s32</type>
+    <name>Forbidden Icon ID</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s16</type>
+    <name>Display - Minimum Zoom Step</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Selection - Minimum Zoom Step</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Bonfire Sub-Category ID</name>
     <type>s32</type>
-    <default>10011</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Cleared Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s16</type>
+    <name>Icon ID</name>
+    <type>u16</type>
     <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Display Mask 0</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s16</type>
-    <default>0</default>
+    <name>Display Mask 1</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
   <entry>
     <name>Map Area</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Map Block</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Map Region</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Map Index</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
     <name>Coordinate: X</name>
     <type>f32</type>
@@ -86,240 +123,206 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 1</name>
+    <name>Text ID [1]</name>
     <type>s32</type>
     <default>0</default>
     <description>Drawn from PlaceName or NpcName.fmg</description>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Text Enable Flag ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [1]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 2</name>
+    <name>Text ID [2]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [2]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Text ID [3]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 3</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [3]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Text ID [4]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [4]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [4]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 4</name>
+    <name>Text ID [5]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [5]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Text Disable Flag ID [5]</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+ <entry>
+    <name>Text ID [6]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [6]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [6]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 5</name>
+    <name>Text ID [7]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [7]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [7]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Text ID [8]</name>
     <type>s32</type>
+    <default>0</default>
+    <description>Drawn from PlaceName or NpcName.fmg</description>
+  </entry>
+  <entry>
+    <name>Text Enable Flag ID [8]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Name ID - 6</name>
-    <type>s32</type>
+    <name>Text Disable Flag ID [8]</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>s32</type>
+    <name>Text Type [1]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>s32</type>
+    <name>Text Type [2]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Name ID - 7</name>
-    <type>s32</type>
+    <name>Text Type [3]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
+    <name>Text Type [4]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk24</name>
-    <type>s32</type>
+    <name>Text Type [5]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
-    <entry>
-    <name>Name ID - 8</name>
-    <type>s32</type>
-    <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>s32</type>
+    <name>Text Type [6]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>s32</type>
+    <name>Text Type [7]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>s32</type>
+    <name>Text Type [8]</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>WORLD_MAP_POINT_TEXT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk29</name>
+    <name>Bonfire Ignition - Dummy Poly ID [0]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk30</name>
+    <name>Bonfire Ignition - SFX ID [0]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk31</name>
+    <name>Bonfire Ignition - Dummy Poly ID [1]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk32</name>
+    <name>Bonfire Ignition - SFX ID [1]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
+  
   <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>68</size>
   </entry>
-    <entry>
-    <name>Show Name 1 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 2- Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 3 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 4 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 5 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 6 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 7 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Show Name 8 - Flag</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk46</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
+  
 </layout>

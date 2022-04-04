@@ -1,44 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk0</name>
+    <name>Weather: Sunny</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Clear Sky</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Lightly Cloudy</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Cloudy</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Rain</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Heavy Rain</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Storm</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Storm for Battle</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Snow</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Heavy Snow</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Fog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Heavy Fog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Heavy Fog and Rain</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Weather: Sandstorm</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time: Start Hour</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Time: Start Minute</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
+    <name>Time: End Hour</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk1</name>
+    <name>Time: End Minute</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
 </layout>

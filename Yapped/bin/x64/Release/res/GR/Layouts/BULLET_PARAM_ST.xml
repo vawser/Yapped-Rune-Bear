@@ -6,6 +6,10 @@
 	<item value="2" name="2 - Strike" />
     <item value="3" name="3 - Thrust" />
     <item value="4" name="4 - Standard" />
+    <item value="252" name="252 - Unknown" />
+    <item value="253" name="253 - Unknown" />
+    <item value="254" name="254 - Unknown" />
+    <item value="255" name="255 - Unknown" />
   </enum>
   <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
@@ -20,21 +24,52 @@
     <item value="24" name="24 - Sleep" />
     <item value="25" name="25 - Madness" />
     <item value="26" name="26 - Blight" />
-    <item value="254" name="254 - None" />
+    <item value="254" name="254 - Unknown" />
+    <item value="255" name="255 - Unknown" />
   </enum>
   <enum name="BEHAVIOR_ATK_TYPE" type="u8">
+    <item value="0" name="0 - Slash" />
+	<item value="1" name="1 - Strike" />
+	<item value="2" name="2 - Thrust" />
+	<item value="3" name="3 - Standard" />
+	<item value="254" name="254 - Unknown" />
   </enum>
   <enum name="WEP_MATERIAL_ATK" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+	<item value="3" name="3 - Unknown" />
+	<item value="4" name="4 - Unknown" />
+	<item value="6" name="6 - Unknown" />
+	<item value="254" name="254 - Unknown" />
+	<item value="255" name="255 - Unknown" />
   </enum>
   <enum name="BULLET_LAUNCH_CONDITION_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
+    <item value="4" name="4 - Rainbow Stone" />
+    <item value="5" name="5 - Unknown" />
+    <item value="6" name="6 - Unknown" />
   </enum>
   <enum name="BULLET_SFX_DELETE_TYPE" type="s8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Rainbow Stone" />
   </enum>
   <enum name="BULLET_SFX_CREATE_POSTURE_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Marika's Hammer" />
   </enum>
   <enum name="BULLET_BALLISTIC_CALC_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
   </enum>
   <enum name="BULLET_ATTACH_EFFECT_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - Unknown" />
   </enum>
   
   <entry>

@@ -1,163 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>SFX ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Dummy Poly ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Dummy Poly ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Dummy Poly ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Dummy Poly ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Dummy Poly ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Dummy Poly ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Dummy Poly ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  <entry>
+    <name>SFX ID [7]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Dummy Poly ID [7]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
-    <type>s32</type>
+    <name>Is Irradiance Volume Disabled</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>7</size>
   </entry>
 </layout>

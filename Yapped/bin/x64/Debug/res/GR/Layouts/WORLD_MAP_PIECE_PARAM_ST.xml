@@ -1,84 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Open - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Open - Traversal Area - X Min</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Open - Traversal Area - X Max</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Open - Traversal Area - Y Min</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Open - Traversal Area - Y Max</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Acquisition - Event Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Acquisition - Display Scale</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s32</type>
+    <name>Acquisition - Center X Coordinate</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Acquisition - Center Y Coordinate</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s32</type>
+    <name>Acquisition - Display Resource Scale</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Acquisition - Resource Offset X</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Acquisition - Resource Offset Y</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk12</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
 
 </layout>

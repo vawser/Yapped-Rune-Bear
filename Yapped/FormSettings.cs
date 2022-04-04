@@ -24,6 +24,7 @@ namespace Yapped
             checkbox_SuppressConfirmations.Checked = Properties.Settings.Default.ShowConfirmationMessages;
             checkbox_UseTextEditor.Checked = Properties.Settings.Default.UseTextEditor;
             checkbox_SaveNoEncryption.Checked = Properties.Settings.Default.SaveWithoutEncryption;
+            checkbox_ExportUniqueOnly.Checked = Properties.Settings.Default.ExportUniqueOnly;
         }
         
         private void btnCreate_Click(object sender, EventArgs e)
@@ -45,6 +46,7 @@ namespace Yapped
             Properties.Settings.Default.ShowConfirmationMessages = checkbox_SuppressConfirmations.Checked;
             Properties.Settings.Default.UseTextEditor = checkbox_UseTextEditor.Checked;
             Properties.Settings.Default.SaveWithoutEncryption = checkbox_SaveNoEncryption.Checked;
+            Properties.Settings.Default.ExportUniqueOnly = checkbox_ExportUniqueOnly.Checked;
 
             DialogResult = DialogResult.OK;
             Close();

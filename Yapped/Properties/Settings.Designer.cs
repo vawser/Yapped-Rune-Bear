@@ -585,5 +585,20 @@ namespace Yapped.Properties {
                 this["SaveWithoutEncryption"] = value;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ExportUniqueOnly
+        {
+            get
+            {
+                return ((bool)(this["ExportUniqueOnly"]));
+            }
+            set
+            {
+                this["ExportUniqueOnly"] = value;
+            }
+        }
     }
 }

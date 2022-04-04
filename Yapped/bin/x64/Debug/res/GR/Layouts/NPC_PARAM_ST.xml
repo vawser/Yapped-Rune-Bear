@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="TeamType" type="u8">
+  <enum name="TEAM_TYPE" type="u8">
     <item value="0" name="0 - None" />
 	<item value="1" name="1 - Live" />
 	<item value="2" name="2 - White Ghost" />
@@ -45,15 +45,15 @@
     <item value="63" name="63 - Unknown" />
     <item value="66" name="66 - Unknown" />
   </enum>
-  <enum name="DropType" type="s16">
+  <enum name="NPC_ITEMDROP_TYPE" type="s16">
     <item value="0" name="0 - Corpse Emission" />
 	<item value="1" name="1 - Item Display" />
   </enum>
-  <enum name="NPCType" type="u8">
+  <enum name="NPC_TYPE" type="u8">
     <item value="0" name="0 - Standard" />
 	<item value="1" name="1 - Boss" />
   </enum>
-  <enum name="MoveType" type="u8">
+  <enum name="NPC_MOVE_TYPE" type="u8">
     <item value="0" name="0 - Immobile Character" />
 	<item value="1" name="1 - Lumbering" />
 	<item value="2" name="2 - Tree Spirit" />
@@ -66,22 +66,56 @@
 	<item value="12" name="12 - Still" />
 	<item value="13" name="13 - Swift" />
   </enum>
-  <enum name="HitStopType" type="u8">
+  <enum name="NPC_HITSTOP_TYPE" type="u8">
     <item value="0" name="0 - Perform Hit Stop" />
 	<item value="2" name="2 - No Hit Stop" />
   </enum>
+  <enum name="WEP_MATERIAL_DEF" type="u16">
+  </enum>
+  <enum name="WEP_MATERIAL_DEF_SFX" type="u16">
+  </enum>
+  <enum name="ATK_PARAM_PARTSDMGTYPE" type="u8">
+  </enum>
+  <enum name="VOW_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_BURN_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_SFX_SIZE" type="u8">
+  </enum>
+  <enum name="NPC_SPECIAL_TURN_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_WEIGHT_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_NAVIMESH_FLAG" type="u8">
+  </enum>
+  <enum name="NPC_WHEEL_ROT_TYPE" type="u8">
+  </enum>
+  <enum name="CHR_HIT_GROUP" type="u8">
+  </enum>
+  <enum name="CHR_ACTIVATE_CONDITION_TYPE" type="u8">
+  </enum>
+  <enum name="NPC_DRAW_TYPE" type="s8">
+  </enum>
+  
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
   <entry>
     <name>Behavior Variation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Think ID</name>
+    <name>Resist Correct: Poison</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -111,22 +145,22 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Hit Offset</name>
+    <name>Hit Y Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP</name>
+    <name>Base HP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FP</name>
+    <name>Base FP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Souls</name>
+    <name>Base Runes</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -141,39 +175,36 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Max Ankle Roll Angle</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s8</type>
+    <name>Chr Hit Judgment</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CHR_HIT_GROUP</enum>
+  </entry>
+  <entry>
+    <name>Face Icon ID</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Deactivation Distance</name>
+    <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s8</type>
-    <default>-1</default>
+    <name>Chr Activate Condition Param ID</name>
+    <type>u32</type>
+    <default>0</default>
+    <enum>CHR_ACTIVATE_CONDITION_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
+    <name>Foot IK Apperance Height Limit</name>
     <type>f32</type>
-    <default>-1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Humanity Lot ID</name>
@@ -181,47 +212,47 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>SpEffect 1</name>
+    <name>SpEffect ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 2</name>
+    <name>SpEffect ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 3</name>
+    <name>SpEffect ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 4</name>
-    <type>s32</type>
-    <default>7150</default>
-  </entry>
-  <entry>
-    <name>SpEffect 5</name>
+    <name>SpEffect ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 6</name>
+    <name>SpEffect ID [4]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 7</name>
+    <name>SpEffect ID [5]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 8</name>
+    <name>SpEffect ID [6]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Game Clear SpEffect</name>
+    <name>SpEffect ID [7]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Game Clear - SpEffect ID</name>
     <type>s32</type>
     <default>7550</default>
   </entry>
@@ -246,23 +277,38 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Anim ID Offset</name>
+    <name>Anim ID Offset [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Move Anim ID</name>
-    <type>s32</type>
+    <name>Lock Gaze Point - Dummy Poly ID [0]</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Special Move Anim ID 1</name>
-    <type>s32</type>
+    <name>Lock Gaze Point - Dummy Poly ID [1]</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Special Move Anim ID 2</name>
-    <type>s32</type>
+    <name>Lock Gaze Point - Dummy Poly ID [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Lock Gaze Point - Dummy Poly ID [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Lock Gaze Point - Dummy Poly ID [4]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Lock Gaze Point - Dummy Poly ID [5]</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -332,52 +378,52 @@
     <default>700</default>
   </entry>
   <entry>
-    <name>Anim ID Offset 2</name>
+    <name>Anim ID Offset [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 1</name>
+    <name>Damage %: Part [1]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 2</name>
+    <name>Damage %: Part [2]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 3</name>
+    <name>Damage %: Part [3]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 4</name>
+    <name>Damage %: Part [4]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 5</name>
+    <name>Damage %: Part [5]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 6</name>
+    <name>Damage %: Part [6]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 7</name>
+    <name>Damage %: Part [7]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Parts 8</name>
+    <name>Damage %: Part [8]</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Weak Parts</name>
+    <name>Damage %: Weak Part</name>
     <type>f32</type>
     <default>1.5</default>
   </entry>
@@ -465,6 +511,7 @@
     <name>Ghost Model ID</name>
     <type>s16</type>
     <default>-1</default>
+    <description>Replacement model when Wandering Ghost</description>
   </entry>
   <entry>
     <name>Override Resource Chr ID</name>
@@ -492,7 +539,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk101</name>
+    <name>Lock Gaze Point - Dummy Poly [6]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -505,7 +552,7 @@
     <name>Drop Type</name>
     <type>s16</type>
     <default>0</default>
-    <enum>DropType</enum>
+    <enum>NPC_ITEMDROP_TYPE</enum>
   </entry>
   <entry>
     <name>Received Knockback %</name>
@@ -538,23 +585,18 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Area Attribute B</name>
+    <name>Guard Resist: Sleep</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Area Attribute W</name>
+    <name>Guard Resist: Madness</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Area Attribute L</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Area Attribute R</name>
-    <type>u8</type>
+    <name>Lock Gaze Point - Dummy Poly [7]</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -576,24 +618,25 @@
     <name>Draw Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPC_DRAW_TYPE</enum>
   </entry>
   <entry>
     <name>NPC Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>NPCType</enum>
+    <enum>NPC_TYPE</enum>
   </entry>
   <entry>
     <name>Team Type</name>
     <type>u8</type>
     <default>6</default>
-    <enum>TeamType</enum>
+    <enum>TEAM_TYPE</enum>
   </entry>
   <entry>
     <name>Move Type</name>
     <type>u8</type>
     <default>3</default>
-    <enum>MoveType</enum>
+    <enum>NPC_MOVE_TYPE</enum>
   </entry>
   <entry>
     <name>Lock Distance</name>
@@ -601,25 +644,28 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>SE Material</name>
-    <type>s16</type>
+    <name>Weak Point - SE Material</name>
+    <type>u16</type>
     <default>110</default>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
-    <name>SFX Material</name>
-    <type>s16</type>
+    <name>Weak Point - SFX Material</name>
+    <type>u16</type>
     <default>110</default>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
     <name>Parts Damage - Attack Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>ATK_PARAM_PARTSDMGTYPE</enum>
   </entry>
   <entry>
-    <name>Max Undulation Angle</name>
+    <name>Vow Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Upper limit angle when adjusting the angle to the undulations. If the total length is long, it is better to set it lower.</description>
+    <enum>VOW_TYPE</enum>
   </entry>
   <entry>
     <name>Guard Level</name>
@@ -630,6 +676,7 @@
     <name>Burn SFX Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPC_BURN_TYPE</enum>
   </entry>
   <entry>
     <name>Guard Resist: Poison</name>
@@ -647,7 +694,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Guard Resist: Curse</name>
+    <name>Guard Resist: Blight</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -665,6 +712,7 @@
     <name>SFX Size</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPC_SFX_SIZE</enum>
   </entry>
   <entry>
     <name>Push Out Camera Region Radius</name>
@@ -675,7 +723,7 @@
     <name>Hit Stop Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>HitStopType</enum>
+    <enum>NPC_HITSTOP_TYPE</enum>
   </entry>
   <entry>
     <name>Ladder End Check Offset Top</name>
@@ -698,9 +746,10 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Use Ragdoll</name>
+    <name>Use Undulating Add Anim</name>
     <type>b8</type>
     <default>False</default>
+    <description>Do you match the back and forth rotation of the character with the undulations of the ground? Cannot be used for flying characters.</description>
   </entry>
   <entry>
     <name>Enemy Type: Void</name>
@@ -847,22 +896,22 @@
     <description>Is used by Banished Knight too for some reason</description>
   </entry>
   <entry>
-    <name>Is Enable Drop Soul Capture</name>
+    <name>Always Use Special Turn</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Vow Type 0</name>
+    <name>Is Ride Attack Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Vow Type 1</name>
+    <name>Enable Step Display Interpolation</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Vow Type 2</name>
+    <name>Is Stealth Attack Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -872,22 +921,22 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Soul Get By Boss</name>
+    <name>Is Hit Rumble</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Is Multilingual</name>
+    <name>Use Smooth Turning</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Enemy Type: Unknown A</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Enemy Type: Unknown B</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -977,57 +1026,58 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Sub-capsule - Hit Height</name>
+    <name>Chr Hit Height</name>
     <type>f32</type>
     <default>1.9</default>
   </entry>
   <entry>
-    <name>Sub-capsule - Hit Radius</name>
+    <name>Chr Hit Radius</name>
     <type>f32</type>
     <default>0.4</default>
   </entry>
   <entry>
-    <name>Turn Velocity Type</name>
+    <name>Special Turn Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>NPC_SPECIAL_TURN_TYPE</enum>
   </entry>
   <entry>
-    <name>Is Multiplayer Boss</name>
+    <name>Is Boss Soul Drop</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Is Bullet Owner - By Object</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Behaviour Memory Size</name>
+    <name>Use FootIK Filter for Low Hit</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Use PvP Damage Modifiers</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Use Feet Data</name>
+    <name>Is Synced with Host World</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Skip Weak Damage Anim</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Keep Hit on Ride</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Is Special Collider</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -1037,514 +1087,573 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>Sub Turn Velocity</name>
+    <name>Threat Level</name>
     <type>s32</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>Footstep ID</name>
+    <name>Special Turn Distance Threshold</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Sub Material</name>
-    <type>s16</type>
-    <default>109</default>
+    <name>Automatic Foot Effect - SFX ID</name>
+    <type>s32</type>
+    <default>0</default>
   </entry>
   <entry>
-    <name>Sub Material SFX</name>
-    <type>s16</type>
-    <default>109</default>
+    <name>Damaged - Material SE [1]</name>
+    <type>u16</type>
+    <default>139</default>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
-    <name>Material - Weak</name>
+    <name>Damaged - Material SFX [1]</name>
+    <type>u16</type>
+    <default>139</default>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
+  </entry>
+  <entry>
+    <name>Weak Point - Material SE [2]</name>
     <type>s16</type>
     <default>139</default>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
-    <name>Material SFX - Weak</name>
+    <name>Weak Point - Material SFX [2]</name>
     <type>s16</type>
     <default>139</default>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
-    <name>Sub Material - Weak</name>
-    <type>s16</type>
+    <name>Damaged - Material SE [2]</name>
+    <type>u16</type>
     <default>139</default>
+    <enum>WEP_MATERIAL_DEF</enum>
   </entry>
   <entry>
-    <name>Sub Material SFX - Weak</name>
-    <type>s16</type>
+    <name>Damaged - Material SFX [2]</name>
+    <type>u16</type>
     <default>139</default>
+    <enum>WEP_MATERIAL_DEF_SFX</enum>
   </entry>
   <entry>
-    <name>Material - </name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Material - </name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>SpEffect 9</name>
-    <type>s32</type>
-    <default>30030</default>
-  </entry>
-  <entry>
-    <name>SpEffect 10</name>
+    <name>SpEffect ID [8]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 11</name>
+    <name>SpEffect ID [9]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 12</name>
+    <name>SpEffect ID [10]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 13</name>
+    <name>SpEffect ID [11]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+ <entry>
+    <name>SpEffect ID [12]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 14</name>
+    <name>SpEffect ID [13]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect 15</name>
+    <name>SpEffect ID [14]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>101</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
+    <name>SpEffect ID [15]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Basic Toughness Value</name>
-    <type>s32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Game System Param Correction</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Standard</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Slash</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Strike</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Thrust</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Magic</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Fire</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Lightning</name>
-    <type>f32</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Absorption: Holy</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Estus Flask Param ID</name>
+    <name>Automatic Foot Effect - Decal Base ID [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk41</name>
+    <name>Toughness</name>
+    <type>s32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Toughness Correction</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Standard</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Slash</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Strike</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Thrust</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Magic</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Fire</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Lightning</name>
+    <type>f32</type>
+    <default>1</default>
+  </entry>
+  <entry>
+    <name>Absorption %: Holy</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Guard Absorption %: Holy</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Cloth Update Offset</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>NPC Player Weight Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPC_WEIGHT_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Replacement Change - Model ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Replacement Change - Anim Chr ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Paint Render Target Size</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Resist Correct: Scarlet Rot</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Phantom Shader ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Multiplayer Correction Param ID</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Unk42</name>
-    <type>s32</type>
+    <name>Max Ankle Pitch Angle</name>
+    <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Unk43</name>
+    <name>Resist: Frostbite</name>
+    <type>s16</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Guard Resist: Frostbite</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Lock Camera Param ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [16]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [17]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [18]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [19]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [20]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [21]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [22]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [23]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [24]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [25]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [26]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [27]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [28]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [29]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [30]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SpEffect ID [31]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Disable Lock-on Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist: Frost</name>
+    <name>LOD Level to Disable Cloth Processing</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Foot IK for Undulating Character</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Attach to Ground upon Death</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Exclude Group Reward Check</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable AI Lock Dummy Poly [212]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable AI Lock Dummy Poly [213]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable AI Lock Dummy Poly [214]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Open Activation - XB1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disable Legacy Activation - XB1</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Flask Recovery Param ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk44</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 16</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 17</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 18</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 19</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 20</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 21</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 22</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 23</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 24</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 25</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 26</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 27</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 28</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 29</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 30</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>SpEffect 31</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Lock Correction ID</name>
+    <name>Role Name ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk45</name>
-    <type>s8</type>
+    <name>HP/FP Flask Recovery Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>HP Flask Recovery Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>FP Flask Recovery Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Missed HP/FP Flask Recovery - Bonus Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Missed HP Flask Recovery - Bonus Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Missed FP Flask Recovery - Bonus Chance</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Wandering Ghost Phantom ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Listen Head Size</name>
+    <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk46</name>
+    <name>Sound Bank ID</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Forward Undulation Limit</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk47a</name>
-    <type>s8</type>
+    <name>Side Undulation Limit</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk47b</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47c</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk47d</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s16</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk51</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk52</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk53</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk54</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk55</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk56</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk57</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk58</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk59</name>
+    <name>Platoon - Deactivation Movement Speed</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk60</name>
+    <name>Platoon - Deactivation Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sound Source Validity - Player Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Undulation Angle Correction</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Automatic Foot Effect - Decal Base ID [2]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk61</name>
+    <name>Automatic Foot Effect - Decal Base ID [3]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk62</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk63</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk64</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk65</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk66</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk67</name>
+    <name>Motion Re-target Reference Chr ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk68</name>
+    <name>SFX Resource Bank ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk69</name>
+    <name>Activation Update Priority</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk70a</name>
+    <name>Chr Navmesh Flag - Alive</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPC_NAVIMESH_FLAG</enum>
+  </entry>
+  <entry>
+    <name>Chr Navmesh Flag - Dead</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPC_NAVIMESH_FLAG</enum>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Wheel Rotation Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>NPC_WHEEL_ROT_TYPE</enum>
+  </entry>
+  
+  <entry>
+    <name>Wheel Rotation Radius</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Retarget Movement Rate</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ladder - Warp Z Offset</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Load Asset ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Overlap Camera - Dummy Poly ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Ex Param ID [0]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Ex Param ID [1]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Ex Param ID [2]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Ex Param ID [3]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Material Ex Param ID [4]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sleep Collector - Enemy Item Lot</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sleep Collector - Map Item Lot</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Foot IK - Error On Gain</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Foot IK - Error Off Gain</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sound Add Bank ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk70b</name>
-    <type>s16</type>
+    <name>Material Variation Value</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk71</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk72</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk73</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk74</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk75</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Material Ex Param ID</name>
-    <type>s32</type>
-    <default>0</default>
-    <description>Either this or AssetEnvironmentGeometryParam</description>
-  </entry>
-  <entry>
-    <name>Unk77</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk78</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk79</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk80</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk81</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk82</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk83</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk84</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk85</name>
-    <type>s16</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk86</name>
-    <type>s16</type>
+    <name>Weak Point - Material Variation Value</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1553,69 +1662,64 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk88</name>
+    <name>Poise Recovery</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk89</name>
+    <name>Guard Absorption %: Poise Damage</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist Correct ID: </name>
+    <name>Resist Correct ID: Hemorrhage</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist Correct ID: </name>
+    <name>Resist Correct ID: Blight</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist Correct ID: </name>
+    <name>Resist Correct ID: Frostbite</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist Correct ID: </name>
+    <name>Resist Correct ID: Sleep</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Resist Correct ID: </name>
+    <name>Resist Correct ID: Madness</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk95</name>
-    <type>s32</type>
+    <name>Chr Dead Tutorial Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk96</name>
+    <name>Step Display Interpolation Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk97</name>
+    <name>Step Display Interpolation Trigger Value</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk98</name>
+    <name>Lock Score Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk99</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk100</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
 
 </layout>

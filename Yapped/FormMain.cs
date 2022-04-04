@@ -1351,6 +1351,8 @@ namespace Yapped
                 // 3. Field Inclusions
                 // 4. Field Exclusions
 
+                List<String> unique_list = new List<String>();
+
                 // Field Data
                 foreach (PARAM.Row row in paramWrapper.Rows)
                 {
@@ -1612,6 +1614,23 @@ namespace Yapped
                                             if (Convert.ToSingle(value) == array_value)
                                                 isMatchedField = false;
                                         }
+                                    }
+                                }
+
+                                if (settings.ExportUniqueOnly)
+                                {
+                                    Console.WriteLine("Current value: " + value);
+
+                                    if(unique_list.Contains(value))
+                                    {
+                                        Console.WriteLine("Unqiue value matches current, invalidating field addition");
+                                        isMatchedField = false;
+                                    }
+
+                                    if (!unique_list.Contains(value))
+                                    {
+                                        Console.WriteLine("Added new value to Unique List");
+                                        unique_list.Add(value);
                                     }
                                 }
 

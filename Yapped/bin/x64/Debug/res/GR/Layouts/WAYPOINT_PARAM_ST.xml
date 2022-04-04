@@ -1,30 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<layout>
-   <entry>
-    <name>Unk0</name>
+<layout> 
+  <enum name="WAYPOINT_ATTRIBUTE" type="s16">
+  </enum>
+  
+  <entry>
+    <name>Attribute [1]</name>
     <type>s16</type>
     <default>0</default>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
-   <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>Attribute [2]</name>
     <type>s16</type>
     <default>0</default>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Attribute [3]</name>
+    <type>s16</type>
     <default>0</default>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Attribute [4]</name>
+    <type>s16</type>
     <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
+    <enum>WAYPOINT_ATTRIBUTE</enum>
   </entry>
 
-
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
+  
 </layout>

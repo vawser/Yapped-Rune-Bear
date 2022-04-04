@@ -1,364 +1,343 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="WEP_HANG_POS_TYPE" type="u8">
+  </enum>
+  <enum name="WEP_INVISIBLE_TYPE" type="u8">
+  </enum>
+  <enum name="WEP_DISP_POS_TYPE" type="u8">
+  </enum>
+  
   <entry>
-    <name>Shealth Time</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk0</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>Sheath Position Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>WEP_HANG_POS_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Is Skeleton Bind</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Right Hand - Dummy Poly - Model [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Hand - Dummy Poly - Model [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Both Hand - Dummy Poly - Model [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Sheath - Dummy Poly - Model [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Right Sheath - Dummy Poly - Model [0]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Right Hand - Dummy Poly - Model [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Hand - Dummy Poly - Model [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Both Hand - Dummy Poly - Model [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Sheath - Dummy Poly - Model [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Right Sheath - Dummy Poly - Model [1]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Right Hand - Dummy Poly - Model [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Hand - Dummy Poly - Model [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Both Hand - Dummy Poly - Model [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Sheath - Dummy Poly - Model [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Right Sheath - Dummy Poly - Model [2]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Right Hand - Dummy Poly - Model [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Hand - Dummy Poly - Model [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Both Hand - Dummy Poly - Model [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Left Sheath - Dummy Poly - Model [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Right Sheath - Dummy Poly - Model [3]</name>
+    <type>s16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Hidden Type - Model [0]</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_INVISIBLE_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk2</name>
+    <name>Hidden Type - Model [1]</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_INVISIBLE_TYPE</enum>
+  </entry> 
   <entry>
-    <name>1H - Dummy ID 0</name>
-    <type>s16</type>
-    <default>20</default>
-  </entry>
+    <name>Hidden Type - Model [2]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WEP_INVISIBLE_TYPE</enum>
+  </entry> 
   <entry>
-    <name>1H - Dummy ID 1</name>
-    <type>s16</type>
-    <default>21</default>
-  </entry>
+    <name>Hidden Type - Model [3]</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>WEP_INVISIBLE_TYPE</enum>
+  </entry> 
+  
   <entry>
-    <name>2H - Dummy ID 0</name>
-    <type>s16</type>
-    <default>24</default>
-  </entry>
-  <entry>
-    <name>Sheathed - Dummy ID 0</name>
-    <type>s16</type>
-    <default>31</default>
-  </entry>
-  <entry>
-    <name>Sheathed - Dummy ID 1</name>
-    <type>s16</type>
-    <default>30</default>
-  </entry>
-  <entry>
-    <name>1H - Dummy ID 2</name>
-    <type>s16</type>
-    <default>30</default>
-  </entry>
-  <entry>
-    <name>1H - Dummy ID 3</name>
-    <type>s16</type>
-    <default>31</default>
-  </entry>
-  <entry>
-    <name>2H - Dummy ID 1</name>
-    <type>s16</type>
-    <default>21</default>
-  </entry>
-  <entry>
-    <name>Sheathed - Dummy ID 2</name>
-    <type>s16</type>
-    <default>31</default>
-  </entry>
-  <entry>
-    <name>Sheathed - Dummy ID 3</name>
-    <type>s16</type>
-    <default>30</default>
-  </entry>
-  <entry>
-    <name>1H - Dummy ID 4</name>
+    <name>Left Both-Hand - Dummy Poly - Model [0]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>1H - Dummy ID 5</name>
+    <name>Left Both-Hand - Dummy Poly - Model [1]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>2H - Dummy ID 2</name>
+    <name>Left Both-Hand - Dummy Poly - Model [2]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sheathed - Dummy ID 4</name>
+    <name>Left Both-Hand - Dummy Poly - Model [3]</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Sheathed - Dummy ID 5</name>
-    <type>s16</type>
+    <name>Display Position - Right Hand - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>1H - Dummy ID 6</name>
-    <type>s16</type>
+    <name>Display Position - Left Hand - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>1H - Dummy ID 7</name>
-    <type>s16</type>
+    <name>Display Position - Right Both-hand - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>2H - Dummy ID 3</name>
-    <type>s16</type>
+    <name>Display Position - Left Both-Hand - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Sheathed - Dummy ID 6</name>
-    <type>s16</type>
+    <name>Display Position - Right Sheath - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Sheathed - Dummy ID 7</name>
-    <type>s16</type>
+    <name>Display Position - Left Sheath - Model [0]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
+  
   <entry>
-    <name>Unk22</name>
-    <type>s8</type>
+    <name>Display Position - Right Hand - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk23</name>
-    <type>s8</type>
-    <default>2</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s8</type>
+    <name>Display Position - Left Hand - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk25</name>
-    <type>s8</type>
+    <name>Display Position - Right Both-hand - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>2H - Dummy ID 4</name>
-    <type>s16</type>
-    <default>24</default>
-  </entry>
-  <entry>
-    <name>2H - Dummy ID 5</name>
-    <type>s16</type>
-    <default>21</default>
-  </entry>
-  <entry>
-    <name>2H - Dummy ID 6</name>
-    <type>s16</type>
+    <name>Display Position - Left Both-Hand - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>2H - Dummy ID 7</name>
-    <type>s16</type>
+    <name>Display Position - Right Sheath - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk30</name>
-    <type>s8</type>
+    <name>Display Position - Left Sheath - Model [1]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
+  
   <entry>
-    <name>Unk31</name>
-    <type>s8</type>
+    <name>Display Position - Right Hand - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk32</name>
-    <type>s8</type>
+    <name>Display Position - Left Hand - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk33</name>
-    <type>s8</type>
+    <name>Display Position - Right Both-hand - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk34</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk44</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk45</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk46</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk47</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk48</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk49</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk50</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk51</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk52</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-  <entry>
-    <name>Unk53</name>
-    <type>s8</type>
-    <default>3</default>
-  </entry>
-    <entry>
-    <name>Unk1</name>
-    <type>s8</type>
+    <name>Display Position - Left Both-Hand - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk2</name>
-    <type>s8</type>
+    <name>Display Position - Right Sheath - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk3</name>
-    <type>s8</type>
+    <name>Display Position - Left Sheath - Model [2]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
+  
   <entry>
-    <name>Unk4</name>
-    <type>s8</type>
+    <name>Display Position - Right Hand - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk5</name>
-    <type>s8</type>
+    <name>Display Position - Left Hand - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk6</name>
-    <type>s8</type>
+    <name>Display Position - Right Both-hand - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk7</name>
-    <type>s8</type>
+    <name>Display Position - Left Both-Hand - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk8</name>
-    <type>s8</type>
+    <name>Display Position - Right Sheath - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
   <entry>
-    <name>Unk9</name>
-    <type>s8</type>
+    <name>Display Position - Left Sheath - Model [3]</name>
+    <type>u8</type>
     <default>0</default>
-  </entry>
+    <enum>WEP_DISP_POS_TYPE</enum>
+  </entry> 
+  
   <entry>
-    <name>Unk10</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-
+  
 </layout>

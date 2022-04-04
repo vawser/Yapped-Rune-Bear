@@ -1,56 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Poise Health Multiplier</name>
+    <name>Toughness Correction</name>
     <type>f32</type>
     <default>1</default>
-    <description>Amount of poise health to use upon invoking this Toughness.</description>
   </entry>
   <entry>
-    <name>Restored Poise Health</name>
+    <name>Minimum Toughness</name>
     <type>s16</type>
     <default>0</default>
-    <description>Amount of poise health restored upon invoking this Toughness.</description>
   </entry>
   <entry>
-    <name>Is Toughness Effective</name>
+    <name>Minimum Toughness not affected by Toughness Multiplier</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk0</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
   <entry>
-    <name>Damage Level Replacement SpEffect ID</name>
+    <name>Damage Level Replacement - SpEffect ID</name>
     <type>s32</type>
-    <default>6352</default>
+    <default>0</default>
   </entry>
     <entry>
-    <name>Unk1</name>
+    <name>Protector - Toughness Correction</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>16</size>
   </entry>
 
 </layout>

@@ -1,84 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
    <entry>
-    <name>Rider Chr ID</name>
+    <name>Rider - Chr ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Mount - Chr ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Ride Camera Param ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mount Chr ID</name>
+    <name>Rider - Chr Animation ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Mount - Chr Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Mount - Adjust Dummy Poly ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Mount - Check Dummy Poly ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
+    <name>Rider/Mount - Ride Angle Tolerance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Mount Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Mount Distance - Max Height</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Mount Distance - Min Height</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Ride Angle Tolerance - Min</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Ride Angle Tolerance - Max</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
   </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+
 
 </layout>

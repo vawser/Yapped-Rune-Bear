@@ -1,24 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
+  <enum name="GX_QUALITY_LEVEL_ENUM" type="u8">
+  </enum>
+  
+  <entry>
+    <name>Texture Filter Quality</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Anti-Aliasing Quality</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Screen Space Ambient Occlusion Quality</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Depth of Field Quality</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Motion Blur Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Shadow Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Lighting Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Effect Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Decal Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Reflection Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Water Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Shader Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+  <entry>
+    <name>Volumetric Effect Quality</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>GX_QUALITY_LEVEL_ENUM</enum>
+  </entry>
+
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
 
 </layout>

@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="NPC_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
   </enum>
   <enum name="NPC_DRAW_TYPE" type="s8">
+    <item value="0" name="0 - Default" />
   </enum>
   <enum name="CHARACTER_INIT_SEX" type="u8">
+    <item value="0" name="0 - Female" />
+    <item value="1" name="1 - Male" />
   </enum>
-  <enum name="VOW_TYPE" type="u8">
-  </enum>
-  <enum name="CHARA_INIT_WEP_TYPE" type="s32">
+  <enum name="CHARA_INIT_WEP_TYPE" type="u8">
+    <item value="0" name="0 - Standard Weapon" />
+    <item value="1" name="1 - Custom Weapon" />
   </enum>
   
   <entry>
@@ -468,45 +472,45 @@
   
   <entry>
     <name>Weapon Param Type - Right Primary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Type - Right Secondary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Type - Right Tertiary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Type - Left Primary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Type - Left Secondary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   <entry>
     <name>Weapon Param Type - Left Tertiary</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u8</type>
+    <default>0</default>
     <enum>CHARA_INIT_WEP_TYPE</enum>
   </entry>
   
   <entry>
     <name>padding</name>
     <type>dummy8</type>
-    <size>8</size>
+    <size>26</size>
   </entry>
   
   <entry>

@@ -1,25 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>World Map Piece ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Place Name - Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Region - Text ID</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
-  <entry>
-    <name>Unk2</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+
    <entry>
     <name>Map Area</name>
     <type>s8</type>
@@ -35,11 +44,13 @@
     <type>s8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Map Index</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+
   <entry>
     <name>Map Coodinate: X</name>
     <type>f32</type>

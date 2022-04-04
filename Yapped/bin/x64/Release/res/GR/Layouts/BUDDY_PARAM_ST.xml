@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="BUDDY_PC_FOLLOW_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+	<item value="1" name="1 - Putrid Corpse" />
+	<item value="2" name="2 - Latenna the Albinauric" />
   </enum>
 
   <entry>

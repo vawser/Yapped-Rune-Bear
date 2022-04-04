@@ -91,7 +91,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Soul Multiplier</name>
+    <name>Rune Multiplier</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -121,17 +121,17 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery: HP</name>
+    <name>Blood Damage Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Recovery: FP (sub)</name>
+    <name>Poise Damage Rate</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Recovery: HP (sub)</name>
+    <name>Frost Damage Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>
@@ -146,19 +146,19 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Sleep Damage Rate</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Madness Damage Rate</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
 
 </layout>

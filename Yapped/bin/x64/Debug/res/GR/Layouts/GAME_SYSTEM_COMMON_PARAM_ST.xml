@@ -1,1009 +1,1430 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
      <entry>
-    <name>BasicToughnessEndurance</name>
+    <name>Base Toughness Recovery Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn 90 Degrees Animation Id1</name>
+    <name>Chr Event Turn - By Left 90</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn 90 Degrees Animation Id2</name>
+    <name>Chr Event Turn - By Right 90</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn 180 Degrees Animation Id1</name>
+    <name>Chr Event Turn - By Left 180</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn 180 Degrees Animation Id2</name>
+    <name>Chr Event Turn - By Right 180</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn Speed Limitation 90 Degrees</name>
+    <name>Chr Event Turn - 90 Turn Start Angle</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Character Turn Speed Limitation 180 Degrees</name>
+    <name>Chr Event Turn - 180 Turn Start Angle</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Talk Range 1</name>
+    <name>Stealth Attack Multiplier</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Talk Range 2</name>
+    <name>Weapon Rebel Absorption on Successful Guard</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>NPC Talk Anim - Start Diff Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>NPC Talk Anim - End Diff Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Sleep Collector Item Action Button Param ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Spirit Summon Item - SFX Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Spirit Summon Item - SFX Dummy Poly ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Spirit Summon Item - SFX Dummy Poly ID (Horse)</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Spirit Summon Item - SFX ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Spirit Summon - Activation Range - SFX Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Spirit Summon - Activation Range - SFX Dummy Poly ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Spirit Summon - Activation Range - SFX Dummy Poly ID (Horse)</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Spirit Summon - Activation Range - SFX ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>Spirit Summon - Activation Range - Player SpEffect ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Spirit Summon - Warn Range - Player SpEffect ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Spirit Summon - Unsummoned - Player SpEffect ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Spirit Summon - Warn Range - Spirit SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
+    <name>Morning - In-game Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
-    <type>s32</type>
+    <name>Morning - In-game Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
-    <type>s32</type>
+    <name>Morning - In-game Second</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk26</name>
-    <type>s32</type>
+    <name>Noon - In-game Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>s32</type>
+    <name>Noon - In-game Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>s32</type>
+    <name>Noon - In-game Second</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>s32</type>
+    <name>Night - In-game Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk30</name>
-    <type>s32</type>
+    <name>Night - In-game Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk31</name>
-    <type>s32</type>
+    <name>Night - In-game Second</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk32</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Morning Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk33</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Morning Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk34</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Noon Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk35</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Noon Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk36</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Evening Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk37</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Evening Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk38</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Night Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk39</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Night Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk40</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Midnight Hour</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk41</name>
-    <type>s32</type>
+    <name>AI Sight Rate Start - Midnight Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk42</name>
-    <type>s32</type>
+    <name>Poise - Large Damage Hit SFX Threshold</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk43</name>
+    <name>Poise - Large Damage Hit SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk44</name>
-    <type>s32</type>
+    <name>Sign Creatable Distance from Safe Position</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk45</name>
-    <type>s32</type>
+    <name>Guest Resummon Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk46</name>
-    <type>s32</type>
+    <name>Guest Leaving Message - Max Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk47</name>
-    <type>s32</type>
+    <name>Guest Leaving Message - Min Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk48</name>
-    <type>s32</type>
+    <name>Guest Leave Session Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk49</name>
-    <type>s32</type>
+    <name>Marika Stake Area Radius</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk50</name>
+    <name>Sleep Collector SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk51</name>
+    <name>Recovery below HP Max - Notification SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk52</name>
+    <name>HP Flask - Absorption SFX ID for Intruder Flask Restoration</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk53</name>
+    <name>FP Flask - Absorption SFX ID for Intruder Flask Restoration</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk54</name>
+    <name>Resurrection - Notification SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk55</name>
+    <name>Spirit Summon - Activation Range - Spirit SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk56</name>
-    <type>s32</type>
+    <name>Flask - Absorption SFX Playback Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk57</name>
-    <type>s32</type>
+    <name>Rune Absorption Multiplier - Normal Enemy - Host</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk58</name>
-    <type>s32</type>
+    <name>Rune Absorption Multiplier - Normal Enemy - Friendly Phantom</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk59</name>
-    <type>s32</type>
+    <name>Rune Absorption Multiplier - Boss - Host</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk60</name>
-    <type>s32</type>
+    <name>Rune Absorption Multiplier - Boss - Friendly Phantom</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk61</name>
-    <type>s32</type>
+    <name>Enemy HP Gauge - Cutoff Pixel Offset</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk62</name>
-    <type>s32</type>
+    <name>Play Region Collection Distance</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk63</name>
-    <type>s32</type>
+    <name>Enemy Detection - Shoot Bullet Dummy Poly ID</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk64</name>
-    <type>s32</type>
+    <name>Phantom Great Rune - Amount given for Invasion</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk65</name>
+    <name>Phantom Great Rune - Goods ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk66</name>
+    <name>Spiritspring Jump SFX ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk67</name>
-    <type>s32</type>
+    <name>Poise Damage - Vs. Ride Attack</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk68</name>
+    <name>Sleep Collector Item Lot - Enemy SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk69</name>
+    <name>After Ending Map UID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk70</name>
-    <type>s32</type>
+    <name>After Ending Return Point Entity ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk71</name>
+    <name>Enemy Detection - Bullet ID (Co-op/Anti-Invader)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk72</name>
+    <name>Enemy Detection - Bullet ID (Invader)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk73</name>
-    <type>s32</type>
+    <name>Tutorial Flag: Accessing Birdseye Telescope</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk74</name>
-    <type>s32</type>
+    <name>Tutorial Flag: Accessing Marika Stake</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk75</name>
-    <type>s32</type>
+    <name>Tutorial Flag: Enemy Group Flask Restoration</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk76</name>
-    <type>s32</type>
+    <name>Tutorial Flag: Entering Spiritspring Jump</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk77</name>
-    <type>s32</type>
+    <name>Tutorial: Check Spiritspring Jump Region Range</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk78</name>
+    <name>Activated Marika Stake: Player Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk79</name>
-    <type>s32</type>
+    <name>Activated Marika Stake: Dialog Display Delay</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk80</name>
+    <name>Activated Marika Stake: Dialog Text ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk81</name>
+    <name>Opened Summoning Pool: Player Animation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk82</name>
-    <type>s32</type>
+    <name>Opened Summoning Pool: Dialog Display Delay</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk83</name>
+    <name>Corpse Explosion - Bullet ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk84</name>
+    <name>Corpse Explosion - Bullet Dummy Poly ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk85</name>
-    <type>s32</type>
+    <name>Corpse Explosion - Dead Fadeout Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk86</name>
-    <type>s32</type>
+    <name>Ignore Network State Sync Time for Throw</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk87</name>
-    <type>s32</type>
+    <name>Muliplayer Disconnect: LAN Disconnect Penalty Points</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk88</name>
-    <type>s32</type>
+    <name>Muliplayer Disconnect: Profile Signout Penalty Points</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk89</name>
-    <type>s32</type>
+    <name>Muliplayer Disconnect: Reboot Penalty Points</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk90</name>
-    <type>s32</type>
+    <name>Muliplayer Disconnect: Suspend Penalty Points</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk91</name>
-    <type>s32</type>
+    <name>Muliplayer Disconnect: Delay before White Ring is given</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk92</name>
-    <type>s32</type>
+    <name>Multiplayer Disconnect: Point Threshold</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk93</name>
-    <type>s32</type>
+    <name>Multiplayer: Timeout due to lack of Activity</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk94</name>
+    <name>Enemy Detection - Bullet ID (NPC Enemy)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk95</name>
+    <name>Corpse Explosion - On Hit SpEffect</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk96</name>
-    <type>s32</type>
+    <name>Corpse Explosion - Max Length</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk97</name>
-    <type>s32</type>
+    <name>Field of View - Minimum Guaranteed Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk98</name>
-    <type>s32</type>
+    <name>Poise Large Damage Hit SFX - Minimum Damage</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk99</name>
-    <type>s32</type>
+    <name>Poise Large Damage Hit SFX - Force Damage</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk100</name>
-    <type>s32</type>
+    <name>Maximum Solo Intrusion Point</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk101</name>
-    <type>s32</type>
+    <name>NPC Talk Timeout Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk102</name>
-    <type>s32</type>
+    <name>Send Play Log Interval</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk103</name>
-    <type>s32</type>
+    <name>Rainbow Stone - Max SFX Count</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk104</name>
-    <type>s32</type>
+    <name>Chr Activate Distance - For Leave Player</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk105</name>
-    <type>s32</type>
+    <name>Coop - Host Level Addition Correction</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk106</name>
-    <type>s32</type>
+    <name>Coop - Host Level Magnification Correction</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk107</name>
-    <type>s32</type>
+    <name>Coop - Maximum Weapon Reinforcement Correction</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk108</name>
+    <name>Pickup Berserker Sign - Bullet ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk109</name>
+    <name>Berserker Success Player Kill - SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk110</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Level Coefficient 1</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk111</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Level Coefficient 2</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk112</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Level Coefficient 1</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk113</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Level Coefficient 2</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk114</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 0</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk115</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 1</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk116</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 2</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk117</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 3</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk118</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 4</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk119</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 5</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk120</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 6</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk121</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 7</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk122</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 8</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk123</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 9</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk124</name>
-    <type>s32</type>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 10</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk125</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 0</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk126</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 1</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk127</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 2</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk128</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 3</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk129</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 4</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk130</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 5</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk131</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 6</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk132</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 7</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk133</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 8</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk134</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 9</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk135</name>
-    <type>s32</type>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 10</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk136</name>
-    <type>s32</type>
+    <name>Automatic Invasion Point - Generation Distance</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk137</name>
-    <type>s32</type>
+    <name>Automatic Invasion Point - Cancel Distance</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk138</name>
-    <type>s32</type>
+    <name>Send Global Event Log Interval</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk139</name>
-    <type>s32</type>
+    <name>Solo Intrusion Point - White Phantom</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk140</name>
-    <type>s32</type>
+    <name>Solo Intrusion Point - Black Phantom</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk141</name>
-    <type>s32</type>
+    <name>Solo Intrusion Point - Force Join</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk142</name>
-    <type>s32</type>
+    <name>Solo Intrusion Point - Visitor Guardian</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk143</name>
-    <type>s32</type>
+    <name>Solo Intrusion Point - Red Hunter</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk144</name>
-    <type>s32</type>
+    <name>Invincibility Timer for Initial Player Sync</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk145</name>
-    <type>s32</type>
+    <name>Invincibility Timer for Non-Initial Player Sync</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk146</name>
-    <type>s32</type>
+    <name>Red Hunter - Host Boss Area Soul Absorption</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk147</name>
+    <name>Ghost Footprint Decal Param ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk148</name>
-    <type>s32</type>
+    <name>Exceeded Multiplayer Limit Distance - Warning Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk149</name>
+    <name>Host Mode Cost Item ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk150</name>
-    <type>s32</type>
+    <name>AI Jump - Deceleration</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk151</name>
-    <type>s32</type>
+    <name>Spirit Summon - Disappearance Delay</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk152</name>
-    <type>s32</type>
+    <name>AI Jump - Y Movement Amount Correction</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk153</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Crouch - No Stealth Effect</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk154</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Stand - Stealth Ray Effect</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk155</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Crouch - Stealth Ray Effect</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk156</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Stand - Stealth Hit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk157</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Crouch - Stealth Hit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk158</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Stealth Ray + Stand in Stealth Hit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk159</name>
-    <type>s32</type>
+    <name>Stealth Visibility - Stealth Ray + Crouch in Stealth Hit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk160</name>
+    <name>Treasure Corpse - Default Action Button ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk161</name>
+    <name>Treasure Corpse - Item Get Anim ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk162</name>
+    <name>Treasure Chest - Default Action Button ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk163</name>
+    <name>Treasure Chest - Item Get Anim ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk164</name>
+    <name>FFX Treasure - Default Action Button ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk165</name>
+    <name>FFX Treasure - Item Get Anim ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk166</name>
+    <name>Summoning Pool - Asset ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk167</name>
+    <name>Summoning Pool - Dummy Poly ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk168</name>
+    <name>Summoning Pool - Dummy Poly ID [1]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk169</name>
+    <name>Summoning Pool - Dummy Poly ID [2]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk170</name>
+    <name>Summoning Pool - Dummy Poly ID [3]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk171</name>
-    <type>s32</type>
+    <name>Fall Damage Multiplier - Mounted Player</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk172</name>
-    <type>s32</type>
+    <name>Fall Damage Multiplier - Mounted NPC</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk173</name>
+    <name>Old Monk of Yellow - Create Sign SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk174</name>
-    <type>s32</type>
+    <name>Straggler - Activation Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk175</name>
+    <name>Straggler - Enable Item Use SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk176</name>
+    <name>Straggler - Wake Up SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk177</name>
+    <name>Straggler - Target SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk178</name>
+    <name>Straggler - Oppose SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk179</name>
-    <type>s32</type>
+    <name>Spirit Summon - Trigger Time for Warp when Raycast is blocked</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk180</name>
-    <type>s32</type>
+    <name>Spirit Summon - Trigger Distance to Player</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk181</name>
-    <type>s32</type>
+    <name>Spirit Summon - Time Threshold for Stuck Spirit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk182</name>
-    <type>s32</type>
+    <name>Spirit Summon - Distance Threshold for Stuck Spirit</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk183</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Morning</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk184</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Noon</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk185</name>
-    <type>s32</type>
+    <name>Spirit Summon - Pass through Player Trigger Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk186</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Evening</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk187</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Night</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk188</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Midnight</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk189</name>
-    <type>s32</type>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
+  </entry>
+  
+  <entry>
+    <name>AI Sight Multiplier - Sunloss - Light</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk190</name>
-    <type>s32</type>
+    <name>AI Sight Multiplier - Sunloss - Darl</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>AI Sight Multiplier - Sunloss - Very Dark</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Crouch - No Stealth Effect</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Stand - Stealth Ray</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Crouch - Stealth Ray</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Stand - Stealth Hit</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Crouch - Stealth Hit</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Stand - Stealth Ray + Stealth Hit</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Stealth View Angle Attenuation - Crouch - Stealth Ray + Stealth Hit</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Morning: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Morning: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Day: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Day: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Evening: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Evening: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Night: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Night: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Dawn: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Weather Lottery Condition - Dawn: Minute</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk191</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+
+  <entry>
+    <name>Player Light Intensity Scale - Start Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Player Light Intensity Scale - Start Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Player Light Intensity Scale - End Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Player Light Intensity Scale - End Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Player Light Intensity Scale - Timezone</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Great Rune - Greater Demon Spirit Summon - Spirit SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk192</name>
+    <name>Great Rune - Greater Demon Spirit Summon - Player SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk193</name>
+    <name>Base Bonfire Warp Param ID</name>
     <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 11</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 12</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 13</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 14</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 15</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 16</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 17</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 18</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 19</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 20</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 21</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 22</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 2</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 24</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Friendly Phantom - Max Reinforcement Coefficient 25</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 11</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 12</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 13</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 14</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 15</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 16</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 17</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 18</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 19</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 20</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 21</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk194</name>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 22</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 23</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 24</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hostile Phantom - Max Reinforcement Coefficient 25</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Morning: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Morning: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Day 1: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Day 1: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Day 2: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Day 2: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Evening: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Evening: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Night: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Night: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Midnight: Hour</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Menu Timezone - Midnight: Minute</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Network Player Threat Notification - Threat Level</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Network Player Threat Notification - Notify Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Network Player Threat Notification - Max Notify Distance</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>World Map Point - Discovery Expand Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>World Map Point - Re-entry Expand Range</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Network Player Threat Notification - Notify Time</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Phantom Bloody Finger - Count</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Phantom Bloody Finger - Goods ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk195</name>
+    <name>Spiritspring SFX ID</name>
     <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Spiritspring SFX Height Offset</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk196</name>
+    <name>Spiritspring SpEffect ID (Horse)</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk197</name>
+    <name>Spiritspring SpEffect ID (Player)</name>
     <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unlock Exchange Menu - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Unlock Message Menu - Event Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Phantom Bloody Finger - Count</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Phantom Recusant Finger - Count</name>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk198</name>
+    <name>Phantom Bloody Finger - Goods ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk199</name>
+    <name>Phantom Recusant Finger - Goods ID</name>
     <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Action Button Input Cancel Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Boss Kill - Rune Acquisition Delay Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Bonfire Check Enemy Range</name>
+    <type>f32</type>
     <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>48</size>
   </entry>
+
   
 </layout>

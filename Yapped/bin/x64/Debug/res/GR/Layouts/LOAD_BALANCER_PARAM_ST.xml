@@ -1,314 +1,171 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Lower FPS</name>
+    <name>Lower FPS Threshold - Raise Balance Level</name>
     <type>f32</type>
     <default>23</default>
   </entry>
   <entry>
-    <name>Upper FPS</name>
+    <name>Upper FPS Threshold - Lower Balance Level</name>
     <type>f32</type>
     <default>27</default>
   </entry>
   <entry>
-    <name>Lower FPS - Continous Count</name>
-    <type>s32</type>
+    <name>Lower FPS Continous - Raise Balance Level</name>
+    <type>u32</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>Upper FPS - Continous Count</name>
-    <type>s32</type>
+    <name>Upper FPS Continous - Lower Balance Level</name>
+    <type>u32</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>Up After Change Sleep</name>
-    <type>s32</type>
+    <name>Sleep Frame Count after Level Lower</name>
+    <type>u32</type>
     <default>30</default>
   </entry>
   <entry>
-    <name>Down After Change Sleep</name>
-    <type>s32</type>
+    <name>Sleep Frame Count after Level Raise</name>
+    <type>u32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 0</name>
+    <name>Post Process: Light Shaft</name>
     <type>u8</type>
     <default>12</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 1</name>
+    <name>Post Process: Bloom</name>
     <type>u8</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 2</name>
+    <name>Post Process: Glow</name>
     <type>u8</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 3</name>
+    <name>Post Process: Anti-Aliasing</name>
     <type>u8</type>
     <default>12</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 4</name>
+    <name>Post Process: SSAO</name>
     <type>u8</type>
     <default>7</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 5</name>
+    <name>Post Process: Depth of Field</name>
     <type>u8</type>
     <default>7</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 6</name>
+    <name>Post Process: Motion Blur</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 7</name>
+    <name>Post Process: Motion Blur Iteration</name>
     <type>u8</type>
     <default>6</default>
   </entry>
+  
   <entry>
-    <name>Load Balancer Value 8</name>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Cut Shadow Blur</name>
     <type>u8</type>
     <default>13</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 9</name>
+    <name>Halve SFX Particle</name>
     <type>u8</type>
     <default>8</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 10</name>
+    <name>Omit SFX Reflection</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 11</name>
+    <name>Omit Water Surface SFX Interaction</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 12</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>Load Balancer Value 13</name>
+    <name>Omit SFX Glow</name>
     <type>u8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 14</name>
+    <name>Omit SFX Distortion</name>
     <type>u8</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 15</name>
+    <name>Omit SFX Soft Sprite</name>
     <type>u8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 16</name>
+    <name>Omit SFX Light Shaft</name>
     <type>u8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>Load Balancer Value 17</name>
+    <name>SFX Scale - Render Distance Scale</name>
     <type>u8</type>
     <default>3</default>
   </entry>
     <entry>
-    <name>Unk1</name>
+    <name>Dumamitc Resolution</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Halve Shadow Cascade [0] Resolution</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Halve Shadow Cascade [1] Resolution</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Disable Wetness for Player</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Disable Wetness for Remote Player</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Disable Wetness for NPC</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Lower Limit of Resolution Reduction</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Upper Limit of Resolution Reduction</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>30</size>
   </entry>
 
 </layout>

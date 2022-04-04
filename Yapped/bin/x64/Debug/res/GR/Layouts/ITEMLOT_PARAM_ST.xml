@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ItemCategory" type="x32">
-    <item value="0xFFFFFFFF" name="None" />
-	<item value="0x00000000" name="None" />
-	<item value="0x00000001" name="Good" />
-	<item value="0x00000002" name="Weapon" />
-	<item value="0x00000003" name="Armor" />
-	<item value="0x00000004" name="Accessory" />
-	<item value="0x00000005" name="Ash of War" />
-	<item value="0x00000006" name="Custom Weapon" />
+  <enum name="ITEM_CATEGORY" type="s32">
+	<item value="0" name="0 - None" />
+	<item value="1" name="1 - Good" />
+	<item value="2" name="2 - Weapon" />
+	<item value="3" name="3 - Armor" />
+	<item value="4" name="4 - Accessory" />
+	<item value="5" name="5 - Ash of War" />
+	<item value="6" name="6 - Custom Weapon" />
   </enum>
+  
   <entry>
     <name>Item ID 1</name>
     <type>s32</type>
@@ -52,51 +52,51 @@
   </entry>
   <entry>
     <name>Item Category 1</name>
-    <type>x32</type>
-    <default>0xFFFFFFFF</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 2</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 3</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 4</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 5</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 6</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 7</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Category 8</name>
-    <type>x32</type>
-    <default>0x00000000</default>
-    <enum>ItemCategory</enum>
+    <type>s32</type>
+    <default>0</default>
+    <enum>ITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Item Chance 1</name>
@@ -180,53 +180,53 @@
   </entry>
   <entry>
     <name>Get Item Flag 1</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 2</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 3</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 4</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 5</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 6</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 7</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag 8</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Get Item Flag ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Cumulative Number Flag ID</name>
-    <type>s32</type>
-    <default>-1</default>
+    <type>u32</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Cumulative Number Max</name>
@@ -234,7 +234,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Undetermined</name>
+    <name>Rarity</name>
     <type>s8</type>
     <default>0</default>
   </entry>
@@ -359,24 +359,25 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Clear Count</name>
+    <name>Game Clear Offset</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
+  <entry>
+    <name>Can Friendly Phantom Pickup</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
     <entry>
-    <name>Is Respawning Itemlot</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Can Hostile Phantom Pickup</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk3</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
 
 </layout>

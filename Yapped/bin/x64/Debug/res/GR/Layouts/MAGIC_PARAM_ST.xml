@@ -1,22 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ReferenceType" type="u8">
+  <enum name="BEHAVIOR_REF_TYPE" type="u8">
     <item value="0" name="0 - Attack" />
 	<item value="1" name="1 - Bullet" />
 	<item value="2" name="2 - SpEffect" />
   </enum>
-  <enum name="AttributeType" type="u8">
-    <item value="0" name="0 - Strength" />
-	<item value="1" name="1 - Dexterity" />
-	<item value="2" name="2 - Faith" />
-    <item value="3" name="3 - Intelligence" />
-  </enum>
-  <enum name="MagicSchoolType" type="u8">
+  <enum name="MAGIC_CATEGORY" type="u8">
     <item value="0" name="0 - Sorcery" />
 	<item value="1" name="1 - Incantation" />
 	<item value="2" name="2 - Unused" />
   </enum>
-  <enum name="ConditionalWeaponEffect" type="s8">
+  <enum name="ATK_SUB_CATEGORY" type="s8">
     <item value="0" name="0 - None" />
     <item value="1" name="1 - Full Moon Spell" />
     <item value="2" name="2 - Carian Sword Spell" />
@@ -61,18 +55,54 @@
     <item value="117" name="117 - Wraith Attack" />
     <item value="118" name="118 - Ammunition OnHit Attack" />
   </enum>
+  <enum name="BEHAVIOR_CATEGORY" type="u8">
+    <item value="0" name="0 - No Category" />
+	<item value="1" name="1 - PC - Right-Hand" />
+	<item value="2" name="2 - PC - Left-hand" />
+	<item value="3" name="3 - Magic" />
+    <item value="4" name="4 - Magic" />
+	<item value="5" name="5 - Basic" />
+	<item value="6" name="6 - NPC - Right-hand" />
+	<item value="7" name="7 - NPC - Left-hand" />
+	<item value="9" name="9 - Kick" />
+    <item value="10" name="10 - PC - Both-hand" />
+    <item value="11" name="11 - PC - Both-hand" />
+    <item value="12" name="12 - PC - Right-hand #2" />
+  </enum>
+  <enum name="MAGIC_MOTION_TYPE" type="u8">
+  </enum>
+  <enum name="GOODS_OPEN_MENU" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_TYPE" type="u16">
+  </enum>
+  <enum name="REPLACE_CATEGORY" type="u8">
+  </enum>
+  <enum name="MAGIC_STATUS_TYPE" type="u8">
+  </enum>
+  <enum name="MAGIC_CONSUME_TYPE" type="u8">
+  </enum>
+  <enum name="MAGIC_AI_NOTIFY_TYPE" type="u8">
+  </enum>
+  
   <entry>
-    <name>Unknown</name>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+
+  <entry>
+    <name>Dialog Message ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Message ID</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Limit Cancel SpEffect ID</name>
+    <name>Ignore Usage Restriction - SpEffect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -83,16 +113,22 @@
   </entry>
   <entry>
     <name>Requirement: ARC</name>
-    <type>s16</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FP Cost</name>
+    <name>AI Interrupt Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>MAGIC_AI_NOTIFY_TYPE</enum>
+  </entry>
+  <entry>
+    <name>FP Consumption - Default</name>
     <type>s16</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>Stamina Cost</name>
+    <name>Stamina Consumption - Default</name>
     <type>s16</type>
     <default>30</default>
   </entry>
@@ -104,7 +140,7 @@
   <entry>
     <name>Behavior ID</name>
     <type>s16</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Material Item ID</name>
@@ -122,19 +158,21 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hero Point</name>
+    <name>Reference Category [1]</name>
     <type>u8</type>
     <default>0</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
-    <name>Over Dexterity</name>
+    <name>Dexterity over Start Value</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>SFX Variation ID</name>
+    <name>Reference Category [2]</name>
     <type>u8</type>
-    <default>6</default>
+    <default>0</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>Slot Usage</name>
@@ -152,12 +190,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>DEX Casting Speed Min</name>
+    <name>Casting Speed - DEX Start Range</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>DEX Casting Speed Max</name>
+    <name>Casting Speed - DEX End Range</name>
     <type>u8</type>
     <default>50</default>
   </entry>
@@ -165,177 +203,113 @@
     <name>Magic School Type</name>
     <type>u8</type>
     <default>1</default>
-    <enum>MagicSchoolType</enum>
+    <enum>MAGIC_CATEGORY</enum>
   </entry>
   <entry>
-    <name>Bullet Category 1</name>
+    <name>Reference Category [3]</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>SpEffect Category</name>
     <type>u8</type>
     <default>4</default>
+    <enum>BEHAVIOR_CATEGORY</enum>
   </entry>
   <entry>
     <name>Animation Category</name>
     <type>u8</type>
-    <default>26</default>
+    <default>0</default>
+    <enum>MAGIC_MOTION_TYPE</enum>
   </entry>
   <entry>
-    <name>Menu Type</name>
+    <name>Open Menu Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>GOODS_OPEN_MENU</enum>
   </entry>
   <entry>
-    <name>Bullet Category 2</name>
+    <name>Reference Category [4]</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
-    <name>Has Effect Type</name>
+    <name>Has SpEffect Type</name>
     <type>s16</type>
     <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Replace Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>REPLACE_CATEGORY</enum>
+  </entry>
+  <entry>
+    <name>Use Limit Category</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+
+  <entry>
+    <name>Vow Type [0]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Enable Spell Enhance</name>
+    <name>Vow Type [1]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Enable Spell Enhance</name>
+    <name>Vow Type [2]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Vow Type [3]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Vow Type [4]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>Vow Type [5]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>Vow Type [6]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Vow Type [7]</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Allow in Multiplayer</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Allow only in Multiplayer</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Is Weapon Enchantment</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Vow Type 0</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 1</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 2</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 3</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 4</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 5</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 6</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 7</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Vow Type 8</name>
-    <type>b8</type>
-    <default>True</default>
-  </entry>
-  <entry>
-    <name>Enable Multiplayer Only</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Enchant</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Shield Enchant</name>
+    <name>Is Shield Enchantment</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -360,260 +334,346 @@
     <default>True</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>u8</type>
+    <name>Disable Offline</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Cast Resonance Magic</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Toughness Perfomed if Poise is Initial Value</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Is Blocked by Warp Forbidden Effect</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Usable while Riding</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Not Usable while Riding</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Usable in No Attack Region</name>
+    <type>b8</type>
+    <default>True</default>
+  </entry>
+  <entry>
+    <name>Blank</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Bool Padding</description>
+  </entry>
+  <entry>
+    <name>Vow Type [8]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [9]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [10]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [11]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [12]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [13]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [14]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Vow Type [15]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>SFX ID - Cast</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>SFX ID - Fire</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>SFX ID - Effect</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Toughness Correction</name>
+    <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>u8</type>
-    <default>255</default>
-  </entry>
-  <entry>
-    <name>Cast SFX 1</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Cast SFX 2</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Cast SFX 3</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Attribute Type</name>
+    <name>Replacement Status Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>AttributeType</enum>
+    <enum>MAGIC_STATUS_TYPE</enum>
   </entry>
   <entry>
-    <name>Attribute Value 0</name>
+    <name>Replacement Status [1]</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Attribute Value 1</name>
+    <name>Replacement Status [2]</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Attribute Value 2</name>
+    <name>Replacement Status [3]</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Attribute Value 3</name>
+    <name>Replacement Status [4]</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Bullet Category 3</name>
+    <name>Reference Category [5]</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Poise Consumption</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Magic ID 0</name>
+    <name>Replacement Magic ID [1]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic ID 1</name>
+    <name>Replacement Magic ID [2]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic ID 2</name>
+    <name>Replacement Magic ID [3]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Magic ID 3</name>
+    <name>Replacement Magic ID [4]</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>FP Consumption - Charged</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Stamina Consumption - Charged</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Create Limit Group ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Bullet Category 4</name>
+    <name>Reference Category [6]</name>
     <type>u8</type>
     <default>1</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 1</name>
     <type>s8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 2</name>
     <type>s8</type>
     <default>0</default>
-    <enum>ConditionalWeaponEffect</enum>
+    <enum>ATK_SUB_CATEGORY</enum>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Reference Category [7]</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Reference Category [8]</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Reference Category [9]</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Reference Category [10]</name>
+    <type>u8</type>
+    <default>1</default>
+    <enum>BEHAVIOR_REF_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Reference ID [1]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Reference ID [2]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Reference ID [3]</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>AI Usage Judgment ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+    <entry>
+    <name>Reference ID [4]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID [5]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID [6]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+    <entry>
+    <name>Reference ID [7]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID [8]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID [9]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Reference ID [10]</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Consumption Type [1]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [2]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [3]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [4]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [5]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [6]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [7]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [8]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [9]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Consumption Type [10]</name>
+    <type>s8</type>
+    <default>0</default>
+    <enum>MAGIC_CONSUME_TYPE</enum>
+  </entry>
+  <entry>
+    <name>FP Consumption Loop - For Menu Display</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
-    <type>s16</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
-  <entry>
-    <name>Reference ID 1</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Reference ID 2</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Reference ID 3</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>Category ID</name>
-    <type>s32</type>
-    <default>-1</default>
-    <description>Unverified</description>
-  </entry>
-    <entry>
-    <name>Reference ID 4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 5</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 6</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-    <entry>
-    <name>Reference ID 7</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 8</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 9</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Reference ID 10</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+
 
 </layout>

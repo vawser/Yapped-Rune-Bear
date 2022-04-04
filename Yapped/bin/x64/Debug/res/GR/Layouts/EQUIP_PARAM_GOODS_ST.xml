@@ -1,21 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="ReferenceType" type="u8">
+  <enum name="BEHAVIOR_REF_TYPE" type="u8">
     <item value="0" name="None" />
 	<item value="1" name="Bullet" />
 	<item value="2" name="SpEffect" />
   </enum>
-  <enum name="RegenerativeItemType" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Crimson Tear" />
-	<item value="2" name="Cerulean Tear" />
-  </enum>
-  <enum name="ItemDisplayType" type="u8">
-    <item value="0" name="Consumable" />
-	<item value="1" name="Material" />
-	<item value="2" name="Key Item" />
-  </enum>
-  <enum name="InteractionMenuType" type="u8">
+  <enum name="GOODS_OPEN_MENU" type="u8">
     <item value="0" name="None" />
     <item value="1" name="Common Interaction" />
     <item value="4" name="Leave World" />
@@ -32,7 +22,7 @@
     <item value="21" name="Invade World (Recusant Finger)" />
     <item value="22" name="Invade World (Festering Bloody Finger)" />
   </enum>
-  <enum name="GoodsType" type="u8">
+  <enum name="GOODS_TYPE" type="u8">
     <item value="0" name="Normal Item" />
 	<item value="1" name="Key Item" />
 	<item value="2" name="Crafting Material" />
@@ -53,32 +43,54 @@
 	<item value="17" name="Self Buff - Sorcery" />
 	<item value="18" name="Self Buff - Incantation" />
   </enum>
-  <enum name="EffectCategory" type="u8">
+  <enum name="BEHAVIOR_CATEGORY" type="u8">
     <item value="0" name="SpEffect" />
     <item value="5" name="Bullet" />
   </enum>
-    <entry>
-    <name>Unk1</name>
+  <enum name="SP_EFFECT_TYPE" type="u16">
+  </enum>
+  <enum name="GOODS_USE_ANIM" type="u8">
+  </enum>
+  <enum name="SP_EFFECT_USELIMIT_CATEGORY" type="u8">
+  </enum>
+  <enum name="REPLACE_CATEGORY" type="u8">
+  </enum>
+  <enum name="GOODS_SUPPLE_TYPE" type="u8">
+  </enum>
+  <enum name="AUTO_REPLENISH_TYPE" type="u8">
+  </enum>
+  <enum name="GOODS_USELIMIT_SUMMONBUDDY" type="u8">
+  </enum>
+  
+  <entry>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
+  <entry>
+    <name>SpEffect ID [0]</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpEffect Reference ID</name>
+    <name>SFX Variation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s32</type>
+    <name>Weight</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Base Price</name>
+    <name>Basic Price</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -90,12 +102,12 @@
   <entry>
     <name>Behavior ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Replace Item ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Sort ID</name>
@@ -103,33 +115,42 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Tool ID</name>
+    <name>Appearance Replace Item ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Dialog Message ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk12</name>
-    <type>s16</type>
+    <name>Use Enable SpEffect Type</name>
+    <type>u16</type>
     <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
-    <name>Throwable Type</name>
-    <type>s16</type>
-    <default>0</default>
+    <name>Pot Group ID</name>
+    <type>s8</type>
+    <default>-1</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  
   <entry>
     <name>Icon ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Model ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -138,12 +159,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Comp Trophy Sed ID</name>
+    <name>Achivement ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Trophy Seq ID</name>
+    <name>Achivement Sequential ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -153,7 +174,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Consume Hero Point</name>
+    <name>Consume Humanity</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -166,56 +187,58 @@
     <name>Goods Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>GoodsType</enum>
+    <enum>GOODS_TYPE</enum>
   </entry>
   <entry>
     <name>Reference Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>ReferenceType</enum>
+    <enum>BEHAVIOR_REF_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Category</name>
     <type>u8</type>
     <default>0</default>
-    <enum>EffectCategory</enum>
+    <enum>BEHAVIOR_CATEGORY</enum>
   </entry>
+  
   <entry>
-    <name>Unk13</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
+  
   <entry>
     <name>Goods Use Animation</name>
     <type>u8</type>
     <default>0</default>
+    <enum>GOODS_USE_ANIM</enum>
   </entry>
   <entry>
     <name>Interaction Menu Type</name>
     <type>u8</type>
     <default>0</default>
-    <enum>InteractionMenuType</enum>
+    <enum>GOODS_OPEN_MENU</enum>
   </entry>
   <entry>
     <name>Use Limit Category</name>
     <type>u8</type>
     <default>0</default>
+    <enum>SP_EFFECT_USELIMIT_CATEGORY</enum>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Replace Category</name>
     <type>u8</type>
     <default>0</default>
+    <enum>REPLACE_CATEGORY</enum>
   </entry>
+  
   <entry>
-    <name>Unk16</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
+  
   <entry>
     <name>Enable Host Player</name>
     <type>b8</type>
@@ -267,28 +290,27 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Unique</name>
+    <name>Is Unique Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Drop</name>
+    <name>Can Discard</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Can be Deposited</name>
+    <name>Can Deposit</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>Is Exclusive</name>
+    <name>Disable if Right Hand is Empty</name>
     <type>b8</type>
     <default>False</default>
-    <description>Disables other items that have this set to true.</description>
   </entry>
   <entry>
-    <name>Is Key Item</name>
+    <name>Remove Item on Game Clear</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -298,17 +320,17 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Regenerative Item</name>
+    <name>Is Full Regenerative Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Weapon Buff Item</name>
+    <name>Is Enhancement Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>Can Repair Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -323,59 +345,25 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Disable Usage outside of Multiplayer Arena</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Has Rapid Application</name>
+    <name>Can Cancel Application Early</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Is Throwable Item</name>
+    <name>Apply SpEffect Modifiers</name>
     <type>b8</type>
     <default>False</default>
   </entry>
+  
   <entry>
-    <name>Is Crimson Tear</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Is Cerulean Tear</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk13</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk14</name>
-    <type>b8</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>b8</type>
-    <default>False</default>
+    <name>Synchronized Item Usage ID</name>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>SpEffect ID - Left Hand</name>
@@ -393,49 +381,121 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Vagrant Item Lot ID</name>
+    <name>Vagrant Enemy Item Lot ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Vagrant Item Lot ID</name>
+    <name>Vagrant Bonus Item Lot ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Usage VFX 1</name>
+    <name>Usage VFX - Cast</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Usage VFX 2</name>
+    <name>Usage VFX  - Fire</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Usage VFX 3</name>
+    <name>Usage VFX - Effect</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Usable with Great Rune Active</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Bonfire Warp Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enable on Ladder</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Usable before Multiplayer Session</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Usable in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Shield Enchantment</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Warp Forbidden</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Usable if Disconnect Penalty is Active</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Regenerative Item Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>GOODS_SUPPLE_TYPE</enum>
   </entry>
   <entry>
-    <name>Item Display Type</name>
+    <name>Auto Replenishment Type</name>
     <type>u8</type>
     <default>0</default>
+    <enum>AUTO_REPLENISH_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Can be Dropped</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Log Condition Type</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Horse Summon</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Dialog Condition Type [0]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Dialog Condition Type [1]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Sleep Collection Item</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Enabled while Riding</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Disabled while Riding</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
     <name>Max Number Stored in Itembox</name>
@@ -443,62 +503,59 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>Sort Group ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Enabled in No Attack Region</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Sale Value</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Is Spirit Summon</name>
+    <name>Use Limit - Spirit Summon</name>
     <type>u8</type>
     <default>0</default>
+    <enum>GOODS_USELIMIT_SUMMONBUDDY</enum>
   </entry>
   <entry>
-    <name>Unk24</name>
-    <type>u8</type>
+    <name>Use Limit - SpEffect Type</name>
+    <type>u16</type>
     <default>0</default>
+    <enum>SP_EFFECT_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk25</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
+    <name>AI Usage Judgment ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>FP Cost</name>
     <type>s16</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>HP Cost</name>
     <type>s16</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Reinforcement Replacement ID</name>
+    <name>Reinforcement Goods ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Reinforcement Material Set ID</name>
+    <name>Reinforcement Material ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -508,44 +565,106 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk37</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [0]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk38</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [1]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk39</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [2]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk40</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [3]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk41</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [4]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk42</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [5]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk43</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [6]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk44</name>
-    <type>s32</type>
+    <name>Use Level - Vow Level [7]</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
-
+  <entry>
+    <name>Use Level - Vow Level [8]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [9]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [10]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [11]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [12]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [13]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [14]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level - Vow Level [15]</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Use Level</name>
+    <type>u16</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
+  <entry>
+    <name>Item Get Tutorial Flag ID</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
+  </entry>
 </layout>

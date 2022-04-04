@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Time Limit 0</name>
+    <name>Limitation Time - Normal</name>
     <type>f32</type>
     <default>360</default>
   </entry>
   <entry>
-    <name>Time Limit 1</name>
+    <name>Limitation Time - Normal (Dried Finger)</name>
     <type>f32</type>
     <default>360</default>
   </entry>
   <entry>
-    <name>Time Limit 2</name>
+    <name>Limitation Time - Guardian</name>
     <type>f32</type>
     <default>360</default>
   </entry>
   <entry>
-    <name>Time Limit 3</name>
+    <name>Limitation Time - Guardian (Dried Finger)</name>
     <type>f32</type>
     <default>360</default>
   </entry>

@@ -1,9 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="SoundType" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Default" />
-	<item value="2" name="CollisionBased" />
+  <enum name="AI_SOUND_RATE_TYPE" type="u8">
+    <item value="0" name="0 - None" />
+	<item value="1" name="1 - Default" />
+	<item value="2" name="2 - Collision Based" />
+  </enum>
+  <enum name="AI_SOUND_RANK" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+    <item value="3" name="3 - Unknown" />
+	<item value="4" name="4 - Unknown" />
+	<item value="5" name="5 - Unknown" />
+    <item value="6" name="6 - Unknown" />
+	<item value="7" name="7 - Unknown" />
+	<item value="8" name="8 - Unknown" />
+	<item value="9" name="9 - Unknown" />
+  </enum>
+  <enum name="AI_SOUND_REPLANNING_STATE_TYPE" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
   </enum>
   <entry>
     <name>Radius</name>
@@ -11,144 +28,77 @@
     <default>5</default>
   </entry>
   <entry>
-    <name>Lifeframe</name>
+    <name>Duration</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Is SpEffect Enabled</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Is Affected by Sound Radius Magnification</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Sound Radius Magnification is in SpEffects</description>
   </entry>
   <entry>
     <name>Rate Type</name>
     <type>u8</type>
     <default>0</default>
-	<enum>SoundType</enum>
-	<description>AI_SOUND_RATE_TYPE</description>
+	<enum>AI_SOUND_RATE_TYPE</enum>
   </entry>
   <entry>
-    <name>Fake Target Type 1</name>
+    <name>Target: Hostile</name>
     <type>b8</type>
     <default>False</default>
-	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
   </entry>
   <entry>
-    <name>Fake Target Type 2</name>
+    <name>Target: Friendly</name>
     <type>b8</type>
     <default>False</default>
-	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
   </entry>
   <entry>
-    <name>Fake Target Type 3</name>
+    <name>Target: Self</name>
     <type>b8</type>
     <default>False</default>
-	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
   </entry>
   <entry>
-    <name>Interest Category</name>
+    <name>Disable on Targeting Player</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Rank</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>AI_SOUND_RANK</enum>
+  </entry>
+  <entry>
+    <name>Forget Time</name>
+    <type>f32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Priority</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Sound Behavior ID</name>
+    <type>s32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>AI Sound Level</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Is Hit Damage Team</name>
+    <name>Replanning State</name>
     <type>u8</type>
     <default>0</default>
-  </entry>
-    <entry>
-    <name>Unk13</name>
-    <type>s8</type>
-    <default>0</default>
+    <enum>AI_SOUND_REPLANNING_STATE_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>6</size>
   </entry>
-  <entry>
-    <name>Unk15</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk17</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk18</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk19</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk20</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk21</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk22</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-
 </layout>

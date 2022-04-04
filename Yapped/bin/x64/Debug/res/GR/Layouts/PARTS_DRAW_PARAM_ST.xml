@@ -1,189 +1,208 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
+  <enum name="PARTS_DRAW_LOD_TYPE" type="u8">
+  </enum>
+  <enum name="PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE" type="u8">
+  </enum>
+  
+  <entry>
+    <name>LOD 0-1 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>LOD 0-1 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>LOD 1-2 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>LOD 1-2 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>LOD 2-3 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>LOD 2-3 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>LOD 3-4 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>LOD 3-4 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
+    <name>LOD 4-5 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>LOD 4-5 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
+    <name>Texture Switch - LOD 0-1 Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
+    <name>Texture Switch - LOD 0-1 Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Enable Crossfade</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
+    <name>Draw - Max Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
+    <name>Draw - Fade Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Shadow Draw - Max Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>Shadow Draw - Fade Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>Motion Blur - Max Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>s16</type>
+    <name>Is Point Light Shadow Source</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
-    <type>s16</type>
+    <name>Is Directional Light Shadow Source</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>s32</type>
+    <name>Is Shadow Destination</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>s32</type>
+    <name>Is Shadow Only</name>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Drawn by Reflection Camera</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Drawn only by Reflection Camera</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Include LOD Map Level</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Disable Far Clip Draw</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>LOD Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>PARTS_DRAW_LOD_TYPE</enum>
+  </entry>
+  <entry>
+    <name>Shadow Draw LOD Offset</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Follow Camera on XZ Plane</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Is Skydome Draw Phase</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Distant LOD - Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
+    <name>Distant LOD - Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
+    <name>Open-world - Minimum Boundry Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>Open-world - Minimum Play Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
+    <name>Z Sort Offset for No Far Clip Draw</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk27</name>
-    <type>s32</type>
+    <name>Shadow Draw Alpha Test Distance</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk28</name>
-    <type>s32</type>
+    <name>Forward Draw Envmap Blend Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk29</name>
-    <type>s32</type>
+    <name>Load Balancer - Draw Distance Scale Param ID</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>34</size>
   </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
+
 
 </layout>

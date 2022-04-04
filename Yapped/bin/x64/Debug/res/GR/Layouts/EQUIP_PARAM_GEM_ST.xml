@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-  <enum name="DisplayCategoryID" type="u8">
+  <enum name="SORT_GROUP_ID" type="u8">
     <item value="10" name="10 - Heavy" />
 	<item value="20" name="20 - Keen" />
 	<item value="30" name="30 - Quality" />
@@ -13,132 +13,267 @@
     <item value="140" name="140 - Shield" />
     <item value="255" name="255 - None" />
   </enum>
-  <enum name="BaseAffinitySet" type="s32">
-    <item value="0" name="0 - Standarrd" />
-	<item value="2047" name="2047 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
-	<item value="65537" name="65537 - Standard" />
-    <item value="65599" name="65599 - Standard" />
-    <item value="65743" name="65743 - Standard/Lightning/Sacred" />
-    <item value="66111" name="66111 - Standard/Cold" />
-    <item value="66127" name="66127 - Standard/Lightning/Cold" />
-    <item value="66319" name="66319 - Standard/Magic/Cold" />
-    <item value="66560" name="66560 - Standard/Poison" />
-    <item value="66063" name="66063 - Standard/Cold" />
-    <item value="67583" name="67583 - Standard/Magic/Lightning/Sacred/Poison/Cold" />
-    <item value="70287" name="70287 - Standard/Sacred/Cold/Occult" />
-    <item value="72719" name="72719 - Standard/Poison/Blood/Occult" />
-    <item value="73727" name="73727 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-    <item value="131073" name="131073 - Standard" />
-    <item value="131135" name="131135 - Standard" />
-    <item value="131279" name="131279 - Standard/Lightning/Sacred" />
-    <item value="131855" name="131855 - Standard/Magic/Cold" />
-    <item value="138255" name="138255 - Standard/Poison/Blood/Occult" />
-    <item value="139263" name="139263 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-    <item value="197391" name="197391 - Standard/Magic/Cold" />
-    <item value="204799" name="204799 - Standard/Magic/Lightning/Sacred/Poison/Blood/Cold/Occult" />
-  </enum>
-  <enum name="AdditionalAffinity" type="s32">
-    <item value="0" name="0 - None" />
-    <item value="98" name="98 - Standard" />
-	<item value="103" name="103 - Standard" />
-	<item value="359" name="359 - Heavy" />
-	<item value="615" name="615 - Keen" />
-	<item value="871" name="871 - Quality" />
-	<item value="1127" name="1127 - Fire" />
-	<item value="1383" name="1383 - Flame Art" />
-	<item value="1639" name="1639 - Lightning" />
-	<item value="1895" name="1895 - Sacred" />
-	<item value="2151" name="2151 - Magic" />
-	<item value="2407" name="2407 - Cold" />
-	<item value="2663" name="2663 - Poison" />
-	<item value="2919" name="2919 - Blood" />
-	<item value="3175" name="3175 - Occult" />
-  </enum>
+  
   <entry>
-    <name>Unk0</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Disable Param - Network Test</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
+  </entry>
+  
   <entry>
     <name>Icon ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Rank</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Display Category ID</name>
+    <name>Sort Group ID</name>
     <type>u8</type>
     <default>0</default>
-    <enum>DisplayCategoryID</enum>
+    <enum>SORT_GROUP_ID</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>SpEffect ID [0]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>SpEffect ID [1]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>SpEffect ID [2]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk6</name>
-    <type>s32</type>
+    <name>Item Get Tutorial Flag ID</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Sword Arts ID</name>
     <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Application Cost</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>Cost to apply Gem to weapon</description>
+  </entry>
+  <entry>
+    <name>Sell Value</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>Runes gained from Sell</description>
+  </entry>
+  <entry>
+    <name>Sale Value</name>
+    <type>s32</type>
+    <default>-1</default>
+    <description>Cost to purchase from shop</description>
+  </entry>
+  <entry>
+    <name>Sort ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Achievement ID</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s32</type>
+    <name>Achievement Sequential ID</name>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Affinity: Standard</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk9</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Affinity: Heavy</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Affinity: Keen</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>Affinity: Quality</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Base Affinity Set</name>
-    <type>s32</type>
-    <default>0</default>
-    <enum>BaseAffinitySet</enum>
-    <description>Probably set of booleans, but this is easier for now.</description>
+    <name>Affinity: Fire</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Additional Affinity</name>
-    <type>s32</type>
-    <default>0</default>
-    <enum>AdditionalAffinity</enum>
-    <description>Probably set of booleans, but this is easier for now.</description>
+    <name>Affinity: Flame Art</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  <entry>
+    <name>Affinity: Lightning</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Sacred</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Magic</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Cold</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Poison</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Blood</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Occult</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [13]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [14]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [15]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Rarity</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>Affinity: Unused [16]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [17]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [18]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [19]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [20]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [21]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [22]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Affinity: Unused [23]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Discardable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Droppable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Depositable</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Drop Disabled in Multiplayer</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Dialog Condition Type [0]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Dialog Condition Type [0]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Show Log Condition Type</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>Default Weapon Affinity</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
+  </entry>
+  
   <entry>
     <name>Available: Dagger</name>
     <type>b32</type>
@@ -220,12 +355,12 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Available: Unknown 1</name>
+    <name>Available: Large Spear</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Available: Great Spear</name>
+    <name>Available: Heavy Spear</name>
     <type>b32</type>
     <default>False</default>
   </entry>
@@ -290,12 +425,12 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>Available: Seal</name>
+    <name>Available: Unused Catalyst</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>Available: Unknown 4</name>
+    <name>Available: Seal</name>
     <type>b32</type>
     <default>False</default>
   </entry>
@@ -319,65 +454,41 @@
     <type>b32</type>
     <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk94</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk95</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk96</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk97</name>
-    <type>b32</type>
-    <default>False</default>
-  </entry>
-  <entry>
-    <name>Unk16</name>
+    <name>SpEffect Message ID [0]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk17</name>
+    <name>SpEffect Message ID [1]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>SpEffect ID - Attack Hit [0]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk19</name>
+    <name>SpEffect ID - Attack Hit [1]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>SpEffect ID - Attack Hit [2]</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
-    <name>Compatibility - Text ID</name>
+    <name>Mount Weapon Text ID</name>
     <type>s32</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
+  <!-- Verified zero -->
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
-  <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-
 </layout>
