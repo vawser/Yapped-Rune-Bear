@@ -26,75 +26,174 @@
     <name>Radius</name>
     <type>f32</type>
     <default>5</default>
+    <description>ParamDef:
+ Name: 
+ radius
+ 
+ Description:
+ AI sound radius
+</description>
   </entry>
   <entry>
     <name>Duration</name>
     <type>f32</type>
     <default>1</default>
+    <description>ParamDef:
+ Name: 
+ lifeFrame
+ 
+ Description:
+ Time for AI sound to remain
+</description>
   </entry>
   <entry>
     <name>Is Affected by Sound Radius Magnification</name>
     <type>b8</type>
     <default>False</default>
-    <description>Sound Radius Magnification is in SpEffects</description>
+    <description>ParamDef:
+ Name: 
+ bSpEffectEnable
+ 
+ Description:
+ Whether it is affected by the special effect "Sound Radius 
+ Magnification"
+</description>
   </entry>
   <entry>
     <name>Rate Type</name>
     <type>u8</type>
     <default>0</default>
 	<enum>AI_SOUND_RATE_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ type
+ 
+ Description:
+ AI sound type
+</description>
   </entry>
   <entry>
     <name>Target: Hostile</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ opposeTarget
+ 
+ Description:
+ Target: ● Hostile
+</description>
   </entry>
   <entry>
     <name>Target: Friendly</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ friendlyTarget
+ 
+ Description:
+ Target: ○ Allies
+</description>
   </entry>
   <entry>
     <name>Target: Self</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ selfTarget
+ 
+ Description:
+ Target: myself
+</description>
   </entry>
   <entry>
     <name>Disable on Targeting Player</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ disableOnTargetPCompany
+ 
+ Description:
+ You can't listen while targeting your PC
+</description>
   </entry>
   <entry>
     <name>Rank</name>
     <type>u8</type>
     <default>0</default>
     <enum>AI_SOUND_RANK</enum>
+    <description>ParamDef:
+ Name: 
+ rank
+ 
+ Description:
+ Character behavior (former: sound type)
+</description>
   </entry>
   <entry>
     <name>Forget Time</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ forgetTime
+ 
+ Description:
+ Time to forget the sound target (overwrite) [sec]
+
+</description>
   </entry>
   <entry>
     <name>Priority</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ priority
+ 
+ Description:
+ AI sound priority
+</description>
   </entry>
   <entry>
     <name>Sound Behavior ID</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ soundBehaviorId
+ 
+ Description:
+ Behavior ID
+</description>
   </entry>
   <entry>
     <name>AI Sound Level</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ aiSoundLevel
+ 
+ Description:
+ How hard it is to hear
+</description>
   </entry>
   <entry>
     <name>Replanning State</name>
     <type>u8</type>
     <default>0</default>
     <enum>AI_SOUND_REPLANNING_STATE_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ replaningState
+ 
+ Description:
+ AI state setting to run replanning when listening to AI sound
+</description>
   </entry>
   <entry>
     <name>padding</name>

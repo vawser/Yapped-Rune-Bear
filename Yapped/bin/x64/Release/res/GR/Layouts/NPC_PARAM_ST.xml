@@ -45,7 +45,7 @@
     <item value="63" name="63 - Unknown" />
     <item value="66" name="66 - Unknown" />
   </enum>
-  <enum name="NPC_ITEMDROP_TYPE" type="s16">
+  <enum name="NPC_ITEMDROP_TYPE" type="u16">
     <item value="0" name="0 - Corpse Emission" />
 	<item value="1" name="1 - Item Display" />
   </enum>
@@ -141,7 +141,7 @@
   </entry>
   <entry>
     <name>Weight</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>100</default>
   </entry>
   <entry>
@@ -151,17 +151,17 @@
   </entry>
   <entry>
     <name>Base HP</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Base FP</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Base Runes</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
@@ -439,17 +439,17 @@
   </entry>
   <entry>
     <name>Stamina</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>50</default>
   </entry>
   <entry>
     <name>Stamina Recovery</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>21</default>
   </entry>
   <entry>
     <name>Defence: Physical</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
   </entry>
   <entry>
@@ -469,42 +469,42 @@
   </entry>
   <entry>
     <name>Defence: Magic</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
   </entry>
   <entry>
     <name>Defence: Fire</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
   </entry>
   <entry>
     <name>Defence: Lightning</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
   </entry>
   <entry>
     <name>Weapon Repel Power</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist: Poison</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>999</default>
   </entry>
   <entry>
     <name>Resist: Scarlet Rot</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>999</default>
   </entry>
   <entry>
     <name>Resist: Hemorrhage</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>112</default>
   </entry>
   <entry>
     <name>Resist: Death</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>999</default>
   </entry>
   <entry>
@@ -550,7 +550,7 @@
   </entry>
   <entry>
     <name>Drop Type</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
     <enum>NPC_ITEMDROP_TYPE</enum>
   </entry>
@@ -586,17 +586,17 @@
   </entry>
   <entry>
     <name>Guard Resist: Sleep</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Guard Resist: Madness</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Lock Gaze Point - Dummy Poly [7]</name>
-    <type>u16</type>
+    <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -616,7 +616,7 @@
   </entry>
   <entry>
     <name>Draw Type</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
     <enum>NPC_DRAW_TYPE</enum>
   </entry>
@@ -669,7 +669,7 @@
   </entry>
   <entry>
     <name>Guard Level</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -680,22 +680,22 @@
   </entry>
   <entry>
     <name>Guard Resist: Poison</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Guard Resist: Scarlet Rot</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Guard Resist: Hemorrhage</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Guard Resist: Blight</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -1083,12 +1083,12 @@
   </entry>
   <entry>
     <name>Defence: Holy</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>100</default>
   </entry>
   <entry>
     <name>Threat Level</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>999</default>
   </entry>
   <entry>
@@ -1184,7 +1184,7 @@
   </entry>
   <entry>
     <name>Toughness</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>1</default>
   </entry>
   <entry>
@@ -1285,7 +1285,7 @@
   </entry>
   <entry>
     <name>Resist: Frostbite</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>-1</default>
   </entry>
   <entry>
@@ -1447,32 +1447,32 @@
   </entry>
   <entry>
     <name>HP/FP Flask Recovery Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>HP Flask Recovery Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>FP Flask Recovery Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Missed HP/FP Flask Recovery - Bonus Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Missed HP Flask Recovery - Bonus Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Missed FP Flask Recovery - Bonus Chance</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>

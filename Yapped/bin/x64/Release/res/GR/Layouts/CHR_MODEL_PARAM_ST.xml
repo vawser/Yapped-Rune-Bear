@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="CHR_MEMORY_TYPE" type="u8">
+    <item value="1" name="1 - Size" />
+    <item value="2" name="2 - Size" />
+    <item value="3" name="3 - Size" />
+    <item value="4" name="4 - Size" />
+    <item value="5" name="5 - Size" />
+    <item value="6" name="6 - Size" />
+    <item value="7" name="7 - Size" />
   </enum>
   
   <entry>

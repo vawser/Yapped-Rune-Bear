@@ -47,6 +47,7 @@
     Glintstone Kris
 103 Erdsteel Dagger
     Blade of Calling 
+    Black Knife
 104 Wakizashi 
 
 # Straight Sword
@@ -191,3 +192,79 @@
 # Crossbow
 233 Pulley Crossbow 
 236 Full Moon Crossbow
+
+#---------------------------------------
+# c0000
+#---------------------------------------
+# Staggers
+5000, 10000 <> 19000
+
+# Walking
+20000, 21000, 23000, 24000
+
+# Run
+20100, 23100
+
+# Sprint
+20200, 23200
+
+# Stopping
+22000
+
+# Turning
+26000
+
+# Backstep
+27000
+
+# Light Roll
+27100
+
+# Medium Roll
+27110 
+
+# Heavy Roll
+27120
+
+# Encumbered Roll
+27130
+
+# Superlight Roll
+27140
+
+# Quickstep
+27150
+
+# Climbing
+28000
+
+# Weapon Switch Transition
+29000
+
+# Goods
+50000 
+
+# Objects
+60000
+
+# Throws (against player)
+70000 
+
+# Gestures
+80000 
+
+# NPC Idles
+90000 
+
+# Mount
+100000
+
+# Dismounted
+109000 
+
+# Jump
+202000
+
+# Crouch
+300000
+

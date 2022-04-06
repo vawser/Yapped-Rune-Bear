@@ -122,6 +122,25 @@ namespace Yapped
             settings.DGVIndices = string.Join(",", components);
         }
 
+        public string GetResourceDir()
+        {
+            return $@"Resource\\";
+        }
+
+        public string GetParamDefDir()
+        {
+            var gameMode = (GameMode)toolStripComboBoxGame.SelectedItem;
+
+            return $@"Resource\\PARAMDEF\\{gameMode.Directory}";
+        }
+
+        public string GetResRoot()
+        {
+            var gameMode = (GameMode)toolStripComboBoxGame.SelectedItem;
+
+            return $@"res\{gameMode.Directory}";
+        }
+
         private void LoadParams()
         {
             string resDir = GetResRoot();
@@ -1468,7 +1487,7 @@ namespace Yapped
                                 }
 
                                 // Inclusion
-                                if (field_inclusions != "" && !isBoolType)
+                                if (field_inclusions != "")
                                 {
                                     if (type == CellType.s8)
                                     {
@@ -1540,10 +1559,20 @@ namespace Yapped
                                                 isMatchedField = false;
                                         }
                                     }
+                                    else if (type == CellType.b8 || type == CellType.b16 || type == CellType.b32)
+                                    {
+                                        Boolean[] temp_array = Array.ConvertAll(field_inclusions.Split(delimiter), s => Boolean.Parse(s));
+
+                                        foreach (Boolean array_value in temp_array)
+                                        {
+                                            if (Convert.ToBoolean(value) != array_value)
+                                                isMatchedField = false;
+                                        }
+                                    }
                                 }
 
                                 // Check exclusions
-                                if (field_exclusions != "" && !isBoolType)
+                                if (field_exclusions != "")
                                 {
                                     if (type == CellType.s8)
                                     {
@@ -1612,6 +1641,16 @@ namespace Yapped
                                         foreach (Single array_value in temp_array)
                                         {
                                             if (Convert.ToSingle(value) == array_value)
+                                                isMatchedField = false;
+                                        }
+                                    }
+                                    else if (type == CellType.b8 || type == CellType.b16 || type == CellType.b32)
+                                    {
+                                        Boolean[] temp_array = Array.ConvertAll(field_exclusions.Split(delimiter), s => Boolean.Parse(s));
+
+                                        foreach (Boolean array_value in temp_array)
+                                        {
+                                            if (Convert.ToBoolean(value) != array_value)
                                                 isMatchedField = false;
                                         }
                                     }
@@ -2412,11 +2451,6 @@ namespace Yapped
             }
         }
 
-        private string GetResRoot()
-        {
-            var gameMode = (GameMode)toolStripComboBoxGame.SelectedItem;
-
-            return $@"res\{gameMode.Directory}";
-        }
+        
     }
 }

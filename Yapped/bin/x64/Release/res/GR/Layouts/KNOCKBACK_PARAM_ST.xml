@@ -150,15 +150,11 @@
     <type>f32</type>
     <default>0.2</default>
   </entry>
-    <entry>
-    <name>Unk1</name>
-    <type>f32</type>
-    <default>0</default>
-  </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>8</size>
   </entry>
 
 </layout>

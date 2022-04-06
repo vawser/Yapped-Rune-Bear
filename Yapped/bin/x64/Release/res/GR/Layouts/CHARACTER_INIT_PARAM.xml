@@ -235,39 +235,40 @@
   </entry>
   <entry>
     <name>Base HP</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Base FP</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Base Stamina</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Equipped Ammunition: Arrow Primary Count</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Equipped Ammunition: Bolt Primary Count</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Equipped Ammunition: Arrow Secondary Count</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Equipped Ammunition: Bolt Secondary Count</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>99</default>
   </entry>
+  
   <entry>
     <name>padding</name>
     <type>dummy8</type>
@@ -281,52 +282,52 @@
   </entry>
   <entry>
     <name>Vigor</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Attunement</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Endurance</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Strength</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Dexterity</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Intelligence</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Faith</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Arcane</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
     <name>Humanity</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Vitality</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>99</default>
   </entry>
   <entry>

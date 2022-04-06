@@ -113,7 +113,7 @@
 	<item value="254" name="254 - Unknown" />
 	<item value="255" name="255 - Unknown" />
   </enum>
-  <enum name="WEP_MATERIAL_DEF" type="u8">
+  <enum name="WEP_MATERIAL_DEF" type="u16">
     <item value="0" name="0 - Unknown" />
     <item value="139" name="139 - Unknown" />
     <item value="255" name="255 - Unknown" />
@@ -173,224 +173,475 @@
     <name>Hit 0: Radius</name>
     <type>f32</type>
     <default>0</default>
-    <description>Radius of sphere/capsule hitbox.</description>
+    <description>ParamDef:
+ Name: 
+ hit0_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+ 
+</description>
   </entry>
   <entry>
     <name>Hit 1: Radius</name>
     <type>f32</type>
     <default>0</default>
-    <description>Radius of sphere/capsule hitbox.</description>
+    <description>ParamDef:
+ Name: 
+ hit1_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+ 
+</description>
   </entry>
   <entry>
     <name>Hit 2: Radius</name>
     <type>f32</type>
     <default>0</default>
-    <description>Radius of sphere/capsule hitbox.</description>
+    <description>ParamDef:
+ Name: 
+ hit2_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+ 
+</description>
   </entry>
   <entry>
     <name>Hit 3: Radius</name>
     <type>f32</type>
     <default>0</default>
-    <description>Radius of sphere/capsule hitbox.</description>
+    <description>ParamDef:
+ Name: 
+ hit3_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+ 
+</description>
   </entry>
   <entry>
     <name>Knockback Distance</name>
     <type>f32</type>
     <default>0</default>
-    <description>Knockback distance of attack.</description>
+    <description>ParamDef:
+ Name: 
+ knockbackDist
+ 
+ Description:
+ Knockback distance of attack.
+</description>
   </entry>
   <entry>
     <name>Hit Stop Time</name>
     <type>f32</type>
     <default>0</default>
-    <description>Duration of the 'hit' flag on the target.</description>
+    <description>ParamDef:
+ Name: 
+ hitStopTime
+ 
+ Description:
+ Duration of the 'hit' flag on the target.
+</description>
   </entry>
   <entry>
-    <name>Target SpEffect 1</name>
+    <name>Target SpEffect [0]</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target on hit.</description>
+    <description>ParamDef:
+ Name: 
+ spEffectId0
+ 
+ Description:
+ Special effect applied to target on hit.
+</description>
   </entry>
   <entry>
-    <name>Target SpEffect 2</name>
+    <name>Target SpEffect [1]</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target on hit.</description>
+    <description>ParamDef:
+ Name: 
+ spEffectId1
+ 
+ Description:
+ Special effect applied to target on hit.
+</description>
   </entry>
   <entry>
-    <name>Target SpEffect 3</name>
+    <name>Target SpEffect [2]</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target on hit.</description>
+    <description>ParamDef:
+ Name: 
+ spEffectId2
+ 
+ Description:
+ Special effect applied to target on hit.
+</description>
   </entry>
   <entry>
-    <name>Target SpEffect 4</name>
+    <name>Target SpEffect [3]</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target on hit.</description>
+    <description>ParamDef:
+ Name: 
+ spEffectId3
+ 
+ Description:
+ Special effect applied to target on hit.
+</description>
   </entry>
   <entry>
-    <name>Target SpEffect 5</name>
+    <name>Target SpEffect [4]</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special effect applied to target on hit.</description>
+    <description>ParamDef:
+ Name: 
+ spEffectId4
+ 
+ Description:
+ Special effect applied to target on hit.
+</description>
   </entry>
   <entry>
     <name>Hit 0: Dummy Poly [1]</name>
     <type>s16</type>
     <default>100</default>
-    <description>Model point at origin of hitbox. If Hitbox End Model Point is not -1, the hitbox will be a capsule with hemispherical caps positioned at these origins (with a joining cylinder).</description>
+    <description>ParamDef:
+ Name: 
+ hit0_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 1: Dummy Poly [1]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at origin of hitbox. If Hitbox End Model Point is not -1, the hitbox will be a capsule with hemispherical caps positioned at these origins (with a joining cylinder).</description>
+    <description>ParamDef:
+ Name: 
+ hit1_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 2: Dummy Poly [1]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at origin of hitbox. If Hitbox End Model Point is not -1, the hitbox will be a capsule with hemispherical caps positioned at these origins (with a joining cylinder).</description>
+    <description>ParamDef:
+ Name: 
+ hit2_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 3: Dummy Poly [1]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at origin of hitbox. If Hitbox End Model Point is not -1, the hitbox will be a capsule with hemispherical caps positioned at these origins (with a joining cylinder).</description>
+    <description>ParamDef:
+ Name: 
+ hit3_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 0: Dummy Poly [2]</name>
     <type>s16</type>
     <default>120</default>
-    <description>Model point at end of capsule hitbox. If this is -1, the hitbox will be a sphere placed at Hitbox Start Model Point.</description>
+    <description>ParamDef:
+ Name: 
+ hit0_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 1: Dummy Poly [2]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at end of capsule hitbox. If this is -1, the hitbox will be a sphere placed at Hitbox Start Model Point.</description>
+    <description>ParamDef:
+ Name: 
+ hit1_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 2: Dummy Poly [2]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at end of capsule hitbox. If this is -1, the hitbox will be a sphere placed at Hitbox Start Model Point.</description>
+    <description>ParamDef:
+ Name: 
+ hit2_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 3: Dummy Poly [2]</name>
     <type>s16</type>
     <default>-1</default>
-    <description>Model point at end of capsule hitbox. If this is -1, the hitbox will be a sphere placed at Hitbox Start Model Point.</description>
+    <description>ParamDef:
+ Name: 
+ hit3_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Blowing</name>
     <type>u16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ blowingCorrection
+ 
+ Description:
+ Correction value when blowing off
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Physical</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character attack power to calculate physical attack damage.</description>
+    <description>ParamDef:
+ Name: 
+ atkPhysCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate physical attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Magic</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character attack power to calculate magic attack damage.</description>
+    <description>ParamDef:
+ Name: 
+ atkMagCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate magic attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Fire</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character attack power to calculate fire attack damage.</description>
+    <description>ParamDef:
+ Name: 
+ atkFireCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate fire attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Lightning</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character attack power to calculate lightning attack damage.</description>
+    <description>ParamDef:
+ Name: 
+ atkThunCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate lightning attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Stamina</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character attack power to calculate stamina attack damage.</description>
+    <description>ParamDef:
+ Name: 
+ atkStamCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate stamina attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Guard Attack Rate</name>
     <type>u16</type>
     <default>0</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character guard attack power.</description>
+    <description>ParamDef:
+ Name: 
+ guardAtkRateCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character guard attack power.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Guard Break</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to character guard breaking power.</description>
+    <description>ParamDef:
+ Name: 
+ guardBreakCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character guard breaking power.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Throw Escape</name>
     <type>u16</type>
     <default>100</default>
-    <description>Multiplier (as percentage from 0 upwards) applied to weapon attacks during throws.</description>
+    <description>ParamDef:
+ Name: 
+ atkThrowEscapeCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to weapon 
+ attacks during throws.
+</description>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 1</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_SUB_CATEGORY</enum>
-    <description>If this matches with any of the Conditional Weapon Effect fields in a SpEffect row, it will apply the SpEffect for that attack.</description> 
+    <description>ParamDef:
+ Name: 
+ subCategory1
+ 
+ Description:
+ If this matches with any of the Conditional Weapon Effect 
+ fields in a SpEffect row, it will apply the SpEffect for 
+ that attack.
+</description> 
   </entry>
   <entry>
     <name>Conditional Weapon Effect 2</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_SUB_CATEGORY</enum>
-    <description>If this matches with any of the Conditional Weapon Effect fields in a SpEffect row, it will apply the SpEffect for that attack.</description> 
+    <description>ParamDef:
+ Name: 
+ subCategory2
+ 
+ Description:
+ If this matches with any of the Conditional Weapon Effect 
+ fields in a SpEffect row, it will apply the SpEffect for 
+ that attack.
+</description> 
   </entry>
   <entry>
     <name>Damage: Physical</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute physical attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkPhys
+ 
+ Description:
+ Absolute physical attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Magic</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute magic attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkMag
+ 
+ Description:
+ Absolute magic attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Fire</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute fire attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkFire
+ 
+ Description:
+ Absolute fire attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Lightning</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute lightning attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkThun
+ 
+ Description:
+ Absolute lightning attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Stamina</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute stamina attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkStam
+ 
+ Description:
+ Absolute stamina attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Guard Attack Rate</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute guard attack power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ guardAtkRate
+ 
+ Description:
+ Absolute guard attack power of attack.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Guard Break Rate</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute guard breaking power of attack.</description>
+    <description>ParamDef:
+ Name: 
+ guardAtkRate
+ 
+ Description:
+ Absolute guard breaking power of attack.
+ NPC-type only.
+</description>
   </entry>
   
   <entry>
@@ -403,259 +654,540 @@
     <name>Is Considered Special Attack for Asset Destruction</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isEnableCalcDamageForBushesObj
+ 
+ Description:
+ Do you want to calculate damage for assets that are "Break 
+ due to bush damage"? To set. 〇: Calculate, ×: Do not 
+ calculate (that is, you cannot inflict damage)
+</description>
   </entry>
   
   <entry>
     <name>Damage: Throw Escape</name>
     <type>u16</type>
     <default>0</default>
-    <description>Absolute attack power of attack during throw.</description>
+    <description>ParamDef:
+ Name: 
+ atkThrowEscape
+ 
+ Description:
+ Absolute attack power of attack during throw.
+</description>
   </entry>
   <entry>
     <name>Damage: Object</name>
     <type>u16</type>
     <default>20</default>
-    <description>Amount of damage dealt to objects by this attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkObj
+ 
+ Description:
+ Amount of damage dealt to objects by this attack.
+</description>
   </entry>
   <entry>
     <name>Guard Cut Stamina Rate</name>
     <type>s16</type>
     <default>0</default>
-    <description>Correction applied to the stamina required to block this attack.</description>
+    <description>ParamDef:
+ Name: 
+ guardStaminaCutRate
+ 
+ Description:
+ Correction applied to the stamina required to block this attack.
+</description>
   </entry>
   <entry>
     <name>Guard Rate</name>
     <type>s16</type>
     <default>0</default>
-    <description>Percentage correction made to the guarding ability of the attack, as set in weapon parameters or NPC parameters.</description>
+    <description>ParamDef:
+ Name: 
+ guardRate
+ 
+ Description:
+ Percentage correction made to the guarding ability of the attack, as set in weapon parameters or NPC parameters.
+</description>
   </entry>
   <entry>
     <name>Throw Type ID</name>
     <type>u16</type>
     <default>0</default>
-    <description>Throw to trigger when attack hits. For some reason, throws are triggered using this ID, which is a field within each Throw table entry rather than the ID of the Throw table entry itself.</description>
+    <description>ParamDef:
+ Name: 
+ throwTypeId
+ 
+ Description:
+ Throw to trigger when attack hits. For some reason, throws are triggered using this ID, which is a field within each Throw table entry rather than the ID of the Throw table entry itself.
+</description>
   </entry>
   <entry>
     <name>Hit 0: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Type of hit applied by hitbox.</description>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit0_hitType
+ 
+ Description:
+ Type of hit applied by hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 1: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Type of hit applied by hitbox.</description>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit1_hitType
+ 
+ Description:
+ Type of hit applied by hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 2: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Type of hit applied by hitbox.</description>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit2_hitType
+ 
+ Description:
+ Type of hit applied by hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 3: Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Type of hit applied by hitbox.</description>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit3_hitType
+ 
+ Description:
+ Type of hit applied by hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 0: Priority</name>
     <type>u8</type>
     <default>0</default>
-    <description>Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.</description>
+    <description>ParamDef:
+ Name: 
+ hti0_Priority
+ 
+ Description:
+ Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.
+</description>
   </entry>
   <entry>
     <name>Hit 1: Priority</name>
     <type>u8</type>
     <default>0</default>
-    <description>Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.</description>
+    <description>ParamDef:
+ Name: 
+ hti1_Priority
+ 
+ Description:
+ Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.
+</description>
   </entry>
   <entry>
     <name>Hit 2: Priority</name>
     <type>u8</type>
     <default>0</default>
-    <description>Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.</description>
+    <description>ParamDef:
+ Name: 
+ hti2_Priority
+ 
+ Description:
+ Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.
+</description>
   </entry>
   <entry>
     <name>Hit 3: Priority</name>
     <type>u8</type>
     <default>0</default>
-    <description>Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.</description>
+    <description>ParamDef:
+ Name: 
+ hti3_Priority
+ 
+ Description:
+ Priority of hitbox. If two hits occur simultaneously, only the highest priority hit occurs.
+</description>
   </entry>
   <entry>
     <name>Damage Level</name>
     <type>u8</type>
     <default>2</default>
     <enum>ATKPARAM_REP_DMGTYPE</enum>
-    <description>Impact level of attack, which determines how the target reacts to it (e.g. knocked backward, launched into the air, etc.). Certain special effects on the target (e.g. Iron Flesh) may re-map this impact level to a different one.</description>
+    <description>ParamDef:
+ Name: 
+ dmgLevel
+ 
+ Description:
+ Impact level of attack, which determines how the target 
+ reacts to it (e.g. knocked backward, launched into the air, 
+ etc.). Certain special effects on the target (e.g. Iron 
+ Flesh) may re-map this impact level to a different one.
+</description>
   </entry>
   <entry>
     <name>Map Hit Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Determines how this attack interacts with the map.</description>
     <enum>ATK_PARAM_MAP_HIT</enum>
+    <description>ParamDef:
+ Name: 
+ mapHitType
+ 
+ Description:
+ Determines how this attack interacts with the map.
+</description>
   </entry>
   <entry>
     <name>Guard Absorption Bypass Rate</name>
     <type>s8</type>
     <default>0</default>
-    <description>Percentage (from -100 to 100) of target's current guard rate to ignore. A value of -100 will ignore guarding completely, and a value of 100 will double their guarding effectiveness.</description>
+    <description>ParamDef:
+ Name: 
+ guardCutCancelRate
+ 
+ Description:
+ Percentage (from -100 to 100) of target's current guard rate 
+ to ignore. A value of -100 will ignore guarding completely, 
+ and a value of 100 will double their guarding effectiveness.
+</description>
   </entry>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_ATKATTR_TYPE</enum>
-    <description>Type of physical damage done by attack.</description>
+    <description>ParamDef:
+ Name: 
+ atkAttribute
+ 
+ Description:
+ Type of damage done by the attack.
+</description>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_SPATTR_TYPE</enum>
-    <description>Type of elemental damage done by attack.</description>
+    <description>ParamDef:
+ Name: 
+ spAttribute
+ 
+ Description:
+ Type of special state used by the attack.
+</description>
   </entry>
   <entry>
     <name>Attack Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>BEHAVIOR_ATK_TYPE</enum>
-    <description>Determines the sounds and visual effects generated by the attack itself (before hit).</description>
+    <description>ParamDef:
+ Name: 
+ atkType
+ 
+ Description:
+ Determines the SFX and SE generated by the attack itself (before hit).
+</description>
   </entry>
   <entry>
     <name>Attack Material</name>
     <type>u8</type>
     <default>0</default>
-    <description>Determines the sounds and visual effects generated when the attack hits. A value of 255 uses the weapon default.</description>
     <enum>WEP_MATERIAL_ATK</enum>
+    <description>ParamDef:
+ Name: 
+ atkMaterial
+ 
+ Description:
+ Determines the SFX and SE generated when the attack hits.
+</description>
   </entry>
   <entry>
     <name>Guard Range Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_GUARD_RANGE_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ guardRangeType
+ 
+ Description:
+ Guard judgment position
+</description>
   </entry>
   <entry>
     <name>Defence SE Material</name>
     <type>u16</type>
     <default>0</default>
-    <description>Determines the sound effects used when guarding. Usually 255 for Player Attacks and 0 (if not a block) or 50 (if blocking) for Non-Player Attacks.</description>
     <enum>WEP_MATERIAL_DEF</enum>
+    <description>ParamDef:
+ Name: 
+ defSeMaterial1
+ 
+ Description:
+ Determines the SE used when guarding.
+</description>
   </entry>
   <entry>
     <name>Hit Source Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Specify where you get the model point for attack. Set to 1 for parries, ripostes, and basic body attacks (falling, rolling, etc.), and zero otherwise. Use that pattern.</description>
     <enum>ATK_PARAM_HIT_SOURCE</enum>
+    <description>ParamDef:
+ Name: 
+ hitSourceType
+ 
+ Description:
+ Specify where you get the dummy poly for attack.
+</description>
   </entry>
   <entry>
     <name>Throw Flag</name>
     <type>u8</type>
     <default>0</default>
-    <description>Determines how this attack relates to throws: not at all, a throw trigger, or a throw damage parameter.</description>
     <enum>ATK_PATAM_THROWFLAG_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ throwFlag
+ 
+ Description:
+ Determines how this attack relates to throws: not at all, a 
+ throw trigger, or a throw damage parameter.
+</description>
   </entry>
   <entry>
     <name>Disable Guard</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, this attack cannot be blocked (e.g. throws).</description>
+    <description>ParamDef:
+ Name: 
+ disableGuard
+ 
+ Description:
+ If True, this attack cannot be blocked (e.g. throws).
+</description>
   </entry>
   <entry>
     <name>Disable Stamina Attack</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, this attack will deal no stamina damage, regardless of its stamina attack power.</description>
+    <description>ParamDef:
+ Name: 
+ disableStaminaAttack
+ 
+ Description:
+ If True, this attack will deal no stamina damage, regardless of its stamina attack power.
+</description>
   </entry>
   <entry>
     <name>Disable Hit SpEffect</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, this attack will trigger no special effects on the target.</description>
+    <description>ParamDef:
+ Name: 
+ disableHitSpEffect
+ 
+ Description:
+ If True, this attack will trigger no special effects on the target.
+</description>
   </entry>
   <entry>
     <name>Disable Missed Attack Notification For AI</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, the character's AI will not be informed when this attack misses. Enabled for basic body attacks (falling, rolling, ladder punches, etc.) that are generally not considered to be serious attacks.</description>
+    <description>ParamDef:
+ Name: 
+ IgnoreNotifyMissSwingForAI
+ 
+ Description:
+ If True, the character's AI will not be informed when this 
+ attack misses. Enabled for basic body attacks (falling, 
+ rolling, ladder punches, etc.) that are generally not 
+ considered to be serious attacks.
+</description>
   </entry>
   <entry>
     <name>Repeat Hit Sound FX</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, sound effects will supposedly be repeated as long as the attack continuously hits a wall.</description>
+    <description>ParamDef:
+ Name: 
+ repeatHitSfx
+ 
+ Description:
+ If True, sound effects will supposedly be repeated as long 
+ as the attack continuously hits a wall.
+</description>
   </entry>
   <entry>
     <name>Is Physical Projectile</name>
     <type>b8</type>
     <default>False</default>
-    <description>Flags if this is the attack damage parameter of a physical projectile (arrow, bolt, or throwing knife).</description>
+    <description>ParamDef:
+ Name: 
+ isArrowAtk
+ 
+ Description:
+ Flags if this is the attack damage parameter of a physical 
+ projectile (arrow, bolt, or throwing knife).
+</description>
   </entry>
   <entry>
     <name>Is Attack By Ghost</name>
     <type>b8</type>
     <default>False</default>
-    <description>Flags if this is an attack of a ghost, which presumably disables wall collision, etc.</description>
+    <description>ParamDef:
+ Name: 
+ isGhostAtk
+ 
+ Description:
+ Flags if this is an attack of a ghost, which presumably 
+ disables wall collision, etc.
+</description>
   </entry>
   <entry>
-    <name>Is No Damage</name>
+    <name>Disable No Damage</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, this attack will No Damage from rolling or backstepping (but not other sources of invincibility such as TAE or events).</description>
+    <description>ParamDef:
+ Name: 
+ isDisableNoDamage
+ 
+ Description:
+ Ignore invincible effects such as steps, TAE's complete invincibility cannot be ignored.
+</description>
   </entry>
   <entry>
     <name>Attack Power - SFX Effect</name>
     <type>s8</type>
     <default>0</default>
     <enum>ATKPARAM_SFX_ATK_POW</enum>
+    <description>ParamDef:
+ Name: 
+ atkPow_forSfx
+ 
+ Description:
+ Attack strength [SFX]
+</description>
   </entry>
   <entry>
     <name>Attack Direction - SFX Effect</name>
     <type>s8</type>
     <default>0</default>
     <enum>ATKPARAM_SFX_ATK_DIR</enum>
+    <description>ParamDef:
+ Name: 
+ atkDir_forSfx
+ 
+ Description:
+ Attack direction [SFX]
+</description>
   </entry>
   <entry>
     <name>Oppose Target</name>
     <type>b8</type>
     <default>True</default>
+    <description>ParamDef:
+ Name: 
+ opposeTarget
+ 
+ Description:
+ Target: ● Hostile
+</description>
   </entry>
   <entry>
     <name>Friendly Target</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ friendlyTarget
+ 
+ Description:
+ Target: ○ Allies
+</description>
   </entry>
   <entry>
     <name>Self Target</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ selfTarget
+ 
+ Description:
+ Target: myself
+</description>
   </entry>
   <entry>
     <name>Is Target Hit Through Door</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isCheckDoorPenetration
+ 
+ Description:
+ Whether to check the door penetration. In the case of ○, it 
+ is judged whether or not the target through the door can be 
+ attacked.
+</description>
   </entry>
   <entry>
     <name>Is Versus Ride Attack</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isVsRideAtk
+ 
+ Description:
+ If you hit the target of the riding special attack while 
+ riding, the SA damage will be multiplied by the multiplier.
+</description>
   </entry>
   <entry>
     <name>Is Base Attack Added</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isAddBaseAtk
+ 
+ Description:
+ Do you refer to the additional attack power even in weapon 
+ attacks?
+</description>
   </entry>
   <entry>
     <name>Is Excluded from Threat Level Notification</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ excludeThreatLvNotify
+ 
+ Description:
+ Is it excluded from threat level notification?
+</description>
   </entry>
   
   <entry>
@@ -663,638 +1195,1531 @@
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_BEHAVIOR_ID</enum>
+    <description>ParamDef:
+ Name: 
+ atkBehaviorId
+ 
+ Description:
+ Behavior identification value: Extra large damage transition
+</description>
   </entry>
   <entry>
     <name>Attack Power - SE Effect</name>
     <type>s8</type>
     <default>0</default>
     <enum>ATKPARAM_SE_ATK_POW</enum>
+    <description>ParamDef:
+ Name: 
+ atkPow_forSe
+ 
+ Description:
+ Attack strength [SE]
+</description>
   </entry>
   <entry>
     <name>Damage: Poise</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ atkSuperArmor
+ 
+ Description:
+ Value used for SA break calculation formula.
+ NPC-type only.
+</description>
   </entry>
   <entry>
     <name>Decal ID [1]</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ decalId1
+ 
+ Description:
+ Decal ID 1 (directly specified)
+</description>
   </entry>
   <entry>
     <name>Decal ID [2]</name>
     <type>s32</type>
     <default>100</default>
+    <description>ParamDef:
+ Name: 
+ decalId2
+ 
+ Description:
+ Decal ID 2 (directly specified)
+</description>
   </entry>
   <entry>
     <name>Appear AI Sound ID</name>
     <type>s32</type>
     <default>2030</default>
+    <description>ParamDef:
+ Name: 
+ AppearAiSoundId
+ 
+ Description:
+ ID of AI sound generated when an attack occurs
+</description>
   </entry>
   <entry>
     <name>Hit AI Sound ID</name>
     <type>s32</type>
     <default>2130</default>
+    <description>ParamDef:
+ Name: 
+ HitAiSoundId
+ 
+ Description:
+ ID of AI sound generated at the time of hit
+</description>
   </entry>
   <entry>
     <name>Hit Rumble ID - Default</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ HitRumbleId
+ 
+ Description:
+ Vibration ID at the time of hit (-1 invalid). It is a 
+ vibration ID when none of the following three applies
+</description>
   </entry>
   <entry>
     <name>Hit Rumble ID - Normal</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ HitRumbleIdByNormal
+ 
+ Description:
+ Vibration ID at the time of hit when hitting the tip 
+ (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Hit Rumble ID - Middle</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ HitRumbleIdByMiddle
+ 
+ Description:
+ Vibration ID at the time of hit when hit in the middle 
+ (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Hit Rumble ID - Root</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ HitRumbleIdByRoot
+ 
+ Description:
+ Vibration ID at the time of hit when hitting the root 
+ (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [0]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId0
+ 
+ Description:
+ Sword flash SfxID_0 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [0] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead0
+ 
+ Description:
+ Sword flash root Damipoli ID_0 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [0] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail0
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_0
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [1]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId1
+ 
+ Description:
+ Sword flash SfxID_1 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [1] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead1
+ 
+ Description:
+ Sword flash root Damipoli ID_1 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [1] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail1
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_1
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [2]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId2
+ 
+ Description:
+ Sword flash SfxID_2 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [2] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead2
+ 
+ Description:
+ Sword flash root Damipoli ID_2 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [2] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail2
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_2
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [3]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId3
+ 
+ Description:
+ Sword flash SfxID_3 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [3] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead3
+ 
+ Description:
+ Sword flash root Damipoli ID_3 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [3] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail3
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_3
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [4]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId4
+ 
+ Description:
+ Sword flash SfxID_4 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [4] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead4
+ 
+ Description:
+ Sword flash root Damipoli ID_4 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [4] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail4
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_4
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [5]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId5
+ 
+ Description:
+ Sword flash SfxID_5 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [5] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead5
+ 
+ Description:
+ Sword flash root Damipoli ID_5 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [5] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail5
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_5
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [6]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId6
+ 
+ Description:
+ Sword flash SfxID_6 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [6] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead6
+ 
+ Description:
+ Sword flash root Damipoli ID_6 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [6] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail6
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_6
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [7]</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceSfxId7
+ 
+ Description:
+ Sword flash SfxID_7 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [7] - Head Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdHead7
+ 
+ Description:
+ Sword flash root Damipoli ID_7 (-1 invalid)
+</description>
   </entry>
   <entry>
     <name>Trace SFX ID [7] - Tail Dummy Poly</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ traceDmyIdTail7
+ 
+ Description:
+ Sword Flash Sword Tip Damipoli ID_7
+</description>
   </entry>
   <entry>
     <name>Hit 4: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit4_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 5: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit5_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 6: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit6_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 7: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit7_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 8: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit8_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 9: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit9_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 10: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit10_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 11: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit11_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 12: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit12_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 13: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit13_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 14: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit14_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 15: Radius</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hit15_Radius
+ 
+ Description:
+ Radius of sphere/capsule hitbox.
+</description>
   </entry>
   <entry>
     <name>Hit 4: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit4_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 5: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit5_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 6: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit6_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 7: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit7_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 8: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit8_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 9: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit9_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 10: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit10_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 11: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit11_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 12: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit12_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 13: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit13_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 14: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit15_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 15: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit15_DmyPoly1
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 4: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit4_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 5: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit5_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 6: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit6_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 7: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit7_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 8: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit8_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 9: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit9_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 10: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit10_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 11: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit11_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 12: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit12_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 13: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit13_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 14: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit14_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 15: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ hit15_DmyPoly2
+ 
+ Description:
+ Damipoli in sphere, capsule position
+</description>
   </entry>
   <entry>
     <name>Hit 4: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit4_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 5: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit5_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 6: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit6_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 7: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit7_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 8: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit8_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 9: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit9_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 10: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit10_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 11: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit11_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 12: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit12_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 13: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit13_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 14: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit14_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 15: Hit Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATK_PARAM_HIT_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ hit15_hitType
+ 
+ Description:
+ Hit part
+</description>
   </entry>
   <entry>
     <name>Hit 4: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti4_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 5: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti5_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 6: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti6_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 7: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti7_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 8: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti8_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 9: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti9_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 10: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti10_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 11: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti11_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 12: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti12_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 13: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti13_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 14: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti14_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Hit 15: Priority</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ hti15_Priority
+ 
+ Description:
+ If there are two or more hits at the same time, the one with the higher priority will be adopted.
+</description>
   </entry>
   <entry>
     <name>Defence SFX Material [1]</name>
     <type>u16</type>
     <default>0</default>
     <enum>WEP_MATERIAL_DEF_SFX</enum>
+    <description>ParamDef:
+ Name: 
+ defSfxMaterial1
+ 
+ Description:
+ Used for SFX when guarding.
+</description>
   </entry>
   <entry>
     <name>Defence SE Material [2]</name>
     <type>u16</type>
     <default>0</default>
     <enum>WEP_MATERIAL_DEF</enum>
+    <description>ParamDef:
+ Name: 
+ defSeMaterial2
+ 
+ Description:
+ Used for SE when guarding
+</description>
   </entry>
   <entry>
     <name>Defence SFX Material [2]</name>
     <type>u16</type>
     <default>0</default>
     <enum>WEP_MATERIAL_DEF_SFX</enum>
+    <description>ParamDef:
+ Name: 
+ defSfxMaterial2
+ 
+ Description:
+ Used for SFX when guarding.
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Holy</name>
     <type>u16</type>
     <default>100</default>
+    <description>ParamDef:
+ Name: 
+ atkDarkCorrection
+ 
+ Description:
+ Multiplier (as percentage from 0 upwards) applied to 
+ character attack power to calculate physical attack damage.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Damage: Holy</name>
     <type>u16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ atkDark
+ 
+ Description:
+ Absolute holy attack power of attack.
+ NPC-type only.
+</description>
   </entry>
 
+  <entry>
+    <name>Blank</name>
+    <type>b8</type>
+    <default>False</default>
+    <description>Is a dummy field within a boolean set</description>
+  </entry>
   <entry>
     <name>Is Disable Parry</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isDisableParry
+ 
+ Description:
+ This is a flag to disable the new parry control. A process 
+ that determines that the damage on the attacking side has 
+ been parried when it comes into contact with a character in 
+ the parry state on the defending side.
+</description>
   </entry>
   <entry>
     <name>Is Disable 2H ATK Bonus</name>
     <type>b8</type>
     <default>True</default>
-    <description>Removes the 1.5 scaling bonus from 2H</description>
+    <description>ParamDef:
+ Name: 
+ isDisableBothHandsAtkBonus
+ 
+ Description:
+ Avoid using the 1.5x growth status adaptation with both hands
+</description>
   </entry>
   <entry>
     <name>Is Invalidated by No Damage in Air</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name: 
+ isInvalidatedByNoDamageInAir
+ 
+ Description:
+ If "Do you want to penetrate invincibility" is ◯, 
+ this setting will be ignored.
+</description>
   </entry>
-
   <entry>
     <name>Damage Level - Vs. Player</name>
     <type>s8</type>
     <default>0</default>
     <enum>ATKPARAM_REP_DMGTYPE</enum>
+    <description>ParamDef:
+ Name: 
+ dmgLevel_vsPlayer
+ 
+ Description:
+ Damage level to the player. If it is "0 (default)", it is 
+ not used. The meaning of the range other than "0 (default)" 
+ is the same as "Damage level".
+</description>
   </entry>
   <entry>
     <name>Status Ailment Correction</name>
     <type>u16</type>
     <default>100</default>
+    <description>ParamDef:
+ Name: 
+ statusAilmentAtkPowerCorrectRate
+ 
+ Description:
+ Magnification correction is performed for the abnormal 
+ state attack power of special effects.
+</description>
   </entry>
   <entry>
     <name>Attack Correction - By SpEffect Point</name>
     <type>u16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ spEffectAtkPowerCorrectRate_byPoint
+ 
+ Description:
+ Magnification correction is performed for the special effect - attack power [point].
+</description>
   </entry>
   <entry>
     <name>Attack Correction - By SpEffect Power</name>
     <type>u16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ spEffectAtkPowerCorrectRate_byRate
+ 
+ Description:
+ Magnification is corrected for the special effect's attack power multiplier.
+</description>
   </entry>
   <entry>
     <name>Attack Correction - By SpEffect Damage</name>
     <type>u16</type>
     <default>100</default>
+    <description>ParamDef:
+ Name: 
+ spEffectAtkPowerCorrectRate_byDmg
+ 
+ Description:
+ Attack side of special effect: Performs magnification correction for the damage multiplier.
+</description>
   </entry>
   <entry>
     <name>Attack Behavior ID [2]</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_BEHAVIOR_ID</enum>
+    <description>ParamDef:
+ Name: 
+ atkBehaviorId_2
+ 
+ Description:
+ Behavior identification value: 
+ Plays damage motion only at specific times
+</description>
   </entry>
   <entry>
     <name>Throw Damage Attribute</name>
     <type>u8</type>
     <default>0</default>
     <enum>ATKPARAM_THROWATTR_TYPE</enum>
+    <description>ParamDef:
+ Name: 
+ throwDamageAttribute
+ 
+ Description:
+ Attribute of throw damage of attack judgment. 
+ Corresponding special effects will be applied.
+ It works only when the attack ATK_PATAM_THROWFLAG_TYPE 
+ is "2: Throw".
+</description>
   </entry>
   <entry>
     <name>Status Ailment Correction - By Point</name>
     <type>u16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ statusAilmentAtkPowerCorrectRate_byPoint
+ 
+ Description:
+ Magnification correction is performed for the special 
+ effect "Whether to apply the abnormal state attack power 
+ magnification correction".
+</description>
   </entry>
   <entry>
     <name>Attack Element Correct ID</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ overwriteAttackElementCorrectId
+ 
+ Description:
+ For overwriting the ID of the parameter that corrects the 
+ attack attribute
+</description>
   </entry>
   <entry>
     <name>Decal Base ID [1]</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ decalBaseId1
+ 
+ Description:
+ Decal identifier 1 (3 digits)
+</description>
   </entry>
   <entry>
     <name>Decal Base ID [2]</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name: 
+ decalBaseId2
+ 
+ Description:
+ Decal identifier 2 (3 digits)
+</description>
   </entry>
   <entry>
     <name>Weapon HP Regain Scale</name>
     <type>u16</type>
     <default>1</default>
+    <description>ParamDef:
+ Name: 
+ wepRegainHpScale
+ 
+ Description:
+ Weapon regain amount correction value
+</description>
   </entry>
   <entry>
     <name>Attack HP Regain</name>
     <type>u16</type>
     <default>1</default>
+    <description>ParamDef:
+ Name: 
+ atkRegainHp
+ 
+ Description:
+ Attack regain amount
+</description>
   </entry>
   <entry>
     <name>HP Regain Time Scale</name>
     <type>f32</type>
     <default>1</default>
+    <description>ParamDef:
+ Name: 
+ regainableTimeScale
+ 
+ Description:
+ Regainable time correction factor
+</description>
   </entry>
   <entry>
     <name>HP Regain Rate Scale</name>
     <type>f32</type>
-    <default>255</default>
+    <default>0</default>
+    <description>ParamDef:
+ Name: 
+ regainableHpRateScale
+ 
+ Description:
+ Regainable rate correction factor
+</description>
   </entry>
   <entry>
     <name>Same Attack Judgment ID</name>
     <type>s8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ regainableSlotId
+ 
+ Description:
+ Same attack judgment ID
+</description>
   </entry>
   <entry>
     <name>Effect Attribute VFX Variation Offset</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ spAttributeVariationValue
+ 
+ Description:
+ Value to give variation to SFX and SE generated by 
+ special attribute in combination with "special attribute"
+</description>
   </entry>
   <entry>
     <name>Parry Forward Offset</name>
     <type>s16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ parryForwardOffset
+ 
+ Description:
+ Front angle offset of [collapsed side] of parry 
+ establishment condition
+</description>
   </entry>
   <entry>
     <name>Attack Correction: Poise</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ atkSuperArmorCorrection
+ 
+ Description:
+ Correction value to be applied to the [basic value] 
+ set for the weapon.
+ Player-type only.
+</description>
   </entry>
   <entry>
     <name>Defence SFX Material Variation Offset</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name: 
+ defSfxMaterialVariationValue
+ 
+ Description:
+ A value to have variations of damage SFX and SE in 
+ combination with "defense material 1 or 2" used when 
+ guarding.
+</description>
   </entry>
   
   <entry>

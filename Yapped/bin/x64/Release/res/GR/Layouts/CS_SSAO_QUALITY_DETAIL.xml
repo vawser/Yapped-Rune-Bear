@@ -1,29 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="CS_GCONFIG_ENABLED_TYPE" type="u8">
+  </enum>
+  
     <entry>
-    <name>Unk0</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>Enabled</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s8</type>
+    <name>Reprojection Enabled</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>CS_GCONFIG_ENABLED_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s8</type>
+    <name>Bilateral Upscale Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>CS_GCONFIG_ENABLED_TYPE</enum>
   </entry>
   <entry>
-    <name>Unk3</name>
-    <type>s8</type>
+    <name>Normal Type</name>
+    <type>u8</type>
     <default>0</default>
+    <enum>CS_GCONFIG_ENABLED_TYPE</enum>
   </entry>
+  
   <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
   </entry>
 
 </layout>

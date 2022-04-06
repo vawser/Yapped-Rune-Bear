@@ -28,17 +28,17 @@
   </entry>
   <entry>
     <name>Wandering Equip ID</name>
-    <type>s32</type>
+    <type>u32</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist - Sleep</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist - Madness</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -231,37 +231,37 @@
   </entry>
   <entry>
     <name>Model ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Icon ID - Male</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Icon ID - Female</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Knockback</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Knockback Bounce Rate</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Durability</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>10</default>
   </entry>
   <entry>
     <name>Max Durability</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>10</default>
   </entry>
   
@@ -273,27 +273,27 @@
   
   <entry>
     <name>Weapon Repel Power</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Defence - Physical</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Defence - Magic</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Defence - Fire</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Defence - Lightning</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -313,22 +313,22 @@
   </entry>
   <entry>
     <name>Resist - Poison</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist - Scarlet Rot</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist - Hemorrhage</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Resist - Blight</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
@@ -587,7 +587,7 @@
   </entry>
   <entry>
     <name>Defence - Holy</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   
@@ -616,7 +616,7 @@
   </entry>
   <entry>
     <name>Resist - Frost</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>

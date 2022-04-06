@@ -51,6 +51,7 @@
     <type>dummy8</type>
     <size>2</size>
   </entry>
+  
   <entry>
     <name>Reference ID</name>
     <type>s32</type>
@@ -75,15 +76,15 @@
     <name>Category</name>
     <type>u8</type>
     <default>0</default>
-    <description>Determines compatibility with special effects that affect certain types of attacks.</description>
     <enum>BEHAVIOR_CATEGORY</enum>
+    <description>Determines compatibility with special effects that affect certain types of attacks.</description>
   </entry>
   <entry>
     <name>Humanity Cost</name>
     <type>u8</type>
     <default>0</default>
   </entry>
-  <!-- Verified zero -->
+  
   <entry>
     <name>padding</name>
     <type>dummy8</type>

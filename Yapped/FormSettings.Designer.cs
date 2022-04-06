@@ -335,7 +335,7 @@
             this.checkbox_ExportUniqueOnly.Size = new System.Drawing.Size(152, 17);
             this.checkbox_ExportUniqueOnly.TabIndex = 9;
             this.checkbox_ExportUniqueOnly.Text = "Export Unique Values Only";
-            this.toolTip9.SetToolTip(this.checkbox_SaveNoEncryption, "Field Exporter will only include each unique field value once. Useful for making a list of possible field values.");
+            this.toolTip9.SetToolTip(this.checkbox_ExportUniqueOnly, "Field Exporter will only include each unique field value once. Useful for making a list of possible field values.");
             this.checkbox_ExportUniqueOnly.UseVisualStyleBackColor = true;
             // 
             // FormSettings
