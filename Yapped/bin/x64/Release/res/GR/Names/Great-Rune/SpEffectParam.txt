@@ -825,6 +825,8 @@
 90020 NPC: Disable Hemorrhage - Boolean
 90030 NPC: Disable Blight - Boolean
 90040 NPC: Disable Frostbite
+90060 NPC: Disable Madness
+90061 NPC: Disable Madness
 90100 NPC: Ignore Fake Targets - All
 90110 NPC: Ignore Fake Targets - Normal
 90120 NPC: Ignore Fake Targets - Undead
@@ -835,6 +837,8 @@
 90161 NPC: Ignore Fake Targets - Animal
 90162 NPC: Ignore Fake Targets - Undead and Animal
 90200 NPC: Enable Charm
+90300 NPC: Disable Sleep
+90301 NPC: Disable Sleep
 100620 Hand Style - Right Hand
 100621 Hand Style - Left Hand
 105000 Hemorrhage - Low - Addition +0
@@ -2477,6 +2481,9 @@
 263008 Jarwight Puppet +8
 263009 Jarwight Puppet +9
 263010 Jarwight Puppet +10
+270000 Frenzied Summon - Troll Knight
+271000 Frenzied Summon - Goat Swarm
+272000 Frenzied Summon - Magma Wyrm
 290000 Spirit Summon Adjustment - Default +0
 290001 Spirit Summon Adjustment - Default +1
 290002 Spirit Summon Adjustment - Default +2
@@ -2534,7 +2541,7 @@
 290210 Spirit Summon Adjustment - Mimic Tear +10
 295900 Spirit Summon -
 295901 Spirit Summon -
-295902 Spirit Summon -
+295902 Spirit Summon - Fade In
 295910 Spirit Summon -
 296000 Spirit Summon - Damage/Absorption Setup
 296010 Spirit Summon - Damage/Absorption Setup
@@ -3092,6 +3099,11 @@
 5321400 Icon Shield - Grant HP Restoration
 5322200 Ant's Skull Plate - Raise Immunity
 5322400 Eclipse Crest Greatshield - Raise Immunity, Robustness and Focus
+9000099 ### General ###
+9000100 Frenzy Summon - Base Modifiers
+9001000 Modifier - Boss
+9001001 Modifier - Starscourge Radahn
+9001100 Modifier - Strong Enemy
 9099999 ### Armor ###
 9100000 Stagger - Resistance - Weak
 9100010 Stagger - Resistance - Medium
@@ -3106,7 +3118,12 @@
 9200060 Fang of Madhros
 9200070 Horn of Cernulos
 9200080 Tear of Miriel
+9200100 Hunter's Horn
+9200110 Purifying Candlestick
+9200120 Deathsworn Tear
 9299999 ### Items ###
 9300000 Bloodied Flesh
 9300010 Sorcerous Flesh
 9300020 Hallowed Flesh
+9300030 Ripe Grape - Boost
+9300031 Ripe Grape - Madness

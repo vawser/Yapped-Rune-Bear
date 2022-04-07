@@ -1,4 +1,4 @@
-Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Reference Type;Reference ID;SFX Variation ID;Stamina Cost;Durability Cost;Category;Humanity Cost
+Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Reference Type;Reference ID;Poise Cost;Stamina Cost;Durability Cost;Category;Humanity Cost
 0;;0;0;0;0;-1;0;0;0;0;0
 10;;0;0;0;0;10;0;0;0;5;0
 11;;0;0;0;0;11;0;5;0;9;0
@@ -5763,7 +5763,7 @@ Row ID;Row Name;Behavior Variation ID;Behavior Judge ID;State Behavior Type;Refe
 300000051;;0;51;1;0;30300871;0;10;0;9;0
 300000055;;0;55;1;1;2260;0;30;0;0;0
 300000056;;0;56;1;0;30300864;0;30;0;0;0
-300000061;;0;61;1;1;2190;0;0;0;12;0
+300000061;[Ash of War] Gravitas;0;61;1;1;2190;0;0;0;12;0
 300000062;;0;62;1;0;300300852;0;30;0;12;0
 300000063;;0;63;1;0;300300853;0;40;0;12;0
 300000064;;0;64;1;1;2191;0;0;0;12;0

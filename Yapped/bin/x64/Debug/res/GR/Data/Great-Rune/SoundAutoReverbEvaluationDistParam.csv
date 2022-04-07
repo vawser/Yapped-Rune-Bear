@@ -1,7 +1,7 @@
-Row ID;Row Name;Unk0;Unk1;Unk1;Unk1;Unk1;Unk2;Unk3;Unk4
-0;;-1;1;1;0;0;1.8;20;0
-1;;-1;0;1;0;0;1;20;0
-2;;-1;1;1;1;1;1;15;5
-3;;80;0;0;1;1;1.8;10;1
-4;;-1;0;1;1;1;1;10;2
-5;;-1;0;1;1;0;1;20;0
+Row ID;Row Name;No Hit Distance;Include Collision Point of No Hit;Include Outdoor Collision Point;Include Floor Collision Point;Evaluation Distance Calculation Type;Invalidate after Duration;Max Collision Point Count;Max Distance until Ignore
+0;;-1;True;False;False;0;1.8;20;0
+1;;-1;False;False;False;0;1;20;0
+2;;-1;True;False;False;1;1;15;5
+3;;80;False;False;False;1;1.8;10;1
+4;;-1;False;False;False;1;1;10;2
+5;;-1;False;False;False;0;1;20;0

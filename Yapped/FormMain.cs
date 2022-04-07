@@ -2241,6 +2241,9 @@ namespace Yapped
 
                 foreach(PARAM.Cell cell in newRow.Cells)
                 {
+                    Console.WriteLine(cell.Name);
+                    Console.WriteLine(cell.Type);
+
                     var type = cell.Type;
 
                     if (type != CellType.dummy8)
