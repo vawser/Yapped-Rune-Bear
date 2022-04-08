@@ -1,0 +1,8 @@
+Sort ID;CALC;x+7
+Correction: STR;STAT_CALC;HIGHEST*0.25
+Correction: DEX;STAT_CALC;HIGHEST*0.75
+Damage: Physical;DMG_CALC;PHYSICAL*0.95
+Damage: Lightning;DMG_CALC;PHYSICAL*0.95
+Reinforce Type ID;CALC;x+600
+Moveset Attribute;SET;12
+Correction Type: Lightning;SET;4

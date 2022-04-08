@@ -1,0 +1,6 @@
+Sort ID;CALC;x+3
+Correction: STR;STAT_CALC;HIGHEST*1.3
+Correction: DEX;STAT_CALC;HIGHEST*1.3
+Damage: Physical;DMG_CALC;PHYSICAL*0.95
+Reinforce Type ID;CALC;x+300
+Correction Type: Physical;SET;8

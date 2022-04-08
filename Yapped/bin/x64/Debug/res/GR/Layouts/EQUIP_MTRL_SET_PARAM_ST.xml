@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="GAITEM_CATEGORY" type="u8">
+    <item value="0" name="0 - Unknown" />
+    <item value="1" name="1 - Armor" />
+    <item value="4" name="4 - Goods" />
+    <item value="15" name="15 - Unknown" />
   </enum>
  
   <entry>
@@ -75,37 +79,37 @@
   </entry>
   <entry>
     <name>Material Category [1]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Material Category [2]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Material Category [3]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Material Category [4]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Material Category [5]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>
   <entry>
     <name>Material Category [6]</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>GAITEM_CATEGORY</enum>
   </entry>

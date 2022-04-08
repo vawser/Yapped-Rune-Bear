@@ -56,21 +56,9 @@
             this.gotoRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findFieldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findNextFieldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.importDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.massImportDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.massExportDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.importNamesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportNamesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.fieldExporterMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.WorkflowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fieldAdjusterMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.valueReferenceFinderMenuITem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rowReferenceFinderMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dgvParams = new System.Windows.Forms.DataGridView();
@@ -86,6 +74,20 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.processLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.fbdExport = new System.Windows.Forms.FolderBrowserDialog();
+            this.ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.affinityGeneratorMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -118,6 +120,7 @@
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
             this.ToolStripMenuItem,
+            this.WorkflowToolStripMenuItem,
             this.settingsMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -328,135 +331,39 @@
             this.findNextFieldToolStripMenuItem.ToolTipText = "Search again with the previous pattern";
             this.findNextFieldToolStripMenuItem.Click += new System.EventHandler(this.FindNextFieldToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItem
+            // WorkflowToolStripMenuItem
             // 
-            this.ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.importDataToolStripMenuItem,
-            this.exportDataToolStripMenuItem,
-            this.toolStripSeparator6,
-            this.massImportDataMenuItem,
-            this.massExportDataMenuItem,
-            this.toolStripSeparator1,
-            this.importNamesMenuItem,
-            this.exportNamesMenuItem,
-            this.toolStripSeparator4,
-            this.fieldExporterMenuItem,
+            this.WorkflowToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fieldAdjusterMenuItem,
             this.toolStripSeparator3,
-            this.valueReferenceFinderMenuITem,
-            this.rowReferenceFinderMenuItem});
-            this.ToolStripMenuItem.Name = "ToolStripMenuItem";
-            this.ToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.ToolStripMenuItem.Text = "Tools";
-            // 
-            // importDataToolStripMenuItem
-            // 
-            this.importDataToolStripMenuItem.Name = "importDataToolStripMenuItem";
-            this.importDataToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F11;
-            this.importDataToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.importDataToolStripMenuItem.Text = "Import Data";
-            this.importDataToolStripMenuItem.ToolTipText = "Import param rows from a CSV file.";
-            this.importDataToolStripMenuItem.Click += new System.EventHandler(this.ImportDataToolStripMenuItem_Click);
-            // 
-            // exportDataToolStripMenuItem
-            // 
-            this.exportDataToolStripMenuItem.Name = "exportDataToolStripMenuItem";
-            this.exportDataToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
-            this.exportDataToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.exportDataToolStripMenuItem.Text = "Export Data";
-            this.exportDataToolStripMenuItem.ToolTipText = "Exports the current param rows as a CSV file.";
-            this.exportDataToolStripMenuItem.Click += new System.EventHandler(this.ExportDataToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(209, 6);
-            // 
-            // massImportDataMenuItem
-            // 
-            this.massImportDataMenuItem.Name = "massImportDataMenuItem";
-            this.massImportDataMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.massImportDataMenuItem.Text = "Mass Import Data";
-            this.massImportDataMenuItem.ToolTipText = "Import param rows for all params from their respective CSV files.";
-            this.massImportDataMenuItem.Click += new System.EventHandler(this.massImportDataMenuItem_Click);
-            // 
-            // massExportDataMenuItem
-            // 
-            this.massExportDataMenuItem.Name = "massExportDataMenuItem";
-            this.massExportDataMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.massExportDataMenuItem.Text = "Mass Export Data";
-            this.massExportDataMenuItem.ToolTipText = "Export param rows into their respective CSV files.";
-            this.massExportDataMenuItem.Click += new System.EventHandler(this.massExportDataMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(209, 6);
-            // 
-            // importNamesMenuItem
-            // 
-            this.importNamesMenuItem.Name = "importNamesMenuItem";
-            this.importNamesMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
-            this.importNamesMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.importNamesMenuItem.Text = "Import Names";
-            this.importNamesMenuItem.Click += new System.EventHandler(this.ImportNamesMenuItem_Click);
-            // 
-            // exportNamesMenuItem
-            // 
-            this.exportNamesMenuItem.Name = "exportNamesMenuItem";
-            this.exportNamesMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F8;
-            this.exportNamesMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.exportNamesMenuItem.Text = "Export Names";
-            this.exportNamesMenuItem.Click += new System.EventHandler(this.ExportNamesMenuItem_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(209, 6);
-            // 
-            // fieldExporterMenuItem
-            // 
-            this.fieldExporterMenuItem.Name = "fieldExporterMenuItem";
-            this.fieldExporterMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.fieldExporterMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.fieldExporterMenuItem.Text = "Field Exporter";
-            this.fieldExporterMenuItem.ToolTipText = "Output specific fields from the current param to a text file.";
-            this.fieldExporterMenuItem.Click += new System.EventHandler(this.fieldExporterMenuItem_Click);
+            this.affinityGeneratorMenuItem});
+            this.WorkflowToolStripMenuItem.Name = "WorkflowToolStripMenuItem";
+            this.WorkflowToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
+            this.WorkflowToolStripMenuItem.Text = "Workflow Tools";
             // 
             // fieldAdjusterMenuItem
             // 
+            this.fieldAdjusterMenuItem.AutoToolTip = true;
             this.fieldAdjusterMenuItem.Name = "fieldAdjusterMenuItem";
             this.fieldAdjusterMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
-            this.fieldAdjusterMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.fieldAdjusterMenuItem.Size = new System.Drawing.Size(213, 22);
             this.fieldAdjusterMenuItem.Text = "Field Adjuster";
+            this.fieldAdjusterMenuItem.ToolTipText = "Use this to quickly apply a field edit to multiple rows.\r\nContains various tools " +
+    "to filter which rows are edited.";
             this.fieldAdjusterMenuItem.Click += new System.EventHandler(this.fieldAdjusterMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(209, 6);
-            // 
-            // valueReferenceFinderMenuITem
-            // 
-            this.valueReferenceFinderMenuITem.Name = "valueReferenceFinderMenuITem";
-            this.valueReferenceFinderMenuITem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.valueReferenceFinderMenuITem.Size = new System.Drawing.Size(212, 22);
-            this.valueReferenceFinderMenuITem.Text = "Value Reference Finder";
-            this.valueReferenceFinderMenuITem.Click += new System.EventHandler(this.valueReferenceFinderMenuITem_Click);
-            // 
-            // rowReferenceFinderMenuItem
-            // 
-            this.rowReferenceFinderMenuItem.Name = "rowReferenceFinderMenuItem";
-            this.rowReferenceFinderMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.rowReferenceFinderMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.rowReferenceFinderMenuItem.Text = "Row Reference Finder";
-            this.rowReferenceFinderMenuItem.Click += new System.EventHandler(this.rowReferenceFinderMenuItem_Click);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(210, 6);
             // 
             // settingsMenuItem
             // 
+            this.settingsMenuItem.AutoToolTip = true;
             this.settingsMenuItem.Name = "settingsMenuItem";
             this.settingsMenuItem.Size = new System.Drawing.Size(61, 20);
             this.settingsMenuItem.Text = "Settings";
+            this.settingsMenuItem.ToolTipText = "Configure the settings used by Yapped for various features.";
             this.settingsMenuItem.Click += new System.EventHandler(this.settingsMenuItem_Click);
             // 
             // splitContainer2
@@ -642,6 +549,135 @@
             this.fbdExport.Description = "Choose the folder to export parambnds to";
             this.fbdExport.RootFolder = System.Environment.SpecialFolder.MyComputer;
             // 
+            // ToolStripMenuItem
+            // 
+            this.ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripSeparator7,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5,
+            this.toolStripSeparator8,
+            this.toolStripMenuItem6,
+            this.toolStripMenuItem7,
+            this.toolStripSeparator9,
+            this.toolStripMenuItem8,
+            this.toolStripMenuItem10,
+            this.toolStripMenuItem11});
+            this.ToolStripMenuItem.Name = "ToolStripMenuItem";
+            this.ToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.ToolStripMenuItem.Text = "Data Tools";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.AutoToolTip = true;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.ShortcutKeys = System.Windows.Forms.Keys.F11;
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem2.Text = "Import Data";
+            this.toolStripMenuItem2.ToolTipText = "For the currently selected param, \r\nimport param data from a CSV file of the same" +
+    " name.\r\n\r\nData files are found in .\\<gametype>\\Data\\";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.AutoToolTip = true;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.ShortcutKeys = System.Windows.Forms.Keys.F12;
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem3.Text = "Export Data";
+            this.toolStripMenuItem3.ToolTipText = "For the currently selected param, \r\nexport param data into a CSV file of the same" +
+    " name.\r\n\r\nData files are found in .\\<gametype>\\Data\\\r\n";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(209, 6);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.AutoToolTip = true;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem4.Text = "Mass Import Data";
+            this.toolStripMenuItem4.ToolTipText = "For all params, import param data from \r\na CSV file of the same name.\r\n\r\nData fil" +
+    "es are found in .\\<gametype>\\Data\\\r\n";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.AutoToolTip = true;
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem5.Text = "Mass Export Data";
+            this.toolStripMenuItem5.ToolTipText = "For all params, export param data into a CSV file \r\nof the same name.\r\n\r\nData fil" +
+    "es are found in .\\<gametype>\\Data\\\r\n";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(209, 6);
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.AutoToolTip = true;
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.ShortcutKeys = System.Windows.Forms.Keys.F6;
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem6.Text = "Import Names";
+            this.toolStripMenuItem6.ToolTipText = "Import row names from text files.\r\n\r\nNames can be found in .\\<gametype>\\Names\\";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.AutoToolTip = true;
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.ShortcutKeys = System.Windows.Forms.Keys.F8;
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem7.Text = "Export Names";
+            this.toolStripMenuItem7.ToolTipText = "Export row names into text files.\r\n\r\nNames can be found in .\\<gametype>\\Names\\\r\n";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(209, 6);
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.AutoToolTip = true;
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem8.Text = "Field Exporter";
+            this.toolStripMenuItem8.ToolTipText = "Export the specific field values for a field.";
+            // 
+            // toolStripMenuItem10
+            // 
+            this.toolStripMenuItem10.AutoToolTip = true;
+            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
+            this.toolStripMenuItem10.ShortcutKeys = System.Windows.Forms.Keys.F3;
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem10.Text = "Value Reference Finder";
+            this.toolStripMenuItem10.ToolTipText = "Find all references to a field value.";
+            // 
+            // toolStripMenuItem11
+            // 
+            this.toolStripMenuItem11.AutoToolTip = true;
+            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
+            this.toolStripMenuItem11.ShortcutKeys = System.Windows.Forms.Keys.F4;
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(212, 22);
+            this.toolStripMenuItem11.Text = "Row Reference Finder";
+            this.toolStripMenuItem11.ToolTipText = "Find all references to a row ID.";
+            // 
+            // affinityGeneratorMenuItem
+            // 
+            this.affinityGeneratorMenuItem.AutoToolTip = true;
+            this.affinityGeneratorMenuItem.Name = "affinityGeneratorMenuItem";
+            this.affinityGeneratorMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
+            this.affinityGeneratorMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.affinityGeneratorMenuItem.Text = "Affinity Generator";
+            this.affinityGeneratorMenuItem.ToolTipText = "Use this to quickly generate rows for weapons\r\nthat lack affinities.\r\n\r\nYou can c" +
+    "hange the configuration applied by\r\nediting the text files in:\r\n.\\<gametype>\\Con" +
+    "figuration\\AffinityGenerator\\";
+            this.affinityGeneratorMenuItem.Click += new System.EventHandler(this.affinityGeneratorMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -711,28 +747,30 @@
         private System.Windows.Forms.ToolStripMenuItem exportToolStripMenuItem;
         private System.Windows.Forms.FolderBrowserDialog fbdExport;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBoxGame;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exportDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem importDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fieldExporterMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem WorkflowToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem exportNamesMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem importNamesMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem fieldAdjusterMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quickfolderFieldValueMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quickfolderDataMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quickfolderLayoutMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quickfolderNamesMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem rowReferenceFinderMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem valueReferenceFinderMenuITem;
         private System.Windows.Forms.ToolStripMenuItem quickfolderReferenceMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripMenuItem massImportDataMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem massExportDataMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
+        private System.Windows.Forms.ToolStripMenuItem affinityGeneratorMenuItem;
     }
 }
 

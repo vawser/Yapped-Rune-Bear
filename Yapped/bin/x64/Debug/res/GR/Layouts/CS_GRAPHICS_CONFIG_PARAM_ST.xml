@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="GX_QUALITY_LEVEL_ENUM" type="u8">
+    <item value="0" name="0 - Minimal" />
+    <item value="1" name="1 - Low" />
+    <item value="2" name="2 - Medium" />
+    <item value="3" name="3 - High" />
+    <item value="4" name="4 - Ultra" />
   </enum>
   
   <entry>

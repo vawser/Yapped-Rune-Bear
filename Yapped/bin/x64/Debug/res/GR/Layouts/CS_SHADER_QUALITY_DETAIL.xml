@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <entry>
-    <name>Unk0</name>
-    <type>s8</type>
-    <default>0</default>
+  <entry>
+    <name>SSS Enabled</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>Tessellation Enabled</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>High Precision Normal Enabled</name>
+    <type>b8</type>
+    <default>False</default>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>fixstr</type>
+    <size>3</size>
+    <default></default>
   </entry>
 </layout>

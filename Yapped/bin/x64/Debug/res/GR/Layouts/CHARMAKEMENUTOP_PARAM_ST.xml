@@ -3,8 +3,16 @@
   <enum name="CHARMAKEMENU_CMD_TYPE" type="s32">
   </enum>
   <enum name="CHARMAKEMENU_VIEW_CONDITION" type="s32">
+    <item value="0" name="0 - Unknown" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - Unknown" />
+    <item value="5" name="5 - Unknown" />
+    <item value="6" name="6 - Unknown" />
   </enum>
   <enum name="CHARMAKEMENU_PREVIEW_MODE" type="s8">
+    <item value="0" name="0 - Unknown" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
   </enum>
   
   <entry>

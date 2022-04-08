@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="WORLD_MAP_POINT_TEXT_TYPE" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
   </enum>
   
   <entry>

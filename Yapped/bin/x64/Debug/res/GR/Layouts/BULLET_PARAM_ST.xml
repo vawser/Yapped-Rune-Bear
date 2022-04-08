@@ -6,6 +6,10 @@
 	<item value="2" name="2 - Strike" />
     <item value="3" name="3 - Thrust" />
     <item value="4" name="4 - Standard" />
+    <item value="252" name="252 - Unknown" />
+    <item value="253" name="253 - Unknown" />
+    <item value="254" name="254 - Unknown" />
+    <item value="255" name="255 - Unknown" />
   </enum>
   <enum name="ATKPARAM_SPATTR_TYPE" type="u8">
     <item value="0" name="0 - None" />
@@ -20,292 +24,610 @@
     <item value="24" name="24 - Sleep" />
     <item value="25" name="25 - Madness" />
     <item value="26" name="26 - Blight" />
-    <item value="254" name="254 - None" />
+    <item value="254" name="254 - Unknown" />
+    <item value="255" name="255 - Unknown" />
   </enum>
   <enum name="BEHAVIOR_ATK_TYPE" type="u8">
+    <item value="0" name="0 - Slash" />
+	<item value="1" name="1 - Strike" />
+	<item value="2" name="2 - Thrust" />
+	<item value="3" name="3 - Standard" />
+	<item value="254" name="254 - Unknown" />
   </enum>
   <enum name="WEP_MATERIAL_ATK" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+	<item value="3" name="3 - Unknown" />
+	<item value="4" name="4 - Unknown" />
+	<item value="6" name="6 - Unknown" />
+	<item value="254" name="254 - Unknown" />
+	<item value="255" name="255 - Unknown" />
   </enum>
   <enum name="BULLET_LAUNCH_CONDITION_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
+    <item value="4" name="4 - Rainbow Stone" />
+    <item value="5" name="5 - Unknown" />
+    <item value="6" name="6 - Unknown" />
   </enum>
   <enum name="BULLET_SFX_DELETE_TYPE" type="s8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Rainbow Stone" />
   </enum>
   <enum name="BULLET_SFX_CREATE_POSTURE_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Marika's Hammer" />
   </enum>
   <enum name="BULLET_BALLISTIC_CALC_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
   </enum>
   <enum name="BULLET_ATTACH_EFFECT_TYPE" type="u8">
+    <item value="0" name="0 - Default" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - Unknown" />
   </enum>
   
   <entry>
     <name>AtkParam ID</name>
     <type>s32</type>
     <default>3</default>
-    <description>Attack parameters for bullet impact.</description>
+    <description>ParamDef:
+ Name:
+ atkId_Bullet
+ 
+ Description:
+ Attack parameters for bullet impact.
+</description>
   </entry>
   <entry>
     <name>Projectile SFX ID</name>
     <type>s32</type>
     <default>-1</default>
-    <description>Visual effect ID for bullet projectile.</description>
+    <description>ParamDef:
+ Name:
+ sfxId_Bullet
+ 
+ Description:
+ SFX ID for bullet projectile.
+</description>
   </entry>
   <entry>
     <name>Impact SFX ID</name>
     <type>s32</type>
     <default>-1</default>
-    <description>Visual effect ID for bullet impact.</description>
+    <description>ParamDef:
+ Name:
+ sfxId_Hit
+ 
+ Description:
+ SFX ID for bullet impact.
+</description>
   </entry>
   <entry>
-    <name>Flick SFX ID</name>
+    <name>Repel SFX ID</name>
     <type>s32</type>
     <default>-1</default>
-    <description>Visual effect ID for bullet flick. Normally triggered by guarding.</description>
+    <description>ParamDef:
+ Name:
+ sfxId_Flick
+ 
+ Description:
+ SFX ID for bullet repel.
+</description>
   </entry>
   <entry>
     <name>Duration</name>
     <type>f32</type>
     <default>1</default>
-    <description>Maximum time before bullet will disappear on its own. -1 means it will last indefinitely.</description>
+    <description>ParamDef:
+ Name:
+ life
+ 
+ Description:
+ Time before bullet will disappear on its own. -1 means it 
+ will last indefinitely.
+</description>
   </entry>
   <entry>
     <name>Attenuation Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Distance at which attenuation of the projectile begins.</description>
+    <description>ParamDef:
+ Name:
+ dist
+ 
+ Description:
+ Distance at which attenuation of the projectile begins</description>
   </entry>
   <entry>
     <name>Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
-    <description>Time between emitted bullets. Does nothing for bullets that only shoot once.</description>
+    <description>ParamDef:
+ Name:
+ shootInterval
+ 
+ Description:
+ Time between emitted bullets. Does nothing for bullets that 
+ only shoot once.
+ </description>
   </entry>
   <entry>
     <name>Gravity: In Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Downward acceleration of bullet.</description>
+    <description>ParamDef:
+ Name:
+ gravityInRange
+ 
+ Description:
+ Downward acceleration of bullet.
+</description>
   </entry>
   <entry>
     <name>Gravity: Out of Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Downward acceleration of bullet after it passes the attenuation distance.</description>
+    <description>ParamDef:
+ Name:
+ gravityOutRange
+ 
+ Description:
+ Downward acceleration of bullet after it passes the 
+ attenuation distance.
+</description>
   </entry>
   <entry>
     <name>Homing Stop Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Bullet will stop homing if it is within this distance of its homing target.</description>
+    <description>ParamDef:
+ Name:
+ hormingStopRange
+ 
+ Description:
+ Bullet will stop homing if it is within this distance of its 
+ homing target.
+</description>
   </entry>
   <entry>
     <name>Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
-    <description>Initial speed of bullet.</description>
+    <description>ParamDef:
+ Name:
+ initVellocity
+ 
+ Description:
+ Initial speed of bullet.
+</description>
   </entry>
   <entry>
     <name>Acceleration: In Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Forward acceleration acting on bullet before it reaches the attenuation distance. Negative values will slow the bullet down.</description>
+    <description>ParamDef:
+ Name:
+ accelInRange
+ 
+ Description:
+ Forward acceleration acting on bullet before it reaches the 
+ attenuation distance. Negative values will slow the bullet 
+ down.
+</description>
   </entry>
   <entry>
     <name>Acceleration: Out of Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Forward acceleration acting on bullet after it passes the attenuation distance. Negative values will slow the bullet down.</description>
+    <description>ParamDef:
+ Name:
+ accelOutRange
+ 
+ Description:
+ Forward acceleration acting on bullet after it passes the 
+ attenuation distance. Negative values will slow the bullet 
+ down.
+</description>
   </entry>
   <entry>
     <name>Max Velocity</name>
     <type>f32</type>
     <default>0</default>
-    <description>Maximum speed of bullet, regardless of acceleration.</description>
+    <description>ParamDef:
+ Name:
+ maxVellocity
+ 
+ Description:
+ Maximum speed of bullet, regardless of acceleration.
+</description>
   </entry>
   <entry>
     <name>Min Velocity</name>
     <type>f32</type>
     <default>0</default>
-    <description>Minimum speed of bullet, regardless of acceleration.</description>
+    <description>ParamDef:
+ Name:
+ minVellocity
+ 
+ Description:
+ Minimum speed of bullet, regardless of acceleration.
+</description>
   </entry>
   <entry>
     <name>Acceleration Duration</name>
     <type>f32</type>
     <default>0</default>
-    <description>Time that acceleration is active after bullet creation.</description>
+    <description>ParamDef:
+ Name:
+ accelTime
+ 
+ Description:
+ Time that acceleration is active after bullet creation.
+</description>
   </entry>
   <entry>
     <name>Homing Start Distance</name>
     <type>f32</type>
     <default>0</default>
-    <description>Distance from owner at which the bullet starts homing in on targets.</description>
+    <description>ParamDef:
+ Name:
+ homingBeginDist
+ 
+ Description:
+ Distance from owner at which the bullet starts homing in on 
+ targets.
+</description>
   </entry>
   <entry>
     <name>Initial Hit Radius</name>
     <type>f32</type>
     <default>0.1</default>
-    <description>Initial hit radius of bullet projectile.</description>
+    <description>ParamDef:
+ Name:
+ hitRadius
+ 
+ Description:
+ Initial hit radius of bullet projectile.
+</description>
   </entry>
   <entry>
     <name>Final Hit Radius</name>
     <type>f32</type>
     <default>-1</default>
-    <description>Final hit radius of bullet projectile. Set to -1 if radius does not change, which is always coupled with a value of 0 for RadiusIncreaseDuration.</description>
+    <description>ParamDef:
+ Name:
+ hitRadiusMax
+ 
+ Description:
+ Final hit radius of bullet projectile. Set to -1 if radius 
+ does not change, which is always coupled with a value of 0 
+ for RadiusIncreaseDuration.
+</description>
   </entry>
   <entry>
     <name>Radius Spread Time</name>
     <type>f32</type>
     <default>0</default>
-    <description>Time taken by bullet to transition from initial to final hit radius. Value of 0 are always coupled with values of -1 for RadiusIncreaseDuration.</description>
+    <description>ParamDef:
+ Name:
+ spreadTime
+ 
+ Description:
+ Time taken by bullet to transition from initial to final hit 
+ radius. Value of 0 are always coupled with values of -1 for 
+ RadiusIncreaseDuration.
+</description>
   </entry>
   <entry>
     <name>Explosion Delay</name>
     <type>f32</type>
     <default>0</default>
-    <description>Delay between impact and 'explosion'.</description>
+    <description>ParamDef:
+ Name:
+ expDelay
+ 
+ Description:
+ Delay between impact and 'explosion'.
+</description>
   </entry>
   <entry>
     <name>Homing Offset Range</name>
     <type>f32</type>
     <default>0</default>
-    <description>Offset homing position by this amount.</description>
+    <description>ParamDef:
+ Name:
+ hormingOffsetRange
+ 
+ Description:
+ Offset homing position by this amount.
+</description>
   </entry>
   <entry>
     <name>Hitbox Duration</name>
     <type>f32</type>
     <default>0</default>
-    <description>Duration of bullet impact hitbox. A value of zero means it is disabled immediately after first impact.</description>
+    <description>ParamDef:
+ Name:
+ dmgHitRecordLifeTime
+ 
+ Description:
+ Duration of bullet impact hitbox. A value of zero means it 
+ is disabled immediately after first impact.
+</description>
   </entry>
   <entry>
     <name>External Force in Bullet Direction</name>
     <type>f32</type>
     <default>0</default>
-    <description>External force applied in the direction of shooting. (Y-axis is removed)</description>
+    <description>ParamDef:
+ Name:
+ externalForce
+ 
+ Description:
+ External force applied in the direction of shooting. (Y-axis is removed)
+</description>
   </entry>
   <entry>
     <name>Owner SpEffect ID</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to owner when bullet is created.</description>
+    <description>ParamDef:
+ Name:
+ spEffectIDForShooter
+ 
+ Description:
+ Special SpEffect applied to owner when bullet is created
+</description>
   </entry>
   <entry>
     <name>Bullet AI</name>
     <type>s32</type>
     <default>0</default>
-    <description>AI parameter ID for triggered floating bullets.</description>
+    <description>ParamDef:
+ Name:
+ autoSearchNPCThinkID
+ 
+ Description:
+ AI parameter ID for triggered floating bullets.
+</description>
   </entry>
   <entry>
     <name>Hit Bullet ID</name>
     <type>s32</type>
     <default>-1</default>
-    <description>Bullet emitted on impact of this bullet.</description>
+    <description>ParamDef:
+ Name:
+ HitBulletID
+ 
+ Description:
+ Bullet emitted on impact of this bullet.
+</description>
   </entry>
   <entry>
     <name>Target SpEffect ID 0</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to target hit by bullet.</description>
+    <description>ParamDef:
+ Name:
+ spEffectId0
+ 
+ Description:
+ SpEffect applied to target hit by bullet.
+</description>
   </entry>
   <entry>
     <name>Target SpEffect ID 1</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to target hit by bullet.</description>
+    <description>ParamDef:
+ Name:
+ spEffectId1
+ 
+ Description:
+ SpEffect applied to target hit by bullet.
+</description>
   </entry>
   <entry>
     <name>Target SpEffect ID 2</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to target hit by bullet.</description>
+    <description>ParamDef:
+ Name:
+ spEffectId2
+ 
+ Description:
+ SpEffect applied to target hit by bullet.
+</description>
   </entry>
   <entry>
     <name>Target SpEffect ID 3</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to target hit by bullet.</description>
+    <description>ParamDef:
+ Name:
+ spEffectId3
+ 
+ Description:
+ SpEffect applied to target hit by bullet.
+</description>
   </entry>
   <entry>
     <name>Target SpEffect ID 4</name>
     <type>s32</type>
     <default>0</default>
-    <description>Special SpEffect applied to target hit by bullet.</description>
+    <description>ParamDef:
+ Name:
+ spEffectId4
+ 
+ Description:
+ SpEffect applied to target hit by bullet.
+</description>
   </entry>
   <entry>
     <name>Bullet Count</name>
     <type>s16</type>
     <default>1</default>
-    <description>Number of bullets emitted at once.</description>
+    <description>ParamDef:
+ Name:
+ numShoot
+ 
+ Description:
+ Number of bullets emitted at once.
+</description>
   </entry>
   <entry>
     <name>Homing Angle</name>
     <type>s16</type>
     <default>0</default>
-    <description>Turning angle of homing bullet per second. </description>
+    <description>ParamDef:
+ Name:
+ homingAngle
+ 
+ Description:
+ Turning angle of homing bullet per second.
+</description>
   </entry>
   <entry>
     <name>Horizontal Shoot Angle</name>
     <type>s16</type>
     <default>0</default>
-    <description>Angle of first bullet in degrees around the vertical axis, relative to the forward direction.</description>
+    <description>ParamDef:
+ Name:
+ shootAngle
+ 
+ Description:
+ Angle of first bullet in degrees around the vertical axis, 
+ relative to the forward direction.
+</description>
   </entry>
   <entry>
     <name>Shoot Angle - Horizontal Interval</name>
     <type>s16</type>
     <default>0</default>
-    <description>Angle from one bullet to the next around the vertical axis, beginning at the azimuth angle start.</description>
+    <description>ParamDef:
+ Name:
+ shootAngleInterval
+ 
+ Description:
+ Angle from one bullet to the next around the vertical axis, 
+ beginning at the azimuth angle start.
+</description>
   </entry>
   <entry>
     <name>Shoot Angle - Vertical Interval</name>
     <type>s16</type>
     <default>0</default>
-    <description>Angle between bullets in elevation.</description>
+    <description>ParamDef:
+ Name:
+ shootAngleXInterval
+ 
+ Description:
+ Angle between bullets in elevation.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Physical</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in physical damage per second.</description>
+    <description>ParamDef:
+ Name:
+ damageDamp
+ 
+ Description:
+ Percentage reduction in physical damage per second.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Magic</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in magic damage per second.</description>
+    <description>ParamDef:
+ Name:
+ spelDamageDamp
+ 
+ Description:
+ Percentage reduction in magic damage per second.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Fire</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in fire damage per second.</description>
+    <description>ParamDef:
+ Name:
+ fireDamageDamp
+ 
+ Description:
+ Percentage reduction in fire damage per second.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Lightning</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in lightning damage per second.</description>
+    <description>ParamDef:
+ Name:
+ thunderDamageDamp
+ 
+ Description:
+ Percentage reduction in lightning damage per second.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Stamina</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in stamina damage per second.</description>
+    <description>ParamDef:
+ Name:
+ staminaDamp
+ 
+ Description:
+ Percentage reduction in stamina damage per second.
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Knockback</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Percentage reduction in knockback power per second.</description>
+    <description>ParamDef:
+ Name:
+ knockbackDamp
+ 
+ Description:
+ Percentage reduction in knockback power per second.
+</description>
   </entry>
   <entry>
     <name>Vertical Shoot Angle</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description>Angle of elevation of first bullet. Positive values will angle the bullets up and negative values will angle the bullets down.</description>
+    <description>ParamDef:
+ Name:
+ shootAngleXZ
+ 
+ Description:
+ Angle of elevation of first bullet. Positive values will 
+ angle the bullets up and negative values will angle the 
+ bullets down.
+</description>
   </entry>
   <entry>
     <name>Lock Shoot Limit Angle</name>
     <type>u8</type>
     <default>0</default>
-    <description>Unknown</description>
+    <description>ParamDef:
+ Name:
+ lockShootLimitAng
+ 
+ Description:
+ Limit angle when facing the lock direction.
+</description>
   </entry>
   
   <entry>
@@ -318,263 +640,537 @@
     <name>Previous Velocity Direction Rate</name>
     <type>u8</type>
     <default>0</default>
-    <description>Ratio of adding the previous moving direction to the current direction when a sliding bullet hits the wall.</description>
+    <description>ParamDef:
+ Name:
+ prevVelocityDirRate
+ 
+ Description:
+ Ratio of adding the previous moving direction to the current 
+ direction when a sliding bullet hits the wall.
+</description>
   </entry>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
     <default>4</default>
-    <description>Attack type.</description>
     <enum>ATKPARAM_ATKATTR_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ atkAttribute
+ 
+ Description:
+ Set the physical attributes to set for the bullet.
+</description>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
     <default>1</default>
-    <description>Element attached to bullet hit.</description>
     <enum>ATKPARAM_SPATTR_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ spAttribute
+ 
+ Description:
+ Set special attributes to set for bullets.
+</description>
   </entry>
   <entry>
     <name>Material Attack Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Determines visual effects of bullet hit.</description>
     <enum>BEHAVIOR_ATK_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ Material_AttackType
+ 
+ Description:
+ Determines visual effects of bullet hit.
+</description>
   </entry>
   <entry>
     <name>Material Attack Material</name>
     <type>u8</type>
     <default>0</default>
-    <description>Sound and visual effects on hit.</description>
     <enum>WEP_MATERIAL_ATK</enum>
+    <description>ParamDef:
+ Name:
+ Material_AttackMaterial
+ 
+ Description:
+ Sound and visual effects on hit.
+</description>
   </entry>
   <entry>
     <name>Is Penetrate Character</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name:
+ isPenetrateChr
+ 
+ Description:
+ If it is ON, it will penetrate without landing when it hits the character.
+</description>
   </entry>
   <entry>
     <name>Is Penetrate Object</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name:
+ isPenetrateObj
+ 
+ Description:
+ If it is ON, it will penetrate without landing when hitting a dynamic / partial destruction asset.
+</description>
   </entry>
   <entry>
     <name>Launch Condition Type</name>
     <type>u8</type>
     <default>0</default>
-    <description>Condition for determing if a new bullet will be generated when this bullet lands or expires.</description>
     <enum>BULLET_LAUNCH_CONDITION_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ launchConditionType
+ 
+ Description:
+ Condition for determing if a new bullet will be generated when this bullet lands or expires.
+</description>
   </entry>
 
   <entry>
     <name>Follow Type: Soulmass</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ FollowType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Follow Type: Catalyst</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ FollowType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Follow Type: Follow Floor</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ FollowType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Emitter Type: Player Feet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ EmittePosType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Emitter Type: Parent Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ EmittePosType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Emitter Type: Nearest Enemy Feet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ EmittePosType
+ 
+ Description:
+ - 
+</description>
   </entry>
   <entry>
     <name>Persistent Attack FX</name>
     <type>b8</type>
     <default>False</default>
-    <description>Set whether bullets stay stuck upon impact.</description>
+    <description>ParamDef:
+ Name:
+ EmittePosType
+ 
+ Description:
+ Set whether bullets stay stuck upon impact.
+</description>
   </entry>
   <entry>
     <name>Continuous Hitbox</name>
     <type>b8</type>
     <default>False</default>
-    <description>Bullet hitbox is continuous.</description>
+    <description>ParamDef:
+ Name:
+ isEndlessHit
+ 
+ Description:
+ Bullet hitbox is continuous.
+</description>
   </entry>
   <entry>
     <name>Penetrate Map</name>
     <type>b8</type>
     <default>False</default>
-    <description>Bullet will pierce the map.</description>
+    <description>ParamDef:
+ Name:
+ isPenetrateMap
+ 
+ Description:
+ Bullet will pierce the map.
+</description>
   </entry>
   <entry>
     <name>Hit Both Teams</name>
     <type>b8</type>
     <default>False</default>
-    <description>Bullet can hit any character.</description>
+    <description>ParamDef:
+ Name:
+ isHitBothTeam
+ 
+ Description:
+ Bullet can hit any character.
+</description>
   </entry>
   <entry>
     <name>Use Shared Hit List</name>
     <type>b8</type>
     <default>True</default>
-    <description>Repeating bullets share the amount of times they have hit a target.</description>
+    <description>ParamDef:
+ Name:
+ isUseSharedHitList
+ 
+ Description:
+ Repeating bullets share the amount of times they have hit a target.
+</description>
   </entry>
   <entry>
     <name>Use Multiple Dummy Polys</name>
     <type>b8</type>
     <default>False</default>
-    <description>Set to True if the same model point ('damipoly') is used multiple times when spawning the bullet.</description>
+    <description>ParamDef:
+ Name:
+ isUseMultiDmyPolyIfPlace
+ 
+ Description:
+ Set to True if the same model point ('damipoly') is used multiple times when spawning the bullet.
+</description>
   </entry>
   <entry>
     <name>Force Erase Bullet A if Hit by Other Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isHitOtherBulletForceEraseA
+ 
+ Description:
+ Does it hit other bullets forced erasure A?
+</description>
   </entry>
   <entry>
     <name>Force Erase Bullet B if Hit by Other Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isHitOtherBulletForceEraseB
+ 
+ Description:
+ Does it hit the other bullet forced erasure B?
+</description>
   </entry>
   <entry>
     <name>Is Bullet deflected by Magic</name>
     <type>b8</type>
     <default>False</default>
-    <description>If true, this bullet will impact appropriate Force-type magic (e.g. arrows, bolts, knives).</description>
+    <description>ParamDef:
+ Name:
+ isHitForceMagic
+ 
+ Description:
+ If true, this bullet will impact appropriate Force-type magic (e.g. arrows, bolts, knives).
+</description>
   </entry>
   <entry>
     <name>Is SFX ignored on Water Hit</name>
     <type>b8</type>
     <default>False</default>
-    <description>If true, hit FX are not produced if the bullet impacts water.</description>
+    <description>ParamDef:
+ Name:
+ isIgnoreSfxIfHitWater
+ 
+ Description:
+ If true, hit FX are not produced if the bullet impacts water.
+</description>
   </entry>
   <entry>
     <name>Is Move State Ignored on Water Hit</name>
     <type>b8</type>
     <default>False</default>
+    <description>ParamDef:
+ Name:
+ isIgnoreMoveStateIfHitWater
+ 
+ Description:
+ Whether to ignore the state transition even if it hits water
+</description>
   </entry>
   <entry>
     <name>Is Bullet deflected by Bullet Deflection</name>
     <type>b8</type>
     <default>False</default>
-    <description>If True, this bullet will be deflected by AtkParam deflection effect.</description>
+    <description>ParamDef:
+ Name:
+ isHitDarkForceMagic
+ 
+ Description:
+ If True, this bullet will be deflected by AtkParam deflection effect.
+</description>
   </entry>
   <entry>
-    <name>Is Effect transferred to Child Bullet</name>
+    <name>Damage Calculation Side 1</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ dmgCalcSide
+ 
+ Description:
+ Damage calculation side. During multiplayer, the damage 
+ calculation is for switching between the giving side and 
+ the receiving side.
+</description>
   </entry>
   <entry>
-    <name>Is Speed transferred to Child Bullet</name>
+    <name>Damage Calculation Side 2</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ dmgCalcSide
+ 
+ Description:
+ Damage calculation side. During multiplayer, the damage 
+ calculation is for switching between the giving side and 
+ the receiving side.
+</description>
   </entry>
   <entry>
     <name>Is Auto Homing Enabled</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isEnableAutoHoming
+ 
+ Description:
+ Whether to automatically follow when not locked on
+</description>
   </entry>
   <entry>
     <name>Is Emitter Position Synced with Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isSyncBulletCulcDumypolyPos
+ 
+ Description:
+ In the case of a synchronously generated bullet, the 
+ emitter attitude at the time of synchronization is used 
+ without recalculating the attitude due to the Damipoli 
+ position when the bullet is generated.
+</description>
   </entry>
   <entry>
     <name>Is Direction Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isOwnerOverrideInitAngle
+ 
+ Description:
+ Only valid for sub-bullets. If it is ON, the reference direction is the owner.
+</description>
   </entry>
   <entry>
     <name>Is SFX Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isInheritSfxToChild
+ 
+ Description:
+ Take over the SFX of the parent bullet. Ignore the SFX ID set for the sub bullet
+</description>
   </entry>
   <entry>
     <name>Damage Falloff: Dark Damage</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ darkDamageDamp
+ 
+ Description:
+ Correction value that decreases in 1 second after the attenuation distance.
+</description>
   </entry>
   <entry>
     <name>Bullet SFX Delete Type - By Hit</name>
     <type>s8</type>
     <default>0</default>
     <enum>BULLET_SFX_DELETE_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ bulletSfxDeleteType_byHit
+ 
+ Description:
+ Bullet SFX extinction type when landing or playing
+</description>
   </entry>
   <entry>
     <name>Bullet SFX Delete Type - By Expiration</name>
     <type>s8</type>
     <default>0</default>
-    <description></description>
     <enum>BULLET_SFX_DELETE_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ bulletSfxDeleteType_byLifeDead
+ 
+ Description:
+ Bullet SFX extinction type at the end of life
+</description>
   </entry>
   <entry>
     <name>Landing Position - Vertical Offset Range</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ targetYOffsetRange
+ 
+ Description:
+ Vertical offset of landing position. Shift the target 
+ position up and down at the time of launch and during 
+ homing. (-N ~ n)
+</description>
   </entry>
   <entry>
     <name>Firing Angle - Random Horizontal Range</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ shootAngleYMaxRandom
+ 
+ Description:
+ Upper limit of random number of firing angle (0 to 360)
+</description>
   </entry>
   <entry>
     <name>Firing Angle - Random Vertical Range</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ shootAngleXMaxRandom
+ 
+ Description:
+ Upper limit of firing elevation random number (0 to 360)
+</description>
   </entry>
   <entry>
     <name>Bullet Emitter: Bullet ID</name>
     <type>s32</type>
     <default>-1</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ intervalCreateBulletId
+ 
+ Description:
+ Bullet ID used when making bullets at regular intervals
+</description>
   </entry>
   <entry>
     <name>Bullet Emitter: Minimum Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ intervalCreateTimeMin
+ 
+ Description:
+ Minimum interval for making bullets at regular intervals 
+ (0 to n)
+</description>
   </entry>
   <entry>
     <name>Bullet Emitter: Maximum Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ intervalCreateTimeMax
+ 
+ Description:
+ Maximum interval for making bullets at regular intervals 
+ (function is disabled if 0 to n 0)
+</description>
   </entry>
   <entry>
     <name>Prediction Shoot Observe Time</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ predictionShootObserveTime
+ 
+ Description:
+ Average speed observation time of predicted shooting function (function is invalid if 0 to 40)
+</description>
   </entry>
   <entry>
     <name>Bullet Emitter: Initial Wait Time</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ intervalCreateWaitTime
+ 
+ Description:
+ Waiting time to start making bullets at regular intervals
+</description>
   </entry>
   
   <entry>
@@ -582,11 +1178,29 @@
     <type>u8</type>
     <default>0</default>
     <enum>BULLET_SFX_CREATE_POSTURE_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ sfxPostureType
+ 
+ Description:
+ Set the initial attitude of an SFX or sub-bullet created 
+ from a bullet
+</description>
   </entry>
   <entry>
     <name>Create Limit Group ID</name>
     <type>u8</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ createLimitGroupId
+ 
+ Description:
+ If it is 0, it is unused. If the upper limit is reached 
+ when creating a bullet set in the same group Id, that 
+ bullet will not be created. (Bullets created synchronously 
+ on the network will be released regardless)
+</description>
   </entry>
   
   <entry>
@@ -599,136 +1213,310 @@
     <name>Is Speed Inherited by Child Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isInheritSpeedToChild
+ 
+ Description:
+ Take over the speed of the timing to replace the submunition. Ignore the speed set for the submunition
+</description>
   </entry>
   <entry>
     <name>Is SFX Disabled on Chr/Object Hit</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isDisableHitSfx_byChrAndObj
+ 
+ Description:
+ When ON, the bullet parameter "landing SFX" does not play even if it hits a character / object.
+</description>
   </entry>
   <entry>
     <name>Is Wall Checked by Center Ray</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isCheckWall_byCenterRay
+ 
+ Description:
+ There was a problem with the digging judgment when firing a 
+ bullet, so it is for error handling. [Own 
+ character] If you use a soul short arrow or a strong soul 
+ short arrow in close contact with a character with a high 
+ lock-on position, the direction of the bullet will be 
+ reversed.
+</description>
   </entry>
   <entry>
     <name>Is Hit Flare</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isHitFlare
+ 
+ Description:
+ Do you hit flare magic?
+</description>
   </entry>
   <entry>
     <name>Is Bullet Wall Filter Used</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isUseBulletWallFilter
+ 
+ Description:
+ Do you use primitive magic Atari? It will change to a filter that corresponds to the Atari dedicated to primitive magic.
+</description>
   </entry>
   
+  <entry>
+  <name>Blank</name>
+  <type>b8</type>
+  <default>False</default>
+  <description>Is a dummy field within a boolean set</description>
+</entry>
+
   <entry>
     <name>Is Follow Bullet Count not scaled by INT</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isNonDependenceMagicForFunnleNum
+ 
+ Description:
+ The number of funnels in C does not fluctuate by force. Become the number of shots
+</description>
   </entry>
   <entry>
     <name>Is AI Interrupted by Bullet</name>
     <type>b8</type>
     <default>False</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ isAiInterruptShootNoDamageBullet
+ 
+ Description:
+ Does it react to AI bullets (even with 0 attack power)?
+</description>
   </entry>
   
   <entry>
     <name>Emitter Position Radius</name>
     <type>f32</type>
     <default>0</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ randomCreateRadius
+ 
+ Description:
+ The range of bullets used when the source type is set to occur at random locations.
+</description>
   </entry>
   <entry>
     <name>Follow Bullet - Height Offset</name>
     <type>f32</type>
     <default>-1</default>
-    <description></description>
+    <description>ParamDef:
+ Name:
+ followOffset_BaseHeight
+ 
+ Description:
+ Funnel tracking position_base point height [m]
+</description>
   </entry>
   <entry>
     <name>Asset Generated on Hit</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name:
+ assetNo_Hit
+ 
+ Description:
+ The number of the asset to be generated at the time of 
+ landing. -1: Do not generate. The asset number is the last 
+ 6 digits of the asset. Example: AEG999_999 = 999999
+</description>
   </entry>
   <entry>
     <name>Duration - Random Range</name>
     <type>f32</type>
     <default>-1</default>
-    <description>Added to the base duration.</description>
+    <description>ParamDef:
+ Name:
+ lifeRandomRange
+ 
+ Description:
+ Add a random number of seconds with a fluctuation range of the set time to the "lifetime [s]".
+</description>
   </entry>
   <entry>
     <name>Homing Angle: X</name>
     <type>s16</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name:
+ homingAngleX
+ 
+ Description:
+ Only the X-axis component of the inductive performance is 
+ changed. Do not change with -1
+</description>
   </entry>
   <entry>
     <name>Ballistic Calc Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>BULLET_BALLISTIC_CALC_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ ballisticCalcType
+ 
+ Description:
+ Ballistic calculation type
+</description>
   </entry>
   <entry>
     <name>Attach Effect Type</name>
     <type>u8</type>
     <default>0</default>
     <enum>BULLET_ATTACH_EFFECT_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ attachEffectType
+ 
+ Description:
+ Effect type to attach
+</description>
   </entry>
   <entry>
     <name>Insert SE ID - Bullet [1]</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ seId_Bullet1
+ 
+ Description:
+ Insert SE ID1 for [Bullet]. -1: Not generated 9 digits. 
+ Sound type is fixed to s: SFX.
+</description>
   </entry>
   <entry>
     <name>Insert SE ID - Bullet [2]</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ seId_Bullet2
+ 
+ Description:
+ Insert SE ID 2 for [Bullet]. -1: Not generated 9 digits. Sound type is fixed to s: SFX.
+</description>
   </entry>
   <entry>
     <name>Insert SE ID - Hit</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ seId_Hit
+ 
+ Description:
+ Insert SE ID 1 for [landing]. -1 does not occur. 9 digits. Sound type is fixed to s: SFX.
+</description>
   </entry>
   <entry>
-    <name>Insert SE ID - Flick</name>
+    <name>Insert SE ID - Repel</name>
     <type>s32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ seId_Flick
+ 
+ Description:
+ [At the time of repelling] Enter SE ID1 for. -1 does not occur. 9 digits. Sound type is fixed to s: SFX.
+</description>
   </entry>
   <entry>
     <name>Howitzer - Minimum Shoot Angle: X</name>
     <type>s16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ howitzerShootAngleXMin
+ 
+ Description:
+ The lower limit [deg] with the firing elevation angle as a reference (0 deg) before applying the howitzer fire calculation.
+</description>
   </entry>
   <entry>
     <name>Howitzer - Maximum Shoot Angle: X</name>
     <type>s16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ howitzerShootAngleXMax
+ 
+ Description:
+ The upper limit [deg] based on the firing elevation angle (0deg) before applying the howitzer firing calculation.
+</description>
   </entry>
   <entry>
     <name>Howitzer - Minimum Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ howitzerInitMinVelocity
+ 
+ Description:
+ The minimum speed limit for howitzer firing calculation [m / s].
+</description>
   </entry>
   <entry>
     <name>Howitzer - Maximum Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ howitzerInitMaxVelocity
+ 
+ Description:
+ Maximum speed limit for howitzer firing calculation [m / s].
+</description>
   </entry>
   <entry>
     <name>SFX ID - Force Erase</name>
     <type>s32</type>
     <default>-1</default>
+    <description>ParamDef:
+ Name:
+ sfxId_ForceErase
+ 
+ Description:
+ SFX ID at the time of forced erasure. -1 does not occur.
+</description>
   </entry>
   <entry>
     <name>Bullet SFX Delete Type - By Force Erase</name>
     <type>s8</type>
     <default>0</default>
     <enum>BULLET_SFX_DELETE_TYPE</enum>
+    <description>ParamDef:
+ Name:
+ bulletSfxDeleteType_byForceErase
+ 
+ Description:
+ Bullet SFX extinction type at the time of forced erasure.
+</description>
   </entry>
   
   <entry>
@@ -741,21 +1529,49 @@
     <name>Follow Bullet - Dummy Poly for SFX Pose</name>
     <type>s16</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ followDmypoly_forSfxPose
+ 
+ Description:
+ SFX direction specification when following Damipoli
+</description>
   </entry>
   <entry>
     <name>Follow Bullet - Radius Offset</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ followOffset_Radius
+ 
+ Description:
+ Funnel tracking position_radius [m]
+</description>
   </entry>
   <entry>
     <name>SpEffect Bullet Distance - Magnification</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ spBulletDistUpRate
+ 
+ Description:
+ Special effect flight distance correction magnification
+</description>
   </entry>
   <entry>
     <name>Target Range when Unlocked</name>
     <type>f32</type>
     <default>0</default>
+    <description>ParamDef:
+ Name:
+ nolockTargetDist
+ 
+ Description:
+ Target range when unlocked (-1: Refer to "range", 0: No target)
+</description>
   </entry>
   
   <entry>

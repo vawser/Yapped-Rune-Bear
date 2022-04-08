@@ -1588,16 +1588,16 @@ Enemies - Requires State Info 152</description>
     <description>Applies the specified multiplier to damage against enemies tagged as Undead.</description>
   </entry>
   <entry>
-    <name>Bonus Damage %: Ancient Draconic</name>
+    <name>Bonus Damage %: Ancient Dragon</name>
     <type>f32</type>
     <default>1</default>
-    <description>Applies the specified multiplier to damage against enemies tagged as Ancient Draconic.</description>
+    <description>Applies the specified multiplier to damage against enemies tagged as Ancient Dragon.</description>
   </entry>
   <entry>
-    <name>Bonus Damage %: Draconic</name>
+    <name>Bonus Damage %: Dragon/Wyrm</name>
     <type>f32</type>
     <default>1</default>
-    <description>Applies the specified multiplier to damage against enemies tagged as Draconic.</description>
+    <description>Applies the specified multiplier to damage against enemies tagged as Dragon/Wyrm.</description>
   </entry>
   <entry>
     <name>Bonus Damage %: Unknown A</name>
@@ -2156,7 +2156,7 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Conditional Weapon Effect 3</name>
-    <type>s8</type>
+    <type>u8</type>
     <default>0</default>
     <enum>ATK_SUB_CATEGORY</enum>
   </entry>

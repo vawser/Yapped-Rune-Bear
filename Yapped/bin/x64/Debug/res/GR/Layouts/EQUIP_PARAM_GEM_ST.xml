@@ -28,12 +28,12 @@
   
   <entry>
     <name>Icon ID</name>
-    <type>s16</type>
+    <type>u16</type>
     <default>0</default>
   </entry>
   <entry>
     <name>Rank</name>
-    <type>u8</type>
+    <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
@@ -276,183 +276,189 @@
   
   <entry>
     <name>Available: Dagger</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Straight Sword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Greatsword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Colossal Sword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Curved Sword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Curved Greatsword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Katana</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Twinblade</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Thrusting Sword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Heavy Thrusting Sword</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Hammer</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Great Hammer</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Axe</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Greataxe</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Flail</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Spear</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Large Spear</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Heavy Spear</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Halberd</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Reaper</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Fist</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Claw</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Whip</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Colossal Weapon</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Light Bow</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Bow</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Greatbow</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Crossbow</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Ballista</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Staff</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Unused Catalyst</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Seal</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Small Shield</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Medium Shield</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Greatshield</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
     <name>Available: Torch</name>
-    <type>b32</type>
+    <type>b8</type>
     <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>3</size>
   </entry>
   
   <entry>
