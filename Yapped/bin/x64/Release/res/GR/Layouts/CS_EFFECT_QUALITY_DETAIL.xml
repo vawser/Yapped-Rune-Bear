@@ -1,64 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+   <enum name="CS_GCONFIG_ENABLED_TYPE" type="u8">
+  </enum>
+  
    <entry>
-    <name>Unk0</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-   <entry>
-    <name>Unk0</name>
-    <type>s8</type>
+    <name>Enable Soft Particles</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
    <entry>
-    <name>Unk0</name>
-    <type>s8</type>
+    <name>Enable Glow</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
    <entry>
-    <name>Unk0</name>
-    <type>s8</type>
+    <name>Enable Distortion</name>
+    <type>u8</type>
     <default>0</default>
   </entry>
+   <entry>
+    <name>Enable Bilateral Upscale</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>CS_GCONFIG_ENABLED_TYPE</enum>
+  </entry>
   <entry>
-    <name>Unk1</name>
+    <name>Number of Emits at One time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
+    <name>Emit Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>LOD 1 Distance Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
+    <name>LOD 2 Distance Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
+    <name>LOD 3 Distance Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>LOD 4 Distance Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
+    <name>Scale Render Distance Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk8</name>
-    <type>f32</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>4</size>
   </entry>
 
 </layout>

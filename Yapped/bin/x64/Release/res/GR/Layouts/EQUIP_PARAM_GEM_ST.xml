@@ -14,6 +14,13 @@
     <item value="255" name="255 - None" />
   </enum>
   
+  <enum name="RARITY" type="u8">
+    <item value="0" name="0 - Default" />
+	<item value="1" name="1 - Common" />
+	<item value="2" name="2 - Rare" />
+	<item value="3" name="3 - Legendary" />
+  </enum>
+  
   <entry>
     <name>Disable Param - Network Test</name>
     <type>b8</type>
@@ -184,6 +191,7 @@
     <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
+    <enum>RARITY</enum>
   </entry>
   
   <entry>

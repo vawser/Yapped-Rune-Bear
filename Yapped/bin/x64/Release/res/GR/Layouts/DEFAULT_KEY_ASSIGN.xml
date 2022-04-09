@@ -1,223 +1,651 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="DefaultKeyAssignPadKey" type="s32">
+  </enum>
+  <enum name="DefaultKeyAssignTraits" type="u8">
+  </enum>
+  <enum name="DefaultKeyAssignA2DOperator" type="u8">
+  </enum>
+  <enum name="DefaultKeyAssignApplyTarget" type="u8">
+  </enum>
+  
    <entry>
-    <name>Unk0</name>
+    <name>Priority [0]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [1]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [2]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [3]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [4]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [5]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [6]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [7]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Priority [8]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [9]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [10]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [11]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [12]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [13]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [14]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [15]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Priority [16]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [17]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [18]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [19]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [20]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [21]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [22]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [23]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Priority [24]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [25]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [26]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [27]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [28]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [29]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [30]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+   <entry>
+    <name>Priority [31]</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>12</size>
+  </entry>
+  
+  <entry>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk2</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk3</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk4</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk5</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk6</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk7</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk8</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk10</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk11</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk12</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk13</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk14</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk15</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk17</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk18</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk19</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk21</name>
+    <name>Physical Key</name>
     <type>s32</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignPadKey</enum>
+  </entry>
+  <entry>
+    <name>Push Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignTraits</enum>
+  </entry>
+  <entry>
+    <name>Analog-to-Digital Conversion Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignA2DOperator</enum>
+  </entry>
+  <entry>
+    <name>Applicable Target</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>DefaultKeyAssignApplyTarget</enum>
+  </entry>
+  <entry>
+    <name>Is Analog</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Win64</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in PS4</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Is Used in Xbox One</name>
+    <type>b8</type>
+    <default>False</default>
+  </entry>
+  <entry>
+    <name>Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk22</name>
-    <type>s32</type>
+    <name>Interval Repeat Time</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk23</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk24</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk25</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk26</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk27</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk28</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk29</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk30</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk31</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk32</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk33</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk34</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk35</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk36</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk37</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk38</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk39</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk40</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk41</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk42</name>
-    <type>s32</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk43</name>
-    <type>s32</type>
+    <name>Analog-to-Digital Conversion Threshold</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
 

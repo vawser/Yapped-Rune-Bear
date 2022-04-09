@@ -1,82 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
     <entry>
-    <name>Unk0</name>
+    <name>Enabled</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Enable Local Light</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Force Enable Local Light</name>
+    <type>u8</type>
+    <default>0</default>
+  </entry>
+  
+  <entry>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>1</size>
+  </entry>
+  
+  <entry>
+    <name>Resolution Divider</name>
+    <type>u32</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>SSR Enabled</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk1</name>
+    <name>SSR Guassian Blur Enabled</name>
     <type>s8</type>
     <default>0</default>
   </entry>
+  
   <entry>
-    <name>Unk2</name>
-    <type>s8</type>
-    <default>0</default>
+    <name>padding</name>
+    <type>dummy8</type>
+    <size>2</size>
   </entry>
+  
   <entry>
-    <name>Unk3</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk4</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk5</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk6</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk7</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk8</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk9</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk10</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk11</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>Unk12</name>
+    <name>SSR Depth Reject Threshold Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk16</name>
+    <name>SSR Ray Trace Step Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk20</name>
+    <name>SSR Fade to Viewer Bias</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk24</name>
+    <name>SSR Fresnel Reject Bias</name>
     <type>f32</type>
     <default>0</default>
   </entry>

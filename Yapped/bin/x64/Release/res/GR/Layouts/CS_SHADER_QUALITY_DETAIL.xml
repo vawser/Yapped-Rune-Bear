@@ -2,24 +2,24 @@
 <layout>
   <entry>
     <name>SSS Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Tessellation Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>High Precision Normal Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   
   <entry>
     <name>padding</name>
     <type>fixstr</type>
-    <size>3</size>
+    <size>1</size>
     <default></default>
   </entry>
 </layout>

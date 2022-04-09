@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>NearMinDist</name>
+    <name>Proximity Fade: Minimum Near Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>NearMaxDist</name>
+    <name>Proximity Fade: Maximum Near Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FarMinDist</name>
+    <name>Proximity Fade: Minimum Far Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FarMaxDist</name>
+    <name>Proximity Fade: Maximum Far Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MiddleAlpha</name>
-    <type>s32</type>
+    <name>Proximity Fade: Alpha</name>
+    <type>f32</type>
     <default>0</default>
   </entry>
   

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>mapSaveMapNameIdOnGameStart</name>
-    <type>s32</type>
+    <name>Save Data - Game Start: Map Name</name>
+    <type>u32</type>
     <default>0</default>
   </entry>
   

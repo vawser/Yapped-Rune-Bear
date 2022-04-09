@@ -24,9 +24,26 @@
     <item value="0" name="0 - Prevent Change" />
     <item value="2" name="2 - Allow Change" />
   </enum>
+  <enum name="RARITY" type="u8">
+    <item value="0" name="0 - Default" />
+	<item value="1" name="1 - Common" />
+	<item value="2" name="2 - Rare" />
+	<item value="3" name="3 - Legendary" />
+  </enum>
   <enum name="EQUIP_MODEL_CATEGORY" type="u8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Arms" />
+    <item value="2" name="2 - Body" />
+    <item value="4" name="4 - Hair" />
+    <item value="5" name="5 - Head" />
+    <item value="6" name="6 - Legs" />
   </enum>
   <enum name="EQUIP_MODEL_GENDER" type="u8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Male" />
+    <item value="2" name="2 - Female" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - No Gender" />
   </enum>
   <enum name="WEAPON_CATEGORY" type="u8">
   </enum>
@@ -39,10 +56,16 @@
   <enum name="WEP_MATERIAL_DEF" type="u16">
   </enum>
   <enum name="ATKPARAM_ATKATTR_TYPE" type="u8">
+    <item value="0" name="0 - Standard" />
+    <item value="1" name="1 - Strike" />
+    <item value="2" name="2 - Thrust" />
+    <item value="3" name="3 - Slash" />
   </enum>
   <enum name="WEP_MATERIAL_DEF_SFX" type="u16">
   </enum>
   <enum name="WEP_COLLIDABLE_TYPE" type="u8">
+    <item value="1" name="1 - Light Weapon" />
+    <item value="2" name="2 - Heavy Weapon" />
   </enum>
   <enum name="AUTO_REPLENISH_TYPE" type="u8">
   </enum>
@@ -1413,6 +1436,7 @@
     <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
+    <enum>RARITY</enum>
   </entry>
   <entry>
     <name>Ash of War Type</name>

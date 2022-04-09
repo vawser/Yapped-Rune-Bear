@@ -1,8 +1,13 @@
 Sort ID;CALC;x+5
 Correction: STR;STAT_CALC;HIGHEST*0.75
 Correction: DEX;STAT_CALC;HIGHEST*0.25
+Correction: INT;SET;0
+Correction: FTH;SET;0
 Damage: Physical;DMG_CALC;PHYSICAL*0.95
 Damage: Fire;DMG_CALC;PHYSICAL*0.95
+Damage: Magic;SET;0
+Damage: Lightning;SET;0
+Damage: Holy;SET;0
 Reinforce Type ID;CALC;x+400
 Moveset Attribute;SET;11
 Correction Type: Fire;SET;4

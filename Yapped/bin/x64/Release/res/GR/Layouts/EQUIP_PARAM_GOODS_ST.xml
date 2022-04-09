@@ -1,51 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  
+  <enum name="RARITY" type="u8">
+    <item value="0" name="0 - Default" />
+	<item value="1" name="1 - Common" />
+	<item value="2" name="2 - Rare" />
+	<item value="3" name="3 - Legendary" />
+  </enum>
   <enum name="BEHAVIOR_REF_TYPE" type="u8">
-    <item value="0" name="None" />
-	<item value="1" name="Bullet" />
-	<item value="2" name="SpEffect" />
+    <item value="0" name="0 - None" />
+	<item value="1" name="1 - Bullet" />
+	<item value="2" name="2 - SpEffect" />
   </enum>
   <enum name="GOODS_OPEN_MENU" type="u8">
-    <item value="0" name="None" />
-    <item value="1" name="Common Interaction" />
-    <item value="4" name="Leave World" />
-    <item value="5" name="Write Message" />
-    <item value="10" name="Invade World (Bloody Finger)" />
-    <item value="13" name="Beckon Spirit Summon" />
-    <item value="14" name="Reveal Summon Signs" />
-    <item value="15" name="Request Aid" />
-    <item value="16" name="Answer Aid Request" />
-    <item value="17" name="Encourage Invasion" />
-    <item value="18" name="Add Summon Sign to Pool" />
-    <item value="19" name="Add Duel Sign to Pool" />
-    <item value="20" name="Place Summon Sign" />
-    <item value="21" name="Invade World (Recusant Finger)" />
-    <item value="22" name="Invade World (Festering Bloody Finger)" />
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Common Interaction" />
+    <item value="4" name="4 - Leave World" />
+    <item value="5" name="5 - Write Message" />
+    <item value="10" name="10 - Invade World (Bloody Finger)" />
+    <item value="13" name="13 - Beckon Spirit Summon" />
+    <item value="14" name="14 - Reveal Summon Signs" />
+    <item value="15" name="15 - Request Aid" />
+    <item value="16" name="16 - Answer Aid Request" />
+    <item value="17" name="17 - Encourage Invasion" />
+    <item value="18" name="18 - Add Summon Sign to Pool" />
+    <item value="19" name="19 - Add Duel Sign to Pool" />
+    <item value="20" name="20 - Place Summon Sign" />
+    <item value="21" name="21 - Invade World (Recusant Finger)" />
+    <item value="22" name="22 - Invade World (Festering Bloody Finger)" />
   </enum>
   <enum name="GOODS_TYPE" type="u8">
-    <item value="0" name="Normal Item" />
-	<item value="1" name="Key Item" />
-	<item value="2" name="Crafting Material" />
-	<item value="3" name="Remembrance" />
-	<item value="4" name="None" />
-	<item value="5" name="Sorcery" />
-	<item value="6" name="None" />
-	<item value="7" name="Spirit Summon - Lesser" />
-	<item value="8" name="Spirit Summon - Greater" />
-	<item value="9" name="Wondrous Physick" />
-	<item value="10" name="Wondrous Physick Tear" />
-	<item value="11" name="Regenerative Material" />
-	<item value="12" name="Info Item" />
-	<item value="13" name="None" />
-	<item value="14" name="Reinforcement Material" />
-	<item value="15" name="Great Rune" />
-	<item value="16" name="Incantation" />
-	<item value="17" name="Self Buff - Sorcery" />
-	<item value="18" name="Self Buff - Incantation" />
+    <item value="0" name="0 - Normal Item" />
+	<item value="1" name="1 - Key Item" />
+	<item value="2" name="2 - Crafting Material" />
+	<item value="3" name="3 - Remembrance" />
+	<item value="4" name="4 - None" />
+	<item value="5" name="5 - Sorcery" />
+	<item value="6" name="6 - None" />
+	<item value="7" name="7 - Spirit Summon - Lesser" />
+	<item value="8" name="8 - Spirit Summon - Greater" />
+	<item value="9" name="9 - Wondrous Physick" />
+	<item value="10" name="10 - Wondrous Physick Tear" />
+	<item value="11" name="11 - Regenerative Material" />
+	<item value="12" name="12 - Info Item" />
+	<item value="13" name="13 - None" />
+	<item value="14" name="14 - Reinforcement Material" />
+	<item value="15" name="15 - Great Rune" />
+	<item value="16" name="16 - Incantation" />
+	<item value="17" name="17 - Self Buff - Sorcery" />
+	<item value="18" name="18 - Self Buff - Incantation" />
   </enum>
   <enum name="BEHAVIOR_CATEGORY" type="u8">
-    <item value="0" name="SpEffect" />
-    <item value="5" name="Bullet" />
+    <item value="0" name="0 - SpEffect" />
+    <item value="5" name="5 - Bullet" />
   </enum>
   <enum name="SP_EFFECT_TYPE" type="u16">
   </enum>
@@ -56,10 +63,19 @@
   <enum name="REPLACE_CATEGORY" type="u8">
   </enum>
   <enum name="GOODS_SUPPLE_TYPE" type="u8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Crimson Flask" />
+    <item value="3" name="3 - Cerulean Flask" />
   </enum>
   <enum name="AUTO_REPLENISH_TYPE" type="u8">
+    <item value="0" name="0 - Unknown" />
+    <item value="1" name="1 - Unknown" />
+    <item value="2" name="2 - Unknown" />
   </enum>
   <enum name="GOODS_USELIMIT_SUMMONBUDDY" type="u8">
+    <item value="0" name="0 - Unknown" />
+    <item value="1" name="1 - Unknown" />
   </enum>
   
   <entry>
@@ -521,6 +537,7 @@
     <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
+    <enum>RARITY</enum>
   </entry>
   <entry>
     <name>Use Limit - Spirit Summon</name>

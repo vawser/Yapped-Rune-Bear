@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
    <enum name="GX_SHADOW_FILTER_LEVEL" type="u8">
+    <item value="0" name="0 - Low" />
+	<item value="1" name="1 - Medium" />
+	<item value="2" name="2 - High" />
   </enum>
   
    <entry>
     <name>Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Max Filter Level</name>

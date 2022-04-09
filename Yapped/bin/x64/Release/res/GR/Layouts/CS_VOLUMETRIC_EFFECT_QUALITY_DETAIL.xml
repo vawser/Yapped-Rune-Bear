@@ -1,26 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_UPSCALE_TYPE" type="u8">
+	<item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
   </enum>
   <enum name="GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_EDGE_CORRECTION_LEVEL" type="u8">
+    <item value="0" name="0 - Unknown" />
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+	<item value="3" name="3 - Unknown" />
   </enum>
   <enum name="GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_RESOLUTION" type="u8">
+	<item value="0" name="0 - Unknown" />
   </enum>
   
   <entry>
     <name>Fog Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Fog Shadow Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>padding</name>
     <type>dummy8</type>
-    <size>3</size>
+    <size>2</size>
   </entry>
   <entry>
     <name>Fog Shadow Sample Count Bias</name>
@@ -54,8 +62,8 @@
   </entry>
   <entry>
     <name>Fog Volume Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Fog Volume Upscale Type</name>
@@ -76,13 +84,13 @@
   </entry>
   <entry>
     <name>Fog Volume Shadow Enabled</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Fog Volume Force Shadow</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
   </entry>
   <entry>
     <name>Fog Volume Resolution</name>
@@ -94,7 +102,7 @@
   <entry>
     <name>padding</name>
     <type>dummy8</type>
-    <size>2</size>
+    <size>1</size>
   </entry>
 
 </layout>

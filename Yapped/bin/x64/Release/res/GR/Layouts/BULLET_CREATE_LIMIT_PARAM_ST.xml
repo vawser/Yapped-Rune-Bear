@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="ON_OFF" type="u8">
+    <item value="0" name="0 - OFF" />
+	<item value="1" name="1 - ON" />
+  </enum>
+  
   <entry>
     <name>Max Amount - By Group</name>
     <type>u8</type>
@@ -7,11 +12,11 @@
   </entry>
   <entry>
     <name>Is Limited for each Owner</name>
-    <type>b8</type>
-    <default>False</default>
+    <type>u8</type>
+    <default>0</default>
+    <enum>ON_OFF</enum>
   </entry>
   
-  <!-- Verified zero -->
   <entry>
     <name>padding</name>
     <type>dummy8</type>

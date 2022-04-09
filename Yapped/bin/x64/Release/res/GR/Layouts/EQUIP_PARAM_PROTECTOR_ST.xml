@@ -1,12 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <enum name="EQUIP_MODEL_CATEGORY" type="u8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Arms" />
+    <item value="2" name="2 - Body" />
+    <item value="4" name="4 - Hair" />
+    <item value="5" name="5 - Head" />
+    <item value="6" name="6 - Legs" />
   </enum>
   <enum name="EQUIP_MODEL_GENDER" type="u8">
+    <item value="0" name="0 - None" />
+    <item value="1" name="1 - Male" />
+    <item value="2" name="2 - Female" />
+    <item value="3" name="3 - Unknown" />
+    <item value="4" name="4 - No Gender" />
   </enum>
   <enum name="PROTECTOR_CATEGORY" type="u8">
+    <item value="0" name="0 - Head" />
+    <item value="1" name="1 - Body" />
+    <item value="2" name="2 - Arms" />
+    <item value="3" name="3 - Legs" />
+    <item value="4" name="4 - Hair" />
   </enum>
+  
   <enum name="ATK_PARAM_PARTSDMGTYPE" type="u8">
+  </enum>
+  
+  <enum name="RARITY" type="u8">
+    <item value="0" name="0 - Default" />
+	<item value="1" name="1 - Common" />
+	<item value="2" name="2 - Rare" />
+	<item value="3" name="3 - Legendary" />
   </enum>
   
   <entry>
@@ -378,6 +402,7 @@
     <name>Rarity</name>
     <type>u8</type>
     <default>0</default>
+    <enum>RARITY</enum>
   </entry>
   <entry>
     <name>Sort Group ID</name>

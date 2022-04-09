@@ -1020,13 +1020,13 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Attack Attribute</name>
     <type>u8</type>
-    <default>0</default>
+    <default>254</default>
     <enum>ATKPARAM_ATKATTR_TYPE</enum>
   </entry>
   <entry>
     <name>Effect Attribute</name>
     <type>u8</type>
-    <default>0</default>
+    <default>254</default>
     <enum>ATKPARAM_SPATTR_TYPE</enum>
   </entry>
   <entry>
@@ -1731,24 +1731,24 @@ Enemies - Requires State Info 152</description>
     <default>1</default>
   </entry>
   <entry>
-    <name>Power +: Slash</name>
+    <name>Damage +: Slash</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Damage +: Strike</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Damage +: Thrust</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Damage +: Standard</name>
     <type>f32</type>
-    <default>1</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Correction +: STR</name>
@@ -1798,7 +1798,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Madness Damage Rate %</name>
     <type>u8</type>
-    <default>0</default>
+    <default>100</default>
   </entry>
   <entry>
     <name>Use Status Ailment Attack Power Correction</name>
@@ -1848,7 +1848,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Absorption %: Poise Damage</name>
     <type>f32</type>
-    <default>0</default>
+    <default>1</default>
   </entry>
   <entry>
     <name>PVP Absorption %: Physical</name>
@@ -2101,7 +2101,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Decal Deletion Group ID</name>
     <type>s16</type>
-    <default>0</default>
+    <default>-1</default>
   </entry>
   <entry>
     <name>Vigor</name>
@@ -2224,7 +2224,7 @@ Enemies - Requires State Info 152</description>
   <entry>
     <name>Sleep Damage Rate %</name>
     <type>u8</type>
-    <default>0</default>
+    <default>100</default>
   </entry>
   <entry>
     <name>Apply Parts Group</name>

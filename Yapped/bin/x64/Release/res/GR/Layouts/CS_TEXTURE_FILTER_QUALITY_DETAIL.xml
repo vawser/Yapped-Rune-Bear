@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
-   
   <enum name="GX_TEXTURE_FILTER" type="u8">
+	<item value="1" name="1 - Unknown" />
+	<item value="2" name="2 - Unknown" />
+	<item value="3" name="3 - Unknown" />
   </enum>
   
    <entry>

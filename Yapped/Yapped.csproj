@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tools\AffinityGenerator.cs" />
     <Compile Include="StringToFormula.cs" />
     <Compile Include="CryptographyUtility.cs" />
     <Compile Include="FormReferenceFinder.cs">
