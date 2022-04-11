@@ -222,6 +222,7 @@
     <type>u8</type>
     <default>0</default>
     <enum>MAGIC_MOTION_TYPE</enum>
+    <description>Offset for TAE animation. 0 is a400</description>
   </entry>
   <entry>
     <name>Open Menu Type</name>

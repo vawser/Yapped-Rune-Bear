@@ -21,6 +21,7 @@
     <name>Sword Arts Type</name>
     <type>u8</type>
     <default>0</default>
+    <description>Offset for TAE animation. 0 is a600</description>
   </entry>
   <entry>
     <name>Arts Speed Type</name>

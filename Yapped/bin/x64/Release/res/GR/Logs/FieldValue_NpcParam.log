@@ -1,113 +1,1291 @@
-Row ID;Row Name;Enemy Type: Unknown B
-21900000;Radagon;True
-21900078;Radagon [Tier 18];True
-21910000;Radagon - Crucified;True
-22000000;Elden Beast;True
-22000078;Elden Beast [Tier 18];True
-25000000;Crucible Knight;True
-25000010;Crucible Knight [Tier 4];True
-25000014;Crucible Knight [Tier 4];True
-25000030;Crucible Knight [Tier 9];True
-25000034;Crucible Knight [Tier 11];True
-25000042;Crucible Knight [Tier 16];True
-25000065;Crucible Knight [Tier 10];True
-25000100;Crucible Knight;True
-25000165;Crucible Knight [Tier 10];True
-25000172;Crucible Knight [Tier 15];True
-25000865;Crucible Knight [Tier 10];True
-25000933;Crucible Knight [Tier 10];True
-25000941;Crucible Knight [Tier 9];True
-25001000;Crucible Knight;True
-25001034;Crucible Knight [Tier 11];True
-25001065;Crucible Knight [Tier 10];True
-25001066;Crucible Knight [Tier 14];True
-25001100;Crucible Knight;True
-25001134;Crucible Knight [Tier 11];True
-25001165;Crucible Knight [Tier 10];True
-25001933;Crucible Knight [Tier 10];True
-25006000;Crucible Knight;True
-25006020;Crucible Knight [Tier 7];True
-25006100;Crucible Knight;True
-25006120;Crucible Knight [Tier 7];True
-25007000;Crucible Knight;True
-25007020;Crucible Knight [Tier 7];True
-25007100;Crucible Knight;True
-25007120;Crucible Knight [Tier 7];True
-25009000;Crucible Knight;True
-25009038;Crucible Knight [Tier 12];True
-25009138;Crucible Knight [Tier 12];True
-32500000;Draconic Tree Sentinel;True
-32500033;Draconic Tree Sentinel [Tier 12];True
-32500070;Draconic Tree Sentinel [Tier 16];True
-32500072;Draconic Tree Sentinel [Tier 15];True
-32510000;Tree Sentinel;True
-32510010;Tree Sentinel [Tier 4];True
-32510030;Tree Sentinel [Tier 11];True
-32510034;Tree Sentinel [Tier 11];True
-32510070;Tree Sentinel [Tier 16];True
-32511000;Tree Sentinel;True
-32511030;Tree Sentinel [Tier 11];True
-39010000;Godskin Monk;True
-39010038;Godskin Monk [Tier 12];True
-39011000;Godskin Monk;True
-39011042;Godskin Monk [Tier 16];True
-42600000;Burial Watchdog;True
-42600100;Burial Watchdog;True
-42600110;Burial Watchdog;True
-42600500;Burial Watchdog;True
-42600512;Burial Watchdog;True
-42600600;Burial Watchdog;True
-42600940;Burial Watchdog;True
-42601000;Burial Watchdog;True
-42601100;Burial Watchdog;True
-42601500;Burial Watchdog;True
-42601600;Burial Watchdog;True
-42601920;Burial Watchdog;True
-42601940;Burial Watchdog;True
-42602000;Burial Watchdog;True
-42602100;Burial Watchdog;True
-42602500;Burial Watchdog;True
-42602600;Burial Watchdog;True
-42602932;Burial Watchdog;True
-42603000;Burial Watchdog;True
-42603100;Burial Watchdog;True
-42603500;Burial Watchdog;True
-42603600;Burial Watchdog;True
-42604000;Burial Watchdog;True
-42604100;Burial Watchdog;True
-42604150;Burial Watchdog;True
-42604152;Burial Watchdog;True
-42604500;Burial Watchdog;True
-42604600;Burial Watchdog;True
-42604650;Burial Watchdog;True
-42604652;Burial Watchdog;True
-42605000;Burial Watchdog;True
-42605100;Burial Watchdog;True
-42605150;Burial Watchdog;True
-42605152;Burial Watchdog;True
-42605500;Burial Watchdog;True
-42605600;Burial Watchdog;True
-47200000;Godfrey, First Elden Lord;True
-47200070;Godfrey, First Elden Lord [Tier 17];True
-47200100;Godfrey, First Elden Lord;True
-47200134;Godfrey, First Elden Lord [Tier 12];True
-47210000;Hoarah Loux;True
-47210070;Hoarah Loux [Tier 17];True
-47500000;Godrick the Grafted;True
-47500014;Godrick the Grafted [Tier 5];True
-47500030;Godrick the Grafted [Tier 11];True
-47501000;Godrick the Grafted;True
-47510000;Godrick - Head and Torso;True
-47510014;Godrick - Head and Torso [Tier 4];True
-48100000;Erdtree Avatar;True
-48100012;Erdtree Avatar [Tier 5];True
-48100020;Erdtree Avatar [Tier 9];True
-48100034;Erdtree Avatar [Tier 11];True
-48100040;Erdtree Avatar [Tier 10];True
-48100066;Erdtree Avatar [Tier 11];True
-48100100;Erdtree Avatar;True
-48100150;Erdtree Avatar [Tier 15];True
-48100920;Erdtree Avatar [Tier 9];True
-48109990;Erdtree Avatar;True
-48109991;Erdtree Avatar;True
-48109992;Erdtree Avatar;True
+Row ID;Row Name;Lock Camera Param ID
+20310000;Rennala, Queen of the Full Moon;2031
+20310024;Rennala, Queen of the Full Moon [Boss] - Liurnia (Academy of Raya Lucaria) - Phase 2;2031
+20310100;Rennala, Queen of the Full Moon;2031
+20310124;Rennala, Queen of the Full Moon [Tier 8];2031
+21100000;Beast Clergyman;2110
+21100072;Beast Clergyman [Boss] - Crumbling Farum Azula - Phase 1;2110
+21101000;Maliketh, The Black Blade;2110
+21101072;Maliketh, The Black Blade [Boss] - Crumbling Farum Azula - Phase 2;2110
+21102000;Beast Clergyman;2110
+21109000;Gurranq, Beast Clergyman;2110
+21109042;Gurranq, Beast Clergyman [Tier 16];2110
+22000000;Elden Beast;2200
+22000078;Elden Beast [Boss] - Elden Throne;2200
+30106000;Banished Knight;3015
+30106051;Banished Knight [Tier 14];3015
+30107000;Banished Knight;3015
+30107051;Banished Knight [Tier 14];3015
+30108000;Banished Knight;3015
+30500000;Commander Niall;3050
+30500051;Commander Niall [Boss] - Mountaintops of the Giants (Castle Sol);3050
+30500100;Commander O'Neil ;3050
+30500140;Commander O'Neil [Boss] - Caelid (Aeonia Swamp Middle);3050
+30509999;Commander;3050
+31800000;Dog;3181
+31800020;Dog [Tier 7];3181
+31800021;Dog [Tier 7];3181
+31800052;Dog [Tier 17];3180
+31809000;Dog;3181
+31809020;Dog [Tier 7];3181
+31810000;Red Wolf of Radagon;3181
+31810020;Red Wolf of Radagon [Tier 7];3181
+31810022;Red Wolf of Radagon [Tier 14];3181
+31810052;Red Wolf of Radagon [Tier 17];3181
+31810065;Red Wolf of Radagon [Tier 10];3181
+31811000;Red Wolf of Radagon;3181
+31811024;Red Wolf of Radagon [Boss] - Liurnia (Academy of Raya Lucaria);3181
+31811032;Red Wolf of Radagon [Boss] - Mt. Gelmir (Gelmir's Hero Grave);3181
+31811052;Red Wolf of Radagon [Tier 17];3181
+32100000;Nomad Mule;3210
+32100010;Nomad Mule [Tier 2];3210
+32100012;Nomad Mule [Tier 3];3210
+32100030;Nomad Mule [Tier 9];3210
+32100032;Nomad Mule [Tier 10];3210
+32100210;Nomad Mule [Tier 2];3210
+32101010;Nomad Mule [Tier 2];3210
+32101110;Nomad Mule [Tier 2];3210
+32101210;Nomad Mule [Tier 2];3210
+32101310;Nomad Mule [Tier 2];3210
+32101412;Nomad Mule [Tier 3];3210
+32101520;Nomad Mule [Tier 7];3210
+32101612;Nomad Mule [Tier 3];3210
+32101720;Nomad Mule [Tier 7];3210
+32101820;Nomad Mule [Tier 7];3210
+32101933;Nomad Mule [Tier 10];3210
+32102030;Nomad Mule [Tier 9];3210
+32102132;Nomad Mule [Tier 10];3210
+32102240;Nomad Mule [Tier 8];3210
+32102340;Nomad Mule [Tier 8];3210
+32102542;Nomad Mule [Tier 16];3210
+32102650;Nomad Mule [Tier 13];3210
+32102764;Nomad Mule [Tier 7];3210
+32102860;Nomad Mule [Tier 6];3210
+32102968;Nomad Mule [Tier 18];3210
+32103010;Nomad Mule [Tier 2];3210
+32108900;Nomad Mule;3210
+32109000;Nomad Mule;3210
+32109010;Nomad Mule;3210
+32109100;Nomad Mule;3210
+32109200;Nomad Mule [Tier 2];3210
+32109300;Nomad Mule;3210
+32109400;Nomad Mule;3210
+32109500;Nomad Mule;3210
+32109600;Nomad Mule;3210
+32109700;Nomad Mule;3210
+32109800;Nomad Mule;3210
+32109810;Nomad Mule [Tier 2];3210
+32109900;Nomad Mule;3210
+32500000;Draconic Tree Sentinel;3250
+32500033;Draconic Tree Sentinel [Boss] - Altus Plateau (Capital Outskirts);3250
+32500070;Draconic Tree Sentinel [Tier 16];3250
+32500072;Draconic Tree Sentinel [Tier 15];3250
+32510000;Tree Sentinel - Shield;3251
+32510010;Tree Sentinel - Shield [Boss] - Limgrave;3251
+32510030;Tree Sentinel - Shield [Boss] - Altus Plateau (Capital Outskirts);3251
+32510034;Tree Sentinel - Shield [Tier 11];3251
+32510070;Tree Sentinel - Shield [Tier 16];3251
+32511000;Tree Sentinel - Torch;3251
+32511030;Tree Sentinel - Torch [Boss] - Altus Plateau (Capital Outskirts);3251
+32520000;Loretta, Knight of the Haligtree;3252
+32520054;Loretta, Knight of the Haligtree [Boss] - Miquella's Haligtree;3252
+32520100;Royal Knight Loretta;3252
+32520921;Royal Knight Loretta [Boss] - Liurnia (Carian Manor);3252
+34715000;Albinauric;3470
+34715100;Albinauric;3470
+34715120;Albinauric;3470
+34715200;Albinauric;3470
+34715268;Albinauric;3470
+34715300;Albinauric;3470
+34715352;Albinauric;3470
+35600000;Godskin Apostle;3560
+35600030;Godskin Apostle  [Boss] - Altus Plateau (Windmill Village);3560
+35600040;Godskin Apostle  [Tier 8];3560
+35600042;Godskin Apostle  [Boss] - Caelid (Divine Tower of Caelid);3560
+35600100;Godskin Apostle;3560
+35600172;Godskin Apostle [Tier 15];3560
+35600900;Godskin Apostle;3560
+35600950;Godskin Apostle [Boss] - Mountaintops of the Giants (Spiritcaller Cave);3560
+35600972;Godskin Apostle [Boss] - Crumbling Farum Azula;3560
+35700000;Godskin Noble;3570
+35700028;Godskin Noble [Tier 11];3570
+35700038;Godskin Noble [Boss] - Mt. Gelmir (Volcano Manor);3570
+35700100;Godskin Noble;3570
+35700172;Godskin Noble [Boss] - Crumbling Farum Azula;3570
+35700950;Godskin Noble [Boss] - Mountaintops of the Giants (Spiritcaller Cave);3570
+36000000;Alabaster Lord;3600
+36000010;Alabaster Lord [Tier 2];3600
+36000012;Alabaster Lord [Tier 3];3600
+36000024;Alabaster Lord [Tier 7];3600
+36000052;Alabaster Lord [Tier 17];3600
+36000062;Alabaster Lord [Tier 12];3600
+36001000;Alabaster Lord;3600
+36001052;Alabaster Lord [Tier 17];3600
+36001920;Alabaster Lord [Boss] - Liurnia;3600
+36001933;Onyx Lord [Boss] - Altus Plateau;3600
+36200000;Large Oracle Envoy;3620
+36200034;Large Oracle Envoy [Tier 11];3620
+36200054;Large Oracle Envoy [Tier 19];3620
+36300000;Giant Oracle Envoy;3630
+36300054;Giant Oracle Envoy [Tier 19];3630
+36640000;Cemetery Shade;3664
+36640012;Cemetery Shade [Boss] - Limgrave (Tombsward Catacombs);3664
+36640032;Cemetery Shade;3664
+36640035;Cemetery Shade;3664
+36640040;Cemetery Shade [Boss] - Caelid (Caelid Catacombs);3664
+36640920;Cemetery Shade [Boss] - Liurnia (Black Knife Catacombs);3664
+36700000;Albinauric Lookout;3670
+36700042;Albinauric Lookout;3670
+36700100;Albinauric Lookout;3670
+36700120;Albinauric Lookout;3670
+36700134;Albinauric Lookout;3670
+36701000;Albinauric Lookout;3670
+36701021;Albinauric Lookout;3670
+36701038;Albinauric Lookout;3670
+36701042;Albinauric Lookout;3670
+36701100;Albinauric Lookout;3670
+36701120;Albinauric Lookout;3670
+36701121;Albinauric Lookout;3670
+36701138;Albinauric Lookout;3670
+36701200;Albinauric Lookout;3670
+36702000;Albinauric Lookout;3670
+36702038;Albinauric Lookout;3670
+36702051;Albinauric Lookout;3670
+36702100;Albinauric Lookout;3670
+36702138;Albinauric Lookout;3670
+36702151;Albinauric Lookout;3670
+36702200;Albinauric Lookout;3670
+36702238;Albinauric Lookout;3670
+36702251;Albinauric Lookout;3670
+36703000;Albinauric Lookout;3670
+36703034;Albinauric Lookout;3670
+36703038;Albinauric Lookout;3670
+36703051;Albinauric Lookout;3670
+36704000;Albinauric Lookout;3670
+36704020;Albinauric Lookout;3670
+36708000;Albinauric Lookout;3670
+36708020;Albinauric Lookout;3670
+36709000;Albinauric Lookout;3670
+36709020;Albinauric Lookout;3670
+36709120;Albinauric Lookout;3670
+36709920;Albinauric Lookout;3670
+37040000;Battlemage;3704
+37040020;Battlemage;3704
+37040040;Battlemage;3704
+37040054;Battlemage;3704
+37040800;Battlemage;3704
+37040830;Battlemage;3704
+37040940;Battlemage Hugues [Boss] - Caelid;3704
+38100000;Kindred of Rot;3810
+38100040;Kindred of Rot;3810
+38100056;Kindred of Rot;3810
+38100062;Kindred of Rot;3810
+38100932;Kindred of Rot [Boss] - Mt. Gelmir (Seethewater Cave);3810
+38101000;Kindred of Rot;3810
+38101040;Kindred of Rot;3810
+38101056;Kindred of Rot;3810
+38102000;Kindred of Rot;3810
+38102056;Kindred of Rot;3810
+38102932;Kindred of Rot [Boss] - Mt. Gelmir (Seethewater Cave);3810
+38103000;Kindred of Rot;3810
+38103040;Kindred of Rot;3810
+38103056;Kindred of Rot;3810
+38109000;Kindred of Rot;3810
+38109040;Kindred of Rot;3810
+39100000;Fire Prelate;3910
+39100032;Fire Prelate;3910
+39100050;Fire Prelate;3910
+39100100;Fire Prelate;3910
+39100150;Fire Prelate;3910
+39100200;Fire Prelate;3910
+39100250;Fire Prelate;3910
+39101000;Fire Prelate;3910
+39101050;Fire Prelate;3910
+39101100;Fire Prelate;3910
+39101150;Fire Prelate;3910
+39504000;Man-Serpent;3950
+39504038;Man-Serpent;3950
+39509000;Man-Serpent;3950
+39509038;Man-Serpent;3950
+39509138;Man-Serpent;3950
+40200000;Royal Revenant;4020
+40200003;Royal Revenant;4020
+40200020;Royal Revenant;4020
+40200022;Royal Revenant;4020
+40200030;Royal Revenant;4020
+40200031;Royal Revenant;4020
+40200035;Royal Revenant;4020
+40200040;Royal Revenant;4020
+40200056;Royal Revenant;4020
+40200100;Royal Revenant;4020
+40200130;Royal Revenant;4020
+40200920;Royal Revenant [Boss] - Liurnia (Kingsrealm Ruins);4020
+40208000;Royal Revenant;4020
+40208020;Royal Revenant;4020
+40208022;Royal Revenant;4020
+40208030;Royal Revenant;4020
+40208031;Royal Revenant;4020
+40208035;Royal Revenant;4020
+40208040;Royal Revenant;4020
+40208056;Royal Revenant;4020
+40208100;Royal Revenant;4020
+40208122;Royal Revenant;4020
+40208130;Royal Revenant;4020
+40208131;Royal Revenant;4020
+40208156;Royal Revenant;4020
+40208200;Royal Revenant;4020
+40208230;Royal Revenant;4020
+40208256;Royal Revenant;4020
+40208300;Royal Revenant;4020
+40208356;Royal Revenant;4020
+40208400;Royal Revenant;4020
+40208456;Royal Revenant;4020
+40600000;Horse;4060
+40600010;Horse;4060
+40600052;Horse;4060
+40800000;Rat;4080
+40800010;Rat;4080
+40800012;Rat;4080
+40800013;Rat;4080
+40800014;Rat;4080
+40800020;Rat;4080
+40800028;Rat;4080
+40800030;Rat;4080
+40800032;Rat;4080
+40800034;Rat;4080
+40800035;Rat;4080
+40800040;Rat;4080
+40800042;Rat;4080
+40800050;Rat;4080
+40800051;Rat;4080
+40800052;Rat;4080
+40800054;Rat;4080
+40800064;Rat;4080
+40800065;Rat;4080
+40800100;Rat;4080
+40800134;Rat;4080
+40800210;Rat;4080
+40800212;Rat;4080
+40800300;Rat;4080
+40800312;Rat;4080
+40800320;Rat;4080
+40800352;Rat;4080
+41200000;Demi-Human Beastman;4120
+41200009;Demi-Human Beastman;4120
+41200012;Demi-Human Beastman;4120
+41200020;Demi-Human Beastman;4120
+41200030;Demi-Human Beastman;4120
+41200032;Demi-Human Beastman;4120
+41200040;Demi-Human Beastman;4120
+41200042;Demi-Human Beastman;4120
+41200050;Demi-Human Beastman;4120
+41200100;Demi-Human Beastman;4120
+41200910;Demi-Human Beastman [Boss] - Limgrave (Coastal Cave);4120
+41300000;Demi-Human Queen;4130
+41300012;Demi-Human Queen;4130
+41300032;Demi-Human Queen [Boss] - Mt. Gelmir (Hermit Village);4130
+41301000;Demi-Human Queen;4130
+41301030;Demi-Human Queen [Boss] - Altus Plateau (Lux Ruins);4130
+41301932;Demi-Human Queen [Boss] - Mt. Gelmir (Volcano Cave);4130
+41900000;Large Tear Scarab;4190
+41900050;Large Tear Scarab;4190
+41900052;Large Tear Scarab;4190
+41901000;Large Tear Scarab;4190
+41901050;Large Tear Scarab;4190
+41901052;Large Tear Scarab;4190
+41902000;Large Tear Scarab;4190
+41902020;Large Tear Scarab;4190
+41902032;Large Tear Scarab;4190
+41902050;Large Tear Scarab;4190
+41902052;Large Tear Scarab;4190
+41902100;Large Tear Scarab;4190
+41902150;Large Tear Scarab;4190
+41902152;Large Tear Scarab;4190
+41902200;Large Tear Scarab;4190
+41902250;Large Tear Scarab;4190
+41902252;Large Tear Scarab;4190
+41903000;Large Tear Scarab;4190
+41903050;Large Tear Scarab;4190
+41903052;Large Tear Scarab;4190
+41903100;Large Tear Scarab;4190
+41903150;Large Tear Scarab;4190
+41903152;Large Tear Scarab;4190
+41903200;Large Tear Scarab;4190
+41903250;Large Tear Scarab;4190
+41903252;Large Tear Scarab;4190
+41904000;Large Tear Scarab;4190
+41904050;Large Tear Scarab;4190
+41904052;Large Tear Scarab;4190
+41904100;Large Tear Scarab;4190
+41904150;Large Tear Scarab;4190
+41904152;Large Tear Scarab;4190
+41904200;Large Tear Scarab;4190
+41904250;Large Tear Scarab;4190
+41904252;Large Tear Scarab;4190
+41905000;Large Tear Scarab;4190
+41905050;Large Tear Scarab;4190
+41905052;Large Tear Scarab;4190
+41905100;Large Tear Scarab;4190
+41905200;Large Tear Scarab;4190
+41905364;Large Tear Scarab;4190
+41906110;Large Tear Scarab;4190
+41907310;Large Tear Scarab;4190
+41908110;Large Tear Scarab;4190
+41909112;Large Tear Scarab;4190
+41910000;Tear Scarab;4191
+41910010;Tear Scarab;4191
+41910012;Tear Scarab;4191
+41910020;Tear Scarab;4191
+41910022;Tear Scarab;4191
+41910030;Tear Scarab;4191
+41910032;Tear Scarab;4191
+41910035;Tear Scarab;4191
+41910040;Tear Scarab;4191
+41910041;Tear Scarab;4191
+41910050;Tear Scarab;4191
+41910052;Tear Scarab;4191
+41910054;Tear Scarab;4191
+41910056;Tear Scarab;4191
+41910060;Tear Scarab;4191
+41910062;Tear Scarab;4191
+41910064;Tear Scarab;4191
+41910065;Tear Scarab;4191
+41910066;Tear Scarab;4191
+41910068;Tear Scarab;4191
+41911000;Tear Scarab;4191
+41911010;Tear Scarab;4191
+41911020;Tear Scarab;4191
+41911022;Tear Scarab;4191
+41911030;Tear Scarab;4191
+41911035;Tear Scarab;4191
+41911050;Tear Scarab;4191
+41911052;Tear Scarab;4191
+41911054;Tear Scarab;4191
+41911056;Tear Scarab;4191
+41911060;Tear Scarab;4191
+41911062;Tear Scarab;4191
+41911064;Tear Scarab;4191
+41911065;Tear Scarab;4191
+41911066;Tear Scarab;4191
+41911068;Tear Scarab;4191
+41912000;Tear Scarab;4191
+41912010;Tear Scarab;4191
+41912012;Tear Scarab;4191
+41912014;Tear Scarab;4191
+41912020;Tear Scarab;4191
+41912024;Tear Scarab;4191
+41912030;Tear Scarab;4191
+41912032;Tear Scarab;4191
+41912033;Tear Scarab;4191
+41912034;Tear Scarab;4191
+41912040;Tear Scarab;4191
+41912041;Tear Scarab;4191
+41912042;Tear Scarab;4191
+41912050;Tear Scarab;4191
+41912052;Tear Scarab;4191
+41912054;Tear Scarab;4191
+41912056;Tear Scarab;4191
+41912060;Tear Scarab;4191
+41912062;Tear Scarab;4191
+41912064;Tear Scarab;4191
+41912065;Tear Scarab;4191
+41912066;Tear Scarab;4191
+41912068;Tear Scarab;4191
+41912072;Tear Scarab;4191
+41912100;Tear Scarab;4191
+41912150;Tear Scarab;4191
+41912152;Tear Scarab;4191
+41912160;Tear Scarab;4191
+41912162;Tear Scarab;4191
+41912164;Tear Scarab;4191
+41912165;Tear Scarab;4191
+41912166;Tear Scarab;4191
+41912168;Tear Scarab;4191
+41912200;Tear Scarab;4191
+41912220;Tear Scarab;4191
+41912230;Tear Scarab;4191
+41912233;Tear Scarab;4191
+41912240;Tear Scarab;4191
+41912250;Tear Scarab;4191
+41912252;Tear Scarab;4191
+41912260;Tear Scarab;4191
+41912262;Tear Scarab;4191
+41912264;Tear Scarab;4191
+41912265;Tear Scarab;4191
+41912266;Tear Scarab;4191
+41912268;Tear Scarab;4191
+41913000;Tear Scarab;4191
+41913014;Tear Scarab;4191
+41913020;Tear Scarab;4191
+41913024;Tear Scarab;4191
+41913032;Tear Scarab;4191
+41913035;Tear Scarab;4191
+41913050;Tear Scarab;4191
+41913052;Tear Scarab;4191
+41913054;Tear Scarab;4191
+41913056;Tear Scarab;4191
+41913060;Tear Scarab;4191
+41913062;Tear Scarab;4191
+41913064;Tear Scarab;4191
+41913065;Tear Scarab;4191
+41913066;Tear Scarab;4191
+41913068;Tear Scarab;4191
+41913072;Tear Scarab;4191
+41913100;Tear Scarab;4191
+41913150;Tear Scarab;4191
+41913152;Tear Scarab;4191
+41913160;Tear Scarab;4191
+41913162;Tear Scarab;4191
+41913164;Tear Scarab;4191
+41913165;Tear Scarab;4191
+41913166;Tear Scarab;4191
+41913168;Tear Scarab;4191
+41913200;Tear Scarab;4191
+41913250;Tear Scarab;4191
+41913252;Tear Scarab;4191
+41913260;Tear Scarab;4191
+41913262;Tear Scarab;4191
+41913264;Tear Scarab;4191
+41913265;Tear Scarab;4191
+41913266;Tear Scarab;4191
+41913268;Tear Scarab;4191
+41914000;Tear Scarab;4191
+41914012;Tear Scarab;4191
+41914014;Tear Scarab;4191
+41914020;Tear Scarab;4191
+41914030;Tear Scarab;4191
+41914032;Tear Scarab;4191
+41914034;Tear Scarab;4191
+41914040;Tear Scarab;4191
+41914042;Tear Scarab;4191
+41914050;Tear Scarab;4191
+41914052;Tear Scarab;4191
+41914054;Tear Scarab;4191
+41914056;Tear Scarab;4191
+41914060;Tear Scarab;4191
+41914062;Tear Scarab;4191
+41914064;Tear Scarab;4191
+41914065;Tear Scarab;4191
+41914066;Tear Scarab;4191
+41914068;Tear Scarab;4191
+41914072;Tear Scarab;4191
+41914100;Tear Scarab;4191
+41914150;Tear Scarab;4191
+41914152;Tear Scarab;4191
+41914160;Tear Scarab;4191
+41914162;Tear Scarab;4191
+41914164;Tear Scarab;4191
+41914165;Tear Scarab;4191
+41914166;Tear Scarab;4191
+41914168;Tear Scarab;4191
+41914200;Tear Scarab;4191
+41914212;Tear Scarab;4191
+41914250;Tear Scarab;4191
+41914252;Tear Scarab;4191
+41914260;Tear Scarab;4191
+41914262;Tear Scarab;4191
+41914264;Tear Scarab;4191
+41914265;Tear Scarab;4191
+41914266;Tear Scarab;4191
+41914268;Tear Scarab;4191
+41915000;Tear Scarab;4191
+41915010;Tear Scarab;4191
+41915020;Tear Scarab;4191
+41915026;Tear Scarab;4191
+41915030;Tear Scarab;4191
+41915035;Tear Scarab;4191
+41915038;Tear Scarab;4191
+41915040;Tear Scarab;4191
+41915042;Tear Scarab;4191
+41915050;Tear Scarab;4191
+41915052;Tear Scarab;4191
+41915062;Tear Scarab;4191
+41915065;Tear Scarab;4191
+41915066;Tear Scarab;4191
+41915100;Tear Scarab;4191
+41915150;Tear Scarab;4191
+41915200;Tear Scarab;4191
+41915220;Tear Scarab;4191
+41915535;Tear Scarab;4191
+41915540;Tear Scarab;4191
+41915542;Tear Scarab;4191
+41915554;Tear Scarab;4191
+41915560;Tear Scarab;4191
+41915562;Tear Scarab;4191
+41915564;Tear Scarab;4191
+41915565;Tear Scarab;4191
+41915566;Tear Scarab;4191
+41915568;Tear Scarab;4191
+41916160;Tear Scarab;4191
+41916162;Tear Scarab;4191
+41916164;Tear Scarab;4191
+41916165;Tear Scarab;4191
+41916166;Tear Scarab;4191
+41917364;Tear Scarab;4191
+41917365;Tear Scarab;4191
+41917366;Tear Scarab;4191
+41918062;Tear Scarab;4191
+41918064;Tear Scarab;4191
+41918065;Tear Scarab;4191
+41918066;Tear Scarab;4191
+41918068;Tear Scarab;4191
+41918120;Tear Scarab;4191
+41918140;Tear Scarab;4191
+41918940;Tear Scarab;4191
+41919062;Tear Scarab;4191
+41919064;Tear Scarab;4191
+41919065;Tear Scarab;4191
+41919068;Tear Scarab;4191
+41919140;Tear Scarab;4191
+41920000;Ash Scarab;4192
+41920040;Ash Scarab;4192
+41920042;Ash Scarab;4192
+41921000;Ash Scarab;4192
+41921040;Ash Scarab;4192
+41921042;Ash Scarab;4192
+41922000;Ash Scarab;4192
+41922020;Ash Scarab;4192
+41922050;Ash Scarab;4192
+41922052;Ash Scarab;4192
+41922200;Ash Scarab;4192
+41922250;Ash Scarab;4192
+41922252;Ash Scarab;4192
+41923000;Ash Scarab;4192
+41923050;Ash Scarab;4192
+41923052;Ash Scarab;4192
+41923200;Ash Scarab;4192
+41923250;Ash Scarab;4192
+41923252;Ash Scarab;4192
+41924000;Ash Scarab;4192
+41924050;Ash Scarab;4192
+41924052;Ash Scarab;4192
+41924200;Ash Scarab;4192
+41924250;Ash Scarab;4192
+41924252;Ash Scarab;4192
+41925000;Ash Scarab;4192
+41925050;Ash Scarab;4192
+41925052;Ash Scarab;4192
+41925200;Ash Scarab;4192
+41925250;Ash Scarab;4192
+41927064;Ash Scarab;4192
+42200000;Giant Land Octopus;4220
+42200010;Giant Land Octopus;4220
+42200012;Giant Land Octopus;4220
+42200020;Giant Land Octopus;4220
+42200026;Giant Land Octopus;4220
+42200032;Giant Land Octopus;4220
+42200040;Giant Land Octopus;4220
+42200050;Giant Land Octopus;4220
+42200052;Giant Land Octopus;4220
+42200064;Giant Land Octopus;4220
+42400000;Large Fingercreeper;4240
+42400020;Large Fingercreeper;4240
+42400021;Large Fingercreeper;4240
+42400032;Large Fingercreeper;4240
+42400034;Large Fingercreeper;4240
+42400035;Large Fingercreeper;4240
+42400100;Large Fingercreeper;4240
+42400150;Large Fingercreeper;4240
+42400200;Large Fingercreeper;4240
+42400221;Large Fingercreeper;4240
+42405000;Large Fingercreeper;4240
+42405050;Large Fingercreeper;4240
+42405100;Large Fingercreeper;4240
+42405150;Large Fingercreeper;4240
+42405200;Large Fingercreeper;4240
+42405250;Large Fingercreeper;4240
+42405300;Large Fingercreeper;4240
+42405350;Large Fingercreeper;4240
+42405400;Large Fingercreeper;4240
+42405450;Large Fingercreeper;4240
+42405500;Large Fingercreeper;4240
+42405550;Large Fingercreeper;4240
+42405600;Large Fingercreeper;4240
+42405650;Large Fingercreeper;4240
+42405700;Large Fingercreeper;4240
+42405750;Large Fingercreeper;4240
+42405800;Large Fingercreeper;4240
+42405850;Large Fingercreeper;4240
+42406000;Large Fingercreeper;4240
+42406050;Large Fingercreeper;4240
+42406100;Large Fingercreeper;4240
+42406150;Large Fingercreeper;4240
+42406200;Large Fingercreeper;4240
+42406250;Large Fingercreeper;4240
+42406300;Large Fingercreeper;4240
+42406350;Large Fingercreeper;4240
+42406400;Large Fingercreeper;4240
+42406450;Large Fingercreeper;4240
+42407000;Large Fingercreeper;4240
+42407020;Large Fingercreeper;4240
+42407021;Large Fingercreeper;4240
+42407032;Large Fingercreeper;4240
+42407034;Large Fingercreeper;4240
+42407035;Large Fingercreeper;4240
+42407100;Large Fingercreeper;4240
+42407121;Large Fingercreeper;4240
+42407132;Large Fingercreeper;4240
+42407200;Large Fingercreeper;4240
+42407221;Large Fingercreeper;4240
+42407300;Large Fingercreeper;4240
+42407321;Large Fingercreeper;4240
+42407400;Large Fingercreeper;4240
+42407421;Large Fingercreeper;4240
+42407500;Large Fingercreeper;4240
+42407521;Large Fingercreeper;4240
+42407600;Large Fingercreeper;4240
+42407621;Large Fingercreeper;4240
+42407700;Large Fingercreeper;4240
+42407721;Large Fingercreeper;4240
+42407800;Large Fingercreeper;4240
+42407821;Large Fingercreeper;4240
+42408000;Large Fingercreeper;4240
+42408021;Large Fingercreeper;4240
+42408100;Large Fingercreeper;4240
+42408121;Large Fingercreeper;4240
+42408200;Large Fingercreeper;4240
+42408221;Large Fingercreeper;4240
+42408300;Large Fingercreeper;4240
+42408321;Large Fingercreeper;4240
+42408400;Large Fingercreeper;4240
+42408421;Large Fingercreeper;4240
+42408500;Large Fingercreeper;4240
+42408521;Large Fingercreeper;4240
+42408800;Large Fingercreeper;4240
+42408821;Large Fingercreeper;4240
+42410000;Giant Fingercreeper;4241
+42410100;Giant Fingercreeper;4241
+42410150;Giant Fingercreeper;4241
+42600000;Burial Watchdog - Sword;4260
+42600100;Burial Watchdog - Sword;4260
+42600110;Burial Watchdog - Sword [Boss] - Limgrave (Stormfoot Catacombs);4260
+42600500;Burial Watchdog - Sword;4260
+42600512;Burial Watchdog - Sword [Boss] - Weeping Penisula (Impaler's Catacombs);4260
+42600600;Burial Watchdog - Sword;4260
+42600940;Burial Watchdog - Sword [Boss] - Caelid (Minor Erdtree Catacombs);4260
+42601000;Burial Watchdog - Scepter;4260
+42601100;Burial Watchdog - Scepter;4260
+42601500;Burial Watchdog - Scepter;4260
+42601600;Burial Watchdog - Scepter;4260
+42601920;Burial Watchdog - Scepter [Boss] - Liurnia (Cliffbottom Catacombs);4260
+42601940;Burial Watchdog - Scepter [Boss] - Caelid (Minor Erdtree Catacombs);4260
+42602000;Burial Watchdog - Lightning Tail;4260
+42602100;Burial Watchdog - Lightning Tail;4260
+42602500;Burial Watchdog - Lightning Tail;4260
+42602600;Burial Watchdog - Lightning Tail;4260
+42602932;Burial Watchdog - Lightning Tail [Boss] - Altus Plateau (Wyndham Catacombs);4260
+42603000;Burial Watchdog;4260
+42603100;Burial Watchdog;4260
+42603500;Burial Watchdog;4260
+42603600;Burial Watchdog;4260
+42604000;Burial Watchdog;4260
+42604100;Burial Watchdog;4260
+42604150;Burial Watchdog;4260
+42604152;Burial Watchdog;4260
+42604500;Burial Watchdog;4260
+42604600;Burial Watchdog;4260
+42604650;Burial Watchdog;4260
+42604652;Burial Watchdog;4260
+42605000;Burial Watchdog;4260
+42605100;Burial Watchdog;4260
+42605150;Burial Watchdog;4260
+42605152;Burial Watchdog;4260
+42605500;Burial Watchdog;4260
+42605600;Burial Watchdog;4260
+42801100;Giant Ant;4280
+42801162;Giant Ant;4280
+43210000;Vulgar Militia;4320
+43210012;Vulgar Militia;4320
+43210020;Vulgar Militia;4320
+43210026;Vulgar Militia;4320
+43210030;Vulgar Militia;4320
+43210033;Vulgar Militia;4320
+43210040;Vulgar Militia;4320
+43210100;Vulgar Militia;4320
+43210142;Vulgar Militia;4320
+43210150;Vulgar Militia;4320
+43210152;Vulgar Militia;4320
+43211000;Vulgar Militia;4320
+43211012;Vulgar Militia;4320
+43211020;Vulgar Militia;4320
+43211026;Vulgar Militia;4320
+43211030;Vulgar Militia;4320
+43211040;Vulgar Militia;4320
+43211100;Vulgar Militia;4320
+43211142;Vulgar Militia;4320
+43211150;Vulgar Militia;4320
+43211152;Vulgar Militia;4320
+43212000;Vulgar Militia;4320
+43212012;Vulgar Militia;4320
+43212020;Vulgar Militia;4320
+43212026;Vulgar Militia;4320
+43212030;Vulgar Militia;4320
+43212033;Vulgar Militia;4320
+43212040;Vulgar Militia;4320
+43212100;Vulgar Militia;4320
+43212142;Vulgar Militia;4320
+43212150;Vulgar Militia;4320
+43212152;Vulgar Militia;4320
+43610000;Godrick Knight's Horse;4360
+43610010;Godrick Knight's Horse;4360
+43610012;Godrick Knight's Horse;4360
+43610100;Godrick Knight's Horse;4360
+43620000;Cuckoo Knight's Horse;4360
+43620020;Cuckoo Knight's Horse;4360
+43620100;Cuckoo Knight's Horse;4360
+43630000;Leyndell Knight's Horse;4360
+43630030;Leyndell Knight's Horse;4360
+43630050;Leyndell Knight's Horse;4360
+43630100;Leyndell Knight's Horse;4360
+43640000;Redmane Knight's Horse;4360
+43640040;Redmane Knight's Horse;4360
+43640100;Redmane Knight's Horse;4360
+43650000;Mausoleum Knight's Horse;4360
+43650052;Mausoleum Knight's Horse;4360
+43650066;Mausoleum Knight's Horse;4360
+43680000;Unknown;4360
+43680100;Unknown;4360
+43810000;Bloodthorn Exile;4381
+43810020;Bloodthorn Exile;4381
+43810032;Bloodthorn Exile;4381
+43810100;Bloodthorn Exile;4381
+43810132;Bloodthorn Exile;4381
+43810200;Bloodthorn Exile;4381
+43810250;Bloodthorn Exile;4381
+43810300;Bloodthorn Exile;4381
+43810350;Bloodthorn Exile;4381
+43811000;Bloodthorn Exile;4381
+43811020;Bloodthorn Exile;4381
+43811100;Bloodthorn Exile;4381
+43811150;Bloodthorn Exile;4381
+43850000;Fungal Sorcerer;4385
+43850010;Fungal Sorcerer;4385
+43850012;Fungal Sorcerer;4385
+43850020;Fungal Sorcerer;4385
+43850032;Fungal Sorcerer;4385
+43850040;Fungal Sorcerer;4385
+43850100;Fungal Sorcerer;4385
+43850110;Fungal Sorcerer;4385
+43850112;Fungal Sorcerer;4385
+43850120;Fungal Sorcerer;4385
+43850132;Fungal Sorcerer;4385
+43850140;Fungal Sorcerer;4385
+43850200;Fungal Sorcerer;4385
+43850210;Fungal Sorcerer;4385
+43850212;Fungal Sorcerer;4385
+43850220;Fungal Sorcerer;4385
+43850232;Fungal Sorcerer;4385
+43850240;Fungal Sorcerer;4385
+43858000;Fungal Sorcerer;4385
+43858040;Fungal Sorcerer;4385
+43858100;Fungal Sorcerer;4385
+43858140;Fungal Sorcerer;4385
+43858200;Fungal Sorcerer;4385
+43858240;Fungal Sorcerer;4385
+44300000;Abnormal Stone Cluster;4430
+44300010;Abnormal Stone Cluster;4430
+44300012;Abnormal Stone Cluster;4430
+44300020;Abnormal Stone Cluster;4430
+44300022;Abnormal Stone Cluster;4430
+44300030;Abnormal Stone Cluster;4430
+44300040;Abnormal Stone Cluster;4430
+44300050;Abnormal Stone Cluster;4430
+44300100;Abnormal Stone Cluster;4430
+44300110;Abnormal Stone Cluster;4430
+44300150;Abnormal Stone Cluster;4430
+44300200;Abnormal Stone Cluster;4430
+44300250;Abnormal Stone Cluster;4430
+44300300;Abnormal Stone Cluster;4430
+44300310;Abnormal Stone Cluster;4430
+44300340;Abnormal Stone Cluster;4430
+44300350;Abnormal Stone Cluster;4430
+44301000;Abnormal Stone Cluster;4430
+44301010;Abnormal Stone Cluster;4430
+44301033;Abnormal Stone Cluster;4430
+44301040;Abnormal Stone Cluster;4430
+44410000;Giant Fungal Pod;4441
+44410020;Giant Fungal Pod;4441
+44410050;Giant Fungal Pod;4441
+44420000;Giant Fungal Pod;4441
+44420040;Giant Fungal Pod;4441
+44600000;Flamethrower Tank;4460
+44600020;Flamethrower Tank;4460
+44600032;Flamethrower Tank;4460
+44600036;Flamethrower Tank;4460
+44600040;Flamethrower Tank;4460
+44600840;Flamethrower Tank;4460
+44601000;Flamethrower Tank;4460
+44601032;Flamethrower Tank;4460
+44601040;Flamethrower Tank;4460
+44601840;Flamethrower Tank;4460
+44607000;Flamethrower Tank;4460
+44607020;Flamethrower Tank;4460
+44607032;Flamethrower Tank;4460
+44607040;Flamethrower Tank;4460
+44607100;Flamethrower Tank;4460
+44607120;Flamethrower Tank;4460
+44607132;Flamethrower Tank;4460
+44607200;Flamethrower Tank;4460
+44607220;Flamethrower Tank;4460
+44607800;Flamethrower Tank;4460
+44607840;Flamethrower Tank;4460
+44608000;Flamethrower Tank;4460
+44608032;Flamethrower Tank;4460
+44608040;Flamethrower Tank;4460
+44608600;Flamethrower Tank;4460
+44608640;Flamethrower Tank;4460
+44608700;Flamethrower Tank;4460
+44608740;Flamethrower Tank;4460
+44608800;Flamethrower Tank;4460
+44608840;Flamethrower Tank;4460
+44700000;Abductor Virgin (Scythe);4470
+44700020;Abductor Virgin (Scythe);4470
+44700024;Abductor Virgin (Scythe);4470
+44700032;Abductor Virgin (Scythe);4470
+44700034;Abductor Virgin (Scythe);4470
+44700038;Abductor Virgin (Scythe);4470
+44700040;Abductor Virgin (Scythe);4470
+44700938;Abductor Virgin (Scythe) [Boss] - Mt. Gelmir (Volcano Manor);4470
+44701000;Abductor Virgin (Wheel);4470
+44701021;Abductor Virgin (Wheel);4470
+44701024;Abductor Virgin (Wheel);4470
+44701032;Abductor Virgin (Wheel);4470
+44701033;Abductor Virgin (Wheel);4470
+44701034;Abductor Virgin (Wheel);4470
+44701038;Abductor Virgin (Wheel);4470
+44701100;Abductor Virgin (Wheel);4470
+44701132;Abductor Virgin (Wheel);4470
+44701938;Abductor Virgin (Wheel) [Boss] - Mt. Gelmir (Volcano Manor);4470
+44702000;Abductor Virgin;4470
+44702041;Abductor Virgin;4470
+44900000;Living Pot - Large;4490
+44900011;Living Pot - Large;4490
+44900014;Living Pot - Large;4490
+44900020;Living Pot - Large;4490
+44900021;Living Pot - Large;4490
+44900024;Living Pot - Large;4490
+44900032;Living Pot - Large;4490
+44900033;Living Pot - Large;4490
+44900034;Living Pot - Large;4490
+44900035;Living Pot - Large;4490
+44900038;Living Pot - Large;4490
+44900050;Living Pot - Large;4490
+44900100;Living Pot - Large;4490
+44900124;Living Pot - Large;4490
+44900200;Living Pot - Large;4490
+44900320;Living Pot - Large;4490
+44907000;Living Pot - Large;4490
+44907014;Living Pot - Large;4490
+44907021;Living Pot - Large;4490
+44907033;Living Pot - Large;4490
+44907035;Living Pot - Large;4490
+44907038;Living Pot - Large;4490
+44907050;Living Pot - Large;4490
+44907100;Living Pot - Large;4490
+44907121;Living Pot - Large;4490
+44907133;Living Pot - Large;4490
+44907150;Living Pot - Large;4490
+44907200;Living Pot - Large;4490
+44907221;Living Pot - Large;4490
+44907233;Living Pot - Large;4490
+44907250;Living Pot - Large;4490
+44907300;Living Pot - Large;4490
+44907333;Living Pot - Large;4490
+44907350;Living Pot - Large;4490
+44907400;Living Pot - Large;4490
+44907450;Living Pot - Large;4490
+44908100;Living Pot - Large;4490
+44908124;Living Pot - Large;4490
+44908300;Living Pot - Large;4490
+44908320;Living Pot - Large;4490
+44908400;Living Pot - Large;4490
+44908420;Living Pot - Large;4490
+44909000;Living Pot - Large;4490
+44909040;Living Pot - Large;4490
+44909100;Living Pot - Large;4490
+44909132;Living Pot - Large;4490
+44909200;Living Pot - Large;4490
+44909310;Living Pot - Large;4490
+44909410;Living Pot - Large;4490
+44909540;Living Pot - Large;4490
+44909620;Living Pot - Large;4490
+44909640;Living Pot - Large;4490
+44909732;Living Pot - Large;4490
+44909850;Living Pot - Large;4490
+44909972;Living Pot - Large;4490
+45000000;Dragon;4500
+45000010;Flying Dragon Agheel [Boss] - Limgrave;4500
+45000042;Flying Dragon Greyll [Boss] - Caelid (Dragonbarrow);4500
+45000072;Dragon;4500
+45001000;Dragon;4500
+45001072;Dragon;4500
+45008000;Dragon;4500
+45008024;Dragon;4500
+45010000;Dragon;4500
+45010040;Decaying Ekzykes [Boss] - Caelid;4500
+45020000;Dragon;4500
+45020022;Dragon;4500
+45020920;Glintstone Dragon Smarag [Boss] - Liurnia;4500
+45021000;Dragon;4500
+45021920;Glintstone Dragon Adula [Boss] - Liurnia (Ranni's Rise);4500
+45021922;Glintstone Dragon Adula [Boss] - Liurnia (Moonlight Altar);4500
+45030000;Dragon;4500
+45030050;Borealis the Freezing Fog [Boss] - Mountaintops of the Giants;4500
+45040000;Lesser Elder Dragon;4504
+45040042;Lesser Elder Dragon;4504
+45050000;Elder Dragon Greyoll;4505
+45050042;Elder Dragon Greyoll;4505
+45100000;Ancient Dragon;4510
+45100072;Ancient Dragon;4510
+45100172;Ancient Dragon;4510
+45100272;Ancient Dragon;4510
+45100572;Ancient Dragon;4510
+45101000;Ancient Dragon;4510
+45101100;Ancient Dragon;4510
+45101200;Ancient Dragon;4510
+45101272;Ancient Dragon;4510
+45102000;Ancient Dragon;4510
+45102030;Ancient Dragon Lansseax [Boss] - Altus Plateau;4510
+45102100;Ancient Dragon;4510
+45102200;Ancient Dragon;4510
+45102272;Ancient Dragon;4510
+45110000;Lichdragon Fortissax;4510
+45200000;Dragonlord Placidusax;4520
+45200072;Dragonlord Placidusax [Boss] - Crumbling Farum Azula;4520
+45200100;Dragonlord Placidusax;4522
+45500000;Monstrous Dog;4550
+45500040;Monstrous Dog;4550
+45500042;Monstrous Dog;4550
+45501000;Monstrous Dog;4550
+45501040;Monstrous Dog;4550
+45502000;Monstrous Dog;4550
+45502040;Monstrous Dog;4550
+45502042;Monstrous Dog;4550
+45503000;Monstrous Dog;4550
+45503040;Monstrous Dog;4550
+45504000;Monstrous Dog;4550
+45504040;Monstrous Dog;4550
+45505000;Monstrous Dog;4550
+45505050;Monstrous Dog;4550
+45506000;Monstrous Dog;4550
+45506050;Monstrous Dog;4550
+45506200;Monstrous Dog;4550
+45506400;Monstrous Dog;4550
+45506450;Monstrous Dog;4550
+45506600;Monstrous Dog;4550
+45506650;Monstrous Dog;4550
+45508000;Monstrous Dog;4550
+45508100;Monstrous Dog;4550
+45600000;Monstrous Crow;4560
+45600040;Monstrous Crow;4560
+45600042;Monstrous Crow;4560
+45601000;Monstrous Crow;4560
+45601050;Monstrous Crow;4560
+45601850;Monstrous Crow;4560
+45609000;Monstrous Crow;4560
+45610000;Monstrous Rotten Crow;4560
+45610068;Monstrous Rotten Crow;4560
+45700000;Lesser Wormface;4570
+45700030;Lesser Wormface;4570
+45701000;Lesser Wormface;4570
+45701072;Lesser Wormface;4570
+45702000;Lesser Wormface;4570
+45702030;Lesser Wormface;4570
+45800000;Wormface;4580
+45800030;Wormface [Boss] - Altus Plateau;4580
+45801000;Wormface;4580
+45801072;Wormface;4580
+45802000;Wormface;4580
+45802132;Wormface;4580
+46000000;Troll Knight;4600
+46000010;Troll Knight;4600
+46000012;Troll Knight;4600
+46000014;Troll Knight;4600
+46000020;Troll Knight;4600
+46000032;Troll Knight;4600
+46000033;Troll Knight;4600
+46000040;Troll Knight;4600
+46000050;Troll Knight;4600
+46000065;Troll Knight;4600
+46000100;Troll Knight;4600
+46000150;Troll Knight;4600
+46001000;Troll Knight;4600
+46001010;Troll Knight;4600
+46001020;Troll Knight;4600
+46001030;Troll Knight;4600
+46001032;Troll Knight;4600
+46001099;Troll Knight;4600
+46001120;Troll Knight;4600
+46001130;Troll Knight;4600
+46003000;Troll Knight;4600
+46003041;Troll Knight;4600
+46003140;Troll Knight;4600
+46004000;Troll Knight;4600
+46004032;Troll Knight;4600
+46004100;Troll Knight;4600
+46004152;Troll Knight;4600
+46008000;Troll Knight;4600
+46008024;Troll Knight;4600
+46010000;Armored Troll Knight;4600
+46010020;Armored Troll Knight;4600
+46010021;Armored Troll Knight;4600
+46010100;Armored Troll Knight;4600
+46010120;Armored Troll Knight;4600
+46010200;Armored Troll Knight;4600
+46010220;Armored Troll Knight;4600
+46010920;Bols, Carian Knight [Boss] - Liurnia;4600
+46018000;Armored Troll Knight;4600
+46018021;Armored Troll Knight;4600
+46020000;Troll Knight;4600
+46020050;Troll Knight;4600
+46021000;Troll Knight;4600
+46021052;Troll Knight;4600
+46022000;Troll Knight;4600
+46030000;Stonedigger Troll;4600
+46030910;Stonedigger Troll [Boss] - Limgrave (Limgrave Tunnels);4600
+46030930;Stonedigger Troll [Boss] - Altus Plateau (Old Altus Tunnels);4600
+46040000;Troll Knight (Confessor);4600
+46040020;Troll Knight (Confessor);4600
+46040120;Troll Knight (Confessor);4600
+46040220;Troll Knight (Confessor);4600
+46200000;Astel, Naturalborn of the Void;4620
+46200062;Astel, Naturalborn of the Void [Boss] - Lake of Rot;4620
+46200952;Astel, Stars of Darkness [Boss] - Consecrated Snowfield (Yelough Anix Tunnel);4620
+46201000;Astel, Naturalborn of the Void;4620
+46202000;Astel, Naturalborn of the Void;4620
+46202030;Astel, Naturalborn of the Void;4620
+46202060;Astel, Naturalborn of the Void;4620
+46202062;Astel, Naturalborn of the Void;4620
+46209000;Astel, Naturalborn of the Void;4620
+46209100;Astel, Naturalborn of the Void;4620
+46209152;Astel, Naturalborn of the Void;4620
+46209200;Astel, Naturalborn of the Void;4620
+46209300;Astel, Naturalborn of the Void;4620
+46300000;Runebear;5240
+46300010;Runebear;5240
+46300020;Runebear;5240
+46300030;Runebear;5240
+46300032;Runebear;5240
+46300033;Runebear;5240
+46300042;Runebear;5240
+46300052;Runebear;5240
+46300066;Runebear;5240
+46300072;Runebear;5240
+46300100;Runebear;5240
+46300152;Runebear;5240
+46300200;Runebear;5240
+46300240;Runebear;5240
+46300310;Runebear;5240
+46300342;Runebear;5240
+46300410;Runebear;5240
+46300652;Runebear;5240
+46300700;Runebear;5240
+46300766;Runebear;5240
+46300912;Runebear [Boss] - Weeping Penisula (Earthbore Cave);5240
+46400000;Ulcerated Tree Spirit;4640
+46400007;Ulcerated Tree Spirit [Boss] - Limgrave;4640
+46400014;Ulcerated Tree Spirit;4640
+46400032;Ulcerated Tree Spirit [Boss] - Mt. Gelmir;4640
+46400033;Ulcerated Tree Spirit;4640
+46400034;Ulcerated Tree Spirit;4640
+46400070;Ulcerated Tree Spirit;4640
+46400100;Ulcerated Tree Spirit;4640
+46400156;Ulcerated Tree Spirit;4640
+46400162;Ulcerated Tree Spirit;4640
+46400942;Putrid Tree Spirit [Boss] - Caelid (War-Dead Catacombs);4640
+46400950;Ulcerated Tree Spirit [Boss] - Mountaintops of the Giants;4640
+46500000;Dragonkin Soldier;4650
+46500100;Dragonkin Soldier;4650
+46500200;Dragonkin Soldier;4650
+46500262;Dragonkin Soldier [Boss] - Lake of Rot;4650
+46500265;Dragonkin Soldier [Boss] - Siofra River;4650
+46500300;Dragonkin Soldier;4650
+46500352;Dragonkin Soldier;4650
+46500900;Dragonkin Soldier;4650
+46600000;Golem;4660
+46600010;Golem;4660
+46600030;Golem;4660
+46600034;Golem;4660
+46600070;Golem;4660
+46600100;Golem;4660
+46600120;Golem;4660
+46600133;Golem;4660
+46600150;Golem;4660
+46600170;Golem;4660
+46600910;Guardian Golem [Boss] - Limgrave (Highroad Cave;4660
+46601000;Golem;4660
+46601010;Golem;4660
+46601030;Golem;4660
+46601034;Golem;4660
+46601040;Golem;4660
+46601042;Golem;4660
+46601100;Golem;4660
+46601120;Golem;4660
+46601140;Golem;4660
+46602000;Golem;4660
+46602050;Golem;4660
+46602100;Golem;4660
+46603000;Golem;4660
+46603100;Golem;4660
+46604000;Golem;4660
+46604100;Golem;4660
+46604142;Golem;4660
+46605000;Golem;4660
+46605040;Golem;4660
+46605100;Golem;4660
+46605140;Golem;4660
+46606000;Golem;4660
+46606010;Golem;4660
+46606020;Golem;4660
+46607000;Golem;4660
+46607012;Golem;4660
+46607033;Golem;4660
+46608000;Golem;4660
+46609000;Golem;4660
+46609050;Golem;4660
+46700000;Ancestor Spirit;4670
+46700065;Ancestor Spirit [Boss] - Nokron;4670
+46700100;Ancestor Spirit;4670
+46700200;Ancestor Spirit;4670
+46700300;Ancestor Spirit;4670
+46700400;Ancestor Spirit;4670
+46700964;Ancestor Spirit [Boss] - Siofra River (Hallowed Grounds);4670
+46705000;Ancestor Spirit;4670
+46800000;Fallingstar Beast;4680
+46800032;Full-Grown Fallingstar Beast [Boss] - Mt. Gelmir;4680
+46801000;Fallingstar Beast;4680
+46801930;Fallingstar Beast [Boss] - Altus Plateau;4680
+46801940;Fallingstar Beast [Boss] - Caelid (Sellia Crystal Tunnel);4680
+46900000;Grafted Scion;4690
+46900007;Grafted Scion;4690
+46900008;Grafted Scion [Boss] - Chapel of Anticipation;4690
+46900014;Grafted Scion;4690
+46900020;Grafted Scion;4690
+46900032;Grafted Scion;4690
+46900034;Grafted Scion;4690
+47200000;Godfrey, First Elden Lord;4720
+47200070;Godfrey, First Elden Lord [Tier 17];4720
+47200100;Godfrey, First Elden Lord;4720
+47200134;Godfrey, First Elden Lord [Boss] - Leyndell;4720
+47210000;Hoarah Loux;4721
+47300000;Starscourge Radahn;4730
+47300040;Starscourge Radahn [Boss] - Caelid;4730
+47500000;Godrick the Grafted;4750
+47500014;Godrick the Grafted [Boss] - Stormveil Castle;4750
+47500030;Godefroy the Grafted [Boss] - Altus Plateau;4750
+47501000;Godrick the Grafted;4750
+47600000;Fire Giant;4760
+47600050;Fire Giant [Tier 15];4760
+47600900;Fire Giant;4760
+47601000;Fire Giant;4761
+47601050;Fire Giant [Boss] - Mountaintops of the Giants;4761
+47601900;Fire Giant;4761
+47700000;Valiant Gargoyle - Greatsword;4770
+47700033;Valiant Gargoyle - Greatsword [Tier 10];4770
+47700034;Valiant Gargoyle - Greatsword [Tier 11];4770
+47700070;Valiant Gargoyle - Greatsword [Tier 16];4770
+47700100;Valiant Gargoyle - Greatsword;4770
+47700165;Valiant Gargoyle - Greatsword [Boss] - Nokron (Siofra Aqueduct);4770
+47700200;Valiant Gargoyle - Greatsword;4770
+47700250;Black Blade Kindred - Greatsword [Boss] - Forbidden Lands;4770
+47701000;Valiant Gargoyle - Twinblade;4770
+47701034;Valiant Gargoyle - Twinblade [Tier 11];4770
+47701100;Valiant Gargoyle - Twinblade;4770
+47701165;Valiant Gargoyle - Twinblade [Boss] - Nokron (Siofra Aqueduct);4770
+47701200;Valiant Gargoyle - Twinblade;4770
+47701242;Black Blade Kindred - Twinblade [Boss] - Caelid (Bestial Sanctum);4770
+47702000;Valiant Gargoyle;4775
+47702034;Valiant Gargoyle [Tier 11];4775
+47702066;Valiant Gargoyle [Tier 12];4775
+47709900;Valiant Gargoyle;4770
+47709910;Valiant Gargoyle;4770
+48000000;Mohg, Lord of Blood;4800
+48000068;Mohg, Lord of Blood [Boss] - Mohgwyn Palace;4800
+48001000;Mohg, The Omen;4800
+48001935;Mohg, The Omen [Boss] - Leyndell Sewers;4800
+48008000;Mohg, The Omen;4800
+48009000;Mohg, The Omen;4800
+48100000;Erdtree Avatar;4810
+48100012;Erdtree Avatar [Boss] - Limgrave;4810
+48100020;Erdtree Avatar [Boss] - Liurnia (Mausoleum Compound);4810
+48100034;Erdtree Avatar [Tier 11];4810
+48100040;Erdtree Avatar [Tier 10];4810
+48100066;Erdtree Avatar [Tier 11];4810
+48100100;Erdtree Avatar;4810
+48100150;Erdtree Avatar [Boss] - Mountaintops of the Giants;4810
+48100920;Erdtree Avatar [Boss] - Liurnia (Revenger's Shack);4810
+48109990;Erdtree Avatar;4810
+48109991;Erdtree Avatar;4810
+48109992;Erdtree Avatar;4810
+48110000;Putrid Avatar;4810
+48110040;Putrid Avatar [Boss] - Caelid (Smouldering Church);4810
+48110042;Putrid Avatar [Boss] - Caelid (Dragonbarrow Fork);4810
+48110052;Putrid Avatar [Boss] - Consecrated Snowfield (Ordina, Liturgical Town);4810
+48110054;Putrid Avatar [Tier 19];4810
+48110056;Putrid Avatar [Tier 20];4810
+48200000;Omenkiller;4820
+48200100;Omenkiller;4820
+48200130;Omenkiller;4820
+48200134;Omenkiller;4820
+48200138;Omenkiller;4820
+48200820;Omenkiller;4820
+48200920;Omenkiller [Boss] - Liurnia (Village of the Albinaurics);4820
+48200930;Omenkiller [Boss] - Altus Plateau (Perfumer's Grotto);4820
+48208000;Omenkiller;4820
+48208030;Omenkiller;4820
+48208034;Omenkiller;4820
+48208038;Omenkiller;4820
+48208100;Omenkiller;4820
+48208138;Omenkiller;4820
+49100000;Magma Wyrm;4910
+49100026;Magma Wyrm Makar [Boss] - Liurnia (Ruin-Strewn Precipice);4910
+49100032;Magma Wyrm [Boss] - Mt. Gelmir;4910
+49100038;Magma Wyrm;4910
+49100100;Magma Wyrm;4910
+49100940;Magma Wyrm [Boss] - Caelid (Gael Tunnel);4910
+49110000;Great Wyrm Theodorix;4910
+49110052;Great Wyrm Theodorix [Boss] - Mountaintops of the Giants (Albinauric Rise);4910
+49500000;Tibia Mariner;4950
+49500010;Tibia Mariner [Boss] - Limgrave (Summonwater Village);4950
+49500020;Tibia Mariner [Boss] - Liurnia;4950
+49500032;Tibia Mariner [Boss] - Altus Plateau;4950
+49500050;Tibia Mariner;4950
+49600000;Giant Skeleton Torso;4960
+49600032;Giant Skeleton Torso;4960
+49600050;Giant Skeleton Torso;4960
+49600100;Giant Skeleton Torso;4960
+49600168;Giant Skeleton Torso;4960
+49800000;Death Rite Bird;4980
+49800010;Death Rite Bird [Boss] - Limgrave (Warmaster's Shack);4980
+49800012;Death Rite Bird [Boss] - Weeping Penisula;4980
+49800020;Death Rite Bird [Boss] - Liurnia;4980
+49800032;Death Rite Bird;4980
+49800033;Death Rite Bird [Boss] - Altus Plateau;4980
+49801000;Death Rite Bird;4980
+49801020;Death Rite Bird [Boss] - Liurnia;4980
+49801040;Death Rite Bird [Boss] - Caelid;4980
+49801050;Death Rite Bird [Boss] - Mountaintops of the Giants;4980
+49801052;Death Rite Bird [Boss] - Consecrated Snowfield (Apostate Derelict);4980
+60310000;Bear;6031
+60310010;Bear;6031
+60310012;Bear;6031
+60310020;Bear;6031
+60310022;Bear;6031
+60310030;Bear;6031
+60310032;Bear;6031
+60310033;Bear;6031
+60310042;Bear;6031
+60310052;Bear;6031
+71000000;Ancient Hero of Zamor;7100
+71000012;Ancient Hero of Zamor [Boss] - Limgrave;7100
+71000030;Ancient Hero of Zamor [Boss] - Altus Plateau;7100
+71000050;Ancient Hero of Zamor;7100
+71000100;Ancient Hero of Zamor;7100
+71000150;Ancient Hero of Zamor;7100
+71000950;Ancient Hero of Zamor [Boss] - Mountaintops of the Giants;7100
+89010000;Beast Clergyman / Maliketh, the Black Blade;2110
+137040000;[Spirit Summon] Battlemage Hugues;3704
+138100000;[Spirit Summon] Kindred of Rot;3810
+140800000;[Spirit Summon] Giant Rat;4080
+143210000;[Spirit Summon] Vulgar Militia;4320
+148200000;[Spirit Summon] Omenkiller;4820
