@@ -2271,7 +2271,7 @@ Enemies - Requires State Info 152</description>
   </entry>
   <entry>
     <name>Giant Enemy Height Overwrite</name>
-    <type>s32</type>
+    <type>f32</type>
     <default>0</default>
   </entry>
   <entry>

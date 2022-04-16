@@ -56,6 +56,21 @@
 630 Rykard's Great Rune
 640 Mohg's Great Rune
 650 Malenia's Great Rune
+800 [Ash of War] Barricade Shield (Type 1) - Trigger
+801 [Ash of War] Barricade Shield (Type 1) - Effect
+802 [Ash of War] Barricade Shield (Type 2) - Trigger
+803 [Ash of War] Barricade Shield (Type 2) - Effect
+804 [Ash of War] Barricade Shield (Type 3) - Trigger
+805 [Ash of War] Barricade Shield (Type 4) - Trigger
+806 [Ash of War] Barricade Shield (Type 4) - Effect
+807 [Ash of War] Barricade Shield (Type 5) - Trigger
+808 [Ash of War] Barricade Shield (Type 5) - Trigger
+809 [Ash of War] Barricade Shield (Type 5) - Effect
+810 [Ash of War] Barricade Shield (Type 6) - Trigger
+811 [Ash of War] Barricade Shield (Type 6) - Effect
+812 [Ash of War] Barricade Shield (Type 7) - Trigger
+813 [Ash of War] Barricade Shield (Type 7) - Trigger
+814 [Ash of War] Barricade Shield (Type 7) - Effect
 829 Unknown - Frostbite
 860 Gargoyle's Blackblade - Bullet
 870 Reduvia - Hemorrhage
@@ -69,10 +84,14 @@
 1616 Unknown - Hemorrhage
 1625 Mohgwyn's Sacred Spear - Hemorrhage
 1724 Unknown - Frostbite
-1753 Unknown - Hemorrhage
+1734 [Ash of War] Golden Vow
+1753 [Ash of War] Seppeku
 1756 Unknown - Hemorrhage
 1759 Unknown - Hemorrhage
 1761 Unknown - Hemorrhage
+1765 [Ash of War] Assassin's Gambit - Effect
+1766 [Ash of War] Assassin's Gambit - Effect
+1767 [Ash of War] Assassin's Gambit - Effect
 1768 Commander's Standard - Bullet
 1769 Commander's Standard [Cycle]
 1770 Commander's Standard [Cycle]
@@ -498,8 +517,8 @@
 13020 Wolf - Bullet
 13025 Wolf
 13067 Castle Soldier
-13120 Alabaster Lord - Bullet
-13121 Alabaster Lord - Bullet
+13120 Onyx Lord - Bullet
+13121 Onyx Lord - Bullet
 13153 Ancestral Follower - Bullet
 13154 Ancestral Follower - Bullet
 13156 Ancestral Follower Shaman - Bullet
@@ -3128,3 +3147,18 @@
 9300020 Hallowed Flesh
 9300030 Ripe Grape - Boost
 9300031 Ripe Grape - Madness
+9399999 ### Weapons ###
+9400000 Bow - Poison [Attack]
+9400001 Bow - Poison - Trigger
+9400100 Bow - Scarlet Rot [Attack]
+9400101 Bow - Scarlet Rot - Trigger
+9400200 Bow - Hemorrhage [Attack]
+9400201 Bow - Hemorrhage - Trigger
+9400300 Bow - Blight [Attack]
+9400301 Bow - Blight - Trigger
+9400400 Bow - Frostbite [Attack]
+9400401 Bow - Frostbite - Trigger
+9400500 Bow - Sleep [Attack]
+9400501 Bow - Sleep - Trigger
+9400600 Bow - Madness [Attack]
+9400601 Bow - Madness - Trigger
