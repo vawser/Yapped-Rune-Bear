@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WEP_ABSORP_POS_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1501</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1502</SortID>
+    </Field>
+    <Field Def="u8 hangPosType">
+      <DisplayName>Storage location type - 格納場所タイプ</DisplayName>
+      <Enum>WEP_HANG_POS_TYPE</Enum>
+      <Description>The animation at the time of sword delivery changes depending on this value - この値によって納刀時アニメが変わります</Description>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 isSkeletonBind">
+      <DisplayName>Do you want to combine skeletons? - スケルトン結合するか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to combine skeletons? - スケルトン結合するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="dummy8 pad0[2]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>1503</SortID>
+    </Field>
+    <Field Def="s16 right_0">
+      <DisplayName>Model 0_ Right hand adsorption Damipoly - モデル0_右手時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding the weapon in one hand. - 武器を右手に片手で持っているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 left_0">
+      <DisplayName>Model 0_ Left hand adsorption Damipoly - モデル0_左手時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding the weapon in one hand. - 武器を左手に片手で持っているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="s16 both_0">
+      <DisplayName>Model 0_ Right hand Adsorption Damipoly with both hands - モデル0_右手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding a right-handed weapon with both hands. - 右手武器を両手で持っているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>102</SortID>
+    </Field>
+    <Field Def="s16 leftHang_0">
+      <DisplayName>Model 0_ Left hand sword adsorption Damipoly - モデル0_左手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding a weapon in the left hand and delivering the weapon. - 武器を左手に持っていて、その武器を納刀しているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>111</SortID>
+    </Field>
+    <Field Def="s16 rightHang_0">
+      <DisplayName>Model 0_Suction Damipoli at the time of right hand sword delivery - モデル0_右手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding a weapon in the right hand and delivering the weapon. - 武器を右手に持っていて、その武器を納刀しているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="s16 right_1">
+      <DisplayName>Model 1_Right-handed adsorption Damipoly - モデル1_右手時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding the weapon in one hand. - 武器を右手に片手で持っているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s16 left_1">
+      <DisplayName>Model 1_ Left hand adsorption Damipoly - モデル1_左手時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding the weapon in one hand. - 武器を左手に片手で持っているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="s16 both_1">
+      <DisplayName>Model 1_Right-handed two-handed adsorption Damipoly - モデル1_右手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding a right-handed weapon with both hands. - 右手武器を両手で持っているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>202</SortID>
+    </Field>
+    <Field Def="s16 leftHang_1">
+      <DisplayName>Model 1_ Left hand sword adsorption Damipoli - モデル1_左手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding a weapon in the left hand and delivering the weapon. - 武器を左手に持っていて、その武器を納刀しているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>211</SortID>
+    </Field>
+    <Field Def="s16 rightHang_1">
+      <DisplayName>Model 1_Suction Damipoli at the time of right hand sword delivery - モデル1_右手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding a weapon in the right hand and delivering the weapon. - 武器を右手に持っていて、その武器を納刀しているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="s16 right_2">
+      <DisplayName>Model 2_Right-handed adsorption Damipoly - モデル2_右手時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding the weapon in one hand. - 武器を右手に片手で持っているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 left_2">
+      <DisplayName>Model 2_ Left hand adsorption Damipoly - モデル2_左手時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding the weapon in one hand. - 武器を左手に片手で持っているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="s16 both_2">
+      <DisplayName>Model 2_Right-handed two-handed adsorption Damipoly - モデル2_右手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding a right-handed weapon with both hands. - 右手武器を両手で持っているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>302</SortID>
+    </Field>
+    <Field Def="s16 leftHang_2">
+      <DisplayName>Model 2_ Left hand sword adsorption Damipoli - モデル2_左手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding a weapon in the left hand and delivering the weapon. - 武器を左手に持っていて、その武器を納刀しているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>311</SortID>
+    </Field>
+    <Field Def="s16 rightHang_2">
+      <DisplayName>Model 2_Suction Damipoli at the time of right hand sword delivery - モデル2_右手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding a weapon in the right hand and delivering the weapon. - 武器を右手に持っていて、その武器を納刀しているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="s16 right_3">
+      <DisplayName>Model 3_Right-handed adsorption Damipoly - モデル3_右手時吸着ダミポリ</DisplayName>
+      <Description>Model 3 adsorption Damipoli when holding the weapon in one hand. - 武器を右手に片手で持っているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s16 left_3">
+      <DisplayName>Model 3_ Left hand adsorption Damipoly - モデル3_左手時吸着ダミポリ</DisplayName>
+      <Description>Model 3 adsorption Damipoli when holding the weapon in one hand. - 武器を左手に片手で持っているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="s16 both_3">
+      <DisplayName>Model 3_Right-handed two-handed adsorption Damipoly - モデル3_右手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 3 adsorption Damipoli when holding a right-handed weapon with both hands. - 右手武器を両手で持っているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>402</SortID>
+    </Field>
+    <Field Def="s16 leftHang_3">
+      <DisplayName>Model 3_ Left hand sword adsorption Damipoli - モデル3_左手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 3 Adsorption Damipoli when holding a weapon in the left hand and delivering the weapon. - 武器を左手に持っていて、その武器を納刀しているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>411</SortID>
+    </Field>
+    <Field Def="s16 rightHang_3">
+      <DisplayName>Model 3_Suction Damipoli at the time of right hand sword delivery - モデル3_右手納刀時吸着ダミポリ</DisplayName>
+      <Description>Model 3 Adsorption Damipoli when holding a weapon in his right hand and delivering the weapon. - 武器を右手に持っていて、その武器を納刀しているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="u8 wepInvisibleType_0">
+      <DisplayName>Model 0_Weapon hidden type - モデル0_武器非表示タイプ</DisplayName>
+      <Enum>WEP_INVISIBLE_TYPE</Enum>
+      <Description>Hidden type of model 0. When hiding a weapon with TAE, erase the one that matches this - モデル0の非表示タイプ。TAEで武器非表示にする際にこれと一致するものを消す</Description>
+      <SortID>120</SortID>
+    </Field>
+    <Field Def="u8 wepInvisibleType_1">
+      <DisplayName>Model 1_Weapon hidden type - モデル1_武器非表示タイプ</DisplayName>
+      <Enum>WEP_INVISIBLE_TYPE</Enum>
+      <Description>Hidden type of model 1. When hiding a weapon with TAE, erase the one that matches this - モデル1の非表示タイプ。TAEで武器非表示にする際にこれと一致するものを消す</Description>
+      <SortID>220</SortID>
+    </Field>
+    <Field Def="u8 wepInvisibleType_2">
+      <DisplayName>Model 2_Weapon hidden type - モデル2_武器非表示タイプ</DisplayName>
+      <Enum>WEP_INVISIBLE_TYPE</Enum>
+      <Description>Hidden type of model 2. When hiding a weapon with TAE, erase the one that matches this - モデル2の非表示タイプ。TAEで武器非表示にする際にこれと一致するものを消す</Description>
+      <SortID>320</SortID>
+    </Field>
+    <Field Def="u8 wepInvisibleType_3">
+      <DisplayName>Model 3_Weapon hidden type - モデル3_武器非表示タイプ</DisplayName>
+      <Enum>WEP_INVISIBLE_TYPE</Enum>
+      <Description>Model 3 hidden type. When hiding a weapon with TAE, erase the one that matches this - モデル3の非表示タイプ。TAEで武器非表示にする際にこれと一致するものを消す</Description>
+      <SortID>420</SortID>
+    </Field>
+    <Field Def="s16 leftBoth_0">
+      <DisplayName>Model 0_Left hand Adsorption Damipoly with both hands - モデル0_左手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 0 adsorption Damipoli when holding a left-handed weapon with both hands. - 左手武器を両手で持っているときのモデル0の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>103</SortID>
+    </Field>
+    <Field Def="s16 leftBoth_1">
+      <DisplayName>Model 1_Left hand Adsorption Damipoly with both hands - モデル1_左手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 1 adsorption Damipoli when holding a left-handed weapon with both hands. - 左手武器を両手で持っているときのモデル1の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>203</SortID>
+    </Field>
+    <Field Def="s16 leftBoth_2">
+      <DisplayName>Model 2_Left hand Adsorption Damipoly with both hands - モデル2_左手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 2 adsorption Damipoli when holding a left-handed weapon with both hands. - 左手武器を両手で持っているときのモデル2の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>303</SortID>
+    </Field>
+    <Field Def="s16 leftBoth_3">
+      <DisplayName>Model 3_ Left hand adsorption Damipoly with both hands - モデル3_左手両手時吸着ダミポリ</DisplayName>
+      <Description>Model 3 adsorption Damipoli when holding a left-handed weapon with both hands. - 左手武器を両手で持っているときのモデル3の吸着ダミポリ。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>403</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_right_0">
+      <DisplayName>Model 0_Right hand display position - モデル0_右手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_ Right-hand display position (used to specify hidden position from TAE) - モデル0_右手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_left_0">
+      <DisplayName>Model 0_left hand display position - モデル0_左手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_Left hand display position (used to specify hidden position from TAE) - モデル0_左手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightBoth_0">
+      <DisplayName>Model 0_Right hand Display position with both hands - モデル0_右手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_Right-handed two-handed display position (used to specify hidden position from TAE) - モデル0_右手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1102</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftBoth_0">
+      <DisplayName>Model 0_ Left hand Display position with both hands - モデル0_左手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_ Left-handed two-handed display position (used to specify hidden position from TAE) - モデル0_左手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1103</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightHang_0">
+      <DisplayName>Model 0_ Right hand display position when sword is delivered - モデル0_右手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_ Right-handed sword display position (used to specify the non-display position from TAE) - モデル0_右手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1110</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftHang_0">
+      <DisplayName>Model 0_ Display position when delivering the left hand sword - モデル0_左手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 0_ Left hand sword display position (used to specify the non-display position from TAE) - モデル0_左手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1111</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_right_1">
+      <DisplayName>Model 1_Right hand display position - モデル1_右手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_ Right-hand display position (used to specify hidden position from TAE) - モデル1_右手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_left_1">
+      <DisplayName>Model 1_left hand display position - モデル1_左手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_Left hand display position (used to specify hidden position from TAE) - モデル1_左手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1201</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightBoth_1">
+      <DisplayName>Model 1_Right hand Display position with both hands - モデル1_右手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_Right-handed two-handed display position (used to specify hidden position from TAE) - モデル1_右手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1202</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftBoth_1">
+      <DisplayName>Model 1_ Left hand Display position with both hands - モデル1_左手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_ Left-handed two-handed display position (used to specify hidden position from TAE) - モデル1_左手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1203</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightHang_1">
+      <DisplayName>Model 1_ Right hand display position when sword is delivered - モデル1_右手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_ Right-handed sword display position (used to specify the non-display position from TAE) - モデル1_右手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1210</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftHang_1">
+      <DisplayName>Model 1_ Display position when delivering the left hand sword - モデル1_左手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 1_ Left hand sword display position (used to specify the non-display position from TAE) - モデル1_左手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1211</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_right_2">
+      <DisplayName>Model 2_Right hand display position - モデル2_右手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_ Right-hand display position (used to specify hidden position from TAE) - モデル2_右手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_left_2">
+      <DisplayName>Model 2_left hand display position - モデル2_左手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_Left hand display position (used to specify hidden position from TAE) - モデル2_左手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1301</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightBoth_2">
+      <DisplayName>Model 2_Right hand Display position with both hands - モデル2_右手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_Right-handed two-handed display position (used to specify hidden position from TAE) - モデル2_右手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1302</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftBoth_2">
+      <DisplayName>Model 2_ Left hand Display position with both hands - モデル2_左手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_ Left-handed two-handed display position (used to specify hidden position from TAE) - モデル2_左手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1303</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightHang_2">
+      <DisplayName>Model 2_ Right hand display position when sword is delivered - モデル2_右手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_Right-handed sword display position (used to specify the non-display position from TAE) - モデル2_右手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1310</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftHang_2">
+      <DisplayName>Model 2_ Display position when delivering the left hand sword - モデル2_左手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 2_ Left hand sword display position (used to specify the non-display position from TAE) - モデル2_左手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1311</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_right_3">
+      <DisplayName>Model 3_ Right hand display position - モデル3_右手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_ Right-hand display position (used to specify hidden position from TAE) - モデル3_右手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_left_3">
+      <DisplayName>Model 3_left hand display position - モデル3_左手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_Left hand display position (used to specify hidden position from TAE) - モデル3_左手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1401</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightBoth_3">
+      <DisplayName>Model 3_Right hand display position with both hands - モデル3_右手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_Right-handed two-handed display position (used to specify hidden position from TAE) - モデル3_右手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1402</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftBoth_3">
+      <DisplayName>Model 3_ Left hand Display position with both hands - モデル3_左手両手時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_ Left-handed two-handed display position (used to specify hidden position from TAE) - モデル3_左手両手時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1403</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_rightHang_3">
+      <DisplayName>Model 3_ Right hand display position when sword is delivered - モデル3_右手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_Right-handed sword display position (used to specify the non-display position from TAE) - モデル3_右手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1410</SortID>
+    </Field>
+    <Field Def="u8 dispPosType_leftHang_3">
+      <DisplayName>Model 3_ Display position when delivering the left hand sword - モデル3_左手納刀時表示位置</DisplayName>
+      <Enum>WEP_DISP_POS_TYPE</Enum>
+      <Description>Model 3_ Left hand sword display position (used to specify the non-display position from TAE) - モデル3_左手納刀時表示位置(TAE から非表示位置を指定するのに使用する)</Description>
+      <SortID>1411</SortID>
+    </Field>
+    <Field Def="dummy8 reserve[12]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <SortID>1504</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>PARTS_DRAW_PARAM_ST</ParamType>
+  <DataVersion>5</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 lv01_BorderDist = 5">
+      <DisplayName>LOD level 0-1 boundary distance [m] - LODレベル0-1境界距離[m]</DisplayName>
+      <Description>Switching center - 切り替わる中心</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 lv01_PlayDist = 1">
+      <DisplayName>LOD level 0-1 play distance [m] - LODレベル0-1遊び距離[m]</DisplayName>
+      <Description>± play at the center of the boundary - 境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>20</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="f32 lv12_BorderDist = 20">
+      <DisplayName>LOD level 1-2 boundary distance [m] - LODレベル1-2境界距離[m]</DisplayName>
+      <Description>Switching center - 切り替わる中心</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 lv12_PlayDist = 2">
+      <DisplayName>LOD level 1-2 play distance [m] - LODレベル1-2遊び距離[m]</DisplayName>
+      <Description>± play at the center of the boundary - 境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>40</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="f32 lv23_BorderDist = 30">
+      <DisplayName>LOD level 2-3 Boundary distance [m] - LODレベル2-3境界距離[m]</DisplayName>
+      <Description>Switching center - 切り替わる中心</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 lv23_PlayDist">
+      <DisplayName>LOD level 2-3 play distance [m] - LODレベル2-3遊び距離[m]</DisplayName>
+      <Description>± play at the center of the boundary - 境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>40</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="f32 lv34_BorderDist = 9999">
+      <DisplayName>LOD level 3-4 Boundary distance [m] - LODレベル3-4境界距離[m]</DisplayName>
+      <Description>Switching center - 切り替わる中心</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 lv34_PlayDist">
+      <DisplayName>LOD level 3-4 play distance [m] - LODレベル3-4遊び距離[m]</DisplayName>
+      <Description>± play at the center of the boundary - 境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>160</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="f32 lv45_BorderDist = 9999">
+      <DisplayName>LOD level 4-5 Boundary distance [m] - LODレベル4-5境界距離[m]</DisplayName>
+      <Description>Switching center - 切り替わる中心</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 lv45_PlayDist">
+      <DisplayName>LOD level 4-5 play distance [m] - LODレベル4-5遊び距離[m]</DisplayName>
+      <Description>± play at the center of the boundary - 境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>160</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="f32 tex_lv01_BorderDist = 30">
+      <DisplayName>Texture LOD Level 0-1 Boundary distance [m] - TextureLODレベル0-1境界距離[m]</DisplayName>
+      <Description>Texture switching center (Texure LOD disabled at 0) - Texture切り替わる中心(0でTexureLOD無効)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 tex_lv01_PlayDist = 1">
+      <DisplayName>Texture LOD Level 0-1 Play distance [m] - TextureLODレベル0-1遊び距離[m]</DisplayName>
+      <Description>Texture Play around the boundary - Texture境界中心で±遊び</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>20</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u32 enableCrossFade:1">
+      <DisplayName>Crossfade enabled - クロスフェード有効</DisplayName>
+      <Description>Is crossfade enabled (0: disabled, 1: enabled)? - クロスフェード有効か(0:無効,1:有効)</Description>
+      <Maximum>1</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 drawDist = 9999">
+      <DisplayName>Drawing distance [m] - 描画距離[m]</DisplayName>
+      <Description>Maximum drawing distance. In the open, it will be used for the activation distance - 描画最大距離。オープンではアクティベート距離に利用されます</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 drawFadeRange">
+      <DisplayName>Fade range [m] - フェード範囲[m]</DisplayName>
+      <Description>Fade distance from the maximum drawing distance to the actual disappearance - 描画最大距離から、実際に消えるまでのフェード距離</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 shadowDrawDist = 9999">
+      <DisplayName>Shadow drawing distance [m] - 影描画距離[m]</DisplayName>
+      <Description>Maximum shadow drawing distance - 影の描画最大距離</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 shadowFadeRange">
+      <DisplayName>Shadow fade range [m] - 影フェード範囲[m]</DisplayName>
+      <Description>Fade distance from the maximum shadow drawing distance to the actual disappearance - 影の描画最大距離から、実際に消えるまでのフェード距離</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="f32 motionBlur_BorderDist = 20">
+      <DisplayName>Motion blur drawing boundary distance [m] - モーションブラー描画境界距離[m]</DisplayName>
+      <Description>Distance at which motion blur is enabled - モーションブラーが有効になる距離</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="s8 isPointLightShadowSrc">
+      <DisplayName>Cast the shadow of a point light source - 点光源の影を落とす</DisplayName>
+      <Description>Cast the shadow of a point light source - 点光源の影を落とす</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="s8 isDirLightShadowSrc">
+      <DisplayName>Cast the shadow of a parallel light source - 平行光源の影を落とす</DisplayName>
+      <Description>Cast the shadow of a parallel light source - 平行光源の影を落とす</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>1900</SortID>
+    </Field>
+    <Field Def="s8 isShadowDst">
+      <DisplayName>Receive a shadow - 影を受ける</DisplayName>
+      <Description>Receive a shadow - 影を受ける</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="s8 isShadowOnly">
+      <DisplayName>Shadow drawing only - 影描画のみ</DisplayName>
+      <Description>Shadow drawing only - 影描画のみ</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s8 drawByReflectCam">
+      <DisplayName>Reflected - 映り込む</DisplayName>
+      <Description>Reflected - 映り込む</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s8 drawOnlyReflectCam">
+      <DisplayName>Reflection drawing only - 映り込み描画のみ</DisplayName>
+      <Description>Reflection drawing only - 映り込み描画のみ</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s8 IncludeLodMapLv = -1">
+      <DisplayName>What level of LodMap to include - どのレベルのLodMapまで含めるか</DisplayName>
+      <Description>What level of LodMap to include - どのレベルのLodMapまで含めるか</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>16</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="u8 isNoFarClipDraw">
+      <DisplayName>Don't FarClip - FarClipしない</DisplayName>
+      <Description>Disable fur clips and always draw at the innermost depth of the clip space. Mainly for celestial sphere - ファークリップを無効にし、常にクリップ空間の一番奥の深度に描画する。主に天球用</Description>
+      <Maximum>1</Maximum>
+      <SortID>2410</SortID>
+    </Field>
+    <Field Def="u8 lodType">
+      <DisplayName>LOD type - LODタイプ</DisplayName>
+      <Enum>PARTS_DRAW_LOD_TYPE</Enum>
+      <Description>Type and size of LOD target - LOD対象の種類、大きさ</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>64</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="s8 shadowDrawLodOffset">
+      <DisplayName>Shadow drawing LOD level offset - 影描画LODレベルオフセット</DisplayName>
+      <Description>LOD level offset value when drawing shadows - 影描画時のLODレベルオフセット値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>5</Maximum>
+      <SortID>1601</SortID>
+    </Field>
+    <Field Def="u8 isTraceCameraXZ">
+      <DisplayName>Follow the camera on the XZ plane - カメラをXZ平面上で追従する</DisplayName>
+      <Description>Follow the camera on the XZ plane (GR SEQ09242) - カメラをXZ平面上で追従する(GR SEQ09242)</Description>
+      <Maximum>1</Maximum>
+      <SortID>2420</SortID>
+    </Field>
+    <Field Def="u8 isSkydomeDrawPhase">
+      <DisplayName>Switch to the celestial sphere drawing phase - 天球描画フェイズに切り替え</DisplayName>
+      <Description>Set the drawing phase to the celestial sphere (GR SEQ09242) - 描画フェイズを天球に設定する(GR SEQ09242)</Description>
+      <Maximum>1</Maximum>
+      <SortID>2421</SortID>
+    </Field>
+    <Field Def="f32 DistantViewModel_BorderDist = 30">
+      <DisplayName>Distance switching distance [m] - 遠景切り替え距離[m]</DisplayName>
+      <Description>Distance switching distance [m] - 遠景切り替え距離[m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="f32 DistantViewModel_PlayDist = 5">
+      <DisplayName>Distant view switching play distance [m] - 遠景切り替え遊び距離[m]</DisplayName>
+      <Description>Distant view switching play distance [m] - 遠景切り替え遊び距離[m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1801</SortID>
+    </Field>
+    <Field Def="f32 LimtedActivate_BorderDist_forGrid = -1">
+      <DisplayName>Construction limit distance for open [m] - オープン用構築制限距離[m]</DisplayName>
+      <Description>Construction limit distance for open [m]. If the distance to the camera is less than this distance in the open, it will not be built. This is a function for distant view assets. -1: Function disabled (default) - オープン用構築制限距離[m]。オープンにおいてカメラとの距離がこの距離未満だと構築されないようになります。遠景アセット用の機能です。-1:機能無効(デフォルト)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1802</SortID>
+    </Field>
+    <Field Def="f32 LimtedActivate_PlayDist_forGrid = 10">
+      <DisplayName>Construction limit play distance for open [m] - オープン用構築制限遊び距離[m]</DisplayName>
+      <Description>Open construction limit play distance [m] - オープン構築制限遊び距離[m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1803</SortID>
+    </Field>
+    <Field Def="f32 zSortOffsetForNoFarClipDraw">
+      <DisplayName>Z sort offset - Zソートオフセット</DisplayName>
+      <Description>If the distance from the camera is the same in the same drawing phase, the smaller translucent system is drawn in the foreground, and the opaque system is drawn in the larger value. The base point of the offset is the origin in the celestial sphere drawing phase. Other than that, it is mainly Model AABB. (GR SEQ09242) - 同じ描画フェーズ内でカメラからの距離が同じ場合、半透明系は小さいほうが手前、不透明系は値が大きいほうが手前に描画されます。 オフセットの基点は天球描画フェーズのものは原点。それ以外はModelAABB中心。(GR SEQ09242)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-99999</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2411</SortID>
+    </Field>
+    <Field Def="f32 shadowDrawAlphaTestDist = 9999">
+      <DisplayName>Shadow drawing alpha test effective distance [m] - 影描画アルファテスト有効距離[m]</DisplayName>
+      <Description>Distance to perform alpha test when drawing shadow [m] - 影描画時にアルファテストを行う距離[m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1602</SortID>
+    </Field>
+    <Field Def="u8 fowardDrawEnvmapBlendType">
+      <DisplayName>Forward Drawing environment map Blend type - Forward描画物の環境マップブレンドタイプ</DisplayName>
+      <Enum>PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE</Enum>
+      <Description>Forward Drawing environment map Blend type - Forward描画物の環境マップブレンドタイプ</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2430</SortID>
+    </Field>
+    <Field Def="u8 LBDrawDistScaleParamID">
+      <DisplayName>Drawing distance scale parameter ID - 描画距離スケールパラメータID</DisplayName>
+      <Description>Load balancer drawing distance scale parameter ID - ロードバランサー描画距離スケールパラメータID</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>47</Maximum>
+      <SortID>2501</SortID>
+    </Field>
+    <Field Def="dummy8 resereve[34]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>reserve - 予約</Description>
+      <SortID>2502</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

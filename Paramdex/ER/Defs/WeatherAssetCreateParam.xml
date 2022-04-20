@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WEATHER_ASSET_CREATE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u32 AssetId">
+      <DisplayName>Asset Id - アセットId</DisplayName>
+      <Description>Specify the asset ID to generate. AEG999_999-&gt; 999999 - 生成するアセットIDを指定します。AEG999_999 -&gt; 999999</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>999999</Maximum>
+    </Field>
+    <Field Def="u32 SlotNo">
+      <DisplayName>Slot number - スロット番号</DisplayName>
+      <Description>This is the number for generation control. Only one asset can be generated in the same slot. You can control whether you want to generate duplicates or not. - 生成制御用の番号です。同一スロットには１個のアセットのみ生成が可能です。重複して生成させたい、させたくない制御ができます。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>4</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 CreateConditionType">
+      <DisplayName>Occurrence condition - 発生条件</DisplayName>
+      <Enum>WEATHER_ASSET_CREATE_CONDITION_TYPE</Enum>
+      <Description>The type of condition of occurrence - 発生の条件のタイプです</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="dummy8 padding0[3]">
+      <DisplayName>padding0 - padding0</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s16 TransitionSrcWeather">
+      <DisplayName>Transition source weather - 遷移元天候</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the transition source weather. It is referenced only when the occurrence condition is "transition". - 遷移元の天候を指定します。発生条件が「遷移」のときだけ参照されます</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 TransitionDstWeather">
+      <DisplayName>Transition destination weather - 遷移先天候</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the transition destination weather. It is referenced only when the occurrence condition is "transition". - 遷移先の天候を指定します。発生条件が「遷移」のときだけ参照されます</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 ElapsedTimeCheckweather">
+      <DisplayName>Elapsed time check weather - 経過時間チェック天候</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the weather to check the elapsed time. - 経過時間をチェックする天候を指定します。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 padding1[2]">
+      <DisplayName>padding1 - padding1</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="f32 ElapsedTime">
+      <DisplayName>Elapsed time [Second] - 経過時間[Second]</DisplayName>
+      <Description>Specify the elapsed time. It is referenced only when the occurrence condition is "time elapsed". Real time Specify in seconds. - 経過時間を指定します。発生条件が「時間経過」のときだけ参照されます。現実時間[秒]単位で指定します。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 CreateDelayTime = -1">
+      <DisplayName>Generation delay time [Second] - 生成遅延時間[Second]</DisplayName>
+      <Description>Specifies the time to delay after the generation is determined. The created slot will be in use while it is delayed. Created immediately with 0 or less. - 生成が決定してから遅延する時間を指定します。遅延している間は作成したスロットは使用中になります。0以下で即時作成。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u32 CreateProbability = 100">
+      <DisplayName>Probability of occurrence [%] - 発生確率[％]</DisplayName>
+      <Description>Specifies the probability of occurrence when conditions for weather transitions or elapsed time are met. - 天候遷移、または経過時間の条件を満たした際に発生する確率を指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>100</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 LifeTime = 600">
+      <DisplayName>Lifespan [Second] - 寿命[Second]</DisplayName>
+      <Description>Specifies the life of the generated asset. Real time Specify in seconds. - 生成したアセットの寿命を指定します。現実時間[秒]単位で指定します。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>10</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 FadeTime = 1">
+      <DisplayName>Fade time [Second] - フェード時間[Second]</DisplayName>
+      <Description>Time [seconds] used for fade-in and fade-out. No fade below 0. - フェードイン、フェードアウトに使用される時間[秒]。0以下でフェードなし。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>64</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 EnableCreateTimeMin = -1">
+      <DisplayName>Generateable start time [Hour] - 生成可能開始時刻[Hour]</DisplayName>
+      <Description>Specifies a start time that can be generated [0.0 --24.0]. If you put -1 in either the start or the end, it will be treated as unlimited (can be generated in all time). - 生成可能な開始時刻を指定します[0.0 - 24.0]。開始、終了どちらかに-1を入れると無制限(全時間で生成可能)の扱いになります。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>24</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 EnableCreateTimeMax = -1">
+      <DisplayName>Generateable end time [Hour] - 生成可能終了時刻[Hour]</DisplayName>
+      <Description>Specifies the end time that can be generated [0.0 --24.0]. If you put -1 in either the start or the end, it will be treated as unlimited (can be generated in all time). - 生成可能な終了時刻を指定します[0.0 - 24.0]。開始、終了どちらかに-1を入れると無制限(全時間で生成可能)の扱いになります。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>24</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint0 = -1">
+      <DisplayName>Generation point 0 - 生成ポイント0</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid - 生成ポイント番号を指定します。MapStudioの「天候アセット生成ポイント」の末尾3桁の数値を指定してください。-1だと無効になります</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint1 = -1">
+      <DisplayName>Generation point 1 - 生成ポイント1</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid - 生成ポイント番号を指定します。MapStudioの「天候アセット生成ポイント」の末尾3桁の数値を指定してください。-1だと無効になります</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint2 = -1">
+      <DisplayName>Generation point 2 - 生成ポイント2</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid - 生成ポイント番号を指定します。MapStudioの「天候アセット生成ポイント」の末尾3桁の数値を指定してください。-1だと無効になります</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint3 = -1">
+      <DisplayName>Generation point 3 - 生成ポイント3</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid - 生成ポイント番号を指定します。MapStudioの「天候アセット生成ポイント」の末尾3桁の数値を指定してください。-1だと無効になります</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId0 = -1">
+      <DisplayName>Generation limit ID 0 - 生成制限ID0</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921). - 生成制限用のIDです。-1:無制限。「マップデフォルトパラメータ.xlsm」の生成制限IDと一致した場合のみ生成が許可されます(SEQ08921)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId1 = -1">
+      <DisplayName>Generation limit ID1 - 生成制限ID1</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921). - 生成制限用のIDです。-1:無制限。「マップデフォルトパラメータ.xlsm」の生成制限IDと一致した場合のみ生成が許可されます(SEQ08921)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId2 = -1">
+      <DisplayName>Generation limit ID2 - 生成制限ID2</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921). - 生成制限用のIDです。-1:無制限。「マップデフォルトパラメータ.xlsm」の生成制限IDと一致した場合のみ生成が許可されます(SEQ08921)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId3 = -1">
+      <DisplayName>Generation limit ID3 - 生成制限ID3</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921). - 生成制限用のIDです。-1:無制限。「マップデフォルトパラメータ.xlsm」の生成制限IDと一致した場合のみ生成が許可されます(SEQ08921)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="dummy8 Reserved2[4]">
+      <DisplayName>Reserved2 - Reserved2</DisplayName>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

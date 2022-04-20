@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>SIGN_PUDDLE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1001</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1002</SortID>
+    </Field>
+    <Field Def="s32 matchAreaId">
+      <DisplayName>Simple match area ID - 簡易マッチエリアID</DisplayName>
+      <Description>ID of the simple match area to which it belongs - 属している簡易マッチエリアのID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[24]">
+      <DisplayName>pad1 - pad1</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>1003</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

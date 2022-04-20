@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>NPC_THINK_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>15201</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>15202</SortID>
+    </Field>
+    <Field Def="s32 logicId = -1">
+      <DisplayName>Logic script ID - ロジックスクリプトID</DisplayName>
+      <Description>Set the ID of the logic created by the script. - スクリプトで作成したロジックのIDを設定します。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 battleGoalID = -1">
+      <DisplayName>Battle goal ID - 戦闘ゴールID</DisplayName>
+      <Description>Battle goal ID - 戦闘ゴールID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u16 searchEye_dist">
+      <DisplayName>Searching enemy vision_distance [m] - 索敵視覚_距離[m]</DisplayName>
+      <Description>Search range by visual search. - 索敵視覚による索敵範囲.</Description>
+      <SortID>11310</SortID>
+    </Field>
+    <Field Def="u8 searchEye_angY">
+      <DisplayName>Searching enemy vision_angle (width) [deg] - 索敵視覚_角度（幅）[deg]</DisplayName>
+      <Description>Search range by visual search. - 索敵視覚による索敵範囲.</Description>
+      <Maximum>180</Maximum>
+      <SortID>11330</SortID>
+    </Field>
+    <Field Def="u8 isNoAvoidHugeEnemy:1">
+      <DisplayName>Do you not detour a huge enemy? - 巨大敵を迂回しないか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you not detour a huge enemy? - 巨大敵を迂回しないか</Description>
+      <Maximum>1</Maximum>
+      <SortID>13560</SortID>
+    </Field>
+    <Field Def="u8 enableWeaponOnOff:1">
+      <DisplayName>Do you want to pull out the sword? - 納刀抜刀するか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to pull out the sword? - 納刀抜刀するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>13010</SortID>
+    </Field>
+    <Field Def="u8 targetAILockDmyPoly:1 = 1">
+      <DisplayName>Do you aim for Rock Damipoli (for enemies)? - ロックダミポリ(エネミー用)を狙うか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you aim for Rock Damipoli (for enemies)? - ロックダミポリ(エネミー用)を狙うか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10650</SortID>
+    </Field>
+    <Field Def="dummy8 pad8:5">
+      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayFormat>%f</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>15203</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_RangedAttack = -1">
+      <DisplayName>Special effects ID for ranged attacks - 遠隔攻撃用特殊効果ID</DisplayName>
+      <Description>Special effects ID for ranged attacks - 遠隔攻撃用特殊効果ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>10330</SortID>
+    </Field>
+    <Field Def="f32 searchTargetLv1ForgetTime = 5">
+      <DisplayName>Search enemy Lv1 Target Forget time [sec] - 索敵Lv1ターゲット忘れる時間[sec]</DisplayName>
+      <Description>Search enemy Lv1 Target Time to forget. - 索敵Lv1ターゲット忘れる時間。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>12510</SortID>
+    </Field>
+    <Field Def="f32 searchTargetLv2ForgetTime = 8">
+      <DisplayName>Search enemy Lv2 Target Forget time [sec] - 索敵Lv2ターゲット忘れる時間[sec]</DisplayName>
+      <Description>Search enemy Lv2 time to forget the target. - 索敵Lv2ターゲット忘れる時間。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>12511</SortID>
+    </Field>
+    <Field Def="f32 BackHomeLife_OnHitEneWal = 5">
+      <DisplayName>Back Home time when touching an enemy wall [sec] - 敵壁接触時のBackHome時間[sec]</DisplayName>
+      <Description>The life of the BackToHome goal when it touches an enemy wall that blocks the block - ブロックをさえぎる敵壁に接触したとき、BackToHomeゴールの寿命</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>10600</SortID>
+    </Field>
+    <Field Def="f32 SightTargetForgetTime = 600">
+      <DisplayName>Time to forget the visual target [sec] - 視覚ターゲット忘れる時間[sec]</DisplayName>
+      <Description>Time to forget the visual target. - 視覚ターゲット忘れる時間。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>12300</SortID>
+    </Field>
+    <Field Def="s32 idAttackCannotMove">
+      <DisplayName>EzState number to do when you get stuck - 動けなくなったときに行うEzState番号</DisplayName>
+      <Description>An action that automatically takes place when a destructible object stops it. - 破壊可能なオブジェクトによって動きが止まっている場合、自動的に実行する行動。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>10500</SortID>
+    </Field>
+    <Field Def="f32 ear_dist">
+      <DisplayName>Hearing_distance [m] - 聴覚_距離[m]</DisplayName>
+      <Description>Hearing search range ... - 聴覚による索敵範囲.。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>11400</SortID>
+    </Field>
+    <Field Def="s32 callHelp_ActionAnimId = -1">
+      <DisplayName>Companion call response action anime ID - 仲間呼び 応答アクションアニメID</DisplayName>
+      <Description>Animation ID (EzStateAnimID) when responding - 応答する時のアニメID(EzStateAnimID)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>14500</SortID>
+    </Field>
+    <Field Def="s32 callHelp_CallActionId = -1">
+      <DisplayName>Fellow call _ Fellow call action ID - 仲間呼び_仲間呼びアクションID</DisplayName>
+      <Description>Action ID (EzStateAnimID) when calling a friend - 仲間呼ぶときのアクションID(EzStateAnimID)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>14600</SortID>
+    </Field>
+    <Field Def="u16 eye_dist">
+      <DisplayName>Visual_distance [m] - 視覚_距離[m]</DisplayName>
+      <Description>Visual search range. - 視覚による索敵範囲.</Description>
+      <SortID>10800</SortID>
+    </Field>
+    <Field Def="u8 isGuard_Act">
+      <DisplayName>Whether to use a guard during action - 行動時ガード使用するか</DisplayName>
+      <Enum>BOOL_DODONT_TYPE</Enum>
+      <Description>Whether to guard against actions (assumed when returning home, looking toward the target) - 行動にガードするか（帰宅時、ターゲットの方を見ている時想定）</Description>
+      <Maximum>1</Maximum>
+      <SortID>10310</SortID>
+    </Field>
+    <Field Def="dummy8 pad6[1]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayFormat>%f</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>15204</SortID>
+    </Field>
+    <Field Def="u16 ear_soundcut_dist">
+      <DisplayName>Hearing influence cut distance [m] - 聴覚　影響カット距離[m]</DisplayName>
+      <Description>The distance to reduce the size of the sound source. You will not hear any sound below this distance. - 音源のサイズを小さくする距離。この距離未満の音が聞こえなくなります。</Description>
+      <SortID>11500</SortID>
+    </Field>
+    <Field Def="u16 nose_dist">
+      <DisplayName>Smell _ distance [m] - 嗅覚_距離[m]</DisplayName>
+      <Description>Search range by smell. - 嗅覚による索敵範囲.</Description>
+      <SortID>11600</SortID>
+    </Field>
+    <Field Def="u16 maxBackhomeDist">
+      <DisplayName>Distance to go home no matter what [m] - 何があっても帰宅する距離[m]</DisplayName>
+      <Description>COMMON_SetBattleActLogic argument - COMMON_SetBattleActLogicの引き数</Description>
+      <SortID>11700</SortID>
+    </Field>
+    <Field Def="u16 backhomeDist">
+      <DisplayName>Distance to return home while fighting [m] - 戦闘しつつ帰宅する距離[m]</DisplayName>
+      <Description>COMMON_SetBattleActLogic argument - COMMON_SetBattleActLogicの引き数</Description>
+      <SortID>11800</SortID>
+    </Field>
+    <Field Def="u16 backhomeBattleDist">
+      <DisplayName>Distance to give up and fight to return to the nest [m] - 巣に帰るのをあきらめて戦闘する距離[m]</DisplayName>
+      <Description>COMMON_SetBattleActLogic argument - COMMON_SetBattleActLogicの引き数</Description>
+      <SortID>11900</SortID>
+    </Field>
+    <Field Def="u16 nonBattleActLife">
+      <DisplayName>Non-combat action time when conscious of the enemy [sec] - 敵を意識しているときの非戦闘行動時間[sec]</DisplayName>
+      <Description>COMMON_SetBattleActLogic argument - COMMON_SetBattleActLogicの引き数</Description>
+      <Maximum>65534</Maximum>
+      <SortID>12000</SortID>
+    </Field>
+    <Field Def="u16 BackHome_LookTargetTime = 3">
+      <DisplayName>When returning home: Time to look at the target [sec] - 帰宅時：ターゲットを見ている時間[sec]</DisplayName>
+      <Description>When returning home: Time to look at the target [sec] - 帰宅時：ターゲットを見ている時間[sec]</Description>
+      <Maximum>65534</Maximum>
+      <SortID>12100</SortID>
+    </Field>
+    <Field Def="u16 BackHome_LookTargetDist = 10">
+      <DisplayName>When returning home: Distance to see the target [m] - 帰宅時：ターゲットを見ている距離[m]</DisplayName>
+      <Description>When returning home: Distance to see the target [m] - 帰宅時：ターゲットを見ている距離[m]</Description>
+      <Maximum>65534</Maximum>
+      <SortID>12200</SortID>
+    </Field>
+    <Field Def="f32 SoundTargetForgetTime = 3">
+      <DisplayName>Time to forget the sound target [sec] - 音ターゲット忘れる時間[sec]</DisplayName>
+      <Description>Time to forget the sound target. - 音ターゲット忘れる時間。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>12400</SortID>
+    </Field>
+    <Field Def="u16 BattleStartDist">
+      <DisplayName>Battle start distance [m] - 戦闘開始距離[m]</DisplayName>
+      <Maximum>65534</Maximum>
+      <SortID>10900</SortID>
+    </Field>
+    <Field Def="u16 callHelp_MyPeerId">
+      <DisplayName>Calling friends Your fellow group ID - 仲間呼び 自分の仲間グループID</DisplayName>
+      <Description>My fellow group ID - 自分の仲間グループID</Description>
+      <Maximum>65534</Maximum>
+      <SortID>14300</SortID>
+    </Field>
+    <Field Def="u16 callHelp_CallPeerId">
+      <DisplayName>Companion call Companion group ID - 仲間呼び 呼ぶ仲間グループID</DisplayName>
+      <Description>Companion group ID to call a companion - 仲間を呼ぶ対象となる仲間グループID</Description>
+      <Maximum>65534</Maximum>
+      <SortID>14400</SortID>
+    </Field>
+    <Field Def="u16 targetSys_DmgEffectRate = 100">
+      <DisplayName>Damage impact rate [%] - ダメージ影響率[％]</DisplayName>
+      <Description>Damage impact rate acquisition (target system evaluation information) - ダメージ影響率取得(ターゲットシステム評価情報)</Description>
+      <Maximum>1000</Maximum>
+      <SortID>13100</SortID>
+    </Field>
+    <Field Def="u8 TeamAttackEffectivity = 25">
+      <DisplayName>Team attack influence [0-100] - チーム攻撃影響力[0-100]</DisplayName>
+      <Description>A value for determining the number of simultaneous attacks in a team. Increasing the value reduces the number of people who can participate in the attack at the same time. - チーム内の同時攻撃人数を決めるための値。値を大きくすると、同時に攻撃参加できる人数が少なくなる。</Description>
+      <Maximum>100</Maximum>
+      <SortID>13200</SortID>
+    </Field>
+    <Field Def="u8 eye_angX">
+      <DisplayName>Vision_angle (height) [deg] - 視覚_角度（高さ）[deg]</DisplayName>
+      <Description>Visual search range. - 視覚による索敵範囲.</Description>
+      <Maximum>180</Maximum>
+      <SortID>11000</SortID>
+    </Field>
+    <Field Def="u8 eye_angY">
+      <DisplayName>Visual_angle (width) [deg] - 視覚_角度（幅）[deg]</DisplayName>
+      <Description>Visual search range. - 視覚による索敵範囲.</Description>
+      <Maximum>180</Maximum>
+      <SortID>11100</SortID>
+    </Field>
+    <Field Def="u8 disableDark">
+      <DisplayName>Does not affect the darkness - 暗闇影響しない</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether the alert vision_distance and battle start distance are not affected by the darkness - 警戒視覚_距離、戦闘開始距離が暗闇による影響を受けないようにするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10700</SortID>
+    </Field>
+    <Field Def="u8 caravanRole">
+      <DisplayName>Role in the caravan - キャラバンでの役割</DisplayName>
+      <Enum>NPC_THINK_CARAVAN_ROLE</Enum>
+      <Description>Role in the caravan - キャラバンでの役割</Description>
+      <Maximum>3</Maximum>
+      <SortID>13510</SortID>
+    </Field>
+    <Field Def="u8 callHelp_CallValidMinDistTarget = 5">
+      <DisplayName>Companion call_minimum distance to the target [m] - 仲間呼び_ターゲットとの最低距離[m]</DisplayName>
+      <Description>If it is closer than this value, you cannot call a friend. - この値より近い場合は仲間呼びできない.</Description>
+      <SortID>15000</SortID>
+    </Field>
+    <Field Def="u8 callHelp_CallValidRange = 15">
+      <DisplayName>Calling friends_Effective distance to call friends [m] - 仲間呼び_仲間を呼ぶ有効距離[m]</DisplayName>
+      <Description>Do not call if the companion is farther than this value. - この値より仲間が遠い場合は呼ばない。</Description>
+      <SortID>14900</SortID>
+    </Field>
+    <Field Def="u8 callHelp_ForgetTimeByArrival">
+      <DisplayName>Time to forget after answering a fellow call [sec] - 仲間呼び 応答してから忘れる時間[sec]</DisplayName>
+      <Description>Time to respond - 応答する時間</Description>
+      <SortID>14800</SortID>
+    </Field>
+    <Field Def="u8 callHelp_MinWaitTime">
+      <DisplayName>Minimum waiting time for response [ssm =&gt; ss. mSec] - 応答時の待機最小時間[ssm=&gt;ss．mSec]</DisplayName>
+      <Description>Minimum time for the first wait goal of the response goal [101 =&gt; 10.1sec] - 応答ゴールの最初の待機ゴールでの最小時間[101=&gt;10．1sec]</Description>
+      <SortID>15100</SortID>
+    </Field>
+    <Field Def="u8 callHelp_MaxWaitTime">
+      <DisplayName>Maximum waiting time for response [ssm =&gt; ss. mSec] - 応答時の待機最大時間[ssm=&gt;ss．mSec]</DisplayName>
+      <Description>Maximum time for the first waiting goal of the response goal [101 =&gt; 10.1sec] - 応答ゴールの最初の待機ゴールでの最大時間[101=&gt;10．1sec]</Description>
+      <SortID>15200</SortID>
+    </Field>
+    <Field Def="u8 goalAction_ToCaution">
+      <DisplayName>Goal action: alert / normal sound - ゴールアクション：警戒状態/通常音</DisplayName>
+      <Enum>NPC_THINK_GOAL_ACTION</Enum>
+      <Description>Goal action: Target becomes alert due to normal sound detection - ゴールアクション：ターゲットが通常音の感知により警戒状態になった</Description>
+      <SortID>12600</SortID>
+    </Field>
+    <Field Def="u8 ear_listenLevel = 128">
+      <DisplayName>Hearing_audible AI sound level - 聴覚_可聴AI音レベル</DisplayName>
+      <Description>How good your ears are - どれくらい耳が良いのか</Description>
+      <Maximum>128</Maximum>
+      <SortID>11550</SortID>
+    </Field>
+    <Field Def="u8 callHelp_ReplyBehaviorType">
+      <DisplayName>Behavior type after responding to a fellow call - 仲間呼び 応答後の行動タイプ</DisplayName>
+      <Enum>NPC_THINK_REPLY_BEHAVIOR_TYPE</Enum>
+      <Description>Action type to target position after response - 応答後、目標位置までの行動タイプ</Description>
+      <Maximum>3</Maximum>
+      <SortID>14700</SortID>
+    </Field>
+    <Field Def="u8 disablePathMove">
+      <DisplayName>Do not move the path - パス移動しない</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to move directly without following the path even if a path move command comes - パス移動命令が来てもパスを辿らずに直接移動するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10100</SortID>
+    </Field>
+    <Field Def="u8 skipArrivalVisibleCheck">
+      <DisplayName>Do you want to skip the arrival judgment by the line of sight? - 視線による到着判定をスキップするか？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Do you want to skip the arrival judgment by the line of sight? When set to On, arrival judgment is performed even if the line of sight does not pass. - 視線による到着判定をスキップするか？Onにすると、視線が通っていなくても、到着判定を行う。</Description>
+      <Maximum>1</Maximum>
+      <SortID>10400</SortID>
+    </Field>
+    <Field Def="u8 thinkAttr_doAdmirer">
+      <DisplayName>Will you be a companion? - 取巻き役になるか？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Thinking attribute: When turned on, it plays a role of surrounding. - 思考属性：ＯＮにすると取巻き役を演じます。</Description>
+      <Maximum>1</Maximum>
+      <SortID>13300</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Edge:1 = 1">
+      <DisplayName>Can you pass the flag "cliff"? - フラグ「崖」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "cliff"? (def: 1) - ノード「崖」を通過できるか？(def:1)</Description>
+      <Maximum>1</Maximum>
+      <SortID>13900</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_LargeSpace:1 = 1">
+      <DisplayName>Can the flag "wide" pass? - フラグ「広い」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "wide"? (def: 1) - ノード「広い」を通過できるか？(def:1)</Description>
+      <Maximum>1</Maximum>
+      <SortID>14000</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Ladder:1">
+      <DisplayName>Can you pass the flag "ladder"? - フラグ「梯子」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "ladder"? (def: 0) - ノード「梯子」を通過できるか？(def:0)</Description>
+      <Maximum>1</Maximum>
+      <SortID>13600</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Hole:1">
+      <DisplayName>Can you go through the flag "hole"? - フラグ「穴」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you go through the node "hole"? (def: 0) - ノード「穴」を通過できるか？(def:0)</Description>
+      <Maximum>1</Maximum>
+      <SortID>14100</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Door:1">
+      <DisplayName>Can you go through the flag "door"? - フラグ「扉」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "door"? (def: 0) - ノード「扉」を通過できるか？(def:0)</Description>
+      <Maximum>1</Maximum>
+      <SortID>13700</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_InSideWall:1">
+      <DisplayName>Can you pass the flag "in the wall"? - フラグ「壁中」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "in the wall"? (def: 0) - ノード「壁中」を通過できるか？(def:0)</Description>
+      <Maximum>1</Maximum>
+      <SortID>14200</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Lava:1">
+      <DisplayName>Can you pass the flag "lava"? - フラグ「溶岩」通れるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass through the node "lava"? (def: 0) - ノード「溶岩」を通過できるか？(def:0)</Description>
+      <Maximum>1</Maximum>
+      <SortID>13710</SortID>
+    </Field>
+    <Field Def="u8 enableNaviFlg_Edge_Ordinary:1 = 1">
+      <DisplayName>Can you pass the flag "cliff"? (Normal / alert state) - フラグ「崖」通れるか？（通常／警戒状態）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Can you pass the node "cliff" under normal / alert conditions? (def: 1) - 通常／警戒状態でノード「崖」を通過できるか？(def:1)</Description>
+      <Maximum>1</Maximum>
+      <SortID>13800</SortID>
+    </Field>
+    <Field Def="dummy8 enableNaviFlg_reserve1[3]">
+      <DisplayName>Really booked - ほんとに予約</DisplayName>
+      <Description>If you need a new flag, put it here (Not Padding) - フラグが新しく必要になったらここにいれます（NotPadding)</Description>
+      <SortID>15205</SortID>
+    </Field>
+    <Field Def="s32 searchThreshold_Lv0toLv1 = 10">
+      <DisplayName>Search enemy Lv0 → Lv1 threshold - 索敵Lv0→Lv1の閾値</DisplayName>
+      <Description>Search enemy Lv0 → Lv1 threshold - 索敵Lv0→Lv1の閾値</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>12520</SortID>
+    </Field>
+    <Field Def="s32 searchThreshold_Lv1toLv2 = 70">
+      <DisplayName>Search enemy Lv1 → Lv2 threshold - 索敵Lv1→Lv2の閾値</DisplayName>
+      <Description>Search enemy Lv1 → Lv2 threshold - 索敵Lv1→Lv2の閾値</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>12521</SortID>
+    </Field>
+    <Field Def="f32 platoonReplyTime">
+      <DisplayName>Platoon reaction delay time [sec] - 小隊反応遅延時間[sec]</DisplayName>
+      <Description>Platoon reaction delay time [sec] - 小隊反応遅延時間[sec]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>13400</SortID>
+    </Field>
+    <Field Def="f32 platoonReplyAddRandomTime">
+      <DisplayName>Platoon reaction additional random time [sec] - 小隊反応追加ランダム時間[sec]</DisplayName>
+      <Description>Platoon reaction additional random time [sec] - 小隊反応追加ランダム時間[sec]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>13500</SortID>
+    </Field>
+    <Field Def="u8 searchEye_angX">
+      <DisplayName>Searching enemy vision_angle (height) [deg] - 索敵視覚_角度(高さ)[deg]</DisplayName>
+      <Description>Searching enemy vision_angle (height) [deg] - 索敵視覚_角度(高さ)[deg]</Description>
+      <Maximum>180</Maximum>
+      <SortID>11320</SortID>
+    </Field>
+    <Field Def="u8 isUpdateBattleSight">
+      <DisplayName>Do you want to overwrite the combat view? - 戦闘視界を上書きするか？</DisplayName>
+      <Enum>BOOL_DODONT_TYPE</Enum>
+      <Description>Do you want to overwrite the battle view? - 戦闘視界を上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>11340</SortID>
+    </Field>
+    <Field Def="u16 battleEye_updateDist">
+      <DisplayName>Battle Vision_Overwrite Distance [m] - 戦闘視覚_上書き距離[m]</DisplayName>
+      <Description>Battle Vision_Overwrite Distance [m] - 戦闘視覚_上書き距離[m]</Description>
+      <SortID>11350</SortID>
+    </Field>
+    <Field Def="u8 battleEye_updateAngX">
+      <DisplayName>Battle Vision_Overwrite Angle (Height) [deg] - 戦闘視覚_上書き角度(高さ)[deg]</DisplayName>
+      <Description>Battle Vision_Overwrite Angle (Height) [deg] - 戦闘視覚_上書き角度(高さ)[deg]</Description>
+      <Maximum>180</Maximum>
+      <SortID>11360</SortID>
+    </Field>
+    <Field Def="u8 battleEye_updateAngY">
+      <DisplayName>Battle Vision_Overwrite Angle (Width) [deg] - 戦闘視覚_上書き角度(幅)[deg]</DisplayName>
+      <Description>Battle Vision_Overwrite Angle (Width) [deg] - 戦闘視覚_上書き角度(幅)[deg]</Description>
+      <Maximum>180</Maximum>
+      <SortID>11370</SortID>
+    </Field>
+    <Field Def="dummy8 pad4[16]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>15206</SortID>
+    </Field>
+    <Field Def="u16 eye_BackOffsetDist">
+      <DisplayName>Visual_occurrence distance [m] - 視覚_発生距離[m]</DisplayName>
+      <Description>The viewing angle start position is behind this distance from the center of the character. - キャラの中心からこの距離後ろが視角開始位置になる</Description>
+      <SortID>11200</SortID>
+    </Field>
+    <Field Def="u16 eye_BeginDist">
+      <DisplayName>Visual_cut distance [m] - 視覚_カット距離[m]</DisplayName>
+      <Description>This distance is not recognized from the viewing angle generation position - 視角発生位置からこの距離は認識しない</Description>
+      <Maximum>65534</Maximum>
+      <SortID>11300</SortID>
+    </Field>
+    <Field Def="u8 actTypeOnFailedPath">
+      <DisplayName>Behavior type at the time of path search failure / homecoming limit - パス検索失敗/帰巣限界時の行動種別</DisplayName>
+      <Enum>NPC_THINK_ACTTYPE_ON_FAILEDPATH</Enum>
+      <Description>Default action type to be performed when the path search fails, when the end point of the alternative path is reached / when the homecoming limit distance is reached - パス検索失敗時、代替パスの終点に到達した際/帰巣限界距離まで到達した際に行うデフォルトの行動種別</Description>
+      <Maximum>3</Maximum>
+      <SortID>10300</SortID>
+    </Field>
+    <Field Def="u8 goalAction_ToCautionImportant">
+      <DisplayName>Goal Action: Alert / Important Sound - ゴールアクション：警戒状態/重要音</DisplayName>
+      <Enum>NPC_THINK_GOAL_ACTION</Enum>
+      <Description>Goal action: Target becomes alert due to detection of important sound - ゴールアクション：ターゲットが重要音の感知により警戒状態になった</Description>
+      <SortID>12700</SortID>
+    </Field>
+    <Field Def="s32 shiftAnimeId_RangedAttack = -1">
+      <DisplayName>Changeover animation ID for ranged attacks - 遠隔攻撃用持ち替えアニメID</DisplayName>
+      <Description>Reference ID for AI attack parameters - AI攻撃パラメータの参照ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>10340</SortID>
+    </Field>
+    <Field Def="u8 actTypeOnNonBtlFailedPath">
+      <DisplayName>Behavior when path search fails (during non-combat) - パス検索失敗時の挙動（非戦闘中）</DisplayName>
+      <Enum>NPC_THINK_ACTTYPE_ON_NONBTL_FAILEDPATH</Enum>
+      <Description>Target [None] Sometimes, the action to be taken after rewriting the current location to a nest - ターゲット【なし】時に、現在地点を巣に書き換えた後に取る行動 </Description>
+      <Maximum>2</Maximum>
+      <SortID>10350</SortID>
+    </Field>
+    <Field Def="u8 isBuddyAI">
+      <DisplayName>Buddy AI - バディAI</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Thinking for a buddy - バディ用の思考か</Description>
+      <Maximum>1</Maximum>
+      <SortID>13050</SortID>
+    </Field>
+    <Field Def="u8 goalAction_ToSearchLv1">
+      <DisplayName>Goal action: Search enemy Lv1 - ゴールアクション：索敵Lv1</DisplayName>
+      <Enum>NPC_THINK_GOAL_ACTION</Enum>
+      <Description>Goal action: Target becomes Lv1 - ゴールアクション：ターゲットが索敵Lv1になった</Description>
+      <SortID>12530</SortID>
+    </Field>
+    <Field Def="u8 goalAction_ToSearchLv2">
+      <DisplayName>Goal action: Search enemy Lv2 - ゴールアクション：索敵Lv2</DisplayName>
+      <Enum>NPC_THINK_GOAL_ACTION</Enum>
+      <Description>Goal action: Target became enemy Lv2 - ゴールアクション：ターゲットが索敵Lv2になった</Description>
+      <SortID>12531</SortID>
+    </Field>
+    <Field Def="u8 enableJumpMove">
+      <DisplayName>Do you use the edge "jump" (non-combat state)? - エッジ「ジャンプ」使うか（非戦闘状態）</DisplayName>
+      <Enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</Enum>
+      <Description>Whether to jump over the user edge for jumping (non-combat state) - ジャンプ用ユーザーエッジを飛び越えて移動するか(非戦闘状態)</Description>
+      <Maximum>2</Maximum>
+      <SortID>13550</SortID>
+    </Field>
+    <Field Def="u8 disableLocalSteering">
+      <DisplayName>Do not move around - 回避移動しない</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to turn off the behavior (local steering) that tries to move while avoiding other characters? - 他のキャラクターを回避しながら移動しようとする挙動(ローカルステアリング)をオフにするか？</Description>
+      <Maximum>1</Maximum>
+      <SortID>10200</SortID>
+    </Field>
+    <Field Def="u8 goalAction_ToDisappear">
+      <DisplayName>Goal action: Memory target state - ゴールアクション：記憶ターゲット状態</DisplayName>
+      <Enum>NPC_THINK_GOAL_ACTION</Enum>
+      <Description>Goal action: Lost target - ゴールアクション：ターゲットを見失った</Description>
+      <SortID>12900</SortID>
+    </Field>
+    <Field Def="u8 changeStateAction_ToNormal">
+      <DisplayName>Goal action: Start normal state - ゴールアクション：通常状態開始</DisplayName>
+      <Enum>NPC_THINK_CHANGE_STATE_ACTION</Enum>
+      <Description>Action when transitioning to the normal state - 通常状態に遷移したときのアクション</Description>
+      <SortID>13000</SortID>
+    </Field>
+    <Field Def="f32 MemoryTargetForgetTime = 150">
+      <DisplayName>Time to forget memory target [sec] - 記憶ターゲット忘れる時間[sec]</DisplayName>
+      <Description>Time to forget the memory target. - 記憶ターゲット忘れる時間。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>12500</SortID>
+    </Field>
+    <Field Def="s32 rangedAttackId = -1">
+      <DisplayName>Ranged attack anime ID - 遠隔攻撃アニメID</DisplayName>
+      <Description>A parameter that specifies the attack ID issued by the enemy when making a ranged attack - 遠隔攻撃する際にエネミーが出す攻撃IDを指定するパラメータ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>10320</SortID>
+    </Field>
+    <Field Def="u8 useFall_onNormalCaution = 2">
+      <DisplayName>Do you use the edge "jump" (non-combat state)? - エッジ「飛び降り」使うか（非戦闘状態）</DisplayName>
+      <Enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</Enum>
+      <Description>Allows AI to pass the jumping edge in non-combat state - AIが非戦闘状態で、飛び降りエッジを通行できるようにする</Description>
+      <Maximum>2</Maximum>
+      <SortID>13555</SortID>
+    </Field>
+    <Field Def="u8 useFall_onSearchBattle = 2">
+      <DisplayName>Do you use the edge "jump" (combat state)? - エッジ「飛び降り」使うか（戦闘状態）</DisplayName>
+      <Enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</Enum>
+      <Description>Allow AI to pass through the jumping edge in combat - AIが戦闘状態で、飛び降りエッジを通行できるようにする </Description>
+      <Maximum>2</Maximum>
+      <SortID>13556</SortID>
+    </Field>
+    <Field Def="u8 enableJumpMove_onBattle">
+      <DisplayName>Do you use the edge "jump" (combat state)? - エッジ「ジャンプ」使うか（戦闘状態）</DisplayName>
+      <Enum>NPC_THINK_JUMPUSEREDGE_USE_TYPE</Enum>
+      <Description>Whether to jump over the user edge for jumping (combat state) - ジャンプ用ユーザーエッジを飛び越えて移動するか(戦闘状態)</Description>
+      <Maximum>2</Maximum>
+      <SortID>13551</SortID>
+    </Field>
+    <Field Def="u8 backToHomeStuckAct">
+      <DisplayName>Behavior when addicted to the homecoming limit - 帰巣限界でハマった時の挙動</DisplayName>
+      <Enum>NPC_THINK_BackToHomeStuckAct</Enum>
+      <Description>Behavior when addicted to the homecoming limit - 帰巣限界でハマった時の挙動</Description>
+      <Maximum>1</Maximum>
+      <SortID>10360</SortID>
+    </Field>
+    <Field Def="dummy8 pad3[4]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>15207</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId01 = -1">
+      <DisplayName>Behavior ID1 - 振る舞いID1</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13520</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId02 = -1">
+      <DisplayName>Behavior ID2 - 振る舞いID2</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13521</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId03 = -1">
+      <DisplayName>Behavior ID3 - 振る舞いID3</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13522</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId04 = -1">
+      <DisplayName>Behavior ID4 - 振る舞いID4</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13523</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId05 = -1">
+      <DisplayName>Behavior ID5 - 振る舞いID5</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13524</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId06 = -1">
+      <DisplayName>Behavior ID6 - 振る舞いID6</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13525</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId07 = -1">
+      <DisplayName>Behavior ID7 - 振る舞いID7</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13526</SortID>
+    </Field>
+    <Field Def="s32 soundBehaviorId08 = -1">
+      <DisplayName>Behavior ID8 - 振る舞いID8</DisplayName>
+      <Description>Corresponds to the behavior ID of the sound target that can be heard - 聴くことのできる音ターゲットの振る舞いIDに対応</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13527</SortID>
+    </Field>
+    <Field Def="s32 weaponOffSpecialEffectId = -1">
+      <DisplayName>Special effect ID at the time of sword delivery - 納刀時特殊効果ID</DisplayName>
+      <Description>Special effect ID at the time of sword delivery - 納刀時特殊効果ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13011</SortID>
+    </Field>
+    <Field Def="s32 weaponOnSpecialEffectId = -1">
+      <DisplayName>Special effect ID when pulling out a sword - 抜刀時特殊効果ID</DisplayName>
+      <Description>Special effect ID when pulling out a sword - 抜刀時特殊効果ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13012</SortID>
+    </Field>
+    <Field Def="s32 weaponOffAnimId = -1">
+      <DisplayName>Katana Anime ID - 納刀アニメID</DisplayName>
+      <Description>Katana Anime ID - 納刀アニメID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13013</SortID>
+    </Field>
+    <Field Def="s32 weaponOnAnimId = -1">
+      <DisplayName>Sword animation ID - 抜刀アニメID</DisplayName>
+      <Description>Sword animation ID - 抜刀アニメID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13014</SortID>
+    </Field>
+    <Field Def="s32 surpriseAnimId = -1">
+      <DisplayName>Amazing anime ID - 驚くアニメID</DisplayName>
+      <Description>Amazing anime ID - 驚くアニメID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>13020</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

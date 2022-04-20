@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>AI_STANDARD_INFO_BANK</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u16 RadarRange = 20">
+      <DisplayName>Recognition distance [m] - 認識距離[m]</DisplayName>
+      <Description>Distance to recognize hostile characters - 敵性キャラクタを認識する距離</Description>
+      <Maximum>30000</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 RadarAngleX = 30">
+      <DisplayName>Recognition angle X [deg] - 認識角度Ｘ[deg]</DisplayName>
+      <Description>X angle for recognizing hostile characters: The current line-of-sight direction is 0 degrees, and the top is +. - 敵性キャラクタを認識するX角度　現在の視線方向を０度として、上が＋。</Description>
+      <Maximum>90</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 RadarAngleY = 60">
+      <DisplayName>Recognition angle Y [deg] - 認識角度Y[deg]</DisplayName>
+      <Description>Y angle for recognizing hostile characters: The current line-of-sight direction is 0 degrees, and the right is +. - 敵性キャラクタを認識するY角度　現在の視線方向を０度として、右が＋。</Description>
+      <Maximum>180</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u16 TerritorySize = 20">
+      <DisplayName>Territory distance [m] - 縄張り距離[m]</DisplayName>
+      <Description>The distance of your territory. If the recognizing player deviates from this distance, it will return to the initial position. - 自分の縄張りの距離。認識しているプレイヤーがこの距離から外れると初期位置に戻ります。</Description>
+      <Maximum>30000</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u8 ThreatBeforeAttackRate = 50">
+      <DisplayName>Intimidation rate before attack [0-100] - 攻撃前威嚇率[0～100]</DisplayName>
+      <Description>Probability of threatening before attack - 攻撃前に威嚇する確率</Description>
+      <Maximum>100</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 ForceThreatOnFirstLocked">
+      <DisplayName>First recognition menacing - 初回認識威嚇</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to intimidate when recognizing the first player - 初回プレイヤー認識時に必ず威嚇するかどうか</Description>
+      <Maximum>0</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="dummy8 reserve0[24]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>41</SortID>
+    </Field>
+    <Field Def="u16 Attack1_Distance">
+      <DisplayName>Attack 1 Maai [m] - 攻撃１　間合い[m]</DisplayName>
+      <Description>Time to attack [m] - 攻撃するときの間合い[m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u16 Attack1_Margin">
+      <DisplayName>Attack 1 Maai play [m] - 攻撃１　間合い遊び[m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance - 攻撃間合いの遊び。間合い距離近辺で、振動しないように</Description>
+      <Maximum>100</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="u8 Attack1_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100] - 攻撃１　割合[0～100]</DisplayName>
+      <Description>Frequency of attacks - 攻撃の頻度</Description>
+      <Maximum>100</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 Attack1_ActionID">
+      <DisplayName>Attack 1 type - 攻撃１　種類</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks - 攻撃の種類</Description>
+      <Maximum>0</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u8 Attack1_DelayMin">
+      <DisplayName>Attack 1 Minimum delay time [frame] - 攻撃１　最小遅延時間[frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最小。</Description>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="u8 Attack1_DelayMax">
+      <DisplayName>Attack 1 Maximum delay time [frame] - 攻撃１　最長遅延時間[frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最長。</Description>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="u8 Attack1_ConeAngle = 30">
+      <DisplayName>Attack 1 Attack permission Conical angle [deg] - 攻撃１　攻撃許可円錐の角度[deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK. - 視線方向とターゲットへの方向ベクトルのなす角が、この角度以内の場合、攻撃ＯＫ。</Description>
+      <Maximum>180</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="dummy8 reserve10[7]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>42</SortID>
+    </Field>
+    <Field Def="u16 Attack2_Distance">
+      <DisplayName>Attack 2 Maai [m] - 攻撃２　間合い[m]</DisplayName>
+      <Description>Time to attack [m] - 攻撃するときの間合い[m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="u16 Attack2_Margin">
+      <DisplayName>Attack 2 Maai play [m] - 攻撃２　間合い遊び[m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance - 攻撃間合いの遊び。間合い距離近辺で、振動しないように</Description>
+      <Maximum>100</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="u8 Attack2_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100] - 攻撃１　割合[0～100]</DisplayName>
+      <Description>Frequency of attacks - 攻撃の頻度</Description>
+      <Maximum>100</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u8 Attack2_ActionID">
+      <DisplayName>Attack 2 type - 攻撃２　種類</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks - 攻撃の種類</Description>
+      <Maximum>0</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u8 Attack2_DelayMin">
+      <DisplayName>Attack 2 Minimum delay time [frame] - 攻撃2　最小遅延時間[frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最小。</Description>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u8 Attack2_DelayMax">
+      <DisplayName>Attack 2 Maximum delay time [frame] - 攻撃2　最長遅延時間[frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最長。</Description>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="u8 Attack2_ConeAngle = 30">
+      <DisplayName>Attack 2 Attack permission Conical angle [deg] - 攻撃2　攻撃許可円錐の角度[deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK. - 視線方向とターゲットへの方向ベクトルのなす角が、この角度以内の場合、攻撃ＯＫ。</Description>
+      <Maximum>180</Maximum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="dummy8 reserve11[7]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>43</SortID>
+    </Field>
+    <Field Def="u16 Attack3_Distance">
+      <DisplayName>Attack 3 Maai [m] - 攻撃３　間合い[m]</DisplayName>
+      <Description>Time to attack [m] - 攻撃するときの間合い[m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="u16 Attack3_Margin">
+      <DisplayName>Attack 3 Maai play [m] - 攻撃３　間合い遊び[m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance - 攻撃間合いの遊び。間合い距離近辺で、振動しないように</Description>
+      <Maximum>100</Maximum>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="u8 Attack3_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100] - 攻撃１　割合[0～100]</DisplayName>
+      <Description>Frequency of attacks - 攻撃の頻度</Description>
+      <Maximum>100</Maximum>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 Attack3_ActionID">
+      <DisplayName>Attack 3 types - 攻撃３　種類</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks - 攻撃の種類</Description>
+      <Maximum>0</Maximum>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u8 Attack3_DelayMin">
+      <DisplayName>Attack 3 Minimum delay time [frame] - 攻撃3　最小遅延時間[frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最小。</Description>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="u8 Attack3_DelayMax">
+      <DisplayName>Attack 3 Maximum delay time [frame] - 攻撃3　最長遅延時間[frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最長。</Description>
+      <SortID>26</SortID>
+    </Field>
+    <Field Def="u8 Attack3_ConeAngle = 30">
+      <DisplayName>Attack 3 Attack permission Conical angle [deg] - 攻撃3　攻撃許可円錐の角度[deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK. - 視線方向とターゲットへの方向ベクトルのなす角が、この角度以内の場合、攻撃ＯＫ。</Description>
+      <Maximum>180</Maximum>
+      <SortID>27</SortID>
+    </Field>
+    <Field Def="dummy8 reserve12[7]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>44</SortID>
+    </Field>
+    <Field Def="u16 Attack4_Distance">
+      <DisplayName>Attack 4 Maai [m] - 攻撃４　間合い[m]</DisplayName>
+      <Description>Time to attack [m] - 攻撃するときの間合い[m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>28</SortID>
+    </Field>
+    <Field Def="u16 Attack4_Margin">
+      <DisplayName>Attack 4 Maai play [m] - 攻撃４　間合い遊び[m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance - 攻撃間合いの遊び。間合い距離近辺で、振動しないように</Description>
+      <Maximum>100</Maximum>
+      <SortID>29</SortID>
+    </Field>
+    <Field Def="u8 Attack4_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100] - 攻撃１　割合[0～100]</DisplayName>
+      <Description>Frequency of attacks - 攻撃の頻度</Description>
+      <Maximum>100</Maximum>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="u8 Attack4_ActionID">
+      <DisplayName>4 types of attacks - 攻撃４　種類</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks - 攻撃の種類</Description>
+      <Maximum>0</Maximum>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="u8 Attack4_DelayMin">
+      <DisplayName>Attack 4 Minimum delay time [frame] - 攻撃4　最小遅延時間[frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最小。</Description>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="u8 Attack4_DelayMax">
+      <DisplayName>Attack 4 Maximum delay time [frame] - 攻撃4　最長遅延時間[frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible. - 攻撃可能になった時点から、攻撃するまでの遅延時間の最長。</Description>
+      <SortID>33</SortID>
+    </Field>
+    <Field Def="u8 Attack4_ConeAngle = 30">
+      <DisplayName>Attack 4 Attack permission Conical angle [deg] - 攻撃4　攻撃許可円錐の角度[deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK. - 視線方向とターゲットへの方向ベクトルのなす角が、この角度以内の場合、攻撃ＯＫ。</Description>
+      <Maximum>180</Maximum>
+      <SortID>34</SortID>
+    </Field>
+    <Field Def="dummy8 reserve13[7]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>45</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last[32]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>46</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

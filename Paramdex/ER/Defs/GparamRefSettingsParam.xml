@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>GPARAM_REF_SETTINGS_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="s32 RefTargetMapId = -1">
+      <DisplayName>Referenced map ID - 参照先マップID </DisplayName>
+      <Description>Specify the referenced map number. Legacy: m10_10_00_00-&gt; 10010000, Open: m60_ ?? _ ?? _ ??-&gt; m60000000 - 参照先のマップ番号を指定します。レガシー：m10_10_00_00 -&gt; 10010000, オープン：m60_??_??_?? -&gt; m60000000</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="dummy8 Reserve[24]">
+      <DisplayName>Reserve - リザーブ</DisplayName>
+      <Description>Reserve - リザーブ</Description>
+      <SortID>13</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

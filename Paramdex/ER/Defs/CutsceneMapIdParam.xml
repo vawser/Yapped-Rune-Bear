@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CUTSCENE_MAP_ID_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 disableParam_Debug:1">
+      <DisplayName>Is it a debug parameter? - デバッグパラメータか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with a circle are excluded from all packages (because they are for debugging). - ○をつけたパラメータは全パッケージから除外します（デバッグ用なので）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>0</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:6">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="u32 PlayMapId">
+      <DisplayName>Map number to play - 再生を行なうマップ番号</DisplayName>
+      <Description>Please enter the map number to be played back as an 8-digit number. This is the map number used as the reference in the cutscene. If you do not specify the correct map number, the playback position will shift. - 再生を行なうマップ番号を8桁の数字で入力して下さい。カットシーンで基準としているマップの番号になります。正しいマップ番号を指定しないと再生位置がずれます。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u32 RequireMapId0">
+      <DisplayName>Map number 1 required for display - 表示に必要なマップ番号１</DisplayName>
+      <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank. - 表示に必要なマップ番号を8桁の数字で入力して下さい。このパラメータは、ゲスト側がカットシーンを再生可能か判断するためのリストとして利用します。必要ない場合は、0もしくは未記入で良いです。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="u32 RequireMapId1">
+      <DisplayName>Map number 2 required for display - 表示に必要なマップ番号２</DisplayName>
+      <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank. - 表示に必要なマップ番号を8桁の数字で入力して下さい。このパラメータは、ゲスト側がカットシーンを再生可能か判断するためのリストとして利用します。必要ない場合は、0もしくは未記入で良いです。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="u32 RequireMapId2">
+      <DisplayName>Map number 3 required for display - 表示に必要なマップ番号３</DisplayName>
+      <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank. - 表示に必要なマップ番号を8桁の数字で入力して下さい。このパラメータは、ゲスト側がカットシーンを再生可能か判断するためのリストとして利用します。必要ない場合は、0もしくは未記入で良いです。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="s32 RefCamPosHitPartsID = -1">
+      <DisplayName>Hit part ID for calculating camera position during loading - 読み込み中カメラ位置算出用ヒットパーツID</DisplayName>
+      <Description>Hit part ID for calculating camera position during loading - 読み込み中カメラ位置算出用ヒットパーツID</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>102</SortID>
+    </Field>
+    <Field Def="dummy8 reserved_2[12]">
+      <DisplayName>Reserve - 予備</DisplayName>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="u16 ClientDisableViewTimeForProgress">
+      <DisplayName>Waiting time when cannot be displayed [seconds] - 表示不可能時待機時間[秒]</DisplayName>
+      <Description>The number of seconds used to display the progress of the loading screen progress bar that is displayed when the guest side cannot play in the multi. [GR] SEQ22843 [Cutscene] Players who have not read the map number required for display during cutscene playback will see the screen go dark. - マルチにおいてゲスト側が再生できない状態の時に表示されるロード画面プログレスバーの進捗表示に使われる秒数です。【GR】SEQ22843 【カットシーン】カットシーン再生時に表示に必要なマップ番号を読み込んでいないプレイヤーは画面暗転する対応</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="dummy8 reserved[2]">
+      <DisplayName>reserved - reserved</DisplayName>
+      <Description>reserved - reserved</Description>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s32 HitParts_0 = -1">
+      <DisplayName>Hit parts waiting to be read 0 - 読み込み待ちヒットパーツ0</DisplayName>
+      <Description>Hit parts waiting to be read 0 - 読み込み待ちヒットパーツ0</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 HitParts_1 = -1">
+      <DisplayName>Hit parts waiting to be read 1 - 読み込み待ちヒットパーツ1</DisplayName>
+      <Description>Hit parts waiting to be read 1 - 読み込み待ちヒットパーツ1</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>101</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

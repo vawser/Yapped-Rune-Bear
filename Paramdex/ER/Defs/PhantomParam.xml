@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>PHANTOM_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 edgeColorA = 1">
+      <DisplayName>A - A</DisplayName>
+      <Description>Edge color A. - エッジ色Aです。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>3</SortID>
+      <UnkC8>エッジ色</UnkC8>
+    </Field>
+    <Field Def="f32 frontColorA">
+      <DisplayName>A - A</DisplayName>
+      <Description>The front color is A. - 正面色Aです。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>13</SortID>
+      <UnkC8>正面色</UnkC8>
+    </Field>
+    <Field Def="f32 diffMulColorA = 1">
+      <DisplayName>A - A</DisplayName>
+      <Description>Diffuse multiplication color A. - ディフューズ乗算色Aです。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>23</SortID>
+      <UnkC8>ディフューズ乗算色</UnkC8>
+    </Field>
+    <Field Def="f32 specMulColorA = 1">
+      <DisplayName>A - A</DisplayName>
+      <Description>Specular multiplication color A. - スペキュラ乗算色Aです。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>33</SortID>
+      <UnkC8>スペキュラ乗算色</UnkC8>
+    </Field>
+    <Field Def="f32 lightColorA">
+      <DisplayName>A - A</DisplayName>
+      <Description>Light color A. - ライト色Aです。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>255</Maximum>
+      <SortID>43</SortID>
+      <UnkC8>ライト色</UnkC8>
+    </Field>
+    <Field Def="u8 edgeColorR = 255">
+      <DisplayName>R - R</DisplayName>
+      <Description>Edge color R. - エッジ色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <UnkC8>エッジ色</UnkC8>
+    </Field>
+    <Field Def="u8 edgeColorG = 255">
+      <DisplayName>G - G</DisplayName>
+      <Description>Edge color G. - エッジ色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>1</SortID>
+      <UnkC8>エッジ色</UnkC8>
+    </Field>
+    <Field Def="u8 edgeColorB = 255">
+      <DisplayName>B - B</DisplayName>
+      <Description>Edge color B. - エッジ色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>2</SortID>
+      <UnkC8>エッジ色</UnkC8>
+    </Field>
+    <Field Def="u8 frontColorR">
+      <DisplayName>R - R</DisplayName>
+      <Description>The front color is R. - 正面色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>10</SortID>
+      <UnkC8>正面色</UnkC8>
+    </Field>
+    <Field Def="u8 frontColorG">
+      <DisplayName>G - G</DisplayName>
+      <Description>The front color is G. - 正面色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>11</SortID>
+      <UnkC8>正面色</UnkC8>
+    </Field>
+    <Field Def="u8 frontColorB">
+      <DisplayName>B - B</DisplayName>
+      <Description>Front color B. - 正面色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>12</SortID>
+      <UnkC8>正面色</UnkC8>
+    </Field>
+    <Field Def="u8 diffMulColorR = 255">
+      <DisplayName>R - R</DisplayName>
+      <Description>Diffuse multiplication color R. - ディフューズ乗算色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>20</SortID>
+      <UnkC8>ディフューズ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 diffMulColorG = 255">
+      <DisplayName>G - G</DisplayName>
+      <Description>Diffuse multiplication color G. - ディフューズ乗算色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>21</SortID>
+      <UnkC8>ディフューズ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 diffMulColorB = 255">
+      <DisplayName>B - B</DisplayName>
+      <Description>Diffuse multiplication color B. - ディフューズ乗算色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>22</SortID>
+      <UnkC8>ディフューズ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 specMulColorR = 255">
+      <DisplayName>R - R</DisplayName>
+      <Description>Specular multiplication color R. - スペキュラ乗算色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>30</SortID>
+      <UnkC8>スペキュラ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 specMulColorG = 255">
+      <DisplayName>G - G</DisplayName>
+      <Description>Specular multiplication color G. - スペキュラ乗算色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>31</SortID>
+      <UnkC8>スペキュラ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 specMulColorB = 255">
+      <DisplayName>B - B</DisplayName>
+      <Description>Specular multiplication color B. - スペキュラ乗算色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>32</SortID>
+      <UnkC8>スペキュラ乗算色</UnkC8>
+    </Field>
+    <Field Def="u8 lightColorR">
+      <DisplayName>R - R</DisplayName>
+      <Description>Light color R. - ライト色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>40</SortID>
+      <UnkC8>ライト色</UnkC8>
+    </Field>
+    <Field Def="u8 lightColorG">
+      <DisplayName>G - G</DisplayName>
+      <Description>Light color G. - ライト色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>41</SortID>
+      <UnkC8>ライト色</UnkC8>
+    </Field>
+    <Field Def="u8 lightColorB">
+      <DisplayName>B - B</DisplayName>
+      <Description>Light color B. - ライト色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>42</SortID>
+      <UnkC8>ライト色</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserve[1]">
+      <DisplayName>Reserve - 予備</DisplayName>
+      <SortID>75</SortID>
+    </Field>
+    <Field Def="f32 alpha = 1">
+      <DisplayName>α - α</DisplayName>
+      <Description>The overall transparency. - 全体の透過度です。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="f32 blendRate = 1">
+      <DisplayName>Blend rate - ブレンド率</DisplayName>
+      <Description>The blend ratio. - ブレンド率です。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="u8 blendType">
+      <DisplayName>α type - α種類</DisplayName>
+      <Enum>PHANTOM_BLEN_TYPE_ENUM</Enum>
+      <Description>The type of alpha blend. - αブレンドの種類です。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>4</Maximum>
+      <SortID>71</SortID>
+    </Field>
+    <Field Def="u8 isEdgeSubtract">
+      <DisplayName>Whether to perform edge color subtraction - エッジ色減算を行うか</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to perform edge color subtraction. - エッジ色減算を行うかです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>72</SortID>
+    </Field>
+    <Field Def="u8 isFrontSubtract">
+      <DisplayName>Whether to perform front color subtraction - 正面色減算を行うか</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Is it front color subtraction? - 正面色減算を行うかです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>73</SortID>
+    </Field>
+    <Field Def="u8 isNo2Pass">
+      <DisplayName>Do not do 2pass - 2passを行わない</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Do you not do 2pass? - 2passを行わないかです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>74</SortID>
+    </Field>
+    <Field Def="f32 edgePower = 1">
+      <DisplayName>Edge width - エッジの幅</DisplayName>
+      <Description>Edge width - エッジの幅</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 glowScale">
+      <DisplayName>Glow strength - Glowの強さ</DisplayName>
+      <Description>Glow strength - Glowの強さ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>60</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

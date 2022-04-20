@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MULTI_ESTUS_FLASK_BONUS_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 host">
+      <DisplayName>host - ホスト</DisplayName>
+      <Description>Number of host est recovery - ホストのエスト回復数</Description>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="u8 WhiteGhost_None">
+      <DisplayName>White sign - 白サイン</DisplayName>
+      <Description>Number of white spirits recovering from the cooperation sign - 協力サインの白霊のエスト回復数</Description>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 WhiteGhost_Umbasa">
+      <DisplayName>Gold spirit (sun) - 金霊（太陽）</DisplayName>
+      <Description>Number of est recovery of gold spirits of cooperation sign - 協力サインの金霊のエスト回復数</Description>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="u8 WhiteGhost_Berserker">
+      <DisplayName>White berserker - 白バーサーカー</DisplayName>
+      <Description>Number of recovery of white Berserker's est of cooperation sign - 協力サインの白バーサーカーのエスト回復数</Description>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_None_Sign">
+      <DisplayName>Red sign - 赤サイン</DisplayName>
+      <Description>Number of est recovery of red spirits of hostile sign - 敵対サインの赤霊のエスト回復数</Description>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_Umbasa_Sign">
+      <DisplayName>Red gold spirit (signature) - 赤金霊（サイン）</DisplayName>
+      <Description>Number of est recovery of red gold spirit of hostile sign - 敵対サインの赤金霊のエスト回復数</Description>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_Berserker_Sign">
+      <DisplayName>Red berserker (sign) - 赤バーサーカー（サイン）</DisplayName>
+      <Description>Number of est recovery of red Berserker of hostile sign - 敵対サインの赤バーサーカーのエスト回復数</Description>
+      <SortID>3200</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_None_Invade">
+      <DisplayName>Invasion - 侵入</DisplayName>
+      <Description>Number of intrusion est recovery - 侵入のエスト回復数</Description>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_Umbasa_Invade">
+      <DisplayName>Red Gold Spirit (Invasion) - 赤金霊（侵入）</DisplayName>
+      <Description>Number of est recovery of red gold spirits of invading orbs - 侵入オーブの赤金霊のエスト回復数</Description>
+      <SortID>4500</SortID>
+    </Field>
+    <Field Def="u8 BlackGhost_Berserker_Invade">
+      <DisplayName>Red berserker (invasion) - 赤バーサーカー（侵入）</DisplayName>
+      <Description>Invasion Orb Red Berserker Est Recovery Number - 侵入オーブの赤バーサーカーのエスト回復数</Description>
+      <SortID>4600</SortID>
+    </Field>
+    <Field Def="u8 RedHunter1">
+      <DisplayName>Relief guest - 救援ゲスト</DisplayName>
+      <Description>Number of rescue guests' est recovery - 救援ゲストのエスト回復数</Description>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="u8 RedHunter2">
+      <DisplayName>Red Scare Spirit 2 - 赤狩り霊２</DisplayName>
+      <Description>Number of est recovery of Red Scare Spirit 2 - 赤狩り霊２のエスト回復数</Description>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="u8 GuardianOfForest">
+      <DisplayName>Map Guardian Spirit (Forest) - マップ守護霊(森)</DisplayName>
+      <Description>Map guardian spirit (forest) est recovery number - マップ守護霊（森）のエスト回復数</Description>
+      <SortID>6000</SortID>
+    </Field>
+    <Field Def="u8 GuardianOfAnor">
+      <DisplayName>Map Guardian (Anor) - マップ守護霊(アノール)</DisplayName>
+      <Description>Map Guardian Spirit (Anor) Est Recovery Number - マップ守護霊(アノール)のエスト回復数</Description>
+      <SortID>6100</SortID>
+    </Field>
+    <Field Def="u8 BattleRoyal">
+      <DisplayName>Arena - 闘技場</DisplayName>
+      <Description>Number of est recovery in the arena - 闘技場のエスト回復数</Description>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="u8 YellowMonk">
+      <DisplayName>Yellow robe's old man - 黄衣の翁</DisplayName>
+      <Description>The number of est recovery of the old man in yellow - 黄衣の翁のエスト回復数</Description>
+      <SortID>7100</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[48]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>7101</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

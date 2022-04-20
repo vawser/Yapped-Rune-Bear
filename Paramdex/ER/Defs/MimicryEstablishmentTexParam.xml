@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MIMICRY_ESTABLISHMENT_TEX_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <SortID>202</SortID>
+    </Field>
+    <Field Def="u8 srcR">
+      <DisplayName>R - R</DisplayName>
+      <Description>Color information (R) of the map image before conversion. Pixels with matching RGB values are associated with this parameter - 変換前の地図画像のカラー情報（R）。RGB値が一致したピクセルとこのパラメータが紐づく</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>110</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="u8 srcG">
+      <DisplayName>G - G</DisplayName>
+      <Description>Color information (G) of the map image before conversion. Pixels with matching RGB values are associated with this parameter - 変換前の地図画像のカラー情報（G）。RGB値が一致したピクセルとこのパラメータが紐づく</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>120</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="u8 srcB">
+      <DisplayName>B - B</DisplayName>
+      <Description>Color information (B) of the map image before conversion. Pixels with matching RGB values are associated with this parameter - 変換前の地図画像のカラー情報（B）。RGB値が一致したピクセルとこのパラメータが紐づく</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>130</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>pad - パッド</DisplayName>
+      <Description>pad. For the time being, leave it open for "image color information (A)" - パッド。一応「画像色情報（A）」用で空けておく</Description>
+      <SortID>203</SortID>
+    </Field>
+    <Field Def="s32 mimicryEstablishmentParamId = -1">
+      <DisplayName>Mimicry probability parameter ID by map - マップ別擬態確率パラメータID</DisplayName>
+      <Description>Mimicry probability parameter ID by map (-1: No setting (default value)). The area is combined with Map Studio - マップ別擬態確率パラメータID(-1:設定なし(デフォルト値))。地域はMapStudioと合わせてある</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[4]">
+      <DisplayName>Pad 2 - パッド2</DisplayName>
+      <SortID>204</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

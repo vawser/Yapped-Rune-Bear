@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>SHOP_LINEUP_PARAM</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 equipId">
+      <DisplayName>Equipment ID - 装備ID</DisplayName>
+      <Description>ID of the equipment for sale - 販売している装備品のID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>400</SortID>
+      <UnkC8>販売品</UnkC8>
+    </Field>
+    <Field Def="s32 value = -1">
+      <DisplayName>price - 価格</DisplayName>
+      <Description>Selling price to overwrite (-1: Do not overwrite) - 上書きする販売価格(-1:上書きしない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>500</SortID>
+      <UnkC8>販売価格上書き</UnkC8>
+    </Field>
+    <Field Def="s32 mtrlId = -1">
+      <DisplayName>Material ID required for purchase - 購入に必要な素材ID</DisplayName>
+      <Description>Material ID required for purchase (-1: None) - 購入に必要な素材ID(-1:なし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="u32 eventFlag_forStock">
+      <DisplayName>Quantity retention event flag - 個数保持イベントフラグ</DisplayName>
+      <Description>Event flag value that holds the number - 個数を保持してあるイベントフラグ値</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u32 eventFlag_forRelease">
+      <DisplayName>Sales ban event flag - 販売解禁イベントフラグ</DisplayName>
+      <Description>Sales ban event flag - 販売解禁イベントフラグ</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s16 sellQuantity = -1">
+      <DisplayName>Number of units sold - 販売個数</DisplayName>
+      <Description>Number of units sold - 販売個数</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="dummy8 pad3[1]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>1011</SortID>
+    </Field>
+    <Field Def="u8 equipType">
+      <DisplayName>Equipment type - 装備タイプ</DisplayName>
+      <Enum>SHOP_LINEUP_EQUIPTYPE</Enum>
+      <Description>Types of equipment for sale - 販売している装備品の種類</Description>
+      <Maximum>6</Maximum>
+      <SortID>200</SortID>
+      <UnkC8>販売品</UnkC8>
+    </Field>
+    <Field Def="u8 costType">
+      <DisplayName>Price type - 価格タイプ</DisplayName>
+      <Enum>SHOP_LINEUP_COSTTYPE</Enum>
+      <Description>Price type. Applies only when overwriting the selling price - 価格の種類。販売価格を上書きするときだけ適用される</Description>
+      <Maximum>1</Maximum>
+      <SortID>505</SortID>
+      <UnkC8>販売価格上書き</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>1012</SortID>
+    </Field>
+    <Field Def="u16 setNum = 1">
+      <DisplayName>Number of sets sold - 販売セット数</DisplayName>
+      <Description>Number of sets sold. Number of pieces you can get with one purchase (default: 1) - 販売セット数。1回の購入で手に入る個数（デフォルト: 1）</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Minimum>1</Minimum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="s32 value_Add">
+      <DisplayName>Addition - 加算</DisplayName>
+      <Description>Correction (addition) to the selling price of equipment. Equipment para selling price x magnification + addition - 装備品の販売価格に対する補正（加算）。装備品パラの販売価格×倍率＋加算</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>520</SortID>
+      <UnkC8>販売価格補正</UnkC8>
+    </Field>
+    <Field Def="f32 value_Magnification = 1">
+      <DisplayName>magnification - 倍率</DisplayName>
+      <Description>Correction (magnification) to the selling price of equipment. Equipment para selling price x magnification + addition - 装備品の販売価格に対する補正（倍率）。装備品パラの販売価格×倍率＋加算</Description>
+      <Minimum>0.1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>510</SortID>
+      <UnkC8>販売価格補正</UnkC8>
+    </Field>
+    <Field Def="s32 iconId = -1">
+      <DisplayName>Icon ID - アイコンID</DisplayName>
+      <Description>Menu display_icon ID (-1: do not overwrite) - メニュー表示用_アイコンID(-1:上書きしない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>65535</Maximum>
+      <SortID>1000</SortID>
+      <UnkC8>メニュー表示用（上書き）</UnkC8>
+    </Field>
+    <Field Def="s32 nameMsgId = -1">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>Menu display_text ID (-1: do not overwrite) - メニュー表示用_テキストID(-1:上書きしない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>1010</SortID>
+      <UnkC8>メニュー表示用（上書き）</UnkC8>
+    </Field>
+    <Field Def="s32 menuTitleMsgId = -1">
+      <DisplayName>Menu title text ID - メニュータイトルテキストID</DisplayName>
+      <Description>Text ID of the shop menu title (-1: Do not overwrite). This value of the first para found in the para ID range passed when launching the shop is referenced - ショップのメニュータイトルのテキストID(-1:上書きしない)。ショップを起動するときに渡されたパラID範囲の中で最初に見つかったパラのこの値が参照されます</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>100</SortID>
+      <UnkC8>ショップ設定（上書き）</UnkC8>
+    </Field>
+    <Field Def="s16 menuIconId = -1">
+      <DisplayName>Menu icon ID - メニューアイコンID</DisplayName>
+      <Description>Shop menu icon ID (-1: Do not overwrite). This value of the first para found in the para ID range passed when launching the shop is referenced - ショップのメニューアイコンID(-1:上書きしない)。ショップを起動するときに渡されたパラID範囲の中で最初に見つかったパラのこの値が参照されます</Description>
+      <Minimum>-1</Minimum>
+      <SortID>110</SortID>
+      <UnkC8>ショップ設定（上書き）</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2[2]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>1013</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

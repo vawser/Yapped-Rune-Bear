@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WET_ASPECT_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 baseColorR">
+      <DisplayName>Base color value R - ベースカラー 値R</DisplayName>
+      <Description>Base color color R. - ベースカラー色Rです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <UnkC8>ベースカラー</UnkC8>
+    </Field>
+    <Field Def="u8 baseColorG">
+      <DisplayName>Base color value G - ベースカラー 値G</DisplayName>
+      <Description>Base color color G. - ベースカラー色Gです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>1</SortID>
+      <UnkC8>ベースカラー</UnkC8>
+    </Field>
+    <Field Def="u8 baseColorB">
+      <DisplayName>Base color value B - ベースカラー 値B</DisplayName>
+      <Description>Base color color B. - ベースカラー色Bです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>2</SortID>
+      <UnkC8>ベースカラー</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserve_0[1]">
+      <DisplayName>Spare 1 - 予備1</DisplayName>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 baseColorA">
+      <DisplayName>Base color% - ベースカラー ％</DisplayName>
+      <Description>Base color override rate. - ベースカラーのオーバーライド率です。 </Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>3</SortID>
+      <UnkC8>ベースカラー</UnkC8>
+    </Field>
+    <Field Def="u8 metallic">
+      <DisplayName>Metallic value - メタリック 値</DisplayName>
+      <Description>It's metallic. - メタリックです。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>4</SortID>
+      <UnkC8>メタリック</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserve_1[1]">
+      <DisplayName>Spare 2 - 予備2</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>1001</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_2[1]">
+      <DisplayName>Spare 3 - 予備3</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>1002</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_3[1]">
+      <DisplayName>Spare 4 - 予備4</DisplayName>
+      <SortID>1003</SortID>
+    </Field>
+    <Field Def="f32 metallicRate">
+      <DisplayName>Metallic% - メタリック ％</DisplayName>
+      <Description>Metallic override rate. - メタリックのオーバーライド率です。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>7</SortID>
+      <UnkC8>メタリック</UnkC8>
+    </Field>
+    <Field Def="f32 shininessRate">
+      <DisplayName>Shininess% - シャイニネス ％</DisplayName>
+      <Description>Shininess override rate. - シャイニネスのオーバーライド率です。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>9</SortID>
+      <UnkC8>シャイニネス</UnkC8>
+    </Field>
+    <Field Def="u8 shininess">
+      <DisplayName>Shininess value - シャイニネス 値</DisplayName>
+      <Description>Shininess. - シャイニネスです。 </Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>8</SortID>
+      <UnkC8>シャイニネス</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserve_4[11]">
+      <DisplayName>Spare 5 - 予備5</DisplayName>
+      <SortID>1004</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

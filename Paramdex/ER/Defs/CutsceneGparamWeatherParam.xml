@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CUTSCENE_GPARAM_WEATHER_PARAM_ST</ParamType>
+  <DataVersion>6</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 disableParam_Debug:1">
+      <DisplayName>Is it a debug parameter? - デバッグパラメータか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with a circle are excluded from all packages (because they are for debugging). - ○をつけたパラメータは全パッケージから除外します（デバッグ用なので）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>0</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:6">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Sunny">
+      <DisplayName>Sunny - 晴れ</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Sunny - 晴れ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_ClearSky">
+      <DisplayName>Sunny - 快晴</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Sunny - 快晴</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_WeakCloudy">
+      <DisplayName>Light cloudy - 薄曇り</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Light cloudy - 薄曇り</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Cloud">
+      <DisplayName>cloudy - 曇り</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>cloudy - 曇り</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>40</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Rain">
+      <DisplayName>rain - 雨</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>rain - 雨</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_HeavyRain">
+      <DisplayName>Heavy rain - 豪雨</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Heavy rain - 豪雨</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>60</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Storm">
+      <DisplayName>storm - 嵐</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>storm - 嵐</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_StormForBattle">
+      <DisplayName>Storm (for combat with the descendants of the guardian) - 嵐（守護者の末裔との戦闘用）</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Storm (for combat with the descendants of the guardian) - 嵐（守護者の末裔との戦闘用）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>80</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Snow">
+      <DisplayName>snow - 雪</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>snow - 雪</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>90</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_HeavySnow">
+      <DisplayName>heavy snow - 大雪</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>heavy snow - 大雪</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Fog">
+      <DisplayName>fog - 霧</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>fog - 霧</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_HeavyFog">
+      <DisplayName>Thick fog - 濃霧</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Thick fog - 濃霧</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>120</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_SandStorm">
+      <DisplayName>Sandstorm - 砂嵐</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Sandstorm - 砂嵐</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>130</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_HeavyFogRain">
+      <DisplayName>Thick fog (rain) - 濃霧（雨）</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Thick fog (rain) - 濃霧（雨）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>121</SortID>
+    </Field>
+    <Field Def="s16 PostPlayIngameWeather = -1">
+      <DisplayName>In-game weather specifications at the end of playback (unused, invalid) - 再生終了時のインゲーム天候指定(未使用、無効)</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>In-game weather specifications at the end of playback (nothing is done if blank or "invalid") - 再生終了時のインゲーム天候指定(空白または「無効」の場合は何も行われない。)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>9998</SortID>
+    </Field>
+    <Field Def="u8 IndoorOutdoorType">
+      <DisplayName>Indoor / outdoor designation - 屋内屋外指定</DisplayName>
+      <Enum>CUTSCENE_INDOOR_OUTDOOR_TYPE</Enum>
+      <Description>When indoors, the SFX specified by "Weather SfxId (Outdoor)" and "Wind SfxId (Outdoor)" in "Weather Parameter.xlsm" will be invalid in the cutscene. - 屋内にすると「天候パラメータ.xlsm」の「天候SfxId(屋外)」と「風SfxId(屋外)」で指定されたSFXがカットシーン内で無効になります。</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Sunny = 1">
+      <DisplayName>In-game weather SFX to take over? _Sunny - インゲームの天候SFX引き継ぐか？_晴れ</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _Sunny - インゲームの天候SFX引き継ぐか？_晴れ</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1010</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_ClearSky = 1">
+      <DisplayName>In-game weather SFX to take over? _ Sunny - インゲームの天候SFX引き継ぐか？_快晴</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Sunny - インゲームの天候SFX引き継ぐか？_快晴</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1020</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_WeakCloudy = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Light cloudy - インゲームの天候SFX引き継ぐか？_薄曇り</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Light cloudy - インゲームの天候SFX引き継ぐか？_薄曇り</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1030</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Cloud = 1">
+      <DisplayName>In-game weather SFX to take over? _cloudy - インゲームの天候SFX引き継ぐか？_曇り</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _cloudy - インゲームの天候SFX引き継ぐか？_曇り</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1040</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Rain = 1">
+      <DisplayName>In-game weather SFX to take over? _rain - インゲームの天候SFX引き継ぐか？_雨</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _rain - インゲームの天候SFX引き継ぐか？_雨</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1050</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_HeavyRain = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Heavy rain - インゲームの天候SFX引き継ぐか？_豪雨</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Heavy rain - インゲームの天候SFX引き継ぐか？_豪雨</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1060</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Storm = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _storm - インゲームの天候SFX引き継ぐか？_嵐</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _storm - インゲームの天候SFX引き継ぐか？_嵐</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1070</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_StormForBattle = 1">
+      <DisplayName>In-game weather SFX to take over? _ Storm (for battle with the descendants of the guardian) - インゲームの天候SFX引き継ぐか？_嵐（守護者の末裔との戦闘用）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Storm (for battle with the descendants of the guardian) - インゲームの天候SFX引き継ぐか？_嵐（守護者の末裔との戦闘用）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1080</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Snow = 1">
+      <DisplayName>In-game weather SFX to take over? _snow - インゲームの天候SFX引き継ぐか？_雪</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _snow - インゲームの天候SFX引き継ぐか？_雪</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1090</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_HeavySnow = 1">
+      <DisplayName>In-game weather SFX to take over? _heavy snow - インゲームの天候SFX引き継ぐか？_大雪</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _heavy snow - インゲームの天候SFX引き継ぐか？_大雪</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Fog = 1">
+      <DisplayName>In-game weather SFX to take over? _fog - インゲームの天候SFX引き継ぐか？_霧</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _fog - インゲームの天候SFX引き継ぐか？_霧</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1110</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_HeavyFog = 1">
+      <DisplayName>In-game weather SFX to take over? _ Thick fog - インゲームの天候SFX引き継ぐか？_濃霧</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Thick fog - インゲームの天候SFX引き継ぐか？_濃霧</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1120</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_SandStorm = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Sandstorm - インゲームの天候SFX引き継ぐか？_砂嵐</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Sandstorm - インゲームの天候SFX引き継ぐか？_砂嵐</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1130</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_HeavyFogRain = 1">
+      <DisplayName>In-game weather SFX to take over? _ Thick fog (rain) - インゲームの天候SFX引き継ぐか？_濃霧（雨）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Thick fog (rain) - インゲームの天候SFX引き継ぐか？_濃霧（雨）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1140</SortID>
+    </Field>
+    <Field Def="dummy8 reserved[7]">
+      <DisplayName>reserved - reserved</DisplayName>
+      <Description>reserved - reserved</Description>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Snowstorm">
+      <DisplayName>Snowstorm - 吹雪</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Snowstorm - 吹雪</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>141</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_LightningStorm">
+      <DisplayName>Storm (thunder) - 嵐（雷）</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 2 - 予備天候2</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>142</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved3">
+      <DisplayName>Snow special (spare 3) - 雪特殊(予備3)</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 3 - 予備天候3</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>143</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved4">
+      <DisplayName>Preliminary weather 4 - 予備天候4</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 4 - 予備天候4</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>144</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved5">
+      <DisplayName>Preliminary weather 5 - 予備天候5</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 5 - 予備天候5</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>145</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved6">
+      <DisplayName>Preliminary weather 6 - 予備天候6</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 6 - 予備天候6</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>146</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved7">
+      <DisplayName>Preliminary weather 7 - 予備天候7</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 7 - 予備天候7</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>147</SortID>
+    </Field>
+    <Field Def="s16 DstWeather_Reserved8">
+      <DisplayName>Preliminary weather 8 - 予備天候8</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Preliminary weather 8 - 予備天候8</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-128</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>148</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Snowstorm = 1">
+      <DisplayName>In-game weather SFX to take over? _ Snowstorm - インゲームの天候SFX引き継ぐか？_吹雪</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Snowstorm - インゲームの天候SFX引き継ぐか？_吹雪</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1401</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_LightningStorm = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Storm (thunder) - インゲームの天候SFX引き継ぐか？_嵐（雷）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Storm (thunder) - インゲームの天候SFX引き継ぐか？_嵐（雷）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1402</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved3 = 1">
+      <DisplayName>In-game weather SFX to take over? _ Snow Special (Spare 3) - インゲームの天候SFX引き継ぐか？_雪特殊(予備3)</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Preliminary weather 3 - インゲームの天候SFX引き継ぐか？_予備天候3</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1403</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved4 = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Preliminary weather 4 - インゲームの天候SFX引き継ぐか？_予備天候4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Preliminary weather 4 - インゲームの天候SFX引き継ぐか？_予備天候4</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1404</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved5 = 1">
+      <DisplayName>In-game weather SFX to take over? _ Preliminary weather 5 - インゲームの天候SFX引き継ぐか？_予備天候5</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Preliminary weather 5 - インゲームの天候SFX引き継ぐか？_予備天候5</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1405</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved6 = 1">
+      <DisplayName>In-game weather SFX to take over? _ Preliminary weather 6 - インゲームの天候SFX引き継ぐか？_予備天候6</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Preliminary weather 6 - インゲームの天候SFX引き継ぐか？_予備天候6</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1406</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved7 = 1">
+      <DisplayName>In-game weather SFX to take over? _ Preliminary weather 7 - インゲームの天候SFX引き継ぐか？_予備天候7</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will the in-game weather SFX be taken over? _ Preliminary weather 7 - インゲームの天候SFX引き継ぐか？_予備天候7</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1407</SortID>
+    </Field>
+    <Field Def="u8 TakeOverDstWeather_Reserved8 = 1">
+      <DisplayName>Will the in-game weather SFX be taken over? _ Preliminary weather 8 - インゲームの天候SFX引き継ぐか？_予備天候8</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>In-game weather SFX to take over? _ Preliminary weather 8 - インゲームの天候SFX引き継ぐか？_予備天候8</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1408</SortID>
+    </Field>
+    <Field Def="u8 IsEnableApplyMapGdRegionIdForGparam">
+      <DisplayName>Do you want to apply the MapGD local ID to the weather Gparam? - 天候GparamにMapGD地方IDを適用するか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to apply the mapGD local ID changes to the cutscene weather Gparam as in the in-game? ([GR] SEQ30194) - カットシーン天候Gparamにインゲーム同様MapGD地方IDによる変化を適用するか？(【GR】SEQ30194)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="dummy8 reserved2[1]">
+      <DisplayName>reserved1 - reserved1</DisplayName>
+      <Description>reserved1 ver4-&gt; 5 64-&gt; 96 - reserved1 ver4-&gt;5 64-&gt;96へ増量</Description>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s16 OverrideMapGdRegionId = -1">
+      <DisplayName>Local ID overwrite for weather Gparam MapGD - 天候GparamMapGD用地方ID上書き</DisplayName>
+      <Description>Overwrite the ID used for cutscene weather Gparam (-1: No overwrite. MapGD local ID during cutscene playback is used). If "Do you want to apply MapGD local ID to weather Gparam?" Is x, it is not referenced. - カットシーン天候Gparamに使用されるIDを上書きする(-1：上書きなし。カットシーン再生時のMapGD地方IDが使用される)。「天候GparamにMapGD地方IDを適用するか？」が×の場合は参照されない</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="dummy8 reserved1[12]">
+      <DisplayName>reserved1 - reserved1</DisplayName>
+      <Description>reserved1 ver4-&gt; 5 64-&gt; 96 - reserved1 ver4-&gt;5 64-&gt;96へ増量</Description>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,73 @@
+1000 King's Door -- 王の扉
+2000 Interlocking elevator_initialization -- 連動昇降機_初期化
+2010 Interlocking elevator_operation -- 連動昇降機_稼働
+3000 Navi mesh change of the wall which breaks in the flame barrel -- 火炎樽で壊れる壁のナビメッシュ変更
+4000 【Insect key】Hidden door (1) for start-up -- 【虫鍵】隠し扉①起動用
+4010 【Insect Key】Hidden Door -- 【虫鍵】隠し扉①
+4020 【Insect Key】Hidden Door (1)_Navi mesh change -- 【虫鍵】隠し扉①_ナビメッシュ変更
+5000 The key door opened with the key of fire -- 「火の鍵」で開く鍵扉
+5100 The key door opened by the King's Key -- 「王兵の鍵」で開く鍵扉
+5200 The key door opened by the King's Key (broken) -- 「王兵の鍵」で開く鍵扉（壊れる）
+5210 The Key Door opened by the King's Key -- 「王兵の鍵」で開く鍵扉_水路～王の扉
+5211 The Key door opened by "King's Key" -- 「王兵の鍵」で開く鍵扉_巨人剣～ベイグランド
+6000 Boss: Bay Grant_ Combat -- ボス：ベイグラント_戦闘
+6010 Boss: Bay Grant_ Poly Play -- ボス：ベイグラント_ポリ劇
+6020 Boss: Bay Grant_ Initial Placement Change -- ボス：ベイグラント_初期配置変更
+6050 Barista 1 destroyed in Bay Grant attack -- ベイグラントの攻撃で破壊されるバリスタ1
+6060 Barista 2 destroyed in Bay Grant attack -- ベイグラントの攻撃で破壊されるバリスタ2
+6500 Boss: New Giant Senior Soldier_ Dead_ Battle -- ボス：新・巨人上級兵士_亡者_戦闘
+6510 Boss: New Giant Senior Soldier_ Dead_ Poly Play -- ボス：新・巨人上級兵士_亡者_ポリ劇
+6520 Boss: New Giant Senior Soldier_ Dead_ Initial Placement Change -- ボス：新・巨人上級兵士_亡者_初期配置変更
+7000 Bay Grant Hawk Taxi -- ベイグラント鷹タクシー
+8000 One-way door control that the enemy opens when attacked -- 攻撃すると敵が開ける一方通行扉_一方通行扉制御
+8010 One-way door_ open the enemy door open control when attacked -- 攻撃すると敵が開ける一方通行扉_敵の扉開け制御
+9000 Giant Nuts -- 巨人の木の実
+9010 The process of drawing giant nuts -- 巨人の木の実の描画処理
+9020 The real message of the giant tree -- 巨人の木の実_メッセージ
+10000 Navimesh attribute change of the destruction wall outer wall 1 -- 破壊壁外壁のナビメッシュ属性変更1
+10010 Navimesh attribute change of the destruction wall outer wall 2 -- 破壊壁外壁のナビメッシュ属性変更2
+10020 Change navimesh attributes of fracture wall walls -- 破壊壁内壁のナビメッシュ属性変更
+11000 Switch door closes -- 扉が閉まるスイッチ
+12000 Oiwa Rumbling -- 大岩ゴロゴロ
+13000 One-way door of the waterway -- 水路の一方通行扉
+14000 The flame that disappears when the Salamander is annihilated. -- サラマンダーが全滅すると消える炎
+14010 Invalidation of ground fire damage in Salamander -- サラマンダーの地面炎ダメージの無効化処理
+15000 Bay Grant appeared in the hawk _ character -- 鷹でベイグラント登場_キャラ
+15010 Bay Grant appeared in hawks_ map -- 鷹でベイグラント登場_マップ
+15020 Hide Hawk OBJ -- 鷹OBJの非表示
+15030 Bay Grant appeared in the hawk_ deletion judgment -- 鷹でベイグラント登場_削除判定
+15040 Bay Grant appeared in hawks_ rewards -- 鷹でベイグラント登場_報酬
+16000 Navi mesh change of hidden door -- 隠し扉のナビメッシュ変更
+37000 Giant Memory Warp_Boss -- 巨人の記憶ワープ_ボス
+37010 Giant Memory Warp_Mine -- 巨人の記憶ワープ_坑道
+37020 Giant Memory Warp_Chandelier -- 巨人の記憶ワープ_シャンデリア
+38000 Events for Salamander Logic -- サラマンダーロジック用イベント
+80000 Play Seed Fire 01_ Main Tower -- 再生の種火01_主塔
+81000 Regeneration Seed Fire 02_Ground Cracking Square -- 再生の種火02_地割れ広場
+83000 Riverbank after connection with playing seed fire 04_Maduro -- 再生の種火04_マデューラとの接続後の川岸
+90000 Trophy _ Last Giant -- トロフィー_最後の巨人
+111240 NPC: Tsukiko Ya (Giant Forest) -- ＮＰＣ：月光爺（巨人の森）
+111241 NPC: Tsukiko Ya (Giant Forest): Ghost -- ＮＰＣ：月光爺（巨人の森）：亡霊
+111242 OBJ: Tsukiko Ya (Giant Forest): Tomb -- ＯＢＪ：月光爺（巨人の森）：墓
+111243 OBJ: Tsukiko Ya (Giant Forest): Key Guide -- ＯＢＪ：月光爺（巨人の森）：キーガイド
+111244 OBJ: Tsukiko Grandfather (Giant Forest): Death Judgment -- ＯＢＪ：月光爺（巨人の森）：死亡判定
+111245 OBJ: Tsukiko Ya (Giant Forest): Appearance Judgment -- ＯＢＪ：月光爺（巨人の森）：出現判定
+111250 NPC: Patch (Giant Forest) -- ＮＰＣ：パッチ（巨人の森）
+111251 NPC: Patch (Giant Forest): Ghost -- ＮＰＣ：パッチ（巨人の森）：亡霊
+111252 OBJ: Patch (Giant Forest): Tomb -- ＯＢＪ：パッチ（巨人の森）：墓
+111253 OBJ: Patch (Giant Forest): Key Guide -- ＯＢＪ：パッチ（巨人の森）：キーガイド
+111254 OBJ: Patch (Giant Forest): Death Judgment -- ＯＢＪ：パッチ（巨人の森）：死亡判定
+111255 OBJ: Patch (Giant Forest): White Phantom Sign Display -- ＯＢＪ：パッチ（巨人の森）：白ファントムサイン表示
+111256 OBJ: Patch (Giant Forest): White Phantom -- ＯＢＪ：パッチ（巨人の森）：白ファントム
+111260 NPC: Atlas (Giant Forest) -- ＮＰＣ：地図書き（巨人の森）
+111261 NPC: Map (Giant Forest): Ghost -- ＮＰＣ：地図書き（巨人の森）：亡霊
+111262 OBJ: Map (Giant Forest): Tomb -- ＯＢＪ：地図書き（巨人の森）：墓
+111263 OBJ: Atlas (Giant Forest): Key Guide -- ＯＢＪ：地図書き（巨人の森）：キーガイド
+111264 OBJ: Map (Giant Forest): Death Judgment -- ＯＢＪ：地図書き（巨人の森）：死亡判定
+111290 NPC: Yorozu Babaa (Giant Forest) -- ＮＰＣ：よろずババァ（巨人の森）
+111291 NPC: Yorozu Babaa (Giant Forest): Ghost -- ＮＰＣ：よろずババァ（巨人の森）：亡霊
+111292 OBJ: Yorozu Babaa (Giant Forest): Tomb -- ＯＢＪ：よろずババァ（巨人の森）：墓
+111293 OBJ: Yorozu Babaa (Giant Forest): Key Guide -- ＯＢＪ：よろずババァ（巨人の森）：キーガイド
+111294 OBJ: Yorozu Babaa (Giant Forest): Death Judgment -- ＯＢＪ：よろずババァ（巨人の森）：死亡判定
+111435 OBJ: Enclosed: Black Phantom Sign Display -- ＯＢＪ：封じられた人：黒ファントムサイン表示
+120110 Trophy: The Great Sword of Moonlight (Giant Forest) -- トロフィー：月光の大剣（巨人の森）

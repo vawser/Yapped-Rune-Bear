@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ENEMY_STANDARD_INFO_BANK</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 EnemyBehaviorID">
+      <DisplayName>Behavior id - 挙動ｉｄ</DisplayName>
+      <Enum>ENEMY_BEHAVIOR_ID</Enum>
+      <Description>Enemy behavior ID - 敵の挙動ＩＤ</Description>
+      <Minimum>0</Minimum>
+      <Maximum>0</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u16 HP = 1">
+      <DisplayName>Hit points - ヒットポイント</DisplayName>
+      <Description>Hit points - ヒットポイント</Description>
+      <Maximum>100</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u16 AttackPower = 1">
+      <DisplayName>Offensive power - 攻撃力</DisplayName>
+      <Description>Attack power (for proto only) - 攻撃力（プロト専用）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>100</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="s32 ChrType = 5">
+      <DisplayName>Character type - キャラタイプ</DisplayName>
+      <Enum>ChrType</Enum>
+      <Description>Character type - キャラタイプ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>7</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 HitHeight = 2">
+      <DisplayName>Height per [m] - あたりの高さ[m]</DisplayName>
+      <Description>Height per (Please specify a size larger than the diameter) - あたりの高さ（直径以上のサイズを指定してください）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="f32 HitRadius = 0.4">
+      <DisplayName>Radius around [m] - あたりの半径[m]</DisplayName>
+      <Description>Radius around - あたりの半径</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>50</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="f32 Weight = 60">
+      <DisplayName>Weight [kg] - 重さ[kg]</DisplayName>
+      <Description>The weight of the character - キャラの重さ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1000000</Maximum>
+      <Increment>1</Increment>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 DynamicFriction">
+      <DisplayName>Dynamic friction force - 動摩擦力</DisplayName>
+      <Description>Dynamic friction force - 動摩擦力</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="f32 StaticFriction">
+      <DisplayName>Static friction - 静摩擦力</DisplayName>
+      <Description>Static friction force - 静止摩擦力</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s32 UpperDefState">
+      <DisplayName>Upper body initial state - 上半身初期状態</DisplayName>
+      <Description>Upper body initial state (PG input) - 上半身初期状態（PG入力）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100000</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s32 ActionDefState">
+      <DisplayName>Initial state of action - アクション初期状態</DisplayName>
+      <Description>Action initial state (PG input) - アクション初期状態（PG入力）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100000</Maximum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="f32 RotY_per_Second = 10">
+      <DisplayName>Angle that can be turned per unit time [deg / s] - 単位時間当たり旋回できる角度[deg/s]</DisplayName>
+      <Description>Y-axis turning angle per unit time [deg / s] - 単位時間当たりのＹ軸旋回角度[deg/s]</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>1</Increment>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="dummy8 reserve0[20]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 RotY_per_Second_old">
+      <DisplayName>unused - 未使用</DisplayName>
+      <Description>unused - 未使用</Description>
+      <Maximum>180</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="u8 EnableSideStep">
+      <DisplayName>Can you move left and right? - 左右移動できるか</DisplayName>
+      <Description>Can you move left and right? - 左右移動できるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="u8 UseRagdollHit">
+      <DisplayName>Whether to use a ragdoll per character - キャラあたりにラグドールを使用するか</DisplayName>
+      <Description>Whether to use a ragdoll per character - キャラあたりにラグドールを使用するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last[5]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u16 stamina">
+      <DisplayName>Amount of stamina - スタミナ量</DisplayName>
+      <Description>Total amount of stamina - スタミナ総量</Description>
+      <Maximum>999</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u16 staminaRecover">
+      <DisplayName>Stamina recovery - スタミナ回復</DisplayName>
+      <Description>Stamina recovery amount per second - 1秒間あたりのスタミナ回復量</Description>
+      <Maximum>999</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u16 staminaConsumption">
+      <DisplayName>Stamina basic consumption - スタミナ基本消費</DisplayName>
+      <Description>Basic value of stamina consumption used when attacking and guarding - 攻撃、ガード時に使用するスタミナ消費の基本値</Description>
+      <Maximum>999</Maximum>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u16 deffenct_Phys">
+      <DisplayName>Physical defense - 物理防御力</DisplayName>
+      <Description>Damage reduction base value for physical attacks - 物理攻撃に対するダメージ減少基本値</Description>
+      <Maximum>999</Maximum>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last2[48]">
+      <DisplayName>Reservation 1 - 予約1</DisplayName>
+      <SortID>25</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

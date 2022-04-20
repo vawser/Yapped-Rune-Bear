@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_EFFECT_QUALITY_DETAIL</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 softParticleEnabled = 1">
+      <DisplayName>Soft particles enabled - ソフトパーティクル有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Soft particles enabled - ソフトパーティクル有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 glowEnabled = 1">
+      <DisplayName>Glow effective - グロー有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Glow effective - グロー有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 distortionEnable = 1">
+      <DisplayName>Distortion effective - 歪み有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Distortion effective - 歪み有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 cs_upScaleEnabledType">
+      <DisplayName>Enable bilateral upscale - バイラテラルアップスケールを有効</DisplayName>
+      <Enum>CS_GCONFIG_ENABLED_TYPE</Enum>
+      <Description>Bilateral upscale effective - バイラテラルアップスケール有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fNumOnceEmitsScale = 0.9">
+      <DisplayName>Number of Emits at one time - 一回のエミット数</DisplayName>
+      <Description>Number of Emits at one time - 一回のエミット数</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fEmitSpanScale = 1.1">
+      <DisplayName>Emit interval - エミット間隔</DisplayName>
+      <Description>Emit interval - エミット間隔</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance1Scale = 0.9">
+      <DisplayName>1st stage LOD distance scale - 1段階目のLOD距離スケール</DisplayName>
+      <Description>1st stage LOD distance scale - 1段階目のLOD距離スケール</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance2Scale = 0.9">
+      <DisplayName>Second stage LOD distance scale - 2段階目のLOD距離スケール</DisplayName>
+      <Description>Second stage LOD distance scale - 2段階目のLOD距離スケール</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance3Scale = 0.9">
+      <DisplayName>3rd stage LOD distance scale - 3段階目のLOD距離スケール</DisplayName>
+      <Description>3rd stage LOD distance scale - 3段階目のLOD距離スケール</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance4Scale = 0.9">
+      <DisplayName>4th stage LOD distance scale - 4段階目のLOD距離スケール</DisplayName>
+      <Description>4th stage LOD distance scale - 4段階目のLOD距離スケール</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fScaleRenderDistanceScale = 1.2">
+      <DisplayName>Magnification to the distance registered in the reduction buffer - 縮小バッファへ登録される距離への倍率</DisplayName>
+      <Description>Magnification to the distance registered in the reduction buffer - 縮小バッファへ登録される距離への倍率</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="dummy8 dmy[4]">
+      <DisplayName>dummy - ダミー</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CHARMAKEMENUTOP_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 commandType">
+      <DisplayName>Command type - コマンドタイプ</DisplayName>
+      <Enum>CHARMAKEMENU_CMD_TYPE</Enum>
+      <Description>Command type - コマンドの種別</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s32 captionId">
+      <DisplayName>Item text ID - 項目テキストID</DisplayName>
+      <Description>ID of the text to be displayed - 表示するテキストのID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="s32 faceParamId">
+      <DisplayName>Face Param ID - 顔パラムID</DisplayName>
+      <Enum>FACE_PARAM</Enum>
+      <Description>Face Param ID - 顔パラムID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="s32 tableId">
+      <DisplayName>Table ID (male) - テーブルID（男性）</DisplayName>
+      <Description>First ID (male) in the list of items to select. The command type is [Slider: Text ID of minimum label (n) and maximum label (n + 1), Color: ID of color table, Grid or text: First ID of character make list item, Other: Ignore] - 選択するアイテム一覧の先頭ID（男）。コマンドタイプが[スライダー：最小値ラベル(n)と最大値ラベル(n+1)のテキストID、カラー：カラーテーブルのID、グリッド or テキスト：キャラメイクリストアイテムの先頭ID、それ以外：無視]</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>40</SortID>
+    </Field>
+    <Field Def="s32 viewCondition">
+      <DisplayName>Display conditions - 表示条件</DisplayName>
+      <Enum>CHARMAKEMENU_VIEW_CONDITION</Enum>
+      <Description>Conditions for displaying this command - このコマンドを表示する条件</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>60</SortID>
+    </Field>
+    <Field Def="s8 previewMode">
+      <DisplayName>Preview mode - プレビューモード</DisplayName>
+      <Enum>CHARMAKEMENU_PREVIEW_MODE</Enum>
+      <Description>Display mode of the character model displayed in preview - プレビュー表示しているキャラクターモデルの表示モード</Description>
+      <Minimum>-1</Minimum>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="dummy8 reserved2[3]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="s32 tableId2 = -1">
+      <DisplayName>Table ID (female) - テーブルID（女性）</DisplayName>
+      <Description>For women with table ID. If -1, refer to for men - テーブルIDの女用。-1なら男用を参照する</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="s32 refFaceParamId = -1">
+      <DisplayName>Referenced face Param ID - 参照先の顔パラムID</DisplayName>
+      <Enum>FACE_PARAM</Enum>
+      <Description>Face param ID of the matching destination for "matching to XX" - 「○○に合わせる」用の合わせ先の顔パラムID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 refTextId = -1">
+      <DisplayName>Referenced text ID - 参照先テキストID</DisplayName>
+      <Description>Display text ID for "fit to XX" - 「○○に合わせる」用の表示テキストID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="s32 helpTextId = -1">
+      <DisplayName>1 line help text ID (overwrite) - 1行ヘルプテキストID（上書き）</DisplayName>
+      <Description>1-line help text ID (-1: Get 1-line help with item text ID). Basically, item text ID = 1 line help text ID, but if you want to overwrite part of it, specify it with this parameter. - 1行ヘルプのテキストID(-1: 項目テキストIDで1行ヘルプを取得する)。基本的に項目テキストID＝1行ヘルプテキストIDになっているが、一部上書きしたいときにこのパラメータで指定する</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="u32 unlockEventFlagId">
+      <DisplayName>Event flag ID - イベントフラグID</DisplayName>
+      <Description>Event flag to unlock this item (0: invalid value). Invalid value will always be unlocked - この項目をアンロックするイベントフラグ(0:無効値)。無効値なら常にアンロックされる</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 reserved[4]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>202</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

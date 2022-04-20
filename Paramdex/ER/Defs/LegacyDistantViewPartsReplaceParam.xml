@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>LEGACY_DISTANT_VIEW_PARTS_REPLACE_PARAM</ParamType>
+  <DataVersion>4</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 TargetMapId = -1">
+      <DisplayName>Map ID - マップID</DisplayName>
+      <Description>Specify the target map ID. Legacy only. (m12_34_56_78 → 12345678). Initially it was only legacy, but it also supports open celestial sphere maps - 対象のマップIDを指定します。レガシーのみ。(m12_34_56_78→12345678) 。当初レガシーのみでしたがオープンの天球マップも対応しました</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+    </Field>
+    <Field Def="u32 TargetEventId">
+      <DisplayName>Natural disaster event ID - 天変地異イベントID</DisplayName>
+      <Description>If you enter the target natural disaster event ID from "300, 310, 311 and 312", it will be [natural disaster replacement data]. If it is 0 or blank, it will be [Regional ID switching data] (SEQ16039). - 「300、310、311、312」の中から、対象天変地異イベントIDを入力した場合は【天変地異差し替えデータ】となります。0or空白の場合は【地方IDの切り替えデータ】となります(SEQ16039)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 SrcAssetId = -1">
+      <DisplayName>Replacement source asset ID - 差し替え元アセットID</DisplayName>
+      <Description>Replacement source AssetId: AEG123_456_9999 → 123456 - 差し替え元AssetId：AEG123_456_9999→123456</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 SrcAssetPartsNo = -1">
+      <DisplayName>Replacement source asset part ID - 差し替え元アセットパーツID</DisplayName>
+      <Description>Replacement source PartsNo: AEG123_456_9999 → 9999 - 差し替え元PartsNo：AEG123_456_9999→9999</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 DstAssetId = -1">
+      <DisplayName>Replacement destination asset ID - 差し替え先アセットID</DisplayName>
+      <Description>Replacement destination AssetId: AEG123_456_9999 → 123456 - 差し替え先AssetId：AEG123_456_9999→123456</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 DstAssetPartsNo = -1">
+      <DisplayName>Replacement destination asset part ID - 差し替え先アセットパーツID</DisplayName>
+      <Description>Replacement destination PartsNo: AEG123_456_9999 → 9999 - 差し替え先PartsNo：AEG123_456_9999→9999</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 SrcAssetIdRangeMin = -1">
+      <DisplayName>Replacement source asset ID range specification Min - 差し替え元アセットID範囲指定Min</DisplayName>
+      <Description>Replacement source asset ID range specification Min - 差し替え元アセットID範囲指定Min</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 SrcAssetIdRangeMax = -1">
+      <DisplayName>Replacement source asset ID range specification Max - 差し替え元アセットID範囲指定Max</DisplayName>
+      <Description>Replacement source asset ID range specification Max - 差し替え元アセットID範囲指定Max</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 DstAssetIdRangeMin = -1">
+      <DisplayName>Replacement destination asset ID range specification Min - 差し替え先アセットID範囲指定Min</DisplayName>
+      <Description>Replacement destination asset ID range specification Min - 差し替え先アセットID範囲指定Min</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 DstAssetIdRangeMax = -1">
+      <DisplayName>Replacement destination asset ID range specification Max - 差し替え先アセットID範囲指定Max</DisplayName>
+      <Description>Replacement destination asset ID range specification Max - 差し替え先アセットID範囲指定Max</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s8 LimitedMapRegionId0 = -1">
+      <DisplayName>Local ID limit 0 - 地方ID制限0</DisplayName>
+      <Description>MapGD Local ID restriction 0: Valid only when "Natural disaster event ID" is 0. The part is valid only with the MapGD local ID you set (SEQ16039). - MapGD地方IDの制限0：「天変地異イベントID」が0の時だけ有効。設定したMapGD地方IDでのみパーツが有効になります(SEQ16039)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s8 LimitedMapRegionId1 = -1">
+      <DisplayName>Local ID limit 1 - 地方ID制限1</DisplayName>
+      <Description>MapGD Local ID Restriction 1: Valid only when "Natural Disaster Event ID" is 0. The part is valid only with the MapGD local ID you set (SEQ16039). - MapGD地方IDの制限1：「天変地異イベントID」が0の時だけ有効。設定したMapGD地方IDでのみパーツが有効になります(SEQ16039)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>1001</SortID>
+    </Field>
+    <Field Def="s8 LimitedMapRegionId2 = -1">
+      <DisplayName>Local ID limit 2 - 地方ID制限2</DisplayName>
+      <Description>MapGD Local ID restriction 2: Valid only when "Natural disaster event ID" is 0. The part is valid only with the MapGD local ID you set (SEQ16039). - MapGD地方IDの制限2：「天変地異イベントID」が0の時だけ有効。設定したMapGD地方IDでのみパーツが有効になります(SEQ16039)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>1002</SortID>
+    </Field>
+    <Field Def="s8 LimitedMapRegionId3 = -1">
+      <DisplayName>Local ID limit 3 - 地方ID制限3</DisplayName>
+      <Description>MapGD Local ID restriction 3: Valid only when "Natural disaster event ID" is 0. The part is valid only with the MapGD local ID you set (SEQ16039). - MapGD地方IDの制限3：「天変地異イベントID」が0の時だけ有効。設定したMapGD地方IDでのみパーツが有効になります(SEQ16039)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>1003</SortID>
+    </Field>
+    <Field Def="dummy8 reserve[4]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>reserve - 予約</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s32 LimitedMapRegionAssetId = -1">
+      <DisplayName>Local restricted asset ID - 地方制限アセットID</DisplayName>
+      <Description>MapGD Valid assets specified by local ID: AssetId: AEG123_456_9999 → 123456 - MapGD地方IDで有効なアセット指定：AssetId：AEG123_456_9999→123456</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="s32 LimitedMapRegioAssetPartsNo = -1">
+      <DisplayName>Local restriction asset part ID - 地方制限アセットパーツID</DisplayName>
+      <Description>MapGD Valid assets specified by local ID: PartsNo: AEG123_456_9999 → 9999 - MapGD地方IDで有効なアセット指定：PartsNo：AEG123_456_9999→9999</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="s32 LimitedMapRegioAssetIdRangeMin = -1">
+      <DisplayName>Local restriction asset ID range specification Min - 地方制限アセットID範囲指定Min</DisplayName>
+      <Description>MapGD Valid asset specification with local ID: Asset ID range specification Min - MapGD地方IDで有効なアセット指定：アセットID範囲指定Min</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="s32 LimitedMapRegioAssetIdRangeMax = -1">
+      <DisplayName>Local limit asset ID range specification Max - 地方制限アセットID範囲指定Max</DisplayName>
+      <Description>MapGD Valid asset specification for local ID: Asset ID range specification Max - MapGD地方IDで有効なアセット指定：アセットID範囲指定Max</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1201</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

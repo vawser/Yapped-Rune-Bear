@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>LOCK_CAM_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 camDistTarget = 4">
+      <DisplayName>Camera distance target [m] - カメラ距離目標[m]</DisplayName>
+      <Description>Camera distance target - カメラ距離目標</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 rotRangeMinX = -40">
+      <DisplayName>Minimum X-axis rotation [deg] - X軸回転最小値[deg]</DisplayName>
+      <Description>Minimum X-axis rotation - X軸回転最小値</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-80</Minimum>
+      <Maximum>80</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 lockRotXShiftRatio = 0.6">
+      <DisplayName>Lock X rotation shift rate (0.0-1.0) - ロックX回転シフト率(0.0～1.0)</DisplayName>
+      <Description>Lock X rotation shift rate - ロックX回転シフト率</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 chrOrgOffset_Y = 1.42">
+      <DisplayName>Character base point offset (character space) - キャラ基点オフセット(キャラ空間)</DisplayName>
+      <Description>Character base point offset - キャラ基点オフセット</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-10</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius = 15">
+      <DisplayName>Character range maximum radius [m] - キャラ範囲最大半径[m]</DisplayName>
+      <Description>Maximum radius of character range - キャラ範囲最大半径</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 camFovY = 43">
+      <DisplayName>Vertical angle of view [deg] - 縦画角[deg]</DisplayName>
+      <Description>Vertical angle of view - 縦画角</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius_forD = -1">
+      <DisplayName>Maximum radius of character range for darkness [m] - 暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Lockable range of characters in dark places - 暗いところでのキャラのロック可能範囲</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius_forPD = -1">
+      <DisplayName>Maximum radius of character range for pitch darkness [m] - 真っ暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Character lockable range in total darkness - 真っ暗闇でのキャラのロック可能範囲</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>520</SortID>
+    </Field>
+    <Field Def="f32 closeMaxHeight">
+      <DisplayName>Melee attack automatic capture Upper limit height [m] - 近接攻撃自動捕捉 上限高さ[m]</DisplayName>
+      <Description>Automatic lock-on judgment height upper limit when non-lock-on is close - 非ロックオン時の自動ロックオン判定高さ上限　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="f32 closeMinHeight">
+      <DisplayName>Melee attack automatic capture Lower limit height [m] - 近接攻撃自動捕捉 下限高さ[m]</DisplayName>
+      <Description>Automatic lock-on judgment height lower limit when not locked on Proximity - 非ロックオン時の自動ロックオン判定高さ下限　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="f32 closeAngRange">
+      <DisplayName>Melee attack automatic capture Angle range Left and right [deg] - 近接攻撃自動捕捉 角度範囲 左右[deg]</DisplayName>
+      <Description>Automatic lock-on judgment when non-lock-on Left / right angle [deg] Proximity - 非ロックオン時の自動ロックオン判定左右角度[deg]　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius">
+      <DisplayName>Melee attack automatic capture Character range maximum radius [m] - 近接攻撃自動捕捉 キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on judgment distance when non-lock-on is close - 非ロックオン時の自動ロックオン判定距離　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius_forD">
+      <DisplayName>Melee attack automatic capture Dark character range maximum radius [m] - 近接攻撃自動捕捉 暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ darkness proximity - 非ロックオン時の自動ロックオン判定距離_暗闇　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius_forPD">
+      <DisplayName>Melee attack automatic capture Character range for total darkness Maximum radius [m] - 近接攻撃自動捕捉 真っ暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on when non-lock-on _ pitch black proximity - 非ロックオン時の自動ロックオン_真っ暗　近接</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius">
+      <DisplayName>Bullet automatic capture Character range maximum radius [m] - 弾丸自動捕捉 キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on judgment distance when non-lock-on bullet - 非ロックオン時の自動ロックオン判定距離　弾丸</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius_forD">
+      <DisplayName>Bullet automatic capture Maximum radius of character range for darkness [m] - 弾丸自動捕捉 暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ darkness bullet - 非ロックオン時の自動ロックオン判定距離_暗闇　弾丸</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius_forPD">
+      <DisplayName>Automatic bullet capture Character range for total darkness Maximum radius [m] - 弾丸自動捕捉 真っ暗闇用キャラ範囲最大半径[m]</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ pitch black bullet - 非ロックオン時の自動ロックオン判定距離_真っ暗　弾丸</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 bulletAngRange">
+      <DisplayName>Bullet automatic capture Angle range Left and right [deg] - 弾丸自動捕捉 角度範囲 左右[deg]</DisplayName>
+      <Description>Automatic lock-on left / right angle when non-lock-on bullet - 非ロックオン時の自動ロックオン左右角度　弾丸</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <SortID>1250</SortID>
+    </Field>
+    <Field Def="f32 lockTgtKeepTime = 2">
+      <DisplayName>Time to continue locking even if the lock condition is not met [s] - ロック条件を満たさなくてもロック継続する時間[s]</DisplayName>
+      <Description>Time to continue locking even if the lock condition is not met (disabled at 0.0) - ロック条件を満たさなくてもロック継続する時間(0.0で無効)</Description>
+      <DisplayFormat>%0.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="f32 chrTransChaseRateForNormal = -1">
+      <DisplayName>Normal character translation tracking rate - 通常用キャラ並進追尾率</DisplayName>
+      <Description>Normal character translation tracking rate (disabled at -1.0) - 通常用キャラ並進追尾率(-1.0で無効)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>450</SortID>
+    </Field>
+    <Field Def="dummy8 pad[48]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <SortID>2001</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

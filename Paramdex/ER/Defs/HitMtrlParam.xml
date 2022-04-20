@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>HIT_MTRL_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 aiVolumeRate = 1">
+      <DisplayName>Sound radius magnification - 音半径倍率</DisplayName>
+      <Description>Normal when 1x. When set to 0, the radius of sound becomes 0 (SE and SFX are unrelated game-like parameters). - 1倍のときは普通。0にすると音半径が0になる（SEとSFXは無関係のゲーム的なパラメータ）</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0 = -1">
+      <DisplayName>Special effect 0 applied when stepping on hit material - ヒットマテリアルを踏んだ時にかかる特殊効果0</DisplayName>
+      <Description>When the character steps on the hit material, the set special effect 0 is exhibited. - キャラがヒットマテリアルを踏んだ時に、設定した特殊効果0が発揮される</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 1 - ヒットマテリアルを踏んだ時にかかる特殊効果1</DisplayName>
+      <Description>When the character steps on the hit material, the set special effect 1 is exhibited. - キャラがヒットマテリアルを踏んだ時に、設定した特殊効果1が発揮される</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 footEffectHeightType:2">
+      <DisplayName>Foot effect height type - フットエフェクトの高さタイプ</DisplayName>
+      <Enum>HMP_FOOT_EFFECT_HEIGHT_TYPE</Enum>
+      <Description>Height to generate foot effect - フットエフェクトを発生させる高さ</Description>
+      <Maximum>2</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u8 footEffectDirType:2">
+      <DisplayName>Foot effect orientation type - フットエフェクトの向きタイプ</DisplayName>
+      <Enum>HMP_FOOT_EFFECT_DIR_TYPE</Enum>
+      <Description>Direction of foot effect - フットエフェクトの発生向き</Description>
+      <Maximum>2</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u8 floorHeightType:2">
+      <DisplayName>Ground height type - 地面の高さタイプ</DisplayName>
+      <Enum>HMP_FLOOR_HEIGHT_TYPE</Enum>
+      <Description>For floating items such as the surface of the water - 水面などアイテムを浮かせるとき用</Description>
+      <Maximum>1</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="u8 disableFallDamage:1">
+      <DisplayName>Is fall damage invalid? - 落下ダメージ無効か</DisplayName>
+      <Description>Set to 1 for floors that are not subject to fall damage - 落下ダメージを受けない床の場合に 1 を設定する</Description>
+      <Maximum>1</Maximum>
+      <SortID>6000</SortID>
+      <UnkC8 />
+    </Field>
+    <Field Def="u8 isHardnessForSoundReverb:1">
+      <DisplayName>Is it a hard material for sound echo? - サウンド反響用硬い材質か？</DisplayName>
+      <Description>Is it a hard material for sound echo? (0: soft, 1: hard) - サウンド反響用 硬い材質か？(0:やわらかい,1:かたい)</Description>
+      <Maximum>1</Maximum>
+      <SortID>5001</SortID>
+    </Field>
+    <Field Def="u8 hardnessType">
+      <DisplayName>Material hardness type - 材質の固さタイプ</DisplayName>
+      <Enum>HMP_HARDNESS_TYPE</Enum>
+      <Description>The hardness of the material. Used for soft contact processing of rigid bodies. - 材質の固さ。剛体のソフトコンタクト処理に使用。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>2</Maximum>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[6]">
+      <DisplayName>pad - pad</DisplayName>
+      <Description>pad - pad</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>99999999</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_2 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 2nd lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　2周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 2nd lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　2周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_3 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 3rd lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　3周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 3rd lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　3周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2201</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_4 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 4th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　4周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 4th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　4周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2202</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_5 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 5th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　5周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 5th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　5周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2203</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_6 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 6th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　6周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 6th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　6周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2204</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_7 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 7th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　7周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 7th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　7周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2205</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit0_ClearCount_8 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 0 8th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　8周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 0 8th lap - ヒットマテリアルを踏んだ時にかかる特殊効果0　8周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2206</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_2 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 1st lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　2周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1st lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　2周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_3 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 1 3rd lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　3周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1 3rd lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　3周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2301</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_4 = -1">
+      <DisplayName>Special effect when stepping on the hit material 1 4th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　4周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1 4th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　4周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2302</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_5 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 1 5th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　5周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1 5th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　5周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2303</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_6 = -1">
+      <DisplayName>Special effect when stepping on the hit material 1 6th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　6周目</DisplayName>
+      <Description>Special effect when stepping on the hit material 1 6th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　6周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2304</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_7 = -1">
+      <DisplayName>Special effect applied when stepping on the hit material 1 7th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　7周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1 7th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　7周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2305</SortID>
+    </Field>
+    <Field Def="s32 spEffectIdOnHit1_ClearCount_8 = -1">
+      <DisplayName>Special effect when stepping on the hit material 1 8th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　8周目</DisplayName>
+      <Description>Special effect applied when stepping on the hit material 1 8th lap - ヒットマテリアルを踏んだ時にかかる特殊効果1　8周目</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2306</SortID>
+    </Field>
+    <Field Def="s16 replaceMateiralId_Rain = -1">
+      <DisplayName>Hit material replacement (rain) - ヒットマテリアル差し替え(雨)</DisplayName>
+      <Description>Hit material change destination ID due to weather (rain) (-1: No change) - 天候(雨)によるヒットマテリアル変更先ID(-1：変更を行なわない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="dummy8 pad4[2]">
+      <DisplayName>pad - pad</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>99999999</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_forWet00 = -1">
+      <DisplayName>Wet special effect ID_00 - 濡れ特殊効果ID_00</DisplayName>
+      <Description>Special effect for wetting 00 - 濡れ用特殊効果00</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>3400</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_forWet01 = -1">
+      <DisplayName>Wet special effect ID_01 - 濡れ特殊効果ID_01</DisplayName>
+      <Description>Special effects for wetting 01 - 濡れ用特殊効果01</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>3410</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_forWet02 = -1">
+      <DisplayName>Wet special effect ID_02 - 濡れ特殊効果ID_02</DisplayName>
+      <Description>Special effects for wetting 02 - 濡れ用特殊効果02</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>3420</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_forWet03 = -1">
+      <DisplayName>Wet special effect ID_03 - 濡れ特殊効果ID_03</DisplayName>
+      <Description>Special effects for wetting 03 - 濡れ用特殊効果03</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>3430</SortID>
+    </Field>
+    <Field Def="s32 spEffectId_forWet04 = -1">
+      <DisplayName>Wet special effect ID_04 - 濡れ特殊効果ID_04</DisplayName>
+      <Description>Special effects for wetting 04 - 濡れ用特殊効果04</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>3440</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

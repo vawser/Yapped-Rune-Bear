@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>BUDGET_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 vram_all = 1">
+      <DisplayName>VRAM: ALL - VRAM:ALL</DisplayName>
+      <Description>VRAM: ALL (unit is MB) - VRAM:ALL(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 vram_mapobj_tex = 1">
+      <DisplayName>VRAM: Map / Object Texture - VRAM:マップ/オブジェ テクスチャ</DisplayName>
+      <Description>VRAM: Map / Object Texture (Unit: MB) - VRAM:マップ/オブジェ テクスチャ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2010</SortID>
+    </Field>
+    <Field Def="f32 vram_mapobj_mdl = 1">
+      <DisplayName>VRAM: Map / Object Model - VRAM:マップ/オブジェ モデル</DisplayName>
+      <Description>VRAM: Map / object model (in MB) - VRAM:マップ/オブジェ モデル(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2020</SortID>
+    </Field>
+    <Field Def="f32 vram_map = 1">
+      <DisplayName>VRAM: map - VRAM:マップ</DisplayName>
+      <Description>VRAM: Map (in MB) - VRAM:マップ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1010</SortID>
+    </Field>
+    <Field Def="f32 vram_chr = 1">
+      <DisplayName>VRAM: Character - VRAM:キャラ</DisplayName>
+      <Description>VRAM: Character (unit is MB) - VRAM:キャラ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1020</SortID>
+    </Field>
+    <Field Def="f32 vram_parts = 1">
+      <DisplayName>VRAM: Parts - VRAM:パーツ</DisplayName>
+      <Description>VRAM: Parts (unit is MB) - VRAM:パーツ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1030</SortID>
+    </Field>
+    <Field Def="f32 vram_sfx = 1">
+      <DisplayName>VRAM: SFX - VRAM:SFX</DisplayName>
+      <Description>VRAM: SFX (unit is MB) - VRAM:SFX(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1040</SortID>
+    </Field>
+    <Field Def="f32 vram_chr_tex = 1">
+      <DisplayName>VRAM: Character texture - VRAM:キャラ テクスチャ</DisplayName>
+      <Description>VRAM: Character texture (unit is MB) - VRAM:キャラ テクスチャ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2030</SortID>
+    </Field>
+    <Field Def="f32 vram_chr_mdl = 1">
+      <DisplayName>VRAM: Character model - VRAM:キャラ モデル</DisplayName>
+      <Description>VRAM: Character model (unit is MB) - VRAM:キャラ モデル(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2040</SortID>
+    </Field>
+    <Field Def="f32 vram_parts_tex = 1">
+      <DisplayName>VRAM: Parts texture - VRAM:パーツ テクスチャ</DisplayName>
+      <Description>VRAM: Parts texture (unit is MB) - VRAM:パーツ テクスチャ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2050</SortID>
+    </Field>
+    <Field Def="f32 vram_parts_mdl = 1">
+      <DisplayName>VRAM: Parts model - VRAM:パーツ モデル</DisplayName>
+      <Description>VRAM: Parts model (unit is MB) - VRAM:パーツ モデル(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2060</SortID>
+    </Field>
+    <Field Def="f32 vram_sfx_tex = 1">
+      <DisplayName>VRAM: SFX texture - VRAM:SFX テクスチャ</DisplayName>
+      <Description>VRAM: SFX texture (unit is MB) - VRAM:SFX テクスチャ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2070</SortID>
+    </Field>
+    <Field Def="f32 vram_sfx_mdl = 1">
+      <DisplayName>VRAM: SFX model - VRAM:SFX モデル</DisplayName>
+      <Description>VRAM: SFX model (in MB) - VRAM:SFX モデル(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2080</SortID>
+    </Field>
+    <Field Def="f32 vram_gi = 1">
+      <DisplayName>VRAM: Gi - VRAM:Gi</DisplayName>
+      <Description>VRAM: Gi (unit is MB) - VRAM:Gi(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2090</SortID>
+    </Field>
+    <Field Def="f32 vram_menu_tex = 1">
+      <DisplayName>VRAM: Menu - VRAM:メニュー</DisplayName>
+      <Description>VRAM: Menu (unit is MB) - VRAM:メニュー(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2085</SortID>
+    </Field>
+    <Field Def="f32 vram_decal_rt = 1">
+      <DisplayName>VRAM: DECAL_RT - VRAM:DECAL_RT</DisplayName>
+      <Description>VRAM: DECAL render target (unit is MB) - VRAM:DECALレンダーターゲット(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2105</SortID>
+    </Field>
+    <Field Def="f32 vram_decal = 1">
+      <DisplayName>VRAM: DECAL - VRAM:DECAL</DisplayName>
+      <Description>VRAM: DECAL (unit is MB) - VRAM:DECAL(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_0[4]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <DisplayFormat>%f</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>3041</SortID>
+    </Field>
+    <Field Def="f32 vram_other_tex = 1">
+      <DisplayName>VRAM: Other textures - VRAM:その他 テクスチャ</DisplayName>
+      <Description>VRAM: Other models (in MB) - VRAM:その他 モデル(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2110</SortID>
+    </Field>
+    <Field Def="f32 vram_other_mdl = 1">
+      <DisplayName>VRAM: Other models - VRAM:その他 モデル</DisplayName>
+      <Description>VRAM: Other textures (in MB) - VRAM:その他 テクスチャ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2120</SortID>
+    </Field>
+    <Field Def="f32 havok_anim = 1">
+      <DisplayName>HAVOK: Anime - HAVOK:アニメ</DisplayName>
+      <Description>HAVOK: Animation (unit is MB) - HAVOK:アニメ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3010</SortID>
+    </Field>
+    <Field Def="f32 havok_ins = 1">
+      <DisplayName>HAVOK: Placement - HAVOK:配置</DisplayName>
+      <Description>HAVOK: Placement (unit is MB) - HAVOK:配置(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3020</SortID>
+    </Field>
+    <Field Def="f32 havok_hit = 1">
+      <DisplayName>HAVOK: Hit - HAVOK:ヒット</DisplayName>
+      <Description>HAVOK: Hit (unit is MB) - HAVOK:ヒット(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3030</SortID>
+    </Field>
+    <Field Def="f32 vram_other = 1">
+      <DisplayName>VRAM: Other - VRAM:その他</DisplayName>
+      <Description>VRAM: Other (unit is MB) - VRAM:その他(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1050</SortID>
+    </Field>
+    <Field Def="f32 vram_detail_all = 1">
+      <DisplayName>VRAM: total value - VRAM:合算値</DisplayName>
+      <Description>VRAM: Total value (unit is MB) - VRAM:合算値(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 vram_chr_and_parts = 1">
+      <DisplayName>VRAM: Characters &amp; Parts - VRAM:キャラ&amp;パーツ</DisplayName>
+      <Description>VRAM: Total value of characters and parts (unit is MB) - VRAM:キャラとパーツ合算値(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1035</SortID>
+    </Field>
+    <Field Def="f32 havok_navimesh = 1">
+      <DisplayName>HAVOK: Navimesh - HAVOK:ナビメッシュ</DisplayName>
+      <Description>HAVOK: Navimesh (unit is MB) - HAVOK:ナビメッシュ(単位はMB)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3040</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_1[24]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <Description>Reserved area - 予約領域</Description>
+      <SortID>3042</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>SWORD_ARTS_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1102</SortID>
+    </Field>
+    <Field Def="u8 swordArtsType">
+      <DisplayName>Swashbuckler ID - 剣戟ID</DisplayName>
+      <Description>To pass to the behavior script to determine which swashbuckler - ビヘイビアスクリプトに渡してどの剣戟か判定するためのもの</Description>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 artsSpeedType">
+      <DisplayName>Arts speed - アーツ速度</DisplayName>
+      <Description>Which cancellation timing do you see? 0: Normal (left hand attack) / 1: Early / 2: Slow - どのキャンセルタイミングを見るか。0：通常（左手攻撃）／1：早い／2：遅い</Description>
+      <Maximum>2</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s8 refStatus">
+      <DisplayName>Related status - 関連ステータス</DisplayName>
+      <Enum>SWORD_ARTS_REF_STATUS_TYPE</Enum>
+      <Description>Which system of arts points to refer to - どの系統のアーツポイントを参照するか</Description>
+      <Minimum>0</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u8 isRefRightArts:1">
+      <DisplayName>Whether to display the arts of the right hand when the left hand (holding one hand) - 左手（片手持ち）時に右手のアーツを表示するか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>When set to the arts of the left-handed weapon, the arts of the right-handed weapon are displayed in FE. Assumed to be used for "weapon maneuvers" etc. - 左手武器のアーツに設定されている場合、右手武器のアーツをFEに表示します。「武器戦技」などに使われる想定</Description>
+      <Maximum>1</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="u8 isGrayoutLeftHand:1">
+      <DisplayName>Whether to gray out with the left hand (holding one hand) - 左手（片手持ち）時にグレーアウトするか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to gray out when displaying the arts name of the left hand (one-handed) - 左手（片手持ち）のアーツ名を表示するときにグレーアウトするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>910</SortID>
+    </Field>
+    <Field Def="u8 isGrayoutRightHand:1">
+      <DisplayName>Whether to gray out with the right hand (holding one hand) - 右手（片手持ち）時にグレーアウトするか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to gray out when displaying the arts name of the right hand (one-handed) - 右手（片手持ち）のアーツ名を表示するときにグレーアウトするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>920</SortID>
+    </Field>
+    <Field Def="u8 isGrayoutBothHand:1">
+      <DisplayName>Will it be grayed out when holding both hands? - 両手持ち時にグレーアウトするか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to gray out when displaying the arts name of both hands - 両手持ちのアーツ名を表示するときにグレーアウトするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>930</SortID>
+    </Field>
+    <Field Def="dummy8 reserve2:4">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <SortID>1103</SortID>
+    </Field>
+    <Field Def="s8 usePoint_L1">
+      <DisplayName>Consumption point L1 - 消費ポイント L1</DisplayName>
+      <Description>Points to spend when putting out arts by L1 - L1によりアーツを出したときに消費するポイント</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s8 usePoint_L2">
+      <DisplayName>Consumption point L2 - 消費ポイント L2</DisplayName>
+      <Description>Points to spend when putting out arts by L2 - L2によりアーツを出したときに消費するポイント</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s8 usePoint_R1">
+      <DisplayName>Consumption point R1 - 消費ポイント R1</DisplayName>
+      <Description>Points to spend when putting out arts by R1 - R1によりアーツを出したときに消費するポイント</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s8 usePoint_R2">
+      <DisplayName>Consumption point R2 - 消費ポイント R2</DisplayName>
+      <Description>Points to spend when putting out arts by R2 - R2によりアーツを出したときに消費するポイント</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 textId">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>Text ID for arts description - アーツ説明用のテキストID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 useMagicPoint_L1">
+      <DisplayName>MP L1 consumed - 消費MP L1</DisplayName>
+      <Description>MP consumed when issuing arts by L1 - L1によりアーツを出したときに消費するMP</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="s16 useMagicPoint_L2">
+      <DisplayName>MP L2 consumed - 消費MP L2</DisplayName>
+      <Description>MP consumed when issuing arts by L2 - L2によりアーツを出したときに消費するMP</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>820</SortID>
+    </Field>
+    <Field Def="s16 useMagicPoint_R1">
+      <DisplayName>MP R1 consumed - 消費MP R1</DisplayName>
+      <Description>MP consumed when issuing arts by R1 - R1によりアーツを出したときに消費するMP</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>830</SortID>
+    </Field>
+    <Field Def="s16 useMagicPoint_R2">
+      <DisplayName>MP R2 consumed - 消費MP R2</DisplayName>
+      <Description>MP consumed when issuing arts by R2 - R2によりアーツを出したときに消費するMP</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>840</SortID>
+    </Field>
+    <Field Def="s8 shieldIconType">
+      <DisplayName>Shield type icon (overwrite) - 盾種別アイコン（上書き）</DisplayName>
+      <Enum>SWORD_ARTS_SHIELD_ICON_TYPE</Enum>
+      <Description>If you do not overwrite it, the icon will be displayed based on the swashbuckler ID of the weapon para. - 上書きしない場合は、武器パラの剣戟IDを元にアイコン表示されます。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>128</Maximum>
+      <SortID>990</SortID>
+    </Field>
+    <Field Def="dummy8 pad[1]">
+      <DisplayName>pad - pad</DisplayName>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>1104</SortID>
+    </Field>
+    <Field Def="u16 iconId">
+      <DisplayName>Icon ID - アイコンID</DisplayName>
+      <Description>ID of the icon displayed in FE etc. - FEなどで表示するアイコンのID</Description>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="s32 aiUsageId = -1">
+      <DisplayName>AI usage judgment ID - AI使用判断ID</DisplayName>
+      <Description>AI usage judgment ID - AI使用判断ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

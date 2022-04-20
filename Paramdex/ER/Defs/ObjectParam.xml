@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>OBJECT_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>106</FormatVersion>
+  <Fields>
+    <Field Def="s16 hp = -1">
+      <DisplayName>HP - HP</DisplayName>
+      <Description>Durability until destruction (-1: Indestructible) - 破壊までの耐久力(-1:破壊不可)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u16 defense">
+      <DisplayName>Defense power - 防御力</DisplayName>
+      <Description>Attack power below this value is no damage - この値以下の攻撃力はダメージなし</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>9999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s16 extRefTexId = -1">
+      <DisplayName>Xref texture ID - 外部参照テクスチャID</DisplayName>
+      <Description>mAA / mAA_ ????. Tpf (-1: None) (AA: Area number) - mAA/mAA_????.tpf(-1:なし)(AA:エリア番号)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s16 materialId = -1">
+      <DisplayName>Material ID - 材質ID</DisplayName>
+      <Description>Material ID. Treated the same as the floor material. When -1, the same behavior as before - マテリアルID。床材質と同じ扱い。-1のときは今までと同じ挙動</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="u8 animBreakIdMax">
+      <DisplayName>Anime destruction ID maximum value - アニメ破壊ID最大値</DisplayName>
+      <Description>What is the animation destruction ID from 0 to what? - アニメ破壊IDが0番から何番までか</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u8 isCamHit:1">
+      <DisplayName>Does the camera hit? - カメラが当たるか</DisplayName>
+      <Description>Does the camera hit (0: not hit, 1: hit) - カメラが当たるか(0:当たらない, 1:当たる)</Description>
+      <Maximum>1</Maximum>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="u8 isBreakByPlayerCollide:1">
+      <DisplayName>Will it break in a player collision? - プレイヤ衝突で壊れるか</DisplayName>
+      <Description>Broken when the player touches (0: no, 1:) - プレイヤが接触したときに壊れ(0:ない, 1:る)</Description>
+      <Maximum>1</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u8 isAnimBreak:1">
+      <DisplayName>Is it anime destruction? - アニメ破壊か</DisplayName>
+      <Description>Is it animation destruction (0: physical destruction, 1: animation destruction) - アニメ破壊か(0:物理破壊, 1:アニメ破壊)</Description>
+      <Maximum>1</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="u8 isPenetrationBulletHit:1">
+      <DisplayName>Will it hit a penetrating bullet? - 貫通弾丸が当たるか</DisplayName>
+      <Description>Will the penetrating bullet hit (0: not hit, 1: hit) - 貫通弾丸が当たるか(0:当たらない, 1:当たる)</Description>
+      <Maximum>1</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="u8 isChrHit:1 = 1">
+      <DisplayName>Will the character win? - キャラが当たるか</DisplayName>
+      <Description>Does the character win (0: not hit, 1: hit) - キャラが当たるか(0:当たらない, 1:当たる)</Description>
+      <Maximum>1</Maximum>
+      <SortID>311</SortID>
+    </Field>
+    <Field Def="u8 isAttackBacklash:1 = 1">
+      <DisplayName>Do you play the attack - 攻撃を弾くか</DisplayName>
+      <Description>Do you play the attack (0: do not play, 1: play) - 攻撃を弾くか(0:弾かない, 1:弾く)</Description>
+      <Maximum>1</Maximum>
+      <SortID>950</SortID>
+    </Field>
+    <Field Def="u8 isDisableBreakForFirstAppear:1">
+      <DisplayName>No destruction for initial appearance - 初期出現用破壊禁止</DisplayName>
+      <Description>Broken at the initial appearance of the player (0: ru, 1: no) - プレイヤの初期出現で壊れ(0:る, 1:ない)</Description>
+      <Maximum>1</Maximum>
+      <SortID>450</SortID>
+    </Field>
+    <Field Def="u8 isLadder:1">
+      <DisplayName>Is it a ladder? - ハシゴか</DisplayName>
+      <Description>Is it a ladder (0: different, 1: yes) - ハシゴか(0:ちがう, 1:そう)</Description>
+      <Maximum>1</Maximum>
+      <SortID>970</SortID>
+    </Field>
+    <Field Def="u8 isAnimPauseOnRemoPlay:1">
+      <DisplayName>Do you want to stop the animation during the poly play? - ポリ劇中アニメを停止するか</DisplayName>
+      <Description>Do you want to stop the animation during the poly play (0: not, 1: do) - ポリ劇中アニメを停止するか(0:しない, 1:する)</Description>
+      <Maximum>1</Maximum>
+      <SortID>980</SortID>
+    </Field>
+    <Field Def="u8 isDamageNoHit:1">
+      <DisplayName>Is it not damaged? - ダメージが当たらないか</DisplayName>
+      <Description>No damage (0: hit, 1: not hit) - ダメージが当たらない(0:当たる, 1:当たらない)</Description>
+      <Maximum>1</Maximum>
+      <SortID>312</SortID>
+    </Field>
+    <Field Def="u8 isMoveObj:1">
+      <DisplayName>Is it a moving object? - 移動オブジェか</DisplayName>
+      <Description>Is it a moving object (0: different, 1: yes) - 移動オブジェか(0:ちがう, 1:そう)</Description>
+      <Maximum>1</Maximum>
+      <SortID>975</SortID>
+    </Field>
+    <Field Def="u8 isRopeBridge:1">
+      <DisplayName>Is it a suspension bridge object? - 吊り橋オブジェクトか</DisplayName>
+      <Description>Suspension bridge object (0: different, 1: yes) - 吊り橋オブジェクトか(0:ちがう, 1:そう)</Description>
+      <Maximum>1</Maximum>
+      <SortID>971</SortID>
+    </Field>
+    <Field Def="u8 isAddRigidImpulse_ByDamage:1">
+      <DisplayName>Does the damage blow off the rigid body? - ダメージによって剛体が吹き飛ぶか</DisplayName>
+      <Description>Does the damage blow the rigid body (0: do not blow, 1: blow) - ダメージによって剛体が吹き飛ぶか(0:吹き飛ばない, 1:吹き飛ぶ)</Description>
+      <Maximum>1</Maximum>
+      <SortID>376</SortID>
+    </Field>
+    <Field Def="u8 isBreak_ByChrRide:1">
+      <DisplayName>Will it break if the character gets on it? - キャラが乗ったら壊れるか</DisplayName>
+      <Description>Will it break if the character gets on (0: it won't break 1: it will break) - キャラが乗ったら壊れるか(0:壊れるない 1:壊れる)</Description>
+      <Maximum>1</Maximum>
+      <SortID>402</SortID>
+    </Field>
+    <Field Def="u8 isBurn:1">
+      <DisplayName>Will it burn - 燃焼するか</DisplayName>
+      <Description>Will it burn (0: not, 1:) - 燃焼するか(0:しない, 1:する)</Description>
+      <Maximum>1</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="u8 isBreakByEnemyCollide:1">
+      <DisplayName>Will it be destroyed by an enemy character collision? - 敵キャラ衝突で壊れるか</DisplayName>
+      <Description>Broken when an enemy character touches (0: No, 1: Ru) - 敵キャラが接触したときに壊れ(0:ない, 1:る)</Description>
+      <Maximum>1</Maximum>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="s8 defaultLodParamId = -1">
+      <DisplayName>Default LOD Param ID - デフォルトLODパラムID</DisplayName>
+      <Description>Default LOD Param ID (-1: None) - デフォルトLODパラムID(-1：なし)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="s32 breakSfxId = -1">
+      <DisplayName>SFX ID at the time of destruction - 破壊時SFXID</DisplayName>
+      <Description>SFXID when destroying an object (-1: default (810030)) - オブジェ破壊時のSFXID(-1:デフォルト(810030))</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s32 breakSfxCpId = -1">
+      <DisplayName>SFX Damipoli ID at the time of destruction - 破壊時SFXダミポリID</DisplayName>
+      <Description>SFX generation position when the object is destroyed Damipoly ID (-1: placement position) - オブジェ破壊時SFXの発生位置ダミポリID(-1：配置位置）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1001</SortID>
+    </Field>
+    <Field Def="s32 breakBulletBehaviorId = -1">
+      <DisplayName>Bomb generation at the time of destruction Action parameter ID - 破壊時 弾発生 行動パラメータID</DisplayName>
+      <Description>Action parameter of [bullet] at the time of destruction (-1: does not occur) - 破壊時[弾]の行動パラメータ(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1050</SortID>
+    </Field>
+    <Field Def="s32 breakBulletCpId = -1">
+      <DisplayName>Damipoli ID - 破壊時 弾発生 ダミポリID</DisplayName>
+      <Description>Location of [bullet] at the time of destruction Damipoli ID (-1: placement position) - 破壊時[弾]の発生位置ダミポリID(-1:配置位置)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1051</SortID>
+    </Field>
+    <Field Def="u8 breakFallHeight">
+      <DisplayName>Fall destruction height (m) - 落下破壊高さ(m)</DisplayName>
+      <Description>Height at which the object breaks when dropped (0: does not break when dropped) - 落下時にオブジェクトが壊れる高さ（0：落下では壊れない)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u8 windEffectType_0">
+      <DisplayName>Wind effect type (before destruction) - 風影響タイプ(破壊前)</DisplayName>
+      <Enum>OBJECT_WIND_EFFECT_TYPE</Enum>
+      <Description>Wind effect type (before destruction) - 風影響タイプ(破壊前)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>2</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="u8 windEffectType_1">
+      <DisplayName>Wind effect type (after destruction) - 風影響タイプ(破壊後)</DisplayName>
+      <Enum>OBJECT_WIND_EFFECT_TYPE</Enum>
+      <Description>Wind effect type (after destruction) - 風影響タイプ(破壊後)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>2</Maximum>
+      <SortID>1201</SortID>
+    </Field>
+    <Field Def="u8 camAvoidType = 1">
+      <DisplayName>Camera avoidance setting - カメラ回避設定</DisplayName>
+      <Enum>OBJECT_CAM_AVOID_TYPE</Enum>
+      <Description>What to do if an object blocks between the camera and player - オブジェクトがカメラ・プレイヤー間を遮蔽した場合の対処方法</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>2</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="f32 windEffectRate_0 = 0.5">
+      <DisplayName>Wind coefficient (before destruction) - 風係数(破壊前)</DisplayName>
+      <Description>Wind coefficient (before destruction) - 風係数(破壊前)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1202</SortID>
+    </Field>
+    <Field Def="f32 windEffectRate_1 = 0.5">
+      <DisplayName>Wind coefficient (after destruction) - 風係数(破壊後)</DisplayName>
+      <Description>Wind coefficient (after destruction) - 風係数(破壊後)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1203</SortID>
+    </Field>
+    <Field Def="f32 breakStopTime">
+      <DisplayName>Forced stop time after destruction - 破壊後強制停止時間</DisplayName>
+      <Description>Time from destruction to forced stop of rigid body (do not force stop at 0) - 破壊されてから剛体を強制的に停止するまでの時間（0で強制停止しない）</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="f32 burnTime">
+      <DisplayName>Burning time (seconds) - 燃焼時間(秒)</DisplayName>
+      <Description>Burning time (seconds) (continues to burn at 0) - 燃焼時間(秒)(0で燃え続ける)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1401</SortID>
+    </Field>
+    <Field Def="f32 burnBraekRate = 0.5">
+      <DisplayName>Combustion fracture judgment progress - 燃焼 破壊判定進行度</DisplayName>
+      <Description>Burnup threshold for switching to the ruptured state - 破壊状態に切り替わる燃焼度の閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>1402</SortID>
+    </Field>
+    <Field Def="s32 burnSfxId = -1">
+      <DisplayName>Combustion SFXID: 0 - 燃焼 SFXID：0</DisplayName>
+      <Description>SFX ID at the time of combustion: 0 (-1: No SFX) - 燃焼時のSFXID：0 (-1：SFXなし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1410</SortID>
+    </Field>
+    <Field Def="s32 burnSfxId_1 = -1">
+      <DisplayName>Combustion SFXID: 1 - 燃焼 SFXID：1</DisplayName>
+      <Description>SFX ID at the time of combustion: 1 (-1: No SFX) - 燃焼時のSFXID：1 (-1：SFXなし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1411</SortID>
+    </Field>
+    <Field Def="s32 burnSfxId_2 = -1">
+      <DisplayName>Combustion SFXID: 2 - 燃焼 SFXID：2</DisplayName>
+      <Description>SFX ID at the time of combustion: 2 (-1: No SFX) - 燃焼時のSFXID：2 (-1：SFXなし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1412</SortID>
+    </Field>
+    <Field Def="s32 burnSfxId_3 = -1">
+      <DisplayName>Combustion SFXID: 3 - 燃焼 SFXID：3</DisplayName>
+      <Description>SFX ID at the time of combustion: 3 (-1: No SFX) - 燃焼時のSFXID：3 (-1：SFXなし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1413</SortID>
+    </Field>
+    <Field Def="s32 burnBulletBehaviorId = -1">
+      <DisplayName>Combustion bullet generation Behavior parameter: 0 - 燃焼 弾発生 行動パラメータ：0</DisplayName>
+      <Description>Bullet generation behavior parameter at the time of burning: 0 (-1: does not occur) - 燃焼時の弾発生行動パラメータ：0(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1440</SortID>
+    </Field>
+    <Field Def="s32 burnBulletBehaviorId_1 = -1">
+      <DisplayName>Combustion bullet generation Behavior parameter: 1 - 燃焼 弾発生 行動パラメータ：1</DisplayName>
+      <Description>Bullet generation behavior parameter at the time of burning: 1 (-1: does not occur) - 燃焼時の弾発生行動パラメータ：1(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1441</SortID>
+    </Field>
+    <Field Def="s32 burnBulletBehaviorId_2 = -1">
+      <DisplayName>Combustion bullet generation Behavior parameter: 2 - 燃焼 弾発生 行動パラメータ：2</DisplayName>
+      <Description>Bullet generation behavior parameter at the time of burning: 2 (-1: does not occur) - 燃焼時の弾発生行動パラメータ：2(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1442</SortID>
+    </Field>
+    <Field Def="s32 burnBulletBehaviorId_3 = -1">
+      <DisplayName>Combustion bullet generation Behavior parameters: 3 - 燃焼 弾発生 行動パラメータ：3</DisplayName>
+      <Description>Bullet generation behavior parameter at the time of burning: 3 (-1: does not occur) - 燃焼時の弾発生行動パラメータ：3(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1443</SortID>
+    </Field>
+    <Field Def="u16 burnBulletInterval = 30">
+      <DisplayName>Combustion bullet generation interval (frame) - 燃焼 弾発生間隔(フレーム)</DisplayName>
+      <Description>Interval (frame) to generate bullets for spreading fire - 延焼用の弾を発生する間隔(フレーム)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>9999</Maximum>
+      <SortID>1450</SortID>
+    </Field>
+    <Field Def="u8 navimeshFlag">
+      <DisplayName>Navi mesh flag - ナビメッシュフラグ</DisplayName>
+      <Enum>OBJECT_NAVIMESH_FLAG</Enum>
+      <Description>Navigation mesh flag set from the object - オブジェから設定されるナビメッシュフラグ</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="u8 collisionType">
+      <DisplayName>Collision detection type - 衝突判定タイプ</DisplayName>
+      <Enum>OBJECT_COLLISION_TYPE</Enum>
+      <Description>Collision detection type - 衝突判定タイプ</Description>
+      <Maximum>4</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 burnBulletDelayTime">
+      <DisplayName>Combustion bullet generation delay time (seconds) - 燃焼 弾発生遅延時間(秒)</DisplayName>
+      <Description>Time to delay the generation of bullets for fire spread (seconds) - 延焼用の弾発生を遅らせる時間(秒)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1451</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMin">
+      <DisplayName>Combustion SFX generation delay Start time (seconds): 0 - 燃焼 SFX発生遅延 開始時間(秒)：0</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1420</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMin_1">
+      <DisplayName>Combustion SFX generation delay Start time (seconds): 1 - 燃焼 SFX発生遅延 開始時間(秒)：1</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1421</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMin_2">
+      <DisplayName>Combustion SFX generation delay Start time (seconds): 2 - 燃焼 SFX発生遅延 開始時間(秒)：2</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1422</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMin_3">
+      <DisplayName>Combustion SFX generation delay Start time (seconds): 3 - 燃焼 SFX発生遅延 開始時間(秒)：3</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1423</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMax">
+      <DisplayName>Combustion SFX generation delay End time (seconds): 0 - 燃焼 SFX発生遅延 終了時間(秒)：0</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1430</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMax_1">
+      <DisplayName>Combustion SFX generation delay End time (seconds): 1 - 燃焼 SFX発生遅延 終了時間(秒)：1</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1431</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMax_2">
+      <DisplayName>Combustion SFX generation delay End time (seconds): 2 - 燃焼 SFX発生遅延 終了時間(秒)：2</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1432</SortID>
+    </Field>
+    <Field Def="f32 burnSfxDelayTimeMax_3">
+      <DisplayName>Combustion SFX generation delay End time (seconds): 3 - 燃焼 SFX発生遅延 終了時間(秒)：3</DisplayName>
+      <Description>SFX generation delay time during combustion Randomly determined between start and end times - 燃焼時のSFX発生遅延時間 開始～終了時間の間でランダムに決まる</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1433</SortID>
+    </Field>
+    <Field Def="s32 BreakAiSoundID">
+      <DisplayName>AI sound ID generated at the time of destruction - 破壊時発生AI音ID</DisplayName>
+      <Description>AI sound ID generated at the time of destruction - 破壊時に発生させるAI音ID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 FragmentInvisibleWaitTime">
+      <DisplayName>Hidden debris Wait time (seconds) - 破片非表示 待機時間(秒)</DisplayName>
+      <Description>Material ID of debris (-1: Do not hide) - 破片のマテリアルID(-1：非表示処理を行なわない)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="f32 FragmentInvisibleTime">
+      <DisplayName>Debris non-display time (seconds) - 破片非表示 時間(秒)</DisplayName>
+      <Description>Time to hide debris (seconds) - 破片を非表示にさせる時間(秒)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>1701</SortID>
+    </Field>
+    <Field Def="dummy8 pad_3[16] = -1">
+      <DisplayName>Padding - パディング</DisplayName>
+      <Description>Material ID of debris (-1: Do not hide) - 破片のマテリアルID(-1：非表示処理を行なわない)</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>127</Maximum>
+      <Increment>1</Increment>
+      <SortID>100000</SortID>
+    </Field>
+    <Field Def="f32 RigidPenetrationScale_Soft">
+      <DisplayName>Rigid body collision point distance coefficient [soft] - 剛体 衝突点距離係数 [柔らかい]</DisplayName>
+      <Description>Rigid body soft contact setting Collision point distance coefficient [soft] - 剛体ソフトコンタクト設定 衝突点距離係数 [柔らかい]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="f32 RigidPenetrationScale_Normal">
+      <DisplayName>Rigid body collision point distance coefficient [normal] - 剛体 衝突点距離係数 [通常]</DisplayName>
+      <Description>Rigid soft contact setting Collision point distance coefficient [Normal] - 剛体ソフトコンタクト設定 衝突点距離係数 [通常]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>1801</SortID>
+    </Field>
+    <Field Def="f32 RigidPenetrationScale_Hard">
+      <DisplayName>Rigid body collision point distance coefficient [hard] - 剛体 衝突点距離係数 [固い]</DisplayName>
+      <Description>Rigid soft contact setting Collision point distance coefficient [hard] - 剛体ソフトコンタクト設定 衝突点距離係数 [固い]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>1802</SortID>
+    </Field>
+    <Field Def="s32 LandTouchSfxId = -1">
+      <DisplayName>SFX ID at the time of terrain contact - 地形接触時のSFXID</DisplayName>
+      <Description>SFX ID at terrain contact (-1: offset by terrain material) - 地形接触時のSFXID(-1:地形のマテリアルによりオフセット)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 isDamageCover:1">
+      <DisplayName>Do you want to shield the damage? - ダメージを遮蔽するか</DisplayName>
+      <Description>Whether to pass the damage to the other side when receiving damage (0: pass, 1: do not pass) - ダメージを受けたときに、そのダメージを反対側に通さないかどうか　(0:通す, 1:通さない)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>1</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="dummy8 pad_4[1]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>100001</SortID>
+    </Field>
+    <Field Def="u16 paintDecalTargetTextureSize = 256">
+      <DisplayName>Paint decal target size - ペイントデカールターゲットサイズ</DisplayName>
+      <Description>Paint decal target size (only powers of 0 to 4096 2 allowed) - ペイントデカールターゲットサイズ(0～4096 ２のべき乗のみ許可)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4096</Maximum>
+      <Increment>128</Increment>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="f32 lifeTime_forDC">
+      <DisplayName>Life of dynamically generated Obj (seconds) - 動的生成Objの寿命(秒)</DisplayName>
+      <Description>Time until dynamically generated Obj disappears after generation (0: does not disappear) - 動的生成Objが生成後に消滅するまでの時間 (0:消滅しない)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="f32 clothUpdateDist">
+      <DisplayName>Cross update distance (m) - クロス更新距離(m)</DisplayName>
+      <Description>Distance from the camera to update havokCloth (0: always update) - havokClothの更新を行なうカメラからの距離(0:必ず更新する)</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>2201</SortID>
+    </Field>
+    <Field Def="s32 contactSeId = -1">
+      <DisplayName>SE ID when contacting a player - プレイヤー接触時SE ID</DisplayName>
+      <Description>SE ID to play when touched by a local player operated by you (-1: Do not play) - 自分が操作するローカルプレイヤーが触れた際に再生するSEのID(-1:再生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>990</SortID>
+    </Field>
+    <Field Def="s32 breakLandingSfxId = -1">
+      <DisplayName>SFX identifier when landing after destruction - 破壊後着地時SFX識別子</DisplayName>
+      <Description>Object material-dependent SFX identifier that regenerates when first landing after being destroyed (-1: does not occur) - 破壊された後、最初に着地した際に再生するオブジェ材質依存SFXの識別子(-1:発生しない)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31</Maximum>
+      <SortID>1102</SortID>
+    </Field>
+    <Field Def="s32 waypointDummyPolyId_0 = -1">
+      <DisplayName>Waypoint Damipoli ID_0 - ウェイポイントダミポリID_0</DisplayName>
+      <Description>Waypoint Damipoli ID_0 (-1: None) - ウェイポイントダミポリID_0(-1:なし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s32 waypointParamId_0 = -1">
+      <DisplayName>Waypoint parameter ID_0 - ウェイポイントパラメータID_0</DisplayName>
+      <Description>Waypoint parameter ID_0 (-1: none) - ウェイポイントパラメータID_0(-1:なし)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>2302</SortID>
+    </Field>
+    <Field Def="s32 soundBankId = -1">
+      <DisplayName>Sound bank ID - サウンドのバンクID</DisplayName>
+      <Description>Sound bank ID (-1: no bank, other: bank with specified ID) - サウンドのバンクID(-1:バンクなし, それ以外:指定したIDのバンク)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="s32 refDrawParamId = -1">
+      <DisplayName>Drawing parameter reference ID - 描画パラメータ参照ID</DisplayName>
+      <Description>Reference ID of drawing parameter - 描画パラメータの参照ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="f32 autoCreateDynamicOffsetHeight = 0.1">
+      <DisplayName>Automatically generated appearance height offset [m] - 自動生成出現高さオフセット[m]</DisplayName>
+      <Description>Map automatic generation OBJ appearance height offset [m], does it float from where the ray cast hits? - マップ自動生成OBJの出現高さオフセット[m]、レイキャストが当たったところから度ぐらい浮かすか</Description>
+      <Minimum>0</Minimum>
+      <Maximum>256</Maximum>
+      <SortID>2601</SortID>
+    </Field>
+    <Field Def="s32 reserved0 = -1">
+      <DisplayName>Reserve - リザーブ</DisplayName>
+      <Description>Reserve - リザーブ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>99999</SortID>
+    </Field>
+    <Field Def="s32 soundBreakSEId = -1">
+      <DisplayName>Destruction sound SEID - 破壊音SEID</DisplayName>
+      <Description>Destruction sound SEID (9 digits) -1: Generated from objId - 破壊音SEID(9桁) -1：objIdから生成</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>2401</SortID>
+    </Field>
+    <Field Def="dummy8 pad_5[40]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>99999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

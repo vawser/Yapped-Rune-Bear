@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>SOUND_CHR_PHYSICS_SE_PARAM_ST</ParamType>
+  <DataVersion>4</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="s32 ContactLandSeId = -1">
+      <DisplayName>Ground contact SEID - 地面接触SEID</DisplayName>
+      <Description>SEID pronounced when contacting the ground after death. (-1: Invalid). SEID category is fixed to c - 死亡後、地面と接触したときに発音するSEID。(-1：無効)。SEIDカテゴリーはc固定</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="s32 ContactLandAddSeId = -1">
+      <DisplayName>Ground contact additional SEID (for material) - 地面接触追加SEID(材質用)</DisplayName>
+      <Description>Additional SEID (for material) that sounds when it comes into contact with the ground after death. (-1: Invalid). SEID category is fixed to c - 死亡後、地面と接触したときに発音する追加SEID(材質用)。(-1：無効)。SEIDカテゴリーはc固定</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="s32 ContactLandPlayNum = 1">
+      <DisplayName>Number of ground contact pronunciations - 地面接触発音回数</DisplayName>
+      <Description>Number of pronunciations when touching the ground after death - 死亡後、地面接触時に発音する回数</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>16</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u8 IsEnablePlayCountPerRigid">
+      <DisplayName>Do you count the number of ground contact sounds in rigid body units? - 地面接触発音回数を剛体単位でカウントするか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you count the number of pronunciations of surface contact after death in rigid body units? (○: Rigid body unit, ×: Character unit) - 死亡後地、面接触発音回数を剛体単位でカウントするか？(〇：剛体単位、×：キャラ単位)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="dummy8 pad[3]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="f32 ContactLandMinImpuse = 20">
+      <DisplayName>Ground contact minimum impulse value - 地面接触最小力積値</DisplayName>
+      <Description>Minimum impulse value required for ground contact determination after death - 死亡後、地面接触判定に必要な最小力積値</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="f32 ContactLandMinSpeed">
+      <DisplayName>Ground contact minimum velocity value - 地面接触最小速度値</DisplayName>
+      <Description>Minimum speed value required for ground contact determination after death - 死亡後、地面接触判定に必要な最小速度値</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="s32 ContactPlayerSeId = -1">
+      <DisplayName>Player contact SEID - Player接触SEID</DisplayName>
+      <Description>SEID that sounds when you come into contact with Player after death. (-1: Invalid). SEID category is fixed to c - 死亡後、Playerと接触したときに鳴らすSEID。(-1：無効)。SEIDカテゴリーはc固定</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 ContactPlayerMinImpuse = 20">
+      <DisplayName>Player minimum contact impulse value - Player接触最小力積値</DisplayName>
+      <Description>Minimum impulse value required for Player contact judgment after death - 死亡後、Player接触判定に必要な最小力積値</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="f32 ContactPlayerMinSpeed">
+      <DisplayName>Player minimum contact speed value - Player接触最小速度値</DisplayName>
+      <Description>Minimum speed value required for Player contact judgment after death - 死亡後、Player接触判定に必要な最小速度値</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx0 = -1">
+      <DisplayName>Contact judgment rigid body IDX0 - 接触判定剛体IDX0</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx1 = -1">
+      <DisplayName>Contact judgment rigid body IDX1 - 接触判定剛体IDX1</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx2 = -1">
+      <DisplayName>Contact judgment rigid body IDX2 - 接触判定剛体IDX2</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx3 = -1">
+      <DisplayName>Contact judgment rigid body IDX3 - 接触判定剛体IDX3</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx4 = -1">
+      <DisplayName>Contact judgment rigid body IDX4 - 接触判定剛体IDX4</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx5 = -1">
+      <DisplayName>Contact judgment rigid body IDX5 - 接触判定剛体IDX5</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx6 = -1">
+      <DisplayName>Contact judgment rigid body IDX6 - 接触判定剛体IDX6</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx7 = -1">
+      <DisplayName>Contact judgment rigid body IDX7 - 接触判定剛体IDX7</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx8 = -1">
+      <DisplayName>Contact judgment rigid body IDX8 - 接触判定剛体IDX8</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx9 = -1">
+      <DisplayName>Contact judgment rigid body IDX9 - 接触判定剛体IDX9</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx10 = -1">
+      <DisplayName>Contact judgment rigid body IDX10 - 接触判定剛体IDX10</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx11 = -1">
+      <DisplayName>Contact judgment rigid body IDX11 - 接触判定剛体IDX11</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx12 = -1">
+      <DisplayName>Contact judgment rigid body IDX12 - 接触判定剛体IDX12</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx13 = -1">
+      <DisplayName>Contact judgment rigid body IDX13 - 接触判定剛体IDX13</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx14 = -1">
+      <DisplayName>Contact judgment rigid body IDX14 - 接触判定剛体IDX14</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="s8 ContactCheckRigidIdx15 = -1">
+      <DisplayName>Contact judgment rigid body IDX15 - 接触判定剛体IDX15</DisplayName>
+      <Description>Specify the INDEX of the rigid body for contact judgment. Specify only the rigid body to which you want to attach SE - 接触判定する剛体のINDEXを指定します。SEを付けたい剛体だけ指定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>25</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>KNOWLEDGE_LOADSCREEN_ITEM_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>302</SortID>
+    </Field>
+    <Field Def="u32 unlockFlagId">
+      <DisplayName>Lifting flag - 解禁フラグ</DisplayName>
+      <Description>Lifting flag (default: 0). If this event flag is set, the ban will be lifted (displayed on the loading screen). If it is 0, the ban is always lifted. The invalid flag has priority - 解禁フラグ(default: 0)。このイベントフラグが立っていれば解禁される（ローディング画面に表示される）。0なら常に解禁されている。無効フラグの方が優先される</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u32 invalidFlagId">
+      <DisplayName>Invalid flag - 無効フラグ</DisplayName>
+      <Description>Invalid flag (default: 0). If this event flag is set, it will be disabled (it will not be displayed on the loading screen). If it is 0, this flag is not always set. - 無効フラグ(default: 0)。このイベントフラグが立っていると無効化（ローディング画面に表示されなくなる）。0なら常にこのフラグは立っていないものとする</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 msgId">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>Text ID (Loading Text.xlsx). Used for both loading titles and loading text - テキストID(Loading Text.xlsx)。ローディングタイトルとローディングテキスト両方に使われる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

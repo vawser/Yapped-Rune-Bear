@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>OBJ_ACT_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 actionEnableMsgId = -1">
+      <DisplayName>MsgID when action is enabled - アクション有効時のMsgID</DisplayName>
+      <Description>The MsgID of the menu displayed when the action is enabled. - アクションが有効時に表示するメニューのMsgIDです。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>9000</SortID>
+    </Field>
+    <Field Def="s32 actionFailedMsgId = -1">
+      <DisplayName>MsgID when action fails - アクション失敗時のMsgID</DisplayName>
+      <Description>The MsgID of the menu to display when the action fails. - アクションが失敗時に表示するメニューのMsgIDです。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="u32 spQualifiedPassEventFlag">
+      <DisplayName>Event flags for special condition paths - 特殊条件パス用イベントフラグ</DisplayName>
+      <Description>Event flags for unconditionally passing special conditions. - 特殊条件を無条件パスするためのイベントフラグ.</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>8500</SortID>
+    </Field>
+    <Field Def="u32 playerAnimId">
+      <DisplayName>Player anime ID 0 - プレイヤのアニメID0</DisplayName>
+      <Description>This is the animation ID for the action of the player character. - プレイヤーキャラのアクション時のアニメIDです。</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="u32 chrAnimId">
+      <DisplayName>Character anime ID0 - キャラのアニメID0</DisplayName>
+      <Description>Anime ID at the time of action such as enemy - 敵などのアクション時のアニメID</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>6000</SortID>
+    </Field>
+    <Field Def="u16 validDist = 150">
+      <DisplayName>Effective distance of action [cm] - アクションの有効距離[cm]</DisplayName>
+      <Description>The effective distance of the action. - アクションの有効距離です。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u16 spQualifiedId">
+      <DisplayName>Special condition ID - 特殊条件のID</DisplayName>
+      <Description>Special condition ID - 特殊条件のID</Description>
+      <Maximum>9999</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="u16 spQualifiedId2">
+      <DisplayName>Special condition ID 2 - 特殊条件のID 2</DisplayName>
+      <Description>Special condition ID part 2 - 特殊条件のIDその2</Description>
+      <Maximum>9999</Maximum>
+      <SortID>8011</SortID>
+    </Field>
+    <Field Def="u8 objDummyId">
+      <DisplayName>Damipoli ID0 of the object - オブジェのダミポリID0</DisplayName>
+      <Description>Damipoli ID that is the action position of the object - オブジェクトのアクション位置となるダミポリIDです</Description>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="u8 isEventKickSync">
+      <DisplayName>Whether to synchronize event kicks - イベントキックを同期させるか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>ObjAct Whether to synchronize the events used in the execution judgment. Set to basic ×. It may be set to ○ only when the actor is not important. - ObjAct実行判定で使用されるイベントを同期させるか。基本×に設定する。アクターが重要ではない場合のみ○に設定しても良い。</Description>
+      <Maximum>1</Maximum>
+      <SortID>950</SortID>
+    </Field>
+    <Field Def="u32 objAnimId">
+      <DisplayName>Object Anime ID0 - オブジェのアニメID0</DisplayName>
+      <Description>This is the animation ID for the action of the object. - オブジェクトのアクション時のアニメＩＤです。</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 validPlayerAngle = 30">
+      <DisplayName>Effective angle of player action - プレイヤのアクション有効角度</DisplayName>
+      <Description>The effective angle of the player's action. Effective angle difference between the player's orientation vector and the orientation vector to the object - プレイヤのアクションの有効角度です。プレイヤの向きベクトルとオブジェへの方向ベクトルの有効角度差</Description>
+      <Maximum>180</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="u8 spQualifiedType">
+      <DisplayName>Special condition type - 特殊条件のタイプ</DisplayName>
+      <Enum>OBJACT_SP_QUALIFIED_TYPE</Enum>
+      <Description>Types of special conditions - 特殊条件の種類</Description>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="u8 spQualifiedType2">
+      <DisplayName>Special condition type 2 - 特殊条件のタイプ2</DisplayName>
+      <Enum>OBJACT_SP_QUALIFIED_TYPE</Enum>
+      <Description>Type of special condition 2 - 特殊条件の種類2</Description>
+      <SortID>8010</SortID>
+    </Field>
+    <Field Def="u8 validObjAngle = 30">
+      <DisplayName>Effective angle of action of the object - オブジェのアクション有効角度</DisplayName>
+      <Description>The action effective angle of the object. Effective angle difference between the action vector of the object and the character vector - オブジェのアクション有効角度です。オブジェのアクションベクトルとキャラベクトルの有効角度差</Description>
+      <Maximum>180</Maximum>
+      <SortID>4500</SortID>
+    </Field>
+    <Field Def="u8 chrSorbType">
+      <DisplayName>Character adsorption type - キャラの吸着タイプ</DisplayName>
+      <Enum>OBJACT_CHR_SORB_TYPE</Enum>
+      <Description>It is a method of adsorbing characters during object action. - オブジェアクション時のキャラの吸着方法です</Description>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="u8 eventKickTiming">
+      <DisplayName>Event activation timing - イベント発動タイミング</DisplayName>
+      <Enum>OBJACT_EVENT_KICK_TIMING</Enum>
+      <Description>Event execution timing - イベントの実行タイミング</Description>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[2]">
+      <DisplayName>pad1 - pad1</DisplayName>
+      <SortID>13001</SortID>
+    </Field>
+    <Field Def="s32 actionButtonParamId = -1">
+      <DisplayName>Action button parameter ID - アクションボタンパラメータID</DisplayName>
+      <Description>Action button parameter ID - アクションボタンパラメータID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 enableTreasureDelaySec">
+      <DisplayName>Treasure activation delay (seconds) - 宝有効化ディレイ(秒)</DisplayName>
+      <Description>The number of seconds from the execution of the object action to the activation of the treasure. A setting exclusively for the object type "treasure box" of the object act. - オブジェアクション実行から宝有効化までの秒数。オブジェアクトのオブジェタイプ「宝箱」専用の設定。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>11000</SortID>
+    </Field>
+    <Field Def="s32 preActionSfxDmypolyId = -1">
+      <DisplayName>Damipoly ID for SFX before execution - 実行前SFX用ダミポリID</DisplayName>
+      <Description>Issue SFX from this Damipoli ID before executing the object. If it is -1, start from the origin. - オブジェアクト実行前のときにこのダミポリIDからSFXを出す。-1なら原点から出す。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>12000</SortID>
+    </Field>
+    <Field Def="s32 preActionSfxId = -1">
+      <DisplayName>Pre-execution SFXID - 実行前SFXID</DisplayName>
+      <Description>SFX issued before executing the object. If it is -1, it will not be issued. - オブジェアクト実行前のときに出すSFX。-1なら出さない。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>13000</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[40]">
+      <DisplayName>pad2 - pad2</DisplayName>
+      <SortID>13002</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

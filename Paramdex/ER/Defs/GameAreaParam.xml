@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>GAME_AREA_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1000000</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1000001</SortID>
+    </Field>
+    <Field Def="u32 bonusSoul_single">
+      <DisplayName>Single time clear bonus soul amount - シングル時クリアボーナスソウル量</DisplayName>
+      <Description>Amount of soul that can be obtained when defeating an area boss (in single play) - エリアボスを倒したときに取得できるソウル量(シングルプレイ時)</Description>
+      <Maximum>99999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u32 bonusSoul_multi">
+      <DisplayName>Clear bonus soul amount during multiplayer - マルチプレイ時クリアボーナスソウル量</DisplayName>
+      <Description>Amount of soul that can be obtained when defeating an area boss (during multiplayer) - エリアボスを倒したときに取得できるソウル量(マルチプレイ時)</Description>
+      <Maximum>99999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u32 humanityPointCountFlagIdTop">
+      <DisplayName>Human nature drop point count head flag ID - 人間性ドロップポイントカウント先頭フラグID</DisplayName>
+      <Description>First flag ID for managing humanity drop points (using 20 Bit) - 人間性ドロップポイントを管理する為の先頭フラグID(20Bit使用)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint1">
+      <DisplayName>Human nature drop required point 1 - 人間性ドロップ必要ポイント1</DisplayName>
+      <Description>Threshold for acquiring humanity 1 - 人間性を取得する為の閾値1</Description>
+      <Maximum>65000</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint2">
+      <DisplayName>Human nature drop required point 2 - 人間性ドロップ必要ポイント2</DisplayName>
+      <Description>Threshold 2 for acquiring humanity - 人間性を取得する為の閾値2</Description>
+      <Maximum>65000</Maximum>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint3">
+      <DisplayName>Human nature drop required point 3 - 人間性ドロップ必要ポイント3</DisplayName>
+      <Description>Threshold 3 for acquiring humanity - 人間性を取得する為の閾値3</Description>
+      <Maximum>65000</Maximum>
+      <SortID>402</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint4">
+      <DisplayName>Human nature drop required point 4 - 人間性ドロップ必要ポイント4</DisplayName>
+      <Description>Threshold 4 for acquiring humanity - 人間性を取得する為の閾値4</Description>
+      <Maximum>65000</Maximum>
+      <SortID>403</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint5">
+      <DisplayName>Human nature drop required point 5 - 人間性ドロップ必要ポイント5</DisplayName>
+      <Description>Threshold 5 for acquiring humanity - 人間性を取得する為の閾値5</Description>
+      <Maximum>65000</Maximum>
+      <SortID>404</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint6">
+      <DisplayName>Human nature drop required point 6 - 人間性ドロップ必要ポイント6</DisplayName>
+      <Description>Threshold 6 for acquiring humanity - 人間性を取得する為の閾値6</Description>
+      <Maximum>65000</Maximum>
+      <SortID>405</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint7">
+      <DisplayName>Human nature drop required point 7 - 人間性ドロップ必要ポイント7</DisplayName>
+      <Description>Threshold for acquiring humanity 7 - 人間性を取得する為の閾値7</Description>
+      <Maximum>65000</Maximum>
+      <SortID>406</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint8">
+      <DisplayName>Human nature drop required point 8 - 人間性ドロップ必要ポイント8</DisplayName>
+      <Description>Threshold for acquiring humanity 8 - 人間性を取得する為の閾値8</Description>
+      <Maximum>65000</Maximum>
+      <SortID>407</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint9">
+      <DisplayName>Human nature drop required point 9 - 人間性ドロップ必要ポイント9</DisplayName>
+      <Description>Threshold for acquiring humanity 9 - 人間性を取得する為の閾値9</Description>
+      <Maximum>65000</Maximum>
+      <SortID>408</SortID>
+    </Field>
+    <Field Def="u16 humanityDropPoint10">
+      <DisplayName>Humanity drop required points 10 - 人間性ドロップ必要ポイント10</DisplayName>
+      <Description>Threshold 10 for acquiring humanity - 人間性を取得する為の閾値10</Description>
+      <Maximum>65000</Maximum>
+      <SortID>409</SortID>
+    </Field>
+    <Field Def="u32 soloBreakInPoint_Min">
+      <DisplayName>Solo intrusion point addition lower limit - ソロ侵入ポイント加算値下限</DisplayName>
+      <Description>The minimum value of solo intrusion points to be added when defeating an area boss. - エリアボスを倒したときに加算するソロ侵入ポイントの最小値。</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="u32 soloBreakInPoint_Max = 10000">
+      <DisplayName>Solo intrusion point addition value upper limit - ソロ侵入ポイント加算値上限</DisplayName>
+      <Description>The maximum value of solo intrusion points to be added when defeating an area boss. - エリアボスを倒したときに加算するソロ侵入ポイントの最大値。</Description>
+      <Maximum>999999999</Maximum>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="u32 defeatBossFlagId_forSignAimList">
+      <DisplayName>Boss defeated flag ID (for displaying purpose when hosting) - ボス撃破済みフラグID(ホスト化時の目的表示用)</DisplayName>
+      <Description>If this flag is ON, it will not be displayed in the list of purpose settings at the time of hosting. If it is 0, it is always displayed. - このフラグがONの場合はホスト化時の目的設定のリストに表示しない。0の場合は常時表示。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>999999</SortID>
+    </Field>
+    <Field Def="u32 displayAimFlagId">
+      <DisplayName>Purpose display flag ID - 目的表示フラグID</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>999999</SortID>
+    </Field>
+    <Field Def="u32 foundBossFlagId">
+      <DisplayName>Boss discovery flag ID - ボス発見フラグID</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>999999</SortID>
+    </Field>
+    <Field Def="s32 foundBossTextId = -1">
+      <DisplayName>Text ID at the time of discovery - 発見時テキストID</DisplayName>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>999999</SortID>
+    </Field>
+    <Field Def="s32 notFindBossTextId = -1">
+      <DisplayName>Undiscovered text ID - 未発見時テキストID</DisplayName>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>999999</SortID>
+    </Field>
+    <Field Def="u32 bossChallengeFlagId">
+      <DisplayName>Boss challengeable flag ID - ボス挑戦可能フラグID</DisplayName>
+      <Description>Boss challengeable flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag ON is targeted. If it is 0, it is always the target. - ボス挑戦可能フラグID。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索で目的のボスを選ぶ時にこのフラグがONのボスが対象になる。0の場合は常に対象になる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="u32 defeatBossFlagId">
+      <DisplayName>Boss defeat flag ID - ボス撃破フラグID</DisplayName>
+      <Description>Boss defeat flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag OFF is targeted. - ボス撃破フラグID。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索で目的のボスを選ぶ時にこのフラグがOFFのボスが対象になる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>610</SortID>
+    </Field>
+    <Field Def="f32 bossPosX">
+      <DisplayName>Boss position_X coordinates - ボス位置_X座標</DisplayName>
+      <Description>Boss position_X coordinates (relative coordinates from the specified map). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_X座標（指定したマップからの相対座標）。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <Minimum>-20000</Minimum>
+      <Maximum>20000</Maximum>
+      <SortID>630</SortID>
+    </Field>
+    <Field Def="f32 bossPosY">
+      <DisplayName>Boss position_Y coordinates - ボス位置_Y座標</DisplayName>
+      <Description>Boss position_Y coordinates (relative coordinates from the specified map). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_Y座標（指定したマップからの相対座標）。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <Minimum>-20000</Minimum>
+      <Maximum>20000</Maximum>
+      <SortID>631</SortID>
+    </Field>
+    <Field Def="f32 bossPosZ">
+      <DisplayName>Boss position_Z coordinates - ボス位置_Z座標</DisplayName>
+      <Description>Boss position_Z coordinates (relative coordinates from the specified map). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_Z座標（指定したマップからの相対座標）。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <Minimum>-20000</Minimum>
+      <Maximum>20000</Maximum>
+      <SortID>632</SortID>
+    </Field>
+    <Field Def="u8 bossMapAreaNo">
+      <DisplayName>Boss position_Area number (mXX_00_00_00) - ボス位置_エリア番号(mXX_00_00_00)</DisplayName>
+      <Description>Boss position_area number (mXX_00_00_00). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_エリア番号(mXX_00_00_00)。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>620</SortID>
+    </Field>
+    <Field Def="u8 bossMapBlockNo">
+      <DisplayName>Boss position_grid X number (m00_XX_00_00) - ボス位置_グリッドX番号(m00_XX_00_00)</DisplayName>
+      <Description>Boss position_grid X number (m00_XX_00_00). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_グリッドX番号(m00_XX_00_00)。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>621</SortID>
+    </Field>
+    <Field Def="u8 bossMapMapNo">
+      <DisplayName>Boss position_grid Z number (m00_00_XX_00) - ボス位置_グリッドZ番号(m00_00_XX_00)</DisplayName>
+      <Description>Boss position_grid Z number (m00_00_XX_00). It is used to check the distance between the host and the boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para. - ボス位置_グリッドZ番号(m00_00_XX_00)。マルチプレイエリアパラの「侵入ポイント自動生成か」が○のときの侵入位置検索でホストとボス間の距離確認に使われる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>622</SortID>
+    </Field>
+    <Field Def="dummy8 reserve[9]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <Description>Reserved area - 予約領域</Description>
+      <SortID>1000002</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

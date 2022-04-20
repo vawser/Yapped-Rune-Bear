@@ -1,0 +1,60 @@
+0 Sign creation failed: Communication error -- サイン作成失敗：通信エラー
+1 Sign creation failed: Unknown error -- サイン作成失敗：不明なエラー
+2 Sign maintenance failure: Unknown error -- サイン維持失敗：不明なエラー
+3 Sign Delete: Move Area -- サイン削除：エリア移動
+4 Sign delete: Other -- サイン削除：その他
+5 Sign summoning temporarily not allowed -- サイン召喚一時不可
+6 Summon failed: Sign deleted -- 召喚失敗：サイン削除済み
+7 Summon failure: Summoned to others -- 召喚失敗：他人に召喚済み
+8 Summon failure: Server busy -- 召喚失敗：サーバービジー
+9 Summon failure: Blacklist -- 召喚失敗：ブラックリスト
+10 Summon failure: Generic -- 召喚失敗：汎用
+11 Intrusion failure: No intrusion destination -- 乱入失敗：侵入先なし
+12 Intruding Failed: Server Busy -- 乱入失敗：サーバービジー
+13 Intruding Failure: Generic -- 乱入失敗：汎用
+14 Intake interruption: Area move -- 乱入中断：エリア移動
+15 Intake interruption: General purpose -- 乱入中断：汎用
+16 Start failure: NAT type (host side) -- 開始失敗：NATタイプ(ホスト側)
+17 Start failure: NAT type (guest side) -- 開始失敗：NATタイプ(ゲスト側)
+18 Start failure: QoS check error (host side) -- 開始失敗：QoSチェックエラー(ホスト側)
+19 Start failure: QoS check error (guest side) -- 開始失敗：QoSチェックエラー(ゲスト側)
+20 Failed to start: Host death (※Guest only) -- 開始失敗：ホスト死亡(※ゲストのみ)
+21 Failed to start: Boss passes through white door (host side) -- 開始失敗：ボス白扉を通過(ホスト側)
+22 Failed to start: Boss passes through white door (guest side) -- 開始失敗：ボス白扉を通過(ゲスト側)
+23 Failed to start: Go through the goal white door (host side) -- 開始失敗：ゴール白扉を通過(ホスト側)
+24 Failed to start: Pass through the goal white door (guest side) -- 開始失敗：ゴール白扉を通過(ゲスト側)
+25 Failed to start: Boss destroyed (host side) -- 開始失敗：ボス撃破(ホスト側)
+26 Start failure: Boss destroyed (guest side) -- 開始失敗：ボス撃破(ゲスト側)
+27 Failure to start: Dark spirit death (※ guest only) -- 開始失敗：闇霊死亡(※ゲストのみ)
+28 Failed to start: Return of the Dark Spirits (※Guests only) -- 開始失敗：闇霊帰還(※ゲストのみ)
+29 Start failure: Other (host side) -- 開始失敗：その他(ホスト側)
+30 Start failed: Others (guest side) -- 開始失敗：その他(ゲスト側)
+31 Stop after start: Session (host side) -- 開始後中止：セッション(ホスト側)
+32 Stop after start: Session (guest side) -- 開始後中止：セッション(ゲスト側)
+33 Start summoning autographs -- サイン召喚開始
+34 Start summoning -- サイン被召喚開始
+35 Get intrude -- 乱入先取得
+36 Start incoming -- 乱入開始
+37 Ring Search Begins Visit -- 指輪検索　訪問開始
+38 Psychic Appearance: Host Side -- 霊体出現:ホスト側
+39 Psychic appearance: appearance guest side -- 霊体出現:出現ゲスト側
+40 Mausoleum appearance: existing guest side -- 霊体出現:既存ゲスト側
+41 Return: Return ing by cutting -- 帰還：切断で帰還
+42 Repatriation: Host repatriated -- 帰還：ホストが送還
+43 Return: Return on your own -- 帰還：自分で帰還
+44 Return: Others -- 帰還：その他
+45 Summon failed: Session creation failed -- 召喚失敗:セッション作成失敗
+46 Summon failure: Server timeout -- 召喚失敗:サーバタイムアウト
+47 Summon failure: Waiting for partner to join timeout -- 召喚失敗:相手参加待ちタイムアウト
+48 Stop starting: Block list target host side -- 開始中止:ブロックリスト対象ホスト側
+49 Sign creation failed: Server Timeout -- サイン作成失敗：サーバTimeout
+50 Sign maintenance failure: Server busy -- サイン維持失敗：サーバビジー
+51 Sign maintenance failure: Server Timeout -- サイン維持失敗：サーバTimeout
+52 Start failed: Session join failure -- 開始失敗:セッション参加失敗
+53 Intruding Failure: Server Timeout -- 乱入失敗：サーバーTimeout
+54 Start abort: Start processing Timeout host side -- 開始中止:開始処理Timeoutホスト側
+55 Start abort: Start Processing Timeout Guest Side -- 開始中止:開始処理Timeoutゲスト側
+56 Stop start: Disconnect host side -- 開始中止：切断ホスト側
+57 Stop starting: Disconnected guest side -- 開始中止：切断ゲスト側
+58 Abort: Guest death -- 開始中止：ゲスト死亡
+59 Stop starting: Block list target guest side -- 開始中止:ブロックリスト対象ゲスト側

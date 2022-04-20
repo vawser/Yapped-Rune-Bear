@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CHR_ACTIVATE_CONDITION_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 weatherSunny:1 = 1">
+      <DisplayName>Appearance condition _ sunny - 出現条件_晴れ</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "sunny"? - 天候が「晴れ」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="u8 weatherClearSky:1 = 1">
+      <DisplayName>Appearance condition _ fine weather - 出現条件_快晴</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "clear"? - 天候が「快晴」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u8 weatherWeakCloudy:1 = 1">
+      <DisplayName>Appearance condition_light cloudy - 出現条件_薄曇り</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "lightly cloudy"? - 天候が「薄曇り」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 weatherCloudy:1 = 1">
+      <DisplayName>Appearance condition_cloudy - 出現条件_曇り</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "cloudy"? - 天候が「曇り」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="u8 weatherRain:1 = 1">
+      <DisplayName>Appearance condition_rain - 出現条件_雨</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "rainy"? - 天候が「雨」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyRain:1 = 1">
+      <DisplayName>Appearance condition_heavy rain - 出現条件_豪雨</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "heavy rain"? - 天候が「豪雨」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="u8 weatherStorm:1 = 1">
+      <DisplayName>Appearance condition_storm - 出現条件_嵐</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "stormy"? - 天候が「嵐」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="u8 weatherStormForBattle:1 = 1">
+      <DisplayName>Appearance condition_Arashi (for battle with the descendants of the guardian) - 出現条件_嵐（守護者の末裔との戦闘用）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "storm (for combat with the descendants of the guardian)"? - 天候が「嵐（守護者の末裔との戦闘用）」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>4100</SortID>
+    </Field>
+    <Field Def="u8 weatherSnow:1 = 1">
+      <DisplayName>Appearance condition_Snow - 出現条件_雪</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "snow"? - 天候が「雪」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavySnow:1 = 1">
+      <DisplayName>Appearance condition _ heavy snow - 出現条件_大雪</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "heavy snow"? - 天候が「大雪」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="u8 weatherFog:1 = 1">
+      <DisplayName>Appearance condition_fog - 出現条件_霧</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "fog"? - 天候が「霧」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>6000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyFog:1 = 1">
+      <DisplayName>Appearance condition_Dense fog - 出現条件_濃霧</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "dense fog"? - 天候が「濃霧」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>6100</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyFogRain:1 = 1">
+      <DisplayName>Appearance condition_Dense fog (rain) - 出現条件_濃霧（雨）</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Does it appear when the weather is "dense fog (rain)"? - 天候が「濃霧（雨）」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>6200</SortID>
+    </Field>
+    <Field Def="u8 weatherSandStorm:1 = 1">
+      <DisplayName>Appearance condition_sandstorm - 出現条件_砂嵐</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is a "sandstorm"? - 天候が「砂嵐」のときに出現するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="dummy8 pad1:2">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>8301</SortID>
+    </Field>
+    <Field Def="u8 timeStartHour">
+      <DisplayName>Appearance start in game time_hour - 出現開始インゲーム時間_時</DisplayName>
+      <Description>Appearance start in game time_hour - 出現開始インゲーム時間_時</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>23</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="u8 timeStartMin">
+      <DisplayName>Appearance start in-game time_minutes - 出現開始インゲーム時間_分</DisplayName>
+      <Description>Appearance start in-game time_minutes - 出現開始インゲーム時間_分</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>59</Maximum>
+      <SortID>8100</SortID>
+    </Field>
+    <Field Def="u8 timeEndHour">
+      <DisplayName>Appearance end in game time_hour - 出現終了インゲーム時間_時</DisplayName>
+      <Description>Appearance end in game time_hour - 出現終了インゲーム時間_時</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>23</Maximum>
+      <SortID>8200</SortID>
+    </Field>
+    <Field Def="u8 timeEndMin">
+      <DisplayName>End of appearance In-game time_minutes - 出現終了インゲーム時間_分</DisplayName>
+      <Description>End of appearance In-game time_minutes - 出現終了インゲーム時間_分</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>59</Maximum>
+      <SortID>8300</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[2]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>8302</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

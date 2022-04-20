@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>BASECHR_SELECT_MENU_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>302</SortID>
+    </Field>
+    <Field Def="u32 chrInitParam">
+      <DisplayName>Architype ID: Base character - アーキタイプID：ベースキャラクター</DisplayName>
+      <Description>Specify the initial parameter ID for each architype for which face para is set. - フェイスパラを設定したアーキタイプ別初期パラメータIDを指定する </Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u32 originChrInitParam">
+      <DisplayName>Architype ID: Identity - アーキタイプID：素性</DisplayName>
+      <Description>Specify the initial parameter ID for each feature archetype - 素性のアーキタイプ別初期パラメータIDを指定する</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999999</Maximum>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="s32 imageId">
+      <DisplayName>Image ID - イメージID</DisplayName>
+      <Description>Images lined up on the base character selection screen. Specify the number of frames of resources embedded in Fla - ベースキャラクター選択画面に並ぶ画像。Flaに埋め込まれたリソースのフレーム数を指定</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 textId">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>Occupation name menu text ID - 職業名のメニューテキストID</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="dummy8 reserve[12]">
+      <DisplayName>Reserve - リザーブ</DisplayName>
+      <SortID>303</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

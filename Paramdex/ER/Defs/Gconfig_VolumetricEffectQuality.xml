@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_VOLUMETRIC_EFFECT_QUALITY_DETAIL</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 fogEnabled = 1">
+      <DisplayName>Fog enabled - フォグ有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Fog enabled - フォグ有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 fogShadowEnabled = 1">
+      <DisplayName>Fog shadow permission - フォグシャドウ許可</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Fog shadow permission - フォグシャドウ許可</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 dmy[2]">
+      <DisplayName>dmy - dmy</DisplayName>
+      <Description>dmy - dmy</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="s32 fogShadowSampleCountBias">
+      <DisplayName>Shadow sample count offset. - シャドウのサンプルカウントオフセット。</DisplayName>
+      <Description>Shadow sample count offset. - シャドウのサンプルカウントオフセット。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-16</Minimum>
+      <Maximum>16</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 fogLocalLightDistScale">
+      <DisplayName>Local light calculation distance scale (0 does not calculate local light) - ローカルライト計算距離スケール (0にするとローカルライト計算をしない)</DisplayName>
+      <Description>Local light calculation distance scale (0 does not calculate local light) - ローカルライト計算距離スケール (0にするとローカルライト計算をしない)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>2</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u32 fogVolueSizeScaler = 1">
+      <DisplayName>Fog volume size scaler - フォグボリュームサイズスケーラ</DisplayName>
+      <Description>Fog volume size scaler - フォグボリュームサイズスケーラ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>500</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolueSizeDivider = 1">
+      <DisplayName>Fog volume size division - フォグボリュームサイズ除算</DisplayName>
+      <Description>Fog volume size division - フォグボリュームサイズ除算</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>600</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolumeDepthScaler = 1">
+      <DisplayName>Fog Volume Depth Slice Scaler - フォグボリューム奥行きスライススケーラ</DisplayName>
+      <Description>Fog Volume Depth Slice Scaler - フォグボリューム奥行きスライススケーラ</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>700</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolumeDepthDivider = 1">
+      <DisplayName>Fog volume depth slice division - フォグボリューム奥行きスライス除算</DisplayName>
+      <Description>Fog volume depth slice division - フォグボリューム奥行きスライス除算</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>800</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeEnabled = 1">
+      <DisplayName>Arranged fog volume enabled - 配置式フォグボリューム有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Arranged fog volume enabled - 配置式フォグボリューム有効</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>900</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeUpScaleType = 1">
+      <DisplayName>Upscale type - アップスケール種別</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_UPSCALE_TYPE</Enum>
+      <Description>Method type at the time of upscale - アップスケール時の手法種別</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>2</Maximum>
+      <SortID>1000</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeEdgeCorrectionLevel = 2">
+      <DisplayName>Edge correction level performed only when bilateral - バイラテラル時のみ行われるエッジ補正レベル</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_EDGE_CORRECTION_LEVEL</Enum>
+      <Description>Edge correction level performed only at bilateral (0: invalid, edge redraw permission at 1: 1 / 2x1 / 2 resolution, edge redraw permission with parameter reduction at 2: 1 / 2x1 / 2 + 1x1 resolution, 3 : 1 / 2x1 / 2 + 1x1 resolution edge redraw permission) - バイラテラル時のみ行われるエッジ補正レベル(0:無効,1:1/2x1/2解像度でのエッジ再描画許可,2:1/2x1/2+1x1解像度でパラメータ削減ありのエッジ再描画許可,3:1/2x1/2+1x1解像度でのエッジ再描画許可)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>3</Maximum>
+      <SortID>1200</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="s8 fogVolumeRayMarcingSampleCountOffset">
+      <DisplayName>Offset of sampling number during ray marching - レイマーチング時のサンプリング数のオフセット</DisplayName>
+      <Description>Offset of sampling number during ray marching - レイマーチング時のサンプリング数のオフセット</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-127</Minimum>
+      <SortID>1300</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeShadowEnabled = 1">
+      <DisplayName>Shadow permission - シャドウ許可</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Shadow permission (refers to shadow processing due to density changes in the area, where shadows are cast on the area) - シャドウ許可(領域に影が落ちる、領域内の密度変化による陰影処理を指す)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1400</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeForceShadowing">
+      <DisplayName>Forcibly casts a shadow on the area regardless of the setting when shadow is allowed - シャドウ許可時に設定にかかわらず領域に強制的に影を落とす</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Forcibly casts a shadow on the area regardless of the setting when shadow is permitted (shadow processing is not affected) - シャドウ許可時に設定にかかわらず領域に強制的に影を落とす(陰影処理は影響をうけない)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1500</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeResolution">
+      <DisplayName>Fog volume upscale processing resolution - フォグボリュームのアップスケール処理解像度</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_RESOLUTION</Enum>
+      <EditFlags>None</EditFlags>
+      <Maximum>2</Maximum>
+      <SortID>1100</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2[1]">
+      <DisplayName>pad - pad</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

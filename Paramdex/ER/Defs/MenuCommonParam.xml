@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MENU_COMMON_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 soloPlayDeath_ToFadeOutTime">
+      <DisplayName>Solo play Fade out start time at death [seconds] - ソロプレイ死亡時フェードアウト開始時間[秒]</DisplayName>
+      <Description>How many seconds have passed after "YOU DIED" is displayed at the time of death of solo play to start fading out? - ソロプレイ死亡時で「YOU DIED」表示後、何秒経過したらフェードアウトを開始するか</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 partyGhostDeath_ToFadeOutTime">
+      <DisplayName>White, Black Ghost Fade Out Start Time [Seconds] - ホワイト、ブラックゴースト死亡時フェードアウト開始時間[秒]</DisplayName>
+      <Description>How many seconds have passed after "YOU DIED" is displayed when a white or black ghost dies to start fading out? - ホワイト、ブラックゴースト死亡時で「YOU DIED」表示後、何秒経過したらフェードアウトを開始するか</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 playerMaxHpLimit">
+      <DisplayName>Maximum player HP - プレイヤー最大HPの上限</DisplayName>
+      <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the HP gauge. - HPゲージ表示の際に、リソースで用意されたゲージの長さの何％を使うかを算出するために使われます。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 playerMaxMpLimit">
+      <DisplayName>Maximum player MP - プレイヤー最大MPの上限</DisplayName>
+      <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the MP gauge. - MPゲージ表示の際に、リソースで用意されたゲージの長さの何％を使うかを算出するために使われます。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 playerMaxSpLimit">
+      <DisplayName>Maximum player SP - プレイヤー最大SPの上限</DisplayName>
+      <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the SP gauge. - SPゲージ表示の際に、リソースで用意されたゲージの長さの何％を使うかを算出するために使われます。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 actionPanelChangeThreshold_Vel">
+      <DisplayName>Action panel switching judgment_player speed [m / sec] - アクションパネル切り替え判定_プレイヤー速度[m/sec]</DisplayName>
+      <Description>Action panel Switchable player speed. Switchable if below this speed - アクションパネル切り替え可能なプレイヤーの速度。この速度以下なら切り替え可能</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1E+09</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 actionPanelChangeThreshold_PassTime">
+      <DisplayName>Action panel switching judgment_player speed judgment time [sec] - アクションパネル切り替え判定_プレイヤー速度判定時間[sec]</DisplayName>
+      <Description>Action panel Consideration time to increase the speed of switchable players. Use the average speed of this time (systematically up to 4 seconds) - アクションパネル切り替え可能なプレイヤーの速度を出すための考慮時間。この時間の平均速度を使う(システム的に最大４秒)</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>4</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 kgIconVspace">
+      <DisplayName>Vertical position of the key guide icon - キーガイドアイコンの上下位置</DisplayName>
+      <Description>Vertical position of key guide icon (+: top,-: bottom) - キーガイドアイコンの上下位置(+:上, -:下)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>110</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorSelectRadius = 0.1">
+      <DisplayName>Cursor selection radius [px] - カーソルの選択半径[px]</DisplayName>
+      <Description>If the cursor position is within this radius, it means that it is selected. - カーソル位置がこの半径以内にあれば選択していることになる</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1890</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserved8[4]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 decalPosOffsetX">
+      <DisplayName>Decal offset (left and right) - デカールオフセット（左右）</DisplayName>
+      <Description>Decal display position offset left and right - デカールの表示位置オフセット左右方向</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-255</Minimum>
+      <Maximum>255</Maximum>
+      <SortID>8000</SortID>
+      <UnkC8>キャラメイク</UnkC8>
+    </Field>
+    <Field Def="s32 decalPosOffsetY">
+      <DisplayName>Decal offset (up and down) - デカールオフセット（上下）</DisplayName>
+      <Description>Decal display position offset vertical direction - デカールの表示位置オフセット上下方向</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-255</Minimum>
+      <Maximum>255</Maximum>
+      <SortID>8010</SortID>
+      <UnkC8>キャラメイク</UnkC8>
+    </Field>
+    <Field Def="f32 targetStateSearchDurationTime">
+      <DisplayName>FE: Search icon display time [seconds] - 見つかりそうFE：Searchアイコンの表示時間[秒]</DisplayName>
+      <Description>The number of seconds it takes for the FE Search icon to start fading in and then fading out. - 見つかりそうFEのSearchアイコンがフェードインし始めてから、フェードアウトされ始めるまでの秒数</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 targetStateBattleDurationTime">
+      <DisplayName>FE: Battle icon display time [seconds] - 見つかりそうFE：Battleアイコンの表示時間[秒]</DisplayName>
+      <Description>The number of seconds it takes for the FE Battle icon to start fading in and then fading out. - 見つかりそうFEのBattleアイコンがフェードインし始めてから、フェードアウトされ始めるまでの秒数</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 worldMapCursorSpeed = 1">
+      <DisplayName>Cursor movement speed [px / sec] - カーソルの移動スピード[px/sec]</DisplayName>
+      <Description>Movement speed when moving smoothly - スムーズに移動するときの移動スピード</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>3000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1500</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorFirstDistance = 1">
+      <DisplayName>First movement distance of the cursor [px] - カーソルの１回目の移動距離[px]</DisplayName>
+      <Description>Distance to move only once at the first input - 最初の入力のときに、カッと一度だけ移動する距離</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>3000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1600</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorFirstDelay = 0.01">
+      <DisplayName>Delay time for the first movement of the cursor [sec] - カーソルの1回目の移動の遅延時間[sec]</DisplayName>
+      <Description>The time it takes to move only once at the first input - 最初の入力のときに、カッと一度だけ移動するときにかかる時間</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.01</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>1700</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorWaitTime">
+      <DisplayName>Wait until the cursor moves [sec] - カーソルの移動までのウェイト[sec]</DisplayName>
+      <Description>Waiting time from input to smooth movement - 入力してから、スムーズに移動するまでの待機時間</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>1800</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorSnapRadius = 0.1">
+      <DisplayName>Cursor snap radius [px] - カーソルのスナップ半径[px]</DisplayName>
+      <Description>Move the cursor closer than this radius to start adsorption (for snap mode) - この半径よりも近くにカーソルを移動すると吸着を開始する（スナップモード用）</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1900</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapCursorSnapTime = 0.01">
+      <DisplayName>Cursor snap time [sec] - カーソルのスナップ時間[sec]</DisplayName>
+      <Description>The time it takes to start and complete adsorption - 吸着を開始して、完了するまでにかかる時間</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.01</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>2000</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 itemGetLogAliveTime = 0.01">
+      <DisplayName>Item acquisition log: Display time of 1 line [sec] - アイテム取得ログ：１行の表示時間[sec]</DisplayName>
+      <Description>Time to add one line of log and fade out. There is a timer for each line - １行分のログを追加してフェードアウトするまでの時間。行ごとにタイマーがある</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.01</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s32 playerMaxSaLimit">
+      <DisplayName>Upper limit of player maximum SA (trunk value) - プレイヤー最大SA（体幹値）の上限</DisplayName>
+      <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the SA gauge. - SAゲージ表示の際に、リソースで用意されたゲージの長さの何％を使うかを算出するために使われます。</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="u32 worldMap_IsChangeableLayerEventFlagId">
+      <DisplayName>Underground map switchable event flag ID - 地下地図切り替え可能イベントフラグID</DisplayName>
+      <Description>Specify the event flag ID that manages whether it is possible to switch to the underground map. When this event flag ID is ON, it is possible to switch to the underground map. - 地下地図に切り替え可能かを管理するイベントフラグIDを指定する。このイベントフラグIDがONのときに、地下地図への切り替えが可能になる</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>-294967297</Maximum>
+      <SortID>2300</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMap_TravelMargin">
+      <DisplayName>Additional ban distance for traversal range [m] - 踏破範囲の追加解禁距離[m]</DisplayName>
+      <Description>Distance (m) that extends in four directions around the player. I decided to break through this range - プレイヤーを中心として4方向へ拡張する距離(m)。この範囲を踏破したことにする</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>3000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2400</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 systemAnnounceScrollBufferTime">
+      <DisplayName>Wait time before and after scrolling [sec] - スクロール前後の待機時間[sec]</DisplayName>
+      <Description>The number of seconds to wait before and after scrolling through the long text of the operation announcement. For example, if it is 3 seconds, wait for a total of 6 seconds before and after. - 運営告知の長い文章をスクロールする前後に待機する秒数。例えば3秒なら前と後ろとで合計6秒待機する</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>4000</SortID>
+      <UnkC8>運営告知</UnkC8>
+    </Field>
+    <Field Def="s32 systemAnnounceScrollSpeed = 100">
+      <DisplayName>Scrolling speed [px / sec] - スクロールする速度[px/sec]</DisplayName>
+      <Description>Scrolling speed (pixels / second) when scrolling long sentences in the operation announcement. It does not depend on the screen size. Think of the entire menu as 1920x1080 - 運営告知の長い文章をスクロールするときのスクロール速度（ピクセル/秒）。画面サイズに依存しない。メニュー全体を1920x1080として考える</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>100000</Maximum>
+      <SortID>4100</SortID>
+      <UnkC8>運営告知</UnkC8>
+    </Field>
+    <Field Def="f32 systemAnnounceNoScrollWaitTime">
+      <DisplayName>Display time when not scrolling [sec] - スクロールしないときの表示時間[sec]</DisplayName>
+      <Description>The number of seconds to display when it is a short sentence that does not require scrolling of the operation announcement - 運営告知のスクロールを必要としない短い文章だったときに表示する秒数</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>4300</SortID>
+      <UnkC8>運営告知</UnkC8>
+    </Field>
+    <Field Def="u8 systemAnnounceScrollCount = 1">
+      <DisplayName>Number of scrolls - スクロールする回数</DisplayName>
+      <Description>Number of times to repeat when scrolling long sentences of management announcement - 運営告知の長い文章をスクロールするときに繰り返す回数</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>4200</SortID>
+      <UnkC8>運営告知</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserved17[3]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <SortID>13001</SortID>
+    </Field>
+    <Field Def="f32 compassMemoDispDistance = 50">
+      <DisplayName>Display distance_Memo marker [m] - 表示距離_メモマーカー[m]</DisplayName>
+      <Description>Display distance [m] of the memo marker displayed on the compass. Anything closer than this distance will be displayed - コンパスに表示するメモマーカーの表示距離[m]。この距離よりも近いものは表示される</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6000</SortID>
+      <UnkC8>コンパス</UnkC8>
+    </Field>
+    <Field Def="f32 compassBonfireDispDistance = 50">
+      <DisplayName>Display distance_bonfire [m] - 表示距離_篝火[m]</DisplayName>
+      <Description>The display distance of the bonfire displayed on the compass [m]. Anything closer than this distance will be displayed - コンパスに表示する篝火の表示距離[m]。この距離よりも近いものは表示される</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6100</SortID>
+      <UnkC8>コンパス</UnkC8>
+    </Field>
+    <Field Def="f32 markerGoalThreshold">
+      <DisplayName>Goal judgment distance of destination marker [m] - 目的地マーカーのゴール判定距離[m]</DisplayName>
+      <Description>Goal judgment distance [m] of the destination marker. The destination marker disappears when you get closer than this distance - 目的地マーカーのゴール判定距離[m]。この距離よりも近付いたときに目的地マーカーは消える</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2500</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 svSliderStep = 10">
+      <DisplayName>Saturation / brightness slider movement amount [% / sec] - 彩度・明度スライダーの移動量[%/sec]</DisplayName>
+      <Description>Amount of movement of the saturation / brightness slider of the color control [% / sec]. Maximum amount to move in 1 second when each value is 0% to 100%. Since it is operated with an analog stick, it becomes a ratio by the input value. - カラーコントロールの彩度・明度スライダーの移動量[%/sec]。それぞれの値を0%～100%としたときに1秒で移動する最大量。アナログスティックで操作するため、入力値で割合になる</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>8100</SortID>
+      <UnkC8>キャラメイク</UnkC8>
+    </Field>
+    <Field Def="f32 preOpeningMovie_WaitSec">
+      <DisplayName>Weight before OP movie [sec] - OPムービー前のウェイト[sec]</DisplayName>
+      <Description>Wait time before playing the OP movie. &gt; SEQ 15261 - OPムービー再生前のウェイト時間。＞SEQ 15261</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>3300</SortID>
+    </Field>
+    <Field Def="f32 kgIconScale = 100">
+      <DisplayName>Key guide icon scale [%] - キーガイドアイコンのスケール[%]</DisplayName>
+      <Description>The scale value of the key guide icon. 100% is the texture size as it is - キーガイドアイコンのスケール値。100%がテクスチャサイズそのまま</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>100</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="f32 kgIconScale_forTable = 100">
+      <DisplayName>Scale of key guide icon for pad operation list [%] - パッド操作一覧用のキーガイドアイコンのスケール[%]</DisplayName>
+      <Description>Scale value of the key guide icon for the pad operation list. 100% is the texture size as it is - パッド操作一覧用のキーガイドアイコンのスケール値。100%がテクスチャサイズそのまま</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="s32 kgIconVspace_forTable">
+      <DisplayName>Vertical position of the key guide icon for the pad operation list - パッド操作一覧用のキーガイドアイコンの上下位置</DisplayName>
+      <Description>Vertical position of the key guide icon for the pad operation list (+: top,-: bottom) - パッド操作一覧用のキーガイドアイコンの上下位置(+:上, -:下)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>210</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="f32 kgIconScale_forConfig = 100">
+      <DisplayName>Key guide icon scale for key config [%] - キーコンフィグ用のキーガイドアイコンのスケール[%]</DisplayName>
+      <Description>The scale value of the key guide icon for the key config. 100% is the texture size as it is - キーコンフィグ用のキーガイドアイコンのスケール値。100%がテクスチャサイズそのまま</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="s32 kgIconVspace_forConfig">
+      <DisplayName>Vertical position of the key guide icon for key config - キーコンフィグ用のキーガイドアイコンの上下位置</DisplayName>
+      <Description>Vertical position of key guide icon for key config (+: top,-: bottom) - キーコンフィグ用のキーガイドアイコンの上下位置(+:上, -:下)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>310</SortID>
+      <UnkC8>キーガイドアイコン</UnkC8>
+    </Field>
+    <Field Def="f32 worldMap_SearchRadius = 256">
+      <DisplayName>Unsearched mask_Searched range [m] - 未探索マスク_探索済み範囲[m]</DisplayName>
+      <Description>Range [m] (radius) that makes unsearched masks searched. It is assumed that the circle centered on the player has been searched. - 未探索マスクを探索済みにする範囲[m]（半径）。プレイヤーを中心とした円形を探索済みとする</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>3000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2410</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 tutorialDisplayTime = 3">
+      <DisplayName>Toast display time [sec] - トースト表示時間[sec]</DisplayName>
+      <Description>Tutorial (toast notification) display time [sec]. It will be closed automatically after this time has passed - チュートリアル（トースト通知）の表示時間[sec]。この時間が経過したら自動的に閉じられる</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>600</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>9000</SortID>
+      <UnkC8>チュートリアル</UnkC8>
+    </Field>
+    <Field Def="f32 compassFriendHostInnerDistance">
+      <DisplayName>Display distance_Cooperation / Relief Guest side: Host - 表示距離_協力/救援ゲスト側：ホスト</DisplayName>
+      <Description>Display distance [m] of other players (friendly hosts) to be displayed on the compass. If you are more than this distance, it will be displayed on the compass. - コンパスに表示する他プレイヤー（味方ホスト）の表示距離[m]。この距離以上離れているとコンパスに表示される</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6200</SortID>
+      <UnkC8>コンパス</UnkC8>
+    </Field>
+    <Field Def="f32 compassEnemyHostInnerDistance">
+      <DisplayName>Display distance_hostile guest side: host - 表示距離_敵対ゲスト側：ホスト</DisplayName>
+      <Description>Display distance [m] of other players (enemy hosts) displayed on the compass. If you are more than this distance, it will be displayed on the compass. - コンパスに表示する他プレイヤー（敵ホスト）の表示距離[m]。この距離以上離れているとコンパスに表示される</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6210</SortID>
+      <UnkC8>コンパス</UnkC8>
+    </Field>
+    <Field Def="f32 compassFriendGuestInnerDistance">
+      <DisplayName>Display distance_host / cooperation / rescue Host side: cooperation / rescue guest - 表示距離_ホスト/協力/救援ホスト側：協力/救援ゲスト</DisplayName>
+      <Description>Display distance [m] of other players (friendly guests) to be displayed on the compass. If you are more than this distance, it will be displayed on the compass. - コンパスに表示する他プレイヤー（味方ゲスト）の表示距離[m]。この距離以上離れているとコンパスに表示される</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6220</SortID>
+      <UnkC8>コンパス</UnkC8>
+    </Field>
+    <Field Def="f32 cutsceneKeyGuideAliveTime = 5">
+      <DisplayName>Cutscene key guide display time [seconds] - カットシーンのキーガイド表示時間[秒]</DisplayName>
+      <Description>The amount of time that the key guide will continue to be displayed after the cutscene skip has been pre-entered. Since skip input is accepted only while the key guide is displayed, it can be said that it is the skip input acceptance time. - カットシーンスキップの事前入力があってからキーガイドを表示し続ける時間。キーガイドを表示中しかスキップ入力は受け付けないため、スキップ入力受付時間とも言える</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>10000</SortID>
+      <UnkC8>カットシーン</UnkC8>
+    </Field>
+    <Field Def="f32 autoHideHpThresholdRatio = -1">
+      <DisplayName>HP gauge: Percentage always displayed [%] - HPゲージ：常に表示する割合[%]</DisplayName>
+      <Description>[HUD: Auto setting] HP ratio. If the HP ratio is below this value, the HP gauge will always be displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]HP割合。HP割合がこの数値以下なら、HPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>11000</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="s32 autoHideHpThresholdValue = -1">
+      <DisplayName>HP gauge: Current value always displayed - HPゲージ：常に表示する現在値</DisplayName>
+      <Description>[HUD: Auto setting] HP current value. If the current HP value is less than or equal to this value, the HP gauge will always be displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]HP現在値。HP現在値がこの数値以下なら、HPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>11001</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="f32 autoHideMpThresholdRatio = -1">
+      <DisplayName>MP gauge: Percentage to always display [%] - MPゲージ：常に表示する割合[%]</DisplayName>
+      <Description>[HUD: Auto setting] MP ratio. If the MP ratio is below this value, the MP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]MP割合。MP割合がこの数値以下なら、MPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>11010</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="s32 autoHideMpThresholdValue = -1">
+      <DisplayName>MP gauge: Current value always displayed - MPゲージ：常に表示する現在値</DisplayName>
+      <Description>[HUD: Auto setting] MP current value. If the current MP value is less than or equal to this value, the MP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]MP現在値。MP現在値がこの数値以下なら、MPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>11011</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="f32 autoHideSpThresholdRatio = -1">
+      <DisplayName>SP gauge: Percentage to always display [%] - SPゲージ：常に表示する割合[%]</DisplayName>
+      <Description>[HUD: Auto setting] SP ratio. If the SP ratio is less than or equal to this value, the SP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]SP割合。SP割合がこの数値以下なら、SPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>11020</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="s32 autoHideSpThresholdValue = -1">
+      <DisplayName>SP gauge: Current value always displayed - SPゲージ：常に表示する現在値</DisplayName>
+      <Description>[HUD: Auto setting] SP current value. If the current SP value is less than or equal to this value, the SP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied) - [HUD:Auto設定]SP現在値。SP現在値がこの数値以下なら、SPゲージを常に表示する。割合と現在値はOR条件（どちらかを満たせば表示）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <SortID>11021</SortID>
+      <UnkC8>HUD：Auto</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapZoomAnimationTime = 0.5">
+      <DisplayName>Zoom animation time [seconds] - ズームアニメーション時間[秒]</DisplayName>
+      <Description>World map: Time to zoom animation [seconds] - 世界地図：ズームアニメーションをする時間[秒]</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.01</Minimum>
+      <Maximum>30</Maximum>
+      <SortID>2600</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMapIconScaleMin = 1">
+      <DisplayName>Minimum icon display magnification - 最小アイコン表示倍率</DisplayName>
+      <Description>World map: Display magnification of the map point icon at zoom step 0 (0.0 to 1.0). 1x (1.0) at zoom step 2. From there, the icon magnification is also interpolated according to the enlargement ratio. - 世界地図：ズームステップ0のときの地図ポイントアイコンの表示倍率(0.0～1.0)。ズームステップ2のときに等倍(1.0)。そこから拡大率に合わせてアイコン倍率も補間される</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.01</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2700</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="f32 worldMap_TravelMargin_Point">
+      <DisplayName>Map point unit Additional ban distance when the ban is lifted [m] - 地図ポイント単位踏破範囲解禁時の追加解禁距離[m]</DisplayName>
+      <Description>World map: Additional ban distance [m] when the ban is lifted in map point units. When the ban on map points such as the distant view stand is lifted, the ban on the traversal range will be lifted. Distance to be additionally extended in 4 directions around the map point - 世界地図：地図ポイント単位踏破範囲解禁時の追加解禁距離[m]。遠見台など地図ポイントが解禁されたときに踏破範囲を解禁する。地図ポイントを中心に4方向に追加で拡張する距離</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>3000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2405</SortID>
+      <UnkC8>世界地図</UnkC8>
+    </Field>
+    <Field Def="u16 enemyTagSafeLeft">
+      <DisplayName>Displayable area (far left) - 表示可能領域（左端）</DisplayName>
+      <Description>How far can the center coordinates of the enemy HP gauge go to the left end? Since it is the center coordinate, the size of the gauge body is included. - 敵HPゲージの中心座標がどこまで左端にいけるか。中心座標なのでゲージ本体のサイズも含む</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1920</Maximum>
+      <SortID>12000</SortID>
+      <UnkC8>敵HPゲージ</UnkC8>
+    </Field>
+    <Field Def="u16 enemyTagSafeRight = 1920">
+      <DisplayName>Displayable area (right end) - 表示可能領域（右端）</DisplayName>
+      <Description>How far can the center coordinates of the enemy HP gauge go to the right end? Since it is the center coordinate, the size of the gauge body is included. - 敵HPゲージの中心座標がどこまで右端にいけるか。中心座標なのでゲージ本体のサイズも含む</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1920</Maximum>
+      <SortID>12010</SortID>
+      <UnkC8>敵HPゲージ</UnkC8>
+    </Field>
+    <Field Def="u16 enemyTagSafeTop">
+      <DisplayName>Displayable area (top) - 表示可能領域（上端）</DisplayName>
+      <Description>How far can the center coordinates of the enemy HP gauge go to the upper end? Since it is the center coordinate, the size of the gauge body is included. - 敵HPゲージの中心座標がどこまで上端にいけるか。中心座標なのでゲージ本体のサイズも含む</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1080</Maximum>
+      <SortID>12020</SortID>
+      <UnkC8>敵HPゲージ</UnkC8>
+    </Field>
+    <Field Def="u16 enemyTagSafeBottom = 1080">
+      <DisplayName>Displayable area (bottom) - 表示可能領域（下端）</DisplayName>
+      <Description>How far can the center coordinates of the enemy HP gauge go to the lower end? Since it is the center coordinate, the size of the gauge body is included. - 敵HPゲージの中心座標がどこまで下端にいけるか。中心座標なのでゲージ本体のサイズも含む</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1080</Maximum>
+      <SortID>12030</SortID>
+      <UnkC8>敵HPゲージ</UnkC8>
+    </Field>
+    <Field Def="u32 pcHorseHpRecoverDispThreshold">
+      <DisplayName>Display recovery amount threshold - 表示回復量の閾値</DisplayName>
+      <Description>Threshold for displaying the PC horse HP gauge at the time of recovery. "Constant value" of "Display HP bar when it increases more than a certain value at a time" - 回復時にPC馬HPゲージを表示するかの閾値。「一度に一定値以上増加したらHPバーを表示する」の”一定値”</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>99999</Maximum>
+      <SortID>13000</SortID>
+      <UnkC8>PC馬HPゲージ</UnkC8>
+    </Field>
+    <Field Def="dummy8 reserved33[32]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <SortID>13002</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

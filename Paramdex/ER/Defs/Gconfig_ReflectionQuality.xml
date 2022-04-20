@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_REFLECTION_QUALITY_DETAIL</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 enabled = 1">
+      <DisplayName>Reflective effective - 反射有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Reflective effective - 反射有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 localLightEnabled = 1">
+      <DisplayName>Local light enabled - ローカルライト有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Local light enabled - ローカルライト有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 localLightForceEnabled">
+      <DisplayName>Local light forced enable - ローカルライト強制有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Local light forced enable - ローカルライト強制有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="dummy8 dmy[1]">
+      <DisplayName>dmy - dmy</DisplayName>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="u32 resolutionDivider = 2">
+      <DisplayName>Resolution scale - 解像度スケール</DisplayName>
+      <Description>Resolution scale - 解像度スケール</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>4</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u8 ssrEnabled = 1">
+      <DisplayName>SSR enabled - SSR有効</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>SSR enabled - SSR有効</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 ssrGaussianBlurEnabled = 1">
+      <DisplayName>Gaussian blur permission - ガウスぼかしの許可</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Gaussian blur permission - ガウスぼかしの許可</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="dummy8 dmy2[2]">
+      <DisplayName>dmy - dmy</DisplayName>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="f32 ssrDepthRejectThresholdScale = 1">
+      <DisplayName>Calculated distance scale - 計算距離スケール</DisplayName>
+      <Description>Calculated distance scale - 計算距離スケール</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.2</Minimum>
+      <Maximum>2</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 ssrRayTraceStepScale = 1">
+      <DisplayName>Raytrace step factor (multiply by SSR parameter) - レイトレースステップ係数（SSRパラメータに乗算）</DisplayName>
+      <Description>Raytrace step factor (multiply by SSR parameter) - レイトレースステップ係数（SSRパラメータに乗算）</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.2</Minimum>
+      <Maximum>4</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="f32 ssrFadeToViewerBias">
+      <DisplayName>Fade angle bias. High quality when made smaller - フェード角度バイアス。小さくすると高品質</DisplayName>
+      <Description>Fade angle bias. High quality when made smaller - フェード角度バイアス。小さくすると高品質</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="f32 ssrFresnelRejectBias">
+      <DisplayName>Fresnel reject bias. High quality when made smaller - フレネルリジェクトバイアス。小さくすると高品質</DisplayName>
+      <Description>Fresnel reject bias. High quality when made smaller - フレネルリジェクトバイアス。小さくすると高品質</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>10</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_GRAPHICS_CONFIG_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 m_textureFilterQuality = 2">
+      <DisplayName>Texture filter quality - テクスチャフィルタ品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Texture filter quality (default Midele) - テクスチャフィルタ品質(デフォルトMidele)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 m_aaQuality = 3">
+      <DisplayName>AA quality - AA品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>AA quality (default High) - AA品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 m_ssaoQuality = 3">
+      <DisplayName>SSAO quality - SSAO品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>SSAO quality (default High) - SSAO品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u8 m_dofQuality = 3">
+      <DisplayName>Depth of field quality - 被写界深度品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Depth of field quality (default High) - 被写界深度品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u8 m_motionBlurQuality = 3">
+      <DisplayName>Motion blur quality - モーションブラー品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Motion blur quality (default High) - モーションブラー品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 m_shadowQuality = 3">
+      <DisplayName>Shadow quality - シャドウ品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Shadow quality (default High) - シャドウ品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="u8 m_lightingQuality = 3">
+      <DisplayName>Lighting quality - ライティング品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Lighting quality (default High) - ライティング品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u8 m_effectQuality = 3">
+      <DisplayName>Effect quality - エフェクト品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Effect quality (default High) - エフェクト品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="u8 m_decalQuality = 3">
+      <DisplayName>Decal quality - デカール品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Decal quality (default High) - デカール品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 m_reflectionQuality = 3">
+      <DisplayName>Reflection quality - 反射品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Reflection quality (default High) - 反射品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u8 m_waterQuality = 3">
+      <DisplayName>Water quality - ウォーター品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Water quality (default High) - ウォーター品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="u8 m_shaderQuality = 3">
+      <DisplayName>Shader quality - シェーダー品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Shader quality (default High) - シェーダー品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="u8 m_volumetricEffectQuality = 3">
+      <DisplayName>Volumetric effect quality - ボリューメトリック効果品質</DisplayName>
+      <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
+      <Description>Volumetric effect quality (default High) - ボリューメトリック効果品質(デフォルトHigh)</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>4</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="dummy8 m_dummy[3]">
+      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>15</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

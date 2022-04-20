@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CAMERA_FADE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 NearMinDist">
+      <DisplayName>Distance to be transparent (m) - 透明になりきる距離(m)</DisplayName>
+      <Description>Near Fade minimum distance (m): Distance where α = 0 - Nearフェード最小距離(m) : α = 0になる距離</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 NearMaxDist">
+      <DisplayName>Distance that begins to become transparent (m) - 透明になり始める距離(m)</DisplayName>
+      <Description>Near fade maximum distance (m): Starting distance between α = Middel Alpha - Nearフェード最大距離(m) : α = MiddelAlphaとなる間の開始距離</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="f32 FarMinDist">
+      <DisplayName>Distance to become translucent (m) - 半透明状態になりきる距離(m)</DisplayName>
+      <Description>Minimum distance of Far fade (m): End distance between α = Middle Alpha - Farフェードの最小距離(m) : α = MiddleAlphaとなる間の終了距離</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="f32 FarMaxDist">
+      <DisplayName>Distance (m) at which it begins to become translucent - 半透明状態になり始める距離(m)</DisplayName>
+      <Description>Maximum Far Fade Distance (m): Distance where α = 1 - Farフェードの最大距離(m) : α = 1になる距離</Description>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+    </Field>
+    <Field Def="f32 MiddleAlpha">
+      <DisplayName>Translucent darkness (α value) - 半透明状態の濃さ(α値)</DisplayName>
+      <Description>Intermediate α value - 中間のα値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="dummy8 dummy[12]">
+      <DisplayName>dummy - ダミー</DisplayName>
+      <SortID>7</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

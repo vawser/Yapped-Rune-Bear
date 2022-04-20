@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>REINFORCE_PARAM_PROTECTOR_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 physicsDefRate = 1">
+      <DisplayName>Physical defense - 物理防御力</DisplayName>
+      <Description>Physical defense correction value - 物理防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 magicDefRate = 1">
+      <DisplayName>Magic defense - 魔法防御力</DisplayName>
+      <Description>Magic defense correction value - 魔法防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 fireDefRate = 1">
+      <DisplayName>Fire defense - 炎防御力</DisplayName>
+      <Description>Fire defense correction value - 炎防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 thunderDefRate = 1">
+      <DisplayName>Electric shock defense - 電撃防御力</DisplayName>
+      <Description>Electric shock defense correction value - 電撃防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 slashDefRate = 1">
+      <DisplayName>Slash defense - 斬撃防御力</DisplayName>
+      <Description>Slash defense correction value - 斬撃防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 blowDefRate = 1">
+      <DisplayName>Strike defense - 打撃防御力</DisplayName>
+      <Description>Impact defense correction value - 打撃防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 thrustDefRate = 1">
+      <DisplayName>Puncture defense - 刺突防御力</DisplayName>
+      <Description>Correction value of piercing defense power - 刺突防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="f32 resistPoisonRate = 1">
+      <DisplayName>Poison resistance - 毒耐性</DisplayName>
+      <Description>Poison resistance correction value - 毒耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="f32 resistDiseaseRate = 1">
+      <DisplayName>Epidemic resistance - 疫病耐性</DisplayName>
+      <Description>Epidemic resistance correction value - 疫病耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="f32 resistBloodRate = 1">
+      <DisplayName>Bleeding resistance - 出血耐性</DisplayName>
+      <Description>Bleeding resistance correction value - 出血耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>820</SortID>
+    </Field>
+    <Field Def="f32 resistCurseRate = 1">
+      <DisplayName>Curse resistance - 呪耐性</DisplayName>
+      <Description>Curse resistance correction value - 呪耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>830</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId1">
+      <DisplayName>Resident special effect ID1 - 常駐特殊効果ID1</DisplayName>
+      <Description>Addition correction value for resident special effect ID1 - 常駐特殊効果ID1の加算補正値</Description>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId2">
+      <DisplayName>Resident special effect ID2 - 常駐特殊効果ID2</DisplayName>
+      <Description>Addition correction value for resident special effect ID2 - 常駐特殊効果ID2の加算補正値</Description>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId3">
+      <DisplayName>Resident special effect ID3 - 常駐特殊効果ID3</DisplayName>
+      <Description>Addition correction value for resident special effect ID3 - 常駐特殊効果ID3の加算補正値</Description>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="u8 materialSetId">
+      <DisplayName>Material ID addition value - 素材ID加算値</DisplayName>
+      <Description>Addition correction value of material parameter ID - 素材パラメータIDの加算補正値</Description>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 darkDefRate = 1">
+      <DisplayName>Dark defense - 闇防御力</DisplayName>
+      <Description>Dark defense correction value - 闇防御力の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="f32 resistFreezeRate = 1">
+      <DisplayName>Cold resistance - 冷気耐性</DisplayName>
+      <Description>Cold resistance correction value - 冷気耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>840</SortID>
+    </Field>
+    <Field Def="f32 resistSleepRate = 1">
+      <DisplayName>Sleep tolerance - 睡眠耐性</DisplayName>
+      <Description>Correction value for sleep tolerance - 睡眠耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>850</SortID>
+    </Field>
+    <Field Def="f32 resistMadnessRate = 1">
+      <DisplayName>Madness resistance - 発狂耐性</DisplayName>
+      <Description>Madness resistance correction value - 発狂耐性の補正値</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>860</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>AUTO_CREATE_ENV_SOUND_PARAM_ST</ParamType>
+  <DataVersion>0</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 RangeMin = 10">
+      <DisplayName>Appearance distance Min [m] - 出現距離Min[m]</DisplayName>
+      <Description>Appearance distance Min [m] - 出現距離Min[m]</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="f32 RangeMax = 25">
+      <DisplayName>Appearance distance Max [m] - 出現距離Max[m]</DisplayName>
+      <Description>Appearance distance Max [ - 出現距離Max[</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="f32 LifeTimeMin = 30">
+      <DisplayName>Lifespan Min [seconds] - 寿命Min[秒]</DisplayName>
+      <Description>Lifespan Min [seconds] - 寿命Min[秒]</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="f32 LifeTimeMax = 30">
+      <DisplayName>Lifespan Max [seconds] - 寿命Max[秒]</DisplayName>
+      <Description>Lifespan Max [seconds] - 寿命Max[秒]</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 DeleteDist = 30">
+      <DisplayName>Delete distance [m] - 削除距離[m]</DisplayName>
+      <Description>Delete distance [m] - 削除距離[m]</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="f32 NearDist = 15">
+      <DisplayName>Neighborhood judgment distance [m] - 近傍判定距離[m]</DisplayName>
+      <Description>Neighborhood judgment distance [m] - 近傍判定距離[m]</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="f32 LimiteRotateMin">
+      <DisplayName>Generation angle limit Min [degree] - 生成角度制限Min[度]</DisplayName>
+      <Description>Angle limit Min [degree] (Specify the Y-axis angle +-in front of the camera. 180 is omnidirectional) - 角度制限Min[度](カメラの前方のY軸角度+-の指定。180なら全方位) </Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 LimiteRotateMax = 180">
+      <DisplayName>Generation angle limit Max [degrees] - 生成角度制限Max[度]</DisplayName>
+      <Description>Angle limit Max [degree] (Specify the Y-axis angle +-in front of the camera. 180 is omnidirectional) - 角度制限Max[度](カメラの前方のY軸角度+-の指定。180なら全方位) </Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>8</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

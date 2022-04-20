@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WORLD_MAP_LEGACY_CONV_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>8001</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>8002</SortID>
+    </Field>
+    <Field Def="u8 srcAreaNo">
+      <DisplayName>Conversion source map ID: Area number - 変換元マップID：エリア番号</DisplayName>
+      <Description>Conversion source map ID: Area number - 変換元マップID：エリア番号</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 srcGridXNo">
+      <DisplayName>Source map ID: Grid X - 変換元マップID：グリッドX</DisplayName>
+      <Description>Source map ID: Grid X - 変換元マップID：グリッドX</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 srcGridZNo">
+      <DisplayName>Source map ID: Grid Z - 変換元マップID：グリッドZ</DisplayName>
+      <Description>Source map ID: Grid Z - 変換元マップID：グリッドZ</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>Padding 1 - パディング１</DisplayName>
+      <Description>Padding 1 - パディング１</Description>
+      <SortID>8003</SortID>
+    </Field>
+    <Field Def="f32 srcPosX">
+      <DisplayName>Source map reference coordinates X - 変換元マップ基準座標X</DisplayName>
+      <Description>Source map reference coordinates X - 変換元マップ基準座標X</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="f32 srcPosY">
+      <DisplayName>Source map reference coordinates Y - 変換元マップ基準座標Y</DisplayName>
+      <Description>Source map reference coordinates Y - 変換元マップ基準座標Y</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 srcPosZ">
+      <DisplayName>Source map reference coordinates Z - 変換元マップ基準座標Z</DisplayName>
+      <Description>Source map reference coordinates Z - 変換元マップ基準座標Z</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 dstAreaNo">
+      <DisplayName>Conversion destination map ID: Area number - 変換先マップID：エリア番号</DisplayName>
+      <Description>Conversion destination map ID: Area number - 変換先マップID：エリア番号</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4100</SortID>
+    </Field>
+    <Field Def="u8 dstGridXNo">
+      <DisplayName>Destination map ID: Grid X - 変換先マップID：グリッドX</DisplayName>
+      <Description>Destination map ID: Grid X - 変換先マップID：グリッドX</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4200</SortID>
+    </Field>
+    <Field Def="u8 dstGridZNo">
+      <DisplayName>Destination map ID: Grid Z - 変換先マップID：グリッドZ</DisplayName>
+      <Description>Destination map ID: Grid Z - 変換先マップID：グリッドZ</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4300</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[1]">
+      <DisplayName>Padding 2 - パディング２</DisplayName>
+      <Description>Padding 2 - パディング２</Description>
+      <SortID>8004</SortID>
+    </Field>
+    <Field Def="f32 dstPosX">
+      <DisplayName>Destination map reference coordinates X - 変換先マップ基準座標X</DisplayName>
+      <Description>Destination map reference coordinates X - 変換先マップ基準座標X</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="f32 dstPosY">
+      <DisplayName>Destination map reference coordinates Y - 変換先マップ基準座標Y</DisplayName>
+      <Description>Destination map reference coordinates Y - 変換先マップ基準座標Y</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5200</SortID>
+    </Field>
+    <Field Def="f32 dstPosZ">
+      <DisplayName>Destination map reference coordinates Z - 変換先マップ基準座標Z</DisplayName>
+      <Description>Destination map reference coordinates Z - 変換先マップ基準座標Z</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5300</SortID>
+    </Field>
+    <Field Def="u8 isBasePoint:1">
+      <DisplayName>Is it a reference connection point? - 基準となる接続点か</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is it a reference connection point? One reference connection point is always set for one conversion source map ID. - 基準となる接続点か。１つの変換元マップIDには必ず一つは基準となる接続点が設定される</Description>
+      <Maximum>1</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="dummy8 pad3:7">
+      <DisplayName>Padding 3 - パディング３</DisplayName>
+      <Description>Padding 3 - パディング３</Description>
+      <SortID>8005</SortID>
+    </Field>
+    <Field Def="dummy8 pad4[11]">
+      <DisplayName>Padding 4 - パディング４</DisplayName>
+      <Description>Padding 4 - パディング４</Description>
+      <SortID>8006</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

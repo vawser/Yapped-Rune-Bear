@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ROLLING_OBJ_LOT_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>702</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>703</SortID>
+    </Field>
+    <Field Def="s32 AssetId_0 = -1">
+      <DisplayName>AssetId_0 - AssetId_0</DisplayName>
+      <Description>AssetId_0 (-1: Ignore) - AssetId_0 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+    </Field>
+    <Field Def="s32 AssetId_1 = -1">
+      <DisplayName>AssetId_1_1 - AssetId_1</DisplayName>
+      <Description>AssetId_1 (-1: Ignore) - AssetId_1 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 AssetId_2 = -1">
+      <DisplayName>AssetId_2 - AssetId_2</DisplayName>
+      <Description>AssetId_2 (-1: Ignore) - AssetId_2 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 AssetId_3 = -1">
+      <DisplayName>AssetId_3 - AssetId_3</DisplayName>
+      <Description>AssetId_3 (-1: Ignore) - AssetId_3 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 AssetId_4 = -1">
+      <DisplayName>AssetId_4 - AssetId_4</DisplayName>
+      <Description>AssetId_4 (-1: Ignore) - AssetId_4 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 AssetId_5 = -1">
+      <DisplayName>AssetId_5 - AssetId_5</DisplayName>
+      <Description>AssetId_5 (-1: Ignore) - AssetId_5 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 AssetId_6 = -1">
+      <DisplayName>AssetId_6 - AssetId_6</DisplayName>
+      <Description>AssetId_6 (-1: Ignore) - AssetId_6 (-1：無視) </Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 AssetId_7 = -1">
+      <DisplayName>AssetId_7 - AssetId_7</DisplayName>
+      <Description>AssetId_7 (-1: Ignore) - AssetId_7 (-1：無視)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_0">
+      <DisplayName>Appearance weight _0 - 出現ウェイト_0</DisplayName>
+      <Description>Appearance ratio point (weight) _0: 0 is ignored - 出現の比率ポイント(ウェイト)_0: 0だと無視</Description>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_1">
+      <DisplayName>Appearance weight _1 - 出現ウェイト_1</DisplayName>
+      <Description>Appearance ratio point (weight) _1 - 出現の比率ポイント(ウェイト)_1</Description>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_2">
+      <DisplayName>Appearance weight _2 - 出現ウェイト_2</DisplayName>
+      <Description>Appearance ratio point (weight) _2 - 出現の比率ポイント(ウェイト)_2</Description>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_3">
+      <DisplayName>Appearance weight _3 - 出現ウェイト_3</DisplayName>
+      <Description>Appearance ratio point (weight) _3 - 出現の比率ポイント(ウェイト)_3</Description>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_4">
+      <DisplayName>Appearance weight _4 - 出現ウェイト_4</DisplayName>
+      <Description>Appearance ratio point (weight) _4 - 出現の比率ポイント(ウェイト)_4</Description>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_5">
+      <DisplayName>Appearance weight _5 - 出現ウェイト_5</DisplayName>
+      <Description>Appearance ratio point (weight) _5 - 出現の比率ポイント(ウェイト)_5</Description>
+      <SortID>501</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_6">
+      <DisplayName>Appearance weight _6 - 出現ウェイト_6</DisplayName>
+      <Description>Appearance ratio point (weight) _6 - 出現の比率ポイント(ウェイト)_6</Description>
+      <SortID>601</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_7">
+      <DisplayName>Appearance weight _7 - 出現ウェイト_7</DisplayName>
+      <Description>Appearance ratio point (weight) _7 - 出現の比率ポイント(ウェイト)_7</Description>
+      <SortID>701</SortID>
+    </Field>
+    <Field Def="dummy8 Reserve_0[20]">
+      <DisplayName>Reserve - リザーブ</DisplayName>
+      <Description>Reserve - リザーブ</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>704</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

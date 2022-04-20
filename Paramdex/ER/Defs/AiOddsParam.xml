@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>AI_ODDS_PARAM</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 act0">
+      <DisplayName>Action 0 - アクション0</DisplayName>
+      <Description>Action 0 ratio - アクション0の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 act1">
+      <DisplayName>Action 1 - アクション1</DisplayName>
+      <Description>Action 1 ratio - アクション1の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 act2">
+      <DisplayName>Action 2 - アクション2</DisplayName>
+      <Description>Action 2 ratio - アクション2の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u8 act3">
+      <DisplayName>Action 3 - アクション3</DisplayName>
+      <Description>Action 3 ratio - アクション3の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u8 act4">
+      <DisplayName>Action 4 - アクション4</DisplayName>
+      <Description>Action 4 ratio - アクション4の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 act5">
+      <DisplayName>Action 5 - アクション5</DisplayName>
+      <Description>Action 5 ratio - アクション5の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="u8 act6">
+      <DisplayName>Action 6 - アクション6</DisplayName>
+      <Description>Action 6 ratio - アクション6の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u8 act7">
+      <DisplayName>Action 7 - アクション7</DisplayName>
+      <Description>Action 7 ratio - アクション7の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="u8 act8">
+      <DisplayName>Action 8 - アクション8</DisplayName>
+      <Description>Action 8 ratio - アクション8の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 act9">
+      <DisplayName>Action 9 - アクション9</DisplayName>
+      <Description>Action 9 ratio - アクション9の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u8 act10">
+      <DisplayName>Action 10 - アクション10</DisplayName>
+      <Description>Action 10 ratio - アクション10の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="u8 act11">
+      <DisplayName>Action 11 - アクション11</DisplayName>
+      <Description>Action 11 ratio - アクション11の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="u8 act12">
+      <DisplayName>Action 12 - アクション12</DisplayName>
+      <Description>Action 12 ratio - アクション12の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="u8 act13">
+      <DisplayName>Action 13 - アクション13</DisplayName>
+      <Description>Action 13 ratio - アクション13の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="u8 act14">
+      <DisplayName>Action 14 - アクション14</DisplayName>
+      <Description>Action 14 ratio - アクション14の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="u8 act15">
+      <DisplayName>Action 15 - アクション15</DisplayName>
+      <Description>Action 15 ratio - アクション15の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u8 act16">
+      <DisplayName>Action 16 - アクション16</DisplayName>
+      <Description>Action 16 ratio - アクション16の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u8 act17">
+      <DisplayName>Action 17 - アクション17</DisplayName>
+      <Description>Action 17 ratio - アクション17の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u8 act18">
+      <DisplayName>Action 18 - アクション18</DisplayName>
+      <Description>Action 18 ratio - アクション18の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="u8 act19">
+      <DisplayName>Action 19 - アクション19</DisplayName>
+      <Description>Action 19 ratio - アクション19の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="u8 act20">
+      <DisplayName>Action 20 - アクション20</DisplayName>
+      <Description>Action 20 ratio - アクション20の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="u8 act21">
+      <DisplayName>Action 21 - アクション21</DisplayName>
+      <Description>Action 21 ratio - アクション21の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="u8 act22">
+      <DisplayName>Action 22 - アクション22</DisplayName>
+      <Description>Action 22 ratio - アクション22の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 act23">
+      <DisplayName>Action 23 - アクション23</DisplayName>
+      <Description>Action 23 ratio - アクション23の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u8 act24">
+      <DisplayName>Action 24 - アクション24</DisplayName>
+      <Description>Action 24 ratio - アクション24の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="u8 act25">
+      <DisplayName>Action 25 - アクション25</DisplayName>
+      <Description>Action 25 ratio - アクション25の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>26</SortID>
+    </Field>
+    <Field Def="u8 act26">
+      <DisplayName>Action 26 - アクション26</DisplayName>
+      <Description>Action 26 ratio - アクション26の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>27</SortID>
+    </Field>
+    <Field Def="u8 act27">
+      <DisplayName>Action 27 - アクション27</DisplayName>
+      <Description>Action 27 ratio - アクション27の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>28</SortID>
+    </Field>
+    <Field Def="u8 act28">
+      <DisplayName>Action 28 - アクション28</DisplayName>
+      <Description>Action 28 ratio - アクション28の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>29</SortID>
+    </Field>
+    <Field Def="u8 act29">
+      <DisplayName>Action 29 - アクション29</DisplayName>
+      <Description>Action 29 ratio - アクション29の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="u8 act30">
+      <DisplayName>Action 30 - アクション30</DisplayName>
+      <Description>Action 30 ratio - アクション30の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="u8 act31">
+      <DisplayName>Action 31 - アクション31</DisplayName>
+      <Description>Action 31 ratio - アクション31の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="u8 act32">
+      <DisplayName>Action 32 - アクション32</DisplayName>
+      <Description>Action 32 ratio - アクション32の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>33</SortID>
+    </Field>
+    <Field Def="u8 act33">
+      <DisplayName>Action 33 - アクション33</DisplayName>
+      <Description>Action 33 ratio - アクション33の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>34</SortID>
+    </Field>
+    <Field Def="u8 act34">
+      <DisplayName>Action 34 - アクション34</DisplayName>
+      <Description>Action 34 ratio - アクション34の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>35</SortID>
+    </Field>
+    <Field Def="u8 act35">
+      <DisplayName>Action 35 - アクション35</DisplayName>
+      <Description>Action 35 ratio - アクション35の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>36</SortID>
+    </Field>
+    <Field Def="u8 act36">
+      <DisplayName>Action 36 - アクション36</DisplayName>
+      <Description>Action 36 ratio - アクション36の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>37</SortID>
+    </Field>
+    <Field Def="u8 act37">
+      <DisplayName>Action 37 - アクション37</DisplayName>
+      <Description>Action 37 ratio - アクション37の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>38</SortID>
+    </Field>
+    <Field Def="u8 act38">
+      <DisplayName>Action 38 - アクション38</DisplayName>
+      <Description>Action 38 ratio - アクション38の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>39</SortID>
+    </Field>
+    <Field Def="u8 act39">
+      <DisplayName>Action 39 - アクション39</DisplayName>
+      <Description>Action 39 ratio - アクション39の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>40</SortID>
+    </Field>
+    <Field Def="u8 act40">
+      <DisplayName>Action 40 - アクション40</DisplayName>
+      <Description>Action 40 ratio - アクション40の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>41</SortID>
+    </Field>
+    <Field Def="u8 act41">
+      <DisplayName>Action 41 - アクション41</DisplayName>
+      <Description>Action 41 ratio - アクション41の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>42</SortID>
+    </Field>
+    <Field Def="u8 act42">
+      <DisplayName>Action 42 - アクション42</DisplayName>
+      <Description>Action 42 ratio - アクション42の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>43</SortID>
+    </Field>
+    <Field Def="u8 act43">
+      <DisplayName>Action 43 - アクション43</DisplayName>
+      <Description>Action 43 ratio - アクション43の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>44</SortID>
+    </Field>
+    <Field Def="u8 act44">
+      <DisplayName>Action 44 - アクション44</DisplayName>
+      <Description>Action 44 ratio - アクション44の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>45</SortID>
+    </Field>
+    <Field Def="u8 act45">
+      <DisplayName>Action 45 - アクション45</DisplayName>
+      <Description>Action 45 ratio - アクション45の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>46</SortID>
+    </Field>
+    <Field Def="u8 act46">
+      <DisplayName>Action 46 - アクション46</DisplayName>
+      <Description>Action 46 ratio - アクション46の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>47</SortID>
+    </Field>
+    <Field Def="u8 act47">
+      <DisplayName>Action 47 - アクション47</DisplayName>
+      <Description>Action 47 ratio - アクション47の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>48</SortID>
+    </Field>
+    <Field Def="u8 act48">
+      <DisplayName>Action 48 - アクション48</DisplayName>
+      <Description>Action 48 ratio - アクション48の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>49</SortID>
+    </Field>
+    <Field Def="u8 act49">
+      <DisplayName>Action 49 - アクション49</DisplayName>
+      <Description>Action 49 ratio - アクション49の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="u8 act50">
+      <DisplayName>Action 50 - アクション50</DisplayName>
+      <Description>Action 50 ratio - アクション50の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>51</SortID>
+    </Field>
+    <Field Def="u8 act51">
+      <DisplayName>Action 51 - アクション51</DisplayName>
+      <Description>Action 51 ratio - アクション51の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>52</SortID>
+    </Field>
+    <Field Def="u8 act52">
+      <DisplayName>Action 52 - アクション52</DisplayName>
+      <Description>Action 52 ratio - アクション52の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>53</SortID>
+    </Field>
+    <Field Def="u8 act53">
+      <DisplayName>Action 53 - アクション53</DisplayName>
+      <Description>Action 53 ratio - アクション53の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>54</SortID>
+    </Field>
+    <Field Def="u8 act54">
+      <DisplayName>Action 54 - アクション54</DisplayName>
+      <Description>Action 54 ratio - アクション54の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>55</SortID>
+    </Field>
+    <Field Def="u8 act55">
+      <DisplayName>Action 55 - アクション55</DisplayName>
+      <Description>Action 55 ratio - アクション55の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>56</SortID>
+    </Field>
+    <Field Def="u8 act56">
+      <DisplayName>Action 56 - アクション56</DisplayName>
+      <Description>Action 56 ratio - アクション56の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>57</SortID>
+    </Field>
+    <Field Def="u8 act57">
+      <DisplayName>Action 57 - アクション57</DisplayName>
+      <Description>Action 57 ratio - アクション57の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>58</SortID>
+    </Field>
+    <Field Def="u8 act58">
+      <DisplayName>Action 58 - アクション58</DisplayName>
+      <Description>Action 58 ratio - アクション58の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>59</SortID>
+    </Field>
+    <Field Def="u8 act59">
+      <DisplayName>Action 59 - アクション59</DisplayName>
+      <Description>Action 59 ratio - アクション59の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>60</SortID>
+    </Field>
+    <Field Def="u8 act60">
+      <DisplayName>Action 60 - アクション60</DisplayName>
+      <Description>Action 60 ratio - アクション60の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>61</SortID>
+    </Field>
+    <Field Def="u8 act61">
+      <DisplayName>Action 61 - アクション61</DisplayName>
+      <Description>Action 61 ratio - アクション61の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>62</SortID>
+    </Field>
+    <Field Def="u8 act62">
+      <DisplayName>Action 62 - アクション62</DisplayName>
+      <Description>Action 62 ratio - アクション62の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>63</SortID>
+    </Field>
+    <Field Def="u8 act63">
+      <DisplayName>Action 63 - アクション63</DisplayName>
+      <Description>Action 63 ratio - アクション63の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>64</SortID>
+    </Field>
+    <Field Def="u8 act64">
+      <DisplayName>Action 64 - アクション64</DisplayName>
+      <Description>Action 64 ratio - アクション64の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>65</SortID>
+    </Field>
+    <Field Def="u8 act65">
+      <DisplayName>Action 65 - アクション65</DisplayName>
+      <Description>Action 65 ratio - アクション65の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>66</SortID>
+    </Field>
+    <Field Def="u8 act66">
+      <DisplayName>Action 66 - アクション66</DisplayName>
+      <Description>Action 66 ratio - アクション66の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>67</SortID>
+    </Field>
+    <Field Def="u8 act67">
+      <DisplayName>Action 67 - アクション67</DisplayName>
+      <Description>Action 67 ratio - アクション67の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>68</SortID>
+    </Field>
+    <Field Def="u8 act68">
+      <DisplayName>Action 68 - アクション68</DisplayName>
+      <Description>Action 68 ratio - アクション68の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>69</SortID>
+    </Field>
+    <Field Def="u8 act69">
+      <DisplayName>Action 69 - アクション69</DisplayName>
+      <Description>Action 69 ratio - アクション69の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="u8 act70">
+      <DisplayName>Action 70 - アクション70</DisplayName>
+      <Description>Action 70 ratio - アクション70の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>71</SortID>
+    </Field>
+    <Field Def="u8 act71">
+      <DisplayName>Action 71 - アクション71</DisplayName>
+      <Description>Action 71 ratio - アクション71の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>72</SortID>
+    </Field>
+    <Field Def="u8 act72">
+      <DisplayName>Action 72 - アクション72</DisplayName>
+      <Description>Action 72 ratio - アクション72の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>73</SortID>
+    </Field>
+    <Field Def="u8 act73">
+      <DisplayName>Action 73 - アクション73</DisplayName>
+      <Description>Action 73 ratio - アクション73の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>74</SortID>
+    </Field>
+    <Field Def="u8 act74">
+      <DisplayName>Action 74 - アクション74</DisplayName>
+      <Description>Action 74 ratio - アクション74の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>75</SortID>
+    </Field>
+    <Field Def="u8 act75">
+      <DisplayName>Action 75 - アクション75</DisplayName>
+      <Description>Action 75 ratio - アクション75の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>76</SortID>
+    </Field>
+    <Field Def="u8 act76">
+      <DisplayName>Action 76 - アクション76</DisplayName>
+      <Description>Action 76 ratio - アクション76の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>77</SortID>
+    </Field>
+    <Field Def="u8 act77">
+      <DisplayName>Action 77 - アクション77</DisplayName>
+      <Description>Action 77 ratio - アクション77の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>78</SortID>
+    </Field>
+    <Field Def="u8 act78">
+      <DisplayName>Action 78 - アクション78</DisplayName>
+      <Description>Action 78 ratio - アクション78の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>79</SortID>
+    </Field>
+    <Field Def="u8 act79">
+      <DisplayName>Action 79 - アクション79</DisplayName>
+      <Description>Action 79 ratio - アクション79の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>80</SortID>
+    </Field>
+    <Field Def="u8 act80">
+      <DisplayName>Action 80 - アクション80</DisplayName>
+      <Description>Action 80 ratio - アクション80の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>81</SortID>
+    </Field>
+    <Field Def="u8 act81">
+      <DisplayName>Action 81 - アクション81</DisplayName>
+      <Description>Action 81 ratio - アクション81の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>82</SortID>
+    </Field>
+    <Field Def="u8 act82">
+      <DisplayName>Action 82 - アクション82</DisplayName>
+      <Description>Action 82 ratio - アクション82の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>83</SortID>
+    </Field>
+    <Field Def="u8 act83">
+      <DisplayName>Action 83 - アクション83</DisplayName>
+      <Description>Action 83 ratio - アクション83の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>84</SortID>
+    </Field>
+    <Field Def="u8 act84">
+      <DisplayName>Action 84 - アクション84</DisplayName>
+      <Description>Action 84 ratio - アクション84の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>85</SortID>
+    </Field>
+    <Field Def="u8 act85">
+      <DisplayName>Action 85 - アクション85</DisplayName>
+      <Description>Action 85 ratio - アクション85の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>86</SortID>
+    </Field>
+    <Field Def="u8 act86">
+      <DisplayName>Action 86 - アクション86</DisplayName>
+      <Description>Action 86 ratio - アクション86の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>87</SortID>
+    </Field>
+    <Field Def="u8 act87">
+      <DisplayName>Action 87 - アクション87</DisplayName>
+      <Description>Action 87 ratio - アクション87の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>88</SortID>
+    </Field>
+    <Field Def="u8 act88">
+      <DisplayName>Action 88 - アクション88</DisplayName>
+      <Description>Action 88 ratio - アクション88の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>89</SortID>
+    </Field>
+    <Field Def="u8 act89">
+      <DisplayName>Action 89 - アクション89</DisplayName>
+      <Description>Action 89 ratio - アクション89の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>90</SortID>
+    </Field>
+    <Field Def="u8 act90">
+      <DisplayName>Action 90 - アクション90</DisplayName>
+      <Description>Action 90 ratio - アクション90の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>91</SortID>
+    </Field>
+    <Field Def="u8 act91">
+      <DisplayName>Action 91 - アクション91</DisplayName>
+      <Description>Action 91 ratio - アクション91の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>92</SortID>
+    </Field>
+    <Field Def="u8 act92">
+      <DisplayName>Action 92 - アクション92</DisplayName>
+      <Description>Action 92 ratio - アクション92の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>93</SortID>
+    </Field>
+    <Field Def="u8 act93">
+      <DisplayName>Action 93 - アクション93</DisplayName>
+      <Description>Action 93 ratio - アクション93の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>94</SortID>
+    </Field>
+    <Field Def="u8 act94">
+      <DisplayName>Action 94 - アクション94</DisplayName>
+      <Description>Action 94 ratio - アクション94の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>95</SortID>
+    </Field>
+    <Field Def="u8 act95">
+      <DisplayName>Action 95 - アクション95</DisplayName>
+      <Description>Action 95 ratio - アクション95の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>96</SortID>
+    </Field>
+    <Field Def="u8 act96">
+      <DisplayName>Action 96 - アクション96</DisplayName>
+      <Description>Action 96 ratio - アクション96の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>97</SortID>
+    </Field>
+    <Field Def="u8 act97">
+      <DisplayName>Action 97 - アクション97</DisplayName>
+      <Description>Action 97 ratio - アクション97の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>98</SortID>
+    </Field>
+    <Field Def="u8 act98">
+      <DisplayName>Action 98 - アクション98</DisplayName>
+      <Description>Action 98 ratio - アクション98の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>99</SortID>
+    </Field>
+    <Field Def="u8 act99">
+      <DisplayName>Action 99 - アクション99</DisplayName>
+      <Description>Action 99 ratio - アクション99の比率</Description>
+      <Maximum>100</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="dummy8 pad0[12]">
+      <DisplayName>pad - pad</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>102</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

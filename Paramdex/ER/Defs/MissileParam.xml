@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MISSILE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 FFXID">
+      <DisplayName>FFXID - FFXID</DisplayName>
+      <Description>ID on the FFX editor - ＦＦＸエディタ上のＩＤ</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u16 LifeTime">
+      <DisplayName>Survival time [frame] - 生存時間[frame]</DisplayName>
+      <Description>Survival time. - 生存時間。</Description>
+      <Maximum>30000</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u16 HitSphereRadius">
+      <DisplayName>Hit ball radius [cm] - 当たり球半径[cm]</DisplayName>
+      <Description>Hit ball radius. Unit cm - 当たり球半径。単位cm</Description>
+      <Maximum>3000</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u16 HitDamage">
+      <DisplayName>Landing damage - 着弾ダメージ</DisplayName>
+      <Description>Amount of damage at the time of landing - 着弾時のダメージ量</Description>
+      <Maximum>30000</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="dummy8 reserve0[6]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="f32 InitVelocity">
+      <DisplayName>Initial speed [m / s] - 初速度[m/s]</DisplayName>
+      <Description>Initial speed [m / s] - 初速度[m/s]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.5</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="f32 distance">
+      <DisplayName>Range distance - 射程距離</DisplayName>
+      <Description>Range distance - 射程距離</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.5</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="f32 gravityInRange">
+      <DisplayName>Gravity within range - 射程距離内重力</DisplayName>
+      <Description>Gravity within range - 射程距離内重力</Description>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 gravityOutRange">
+      <DisplayName>Out-of-range gravity - 射程距離外重力</DisplayName>
+      <Description>Out-of-range gravity - 射程距離外重力</Description>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.5</Increment>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="s32 mp">
+      <DisplayName>MP consumption - 消費MP</DisplayName>
+      <Description>MP consumption - 消費MP</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="f32 accelInRange">
+      <DisplayName>Acceleration within range - 射程距離内加速度</DisplayName>
+      <Description>Acceleration within range - 射程距離内加速度</Description>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="f32 accelOutRange">
+      <DisplayName>Out-of-range acceleration - 射程距離外加速度</DisplayName>
+      <Description>Out-of-range acceleration - 射程距離外加速度</Description>
+      <Minimum>-1000</Minimum>
+      <Maximum>1000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="dummy8 reserve1[20]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="u16 HitMissileID">
+      <DisplayName>Landing ID - 着弾ＩＤ</DisplayName>
+      <Description>Landing ID - 着弾ＩＤ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="u8 DiedNaturaly">
+      <DisplayName>Will you die at the end of your life? - 寿命で死ぬか？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Will it use up its life without dying even if it lands? - 着弾しても、死なずに、寿命を使い切るか？</Description>
+      <Maximum>1</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="u8 ExplosionDie">
+      <DisplayName>Will it land when the life has expired? - 寿命が切れたときに着弾するか</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Will it land when the life has expired? - 寿命が切れたときに着弾するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="s32 behaviorId">
+      <DisplayName>Action ID on hit - ヒット時行動ID</DisplayName>
+      <Description>Action ID given to the opponent when doing damage - ダメージを与えたとき相手に与える行動ID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last[56]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <SortID>21</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

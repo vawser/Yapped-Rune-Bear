@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>SOUND_AUTO_REVERB_EVALUATION_DIST_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 NoHitDist = -1">
+      <DisplayName>Distance to No Hit [m] - NoHitとする距離[m]</DisplayName>
+      <Description>Collision points above this distance [m] are judged as No Hit (less than 0: invalid) - この距離[m]以上の衝突点をNoHitとして判定する(0より小さい:無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1024</Maximum>
+      <Increment>0.1</Increment>
+    </Field>
+    <Field Def="u8 isCollectNoHitPoint">
+      <DisplayName>Do you include NoHit collision points? - NoHitの衝突点含めるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you include NoHit collision points? - NoHitの衝突点含めるか？</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 isCollectOutdoorPoint">
+      <DisplayName>Do you include outdoor collision points? - 屋外の衝突点含めるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you include outdoor collision points? - 屋外の衝突点含めるか？</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 isCollectFloorPoint">
+      <DisplayName>Do you include floor collision points? - 床の衝突点含めるか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you include floor collision points? - 床の衝突点含めるか？</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u8 distValCalcType">
+      <DisplayName>Evaluation distance calculation type - 評価距離計算タイプ</DisplayName>
+      <Description>Evaluation distance calculation type (0: normal, average from 1: Max) - 評価距離計算タイプ(0:通常,1:Maxからの平均)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 enableLifeTime = -1">
+      <DisplayName>Effective collision point life [seconds] - 有効な衝突点寿命[秒]</DisplayName>
+      <Description>Collision points longer than this life [second] are treated as invalid. Set to be less than or equal to the life of the common setting - この寿命[秒]以上の衝突点は無効扱いにする。共通設定の寿命以下に設定すること</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>128</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u32 maxDistRecordNum = 20">
+      <DisplayName>Max Number of collision point records - Max衝突点レコード数</DisplayName>
+      <Description>Max Number of collision point records - Max衝突点レコード数</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>10</Minimum>
+      <Maximum>50</Maximum>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="u32 ignoreDistNumForMax">
+      <DisplayName>Max distance decimation - Max距離間引き数</DisplayName>
+      <Description>Max distance decimation number (0: not decimation) (must be set to the value of "Max collision point record number-1". Incorrect value will be corrected) - Max距離間引き数(0:間引かない)(「Max衝突点レコード数-1」の値に設定する必要がある。不正な値は修正される)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>50</Maximum>
+      <SortID>102</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

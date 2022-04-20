@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>NPC_AI_ACTION_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 moveDir">
+      <DisplayName>Move direction input - 移動方向入力</DisplayName>
+      <Enum>NPC_AI_ACTION_MOVE_DIR</Enum>
+      <Description>Moving direction to enter - 入力する移動方向</Description>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 key1">
+      <DisplayName>Key input 1 - キー入力1</DisplayName>
+      <Enum>NPC_AI_ACTION_KEY</Enum>
+      <Description>Key to enter - 入力するキー</Description>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 key2">
+      <DisplayName>Key input 2 - キー入力2</DisplayName>
+      <Enum>NPC_AI_ACTION_KEY</Enum>
+      <Description>Key to enter - 入力するキー</Description>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="u8 key3">
+      <DisplayName>Key input 3 - キー入力3</DisplayName>
+      <Enum>NPC_AI_ACTION_KEY</Enum>
+      <Description>Key to enter - 入力するキー</Description>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u8 bMoveDirHold">
+      <DisplayName>Press and hold the movement direction input? - 移動方向入力は長押し？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to handle the input movement direction as long press - 入力する移動方向を長押し扱いするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="u8 bKeyHold1">
+      <DisplayName>Press and hold key input 1? - キー入力1は長押し？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to treat the key to be entered as a long press - 入力するキーを長押扱いするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="u8 bKeyHold2">
+      <DisplayName>Press and hold key input 2? - キー入力2は長押し？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to treat the key to be entered as a long press - 入力するキーを長押扱いするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="u8 bKeyHold3">
+      <DisplayName>Press and hold key input 3? - キー入力3は長押し？</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to treat the key to be entered as a long press - 入力するキーを長押扱いするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="s32 gestureId">
+      <DisplayName>Gesture ID (valid only when any key input is GESTURE) - ジェスチャーID（どれかのキー入力がGESTUREの時のみ有効）</DisplayName>
+      <Description>Gesture ID - ジェスチャーID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="u8 bLifeEndSuccess">
+      <DisplayName>Treat as successful when life is over - 寿命が尽きた時成功扱いにする</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>If this is ON, the AI goal will not be successful until the end of its life - これがONならAIのゴールが寿命まで成功にならない</Description>
+      <Maximum>1</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[3]">
+      <DisplayName>pad - パッド</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>601</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

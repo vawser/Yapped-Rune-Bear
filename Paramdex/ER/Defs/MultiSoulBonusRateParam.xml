@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MULTI_SOUL_BONUS_RATE_PARAM_ST</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 host">
+      <DisplayName>host - ホスト</DisplayName>
+      <Description>Host reward soul multiplier - ホストの報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 WhiteGhost_None">
+      <DisplayName>White sign - 白サイン</DisplayName>
+      <Description>Cooperation sign white spirit reward soul multiplier - 協力サインの白霊の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="f32 WhiteGhost_Umbasa">
+      <DisplayName>Gold spirit (sun) - 金霊（太陽）</DisplayName>
+      <Description>Cooperative sign gold spirit reward soul multiplier - 協力サインの金霊の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="f32 WhiteGhost_Berserker">
+      <DisplayName>White berserker - 白バーサーカー</DisplayName>
+      <Description>Cooperation sign white Berserker reward soul multiplier - 協力サインの白バーサーカーの報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_None_Sign">
+      <DisplayName>Red sign - 赤サイン</DisplayName>
+      <Description>Hostile sign red spirit reward soul multiplier - 敵対サインの赤霊の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_Umbasa_Sign">
+      <DisplayName>Red gold spirit (signature) - 赤金霊（サイン）</DisplayName>
+      <Description>Hostile sign red gold spirit reward soul multiplier - 敵対サインの赤金霊の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_Berserker_Sign">
+      <DisplayName>Red berserker (sign) - 赤バーサーカー（サイン）</DisplayName>
+      <Description>Hostile sign red berserker reward soul multiplier - 敵対サインの赤バーサーカーの報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>3200</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_None_Invade">
+      <DisplayName>Invasion - 侵入</DisplayName>
+      <Description>Invasion reward Soul multiplier - 侵入の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_Umbasa_Invade">
+      <DisplayName>Red Gold Spirit (Invasion) - 赤金霊（侵入）</DisplayName>
+      <Description>Invasion Orb's Red Gold Spirit Reward Soul Multiplier - 侵入オーブの赤金霊の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>4500</SortID>
+    </Field>
+    <Field Def="f32 BlackGhost_Berserker_Invade">
+      <DisplayName>Red berserker (invasion) - 赤バーサーカー（侵入）</DisplayName>
+      <Description>Invasion Orb Red Berserker Reward Soul Multiplier - 侵入オーブの赤バーサーカーの報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>4600</SortID>
+    </Field>
+    <Field Def="f32 RedHunter1">
+      <DisplayName>Relief guest - 救援ゲスト</DisplayName>
+      <Description>Relief guest reward soul multiplier - 救援ゲストの報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="f32 RedHunter2">
+      <DisplayName>Red Scare Spirit 2 - 赤狩り霊２</DisplayName>
+      <Description>Red Scare Spirit 2 Reward Soul Multiplier - 赤狩り霊２の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="f32 GuardianOfForest">
+      <DisplayName>Map Guardian Spirit (Forest) - マップ守護霊(森)</DisplayName>
+      <Description>Map Guardian Spirit (Forest) Reward Soul Magnification - マップ守護霊（森）の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>6000</SortID>
+    </Field>
+    <Field Def="f32 GuardianOfAnor">
+      <DisplayName>Map Guardian (Anor) - マップ守護霊(アノール)</DisplayName>
+      <Description>Map Guardian Spirit (Anor) Reward Soul Multiplier - マップ守護霊(アノール)の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>6100</SortID>
+    </Field>
+    <Field Def="f32 BattleRoyal">
+      <DisplayName>Arena - 闘技場</DisplayName>
+      <Description>Arena reward soul multiplier - 闘技場の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="f32 YellowMonk">
+      <DisplayName>Yellow robe's old man - 黄衣の翁</DisplayName>
+      <Description>Yellow robe's old man's reward soul multiplier - 黄衣の翁の報酬ソウル倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.001</Increment>
+      <SortID>7100</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[64]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>7101</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

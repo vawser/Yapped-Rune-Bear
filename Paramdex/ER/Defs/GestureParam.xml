@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>GESTURE_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>302</SortID>
+    </Field>
+    <Field Def="s32 itemId">
+      <DisplayName>Reference item ID - 参照アイテムID</DisplayName>
+      <Description>Reference item ID. Used to bring in the gesture text ID, icon ID, and sort ID for each menu. Register the tool ID of the equipment parameter - 参照アイテムID。各メニューでのジェスチャのテキストID、アイコンID、ソートIDを持ってくるのに使用される。装備品パラメータの道具IDを登録します</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 msgAnimId">
+      <DisplayName>Anime ID for message attachment - メッセージ添付用アニメID</DisplayName>
+      <Description>Anime ID for attaching messages. Specify the animation ID when attaching a message - メッセージ添付用アニメID。メッセージ添付時のアニメIDを指定します</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 cannotUseRiding:1">
+      <DisplayName>Is it prohibited to use while riding? - 騎乗中使用禁止か</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is it prohibited to use while riding (default: ×)? If ○, it cannot be used while riding - 騎乗中使用禁止か(デフォルト:×)。○なら騎乗中に使用できない</Description>
+      <Maximum>1</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="dummy8 pad2:7">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <SortID>303</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[3]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <SortID>304</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

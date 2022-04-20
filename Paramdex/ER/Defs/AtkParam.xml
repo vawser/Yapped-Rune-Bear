@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ATK_PARAM_ST</ParamType>
+  <DataVersion>4</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 hit0_Radius">
+      <DisplayName>0 radius per - あたり0 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="f32 hit1_Radius">
+      <DisplayName>1 radius per - あたり1 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>4500</SortID>
+    </Field>
+    <Field Def="f32 hit2_Radius">
+      <DisplayName>2 radii per - あたり2 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="f32 hit3_Radius">
+      <DisplayName>3 radii per - あたり3 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5500</SortID>
+    </Field>
+    <Field Def="f32 knockbackDist">
+      <DisplayName>Knockback distance [m] - ノックバック距離[m]</DisplayName>
+      <Description>Knockback distance [m] - ノックバック距離[m]</Description>
+      <Minimum>-99</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>5790</SortID>
+    </Field>
+    <Field Def="f32 hitStopTime">
+      <DisplayName>Hit stop time [s] - ヒットストップ時間[s]</DisplayName>
+      <Description>Hit stop stop time [s] - ヒットストップの停止時間[s]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>6110</SortID>
+    </Field>
+    <Field Def="s32 spEffectId0 = -1">
+      <DisplayName>Special effects 0 - 特殊効果0</DisplayName>
+      <Description>Enter the ID created with the special effects parameter - 特殊効果パラメータで作成したＩＤを入れる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6300</SortID>
+    </Field>
+    <Field Def="s32 spEffectId1 = -1">
+      <DisplayName>Special effect 1 - 特殊効果1</DisplayName>
+      <Description>Enter the ID created with the special effects parameter - 特殊効果パラメータで作成したＩＤを入れる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6400</SortID>
+    </Field>
+    <Field Def="s32 spEffectId2 = -1">
+      <DisplayName>Special effect 2 - 特殊効果2</DisplayName>
+      <Description>Enter the ID created with the special effects parameter - 特殊効果パラメータで作成したＩＤを入れる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6500</SortID>
+    </Field>
+    <Field Def="s32 spEffectId3 = -1">
+      <DisplayName>Special effect 3 - 特殊効果3</DisplayName>
+      <Description>Enter the ID created with the special effects parameter - 特殊効果パラメータで作成したＩＤを入れる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6600</SortID>
+    </Field>
+    <Field Def="s32 spEffectId4 = -1">
+      <DisplayName>Special effect 4 - 特殊効果4</DisplayName>
+      <Description>Enter the ID created with the special effects parameter - 特殊効果パラメータで作成したＩＤを入れる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6700</SortID>
+    </Field>
+    <Field Def="s16 hit0_DmyPoly1">
+      <DisplayName>Per 0 Damipoli 1 - あたり0 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>3800</SortID>
+    </Field>
+    <Field Def="s16 hit1_DmyPoly1">
+      <DisplayName>1 per Damipoli 1 - あたり1 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>4300</SortID>
+    </Field>
+    <Field Def="s16 hit2_DmyPoly1">
+      <DisplayName>2 per Damipoli 1 - あたり2 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>4800</SortID>
+    </Field>
+    <Field Def="s16 hit3_DmyPoly1">
+      <DisplayName>3 per Damipoli 1 - あたり3 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5300</SortID>
+    </Field>
+    <Field Def="s16 hit0_DmyPoly2">
+      <DisplayName>Per 0 Damipoli 2 - あたり0 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>3900</SortID>
+    </Field>
+    <Field Def="s16 hit1_DmyPoly2">
+      <DisplayName>1 per Damipoli 2 - あたり1 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>4400</SortID>
+    </Field>
+    <Field Def="s16 hit2_DmyPoly2">
+      <DisplayName>2 per Damipoli 2 - あたり2 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>4900</SortID>
+    </Field>
+    <Field Def="s16 hit3_DmyPoly2">
+      <DisplayName>3 per Damipoli 2 - あたり3 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5400</SortID>
+    </Field>
+    <Field Def="u16 blowingCorrection">
+      <DisplayName>Blow-off correction value - 吹き飛ばし補正値</DisplayName>
+      <Description>Correction value when blowing off - 吹き飛ばす時の補正値</Description>
+      <Maximum>60000</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="u16 atkPhysCorrection">
+      <DisplayName>Physical attack power correction value - 物理攻撃力補正値</DisplayName>
+      <Description>PC only. Multiplier by multiplying the basic physical attack power - PCのみ。物理攻撃力基本値に掛ける倍率</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="u16 atkMagCorrection">
+      <DisplayName>Magic attack power correction value - 魔法攻撃力補正値</DisplayName>
+      <Description>PC only. Multiply the magic attack power (in the case of a bow, correct the missile) - PCのみ。魔法攻撃力に掛ける倍率（弓の場合は、飛び道具を補正）</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="u16 atkFireCorrection">
+      <DisplayName>Fire attack power correction value - 炎攻撃力補正値</DisplayName>
+      <Description>PC only. Multiply the fire attack power (in the case of a bow, correct the missile) - PCのみ。炎攻撃力に掛ける倍率（弓の場合は、飛び道具を補正）</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="u16 atkThunCorrection">
+      <DisplayName>Electric shock attack power correction value - 電撃攻撃力補正値</DisplayName>
+      <Description>PC only. Multiplier for electric shock attack power (in the case of a bow, correct the missile) - PCのみ。電撃攻撃力に掛ける倍率（弓の場合は、飛び道具を補正）</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2510</SortID>
+    </Field>
+    <Field Def="u16 atkStamCorrection">
+      <DisplayName>Stamina attack power correction value - スタミナ攻撃力補正値</DisplayName>
+      <Description>PC only. Multiplier for stamina attack power - PCのみ。スタミナ攻撃力に掛ける倍率</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2600</SortID>
+    </Field>
+    <Field Def="u16 guardAtkRateCorrection">
+      <DisplayName>Repellent attack power correction value - はじき攻撃力補正値</DisplayName>
+      <Description>PC only. 1 only - PCのみ。1のみ</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2900</SortID>
+    </Field>
+    <Field Def="u16 guardBreakCorrection">
+      <DisplayName>Repellent defense correction value - はじき防御力補正値</DisplayName>
+      <Description>PC only. Multiplying the base value by the repelling of the attack - PCのみ。攻撃のはじかれ基本値に掛ける倍率</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u16 atkThrowEscapeCorrection">
+      <DisplayName>Throw-through attack power correction value - 投げ抜け攻撃力補正値</DisplayName>
+      <Description>Weapon correction value for throw-through attacks - 投げ抜け攻撃に対する武器補正値</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3630</SortID>
+    </Field>
+    <Field Def="u8 subCategory1">
+      <DisplayName>Subcategory 1 - サブカテゴリ1</DisplayName>
+      <Enum>ATK_SUB_CATEGORY</Enum>
+      <Description>Subcategory 1 - サブカテゴリ1</Description>
+      <SortID>3605</SortID>
+    </Field>
+    <Field Def="u8 subCategory2">
+      <DisplayName>Subcategory 2 - サブカテゴリ2</DisplayName>
+      <Enum>ATK_SUB_CATEGORY</Enum>
+      <Description>Subcategory 2 - サブカテゴリ2</Description>
+      <SortID>3606</SortID>
+    </Field>
+    <Field Def="u16 atkPhys">
+      <DisplayName>Physical attack power - 物理攻撃力</DisplayName>
+      <Description>NPCs only. Basic damage of physical attack - NPCのみ。物理攻撃の基本ダメージ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="u16 atkMag">
+      <DisplayName>Magic attack power - 魔法攻撃力</DisplayName>
+      <Description>NPCs only. Additional damage from magic attacks - NPCのみ。魔法攻撃の追加ダメージ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u16 atkFire">
+      <DisplayName>Fire attack power - 炎攻撃力</DisplayName>
+      <Description>NPCs only. Additional damage from fire attacks - NPCのみ。炎攻撃の追加ダメージ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="u16 atkThun">
+      <DisplayName>Electric shock attack power - 電撃攻撃力</DisplayName>
+      <Description>NPCs only. Additional damage from electric shock attacks - NPCのみ。電撃攻撃の追加ダメージ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="u16 atkStam">
+      <DisplayName>Stamina attack power - スタミナ攻撃力</DisplayName>
+      <Description>NPCs only. Amount of damage to enemy (player) stamina - NPCのみ。敵（プレイヤー）のスタミナに対するダメージ量</Description>
+      <Maximum>999</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="u16 guardAtkRate">
+      <DisplayName>Repellent attack power - はじき攻撃力</DisplayName>
+      <Description>NPCs only. Flick value - NPCのみ。はじき値</Description>
+      <Maximum>999</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="u16 guardBreakRate">
+      <DisplayName>Repellent defense - はじき防御力</DisplayName>
+      <Description>NPCs only. Value used to determine if an attack is repelled - NPCのみ。攻撃がはじかれるかどうかの判定に利用する値</Description>
+      <Maximum>999</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="dummy8 pad6[1]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>12001</SortID>
+    </Field>
+    <Field Def="u8 isEnableCalcDamageForBushesObj">
+      <DisplayName>Can damage bushes - 茂みにダメージ可</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Do you want to calculate damage for assets that are "Break due to bush damage"? To set. 〇: Calculate, ×: Do not calculate (that is, you cannot inflict damage) [GR] SEQ20617 - 「茂みダメージで壊れるか」ONのアセットに対してダメージ計算をするか？を設定します。〇：計算する、×：計算しない(つまりダメージをあたえることはできない)【GR】SEQ20617 </Description>
+      <Maximum>1</Maximum>
+      <SortID>2201</SortID>
+    </Field>
+    <Field Def="u16 atkThrowEscape">
+      <DisplayName>Throw-through attack power - 投げ抜け攻撃力</DisplayName>
+      <Description>Throw-through attack power - 投げ抜け攻撃力</Description>
+      <Maximum>999</Maximum>
+      <SortID>3640</SortID>
+    </Field>
+    <Field Def="u16 atkObj">
+      <DisplayName>Object attack power - オブジェ攻撃力</DisplayName>
+      <Description>Attack power against OBJ - ＯＢＪに対する攻撃力</Description>
+      <Maximum>999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s16 guardStaminaCutRate">
+      <DisplayName>Stamina cut rate correction when guarding - ガード時スタミナカット率補正</DisplayName>
+      <Description>Correct the [stamina cut rate when guarding] set in the weapon parameter and NPC parameter. - 武器パラメータ、ＮＰＣパラメータに設定されている【ガード時スタミナカット率】を補正する</Description>
+      <Minimum>-100</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>3200</SortID>
+    </Field>
+    <Field Def="s16 guardRate">
+      <DisplayName>Guard magnification - ガード倍率</DisplayName>
+      <Description>NPC, the guard performance set in the weapon parameter is uniformly corrected. 0, 1x / 100, 2x / -100, guard multiplier = (guard multiplier / 100) to increase / decrease the parameter to 0. + 1) - ＮＰＣ、武器パラメータで設定してあるガード性能を一律で補正を掛ける0で、1倍／100で、2倍／－100で、0　にパラメータが増減するようにするガード倍率　=　（ガード倍率/100　+　1）</Description>
+      <Minimum>-100</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>3500</SortID>
+    </Field>
+    <Field Def="u16 throwTypeId">
+      <DisplayName>Throw type ID - 投げタイプID</DisplayName>
+      <Description>ID associated with the throw parameter - 投げパラメータと紐付けされているID</Description>
+      <Maximum>9999</Maximum>
+      <SortID>3620</SortID>
+    </Field>
+    <Field Def="u8 hit0_hitType">
+      <DisplayName>0 parts per - あたり0 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>4100</SortID>
+    </Field>
+    <Field Def="u8 hit1_hitType">
+      <DisplayName>1 part per part - あたり1 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>4600</SortID>
+    </Field>
+    <Field Def="u8 hit2_hitType">
+      <DisplayName>2 parts per - あたり2 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="u8 hit3_hitType">
+      <DisplayName>3 parts per - あたり3 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5600</SortID>
+    </Field>
+    <Field Def="u8 hti0_Priority">
+      <DisplayName>0 Priority per - あたり0 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>4200</SortID>
+    </Field>
+    <Field Def="u8 hti1_Priority">
+      <DisplayName>1 priority per - あたり1 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>4700</SortID>
+    </Field>
+    <Field Def="u8 hti2_Priority">
+      <DisplayName>2 priorities per - あたり2 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5200</SortID>
+    </Field>
+    <Field Def="u8 hti3_Priority">
+      <DisplayName>3 priorities per - あたり3 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5700</SortID>
+    </Field>
+    <Field Def="u8 dmgLevel">
+      <DisplayName>Damage level - ダメージレベル</DisplayName>
+      <Description>Which damage motion should be played against the enemy when attacking? To decide. - 攻撃したとき、敵にどのダメージモーションを再生するか？を決める.</Description>
+      <Maximum>100</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 mapHitType">
+      <DisplayName>See per map - マップあたり参照</DisplayName>
+      <Enum>ATK_PARAM_MAP_HIT</Enum>
+      <Description>Which map do you see around the attack? The set - 攻撃あたりが、どのマップあたりを見るか？を設定</Description>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s8 guardCutCancelRate">
+      <DisplayName>Guard cut rate invalidation factor - ガードカット率無効化倍率</DisplayName>
+      <Description>Guard cut rate invalidation ratio (-100 to 100) → Normal at 0 / Completely invalidated at -100 / Doubles the defense effect of the opponent at 100 → -50, 100% cut shield becomes 50% cut Become  - ガードカット率無効化倍率（－100～100）　→0のとき通常／－100で完全無効化／100で相手の防御効果倍増 　→－50とすれば、100％カットの盾が、50％カットになります </Description>
+      <Minimum>-100</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="u8 atkAttribute">
+      <DisplayName>Physical attributes - 物理属性</DisplayName>
+      <Enum>ATKPARAM_ATKATTR_TYPE</Enum>
+      <Description>Physical attributes to set for attacks - 攻撃に設定する物理属性</Description>
+      <SortID>1510</SortID>
+    </Field>
+    <Field Def="u8 spAttribute">
+      <DisplayName>Special attributes - 特殊属性</DisplayName>
+      <Enum>ATKPARAM_SPATTR_TYPE</Enum>
+      <Description>Special attributes to set for attacks - 攻撃に設定する特殊属性</Description>
+      <SortID>1520</SortID>
+    </Field>
+    <Field Def="u8 atkType">
+      <DisplayName>Attack attribute [SFX / SE] - 攻撃属性[SFX/SE]</DisplayName>
+      <Enum>BEHAVIOR_ATK_TYPE</Enum>
+      <Description>Specify SFX / SE at the time of attack (1 set by attribute, material, size) - 攻撃時のSFX/SEを指定(属性、材質、サイズで1セット)</Description>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="u8 atkMaterial">
+      <DisplayName>Attack material [SFX / SE] - 攻撃材質[SFX/SE]</DisplayName>
+      <Enum>WEP_MATERIAL_ATK</Enum>
+      <Description>Specify SFX / SE at the time of attack (1 set by attribute, material, size) - 攻撃時のSFX/SEを指定(属性、材質、サイズで1セット)</Description>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="u8 guardRangeType">
+      <DisplayName>Guard judgment position - ガード判定位置</DisplayName>
+      <Enum>ATKPARAM_GUARD_RANGE_TYPE</Enum>
+      <Description>Guard judgment position - ガード判定位置</Description>
+      <Maximum>1</Maximum>
+      <SortID>3350</SortID>
+    </Field>
+    <Field Def="u16 defSeMaterial1">
+      <DisplayName>Defensive material 1 [SE] - 防御材質1[SE]</DisplayName>
+      <Enum>WEP_MATERIAL_DEF</Enum>
+      <Description>Used for SE when guarding 1 - ガード時のSEに使用1</Description>
+      <Maximum>9999</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 hitSourceType">
+      <DisplayName>Source per - あたり発生源</DisplayName>
+      <Enum>ATK_PARAM_HIT_SOURCE</Enum>
+      <Description>Where do you get the Damipoli ID per attack? To specify - 攻撃あたりのダミポリＩＤをどこから取ってくるか？を指定する</Description>
+      <SortID>3700</SortID>
+    </Field>
+    <Field Def="u8 throwFlag">
+      <DisplayName>Throw - 投げ</DisplayName>
+      <Enum>ATK_PATAM_THROWFLAG_TYPE</Enum>
+      <Description>Flag used for throwing information - 投げ情報に用いるフラグ</Description>
+      <SortID>3610</SortID>
+    </Field>
+    <Field Def="u8 disableGuard:1">
+      <DisplayName>Unguardable flag - ガード不可フラグ</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>If 1, ignore the guard on the guard side and enter the damage level - 1の場合、ガード側のガードを無視して、ダメージレベルを入れる</Description>
+      <Maximum>1</Maximum>
+      <SortID>3300</SortID>
+    </Field>
+    <Field Def="u8 disableStaminaAttack:1">
+      <DisplayName>Stamina does not decrease - スタミナ減らない</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>"Destruction judgment" is performed by stamina attack power, but stamina is not actually reduced. - スタミナ攻撃力による「崩され判定」は行うが、実際にスタミナは減らさない</Description>
+      <Maximum>1</Maximum>
+      <SortID>3400</SortID>
+    </Field>
+    <Field Def="u8 disableHitSpEffect:1">
+      <DisplayName>Special effects disabled on hit - ヒット時特殊効果無効</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Disables special effects when an attack hits. SCE bug countermeasures - 攻撃ヒットしたときの特殊効果を無効にします。SCEバグ対策</Description>
+      <Maximum>1</Maximum>
+      <SortID>3600</SortID>
+    </Field>
+    <Field Def="u8 IgnoreNotifyMissSwingForAI:1">
+      <DisplayName>Do not notify AI of missed swing - AIに空振り通知しない</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Do not notify AI of missed swing - AIに空振り通知しない</Description>
+      <Maximum>1</Maximum>
+      <SortID>6200</SortID>
+    </Field>
+    <Field Def="u8 repeatHitSfx:1">
+      <DisplayName>Do you issue SFX many times during HIT? - ＨＩＴ時にＳＦＸを何度も出すか</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Enemy only: Does SFX occur continuously when hitting a wall? - 敵専用：壁Hit時のSFXが連続で発生するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>2010</SortID>
+    </Field>
+    <Field Def="u8 isArrowAtk:1">
+      <DisplayName>Is it an arrow attack? - 矢攻撃か</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Used for site damage judgment. - 部位ダメージ判定に使用する。</Description>
+      <Maximum>1</Maximum>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="u8 isGhostAtk:1">
+      <DisplayName>Is it a ghost attack? - 霊体攻撃か</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Used for determining spirit damage. - 霊体ダメージ判定に使用。</Description>
+      <Maximum>1</Maximum>
+      <SortID>320</SortID>
+    </Field>
+    <Field Def="u8 isDisableNoDamage:1">
+      <DisplayName>Do you penetrate invincible - 無敵を貫通するか</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Ignore invincible effects such as steps, TAE's complete invincibility cannot be ignored. - ステップ等の無敵効果を無視します、TAEの完全無敵は無視できません。</Description>
+      <Maximum>1</Maximum>
+      <SortID>330</SortID>
+    </Field>
+    <Field Def="s8 atkPow_forSfx">
+      <DisplayName>Attack strength [SFX] - 攻撃強度[SFX]</DisplayName>
+      <Enum>ATKPARAM_SFX_ATK_POW</Enum>
+      <Description>Attack strength [SFX] - 攻撃強度[SFX]</Description>
+      <Minimum>0</Minimum>
+      <SortID>1710</SortID>
+    </Field>
+    <Field Def="s8 atkDir_forSfx">
+      <DisplayName>Attack direction [SFX] - 攻撃方向[SFX]</DisplayName>
+      <Enum>ATKPARAM_SFX_ATK_DIR</Enum>
+      <Description>Attack direction [SFX] - 攻撃方向[SFX]</Description>
+      <Minimum>0</Minimum>
+      <SortID>1720</SortID>
+    </Field>
+    <Field Def="u8 opposeTarget:1 = 1">
+      <DisplayName>Target: ● Hostile - 対象：●敵対</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Target: ● Hostile - 対象：●敵対</Description>
+      <Maximum>1</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 friendlyTarget:1">
+      <DisplayName>Target: ○ Allies - 対象：○味方</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Target: ○ Allies - 対象：○味方</Description>
+      <Maximum>1</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="u8 selfTarget:1">
+      <DisplayName>Target: myself - 対象：自分</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Target: myself - 対象：自分</Description>
+      <Maximum>1</Maximum>
+      <SortID>220</SortID>
+    </Field>
+    <Field Def="u8 isCheckDoorPenetration:1">
+      <DisplayName>Do you want to check the door penetration? - 扉貫通チェックを行うか</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Whether to check the door penetration. In the case of ○, it is judged whether or not the target through the door can be attacked. - 扉貫通チェックを行うかどうか。○の場合は扉越しの対象を攻撃できるかどうかの判定を行います。</Description>
+      <Maximum>1</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u8 isVsRideAtk:1">
+      <DisplayName>Is it a riding special attack? - 騎乗特攻か</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>If you hit the target of the riding special attack while riding, the SA damage will be multiplied by the multiplier. - 騎乗中の騎乗特攻対象に攻撃を当てた場合、SAダメージに倍率補正が掛かる</Description>
+      <Maximum>1</Maximum>
+      <SortID>325</SortID>
+    </Field>
+    <Field Def="u8 isAddBaseAtk:1">
+      <DisplayName>Do you refer to the additional attack power even in weapon attacks? - 武器攻撃でも加算攻撃力を参照するか</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Do you refer to the additional attack power even in weapon attacks? - 武器攻撃でも加算攻撃力を参照するか</Description>
+      <Maximum>1</Maximum>
+      <SortID>11000</SortID>
+    </Field>
+    <Field Def="u8 excludeThreatLvNotify:1">
+      <DisplayName>Is it excluded from threat level notification? - 脅威度通知対象除外か</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Is it excluded from threat level notification? - 脅威度通知対象除外か</Description>
+      <Maximum>1</Maximum>
+      <SortID>12000</SortID>
+    </Field>
+    <Field Def="dummy8 pad1:1">
+      <DisplayName>pad1 - pad1</DisplayName>
+      <SortID>12002</SortID>
+    </Field>
+    <Field Def="u8 atkBehaviorId">
+      <DisplayName>Behavior identification value 1 - Behavior用識別値1</DisplayName>
+      <Enum>ATKPARAM_BEHAVIOR_ID</Enum>
+      <Description>Behavior identification value: Extra large damage transition - Behavior用識別値：特大ダメージ遷移</Description>
+      <SortID>9000</SortID>
+    </Field>
+    <Field Def="s8 atkPow_forSe">
+      <DisplayName>Attack strength [SE] - 攻撃強度[SE]</DisplayName>
+      <Enum>ATKPARAM_SE_ATK_POW</Enum>
+      <Description>Attack strength [SE] - 攻撃強度[SE]</Description>
+      <Minimum>0</Minimum>
+      <SortID>1711</SortID>
+    </Field>
+    <Field Def="f32 atkSuperArmor">
+      <DisplayName>SA attack power - SA攻撃力</DisplayName>
+      <Description>NPCs only. Value used for SA break calculation formula - NPCのみ。SAブレイク計算式に利用すする値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1310</SortID>
+    </Field>
+    <Field Def="s32 decalId1 = -1">
+      <DisplayName>Decal ID 1 (directly specified) - デカールID1（直接指定）</DisplayName>
+      <Description>Decal ID 1 (directly specified) - デカールID1（直接指定）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s32 decalId2 = -1">
+      <DisplayName>Decal ID 2 (directly specified) - デカールID2（直接指定）</DisplayName>
+      <Description>Decal ID 2 (directly specified) - デカールID2（直接指定）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2110</SortID>
+    </Field>
+    <Field Def="s32 AppearAiSoundId">
+      <DisplayName>AI sound ID when it occurs - 発生時AI音ID</DisplayName>
+      <Description>ID of AI sound generated when an attack occurs - 攻撃発生時に発生させるAI音のID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="s32 HitAiSoundId">
+      <DisplayName>AI sound ID on hit - ヒット時AI音ID</DisplayName>
+      <Description>ID of AI sound generated at the time of hit - ヒット時に発生させるAI音のID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="s32 HitRumbleId = -1">
+      <DisplayName>Vibration effect on hit (-1 invalid) - ヒット時振動効果(-1無効)</DisplayName>
+      <Description>Vibration ID at the time of hit (-1 invalid). It is a vibration ID when none of the following three applies - ヒット時の振動ID（-1無効）。次の3つのどれにも当てはまらない時の振動IDとなる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>6120</SortID>
+    </Field>
+    <Field Def="s32 HitRumbleIdByNormal = -1">
+      <DisplayName>Vibration ID when the tip hits - 先端ヒット時振動ID</DisplayName>
+      <Description>Vibration ID at the time of hit when hitting the tip (-1 invalid) - 先端にヒットした時のヒット時振動ID（-1無効）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>6130</SortID>
+    </Field>
+    <Field Def="s32 HitRumbleIdByMiddle = -1">
+      <DisplayName>Vibration ID when hit in the middle - 真ん中ヒット時振動ID</DisplayName>
+      <Description>Vibration ID at the time of hit when hit in the middle (-1 invalid) - 真ん中にヒットした時のヒット時振動ID（-1無効）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>6140</SortID>
+    </Field>
+    <Field Def="s32 HitRumbleIdByRoot = -1">
+      <DisplayName>Vibration ID at the time of root hit - 根本ヒット時振動ID</DisplayName>
+      <Description>Vibration ID at the time of hit when hitting the root (-1 invalid) - 根本にヒットした時のヒット時振動ID（-1無効）</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>6150</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId0 = -1">
+      <DisplayName>Sword Flash SfxID_0 - 剣閃SfxID_０</DisplayName>
+      <Description>Sword flash SfxID_0 (-1 invalid) - 剣閃SfxID_０(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead0 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_0 - 根元剣閃ダミポリID_０</DisplayName>
+      <Description>Sword flash root Damipoli ID_0 (-1 invalid) - 剣閃根元ダミポリID_０(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8001</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail0 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_0 - 剣先剣閃ダミポリID_０</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_0 - 剣閃剣先ダミポリID_０</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8002</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId1 = -1">
+      <DisplayName>Sword Flash SfxID_1 - 剣閃SfxID_１</DisplayName>
+      <Description>Sword flash SfxID_1 (-1 invalid) - 剣閃SfxID_１(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8003</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead1 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_1 - 根元剣閃ダミポリID_１</DisplayName>
+      <Description>Sword Flash Root Damipoli ID_1 (-1 invalid) - 剣閃根元ダミポリID_１(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8004</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail1 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_1 - 剣先剣閃ダミポリID_１</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_1 - 剣閃剣先ダミポリID_１</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8005</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId2 = -1">
+      <DisplayName>Sword Flash SfxID_2 - 剣閃SfxID_２</DisplayName>
+      <Description>Sword flash SfxID_2 (-1 invalid) - 剣閃SfxID_２(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8006</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead2 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_2 - 根元剣閃ダミポリID_２</DisplayName>
+      <Description>Sword Flash Root Damipoli ID_2 (-1 invalid) - 剣閃根元ダミポリID_２(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8007</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail2 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_2 - 剣先剣閃ダミポリID_２</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_2 - 剣閃剣先ダミポリID_２</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8008</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId3 = -1">
+      <DisplayName>Sword Flash SfxID_3 - 剣閃SfxID_３</DisplayName>
+      <Description>Sword Flash SfxID_3 (-1 invalid) - 剣閃SfxID_３(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8009</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead3 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_3 - 根元剣閃ダミポリID_３</DisplayName>
+      <Description>Sword flash root Damipoli ID_3 (-1 invalid) - 剣閃根元ダミポリID_３(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8010</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail3 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_3 - 剣先剣閃ダミポリID_３</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_3 - 剣閃剣先ダミポリID_３</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8011</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId4 = -1">
+      <DisplayName>Sword Flash SfxID_4 - 剣閃SfxID_４</DisplayName>
+      <Description>Sword Flash SfxID_4 (-1 invalid) - 剣閃SfxID_４(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8012</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead4 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_4 - 根元剣閃ダミポリID_４</DisplayName>
+      <Description>Sword flash root Damipoli ID_4 (-1 invalid) - 剣閃根元ダミポリID_４(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8013</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail4 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_4 - 剣先剣閃ダミポリID_４</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_4 - 剣閃剣先ダミポリID_４</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8014</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId5 = -1">
+      <DisplayName>Sword Flash SfxID_5 - 剣閃SfxID_５</DisplayName>
+      <Description>Sword Flash SfxID_5 (-1 invalid) - 剣閃SfxID_５(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8015</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead5 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_5 - 根元剣閃ダミポリID_５</DisplayName>
+      <Description>Sword Flash Root Damipoli ID_5 (-1 invalid) - 剣閃根元ダミポリID_５(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8016</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail5 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_5 - 剣先剣閃ダミポリID_５</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_5 - 剣閃剣先ダミポリID_５</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8017</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId6 = -1">
+      <DisplayName>Sword Flash SfxID_6 - 剣閃SfxID_６</DisplayName>
+      <Description>Sword Flash SfxID_6 (-1 invalid) - 剣閃SfxID_６(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8018</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead6 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_6 - 根元剣閃ダミポリID_６</DisplayName>
+      <Description>Sword Flash Root Damipoli ID_6 (-1 invalid) - 剣閃根元ダミポリID_６(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8019</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail6 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_6 - 剣先剣閃ダミポリID_６</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_6 - 剣閃剣先ダミポリID_６</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8020</SortID>
+    </Field>
+    <Field Def="s32 traceSfxId7 = -1">
+      <DisplayName>Sword Flash SfxID_7 - 剣閃SfxID_７</DisplayName>
+      <Description>Sword Flash SfxID_7 (-1 invalid) - 剣閃SfxID_７(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8021</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdHead7 = -1">
+      <DisplayName>Root Sword Flash Damipoli ID_7 - 根元剣閃ダミポリID_７</DisplayName>
+      <Description>Sword Flash Root Damipoli ID_7 (-1 invalid) - 剣閃根元ダミポリID_７(-1無効)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8022</SortID>
+    </Field>
+    <Field Def="s32 traceDmyIdTail7 = -1">
+      <DisplayName>Sword tip sword flash Damipoli ID_7 - 剣先剣閃ダミポリID_７</DisplayName>
+      <Description>Sword Flash Sword Tip Damipoli ID_7 - 剣閃剣先ダミポリID_７</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>8023</SortID>
+    </Field>
+    <Field Def="f32 hit4_Radius">
+      <DisplayName>4 radii per - あたり4 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5703</SortID>
+    </Field>
+    <Field Def="f32 hit5_Radius">
+      <DisplayName>5 radii per - あたり5 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5708</SortID>
+    </Field>
+    <Field Def="f32 hit6_Radius">
+      <DisplayName>6 radii per - あたり6 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5713</SortID>
+    </Field>
+    <Field Def="f32 hit7_Radius">
+      <DisplayName>7 radii per - あたり7 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5718</SortID>
+    </Field>
+    <Field Def="f32 hit8_Radius">
+      <DisplayName>8 radii per - あたり8 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5723</SortID>
+    </Field>
+    <Field Def="f32 hit9_Radius">
+      <DisplayName>9 radii per - あたり9 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5728</SortID>
+    </Field>
+    <Field Def="f32 hit10_Radius">
+      <DisplayName>10 radii per - あたり10 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5733</SortID>
+    </Field>
+    <Field Def="f32 hit11_Radius">
+      <DisplayName>11 radii per - あたり11 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5738</SortID>
+    </Field>
+    <Field Def="f32 hit12_Radius">
+      <DisplayName>12 radii per - あたり12 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5743</SortID>
+    </Field>
+    <Field Def="f32 hit13_Radius">
+      <DisplayName>13 radii per - あたり13 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5748</SortID>
+    </Field>
+    <Field Def="f32 hit14_Radius">
+      <DisplayName>14 radii per - あたり14 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5753</SortID>
+    </Field>
+    <Field Def="f32 hit15_Radius">
+      <DisplayName>15 radii per - あたり15 半径</DisplayName>
+      <Description>Sphere, capsule radius - 球、カプセルの半径</Description>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>5758</SortID>
+    </Field>
+    <Field Def="s16 hit4_DmyPoly1">
+      <DisplayName>4 per Damipoli 1 - あたり4 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5701</SortID>
+    </Field>
+    <Field Def="s16 hit5_DmyPoly1">
+      <DisplayName>5 per Damipoli 1 - あたり5 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5706</SortID>
+    </Field>
+    <Field Def="s16 hit6_DmyPoly1">
+      <DisplayName>6 per Damipoli 1 - あたり6 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5711</SortID>
+    </Field>
+    <Field Def="s16 hit7_DmyPoly1">
+      <DisplayName>7 per Damipoli 1 - あたり7 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5716</SortID>
+    </Field>
+    <Field Def="s16 hit8_DmyPoly1">
+      <DisplayName>8 Damipoli per 1 - あたり8ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5721</SortID>
+    </Field>
+    <Field Def="s16 hit9_DmyPoly1">
+      <DisplayName>9 per Damipoli 1 - あたり9 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5726</SortID>
+    </Field>
+    <Field Def="s16 hit10_DmyPoly1">
+      <DisplayName>10 per Damipoli 1 - あたり10 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5731</SortID>
+    </Field>
+    <Field Def="s16 hit11_DmyPoly1">
+      <DisplayName>Per 11 Damipoli 1 - あたり11 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5736</SortID>
+    </Field>
+    <Field Def="s16 hit12_DmyPoly1">
+      <DisplayName>12 per Damipoli 1 - あたり12 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5741</SortID>
+    </Field>
+    <Field Def="s16 hit13_DmyPoly1">
+      <DisplayName>13 Damipoli per 1 - あたり13ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5746</SortID>
+    </Field>
+    <Field Def="s16 hit14_DmyPoly1">
+      <DisplayName>Per 14 Damipoli 1 - あたり14 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5751</SortID>
+    </Field>
+    <Field Def="s16 hit15_DmyPoly1">
+      <DisplayName>15 per Damipoli 1 - あたり15 ダミポリ1</DisplayName>
+      <Description>Damipoli in sphere, capsule position - 球、カプセル位置のダミポリ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5756</SortID>
+    </Field>
+    <Field Def="s16 hit4_DmyPoly2">
+      <DisplayName>4 per Damipoli 2 - あたり4 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5702</SortID>
+    </Field>
+    <Field Def="s16 hit5_DmyPoly2">
+      <DisplayName>5 Damipoli 2 per - あたり5ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5707</SortID>
+    </Field>
+    <Field Def="s16 hit6_DmyPoly2">
+      <DisplayName>6 Damipoli 2 per - あたり6ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5712</SortID>
+    </Field>
+    <Field Def="s16 hit7_DmyPoly2">
+      <DisplayName>7 Damipoli 2 per - あたり7ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5717</SortID>
+    </Field>
+    <Field Def="s16 hit8_DmyPoly2">
+      <DisplayName>8 per Damipoli 2 - あたり8 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5722</SortID>
+    </Field>
+    <Field Def="s16 hit9_DmyPoly2">
+      <DisplayName>9 Damipoli per 2 - あたり9ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5727</SortID>
+    </Field>
+    <Field Def="s16 hit10_DmyPoly2">
+      <DisplayName>10 per Damipoli 2 - あたり10 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5732</SortID>
+    </Field>
+    <Field Def="s16 hit11_DmyPoly2">
+      <DisplayName>Per 11 Damipoli 2 - あたり11 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5737</SortID>
+    </Field>
+    <Field Def="s16 hit12_DmyPoly2">
+      <DisplayName>12 per Damipoli 2 - あたり12 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5742</SortID>
+    </Field>
+    <Field Def="s16 hit13_DmyPoly2">
+      <DisplayName>Per 13 Damipoli 2 - あたり13 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5747</SortID>
+    </Field>
+    <Field Def="s16 hit14_DmyPoly2">
+      <DisplayName>Per 14 Damipoli 2 - あたり14 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5752</SortID>
+    </Field>
+    <Field Def="s16 hit15_DmyPoly2">
+      <DisplayName>15 per Damipoli 2 - あたり15 ダミポリ2</DisplayName>
+      <Description>The position of another point on the capsule Damipoli. -1 makes it a sphere - カプセルのもうひとつの点の位置ダミポリ。-1だと球になる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>31999</Maximum>
+      <SortID>5757</SortID>
+    </Field>
+    <Field Def="u8 hit4_hitType">
+      <DisplayName>4 parts per - あたり4 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5704</SortID>
+    </Field>
+    <Field Def="u8 hit5_hitType">
+      <DisplayName>5 parts per - あたり5 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5709</SortID>
+    </Field>
+    <Field Def="u8 hit6_hitType">
+      <DisplayName>6 parts per - あたり6 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5714</SortID>
+    </Field>
+    <Field Def="u8 hit7_hitType">
+      <DisplayName>7 parts per - あたり7 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5719</SortID>
+    </Field>
+    <Field Def="u8 hit8_hitType">
+      <DisplayName>8 parts per - あたり8 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5724</SortID>
+    </Field>
+    <Field Def="u8 hit9_hitType">
+      <DisplayName>9 parts per - あたり9 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5729</SortID>
+    </Field>
+    <Field Def="u8 hit10_hitType">
+      <DisplayName>10 parts per - あたり10 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5734</SortID>
+    </Field>
+    <Field Def="u8 hit11_hitType">
+      <DisplayName>11 parts per - あたり11 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5739</SortID>
+    </Field>
+    <Field Def="u8 hit12_hitType">
+      <DisplayName>12 parts per - あたり12 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5744</SortID>
+    </Field>
+    <Field Def="u8 hit13_hitType">
+      <DisplayName>13 parts per - あたり13 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5749</SortID>
+    </Field>
+    <Field Def="u8 hit14_hitType">
+      <DisplayName>14 parts per - あたり14 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5754</SortID>
+    </Field>
+    <Field Def="u8 hit15_hitType">
+      <DisplayName>15 parts per - あたり15 部位</DisplayName>
+      <Enum>ATK_PARAM_HIT_TYPE</Enum>
+      <Description>Hit part - あたり部位</Description>
+      <SortID>5759</SortID>
+    </Field>
+    <Field Def="u8 hti4_Priority">
+      <DisplayName>4 priorities per - あたり4 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5705</SortID>
+    </Field>
+    <Field Def="u8 hti5_Priority">
+      <DisplayName>5 priorities per - あたり5 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5710</SortID>
+    </Field>
+    <Field Def="u8 hti6_Priority">
+      <DisplayName>6 priorities per - あたり6 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5715</SortID>
+    </Field>
+    <Field Def="u8 hti7_Priority">
+      <DisplayName>7 priorities per - あたり7 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5720</SortID>
+    </Field>
+    <Field Def="u8 hti8_Priority">
+      <DisplayName>8 priorities per - あたり8 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5725</SortID>
+    </Field>
+    <Field Def="u8 hti9_Priority">
+      <DisplayName>9 priorities per - あたり9 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5730</SortID>
+    </Field>
+    <Field Def="u8 hti10_Priority">
+      <DisplayName>10 priorities per - あたり10 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5735</SortID>
+    </Field>
+    <Field Def="u8 hti11_Priority">
+      <DisplayName>11 priorities per - あたり11 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5740</SortID>
+    </Field>
+    <Field Def="u8 hti12_Priority">
+      <DisplayName>12 priorities per - あたり12 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5745</SortID>
+    </Field>
+    <Field Def="u8 hti13_Priority">
+      <DisplayName>13 priorities per - あたり13 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5750</SortID>
+    </Field>
+    <Field Def="u8 hti14_Priority">
+      <DisplayName>14 priorities per - あたり14 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5755</SortID>
+    </Field>
+    <Field Def="u8 hti15_Priority">
+      <DisplayName>15 priorities per - あたり15 優先順位</DisplayName>
+      <Description>priority. If there are two or more hits at the same time, the one with the higher priority will be adopted. - 優先度。同時に2つ以上のあたりがあたった場合、優先度が高いほうを採用する。</Description>
+      <EditFlags>Wrap, Lock</EditFlags>
+      <SortID>5760</SortID>
+    </Field>
+    <Field Def="u16 defSfxMaterial1">
+      <DisplayName>Defensive material 1 [SFX] - 防御材質1[SFX]</DisplayName>
+      <Enum>WEP_MATERIAL_DEF_SFX</Enum>
+      <Description>Used for SFX when guarding. 1 - ガード時のSFXに使用.1</Description>
+      <Maximum>9999</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="u16 defSeMaterial2">
+      <DisplayName>Defensive material 2 [SE] - 防御材質2[SE]</DisplayName>
+      <Enum>WEP_MATERIAL_DEF</Enum>
+      <Description>Used for SE when guarding 2 - ガード時のSEに使用2</Description>
+      <Maximum>9999</Maximum>
+      <SortID>2001</SortID>
+    </Field>
+    <Field Def="u16 defSfxMaterial2">
+      <DisplayName>Defensive material 2 [SFX] - 防御材質2[SFX]</DisplayName>
+      <Enum>WEP_MATERIAL_DEF_SFX</Enum>
+      <Description>Used for SFX when guarding. 2 - ガード時のSFXに使用.2</Description>
+      <Maximum>9999</Maximum>
+      <SortID>1801</SortID>
+    </Field>
+    <Field Def="u16 atkDarkCorrection">
+      <DisplayName>Dark attack power correction value - 闇攻撃力補正値</DisplayName>
+      <Description>PC only. Multiply the dark attack power (in the case of a bow, correct the missile) - PCのみ。闇攻撃力に掛ける倍率（弓の場合は、飛び道具を補正）</Description>
+      <Maximum>60000</Maximum>
+      <SortID>2520</SortID>
+    </Field>
+    <Field Def="u16 atkDark">
+      <DisplayName>Dark attack power - 闇攻撃力</DisplayName>
+      <Description>NPCs only. Additional damage from dark attacks - NPCのみ。闇攻撃の追加ダメージ</Description>
+      <Maximum>9999</Maximum>
+      <SortID>820</SortID>
+    </Field>
+    <Field Def="dummy8 pad5:1">
+      <DisplayName>pad - pad</DisplayName>
+      <Description>pad - pad</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>12003</SortID>
+    </Field>
+    <Field Def="u8 isDisableParry:1 = 1">
+      <DisplayName>Attack contact parry judgment invalid - 攻撃接触パリィ判定無効</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>This is a flag to disable the new parry control. A process that determines that the damage on the attacking side has been parried when it comes into contact with a character in the parry state on the defending side. - 新パリィ制御を無効化するかどうかのフラグです。攻撃側のダメージが、防御側でパリィ状態のキャラに接触した場合にパリィされたと判定する処理。</Description>
+      <Maximum>1</Maximum>
+      <SortID>1450</SortID>
+    </Field>
+    <Field Def="u8 isDisableBothHandsAtkBonus:1">
+      <DisplayName>Is the attack power bonus invalid when holding both hands? - 両手持ち時攻撃力ボーナス無効か</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>Avoid using the 1.5x growth status adaptation with both hands - 両手時の成長ステータス1.5倍適応を使わないようにする</Description>
+      <Maximum>1</Maximum>
+      <SortID>450</SortID>
+    </Field>
+    <Field Def="u8 isInvalidatedByNoDamageInAir:1">
+      <DisplayName>Will it be disabled with limited invincibility (only in the air)? - 限定無敵（空中のみ）で無効化されるか</DisplayName>
+      <Enum>ATK_PARAM_BOOL</Enum>
+      <Description>If "Do you want to penetrate invincibility" is ◯, this setting will be ignored. - 「無敵を貫通するか」が◯の場合、この設定は無視されます</Description>
+      <Maximum>1</Maximum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="dummy8 pad2:4">
+      <DisplayName>pad1 - pad1</DisplayName>
+      <SortID>12004</SortID>
+    </Field>
+    <Field Def="s8 dmgLevel_vsPlayer">
+      <DisplayName>Damage level vs. player - ダメージレベル 対プレイヤー</DisplayName>
+      <Enum>ATKPARAM_REP_DMGTYPE</Enum>
+      <Description>Damage level to the player. If it is "0 (default)", it is not used. The meaning of the range other than "0 (default)" is the same as "Damage level". - プレイヤーに対するダメージレベル。“0(デフォルト)”であれば使わない。“0(デフォルト)”以外の値域の意味は、《ダメージレベル》と同じ。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>12</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="u16 statusAilmentAtkPowerCorrectRate = 100">
+      <DisplayName>Abnormal state attack power magnification correction - 状態異常攻撃力倍率補正</DisplayName>
+      <Description>Magnification correction is performed for the abnormal state attack power of special effects. - 特殊効果の状態異常攻撃力に対して、倍率補正を行う。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3120</SortID>
+    </Field>
+    <Field Def="u16 spEffectAtkPowerCorrectRate_byPoint = 100">
+      <DisplayName>Special effects attack power multiplier correction (attack power points) - 特殊効果攻撃力倍率補正（攻撃力ポイント）</DisplayName>
+      <Description>Magnification correction is performed for the special effect ~ ~ attack power [point]. - 特殊効果の～～攻撃力[point]に対して、倍率補正を行う。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3122</SortID>
+    </Field>
+    <Field Def="u16 spEffectAtkPowerCorrectRate_byRate = 100">
+      <DisplayName>Special effect attack power multiplier correction (attack power multiplier) - 特殊効果攻撃力倍率補正（攻撃力倍率）</DisplayName>
+      <Description>Magnification is corrected for the special effect's attack power multiplier. - 特殊効果の～～攻撃力倍率に対して、倍率補正を行う。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3123</SortID>
+    </Field>
+    <Field Def="u16 spEffectAtkPowerCorrectRate_byDmg = 100">
+      <DisplayName>Special effect attack power multiplier correction (final attack power multiplier) - 特殊効果攻撃力倍率補正（最終攻撃力倍率）</DisplayName>
+      <Description>Attack side of special effect: ~ ~ Performs magnification correction for damage multiplier. - 特殊効果の攻撃側：～～ダメージ倍率に対して、倍率補正を行う。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3124</SortID>
+    </Field>
+    <Field Def="u8 atkBehaviorId_2">
+      <DisplayName>Behavior identification value 2 - Behavior用識別値2</DisplayName>
+      <Enum>ATKPARAM_BEHAVIOR_ID</Enum>
+      <Description>Behavior identification value: Plays damage motion only at specific times - Behavior用識別値：特定の時だけダメージモーションを再生する </Description>
+      <SortID>9010</SortID>
+    </Field>
+    <Field Def="u8 throwDamageAttribute">
+      <DisplayName>Throw damage attribute - 投げダメージ属性</DisplayName>
+      <Enum>ATKPARAM_THROWATTR_TYPE</Enum>
+      <Description>Attribute of throw damage of attack judgment. Corresponding special effects will be applied. It works only when the attack ATK_PATAM_THROWFLAG_TYPE is "2: Throw". - 攻撃判定の投げダメージの属性。対応する特殊効果がかかるようになる。攻撃のATK_PATAM_THROWFLAG_TYPEが「2：投げ」の場合にのみ、機能を発揮する</Description>
+      <Maximum>1</Maximum>
+      <SortID>3625</SortID>
+    </Field>
+    <Field Def="u16 statusAilmentAtkPowerCorrectRate_byPoint = 100">
+      <DisplayName>Special effect status abnormality correction (attack power point) - 特殊効果状態異常補正（攻撃力ポイント）</DisplayName>
+      <Description>Magnification correction is performed for the special effect "Whether to apply the abnormal state attack power magnification correction". - 特殊効果の「状態異常攻撃力倍率補正を適応するか」に対して、倍率補正を行う。</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3121</SortID>
+    </Field>
+    <Field Def="s32 overwriteAttackElementCorrectId = -1">
+      <DisplayName>Attack attribute correction ID overwrite - 攻撃属性補正ID上書き</DisplayName>
+      <Description>For overwriting the ID of the parameter that corrects the attack attribute - 攻撃属性を補正するパラメータのID上書き用</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="s16 decalBaseId1 = -1">
+      <DisplayName>Decal identifier 1 - デカール識別子1</DisplayName>
+      <Description>Decal identifier 1 (3 digits) - デカール識別子1(3桁)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>2120</SortID>
+    </Field>
+    <Field Def="s16 decalBaseId2 = -1">
+      <DisplayName>Decal identifier 2 - デカール識別子2</DisplayName>
+      <Description>Decal identifier 2 (3 digits) - デカール識別子2(3桁)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>2130</SortID>
+    </Field>
+    <Field Def="u16 wepRegainHpScale = 100">
+      <DisplayName>Weapon regain amount correction value - 武器リゲイン量補正値</DisplayName>
+      <Description>Weapon regain amount correction value - 武器リゲイン量補正値</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3150</SortID>
+    </Field>
+    <Field Def="u16 atkRegainHp">
+      <DisplayName>Amount of attack regain - 攻撃リゲイン量</DisplayName>
+      <Description>Amount of attack regain - 攻撃リゲイン量</Description>
+      <Maximum>60000</Maximum>
+      <SortID>3151</SortID>
+    </Field>
+    <Field Def="f32 regainableTimeScale = 1">
+      <DisplayName>Regainable time correction factor - リゲイン可能時間補正倍率</DisplayName>
+      <Description>Regainable time correction factor - リゲイン可能時間補正倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>3160</SortID>
+    </Field>
+    <Field Def="f32 regainableHpRateScale = 1">
+      <DisplayName>Regainable rate correction factor - リゲイン可能率補正倍率</DisplayName>
+      <Description>Regainable rate correction factor - リゲイン可能率補正倍率</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>3170</SortID>
+    </Field>
+    <Field Def="s8 regainableSlotId = -1">
+      <DisplayName>Same attack judgment ID - 同一攻撃判定ID</DisplayName>
+      <Description>Same attack judgment ID - 同一攻撃判定ID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>15</Maximum>
+      <SortID>3180</SortID>
+    </Field>
+    <Field Def="u8 spAttributeVariationValue">
+      <DisplayName>Special attribute variation value - 特殊属性バリエーション値</DisplayName>
+      <Description>Value for giving variation to SFX and SE generated by special attribute in combination with "special attribute" (SEQ16473) - 「特殊属性」と組み合わせて特殊属性によって発生するSFX、SEにバリエーションを持たせるための値(SEQ16473)</Description>
+      <Maximum>99</Maximum>
+      <SortID>1521</SortID>
+    </Field>
+    <Field Def="s16 parryForwardOffset">
+      <DisplayName>Front angle offset of parry establishment condition - パリィ成立条件の正面角度オフセット</DisplayName>
+      <Description>Front angle offset of [collapsed side] of parry establishment condition - パリィ成立条件の【崩される側】の正面角度オフセット</Description>
+      <Minimum>-180</Minimum>
+      <Maximum>180</Maximum>
+      <SortID>1480</SortID>
+    </Field>
+    <Field Def="f32 atkSuperArmorCorrection">
+      <DisplayName>SA attack power correction value - SA攻撃力補正値</DisplayName>
+      <Description>PC only. Correction value to be applied to the [basic value] set for the weapon - PCのみ。武器に設定された【基本値】にかける補正値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>60000</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>3110</SortID>
+    </Field>
+    <Field Def="u8 defSfxMaterialVariationValue">
+      <DisplayName>Defensive material variation value - 防御材質バリエーション値</DisplayName>
+      <Description>A value to have variations of damage SFX and SE in combination with "defense material 1 or 2" used when guarding. (SEQ16473) - ガード時に使用される「防御材質1or2」と組み合わせてダメージSFX、SEのバリエーションを持たせるための値。(SEQ16473)</Description>
+      <Maximum>99</Maximum>
+      <SortID>1802</SortID>
+    </Field>
+    <Field Def="dummy8 pad4[19]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>12005</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

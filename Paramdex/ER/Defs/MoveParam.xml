@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MOVE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 stayId = -1">
+      <DisplayName>stand-by - 待機</DisplayName>
+      <Description>stand-by - 待機</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 walkF = -1">
+      <DisplayName>Before walking - 歩行 前</DisplayName>
+      <Description>Before walking - 歩行 前</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 walkB = -1">
+      <DisplayName>After walking - 歩行 後</DisplayName>
+      <Description>After walking - 歩行 後</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 walkL = -1">
+      <DisplayName>Walking left - 歩行 左</DisplayName>
+      <Description>Walking left - 歩行 左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 walkR = -1">
+      <DisplayName>Walking right - 歩行 右</DisplayName>
+      <Description>Walking right - 歩行 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 dashF = -1">
+      <DisplayName>Before driving - 走行 前</DisplayName>
+      <Description>Before driving - 走行 前</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 dashB = -1">
+      <DisplayName>After running - 走行 後</DisplayName>
+      <Description>After running - 走行 後</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 dashL = -1">
+      <DisplayName>Driving left - 走行 左</DisplayName>
+      <Description>Driving left - 走行 左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 dashR = -1">
+      <DisplayName>Driving right - 走行 右</DisplayName>
+      <Description>Driving right - 走行 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s32 superDash = -1">
+      <DisplayName>Dash move - ダッシュ移動</DisplayName>
+      <Description>Dash move - ダッシュ移動</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s32 escapeF = -1">
+      <DisplayName>Before emergency avoidance - 緊急回避 前</DisplayName>
+      <Description>Before emergency avoidance - 緊急回避 前</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="s32 escapeB = -1">
+      <DisplayName>After emergency avoidance - 緊急回避 後</DisplayName>
+      <Description>After emergency avoidance - 緊急回避 後</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="s32 escapeL = -1">
+      <DisplayName>Emergency avoidance left - 緊急回避 左</DisplayName>
+      <Description>Emergency avoidance left - 緊急回避 左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="s32 escapeR = -1">
+      <DisplayName>Emergency avoidance right - 緊急回避 右</DisplayName>
+      <Description>Emergency avoidance right - 緊急回避 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="s32 turnL = -1">
+      <DisplayName>90 degree turn left - 90度旋回 左</DisplayName>
+      <Description>90 degree turn left - 90度旋回 左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="s32 trunR = -1">
+      <DisplayName>90 degree turn right - 90度旋回 右</DisplayName>
+      <Description>90 degree turn right - 90度旋回 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="s32 largeTurnL = -1">
+      <DisplayName>180 degree turn left - 180度旋回 左</DisplayName>
+      <Description>180 degree turn left - 180度旋回 左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="s32 largeTurnR = -1">
+      <DisplayName>180 degree turn right - 180度旋回 右</DisplayName>
+      <Description>180 degree turn right - 180度旋回 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="s32 stepMove = -1">
+      <DisplayName>Step move - ステップ移動</DisplayName>
+      <Description>180 degree turn right - 180度旋回 右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1900</SortID>
+    </Field>
+    <Field Def="s32 flyStay = -1">
+      <DisplayName>Flight standby - 飛行待機</DisplayName>
+      <Description>Flight standby - 飛行待機</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s32 flyWalkF = -1">
+      <DisplayName>Flight advance - 飛行前進</DisplayName>
+      <Description>Flight advance - 飛行前進</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFL = -1">
+      <DisplayName>Fly left forward - 飛行左前進</DisplayName>
+      <Description>Fly left forward. Low rotation - 飛行左前進。低回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFR = -1">
+      <DisplayName>Flight right forward - 飛行右前進</DisplayName>
+      <Description>Fly right forward. Low rotation - 飛行右前進。低回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFL2 = -1">
+      <DisplayName>Flight left forward 2 - 飛行左前進2</DisplayName>
+      <Description>Flight left forward 2. High rotation - 飛行左前進2。高回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFR2 = -1">
+      <DisplayName>Flight right forward 2 - 飛行右前進2</DisplayName>
+      <Description>Flight right forward 2. High rotation - 飛行右前進2。高回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2600</SortID>
+    </Field>
+    <Field Def="s32 flyDashF = -1">
+      <DisplayName>High speed flight advance - 高速飛行前進</DisplayName>
+      <Description>High speed flight advance - 高速飛行前進</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2700</SortID>
+    </Field>
+    <Field Def="s32 flyDashFL = -1">
+      <DisplayName>High speed flight left forward - 高速飛行左前進</DisplayName>
+      <Description>High-speed flight left forward. Low rotation - 高速飛行左前進。低回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2800</SortID>
+    </Field>
+    <Field Def="s32 flyDashFR = -1">
+      <DisplayName>High speed flight right forward - 高速飛行右前進</DisplayName>
+      <Description>High speed flight right forward. Low rotation - 高速飛行右前進。低回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2900</SortID>
+    </Field>
+    <Field Def="s32 flyDashFL2 = -1">
+      <DisplayName>High speed flight left forward 2 - 高速飛行左前進2</DisplayName>
+      <Description>High speed flight left forward 2. High rotation - 高速飛行左前進2。高回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="s32 flyDashFR2 = -1">
+      <DisplayName>High speed flight right forward 2 - 高速飛行右前進2</DisplayName>
+      <Description>High speed flight right forward 2. High rotation - 高速飛行右前進2。高回転</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeF = -1">
+      <DisplayName>Before dash emergency avoidance - ダッシュ緊急回避前</DisplayName>
+      <Description>Before dash emergency avoidance - ダッシュ緊急回避前</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3200</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeB = -1">
+      <DisplayName>After dash emergency avoidance - ダッシュ緊急回避後</DisplayName>
+      <Description>After dash emergency avoidance - ダッシュ緊急回避後</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3300</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeL = -1">
+      <DisplayName>Dash emergency avoidance left - ダッシュ緊急回避左</DisplayName>
+      <Description>Dash emergency avoidance left - ダッシュ緊急回避左</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3400</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeR = -1">
+      <DisplayName>Dash emergency avoidance right - ダッシュ緊急回避右</DisplayName>
+      <Description>Dash emergency avoidance right - ダッシュ緊急回避右</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3500</SortID>
+    </Field>
+    <Field Def="s32 analogMoveParamId = -1">
+      <DisplayName>Analog moving para ID - アナログ移動パラＩＤ</DisplayName>
+      <Description>Mobile animation parameter ID used in mobile animation blend - 移動アニメブレンドで使用される移動アニメパラメータＩＤ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3600</SortID>
+    </Field>
+    <Field Def="u8 turnNoAnimAngle">
+      <DisplayName>No animation turning angle [deg] - アニメなし旋回角度[deg]</DisplayName>
+      <Description>If the turning angle is less than this value, the turning animation will not be played (only the enemy turning control is effective). - 旋回角度がこの値以下だと旋回アニメを再生しません（敵旋回制御のみ有効）</Description>
+      <Maximum>180</Maximum>
+      <SortID>3700</SortID>
+    </Field>
+    <Field Def="u8 turn45Angle">
+      <DisplayName>45 degree turning animation angle [deg] - 45度旋回アニメ角度[deg]</DisplayName>
+      <Description>If the turning angle is less than this value, the 45 degree turning animation will be played (only 2 bosses are valid). - 旋回角度がこの値以下だと45度旋回アニメを再生します（ボス2足のみ有効）</Description>
+      <Maximum>180</Maximum>
+      <SortID>3800</SortID>
+    </Field>
+    <Field Def="u8 turn90Angle">
+      <DisplayName>90 degree turning animation angle [deg] - 90度旋回アニメ角度[deg]</DisplayName>
+      <Description>If the turning angle is less than this value, the 90 degree turning animation will be played (only the enemy turning control is effective). - 旋回角度がこの値以下だと90度旋回アニメを再生します（敵旋回制御のみ有効）</Description>
+      <Maximum>180</Maximum>
+      <SortID>3900</SortID>
+    </Field>
+    <Field Def="u8 turnWaitNoAnimAngle">
+      <DisplayName>No animation when stopped Turning angle [deg] - 停止時アニメなし旋回角度[deg]</DisplayName>
+      <Description>If the turning angle is less than this value, the turning animation will not be played [when stopped] (only valid for 2 boss legs) - 旋回角度がこの値以下だと旋回アニメを再生しません[停止時]（ボス2足のみ有効）</Description>
+      <Maximum>180</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>BUDDY_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1111</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1112</SortID>
+    </Field>
+    <Field Def="s32 triggerSpEffectId = -1">
+      <DisplayName>Summon special effect ID - 召喚特殊効果ID</DisplayName>
+      <Description>Set the special effect ID that will be the summoning condition - 召喚条件になる特殊効果IDを設定します </Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+    </Field>
+    <Field Def="s32 npcParamId = -1">
+      <DisplayName>NPC parameter ID - NPCパラメータID</DisplayName>
+      <Description>Set the NPC parameter ID of the summoned buddy - 召喚されるバディのNPCパラメータIDを設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 npcThinkParamId = -1">
+      <DisplayName>Thinking parameter ID - 思考パラメータID</DisplayName>
+      <Description>Sets the NPC Thinking Parameter ID of the summoned buddy - 召喚されるバディのNPC思考パラメータIDを設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 npcParamId_ridden = -1">
+      <DisplayName>Riding (riding side): NPC parameter ID - 騎乗（乗られる側）：NPCパラメータID</DisplayName>
+      <Description>For buddies that you want to summon while riding, set the NPC parameter ID for the "rider" - 騎乗状態で召喚したいバディの場合、「乗られる側」のNPCパラメータIDを設定します </Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 npcThinkParamId_ridden = -1">
+      <DisplayName>Riding (riding side): Thinking parameter ID - 騎乗（乗られる側）：思考パラメータID</DisplayName>
+      <Description>For buddies that you want to summon while riding, set the NPC Thinking Parameter ID for the "rider" - 騎乗状態で召喚したいバディの場合、「乗られる側」のNPC思考パラメータIDを設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 x_offset">
+      <DisplayName>X: Placement coordinate offset [m] - X：配置座標オフセット[m]</DisplayName>
+      <Description>Sets the distance in meters to offset the buddy from the summon point to the X coordinate - バディを召喚ポイントから、X座標にオフセットする距離をメートル単位で設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-99.99</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 z_offset">
+      <DisplayName>Z: Placement coordinate offset [m] - Z：配置座標オフセット[m]</DisplayName>
+      <Description>Sets the distance in meters that offsets the buddy from the summon point to the Z coordinate. - バディを召喚ポイントから、Z座標にオフセットする距離をメートル単位で設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-99.99</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 y_angle">
+      <DisplayName>Y: Your placement angle [deg] - Y：自分の配置角度[deg]</DisplayName>
+      <Description>Set the angle to rotate yourself around the Y axis - Y軸を中心に、自分を回転させる角度を設定します</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-180</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u8 appearOnAroundSekihi">
+      <DisplayName>Will it emerge from around the stone monument? - 石碑周辺から出現するか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it emerge from around the stone monument? - 石碑周辺から出現するか？</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="u8 disablePCTargetShare">
+      <DisplayName>Do you want to skip target sharing with your PC? - PCとのターゲット共有をスキップするか？</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to skip target sharing with your PC? - PCとのターゲット共有をスキップするか？</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="u8 pcFollowType">
+      <DisplayName>PC tracking &amp; warp type - PC追従＆ワープタイプ </DisplayName>
+      <Enum>BUDDY_PC_FOLLOW_TYPE</Enum>
+      <Description>PC tracking &amp; warp type - PC追従＆ワープタイプ </Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="dummy8 Reserve[1]">
+      <DisplayName>Reserve - リザーブ</DisplayName>
+      <Description>Reserve - リザーブ</Description>
+      <SortID>1113</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv0 = -1">
+      <DisplayName>+0 o'clock doping special effect - +0時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv1 = -1">
+      <DisplayName>+1 o'clock doping special effect - +1時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv2 = -1">
+      <DisplayName>+2 o'clock doping special effect - +2時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1102</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv3 = -1">
+      <DisplayName>+3 o'clock doping special effect - +3時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1103</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv4 = -1">
+      <DisplayName>+4 o'clock doping special effect - +4時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1104</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv5 = -1">
+      <DisplayName>+5 o'clock doping special effect - +5時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1105</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv6 = -1">
+      <DisplayName>+6 o'clock doping special effect - +6時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1106</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv7 = -1">
+      <DisplayName>+7 o'clock doping special effect - +7時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1107</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv8 = -1">
+      <DisplayName>+8 o'clock doping special effect - +8時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1108</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv9 = -1">
+      <DisplayName>+9 o'clock doping special effect - +9時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1109</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffect_lv10 = -1">
+      <DisplayName>+10 o'clock doping special effect - +10時ドーピング特殊効果</DisplayName>
+      <Description>+0 o'clock doping special effect - +0時ドーピング特殊効果</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1110</SortID>
+    </Field>
+    <Field Def="s32 npcPlayerInitParamId = -1">
+      <DisplayName>Initial parameter ID by architype - アーキタイプ別初期パラメータID</DisplayName>
+      <Description>Initial parameter ID by architype - アーキタイプ別初期パラメータID</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="s32 generateAnimId = -1">
+      <DisplayName>Generate Anime ID - ジェネレートアニメID</DisplayName>
+      <Description>Generate Anime ID - ジェネレートアニメID</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>750</SortID>
+    </Field>
+    <Field Def="dummy8 Reserve2[4]">
+      <DisplayName>Reserve 2 - リザーブ2</DisplayName>
+      <Description>Reserve 2 - リザーブ２</Description>
+      <SortID>1114</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

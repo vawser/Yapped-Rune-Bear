@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="1">
+  <ParamType>FAR_MODEL_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>201</FormatVersion>
+  <Fields>
+    <Field Def="fixstrW unk00[13]" />
+    <Field Def="s8 mapID1 = -1" />
+    <Field Def="s8 mapID2 = -1" />
+    <Field Def="s8 mapID3 = -1" />
+    <Field Def="s8 mapID4 = -1" />
+    <Field Def="s8 unk1E = -1" />
+    <Field Def="dummy8 pad[1]" />
+    <Field Def="fixstrW unk20[32]" />
+  </Fields>
+</PARAMDEF>

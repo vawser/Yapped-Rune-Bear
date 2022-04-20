@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>BONFIRE_WARP_TAB_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s32 textId">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>Tab Display Name Text ID [MenuText] - タブの表示名テキストID[MenuText]</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="s32 sortId">
+      <DisplayName>Sort ID - ソートID</DisplayName>
+      <Description>Tab display order sort ID. Line up from the left with aim - タブの表示順ソートID。照準で左から並ぶ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u16 iconId">
+      <DisplayName>Icon ID - アイコンID</DisplayName>
+      <Description>Tab icon ID. Menu resource compliance - タブのアイコンID。メニューリソース準拠</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="dummy8 pad[2]">
+      <DisplayName>pad - パッド</DisplayName>
+      <SortID>10</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

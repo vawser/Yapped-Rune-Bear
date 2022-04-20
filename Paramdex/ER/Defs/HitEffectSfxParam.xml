@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>HIT_EFFECT_SFX_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 Slash_Normal">
+      <DisplayName>Slash: Standard - 斬撃：標準</DisplayName>
+      <Description>Slash: Standard - 斬撃：標準</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="s32 Slash_S">
+      <DisplayName>Slash: Small - 斬撃：小</DisplayName>
+      <Description>Slash: Small - 斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="s32 Slash_L">
+      <DisplayName>Slash: Large - 斬撃：大</DisplayName>
+      <Description>Slash: Large - 斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="s32 Slash_Specific1">
+      <DisplayName>Slash: Designation 1 - 斬撃：指定1</DisplayName>
+      <Description>Slash: Designation 1 - 斬撃：指定1</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="s32 Slash_Specific2">
+      <DisplayName>Slash: Designation 2 - 斬撃：指定2</DisplayName>
+      <Description>Slash: Designation 2 - 斬撃：指定2</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="s32 Blow_Normal">
+      <DisplayName>Batter: Standard - 打撃：標準</DisplayName>
+      <Description>Batter: Standard - 打撃：標準</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="s32 Blow_S">
+      <DisplayName>Batter: Small - 打撃：小</DisplayName>
+      <Description>Batter: Small - 打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="s32 Blow_L">
+      <DisplayName>Batter: Large - 打撃：大</DisplayName>
+      <Description>Batter: Large - 打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="s32 Blow_Specific1">
+      <DisplayName>Batter: Designation 1 - 打撃：指定1</DisplayName>
+      <Description>Batter: Designation 1 - 打撃：指定1</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s32 Blow_Specific2">
+      <DisplayName>Batter: Designation 2 - 打撃：指定2</DisplayName>
+      <Description>Batter: Designation 2 - 打撃：指定2</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s32 Thrust_Normal">
+      <DisplayName>Piercing: Standard - 刺突：標準</DisplayName>
+      <Description>Piercing: Standard - 刺突：標準</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="s32 Thrust_S">
+      <DisplayName>Piercing: Small - 刺突：小</DisplayName>
+      <Description>Piercing: Small - 刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="s32 Thrust_L">
+      <DisplayName>Piercing: Large - 刺突：大</DisplayName>
+      <Description>Piercing: Large - 刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="s32 Thrust_Specific1">
+      <DisplayName>Piercing: Designation 1 - 刺突：指定1</DisplayName>
+      <Description>Piercing: Designation 1 - 刺突：指定1</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="s32 Thrust_Specific2">
+      <DisplayName>Piercing: Designation 2 - 刺突：指定2</DisplayName>
+      <Description>Piercing: Designation 2 - 刺突：指定2</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="s32 Neutral_Normal">
+      <DisplayName>Non-attribute: standard - 無属性：標準</DisplayName>
+      <Description>Non-attribute: standard - 無属性：標準</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="s32 Neutral_S">
+      <DisplayName>Non-attribute: small - 無属性：小</DisplayName>
+      <Description>Non-attribute: small - 無属性：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="s32 Neutral_L">
+      <DisplayName>Non-attribute: Large - 無属性：大</DisplayName>
+      <Description>Non-attribute: Large - 無属性：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="s32 Neutral_Specific1">
+      <DisplayName>Non-attribute: Designation 1 - 無属性：指定1</DisplayName>
+      <Description>Non-attribute: Designation 1 - 無属性：指定1</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="s32 Neutral_Specific2">
+      <DisplayName>Non-attribute: Designation 2 - 無属性：指定2</DisplayName>
+      <Description>Non-attribute: Designation 2 - 無属性：指定2</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>20</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,9 +1,0 @@
-Sort ID;CALC;x+10
-Correction: STR;STAT_CALC;HIGHEST*0.95
-Correction: DEX;STAT_CALC;HIGHEST*0.95
-Behavior SpEffect 2;SET;105000
-Damage: Physical;DMG_CALC;PHYSICAL*0.95
-Reinforce Type ID;CALC;x+1100
-Correction: ARC;SET;30
-Attack Element Correct ID;SET;10013
-SpEffect Message ID [0];SET;6501

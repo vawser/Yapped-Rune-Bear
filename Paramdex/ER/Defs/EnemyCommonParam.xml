@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ENEMY_COMMON_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="dummy8 reserved0[8]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 soundTargetTryApproachTime">
+      <DisplayName>Time to try to approach the sound target - 音ターゲットに対して接近を試みる時間</DisplayName>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 searchTargetTryApproachTime">
+      <DisplayName>Time to try to approach the search target - 索敵ターゲットに対して接近を試みる時間</DisplayName>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 memoryTargetTryApproachTime">
+      <DisplayName>Time to try to approach the memory target - 記憶ターゲットに対して接近を試みる時間</DisplayName>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="dummy8 reserved5[40]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <DisplayFormat>%.0f</DisplayFormat>
+      <SortID>1801</SortID>
+    </Field>
+    <Field Def="s32 activateChrByTime_PhantomId">
+      <DisplayName>Phantom shader ID used for directing the appearance and disappearance of enemies placed in a specific time zone - 特定時間帯配置のエネミーの出現・消滅に演出に使うファントムシェーダID</DisplayName>
+      <Description>Fade the phantom shader with the appearance / disappearance effect, - 出現・消滅の演出でファントムシェーダをフェイドする、</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="f32 findUnfavorableFailedPointDist">
+      <DisplayName>Distance to generate an interrupt, which turns out that the enemy is likely to be cut off when going to the end of the path - パス終端まで行くと敵が見切れそうなことがわかったインタラプト、を発生させる距離</DisplayName>
+      <Description>At the time of Unreach pass, if the end and the target are within this distance, an interrupt is generated. - Unreachパス時、終端と対象がこの距離以内ならインタラプトを発生させる</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="f32 findUnfavorableFailedPointHeight">
+      <DisplayName>The height that causes an interrupt, which turns out that the enemy is likely to be cut off when going to the end of the path - パス終端まで行くと敵が見切れそうなことがわかったインタラプト、を発生させる高さ</DisplayName>
+      <Description>At the time of Unreach pass, if the end and the target are more than this distance, an interrupt is generated. - Unreachパス時、終端と対象がこの距離以上ならインタラプトを発生させる</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="dummy8 reserved18[184]">
+      <DisplayName>reserve - 予約</DisplayName>
+      <Description>(dummy8) - (dummy8)</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1802</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

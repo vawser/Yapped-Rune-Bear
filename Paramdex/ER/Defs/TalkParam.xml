@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>TALK_PARAM_ST</ParamType>
+  <DataVersion>4</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1501</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>1502</SortID>
+    </Field>
+    <Field Def="s32 msgId = -1">
+      <DisplayName>PC Gender is Male: Message ID - PC性別が男：メッセージID</DisplayName>
+      <Description>PC Gender is Male: Specify Message-&gt; Menu - PC性別が男：メッセージを指定-&gt;メニュー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 voiceId = -1">
+      <DisplayName>PC Gender is Male: Voice ID - PC性別が男：ボイスID</DisplayName>
+      <Description>PC Gender is Male: Specify Voice-&gt; Sound - PC性別が男：ボイスを指定-&gt;サウンド</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 spEffectId0 = -1">
+      <DisplayName>Special effect ID0 - 特殊効果ID0</DisplayName>
+      <Description>Specify special effects-&gt; Character - 特殊効果を指定-&gt;キャラ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 motionId0 = -1">
+      <DisplayName>Motion ID 0 - モーションID0</DisplayName>
+      <Description>Specify motion-&gt; Character - モーションを指定-&gt;キャラ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 spEffectId1 = -1">
+      <DisplayName>Special effect ID1 - 特殊効果ID1</DisplayName>
+      <Description>Specify special effects-&gt; Character - 特殊効果を指定-&gt;キャラ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 motionId1 = -1">
+      <DisplayName>Motion ID 1 - モーションID1</DisplayName>
+      <Description>Specify motion-&gt; Character - モーションを指定-&gt;キャラ</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 returnPos = -1">
+      <DisplayName>Return position - 復帰位置</DisplayName>
+      <Description>Relative position of returning conversation-&gt; Conversation - 復帰する会話の相対位置-&gt;会話</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 reactionId = -1">
+      <DisplayName>Reaction ID - リアクションID</DisplayName>
+      <Description>Conversation specification when returning-&gt; Conversation - 復帰時の会話指定-&gt;会話</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 eventId = -1">
+      <DisplayName>Event ID - イベントID</DisplayName>
+      <Description>Event ID-&gt; Event - イベントID-&gt;イベント</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s32 msgId_female = -1">
+      <DisplayName>PC Gender is Female: Message - PC性別が女：メッセージ</DisplayName>
+      <Description>PC Gender is Female: Specify Message-&gt; Menu - PC性別が女：メッセージを指定-&gt;メニュー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="s32 voiceId_female = -1">
+      <DisplayName>PC Gender is Female: Voice ID - PC性別が女：ボイスID</DisplayName>
+      <Description>PC Gender is Female: Specify Voice-&gt; Sound - PC性別が女：ボイスを指定-&gt;サウンド</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>2000000000</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="s16 lipSyncStart = -1">
+      <DisplayName>Speaker: Lip-sync start time - 話者：口パク開始時間</DisplayName>
+      <Description>Speaker: Lip-sync start time. -1 with no lip-sync - 話者：口パク開始時間。-1で口パク無し</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="s16 lipSyncTime = -1">
+      <DisplayName>Speaker: Lip-sync duration - 話者：口パク継続時間</DisplayName>
+      <Description>Speaker: Lip-sync duration. Lip-sync at -1 continues forever - 話者：口パク継続時間。-1で口パクずっと継続</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>1410</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[4]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>1503</SortID>
+    </Field>
+    <Field Def="f32 timeout = -1">
+      <DisplayName>Voice playback timeout time - ボイス再生タイムアウト時間</DisplayName>
+      <Description>Voice playback timeout period. In case of -1, time-out processing is performed in "NPC conversation voice playback timeout time" of "Common_Game system parameter". - ボイス再生タイムアウト時間。-1の場合は「共通_ゲームシステムパラメータ」の「NPC会話ボイス再生タイムアウト時間」でタイムアウト処理を行う。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="s32 talkAnimationId = -1">
+      <DisplayName>Speaker: Subtitled play Anime ID - 話者：字幕芝居アニメID</DisplayName>
+      <Description>Speaker: Animation ID during conversation - 話者：会話中のアニメーションID</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>9999999</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 isForceDisp:1">
+      <DisplayName>Whether to forcibly display subtitles - 強制的に字幕を表示するか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to force the display of subtitles? Display subtitles even when subtitles are turned off as an option - 強制的に字幕を表示するか。オプションで字幕オフでも字幕を表示する</Description>
+      <Maximum>1</Maximum>
+      <SortID>250</SortID>
+    </Field>
+    <Field Def="dummy8 pad3:7">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>1504</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[31]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <Description>Padding - パディング</Description>
+      <SortID>1505</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

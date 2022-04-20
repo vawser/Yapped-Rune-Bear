@@ -1,0 +1,14 @@
+sortId;CALC;x+5
+correctStrength;STAT_CALC;HIGHEST*0.75
+correctAgility;STAT_CALC;HIGHEST*0.25
+correctMagic;SET;0
+correctFaith;SET;0
+attackBasePhysics;DMG_CALC;PHYSICAL*0.95
+attackBaseFire;DMG_CALC;PHYSICAL*0.95
+attackBaseMagic;SET;0
+attackBaseThunder;SET;0
+attackBaseThunder;SET;0
+reinforceTypeId;SET;400
+spAttribute;SET;11
+correctType_Fire;SET;4
+attackElementCorrectId;SET;10005

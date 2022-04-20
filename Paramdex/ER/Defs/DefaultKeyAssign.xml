@@ -1,0 +1,1134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>DEFAULT_KEY_ASSIGN</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>202</FormatVersion>
+  <Fields>
+    <Field Def="u8 priority0:1">
+      <DisplayName>Pad 0 - パッド0</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 0 - 下位抑制パッド0</Description>
+      <Maximum>1</Maximum>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority1:1">
+      <DisplayName>For GUI framework - GUIフレームワーク用</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Pad for lower suppression GUI framework - 下位抑制GUIフレームワーク用パッド</Description>
+      <Maximum>1</Maximum>
+      <SortID>1</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority2:1">
+      <DisplayName>Pad 2 - パッド2</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 2 - 下位抑制パッド2</Description>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority3:1">
+      <DisplayName>Debug menu mode switching - デバッグメニューモード切替</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression debug menu mode switching pad - 下位抑制デバッグメニューモード切替パッド</Description>
+      <Maximum>1</Maximum>
+      <SortID>3</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority4:1">
+      <DisplayName>Pad 4 - パッド4</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 4 - 下位抑制パッド4</Description>
+      <Maximum>1</Maximum>
+      <SortID>4</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority5:1">
+      <DisplayName>Pad debug menu - パッドデバッグメニュー</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad Debug menu pad - 下位抑制パッドデバッグメニューパッド</Description>
+      <Maximum>1</Maximum>
+      <SortID>5</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority6:1">
+      <DisplayName>Pad 6 - パッド6</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 6 - 下位抑制パッド6</Description>
+      <Maximum>1</Maximum>
+      <SortID>6</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority7:1">
+      <DisplayName>Pad 7 - パッド7</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 7 - 下位抑制パッド7</Description>
+      <Maximum>1</Maximum>
+      <SortID>7</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority8:1">
+      <DisplayName>Pad 8 - パッド8</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 8 - 下位抑制パッド8</Description>
+      <Maximum>1</Maximum>
+      <SortID>8</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority9:1">
+      <DisplayName>Pad 9 - パッド9</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 9 - 下位抑制パッド9</Description>
+      <Maximum>1</Maximum>
+      <SortID>9</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority10:1">
+      <DisplayName>Pad 10 - パッド10</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 10 - 下位抑制パッド10</Description>
+      <Maximum>1</Maximum>
+      <SortID>10</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority11:1">
+      <DisplayName>Pad 11 - パッド11</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 11 - 下位抑制パッド11</Description>
+      <Maximum>1</Maximum>
+      <SortID>11</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority12:1">
+      <DisplayName>Pad 12 - パッド12</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 12 - 下位抑制パッド12</Description>
+      <Maximum>1</Maximum>
+      <SortID>12</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority13:1">
+      <DisplayName>Pad 13 - パッド13</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 13 - 下位抑制パッド13</Description>
+      <Maximum>1</Maximum>
+      <SortID>13</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority14:1">
+      <DisplayName>Pad 14 - パッド14</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 14 - 下位抑制パッド14</Description>
+      <Maximum>1</Maximum>
+      <SortID>14</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority15:1">
+      <DisplayName>Pad 15 - パッド15</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 15 - 下位抑制パッド15</Description>
+      <Maximum>1</Maximum>
+      <SortID>15</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority16:1">
+      <DisplayName>Pad 16 - パッド16</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 16 - 下位抑制パッド16</Description>
+      <Maximum>1</Maximum>
+      <SortID>16</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority17:1">
+      <DisplayName>Pad 17 - パッド17</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 17 - 下位抑制パッド17</Description>
+      <Maximum>1</Maximum>
+      <SortID>17</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority18:1">
+      <DisplayName>Pad 18 - パッド18</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 18 - 下位抑制パッド18</Description>
+      <Maximum>1</Maximum>
+      <SortID>18</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority19:1">
+      <DisplayName>Pad 19 - パッド19</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 19 - 下位抑制パッド19</Description>
+      <Maximum>1</Maximum>
+      <SortID>19</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority20:1">
+      <DisplayName>Pad 20 - パッド20</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 20 - 下位抑制パッド20</Description>
+      <Maximum>1</Maximum>
+      <SortID>20</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority21:1">
+      <DisplayName>Pad 21 - パッド21</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 21 - 下位抑制パッド21</Description>
+      <Maximum>1</Maximum>
+      <SortID>21</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority22:1">
+      <DisplayName>Pad 22 - パッド22</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 22 - 下位抑制パッド22</Description>
+      <Maximum>1</Maximum>
+      <SortID>22</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority23:1">
+      <DisplayName>Pad 23 - パッド23</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 23 - 下位抑制パッド23</Description>
+      <Maximum>1</Maximum>
+      <SortID>23</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority24:1">
+      <DisplayName>Pad 24 - パッド24</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 24 - 下位抑制パッド24</Description>
+      <Maximum>1</Maximum>
+      <SortID>24</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority25:1">
+      <DisplayName>Pad 25 - パッド25</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 25 - 下位抑制パッド25</Description>
+      <Maximum>1</Maximum>
+      <SortID>25</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority26:1">
+      <DisplayName>Pad 26 - パッド26</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 26 - 下位抑制パッド26</Description>
+      <Maximum>1</Maximum>
+      <SortID>26</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority27:1">
+      <DisplayName>Pad 27 - パッド27</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 27 - 下位抑制パッド27</Description>
+      <Maximum>1</Maximum>
+      <SortID>27</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority28:1">
+      <DisplayName>Pad 28 - パッド28</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 28 - 下位抑制パッド28</Description>
+      <Maximum>1</Maximum>
+      <SortID>28</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority29:1">
+      <DisplayName>Pad 29 - パッド29</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 29 - 下位抑制パッド29</Description>
+      <Maximum>1</Maximum>
+      <SortID>29</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority30:1">
+      <DisplayName>Pad 30 - パッド30</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 30 - 下位抑制パッド30</Description>
+      <Maximum>1</Maximum>
+      <SortID>30</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="u8 priority31:1">
+      <DisplayName>Pad 31 - パッド31</DisplayName>
+      <Enum>DefaultKeyAssignPrioritySuppression</Enum>
+      <Description>Lower suppression pad 31 - 下位抑制パッド31</Description>
+      <Maximum>1</Maximum>
+      <SortID>31</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="dummy8 dummy[12]">
+      <DisplayName>dummy - ダミー</DisplayName>
+      <SortID>1000</SortID>
+      <UnkC8>下位優先度抑制（高⇔低）</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>Pad physical key - パッド物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPadKey</Enum>
+      <Description>Pad physical key - パッド物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>100</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>110</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>155</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>170</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>105</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>106</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>107</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>108</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>140</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>150</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>160</SortID>
+      <UnkB8>padItem1</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー1</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>Pad physical key - パッド物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPadKey</Enum>
+      <Description>Pad physical key - パッド物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>200</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>210</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>255</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>270</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>205</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>206</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>207</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>208</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>240</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>250</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>260</SortID>
+      <UnkB8>padItem2</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー2</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>Pad physical key - パッド物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPadKey</Enum>
+      <Description>Pad physical key - パッド物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>300</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>310</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>355</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>370</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>305</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>306</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>307</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>308</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>340</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>350</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>360</SortID>
+      <UnkB8>padItem3</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー3</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>Pad physical key - パッド物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPadKey</Enum>
+      <Description>Pad physical key - パッド物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>400</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>410</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>455</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>470</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>405</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>406</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>407</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>408</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>440</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>450</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>460</SortID>
+      <UnkB8>padItem4</UnkB8>
+      <UnkC0>PadItem</UnkC0>
+      <UnkC8>パッドキー4</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>PC physical key - PC物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPcKey</Enum>
+      <Description>PC physical key - PC物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>500</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>510</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>555</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>570</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>505</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>506</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>507</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>508</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>540</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>550</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>560</SortID>
+      <UnkB8>pcItem1</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー1</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>PC physical key - PC物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPcKey</Enum>
+      <Description>PC physical key - PC物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>600</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>610</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>655</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>670</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>605</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>606</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>607</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>608</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>640</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>650</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>660</SortID>
+      <UnkB8>pcItem2</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー2</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>PC physical key - PC物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPcKey</Enum>
+      <Description>PC physical key - PC物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>700</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>710</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>755</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>770</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>705</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>706</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>707</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>708</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>740</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>750</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>760</SortID>
+      <UnkB8>pcItem3</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー3</UnkC8>
+    </Field>
+    <Field Def="s32 phyisicalKey = -1">
+      <DisplayName>PC physical key - PC物理キー</DisplayName>
+      <Enum>DefaultKeyAssignPcKey</Enum>
+      <Description>PC physical key - PC物理キー</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>1E+08</Maximum>
+      <SortID>800</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 traitsType">
+      <DisplayName>How to be pushed - 押され方</DisplayName>
+      <Enum>DefaultKeyAssignTraits</Enum>
+      <Description>How to be pushed - 押され方</Description>
+      <SortID>810</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 a2dOperator">
+      <DisplayName>Analog-to-digital conversion method - アナログ→デジタル変換方法</DisplayName>
+      <Enum>DefaultKeyAssignA2DOperator</Enum>
+      <Description>Analog-to-digital conversion method - アナログ→デジタル変換方法</Description>
+      <SortID>855</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 applyTarget">
+      <DisplayName>Applicable target - 適用ターゲット</DisplayName>
+      <Enum>DefaultKeyAssignApplyTarget</Enum>
+      <Description>Reflection target - 反映ターゲット</Description>
+      <SortID>870</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 isAnalog:1">
+      <DisplayName>Digital / analog - デジタル・アナログ</DisplayName>
+      <Enum>DefaultKeyAssignDigitalAnalog</Enum>
+      <Description>Digital or analog - デジタルorアナログ</Description>
+      <Maximum>1</Maximum>
+      <SortID>805</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enableWin64:1 = 1">
+      <DisplayName>Win64 - Win64</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used in Win64? - Win64で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>806</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enablePS4:1 = 1">
+      <DisplayName>PS4 - PS4</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on PS4 - PS4で使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>807</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="u8 enableXboxOne:1 = 1">
+      <DisplayName>Xbox One - XboxOne</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it be used on Xbox One - XboxOneで使用されるか</Description>
+      <Maximum>1</Maximum>
+      <SortID>808</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="f32 time1">
+      <DisplayName>time - 時間</DisplayName>
+      <Description>time - 時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>840</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="f32 time2">
+      <DisplayName>Interval time for repeat - リピート用インターバル時間</DisplayName>
+      <Description>Interval time for repeat - リピート用インターバル時間</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>850</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+    <Field Def="f32 a2dThreshold = 0.5">
+      <DisplayName>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</DisplayName>
+      <Description>Analog-to-digital conversion threshold - アナログ→デジタル変換閾値</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1000</Maximum>
+      <SortID>860</SortID>
+      <UnkB8>pcItem4</UnkB8>
+      <UnkC0>PCItem</UnkC0>
+      <UnkC8>PCキー4</UnkC8>
+    </Field>
+  </Fields>
+</PARAMDEF>

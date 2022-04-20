@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>HIT_EFFECT_SE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 Iron_Slash_S">
+      <DisplayName>Iron: Slash: Small - 鉄製：斬撃：小</DisplayName>
+      <Description>Iron: Slash: Small - 鉄製：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 Iron_Slash_L">
+      <DisplayName>Iron: Slash: Large - 鉄製：斬撃：大</DisplayName>
+      <Description>Iron: Slash: Large - 鉄製：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="s32 Iron_Slash_LL">
+      <DisplayName>Iron: Slash: Oversized - 鉄製：斬撃：特大</DisplayName>
+      <Description>Iron: Slash: Oversized - 鉄製：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>102</SortID>
+    </Field>
+    <Field Def="s32 Iron_Thrust_S">
+      <DisplayName>Iron: piercing: small - 鉄製：刺突：小</DisplayName>
+      <Description>Iron: piercing: small - 鉄製：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>120</SortID>
+    </Field>
+    <Field Def="s32 Iron_Thrust_L">
+      <DisplayName>Made of iron: piercing: large - 鉄製：刺突：大</DisplayName>
+      <Description>Made of iron: piercing: large - 鉄製：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>121</SortID>
+    </Field>
+    <Field Def="s32 Iron_Thrust_LL">
+      <DisplayName>Iron: piercing: oversized - 鉄製：刺突：特大</DisplayName>
+      <Description>Iron: piercing: oversized - 鉄製：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>122</SortID>
+    </Field>
+    <Field Def="s32 Iron_Blow_S">
+      <DisplayName>Iron: Batter: Small - 鉄製：打撃：小</DisplayName>
+      <Description>Iron: Batter: Small - 鉄製：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="s32 Iron_Blow_L">
+      <DisplayName>Iron: Batter: Large - 鉄製：打撃：大</DisplayName>
+      <Description>Iron: Batter: Large - 鉄製：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>111</SortID>
+    </Field>
+    <Field Def="s32 Iron_Blow_LL">
+      <DisplayName>Iron: Batter: Oversized - 鉄製：打撃：特大</DisplayName>
+      <Description>Iron: Batter: Oversized - 鉄製：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>112</SortID>
+    </Field>
+    <Field Def="s32 Fire_Slash_S">
+      <DisplayName>Flame: Slash: Small - 炎：斬撃：小</DisplayName>
+      <Description>Flame: Slash: Small - 炎：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 Fire_Slash_L">
+      <DisplayName>Flame: Slash: Large - 炎：斬撃：大</DisplayName>
+      <Description>Flame: Slash: Large - 炎：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="s32 Fire_Slash_LL">
+      <DisplayName>Flame: Slash: Oversized - 炎：斬撃：特大</DisplayName>
+      <Description>Flame: Slash: Oversized - 炎：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>202</SortID>
+    </Field>
+    <Field Def="s32 Fire_Thrust_S">
+      <DisplayName>Flame: Piercing: Small - 炎：刺突：小</DisplayName>
+      <Description>Flame: Piercing: Small - 炎：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>220</SortID>
+    </Field>
+    <Field Def="s32 Fire_Thrust_L">
+      <DisplayName>Flame: Piercing: Large - 炎：刺突：大</DisplayName>
+      <Description>Flame: Piercing: Large - 炎：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>221</SortID>
+    </Field>
+    <Field Def="s32 Fire_Thrust_LL">
+      <DisplayName>Flame: Piercing: Oversized - 炎：刺突：特大</DisplayName>
+      <Description>Flame: Piercing: Oversized - 炎：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>222</SortID>
+    </Field>
+    <Field Def="s32 Fire_Blow_S">
+      <DisplayName>Flame: Batter: Small - 炎：打撃：小</DisplayName>
+      <Description>Flame: Batter: Small - 炎：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="s32 Fire_Blow_L">
+      <DisplayName>Flame: Batter: Large - 炎：打撃：大</DisplayName>
+      <Description>Flame: Batter: Large - 炎：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>211</SortID>
+    </Field>
+    <Field Def="s32 Fire_Blow_LL">
+      <DisplayName>Flame: Batter: Oversized - 炎：打撃：特大</DisplayName>
+      <Description>Flame: Batter: Oversized - 炎：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>212</SortID>
+    </Field>
+    <Field Def="s32 Wood_Slash_S">
+      <DisplayName>Wooden: Slash: Small - 木製：斬撃：小</DisplayName>
+      <Description>Wooden: Slash: Small - 木製：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 Wood_Slash_L">
+      <DisplayName>Wooden: Slash: Large - 木製：斬撃：大</DisplayName>
+      <Description>Wooden: Slash: Large - 木製：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="s32 Wood_Slash_LL">
+      <DisplayName>Wooden: Slash: Oversized - 木製：斬撃：特大</DisplayName>
+      <Description>Wooden: Slash: Oversized - 木製：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>302</SortID>
+    </Field>
+    <Field Def="s32 Wood_Thrust_S">
+      <DisplayName>Wooden: piercing: small - 木製：刺突：小</DisplayName>
+      <Description>Wooden: piercing: small - 木製：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>320</SortID>
+    </Field>
+    <Field Def="s32 Wood_Thrust_L">
+      <DisplayName>Wooden: piercing: large - 木製：刺突：大</DisplayName>
+      <Description>Wooden: piercing: large - 木製：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>321</SortID>
+    </Field>
+    <Field Def="s32 Wood_Thrust_LL">
+      <DisplayName>Wooden: piercing: oversized - 木製：刺突：特大</DisplayName>
+      <Description>Wooden: piercing: oversized - 木製：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>322</SortID>
+    </Field>
+    <Field Def="s32 Wood_Blow_S">
+      <DisplayName>Wooden: Batter: Small - 木製：打撃：小</DisplayName>
+      <Description>Wooden: Batter: Small - 木製：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="s32 Wood_Blow_L">
+      <DisplayName>Wooden: Batter: Large - 木製：打撃：大</DisplayName>
+      <Description>Wooden: Batter: Large - 木製：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>311</SortID>
+    </Field>
+    <Field Def="s32 Wood_Blow_LL">
+      <DisplayName>Wooden: Batter: Oversized - 木製：打撃：特大</DisplayName>
+      <Description>Wooden: Batter: Oversized - 木製：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>312</SortID>
+    </Field>
+    <Field Def="s32 Body_Slash_S">
+      <DisplayName>Meat: Slash: Small - 肉：斬撃：小</DisplayName>
+      <Description>Meat: Slash: Small - 肉：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 Body_Slash_L">
+      <DisplayName>Meat: Slash: Large - 肉：斬撃：大</DisplayName>
+      <Description>Meat: Slash: Large - 肉：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="s32 Body_Slash_LL">
+      <DisplayName>Meat: Slash: Oversized - 肉：斬撃：特大</DisplayName>
+      <Description>Meat: Slash: Oversized - 肉：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>402</SortID>
+    </Field>
+    <Field Def="s32 Body_Thrust_S">
+      <DisplayName>Meat: Stab: Small - 肉：刺突：小</DisplayName>
+      <Description>Meat: Stab: Small - 肉：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>420</SortID>
+    </Field>
+    <Field Def="s32 Body_Thrust_L">
+      <DisplayName>Meat: Stab: Large - 肉：刺突：大</DisplayName>
+      <Description>Meat: Stab: Large - 肉：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>421</SortID>
+    </Field>
+    <Field Def="s32 Body_Thrust_LL">
+      <DisplayName>Meat: Stab: Oversized - 肉：刺突：特大</DisplayName>
+      <Description>Meat: Stab: Oversized - 肉：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>422</SortID>
+    </Field>
+    <Field Def="s32 Body_Blow_S">
+      <DisplayName>Meat: Batter: Small - 肉：打撃：小</DisplayName>
+      <Description>Meat: Batter: Small - 肉：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="s32 Body_Blow_L">
+      <DisplayName>Meat: Batter: Large - 肉：打撃：大</DisplayName>
+      <Description>Meat: Batter: Large - 肉：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>411</SortID>
+    </Field>
+    <Field Def="s32 Body_Blow_LL">
+      <DisplayName>Meat: Batter: Oversized - 肉：打撃：特大</DisplayName>
+      <Description>Meat: Batter: Oversized - 肉：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>412</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Slash_S">
+      <DisplayName>Corrosion: Slash: Small - 蝕：斬撃：小</DisplayName>
+      <Description>Corrosion: Slash: Small - 蝕：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Slash_L">
+      <DisplayName>Eating: Slashing: Large - 蝕：斬撃：大</DisplayName>
+      <Description>Eating: Slashing: Large - 蝕：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>501</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Slash_LL">
+      <DisplayName>Eating: Slashing: Oversized - 蝕：斬撃：特大</DisplayName>
+      <Description>Eating: Slashing: Oversized - 蝕：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>502</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Thrust_S">
+      <DisplayName>Corrosion: piercing: small - 蝕：刺突：小</DisplayName>
+      <Description>Corrosion: piercing: small - 蝕：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>520</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Thrust_L">
+      <DisplayName>Corrosion: Piercing: Large - 蝕：刺突：大</DisplayName>
+      <Description>Corrosion: Piercing: Large - 蝕：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>521</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Thrust_LL">
+      <DisplayName>Corrosion: piercing: oversized - 蝕：刺突：特大</DisplayName>
+      <Description>Corrosion: piercing: oversized - 蝕：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>522</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Blow_S">
+      <DisplayName>Corrosion: Batter: Small - 蝕：打撃：小</DisplayName>
+      <Description>Corrosion: Batter: Small - 蝕：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Blow_L">
+      <DisplayName>Corrosion: Batter: Large - 蝕：打撃：大</DisplayName>
+      <Description>Corrosion: Batter: Large - 蝕：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>511</SortID>
+    </Field>
+    <Field Def="s32 Eclipse_Blow_LL">
+      <DisplayName>Corrosion: Batter: Oversized - 蝕：打撃：特大</DisplayName>
+      <Description>Corrosion: Batter: Oversized - 蝕：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>512</SortID>
+    </Field>
+    <Field Def="s32 Energy_Slash_S">
+      <DisplayName>Energy: Slash: Small - エネルギー：斬撃：小</DisplayName>
+      <Description>Energy: Slash: Small - エネルギー：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 Energy_Slash_L">
+      <DisplayName>Energy: Slash: Large - エネルギー：斬撃：大</DisplayName>
+      <Description>Energy: Slash: Large - エネルギー：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>601</SortID>
+    </Field>
+    <Field Def="s32 Energy_Slash_LL">
+      <DisplayName>Energy: Slash: Oversized - エネルギー：斬撃：特大</DisplayName>
+      <Description>Energy: Slash: Oversized - エネルギー：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>602</SortID>
+    </Field>
+    <Field Def="s32 Energy_Thrust_S">
+      <DisplayName>Energy: Puncture: Small - エネルギー：刺突：小</DisplayName>
+      <Description>Energy: Puncture: Small - エネルギー：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>620</SortID>
+    </Field>
+    <Field Def="s32 Energy_Thrust_L">
+      <DisplayName>Energy: Puncture: Large - エネルギー：刺突：大</DisplayName>
+      <Description>Energy: Puncture: Large - エネルギー：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>621</SortID>
+    </Field>
+    <Field Def="s32 Energy_Thrust_LL">
+      <DisplayName>Energy: Puncture: Oversized - エネルギー：刺突：特大</DisplayName>
+      <Description>Energy: Puncture: Oversized - エネルギー：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>622</SortID>
+    </Field>
+    <Field Def="s32 Energy_Blow_S">
+      <DisplayName>Energy: Batter: Small - エネルギー：打撃：小</DisplayName>
+      <Description>Energy: Batter: Small - エネルギー：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>610</SortID>
+    </Field>
+    <Field Def="s32 Energy_Blow_L">
+      <DisplayName>Energy: Batter: Large - エネルギー：打撃：大</DisplayName>
+      <Description>Energy: Batter: Large - エネルギー：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>611</SortID>
+    </Field>
+    <Field Def="s32 Energy_Blow_LL">
+      <DisplayName>Energy: Batter: Oversized - エネルギー：打撃：特大</DisplayName>
+      <Description>Energy: Batter: Oversized - エネルギー：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>612</SortID>
+    </Field>
+    <Field Def="s32 None_Slash_S">
+      <DisplayName>None: Slash: Small - なし：斬撃：小</DisplayName>
+      <Description>None: Slash: Small - なし：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 None_Slash_L">
+      <DisplayName>None: Slash: Large - なし：斬撃：大</DisplayName>
+      <Description>None: Slash: Large - なし：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>701</SortID>
+    </Field>
+    <Field Def="s32 None_Slash_LL">
+      <DisplayName>None: Slash: Oversized - なし：斬撃：特大</DisplayName>
+      <Description>None: Slash: Oversized - なし：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>702</SortID>
+    </Field>
+    <Field Def="s32 None_Thrust_S">
+      <DisplayName>None: Piercing: Small - なし：刺突：小</DisplayName>
+      <Description>None: Piercing: Small - なし：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>720</SortID>
+    </Field>
+    <Field Def="s32 None_Thrust_L">
+      <DisplayName>None: Piercing: Large - なし：刺突：大</DisplayName>
+      <Description>None: Piercing: Large - なし：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>721</SortID>
+    </Field>
+    <Field Def="s32 None_Thrust_LL">
+      <DisplayName>None: Piercing: Oversized - なし：刺突：特大</DisplayName>
+      <Description>None: Piercing: Oversized - なし：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>722</SortID>
+    </Field>
+    <Field Def="s32 None_Blow_S">
+      <DisplayName>None: Batter: Small - なし：打撃：小</DisplayName>
+      <Description>None: Batter: Small - なし：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>710</SortID>
+    </Field>
+    <Field Def="s32 None_Blow_L">
+      <DisplayName>None: Batter: Large - なし：打撃：大</DisplayName>
+      <Description>None: Batter: Large - なし：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>711</SortID>
+    </Field>
+    <Field Def="s32 None_Blow_LL">
+      <DisplayName>None: Batter: Oversized - なし：打撃：特大</DisplayName>
+      <Description>None: Batter: Oversized - なし：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>712</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Slash_S">
+      <DisplayName>Dmy1: Slash: Small - Dmy1：斬撃：小</DisplayName>
+      <Description>Dmy1: Slash: Small - Dmy1：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Slash_L">
+      <DisplayName>Dmy1: Slash: Large - Dmy1：斬撃：大</DisplayName>
+      <Description>Dmy1: Slash: Large - Dmy1：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>801</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Slash_LL">
+      <DisplayName>Dmy1: Slash: Oversized - Dmy1：斬撃：特大</DisplayName>
+      <Description>Dmy1: Slash: Oversized - Dmy1：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>802</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Thrust_S">
+      <DisplayName>Dmy1: Stab: Small - Dmy1：刺突：小</DisplayName>
+      <Description>Dmy1: Stab: Small - Dmy1：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>820</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Thrust_L">
+      <DisplayName>Dmy1: Stab: Large - Dmy1：刺突：大</DisplayName>
+      <Description>Dmy1: Stab: Large - Dmy1：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>821</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Thrust_LL">
+      <DisplayName>Dmy1: Stab: Oversized - Dmy1：刺突：特大</DisplayName>
+      <Description>Dmy1: Stab: Oversized - Dmy1：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>822</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Blow_S">
+      <DisplayName>Dmy1: Batter: Small - Dmy1：打撃：小</DisplayName>
+      <Description>Dmy1: Batter: Small - Dmy1：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Blow_L">
+      <DisplayName>Dmy1: Batter: Large - Dmy1：打撃：大</DisplayName>
+      <Description>Dmy1: Batter: Large - Dmy1：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>811</SortID>
+    </Field>
+    <Field Def="s32 Dmy1_Blow_LL">
+      <DisplayName>Dmy1: Batter: Oversized - Dmy1：打撃：特大</DisplayName>
+      <Description>Dmy1: Batter: Oversized - Dmy1：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>812</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Slash_S">
+      <DisplayName>Dmy2: Slash: Small - Dmy2：斬撃：小</DisplayName>
+      <Description>Dmy2: Slash: Small - Dmy2：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Slash_L">
+      <DisplayName>Dmy2: Slash: Large - Dmy2：斬撃：大</DisplayName>
+      <Description>Dmy2: Slash: Large - Dmy2：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>901</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Slash_LL">
+      <DisplayName>Dmy2: Slash: Oversized - Dmy2：斬撃：特大</DisplayName>
+      <Description>Dmy2: Slash: Oversized - Dmy2：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>902</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Thrust_S">
+      <DisplayName>Dmy2: Piercing: Small - Dmy2：刺突：小</DisplayName>
+      <Description>Dmy2: Piercing: Small - Dmy2：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>920</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Thrust_L">
+      <DisplayName>Dmy2: Piercing: Large - Dmy2：刺突：大</DisplayName>
+      <Description>Dmy2: Piercing: Large - Dmy2：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>921</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Thrust_LL">
+      <DisplayName>Dmy2: Piercing: Oversized - Dmy2：刺突：特大</DisplayName>
+      <Description>Dmy2: Piercing: Oversized - Dmy2：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>922</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Blow_S">
+      <DisplayName>Dmy2: Batter: Small - Dmy2：打撃：小</DisplayName>
+      <Description>Dmy2: Batter: Small - Dmy2：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>910</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Blow_L">
+      <DisplayName>Dmy2: Batter: Large - Dmy2：打撃：大</DisplayName>
+      <Description>Dmy2: Batter: Large - Dmy2：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>911</SortID>
+    </Field>
+    <Field Def="s32 Dmy2_Blow_LL">
+      <DisplayName>Dmy2: Batter: Oversized - Dmy2：打撃：特大</DisplayName>
+      <Description>Dmy2: Batter: Oversized - Dmy2：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>912</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Slash_S">
+      <DisplayName>Dmy3: Slash: Small - Dmy3：斬撃：小</DisplayName>
+      <Description>Dmy3: Slash: Small - Dmy3：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Slash_L">
+      <DisplayName>Dmy3: Slash: Large - Dmy3：斬撃：大</DisplayName>
+      <Description>Dmy3: Slash: Large - Dmy3：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1001</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Slash_LL">
+      <DisplayName>Dmy3: Slash: Oversized - Dmy3：斬撃：特大</DisplayName>
+      <Description>Dmy3: Slash: Oversized - Dmy3：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1002</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Thrust_S">
+      <DisplayName>Dmy3: Piercing: Small - Dmy3：刺突：小</DisplayName>
+      <Description>Dmy3: Piercing: Small - Dmy3：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1020</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Thrust_L">
+      <DisplayName>Dmy3: Piercing: Large - Dmy3：刺突：大</DisplayName>
+      <Description>Dmy3: Piercing: Large - Dmy3：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1021</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Thrust_LL">
+      <DisplayName>Dmy3: Piercing: Oversized - Dmy3：刺突：特大</DisplayName>
+      <Description>Dmy3: Piercing: Oversized - Dmy3：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1022</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Blow_S">
+      <DisplayName>Dmy3: Batter: Small - Dmy3：打撃：小</DisplayName>
+      <Description>Dmy3: Batter: Small - Dmy3：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1010</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Blow_L">
+      <DisplayName>Dmy3: Batter: Large - Dmy3：打撃：大</DisplayName>
+      <Description>Dmy3: Batter: Large - Dmy3：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1011</SortID>
+    </Field>
+    <Field Def="s32 Dmy3_Blow_LL">
+      <DisplayName>Dmy3: Batter: Oversized - Dmy3：打撃：特大</DisplayName>
+      <Description>Dmy3: Batter: Oversized - Dmy3：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1012</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Slash_S">
+      <DisplayName>Uji: Slash: Small - うじ：斬撃：小</DisplayName>
+      <Description>Uji: Slash: Small - うじ：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Slash_L">
+      <DisplayName>Uji: Slash: Large - うじ：斬撃：大</DisplayName>
+      <Description>Uji: Slash: Large - うじ：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1101</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Slash_LL">
+      <DisplayName>Uji: Slash: Oversized - うじ：斬撃：特大</DisplayName>
+      <Description>Uji: Slash: Oversized - うじ：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1102</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Thrust_S">
+      <DisplayName>Uji: Stab: Small - うじ：刺突：小</DisplayName>
+      <Description>Uji: Stab: Small - うじ：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1120</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Thrust_L">
+      <DisplayName>Uji: Stab: Large - うじ：刺突：大</DisplayName>
+      <Description>Uji: Stab: Large - うじ：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1121</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Thrust_LL">
+      <DisplayName>Uji: Stab: Oversized - うじ：刺突：特大</DisplayName>
+      <Description>Uji: Stab: Oversized - うじ：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1122</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Blow_S">
+      <DisplayName>Uji: Batter: Small - うじ：打撃：小</DisplayName>
+      <Description>Uji: Batter: Small - うじ：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1110</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Blow_L">
+      <DisplayName>Uji: Batter: Large - うじ：打撃：大</DisplayName>
+      <Description>Uji: Batter: Large - うじ：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1111</SortID>
+    </Field>
+    <Field Def="s32 Maggot_Blow_LL">
+      <DisplayName>Uji: Batter: Oversized - うじ：打撃：特大</DisplayName>
+      <Description>Uji: Batter: Oversized - うじ：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1112</SortID>
+    </Field>
+    <Field Def="s32 Wax_Slash_S">
+      <DisplayName>Wax: Slash: Small - 蝋：斬撃：小</DisplayName>
+      <Description>Wax: Slash: Small - 蝋：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="s32 Wax_Slash_L">
+      <DisplayName>Wax: Slash: Large - 蝋：斬撃：大</DisplayName>
+      <Description>Wax: Slash: Large - 蝋：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1201</SortID>
+    </Field>
+    <Field Def="s32 Wax_Slash_LL">
+      <DisplayName>Wax: Slash: Oversized - 蝋：斬撃：特大</DisplayName>
+      <Description>Wax: Slash: Oversized - 蝋：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1202</SortID>
+    </Field>
+    <Field Def="s32 Wax_Thrust_S">
+      <DisplayName>Wax: piercing: small - 蝋：刺突：小</DisplayName>
+      <Description>Wax: piercing: small - 蝋：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1220</SortID>
+    </Field>
+    <Field Def="s32 Wax_Thrust_L">
+      <DisplayName>Wax: piercing: large - 蝋：刺突：大</DisplayName>
+      <Description>Wax: piercing: large - 蝋：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1221</SortID>
+    </Field>
+    <Field Def="s32 Wax_Thrust_LL">
+      <DisplayName>Wax: piercing: oversized - 蝋：刺突：特大</DisplayName>
+      <Description>Wax: piercing: oversized - 蝋：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1222</SortID>
+    </Field>
+    <Field Def="s32 Wax_Blow_S">
+      <DisplayName>Wax: Batter: Small - 蝋：打撃：小</DisplayName>
+      <Description>Wax: Batter: Small - 蝋：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1210</SortID>
+    </Field>
+    <Field Def="s32 Wax_Blow_L">
+      <DisplayName>Wax: Batter: Large - 蝋：打撃：大</DisplayName>
+      <Description>Wax: Batter: Large - 蝋：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1211</SortID>
+    </Field>
+    <Field Def="s32 Wax_Blow_LL">
+      <DisplayName>Wax: Batter: Oversized - 蝋：打撃：特大</DisplayName>
+      <Description>Wax: Batter: Oversized - 蝋：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1212</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Slash_S">
+      <DisplayName>Burning: Slashing: Small - 炎上：斬撃：小</DisplayName>
+      <Description>Burning: Slashing: Small - 炎上：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Slash_L">
+      <DisplayName>Burning: Slashing: Large - 炎上：斬撃：大</DisplayName>
+      <Description>Burning: Slashing: Large - 炎上：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1301</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Slash_LL">
+      <DisplayName>Burning: Slashing: Oversized - 炎上：斬撃：特大</DisplayName>
+      <Description>Burning: Slashing: Oversized - 炎上：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1302</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Thrust_S">
+      <DisplayName>Burning: Piercing: Small - 炎上：刺突：小</DisplayName>
+      <Description>Burning: Piercing: Small - 炎上：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1320</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Thrust_L">
+      <DisplayName>Burning: Piercing: Large - 炎上：刺突：大</DisplayName>
+      <Description>Burning: Piercing: Large - 炎上：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1321</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Thrust_LL">
+      <DisplayName>Burning: Piercing: Oversized - 炎上：刺突：特大</DisplayName>
+      <Description>Burning: Piercing: Oversized - 炎上：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1322</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Blow_S">
+      <DisplayName>On fire: Batter: Small - 炎上：打撃：小</DisplayName>
+      <Description>On fire: Batter: Small - 炎上：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1310</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Blow_L">
+      <DisplayName>On fire: Batter: Large - 炎上：打撃：大</DisplayName>
+      <Description>On fire: Batter: Large - 炎上：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1311</SortID>
+    </Field>
+    <Field Def="s32 FireFlame_Blow_LL">
+      <DisplayName>On fire: Batter: Oversized - 炎上：打撃：特大</DisplayName>
+      <Description>On fire: Batter: Oversized - 炎上：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1312</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Slash_S">
+      <DisplayName>Corrosion: Gas: Slash: Small - 蝕：気体：斬撃：小</DisplayName>
+      <Description>Corrosion: Gas: Slash: Small - 蝕：気体：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Slash_L">
+      <DisplayName>Corrosion: Gas: Slash: Large - 蝕：気体：斬撃：大</DisplayName>
+      <Description>Corrosion: Gas: Slash: Large - 蝕：気体：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1501</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Slash_LL">
+      <DisplayName>Corrosion: Gas: Slash: Oversized - 蝕：気体：斬撃：特大</DisplayName>
+      <Description>Corrosion: Gas: Slash: Oversized - 蝕：気体：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1502</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Thrust_S">
+      <DisplayName>Corrosion: Gas: Piercing: Small - 蝕：気体：刺突：小</DisplayName>
+      <Description>Corrosion: Gas: Piercing: Small - 蝕：気体：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1520</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Thrust_L">
+      <DisplayName>Corrosion: Gas: Piercing: Large - 蝕：気体：刺突：大</DisplayName>
+      <Description>Corrosion: Gas: Piercing: Large - 蝕：気体：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1521</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Thrust_LL">
+      <DisplayName>Corrosion: Gas: Piercing: Oversized - 蝕：気体：刺突：特大</DisplayName>
+      <Description>Corrosion: Gas: Piercing: Oversized - 蝕：気体：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1522</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Blow_S">
+      <DisplayName>Corrosion: Gas: Batter: Small - 蝕：気体：打撃：小</DisplayName>
+      <Description>Corrosion: Gas: Batter: Small - 蝕：気体：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1510</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Blow_L">
+      <DisplayName>Corrosion: Gas: Batter: Large - 蝕：気体：打撃：大</DisplayName>
+      <Description>Corrosion: Gas: Batter: Large - 蝕：気体：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1511</SortID>
+    </Field>
+    <Field Def="s32 EclipseGas_Blow_LL">
+      <DisplayName>Corrosion: Gas: Batter: Oversized - 蝕：気体：打撃：特大</DisplayName>
+      <Description>Corrosion: Gas: Batter: Oversized - 蝕：気体：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1512</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Slash_S">
+      <DisplayName>Energy (strong): Slash: Small - エネルギー（強）：斬撃：小</DisplayName>
+      <Description>Energy (strong): Slash: Small - エネルギー（強）：斬撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Slash_L">
+      <DisplayName>Energy (strong): Slash: Large - エネルギー（強）：斬撃：大</DisplayName>
+      <Description>Energy (strong): Slash: Large - エネルギー（強）：斬撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1601</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Slash_LL">
+      <DisplayName>Energy (strong): Slash: Oversized - エネルギー（強）：斬撃：特大</DisplayName>
+      <Description>Energy (strong): Slash: Oversized - エネルギー（強）：斬撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1602</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Thrust_S">
+      <DisplayName>Energy (strong): piercing: small - エネルギー（強）：刺突：小</DisplayName>
+      <Description>Energy (strong): piercing: small - エネルギー（強）：刺突：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1620</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Thrust_L">
+      <DisplayName>Energy (strong): piercing: large - エネルギー（強）：刺突：大</DisplayName>
+      <Description>Energy (strong): piercing: large - エネルギー（強）：刺突：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1621</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Thrust_LL">
+      <DisplayName>Energy (strong): piercing: oversized - エネルギー（強）：刺突：特大</DisplayName>
+      <Description>Energy (strong): piercing: oversized - エネルギー（強）：刺突：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1622</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Blow_S">
+      <DisplayName>Energy (strong): Batter: Small - エネルギー（強）：打撃：小</DisplayName>
+      <Description>Energy (strong): Batter: Small - エネルギー（強）：打撃：小</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1610</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Blow_L">
+      <DisplayName>Energy (strong): Batter: Large - エネルギー（強）：打撃：大</DisplayName>
+      <Description>Energy (strong): Batter: Large - エネルギー（強）：打撃：大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1611</SortID>
+    </Field>
+    <Field Def="s32 EnergyStrong_Blow_LL">
+      <DisplayName>Energy (strong): Batter: Oversized - エネルギー（強）：打撃：特大</DisplayName>
+      <Description>Energy (strong): Batter: Oversized - エネルギー（強）：打撃：特大</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>1612</SortID>
+    </Field>
+    <Field Def="dummy8 reserve[100]">
+      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <Description>Reserved area - 予約領域</Description>
+      <SortID>1623</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

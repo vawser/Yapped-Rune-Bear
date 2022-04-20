@@ -1,0 +1,1471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>FACE_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 face_partsId">
+      <DisplayName>Face part ID - 顔パーツID</DisplayName>
+      <Description>Face part ID - 顔パーツID</Description>
+      <SortID>1000</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_R = 128">
+      <DisplayName>Skin color (R) - 肌の色(Ｒ)</DisplayName>
+      <Description>Skin color (R) - 肌の色(Ｒ)</Description>
+      <SortID>1010</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_G = 128">
+      <DisplayName>Skin color (G) - 肌の色(Ｇ)</DisplayName>
+      <Description>Skin color (G) - 肌の色(Ｇ)</Description>
+      <SortID>1011</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_B = 128">
+      <DisplayName>Skin color (B) - 肌の色(Ｂ)</DisplayName>
+      <Description>Skin color (B) - 肌の色(Ｂ)</Description>
+      <SortID>1012</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_gloss = 128">
+      <DisplayName>Shiny skin - 肌のつや</DisplayName>
+      <Description>Shiny skin - 肌のつや</Description>
+      <SortID>1020</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_pores = 128">
+      <DisplayName>pores - 毛穴</DisplayName>
+      <Description>pores - 毛穴</Description>
+      <SortID>1030</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 face_beard = 128">
+      <DisplayName>Blue beard - 青ひげ</DisplayName>
+      <Description>Blue beard - 青ひげ</Description>
+      <SortID>1040</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEye = 128">
+      <DisplayName>Bear - くま</DisplayName>
+      <Description>Bear - くま</Description>
+      <SortID>1050</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_R = 128">
+      <DisplayName>Bear color (R) - くまの色(R)</DisplayName>
+      <Description>Bear color (R) - くまの色(R)</Description>
+      <SortID>1060</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_G = 128">
+      <DisplayName>Bear color (G) - くまの色(G)</DisplayName>
+      <Description>Bear color (G) - くまの色(G)</Description>
+      <SortID>1061</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_B = 128">
+      <DisplayName>Bear color (B) - くまの色(B)</DisplayName>
+      <Description>Bear color (B) - くまの色(B)</Description>
+      <SortID>1062</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheek = 128">
+      <DisplayName>cheek - チーク</DisplayName>
+      <Description>cheek - チーク</Description>
+      <SortID>1070</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_R = 128">
+      <DisplayName>Teak color (R) - チークの色(R)</DisplayName>
+      <Description>Teak color (R) - チークの色(R)</Description>
+      <SortID>1080</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_G = 128">
+      <DisplayName>Teak color (G) - チークの色(G)</DisplayName>
+      <Description>Teak color (G) - チークの色(G)</Description>
+      <SortID>1081</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_B = 128">
+      <DisplayName>Teak color (B) - チークの色(B)</DisplayName>
+      <Description>Teak color (B) - チークの色(B)</Description>
+      <SortID>1082</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLine = 128">
+      <DisplayName>Eyeline - アイライン</DisplayName>
+      <Description>Eyeline - アイライン</Description>
+      <SortID>1090</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_R = 128">
+      <DisplayName>Eyeliner color (R) - アイラインの色(R)</DisplayName>
+      <Description>Eyeliner color (R) - アイラインの色(R)</Description>
+      <SortID>1100</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_G = 128">
+      <DisplayName>Eyeliner color (G) - アイラインの色(G)</DisplayName>
+      <Description>Eyeliner color (G) - アイラインの色(G)</Description>
+      <SortID>1101</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_B = 128">
+      <DisplayName>Eyeliner color (B) - アイラインの色(B)</DisplayName>
+      <Description>Eyeliner color (B) - アイラインの色(B)</Description>
+      <SortID>1102</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDown = 128">
+      <DisplayName>Eye shadow (bottom) - アイシャドウ(下)</DisplayName>
+      <Description>Eye shadow (bottom) - アイシャドウ(下)</Description>
+      <SortID>1110</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_R = 128">
+      <DisplayName>Eyeshadow (bottom) color (R) - アイシャドウ(下)の色(R)</DisplayName>
+      <Description>Eyeshadow (bottom) color (R) - アイシャドウ(下)の色(R)</Description>
+      <SortID>1120</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_G = 128">
+      <DisplayName>Eyeshadow (bottom) color (G) - アイシャドウ(下)の色(G)</DisplayName>
+      <Description>Eyeshadow (bottom) color (G) - アイシャドウ(下)の色(G)</Description>
+      <SortID>1121</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_B = 128">
+      <DisplayName>Eyeshadow (bottom) color (B) - アイシャドウ(下)の色(B)</DisplayName>
+      <Description>Eyeshadow (bottom) color (B) - アイシャドウ(下)の色(B)</Description>
+      <SortID>1122</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUp = 128">
+      <DisplayName>Eye shadow (top) - アイシャドウ(上)</DisplayName>
+      <Description>Eye shadow (top) - アイシャドウ(上)</Description>
+      <SortID>1130</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_R = 128">
+      <DisplayName>Eyeshadow (top) color (R) - アイシャドウ(上)の色(R)</DisplayName>
+      <Description>Eyeshadow (top) color (R) - アイシャドウ(上)の色(R)</Description>
+      <SortID>1140</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_G = 128">
+      <DisplayName>Eyeshadow (top) color (G) - アイシャドウ(上)の色(G)</DisplayName>
+      <Description>Eyeshadow (top) color (G) - アイシャドウ(上)の色(G)</Description>
+      <SortID>1141</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_B = 128">
+      <DisplayName>Eyeshadow (top) color (B) - アイシャドウ(上)の色(B)</DisplayName>
+      <Description>Eyeshadow (top) color (B) - アイシャドウ(上)の色(B)</Description>
+      <SortID>1142</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lip = 128">
+      <DisplayName>lipstick - 口紅</DisplayName>
+      <Description>lipstick - 口紅</Description>
+      <SortID>1150</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_R = 128">
+      <DisplayName>Lipstick color (R) - 口紅の色(R)</DisplayName>
+      <Description>Lipstick color (R) - 口紅の色(R)</Description>
+      <SortID>1160</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_G = 128">
+      <DisplayName>Lipstick color (G) - 口紅の色(G)</DisplayName>
+      <Description>Lipstick color (G) - 口紅の色(G)</Description>
+      <SortID>1161</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_B = 128">
+      <DisplayName>Lipstick color (B) - 口紅の色(B)</DisplayName>
+      <Description>Lipstick color (B) - 口紅の色(B)</Description>
+      <SortID>1162</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 body_hair = 128">
+      <DisplayName>Hair thickness - 体毛の濃さ</DisplayName>
+      <Description>Hair thickness - 体毛の濃さ</Description>
+      <SortID>1200</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_R = 128">
+      <DisplayName>Hair color (R) - 体毛の色(R)</DisplayName>
+      <Description>Hair color (R) - 体毛の色(R)</Description>
+      <SortID>1210</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_G = 128">
+      <DisplayName>Hair color (G) - 体毛の色(G)</DisplayName>
+      <Description>Hair color (G) - 体毛の色(G)</Description>
+      <SortID>1211</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_B = 128">
+      <DisplayName>Hair color (B) - 体毛の色(B)</DisplayName>
+      <Description>Hair color (B) - 体毛の色(B)</Description>
+      <SortID>1212</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 eye_partsId">
+      <DisplayName>Eyeball part ID - 眼球パーツID</DisplayName>
+      <Description>Eyeball part ID - 眼球パーツID</Description>
+      <SortID>1300</SortID>
+      <UnkC8>眼球</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_R = 128">
+      <DisplayName>Iris color (R) - 虹彩の色(Ｒ)</DisplayName>
+      <Description>Right eye iris color (R) - 右目の虹彩の色(Ｒ)</Description>
+      <SortID>1400</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_G = 128">
+      <DisplayName>Iris color (G) - 虹彩の色(Ｇ)</DisplayName>
+      <Description>Right eye iris color (G) - 右目の虹彩の色(Ｇ)</Description>
+      <SortID>1401</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_B = 128">
+      <DisplayName>Iris color (B) - 虹彩の色(Ｂ)</DisplayName>
+      <Description>Right eye iris color (B) - 右目の虹彩の色(Ｂ)</Description>
+      <SortID>1402</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisScale = 128">
+      <DisplayName>The size of the iris - 虹彩の大きさ</DisplayName>
+      <Description>The size of the iris of the right eye - 右目の虹彩の大きさ</Description>
+      <SortID>1410</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataract = 128">
+      <DisplayName>Cloudiness of the crystalline lens - 水晶体の濁り</DisplayName>
+      <Description>Cloudiness of the crystalline lens of the right eye - 右目の水晶体の濁り</Description>
+      <SortID>1420</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_R = 128">
+      <DisplayName>The turbid color of the crystalline lens (R) - 水晶体の濁りの色(Ｒ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (R) - 右目の水晶体の濁りの色(Ｒ)</Description>
+      <SortID>1430</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_G = 128">
+      <DisplayName>The turbid color of the crystalline lens (G) - 水晶体の濁りの色(Ｇ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (G) - 右目の水晶体の濁りの色(Ｇ)</Description>
+      <SortID>1431</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_B = 128">
+      <DisplayName>The turbid color of the crystalline lens (B) - 水晶体の濁りの色(Ｂ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (B) - 右目の水晶体の濁りの色(Ｂ)</Description>
+      <SortID>1432</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_R = 128">
+      <DisplayName>White eye color (R) - 白目の色(Ｒ)</DisplayName>
+      <Description>White eye color of the right eye (R) - 右目の白目の色(Ｒ)</Description>
+      <SortID>1440</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_G = 128">
+      <DisplayName>White eye color (G) - 白目の色(G)</DisplayName>
+      <Description>White eye color of the right eye (G) - 右目の白目の色(G)</Description>
+      <SortID>1441</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_B = 128">
+      <DisplayName>White eye color (B) - 白目の色(B)</DisplayName>
+      <Description>White eye color of the right eye (B) - 右目の白目の色(B)</Description>
+      <SortID>1442</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisDistance = 128">
+      <DisplayName>Position of the iris - 虹彩の位置</DisplayName>
+      <Description>Position of the iris of the right eye - 右目の虹彩の位置</Description>
+      <SortID>1450</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_R = 128">
+      <DisplayName>Iris color (R) - 虹彩の色(Ｒ)</DisplayName>
+      <Description>Left eye iris color (R) - 左目の虹彩の色(Ｒ)</Description>
+      <SortID>1500</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_G = 128">
+      <DisplayName>Iris color (G) - 虹彩の色(Ｇ)</DisplayName>
+      <Description>Left eye iris color (G) - 左目の虹彩の色(Ｇ)</Description>
+      <SortID>1501</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_B = 128">
+      <DisplayName>Iris color (B) - 虹彩の色(Ｂ)</DisplayName>
+      <Description>Left eye iris color (B) - 左目の虹彩の色(Ｂ)</Description>
+      <SortID>1502</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisScale = 128">
+      <DisplayName>The size of the iris - 虹彩の大きさ</DisplayName>
+      <Description>The size of the iris of the left eye - 左目の虹彩の大きさ</Description>
+      <SortID>1510</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataract = 128">
+      <DisplayName>Cloudiness of the crystalline lens - 水晶体の濁り</DisplayName>
+      <Description>Cloudiness of the crystalline lens of the left eye - 左目の水晶体の濁り</Description>
+      <SortID>1520</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_R = 128">
+      <DisplayName>The turbid color of the crystalline lens (R) - 水晶体の濁りの色(Ｒ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (R) - 左目の水晶体の濁りの色(Ｒ)</Description>
+      <SortID>1530</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_G = 128">
+      <DisplayName>The turbid color of the crystalline lens (G) - 水晶体の濁りの色(Ｇ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (G) - 左目の水晶体の濁りの色(Ｇ)</Description>
+      <SortID>1531</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_B = 128">
+      <DisplayName>The turbid color of the crystalline lens (B) - 水晶体の濁りの色(Ｂ)</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (B) - 左目の水晶体の濁りの色(Ｂ)</Description>
+      <SortID>1532</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_R = 128">
+      <DisplayName>White eye color (R) - 白目の色(Ｒ)</DisplayName>
+      <Description>White eye color of the left eye (R) - 左目の白目の色(Ｒ)</Description>
+      <SortID>1540</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_G = 128">
+      <DisplayName>White eye color (G) - 白目の色(G)</DisplayName>
+      <Description>White eye color of the left eye (G) - 左目の白目の色(G)</Description>
+      <SortID>1541</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_B = 128">
+      <DisplayName>White eye color (B) - 白目の色(B)</DisplayName>
+      <Description>White eye color of the left eye (B) - 左目の白目の色(B)</Description>
+      <SortID>1542</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisDistance = 128">
+      <DisplayName>Position of the iris - 虹彩の位置</DisplayName>
+      <Description>Position of the iris of the left eye - 左目の虹彩の位置</Description>
+      <SortID>1550</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 hair_partsId">
+      <DisplayName>Hair part ID - 髪パーツID</DisplayName>
+      <Description>Hair part ID - 髪パーツID</Description>
+      <SortID>1600</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_R = 128">
+      <DisplayName>Hair color (R) - 髪の色(Ｒ)</DisplayName>
+      <Description>Hair color (R) - 髪の色(Ｒ)</Description>
+      <SortID>1610</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_G = 128">
+      <DisplayName>Hair color (G) - 髪の色(Ｇ)</DisplayName>
+      <Description>Hair color (G) - 髪の色(Ｇ)</Description>
+      <SortID>1611</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_B = 128">
+      <DisplayName>Hair color (B) - 髪の色(Ｂ)</DisplayName>
+      <Description>Hair color (B) - 髪の色(Ｂ)</Description>
+      <SortID>1612</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_shininess = 128">
+      <DisplayName>Gloss - 光沢</DisplayName>
+      <Description>Hair gloss - 髪の光沢</Description>
+      <SortID>1620</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_rootBlack = 128">
+      <DisplayName>Blackness at the base - 根元の黒さ</DisplayName>
+      <Description>Blackness at the base of hair - 髪の根元の黒さ</Description>
+      <SortID>1630</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_whiteDensity = 128">
+      <DisplayName>Amount of gray hair - 白髪の量</DisplayName>
+      <Description>Amount of white hair - 髪の白髪の量</Description>
+      <SortID>1640</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 beard_partsId">
+      <DisplayName>Beard part ID - 髭パーツID</DisplayName>
+      <Description>Beard part ID - 髭パーツID</Description>
+      <SortID>1700</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_R = 128">
+      <DisplayName>Beard color (R) - 髭の色(Ｒ)</DisplayName>
+      <Description>Beard color (R) - 髭の色(Ｒ)</Description>
+      <SortID>1710</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_G = 128">
+      <DisplayName>Beard color (G) - 髭の色(Ｇ)</DisplayName>
+      <Description>Beard color (G) - 髭の色(Ｇ)</Description>
+      <SortID>1711</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_B = 128">
+      <DisplayName>Beard color (B) - 髭の色(Ｂ)</DisplayName>
+      <Description>Beard color (B) - 髭の色(Ｂ)</Description>
+      <SortID>1712</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_shininess = 128">
+      <DisplayName>Gloss - 光沢</DisplayName>
+      <Description>Beard luster - 髭の光沢</Description>
+      <SortID>1720</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_rootBlack = 128">
+      <DisplayName>Blackness at the base - 根元の黒さ</DisplayName>
+      <Description>Blackness at the base of the beard - 髭の根元の黒さ</Description>
+      <SortID>1730</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_whiteDensity = 128">
+      <DisplayName>Amount of gray hair - 白髪の量</DisplayName>
+      <Description>Amount of white hair with a beard - 髭の白髪の量</Description>
+      <SortID>1740</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_partsId">
+      <DisplayName>Eyebrow part ID - 眉パーツID</DisplayName>
+      <Description>Eyebrow part ID - 眉パーツID</Description>
+      <SortID>1800</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_R = 128">
+      <DisplayName>Eyebrow color (R) - 眉の色(Ｒ)</DisplayName>
+      <Description>Eyebrow color (R) - 眉の色(Ｒ)</Description>
+      <SortID>1810</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_G = 128">
+      <DisplayName>Eyebrow color (G) - 眉の色(Ｇ)</DisplayName>
+      <Description>Eyebrow color (G) - 眉の色(Ｇ)</Description>
+      <SortID>1811</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_B = 128">
+      <DisplayName>Eyebrow color (B) - 眉の色(Ｂ)</DisplayName>
+      <Description>Eyebrow color (B) - 眉の色(Ｂ)</Description>
+      <SortID>1812</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_shininess = 128">
+      <DisplayName>Gloss - 光沢</DisplayName>
+      <Description>Glossy eyebrows - 眉の光沢</Description>
+      <SortID>1820</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_rootBlack = 128">
+      <DisplayName>Blackness at the base - 根元の黒さ</DisplayName>
+      <Description>Blackness at the base of the eyebrows - 眉の根元の黒さ</Description>
+      <SortID>1830</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_whiteDensity = 128">
+      <DisplayName>Amount of gray hair - 白髪の量</DisplayName>
+      <Description>Amount of white hair on the eyebrows - 眉の白髪の量</Description>
+      <SortID>1840</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_partsId">
+      <DisplayName>Eyelash parts ID - まつげパーツID</DisplayName>
+      <Description>Eyelash parts ID - まつげパーツID</Description>
+      <SortID>1900</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_R = 128">
+      <DisplayName>Eyelash color (R) - まつげの色(Ｒ)</DisplayName>
+      <Description>Eyelash color (R) - まつげの色(Ｒ)</Description>
+      <SortID>1910</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_G = 128">
+      <DisplayName>Eyelash color (G) - まつげの色(Ｇ)</DisplayName>
+      <Description>Eyelash color (G) - まつげの色(Ｇ)</Description>
+      <SortID>1911</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_B = 128">
+      <DisplayName>Eyelash color (B) - まつげの色(Ｂ)</DisplayName>
+      <Description>Eyelash color (B) - まつげの色(Ｂ)</Description>
+      <SortID>1912</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_partsId">
+      <DisplayName>Decorative part ID - 装飾パーツID</DisplayName>
+      <Description>Decorative part ID - 装飾パーツID</Description>
+      <SortID>2000</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_R = 128">
+      <DisplayName>Decoration color (R) - 装飾の色(Ｒ)</DisplayName>
+      <Description>Decoration color (R) - 装飾の色(Ｒ)</Description>
+      <SortID>2010</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_G = 128">
+      <DisplayName>Decoration color (G) - 装飾の色(Ｇ)</DisplayName>
+      <Description>Decoration color (G) - 装飾の色(Ｇ)</Description>
+      <SortID>2011</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_B = 128">
+      <DisplayName>Decorative color (B) - 装飾の色(Ｂ)</DisplayName>
+      <Description>Decorative color (B) - 装飾の色(Ｂ)</Description>
+      <SortID>2012</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 decal_partsId">
+      <DisplayName>Decal part ID - デカールパーツID</DisplayName>
+      <Description>Decal part ID - デカールパーツID</Description>
+      <SortID>2100</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_posX">
+      <DisplayName>Decal position (x) - デカール位置(x)</DisplayName>
+      <Description>Decal position (x) - デカール位置(x)</Description>
+      <SortID>2110</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_posY">
+      <DisplayName>Decal position (y) - デカール位置(y)</DisplayName>
+      <Description>Decal position (y) - デカール位置(y)</Description>
+      <SortID>2111</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_angle">
+      <DisplayName>Decal angle - デカール角度</DisplayName>
+      <Description>Decal angle - デカール角度</Description>
+      <SortID>2120</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_scale">
+      <DisplayName>Decal scale - デカールスケール</DisplayName>
+      <Description>Decal scale - デカールスケール</Description>
+      <SortID>2130</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_R = 128">
+      <DisplayName>Decal color (R) - デカールの色(Ｒ)</DisplayName>
+      <Description>Decal color (R) - デカールの色(Ｒ)</Description>
+      <SortID>2140</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_G = 128">
+      <DisplayName>Decal color (G) - デカールの色(Ｇ)</DisplayName>
+      <Description>Decal color (G) - デカールの色(Ｇ)</Description>
+      <SortID>2141</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_B = 128">
+      <DisplayName>Decal color (B) - デカールの色(Ｂ)</DisplayName>
+      <Description>Decal color (B) - デカールの色(Ｂ)</Description>
+      <SortID>2142</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_gloss = 128">
+      <DisplayName>Decal gloss - デカールのつや</DisplayName>
+      <Description>Decal gloss - デカールのつや</Description>
+      <SortID>2150</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_mirror">
+      <DisplayName>Decal reversal - デカールの反転</DisplayName>
+      <Description>Decal reversal - デカールの反転</Description>
+      <Maximum>1</Maximum>
+      <SortID>2160</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleHead = 128">
+      <DisplayName>Character body head scale - キャラ体型頭部スケール</DisplayName>
+      <Description>Character body head scale - キャラ体型頭部スケール</Description>
+      <SortID>2500</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleBreast = 128">
+      <DisplayName>Character body chest scale - キャラ体型胸部スケール</DisplayName>
+      <Description>Character body chest scale - キャラ体型胸部スケール</Description>
+      <SortID>2510</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleAbdomen = 128">
+      <DisplayName>Character body type abdominal scale - キャラ体型腹部スケール</DisplayName>
+      <Description>Character body type abdominal scale - キャラ体型腹部スケール</Description>
+      <SortID>2520</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleRArm = 128">
+      <DisplayName>Character body right arm scale - キャラ体型右腕部スケール</DisplayName>
+      <Description>Character body right arm scale - キャラ体型右腕部スケール</Description>
+      <SortID>2530</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleRLeg = 128">
+      <DisplayName>Character body right leg scale - キャラ体型右脚部スケール</DisplayName>
+      <Description>Character body right leg scale - キャラ体型右脚部スケール</Description>
+      <SortID>2540</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleLArm = 128">
+      <DisplayName>Character body shape left arm scale - キャラ体型左腕部スケール</DisplayName>
+      <Description>Character body shape left arm scale - キャラ体型左腕部スケール</Description>
+      <SortID>2550</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleLLeg = 128">
+      <DisplayName>Character body type left leg scale - キャラ体型左脚部スケール</DisplayName>
+      <Description>Character body type left leg scale - キャラ体型左脚部スケール</Description>
+      <SortID>2560</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 burn_scar">
+      <DisplayName>Burn scars - 火傷跡</DisplayName>
+      <Description>Burn scars - 火傷跡</Description>
+      <SortID>2200</SortID>
+      <UnkC8>イベント用</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_partsId:1">
+      <DisplayName>Eyeball part ID - 眼球パーツID</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to overwrite the eyeball part ID - 眼球パーツIDを上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10000</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_irisColor:1">
+      <DisplayName>Iris color - 虹彩の色</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the color of the iris? - 虹彩の色を上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10010</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_cataract:1">
+      <DisplayName>Cloudiness of the crystalline lens - 水晶体の濁り</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the turbidity of the crystalline lens? - 水晶体の濁りを上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10020</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_cataractColor:1">
+      <DisplayName>The turbid color of the crystalline lens - 水晶体の濁り色</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the muddy color of the crystalline lens? - 水晶体の濁り色を上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10030</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_scleraColor:1">
+      <DisplayName>White eye color - 白目の色</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the white eye color? - 白目の色を上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10040</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_burn_scar:1">
+      <DisplayName>Burn scars - 火傷跡</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the burn scars? - 火傷跡を上書きするか</Description>
+      <Maximum>1</Maximum>
+      <SortID>10050</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2:2">
+      <DisplayName>pad2 - pad2</DisplayName>
+      <SortID>10051</SortID>
+    </Field>
+    <Field Def="dummy8 pad[5]">
+      <DisplayName>pad - pad</DisplayName>
+      <SortID>10052</SortID>
+    </Field>
+    <Field Def="u8 age = 128">
+      <DisplayName>age - 年齢</DisplayName>
+      <Description>age - 年齢</Description>
+      <SortID>3000</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 gender = 128">
+      <DisplayName>sex - 性別</DisplayName>
+      <Description>sex - 性別</Description>
+      <SortID>3100</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 caricatureGeometry = 128">
+      <DisplayName>Exaggeration (model) - 誇張（モデル）</DisplayName>
+      <Description>Exaggeration (model) - 誇張（モデル）</Description>
+      <SortID>3200</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 caricatureTexture = 128">
+      <DisplayName>Exaggeration (texture) - 誇張（テクスチャ）</DisplayName>
+      <Description>Exaggeration (texture) - 誇張（テクスチャ）</Description>
+      <SortID>3300</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData00 = 128">
+      <DisplayName>Face creation geometry data 00 - 顔作成ジオメトリデータ00</DisplayName>
+      <Description>Face creation geometry data 00 - 顔作成ジオメトリデータ00</Description>
+      <SortID>3400</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData01 = 128">
+      <DisplayName>Face creation geometry data 01 - 顔作成ジオメトリデータ01</DisplayName>
+      <Description>Face creation geometry data 01 - 顔作成ジオメトリデータ01</Description>
+      <SortID>3401</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData02 = 128">
+      <DisplayName>Face creation geometry data 02 - 顔作成ジオメトリデータ02</DisplayName>
+      <Description>Face creation geometry data 02 - 顔作成ジオメトリデータ02</Description>
+      <SortID>3402</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData03 = 128">
+      <DisplayName>Face creation geometry data 03 - 顔作成ジオメトリデータ03</DisplayName>
+      <Description>Face creation geometry data 03 - 顔作成ジオメトリデータ03</Description>
+      <SortID>3403</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData04 = 128">
+      <DisplayName>Face creation geometry data 04 - 顔作成ジオメトリデータ04</DisplayName>
+      <Description>Face creation geometry data 04 - 顔作成ジオメトリデータ04</Description>
+      <SortID>3404</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData05 = 128">
+      <DisplayName>Face creation geometry data 05 - 顔作成ジオメトリデータ05</DisplayName>
+      <Description>Face creation geometry data 05 - 顔作成ジオメトリデータ05</Description>
+      <SortID>3405</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData06 = 128">
+      <DisplayName>Face creation geometry data 06 - 顔作成ジオメトリデータ06</DisplayName>
+      <Description>Face creation geometry data 06 - 顔作成ジオメトリデータ06</Description>
+      <SortID>3406</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData07 = 128">
+      <DisplayName>Face creation geometry data 07 - 顔作成ジオメトリデータ07</DisplayName>
+      <Description>Face creation geometry data 07 - 顔作成ジオメトリデータ07</Description>
+      <SortID>3407</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData08 = 128">
+      <DisplayName>Face creation geometry data 08 - 顔作成ジオメトリデータ08</DisplayName>
+      <Description>Face creation geometry data 08 - 顔作成ジオメトリデータ08</Description>
+      <SortID>3408</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData09 = 128">
+      <DisplayName>Face creation geometry data 09 - 顔作成ジオメトリデータ09</DisplayName>
+      <Description>Face creation geometry data 09 - 顔作成ジオメトリデータ09</Description>
+      <SortID>3409</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData10 = 128">
+      <DisplayName>Face creation geometry data 10 - 顔作成ジオメトリデータ10</DisplayName>
+      <Description>Face creation geometry data 10 - 顔作成ジオメトリデータ10</Description>
+      <SortID>3410</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData11 = 128">
+      <DisplayName>Face creation geometry data 11 - 顔作成ジオメトリデータ11</DisplayName>
+      <Description>Face creation geometry data 11 - 顔作成ジオメトリデータ11</Description>
+      <SortID>3411</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData12 = 128">
+      <DisplayName>Face creation geometry data 12 - 顔作成ジオメトリデータ12</DisplayName>
+      <Description>Face creation geometry data 12 - 顔作成ジオメトリデータ12</Description>
+      <SortID>3412</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData13 = 128">
+      <DisplayName>Face creation geometry data 13 - 顔作成ジオメトリデータ13</DisplayName>
+      <Description>Face creation geometry data 13 - 顔作成ジオメトリデータ13</Description>
+      <SortID>3413</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData14 = 128">
+      <DisplayName>Face creation geometry data 14 - 顔作成ジオメトリデータ14</DisplayName>
+      <Description>Face creation geometry data 14 - 顔作成ジオメトリデータ14</Description>
+      <SortID>3414</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData15 = 128">
+      <DisplayName>Face creation geometry data 15 - 顔作成ジオメトリデータ15</DisplayName>
+      <Description>Face creation geometry data 15 - 顔作成ジオメトリデータ15</Description>
+      <SortID>3415</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData16 = 128">
+      <DisplayName>Face creation geometry data 16 - 顔作成ジオメトリデータ16</DisplayName>
+      <Description>Face creation geometry data 16 - 顔作成ジオメトリデータ16</Description>
+      <SortID>3416</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData17 = 128">
+      <DisplayName>Face creation geometry data 17 - 顔作成ジオメトリデータ17</DisplayName>
+      <Description>Face creation geometry data 17 - 顔作成ジオメトリデータ17</Description>
+      <SortID>3417</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData18 = 128">
+      <DisplayName>Face creation geometry data 18 - 顔作成ジオメトリデータ18</DisplayName>
+      <Description>Face creation geometry data 18 - 顔作成ジオメトリデータ18</Description>
+      <SortID>3418</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData19 = 128">
+      <DisplayName>Face creation geometry data 19 - 顔作成ジオメトリデータ19</DisplayName>
+      <Description>Face creation geometry data 19 - 顔作成ジオメトリデータ19</Description>
+      <SortID>3419</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData20 = 128">
+      <DisplayName>Face creation geometry data 20 - 顔作成ジオメトリデータ20</DisplayName>
+      <Description>Face creation geometry data 20 - 顔作成ジオメトリデータ20</Description>
+      <SortID>3420</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData21 = 128">
+      <DisplayName>Face creation geometry data 21 - 顔作成ジオメトリデータ21</DisplayName>
+      <Description>Face creation geometry data 21 - 顔作成ジオメトリデータ21</Description>
+      <SortID>3421</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData22 = 128">
+      <DisplayName>Face creation geometry data 22 - 顔作成ジオメトリデータ22</DisplayName>
+      <Description>Face creation geometry data 22 - 顔作成ジオメトリデータ22</Description>
+      <SortID>3422</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData23 = 128">
+      <DisplayName>Face creation geometry data 23 - 顔作成ジオメトリデータ23</DisplayName>
+      <Description>Face creation geometry data 23 - 顔作成ジオメトリデータ23</Description>
+      <SortID>3423</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData24 = 128">
+      <DisplayName>Face creation geometry data 24 - 顔作成ジオメトリデータ24</DisplayName>
+      <Description>Face creation geometry data 24 - 顔作成ジオメトリデータ24</Description>
+      <SortID>3424</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData25 = 128">
+      <DisplayName>Face creation geometry data 25 - 顔作成ジオメトリデータ25</DisplayName>
+      <Description>Face creation geometry data 25 - 顔作成ジオメトリデータ25</Description>
+      <SortID>3425</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData26 = 128">
+      <DisplayName>Face creation geometry data 26 - 顔作成ジオメトリデータ26</DisplayName>
+      <Description>Face creation geometry data 26 - 顔作成ジオメトリデータ26</Description>
+      <SortID>3426</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData27 = 128">
+      <DisplayName>Face creation geometry data 27 - 顔作成ジオメトリデータ27</DisplayName>
+      <Description>Face creation geometry data 27 - 顔作成ジオメトリデータ27</Description>
+      <SortID>3427</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData28 = 128">
+      <DisplayName>Face creation geometry data 28 - 顔作成ジオメトリデータ28</DisplayName>
+      <Description>Face creation geometry data 28 - 顔作成ジオメトリデータ28</Description>
+      <SortID>3428</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData29 = 128">
+      <DisplayName>Face creation geometry data 29 - 顔作成ジオメトリデータ29</DisplayName>
+      <Description>Face creation geometry data 29 - 顔作成ジオメトリデータ29</Description>
+      <SortID>3429</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData30 = 128">
+      <DisplayName>Face creation geometry data 30 - 顔作成ジオメトリデータ30</DisplayName>
+      <Description>Face creation geometry data 30 - 顔作成ジオメトリデータ30</Description>
+      <SortID>3430</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData31 = 128">
+      <DisplayName>Face creation geometry data 31 - 顔作成ジオメトリデータ31</DisplayName>
+      <Description>Face creation geometry data 31 - 顔作成ジオメトリデータ31</Description>
+      <SortID>3431</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData32 = 128">
+      <DisplayName>Face creation geometry data 32 - 顔作成ジオメトリデータ32</DisplayName>
+      <Description>Face creation geometry data 32 - 顔作成ジオメトリデータ32</Description>
+      <SortID>3432</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData33 = 128">
+      <DisplayName>Face creation geometry data 33 - 顔作成ジオメトリデータ33</DisplayName>
+      <Description>Face creation geometry data 33 - 顔作成ジオメトリデータ33</Description>
+      <SortID>3433</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData34 = 128">
+      <DisplayName>Face creation geometry data 34 - 顔作成ジオメトリデータ34</DisplayName>
+      <Description>Face creation geometry data 34 - 顔作成ジオメトリデータ34</Description>
+      <SortID>3434</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData35 = 128">
+      <DisplayName>Face creation geometry data 35 - 顔作成ジオメトリデータ35</DisplayName>
+      <Description>Face creation geometry data 35 - 顔作成ジオメトリデータ35</Description>
+      <SortID>3435</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData36 = 128">
+      <DisplayName>Face creation geometry data 36 - 顔作成ジオメトリデータ36</DisplayName>
+      <Description>Face creation geometry data 36 - 顔作成ジオメトリデータ36</Description>
+      <SortID>3436</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData37 = 128">
+      <DisplayName>Face creation geometry data 37 - 顔作成ジオメトリデータ37</DisplayName>
+      <Description>Face creation geometry data 37 - 顔作成ジオメトリデータ37</Description>
+      <SortID>3437</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData38 = 128">
+      <DisplayName>Face creation geometry data 38 - 顔作成ジオメトリデータ38</DisplayName>
+      <Description>Face creation geometry data 38 - 顔作成ジオメトリデータ38</Description>
+      <SortID>3438</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData39 = 128">
+      <DisplayName>Face creation geometry data 39 - 顔作成ジオメトリデータ39</DisplayName>
+      <Description>Face creation geometry data 39 - 顔作成ジオメトリデータ39</Description>
+      <SortID>3439</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData40 = 128">
+      <DisplayName>Face creation geometry data 40 - 顔作成ジオメトリデータ40</DisplayName>
+      <Description>Face creation geometry data 40 - 顔作成ジオメトリデータ40</Description>
+      <SortID>3440</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData41 = 128">
+      <DisplayName>Face creation geometry data 41 - 顔作成ジオメトリデータ41</DisplayName>
+      <Description>Face creation geometry data 41 - 顔作成ジオメトリデータ41</Description>
+      <SortID>3441</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData42 = 128">
+      <DisplayName>Face creation geometry data 42 - 顔作成ジオメトリデータ42</DisplayName>
+      <Description>Face creation geometry data 42 - 顔作成ジオメトリデータ42</Description>
+      <SortID>3442</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData43 = 128">
+      <DisplayName>Face creation geometry data 43 - 顔作成ジオメトリデータ43</DisplayName>
+      <Description>Face creation geometry data 43 - 顔作成ジオメトリデータ43</Description>
+      <SortID>3443</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData44 = 128">
+      <DisplayName>Face creation geometry data 44 - 顔作成ジオメトリデータ44</DisplayName>
+      <Description>Face creation geometry data 44 - 顔作成ジオメトリデータ44</Description>
+      <SortID>3444</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData45 = 128">
+      <DisplayName>Face creation geometry data 45 - 顔作成ジオメトリデータ45</DisplayName>
+      <Description>Face creation geometry data 45 - 顔作成ジオメトリデータ45</Description>
+      <SortID>3445</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData46 = 128">
+      <DisplayName>Face creation geometry data 46 - 顔作成ジオメトリデータ46</DisplayName>
+      <Description>Face creation geometry data 46 - 顔作成ジオメトリデータ46</Description>
+      <SortID>3446</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData47 = 128">
+      <DisplayName>Face creation geometry data 47 - 顔作成ジオメトリデータ47</DisplayName>
+      <Description>Face creation geometry data 47 - 顔作成ジオメトリデータ47</Description>
+      <SortID>3447</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData48 = 128">
+      <DisplayName>Face creation geometry data 48 - 顔作成ジオメトリデータ48</DisplayName>
+      <Description>Face creation geometry data 48 - 顔作成ジオメトリデータ48</Description>
+      <SortID>3448</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData49 = 128">
+      <DisplayName>Face creation geometry data 49 - 顔作成ジオメトリデータ49</DisplayName>
+      <Description>Face creation geometry data 49 - 顔作成ジオメトリデータ49</Description>
+      <SortID>3449</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData50 = 128">
+      <DisplayName>Face creation geometry data 50 - 顔作成ジオメトリデータ50</DisplayName>
+      <Description>Face creation geometry data 50 - 顔作成ジオメトリデータ50</Description>
+      <SortID>3450</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData51 = 128">
+      <DisplayName>Face creation geometry data 51 - 顔作成ジオメトリデータ51</DisplayName>
+      <Description>Face creation geometry data 51 - 顔作成ジオメトリデータ51</Description>
+      <SortID>3451</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData52 = 128">
+      <DisplayName>Face creation geometry data 52 - 顔作成ジオメトリデータ52</DisplayName>
+      <Description>Face creation geometry data 52 - 顔作成ジオメトリデータ52</Description>
+      <SortID>3452</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData53 = 128">
+      <DisplayName>Face creation geometry data 53 - 顔作成ジオメトリデータ53</DisplayName>
+      <Description>Face creation geometry data 53 - 顔作成ジオメトリデータ53</Description>
+      <SortID>3453</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData54 = 128">
+      <DisplayName>Face creation geometry data 54 - 顔作成ジオメトリデータ54</DisplayName>
+      <Description>Face creation geometry data 54 - 顔作成ジオメトリデータ54</Description>
+      <SortID>3454</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData55 = 128">
+      <DisplayName>Face creation geometry data 55 - 顔作成ジオメトリデータ55</DisplayName>
+      <Description>Face creation geometry data 55 - 顔作成ジオメトリデータ55</Description>
+      <SortID>3455</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData56 = 128">
+      <DisplayName>Face creation geometry data 56 - 顔作成ジオメトリデータ56</DisplayName>
+      <Description>Face creation geometry data 56 - 顔作成ジオメトリデータ56</Description>
+      <SortID>3456</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData57 = 128">
+      <DisplayName>Face creation geometry data 57 - 顔作成ジオメトリデータ57</DisplayName>
+      <Description>Face creation geometry data 57 - 顔作成ジオメトリデータ57</Description>
+      <SortID>3457</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData58 = 128">
+      <DisplayName>Face creation geometry data 58 - 顔作成ジオメトリデータ58</DisplayName>
+      <Description>Face creation geometry data 58 - 顔作成ジオメトリデータ58</Description>
+      <SortID>3458</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData59 = 128">
+      <DisplayName>Face creation geometry data 59 - 顔作成ジオメトリデータ59</DisplayName>
+      <Description>Face creation geometry data 59 - 顔作成ジオメトリデータ59</Description>
+      <SortID>3459</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData60 = 128">
+      <DisplayName>Face creation geometry data 60 - 顔作成ジオメトリデータ60</DisplayName>
+      <Description>Face creation geometry data 60 - 顔作成ジオメトリデータ60</Description>
+      <SortID>3460</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData00 = 128">
+      <DisplayName>Face creation texture data 00 - 顔作成テクスチャデータ00</DisplayName>
+      <Description>Face creation texture data 00 - 顔作成テクスチャデータ00</Description>
+      <SortID>3500</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData01 = 128">
+      <DisplayName>Face creation texture data 01 - 顔作成テクスチャデータ01</DisplayName>
+      <Description>Face creation texture data 01 - 顔作成テクスチャデータ01</Description>
+      <SortID>3501</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData02 = 128">
+      <DisplayName>Face creation texture data 02 - 顔作成テクスチャデータ02</DisplayName>
+      <Description>Face creation texture data 02 - 顔作成テクスチャデータ02</Description>
+      <SortID>3502</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData03 = 128">
+      <DisplayName>Face creation texture data 03 - 顔作成テクスチャデータ03</DisplayName>
+      <Description>Face creation texture data 03 - 顔作成テクスチャデータ03</Description>
+      <SortID>3503</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData04 = 128">
+      <DisplayName>Face creation texture data 04 - 顔作成テクスチャデータ04</DisplayName>
+      <Description>Face creation texture data 04 - 顔作成テクスチャデータ04</Description>
+      <SortID>3504</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData05 = 128">
+      <DisplayName>Face creation texture data 05 - 顔作成テクスチャデータ05</DisplayName>
+      <Description>Face creation texture data 05 - 顔作成テクスチャデータ05</Description>
+      <SortID>3505</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData06 = 128">
+      <DisplayName>Face creation texture data 06 - 顔作成テクスチャデータ06</DisplayName>
+      <Description>Face creation texture data 06 - 顔作成テクスチャデータ06</Description>
+      <SortID>3506</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData07 = 128">
+      <DisplayName>Face creation texture data 07 - 顔作成テクスチャデータ07</DisplayName>
+      <Description>Face creation texture data 07 - 顔作成テクスチャデータ07</Description>
+      <SortID>3507</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData08 = 128">
+      <DisplayName>Face creation texture data 08 - 顔作成テクスチャデータ08</DisplayName>
+      <Description>Face creation texture data 08 - 顔作成テクスチャデータ08</Description>
+      <SortID>3508</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData09 = 128">
+      <DisplayName>Face creation texture data 09 - 顔作成テクスチャデータ09</DisplayName>
+      <Description>Face creation texture data 09 - 顔作成テクスチャデータ09</Description>
+      <SortID>3509</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData10 = 128">
+      <DisplayName>Face creation texture data 10 - 顔作成テクスチャデータ10</DisplayName>
+      <Description>Face creation texture data 10 - 顔作成テクスチャデータ10</Description>
+      <SortID>3510</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData11 = 128">
+      <DisplayName>Face creation texture data 11 - 顔作成テクスチャデータ11</DisplayName>
+      <Description>Face creation texture data 11 - 顔作成テクスチャデータ11</Description>
+      <SortID>3511</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData12 = 128">
+      <DisplayName>Face creation texture data 12 - 顔作成テクスチャデータ12</DisplayName>
+      <Description>Face creation texture data 12 - 顔作成テクスチャデータ12</Description>
+      <SortID>3512</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData13 = 128">
+      <DisplayName>Face creation texture data 13 - 顔作成テクスチャデータ13</DisplayName>
+      <Description>Face creation texture data 13 - 顔作成テクスチャデータ13</Description>
+      <SortID>3513</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData14 = 128">
+      <DisplayName>Face creation texture data 14 - 顔作成テクスチャデータ14</DisplayName>
+      <Description>Face creation texture data 14 - 顔作成テクスチャデータ14</Description>
+      <SortID>3514</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData15 = 128">
+      <DisplayName>Face creation texture data 15 - 顔作成テクスチャデータ15</DisplayName>
+      <Description>Face creation texture data 15 - 顔作成テクスチャデータ15</Description>
+      <SortID>3515</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData16 = 128">
+      <DisplayName>Face creation texture data 16 - 顔作成テクスチャデータ16</DisplayName>
+      <Description>Face creation texture data 16 - 顔作成テクスチャデータ16</Description>
+      <SortID>3516</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData17 = 128">
+      <DisplayName>Face creation texture data 17 - 顔作成テクスチャデータ17</DisplayName>
+      <Description>Face creation texture data 17 - 顔作成テクスチャデータ17</Description>
+      <SortID>3517</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData18 = 128">
+      <DisplayName>Face creation texture data 18 - 顔作成テクスチャデータ18</DisplayName>
+      <Description>Face creation texture data 18 - 顔作成テクスチャデータ18</Description>
+      <SortID>3518</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData19 = 128">
+      <DisplayName>Face creation texture data 19 - 顔作成テクスチャデータ19</DisplayName>
+      <Description>Face creation texture data 19 - 顔作成テクスチャデータ19</Description>
+      <SortID>3519</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData20 = 128">
+      <DisplayName>Face creation texture data 20 - 顔作成テクスチャデータ20</DisplayName>
+      <Description>Face creation texture data 20 - 顔作成テクスチャデータ20</Description>
+      <SortID>3520</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData21 = 128">
+      <DisplayName>Face creation texture data 21 - 顔作成テクスチャデータ21</DisplayName>
+      <Description>Face creation texture data 21 - 顔作成テクスチャデータ21</Description>
+      <SortID>3521</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData22 = 128">
+      <DisplayName>Face creation texture data 22 - 顔作成テクスチャデータ22</DisplayName>
+      <Description>Face creation texture data 22 - 顔作成テクスチャデータ22</Description>
+      <SortID>3522</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData23 = 128">
+      <DisplayName>Face creation texture data 23 - 顔作成テクスチャデータ23</DisplayName>
+      <Description>Face creation texture data 23 - 顔作成テクスチャデータ23</Description>
+      <SortID>3523</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData24 = 128">
+      <DisplayName>Face creation texture data 24 - 顔作成テクスチャデータ24</DisplayName>
+      <Description>Face creation texture data 24 - 顔作成テクスチャデータ24</Description>
+      <SortID>3524</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData25 = 128">
+      <DisplayName>Face creation texture data 25 - 顔作成テクスチャデータ25</DisplayName>
+      <Description>Face creation texture data 25 - 顔作成テクスチャデータ25</Description>
+      <SortID>3525</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData26 = 128">
+      <DisplayName>Face creation texture data 26 - 顔作成テクスチャデータ26</DisplayName>
+      <Description>Face creation texture data 26 - 顔作成テクスチャデータ26</Description>
+      <SortID>3526</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData27 = 128">
+      <DisplayName>Face creation texture data 27 - 顔作成テクスチャデータ27</DisplayName>
+      <Description>Face creation texture data 27 - 顔作成テクスチャデータ27</Description>
+      <SortID>3527</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData28 = 128">
+      <DisplayName>Face creation texture data 28 - 顔作成テクスチャデータ28</DisplayName>
+      <Description>Face creation texture data 28 - 顔作成テクスチャデータ28</Description>
+      <SortID>3528</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData29 = 128">
+      <DisplayName>Face creation texture data 29 - 顔作成テクスチャデータ29</DisplayName>
+      <Description>Face creation texture data 29 - 顔作成テクスチャデータ29</Description>
+      <SortID>3529</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData30 = 128">
+      <DisplayName>Face creation texture data 30 - 顔作成テクスチャデータ30</DisplayName>
+      <Description>Face creation texture data 30 - 顔作成テクスチャデータ30</Description>
+      <SortID>3530</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData31 = 128">
+      <DisplayName>Face creation texture data 31 - 顔作成テクスチャデータ31</DisplayName>
+      <Description>Face creation texture data 31 - 顔作成テクスチャデータ31</Description>
+      <SortID>3531</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData32 = 128">
+      <DisplayName>Face creation texture data 32 - 顔作成テクスチャデータ32</DisplayName>
+      <Description>Face creation texture data 32 - 顔作成テクスチャデータ32</Description>
+      <SortID>3532</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData33 = 128">
+      <DisplayName>Face creation texture data 33 - 顔作成テクスチャデータ33</DisplayName>
+      <Description>Face creation texture data 33 - 顔作成テクスチャデータ33</Description>
+      <SortID>3533</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData34 = 128">
+      <DisplayName>Face creation texture data 34 - 顔作成テクスチャデータ34</DisplayName>
+      <Description>Face creation texture data 34 - 顔作成テクスチャデータ34</Description>
+      <SortID>3534</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData35 = 128">
+      <DisplayName>Face creation texture data 35 - 顔作成テクスチャデータ35</DisplayName>
+      <Description>Face creation texture data 35 - 顔作成テクスチャデータ35</Description>
+      <SortID>3535</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData00 = 128">
+      <DisplayName>Face creation geometry asymmetric data 00 - 顔作成ジオメトリ非対称データ00</DisplayName>
+      <Description>Face creation geometry asymmetric data 00 - 顔作成ジオメトリ非対称データ00</Description>
+      <SortID>3600</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData01 = 128">
+      <DisplayName>Face creation geometry asymmetric data 01 - 顔作成ジオメトリ非対称データ01</DisplayName>
+      <Description>Face creation geometry asymmetric data 01 - 顔作成ジオメトリ非対称データ01</Description>
+      <SortID>3601</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData02 = 128">
+      <DisplayName>Face creation geometry asymmetric data 02 - 顔作成ジオメトリ非対称データ02</DisplayName>
+      <Description>Face creation geometry asymmetric data 02 - 顔作成ジオメトリ非対称データ02</Description>
+      <SortID>3602</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData03 = 128">
+      <DisplayName>Face creation geometry asymmetric data 03 - 顔作成ジオメトリ非対称データ03</DisplayName>
+      <Description>Face creation geometry asymmetric data 03 - 顔作成ジオメトリ非対称データ03</Description>
+      <SortID>3603</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData04 = 128">
+      <DisplayName>Face creation geometry asymmetric data 04 - 顔作成ジオメトリ非対称データ04</DisplayName>
+      <Description>Face creation geometry asymmetric data 04 - 顔作成ジオメトリ非対称データ04</Description>
+      <SortID>3604</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData05 = 128">
+      <DisplayName>Face creation geometry asymmetric data 05 - 顔作成ジオメトリ非対称データ05</DisplayName>
+      <Description>Face creation geometry asymmetric data 05 - 顔作成ジオメトリ非対称データ05</Description>
+      <SortID>3605</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData06 = 128">
+      <DisplayName>Face creation geometry asymmetric data 06 - 顔作成ジオメトリ非対称データ06</DisplayName>
+      <Description>Face creation geometry asymmetric data 06 - 顔作成ジオメトリ非対称データ06</Description>
+      <SortID>3606</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData07 = 128">
+      <DisplayName>Face creation geometry asymmetric data 07 - 顔作成ジオメトリ非対称データ07</DisplayName>
+      <Description>Face creation geometry asymmetric data 07 - 顔作成ジオメトリ非対称データ07</Description>
+      <SortID>3607</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData08 = 128">
+      <DisplayName>Face creation geometry asymmetric data 08 - 顔作成ジオメトリ非対称データ08</DisplayName>
+      <Description>Face creation geometry asymmetric data 08 - 顔作成ジオメトリ非対称データ08</Description>
+      <SortID>3608</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData09 = 128">
+      <DisplayName>Face creation geometry asymmetric data 09 - 顔作成ジオメトリ非対称データ09</DisplayName>
+      <Description>Face creation geometry asymmetric data 09 - 顔作成ジオメトリ非対称データ09</Description>
+      <SortID>3609</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData10 = 128">
+      <DisplayName>Face creation geometry asymmetric data 10 - 顔作成ジオメトリ非対称データ10</DisplayName>
+      <Description>Face creation geometry asymmetric data 10 - 顔作成ジオメトリ非対称データ10</Description>
+      <SortID>3610</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData11 = 128">
+      <DisplayName>Face creation geometry asymmetric data 11 - 顔作成ジオメトリ非対称データ11</DisplayName>
+      <Description>Face creation geometry asymmetric data 11 - 顔作成ジオメトリ非対称データ11</Description>
+      <SortID>3611</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData12 = 128">
+      <DisplayName>Face creation geometry asymmetric data 12 - 顔作成ジオメトリ非対称データ12</DisplayName>
+      <Description>Face creation geometry asymmetric data 12 - 顔作成ジオメトリ非対称データ12</Description>
+      <SortID>3612</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData13 = 128">
+      <DisplayName>Face creation geometry asymmetric data 13 - 顔作成ジオメトリ非対称データ13</DisplayName>
+      <Description>Face creation geometry asymmetric data 13 - 顔作成ジオメトリ非対称データ13</Description>
+      <SortID>3613</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData14 = 128">
+      <DisplayName>Face creation geometry asymmetric data 14 - 顔作成ジオメトリ非対称データ14</DisplayName>
+      <Description>Face creation geometry asymmetric data 14 - 顔作成ジオメトリ非対称データ14</Description>
+      <SortID>3614</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData15 = 128">
+      <DisplayName>Face creation geometry asymmetric data 15 - 顔作成ジオメトリ非対称データ15</DisplayName>
+      <Description>Face creation geometry asymmetric data 15 - 顔作成ジオメトリ非対称データ15</Description>
+      <SortID>3615</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData16 = 128">
+      <DisplayName>Face creation geometry asymmetric data 16 - 顔作成ジオメトリ非対称データ16</DisplayName>
+      <Description>Face creation geometry asymmetric data 16 - 顔作成ジオメトリ非対称データ16</Description>
+      <SortID>3616</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData17 = 128">
+      <DisplayName>Face creation geometry asymmetric data 17 - 顔作成ジオメトリ非対称データ17</DisplayName>
+      <Description>Face creation geometry asymmetric data 17 - 顔作成ジオメトリ非対称データ17</Description>
+      <SortID>3617</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData18 = 128">
+      <DisplayName>Face creation geometry asymmetric data 18 - 顔作成ジオメトリ非対称データ18</DisplayName>
+      <Description>Face creation geometry asymmetric data 18 - 顔作成ジオメトリ非対称データ18</Description>
+      <SortID>3618</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData19 = 128">
+      <DisplayName>Face creation geometry asymmetric data 19 - 顔作成ジオメトリ非対称データ19</DisplayName>
+      <Description>Face creation geometry asymmetric data 19 - 顔作成ジオメトリ非対称データ19</Description>
+      <SortID>3619</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData20 = 128">
+      <DisplayName>Face creation geometry asymmetric data 20 - 顔作成ジオメトリ非対称データ20</DisplayName>
+      <Description>Face creation geometry asymmetric data 20 - 顔作成ジオメトリ非対称データ20</Description>
+      <SortID>3620</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData21 = 128">
+      <DisplayName>Face creation geometry asymmetric data 21 - 顔作成ジオメトリ非対称データ21</DisplayName>
+      <Description>Face creation geometry asymmetric data 21 - 顔作成ジオメトリ非対称データ21</Description>
+      <SortID>3621</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData22 = 128">
+      <DisplayName>Face creation geometry asymmetric data 22 - 顔作成ジオメトリ非対称データ22</DisplayName>
+      <Description>Face creation geometry asymmetric data 22 - 顔作成ジオメトリ非対称データ22</Description>
+      <SortID>3622</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData23 = 128">
+      <DisplayName>Face creation geometry asymmetric data 23 - 顔作成ジオメトリ非対称データ23</DisplayName>
+      <Description>Face creation geometry asymmetric data 23 - 顔作成ジオメトリ非対称データ23</Description>
+      <SortID>3623</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData24 = 128">
+      <DisplayName>Face creation geometry asymmetric data 24 - 顔作成ジオメトリ非対称データ24</DisplayName>
+      <Description>Face creation geometry asymmetric data 24 - 顔作成ジオメトリ非対称データ24</Description>
+      <SortID>3624</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData25 = 128">
+      <DisplayName>Face creation geometry asymmetric data 25 - 顔作成ジオメトリ非対称データ25</DisplayName>
+      <Description>Face creation geometry asymmetric data 25 - 顔作成ジオメトリ非対称データ25</Description>
+      <SortID>3625</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+  </Fields>
+</PARAMDEF>

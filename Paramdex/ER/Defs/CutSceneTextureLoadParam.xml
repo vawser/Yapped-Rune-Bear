@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CUTSCENE_TEXTURE_LOAD_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 disableParam_Debug:1">
+      <DisplayName>Is it a debug parameter? - デバッグパラメータか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with a circle are excluded from all packages (because they are for debugging). - ○をつけたパラメータは全パッケージから除外します（デバッグ用なので）</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>0</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:6">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="fixstr texName_00[16]">
+      <DisplayName>Texture name 00 - テクスチャ名 00</DisplayName>
+      <Description>Texture name 00 - テクスチャ名 00</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_01[16]">
+      <DisplayName>Texture name 01 - テクスチャ名 01</DisplayName>
+      <Description>Texture name 01 - テクスチャ名 01</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_02[16]">
+      <DisplayName>Texture name 02 - テクスチャ名 02</DisplayName>
+      <Description>Texture name 02 - テクスチャ名 02</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_03[16]">
+      <DisplayName>Texture name 03 - テクスチャ名 03</DisplayName>
+      <Description>Texture name 03 - テクスチャ名 03</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_04[16]">
+      <DisplayName>Texture name 04 - テクスチャ名 04</DisplayName>
+      <Description>Texture name 04 - テクスチャ名 04</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_05[16]">
+      <DisplayName>Texture name 05 - テクスチャ名 05</DisplayName>
+      <Description>Texture name 05 - テクスチャ名 05</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_06[16]">
+      <DisplayName>Texture name 06 - テクスチャ名 06</DisplayName>
+      <Description>Texture name 06 - テクスチャ名 06</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_07[16]">
+      <DisplayName>Texture name 07 - テクスチャ名 07</DisplayName>
+      <Description>Texture name 07 - テクスチャ名 07</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_08[16]">
+      <DisplayName>Texture name 08 - テクスチャ名 08</DisplayName>
+      <Description>Texture name 08 - テクスチャ名 08</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_09[16]">
+      <DisplayName>Texture name 09 - テクスチャ名 09</DisplayName>
+      <Description>Texture name 09 - テクスチャ名 09</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_10[16]">
+      <DisplayName>Texture name 10 - テクスチャ名 10</DisplayName>
+      <Description>Texture name 10 - テクスチャ名 10</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_11[16]">
+      <DisplayName>Texture name 11 - テクスチャ名 11</DisplayName>
+      <Description>Texture name 11 - テクスチャ名 11</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_12[16]">
+      <DisplayName>Texture name 12 - テクスチャ名 12</DisplayName>
+      <Description>Texture name 12 - テクスチャ名 12</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_13[16]">
+      <DisplayName>Texture name 13 - テクスチャ名 13</DisplayName>
+      <Description>Texture name 13 - テクスチャ名 13</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_14[16]">
+      <DisplayName>Texture name 14 - テクスチャ名 14</DisplayName>
+      <Description>Texture name 14 - テクスチャ名 14</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="fixstr texName_15[16]">
+      <DisplayName>Texture name 15 - テクスチャ名 15</DisplayName>
+      <Description>Texture name 15 - テクスチャ名 15</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

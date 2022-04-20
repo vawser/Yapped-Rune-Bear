@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>TUTORIAL_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>501</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>502</SortID>
+    </Field>
+    <Field Def="u8 menuType">
+      <DisplayName>Display type - 表示タイプ</DisplayName>
+      <Enum>TUTORIAL_MENU_TYPE</Enum>
+      <Description>Specifies the type of tutorial menu to display - 表示するチュートリアルメニューの種類を指定します</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 triggerType">
+      <DisplayName>Display timing - 表示タイミング</DisplayName>
+      <Enum>TUTORIAL_TRIGGER_TYPE</Enum>
+      <Description>Display timing (default: 0: "-"). You will see this tutorial when you open this menu. Specify 0: "-" if you do not want to display it when you open the menu. - 表示タイミング（デフォルト: 0:"-"）。このメニューを開いたときに、このチュートリアルを表示します。メニューを開いたときに表示しない場合は 0:"-" を指定します</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u8 repeatType">
+      <DisplayName>Impressions - 表示回数</DisplayName>
+      <Enum>TUTORIAL_REPEAT_TYPE</Enum>
+      <Description>Number of times to display (default: 0: once in the game) - 表示する回数（デフォルト: 0:ゲーム中1回）</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>503</SortID>
+    </Field>
+    <Field Def="u16 imageId">
+      <DisplayName>Image ID - イメージID</DisplayName>
+      <Description>Specifies the tutorial image ID to display (default: 0). Specify 0 if you do not want to display the image - 表示するチュートリアル画像IDを指定します（デフォルト: 0）。画像を表示しない場合は、0 を指定します</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>9999</Maximum>
+      <SortID>300</SortID>
+      <UnkC8>モーダル用</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2[2]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>504</SortID>
+    </Field>
+    <Field Def="u32 unlockEventFlagId">
+      <DisplayName>Display permission flag - 表示許可フラグ</DisplayName>
+      <Description>Event flag ID for display permission (default: 0). It will not be displayed until this flag is set. Specify 0 if you always want to allow - 表示許可用のイベントフラグID（デフォルト: 0）。このフラグが立つまでは表示されません。常に許可したい場合は 0 を指定します</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>-294967297</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 textId = -1">
+      <DisplayName>Text ID - テキストID</DisplayName>
+      <Description>ID of the text to be displayed in the tutorial [TutorialText.xlsm]. This text ID is used for both "Title" and "Body" - チュートリアルに表示するテキストのID[TutorialText.xlsm]。「タイトル」も「本文」もこのテキストIDが使われる</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 displayMinTime = 1">
+      <DisplayName>at the earliest - 最短</DisplayName>
+      <Description>Shortest display guaranteed time [seconds]. Even if it is closed due to an event etc., it will be closed after displaying at least this time. It's only for toast, so it's ignored in modals - 最短表示保障時間[秒]。イベントなどから閉じられたとしても、少なくともこの時間は表示してから閉じられるます。トースト専用なのでモーダルでは無視されます</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>600</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>405</SortID>
+      <UnkC8>トースト用：表示時間[秒]</UnkC8>
+    </Field>
+    <Field Def="f32 displayTime = 3">
+      <DisplayName>Longest - 最長</DisplayName>
+      <Description>Display time [seconds]. It will close automatically after this time has passed since the toast was displayed. It's only for toast, so it's ignored in modals - 表示時間[秒]。トーストが表示されてからこの時間経過すると自動的に閉じられます。トースト専用なのでモーダルでは無視されます</Description>
+      <DisplayFormat>%.1f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>600</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>406</SortID>
+      <UnkC8>トースト用：表示時間[秒]</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad3[4]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>505</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>TOUGHNESS_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 correctionRate = 1">
+      <DisplayName>Weapon toughness correction factor - 武器強靭度補正倍率</DisplayName>
+      <Description>It is a correction magnification applied to the "toughness correction magnification" of the weapon when calculating the toughness. - 強靭度を求める際に武器の「強靭度補正倍率」に掛かる補正倍率です</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u16 minToughness">
+      <DisplayName>Minimum toughness - 最低 強靭度</DisplayName>
+      <Description>The lower limit of current toughness applied at the beginning of the toughness period. If the toughness falls below this value at the start of toughness, it will recover to this value. - 強靭度期間開始時に適用される現在強靭度の下限値です。強靭度開始時に強靭度がこの値を下回る場合は、この値まで回復します。</Description>
+      <Maximum>999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 isNonEffectiveCorrectionForMin">
+      <DisplayName>Minimum toughness value is not affected by toughness multiplier - 最低強靭値が強靭度倍率の影響を受けない</DisplayName>
+      <Description>The toughness correction factor will no longer be applied to the minimum toughness. - 強靭度 補正倍率を、最低 強靭度に、適用しなくなります</Description>
+      <Maximum>1</Maximum>
+      <SortID>250</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[1]">
+      <DisplayName>pad - パッド</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="s32 spEffectId = -1">
+      <DisplayName>Special effect ID - 特殊効果ID</DisplayName>
+      <Description>Replacement special effect Id that takes place during the toughness period. If -1, the normal replacement rule applies. Only used by player characters - 強靭度期間中にかかる差換え特殊効果Idです。-1の場合は通常の差換えルールが適用されます。プレイヤーキャラでしか使われません</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>9999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 proCorrectionRate = 1">
+      <DisplayName>Armor toughness correction factor - 防具強靭度補正倍率</DisplayName>
+      <Description>This is the correction factor applied to the "toughness correction factor" of the armor when determining the toughness. - 強靭度を求める際に防具の「強靭度補正倍率」に掛かる補正倍率です</Description>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>150</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[16]">
+      <DisplayName>pad - パッド</DisplayName>
+      <Description>pad - pad</Description>
+      <SortID>302</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

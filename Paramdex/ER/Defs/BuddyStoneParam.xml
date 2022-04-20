@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>BUDDY_STONE_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
+      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>601</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
+      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>602</SortID>
+    </Field>
+    <Field Def="u32 talkChrEntityId">
+      <DisplayName>Conversation character entity ID - 会話キャラエンティティID</DisplayName>
+      <Description>Used as a foreign key when referencing from a conversation. - 会話から参照する時の外部キーとして使う。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u32 eliminateTargetEntityId">
+      <DisplayName>Defeat Target List Entity ID - 撃破対象リストエンティティID</DisplayName>
+      <Description>Entity ID of the character / group to be defeated by the buddy when summoned from this stele - この石碑から召喚した際に、バディの撃破対象になるキャラ/グループのエンティティID</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u32 summonedEventFlagId">
+      <DisplayName>Summoned event flag ID - 召喚済みイベントフラグID</DisplayName>
+      <Description>Flag ID that stands when summoned from a stone monument. When this flag is set, the stone monument cannot be summoned. - 一度石碑から召喚した際に立つフラグID。このフラグが立っていると、石碑が召喚不可になる。</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="u8 isSpecial:1">
+      <DisplayName>Is it special? - スペシャルか</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is the stone monument an SP stone monument or a general-purpose stone monument? A bool that distinguishes. - 石碑がSP石碑か汎用石碑か？を区別するbool。</Description>
+      <DisplayFormat>%s</DisplayFormat>
+      <Maximum>1</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="dummy8 pad1:7">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>603</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[3]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>604</SortID>
+    </Field>
+    <Field Def="s32 buddyId">
+      <DisplayName>Buddy ID - バディID</DisplayName>
+      <Description>ID of the buddy parameter. If "Special" is ○, this buddy ID will be summoned. - バディパラメータのID。「スペシャルか」が○の場合、このバディIDが召喚される。</Description>
+      <Minimum>0</Minimum>
+      <Maximum>999999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 dopingSpEffectId = -1">
+      <DisplayName>Special effects ID for doping - ドーピング用特殊効果ID</DisplayName>
+      <Description>Special effect ID applied to the buddy when summoning the buddy. - バディ召喚時に、バディにかかる特殊効果ID。</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="u16 activateRange = 100">
+      <DisplayName>Buddy activation distance [m] - バディ起動距離[m]</DisplayName>
+      <Description>If there is at least one character to be defeated in this range, you can summon a buddy at that stone monument. - 撃破対象のキャラがこの範囲に1体でも居れば、その石碑でバディ召喚が可能になる</Description>
+      <Maximum>999</Maximum>
+      <SortID>550</SortID>
+    </Field>
+    <Field Def="s16 overwriteReturnRange = -1">
+      <DisplayName>Buddy homecoming distance overwrite [m] - バディ帰巣距離上書き[m]</DisplayName>
+      <Description>Buddy's homecoming distance can be overridden - バディの帰巣距離を上書きできる</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>570</SortID>
+    </Field>
+    <Field Def="u32 overwriteActivateRegionEntityId">
+      <DisplayName>Launch range overwrite area entity ID - 起動範囲上書き領域エンティティID</DisplayName>
+      <Description>The range where the buddy can be summoned can be overwritten in the area of the specified entity ID. - バディを召喚できる範囲を、指定エンティティIDの領域で上書きできる</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>560</SortID>
+    </Field>
+    <Field Def="u32 warnRegionEntityId">
+      <DisplayName>Warning range overwrite area entity ID - 警告範囲上書き領域エンティティID</DisplayName>
+      <Description>Warning area entity ID - 警告領域エンティティID</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>-294967297</Maximum>
+      <SortID>561</SortID>
+    </Field>
+    <Field Def="dummy8 pad3[24]">
+      <DisplayName>Padding - パディング</DisplayName>
+      <SortID>605</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>
