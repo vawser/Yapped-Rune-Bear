@@ -7,8 +7,8 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 weatherOverrideGparamId">
-      <DisplayName>Cutscene Weather Overwrite Gparam Suffix ID - カットシーン天候上書きGparamサフィックスID</DisplayName>
-      <Description>The ID of the ?? part of s00_00_0000_WeatherOverride_ ??. Gparam - s00_00_0000_WeatherOverride_??.gparamの??の部分のIDです</Description>
+      <DisplayName>Cutscene Weather Overwrite Gparam Suffix ID</DisplayName>
+      <Description>The ID of the ?? part of s00_00_0000_WeatherOverride_ ??. Gparam</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>
       <SortID>1</SortID>

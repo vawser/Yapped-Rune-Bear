@@ -7,46 +7,46 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 resId">
-      <DisplayName>Resource ID - リソースID</DisplayName>
-      <Description>Instance name of the menu resource. ID of TextEffect_X - メニューリソースのインスタンス名。TextEffect_X のID</Description>
+      <DisplayName>Resource ID</DisplayName>
+      <Description>Instance name of the menu resource. ID of TextEffect_X</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <SortID>100</SortID>
     </Field>
     <Field Def="dummy8 pad1[2]">
-      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayName>Padding</DisplayName>
       <SortID>401</SortID>
     </Field>
     <Field Def="s32 textId = -1">
-      <DisplayName>Text ID - テキストID</DisplayName>
-      <Description>Text ID to display (-1: No text). MenuText - 表示するテキストID(-1: テキストなし)。MenuText</Description>
+      <DisplayName>Text ID</DisplayName>
+      <Description>Text ID to display (-1: No text). MenuText</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 seId = -1">
-      <DisplayName>SE ID - SEのID</DisplayName>
-      <Description>Voice ID to play (-1: No SE) - 再生するVoiceのID(-1: SEなし)</Description>
+      <DisplayName>SE ID</DisplayName>
+      <Description>Voice ID to play (-1: No SE)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 canMixMapName:1">
-      <DisplayName>Whether to display at the same time as the map name - マップ名と同時に表示するか</DisplayName>
+      <DisplayName>Whether to display at the same time as the map name</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-      <Description>Whether to display at the same time as the map name - マップ名と同時に表示するか</Description>
+      <Description>Whether to display at the same time as the map name</Description>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="dummy8 pad3:7">
-      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayName>Padding</DisplayName>
       <SortID>402</SortID>
     </Field>
     <Field Def="dummy8 pad2[19]">
-      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayName>Padding</DisplayName>
       <SortID>403</SortID>
     </Field>
   </Fields>

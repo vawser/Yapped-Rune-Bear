@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="resistCorrectId_poison">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="itemLotId_enemy">
+      <References>
+        <Reference>ItemLotParam_enemy</Reference>
+      </References>
+    </Field>
+    <Field Name="itemLotId_map">
+      <References>
+        <Reference>ItemLotParam_map</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID3">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID4">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID5">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID6">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID7">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="GameClearSpEffectID">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID8">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID9">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID10">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID11">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID12">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID13">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID14">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID15">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_disease">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="multiPlayCorrectionParamId">
+      <References>
+        <Reference>MultiPlayCorrectionParam</Reference>
+      </References>
+    </Field>
+    <Field Name="lockCameraParamId">
+      <References>
+        <Reference>LockCamParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID16">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID17">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID18">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID19">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID20">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID21">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID22">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID23">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID24">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID25">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID26">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID27">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID28">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID29">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID30">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID31">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="estusFlaskRecoveryParamId">
+      <References>
+        <Reference>HPEstusFlaskRecoveryParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentMaterialExParamId00">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentMaterialExParamId01">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentMaterialExParamId02">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentMaterialExParamId03">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentMaterialExParamId04">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+    <Field Name="sleepCollectorItemLotId_enemy">
+      <References>
+        <Reference>ItemLotParam_enemy</Reference>
+      </References>
+    </Field>
+    <Field Name="sleepCollectorItemLotId_map">
+      <References>
+        <Reference>ItemLotParam_map</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_blood">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_curse">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_freeze">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_sleep">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="resistCorrectId_madness">
+      <References>
+        <Reference>ResistCorrectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="phantomShaderId">
+      <References>
+        <Reference>PhantomParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

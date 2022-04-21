@@ -7,109 +7,109 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 atkIron_1">
-      <DisplayName>Iron: Concept 1 - 鉄製：概念１</DisplayName>
+      <DisplayName>Iron: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Iron: Concept 1 - 鉄製：概念１</Description>
+      <Description>Iron: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s16 atkIron_2">
-      <DisplayName>Iron: Concept 2 - 鉄製：概念２</DisplayName>
+      <DisplayName>Iron: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Iron: Concept 2 - 鉄製：概念２</Description>
+      <Description>Iron: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s16 atkLeather_1">
-      <DisplayName>Made of leather: Concept 1 - 革製：概念１</DisplayName>
+      <DisplayName>Made of leather: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Leather: Concept 1 - 革：概念１</Description>
+      <Description>Leather: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s16 atkLeather_2">
-      <DisplayName>Made of leather: Concept 2 - 革製：概念２</DisplayName>
+      <DisplayName>Made of leather: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Leather: Concept 2 - 革：概念２</Description>
+      <Description>Leather: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="s16 atkWood_1">
-      <DisplayName>Wooden: Concept 1 - 木製：概念１</DisplayName>
+      <DisplayName>Wooden: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Wooden: Concept 1 - 木製：概念１</Description>
+      <Description>Wooden: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>5</SortID>
     </Field>
     <Field Def="s16 atkWood_2">
-      <DisplayName>Wooden: Concept 2 - 木製：概念２</DisplayName>
+      <DisplayName>Wooden: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Wooden: Concept 2 - 木製：概念２</Description>
+      <Description>Wooden: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>6</SortID>
     </Field>
     <Field Def="s16 atkBody_1">
-      <DisplayName>Meat: Concept 1 - 肉：概念１</DisplayName>
+      <DisplayName>Meat: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Meat: Concept 1 - 肉：概念１</Description>
+      <Description>Meat: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>7</SortID>
     </Field>
     <Field Def="s16 atkBody_2">
-      <DisplayName>Meat: Concept 2 - 肉：概念２</DisplayName>
+      <DisplayName>Meat: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Meat: Concept 2 - 肉：概念２</Description>
+      <Description>Meat: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>8</SortID>
     </Field>
     <Field Def="s16 atkStone_1">
-      <DisplayName>Stone: Concept 1 - 石製：概念１</DisplayName>
+      <DisplayName>Stone: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Corrosion: Concept 1 - 蝕：概念１</Description>
+      <Description>Corrosion: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>9</SortID>
     </Field>
     <Field Def="s16 atkStone_2">
-      <DisplayName>Stone: Concept 2 - 石製：概念２</DisplayName>
+      <DisplayName>Stone: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>Corrosion: Concept 2 - 蝕：概念２</Description>
+      <Description>Corrosion: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="dummy8 pad[4]">
-      <DisplayName>pad - pad</DisplayName>
+      <DisplayName>pad</DisplayName>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>Wrap</EditFlags>
       <SortID>15</SortID>
     </Field>
     <Field Def="s16 atkNone_1">
-      <DisplayName>None: Concept 1 - なし：概念１</DisplayName>
+      <DisplayName>None: Concept 1</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>None: Concept 1 - なし：概念１</Description>
+      <Description>None: Concept 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>11</SortID>
     </Field>
     <Field Def="s16 atkNone_2">
-      <DisplayName>None: Concept 2 - なし：概念２</DisplayName>
+      <DisplayName>None: Concept 2</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
-      <Description>None: Concept 2 - なし：概念２</Description>
+      <Description>None: Concept 2</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>12</SortID>
     </Field>
     <Field Def="dummy8 reserve[52]">
-      <DisplayName>Reserved area - 予約領域</DisplayName>
+      <DisplayName>Reserved area</DisplayName>
       <SortID>16</SortID>
     </Field>
   </Fields>

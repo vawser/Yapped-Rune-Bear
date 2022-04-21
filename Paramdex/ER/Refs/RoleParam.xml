@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="spEffectID0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID3">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID4">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID5">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID6">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID7">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID8">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID9">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="itemlotParamId">
+      <References>
+        <Reference>ItemLotParam_map</Reference>
+      </References>
+    </Field>
+    <Field Name="phantomParamId_vowRank1">
+      <References>
+        <Reference>PhantomParam</Reference>
+      </References>
+    </Field>
+    <Field Name="phantomParamId_vowRank2">
+      <References>
+        <Reference>PhantomParam</Reference>
+      </References>
+    </Field>
+    <Field Name="phantomParamId_vowRank3">
+      <References>
+        <Reference>PhantomParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID_vowRank0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID_vowRank1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID_vowRank2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectID_vowRank3">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

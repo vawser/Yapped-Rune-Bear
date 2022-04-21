@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="residentSpEffectId">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentSpEffectId2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentSpEffectId3">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="materialSetId">
+      <References>
+        <Reference>EquipMtrlSetParam</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro1">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro2">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro3">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro4">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro5">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro6">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro7">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro8">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro9">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro10">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro11">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro12">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro13">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro14">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipPro15">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="reinforceTypeId">
+      <References>
+        <Reference>ReinforceParamProtector</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

@@ -7,35 +7,35 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 baseColorR">
-      <DisplayName>Base color value R - ベースカラー 値R</DisplayName>
-      <Description>Base color color R. - ベースカラー色Rです。</Description>
+      <DisplayName>Base color value R</DisplayName>
+      <Description>Base color color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 baseColorG">
-      <DisplayName>Base color value G - ベースカラー 値G</DisplayName>
-      <Description>Base color color G. - ベースカラー色Gです。</Description>
+      <DisplayName>Base color value G</DisplayName>
+      <Description>Base color color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>1</SortID>
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 baseColorB">
-      <DisplayName>Base color value B - ベースカラー 値B</DisplayName>
-      <Description>Base color color B. - ベースカラー色Bです。</Description>
+      <DisplayName>Base color value B</DisplayName>
+      <Description>Base color color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>2</SortID>
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="dummy8 reserve_0[1]">
-      <DisplayName>Spare 1 - 予備1</DisplayName>
+      <DisplayName>Spare 1</DisplayName>
       <SortID>1000</SortID>
     </Field>
     <Field Def="f32 baseColorA">
-      <DisplayName>Base color% - ベースカラー ％</DisplayName>
-      <Description>Base color override rate. - ベースカラーのオーバーライド率です。 </Description>
+      <DisplayName>Base color%</DisplayName>
+      <Description>Base color override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -43,30 +43,30 @@
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 metallic">
-      <DisplayName>Metallic value - メタリック 値</DisplayName>
-      <Description>It's metallic. - メタリックです。</Description>
+      <DisplayName>Metallic value</DisplayName>
+      <Description>It's metallic.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>4</SortID>
       <UnkC8>メタリック</UnkC8>
     </Field>
     <Field Def="dummy8 reserve_1[1]">
-      <DisplayName>Spare 2 - 予備2</DisplayName>
+      <DisplayName>Spare 2</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>1001</SortID>
     </Field>
     <Field Def="dummy8 reserve_2[1]">
-      <DisplayName>Spare 3 - 予備3</DisplayName>
+      <DisplayName>Spare 3</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>1002</SortID>
     </Field>
     <Field Def="dummy8 reserve_3[1]">
-      <DisplayName>Spare 4 - 予備4</DisplayName>
+      <DisplayName>Spare 4</DisplayName>
       <SortID>1003</SortID>
     </Field>
     <Field Def="f32 metallicRate">
-      <DisplayName>Metallic% - メタリック ％</DisplayName>
-      <Description>Metallic override rate. - メタリックのオーバーライド率です。</Description>
+      <DisplayName>Metallic%</DisplayName>
+      <Description>Metallic override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -74,8 +74,8 @@
       <UnkC8>メタリック</UnkC8>
     </Field>
     <Field Def="f32 shininessRate">
-      <DisplayName>Shininess% - シャイニネス ％</DisplayName>
-      <Description>Shininess override rate. - シャイニネスのオーバーライド率です。</Description>
+      <DisplayName>Shininess%</DisplayName>
+      <Description>Shininess override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -83,15 +83,15 @@
       <UnkC8>シャイニネス</UnkC8>
     </Field>
     <Field Def="u8 shininess">
-      <DisplayName>Shininess value - シャイニネス 値</DisplayName>
-      <Description>Shininess. - シャイニネスです。 </Description>
+      <DisplayName>Shininess value</DisplayName>
+      <Description>Shininess.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>8</SortID>
       <UnkC8>シャイニネス</UnkC8>
     </Field>
     <Field Def="dummy8 reserve_4[11]">
-      <DisplayName>Spare 5 - 予備5</DisplayName>
+      <DisplayName>Spare 5</DisplayName>
       <SortID>1004</SortID>
     </Field>
   </Fields>

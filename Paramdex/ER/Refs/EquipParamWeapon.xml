@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="spEffectBehaviorId0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectBehaviorId1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectBehaviorId2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentSpEffectId">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentSpEffectId1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="residentSpEffectId2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="materialSetId">
+      <References>
+        <Reference>EquipMtrlSetParam</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep1">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep2">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep3">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep4">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep5">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep6">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep7">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep8">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep9">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep10">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep11">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep12">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep13">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep14">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep15">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep16">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep17">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep18">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep19">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep20">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep21">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep22">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep23">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep24">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="originEquipWep25">
+      <References>
+        <Reference>EquipParamProtector</Reference>
+      </References>
+    </Field>
+    <Field Name="reinforceTypeId">
+      <References>
+        <Reference>ReinforceParamWeapon</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Physics">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Magic">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Fire">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Thunder">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Dark">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Poison">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="correctType_Blood">
+      <References>
+        <Reference>CalcCorrectGraph</Reference>
+      </References>
+    </Field>
+    <Field Name="swordArtsParamId">
+      <References>
+        <Reference>SwordArtsParam</Reference>
+      </References>
+    </Field>
+    <Field Name="attackElementCorrectId">
+      <References>
+        <Reference>AttackElementCorrectParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

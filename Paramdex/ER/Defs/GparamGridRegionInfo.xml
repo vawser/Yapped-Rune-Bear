@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 GparamGridRegionId">
-      <DisplayName>Open local ID for MapGparam - MapGparam用オープン地方ID </DisplayName>
-      <Description>Open local ID for MapGparam. Used for the XX part of m60_00_00XX.gparamxml - MapGparam用オープンの地方ID。m60_00_00XX.gparamxmlのXXの部分に使用される</Description>
+      <DisplayName>Open local ID for MapGparam</DisplayName>
+      <Description>Open local ID for MapGparam. Used for the XX part of m60_00_00XX.gparamxml</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>
     </Field>
     <Field Def="dummy8 Reserve[28]">
-      <DisplayName>Reserve - リザーブ</DisplayName>
-      <Description>Reserve - リザーブ</Description>
+      <DisplayName>Reserve</DisplayName>
+      <Description>Reserve</Description>
       <SortID>3</SortID>
     </Field>
   </Fields>

@@ -7,16 +7,16 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 SoundNo = -1">
-      <DisplayName>Sound No - サウンドNo</DisplayName>
-      <Description>Sound No to play (sound type is fixed to a) - 再生するサウンドNo (サウンドタイプはa固定)</Description>
+      <DisplayName>Sound No</DisplayName>
+      <Description>Sound No to play (sound type is fixed to a)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 ExpandRange = 100">
-      <DisplayName>Judgment extended distance - 判定拡張距離</DisplayName>
-      <Description>Extended distance of playback judgment area - 再生判定領域の拡張距離</Description>
+      <DisplayName>Judgment extended distance</DisplayName>
+      <Description>Extended distance of playback judgment area</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
@@ -24,8 +24,8 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 FollowSpeed = 0.1">
-      <DisplayName>Sound source tracking speed - 音源追従スピード</DisplayName>
-      <Description>Follow-up speed (fixed speed) to the target position of the actual sound source - 実音源の目標位置への追従速度(固定速度)</Description>
+      <DisplayName>Sound source tracking speed</DisplayName>
+      <Description>Follow-up speed (fixed speed) to the target position of the actual sound source</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
@@ -33,8 +33,8 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 FollowRate = 0.015">
-      <DisplayName>Sound source follow-up rate - 音源追従率</DisplayName>
-      <Description>Follow-up speed (difference ratio) to the target position of the actual sound source - 実音源の目標位置への追従速度(差分割合)</Description>
+      <DisplayName>Sound source follow-up rate</DisplayName>
+      <Description>Follow-up speed (difference ratio) to the target position of the actual sound source</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>

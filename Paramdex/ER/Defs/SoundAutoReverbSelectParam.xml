@@ -7,52 +7,52 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 reverbType">
-      <DisplayName>Reverb type - リバーブタイプ</DisplayName>
-      <Description>Reverb type - リバーブタイプ</Description>
+      <DisplayName>Reverb type</DisplayName>
+      <Description>Reverb type</Description>
       <EditFlags>None</EditFlags>
       <Maximum>16</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 AreaNo = -1">
-      <DisplayName>Area No - エリアNo</DisplayName>
-      <Description>Condition: Area No. (-1: Invalid) - 条件：エリアNo(-1:無効)</Description>
+      <DisplayName>Area No</DisplayName>
+      <Description>Condition: Area No. (-1: Invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s8 IndoorOutdoor = -1">
-      <DisplayName>Indoor and outdoor - 屋内外</DisplayName>
-      <Description>Condition: Indoor / outdoor designation (0: outdoor, 1: indoor) (-1: invalid) - 条件：屋内外指定(0:屋外,1:屋内)(-1:無効)</Description>
+      <DisplayName>Indoor and outdoor</DisplayName>
+      <Description>Condition: Indoor / outdoor designation (0: outdoor, 1: indoor) (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>1</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s8 useDistNoA = -1">
-      <DisplayName>Evaluation distance number A - 使用評価距離番号A</DisplayName>
-      <Description>Condition: Evaluation distance number A to use (-1: invalid) - 条件：使用する評価距離の番号A(-1:無効)</Description>
+      <DisplayName>Evaluation distance number A</DisplayName>
+      <Description>Condition: Evaluation distance number A to use (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>8</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s8 useDistNoB = -1">
-      <DisplayName>Evaluation distance number B - 使用評価距離番号B</DisplayName>
-      <Description>Condition: Evaluation distance number B to be used (-1: invalid) - 条件：使用する評価距離の番号B(-1:無効)</Description>
+      <DisplayName>Evaluation distance number B</DisplayName>
+      <Description>Condition: Evaluation distance number B to be used (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>8</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="dummy8 pad0[1]">
-      <DisplayName>pad0 - pad0</DisplayName>
-      <Description>pad0 - pad0</Description>
+      <DisplayName>pad0</DisplayName>
+      <Description>pad0</Description>
       <SortID>9999</SortID>
     </Field>
     <Field Def="f32 DistMinA = -1">
-      <DisplayName>Distance MinA [m] - 距離MinA[m]</DisplayName>
-      <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid) - 条件：評価距離最小指定A用(0より小さい:無効)</Description>
+      <DisplayName>Distance MinA [m]</DisplayName>
+      <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>512</Maximum>
@@ -60,8 +60,8 @@
       <SortID>101</SortID>
     </Field>
     <Field Def="f32 DistMaxA = -1">
-      <DisplayName>Distance MaxA [m] - 距離MaxA[m]</DisplayName>
-      <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid) - 条件：評価距離最大指定A用(0より小さい:無効)</Description>
+      <DisplayName>Distance MaxA [m]</DisplayName>
+      <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>512</Maximum>
@@ -69,8 +69,8 @@
       <SortID>102</SortID>
     </Field>
     <Field Def="f32 DistMinB = -1">
-      <DisplayName>Distance MinB [m] - 距離MinB[m]</DisplayName>
-      <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid) - 条件：評価距離最小指定A用(0より小さい:無効)</Description>
+      <DisplayName>Distance MinB [m]</DisplayName>
+      <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>512</Maximum>
@@ -78,8 +78,8 @@
       <SortID>201</SortID>
     </Field>
     <Field Def="f32 DistMaxB = -1">
-      <DisplayName>Distance MaxB [m] - 距離MaxB[m]</DisplayName>
-      <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid) - 条件：評価距離最大指定A用(0より小さい:無効)</Description>
+      <DisplayName>Distance MaxB [m]</DisplayName>
+      <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>512</Maximum>
@@ -87,8 +87,8 @@
       <SortID>202</SortID>
     </Field>
     <Field Def="s32 NoHitNumMin = -1">
-      <DisplayName>Minimum number of collision points No Hits - 衝突点NoHit数最小数</DisplayName>
-      <Description>Condition: No Hit number (-1: invalid) - 条件：NoHit数(-1:無効)</Description>
+      <DisplayName>Minimum number of collision points No Hits</DisplayName>
+      <Description>Condition: No Hit number (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>4096</Maximum>

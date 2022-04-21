@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="spEffectId0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId3">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId4">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 attribute1 = -1">
-      <DisplayName>Attribute 1 - 属性1</DisplayName>
+      <DisplayName>Attribute 1</DisplayName>
       <Enum>WAYPOINT_ATTRIBUTE</Enum>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -15,7 +15,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="s16 attribute2 = -1">
-      <DisplayName>Attribute 2 - 属性2</DisplayName>
+      <DisplayName>Attribute 2</DisplayName>
       <Enum>WAYPOINT_ATTRIBUTE</Enum>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -23,7 +23,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="s16 attribute3 = -1">
-      <DisplayName>Attribute 3 - 属性3</DisplayName>
+      <DisplayName>Attribute 3</DisplayName>
       <Enum>WAYPOINT_ATTRIBUTE</Enum>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -31,7 +31,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 attribute4 = -1">
-      <DisplayName>Attribute 4 - 属性4</DisplayName>
+      <DisplayName>Attribute 4</DisplayName>
       <Enum>WAYPOINT_ATTRIBUTE</Enum>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -39,7 +39,7 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="dummy8 padding4[8]">
-      <DisplayName>Padding 4 - パディング4</DisplayName>
+      <DisplayName>Padding 4</DisplayName>
       <SortID>100040</SortID>
     </Field>
   </Fields>

@@ -7,40 +7,40 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>SSAO enabled - SSAO有効</DisplayName>
+      <DisplayName>SSAO enabled</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>SSAO enabled - SSAO有効</Description>
+      <Description>SSAO enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 cs_reprojEnabledType = 1">
-      <DisplayName>Reprojection enabled - リプロジェクション有効</DisplayName>
+      <DisplayName>Reprojection enabled</DisplayName>
       <Enum>CS_GCONFIG_ENABLED_TYPE</Enum>
-      <Description>When reprojection is forcibly enabled, Prevent Ghost is also enabled. - リプロジェクション強制有効の時は、PreventGhostも有効になる</Description>
+      <Description>When reprojection is forcibly enabled, Prevent Ghost is also enabled.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 cs_upScaleEnabledType">
-      <DisplayName>Bilateral upscale effective - バイラテラルアップスケール有効</DisplayName>
+      <DisplayName>Bilateral upscale effective</DisplayName>
       <Enum>CS_GCONFIG_ENABLED_TYPE</Enum>
-      <Description>Bilateral upscale effective - バイラテラルアップスケール有効</Description>
+      <Description>Bilateral upscale effective</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>3</SortID>
     </Field>
     <Field Def="u8 cs_useNormalEnabledType = 1">
-      <DisplayName>Valid to use normals - 法線使用有効</DisplayName>
+      <DisplayName>Valid to use normals</DisplayName>
       <Enum>CS_GCONFIG_ENABLED_TYPE</Enum>
-      <Description>Valid to use normals - 法線使用有効</Description>
+      <Description>Valid to use normals</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>4</SortID>
     </Field>
     <Field Def="dummy8 dmy[1]">
-      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayName>dmy</DisplayName>
       <SortID>9999</SortID>
     </Field>
   </Fields>

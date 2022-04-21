@@ -7,57 +7,57 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>Motion blur enabled - モーションブラー有効</DisplayName>
+      <DisplayName>Motion blur enabled</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Motion blur enabled - モーションブラー有効</Description>
+      <Description>Motion blur enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
     </Field>
     <Field Def="u8 ombEnabled = 1">
-      <DisplayName>OMB (object motion blur) enabled - OMB(オブジェクトモーションブラー)有効</DisplayName>
+      <DisplayName>OMB (object motion blur) enabled</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>OMB (object motion blur) enabled - OMB(オブジェクトモーションブラー)有効</Description>
+      <Description>OMB (object motion blur) enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
     </Field>
     <Field Def="u8 forceScaleVelocityBuffer = 1">
-      <DisplayName>Decrease the resolution of the velocity buffer used internally - 内部で使用するベロシティバッファの解像度を下げる</DisplayName>
+      <DisplayName>Decrease the resolution of the velocity buffer used internally</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Decrease the resolution of the velocity buffer used internally. Not effective if you are not using precision velocity buffers - 内部で使用するベロシティバッファの解像度を下げる。高精度ベロシティバッファを使っていない場合は効果ない</Description>
+      <Description>Decrease the resolution of the velocity buffer used internally. Not effective if you are not using precision velocity buffers</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
     </Field>
     <Field Def="u8 cheapFilterMode">
-      <DisplayName>Normally processed by the Reconstruction filter, but downgraded to a lighter process - 通常、Reconstructionフィルタで処理されるが、軽い処理にダウングレードする</DisplayName>
+      <DisplayName>Normally processed by the Reconstruction filter, but downgraded to a lighter process</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Normally processed by the Reconstruction filter, but downgraded to a lighter process - 通常、Reconstructionフィルタで処理されるが、軽い処理にダウングレードする</Description>
+      <Description>Normally processed by the Reconstruction filter, but downgraded to a lighter process</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>20</SortID>
     </Field>
     <Field Def="s32 sampleCountBias = -2">
-      <DisplayName>Give an offset to the sample count - サンプルカウントにオフセットを与える</DisplayName>
-      <Description>Give an offset to the sample count * Set to a multiple of 2 - サンプルカウントにオフセットを与える※2の倍数に設定して下さい</Description>
+      <DisplayName>Give an offset to the sample count</DisplayName>
+      <Description>Give an offset to the sample count * Set to a multiple of 2</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-4</Minimum>
       <Maximum>2</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="s32 recurrenceCountBias">
-      <DisplayName>Offset the number of recursive blurs - 再帰ブラー回数にオフセットを与える</DisplayName>
-      <Description>Give an offset to the number of recursive blurs - 再帰ブラー回数にオフセットを与える</Description>
+      <DisplayName>Offset the number of recursive blurs</DisplayName>
+      <Description>Give an offset to the number of recursive blurs</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
       <Maximum>1</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="f32 blurMaxLengthScale = 0.75">
-      <DisplayName>Scale value for blur maximum length parameter - ブラー最大長さパラメータに対するスケール値</DisplayName>
-      <Description>Scale value for blur maximum length parameter - ブラー最大長さパラメータに対するスケール値</Description>
+      <DisplayName>Scale value for blur maximum length parameter</DisplayName>
+      <Description>Scale value for blur maximum length parameter</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>

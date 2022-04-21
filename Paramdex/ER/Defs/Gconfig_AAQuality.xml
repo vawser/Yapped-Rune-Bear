@@ -7,25 +7,25 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled">
-      <DisplayName>AA valid - AA有効</DisplayName>
+      <DisplayName>AA valid</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>AA valid - AA有効</Description>
+      <Description>AA valid</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 forceFXAA2">
-      <DisplayName>Force FXAA2 - 強制的にFXAA2</DisplayName>
+      <DisplayName>Force FXAA2</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Force FXAA2 - 強制的にFXAA2</Description>
+      <Description>Force FXAA2</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="dummy8 dmy[2]">
-      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayName>dmy</DisplayName>
       <SortID>9999</SortID>
     </Field>
   </Fields>

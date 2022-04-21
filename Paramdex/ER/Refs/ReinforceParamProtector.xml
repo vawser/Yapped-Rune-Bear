@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="materialSetId">
+      <References>
+        <Reference>EquipMtrlSetParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

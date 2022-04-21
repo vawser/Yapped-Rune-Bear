@@ -7,26 +7,26 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 limitNum_byGroup">
-      <DisplayName>Maximum number of bullets in the group - グループ内上限弾数</DisplayName>
-      <Description>Maximum number of creations in the same group - 同一グループ内での作成上限数</Description>
+      <DisplayName>Maximum number of bullets in the group</DisplayName>
+      <Description>Maximum number of creations in the same group</Description>
       <SortID>10000</SortID>
       <UnkC8 />
     </Field>
     <Field Def="u8 isLimitEachOwner:1">
-      <DisplayName>Is it restricted for each owner? - オーナー毎に制限するか</DisplayName>
+      <DisplayName>Is it restricted for each owner?</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Is it restricted for each owner? - オーナー毎に制限するか</Description>
+      <Description>Is it restricted for each owner?</Description>
       <Maximum>1</Maximum>
       <SortID>10100</SortID>
     </Field>
     <Field Def="dummy8 pad2:7">
-      <DisplayName>Padding - パディング</DisplayName>
-      <Description>pad2 - pad2</Description>
+      <DisplayName>Padding</DisplayName>
+      <Description>pad2</Description>
       <SortID>10101</SortID>
     </Field>
     <Field Def="dummy8 pad[30]">
-      <DisplayName>Padding - パディング</DisplayName>
-      <Description>pad3 - pad3</Description>
+      <DisplayName>Padding</DisplayName>
+      <Description>pad3</Description>
       <SortID>10102</SortID>
     </Field>
   </Fields>

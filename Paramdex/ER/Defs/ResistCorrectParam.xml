@@ -7,8 +7,8 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 addPoint1">
-      <DisplayName>Addition after the first activation pt - 1回目発動後加算pt</DisplayName>
-      <Description>A value that is added to the resistance value after the abnormal condition is activated once. - 状態異常が1回発動した後に耐性値に加算される値</Description>
+      <DisplayName>Addition after the first activation pt</DisplayName>
+      <Description>A value that is added to the resistance value after the abnormal condition is activated once.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -16,8 +16,8 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 addPoint2">
-      <DisplayName>Addition after the second activation pt - 2回目発動後加算pt</DisplayName>
-      <Description>A value that is added to the resistance value after the abnormal condition is activated twice. - 状態異常が2回発動した後に耐性値に加算される値</Description>
+      <DisplayName>Addition after the second activation pt</DisplayName>
+      <Description>A value that is added to the resistance value after the abnormal condition is activated twice.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -25,8 +25,8 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 addPoint3">
-      <DisplayName>Addition after the third activation pt - 3回目発動後加算pt</DisplayName>
-      <Description>A value that is added to the resistance value after the abnormal condition is activated 3 times. - 状態異常が3回発動した後に耐性値に加算される値</Description>
+      <DisplayName>Addition after the third activation pt</DisplayName>
+      <Description>A value that is added to the resistance value after the abnormal condition is activated 3 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -34,8 +34,8 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 addPoint4">
-      <DisplayName>Addition after the 4th activation pt - 4回目発動後加算pt</DisplayName>
-      <Description>A value that is added to the resistance value after the abnormal condition is activated 4 times. - 状態異常が4回発動した後に耐性値に加算される値</Description>
+      <DisplayName>Addition after the 4th activation pt</DisplayName>
+      <Description>A value that is added to the resistance value after the abnormal condition is activated 4 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -43,8 +43,8 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 addPoint5">
-      <DisplayName>Addition after the 5th activation pt - 5回目発動後加算pt</DisplayName>
-      <Description>A value that is added to the resistance value after the abnormal condition is activated 5 times. - 状態異常が5回発動した後に耐性値に加算される値</Description>
+      <DisplayName>Addition after the 5th activation pt</DisplayName>
+      <Description>A value that is added to the resistance value after the abnormal condition is activated 5 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -52,8 +52,8 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 addRate1 = 1">
-      <DisplayName>Magnification after the first activation - 1回目発動後倍率</DisplayName>
-      <Description>Magnification applied to the resistance value after the abnormal condition is activated once - 状態異常が1回発動した後に耐性値に掛かる倍率</Description>
+      <DisplayName>Magnification after the first activation</DisplayName>
+      <Description>Magnification applied to the resistance value after the abnormal condition is activated once</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -61,8 +61,8 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="f32 addRate2 = 1">
-      <DisplayName>Magnification after the second activation - 2回目発動後倍率</DisplayName>
-      <Description>Magnification applied to the resistance value after the abnormal condition is activated twice - 状態異常が2回発動した後に耐性値に掛かる倍率</Description>
+      <DisplayName>Magnification after the second activation</DisplayName>
+      <Description>Magnification applied to the resistance value after the abnormal condition is activated twice</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -70,8 +70,8 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 addRate3 = 1">
-      <DisplayName>Magnification after the third activation - 3回目発動後倍率</DisplayName>
-      <Description>Magnification applied to the resistance value after the abnormal condition is activated 3 times - 状態異常が3回発動した後に耐性値に掛かる倍率</Description>
+      <DisplayName>Magnification after the third activation</DisplayName>
+      <Description>Magnification applied to the resistance value after the abnormal condition is activated 3 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -79,8 +79,8 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="f32 addRate4 = 1">
-      <DisplayName>Magnification after the 4th activation - 4回目発動後倍率</DisplayName>
-      <Description>Magnification applied to the resistance value after the abnormal condition is activated 4 times - 状態異常が4回発動した後に耐性値に掛かる倍率</Description>
+      <DisplayName>Magnification after the 4th activation</DisplayName>
+      <Description>Magnification applied to the resistance value after the abnormal condition is activated 4 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>
@@ -88,8 +88,8 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="f32 addRate5 = 1">
-      <DisplayName>Magnification after the 5th activation - 5回目発動後倍率</DisplayName>
-      <Description>Magnification applied to the resistance value after the abnormal condition is activated 5 times - 状態異常が5回発動した後に耐性値に掛かる倍率</Description>
+      <DisplayName>Magnification after the 5th activation</DisplayName>
+      <Description>Magnification applied to the resistance value after the abnormal condition is activated 5 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
       <Maximum>999.99</Maximum>

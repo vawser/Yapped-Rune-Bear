@@ -7,303 +7,303 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output? - NT版出力から外すか</DisplayName>
+      <DisplayName>Do you remove it from the NT version output?</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-      <Description>Parameters marked with ○ are excluded in the NT version package. - ○をつけたパラメータをNT版パッケージでは除外します</Description>
+      <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
     </Field>
     <Field Def="dummy8 disableParamReserve1:7">
-      <DisplayName>Reserve for package output 1 - パッケージ出力用リザーブ1</DisplayName>
-      <Description>Reserve for package output 1 - パッケージ出力用リザーブ1</Description>
+      <DisplayName>Reserve for package output 1</DisplayName>
+      <Description>Reserve for package output 1</Description>
       <DisplayFormat>%d</DisplayFormat>
       <SortID>10000</SortID>
     </Field>
     <Field Def="dummy8 disableParamReserve2[3]">
-      <DisplayName>Reserve for package output 2 - パッケージ出力用リザーブ2</DisplayName>
-      <Description>Reserve for package output 2 - パッケージ出力用リザーブ2</Description>
+      <DisplayName>Reserve for package output 2</DisplayName>
+      <Description>Reserve for package output 2</Description>
       <DisplayFormat>%d</DisplayFormat>
       <SortID>10001</SortID>
     </Field>
     <Field Def="s16 weatherType0 = -1">
-      <DisplayName>Weather type 0 - 天候種類0</DisplayName>
+      <DisplayName>Weather type 0</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 0 - 天候種類0</Description>
+      <Description>Weather type 0</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>50</SortID>
     </Field>
     <Field Def="s16 weatherType1 = -1">
-      <DisplayName>Weather type 1 - 天候種類1</DisplayName>
+      <DisplayName>Weather type 1</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 1 - 天候種類1</Description>
+      <Description>Weather type 1</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s16 weatherType2 = -1">
-      <DisplayName>Weather type 2 - 天候種類2</DisplayName>
+      <DisplayName>Weather type 2</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 2 - 天候種類2</Description>
+      <Description>Weather type 2</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s16 weatherType3 = -1">
-      <DisplayName>Weather type 3 - 天候種類3</DisplayName>
+      <DisplayName>Weather type 3</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 3 - 天候種類3</Description>
+      <Description>Weather type 3</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 weatherType4 = -1">
-      <DisplayName>Weather type 4 - 天候種類4</DisplayName>
+      <DisplayName>Weather type 4</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 4 - 天候種類4</Description>
+      <Description>Weather type 4</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="s16 weatherType5 = -1">
-      <DisplayName>Weather type 5 - 天候種類5</DisplayName>
+      <DisplayName>Weather type 5</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 5 - 天候種類5</Description>
+      <Description>Weather type 5</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s16 weatherType6 = -1">
-      <DisplayName>Weather type 6 - 天候種類6</DisplayName>
+      <DisplayName>Weather type 6</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 6 - 天候種類6</Description>
+      <Description>Weather type 6</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s16 weatherType7 = -1">
-      <DisplayName>Weather type 7 - 天候種類7</DisplayName>
+      <DisplayName>Weather type 7</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 7 - 天候種類7</Description>
+      <Description>Weather type 7</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="s16 weatherType8 = -1">
-      <DisplayName>Weather type 8 - 天候種類8</DisplayName>
+      <DisplayName>Weather type 8</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 8 - 天候種類8</Description>
+      <Description>Weather type 8</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="s16 weatherType9 = -1">
-      <DisplayName>Weather type 9 - 天候種類9</DisplayName>
+      <DisplayName>Weather type 9</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 9 - 天候種類9</Description>
+      <Description>Weather type 9</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="s16 weatherType10 = -1">
-      <DisplayName>Weather type 10 - 天候種類10</DisplayName>
+      <DisplayName>Weather type 10</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 10 - 天候種類10</Description>
+      <Description>Weather type 10</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="s16 weatherType11 = -1">
-      <DisplayName>Weather type 11 - 天候種類11</DisplayName>
+      <DisplayName>Weather type 11</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 11 - 天候種類11</Description>
+      <Description>Weather type 11</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="s16 weatherType12 = -1">
-      <DisplayName>Weather type 12 - 天候種類12</DisplayName>
+      <DisplayName>Weather type 12</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 12 - 天候種類12</Description>
+      <Description>Weather type 12</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s16 weatherType13 = -1">
-      <DisplayName>Weather type 13 - 天候種類13</DisplayName>
+      <DisplayName>Weather type 13</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 13 - 天候種類13</Description>
+      <Description>Weather type 13</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s16 weatherType14 = -1">
-      <DisplayName>Weather type 14 - 天候種類14</DisplayName>
+      <DisplayName>Weather type 14</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 14 - 天候種類14</Description>
+      <Description>Weather type 14</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="s16 weatherType15 = -1">
-      <DisplayName>Weather type 15 - 天候種類15</DisplayName>
+      <DisplayName>Weather type 15</DisplayName>
       <Enum>WEATHER_TYPE</Enum>
-      <Description>Weather type 15 - 天候種類15</Description>
+      <Description>Weather type 15</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="u16 lotteryWeight0">
-      <DisplayName>Lottery weight 0 - 抽選ウェイト0</DisplayName>
-      <Description>Lottery weight 0 - 抽選ウェイト0</Description>
+      <DisplayName>Lottery weight 0</DisplayName>
+      <Description>Lottery weight 0</Description>
       <EditFlags>None</EditFlags>
       <SortID>51</SortID>
     </Field>
     <Field Def="u16 lotteryWeight1">
-      <DisplayName>Lottery weight 1 - 抽選ウェイト1</DisplayName>
-      <Description>Lottery weight 1 - 抽選ウェイト1</Description>
+      <DisplayName>Lottery weight 1</DisplayName>
+      <Description>Lottery weight 1</Description>
       <EditFlags>None</EditFlags>
       <SortID>101</SortID>
     </Field>
     <Field Def="u16 lotteryWeight2">
-      <DisplayName>Lottery weight 2 - 抽選ウェイト2</DisplayName>
-      <Description>Lottery weight 2 - 抽選ウェイト2</Description>
+      <DisplayName>Lottery weight 2</DisplayName>
+      <Description>Lottery weight 2</Description>
       <EditFlags>None</EditFlags>
       <SortID>201</SortID>
     </Field>
     <Field Def="u16 lotteryWeight3">
-      <DisplayName>Lottery weight 3 - 抽選ウェイト3</DisplayName>
-      <Description>Lottery weight 3 - 抽選ウェイト3</Description>
+      <DisplayName>Lottery weight 3</DisplayName>
+      <Description>Lottery weight 3</Description>
       <EditFlags>None</EditFlags>
       <SortID>301</SortID>
     </Field>
     <Field Def="u16 lotteryWeight4">
-      <DisplayName>Lottery weight 4 - 抽選ウェイト4</DisplayName>
-      <Description>Lottery weight 4 - 抽選ウェイト4</Description>
+      <DisplayName>Lottery weight 4</DisplayName>
+      <Description>Lottery weight 4</Description>
       <EditFlags>None</EditFlags>
       <SortID>401</SortID>
     </Field>
     <Field Def="u16 lotteryWeight5">
-      <DisplayName>Lottery weight 5 - 抽選ウェイト5</DisplayName>
-      <Description>Lottery weight 5 - 抽選ウェイト5</Description>
+      <DisplayName>Lottery weight 5</DisplayName>
+      <Description>Lottery weight 5</Description>
       <EditFlags>None</EditFlags>
       <SortID>501</SortID>
     </Field>
     <Field Def="u16 lotteryWeight6">
-      <DisplayName>Lottery weight 6 - 抽選ウェイト6</DisplayName>
-      <Description>Lottery weight 6 - 抽選ウェイト6</Description>
+      <DisplayName>Lottery weight 6</DisplayName>
+      <Description>Lottery weight 6</Description>
       <EditFlags>None</EditFlags>
       <SortID>601</SortID>
     </Field>
     <Field Def="u16 lotteryWeight7">
-      <DisplayName>Lottery weight 7 - 抽選ウェイト7</DisplayName>
-      <Description>Lottery weight 7 - 抽選ウェイト7</Description>
+      <DisplayName>Lottery weight 7</DisplayName>
+      <Description>Lottery weight 7</Description>
       <EditFlags>None</EditFlags>
       <SortID>701</SortID>
     </Field>
     <Field Def="u16 lotteryWeight8">
-      <DisplayName>Lottery weight 8 - 抽選ウェイト8</DisplayName>
-      <Description>Lottery weight 8 - 抽選ウェイト8</Description>
+      <DisplayName>Lottery weight 8</DisplayName>
+      <Description>Lottery weight 8</Description>
       <EditFlags>None</EditFlags>
       <SortID>801</SortID>
     </Field>
     <Field Def="u16 lotteryWeight9">
-      <DisplayName>Lottery weight 9 - 抽選ウェイト9</DisplayName>
-      <Description>Lottery weight 9 - 抽選ウェイト9</Description>
+      <DisplayName>Lottery weight 9</DisplayName>
+      <Description>Lottery weight 9</Description>
       <EditFlags>None</EditFlags>
       <SortID>901</SortID>
     </Field>
     <Field Def="u16 lotteryWeight10">
-      <DisplayName>Lottery weight 10 - 抽選ウェイト10</DisplayName>
-      <Description>Lottery weight 10 - 抽選ウェイト10</Description>
+      <DisplayName>Lottery weight 10</DisplayName>
+      <Description>Lottery weight 10</Description>
       <EditFlags>None</EditFlags>
       <SortID>1001</SortID>
     </Field>
     <Field Def="u16 lotteryWeight11">
-      <DisplayName>Lottery weight 11 - 抽選ウェイト11</DisplayName>
-      <Description>Lottery weight 11 - 抽選ウェイト11</Description>
+      <DisplayName>Lottery weight 11</DisplayName>
+      <Description>Lottery weight 11</Description>
       <EditFlags>None</EditFlags>
       <SortID>1101</SortID>
     </Field>
     <Field Def="u16 lotteryWeight12">
-      <DisplayName>Lottery weight 12 - 抽選ウェイト12</DisplayName>
-      <Description>Lottery weight 12 - 抽選ウェイト12</Description>
+      <DisplayName>Lottery weight 12</DisplayName>
+      <Description>Lottery weight 12</Description>
       <EditFlags>None</EditFlags>
       <SortID>1201</SortID>
     </Field>
     <Field Def="u16 lotteryWeight13">
-      <DisplayName>Lottery weight 13 - 抽選ウェイト13</DisplayName>
-      <Description>Lottery weight 13 - 抽選ウェイト13</Description>
+      <DisplayName>Lottery weight 13</DisplayName>
+      <Description>Lottery weight 13</Description>
       <EditFlags>None</EditFlags>
       <SortID>1301</SortID>
     </Field>
     <Field Def="u16 lotteryWeight14">
-      <DisplayName>Lottery weight 14 - 抽選ウェイト14</DisplayName>
-      <Description>Lottery weight 14 - 抽選ウェイト14</Description>
+      <DisplayName>Lottery weight 14</DisplayName>
+      <Description>Lottery weight 14</Description>
       <EditFlags>None</EditFlags>
       <SortID>1401</SortID>
     </Field>
     <Field Def="u16 lotteryWeight15">
-      <DisplayName>Lottery weight 15 - 抽選ウェイト15</DisplayName>
-      <Description>Lottery weight 15 - 抽選ウェイト15</Description>
+      <DisplayName>Lottery weight 15</DisplayName>
+      <Description>Lottery weight 15</Description>
       <EditFlags>None</EditFlags>
       <SortID>1501</SortID>
     </Field>
     <Field Def="u8 timezoneLimit">
-      <DisplayName>Time zone condition list - 時間帯条件リスト</DisplayName>
+      <DisplayName>Time zone condition list</DisplayName>
       <Enum>WEATHER_LOT_TIMEZONE_TYPE</Enum>
-      <Description>Time zone condition list - 時間帯条件リスト</Description>
+      <Description>Time zone condition list</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 timezoneStartHour">
-      <DisplayName>Direct time specification_start_hour - 直接時間指定_開始_時</DisplayName>
-      <Description>Direct time specification_start_hour - 直接時間指定_開始_時</Description>
+      <DisplayName>Direct time specification_start_hour</DisplayName>
+      <Description>Direct time specification_start_hour</Description>
       <EditFlags>None</EditFlags>
       <Maximum>23</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 timezoneStartMinute">
-      <DisplayName>Direct time specification_start_minute - 直接時間指定_開始_分</DisplayName>
-      <Description>Direct time specification_start_minute - 直接時間指定_開始_分</Description>
+      <DisplayName>Direct time specification_start_minute</DisplayName>
+      <Description>Direct time specification_start_minute</Description>
       <EditFlags>None</EditFlags>
       <Maximum>59</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="u8 timezoneEndHour">
-      <DisplayName>Direct time specification_start_hour - 直接時間指定_開始_時</DisplayName>
-      <Description>Direct time specification_start_hour - 直接時間指定_開始_時</Description>
+      <DisplayName>Direct time specification_start_hour</DisplayName>
+      <Description>Direct time specification_start_hour</Description>
       <EditFlags>None</EditFlags>
       <Maximum>23</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="u8 timezoneEndMinute">
-      <DisplayName>Direct time specification_start_minute - 直接時間指定_開始_分</DisplayName>
-      <Description>Direct time specification_start_minute - 直接時間指定_開始_分</Description>
+      <DisplayName>Direct time specification_start_minute</DisplayName>
+      <Description>Direct time specification_start_minute</Description>
       <EditFlags>None</EditFlags>
       <Maximum>59</Maximum>
       <SortID>5</SortID>
     </Field>
     <Field Def="dummy8 reserve[9]">
-      <DisplayName>Reserve - リザーブ</DisplayName>
-      <Description>Reserved area - 予約領域</Description>
+      <DisplayName>Reserve</DisplayName>
+      <Description>Reserved area</Description>
       <SortID>9999</SortID>
     </Field>
   </Fields>

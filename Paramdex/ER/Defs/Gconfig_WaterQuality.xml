@@ -7,16 +7,16 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 interactionEnabled = 1">
-      <DisplayName>Interaction enabled - インタラクション有効</DisplayName>
+      <DisplayName>Interaction enabled</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Interaction enabled - インタラクション有効</Description>
+      <Description>Interaction enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="dummy8 dmy[3]">
-      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayName>dmy</DisplayName>
       <SortID>9999</SortID>
     </Field>
   </Fields>

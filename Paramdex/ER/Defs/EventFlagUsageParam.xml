@@ -7,34 +7,34 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 usageType">
-      <DisplayName>Use - 用途</DisplayName>
+      <DisplayName>Use</DisplayName>
       <Enum>EVENT_FLAG_USAGE_TYPE</Enum>
-      <Description>Use of the flag. - フラグの用途。</Description>
+      <Description>Use of the flag.</Description>
       <Maximum>2</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u8 playlogCategory">
-      <DisplayName>Playlog category - プレイログカテゴリ</DisplayName>
+      <DisplayName>Playlog category</DisplayName>
       <Enum>EVENT_FLAG_USAGE_PLAYLOG_CATEGORY</Enum>
-      <Description>Valid only when the usage is "ON / OFF". If this is set, the play log will be collected when the flag is turned ON. - 用途が「ON/OFF」の場合のみ有効。これを設定するとフラグがONになったときにプレイログを収集する。</Description>
+      <Description>Valid only when the usage is "ON / OFF". If this is set, the play log will be collected when the flag is turned ON.</Description>
       <SortID>3000</SortID>
     </Field>
     <Field Def="dummy8 padding1[2]">
-      <DisplayName>Padding - パディング</DisplayName>
-      <Description>Padding - パディング</Description>
+      <DisplayName>Padding</DisplayName>
+      <Description>Padding</Description>
       <DisplayFormat>%f</DisplayFormat>
       <SortID>999999</SortID>
     </Field>
     <Field Def="s32 flagNum = 1">
-      <DisplayName>Number of secured flags - 確保フラグ数</DisplayName>
-      <Description>Set to 1 for "ON / OFF". In the case of "frame allocation" and "integer", "parameter number-parameter number + number of secured flags-1" is secured. - 「ON/OFF」の場合は1を設定する。「枠割り当て」「整数」の場合は「パラメータ番号～パラメータ番号+確保フラグ数-1」が確保される範囲になる。</Description>
+      <DisplayName>Number of secured flags</DisplayName>
+      <Description>Set to 1 for "ON / OFF". In the case of "frame allocation" and "integer", "parameter number-parameter number + number of secured flags-1" is secured.</Description>
       <Minimum>1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="dummy8 padding2[24]">
-      <DisplayName>Padding - パディング</DisplayName>
-      <Description>Padding - パディング</Description>
+      <DisplayName>Padding</DisplayName>
+      <Description>Padding</Description>
       <SortID>999999</SortID>
     </Field>
   </Fields>

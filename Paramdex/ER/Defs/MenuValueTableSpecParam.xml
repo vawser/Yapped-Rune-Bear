@@ -7,30 +7,30 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 value">
-      <DisplayName>Value to compare - 比較する値</DisplayName>
-      <Description>Value to compare - 比較する値</Description>
+      <DisplayName>Value to compare</DisplayName>
+      <Description>Value to compare</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 textId">
-      <DisplayName>Converted text ID - 変換後のテキストID</DisplayName>
-      <Description>Converted text ID - 変換後のテキストID</Description>
+      <DisplayName>Converted text ID</DisplayName>
+      <Description>Converted text ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s8 compareType">
-      <DisplayName>Comparison type - 比較タイプ</DisplayName>
+      <DisplayName>Comparison type</DisplayName>
       <Enum>MENU_VALUE_TABLE_CMP_TYPE</Enum>
-      <Description>Comparison type - 比較タイプ</Description>
+      <Description>Comparison type</Description>
       <Minimum>0</Minimum>
       <Maximum>255</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="dummy8 padding[3]">
-      <DisplayName>Padding - パディング</DisplayName>
-      <Description>Padding - パディング</Description>
+      <DisplayName>Padding</DisplayName>
+      <Description>Padding</Description>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>Wrap</EditFlags>
       <SortID>999</SortID>

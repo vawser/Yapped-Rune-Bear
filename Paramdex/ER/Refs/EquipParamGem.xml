@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="spEffectId0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="swordArtsParamId">
+      <References>
+        <Reference>SwordArtsParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId_forAtk0">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId_forAtk1">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+    <Field Name="spEffectId_forAtk2">
+      <References>
+        <Reference>SpEffectParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>

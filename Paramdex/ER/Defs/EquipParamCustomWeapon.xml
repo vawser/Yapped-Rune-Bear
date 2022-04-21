@@ -7,28 +7,28 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 baseWepId">
-      <DisplayName>Weapon base ID - 武器ベースID</DisplayName>
-      <Description>Weapon base ID - 武器ベースID</Description>
+      <DisplayName>Weapon base ID</DisplayName>
+      <Description>Weapon base ID</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 gemId">
-      <DisplayName>Magic stone ID - 魔石ID</DisplayName>
-      <Description>Magic stone ID - 魔石ID</Description>
+      <DisplayName>Magic stone ID</DisplayName>
+      <Description>Magic stone ID</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 reinforceLv">
-      <DisplayName>Enhancement value - 強化値</DisplayName>
-      <Description>Enhancement value - 強化値</Description>
+      <DisplayName>Enhancement value</DisplayName>
+      <Description>Enhancement value</Description>
       <Maximum>99</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="dummy8 pad[7]">
-      <DisplayName>pad - pad</DisplayName>
-      <Description>pad - pad</Description>
+      <DisplayName>pad</DisplayName>
+      <Description>pad</Description>
       <SortID>301</SortID>
     </Field>
   </Fields>

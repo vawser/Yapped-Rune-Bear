@@ -7,8 +7,8 @@
   <FormatVersion>202</FormatVersion>
   <Fields>
     <Field Def="fixstr ParamKeyStr[32]">
-      <DisplayName>Parameter Key string - パラメータのKey文字列</DisplayName>
-      <Description>Key string of the parameter - パラメータのKey文字列です</Description>
+      <DisplayName>Parameter Key string</DisplayName>
+      <Description>Key string of the parameter</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -17,8 +17,8 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="fixstr ParamValueStr[32]">
-      <DisplayName>Parameter Value string - パラメータのValue文字列</DisplayName>
-      <Description>Value string of the parameter - パラメータのValue文字列です</Description>
+      <DisplayName>Parameter Value string</DisplayName>
+      <Description>Value string of the parameter</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

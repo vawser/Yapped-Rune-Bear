@@ -7,21 +7,21 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 filter = 3">
-      <DisplayName>filter - フィルター</DisplayName>
+      <DisplayName>filter</DisplayName>
       <Enum>GX_TEXTURE_FILTER</Enum>
-      <Description>filter - フィルター</Description>
+      <Description>filter</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>3</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="dummy8 dmy[3]">
-      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayName>dmy</DisplayName>
       <SortID>9999</SortID>
     </Field>
     <Field Def="u32 maxAnisoLevel = 4">
-      <DisplayName>Aniso level - アニソレベル</DisplayName>
-      <Description>Aniso level - アニソレベル</Description>
+      <DisplayName>Aniso level</DisplayName>
+      <Description>Aniso level</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>

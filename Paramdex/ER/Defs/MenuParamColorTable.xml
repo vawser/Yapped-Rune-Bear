@@ -7,34 +7,34 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 lerpMode">
-      <DisplayName>Interpolation method - 補間方法</DisplayName>
+      <DisplayName>Interpolation method</DisplayName>
       <Enum>MENU_COLOR_LERP_MODE</Enum>
-      <Description>Interpolation method - 補間方法</Description>
+      <Description>Interpolation method</Description>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>1</SortID>
     </Field>
     <Field Def="dummy8 pad1[3]">
-      <DisplayName>pad - パッド</DisplayName>
+      <DisplayName>pad</DisplayName>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>Wrap</EditFlags>
       <SortID>11</SortID>
     </Field>
     <Field Def="u16 h">
-      <DisplayName>Hue - 色相</DisplayName>
-      <Description>Hue. Treat as a fixed value in interpolation - 色相。補間では固定値として扱う</Description>
+      <DisplayName>Hue</DisplayName>
+      <Description>Hue. Treat as a fixed value in interpolation</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>359</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="dummy8 pad2[2]">
-      <DisplayName>pad - パッド</DisplayName>
+      <DisplayName>pad</DisplayName>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>Wrap</EditFlags>
       <SortID>12</SortID>
     </Field>
     <Field Def="f32 s1 = 1">
-      <DisplayName>saturation - 彩度</DisplayName>
-      <Description>Saturation 1. Treated as the first point of interpolation - 彩度1。補間の1点目として扱われる</Description>
+      <DisplayName>saturation</DisplayName>
+      <Description>Saturation 1. Treated as the first point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -42,8 +42,8 @@
       <UnkC8>1点目</UnkC8>
     </Field>
     <Field Def="f32 v1 = 1">
-      <DisplayName>brightness - 明度</DisplayName>
-      <Description>Brightness 1. Treated as the first point of interpolation - 明度1。補間の1点目として扱われる</Description>
+      <DisplayName>brightness</DisplayName>
+      <Description>Brightness 1. Treated as the first point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -51,8 +51,8 @@
       <UnkC8>1点目</UnkC8>
     </Field>
     <Field Def="f32 s2 = 1">
-      <DisplayName>saturation - 彩度</DisplayName>
-      <Description>Saturation 2. Treated as the second point of interpolation - 彩度2。補間の2点目として扱われる</Description>
+      <DisplayName>saturation</DisplayName>
+      <Description>Saturation 2. Treated as the second point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -60,8 +60,8 @@
       <UnkC8>2点目</UnkC8>
     </Field>
     <Field Def="f32 v2 = 1">
-      <DisplayName>brightness - 明度</DisplayName>
-      <Description>Brightness 2. Treated as the second point of interpolation - 明度2。補間の2点目として扱われる</Description>
+      <DisplayName>brightness</DisplayName>
+      <Description>Brightness 2. Treated as the second point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -69,8 +69,8 @@
       <UnkC8>2点目</UnkC8>
     </Field>
     <Field Def="f32 s3 = 1">
-      <DisplayName>saturation - 彩度</DisplayName>
-      <Description>Saturation 3. Treated as the third point of interpolation - 彩度3。補間の3点目として扱われる</Description>
+      <DisplayName>saturation</DisplayName>
+      <Description>Saturation 3. Treated as the third point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -78,8 +78,8 @@
       <UnkC8>3点目</UnkC8>
     </Field>
     <Field Def="f32 v3 = 1">
-      <DisplayName>brightness - 明度</DisplayName>
-      <Description>Brightness 3. Treated as the third point of interpolation - 明度3。補間の3点目として扱われる</Description>
+      <DisplayName>brightness</DisplayName>
+      <Description>Brightness 3. Treated as the third point of interpolation</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>

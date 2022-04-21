@@ -7,8 +7,8 @@
   <FormatVersion>202</FormatVersion>
   <Fields>
     <Field Def="fixstr ReverbAuxSendBusName[32]">
-      <DisplayName>ReverbAuxSendBus name - ReverbAuxSendBus名</DisplayName>
-      <Description>ReverbAuxSendBus name - ReverbAuxSendBus名</Description>
+      <DisplayName>ReverbAuxSendBus name</DisplayName>
+      <Description>ReverbAuxSendBus name</Description>
       <DisplayFormat>%f</DisplayFormat>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>

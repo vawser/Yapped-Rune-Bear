@@ -7,28 +7,28 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>Shadow is enabled - シャドウが有効</DisplayName>
+      <DisplayName>Shadow is enabled</DisplayName>
       <Enum>ON_OFF</Enum>
-      <Description>Shadow is enabled - シャドウが有効</Description>
+      <Description>Shadow is enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>1</Maximum>
     </Field>
     <Field Def="u8 maxFilterLevel = 1">
-      <DisplayName>Maximum filter quality allowed - 許可される最大のフィルタ品質</DisplayName>
+      <DisplayName>Maximum filter quality allowed</DisplayName>
       <Enum>GX_SHADOW_FILTER_LEVEL</Enum>
-      <Description>Maximum filter quality allowed - 許可される最大のフィルタ品質</Description>
+      <Description>Maximum filter quality allowed</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>100</SortID>
     </Field>
     <Field Def="dummy8 dmy[2]">
-      <DisplayName>dmy - dmy</DisplayName>
+      <DisplayName>dmy</DisplayName>
       <SortID>9999</SortID>
     </Field>
     <Field Def="u32 textureSizeScaler = 1">
-      <DisplayName>Scaler with set shadow map resolution - 設定されたシャドウマップ解像度のスケーラ</DisplayName>
-      <Description>Scaler with set shadow map resolution - 設定されたシャドウマップ解像度のスケーラ</Description>
+      <DisplayName>Scaler with set shadow map resolution</DisplayName>
+      <Description>Scaler with set shadow map resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>
@@ -36,8 +36,8 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u32 textureSizeDivider = 2">
-      <DisplayName>Divide the set shadow map resolution - 設定されたシャドウマップ解像度を除算</DisplayName>
-      <Description>Divide the set shadow map resolution - 設定されたシャドウマップ解像度を除算</Description>
+      <DisplayName>Divide the set shadow map resolution</DisplayName>
+      <Description>Divide the set shadow map resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>
@@ -45,8 +45,8 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u32 textureMinSize = 128">
-      <DisplayName>Minimum resolution - 解像度最小</DisplayName>
-      <Description>Clamp resolution - 解像度をクランプ</Description>
+      <DisplayName>Minimum resolution</DisplayName>
+      <Description>Clamp resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>128</Minimum>
@@ -54,8 +54,8 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="u32 textureMaxSize = 1024">
-      <DisplayName>Maximum resolution - 解像度最大</DisplayName>
-      <Description>Clamp the resolution. It will be the resolution judgment for each cascade - 解像度をクランプ。カスケード毎の解像度判定になります</Description>
+      <DisplayName>Maximum resolution</DisplayName>
+      <Description>Clamp the resolution. It will be the resolution judgment for each cascade</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>128</Minimum>
@@ -63,8 +63,8 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="s32 blurCountBias = -1">
-      <DisplayName>Blur count bias - ブラーカウントバイアス</DisplayName>
-      <Description>Blur count bias (set count bias, unchanged at 0) - ブラーカウントバイアス(設定されたカウントのバイアス。0で変更なし)</Description>
+      <DisplayName>Blur count bias</DisplayName>
+      <Description>Blur count bias (set count bias, unchanged at 0)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>-4</Minimum>

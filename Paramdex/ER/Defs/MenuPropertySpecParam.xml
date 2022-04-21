@@ -7,44 +7,44 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 CaptionTextID">
-      <DisplayName>Item name Text ID - 項目名テキストID</DisplayName>
+      <DisplayName>Item name Text ID</DisplayName>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 IconID">
-      <DisplayName>Item icon ID - 項目アイコンID</DisplayName>
+      <DisplayName>Item icon ID</DisplayName>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="u32 RequiredPropertyID">
-      <DisplayName>Required skills - 必要スキル</DisplayName>
+      <DisplayName>Required skills</DisplayName>
       <Enum>MENU_PROPERTY_ID</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="s8 CompareType">
-      <DisplayName>Superiority or inferiority judgment - 優劣判定</DisplayName>
+      <DisplayName>Superiority or inferiority judgment</DisplayName>
       <Enum>MENU_PROPERTY_CMP_TYPE</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5</SortID>
     </Field>
     <Field Def="dummy8 pad2[1]">
-      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayName>Padding</DisplayName>
       <SortID>8</SortID>
     </Field>
     <Field Def="u16 FormatType">
-      <DisplayName>Format - 書式</DisplayName>
+      <DisplayName>Format</DisplayName>
       <Enum>MENU_PROPERTY_FORMAT_TYPE</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6</SortID>
     </Field>
     <Field Def="dummy8 pad[16]">
-      <DisplayName>Padding - パディング</DisplayName>
+      <DisplayName>Padding</DisplayName>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>Wrap</EditFlags>
       <SortID>9</SortID>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMREF XmlVersion="0">
+  <Fields>
+    <Field Name="decalId1">
+      <References>
+        <Reference>DecalParam</Reference>
+      </References>
+    </Field>
+    <Field Name="decalId2">
+      <References>
+        <Reference>DecalParam</Reference>
+      </References>
+    </Field>
+    <Field Name="phantomParamOverwriteId">
+      <References>
+        <Reference>PhantomParam</Reference>
+      </References>
+    </Field>
+    <Field Name="materialParamId">
+      <References>
+        <Reference>MaterialExParam</Reference>
+      </References>
+    </Field>
+  </Fields>
+</PARAMREF>
