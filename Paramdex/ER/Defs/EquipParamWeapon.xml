@@ -218,6 +218,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep1 = -1">
       <DisplayName>Origin Weapon +1</DisplayName>
