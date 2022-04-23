@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 regionType">
-      <DisplayName>Range type</DisplayName>
+      <DisplayName>Region Type</DisplayName>
       <Enum>ACTION_BUTTON_REGION_TYPE</Enum>
       <Description>Range shape (cylinder, prism, capsule)</Description>
       <EditFlags>None</EditFlags>
@@ -15,7 +15,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 category">
-      <DisplayName>category</DisplayName>
+      <DisplayName>Category</DisplayName>
       <Enum>ACTION_BUTTON_CATEGORY</Enum>
       <Description>category. The number on the left side of the name is the priority when multiple action buttons overlap (the closer it is to 0, the higher the priority is displayed).</Description>
       <EditFlags>None</EditFlags>
@@ -27,7 +27,7 @@
       <SortID>100010</SortID>
     </Field>
     <Field Def="s32 dummyPoly1 = -1">
-      <DisplayName>Damipoli 1</DisplayName>
+      <DisplayName>Dummy Poly [1]</DisplayName>
       <Description>Specify the Damipoli ID that is the center of the bottom of the range. If there is no Damipoly or -1 is entered, the center coordinates will be the reference.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -35,7 +35,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 dummyPoly2 = -1">
-      <DisplayName>Damipoli 2</DisplayName>
+      <DisplayName>Dummy Poly [2]</DisplayName>
       <Description>Used only when the range type is a capsule. Additional Damipoly (capsule) that creates a line segment with two Damipoly</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -43,7 +43,7 @@
       <SortID>210</SortID>
     </Field>
     <Field Def="f32 radius">
-      <DisplayName>radius</DisplayName>
+      <DisplayName>Radius</DisplayName>
       <Description>Radius (cylinder / capsule)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -52,7 +52,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s32 angle = 180">
-      <DisplayName>angle</DisplayName>
+      <DisplayName>Angle</DisplayName>
       <Description>Angle (cylinder)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -60,7 +60,7 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="f32 depth">
-      <DisplayName>depth</DisplayName>
+      <DisplayName>Depth</DisplayName>
       <Description>Depth (prism)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -69,7 +69,7 @@
       <SortID>500</SortID>
     </Field>
     <Field Def="f32 width">
-      <DisplayName>width</DisplayName>
+      <DisplayName>Width</DisplayName>
       <Description>Width (prism)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -78,7 +78,7 @@
       <SortID>510</SortID>
     </Field>
     <Field Def="f32 height">
-      <DisplayName>height</DisplayName>
+      <DisplayName>Height</DisplayName>
       <Description>Height (cylinder / prism)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -87,7 +87,7 @@
       <SortID>520</SortID>
     </Field>
     <Field Def="f32 baseHeightOffset">
-      <DisplayName>Bottom height offset</DisplayName>
+      <DisplayName>Bottom Height Offset</DisplayName>
       <Description>How much to raise or lower the Y coordinate of the bottom (cylinder / prism)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1E+09</Minimum>
@@ -96,7 +96,7 @@
       <SortID>600</SortID>
     </Field>
     <Field Def="u8 angleCheckType">
-      <DisplayName>Angle difference judgment type</DisplayName>
+      <DisplayName>Angle Difference Check Type</DisplayName>
       <Enum>ACTION_BUTTON_ANGLE_CHECK_TYPE</Enum>
       <Description>Angle difference judgment type (cylinder / prism)</Description>
       <EditFlags>None</EditFlags>
@@ -108,7 +108,7 @@
       <SortID>100020</SortID>
     </Field>
     <Field Def="s32 allowAngle = 180">
-      <DisplayName>Allowable angle difference</DisplayName>
+      <DisplayName>Allowable Angle Difference</DisplayName>
       <Description>Allowable angle difference (cylinder / prism)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -116,7 +116,7 @@
       <SortID>800</SortID>
     </Field>
     <Field Def="s32 spotDummyPoly = -1">
-      <DisplayName>Action spot Damipoli</DisplayName>
+      <DisplayName>Action Spot Dummy Poly</DisplayName>
       <Description>If there is no Damipoli that specifies the Damipoli ID that will be the position of the action spot, or if -1 is entered, the center coordinates will be the reference.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -124,7 +124,7 @@
       <SortID>850</SortID>
     </Field>
     <Field Def="u8 textBoxType">
-      <DisplayName>Text box type</DisplayName>
+      <DisplayName>Textbox Type</DisplayName>
       <Enum>ACTION_BUTTON_TEXT_BOX_TYPE</Enum>
       <Description>Text box type</Description>
       <EditFlags>None</EditFlags>
@@ -141,7 +141,7 @@
       <SortID>100050</SortID>
     </Field>
     <Field Def="u8 isInvalidForRide:1">
-      <DisplayName>Is it invalid when riding?</DisplayName>
+      <DisplayName>Invalid for Ride</DisplayName>
       <Enum>BOOL_YESNO_TYPE</Enum>
       <Description>If this item is YES, the action button will not appear when riding and no judgment will be made.</Description>
       <EditFlags>None</EditFlags>
@@ -149,7 +149,7 @@
       <SortID>1250</SortID>
     </Field>
     <Field Def="u8 isGrayoutForRide:1">
-      <DisplayName>Is it gray out when riding?</DisplayName>
+      <DisplayName>Greyout for Ride</DisplayName>
       <Enum>BOOL_YESNO_TYPE</Enum>
       <Description>If this item is YES, the action button will be grayed out when riding and no judgment will be made.</Description>
       <EditFlags>None</EditFlags>
@@ -157,7 +157,7 @@
       <SortID>1260</SortID>
     </Field>
     <Field Def="u8 isInvalidForCrouching:1">
-      <DisplayName>Is it invalid when crouching?</DisplayName>
+      <DisplayName>Invalid for Crouching</DisplayName>
       <Enum>BOOL_YESNO_TYPE</Enum>
       <Description>If this item is YES, the action button will not appear when crouching, and no judgment will be made.</Description>
       <EditFlags>None</EditFlags>
@@ -165,7 +165,7 @@
       <SortID>1300</SortID>
     </Field>
     <Field Def="u8 isGrayoutForCrouching:1">
-      <DisplayName>Is it gray out when crouching?</DisplayName>
+      <DisplayName>Greyout for Crouching</DisplayName>
       <Enum>BOOL_YESNO_TYPE</Enum>
       <Description>If this item is YES, the action button will be grayed out when crouching and no judgment will be made.</Description>
       <EditFlags>None</EditFlags>
@@ -185,7 +185,7 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="u32 invalidFlag">
-      <DisplayName>Invalid flag</DisplayName>
+      <DisplayName>Invalid Flag</DisplayName>
       <Description>If this flag is ON, the action button will not appear and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -193,7 +193,7 @@
       <SortID>1100</SortID>
     </Field>
     <Field Def="u32 grayoutFlag">
-      <DisplayName>Gray out flag</DisplayName>
+      <DisplayName>Grayout Flag</DisplayName>
       <Description>If this flag is ON, the action button will be grayed out and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -201,7 +201,7 @@
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 overrideActionButtonIdForRide = -1">
-      <DisplayName>Replacement action button ID when riding</DisplayName>
+      <DisplayName>Override Button ID for Ride</DisplayName>
       <Description>Replace with this action button ID parameter while riding (-1: No replacement)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -209,7 +209,7 @@
       <SortID>1270</SortID>
     </Field>
     <Field Def="f32 execInvalidTime">
-      <DisplayName>Invalid time after execution</DisplayName>
+      <DisplayName>Execution Invalid Time</DisplayName>
       <Description>Invalid time after execution (-infinite by value)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>

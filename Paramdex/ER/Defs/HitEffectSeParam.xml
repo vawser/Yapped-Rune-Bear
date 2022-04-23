@@ -7,945 +7,945 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 Iron_Slash_S">
-      <DisplayName>Iron: Slash: Small</DisplayName>
+      <DisplayName>Iron - Slash: Small</DisplayName>
       <Description>Iron: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 Iron_Slash_L">
-      <DisplayName>Iron: Slash: Large</DisplayName>
+      <DisplayName>Iron - Slash: Large</DisplayName>
       <Description>Iron: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>101</SortID>
     </Field>
     <Field Def="s32 Iron_Slash_LL">
-      <DisplayName>Iron: Slash: Oversized</DisplayName>
+      <DisplayName>Iron - Slash: Giant</DisplayName>
       <Description>Iron: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>102</SortID>
     </Field>
     <Field Def="s32 Iron_Thrust_S">
-      <DisplayName>Iron: piercing: small</DisplayName>
+      <DisplayName>Iron - Thrust: Small</DisplayName>
       <Description>Iron: piercing: small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>120</SortID>
     </Field>
     <Field Def="s32 Iron_Thrust_L">
-      <DisplayName>Made of iron: piercing: large</DisplayName>
+      <DisplayName>Iron - Thrust: Large</DisplayName>
       <Description>Made of iron: piercing: large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>121</SortID>
     </Field>
     <Field Def="s32 Iron_Thrust_LL">
-      <DisplayName>Iron: piercing: oversized</DisplayName>
+       <DisplayName>Iron - Thrust: Giant</DisplayName>
       <Description>Iron: piercing: oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>122</SortID>
     </Field>
     <Field Def="s32 Iron_Blow_S">
-      <DisplayName>Iron: Batter: Small</DisplayName>
+      <DisplayName>Iron - Strike: Small</DisplayName>
       <Description>Iron: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="s32 Iron_Blow_L">
-      <DisplayName>Iron: Batter: Large</DisplayName>
+      <DisplayName>Iron - Strike: Large</DisplayName>
       <Description>Iron: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>111</SortID>
     </Field>
     <Field Def="s32 Iron_Blow_LL">
-      <DisplayName>Iron: Batter: Oversized</DisplayName>
+      <DisplayName>Iron - Strike: Giant</DisplayName>
       <Description>Iron: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>112</SortID>
     </Field>
     <Field Def="s32 Fire_Slash_S">
-      <DisplayName>Flame: Slash: Small</DisplayName>
+      <DisplayName>Fire - Slash: Small</DisplayName>
       <Description>Flame: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 Fire_Slash_L">
-      <DisplayName>Flame: Slash: Large</DisplayName>
+      <DisplayName>Fire - Slash: Large</DisplayName>
       <Description>Flame: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>201</SortID>
     </Field>
     <Field Def="s32 Fire_Slash_LL">
-      <DisplayName>Flame: Slash: Oversized</DisplayName>
+      <DisplayName>Fire - Slash: Giant</DisplayName>
       <Description>Flame: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>202</SortID>
     </Field>
     <Field Def="s32 Fire_Thrust_S">
-      <DisplayName>Flame: Piercing: Small</DisplayName>
+      <DisplayName>Fire - Thrust: Small</DisplayName>
       <Description>Flame: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>220</SortID>
     </Field>
     <Field Def="s32 Fire_Thrust_L">
-      <DisplayName>Flame: Piercing: Large</DisplayName>
+      <DisplayName>Fire - Thrust: Large</DisplayName>
       <Description>Flame: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>221</SortID>
     </Field>
     <Field Def="s32 Fire_Thrust_LL">
-      <DisplayName>Flame: Piercing: Oversized</DisplayName>
+      <DisplayName>Fire - Thrust: Giant</DisplayName>
       <Description>Flame: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>222</SortID>
     </Field>
     <Field Def="s32 Fire_Blow_S">
-      <DisplayName>Flame: Batter: Small</DisplayName>
+      <DisplayName>Fire - Strike: Small</DisplayName>
       <Description>Flame: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>210</SortID>
     </Field>
     <Field Def="s32 Fire_Blow_L">
-      <DisplayName>Flame: Batter: Large</DisplayName>
+      <DisplayName>Fire - Strike: Large</DisplayName>
       <Description>Flame: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>211</SortID>
     </Field>
     <Field Def="s32 Fire_Blow_LL">
-      <DisplayName>Flame: Batter: Oversized</DisplayName>
+      <DisplayName>Fire - Strike: Giant</DisplayName>
       <Description>Flame: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>212</SortID>
     </Field>
     <Field Def="s32 Wood_Slash_S">
-      <DisplayName>Wooden: Slash: Small</DisplayName>
+      <DisplayName>Wood - Slash: Small</DisplayName>
       <Description>Wooden: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="s32 Wood_Slash_L">
-      <DisplayName>Wooden: Slash: Large</DisplayName>
+      <DisplayName>Wood - Slash: Large</DisplayName>
       <Description>Wooden: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>301</SortID>
     </Field>
     <Field Def="s32 Wood_Slash_LL">
-      <DisplayName>Wooden: Slash: Oversized</DisplayName>
+      <DisplayName>Wood - Slash: Giant</DisplayName>
       <Description>Wooden: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>302</SortID>
     </Field>
     <Field Def="s32 Wood_Thrust_S">
-      <DisplayName>Wooden: piercing: small</DisplayName>
+      <DisplayName>Wood - Thrust: Small</DisplayName>
       <Description>Wooden: piercing: small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>320</SortID>
     </Field>
     <Field Def="s32 Wood_Thrust_L">
-      <DisplayName>Wooden: piercing: large</DisplayName>
+      <DisplayName>Wood - Thrust: Large</DisplayName>
       <Description>Wooden: piercing: large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>321</SortID>
     </Field>
     <Field Def="s32 Wood_Thrust_LL">
-      <DisplayName>Wooden: piercing: oversized</DisplayName>
+      <DisplayName>Wood - Thrust: Giant</DisplayName>
       <Description>Wooden: piercing: oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>322</SortID>
     </Field>
     <Field Def="s32 Wood_Blow_S">
-      <DisplayName>Wooden: Batter: Small</DisplayName>
+      <DisplayName>Wood - Strike: Small</DisplayName>
       <Description>Wooden: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>310</SortID>
     </Field>
     <Field Def="s32 Wood_Blow_L">
-      <DisplayName>Wooden: Batter: Large</DisplayName>
+      <DisplayName>Wood - Strike: Large</DisplayName>
       <Description>Wooden: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>311</SortID>
     </Field>
     <Field Def="s32 Wood_Blow_LL">
-      <DisplayName>Wooden: Batter: Oversized</DisplayName>
+      <DisplayName>Wood - Strike: Giant</DisplayName>
       <Description>Wooden: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>312</SortID>
     </Field>
     <Field Def="s32 Body_Slash_S">
-      <DisplayName>Meat: Slash: Small</DisplayName>
+      <DisplayName>Flesh - Slash: Small</DisplayName>
       <Description>Meat: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="s32 Body_Slash_L">
-      <DisplayName>Meat: Slash: Large</DisplayName>
+      <DisplayName>Flesh - Slash: Large</DisplayName>
       <Description>Meat: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>401</SortID>
     </Field>
     <Field Def="s32 Body_Slash_LL">
-      <DisplayName>Meat: Slash: Oversized</DisplayName>
+      <DisplayName>Flesh - Slash: Giant</DisplayName>
       <Description>Meat: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>402</SortID>
     </Field>
     <Field Def="s32 Body_Thrust_S">
-      <DisplayName>Meat: Stab: Small</DisplayName>
+      <DisplayName>Flesh - Thrust: Small</DisplayName>
       <Description>Meat: Stab: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>420</SortID>
     </Field>
     <Field Def="s32 Body_Thrust_L">
-      <DisplayName>Meat: Stab: Large</DisplayName>
+      <DisplayName>Flesh - Thrust: Large</DisplayName>
       <Description>Meat: Stab: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>421</SortID>
     </Field>
     <Field Def="s32 Body_Thrust_LL">
-      <DisplayName>Meat: Stab: Oversized</DisplayName>
+      <DisplayName>Flesh - Thrust: Giant</DisplayName>
       <Description>Meat: Stab: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>422</SortID>
     </Field>
     <Field Def="s32 Body_Blow_S">
-      <DisplayName>Meat: Batter: Small</DisplayName>
+      <DisplayName>Flesh - Strike: Small</DisplayName>
       <Description>Meat: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>410</SortID>
     </Field>
     <Field Def="s32 Body_Blow_L">
-      <DisplayName>Meat: Batter: Large</DisplayName>
+      <DisplayName>Flesh - Strike: Large</DisplayName>
       <Description>Meat: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>411</SortID>
     </Field>
     <Field Def="s32 Body_Blow_LL">
-      <DisplayName>Meat: Batter: Oversized</DisplayName>
+      <DisplayName>Flesh - Strike: Giant</DisplayName>
       <Description>Meat: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>412</SortID>
     </Field>
     <Field Def="s32 Eclipse_Slash_S">
-      <DisplayName>Corrosion: Slash: Small</DisplayName>
+      <DisplayName>Corrosion - Slash: Small</DisplayName>
       <Description>Corrosion: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s32 Eclipse_Slash_L">
-      <DisplayName>Eating: Slashing: Large</DisplayName>
+      <DisplayName>Corrosion - Slash: Large</DisplayName>
       <Description>Eating: Slashing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>501</SortID>
     </Field>
     <Field Def="s32 Eclipse_Slash_LL">
-      <DisplayName>Eating: Slashing: Oversized</DisplayName>
+      <DisplayName>Corrosion - Slash: Giant</DisplayName>
       <Description>Eating: Slashing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>502</SortID>
     </Field>
     <Field Def="s32 Eclipse_Thrust_S">
-      <DisplayName>Corrosion: piercing: small</DisplayName>
+      <DisplayName>Corrosion - Thrust: Small</DisplayName>
       <Description>Corrosion: piercing: small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>520</SortID>
     </Field>
     <Field Def="s32 Eclipse_Thrust_L">
-      <DisplayName>Corrosion: Piercing: Large</DisplayName>
+      <DisplayName>Corrosion - Thrust: Large</DisplayName>
       <Description>Corrosion: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>521</SortID>
     </Field>
     <Field Def="s32 Eclipse_Thrust_LL">
-      <DisplayName>Corrosion: piercing: oversized</DisplayName>
+      <DisplayName>Corrosion - Thrust: Giant</DisplayName>
       <Description>Corrosion: piercing: oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>522</SortID>
     </Field>
     <Field Def="s32 Eclipse_Blow_S">
-      <DisplayName>Corrosion: Batter: Small</DisplayName>
+      <DisplayName>Corrosion - Strike: Small</DisplayName>
       <Description>Corrosion: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>510</SortID>
     </Field>
     <Field Def="s32 Eclipse_Blow_L">
-      <DisplayName>Corrosion: Batter: Large</DisplayName>
+      <DisplayName>Corrosion - Strike: Large</DisplayName>
       <Description>Corrosion: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>511</SortID>
     </Field>
     <Field Def="s32 Eclipse_Blow_LL">
-      <DisplayName>Corrosion: Batter: Oversized</DisplayName>
+      <DisplayName>Corrosion - Strike: Giant</DisplayName>
       <Description>Corrosion: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>512</SortID>
     </Field>
     <Field Def="s32 Energy_Slash_S">
-      <DisplayName>Energy: Slash: Small</DisplayName>
+      <DisplayName>Energy - Slash: Small</DisplayName>
       <Description>Energy: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s32 Energy_Slash_L">
-      <DisplayName>Energy: Slash: Large</DisplayName>
+      <DisplayName>Energy - Slash: Large</DisplayName>
       <Description>Energy: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>601</SortID>
     </Field>
     <Field Def="s32 Energy_Slash_LL">
-      <DisplayName>Energy: Slash: Oversized</DisplayName>
+      <DisplayName>Energy - Slash: Giant</DisplayName>
       <Description>Energy: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>602</SortID>
     </Field>
     <Field Def="s32 Energy_Thrust_S">
-      <DisplayName>Energy: Puncture: Small</DisplayName>
+      <DisplayName>Energy - Thrust: Small</DisplayName>
       <Description>Energy: Puncture: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>620</SortID>
     </Field>
     <Field Def="s32 Energy_Thrust_L">
-      <DisplayName>Energy: Puncture: Large</DisplayName>
+      <DisplayName>Energy - Thrust: Large</DisplayName>
       <Description>Energy: Puncture: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>621</SortID>
     </Field>
     <Field Def="s32 Energy_Thrust_LL">
-      <DisplayName>Energy: Puncture: Oversized</DisplayName>
+      <DisplayName>Energy - Thrust: Giant</DisplayName>
       <Description>Energy: Puncture: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>622</SortID>
     </Field>
     <Field Def="s32 Energy_Blow_S">
-      <DisplayName>Energy: Batter: Small</DisplayName>
+      <DisplayName>Energy - Strike: Small</DisplayName>
       <Description>Energy: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>610</SortID>
     </Field>
     <Field Def="s32 Energy_Blow_L">
-      <DisplayName>Energy: Batter: Large</DisplayName>
+      <DisplayName>Energy - Strike: Large</DisplayName>
       <Description>Energy: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>611</SortID>
     </Field>
     <Field Def="s32 Energy_Blow_LL">
-      <DisplayName>Energy: Batter: Oversized</DisplayName>
+      <DisplayName>Energy - Strike: Giant</DisplayName>
       <Description>Energy: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>612</SortID>
     </Field>
     <Field Def="s32 None_Slash_S">
-      <DisplayName>None: Slash: Small</DisplayName>
+      <DisplayName>None - Slash: Small</DisplayName>
       <Description>None: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="s32 None_Slash_L">
-      <DisplayName>None: Slash: Large</DisplayName>
+      <DisplayName>None - Slash: Large</DisplayName>
       <Description>None: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>701</SortID>
     </Field>
     <Field Def="s32 None_Slash_LL">
-      <DisplayName>None: Slash: Oversized</DisplayName>
+      <DisplayName>None - Slash: Giant</DisplayName>
       <Description>None: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>702</SortID>
     </Field>
     <Field Def="s32 None_Thrust_S">
-      <DisplayName>None: Piercing: Small</DisplayName>
+      <DisplayName>None - Thrust: Small</DisplayName>
       <Description>None: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>720</SortID>
     </Field>
     <Field Def="s32 None_Thrust_L">
-      <DisplayName>None: Piercing: Large</DisplayName>
+      <DisplayName>None - Thrust: Large</DisplayName>
       <Description>None: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>721</SortID>
     </Field>
     <Field Def="s32 None_Thrust_LL">
-      <DisplayName>None: Piercing: Oversized</DisplayName>
+      <DisplayName>None - Thrust: Giant</DisplayName>
       <Description>None: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>722</SortID>
     </Field>
     <Field Def="s32 None_Blow_S">
-      <DisplayName>None: Batter: Small</DisplayName>
+      <DisplayName>None - Strike: Small</DisplayName>
       <Description>None: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>710</SortID>
     </Field>
     <Field Def="s32 None_Blow_L">
-      <DisplayName>None: Batter: Large</DisplayName>
+      <DisplayName>None - Strike: Large</DisplayName>
       <Description>None: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>711</SortID>
     </Field>
     <Field Def="s32 None_Blow_LL">
-      <DisplayName>None: Batter: Oversized</DisplayName>
+      <DisplayName>None - Strike: Giant</DisplayName>
       <Description>None: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>712</SortID>
     </Field>
     <Field Def="s32 Dmy1_Slash_S">
-      <DisplayName>Dmy1: Slash: Small</DisplayName>
+      <DisplayName>Dummy 1 - Slash: Small</DisplayName>
       <Description>Dmy1: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="s32 Dmy1_Slash_L">
-      <DisplayName>Dmy1: Slash: Large</DisplayName>
+      <DisplayName>Dummy 1 - Slash: Large</DisplayName>
       <Description>Dmy1: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>801</SortID>
     </Field>
     <Field Def="s32 Dmy1_Slash_LL">
-      <DisplayName>Dmy1: Slash: Oversized</DisplayName>
+      <DisplayName>Dummy 1 - Slash: Giant</DisplayName>
       <Description>Dmy1: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>802</SortID>
     </Field>
     <Field Def="s32 Dmy1_Thrust_S">
-      <DisplayName>Dmy1: Stab: Small</DisplayName>
+      <DisplayName>Dummy 1 - Thrust: Small</DisplayName>
       <Description>Dmy1: Stab: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>820</SortID>
     </Field>
     <Field Def="s32 Dmy1_Thrust_L">
-      <DisplayName>Dmy1: Stab: Large</DisplayName>
+      <DisplayName>Dummy 1 - Thrust: Large</DisplayName>
       <Description>Dmy1: Stab: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>821</SortID>
     </Field>
     <Field Def="s32 Dmy1_Thrust_LL">
-      <DisplayName>Dmy1: Stab: Oversized</DisplayName>
+      <DisplayName>Dummy 1 - Thrust: Giant</DisplayName>
       <Description>Dmy1: Stab: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>822</SortID>
     </Field>
     <Field Def="s32 Dmy1_Blow_S">
-      <DisplayName>Dmy1: Batter: Small</DisplayName>
+      <DisplayName>Dummy 1 - Strike: Small</DisplayName>
       <Description>Dmy1: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>810</SortID>
     </Field>
     <Field Def="s32 Dmy1_Blow_L">
-      <DisplayName>Dmy1: Batter: Large</DisplayName>
+      <DisplayName>Dummy 1 - Strike: Large</DisplayName>
       <Description>Dmy1: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>811</SortID>
     </Field>
     <Field Def="s32 Dmy1_Blow_LL">
-      <DisplayName>Dmy1: Batter: Oversized</DisplayName>
+      <DisplayName>Dummy 1 - Strike: Giant</DisplayName>
       <Description>Dmy1: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>812</SortID>
     </Field>
     <Field Def="s32 Dmy2_Slash_S">
-      <DisplayName>Dmy2: Slash: Small</DisplayName>
+      <DisplayName>Dummy 2 - Slash: Small</DisplayName>
       <Description>Dmy2: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="s32 Dmy2_Slash_L">
-      <DisplayName>Dmy2: Slash: Large</DisplayName>
+      <DisplayName>Dummy 2 - Slash: Large</DisplayName>
       <Description>Dmy2: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>901</SortID>
     </Field>
     <Field Def="s32 Dmy2_Slash_LL">
-      <DisplayName>Dmy2: Slash: Oversized</DisplayName>
+      <DisplayName>Dummy 2 - Slash: Giant</DisplayName>
       <Description>Dmy2: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>902</SortID>
     </Field>
     <Field Def="s32 Dmy2_Thrust_S">
-      <DisplayName>Dmy2: Piercing: Small</DisplayName>
+      <DisplayName>Dummy 2 - Thrust: Small</DisplayName>
       <Description>Dmy2: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>920</SortID>
     </Field>
     <Field Def="s32 Dmy2_Thrust_L">
-      <DisplayName>Dmy2: Piercing: Large</DisplayName>
+      <DisplayName>Dummy 2 - Thrust: Large</DisplayName>
       <Description>Dmy2: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>921</SortID>
     </Field>
     <Field Def="s32 Dmy2_Thrust_LL">
-      <DisplayName>Dmy2: Piercing: Oversized</DisplayName>
+      <DisplayName>Dummy 2 - Thrust: Giant</DisplayName>
       <Description>Dmy2: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>922</SortID>
     </Field>
     <Field Def="s32 Dmy2_Blow_S">
-      <DisplayName>Dmy2: Batter: Small</DisplayName>
+      <DisplayName>Dummy 2 - Strike: Small</DisplayName>
       <Description>Dmy2: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>910</SortID>
     </Field>
     <Field Def="s32 Dmy2_Blow_L">
-      <DisplayName>Dmy2: Batter: Large</DisplayName>
+      <DisplayName>Dummy 2 - Strike: Large</DisplayName>
       <Description>Dmy2: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>911</SortID>
     </Field>
     <Field Def="s32 Dmy2_Blow_LL">
-      <DisplayName>Dmy2: Batter: Oversized</DisplayName>
+      <DisplayName>Dummy 2 - Strike: Giant</DisplayName>
       <Description>Dmy2: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>912</SortID>
     </Field>
     <Field Def="s32 Dmy3_Slash_S">
-      <DisplayName>Dmy3: Slash: Small</DisplayName>
+      <DisplayName>Dummy 3 - Slash: Small</DisplayName>
       <Description>Dmy3: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="s32 Dmy3_Slash_L">
-      <DisplayName>Dmy3: Slash: Large</DisplayName>
+      <DisplayName>Dummy 3 - Slash: Large</DisplayName>
       <Description>Dmy3: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1001</SortID>
     </Field>
     <Field Def="s32 Dmy3_Slash_LL">
-      <DisplayName>Dmy3: Slash: Oversized</DisplayName>
+      <DisplayName>Dummy 3 - Slash: Giant</DisplayName>
       <Description>Dmy3: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1002</SortID>
     </Field>
     <Field Def="s32 Dmy3_Thrust_S">
-      <DisplayName>Dmy3: Piercing: Small</DisplayName>
+      <DisplayName>Dummy 3 - Thrust: Small</DisplayName>
       <Description>Dmy3: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1020</SortID>
     </Field>
     <Field Def="s32 Dmy3_Thrust_L">
-      <DisplayName>Dmy3: Piercing: Large</DisplayName>
+      <DisplayName>Dummy 3 - Thrust: Large</DisplayName>
       <Description>Dmy3: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1021</SortID>
     </Field>
     <Field Def="s32 Dmy3_Thrust_LL">
-      <DisplayName>Dmy3: Piercing: Oversized</DisplayName>
+      <DisplayName>Dummy 3 - Thrust: Giant</DisplayName>
       <Description>Dmy3: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1022</SortID>
     </Field>
     <Field Def="s32 Dmy3_Blow_S">
-      <DisplayName>Dmy3: Batter: Small</DisplayName>
+      <DisplayName>Dummy 3 - Strike: Small</DisplayName>
       <Description>Dmy3: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1010</SortID>
     </Field>
     <Field Def="s32 Dmy3_Blow_L">
-      <DisplayName>Dmy3: Batter: Large</DisplayName>
+      <DisplayName>Dummy 3 - Strike: Large</DisplayName>
       <Description>Dmy3: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1011</SortID>
     </Field>
     <Field Def="s32 Dmy3_Blow_LL">
-      <DisplayName>Dmy3: Batter: Oversized</DisplayName>
+      <DisplayName>Dummy 3 - Strike: Giant</DisplayName>
       <Description>Dmy3: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1012</SortID>
     </Field>
     <Field Def="s32 Maggot_Slash_S">
-      <DisplayName>Uji: Slash: Small</DisplayName>
+      <DisplayName>Maggot - Slash: Small</DisplayName>
       <Description>Uji: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="s32 Maggot_Slash_L">
-      <DisplayName>Uji: Slash: Large</DisplayName>
+      <DisplayName>Maggot - Slash: Large</DisplayName>
       <Description>Uji: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1101</SortID>
     </Field>
     <Field Def="s32 Maggot_Slash_LL">
-      <DisplayName>Uji: Slash: Oversized</DisplayName>
+      <DisplayName>Maggot - Slash: Giant</DisplayName>
       <Description>Uji: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1102</SortID>
     </Field>
     <Field Def="s32 Maggot_Thrust_S">
-      <DisplayName>Uji: Stab: Small</DisplayName>
+      <DisplayName>Maggot - Thrust: Small</DisplayName>
       <Description>Uji: Stab: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1120</SortID>
     </Field>
     <Field Def="s32 Maggot_Thrust_L">
-      <DisplayName>Uji: Stab: Large</DisplayName>
+      <DisplayName>Maggot - Thrust: Large</DisplayName>
       <Description>Uji: Stab: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1121</SortID>
     </Field>
     <Field Def="s32 Maggot_Thrust_LL">
-      <DisplayName>Uji: Stab: Oversized</DisplayName>
+      <DisplayName>Maggot - Thrust: Giant</DisplayName>
       <Description>Uji: Stab: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1122</SortID>
     </Field>
     <Field Def="s32 Maggot_Blow_S">
-      <DisplayName>Uji: Batter: Small</DisplayName>
+      <DisplayName>Maggot - Strike: Small</DisplayName>
       <Description>Uji: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1110</SortID>
     </Field>
     <Field Def="s32 Maggot_Blow_L">
-      <DisplayName>Uji: Batter: Large</DisplayName>
+      <DisplayName>Maggot - Strike: Large</DisplayName>
       <Description>Uji: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1111</SortID>
     </Field>
     <Field Def="s32 Maggot_Blow_LL">
-      <DisplayName>Uji: Batter: Oversized</DisplayName>
+      <DisplayName>Maggot - Strike: Giant</DisplayName>
       <Description>Uji: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1112</SortID>
     </Field>
     <Field Def="s32 Wax_Slash_S">
-      <DisplayName>Wax: Slash: Small</DisplayName>
+      <DisplayName>Wax - Slash: Small</DisplayName>
       <Description>Wax: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 Wax_Slash_L">
-      <DisplayName>Wax: Slash: Large</DisplayName>
+      <DisplayName>Wax - Slash: Large</DisplayName>
       <Description>Wax: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1201</SortID>
     </Field>
     <Field Def="s32 Wax_Slash_LL">
-      <DisplayName>Wax: Slash: Oversized</DisplayName>
+      <DisplayName>Wax - Slash: Giant</DisplayName>
       <Description>Wax: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1202</SortID>
     </Field>
     <Field Def="s32 Wax_Thrust_S">
-      <DisplayName>Wax: piercing: small</DisplayName>
+      <DisplayName>Wax - Thrust: Small</DisplayName>
       <Description>Wax: piercing: small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1220</SortID>
     </Field>
     <Field Def="s32 Wax_Thrust_L">
-      <DisplayName>Wax: piercing: large</DisplayName>
+      <DisplayName>Wax - Thrust: Large</DisplayName>
       <Description>Wax: piercing: large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1221</SortID>
     </Field>
     <Field Def="s32 Wax_Thrust_LL">
-      <DisplayName>Wax: piercing: oversized</DisplayName>
+      <DisplayName>Wax - Thrust: Giant</DisplayName>
       <Description>Wax: piercing: oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1222</SortID>
     </Field>
     <Field Def="s32 Wax_Blow_S">
-      <DisplayName>Wax: Batter: Small</DisplayName>
+      <DisplayName>Wax - Strike: Small</DisplayName>
       <Description>Wax: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1210</SortID>
     </Field>
     <Field Def="s32 Wax_Blow_L">
-      <DisplayName>Wax: Batter: Large</DisplayName>
+      <DisplayName>Wax - Strike: Large</DisplayName>
       <Description>Wax: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1211</SortID>
     </Field>
     <Field Def="s32 Wax_Blow_LL">
-      <DisplayName>Wax: Batter: Oversized</DisplayName>
+      <DisplayName>Wax - Strike: Giant</DisplayName>
       <Description>Wax: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1212</SortID>
     </Field>
     <Field Def="s32 FireFlame_Slash_S">
-      <DisplayName>Burning: Slashing: Small</DisplayName>
+      <DisplayName>Burning - Slash: Small</DisplayName>
       <Description>Burning: Slashing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 FireFlame_Slash_L">
-      <DisplayName>Burning: Slashing: Large</DisplayName>
+      <DisplayName>Burning - Slash: Large</DisplayName>
       <Description>Burning: Slashing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1301</SortID>
     </Field>
     <Field Def="s32 FireFlame_Slash_LL">
-      <DisplayName>Burning: Slashing: Oversized</DisplayName>
+      <DisplayName>Burning - Slash: Giant</DisplayName>
       <Description>Burning: Slashing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1302</SortID>
     </Field>
     <Field Def="s32 FireFlame_Thrust_S">
-      <DisplayName>Burning: Piercing: Small</DisplayName>
+      <DisplayName>Burning - Thrust: Small</DisplayName>
       <Description>Burning: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1320</SortID>
     </Field>
     <Field Def="s32 FireFlame_Thrust_L">
-      <DisplayName>Burning: Piercing: Large</DisplayName>
+      <DisplayName>Burning - Thrust: Large</DisplayName>
       <Description>Burning: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1321</SortID>
     </Field>
     <Field Def="s32 FireFlame_Thrust_LL">
-      <DisplayName>Burning: Piercing: Oversized</DisplayName>
+      <DisplayName>Burning - Thrust: Giant</DisplayName>
       <Description>Burning: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1322</SortID>
     </Field>
     <Field Def="s32 FireFlame_Blow_S">
-      <DisplayName>On fire: Batter: Small</DisplayName>
+      <DisplayName>Burning - Strike: Small</DisplayName>
       <Description>On fire: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1310</SortID>
     </Field>
     <Field Def="s32 FireFlame_Blow_L">
-      <DisplayName>On fire: Batter: Large</DisplayName>
+      <DisplayName>Burning - Strike: Large</DisplayName>
       <Description>On fire: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1311</SortID>
     </Field>
     <Field Def="s32 FireFlame_Blow_LL">
-      <DisplayName>On fire: Batter: Oversized</DisplayName>
+      <DisplayName>Burning - Strike: Giant</DisplayName>
       <Description>On fire: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1312</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Slash_S">
-      <DisplayName>Corrosion: Gas: Slash: Small</DisplayName>
+      <DisplayName>Corrosion Gas - Slash: Small</DisplayName>
       <Description>Corrosion: Gas: Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Slash_L">
-      <DisplayName>Corrosion: Gas: Slash: Large</DisplayName>
+      <DisplayName>Corrosion Gas - Slash: Large</DisplayName>
       <Description>Corrosion: Gas: Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1501</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Slash_LL">
-      <DisplayName>Corrosion: Gas: Slash: Oversized</DisplayName>
+      <DisplayName>Corrosion Gas - Slash: Giant</DisplayName>
       <Description>Corrosion: Gas: Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1502</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Thrust_S">
-      <DisplayName>Corrosion: Gas: Piercing: Small</DisplayName>
+      <DisplayName>Corrosion Gas - Thrust: Small</DisplayName>
       <Description>Corrosion: Gas: Piercing: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1520</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Thrust_L">
-      <DisplayName>Corrosion: Gas: Piercing: Large</DisplayName>
+      <DisplayName>Corrosion Gas - Thrust: Large</DisplayName>
       <Description>Corrosion: Gas: Piercing: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1521</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Thrust_LL">
-      <DisplayName>Corrosion: Gas: Piercing: Oversized</DisplayName>
+      <DisplayName>Corrosion Gas - Thrust: Giant</DisplayName>
       <Description>Corrosion: Gas: Piercing: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1522</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Blow_S">
-      <DisplayName>Corrosion: Gas: Batter: Small</DisplayName>
+      <DisplayName>Corrosion Gas - Strike: Small</DisplayName>
       <Description>Corrosion: Gas: Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1510</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Blow_L">
-      <DisplayName>Corrosion: Gas: Batter: Large</DisplayName>
+      <DisplayName>Corrosion Gas - Strike: Large</DisplayName>
       <Description>Corrosion: Gas: Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1511</SortID>
     </Field>
     <Field Def="s32 EclipseGas_Blow_LL">
-      <DisplayName>Corrosion: Gas: Batter: Oversized</DisplayName>
+      <DisplayName>Corrosion Gas - Strike: Giant</DisplayName>
       <Description>Corrosion: Gas: Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1512</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Slash_S">
-      <DisplayName>Energy (strong): Slash: Small</DisplayName>
+      <DisplayName>Strong Energy - Slash: Small</DisplayName>
       <Description>Energy (strong): Slash: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Slash_L">
-      <DisplayName>Energy (strong): Slash: Large</DisplayName>
+      <DisplayName>Strong Energy - Slash: Large</DisplayName>
       <Description>Energy (strong): Slash: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1601</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Slash_LL">
-      <DisplayName>Energy (strong): Slash: Oversized</DisplayName>
+      <DisplayName>Strong Energy - Slash: Giant</DisplayName>
       <Description>Energy (strong): Slash: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1602</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Thrust_S">
-      <DisplayName>Energy (strong): piercing: small</DisplayName>
+      <DisplayName>Strong Energy - Thrust: Small</DisplayName>
       <Description>Energy (strong): piercing: small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1620</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Thrust_L">
-      <DisplayName>Energy (strong): piercing: large</DisplayName>
+      <DisplayName>Strong Energy - Thrust: Large</DisplayName>
       <Description>Energy (strong): piercing: large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1621</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Thrust_LL">
-      <DisplayName>Energy (strong): piercing: oversized</DisplayName>
+      <DisplayName>Strong Energy - Thrust: Giant</DisplayName>
       <Description>Energy (strong): piercing: oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1622</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Blow_S">
-      <DisplayName>Energy (strong): Batter: Small</DisplayName>
+      <DisplayName>Strong Energy - Strike: Small</DisplayName>
       <Description>Energy (strong): Batter: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1610</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Blow_L">
-      <DisplayName>Energy (strong): Batter: Large</DisplayName>
+      <DisplayName>Strong Energy - Strike: Large</DisplayName>
       <Description>Energy (strong): Batter: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1611</SortID>
     </Field>
     <Field Def="s32 EnergyStrong_Blow_LL">
-      <DisplayName>Energy (strong): Batter: Oversized</DisplayName>
+      <DisplayName>Strong Energy - Strike: Giant</DisplayName>
       <Description>Energy (strong): Batter: Oversized</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>

@@ -28,15 +28,15 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="s32 Slash_Specific1">
-      <DisplayName>Slash: Designation 1</DisplayName>
-      <Description>Slash: Designation 1</Description>
+      <DisplayName>Slash: Specific 1</DisplayName>
+      <Description>Slash: Specific 1</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="s32 Slash_Specific2">
-      <DisplayName>Slash: Designation 2</DisplayName>
-      <Description>Slash: Designation 2</Description>
+      <DisplayName>Slash: Specific 2</DisplayName>
+      <Description>Slash: Specific 2</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5</SortID>
@@ -63,15 +63,15 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="s32 Blow_Specific1">
-      <DisplayName>Batter: Designation 1</DisplayName>
-      <Description>Batter: Designation 1</Description>
+      <DisplayName>Batter: Specific 1</DisplayName>
+      <Description>Batter: Specific 1</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>9</SortID>
     </Field>
     <Field Def="s32 Blow_Specific2">
-      <DisplayName>Batter: Designation 2</DisplayName>
-      <Description>Batter: Designation 2</Description>
+      <DisplayName>Batter: Specific 2</DisplayName>
+      <Description>Batter: Specific 2</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>10</SortID>
@@ -98,50 +98,50 @@
       <SortID>13</SortID>
     </Field>
     <Field Def="s32 Thrust_Specific1">
-      <DisplayName>Piercing: Designation 1</DisplayName>
-      <Description>Piercing: Designation 1</Description>
+      <DisplayName>Piercing: Specific 1</DisplayName>
+      <Description>Piercing: Specific 1</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>14</SortID>
     </Field>
     <Field Def="s32 Thrust_Specific2">
-      <DisplayName>Piercing: Designation 2</DisplayName>
-      <Description>Piercing: Designation 2</Description>
+      <DisplayName>Piercing: Specific 2</DisplayName>
+      <Description>Piercing: Specific 2</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>15</SortID>
     </Field>
     <Field Def="s32 Neutral_Normal">
-      <DisplayName>Non-attribute: standard</DisplayName>
-      <Description>Non-attribute: standard</Description>
+      <DisplayName>Neutral: Standard</DisplayName>
+      <Description>Neutral: standard</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>16</SortID>
     </Field>
     <Field Def="s32 Neutral_S">
-      <DisplayName>Non-attribute: small</DisplayName>
-      <Description>Non-attribute: small</Description>
+      <DisplayName>Neutral: Small</DisplayName>
+      <Description>Neutral: Small</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>17</SortID>
     </Field>
     <Field Def="s32 Neutral_L">
-      <DisplayName>Non-attribute: Large</DisplayName>
-      <Description>Non-attribute: Large</Description>
+      <DisplayName>Neutral: Large</DisplayName>
+      <Description>Neutral: Large</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>18</SortID>
     </Field>
     <Field Def="s32 Neutral_Specific1">
-      <DisplayName>Non-attribute: Designation 1</DisplayName>
-      <Description>Non-attribute: Designation 1</Description>
+      <DisplayName>Neutral: Specific 1</DisplayName>
+      <Description>Neutral: Specific 1</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>19</SortID>
     </Field>
     <Field Def="s32 Neutral_Specific2">
-      <DisplayName>Non-attribute: Designation 2</DisplayName>
-      <Description>Non-attribute: Designation 2</Description>
+      <DisplayName>Neutral: Specific 2</DisplayName>
+      <Description>Neutral: Specific 2</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>20</SortID>

@@ -13,6 +13,12 @@
       <Maximum>99999999</Maximum>
       <SortID>400</SortID>
       <UnkC8>販売品</UnkC8>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamGem</ParamRef3>
+      <ParamRef4>EquipParamGoods</ParamRef4>
+      <ParamRef5>EquipParamProtector</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 value = -1">
       <DisplayName>price</DisplayName>
@@ -28,6 +34,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>600</SortID>
+      <ParamRef1>EquipMtrlSetParam</ParamRef1>
     </Field>
     <Field Def="u32 eventFlag_forStock">
       <DisplayName>Quantity retention event flag</DisplayName>

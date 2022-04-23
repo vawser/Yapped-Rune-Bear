@@ -38,6 +38,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44000</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 nameId = -1">
       <DisplayName>NPC name ID</DisplayName>
@@ -108,6 +109,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>28000</SortID>
+      <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
     <Field Def="s32 itemLotId_map = -1">
       <DisplayName>Item lottery ID_for map</DisplayName>
@@ -115,6 +117,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>28001</SortID>
+      <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="f32 maxAnkleRollAngle = -1">
       <DisplayName>FootIK Ankle limit angle_roll</DisplayName>
@@ -171,6 +174,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>46000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID1 = -1">
       <DisplayName>Resident special effect 1</DisplayName>
@@ -178,6 +182,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>47000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID2 = -1">
       <DisplayName>Resident special effect 2</DisplayName>
@@ -185,6 +190,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>48000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID3 = -1">
       <DisplayName>Resident special effect 3</DisplayName>
@@ -192,6 +198,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>49000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID4 = -1">
       <DisplayName>Resident special effect 4</DisplayName>
@@ -199,6 +206,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID5 = -1">
       <DisplayName>Resident special effect 5</DisplayName>
@@ -206,6 +214,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50010</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID6 = -1">
       <DisplayName>Resident special effect 6</DisplayName>
@@ -213,6 +222,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50020</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID7 = -1">
       <DisplayName>Resident special effect 7</DisplayName>
@@ -220,6 +230,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50030</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 GameClearSpEffectID = -1">
       <DisplayName>Special effect ID for lap bonus</DisplayName>
@@ -227,6 +238,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>51000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 physGuardCutRate">
       <DisplayName>Physical attack cut rate [%]</DisplayName>
@@ -1382,6 +1394,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50040</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID9 = -1">
       <DisplayName>Resident special effect 9</DisplayName>
@@ -1389,6 +1402,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50050</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID10 = -1">
       <DisplayName>Resident special effect 10</DisplayName>
@@ -1396,6 +1410,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50060</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID11 = -1">
       <DisplayName>Resident special effects 11</DisplayName>
@@ -1403,6 +1418,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50070</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID12 = -1">
       <DisplayName>Resident special effect 12</DisplayName>
@@ -1410,6 +1426,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50080</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID13 = -1">
       <DisplayName>Resident special effect 13</DisplayName>
@@ -1417,6 +1434,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50090</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID14 = -1">
       <DisplayName>Resident special effect 14</DisplayName>
@@ -1424,6 +1442,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50100</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID15 = -1">
       <DisplayName>Resident special effects 15</DisplayName>
@@ -1431,6 +1450,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>50110</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 autoFootEffectDecalBaseId1 = -1">
       <DisplayName>Foot decal identifier 1</DisplayName>
@@ -1574,6 +1594,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44100</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomShaderId = -1">
       <DisplayName>Applicable shader ID</DisplayName>
@@ -1581,6 +1602,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4500</SortID>
+      <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 multiPlayCorrectionParamId = -1">
       <DisplayName>Multiplayer correction parameter ID</DisplayName>
@@ -1588,6 +1610,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>400000</SortID>
+      <ParamRef1>MultiPlayCorrectionParam</ParamRef1>
     </Field>
     <Field Def="f32 maxAnklePitchAngle = -1">
       <DisplayName>FootIK Ankle limit angle_pitch</DisplayName>
@@ -1622,6 +1645,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>10500</SortID>
+      <ParamRef1>LockCamParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID16 = -1">
       <DisplayName>Resident special effects 16</DisplayName>
@@ -1629,6 +1653,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50111</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID17 = -1">
       <DisplayName>Resident special effects 17</DisplayName>
@@ -1636,6 +1661,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50112</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID18 = -1">
       <DisplayName>Resident special effects 18</DisplayName>
@@ -1643,6 +1669,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50113</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID19 = -1">
       <DisplayName>Resident special effects 19</DisplayName>
@@ -1650,6 +1677,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50114</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID20 = -1">
       <DisplayName>Resident special effect 20</DisplayName>
@@ -1657,6 +1685,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50115</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID21 = -1">
       <DisplayName>Resident special effect 21</DisplayName>
@@ -1664,6 +1693,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50116</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID22 = -1">
       <DisplayName>Resident special effect 22</DisplayName>
@@ -1671,6 +1701,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50117</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID23 = -1">
       <DisplayName>Resident special effect 23</DisplayName>
@@ -1678,6 +1709,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50118</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID24 = -1">
       <DisplayName>Resident special effect 24</DisplayName>
@@ -1685,6 +1717,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50119</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID25 = -1">
       <DisplayName>Resident special effects 25</DisplayName>
@@ -1692,6 +1725,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50120</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID26 = -1">
       <DisplayName>Resident special effect 26</DisplayName>
@@ -1699,6 +1733,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50121</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID27 = -1">
       <DisplayName>Resident special effect 27</DisplayName>
@@ -1706,6 +1741,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50122</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID28 = -1">
       <DisplayName>Resident special effects 28</DisplayName>
@@ -1713,6 +1749,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50123</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID29 = -1">
       <DisplayName>Resident special effect 29</DisplayName>
@@ -1720,6 +1757,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50124</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID30 = -1">
       <DisplayName>Resident special effect 30</DisplayName>
@@ -1727,6 +1765,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50125</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID31 = -1">
       <DisplayName>Resident special effects 31</DisplayName>
@@ -1734,6 +1773,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>50126</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 disableLockOnAng">
       <DisplayName>Central angle of lockable area [deg]</DisplayName>
@@ -1812,6 +1852,7 @@
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>750000</SortID>
+      <ParamRef1>HPEstusFlaskRecoveryParam</ParamRef1>
     </Field>
     <Field Def="s32 roleNameId = -1">
       <DisplayName>Role name text ID</DisplayName>
@@ -2025,6 +2066,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>90000</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId01 = -1">
       <DisplayName>Resident Material Expansion Para ID1</DisplayName>
@@ -2032,6 +2074,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>90010</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId02 = -1">
       <DisplayName>Resident Material Expansion Para ID2</DisplayName>
@@ -2039,6 +2082,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>90020</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId03 = -1">
       <DisplayName>Resident Material Expansion Para ID3</DisplayName>
@@ -2046,6 +2090,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>90030</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId04 = -1">
       <DisplayName>Resident Material Expansion Para ID4</DisplayName>
@@ -2053,6 +2098,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>90040</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 sleepCollectorItemLotId_enemy = -1">
       <DisplayName>Item lottery ID_for enemies</DisplayName>
@@ -2060,6 +2106,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>29000</SortID>
+      <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
     <Field Def="s32 sleepCollectorItemLotId_map = -1">
       <DisplayName>Nemuri item lottery ID_for map</DisplayName>
@@ -2067,6 +2114,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>29001</SortID>
+      <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="f32 footIkErrorOnGain = 0.1">
       <DisplayName>FootIK Appearance height correction ON gain value</DisplayName>
@@ -2133,6 +2181,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44200</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_curse = -1">
       <DisplayName>Curse resistance correction rule ID</DisplayName>
@@ -2140,6 +2189,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44300</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_freeze = -1">
       <DisplayName>Cold resistance correction rule ID</DisplayName>
@@ -2147,6 +2197,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44400</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_sleep = -1">
       <DisplayName>Sleep tolerance correction rule ID</DisplayName>
@@ -2154,6 +2205,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44500</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_madness = -1">
       <DisplayName>Madness resistance correction rule ID</DisplayName>
@@ -2161,6 +2213,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>44600</SortID>
+      <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="u32 chrDeadTutorialFlagId">
       <DisplayName>Character death tutorial judgment flag ID</DisplayName>

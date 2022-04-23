@@ -162,6 +162,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7900</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectBehaviorId1 = -1">
       <DisplayName>Behavior SpEffect 2</DisplayName>
@@ -169,6 +170,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7910</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectBehaviorId2 = -1">
       <DisplayName>Behavior SpEffect 3</DisplayName>
@@ -176,6 +178,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7920</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 residentSpEffectId = -1">
       <DisplayName>Passive SpEffect 1</DisplayName>
@@ -183,6 +186,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>8000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 residentSpEffectId1 = -1">
       <DisplayName>Passive SpEffect 2</DisplayName>
@@ -190,6 +194,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>8100</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 residentSpEffectId2 = -1">
       <DisplayName>Passive SpEffect 3</DisplayName>
@@ -197,6 +202,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>8200</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 materialSetId = -1">
       <DisplayName>Reinforcement Material Set ID</DisplayName>
@@ -204,6 +210,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>8500</SortID>
+      <ParamRef1>materialSetId</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep = -1">
       <DisplayName>Origin Weapon +0</DisplayName>
@@ -218,6 +225,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep2 = -1">
       <DisplayName>Origin Weapon +2</DisplayName>
@@ -225,6 +233,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep3 = -1">
       <DisplayName>Origin Weapon +3</DisplayName>
@@ -232,6 +241,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep4 = -1">
       <DisplayName>Origin Weapon +4</DisplayName>
@@ -239,6 +249,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep5 = -1">
       <DisplayName>Origin Weapon +5</DisplayName>
@@ -246,6 +257,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep6 = -1">
       <DisplayName>Origin Weapon +6</DisplayName>
@@ -253,6 +265,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep7 = -1">
       <DisplayName>Origin Weapon +7</DisplayName>
@@ -260,6 +273,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep8 = -1">
       <DisplayName>Origin Weapon +8</DisplayName>
@@ -267,6 +281,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep9 = -1">
       <DisplayName>Origin Weapon +9</DisplayName>
@@ -274,6 +289,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep10 = -1">
       <DisplayName>Origin Weapon +10</DisplayName>
@@ -281,6 +297,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep11 = -1">
       <DisplayName>Origin Weapon +11</DisplayName>
@@ -288,6 +305,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep12 = -1">
       <DisplayName>Origin Weapon +12</DisplayName>
@@ -295,6 +313,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep13 = -1">
       <DisplayName>Origin Weapon +13</DisplayName>
@@ -302,6 +321,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep14 = -1">
       <DisplayName>Origin Weapon +14</DisplayName>
@@ -309,6 +329,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep15 = -1">
       <DisplayName>Origin Weapon +15</DisplayName>
@@ -316,6 +337,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="f32 weakA_DamageRate = 1">
       <DisplayName>Damage Multiplier %: Type A</DisplayName>
@@ -471,6 +493,7 @@
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>8300</SortID>
+      <ParamRef1>ReinforceParamWeapon</ParamRef1>
     </Field>
     <Field Def="s16 trophySGradeId = -1">
       <DisplayName>Achievement ID [1]</DisplayName>
@@ -552,6 +575,7 @@
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Correcting physical attack power by primary parameters Determines the type of graph</Description>
       <SortID>8400</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 spAttribute">
       <DisplayName>Speical Attribute</DisplayName>
@@ -911,7 +935,7 @@
       <SortID>1956</SortID>
     </Field>
     <Field Def="u8 showLogCondType:1 = 1">
-      <DisplayName>Show Log Condition Type</DisplayName>
+      <DisplayName>Item Acquisition Log Condition Type</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Whether to display in the item acquisition log when acquiring the item (not entered: ○)</Description>
       <Maximum>1</Maximum>
@@ -925,7 +949,7 @@
       <SortID>1550</SortID>
     </Field>
     <Field Def="u8 showDialogCondType:2 = 2">
-      <DisplayName>Show Dialog Condition Type</DisplayName>
+      <DisplayName>Item Acquisition Dialog Condition Type</DisplayName>
       <Enum>GET_DIALOG_CONDITION_TYPE</Enum>
       <Description>Whether to display it in the item acquisition dialog when acquiring an item (not entered: new only)</Description>
       <Maximum>2</Maximum>
@@ -1240,18 +1264,21 @@
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determining the type of magic attack power correction graph with primary parameters</Description>
       <SortID>8410</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 correctType_Fire">
       <DisplayName>Correction Type: Fire</DisplayName>
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determine the type of flame attack power correction graph with primary parameters</Description>
       <SortID>8420</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 correctType_Thunder">
       <DisplayName>Correction Type: Lightning</DisplayName>
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determine the type of lightning attack power correction graph with primary parameters</Description>
       <SortID>8430</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="f32 weakE_DamageRate = 1">
       <DisplayName>Damage Multiplier %: Type E</DisplayName>
@@ -1291,12 +1318,14 @@
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determine the type of darkness attack power correction graph with primary parameters</Description>
       <SortID>8440</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 correctType_Poison">
       <DisplayName>Correction Type: Poison</DisplayName>
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determining the type of poison attack power correction graph with primary parameters</Description>
       <SortID>8450</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 sortGroupId = 255">
       <DisplayName>Sort Group ID</DisplayName>
@@ -1328,6 +1357,7 @@
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determine the type of bleeding attack power correction graph with primary parameters</Description>
       <SortID>8460</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 properLuck">
       <DisplayName>Requirement: ARC</DisplayName>
@@ -1354,6 +1384,7 @@
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>12100</SortID>
+      <ParamRef1>SwordArtsParam</ParamRef1>
     </Field>
     <Field Def="f32 correctLuck">
       <DisplayName>Correction: ARC</DisplayName>
@@ -1654,6 +1685,7 @@
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>15000</SortID>
+      <ParamRef1>AttackElementCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 saleValue = -1">
       <DisplayName>Sale Value</DisplayName>
@@ -1757,12 +1789,14 @@
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determine the type of sleep attack correction graph with primary parameters</Description>
       <SortID>8470</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 correctType_Madness">
       <DisplayName>Correction Type: Mandesss</DisplayName>
       <Enum>WEP_CORRECT_TYPE</Enum>
       <Description>Determining the type of mad attack power correction graph with primary parameters</Description>
       <SortID>8480</SortID>
+      <ParamRef1>CalcCorrectGraph</ParamRef1>
     </Field>
     <Field Def="u8 rarity">
       <DisplayName>Rarity</DisplayName>
@@ -1810,6 +1844,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep17 = -1">
       <DisplayName>Origin Weapon +17</DisplayName>
@@ -1817,6 +1852,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep18 = -1">
       <DisplayName>Origin Weapon +18</DisplayName>
@@ -1824,6 +1860,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep19 = -1">
       <DisplayName>Origin Weapon +19</DisplayName>
@@ -1831,6 +1868,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep20 = -1">
       <DisplayName>Origin Weapon +20</DisplayName>
@@ -1838,6 +1876,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep21 = -1">
       <DisplayName>Origin Weapon +21</DisplayName>
@@ -1845,6 +1884,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep22 = -1">
       <DisplayName>Origin Weapon +22</DisplayName>
@@ -1852,6 +1892,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep23 = -1">
       <DisplayName>Origin Weapon +23</DisplayName>
@@ -1859,6 +1900,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep24 = -1">
       <DisplayName>Origin Weapon +24</DisplayName>
@@ -1866,6 +1908,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="s32 originEquipWep25 = -1">
       <DisplayName>Origin Weapon +25</DisplayName>
@@ -1873,6 +1916,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>8600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
     <Field Def="f32 vsPlayerDmgCorrectRate_Sleep = 1">
       <DisplayName>Vs. Player - Sleep Damage %</DisplayName>

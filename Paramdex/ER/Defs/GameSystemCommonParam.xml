@@ -415,6 +415,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1120</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 recoverBelowMaxHpCompletionNoticeSpEffectId">
       <DisplayName>"Recover below HP maximum" Special effect completion notification Special effect ID</DisplayName>
@@ -566,6 +567,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1121</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 afterEndingMapUid">
       <DisplayName>Map UID on hold</DisplayName>

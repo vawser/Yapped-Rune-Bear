@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 sfxId_0 = -1">
-      <DisplayName>0: SfxID</DisplayName>
+      <DisplayName>SFX ID [0]</DisplayName>
       <Description>0: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 dmypolyId_0 = -1">
-      <DisplayName>0: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [0]</DisplayName>
       <Description>0: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -26,14 +26,14 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="s32 sfxId_1 = -1">
-      <DisplayName>1: SfxID</DisplayName>
+      <DisplayName>SFX ID [1]</DisplayName>
       <Description>1: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>11</SortID>
     </Field>
     <Field Def="s32 dmypolyId_1 = -1">
-      <DisplayName>1: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [1]</DisplayName>
       <Description>1: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -45,14 +45,14 @@
       <SortID>1001</SortID>
     </Field>
     <Field Def="s32 sfxId_2 = -1">
-      <DisplayName>2: SfxID</DisplayName>
+      <DisplayName>SFX ID [2]</DisplayName>
       <Description>2: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>21</SortID>
     </Field>
     <Field Def="s32 dmypolyId_2 = -1">
-      <DisplayName>2: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [2]</DisplayName>
       <Description>2: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -64,14 +64,14 @@
       <SortID>1002</SortID>
     </Field>
     <Field Def="s32 sfxId_3 = -1">
-      <DisplayName>3: SfxID</DisplayName>
+      <DisplayName>SFX ID [3]</DisplayName>
       <Description>3: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>31</SortID>
     </Field>
     <Field Def="s32 dmypolyId_3 = -1">
-      <DisplayName>3: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [3]</DisplayName>
       <Description>3: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -83,14 +83,14 @@
       <SortID>1003</SortID>
     </Field>
     <Field Def="s32 sfxId_4 = -1">
-      <DisplayName>4: SfxID</DisplayName>
+      <DisplayName>SFX ID [4]</DisplayName>
       <Description>4: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>41</SortID>
     </Field>
     <Field Def="s32 dmypolyId_4 = -1">
-      <DisplayName>4: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [4]</DisplayName>
       <Description>4: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -102,14 +102,14 @@
       <SortID>1004</SortID>
     </Field>
     <Field Def="s32 sfxId_5 = -1">
-      <DisplayName>5: SfxID</DisplayName>
+      <DisplayName>SFX ID [5]</DisplayName>
       <Description>5: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>51</SortID>
     </Field>
     <Field Def="s32 dmypolyId_5 = -1">
-      <DisplayName>5: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [5]</DisplayName>
       <Description>5: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -121,14 +121,14 @@
       <SortID>1005</SortID>
     </Field>
     <Field Def="s32 sfxId_6 = -1">
-      <DisplayName>6: SfxID</DisplayName>
+      <DisplayName>SFX ID [6]</DisplayName>
       <Description>6: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>61</SortID>
     </Field>
     <Field Def="s32 dmypolyId_6 = -1">
-      <DisplayName>6: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [6]</DisplayName>
       <Description>6: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -140,21 +140,21 @@
       <SortID>1006</SortID>
     </Field>
     <Field Def="s32 sfxId_7 = -1">
-      <DisplayName>7: SfxID</DisplayName>
+      <DisplayName>SFX ID [7]</DisplayName>
       <Description>7: SfxID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>71</SortID>
     </Field>
     <Field Def="s32 dmypolyId_7 = -1">
-      <DisplayName>7: Damipoli ID</DisplayName>
+      <DisplayName>Dummy Poly ID [7]</DisplayName>
       <Description>7: Damipoli ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>72</SortID>
     </Field>
     <Field Def="u8 isDisableIV">
-      <DisplayName>Disables the effect on irradiance volume</DisplayName>
+      <DisplayName>Is Irradiance Volume Disabled</DisplayName>
       <Description>When enabled, the effect on irradiance volume shooting is disabled.</Description>
       <Maximum>1</Maximum>
     </Field>

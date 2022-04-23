@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 RangeMin = 10">
-      <DisplayName>Appearance distance Min [m]</DisplayName>
+      <DisplayName>Appearance Distance - Min</DisplayName>
       <Description>Appearance distance Min [m]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -16,7 +16,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 RangeMax = 25">
-      <DisplayName>Appearance distance Max [m]</DisplayName>
+      <DisplayName>Appearance Distance - Max</DisplayName>
       <Description>Appearance distance Max [</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -25,7 +25,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 LifeTimeMin = 30">
-      <DisplayName>Lifespan Min [seconds]</DisplayName>
+      <DisplayName>Duration - Min</DisplayName>
       <Description>Lifespan Min [seconds]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -34,7 +34,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 LifeTimeMax = 30">
-      <DisplayName>Lifespan Max [seconds]</DisplayName>
+      <DisplayName>Duration - Max</DisplayName>
       <Description>Lifespan Max [seconds]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -43,7 +43,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 DeleteDist = 30">
-      <DisplayName>Delete distance [m]</DisplayName>
+      <DisplayName>Delete Distance</DisplayName>
       <Description>Delete distance [m]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -52,7 +52,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 NearDist = 15">
-      <DisplayName>Neighborhood judgment distance [m]</DisplayName>
+      <DisplayName>Near Distance</DisplayName>
       <Description>Neighborhood judgment distance [m]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -61,7 +61,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="f32 LimiteRotateMin">
-      <DisplayName>Generation angle limit Min [degree]</DisplayName>
+      <DisplayName>Generation Angle Limit - Min</DisplayName>
       <Description>Angle limit Min [degree] (Specify the Y-axis angle +-in front of the camera. 180 is omnidirectional)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -70,7 +70,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 LimiteRotateMax = 180">
-      <DisplayName>Generation angle limit Max [degrees]</DisplayName>
+      <DisplayName>Generation Angle Limit - Max</DisplayName>
       <Description>Angle limit Max [degree] (Specify the Y-axis angle +-in front of the camera. 180 is omnidirectional)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

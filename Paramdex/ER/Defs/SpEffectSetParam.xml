@@ -13,6 +13,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>1000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId2 = -1">
       <DisplayName>Special effect ID2</DisplayName>
@@ -21,6 +22,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>1001</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId3 = -1">
       <DisplayName>Special effect ID3</DisplayName>
@@ -29,6 +31,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>1002</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId4 = -1">
       <DisplayName>Special effect ID4</DisplayName>
@@ -37,6 +40,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>1003</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
   </Fields>
 </PARAMDEF>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 baseRec_mp">
-      <DisplayName>MP recovery speed basic value [s]</DisplayName>
+      <DisplayName>Base FP Recovery Time</DisplayName>
       <Description>Time until MP recovers 1 point (first decimal place)</Description>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
@@ -15,7 +15,7 @@
       <SortID>1100</SortID>
     </Field>
     <Field Def="f32 baseRec_sp">
-      <DisplayName>Stamina recovery speed basic value [s]</DisplayName>
+      <DisplayName>Base Stamina Recovery Time</DisplayName>
       <Description>Time to recover 1 point of stamina (first decimal place)</Description>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
@@ -23,7 +23,7 @@
       <SortID>1300</SortID>
     </Field>
     <Field Def="f32 red_Falldam">
-      <DisplayName>Fall damage reduction correction [%]</DisplayName>
+      <DisplayName>Characer Head Land - Damage Reduction</DisplayName>
       <Description>Damage reduction amount (%) that can be a cushion when scolded by another character from above (first decimal place)</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
@@ -31,123 +31,147 @@
       <SortID>1400</SortID>
     </Field>
     <Field Def="s32 soul">
-      <DisplayName>Early soul</DisplayName>
+      <DisplayName>Runes</DisplayName>
       <Description>The amount of soul you have at the beginning</Description>
       <Minimum>0</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="s32 equip_Wep_Right = -1">
-      <DisplayName>Right-handed weapon slot 1</DisplayName>
+      <DisplayName>Equipped Weapon: Right Primary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 1)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1610</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Subwep_Right = -1">
-      <DisplayName>Right-handed weapon slot 2</DisplayName>
+      <DisplayName>Equipped Weapon: Right Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 2)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1630</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Wep_Left = -1">
-      <DisplayName>Left-handed weapon slot 1</DisplayName>
+      <DisplayName>Equipped Weapon: Left Primary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 1)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1710</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Subwep_Left = -1">
-      <DisplayName>Left-handed weapon slot 2</DisplayName>
+      <DisplayName>Equipped Weapon: Left Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 2)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1730</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Helm = -1">
-      <DisplayName>Head armor</DisplayName>
+      <DisplayName>Equipped Armor: Head</DisplayName>
       <Description>Equipment parameter armor ID (head armor)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2000</SortID>
+      <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
     <Field Def="s32 equip_Armer = -1">
-      <DisplayName>Torso armor</DisplayName>
+      <DisplayName>Equipped Armor: Chest</DisplayName>
       <Description>Equipment parameter armor ID (torso armor)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2100</SortID>
+      <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
     <Field Def="s32 equip_Gaunt = -1">
-      <DisplayName>Arm armor</DisplayName>
+      <DisplayName>Equipped Armor: Arms</DisplayName>
       <Description>Equipment parameter armor ID (arm armor)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2200</SortID>
+      <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
     <Field Def="s32 equip_Leg = -1">
-      <DisplayName>Leg armor</DisplayName>
+      <DisplayName>Equipped Armor: Legs</DisplayName>
       <Description>Equipment parameter armor ID (leg armor)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2300</SortID>
+      <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
     <Field Def="s32 equip_Arrow = -1">
-      <DisplayName>arrow</DisplayName>
+      <DisplayName>Equipped Ammunition: Arrow Primary</DisplayName>
       <Description>Weapon ID (arrow) of equipment parameter</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2400</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Bolt = -1">
-      <DisplayName>bolt</DisplayName>
+      <DisplayName>Equipped Ammunition: Bolt Primary</DisplayName>
       <Description>Weapon ID (bolt) of equipment parameter</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2600</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_SubArrow = -1">
-      <DisplayName>Spare arrow</DisplayName>
+      <DisplayName>Equipped Ammunition: Arrow Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (arrow reserve)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2500</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_SubBolt = -1">
-      <DisplayName>Spare bolt</DisplayName>
+      <DisplayName>Equipped Ammunition: Bolt Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (spare bolt)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2700</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Accessory01 = -1">
-      <DisplayName>Ornaments 1</DisplayName>
+      <DisplayName>Equipped Accessory: Slot 1</DisplayName>
       <Description>Equipment parameter decoration ID01</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>2800</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
     </Field>
     <Field Def="s32 equip_Accessory02 = -1">
-      <DisplayName>Ornament 2</DisplayName>
+      <DisplayName>Equipped Accessory: Slot 2</DisplayName>
       <Description>Equipment parameter decoration ID02</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>2900</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
     </Field>
     <Field Def="s32 equip_Accessory03 = -1">
-      <DisplayName>Ornaments 3</DisplayName>
+      <DisplayName>Equipped Accessory: Slot 3</DisplayName>
       <Description>Equipment parameter decoration ID03</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3000</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
     </Field>
     <Field Def="s32 equip_Accessory04 = -1">
-      <DisplayName>Ornament 4</DisplayName>
+      <DisplayName>Equipped Accessory: Slot 4</DisplayName>
       <Description>Equipment parameter decoration ID04</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3100</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
     </Field>
     <Field Def="dummy8 pad8[4]">
       <DisplayName>pad</DisplayName>
@@ -157,197 +181,213 @@
       <SortID>10001</SortID>
     </Field>
     <Field Def="s32 elixir_material00 = -1">
-      <DisplayName>Material ID1 for Elixir</DisplayName>
+      <DisplayName>Elixir Material 1</DisplayName>
       <Description>Material ID1 for Elixir</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6580</SortID>
     </Field>
     <Field Def="s32 elixir_material01 = -1">
-      <DisplayName>Material ID2 for Elixir</DisplayName>
+      <DisplayName>Elixir Material 2</DisplayName>
       <Description>Material ID2 for Elixir</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6581</SortID>
     </Field>
     <Field Def="s32 elixir_material02 = -1">
-      <DisplayName>Material ID3 for Elixir</DisplayName>
+      <DisplayName>Elixir Material 3</DisplayName>
       <Description>Material ID3 for Elixir</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6582</SortID>
     </Field>
     <Field Def="s32 equip_Spell_01 = -1">
-      <DisplayName>Magic / miracle 1</DisplayName>
+      <DisplayName>Equipped Spell: Slot 1</DisplayName>
       <Description>Initial placement magic / miracle ID01</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3600</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_02 = -1">
-      <DisplayName>Magic / miracle 2</DisplayName>
+      <DisplayName>Equipped Spell: Slot 2</DisplayName>
       <Description>Initial placement magic / miracle ID02</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3700</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_03 = -1">
-      <DisplayName>Magic / miracle 3</DisplayName>
+      <DisplayName>Equipped Spell: Slot 3</DisplayName>
       <Description>Initial placement magic / miracle ID03</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3800</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_04 = -1">
-      <DisplayName>Magic / miracle 4</DisplayName>
+      <DisplayName>Equipped Spell: Slot 4</DisplayName>
       <Description>Initial placement magic / miracle ID04</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3900</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_05 = -1">
-      <DisplayName>Magic / miracle 5</DisplayName>
+      <DisplayName>Equipped Spell: Slot 5</DisplayName>
       <Description>Initial placement magic / miracle ID05</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>4000</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_06 = -1">
-      <DisplayName>Magic / miracle 6</DisplayName>
+      <DisplayName>Equipped Spell: Slot 6</DisplayName>
       <Description>Initial placement magic / miracle ID06</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>4100</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 equip_Spell_07 = -1">
-      <DisplayName>Magic / miracle 7</DisplayName>
+      <DisplayName>Equipped Spell: Slot 7</DisplayName>
       <Description>Initial placement magic / miracle ID07</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>4200</SortID>
+      <ParamRef1>Magic</ParamRef1>
     </Field>
     <Field Def="s32 item_01 = -1">
-      <DisplayName>Item 01</DisplayName>
+      <DisplayName>Equipped Item: Slot 1</DisplayName>
       <Description>Initial possession item ID 01</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4600</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_02 = -1">
-      <DisplayName>Item 02</DisplayName>
+      <DisplayName>Equipped Item: Slot 2</DisplayName>
       <Description>Initial possession item ID 02</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4800</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_03 = -1">
-      <DisplayName>Item 03</DisplayName>
+      <DisplayName>Equipped Item: Slot 3</DisplayName>
       <Description>Initial possession item ID 03</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5000</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_04 = -1">
-      <DisplayName>Item 04</DisplayName>
+      <DisplayName>Equipped Item: Slot 4</DisplayName>
       <Description>Initial possession item ID 04</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5200</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_05 = -1">
-      <DisplayName>Item 05</DisplayName>
+      <DisplayName>Equipped Item: Slot 5</DisplayName>
       <Description>Initial possession item ID 05</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5400</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_06 = -1">
-      <DisplayName>Item 06</DisplayName>
+      <DisplayName>Equipped Item: Slot 6</DisplayName>
       <Description>Initial possession item ID 06</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5600</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_07 = -1">
-      <DisplayName>Item 07</DisplayName>
+      <DisplayName>Equipped Item: Slot 7</DisplayName>
       <Description>Initial possession item ID 07</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5800</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 item_08 = -1">
-      <DisplayName>Item 08</DisplayName>
+      <DisplayName>Equipped Item: Slot 8</DisplayName>
       <Description>Initial possession item ID 08</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="s32 item_09 = -1">
-      <DisplayName>Item 09</DisplayName>
+      <DisplayName>Equipped Item: Slot 9</DisplayName>
       <Description>Initial possession item ID 09</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6200</SortID>
     </Field>
     <Field Def="s32 item_10 = -1">
-      <DisplayName>Item 10</DisplayName>
+      <DisplayName>Equipped Item: Slot 10</DisplayName>
       <Description>Initial possession item ID 10</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6400</SortID>
     </Field>
     <Field Def="s32 npcPlayerFaceGenId">
-      <DisplayName>Facegen Parameter ID</DisplayName>
+      <DisplayName>NPC Player - Face Gen ID</DisplayName>
       <Description>Facegen parameter ID used by NPC players. Not used by normal players.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>6600</SortID>
+      <ParamRef1>FaceParam</ParamRef1>
     </Field>
     <Field Def="s32 npcPlayerThinkId">
-      <DisplayName>NPC player thinking ID</DisplayName>
+      <DisplayName>NPC Player - Think ID</DisplayName>
       <Description>NPC Thinking Parameter ID used by NPC players. Not used by normal players.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>6700</SortID>
+      <ParamRef1>NpcThinkParam</ParamRef1>
     </Field>
     <Field Def="u16 baseHp">
-      <DisplayName>HP basic value</DisplayName>
+      <DisplayName>Base HP</DisplayName>
       <Description>Basic value of HP (actually, it is corrected by the calculation formula)</Description>
       <Maximum>999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="u16 baseMp">
-      <DisplayName>MP basic value</DisplayName>
+      <DisplayName>Base FP</DisplayName>
       <Description>Basic value of MP (actually, it is corrected by the calculation formula)</Description>
       <Maximum>999</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u16 baseSp">
-      <DisplayName>Stamina base value</DisplayName>
+      <DisplayName>Base Stamina</DisplayName>
       <Description>Basic value of stamina (actually, it is corrected by the formula)</Description>
       <Maximum>999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="u16 arrowNum">
-      <DisplayName>Number of arrows possessed</DisplayName>
+      <DisplayName>Equipped Ammunition: Arrow Primary Count</DisplayName>
       <Description>Initial number of arrows</Description>
       <Maximum>999</Maximum>
       <SortID>2450</SortID>
     </Field>
     <Field Def="u16 boltNum">
-      <DisplayName>Number of bolts</DisplayName>
+      <DisplayName>Equipped Ammunition: Bolt Primary Count</DisplayName>
       <Description>Initial number of bolts</Description>
       <Maximum>999</Maximum>
       <SortID>2650</SortID>
     </Field>
     <Field Def="u16 subArrowNum">
-      <DisplayName>Number of spare arrows possessed</DisplayName>
+      <DisplayName>Equipped Ammunition: Arrow Secondary Count</DisplayName>
       <Description>Initial number of arrows</Description>
       <Maximum>999</Maximum>
       <SortID>2550</SortID>
     </Field>
     <Field Def="u16 subBoltNum">
-      <DisplayName>Number of spare bolts</DisplayName>
+      <DisplayName>Equipped Ammunition: Bolt Secondary Count</DisplayName>
       <Description>Initial number of bolts</Description>
       <Maximum>999</Maximum>
       <SortID>2750</SortID>
@@ -359,26 +399,26 @@
       <SortID>10002</SortID>
     </Field>
     <Field Def="s16 soulLv">
-      <DisplayName>Soul Lv</DisplayName>
+      <DisplayName>Level</DisplayName>
       <Description>Initial Lv</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="u8 baseVit">
-      <DisplayName>Physical fitness</DisplayName>
+      <DisplayName>Vigor</DisplayName>
       <Description>Basic value of physical fitness</Description>
       <Maximum>99</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 baseWil">
-      <DisplayName>spirit</DisplayName>
+      <DisplayName>Attunement</DisplayName>
       <Description>Basic value of spirit</Description>
       <Maximum>99</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="u8 baseEnd">
-      <DisplayName>Robust</DisplayName>
+      <DisplayName>Endurance</DisplayName>
       <Description>Robust base value</Description>
       <Maximum>99</Maximum>
       <SortID>300</SortID>
@@ -390,97 +430,97 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="u8 baseDex">
-      <DisplayName>Agility</DisplayName>
+      <DisplayName>Dexterity</DisplayName>
       <Description>Basic value of agility</Description>
       <Maximum>99</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="u8 baseMag">
-      <DisplayName>Magical power</DisplayName>
+      <DisplayName>Intelligence</DisplayName>
       <Description>Basic value of magic power</Description>
       <Maximum>99</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="u8 baseFai">
-      <DisplayName>faith</DisplayName>
+      <DisplayName>Faith</DisplayName>
       <Description>Basic value of faith</Description>
       <Maximum>99</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="u8 baseLuc">
-      <DisplayName>luck</DisplayName>
+      <DisplayName>Arcane</DisplayName>
       <Description>Basic value of luck</Description>
       <Maximum>99</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="u8 baseHeroPoint">
-      <DisplayName>Human nature</DisplayName>
+      <DisplayName>Humanity</DisplayName>
       <Description>Basic value of human nature</Description>
       <Maximum>99</Maximum>
       <SortID>810</SortID>
     </Field>
     <Field Def="u8 baseDurability">
-      <DisplayName>Endurance</DisplayName>
+      <DisplayName>Vitality</DisplayName>
       <Description>Basic value of endurance</Description>
       <Maximum>99</Maximum>
       <SortID>820</SortID>
     </Field>
     <Field Def="u8 itemNum_01">
-      <DisplayName>Number of possession of item 01</DisplayName>
+      <DisplayName>Equipped Item: Slot 1 Amount</DisplayName>
       <Description>Initial possession number of items 01</Description>
       <Maximum>99</Maximum>
       <SortID>4700</SortID>
     </Field>
     <Field Def="u8 itemNum_02">
-      <DisplayName>Number of possession of item 02</DisplayName>
+      <DisplayName>Equipped Item: Slot 2 Amount</DisplayName>
       <Description>Initial possession number of items 02</Description>
       <Maximum>99</Maximum>
       <SortID>4900</SortID>
     </Field>
     <Field Def="u8 itemNum_03">
-      <DisplayName>Number of items 03</DisplayName>
+      <DisplayName>Equipped Item: Slot 3 Amount</DisplayName>
       <Description>Initial possession number of items 03</Description>
       <Maximum>99</Maximum>
       <SortID>5100</SortID>
     </Field>
     <Field Def="u8 itemNum_04">
-      <DisplayName>Item quantity 04</DisplayName>
+      <DisplayName>Equipped Item: Slot 4 Amount</DisplayName>
       <Description>Initial possession number of items 04</Description>
       <Maximum>99</Maximum>
       <SortID>5300</SortID>
     </Field>
     <Field Def="u8 itemNum_05">
-      <DisplayName>Item quantity 05</DisplayName>
+      <DisplayName>Equipped Item: Slot 5 Amount</DisplayName>
       <Description>Initial possession number of items 05</Description>
       <Maximum>99</Maximum>
       <SortID>5500</SortID>
     </Field>
     <Field Def="u8 itemNum_06">
-      <DisplayName>Item quantity 06</DisplayName>
+      <DisplayName>Equipped Item: Slot 6 Amount</DisplayName>
       <Description>Initial possession number of items 06</Description>
       <Maximum>99</Maximum>
       <SortID>5700</SortID>
     </Field>
     <Field Def="u8 itemNum_07">
-      <DisplayName>Item quantity 07</DisplayName>
+      <DisplayName>Equipped Item: Slot 7 Amount</DisplayName>
       <Description>Initial possession number of items 07</Description>
       <Maximum>99</Maximum>
       <SortID>5900</SortID>
     </Field>
     <Field Def="u8 itemNum_08">
-      <DisplayName>Item quantity 08</DisplayName>
+      <DisplayName>Equipped Item: Slot 8 Amount</DisplayName>
       <Description>Initial possession number of items 08</Description>
       <Maximum>99</Maximum>
       <SortID>6100</SortID>
     </Field>
     <Field Def="u8 itemNum_09">
-      <DisplayName>Item quantity 09</DisplayName>
+      <DisplayName>Equipped Item: Slot 9 Amount</DisplayName>
       <Description>Initial possession number of items 09</Description>
       <Maximum>99</Maximum>
       <SortID>6300</SortID>
     </Field>
     <Field Def="u8 itemNum_10">
-      <DisplayName>Item quantity 10</DisplayName>
+      <DisplayName>Equipped Item: Slot 10 Amount</DisplayName>
       <Description>Initial possession number of items 10</Description>
       <Maximum>99</Maximum>
       <SortID>6500</SortID>
@@ -491,55 +531,55 @@
       <SortID>10003</SortID>
     </Field>
     <Field Def="s8 gestureId0 = -1">
-      <DisplayName>Gesture ID 0</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 0</DisplayName>
       <Description>Gesture 0th (0 if you want to play EzState gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>8600</SortID>
     </Field>
     <Field Def="s8 gestureId1 = -1">
-      <DisplayName>Gesture ID1</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 1</DisplayName>
       <Description>Gesture 1st (0 if you want to play EzState gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>8700</SortID>
     </Field>
     <Field Def="s8 gestureId2 = -1">
-      <DisplayName>Gesture ID 2</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 2</DisplayName>
       <Description>Gesture 2nd (0 if you want to play EzState's gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>8800</SortID>
     </Field>
     <Field Def="s8 gestureId3 = -1">
-      <DisplayName>Gesture ID 3</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 3</DisplayName>
       <Description>Gesture 3rd (0 if you want to play EzState gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>8900</SortID>
     </Field>
     <Field Def="s8 gestureId4 = -1">
-      <DisplayName>Gesture ID 4</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 4</DisplayName>
       <Description>Gesture 4th (0 if you want to play EzState's gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>9000</SortID>
     </Field>
     <Field Def="s8 gestureId5 = -1">
-      <DisplayName>Gesture ID 5</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 5</DisplayName>
       <Description>Gesture 5th (0 if you want to play EzState gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>9100</SortID>
     </Field>
     <Field Def="s8 gestureId6 = -1">
-      <DisplayName>Gesture ID 6</DisplayName>
+      <DisplayName>Equipped Gesture: Slot 6</DisplayName>
       <Description>Gesture 6th (0 if you want to play EzState gesture 0)</Description>
       <Minimum>-1</Minimum>
       <SortID>9200</SortID>
     </Field>
     <Field Def="u8 npcPlayerType">
-      <DisplayName>NPC type of NPC player</DisplayName>
+      <DisplayName>NPC Player - Type</DisplayName>
       <Enum>NPC_TYPE</Enum>
       <Description>NPC type used by NPC players. Not used by normal players.</Description>
       <SortID>6800</SortID>
     </Field>
     <Field Def="s8 npcPlayerDrawType">
-      <DisplayName>NPC player drawing type</DisplayName>
+      <DisplayName>NPC Player - Draw Type</DisplayName>
       <Enum>NPC_DRAW_TYPE</Enum>
       <Description>Drawing type used by NPC players. Not used by normal players.</Description>
       <Minimum>0</Minimum>
@@ -547,21 +587,21 @@
       <SortID>6900</SortID>
     </Field>
     <Field Def="u8 npcPlayerSex">
-      <DisplayName>Gender of NPC players</DisplayName>
+      <DisplayName>NPC Player - Sex</DisplayName>
       <Enum>CHARACTER_INIT_SEX</Enum>
       <Description>The gender used by NPC players. It is not reflected to normal players.</Description>
       <Maximum>1</Maximum>
       <SortID>7000</SortID>
     </Field>
     <Field Def="u8 vowType:4">
-      <DisplayName>Pledge</DisplayName>
+      <DisplayName>Vow Type</DisplayName>
       <Enum>VOW_TYPE</Enum>
       <Description>Pledge type (None: 0)</Description>
       <Maximum>15</Maximum>
       <SortID>8500</SortID>
     </Field>
     <Field Def="u8 isSyncTarget:1">
-      <DisplayName>Is it a transmission / reception target?</DisplayName>
+      <DisplayName>Is Sync Target</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Is it a send / receive target (for copy NPCs)?</Description>
       <Maximum>1</Maximum>
@@ -577,42 +617,42 @@
       <SortID>10005</SortID>
     </Field>
     <Field Def="u8 wepParamType_Right1">
-      <DisplayName>Right-handed weapon slot 1 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Right Primary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Right-handed weapon slot 1 parameter reference</Description>
       <Maximum>1</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="u8 wepParamType_Right2">
-      <DisplayName>Right-handed weapon slot 2 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Right Secondary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Right-handed weapon slot 2 parameter reference</Description>
       <Maximum>1</Maximum>
       <SortID>1620</SortID>
     </Field>
     <Field Def="u8 wepParamType_Right3">
-      <DisplayName>Right-handed weapon slot 3 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Right Tertiary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Right-handed weapon slot 3 parameter reference</Description>
       <Maximum>1</Maximum>
       <SortID>1640</SortID>
     </Field>
     <Field Def="u8 wepParamType_Left1">
-      <DisplayName>Left-handed weapon slot 1 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Left Primary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Parameter reference for left-handed weapon slot 1</Description>
       <Maximum>1</Maximum>
       <SortID>1700</SortID>
     </Field>
     <Field Def="u8 wepParamType_Left2">
-      <DisplayName>Left-handed weapon slot 2 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Left Secondary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Parameter reference for left-handed weapon slot 2</Description>
       <Maximum>1</Maximum>
       <SortID>1720</SortID>
     </Field>
     <Field Def="u8 wepParamType_Left3">
-      <DisplayName>Left-handed weapon slot 3 equipment type</DisplayName>
+      <DisplayName>Weapon Param Type - Left Tertiary</DisplayName>
       <Enum>CHARA_INIT_WEP_TYPE</Enum>
       <Description>Parameter reference for left-handed weapon slot 3</Description>
       <Maximum>1</Maximum>
@@ -625,18 +665,22 @@
       <SortID>10006</SortID>
     </Field>
     <Field Def="s32 equip_Subwep_Right3 = -1">
-      <DisplayName>Right-handed weapon slot 3</DisplayName>
+      <DisplayName>Equipped Weapon: Right Tertiary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 3)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1650</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="s32 equip_Subwep_Left3 = -1">
-      <DisplayName>Left-handed weapon slot 3</DisplayName>
+      <DisplayName>Equipped Weapon: Left Tertiary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 3)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1750</SortID>
+      <ParamRef1>EquipParamWeapon</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
     </Field>
     <Field Def="dummy8 pad3[4]">
       <DisplayName>pad</DisplayName>
@@ -645,92 +689,98 @@
       <SortID>10007</SortID>
     </Field>
     <Field Def="s32 secondaryItem_01 = -1">
-      <DisplayName>Second item 01</DisplayName>
+      <DisplayName>Stored Item: Slot 1</DisplayName>
       <Description>Item ID 01 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6510</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 secondaryItem_02 = -1">
-      <DisplayName>Second item 02</DisplayName>
+      <DisplayName>Stored Item: Slot 2</DisplayName>
       <Description>Item ID 02 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6520</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 secondaryItem_03 = -1">
-      <DisplayName>Second item 03</DisplayName>
+      <DisplayName>Stored Item: Slot 3</DisplayName>
       <Description>Item ID 03 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6530</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 secondaryItem_04 = -1">
-      <DisplayName>Second item 04</DisplayName>
+      <DisplayName>Stored Item: Slot 4</DisplayName>
       <Description>Item ID 04 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6540</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 secondaryItem_05 = -1">
-      <DisplayName>Second item 05</DisplayName>
+      <DisplayName>Stored Item: Slot 5</DisplayName>
       <Description>Item ID 05 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6550</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="s32 secondaryItem_06 = -1">
-      <DisplayName>Second item 06</DisplayName>
+      <DisplayName>Stored Item: Slot 6</DisplayName>
       <Description>Item ID 06 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6560</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="u8 secondaryItemNum_01">
-      <DisplayName>Number of possessions of the second item 01</DisplayName>
+      <DisplayName>Stored Item: Slot 1 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 01</Description>
       <Maximum>99</Maximum>
       <SortID>6511</SortID>
     </Field>
     <Field Def="u8 secondaryItemNum_02">
-      <DisplayName>Number of possessions of the second item 02</DisplayName>
+      <DisplayName>Stored Item: Slot 2 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 02</Description>
       <Maximum>99</Maximum>
       <SortID>6521</SortID>
     </Field>
     <Field Def="u8 secondaryItemNum_03">
-      <DisplayName>Number of possessions of the second item 03</DisplayName>
+      <DisplayName>Stored Item: Slot 3 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 03</Description>
       <Maximum>99</Maximum>
       <SortID>6531</SortID>
     </Field>
     <Field Def="u8 secondaryItemNum_04">
-      <DisplayName>Number of possessions of the second item 04</DisplayName>
+      <DisplayName>Stored Item: Slot 4 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 04</Description>
       <Maximum>99</Maximum>
       <SortID>6541</SortID>
     </Field>
     <Field Def="u8 secondaryItemNum_05">
-      <DisplayName>Number of possessions of the second item 05</DisplayName>
+      <DisplayName>Stored Item: Slot 5 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 05</Description>
       <Maximum>99</Maximum>
       <SortID>6551</SortID>
     </Field>
     <Field Def="u8 secondaryItemNum_06">
-      <DisplayName>Number of possessions of the second item 06</DisplayName>
+      <DisplayName>Stored Item: Slot 6 Count</DisplayName>
       <Description>2nd Shortcut Initial possession number of items 06</Description>
       <Maximum>99</Maximum>
       <SortID>6561</SortID>
     </Field>
     <Field Def="s8 HpEstMax = -1">
-      <DisplayName>HP Est Bottle Possession Limit</DisplayName>
+      <DisplayName>HP Flask - Max Possession Limit</DisplayName>
       <Description>HP Est Bottle Possession Limit</Description>
       <Minimum>-1</Minimum>
       <Maximum>20</Maximum>
       <SortID>7010</SortID>
     </Field>
     <Field Def="s8 MpEstMax = -1">
-      <DisplayName>MP Est Bottle Possession Limit</DisplayName>
+      <DisplayName>FP Flask - Max Possession Limit</DisplayName>
       <Description>MP Est Bottle Possession Limit</Description>
       <Minimum>-1</Minimum>
       <Maximum>20</Maximum>
@@ -743,7 +793,7 @@
       <SortID>10008</SortID>
     </Field>
     <Field Def="u8 voiceType">
-      <DisplayName>Voice type</DisplayName>
+      <DisplayName>Voice Type</DisplayName>
       <Description>Voice type</Description>
       <SortID>7001</SortID>
     </Field>

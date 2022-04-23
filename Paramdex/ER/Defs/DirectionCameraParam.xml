@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 isUseOption:1">
-      <DisplayName>Affected by options</DisplayName>
+      <DisplayName>Is Use Option</DisplayName>
       <Enum>BOOL_YESNO_TYPE</Enum>
       <Description>Is it affected by the production camera ON / OFF option?</Description>
       <Maximum>1</Maximum>

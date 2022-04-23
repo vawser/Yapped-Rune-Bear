@@ -65,6 +65,7 @@
       <Minimum>-1</Minimum>
       <Maximum>1999999999</Maximum>
       <SortID>300</SortID>
+      <ParamRef1>PlayRegionParam</ParamRef1>
     </Field>
   </Fields>
 </PARAMDEF>

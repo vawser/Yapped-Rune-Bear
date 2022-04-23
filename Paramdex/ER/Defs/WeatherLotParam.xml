@@ -33,6 +33,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>50</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType1 = -1">
       <DisplayName>Weather type 1</DisplayName>
@@ -42,6 +43,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType2 = -1">
       <DisplayName>Weather type 2</DisplayName>
@@ -51,6 +53,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>200</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType3 = -1">
       <DisplayName>Weather type 3</DisplayName>
@@ -60,6 +63,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>300</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType4 = -1">
       <DisplayName>Weather type 4</DisplayName>
@@ -69,6 +73,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>400</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType5 = -1">
       <DisplayName>Weather type 5</DisplayName>
@@ -78,6 +83,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>500</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType6 = -1">
       <DisplayName>Weather type 6</DisplayName>
@@ -87,6 +93,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>600</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType7 = -1">
       <DisplayName>Weather type 7</DisplayName>
@@ -96,6 +103,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>700</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType8 = -1">
       <DisplayName>Weather type 8</DisplayName>
@@ -105,6 +113,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>800</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType9 = -1">
       <DisplayName>Weather type 9</DisplayName>
@@ -114,6 +123,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>900</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType10 = -1">
       <DisplayName>Weather type 10</DisplayName>
@@ -123,6 +133,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1000</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType11 = -1">
       <DisplayName>Weather type 11</DisplayName>
@@ -132,6 +143,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1100</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType12 = -1">
       <DisplayName>Weather type 12</DisplayName>
@@ -141,6 +153,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1200</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType13 = -1">
       <DisplayName>Weather type 13</DisplayName>
@@ -150,6 +163,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1300</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType14 = -1">
       <DisplayName>Weather type 14</DisplayName>
@@ -159,6 +173,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1400</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="s16 weatherType15 = -1">
       <DisplayName>Weather type 15</DisplayName>
@@ -168,6 +183,7 @@
       <Minimum>-2</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1500</SortID>
+      <ParamRef1>WeatherParam</ParamRef1>
     </Field>
     <Field Def="u16 lotteryWeight0">
       <DisplayName>Lottery weight 0</DisplayName>

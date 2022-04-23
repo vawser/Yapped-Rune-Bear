@@ -83,6 +83,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>10330</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 searchTargetLv1ForgetTime = 5">
       <DisplayName>Search enemy Lv1 Target Forget time [sec]</DisplayName>
@@ -652,6 +653,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>13011</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 weaponOnSpecialEffectId = -1">
       <DisplayName>Special effect ID when pulling out a sword</DisplayName>
@@ -659,6 +661,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>13012</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 weaponOffAnimId = -1">
       <DisplayName>Katana Anime ID</DisplayName>

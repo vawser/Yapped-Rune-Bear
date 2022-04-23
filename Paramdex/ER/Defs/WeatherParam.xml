@@ -69,6 +69,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>4000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 WetSpEffectId01 = -1">
       <DisplayName>Wet special effect ID_01</DisplayName>
@@ -77,6 +78,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>4001</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 WetSpEffectId02 = -1">
       <DisplayName>Wet special effect ID_02</DisplayName>
@@ -85,6 +87,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>4002</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 WetSpEffectId03 = -1">
       <DisplayName>Wet special effect ID_03</DisplayName>
@@ -93,6 +96,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>4003</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 WetSpEffectId04 = -1">
       <DisplayName>Wet special effect ID_04</DisplayName>
@@ -101,6 +105,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>4004</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 SfxIdInoor = -1">
       <DisplayName>Weather SfxId (indoor)</DisplayName>

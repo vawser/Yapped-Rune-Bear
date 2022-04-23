@@ -620,6 +620,10 @@
       <Maximum>999999999</Maximum>
       <SortID>501</SortID>
       <UnkC8>スロット1</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId2 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -628,6 +632,10 @@
       <Maximum>999999999</Maximum>
       <SortID>511</SortID>
       <UnkC8>スロット2</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId3 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -636,6 +644,10 @@
       <Maximum>999999999</Maximum>
       <SortID>521</SortID>
       <UnkC8>スロット3</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 aiUseJudgeId = -1">
       <DisplayName>AI usage judgment ID</DisplayName>
@@ -651,6 +663,10 @@
       <Maximum>999999999</Maximum>
       <SortID>531</SortID>
       <UnkC8>スロット4</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId5 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -667,6 +683,10 @@
       <Maximum>999999999</Maximum>
       <SortID>551</SortID>
       <UnkC8>スロット6</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId7 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -675,6 +695,10 @@
       <Maximum>999999999</Maximum>
       <SortID>561</SortID>
       <UnkC8>スロット7</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId8 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -683,6 +707,10 @@
       <Maximum>999999999</Maximum>
       <SortID>571</SortID>
       <UnkC8>スロット8</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId9 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -691,6 +719,10 @@
       <Maximum>999999999</Maximum>
       <SortID>581</SortID>
       <UnkC8>スロット9</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="s32 refId10 = -1">
       <DisplayName>Call ID</DisplayName>
@@ -699,6 +731,10 @@
       <Maximum>999999999</Maximum>
       <SortID>591</SortID>
       <UnkC8>スロット10</UnkC8>
+      <ParamRef1>AtkParam_Pc</ParamRef1>
+      <ParamRef2>BehaviorParam_PC</ParamRef2>
+      <ParamRef3>Bullet</ParamRef3>
+      <ParamRef4>SpEffectParam</ParamRef4>
     </Field>
     <Field Def="u8 consumeType1">
       <DisplayName>Consumption type</DisplayName>

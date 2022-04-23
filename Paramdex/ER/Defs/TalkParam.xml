@@ -45,6 +45,7 @@
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>300</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 motionId0 = -1">
       <DisplayName>Motion ID 0</DisplayName>
@@ -59,6 +60,7 @@
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>500</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 motionId1 = -1">
       <DisplayName>Motion ID 1</DisplayName>

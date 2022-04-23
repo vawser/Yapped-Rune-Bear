@@ -305,6 +305,8 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>50100</SortID>
+      <ParamRef1>BehaviorParam_PC</ParamRef1>
+      <ParamRef2>BehaviorParam</ParamRef2>
     </Field>
     <Field Def="f32 changeHpRate">
       <DisplayName>HP damage amount [%]</DisplayName>
@@ -569,6 +571,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>111000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 cycleOccurrenceSpEffectId = -1">
       <DisplayName>Periodic special effects</DisplayName>
@@ -576,6 +579,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>111010</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 atkOccurrenceSpEffectId = -1">
       <DisplayName>Attack occurrence special effect</DisplayName>
@@ -583,6 +587,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>111020</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 guardDefFlickPowerRate = 1">
       <DisplayName>When guarding, the defense power up rate</DisplayName>
@@ -1359,6 +1364,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14100</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 accumuOverFireId = -1">
       <DisplayName>Special effect Id activated at the upper limit of the spirit ball</DisplayName>
@@ -1420,6 +1426,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14110</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId2 = -1">
       <DisplayName>Special effect VfxId_2</DisplayName>
@@ -1427,6 +1434,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14120</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId3 = -1">
       <DisplayName>Special effect VfxId_3</DisplayName>
@@ -1434,6 +1442,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14130</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId4 = -1">
       <DisplayName>Special effect VfxId_4</DisplayName>
@@ -1441,6 +1450,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14140</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId5 = -1">
       <DisplayName>Special effect VfxId_5</DisplayName>
@@ -1448,6 +1458,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14150</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId6 = -1">
       <DisplayName>Special effect VfxId_6</DisplayName>
@@ -1455,6 +1466,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14160</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 vfxId7 = -1">
       <DisplayName>Special effect VfxId_7</DisplayName>
@@ -1462,6 +1474,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>14170</SortID>
+      <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
     <Field Def="s32 freezeAttackPower">
       <DisplayName>Cold resistance attack power [point]</DisplayName>
@@ -1483,6 +1496,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>14500</SortID>
+      <ParamRef1>FootSfxParam</ParamRef1>
     </Field>
     <Field Def="s8 dexterityCancelSystemOnlyAddDexterity">
       <DisplayName>Virtual status for skill cancellation</DisplayName>
@@ -2286,6 +2300,7 @@
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>111030</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 extendLifeRate = 1">
       <DisplayName>Life extension factor</DisplayName>

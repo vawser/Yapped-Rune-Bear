@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 mapSaveMapNameIdOnGameStart">
-      <DisplayName>At the start of the game Map name ID_for save data</DisplayName>
+      <DisplayName>Save Data - Game Start: Map Display Name</DisplayName>
       <Description>At the start of the game Map name ID_for save data (SEQ15052)</Description>
       <EditFlags>None</EditFlags>
       <Maximum>-1</Maximum>

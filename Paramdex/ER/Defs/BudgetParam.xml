@@ -174,14 +174,14 @@
       <SortID>1050</SortID>
     </Field>
     <Field Def="f32 vram_detail_all = 1">
-      <DisplayName>VRAM: total value</DisplayName>
+      <DisplayName>VRAM: Total Value</DisplayName>
       <Description>VRAM: Total value (unit is MB)</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="f32 vram_chr_and_parts = 1">
-      <DisplayName>VRAM: Characters &amp; Parts</DisplayName>
+      <DisplayName>VRAM: Characters and Parts</DisplayName>
       <Description>VRAM: Total value of characters and parts (unit is MB)</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>

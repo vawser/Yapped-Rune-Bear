@@ -469,6 +469,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7100</SortID>
+      <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="u8 resistCurseItemMaxNum">
       <DisplayName>Abnormal condition_immediate death_maximum number of instant death items</DisplayName>
@@ -490,6 +491,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7300</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCurseItemLotParamId_map = -1">
       <DisplayName>Abnormal condition_immediate death_immediate death item lottery ID_for map</DisplayName>
@@ -498,6 +500,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>7400</SortID>
+      <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="dummy8 reserved41[52]">
       <DisplayName>reserve</DisplayName>

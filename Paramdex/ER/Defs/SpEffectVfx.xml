@@ -234,6 +234,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2400</SortID>
+      <ParamRef1>DecalParam</ParamRef1>
     </Field>
     <Field Def="s32 decalId2 = -1">
       <DisplayName>Decal ID2</DisplayName>
@@ -241,6 +242,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2500</SortID>
+      <ParamRef1>DecalParam</ParamRef1>
     </Field>
     <Field Def="u8 footEffectPriority">
       <DisplayName>Foot effect priority</DisplayName>
@@ -392,6 +394,7 @@
       <Description>Forced overwrite type of phantom parameters</Description>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>270</SortID>
+      <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="u8 camouflageMinAlpha">
       <DisplayName>Minimum α value when hiding [%]</DisplayName>
@@ -418,6 +421,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6000</SortID>
+      <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="f32 materialParamInitValue">
       <DisplayName>Initial values of material parameters</DisplayName>

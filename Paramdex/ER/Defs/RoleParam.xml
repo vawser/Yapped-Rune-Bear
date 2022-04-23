@@ -30,6 +30,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID1 = -1">
       <DisplayName>Resident special effect 1</DisplayName>
@@ -37,6 +38,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4010</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID2 = -1">
       <DisplayName>Resident special effect 2</DisplayName>
@@ -44,6 +46,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4020</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID3 = -1">
       <DisplayName>Resident special effect 3</DisplayName>
@@ -51,6 +54,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4030</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID4 = -1">
       <DisplayName>Resident special effect 4</DisplayName>
@@ -58,6 +62,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4040</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID5 = -1">
       <DisplayName>Resident special effect 5</DisplayName>
@@ -65,6 +70,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4050</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID6 = -1">
       <DisplayName>Resident special effect 6</DisplayName>
@@ -72,6 +78,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4060</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID7 = -1">
       <DisplayName>Resident special effect 7</DisplayName>
@@ -79,6 +86,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4070</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID8 = -1">
       <DisplayName>Resident special effect 8</DisplayName>
@@ -86,6 +94,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4080</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID9 = -1">
       <DisplayName>Resident special effect 9</DisplayName>
@@ -93,6 +102,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4090</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 sosSignSfxId">
       <DisplayName>SOS sign SFX ID</DisplayName>
@@ -121,6 +131,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4600</SortID>
+      <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="u8 voiceChatGroup">
       <DisplayName>Voice chat group</DisplayName>
@@ -157,6 +168,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3010</SortID>
+      <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomParamId_vowRank2 = -1">
       <DisplayName>Phantom Parameter ID (Pledge Rank 2)</DisplayName>
@@ -164,6 +176,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3020</SortID>
+      <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomParamId_vowRank3 = -1">
       <DisplayName>Phantom Parameter ID (Pledge Rank 3)</DisplayName>
@@ -171,6 +184,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3030</SortID>
+      <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank0 = -1">
       <DisplayName>Special effect ID for SFX (pledge rank 0)</DisplayName>
@@ -178,6 +192,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4400</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank1 = -1">
       <DisplayName>Special effect ID for SFX (pledge rank 1)</DisplayName>
@@ -185,6 +200,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4410</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank2 = -1">
       <DisplayName>Special effect ID for SFX (pledge rank 2)</DisplayName>
@@ -192,6 +208,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4420</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank3 = -1">
       <DisplayName>Special effect ID for SFX (pledge rank 3)</DisplayName>
@@ -199,6 +216,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4430</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 signPhantomId = -1">
       <DisplayName>Phantom ID for sign illusion</DisplayName>

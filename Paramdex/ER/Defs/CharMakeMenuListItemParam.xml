@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 value">
-      <DisplayName>value</DisplayName>
+      <DisplayName>Value</DisplayName>
       <Description>The value handled by the program. Make serial numbers within one group</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 captionId">
-      <DisplayName>Item text ID</DisplayName>
+      <DisplayName>Caption ID</DisplayName>
       <Description>ID of the text to be displayed</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>

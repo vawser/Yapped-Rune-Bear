@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 limitationTime">
-      <DisplayName>Time limit (0 cooperating spirits)</DisplayName>
+      <DisplayName>Limitation Time - 0 Co-op Phantoms</DisplayName>
       <Description>Time limit [sec] (number of cooperating spirits 0)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -20,7 +20,7 @@
       <UnkC8>協力霊数0</UnkC8>
     </Field>
     <Field Def="f32 observeTime">
-      <DisplayName>Monitoring time (0 number of cooperating spirits)</DisplayName>
+      <DisplayName>Observation Time - 0 Co-op Phantoms</DisplayName>
       <Description>Monitoring time [sec] (number of cooperating spirits 0)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -33,7 +33,7 @@
       <UnkC8>協力霊数0</UnkC8>
     </Field>
     <Field Def="f32 limitationTime">
-      <DisplayName>Time limit (number of cooperating spirits 1)</DisplayName>
+      <DisplayName>Limitation Time - 1 Co-op Phantoms</DisplayName>
       <Description>Time limit [sec] (number of cooperating spirits 1)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -46,7 +46,7 @@
       <UnkC8>協力霊数1</UnkC8>
     </Field>
     <Field Def="f32 observeTime">
-      <DisplayName>Monitoring time (number of cooperating spirits 1)</DisplayName>
+      <DisplayName>Observation Time - 1 Co-op Phantoms</DisplayName>
       <Description>Monitoring time [sec] (number of cooperating spirits 1)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -59,7 +59,7 @@
       <UnkC8>協力霊数1</UnkC8>
     </Field>
     <Field Def="f32 limitationTime">
-      <DisplayName>Time limit (2 cooperating spirits)</DisplayName>
+      <DisplayName>Limitation Time - 2 Co-op Phantoms</DisplayName>
       <Description>Time limit [sec] (number of cooperating spirits 2)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -72,7 +72,7 @@
       <UnkC8>協力霊数2</UnkC8>
     </Field>
     <Field Def="f32 observeTime">
-      <DisplayName>Monitoring time (2 cooperating spirits)</DisplayName>
+      <DisplayName>Observation Time - 2 Co-op Phantoms</DisplayName>
       <Description>Monitoring time [sec] (number of cooperating spirits 2)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -85,7 +85,7 @@
       <UnkC8>協力霊数2</UnkC8>
     </Field>
     <Field Def="f32 limitationTime">
-      <DisplayName>Time limit (3 cooperating spirits)</DisplayName>
+      <DisplayName>Limitation Time - 3 Co-op Phantoms</DisplayName>
       <Description>Time limit [sec] (number of cooperating spirits 3)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -98,7 +98,7 @@
       <UnkC8>協力霊数3</UnkC8>
     </Field>
     <Field Def="f32 observeTime">
-      <DisplayName>Monitoring time (3 cooperating spirits)</DisplayName>
+      <DisplayName>Observation Time - 3 Co-op Phantoms</DisplayName>
       <Description>Monitoring time [sec] (number of cooperating spirits 3)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>

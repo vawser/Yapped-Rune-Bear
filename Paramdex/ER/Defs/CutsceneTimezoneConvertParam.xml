@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 SrcTimezoneStart">
-      <DisplayName>Pre-conversion time zone start time [hour]</DisplayName>
+      <DisplayName>Source - Timezone Start</DisplayName>
       <Description>Start time of the time zone to be converted to cutscene time [hour]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -16,7 +16,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 DstCutscenTime">
-      <DisplayName>Cutscene time after conversion [hour]</DisplayName>
+      <DisplayName>Destination - Cutscene Time</DisplayName>
       <Description>Enter the time used during cutscene playback in hours [hour]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

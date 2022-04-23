@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -31,68 +31,72 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="s8 rank">
-      <DisplayName>Magic stone rank</DisplayName>
+      <DisplayName>Rank</DisplayName>
       <Description>Magic stone rank</Description>
       <Minimum>0</Minimum>
       <Maximum>99</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="u8 sortGroupId = 255">
-      <DisplayName>Sort item type ID</DisplayName>
+      <DisplayName>Sort Group ID</DisplayName>
       <Description>Sort item type ID. In the sort "Item type order", the same ID is displayed together as the same group.</Description>
       <SortID>4010</SortID>
     </Field>
     <Field Def="s32 spEffectId0 = -1">
-      <DisplayName>Resident special effect ID00</DisplayName>
+      <DisplayName>SpEffect ID [0]</DisplayName>
       <Description>Special effect ID00</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1100</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId1 = -1">
-      <DisplayName>Resident special effect ID01</DisplayName>
+      <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Special effect ID01</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1110</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId2 = -1">
-      <DisplayName>Resident special effect ID02</DisplayName>
+      <DisplayName>SpEffect ID [2]</DisplayName>
       <Description>Special effect ID02</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1120</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="u32 itemGetTutorialFlagId">
-      <DisplayName>Item acquisition tutorial Judgment flag ID</DisplayName>
+      <DisplayName>Item Get Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when you first get the item. Flag ON when item is obtained.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>-294967297</Maximum>
       <SortID>6300</SortID>
     </Field>
     <Field Def="s32 swordArtsParamId = -1">
-      <DisplayName>Change destination arts parameter ID</DisplayName>
+      <DisplayName>Sword Arts ID</DisplayName>
       <Description>ID of the destination arts parameter</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2000</SortID>
+      <ParamRef1>SwordArtsParam</ParamRef1>
     </Field>
     <Field Def="s32 mountValue">
-      <DisplayName>Installation price</DisplayName>
+      <DisplayName>Application Cost</DisplayName>
       <Description>Installation price</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="s32 sellValue">
-      <DisplayName>Sale price</DisplayName>
+      <DisplayName>Sell Value</DisplayName>
       <Description>Sale price</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>3100</SortID>
     </Field>
     <Field Def="s32 saleValue = -1">
-      <DisplayName>Selling price</DisplayName>
+      <DisplayName>Sale Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -106,21 +110,21 @@
       <SortID>4000</SortID>
     </Field>
     <Field Def="s16 compTrophySedId = -1">
-      <DisplayName>Comptrophy SEQ number</DisplayName>
+      <DisplayName>Achievement ID</DisplayName>
       <Description>SEQ number of complete trophy</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>4100</SortID>
     </Field>
     <Field Def="s16 trophySeqId = -1">
-      <DisplayName>Trophy SEQ number</DisplayName>
+      <DisplayName>Achievement Sequential ID</DisplayName>
       <Description>Trophy SEQ number</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>4200</SortID>
     </Field>
     <Field Def="u8 configurableWepAttr00:1">
-      <DisplayName>0</DisplayName>
+      <DisplayName>Affinity: Standard</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable weapon attribute ID 0</Description>
       <Maximum>1</Maximum>
@@ -128,7 +132,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr01:1">
-      <DisplayName>1</DisplayName>
+      <DisplayName>Affinity: Heavy</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 1</Description>
       <Maximum>1</Maximum>
@@ -136,7 +140,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr02:1">
-      <DisplayName>2</DisplayName>
+      <DisplayName>Affinity: Keen</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 2</Description>
       <Maximum>1</Maximum>
@@ -144,7 +148,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr03:1">
-      <DisplayName>3</DisplayName>
+      <DisplayName>Affinity: Quality</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 3</Description>
       <Maximum>1</Maximum>
@@ -152,7 +156,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr04:1">
-      <DisplayName>Four</DisplayName>
+      <DisplayName>Affinity: Fire</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 4</Description>
       <Maximum>1</Maximum>
@@ -160,7 +164,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr05:1">
-      <DisplayName>Five</DisplayName>
+      <DisplayName>Affinity: Flame Art</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 5</Description>
       <Maximum>1</Maximum>
@@ -168,7 +172,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr06:1">
-      <DisplayName>6</DisplayName>
+      <DisplayName>Affinity: Lightning</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 6</Description>
       <Maximum>1</Maximum>
@@ -176,7 +180,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr07:1">
-      <DisplayName>7</DisplayName>
+      <DisplayName>Affinity: Sacred</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 7</Description>
       <Maximum>1</Maximum>
@@ -184,7 +188,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr08:1">
-      <DisplayName>8</DisplayName>
+      <DisplayName>Affinity: Magic</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 8</Description>
       <Maximum>1</Maximum>
@@ -192,7 +196,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr09:1">
-      <DisplayName>9</DisplayName>
+      <DisplayName>Affinity: Cold</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 9</Description>
       <Maximum>1</Maximum>
@@ -200,7 +204,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr10:1">
-      <DisplayName>Ten</DisplayName>
+      <DisplayName>Affinity: Poison</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 10</Description>
       <Maximum>1</Maximum>
@@ -208,7 +212,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr11:1">
-      <DisplayName>11 11</DisplayName>
+      <DisplayName>Affinity: Blood</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 11</Description>
       <Maximum>1</Maximum>
@@ -216,7 +220,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr12:1">
-      <DisplayName>12</DisplayName>
+      <DisplayName>Affinity: Occult</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 12</Description>
       <Maximum>1</Maximum>
@@ -224,7 +228,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr13:1">
-      <DisplayName>13</DisplayName>
+      <DisplayName>Affinity: Unused [13]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 13</Description>
       <Maximum>1</Maximum>
@@ -232,7 +236,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr14:1">
-      <DisplayName>14</DisplayName>
+      <DisplayName>Affinity: Unused [14]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 14</Description>
       <Maximum>1</Maximum>
@@ -240,7 +244,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr15:1">
-      <DisplayName>15</DisplayName>
+      <DisplayName>Affinity: Unused [15]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 15</Description>
       <Maximum>1</Maximum>
@@ -254,7 +258,7 @@
       <SortID>6200</SortID>
     </Field>
     <Field Def="u8 configurableWepAttr16:1">
-      <DisplayName>16 16</DisplayName>
+      <DisplayName>Affinity: Unused [16]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 16</Description>
       <Maximum>1</Maximum>
@@ -262,7 +266,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr17:1">
-      <DisplayName>17 17</DisplayName>
+      <DisplayName>Affinity: Unused [17]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 17</Description>
       <Maximum>1</Maximum>
@@ -270,7 +274,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr18:1">
-      <DisplayName>18 18</DisplayName>
+      <DisplayName>Affinity: Unused [18]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 18</Description>
       <Maximum>1</Maximum>
@@ -278,7 +282,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr19:1">
-      <DisplayName>19 19</DisplayName>
+      <DisplayName>Affinity: Unused [19]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 19</Description>
       <Maximum>1</Maximum>
@@ -286,7 +290,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr20:1">
-      <DisplayName>20</DisplayName>
+      <DisplayName>Affinity: Unused [20]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 20</Description>
       <Maximum>1</Maximum>
@@ -294,7 +298,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr21:1">
-      <DisplayName>twenty one</DisplayName>
+      <DisplayName>Affinity: Unused [21]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 21</Description>
       <Maximum>1</Maximum>
@@ -302,7 +306,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr22:1">
-      <DisplayName>twenty two</DisplayName>
+      <DisplayName>Affinity: Unused [22]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 22</Description>
       <Maximum>1</Maximum>
@@ -310,7 +314,7 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 configurableWepAttr23:1">
-      <DisplayName>twenty three</DisplayName>
+      <DisplayName>Affinity: Unused [23]</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Configurable Weapon Attribute ID 23</Description>
       <Maximum>1</Maximum>
@@ -318,42 +322,42 @@
       <UnkC8>設定可能武器属性ID</UnkC8>
     </Field>
     <Field Def="u8 isDiscard:1">
-      <DisplayName>Can you throw it away</DisplayName>
+      <DisplayName>Is Discardable</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can you throw away the item? TRUE = thrown away</Description>
       <Maximum>1</Maximum>
       <SortID>5000</SortID>
     </Field>
     <Field Def="u8 isDrop:1">
-      <DisplayName>Can you put it on the spot</DisplayName>
+      <DisplayName>Is Droppable</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can I put the item on the spot? TRUE = can be placed</Description>
       <Maximum>1</Maximum>
       <SortID>5100</SortID>
     </Field>
     <Field Def="u8 isDeposit:1">
-      <DisplayName>Can i deposit</DisplayName>
+      <DisplayName>Is Depositable</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can you leave it in the warehouse?</Description>
       <Maximum>1</Maximum>
       <SortID>5200</SortID>
     </Field>
     <Field Def="u8 disableMultiDropShare:1">
-      <DisplayName>Is multi-drop sharing prohibited?</DisplayName>
+      <DisplayName>Is Drop Disabled in Multiplayer</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Is multi-drop sharing prohibited?</Description>
       <Maximum>1</Maximum>
       <SortID>5300</SortID>
     </Field>
     <Field Def="u8 showDialogCondType:2 = 2">
-      <DisplayName>Acquisition dialog display condition</DisplayName>
+      <DisplayName>Item Acquisition Dialog Condition Type</DisplayName>
       <Enum>GET_DIALOG_CONDITION_TYPE</Enum>
       <Description>Whether to display it in the item acquisition dialog when acquiring an item (not entered: new only)</Description>
       <Maximum>2</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="u8 showLogCondType:1 = 1">
-      <DisplayName>Acquisition log display condition</DisplayName>
+      <DisplayName>Item Acquisition Show Condition Type</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Whether to display in the item acquisition log when acquiring the item (not entered: ○)</Description>
       <Maximum>1</Maximum>
@@ -367,7 +371,7 @@
       <SortID>6303</SortID>
     </Field>
     <Field Def="u8 defaultWepAttr">
-      <DisplayName>Default weapon attribute ID</DisplayName>
+      <DisplayName>Default Weapon Affinity</DisplayName>
       <Description>Default weapon attribute ID. Can be installed even with unopened weapon attributes</Description>
       <Maximum>23</Maximum>
       <SortID>390</SortID>
@@ -380,7 +384,7 @@
       <SortID>6304</SortID>
     </Field>
     <Field Def="u8 canMountWep_Dagger:1">
-      <DisplayName>dagger</DisplayName>
+      <DisplayName>Available: Dagger</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Dagger"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -388,7 +392,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SwordNormal:1">
-      <DisplayName>Straight sword</DisplayName>
+      <DisplayName>Available: Straight Sword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Straight sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -396,7 +400,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SwordLarge:1">
-      <DisplayName>Large sword</DisplayName>
+      <DisplayName>Available: Greatsword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -404,7 +408,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SwordGigantic:1">
-      <DisplayName>Oversized sword</DisplayName>
+      <DisplayName>Available: Colossal Sword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Oversized Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -412,7 +416,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SaberNormal:1">
-      <DisplayName>Music sword</DisplayName>
+      <DisplayName>Available: Curved Sword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Curly Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -420,7 +424,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SaberLarge:1">
-      <DisplayName>Omagari sword</DisplayName>
+      <DisplayName>Available: Curved Greatsword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Omagari Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -428,7 +432,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_katana:1">
-      <DisplayName>sword</DisplayName>
+      <DisplayName>Available: Katana</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -436,7 +440,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SwordDoubleEdge:1">
-      <DisplayName>Double-edged sword</DisplayName>
+      <DisplayName>Available: Twinblade</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Double-edged sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -444,7 +448,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SwordPierce:1">
-      <DisplayName>Sword</DisplayName>
+      <DisplayName>Available: Thrusting Sword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -452,7 +456,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_RapierHeavy:1">
-      <DisplayName>Large sword</DisplayName>
+      <DisplayName>Available: Heavy Thrusting Sword</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Sword"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -460,7 +464,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_AxeNormal:1">
-      <DisplayName>axe</DisplayName>
+      <DisplayName>Available: Axe</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Ax"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -468,7 +472,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_AxeLarge:1">
-      <DisplayName>Large ax</DisplayName>
+      <DisplayName>Available: Greataxe</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Ax"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -476,7 +480,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_HammerNormal:1">
-      <DisplayName>Hammer</DisplayName>
+      <DisplayName>Available: Hammer</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Hammer"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -484,7 +488,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_HammerLarge:1">
-      <DisplayName>Gavel</DisplayName>
+      <DisplayName>Available: Great Hammer</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Gavel"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -492,7 +496,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Flail:1">
-      <DisplayName>Frail</DisplayName>
+      <DisplayName>Available: Flail</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Frail"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -500,7 +504,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SpearNormal:1">
-      <DisplayName>spear</DisplayName>
+      <DisplayName>Available: Spear</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Spear"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -508,7 +512,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SpearLarge:1">
-      <DisplayName>Long spear</DisplayName>
+      <DisplayName>Available: Large Spear</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Long Spear"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -516,7 +520,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SpearHeavy:1">
-      <DisplayName>Large spear</DisplayName>
+      <DisplayName>Available: Heavy Spear</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Spear"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -524,7 +528,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_SpearAxe:1">
-      <DisplayName>Halberd</DisplayName>
+      <DisplayName>Available: Halberd</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Halberd"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -532,7 +536,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Sickle:1">
-      <DisplayName>Sickle</DisplayName>
+      <DisplayName>Available: Reaper</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Sickle"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -540,7 +544,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Knuckle:1">
-      <DisplayName>fist</DisplayName>
+      <DisplayName>Available: Fist</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Fist"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -548,7 +552,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Claw:1">
-      <DisplayName>nail</DisplayName>
+      <DisplayName>Available: Claw</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Claw"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -556,7 +560,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Whip:1">
-      <DisplayName>Whip</DisplayName>
+      <DisplayName>Available: Whip</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Whip"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -564,7 +568,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_AxhammerLarge:1">
-      <DisplayName>Oversized ax mallet</DisplayName>
+      <DisplayName>Available: Colossal Weapon</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Oversized ax mallet"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -572,7 +576,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_BowSmall:1">
-      <DisplayName>Small bow</DisplayName>
+      <DisplayName>Available: Light Bow</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Small bow"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -580,7 +584,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_BowNormal:1">
-      <DisplayName>bow</DisplayName>
+      <DisplayName>Available: Bow</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Bow"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -588,7 +592,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_BowLarge:1">
-      <DisplayName>Large bow</DisplayName>
+      <DisplayName>Available: Greatbow</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Bow"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -596,7 +600,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_ClossBow:1">
-      <DisplayName>Crossbow</DisplayName>
+      <DisplayName>Available: Crossbow</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Crossbow"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -604,7 +608,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Ballista:1">
-      <DisplayName>Varistor</DisplayName>
+      <DisplayName>Available: Ballista</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Varistor"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -612,7 +616,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Staff:1">
-      <DisplayName>Wand</DisplayName>
+      <DisplayName>Available: Staff</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Wand"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -620,7 +624,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Sorcery:1">
-      <DisplayName>tattoo</DisplayName>
+      <DisplayName>Available: Unused Catalyst</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Tattoo"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -628,7 +632,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Talisman:1">
-      <DisplayName>Holy mark</DisplayName>
+      <DisplayName>Available: Seal</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Holy Mark"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -636,7 +640,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_ShieldSmall:1">
-      <DisplayName>Small shield</DisplayName>
+      <DisplayName>Available: Small Shield</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Small Shield"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -644,7 +648,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_ShieldNormal:1">
-      <DisplayName>Middle shield</DisplayName>
+      <DisplayName>Available: Medium Shield</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Middle Shield"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -652,7 +656,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_ShieldLarge:1">
-      <DisplayName>Pavise</DisplayName>
+      <DisplayName>Available: Greatshield</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon Type: Large Shield"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -660,7 +664,7 @@
       <UnkC8>装着可能な武器種別か</UnkC8>
     </Field>
     <Field Def="u8 canMountWep_Torch:1">
-      <DisplayName>torch</DisplayName>
+      <DisplayName>Available: Torch</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Can it be attached to "Weapon type: Torch"? No input becomes x</Description>
       <Maximum>1</Maximum>
@@ -678,42 +682,45 @@
       <SortID>6306</SortID>
     </Field>
     <Field Def="s32 spEffectMsgId0 = -1">
-      <DisplayName>Effect text ID 00</DisplayName>
+      <DisplayName>SpEffect Message ID [0]</DisplayName>
       <Description>Effect text ID 00 (Gem_Effect). Magic stone effect text to display in status</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 spEffectMsgId1 = -1">
-      <DisplayName>Effect text ID 01</DisplayName>
+      <DisplayName>SpEffect Message ID [1]</DisplayName>
       <Description>Effect text ID 01 (Gem_Effect). Magic stone effect text to display in status</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>1310</SortID>
     </Field>
     <Field Def="s32 spEffectId_forAtk0 = -1">
-      <DisplayName>Special effect ID00 on attack hit</DisplayName>
+      <DisplayName>SpEffect ID - Attack Hit [0]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1000</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId_forAtk1 = -1">
-      <DisplayName>Special effect ID01 on attack hit</DisplayName>
+      <DisplayName>SpEffect ID - Attack Hit [1]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1010</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectId_forAtk2 = -1">
-      <DisplayName>Special effect ID02 on attack hit</DisplayName>
+      <DisplayName>SpEffect ID - Attack Hit [2]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1020</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 mountWepTextId = -1">
-      <DisplayName>Corresponding weapon type overwrite text ID</DisplayName>
+      <DisplayName>Mount Weapon Text ID</DisplayName>
       <Description>Corresponding Weapon Type Overwrite Text ID (-1: Do not overwrite) [Menu Text]</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>

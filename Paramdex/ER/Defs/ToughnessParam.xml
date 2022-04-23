@@ -36,6 +36,7 @@
       <Minimum>-1</Minimum>
       <Maximum>9999999</Maximum>
       <SortID>300</SortID>
+      <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 proCorrectionRate = 1">
       <DisplayName>Armor toughness correction factor</DisplayName>

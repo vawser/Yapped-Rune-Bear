@@ -7,46 +7,82 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 materialId01 = -1">
-      <DisplayName>Required Material Item ID 01</DisplayName>
+      <DisplayName>Material ID [1]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>100</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 materialId02 = -1">
-      <DisplayName>Required Material Item ID 02</DisplayName>
+      <DisplayName>Material ID [2]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>300</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 materialId03 = -1">
-      <DisplayName>Required Material Item ID 03</DisplayName>
+      <DisplayName>Material ID [3]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>500</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 materialId04 = -1">
-      <DisplayName>Required Material Item ID 04</DisplayName>
+      <DisplayName>Material ID [4]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>700</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 materialId05 = -1">
-      <DisplayName>Required Material Item ID 05</DisplayName>
+      <DisplayName>Material ID [5]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>900</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 materialId06 = -1">
-      <DisplayName>Required Material Item ID 06</DisplayName>
+      <DisplayName>Material ID [6]</DisplayName>
       <Description>Material item ID required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>10000000</Maximum>
       <SortID>1100</SortID>
+      <ParamRef1>EquipParamAccessory</ParamRef1>
+      <ParamRef2>EquipParamCustomWeapon</ParamRef2>
+      <ParamRef3>EquipParamProtector</ParamRef3>
+      <ParamRef4>EquipParamGem</ParamRef4>
+      <ParamRef5>EquipParamGoods</ParamRef5>
+      <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="dummy8 pad_id[8]">
       <DisplayName>Padding</DisplayName>
@@ -54,42 +90,42 @@
       <SortID>99999999</SortID>
     </Field>
     <Field Def="s8 itemNum01 = -1">
-      <DisplayName>Required number 01</DisplayName>
+      <DisplayName>Material Amount [1]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s8 itemNum02 = -1">
-      <DisplayName>Required number 02</DisplayName>
+      <DisplayName>Material Amount [2]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="s8 itemNum03 = -1">
-      <DisplayName>Required number 03</DisplayName>
+      <DisplayName>Material Amount [3]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s8 itemNum04 = -1">
-      <DisplayName>Required number 04</DisplayName>
+      <DisplayName>Material Amount [4]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="s8 itemNum05 = -1">
-      <DisplayName>Required number 05</DisplayName>
+      <DisplayName>Material Amount [5]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="s8 itemNum06 = -1">
-      <DisplayName>Required number 06</DisplayName>
+      <DisplayName>Material Amount [6]</DisplayName>
       <Description>The number of material items required to strengthen armor.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
@@ -101,42 +137,42 @@
       <SortID>99999999</SortID>
     </Field>
     <Field Def="u8 materialCate01 = 4">
-      <DisplayName>Required Material Item Category 01</DisplayName>
+      <DisplayName>Material Category [1]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="u8 materialCate02 = 4">
-      <DisplayName>Required Material Item Category 02</DisplayName>
+      <DisplayName>Material Category [2]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
       <SortID>310</SortID>
     </Field>
     <Field Def="u8 materialCate03 = 4">
-      <DisplayName>Required Material Item Category 03</DisplayName>
+      <DisplayName>Material Category [3]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
       <SortID>510</SortID>
     </Field>
     <Field Def="u8 materialCate04 = 4">
-      <DisplayName>Required Material Item Category 04</DisplayName>
+      <DisplayName>Material Category [4]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
       <SortID>710</SortID>
     </Field>
     <Field Def="u8 materialCate05 = 4">
-      <DisplayName>Required Material Item Category 05</DisplayName>
+      <DisplayName>Material Category [5]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
       <SortID>910</SortID>
     </Field>
     <Field Def="u8 materialCate06 = 4">
-      <DisplayName>Required Material Item Category 06</DisplayName>
+      <DisplayName>Material Category [6]</DisplayName>
       <Enum>GAITEM_CATEGORY</Enum>
       <Description>This is a category of material items required for strengthening armor.</Description>
       <Maximum>15</Maximum>
@@ -148,37 +184,37 @@
       <SortID>99999999</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum01:1">
-      <DisplayName>Disable number display 01</DisplayName>
+      <DisplayName>Disable Display Number [1]</DisplayName>
       <Description>Disable the number display (for enhanced shops)</Description>
       <Maximum>1</Maximum>
       <SortID>250</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum02:1">
-      <DisplayName>Disable number display 02</DisplayName>
+      <DisplayName>Disable Display Number [2]</DisplayName>
       <Description>Whether to disable the number display</Description>
       <Maximum>1</Maximum>
       <SortID>450</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum03:1">
-      <DisplayName>Disable number display 03</DisplayName>
+      <DisplayName>Disable Display Number [3]</DisplayName>
       <Description>Whether to disable the number display</Description>
       <Maximum>1</Maximum>
       <SortID>650</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum04:1">
-      <DisplayName>Disable number display 04</DisplayName>
+      <DisplayName>Disable Display Number [4]</DisplayName>
       <Description>Whether to disable the number display</Description>
       <Maximum>1</Maximum>
       <SortID>850</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum05:1">
-      <DisplayName>Disable number display 05</DisplayName>
+      <DisplayName>Disable Display Number [5]</DisplayName>
       <Description>Whether to disable the number display</Description>
       <Maximum>1</Maximum>
       <SortID>1050</SortID>
     </Field>
     <Field Def="u8 isDisableDispNum06:1">
-      <DisplayName>Disable number display 06</DisplayName>
+      <DisplayName>Disable Display Number [6]</DisplayName>
       <Description>Whether to disable the number display</Description>
       <Maximum>1</Maximum>
       <SortID>1250</SortID>

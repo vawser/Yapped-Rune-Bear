@@ -7,13 +7,13 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 limitNum_byGroup">
-      <DisplayName>Maximum number of bullets in the group</DisplayName>
+      <DisplayName>Max Amount - By Group</DisplayName>
       <Description>Maximum number of creations in the same group</Description>
       <SortID>10000</SortID>
       <UnkC8 />
     </Field>
     <Field Def="u8 isLimitEachOwner:1">
-      <DisplayName>Is it restricted for each owner?</DisplayName>
+      <DisplayName>Is Limited for each Owner</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Is it restricted for each owner?</Description>
       <Maximum>1</Maximum>

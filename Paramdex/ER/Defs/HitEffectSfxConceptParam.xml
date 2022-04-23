@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 atkIron_1">
-      <DisplayName>Iron: Concept 1</DisplayName>
+      <DisplayName>Iron [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Iron: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -15,7 +15,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="s16 atkIron_2">
-      <DisplayName>Iron: Concept 2</DisplayName>
+      <DisplayName>Iron [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Iron: Concept 2</Description>
       <Minimum>0</Minimum>
@@ -23,7 +23,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="s16 atkLeather_1">
-      <DisplayName>Made of leather: Concept 1</DisplayName>
+      <DisplayName>Leather [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Leather: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -31,7 +31,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="s16 atkLeather_2">
-      <DisplayName>Made of leather: Concept 2</DisplayName>
+      <DisplayName>Leather [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Leather: Concept 2</Description>
       <Minimum>0</Minimum>
@@ -39,7 +39,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="s16 atkWood_1">
-      <DisplayName>Wooden: Concept 1</DisplayName>
+      <DisplayName>Wood [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Wooden: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -47,7 +47,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="s16 atkWood_2">
-      <DisplayName>Wooden: Concept 2</DisplayName>
+      <DisplayName>Wood [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Wooden: Concept 2</Description>
       <Minimum>0</Minimum>
@@ -55,7 +55,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="s16 atkBody_1">
-      <DisplayName>Meat: Concept 1</DisplayName>
+      <DisplayName>Flesh [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Meat: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -63,7 +63,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="s16 atkBody_2">
-      <DisplayName>Meat: Concept 2</DisplayName>
+      <DisplayName>Flesh [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Meat: Concept 2</Description>
       <Minimum>0</Minimum>
@@ -71,7 +71,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="s16 atkStone_1">
-      <DisplayName>Stone: Concept 1</DisplayName>
+      <DisplayName>Stone [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Corrosion: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -79,7 +79,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="s16 atkStone_2">
-      <DisplayName>Stone: Concept 2</DisplayName>
+      <DisplayName>Stone [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>Corrosion: Concept 2</Description>
       <Minimum>0</Minimum>
@@ -93,7 +93,7 @@
       <SortID>15</SortID>
     </Field>
     <Field Def="s16 atkNone_1">
-      <DisplayName>None: Concept 1</DisplayName>
+      <DisplayName>None [1]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>None: Concept 1</Description>
       <Minimum>0</Minimum>
@@ -101,7 +101,7 @@
       <SortID>11</SortID>
     </Field>
     <Field Def="s16 atkNone_2">
-      <DisplayName>None: Concept 2</DisplayName>
+      <DisplayName>None [2]</DisplayName>
       <Enum>HIT_EFFECT_SFX_CONCEPT_TYPE</Enum>
       <Description>None: Concept 2</Description>
       <Minimum>0</Minimum>

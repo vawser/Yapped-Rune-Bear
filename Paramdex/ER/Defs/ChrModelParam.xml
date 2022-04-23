@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,26 +26,26 @@
       <SortID>302</SortID>
     </Field>
     <Field Def="u8 modelMemoryType">
-      <DisplayName>Model used memory type</DisplayName>
+      <DisplayName>Model Memory Type</DisplayName>
       <Enum>CHR_MEMORY_TYPE</Enum>
       <Description>Model used memory type</Description>
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 texMemoryType">
-      <DisplayName>Texture usage memory type</DisplayName>
+      <DisplayName>Texture Memory Type</DisplayName>
       <Enum>CHR_MEMORY_TYPE</Enum>
       <Description>Texture usage memory type</Description>
       <SortID>200</SortID>
     </Field>
     <Field Def="s16 cameraDitherFadeId">
-      <DisplayName>Camera fade parameter ID</DisplayName>
+      <DisplayName>Camera Dither Fade ID</DisplayName>
       <Description>Camera fade parameter ID (-1: refer to material, 0: do not disappear, 1 ~: parameter ID)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="f32 reportAnimMemSizeMb = 12">
-      <DisplayName>Report animation capacity (MB)</DisplayName>
+      <DisplayName>Send Report - Animation Memory Size MB</DisplayName>
       <Description>If this value is exceeded, a report will be sent by the reporting system.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

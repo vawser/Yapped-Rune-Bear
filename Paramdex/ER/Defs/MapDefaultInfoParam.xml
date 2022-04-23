@@ -194,6 +194,7 @@
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>106</SortID>
+      <ParamRef1>MapMimicryEstablishmentParam</ParamRef1>
     </Field>
     <Field Def="s8 OverrideGIResolution_XSX = -1">
       <DisplayName>GI resolution overwrite setting _XSX platform</DisplayName>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 NearMinDist">
-      <DisplayName>Distance to be transparent (m)</DisplayName>
+      <DisplayName>Proximity Fade: Minimum Near Distance</DisplayName>
       <Description>Near Fade minimum distance (m): Distance where α = 0</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -15,7 +15,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 NearMaxDist">
-      <DisplayName>Distance that begins to become transparent (m)</DisplayName>
+      <DisplayName>Proximity Fade: Maximum Near Distance</DisplayName>
       <Description>Near fade maximum distance (m): Starting distance between α = Middel Alpha</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -23,7 +23,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 FarMinDist">
-      <DisplayName>Distance to become translucent (m)</DisplayName>
+      <DisplayName>Proximity Fade: Minimum Far Distance</DisplayName>
       <Description>Minimum distance of Far fade (m): End distance between α = Middle Alpha</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -31,14 +31,14 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 FarMaxDist">
-      <DisplayName>Distance (m) at which it begins to become translucent</DisplayName>
+      <DisplayName>Proximity Fade: Maximum Far Distance</DisplayName>
       <Description>Maximum Far Fade Distance (m): Distance where α = 1</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <Increment>1</Increment>
     </Field>
     <Field Def="f32 MiddleAlpha">
-      <DisplayName>Translucent darkness (α value)</DisplayName>
+      <DisplayName>Proximity Fade: Alpha</DisplayName>
       <Description>Intermediate α value</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
