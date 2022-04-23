@@ -31,6 +31,7 @@
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>400</SortID>
+      <ParamRef1>BehaviorParam_PC</ParamRef1>
     </Field>
     <Field Def="s32 sortId">
       <DisplayName>Sort ID</DisplayName>

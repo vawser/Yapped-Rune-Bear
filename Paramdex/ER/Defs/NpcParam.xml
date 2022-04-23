@@ -31,6 +31,7 @@
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <SortID>1000</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_poison = -1">
       <DisplayName>Poison resistance correction rule ID</DisplayName>
