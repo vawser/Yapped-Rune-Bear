@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>Shadow is enabled</DisplayName>
+      <DisplayName>Shadow Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Shadow is enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -15,7 +15,7 @@
       <Maximum>1</Maximum>
     </Field>
     <Field Def="u8 maxFilterLevel = 1">
-      <DisplayName>Maximum filter quality allowed</DisplayName>
+      <DisplayName>Maximum Filter Level</DisplayName>
       <Enum>GX_SHADOW_FILTER_LEVEL</Enum>
       <Description>Maximum filter quality allowed</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -27,7 +27,7 @@
       <SortID>9999</SortID>
     </Field>
     <Field Def="u32 textureSizeScaler = 1">
-      <DisplayName>Scaler with set shadow map resolution</DisplayName>
+      <DisplayName>Texture Size Scalar</DisplayName>
       <Description>Scaler with set shadow map resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -36,7 +36,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u32 textureSizeDivider = 2">
-      <DisplayName>Divide the set shadow map resolution</DisplayName>
+      <DisplayName>Texture Size Division</DisplayName>
       <Description>Divide the set shadow map resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -45,7 +45,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u32 textureMinSize = 128">
-      <DisplayName>Minimum resolution</DisplayName>
+      <DisplayName>Minimum Resolution</DisplayName>
       <Description>Clamp resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -54,7 +54,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="u32 textureMaxSize = 1024">
-      <DisplayName>Maximum resolution</DisplayName>
+      <DisplayName>Maximum Resolution</DisplayName>
       <Description>Clamp the resolution. It will be the resolution judgment for each cascade</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -63,7 +63,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="s32 blurCountBias = -1">
-      <DisplayName>Blur count bias</DisplayName>
+      <DisplayName>Blur Count Bias</DisplayName>
       <Description>Blur count bias (set count bias, unchanged at 0)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>

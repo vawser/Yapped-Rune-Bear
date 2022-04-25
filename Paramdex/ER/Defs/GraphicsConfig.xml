@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 m_textureFilterQuality = 2">
-      <DisplayName>Texture filter quality</DisplayName>
+      <DisplayName>Texture Filter Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Texture filter quality (default Midele)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -15,7 +15,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 m_aaQuality = 3">
-      <DisplayName>AA quality</DisplayName>
+      <DisplayName>AA Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>AA quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -23,7 +23,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 m_ssaoQuality = 3">
-      <DisplayName>SSAO quality</DisplayName>
+      <DisplayName>SSAO Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>SSAO quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -31,7 +31,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="u8 m_dofQuality = 3">
-      <DisplayName>Depth of field quality</DisplayName>
+      <DisplayName>Depth of Field Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Depth of field quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -39,7 +39,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="u8 m_motionBlurQuality = 3">
-      <DisplayName>Motion blur quality</DisplayName>
+      <DisplayName>Motion Blur Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Motion blur quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -47,7 +47,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="u8 m_shadowQuality = 3">
-      <DisplayName>Shadow quality</DisplayName>
+      <DisplayName>Shadow Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Shadow quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -55,7 +55,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="u8 m_lightingQuality = 3">
-      <DisplayName>Lighting quality</DisplayName>
+      <DisplayName>Lighting Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Lighting quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -63,7 +63,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="u8 m_effectQuality = 3">
-      <DisplayName>Effect quality</DisplayName>
+      <DisplayName>Effect Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Effect quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -71,7 +71,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="u8 m_decalQuality = 3">
-      <DisplayName>Decal quality</DisplayName>
+      <DisplayName>Decal Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Decal quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -79,7 +79,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="u8 m_reflectionQuality = 3">
-      <DisplayName>Reflection quality</DisplayName>
+      <DisplayName>Reflection Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Reflection quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -87,7 +87,7 @@
       <SortID>10</SortID>
     </Field>
     <Field Def="u8 m_waterQuality = 3">
-      <DisplayName>Water quality</DisplayName>
+      <DisplayName>Water Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Water quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -95,7 +95,7 @@
       <SortID>11</SortID>
     </Field>
     <Field Def="u8 m_shaderQuality = 3">
-      <DisplayName>Shader quality</DisplayName>
+      <DisplayName>Shader Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Shader quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -103,7 +103,7 @@
       <SortID>12</SortID>
     </Field>
     <Field Def="u8 m_volumetricEffectQuality = 3">
-      <DisplayName>Volumetric effect quality</DisplayName>
+      <DisplayName>Volumetric Effect Quality</DisplayName>
       <Enum>GX_QUALITY_LEVEL_ENUM</Enum>
       <Description>Volumetric effect quality (default High)</Description>
       <DisplayFormat>%u</DisplayFormat>

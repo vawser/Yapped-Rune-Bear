@@ -7,23 +7,23 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u16 lodRange">
-      <DisplayName>LOD distance</DisplayName>
+      <DisplayName>LOD Distance</DisplayName>
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 lod0ClusterType">
-      <DisplayName>LOD0 cluster type</DisplayName>
+      <DisplayName>LOD 0 - Cluster Type</DisplayName>
       <Enum>GRASS_CLUSTER_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 lod1ClusterType">
-      <DisplayName>LOD1 cluster type</DisplayName>
+      <DisplayName>LOD 1 - Cluster Type</DisplayName>
       <Enum>GRASS_CLUSTER_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>3</SortID>
     </Field>
     <Field Def="u8 lod2ClusterType">
-      <DisplayName>LOD2 cluster type</DisplayName>
+      <DisplayName>LOD 2 - Cluster Type</DisplayName>
       <Enum>GRASS_CLUSTER_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>4</SortID>
@@ -33,13 +33,13 @@
       <SortID>39</SortID>
     </Field>
     <Field Def="u8 distributionType">
-      <DisplayName>Placement method</DisplayName>
+      <DisplayName>Placement Method</DisplayName>
       <Enum>GRASS_DISTRIBUTION_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 baseDensity = 1">
-      <DisplayName>Basic density</DisplayName>
+      <DisplayName>Base Density</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -47,136 +47,136 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="fixstrW model0Name[16]">
-      <DisplayName>Model name (0)</DisplayName>
+      <DisplayName>Model Name [0]</DisplayName>
       <SortID>7</SortID>
     </Field>
     <Field Def="fixstrW flatTextureName[32]">
-      <DisplayName>Flat texture name</DisplayName>
+      <DisplayName>Flat Texture Name</DisplayName>
       <SortID>8</SortID>
     </Field>
     <Field Def="fixstrW billboardTextureName[32]">
-      <DisplayName>Billboard texture name</DisplayName>
+      <DisplayName>Billboard Texture Name</DisplayName>
       <SortID>9</SortID>
     </Field>
     <Field Def="u8 normalInfluence">
-      <DisplayName>Effect of tilt (%)</DisplayName>
+      <DisplayName>Effect of Tilt %</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>100</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="u8 inclinationMax = 90">
-      <DisplayName>Maximum tilt angle (degrees)</DisplayName>
+      <DisplayName>Maximum Tilt Angle</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>180</Maximum>
       <SortID>11</SortID>
     </Field>
     <Field Def="u8 inclinationJitter">
-      <DisplayName>Randomness of tilt angle (degrees)</DisplayName>
+      <DisplayName>Randomness of Tilt Angle</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>180</Maximum>
       <SortID>12</SortID>
     </Field>
     <Field Def="u8 scaleBaseMin = 100">
-      <DisplayName>Width scale range (min,%)</DisplayName>
+      <DisplayName>Width Scale - Min</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>13</SortID>
     </Field>
     <Field Def="u8 scaleBaseMax = 100">
-      <DisplayName>Width scale range (max,%)</DisplayName>
+      <DisplayName>Width Scale - Max</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>14</SortID>
     </Field>
     <Field Def="u8 scaleHeightMin = 100">
-      <DisplayName>Height scale range (min,%)</DisplayName>
+      <DisplayName>Height Scale - Min</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>15</SortID>
     </Field>
     <Field Def="u8 scaleHeightMax = 100">
-      <DisplayName>Height scale range (max,%)</DisplayName>
+      <DisplayName>Height Scale - Max</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>16</SortID>
     </Field>
     <Field Def="u8 colorShade1_r = 255">
-      <DisplayName>Multiplication color 1 (red)</DisplayName>
+      <DisplayName>Color Shade [1]: R</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>17</SortID>
     </Field>
     <Field Def="u8 colorShade1_g = 255">
-      <DisplayName>Multiplication color 1 (green)</DisplayName>
+      <DisplayName>Color Shade [1]: G</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>18</SortID>
     </Field>
     <Field Def="u8 colorShade1_b = 255">
-      <DisplayName>Multiplication color 1 (blue)</DisplayName>
+      <DisplayName>Color Shade [1]: B</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>19</SortID>
     </Field>
     <Field Def="u8 colorShade2_r = 255">
-      <DisplayName>Multiplication color 2 (red)</DisplayName>
+      <DisplayName>Color Shade [2]: R</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>20</SortID>
     </Field>
     <Field Def="u8 colorShade2_g = 255">
-      <DisplayName>Multiplication color 2 (green)</DisplayName>
+      <DisplayName>Color Shade [1]: G</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>21</SortID>
     </Field>
     <Field Def="u8 colorShade2_b = 255">
-      <DisplayName>Multiplication color 2 (blue)</DisplayName>
+      <DisplayName>Color Shade [1]: B</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>22</SortID>
     </Field>
     <Field Def="u8 flatSplitType">
-      <DisplayName>Separation of planes</DisplayName>
+      <DisplayName>Plane Split Type</DisplayName>
       <Enum>GRASS_FLAT_SPLIT_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>23</SortID>
     </Field>
     <Field Def="u8 flatBladeCount = 2">
-      <DisplayName>Number of planes</DisplayName>
+      <DisplayName>Number of Planes</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
       <Maximum>8</Maximum>
       <SortID>24</SortID>
     </Field>
     <Field Def="s8 flatSlant">
-      <DisplayName>Plane angle (degrees)</DisplayName>
+      <DisplayName>Plane Angle</DisplayName>
       <Minimum>-90</Minimum>
       <Maximum>90</Maximum>
       <SortID>25</SortID>
     </Field>
     <Field Def="f32 flatRadius">
-      <DisplayName>Plane distance</DisplayName>
+      <DisplayName>Plane Distance</DisplayName>
       <Minimum>-10</Minimum>
       <Maximum>10</Maximum>
       <Increment>0.1</Increment>
       <SortID>26</SortID>
     </Field>
     <Field Def="u8 castShadow = 1">
-      <DisplayName>Do you want to cast a shadow</DisplayName>
+      <DisplayName>Cast Shadow</DisplayName>
       <Enum>GRASS_SHADOW_TYPE_ENUM</Enum>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>27</SortID>
     </Field>
     <Field Def="u8 windAmplitude = 80">
-      <DisplayName>Amplitude (magnitude of shaking)</DisplayName>
+      <DisplayName>Wind Amplitude</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>28</SortID>
     </Field>
@@ -187,12 +187,12 @@
       <SortID>40</SortID>
     </Field>
     <Field Def="u8 windCycle = 40">
-      <DisplayName>Cycle (speed)</DisplayName>
+      <DisplayName>Wind Speed</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>29</SortID>
     </Field>
     <Field Def="f32 orientationAngle = -1">
-      <DisplayName>Direction (degree)</DisplayName>
+      <DisplayName>Direction</DisplayName>
       <Description>Random for -1</Description>
       <Minimum>-1</Minimum>
       <Maximum>360</Maximum>
@@ -200,14 +200,14 @@
       <SortID>30</SortID>
     </Field>
     <Field Def="f32 orientationRange = -1">
-      <DisplayName>Directional range (degrees)</DisplayName>
+      <DisplayName>Direction Range</DisplayName>
       <Minimum>-1</Minimum>
       <Maximum>180</Maximum>
       <Increment>1</Increment>
       <SortID>31</SortID>
     </Field>
     <Field Def="f32 spacing">
-      <DisplayName>Model spacing</DisplayName>
+      <DisplayName>Model Spacing</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <Increment>0.1</Increment>
@@ -223,11 +223,11 @@
       <SortID>41</SortID>
     </Field>
     <Field Def="fixstrW simpleModelName[16]">
-      <DisplayName>Simple model name</DisplayName>
+      <DisplayName>Simple Model Name</DisplayName>
       <SortID>34</SortID>
     </Field>
     <Field Def="fixstrW model1Name[16]">
-      <DisplayName>Model name (1)</DisplayName>
+      <DisplayName>Model Name [1]</DisplayName>
       <SortID>35</SortID>
     </Field>
   </Fields>

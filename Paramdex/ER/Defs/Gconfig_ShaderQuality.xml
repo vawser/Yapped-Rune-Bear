@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 sssEnabled = 1">
-      <DisplayName>SSS enabled</DisplayName>
+      <DisplayName>SSS Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>SSS enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -16,7 +16,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 tessellationEnabled">
-      <DisplayName>Tessellation enabled</DisplayName>
+      <DisplayName>Tessellation Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Tessellation enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -25,7 +25,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 highPrecisionNormalEnabled">
-      <DisplayName>High precision normal effective</DisplayName>
+      <DisplayName>High Precision Normal Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>High precision normal valid (setting the accuracy of the normal stored in G-Buffer)</Description>
       <DisplayFormat>%u</DisplayFormat>

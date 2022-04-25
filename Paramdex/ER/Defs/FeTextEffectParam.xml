@@ -34,7 +34,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 canMixMapName:1">
-      <DisplayName>Whether to display at the same time as the map name</DisplayName>
+      <DisplayName>Display Simultaneously with Map Name</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to display at the same time as the map name</Description>
       <EditFlags>None</EditFlags>

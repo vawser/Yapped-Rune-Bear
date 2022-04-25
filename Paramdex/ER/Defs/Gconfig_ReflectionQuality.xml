@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>Reflective effective</DisplayName>
+      <DisplayName>Reflection Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Reflective effective</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -16,7 +16,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 localLightEnabled = 1">
-      <DisplayName>Local light enabled</DisplayName>
+      <DisplayName>Local Light Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Local light enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -25,7 +25,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 localLightForceEnabled">
-      <DisplayName>Local light forced enable</DisplayName>
+      <DisplayName>Local Light Forced Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Local light forced enable</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -38,7 +38,7 @@
       <SortID>13</SortID>
     </Field>
     <Field Def="u32 resolutionDivider = 2">
-      <DisplayName>Resolution scale</DisplayName>
+      <DisplayName>Resolution Scale</DisplayName>
       <Description>Resolution scale</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -47,7 +47,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="u8 ssrEnabled = 1">
-      <DisplayName>SSR enabled</DisplayName>
+      <DisplayName>SSR Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>SSR enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -56,7 +56,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="u8 ssrGaussianBlurEnabled = 1">
-      <DisplayName>Gaussian blur permission</DisplayName>
+      <DisplayName>Gaussian Blur Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Gaussian blur permission</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -69,7 +69,7 @@
       <SortID>14</SortID>
     </Field>
     <Field Def="f32 ssrDepthRejectThresholdScale = 1">
-      <DisplayName>Calculated distance scale</DisplayName>
+      <DisplayName>Calculated Distance Scale</DisplayName>
       <Description>Calculated distance scale</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0.2</Minimum>
@@ -77,7 +77,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 ssrRayTraceStepScale = 1">
-      <DisplayName>Raytrace step factor (multiply by SSR parameter)</DisplayName>
+      <DisplayName>Raytrace Step Scale</DisplayName>
       <Description>Raytrace step factor (multiply by SSR parameter)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0.2</Minimum>
@@ -85,7 +85,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="f32 ssrFadeToViewerBias">
-      <DisplayName>Fade angle bias. High quality when made smaller</DisplayName>
+      <DisplayName>Fade Angle Bias</DisplayName>
       <Description>Fade angle bias. High quality when made smaller</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -93,7 +93,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="f32 ssrFresnelRejectBias">
-      <DisplayName>Fresnel reject bias. High quality when made smaller</DisplayName>
+      <DisplayName>Fresnel Reject Bias</DisplayName>
       <Description>Fresnel reject bias. High quality when made smaller</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>

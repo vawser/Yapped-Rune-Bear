@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled">
-      <DisplayName>AA valid</DisplayName>
+      <DisplayName>AA Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>AA valid</Description>
       <DisplayFormat>%u</DisplayFormat>

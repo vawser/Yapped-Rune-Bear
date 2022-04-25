@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>DOF permission</DisplayName>
+      <DisplayName>Depth of Field Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>DOF permission</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -20,7 +20,7 @@
       <SortID>9999</SortID>
     </Field>
     <Field Def="s32 forceHiResoBlur = -1">
-      <DisplayName>Change HiResolutionBlur settings</DisplayName>
+      <DisplayName>Force High Resolution Blur</DisplayName>
       <Description>Change the HiResolutionBlur setting (-1: forced off, 0: as-is, 1: forced on)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -28,7 +28,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 maxBlurLevel = 1">
-      <DisplayName>Maximum blur level</DisplayName>
+      <DisplayName>Maximum Blur Level</DisplayName>
       <Description>Maximum blur level. 2: Maximum, 1: Level to one paragraph, 0: Further reduce accuracy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

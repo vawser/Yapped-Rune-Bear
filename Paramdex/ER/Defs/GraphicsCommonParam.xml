@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 hitBulletDecalOffset_HitIns = 0.05">
-      <DisplayName>Decal generation position offset when a bullet hits HIT INS</DisplayName>
+      <DisplayName>Hit Bullet Decal Offset - Hit INS</DisplayName>
       <Description>The position where the decal that occurs when hitting HIT INS is offset by this value in the normal direction.</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -21,7 +21,7 @@
       <SortID>401</SortID>
     </Field>
     <Field Def="f32 charaWetDecalFadeRange = 0.6">
-      <DisplayName>Decal fade range when the character gets wet [m]</DisplayName>
+      <DisplayName>Character Wet Decal Fade Range</DisplayName>
       <Description>Fade range that erases decals when the character gets wet [m]</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>

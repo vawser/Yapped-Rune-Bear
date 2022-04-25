@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 LOD0_range">
-      <DisplayName>LOD0-distance</DisplayName>
+      <DisplayName>LOD 0 - Distance</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -15,7 +15,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 LOD0_play">
-      <DisplayName>LOD0-play</DisplayName>
+      <DisplayName>LOD 0 - Play</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -23,7 +23,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 LOD1_range">
-      <DisplayName>LOD1-distance</DisplayName>
+      <DisplayName>LOD 1 - Distance</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -31,7 +31,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 LOD1_play">
-      <DisplayName>LOD1-Play</DisplayName>
+      <DisplayName>LOD 1 - Play</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -39,7 +39,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 LOD2_range">
-      <DisplayName>LOD2-distance</DisplayName>
+      <DisplayName>LOD 2 - Distance</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -47,7 +47,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 LOD2_play">
-      <DisplayName>LOD2-Play</DisplayName>
+      <DisplayName>LOD 2 - Play</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>

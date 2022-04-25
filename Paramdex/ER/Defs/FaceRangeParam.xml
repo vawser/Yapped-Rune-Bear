@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 face_partsId">
-      <DisplayName>Face part ID</DisplayName>
+      <DisplayName>Face - Parts ID</DisplayName>
       <Description>Face part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -16,7 +16,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 skin_color_R">
-      <DisplayName>Skin color (R)</DisplayName>
+      <DisplayName>Skin - Color: R</DisplayName>
       <Description>Skin color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -25,7 +25,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 skin_color_G">
-      <DisplayName>Skin color (G)</DisplayName>
+      <DisplayName>Skin - Color: G</DisplayName>
       <Description>Skin color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -34,7 +34,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 skin_color_B">
-      <DisplayName>Skin color (B)</DisplayName>
+      <DisplayName>Skin - Color: B</DisplayName>
       <Description>Skin color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -43,7 +43,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 skin_gloss">
-      <DisplayName>Shiny skin</DisplayName>
+      <DisplayName>Skin - Gloss</DisplayName>
       <Description>Shiny skin</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -52,7 +52,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 skin_pores">
-      <DisplayName>pores</DisplayName>
+      <DisplayName>Skin - Pores</DisplayName>
       <Description>pores</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -61,7 +61,7 @@
       <UnkC8>顔・体</UnkC8>
     </Field>
     <Field Def="f32 face_beard">
-      <DisplayName>Blue beard</DisplayName>
+      <DisplayName>Face - Beard</DisplayName>
       <Description>Blue beard</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -70,7 +70,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_aroundEye">
-      <DisplayName>Bear</DisplayName>
+      <DisplayName>Face - Around Eye</DisplayName>
       <Description>Bear</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -79,7 +79,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_aroundEyeColor_R">
-      <DisplayName>Bear color (R)</DisplayName>
+      <DisplayName>Face - Around Eye Color: R</DisplayName>
       <Description>Bear color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -88,7 +88,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_aroundEyeColor_G">
-      <DisplayName>Bear color (G)</DisplayName>
+      <DisplayName>Face - Around Eye Color: G</DisplayName>
       <Description>Bear color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -97,7 +97,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_aroundEyeColor_B">
-      <DisplayName>Bear color (B)</DisplayName>
+      <DisplayName>Face - Around Eye Color: B</DisplayName>
       <Description>Bear color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -106,7 +106,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_cheek">
-      <DisplayName>cheek</DisplayName>
+      <DisplayName>Face - Cheek</DisplayName>
       <Description>cheek</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -115,7 +115,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_cheekColor_R">
-      <DisplayName>Teak color (R)</DisplayName>
+      <DisplayName>Face - Cheek Color: R</DisplayName>
       <Description>Teak color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -124,7 +124,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_cheekColor_G">
-      <DisplayName>Teak color (G)</DisplayName>
+      <DisplayName>Face - Cheek Color: G</DisplayName>
       <Description>Teak color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -133,7 +133,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_cheekColor_B">
-      <DisplayName>Teak color (B)</DisplayName>
+      <DisplayName>Face - Cheek Color: B</DisplayName>
       <Description>Teak color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -142,7 +142,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeLine">
-      <DisplayName>Eyeline</DisplayName>
+      <DisplayName>Face - Eyeline</DisplayName>
       <Description>Eyeline</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -151,7 +151,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeLineColor_R">
-      <DisplayName>Eyeliner color (R)</DisplayName>
+      <DisplayName>Face - Eyeline Color: R</DisplayName>
       <Description>Eyeliner color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -160,7 +160,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeLineColor_G">
-      <DisplayName>Eyeliner color (G)</DisplayName>
+      <DisplayName>Face - Eyeline Color: G</DisplayName>
       <Description>Eyeliner color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -169,7 +169,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeLineColor_B">
-      <DisplayName>Eyeliner color (B)</DisplayName>
+      <DisplayName>Face - Eyeline Color: B</DisplayName>
       <Description>Eyeliner color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -178,7 +178,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowDown">
-      <DisplayName>Eye shadow (bottom)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Down)</DisplayName>
       <Description>Eye shadow (bottom)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -187,7 +187,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowDownColor_R">
-      <DisplayName>Eyeshadow (bottom) color (R)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Down) Color: R</DisplayName>
       <Description>Eyeshadow (bottom) color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -196,7 +196,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowDownColor_G">
-      <DisplayName>Eyeshadow (bottom) color (G)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Down) Color: G</DisplayName>
       <Description>Eyeshadow (bottom) color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -205,7 +205,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowDownColor_B">
-      <DisplayName>Eyeshadow (bottom) color (B)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Down) Color: B</DisplayName>
       <Description>Eyeshadow (bottom) color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -214,7 +214,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowUp">
-      <DisplayName>Eye shadow (top)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Up)</DisplayName>
       <Description>Eye shadow (top)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -223,7 +223,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowUpColor_R">
-      <DisplayName>Eyeshadow (top) color (R)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Up) Color: R</DisplayName>
       <Description>Eyeshadow (top) color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -232,7 +232,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowUpColor_G">
-      <DisplayName>Eyeshadow (top) color (G)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Up) Color: G</DisplayName>
       <Description>Eyeshadow (top) color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -241,7 +241,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_eyeShadowUpColor_B">
-      <DisplayName>Eyeshadow (top) color (B)</DisplayName>
+      <DisplayName>Face - Eyeshadow (Up) Color: B</DisplayName>
       <Description>Eyeshadow (top) color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -250,7 +250,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_lip">
-      <DisplayName>lipstick</DisplayName>
+      <DisplayName>Face - Lip</DisplayName>
       <Description>lipstick</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -259,7 +259,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_lipColor_R">
-      <DisplayName>Lipstick color (R)</DisplayName>
+      <DisplayName>Face - Lip Color: R</DisplayName>
       <Description>Lipstick color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -268,7 +268,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_lipColor_G">
-      <DisplayName>Lipstick color (G)</DisplayName>
+      <DisplayName>Face - Lip Color: G</DisplayName>
       <Description>Lipstick color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -277,7 +277,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 face_lipColor_B">
-      <DisplayName>Lipstick color (B)</DisplayName>
+      <DisplayName>Face - Lip Color: B</DisplayName>
       <Description>Lipstick color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -286,7 +286,7 @@
       <UnkC8>顔</UnkC8>
     </Field>
     <Field Def="f32 body_hair">
-      <DisplayName>Hair thickness</DisplayName>
+      <DisplayName>Body - Hair</DisplayName>
       <Description>Hair thickness</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -295,7 +295,7 @@
       <UnkC8>体</UnkC8>
     </Field>
     <Field Def="f32 body_hairColor_R">
-      <DisplayName>Hair color (R)</DisplayName>
+      <DisplayName>Body - Hair Color: R</DisplayName>
       <Description>Hair color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -304,7 +304,7 @@
       <UnkC8>体</UnkC8>
     </Field>
     <Field Def="f32 body_hairColor_G">
-      <DisplayName>Hair color (G)</DisplayName>
+      <DisplayName>Body - Hair Color: G</DisplayName>
       <Description>Hair color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -313,7 +313,7 @@
       <UnkC8>体</UnkC8>
     </Field>
     <Field Def="f32 body_hairColor_B">
-      <DisplayName>Hair color (B)</DisplayName>
+      <DisplayName>Body - Hair Color: B</DisplayName>
       <Description>Hair color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -322,7 +322,7 @@
       <UnkC8>体</UnkC8>
     </Field>
     <Field Def="f32 eye_partsId">
-      <DisplayName>Eyeball part ID</DisplayName>
+      <DisplayName>Eyes - Parts ID</DisplayName>
       <Description>Eyeball part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -331,7 +331,7 @@
       <UnkC8>眼球</UnkC8>
     </Field>
     <Field Def="f32 eyeR_irisColor_R">
-      <DisplayName>Iris color (R)</DisplayName>
+      <DisplayName>Right Eye - Iris Color: R</DisplayName>
       <Description>Right eye iris color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -340,7 +340,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_irisColor_G">
-      <DisplayName>Iris color (G)</DisplayName>
+      <DisplayName>Right Eye - Iris Color: G</DisplayName>
       <Description>Right eye iris color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -349,7 +349,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_irisColor_B">
-      <DisplayName>Iris color (B)</DisplayName>
+      <DisplayName>Right Eye - Iris Color: B</DisplayName>
       <Description>Right eye iris color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -358,7 +358,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_irisScale">
-      <DisplayName>The size of the iris</DisplayName>
+      <DisplayName>Right Eye - Iris Scale</DisplayName>
       <Description>The size of the iris of the right eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -367,7 +367,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_cataract">
-      <DisplayName>Cloudiness of the crystalline lens</DisplayName>
+      <DisplayName>Right Eye - Cataract</DisplayName>
       <Description>Cloudiness of the crystalline lens of the right eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -376,7 +376,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_cataractColor_R">
-      <DisplayName>The turbid color of the crystalline lens (R)</DisplayName>
+      <DisplayName>Right Eye - Cataract Color: R</DisplayName>
       <Description>The turbid color of the crystalline lens of the right eye (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -385,7 +385,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_cataractColor_G">
-      <DisplayName>The turbid color of the crystalline lens (G)</DisplayName>
+      <DisplayName>Right Eye - Cataract Color: G</DisplayName>
       <Description>The turbid color of the crystalline lens of the right eye (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -394,7 +394,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_cataractColor_B">
-      <DisplayName>The turbid color of the crystalline lens (B)</DisplayName>
+      <DisplayName>Right Eye - Cataract Color: B</DisplayName>
       <Description>The turbid color of the crystalline lens of the right eye (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -403,7 +403,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_scleraColor_R">
-      <DisplayName>White eye color (R)</DisplayName>
+      <DisplayName>Right Eye - Sclera Color: R</DisplayName>
       <Description>White eye color of the right eye (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -412,7 +412,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_scleraColor_G">
-      <DisplayName>White eye color (G)</DisplayName>
+      <DisplayName>Right Eye - Sclera Color: G</DisplayName>
       <Description>White eye color of the right eye (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -421,7 +421,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_scleraColor_B">
-      <DisplayName>White eye color (B)</DisplayName>
+      <DisplayName>Right Eye - Sclera Color: B</DisplayName>
       <Description>White eye color of the right eye (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -430,7 +430,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeR_irisDistance">
-      <DisplayName>Position of the iris</DisplayName>
+      <DisplayName>Right Eye - Iris Distance</DisplayName>
       <Description>Position of the iris of the right eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -439,7 +439,7 @@
       <UnkC8>右目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_irisColor_R">
-      <DisplayName>Iris color (R)</DisplayName>
+      <DisplayName>Left Eye - Iris Color: R</DisplayName>
       <Description>Left eye iris color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -448,7 +448,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_irisColor_G">
-      <DisplayName>Iris color (G)</DisplayName>
+      <DisplayName>Left Eye - Iris Color: G</DisplayName>
       <Description>Left eye iris color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -457,7 +457,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_irisColor_B">
-      <DisplayName>Iris color (B)</DisplayName>
+      <DisplayName>Left Eye - Iris Color: B</DisplayName>
       <Description>Left eye iris color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -466,7 +466,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_irisScale">
-      <DisplayName>The size of the iris</DisplayName>
+      <DisplayName>Left Eye - Iris Scale</DisplayName>
       <Description>The size of the iris of the left eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -475,7 +475,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_cataract">
-      <DisplayName>Cloudiness of the crystalline lens</DisplayName>
+      <DisplayName>Left Eye - Cataract</DisplayName>
       <Description>Cloudiness of the crystalline lens of the left eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -484,7 +484,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_cataractColor_R">
-      <DisplayName>The turbid color of the crystalline lens (R)</DisplayName>
+      <DisplayName>Left Eye - Cataract Color: R</DisplayName>
       <Description>The turbid color of the crystalline lens of the left eye (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -493,7 +493,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_cataractColor_G">
-      <DisplayName>The turbid color of the crystalline lens (G)</DisplayName>
+      <DisplayName>Left Eye - Cataract Color: G</DisplayName>
       <Description>The turbid color of the crystalline lens of the left eye (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -502,7 +502,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_cataractColor_B">
-      <DisplayName>The turbid color of the crystalline lens (B)</DisplayName>
+      <DisplayName>Left Eye - Cataract Color: B</DisplayName>
       <Description>The turbid color of the crystalline lens of the left eye (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -511,7 +511,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_scleraColor_R">
-      <DisplayName>White eye color (R)</DisplayName>
+      <DisplayName>Left Eye - Sclera Color: R</DisplayName>
       <Description>White eye color of the left eye (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -520,7 +520,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_scleraColor_G">
-      <DisplayName>White eye color (G)</DisplayName>
+      <DisplayName>Left Eye - Sclera Color: G</DisplayName>
       <Description>White eye color of the left eye (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -529,7 +529,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_scleraColor_B">
-      <DisplayName>White eye color (B)</DisplayName>
+      <DisplayName>Left Eye - Sclera Color: B</DisplayName>
       <Description>White eye color of the left eye (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -538,7 +538,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 eyeL_irisDistance">
-      <DisplayName>Position of the iris</DisplayName>
+      <DisplayName>Left Eye - Iris Distance</DisplayName>
       <Description>Position of the iris of the left eye</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -547,7 +547,7 @@
       <UnkC8>左目</UnkC8>
     </Field>
     <Field Def="f32 hair_partsId">
-      <DisplayName>Hair part ID</DisplayName>
+      <DisplayName>Hair - Parts ID</DisplayName>
       <Description>Hair part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -556,7 +556,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_color_R">
-      <DisplayName>Hair color (R)</DisplayName>
+      <DisplayName>Hair - Color: R</DisplayName>
       <Description>Hair color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -565,7 +565,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_color_G">
-      <DisplayName>Hair color (G)</DisplayName>
+      <DisplayName>Hair - Color: G</DisplayName>
       <Description>Hair color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -574,7 +574,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_color_B">
-      <DisplayName>Hair color (B)</DisplayName>
+      <DisplayName>Hair - Color: B</DisplayName>
       <Description>Hair color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -583,7 +583,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_shininess">
-      <DisplayName>Gloss</DisplayName>
+      <DisplayName>Hair - Shininess</DisplayName>
       <Description>Hair gloss</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -592,7 +592,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_rootBlack">
-      <DisplayName>Blackness at the base</DisplayName>
+      <DisplayName>Hair - Root Black</DisplayName>
       <Description>Blackness at the base of hair</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -601,7 +601,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 hair_whiteDensity">
-      <DisplayName>Amount of gray hair</DisplayName>
+      <DisplayName>Hair - White Density</DisplayName>
       <Description>Amount of white hair</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -610,7 +610,7 @@
       <UnkC8>髪</UnkC8>
     </Field>
     <Field Def="f32 beard_partsId">
-      <DisplayName>Beard part ID</DisplayName>
+      <DisplayName>Beard - Parts ID</DisplayName>
       <Description>Beard part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -619,7 +619,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_color_R">
-      <DisplayName>Beard color (R)</DisplayName>
+      <DisplayName>Beard - Color: R</DisplayName>
       <Description>Beard color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -628,7 +628,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_color_G">
-      <DisplayName>Beard color (G)</DisplayName>
+      <DisplayName>Beard - Color: G</DisplayName>
       <Description>Beard color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -637,7 +637,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_color_B">
-      <DisplayName>Beard color (B)</DisplayName>
+      <DisplayName>Beard - Color: B</DisplayName>
       <Description>Beard color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -646,7 +646,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_shininess">
-      <DisplayName>Gloss</DisplayName>
+      <DisplayName>Beard - Shininess</DisplayName>
       <Description>Beard luster</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -655,7 +655,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_rootBlack">
-      <DisplayName>Blackness at the base</DisplayName>
+      <DisplayName>Beard - Root Black</DisplayName>
       <Description>Blackness at the base of the beard</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -664,7 +664,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 beard_whiteDensity">
-      <DisplayName>Amount of gray hair</DisplayName>
+      <DisplayName>Beard - White Density</DisplayName>
       <Description>Amount of white hair with a beard</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -673,7 +673,7 @@
       <UnkC8>髭</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_partsId">
-      <DisplayName>Eyebrow part ID</DisplayName>
+      <DisplayName>Eyebrow - Parts ID</DisplayName>
       <Description>Eyebrow part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -682,7 +682,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_color_R">
-      <DisplayName>Eyebrow color (R)</DisplayName>
+      <DisplayName>Eyebrow - Color: R</DisplayName>
       <Description>Eyebrow color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -691,7 +691,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_color_G">
-      <DisplayName>Eyebrow color (G)</DisplayName>
+      <DisplayName>Eyebrow - Color: G</DisplayName>
       <Description>Eyebrow color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -700,7 +700,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_color_B">
-      <DisplayName>Eyebrow color (B)</DisplayName>
+      <DisplayName>Eyebrow - Color: B</DisplayName>
       <Description>Eyebrow color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -709,7 +709,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_shininess">
-      <DisplayName>Gloss</DisplayName>
+      <DisplayName>Eyebrow - Shininess</DisplayName>
       <Description>Glossy eyebrows</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -718,7 +718,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_rootBlack">
-      <DisplayName>Blackness at the base</DisplayName>
+      <DisplayName>Eyebrow - Root Black</DisplayName>
       <Description>Blackness at the base of the eyebrows</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -727,7 +727,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyebrow_whiteDensity">
-      <DisplayName>Amount of gray hair</DisplayName>
+      <DisplayName>Eyebrow - White Density</DisplayName>
       <Description>Amount of white hair on the eyebrows</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -736,7 +736,7 @@
       <UnkC8>眉</UnkC8>
     </Field>
     <Field Def="f32 eyelash_partsId">
-      <DisplayName>Eyelash parts ID</DisplayName>
+      <DisplayName>Eyelash - Parts ID</DisplayName>
       <Description>Eyelash parts ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -745,7 +745,7 @@
       <UnkC8>まつげ</UnkC8>
     </Field>
     <Field Def="f32 eyelash_color_R">
-      <DisplayName>Eyelash color (R)</DisplayName>
+      <DisplayName>Eyelash - Color: R</DisplayName>
       <Description>Eyelash color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -754,7 +754,7 @@
       <UnkC8>まつげ</UnkC8>
     </Field>
     <Field Def="f32 eyelash_color_G">
-      <DisplayName>Eyelash color (G)</DisplayName>
+      <DisplayName>Eyelash - Color: G</DisplayName>
       <Description>Eyelash color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -763,7 +763,7 @@
       <UnkC8>まつげ</UnkC8>
     </Field>
     <Field Def="f32 eyelash_color_B">
-      <DisplayName>Eyelash color (B)</DisplayName>
+      <DisplayName>Eyelash - Color: B</DisplayName>
       <Description>Eyelash color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -772,7 +772,7 @@
       <UnkC8>まつげ</UnkC8>
     </Field>
     <Field Def="f32 accessories_partsId">
-      <DisplayName>Decorative part ID</DisplayName>
+      <DisplayName>Accessories - Parts ID</DisplayName>
       <Description>Decorative part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -781,7 +781,7 @@
       <UnkC8>装飾</UnkC8>
     </Field>
     <Field Def="f32 accessories_color_R">
-      <DisplayName>Decoration color (R)</DisplayName>
+      <DisplayName>Accessories - Color: R</DisplayName>
       <Description>Decoration color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -790,7 +790,7 @@
       <UnkC8>装飾</UnkC8>
     </Field>
     <Field Def="f32 accessories_color_G">
-      <DisplayName>Decoration color (G)</DisplayName>
+      <DisplayName>Accessories - Color: G</DisplayName>
       <Description>Decoration color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -799,7 +799,7 @@
       <UnkC8>装飾</UnkC8>
     </Field>
     <Field Def="f32 accessories_color_B">
-      <DisplayName>Decorative color (B)</DisplayName>
+      <DisplayName>Accessories - Color: B</DisplayName>
       <Description>Decorative color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -808,7 +808,7 @@
       <UnkC8>装飾</UnkC8>
     </Field>
     <Field Def="f32 decal_partsId">
-      <DisplayName>Decal part ID</DisplayName>
+      <DisplayName>Decal - Parts ID</DisplayName>
       <Description>Decal part ID</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -817,7 +817,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_posX">
-      <DisplayName>Decal position (x)</DisplayName>
+      <DisplayName>Decal - Position: X</DisplayName>
       <Description>Decal position (x)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -826,7 +826,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_posY">
-      <DisplayName>Decal position (y)</DisplayName>
+      <DisplayName>Decal - Position: Y</DisplayName>
       <Description>Decal position (y)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -835,7 +835,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_angle">
-      <DisplayName>Decal angle</DisplayName>
+      <DisplayName>Decal - Angle</DisplayName>
       <Description>Decal angle</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -844,7 +844,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_scale">
-      <DisplayName>Decal scale</DisplayName>
+      <DisplayName>Decal - Scale</DisplayName>
       <Description>Decal scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -853,7 +853,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_color_R">
-      <DisplayName>Decal color (R)</DisplayName>
+      <DisplayName>Decal - Color: R</DisplayName>
       <Description>Decal color (R)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -862,7 +862,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_color_G">
-      <DisplayName>Decal color (G)</DisplayName>
+      <DisplayName>Decal - Color: G</DisplayName>
       <Description>Decal color (G)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -871,7 +871,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_color_B">
-      <DisplayName>Decal color (B)</DisplayName>
+      <DisplayName>Decal - Color: B</DisplayName>
       <Description>Decal color (B)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -880,7 +880,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_gloss">
-      <DisplayName>Decal gloss</DisplayName>
+      <DisplayName>Decal - Gloss</DisplayName>
       <Description>Decal gloss</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -889,7 +889,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 decal_mirror">
-      <DisplayName>Decal reversal</DisplayName>
+      <DisplayName>Decal - Mirror</DisplayName>
       <Description>Decal reversal</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -898,7 +898,7 @@
       <UnkC8>デカール</UnkC8>
     </Field>
     <Field Def="f32 chrBodyScaleHead">
-      <DisplayName>Character body head scale</DisplayName>
+      <DisplayName>Chr Body Scale - Head</DisplayName>
       <Description>Character body head scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -907,7 +907,7 @@
       <UnkC8>体型スケール</UnkC8>
     </Field>
     <Field Def="f32 chrBodyScaleBreast">
-      <DisplayName>Character body chest scale</DisplayName>
+      <DisplayName>Chr Body Scale - Breast</DisplayName>
       <Description>Character body chest scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -916,7 +916,7 @@
       <UnkC8>体型スケール</UnkC8>
     </Field>
     <Field Def="f32 chrBodyScaleAbdomen">
-      <DisplayName>Character body type abdominal scale</DisplayName>
+      <DisplayName>Chr Body Scale - Abdomen</DisplayName>
       <Description>Character body type abdominal scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -925,7 +925,7 @@
       <UnkC8>体型スケール</UnkC8>
     </Field>
     <Field Def="f32 chrBodyScaleArm">
-      <DisplayName>Character body type arm scale</DisplayName>
+      <DisplayName>Chr Body Scale - Arm</DisplayName>
       <Description>Character body type arm scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -934,7 +934,7 @@
       <UnkC8>体型スケール</UnkC8>
     </Field>
     <Field Def="f32 chrBodyScaleLeg">
-      <DisplayName>Character body type leg scale</DisplayName>
+      <DisplayName>Chr Body Scale - Leg</DisplayName>
       <Description>Character body type leg scale</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -943,7 +943,7 @@
       <UnkC8>体型スケール</UnkC8>
     </Field>
     <Field Def="f32 age">
-      <DisplayName>age</DisplayName>
+      <DisplayName>Age</DisplayName>
       <Description>age</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -952,7 +952,7 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 gender">
-      <DisplayName>sex</DisplayName>
+      <DisplayName>Gender</DisplayName>
       <Description>sex</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -961,7 +961,7 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 caricatureGeometry">
-      <DisplayName>Exaggeration (model)</DisplayName>
+      <DisplayName>Model Geometry</DisplayName>
       <Description>Exaggeration (model)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -970,7 +970,7 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 caricatureTexture">
-      <DisplayName>Exaggeration (texture)</DisplayName>
+      <DisplayName>Model Texture</DisplayName>
       <Description>Exaggeration (texture)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
@@ -979,8 +979,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData00">
-      <DisplayName>Face creation geometry data 00</DisplayName>
-      <Description>Face creation geometry data 00</Description>
+      <DisplayName>Face - Geo Data [00]]</DisplayName>
+      <Description>Face - Geo Data [00]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -988,8 +988,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData01">
-      <DisplayName>Face creation geometry data 01</DisplayName>
-      <Description>Face creation geometry data 01</Description>
+      <DisplayName>Face - Geo Data [01]</DisplayName>
+      <Description>Face - Geo Data [01]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -997,8 +997,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData02">
-      <DisplayName>Face creation geometry data 02</DisplayName>
-      <Description>Face creation geometry data 02</Description>
+      <DisplayName>Face - Geo Data [02]</DisplayName>
+      <Description>Face - Geo Data [02]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1006,8 +1006,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData03">
-      <DisplayName>Face creation geometry data 03</DisplayName>
-      <Description>Face creation geometry data 03</Description>
+      <DisplayName>Face - Geo Data [03]</DisplayName>
+      <Description>Face - Geo Data [03]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1015,8 +1015,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData04">
-      <DisplayName>Face creation geometry data 04</DisplayName>
-      <Description>Face creation geometry data 04</Description>
+      <DisplayName>Face - Geo Data [04]</DisplayName>
+      <Description>Face - Geo Data [04]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1024,8 +1024,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData05">
-      <DisplayName>Face creation geometry data 05</DisplayName>
-      <Description>Face creation geometry data 05</Description>
+      <DisplayName>Face - Geo Data [05]</DisplayName>
+      <Description>Face - Geo Data [05]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1033,8 +1033,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData06">
-      <DisplayName>Face creation geometry data 06</DisplayName>
-      <Description>Face creation geometry data 06</Description>
+      <DisplayName>Face - Geo Data [06]</DisplayName>
+      <Description>Face - Geo Data [06]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1042,8 +1042,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData07">
-      <DisplayName>Face creation geometry data 07</DisplayName>
-      <Description>Face creation geometry data 07</Description>
+      <DisplayName>Face - Geo Data [07]</DisplayName>
+      <Description>Face - Geo Data [07]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1051,8 +1051,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData08">
-      <DisplayName>Face creation geometry data 08</DisplayName>
-      <Description>Face creation geometry data 08</Description>
+      <DisplayName>Face - Geo Data [08]</DisplayName>
+      <Description>Face - Geo Data [08]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1060,8 +1060,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData09">
-      <DisplayName>Face creation geometry data 09</DisplayName>
-      <Description>Face creation geometry data 09</Description>
+      <DisplayName>Face - Geo Data [09]</DisplayName>
+      <Description>Face - Geo Data [09]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1069,8 +1069,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData10">
-      <DisplayName>Face creation geometry data 10</DisplayName>
-      <Description>Face creation geometry data 10</Description>
+      <DisplayName>Face - Geo Data [10]</DisplayName>
+      <Description>Face - Geo Data [10]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1078,8 +1078,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData11">
-      <DisplayName>Face creation geometry data 11</DisplayName>
-      <Description>Face creation geometry data 11</Description>
+      <DisplayName>Face - Geo Data [11]</DisplayName>
+      <Description>Face - Geo Data [11]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1087,8 +1087,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData12">
-      <DisplayName>Face creation geometry data 12</DisplayName>
-      <Description>Face creation geometry data 12</Description>
+      <DisplayName>Face - Geo Data [12]</DisplayName>
+      <Description>Face - Geo Data [12]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1096,8 +1096,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData13">
-      <DisplayName>Face creation geometry data 13</DisplayName>
-      <Description>Face creation geometry data 13</Description>
+      <DisplayName>Face - Geo Data [13]</DisplayName>
+      <Description>Face - Geo Data [13]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1105,8 +1105,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData14">
-      <DisplayName>Face creation geometry data 14</DisplayName>
-      <Description>Face creation geometry data 14</Description>
+      <DisplayName>Face - Geo Data [14]</DisplayName>
+      <Description>Face - Geo Data [14]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1114,8 +1114,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData15">
-      <DisplayName>Face creation geometry data 15</DisplayName>
-      <Description>Face creation geometry data 15</Description>
+      <DisplayName>Face - Geo Data [15]</DisplayName>
+      <Description>Face - Geo Data [15]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1123,8 +1123,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData16">
-      <DisplayName>Face creation geometry data 16</DisplayName>
-      <Description>Face creation geometry data 16</Description>
+      <DisplayName>Face - Geo Data [16]</DisplayName>
+      <Description>Face - Geo Data [16]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1132,8 +1132,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData17">
-      <DisplayName>Face creation geometry data 17</DisplayName>
-      <Description>Face creation geometry data 17</Description>
+      <DisplayName>Face - Geo Data [17]</DisplayName>
+      <Description>Face - Geo Data [17]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1141,8 +1141,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData18">
-      <DisplayName>Face creation geometry data 18</DisplayName>
-      <Description>Face creation geometry data 18</Description>
+      <DisplayName>Face - Geo Data [18]</DisplayName>
+      <Description>Face - Geo Data [18]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1150,8 +1150,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData19">
-      <DisplayName>Face creation geometry data 19</DisplayName>
-      <Description>Face creation geometry data 19</Description>
+      <DisplayName>Face - Geo Data [19]</DisplayName>
+      <Description>Face - Geo Data [19]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1159,8 +1159,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData20">
-      <DisplayName>Face creation geometry data 20</DisplayName>
-      <Description>Face creation geometry data 20</Description>
+      <DisplayName>Face - Geo Data [20]</DisplayName>
+      <Description>Face - Geo Data [20]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1168,8 +1168,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData21">
-      <DisplayName>Face creation geometry data 21</DisplayName>
-      <Description>Face creation geometry data 21</Description>
+      <DisplayName>Face - Geo Data [21]</DisplayName>
+      <Description>Face - Geo Data [21]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1177,8 +1177,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData22">
-      <DisplayName>Face creation geometry data 22</DisplayName>
-      <Description>Face creation geometry data 22</Description>
+      <DisplayName>Face - Geo Data [22]</DisplayName>
+      <Description>Face - Geo Data [22]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1186,8 +1186,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData23">
-      <DisplayName>Face creation geometry data 23</DisplayName>
-      <Description>Face creation geometry data 23</Description>
+      <DisplayName>Face - Geo Data [23]</DisplayName>
+      <Description>Face - Geo Data [23]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1195,8 +1195,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData24">
-      <DisplayName>Face creation geometry data 24</DisplayName>
-      <Description>Face creation geometry data 24</Description>
+      <DisplayName>Face - Geo Data [24]</DisplayName>
+      <Description>Face - Geo Data [24]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1204,8 +1204,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData25">
-      <DisplayName>Face creation geometry data 25</DisplayName>
-      <Description>Face creation geometry data 25</Description>
+      <DisplayName>Face - Geo Data [25]</DisplayName>
+      <Description>Face - Geo Data [25]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1213,8 +1213,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData26">
-      <DisplayName>Face creation geometry data 26</DisplayName>
-      <Description>Face creation geometry data 26</Description>
+      <DisplayName>Face - Geo Data [26]</DisplayName>
+      <Description>Face - Geo Data [26]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1222,8 +1222,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData27">
-      <DisplayName>Face creation geometry data 27</DisplayName>
-      <Description>Face creation geometry data 27</Description>
+      <DisplayName>Face - Geo Data [27]</DisplayName>
+      <Description>Face - Geo Data [27]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1231,8 +1231,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData28">
-      <DisplayName>Face creation geometry data 28</DisplayName>
-      <Description>Face creation geometry data 28</Description>
+      <DisplayName>Face - Geo Data [28]</DisplayName>
+      <Description>Face - Geo Data [28]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1240,8 +1240,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData29">
-      <DisplayName>Face creation geometry data 29</DisplayName>
-      <Description>Face creation geometry data 29</Description>
+      <DisplayName>Face - Geo Data [29]</DisplayName>
+      <Description>Face - Geo Data [29]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1249,8 +1249,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData30">
-      <DisplayName>Face creation geometry data 30</DisplayName>
-      <Description>Face creation geometry data 30</Description>
+      <DisplayName>Face - Geo Data [30]</DisplayName>
+      <Description>Face - Geo Data [30]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1258,8 +1258,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData31">
-      <DisplayName>Face creation geometry data 31</DisplayName>
-      <Description>Face creation geometry data 31</Description>
+      <DisplayName>Face - Geo Data [31]</DisplayName>
+      <Description>Face - Geo Data [31]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1267,8 +1267,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData32">
-      <DisplayName>Face creation geometry data 32</DisplayName>
-      <Description>Face creation geometry data 32</Description>
+      <DisplayName>Face - Geo Data [32]</DisplayName>
+      <Description>Face - Geo Data [32]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1276,8 +1276,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData33">
-      <DisplayName>Face creation geometry data 33</DisplayName>
-      <Description>Face creation geometry data 33</Description>
+      <DisplayName>Face - Geo Data [33]</DisplayName>
+      <Description>Face - Geo Data [33]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1285,8 +1285,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData34">
-      <DisplayName>Face creation geometry data 34</DisplayName>
-      <Description>Face creation geometry data 34</Description>
+      <DisplayName>Face - Geo Data [34]</DisplayName>
+      <Description>Face - Geo Data [34]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1294,8 +1294,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData35">
-      <DisplayName>Face creation geometry data 35</DisplayName>
-      <Description>Face creation geometry data 35</Description>
+      <DisplayName>Face - Geo Data [35]</DisplayName>
+      <Description>Face - Geo Data [35]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1303,8 +1303,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData36">
-      <DisplayName>Face creation geometry data 36</DisplayName>
-      <Description>Face creation geometry data 36</Description>
+      <DisplayName>Face - Geo Data [36]</DisplayName>
+      <Description>Face - Geo Data [36]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1312,8 +1312,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData37">
-      <DisplayName>Face creation geometry data 37</DisplayName>
-      <Description>Face creation geometry data 37</Description>
+      <DisplayName>Face - Geo Data [37]</DisplayName>
+      <Description>Face - Geo Data [37]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1321,8 +1321,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData38">
-      <DisplayName>Face creation geometry data 38</DisplayName>
-      <Description>Face creation geometry data 38</Description>
+      <DisplayName>Face - Geo Data [38]</DisplayName>
+      <Description>Face - Geo Data [38]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1330,8 +1330,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData39">
-      <DisplayName>Face creation geometry data 39</DisplayName>
-      <Description>Face creation geometry data 39</Description>
+      <DisplayName>Face - Geo Data [39]</DisplayName>
+      <Description>Face - Geo Data [39]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1339,8 +1339,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData40">
-      <DisplayName>Face creation geometry data 40</DisplayName>
-      <Description>Face creation geometry data 40</Description>
+      <DisplayName>Face - Geo Data [40]</DisplayName>
+      <Description>Face - Geo Data [40]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1348,8 +1348,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData41">
-      <DisplayName>Face creation geometry data 41</DisplayName>
-      <Description>Face creation geometry data 41</Description>
+      <DisplayName>Face - Geo Data [41]</DisplayName>
+      <Description>Face - Geo Data [41]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1357,8 +1357,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData42">
-      <DisplayName>Face creation geometry data 42</DisplayName>
-      <Description>Face creation geometry data 42</Description>
+      <DisplayName>Face - Geo Data [42]</DisplayName>
+      <Description>Face - Geo Data [42]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1366,8 +1366,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData43">
-      <DisplayName>Face creation geometry data 43</DisplayName>
-      <Description>Face creation geometry data 43</Description>
+      <DisplayName>Face - Geo Data [43]</DisplayName>
+      <Description>Face - Geo Data [43]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1375,8 +1375,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData44">
-      <DisplayName>Face creation geometry data 44</DisplayName>
-      <Description>Face creation geometry data 44</Description>
+      <DisplayName>Face - Geo Data [44]</DisplayName>
+      <Description>Face - Geo Data [44]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1384,8 +1384,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData45">
-      <DisplayName>Face creation geometry data 45</DisplayName>
-      <Description>Face creation geometry data 45</Description>
+      <DisplayName>Face - Geo Data [45]</DisplayName>
+      <Description>Face - Geo Data [45]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1393,8 +1393,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData46">
-      <DisplayName>Face creation geometry data 46</DisplayName>
-      <Description>Face creation geometry data 46</Description>
+      <DisplayName>Face - Geo Data [46]</DisplayName>
+      <Description>Face - Geo Data [46]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1402,8 +1402,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData47">
-      <DisplayName>Face creation geometry data 47</DisplayName>
-      <Description>Face creation geometry data 47</Description>
+      <DisplayName>Face - Geo Data [47]</DisplayName>
+      <Description>Face - Geo Data [47]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1411,8 +1411,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData48">
-      <DisplayName>Face creation geometry data 48</DisplayName>
-      <Description>Face creation geometry data 48</Description>
+      <DisplayName>Face - Geo Data [48]</DisplayName>
+      <Description>Face - Geo Data [48]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1420,8 +1420,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData49">
-      <DisplayName>Face creation geometry data 49</DisplayName>
-      <Description>Face creation geometry data 49</Description>
+      <DisplayName>Face - Geo Data [49]</DisplayName>
+      <Description>Face - Geo Data [49]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1429,8 +1429,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData50">
-      <DisplayName>Face creation geometry data 50</DisplayName>
-      <Description>Face creation geometry data 50</Description>
+      <DisplayName>Face - Geo Data [50]</DisplayName>
+      <Description>Face - Geo Data [50]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1438,8 +1438,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData51">
-      <DisplayName>Face creation geometry data 51</DisplayName>
-      <Description>Face creation geometry data 51</Description>
+      <DisplayName>Face - Geo Data [51]</DisplayName>
+      <Description>Face - Geo Data [51]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1447,8 +1447,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData52">
-      <DisplayName>Face creation geometry data 52</DisplayName>
-      <Description>Face creation geometry data 52</Description>
+      <DisplayName>Face - Geo Data [52]</DisplayName>
+      <Description>Face - Geo Data [52]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1456,8 +1456,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData53">
-      <DisplayName>Face creation geometry data 53</DisplayName>
-      <Description>Face creation geometry data 53</Description>
+      <DisplayName>Face - Geo Data [53]</DisplayName>
+      <Description>Face - Geo Data [53]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1465,8 +1465,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData54">
-      <DisplayName>Face creation geometry data 54</DisplayName>
-      <Description>Face creation geometry data 54</Description>
+      <DisplayName>Face - Geo Data [54]</DisplayName>
+      <Description>Face - Geo Data [54]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1474,8 +1474,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData55">
-      <DisplayName>Face creation geometry data 55</DisplayName>
-      <Description>Face creation geometry data 55</Description>
+      <DisplayName>Face - Geo Data [55]</DisplayName>
+      <Description>Face - Geo Data [55]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1483,8 +1483,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData56">
-      <DisplayName>Face creation geometry data 56</DisplayName>
-      <Description>Face creation geometry data 56</Description>
+      <DisplayName>Face - Geo Data [56]</DisplayName>
+      <Description>Face - Geo Data [56]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1492,8 +1492,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData57">
-      <DisplayName>Face creation geometry data 57</DisplayName>
-      <Description>Face creation geometry data 57</Description>
+      <DisplayName>Face - Geo Data [57]</DisplayName>
+      <Description>Face - Geo Data [57]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1501,8 +1501,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData58">
-      <DisplayName>Face creation geometry data 58</DisplayName>
-      <Description>Face creation geometry data 58</Description>
+      <DisplayName>Face - Geo Data [58]</DisplayName>
+      <Description>Face - Geo Data [58]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1510,8 +1510,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData59">
-      <DisplayName>Face creation geometry data 59</DisplayName>
-      <Description>Face creation geometry data 59</Description>
+      <DisplayName>Face - Geo Data [59]</DisplayName>
+      <Description>Face - Geo Data [59]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1519,8 +1519,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceGeoData60">
-      <DisplayName>Face creation geometry data 60</DisplayName>
-      <Description>Face creation geometry data 60</Description>
+      <DisplayName>Face - Geo Data [60]</DisplayName>
+      <Description>Face - Geo Data [60]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1528,8 +1528,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData00">
-      <DisplayName>Face creation texture data 00</DisplayName>
-      <Description>Face creation texture data 00</Description>
+      <DisplayName>Face - Texture Data [00]</DisplayName>
+      <Description>Face - Texture Data [00]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1537,8 +1537,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData01">
-      <DisplayName>Face creation texture data 01</DisplayName>
-      <Description>Face creation texture data 01</Description>
+      <DisplayName>Face - Texture Data [01]</DisplayName>
+      <Description>Face - Texture Data [01]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1546,8 +1546,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData02">
-      <DisplayName>Face creation texture data 02</DisplayName>
-      <Description>Face creation texture data 02</Description>
+      <DisplayName>Face - Texture Data [02]</DisplayName>
+      <Description>Face - Texture Data [02]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1555,8 +1555,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData03">
-      <DisplayName>Face creation texture data 03</DisplayName>
-      <Description>Face creation texture data 03</Description>
+      <DisplayName>Face - Texture Data [03]</DisplayName>
+      <Description>Face - Texture Data [03]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1564,8 +1564,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData04">
-      <DisplayName>Face creation texture data 04</DisplayName>
-      <Description>Face creation texture data 04</Description>
+      <DisplayName>Face - Texture Data [04]</DisplayName>
+      <Description>Face - Texture Data [04]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1573,8 +1573,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData05">
-      <DisplayName>Face creation texture data 05</DisplayName>
-      <Description>Face creation texture data 05</Description>
+      <DisplayName>Face - Texture Data [05]</DisplayName>
+      <Description>Face - Texture Data [05]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1582,8 +1582,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData06">
-      <DisplayName>Face creation texture data 06</DisplayName>
-      <Description>Face creation texture data 06</Description>
+      <DisplayName>Face - Texture Data [06]</DisplayName>
+      <Description>Face - Texture Data [06]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1591,8 +1591,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData07">
-      <DisplayName>Face creation texture data 07</DisplayName>
-      <Description>Face creation texture data 07</Description>
+      <DisplayName>Face - Texture Data [07]</DisplayName>
+      <Description>Face - Texture Data [07]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1600,8 +1600,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData08">
-      <DisplayName>Face creation texture data 08</DisplayName>
-      <Description>Face creation texture data 08</Description>
+      <DisplayName>Face - Texture Data [08]</DisplayName>
+      <Description>Face - Texture Data [08]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1609,8 +1609,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData09">
-      <DisplayName>Face creation texture data 09</DisplayName>
-      <Description>Face creation texture data 09</Description>
+      <DisplayName>Face - Texture Data [09]</DisplayName>
+      <Description>Face - Texture Data [09]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1618,8 +1618,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData10">
-      <DisplayName>Face creation texture data 10</DisplayName>
-      <Description>Face creation texture data 10</Description>
+      <DisplayName>Face - Texture Data [10]</DisplayName>
+      <Description>Face - Texture Data [10]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1627,8 +1627,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData11">
-      <DisplayName>Face creation texture data 11</DisplayName>
-      <Description>Face creation texture data 11</Description>
+      <DisplayName>Face - Texture Data [11]</DisplayName>
+      <Description>Face - Texture Data [11]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1636,8 +1636,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData12">
-      <DisplayName>Face creation texture data 12</DisplayName>
-      <Description>Face creation texture data 12</Description>
+      <DisplayName>Face - Texture Data [12]</DisplayName>
+      <Description>Face - Texture Data [12]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1645,8 +1645,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData13">
-      <DisplayName>Face creation texture data 13</DisplayName>
-      <Description>Face creation texture data 13</Description>
+      <DisplayName>Face - Texture Data [13]</DisplayName>
+      <Description>Face - Texture Data [13]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1654,8 +1654,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData14">
-      <DisplayName>Face creation texture data 14</DisplayName>
-      <Description>Face creation texture data 14</Description>
+      <DisplayName>Face - Texture Data [14]</DisplayName>
+      <Description>Face - Texture Data [14]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1663,8 +1663,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData15">
-      <DisplayName>Face creation texture data 15</DisplayName>
-      <Description>Face creation texture data 15</Description>
+      <DisplayName>Face - Texture Data [15]</DisplayName>
+      <Description>Face - Texture Data [15]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1672,8 +1672,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData16">
-      <DisplayName>Face creation texture data 16</DisplayName>
-      <Description>Face creation texture data 16</Description>
+      <DisplayName>Face - Texture Data [16]</DisplayName>
+      <Description>Face - Texture Data [16]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1681,8 +1681,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData17">
-      <DisplayName>Face creation texture data 17</DisplayName>
-      <Description>Face creation texture data 17</Description>
+      <DisplayName>Face - Texture Data [17]</DisplayName>
+      <Description>Face - Texture Data [17]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1690,8 +1690,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData18">
-      <DisplayName>Face creation texture data 18</DisplayName>
-      <Description>Face creation texture data 18</Description>
+      <DisplayName>Face - Texture Data [18]</DisplayName>
+      <Description>Face - Texture Data [18]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1699,8 +1699,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData19">
-      <DisplayName>Face creation texture data 19</DisplayName>
-      <Description>Face creation texture data 19</Description>
+      <DisplayName>Face - Texture Data [19]</DisplayName>
+      <Description>Face - Texture Data [19]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1708,8 +1708,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData20">
-      <DisplayName>Face creation texture data 20</DisplayName>
-      <Description>Face creation texture data 20</Description>
+      <DisplayName>Face - Texture Data [20]</DisplayName>
+      <Description>Face - Texture Data [20]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1717,8 +1717,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData21">
-      <DisplayName>Face creation texture data 21</DisplayName>
-      <Description>Face creation texture data 21</Description>
+      <DisplayName>Face - Texture Data [21]</DisplayName>
+      <Description>Face - Texture Data [21]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1726,8 +1726,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData22">
-      <DisplayName>Face creation texture data 22</DisplayName>
-      <Description>Face creation texture data 22</Description>
+      <DisplayName>Face - Texture Data [22]</DisplayName>
+      <Description>Face - Texture Data [22]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1735,8 +1735,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData23">
-      <DisplayName>Face creation texture data 23</DisplayName>
-      <Description>Face creation texture data 23</Description>
+      <DisplayName>Face - Texture Data [23]</DisplayName>
+      <Description>Face - Texture Data [23]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1744,8 +1744,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData24">
-      <DisplayName>Face creation texture data 24</DisplayName>
-      <Description>Face creation texture data 24</Description>
+      <DisplayName>Face - Texture Data [24]</DisplayName>
+      <Description>Face - Texture Data [24]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1753,8 +1753,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData25">
-      <DisplayName>Face creation texture data 25</DisplayName>
-      <Description>Face creation texture data 25</Description>
+      <DisplayName>Face - Texture Data [25]</DisplayName>
+      <Description>Face - Texture Data [25]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1762,8 +1762,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData26">
-      <DisplayName>Face creation texture data 26</DisplayName>
-      <Description>Face creation texture data 26</Description>
+      <DisplayName>Face - Texture Data [26]</DisplayName>
+      <Description>Face - Texture Data [26]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1771,8 +1771,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData27">
-      <DisplayName>Face creation texture data 27</DisplayName>
-      <Description>Face creation texture data 27</Description>
+      <DisplayName>Face - Texture Data [27]</DisplayName>
+      <Description>Face - Texture Data [27]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1780,8 +1780,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData28">
-      <DisplayName>Face creation texture data 28</DisplayName>
-      <Description>Face creation texture data 28</Description>
+      <DisplayName>Face - Texture Data [28]</DisplayName>
+      <Description>Face - Texture Data [28]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1789,8 +1789,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData29">
-      <DisplayName>Face creation texture data 29</DisplayName>
-      <Description>Face creation texture data 29</Description>
+      <DisplayName>Face - Texture Data [29]</DisplayName>
+      <Description>Face - Texture Data [29]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1798,8 +1798,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData30">
-      <DisplayName>Face creation texture data 30</DisplayName>
-      <Description>Face creation texture data 30</Description>
+      <DisplayName>Face - Texture Data [30]</DisplayName>
+      <Description>Face - Texture Data [30]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1807,8 +1807,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData31">
-      <DisplayName>Face creation texture data 31</DisplayName>
-      <Description>Face creation texture data 31</Description>
+      <DisplayName>Face - Texture Data [31]</DisplayName>
+      <Description>Face - Texture Data [31]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1816,8 +1816,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData32">
-      <DisplayName>Face creation texture data 32</DisplayName>
-      <Description>Face creation texture data 32</Description>
+      <DisplayName>Face - Texture Data [32]</DisplayName>
+      <Description>Face - Texture Data [32]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1825,8 +1825,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData33">
-      <DisplayName>Face creation texture data 33</DisplayName>
-      <Description>Face creation texture data 33</Description>
+      <DisplayName>Face - Texture Data [33]</DisplayName>
+      <Description>Face - Texture Data [33]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1834,8 +1834,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData34">
-      <DisplayName>Face creation texture data 34</DisplayName>
-      <Description>Face creation texture data 34</Description>
+      <DisplayName>Face - Texture Data [34]</DisplayName>
+      <Description>Face - Texture Data [34]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1843,8 +1843,8 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 faceTexData35">
-      <DisplayName>Face creation texture data 35</DisplayName>
-      <Description>Face creation texture data 35</Description>
+      <DisplayName>Face - Texture Data [35]</DisplayName>
+      <Description>Face - Texture Data [35]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1000</Minimum>
       <Maximum>1000</Maximum>
@@ -1852,7 +1852,7 @@
       <UnkC8>FaceGen</UnkC8>
     </Field>
     <Field Def="f32 burn_scar">
-      <DisplayName>Burn scars</DisplayName>
+      <DisplayName>Burn Scars</DisplayName>
       <Description>Burn scars</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 interactionEnabled = 1">
-      <DisplayName>Interaction enabled</DisplayName>
+      <DisplayName>Interaction Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Interaction enabled</Description>
       <DisplayFormat>%u</DisplayFormat>

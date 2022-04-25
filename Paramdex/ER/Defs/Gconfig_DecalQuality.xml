@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 enabled = 1">
-      <DisplayName>Decal valid</DisplayName>
+      <DisplayName>Decal Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Decal valid</Description>
       <DisplayFormat>%u</DisplayFormat>

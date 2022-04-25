@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 filter = 3">
-      <DisplayName>filter</DisplayName>
+      <DisplayName>Texture Filter</DisplayName>
       <Enum>GX_TEXTURE_FILTER</Enum>
       <Description>filter</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -20,7 +20,7 @@
       <SortID>9999</SortID>
     </Field>
     <Field Def="u32 maxAnisoLevel = 4">
-      <DisplayName>Aniso level</DisplayName>
+      <DisplayName>Anisotropic Level</DisplayName>
       <Description>Aniso level</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>

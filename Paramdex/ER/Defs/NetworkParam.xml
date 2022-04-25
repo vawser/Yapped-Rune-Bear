@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 signVerticalOffset">
-      <DisplayName>Sign height offset [m]</DisplayName>
+      <DisplayName>Common - Sign Height Offset</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
       <UnkB8>common</UnkB8>
@@ -15,7 +15,7 @@
       <UnkC8>共通</UnkC8>
     </Field>
     <Field Def="f32 maxSignPosCorrectionRange">
-      <DisplayName>Sign position correction maximum distance [m]</DisplayName>
+      <DisplayName>Common - Max Sign Position Correction Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
       <SortID>1</SortID>
@@ -24,7 +24,7 @@
       <UnkC8>共通</UnkC8>
     </Field>
     <Field Def="f32 summonTimeoutTime">
-      <DisplayName>Summon desired timeout time [seconds]</DisplayName>
+    <DisplayName>Common - Summon Timeout Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>1</Increment>
@@ -41,7 +41,7 @@
       <UnkC8>共通</UnkC8>
     </Field>
     <Field Def="f32 signPuddleActiveMessageIntervalSec = 1">
-      <DisplayName>Message display interval [seconds] during registration of signature accumulation</DisplayName>
+      <DisplayName>Summon Sign - Sign Puddle Active Message Interval</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -51,7 +51,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 keyGuideHeight = 1">
-      <DisplayName>Key guide vertical range [m]</DisplayName>
+      <DisplayName>Summon Sign - Key Guide Height</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -61,7 +61,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 reloadSignIntervalTime1 = 1">
-      <DisplayName>Waiting time for reacquisition of summoning sign (during depopulation) [seconds]</DisplayName>
+      <DisplayName>Summon Sign - Reload Sign Interval Time [1]</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -71,7 +71,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 reloadSignIntervalTime2 = 1">
-      <DisplayName>Summon sign reacquisition waiting time [seconds]</DisplayName>
+      <DisplayName>Summon Sign - Reload Sign Interval Time [2]</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -81,7 +81,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 reloadSignTotalCount = 1">
-      <DisplayName>Maximum number of summon signs you can have (overall)</DisplayName>
+      <DisplayName>Summon Sign - Reload Sign Total Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -92,7 +92,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 reloadSignCellCount = 1">
-      <DisplayName>Maximum number of summon signs you can have (cell)</DisplayName>
+      <DisplayName>Summon Sign - Reload Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -103,7 +103,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 updateSignIntervalTime = 1">
-      <DisplayName>Summon sign update waiting time [seconds]</DisplayName>
+      <DisplayName>Summon Sign - Update Sign Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -113,7 +113,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveRange = 1">
-      <DisplayName>Exclusive horizontal range for drawing between summon signs [m]</DisplayName>
+      <DisplayName>Summon Sign - Basic Horizontal Drawing Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -123,7 +123,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveHeight = 1">
-      <DisplayName>Exclusive vertical range for drawing between summon signs [m]</DisplayName>
+      <DisplayName>Summon Sign - Basic Vertical Drawing Height</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -133,7 +133,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 previewChrWaitingTime = 1">
-      <DisplayName>Summon sign character model drawing waiting time [seconds]</DisplayName>
+      <DisplayName>Summon Sign - Preview Chr Waiting Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -143,7 +143,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 signVisibleRange = 1">
-      <DisplayName>Summon sign PC drawing distance [m]</DisplayName>
+      <DisplayName>Summon Sign - Sign Visible Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -153,7 +153,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 cellGroupHorizontalRange = 1">
-      <DisplayName>Summon sign acquisition cell range (horizontal)</DisplayName>
+      <DisplayName>Summon Sign - Acquisition Cell Range (Horizontal)</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -163,7 +163,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 cellGroupTopRange = 1">
-      <DisplayName>Summon sign acquisition cell range (upward)</DisplayName>
+      <DisplayName>Summon Sign - Acquisition Cell Range (Top)</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -173,7 +173,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 cellGroupBottomRange = 1">
-      <DisplayName>Summon sign acquisition cell range (downward)</DisplayName>
+      <DisplayName>Summon Sign - Acquisition Cell Range (Bottom)</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -183,7 +183,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 minWhitePhantomLimitTimeScale = 1">
-      <DisplayName>White spirit sign display time limit lower limit magnification</DisplayName>
+      <DisplayName>Summon Sign - Min White Phantom Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -193,7 +193,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 minSmallPhantomLimitTimeScale = 1">
-      <DisplayName>Small spirit sign display time limit lower limit magnification</DisplayName>
+      <DisplayName>Summon Sign - Min Small Phantom Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -203,7 +203,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 whiteKeywordLimitTimeScale = 1">
-      <DisplayName>White spirit sign keyword extension magnification</DisplayName>
+      <DisplayName>Summon Sign - White Keyword Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -213,7 +213,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 smallKeywordLimitTimeScale = 1">
-      <DisplayName>Ghost sign keyword extension magnification</DisplayName>
+      <DisplayName>Summon Sign - Small Keyword Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -223,7 +223,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 blackKeywordLimitTimeScale = 1">
-      <DisplayName>Dark Spirit Sign Keyword Extension Magnification</DisplayName>
+      <DisplayName>Summon Sign - Black Keyword Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -233,7 +233,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 dragonKeywordLimitTimeScale = 1">
-      <DisplayName>Dragon Spirit Sign Keyword Extension Magnification</DisplayName>
+      <DisplayName>Summon Sign - Dragon Keyword Limit Time Scale</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -243,7 +243,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 singGetMax = 1">
-      <DisplayName>Sign acquisition limit</DisplayName>
+      <DisplayName>Summon Sign - Sign Get Max</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1000</Maximum>
@@ -253,7 +253,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 signDownloadSpan = 1">
-      <DisplayName>Sign download span</DisplayName>
+      <DisplayName>Summon Sign - Sign Download Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -263,7 +263,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="f32 signUpdateSpan = 1">
-      <DisplayName>Sign upload span</DisplayName>
+      <DisplayName>Summon Sign - Sign Update Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -280,7 +280,7 @@
       <UnkC8>召喚サイン</UnkC8>
     </Field>
     <Field Def="u32 maxBreakInTargetListCount = 1">
-      <DisplayName>Number of intruders acquired</DisplayName>
+      <DisplayName>Intrusion - Max Intruder List Count</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
@@ -290,7 +290,7 @@
       <UnkC8>乱入</UnkC8>
     </Field>
     <Field Def="f32 breakInRequestIntervalTimeSec = 4">
-      <DisplayName>Intrusion request interval [seconds]</DisplayName>
+      <DisplayName>Intrusion - Intruder Request Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -300,7 +300,7 @@
       <UnkC8>乱入</UnkC8>
     </Field>
     <Field Def="f32 breakInRequestTimeOutSec = 20">
-      <DisplayName>Intrusion request timeout time [seconds]</DisplayName>
+      <DisplayName>Intrusion - Intruder Request Timeout</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -319,7 +319,7 @@
       <UnkC8>乱入</UnkC8>
     </Field>
     <Field Def="f32 keyGuideRange = 1">
-      <DisplayName>Key guide horizontal range [m]</DisplayName>
+      <DisplayName>Blood Message - Key Guide Horionztal Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -329,7 +329,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 keyGuideHeight = 1">
-      <DisplayName>Key guide vertical range [m]</DisplayName>
+      <DisplayName>Blood Message - Key Guide Vertical Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -339,7 +339,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 reloadSignTotalCount = 1">
-      <DisplayName>Number of blood characters acquired (overall)</DisplayName>
+      <DisplayName>Blood Message - Reload Sign Total Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -350,7 +350,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 reloadNewSignCellCount = 1">
-      <DisplayName>Number of blood characters acquired (cell, new order)</DisplayName>
+      <DisplayName>Blood Message - Reload New Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -361,7 +361,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 reloadRandomSignCellCount = 1">
-      <DisplayName>Number of blood characters acquired (cell, random)</DisplayName>
+      <DisplayName>Blood Message - Reload Random Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -372,7 +372,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 maxSignTotalCount = 1">
-      <DisplayName>Upper limit of the number of blood characters that can be possessed (overall)</DisplayName>
+      <DisplayName>Blood Message - Max Sign Total Count</DisplayName>
       <Description>Actually u16 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -383,7 +383,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 maxSignCellCount = 1">
-      <DisplayName>Upper limit of the number of blood characters that can be possessed (cell)</DisplayName>
+      <DisplayName>Blood Message - Max Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -394,7 +394,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveRange = 1">
-      <DisplayName>Blood character drawing exclusive horizontal range [m]</DisplayName>
+      <DisplayName>Blood Message - Basic Exclusive Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -404,7 +404,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveHeight = 1">
-      <DisplayName>Blood character drawing exclusive vertical range [m]</DisplayName>
+      <DisplayName>Blood Message - Basic Exclusive Height</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -414,7 +414,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 signVisibleRange = 1">
-      <DisplayName>Blood character PC drawing distance [m]</DisplayName>
+      <DisplayName>Blood Message - Sign Visible Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -424,7 +424,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 maxWriteSignCount = 1">
-      <DisplayName>Maximum number of written blood characters history</DisplayName>
+      <DisplayName>Blood Message - Max Write Sign Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1000</Maximum>
@@ -434,7 +434,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 maxReadSignCount = 1">
-      <DisplayName>Maximum number of blood characters read</DisplayName>
+      <DisplayName>Blood Message - Max Read Sign Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1000</Maximum>
@@ -444,7 +444,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 reloadSignIntervalTime = 1">
-      <DisplayName>Blood character reacquisition waiting time [seconds]</DisplayName>
+      <DisplayName>Blood Message - Reload Sign Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -454,7 +454,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 cellGroupHorizontalRange = 1">
-      <DisplayName>Blood character acquisition cell range (horizontal)</DisplayName>
+      <DisplayName>Blood Message - Cell Group Horizontal Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -464,7 +464,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 cellGroupTopRange = 1">
-      <DisplayName>Blood character acquisition cell range (upward)</DisplayName>
+      <DisplayName>Blood Message - Cell Group Top Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -474,7 +474,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 cellGroupBottomRange = 1">
-      <DisplayName>Blood character acquisition cell range (downward)</DisplayName>
+      <DisplayName>Blood Message - Cell Group Bottom Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -484,7 +484,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="u32 lifeTime = 1">
-      <DisplayName>Blood character data retention period upper limit [seconds]</DisplayName>
+      <DisplayName>Blood Message - Lifetime</DisplayName>
       <Description>Actually u16 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -495,7 +495,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 downloadSpan">
-      <DisplayName>Blood character download interval</DisplayName>
+      <DisplayName>Blood Message - Download Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -505,7 +505,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 downloadEvaluationSpan">
-      <DisplayName>Blood character evaluation number Download interval</DisplayName>
+      <DisplayName>Blood Message - Download Evaluation Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -522,7 +522,7 @@
       <UnkC8>血文字</UnkC8>
     </Field>
     <Field Def="f32 deadingGhostStartPosThreshold = 1">
-      <DisplayName>Allowable distance between bloodstain position and illusion start position [m]</DisplayName>
+      <DisplayName>Bloodstain - Dead Ghost Start Position Threshold</DisplayName>
       <Description>If the distance between the bloodstain position and the illusion start position is farther than this value, the server will not be registered.</Description>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
@@ -533,7 +533,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 keyGuideHeight = 1">
-      <DisplayName>Key guide vertical range [m]</DisplayName>
+      <DisplayName>Bloodstain - Key Guide Height</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -543,7 +543,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 keyGuideRangePlayer = 1">
-      <DisplayName>Player Bloodstain Key Guide Horizontal Range [m]</DisplayName>
+      <DisplayName>Bloodstain - Key Guide Range Player</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -553,7 +553,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 keyGuideHeightPlayer = 1">
-      <DisplayName>Player Bloodstain Key Guide Vertical Range [m]</DisplayName>
+      <DisplayName>Bloodstain - Key Guide Height Player</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -563,7 +563,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 reloadSignTotalCount = 1">
-      <DisplayName>Number of blood stains acquired (overall)</DisplayName>
+      <DisplayName>Bloodstain - Reload Sign Total Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -573,7 +573,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 reloadSignCellCount = 1">
-      <DisplayName>Number of blood stains obtained (cell)</DisplayName>
+      <DisplayName>Bloodstain - Reload Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -583,7 +583,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 maxSignTotalCount = 1">
-      <DisplayName>Upper limit of the number of blood stains that can be possessed (overall)</DisplayName>
+      <DisplayName>Bloodstain - Max Sign Total Count</DisplayName>
       <Description>Actually u16 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
@@ -593,7 +593,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 maxSignCellCount = 1">
-      <DisplayName>Maximum number of blood stains (cell)</DisplayName>
+      <DisplayName>Bloodstain - Max Sign Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -603,7 +603,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 reloadSignIntervalTime = 1">
-      <DisplayName>Waiting time for reacquisition of blood stains [seconds]</DisplayName>
+      <DisplayName>Bloodstain - Reload Sign Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -613,7 +613,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 signVisibleRange = 1">
-      <DisplayName>Bloodstain PC drawing distance [m]</DisplayName>
+      <DisplayName>Bloodstain - Sign Visible Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -623,7 +623,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveRange = 1">
-      <DisplayName>Exclusive horizontal range for drawing between blood stains [m]</DisplayName>
+      <DisplayName>Bloodstain - Basic Exclusive Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -633,7 +633,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 basicExclusiveHeight = 1">
-      <DisplayName>Exclusive vertical range for drawing between blood stains [m]</DisplayName>
+      <DisplayName>Bloodstain - Basic Exclusive Height</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -643,7 +643,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 cellGroupHorizontalRange = 1">
-      <DisplayName>Blood stain acquisition cell range (horizontal)</DisplayName>
+      <DisplayName>Bloodstain - Cell Group Horizontal Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -653,7 +653,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 cellGroupTopRange = 1">
-      <DisplayName>Blood stain acquisition cell range (upward)</DisplayName>
+      <DisplayName>Bloodstain - Cell Group Top Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -663,7 +663,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 cellGroupBottomRange = 1">
-      <DisplayName>Blood stain acquisition cell range (downward)</DisplayName>
+      <DisplayName>Bloodstain - Cell Group Bottom Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -673,7 +673,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 lifeTime = 1">
-      <DisplayName>Bloodstain data retention period upper limit [seconds]</DisplayName>
+      <DisplayName>Bloodstain - Lifetime</DisplayName>
       <Description>Actually u16 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -684,7 +684,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 recordDeadingGhostTotalTime">
-      <DisplayName>Death illusion record total time [seconds]</DisplayName>
+      <DisplayName>Bloodstain - Record Dead Ghost Total Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>1</Increment>
@@ -694,7 +694,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 recordDeadingGhostMinTime = 5">
-      <DisplayName>Minimum recording time of death illusion [seconds]</DisplayName>
+      <DisplayName>Bloodstain - Record Dead Ghost Min Time</DisplayName>
       <Description>Death illusions less than this recording time will not register the server</Description>
       <Minimum>0</Minimum>
       <Maximum>40</Maximum>
@@ -705,7 +705,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 downloadSpan">
-      <DisplayName>Bloodstain download interval</DisplayName>
+      <DisplayName>Bloodstain - Download Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -715,7 +715,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="f32 statueCreatableDistance = 80">
-      <DisplayName>Petrified blood stain drawing limit distance [m]</DisplayName>
+      <DisplayName>Bloodstain - Statue Creatable Distance</DisplayName>
       <Description>For open fields. When a stone statue is generated, it can be generated if the distance between the PC and the generation position is greater than or equal to this value.</Description>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
@@ -726,7 +726,7 @@
       <UnkC8>血痕</UnkC8>
     </Field>
     <Field Def="u32 reloadGhostTotalCount = 1">
-      <DisplayName>Number of illusions acquired (overall)</DisplayName>
+      <DisplayName>Ghost - Reload Ghost Total Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -736,7 +736,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="u32 reloadGhostCellCount = 1">
-      <DisplayName>Number of illusions acquired (cell)</DisplayName>
+      <DisplayName>Ghost - Reload Ghost Cell Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -746,7 +746,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="u32 maxGhostTotalCount = 1">
-      <DisplayName>Maximum number of illusions you can have (overall)</DisplayName>
+      <DisplayName>Ghost - Max Ghost Total Count</DisplayName>
       <Description>Actually u16 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>10</Maximum>
@@ -756,7 +756,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 distanceOfBeginRecordVersus = 1">
-      <DisplayName>Hostile PC replay recording start distance [m]</DisplayName>
+      <DisplayName>Ghost - Begin Record Distance (Versus)</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -766,7 +766,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 distanceOfEndRecordVersus = 1">
-      <DisplayName>Hostile PC replay recording end distance [m]</DisplayName>
+      <DisplayName>Ghost - End Record Distance (Versus)</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -776,7 +776,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 updateWanderGhostIntervalTime = 1">
-      <DisplayName>Wandering illusion upload interval [seconds]</DisplayName>
+      <DisplayName>Ghost - Update Wandering Ghost Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -786,7 +786,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 updateVersusGhostIntervalTime = 1">
-      <DisplayName>Battle illusion upload interval [seconds]</DisplayName>
+      <DisplayName>Ghost - Update Versus Ghost Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -796,7 +796,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 recordWanderingGhostTime = 1">
-      <DisplayName>Phantom recording time [seconds]</DisplayName>
+      <DisplayName>Ghost - Record Wandering Ghost Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>40</Maximum>
       <Increment>1</Increment>
@@ -806,7 +806,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 recordWanderingGhostMinTime = 5">
-      <DisplayName>Minimum recording time of wandering illusion [seconds]</DisplayName>
+      <DisplayName>Ghost - Record Wandering Ghost Min Time</DisplayName>
       <Description>Wandering illusions less than this recording time do not register the server</Description>
       <Minimum>0</Minimum>
       <Maximum>40</Maximum>
@@ -817,7 +817,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 updateBonfireGhostIntervalTime = 1">
-      <DisplayName>Kagaribi illusion upload interval [seconds]</DisplayName>
+      <DisplayName>Ghost - Update Bonfire Ghost Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -827,7 +827,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 replayGhostRangeOnView = 1">
-      <DisplayName>Phantom reproduction distance (in the field of view) [seconds]</DisplayName>
+      <DisplayName>Ghost - Replay Ghost Range On View</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -837,7 +837,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 replayGhostRangeOutView = 1">
-      <DisplayName>Phantom playback distance (out of field of view) [seconds]</DisplayName>
+      <DisplayName>Ghost - Replay Ghost Range Out View</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -847,7 +847,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 replayBonfireGhostTime = 1">
-      <DisplayName>Kagaribi illusion Playing time [seconds]</DisplayName>
+      <DisplayName>Ghost - Replay Bonfire Ghost Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -857,7 +857,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 minBonfireGhostValidRange = 1">
-      <DisplayName>Kagaribi illusion placement minimum distance [seconds]</DisplayName>
+      <DisplayName>Ghost - Bonfire Ghost Min Valid Range</DisplayName>
       <Description>Do not place bonfire illusions less than this distance from the bonfire</Description>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
@@ -868,7 +868,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 maxBonfireGhostValidRange = 1">
-      <DisplayName>Kagaribi illusion placement maximum distance [seconds]</DisplayName>
+      <DisplayName>Ghost - Bonfire Ghost Max Valid Range</DisplayName>
       <Description>Do not place bonfire illusions beyond this distance from the bonfire</Description>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
@@ -879,7 +879,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 minReplayIntervalTime = 1">
-      <DisplayName>Phantom playback interval lower limit [seconds]</DisplayName>
+      <DisplayName>Ghost - Replay Interval Min Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -889,7 +889,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 maxReplayIntervalTime = 1">
-      <DisplayName>Phantom playback interval upper limit [seconds]</DisplayName>
+      <DisplayName>Ghost - Replay Interval Max Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -899,7 +899,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 reloadGhostIntervalTime = 1">
-      <DisplayName>Phantom periodic acquisition interval [seconds]</DisplayName>
+      <DisplayName>Ghost - Reload Ghost Interval Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -909,7 +909,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="u32 cellGroupHorizontalRange = 1">
-      <DisplayName>Phantom acquisition cell range (horizontal)</DisplayName>
+      <DisplayName>Ghost - Cell Group Horizontal Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -919,7 +919,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="u32 cellGroupTopRange = 1">
-      <DisplayName>Phantom acquisition cell range (upward)</DisplayName>
+      <DisplayName>Ghost - Cell Group Top Range</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -929,7 +929,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="s32 replayBonfirePhantomParamIdForCodename">
-      <DisplayName>Phantom bonfire mode phantom parameter ID (codename)</DisplayName>
+      <DisplayName>Ghost - Replay Bonfire Phantom Param ID (CodeDisplayName)</DisplayName>
       <Description>Phantom bonfire mode phantom parameter ID used when codename matches</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
@@ -939,7 +939,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 replayBonfireModeRange = 1">
-      <DisplayName>Phantom bonfire mode playback applicable distance</DisplayName>
+      <DisplayName>Ghost - Replay Bonfire Mode Range</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -949,7 +949,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="s32 replayBonfirePhantomParamId">
-      <DisplayName>Phantom bonfire mode phantom parameter ID</DisplayName>
+      <DisplayName>Ghost - Replay Bonfire Phantom Param ID</DisplayName>
       <Description>Phantom bonfire mode phantom parameter ID</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
@@ -968,7 +968,7 @@
       <UnkC8>幻影</UnkC8>
     </Field>
     <Field Def="f32 reloadVisitListCoolTime = 1">
-      <DisplayName>Ring search interval [seconds]</DisplayName>
+      <DisplayName>Visit - Reload Visit List Cool time</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>1000</Maximum>
       <Increment>1</Increment>
@@ -978,7 +978,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="u32 maxCoopBlueSummonCount = 1">
-      <DisplayName>Maximum number of rescue blue spirits appearing</DisplayName>
+      <DisplayName>Visit - Max Coop Blue Summon Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -989,7 +989,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="u32 maxBellGuardSummonCount = 1">
-      <DisplayName>Upper limit of the number of bell guard ghosts that appear</DisplayName>
+      <DisplayName>Visit - Max Bell Guard Summon Count</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -1000,7 +1000,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="u32 maxVisitListCount = 1">
-      <DisplayName>Number of ring search destinations acquired</DisplayName>
+      <DisplayName>Visit - Max Visit List Count</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
       <Maximum>255</Maximum>
@@ -1010,7 +1010,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_CoopBlue_Min">
-      <DisplayName>Relief Blue Spirit reload time minimum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Coop Blue - Min</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1020,7 +1020,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_CoopBlue_Max">
-      <DisplayName>Relief Blue Spirit reload time maximum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Coop Blue - Max</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1030,7 +1030,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_BellGuard_Min">
-      <DisplayName>Kanemori reload time minimum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Bell Guard - Min</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1040,7 +1040,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_BellGuard_Max">
-      <DisplayName>Kanemori reload time maximum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Bell Guard - Max</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1050,7 +1050,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_RatKing_Min">
-      <DisplayName>Mouse King Reload Time Minimum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Rat King - Min</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1060,7 +1060,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 reloadSearch_RatKing_Max">
-      <DisplayName>Mouse King Reload Time Maximum [sec]</DisplayName>
+      <DisplayName>Visit - Reload Search - Rat King - Max</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
       <Increment>0.1</Increment>
@@ -1077,7 +1077,7 @@
       <UnkC8>指輪検索</UnkC8>
     </Field>
     <Field Def="f32 srttMaxLimit = 1000">
-      <DisplayName>SRTT upper limit [milliseconds]</DisplayName>
+      <DisplayName>Extra - SSRT Max Limit</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <Increment>1</Increment>
@@ -1087,7 +1087,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 srttMeanLimit = 1000">
-      <DisplayName>SRTT upper limit (when stable) [milliseconds]</DisplayName>
+      <DisplayName>Extra - SSRT Mean Limit</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <Increment>1</Increment>
@@ -1097,7 +1097,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 srttMeanDeviationLimit = 1000">
-      <DisplayName>RTT mean deviation upper limit [milliseconds]</DisplayName>
+      <DisplayName>Extra - SSRT Mean Deviation Limit</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <Increment>1</Increment>
@@ -1107,7 +1107,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 darkPhantomLimitBoostTime = 1000">
-      <DisplayName>Dark spirit time limit Acceleration time [seconds]</DisplayName>
+      <DisplayName>Extra - Dark Phantom Limit Boost Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <Increment>1</Increment>
@@ -1117,7 +1117,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 darkPhantomLimitBoostScale = 1000">
-      <DisplayName>Dark spirit time limit acceleration time magnification</DisplayName>
+      <DisplayName>Extra - Dark Phantom Limit Boost Scale</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
       <Increment>1</Increment>
@@ -1127,7 +1127,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 multiplayDisableLifeTime = 1">
-      <DisplayName>Multiplayer invalidation life</DisplayName>
+      <DisplayName>Extra - Multiplayer Disable Lifetime</DisplayName>
       <Minimum>1</Minimum>
       <Maximum>999999</Maximum>
       <Increment>1</Increment>
@@ -1137,7 +1137,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 abyssMultiplayLimit = 10">
-      <DisplayName>Abyss Spirit Multiplayer Count</DisplayName>
+      <DisplayName>Extra - Abyss Multiplayer Limit</DisplayName>
       <Description>The number of times the abyss spirit enters the host in the abyss area</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
@@ -1147,7 +1147,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 phantomWarpMinimumTime = 5">
-      <DisplayName>Minimum time for a ghost to warp [seconds]</DisplayName>
+      <DisplayName>Extra - Phantom Warp Minimum Time</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>707</SortID>
       <UnkB8>extra</UnkB8>
@@ -1155,7 +1155,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 phantomReturnDelayTime = 5">
-      <DisplayName>Delay time until returning after using black crystal [seconds]</DisplayName>
+      <DisplayName>Extra - Phantom Return Delay Time</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>708</SortID>
       <UnkB8>extra</UnkB8>
@@ -1163,7 +1163,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 terminateTimeoutTime = 30">
-      <DisplayName>Time-out time waiting for disconnection</DisplayName>
+      <DisplayName>Extra - Terminate Timeout Time</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>709</SortID>
       <UnkB8>extra</UnkB8>
@@ -1171,7 +1171,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u16 penaltyPointLanDisconnect">
-      <DisplayName>Penalty addition value without LAN</DisplayName>
+      <DisplayName>Extra - Penalty Point LAN Disconnet</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>717</SortID>
       <UnkB8>extra</UnkB8>
@@ -1179,7 +1179,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u16 penaltyPointSignout">
-      <DisplayName>Penalty addition value for sign-out</DisplayName>
+      <DisplayName>Extra - Penalty Point Signout</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>718</SortID>
       <UnkB8>extra</UnkB8>
@@ -1187,7 +1187,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u16 penaltyPointReboot">
-      <DisplayName>Penalty addition value due to power failure</DisplayName>
+      <DisplayName>Extra - Penalty Point Reboot</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>719</SortID>
       <UnkB8>extra</UnkB8>
@@ -1195,7 +1195,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u16 penaltyPointBeginPenalize">
-      <DisplayName>Penalty value that activates the penalty</DisplayName>
+      <DisplayName>Extra - Penalty Point Begin Penalize</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>720</SortID>
       <UnkB8>extra</UnkB8>
@@ -1203,7 +1203,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 penaltyForgiveItemLimitTime">
-      <DisplayName>Sales time limit for "Line Reason" [seconds]</DisplayName>
+      <DisplayName>Extra - Penalty Forgive Item Limit Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1E+08</Maximum>
       <Increment>1</Increment>
@@ -1213,7 +1213,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 allAreaSearchRate_CoopBlue">
-      <DisplayName>Area search rate: Relief Blue Spirit [0-100]</DisplayName>
+      <DisplayName>Extra - All Area Search Rate - Coop Blue</DisplayName>
       <Description>Percentage of searching for intrusion targets from all areas (%)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
@@ -1223,7 +1223,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 allAreaSearchRate_VsBlue">
-      <DisplayName>Area search rate: Retribution Blue Spirit [0-100]</DisplayName>
+      <DisplayName>Extra - All Area Search Rate - Vs. Coop Blue</DisplayName>
       <Description>Percentage of searching for intrusion targets from all areas (%)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
@@ -1233,7 +1233,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 allAreaSearchRate_BellGuard">
-      <DisplayName>Area search rate: Kanemori Ashrei [0-100]</DisplayName>
+      <DisplayName>Extra - All Area Search Rate - Bell Guard</DisplayName>
       <Description>Percentage of searching for intrusion targets from all areas (%)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
@@ -1243,7 +1243,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 bloodMessageEvalHealRate = 100">
-      <DisplayName>HP recovery rate at the time of blood character evaluation [0-100]</DisplayName>
+      <DisplayName>Extra - Blood Message Eval Heal Rate</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
       <SortID>735</SortID>
@@ -1252,7 +1252,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u32 smallGoldSuccessHostRewardId">
-      <DisplayName>Kogane Rei Success Return Host Reward ID</DisplayName>
+      <DisplayName>Extra - Small Gold Success Host Reward ID</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999</Maximum>
       <SortID>740</SortID>
@@ -1261,7 +1261,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 doorInvalidPlayAreaExtents = 1">
-      <DisplayName>Play area invalidation distance near the door [m]</DisplayName>
+      <DisplayName>Extra - Door Invalid Play Area Extents</DisplayName>
       <Description>The area around the black door that separates the multiplayer area is set to the systematically invalid play area (-1). At that time, make the invalid area thicker with this parameter on the thinner side of the OBJ's bounding box with a black door.</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -1272,7 +1272,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 signDisplayMax = 10">
-      <DisplayName>Maximum number of simultaneous displays of signs</DisplayName>
+      <DisplayName>Extra - Sign Display Max</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
       <SortID>760</SortID>
@@ -1281,7 +1281,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 bloodStainDisplayMax = 7">
-      <DisplayName>Maximum number of blood stains displayed at the same time</DisplayName>
+      <DisplayName>Extra - Bloodstain Display Max</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
       <SortID>761</SortID>
@@ -1290,7 +1290,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 bloodMessageDisplayMax = 3">
-      <DisplayName>Maximum number of blood characters displayed at the same time</DisplayName>
+      <DisplayName>Extra - Blood Message Display Max</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>100</Maximum>
       <SortID>762</SortID>
@@ -1313,7 +1313,7 @@
       <UnkC8>訪問</UnkC8>
     </Field>
     <Field Def="f32 summonMessageInterval = 1">
-      <DisplayName>Summon message is displayed at interval [seconds]</DisplayName>
+      <DisplayName>Quick Match - Summon Message Interval</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1323,7 +1323,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="f32 hostRegisterUpdateTime = 1">
-      <DisplayName>Host periodic update request interval [seconds]</DisplayName>
+      <DisplayName>Quick Match - Host Register Update Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1333,7 +1333,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="f32 hostTimeOutTime = 1">
-      <DisplayName>Host guest join wait timeout time [seconds]</DisplayName>
+      <DisplayName>Quick Match - Host Time Out Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1343,7 +1343,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="f32 guestUpdateTime = 1">
-      <DisplayName>Authentication wait timeout time from guest host [seconds]</DisplayName>
+      <DisplayName>Quick Match - Guest Update Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1353,7 +1353,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="f32 guestPlayerNoTimeOutTime = 1">
-      <DisplayName>Guest PlayNo Sync wait timeout time [seconds]</DisplayName>
+      <DisplayName>Quick Match - Guest Player No Time Out Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1363,7 +1363,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="f32 hostPlayerNoTimeOutTime = 1">
-      <DisplayName>Host PlayNo Sync wait timeout time [seconds]</DisplayName>
+      <DisplayName>Quick Match - Host Player No Time Out Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
       <Increment>0.1</Increment>
@@ -1373,7 +1373,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="u32 requestSearchQuickMatchLimit = 1">
-      <DisplayName>RequestSearchQuickMatch limit value</DisplayName>
+      <DisplayName>Quick Match - Request Search Quick Match Limit</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>255</Maximum>
@@ -1384,7 +1384,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="u32 AvatarMatchSearchMax = 1">
-      <DisplayName>Maximum number of people when searching for avatar battles (unused)</DisplayName>
+      <DisplayName>Quick Match - Avatar Match Search Max</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>255</Maximum>
@@ -1394,7 +1394,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="u32 BattleRoyalMatchSearchMin = 1">
-      <DisplayName>Minimum number of people when searching for battle royale (unused)</DisplayName>
+      <DisplayName>Quick Match - Battle Royale Match Search Min</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>255</Maximum>
@@ -1404,7 +1404,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="u32 BattleRoyalMatchSearchMax = 1">
-      <DisplayName>Maximum number of people when searching for battle royale (unused)</DisplayName>
+      <DisplayName>Quick Match - Battle Royale Match Search Max</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>255</Maximum>
@@ -1421,7 +1421,7 @@
       <UnkC8>クイックマッチ</UnkC8>
     </Field>
     <Field Def="u32 VisitorListMax = 1">
-      <DisplayName>Maximum number of people to get a list of visitors</DisplayName>
+      <DisplayName>Visitor - Visitor List Max</DisplayName>
       <Description>Actually u8 is enough</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>10000</Maximum>
@@ -1431,7 +1431,7 @@
       <UnkC8>訪問</UnkC8>
     </Field>
     <Field Def="f32 VisitorTimeOutTime = 1">
-      <DisplayName>Time-out waiting for visit</DisplayName>
+      <DisplayName>Visitor - Visitor Time Out Time</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -1441,7 +1441,7 @@
       <UnkC8>訪問</UnkC8>
     </Field>
     <Field Def="f32 DownloadSpan = 1">
-      <DisplayName>Visitor list download interval [seconds]</DisplayName>
+      <DisplayName>Visitor - Download Span</DisplayName>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
       <Increment>0.1</Increment>
@@ -1451,7 +1451,7 @@
       <UnkC8>訪問</UnkC8>
     </Field>
     <Field Def="f32 VisitorGuestRequestMessageIntervalSec = 1">
-      <DisplayName>Visit search message display interval [seconds]</DisplayName>
+      <DisplayName>Visitor - Visitor Guest Request Message Interval</DisplayName>
       <Description>Display interval [seconds] of messages sent by visiting guests while searching for a destination</Description>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -1462,7 +1462,7 @@
       <UnkC8>訪問</UnkC8>
     </Field>
     <Field Def="f32 wanderGhostIntervalLifeTime = 40">
-      <DisplayName>Wandering illusion life</DisplayName>
+      <DisplayName>Ghost Addition - Wandering Ghost Interval Lifetime</DisplayName>
       <Description>Wandering illusion life</Description>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -1481,7 +1481,7 @@
       <UnkC8>幻影追加要素</UnkC8>
     </Field>
     <Field Def="f32 YellowMonkTimeOutTime = 1">
-      <DisplayName>Yellow robe's old man waiting time out</DisplayName>
+      <DisplayName>Yellow Monk - Yellow Monk Timeout Time</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -1492,7 +1492,7 @@
       <UnkC8>黄衣の翁</UnkC8>
     </Field>
     <Field Def="f32 YellowMonkDownloadSpan = 1">
-      <DisplayName>Yellow robe list download interval</DisplayName>
+      <DisplayName>Yellow Monk - Yellow Monk Download Span</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -1503,7 +1503,7 @@
       <UnkC8>黄衣の翁</UnkC8>
     </Field>
     <Field Def="f32 YellowMonkOverallFlowTimeOutTime = 1">
-      <DisplayName>Yellow robe's whole flow time-out</DisplayName>
+      <DisplayName>Yellow Monk - Yellow Monk Overall Flow Time Out Time</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>

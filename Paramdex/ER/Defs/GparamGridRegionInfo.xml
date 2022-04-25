@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 GparamGridRegionId">
-      <DisplayName>Open local ID for MapGparam</DisplayName>
+      <DisplayName>GPARAM Grid Region ID</DisplayName>
       <Description>Open local ID for MapGparam. Used for the XX part of m60_00_00XX.gparamxml</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>

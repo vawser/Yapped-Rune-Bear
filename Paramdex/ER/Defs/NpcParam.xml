@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,7 +26,7 @@
       <SortID>2000002</SortID>
     </Field>
     <Field Def="s32 behaviorVariationId">
-      <DisplayName>Behavior variation ID</DisplayName>
+      <DisplayName>Behavior Variation ID</DisplayName>
       <Description>Variation ID used when calculating the action ID.</Description>
       <Minimum>0</Minimum>
       <Maximum>99999</Maximum>
@@ -34,7 +34,7 @@
       <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_poison = -1">
-      <DisplayName>Poison resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct: Poison</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -42,14 +42,14 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 nameId = -1">
-      <DisplayName>NPC name ID</DisplayName>
+      <DisplayName>Display Name ID</DisplayName>
       <Description>NPC Name Message Parameter ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="f32 turnVellocity">
-      <DisplayName>Turning speed [deg / sec]</DisplayName>
+      <DisplayName>Turn Velocity</DisplayName>
       <Description>Rotational speed [degrees / second] that can turn in 1 second.</Description>
       <Minimum>0</Minimum>
       <Maximum>1000000</Maximum>
@@ -57,7 +57,7 @@
       <SortID>8000</SortID>
     </Field>
     <Field Def="f32 hitHeight">
-      <DisplayName>Height per map [m]</DisplayName>
+      <DisplayName>Capsule Height</DisplayName>
       <Description>The height of the capsule per character.</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
@@ -65,7 +65,7 @@
       <SortID>13000</SortID>
     </Field>
     <Field Def="f32 hitRadius">
-      <DisplayName>Radius per map [m]</DisplayName>
+      <DisplayName>Capsule Radius</DisplayName>
       <Description>Radius of capsule per character.</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
@@ -73,13 +73,13 @@
       <SortID>13100</SortID>
     </Field>
     <Field Def="u32 weight">
-      <DisplayName>Weight [kg]</DisplayName>
+      <DisplayName>Weight</DisplayName>
       <Description>weight.</Description>
       <Maximum>999999</Maximum>
       <SortID>15000</SortID>
     </Field>
     <Field Def="f32 hitYOffset">
-      <DisplayName>Display position Y offset [m]</DisplayName>
+      <DisplayName>Display Position - Height Offset</DisplayName>
       <Description>Offset of the model display position in the Y (height) direction. It can be floated from the hit position.</Description>
       <Minimum>-100</Minimum>
       <Maximum>100</Maximum>
@@ -87,25 +87,25 @@
       <SortID>16000</SortID>
     </Field>
     <Field Def="u32 hp">
-      <DisplayName>HP</DisplayName>
+      <DisplayName>Base HP</DisplayName>
       <Description>Death grace.</Description>
       <Maximum>99999</Maximum>
       <SortID>21000</SortID>
     </Field>
     <Field Def="u32 mp">
-      <DisplayName>MP</DisplayName>
+      <DisplayName>Base FP</DisplayName>
       <Description>Magic usage.</Description>
       <Maximum>99999</Maximum>
       <SortID>22000</SortID>
     </Field>
     <Field Def="u32 getSoul">
-      <DisplayName>Seoul</DisplayName>
+      <DisplayName>Base Runes</DisplayName>
       <Description>The amount of soul that a character can get at the time of death.</Description>
       <Maximum>999999</Maximum>
       <SortID>27000</SortID>
     </Field>
     <Field Def="s32 itemLotId_enemy = -1">
-      <DisplayName>Item lottery ID_for enemies</DisplayName>
+      <DisplayName>Enemy Itemlot ID</DisplayName>
       <Description>Specify the lottery ID_for enemies of the item to be acquired at the time of death. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -113,7 +113,7 @@
       <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
     <Field Def="s32 itemLotId_map = -1">
-      <DisplayName>Item lottery ID_for map</DisplayName>
+      <DisplayName>Map Itemlot ID</DisplayName>
       <Description>Specify for the lottery ID_map of the item to be acquired at the time of death. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -121,7 +121,7 @@
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="f32 maxAnkleRollAngle = -1">
-      <DisplayName>FootIK Ankle limit angle_roll</DisplayName>
+      <DisplayName>FootIK Ankle Roll Angle Limit</DisplayName>
       <Description>FootIK Ankle roll limit angle (-1: no limit)</Description>
       <Minimum>-1</Minimum>
       <Maximum>90</Maximum>
@@ -129,33 +129,33 @@
       <SortID>200070</SortID>
     </Field>
     <Field Def="u8 chrHitGroupAndNavimesh">
-      <DisplayName>Per group and used navigation mesh</DisplayName>
+      <DisplayName>Chr Hit Judgment</DisplayName>
       <Enum>CHR_HIT_GROUP</Enum>
       <Description>Set the hit judgment with other characters (If you hit the ragdoll, other characters will hit the ragdoll)</Description>
       <SortID>9060</SortID>
     </Field>
     <Field Def="u8 faceIconId">
-      <DisplayName>NPC face image ID</DisplayName>
+      <DisplayName>Face Icon ID</DisplayName>
       <Description>NPC face image ID (0: invalid value (default)). Specify the ID of the face image to be displayed in the "Sign browsing menu", "Kick menu", etc. If it is an invalid value, the dress-up model is displayed.</Description>
       <Maximum>99</Maximum>
       <SortID>2000000</SortID>
     </Field>
     <Field Def="s16 deactivateDist = -1">
-      <DisplayName>Deactivate distance setting [m]</DisplayName>
+       <DisplayName>Deactivation Distance</DisplayName>
       <Description>Distance at which the character is deactivated (valid only for open placement characters)</Description>
       <Minimum>-1</Minimum>
       <Maximum>220</Maximum>
       <SortID>450100</SortID>
     </Field>
     <Field Def="u32 chrActivateConditionParamId">
-      <DisplayName>Character appearance condition Para</DisplayName>
+      <DisplayName>Chr Activate Condition Param ID</DisplayName>
       <Enum>CHR_ACTIVATE_CONDITION_TYPE</Enum>
       <Description>Character appearance condition parameter ID</Description>
       <Maximum>999999999</Maximum>
       <SortID>450000</SortID>
     </Field>
     <Field Def="f32 footIkErrorHeightLimit">
-      <DisplayName>FootIK Appearance up / down limit</DisplayName>
+      <DisplayName>Foot IK Apperance Height Limit</DisplayName>
       <Description>FootIK Appearance up / down limit</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -163,14 +163,14 @@
       <SortID>200100</SortID>
     </Field>
     <Field Def="s32 humanityLotId = -1">
-      <DisplayName>Human nature lottery ID</DisplayName>
+      <DisplayName>Humanity Lot ID</DisplayName>
       <Description>Specify the lottery ID of human nature to be acquired at the time of death</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>33010</SortID>
     </Field>
     <Field Def="s32 spEffectID0 = -1">
-      <DisplayName>Resident special effect 0</DisplayName>
+      <DisplayName>SpEffect ID [0]</DisplayName>
       <Description>Resident special effect 0</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -178,7 +178,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID1 = -1">
-      <DisplayName>Resident special effect 1</DisplayName>
+      <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Resident special effect 1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -186,7 +186,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID2 = -1">
-      <DisplayName>Resident special effect 2</DisplayName>
+      <DisplayName>SpEffect ID [2]</DisplayName>
       <Description>Resident special effect 2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -194,7 +194,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID3 = -1">
-      <DisplayName>Resident special effect 3</DisplayName>
+      <DisplayName>SpEffect ID [3]</DisplayName>
       <Description>Resident special effect 3</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -202,7 +202,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID4 = -1">
-      <DisplayName>Resident special effect 4</DisplayName>
+      <DisplayName>SpEffect ID [4]</DisplayName>
       <Description>Resident special effect 4</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -210,7 +210,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID5 = -1">
-      <DisplayName>Resident special effect 5</DisplayName>
+      <DisplayName>SpEffect ID [5]</DisplayName>
       <Description>Resident special effect 5</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -218,7 +218,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID6 = -1">
-      <DisplayName>Resident special effect 6</DisplayName>
+      <DisplayName>SpEffect ID [6]</DisplayName>
       <Description>Resident special effect 6</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -226,7 +226,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID7 = -1">
-      <DisplayName>Resident special effect 7</DisplayName>
+      <DisplayName>SpEffect ID [7]</DisplayName>
       <Description>Resident special effect 7</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -234,7 +234,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 GameClearSpEffectID = -1">
-      <DisplayName>Special effect ID for lap bonus</DisplayName>
+      <DisplayName>Game Clear - SpEffect ID</DisplayName>
       <Description>Special effect ID for lap bonus</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -242,7 +242,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 physGuardCutRate">
-      <DisplayName>Physical attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Physical</DisplayName>
       <Description>Set the damage cut rate when guarding for each attack</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -251,7 +251,7 @@
       <SortID>55000</SortID>
     </Field>
     <Field Def="f32 magGuardCutRate">
-      <DisplayName>Magic attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Magic</DisplayName>
       <Description>If it is not a guard attack, enter 0</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -260,7 +260,7 @@
       <SortID>60000</SortID>
     </Field>
     <Field Def="f32 fireGuardCutRate">
-      <DisplayName>Flame attack power cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Fire</DisplayName>
       <Description>How much to cut the fire attack?</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -269,7 +269,7 @@
       <SortID>61000</SortID>
     </Field>
     <Field Def="f32 thunGuardCutRate">
-      <DisplayName>Electric shock attack power cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Lightning</DisplayName>
       <Description>How much to cut the electric shock attack?</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -278,56 +278,56 @@
       <SortID>61100</SortID>
     </Field>
     <Field Def="s32 animIdOffset">
-      <DisplayName>Anime ID offset 1</DisplayName>
+      <DisplayName>Anim ID Offset [1]</DisplayName>
       <Description>All animations will be played with IDs shifted by this number. If not, the original anime ID is referenced.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>83000</SortID>
     </Field>
     <Field Def="s16 lockGazePoint0 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 0</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [0]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10600</SortID>
     </Field>
     <Field Def="s16 lockGazePoint1 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 1</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [1]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10610</SortID>
     </Field>
     <Field Def="s16 lockGazePoint2 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 2</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [2]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10620</SortID>
     </Field>
     <Field Def="s16 lockGazePoint3 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 3</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [3]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10630</SortID>
     </Field>
     <Field Def="s16 lockGazePoint4 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 4</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [4]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10640</SortID>
     </Field>
     <Field Def="s16 lockGazePoint5 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 5</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly ID [5]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10650</SortID>
     </Field>
     <Field Def="f32 networkWarpDist">
-      <DisplayName>Network warp judgment distance [m / sec]</DisplayName>
+      <DisplayName>Network Warp Display</DisplayName>
       <Description>Distance to warp instead of complementary movement in network synchronization. Faster people (ex dragons) need to be longer.</Description>
       <Minimum>0</Minimum>
       <Maximum>1000</Maximum>
@@ -335,98 +335,98 @@
       <SortID>101000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorR1 = -1">
-      <DisplayName>R1</DisplayName>
+      <DisplayName>Debug Action - R1</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>102000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorL1 = -1">
-      <DisplayName>L1</DisplayName>
+      <DisplayName>Debug Action - L1</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>103000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorR2 = -1">
-      <DisplayName>R2</DisplayName>
+      <DisplayName>Debug Action - R2</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>104000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorL2 = -1">
-      <DisplayName>L2</DisplayName>
+      <DisplayName>Debug Action - L2</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>105000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorRL = -1">
-      <DisplayName>□</DisplayName>
+      <DisplayName>Debug Action - Square</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>106000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorRR = -1">
-      <DisplayName>○ ○</DisplayName>
+      <DisplayName>Debug Action - Circle</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>107000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorRD = -1">
-      <DisplayName>×</DisplayName>
+      <DisplayName>Debug Action - Cross</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>108000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorRU = -1">
-      <DisplayName>△</DisplayName>
+      <DisplayName>Debug Action - Triangle</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>109000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorLL = -1">
-      <DisplayName>←</DisplayName>
+      <DisplayName>Debug Action - Left D-Pad</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>110000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorLR = -1">
-      <DisplayName>→</DisplayName>
+      <DisplayName>Debug Action - Right D-Pad</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>111000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorLD = -1">
-      <DisplayName>↓</DisplayName>
+      <DisplayName>Debug Action - Down D-Pad</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>112000</SortID>
     </Field>
     <Field Def="s32 dbgBehaviorLU = -1">
-      <DisplayName>↑</DisplayName>
+      <DisplayName>Debug Action - Up D-Pad</DisplayName>
       <Description>Register the ID from the action parameter tool and specify the action.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>113000</SortID>
     </Field>
     <Field Def="s32 animIdOffset2">
-      <DisplayName>Anime ID offset 2</DisplayName>
+      <DisplayName>Anim ID Offset [2]</DisplayName>
       <Description>All animations will be played with IDs shifted by this number. If not, the animation ID of the animation ID offset 1 is referred to.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>122000</SortID>
     </Field>
     <Field Def="f32 partsDamageRate1 = 1">
-      <DisplayName>Damage group 1 Damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [1]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 1</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -434,7 +434,7 @@
       <SortID>51110</SortID>
     </Field>
     <Field Def="f32 partsDamageRate2 = 1">
-      <DisplayName>Damage group 2 Damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [2]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 2</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -442,7 +442,7 @@
       <SortID>51120</SortID>
     </Field>
     <Field Def="f32 partsDamageRate3 = 1">
-      <DisplayName>Damage group 3 Damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [3]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 3</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -450,7 +450,7 @@
       <SortID>51130</SortID>
     </Field>
     <Field Def="f32 partsDamageRate4 = 1">
-      <DisplayName>Damage group 4 damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [4]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 4</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -458,7 +458,7 @@
       <SortID>51140</SortID>
     </Field>
     <Field Def="f32 partsDamageRate5 = 1">
-      <DisplayName>Damage group 5 damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [5]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 5</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -466,7 +466,7 @@
       <SortID>51150</SortID>
     </Field>
     <Field Def="f32 partsDamageRate6 = 1">
-      <DisplayName>Damage group 6 damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [6]</DisplayName>
       <Description>Magnification to adapt to damage processing for part 6</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -474,7 +474,7 @@
       <SortID>51160</SortID>
     </Field>
     <Field Def="f32 partsDamageRate7 = 1">
-      <DisplayName>Damage group 7 Damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [7]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 7</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -482,7 +482,7 @@
       <SortID>51165</SortID>
     </Field>
     <Field Def="f32 partsDamageRate8 = 1">
-      <DisplayName>Damage group 8 damage multiplier</DisplayName>
+      <DisplayName>Damage %: Part [8]</DisplayName>
       <Description>Magnification that adapts to damage processing for part 8</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -490,7 +490,7 @@
       <SortID>51166</SortID>
     </Field>
     <Field Def="f32 weakPartsDamageRate = 1">
-      <DisplayName>Weak point damage ratio</DisplayName>
+      <DisplayName>Damage %: Weak Part</DisplayName>
       <Description>Magnification that adapts to damage processing for weak points</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -498,7 +498,7 @@
       <SortID>51170</SortID>
     </Field>
     <Field Def="f32 superArmorRecoverCorrection">
-      <DisplayName>SA recovery time correction value</DisplayName>
+      <DisplayName>Poise Recovery Correction</DisplayName>
       <Description>Correction value for super armor recovery time</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-1</Minimum>
@@ -506,7 +506,7 @@
       <SortID>39200</SortID>
     </Field>
     <Field Def="f32 superArmorBrakeKnockbackDist">
-      <DisplayName>Knockback distance at SA break</DisplayName>
+      <DisplayName>Poise Knockback Distance</DisplayName>
       <Description>Knockback distance that can be used only at the time of SA break</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -514,122 +514,122 @@
       <SortID>41110</SortID>
     </Field>
     <Field Def="u16 stamina">
-      <DisplayName>stamina</DisplayName>
+      <DisplayName>Stamina</DisplayName>
       <Description>Total amount of stamina.</Description>
       <Maximum>999</Maximum>
       <SortID>24000</SortID>
     </Field>
     <Field Def="u16 staminaRecoverBaseVel">
-      <DisplayName>Stamina recovery basic speed [point / s]</DisplayName>
+      <DisplayName>Stamina Recovery</DisplayName>
       <Description>Stamina recovery basic speed [point / s]</Description>
       <Maximum>1000</Maximum>
       <SortID>25000</SortID>
     </Field>
     <Field Def="u16 def_phys">
-      <DisplayName>Physical defense</DisplayName>
+      <DisplayName>Defence: Physical</DisplayName>
       <Description>Damage reduction base value for physical attacks.</Description>
       <Maximum>9999</Maximum>
       <SortID>35000</SortID>
     </Field>
     <Field Def="s16 def_slash">
-      <DisplayName>Slash defense [%]</DisplayName>
+      <DisplayName>Defence: Slash</DisplayName>
       <Description>Look at the attack attribute, and if it is a slash attribute, reduce the defense power.</Description>
       <Minimum>-100</Minimum>
       <Maximum>999</Maximum>
       <SortID>35100</SortID>
     </Field>
     <Field Def="s16 def_blow">
-      <DisplayName>Blow defense [%]</DisplayName>
+      <DisplayName>Defence: Strike</DisplayName>
       <Description>Look at the attack attribute, and if it is a hit attribute, reduce the defense power.</Description>
       <Minimum>-100</Minimum>
       <Maximum>999</Maximum>
       <SortID>35200</SortID>
     </Field>
     <Field Def="s16 def_thrust">
-      <DisplayName>Puncture defense [%]</DisplayName>
+      <DisplayName>Defence: Thrust</DisplayName>
       <Description>Look at the attack attribute, and if it is a piercing attribute, reduce the defense power.</Description>
       <Minimum>-100</Minimum>
       <Maximum>999</Maximum>
       <SortID>35300</SortID>
     </Field>
     <Field Def="u16 def_mag">
-      <DisplayName>Magic defense</DisplayName>
+      <DisplayName>Defence: Magic</DisplayName>
       <Description>Damage reduction base value for magic attacks.</Description>
       <Maximum>9999</Maximum>
       <SortID>35400</SortID>
     </Field>
     <Field Def="u16 def_fire">
-      <DisplayName>Fire defense</DisplayName>
+      <DisplayName>Defence: Fire</DisplayName>
       <Description>Damage reduction base value against fire attack.</Description>
       <Maximum>9999</Maximum>
       <SortID>35500</SortID>
     </Field>
     <Field Def="u16 def_thunder">
-      <DisplayName>Electric shock defense</DisplayName>
+      <DisplayName>Defence: Lightning</DisplayName>
       <Description>Damage reduction base value against electric shock attack.</Description>
       <Maximum>9999</Maximum>
       <SortID>35600</SortID>
     </Field>
     <Field Def="u16 defFlickPower">
-      <DisplayName>Repellent defense</DisplayName>
+      <DisplayName>Weapon Repel Power</DisplayName>
       <Description>Used to determine the repelling of enemy attacks. // It is intended to be repelled by normal attacks other than guards. // Enemies with a hard skin can be repelled without doing anything ... It doesn't matter if it is a normal enemy.</Description>
       <Maximum>999</Maximum>
       <SortID>40000</SortID>
     </Field>
     <Field Def="u16 resist_poison">
-      <DisplayName>Poison resistance</DisplayName>
+      <DisplayName>Resist: Poison</DisplayName>
       <Description>Difficulty in getting poisonous</Description>
       <Maximum>999</Maximum>
       <SortID>43000</SortID>
     </Field>
     <Field Def="u16 resist_desease">
-      <DisplayName>Epidemic resistance</DisplayName>
+      <DisplayName>Resist: Scarlet Rot</DisplayName>
       <Description>Difficulty in getting sick</Description>
       <Maximum>999</Maximum>
       <SortID>43100</SortID>
     </Field>
     <Field Def="u16 resist_blood">
-      <DisplayName>Bleeding resistance</DisplayName>
+      <DisplayName>Resist: Hemorrhage</DisplayName>
       <Description>Difficulty in getting bleeding abnormalities</Description>
       <Maximum>999</Maximum>
       <SortID>43200</SortID>
     </Field>
     <Field Def="u16 resist_curse">
-      <DisplayName>Curse resistance</DisplayName>
+      <DisplayName>Resist: Blight</DisplayName>
       <Description>Difficulty in dealing with abnormal curse conditions</Description>
       <Maximum>999</Maximum>
       <SortID>43300</SortID>
     </Field>
     <Field Def="s16 ghostModelId = -1">
-      <DisplayName>Replacement model ID for wandering ghost</DisplayName>
+      <DisplayName>Ghost Model ID</DisplayName>
       <Description>Replacement model when wandering ghost, texture ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>99000</SortID>
     </Field>
     <Field Def="s16 normalChangeResouceId = -1">
-      <DisplayName>Normal replacement resource ID</DisplayName>
+      <DisplayName>Override Resource Chr ID</DisplayName>
       <Description>Replace resource ID during normal operation (do not use it unnecessarily)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100000</SortID>
     </Field>
     <Field Def="s16 guardAngle">
-      <DisplayName>Guard range [deg]</DisplayName>
+      <DisplayName>Guard Angle</DisplayName>
       <Description>Defense range angle when guarding weapons. Pending</Description>
       <Minimum>0</Minimum>
       <Maximum>180</Maximum>
       <SortID>54000</SortID>
     </Field>
     <Field Def="s16 slashGuardCutRate">
-      <DisplayName>Slash attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Slash</DisplayName>
       <Description>Looking at the attack type, what percentage of the damage of the slashing attribute is cut? Specify</Description>
       <Minimum>-100</Minimum>
       <Maximum>100</Maximum>
       <SortID>56000</SortID>
     </Field>
     <Field Def="s16 blowGuardCutRate">
-      <DisplayName>Batter attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Strike</DisplayName>
       <Description>Looking at the attack type, what percentage of the damage of the hit attribute is cut? Specify</Description>
       <Minimum>-100</Minimum>
       <Maximum>100</Maximum>

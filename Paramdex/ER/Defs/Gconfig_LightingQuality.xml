@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 localLightDistFactor = 0.75">
-      <DisplayName>Local light effective distance coefficient</DisplayName>
+      <DisplayName>Local Light Distance Factor</DisplayName>
       <Description>Local light effective distance coefficient (smaller, it disappears at a short distance)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0.5</Minimum>
@@ -15,7 +15,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="u8 localLightShadowEnabled = 1">
-      <DisplayName>Local light shadow enabled</DisplayName>
+      <DisplayName>Local Light Shadow Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Local light shadow enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -24,7 +24,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 forwardPassLightingEnabled = 1">
-      <DisplayName>Forward pass writing enabled</DisplayName>
+      <DisplayName>Forward Pass Write Enabled</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Forward pass writing enabled</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -33,7 +33,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="u8 localLightShadowSpecLevelMax = 1">
-      <DisplayName>Local light shadow spec level</DisplayName>
+      <DisplayName>Local Light Shadow Specular Level</DisplayName>
       <Description>Local light shadow spec level. The larger the value, the more light sources will be shadowed.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
