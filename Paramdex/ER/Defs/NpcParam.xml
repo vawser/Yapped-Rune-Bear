@@ -636,97 +636,97 @@
       <SortID>57000</SortID>
     </Field>
     <Field Def="s16 thrustGuardCutRate">
-      <DisplayName>Puncture attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Thrust</DisplayName>
       <Description>Looking at the attack type, what percentage of the damage of the piercing attribute is cut? Specify</Description>
       <Minimum>-100</Minimum>
       <Maximum>100</Maximum>
       <SortID>58000</SortID>
     </Field>
     <Field Def="s16 lockGazePoint6 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 6</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly [6]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10660</SortID>
     </Field>
     <Field Def="s16 normalChangeTexChrId = -1">
-      <DisplayName>Normal replacement texture character ID</DisplayName>
+      <DisplayName>Override Texture Chr ID</DisplayName>
       <Description>Normal replacement texture character ID (do not use it unnecessarily)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100100</SortID>
     </Field>
     <Field Def="u16 dropType">
-      <DisplayName>Display format of drop items</DisplayName>
+      <DisplayName>Drop Type</DisplayName>
       <Enum>NPC_ITEMDROP_TYPE</Enum>
       <Description>Display method when dropping an item (corpse emission or item display)</Description>
       <Maximum>1</Maximum>
       <SortID>26000</SortID>
     </Field>
     <Field Def="u8 knockbackRate">
-      <DisplayName>Knockback cut rate [%]</DisplayName>
+      <DisplayName>Received Knockback %</DisplayName>
       <Description>Decrease value when receiving knockback damage / Specifically, cut the initial knockback speed of the attacking side</Description>
       <Maximum>100</Maximum>
       <SortID>41000</SortID>
     </Field>
     <Field Def="u8 knockbackParamId">
-      <DisplayName>Knockback parameter ID</DisplayName>
+      <DisplayName>Knockback Param ID</DisplayName>
       <Description>Set the parameter ID used for knockback</Description>
       <SortID>41100</SortID>
     </Field>
     <Field Def="u8 fallDamageDump">
-      <DisplayName>Fall damage reduction correction [%]</DisplayName>
+      <DisplayName>Fall Damage Reduction %</DisplayName>
       <Description>Fall damage reduction correction [%]</Description>
       <Maximum>100</Maximum>
       <SortID>42000</SortID>
     </Field>
     <Field Def="u8 staminaGuardDef">
-      <DisplayName>Stamina attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Stamina</DisplayName>
       <Description>Defense against enemy stamina attacks when guarding successfully</Description>
       <Maximum>100</Maximum>
       <SortID>66000</SortID>
     </Field>
     <Field Def="u16 resist_sleep">
-      <DisplayName>Sleep tolerance</DisplayName>
+      <DisplayName>Resist: Sleep</DisplayName>
       <Description>Difficulty in getting sleep abnormalities</Description>
       <Maximum>999</Maximum>
       <SortID>43500</SortID>
     </Field>
     <Field Def="u16 resist_madness">
-      <DisplayName>Madness resistance</DisplayName>
+      <DisplayName>Resist: Madness</DisplayName>
       <Description>Difficulty in getting mad</Description>
       <Maximum>999</Maximum>
       <SortID>43600</SortID>
     </Field>
     <Field Def="s8 sleepGuardResist">
-      <DisplayName>Sleep attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Sleep</DisplayName>
       <Description>How much to cut the attack power against sleep (set as a special effect parameter)</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63500</SortID>
     </Field>
     <Field Def="s8 madnessGuardResist">
-      <DisplayName>Mad attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Madness</DisplayName>
       <Description>How much to cut the attack power against madness (set as a special effect parameter)</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63600</SortID>
     </Field>
     <Field Def="s16 lockGazePoint7 = -1">
-      <DisplayName>Gaze point of Rock Damipoli 7</DisplayName>
+      <DisplayName>Lock Gaze Point - Dummy Poly [7]</DisplayName>
       <Description>Gaze at the Damipoli specified when locking the Lock-on Damipoly 22X (-1: Invalid)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10670</SortID>
     </Field>
     <Field Def="u8 mpRecoverBaseVel">
-      <DisplayName>MP recovery basic speed [% / s]</DisplayName>
+      <DisplayName>FP Recovery</DisplayName>
       <Description>MP recovery basic speed [% / s]</Description>
       <Maximum>100</Maximum>
       <SortID>23000</SortID>
     </Field>
     <Field Def="u8 flickDamageCutRate">
-      <DisplayName>Damage attenuation rate when repelling [%]</DisplayName>
+      <DisplayName>Weapon Repel Absorption</DisplayName>
       <Description>Set a value to attenuate damage when repelling an attack</Description>
       <Maximum>100</Maximum>
       <SortID>40100</SortID>
@@ -739,7 +739,7 @@
       <SortID>200000</SortID>
     </Field>
     <Field Def="s8 drawType">
-      <DisplayName>Drawing type</DisplayName>
+      <DisplayName>Draw Type</DisplayName>
       <Enum>NPC_DRAW_TYPE</Enum>
       <Description>Drawing type</Description>
       <Minimum>0</Minimum>
@@ -747,494 +747,494 @@
       <SortID>4000</SortID>
     </Field>
     <Field Def="u8 npcType">
-      <DisplayName>NPC type</DisplayName>
+      <DisplayName>NPC Type</DisplayName>
       <Enum>NPC_TYPE</Enum>
       <Description>NPC type. OK if Zako enemies / boss enemies are distinguished</Description>
       <SortID>5000</SortID>
     </Field>
     <Field Def="u8 teamType">
-      <DisplayName>Team type</DisplayName>
+      <DisplayName>Team Type</DisplayName>
       <Enum>TEAM_TYPE</Enum>
       <Description>NPC attack hit / not hit, aim / not aim setting</Description>
       <SortID>6000</SortID>
     </Field>
     <Field Def="u8 moveType">
-      <DisplayName>Movement type</DisplayName>
+      <DisplayName>Move Type</DisplayName>
       <Enum>NPC_MOVE_TYPE</Enum>
       <Description>Moving method. This changes the control.</Description>
       <SortID>7000</SortID>
     </Field>
     <Field Def="u8 lockDist">
-      <DisplayName>Lock distance</DisplayName>
+      <DisplayName>Lock Distance</DisplayName>
       <Description>Lock-on distance [m]</Description>
       <SortID>10000</SortID>
     </Field>
     <Field Def="u16 materialSe_Weak1">
-      <DisplayName>Weakness defense material 1 [SE]</DisplayName>
+      <DisplayName>Weak Point - SE Material</DisplayName>
       <Enum>WEP_MATERIAL_DEF</Enum>
       <Description>Determines the SE that sounds when the weak point is damaged. 1</Description>
       <Maximum>9999</Maximum>
       <SortID>51200</SortID>
     </Field>
     <Field Def="u16 materialSfx_Weak1">
-      <DisplayName>Weakness protection material 1 [SFX]</DisplayName>
+      <DisplayName>Weak Point - SFX Material</DisplayName>
       <Enum>WEP_MATERIAL_DEF_SFX</Enum>
       <Description>Determines the SFX that occurs when the weak point is damaged. 1</Description>
       <Maximum>9999</Maximum>
       <SortID>51300</SortID>
     </Field>
     <Field Def="u8 partsDamageType">
-      <DisplayName>Part damage application attack</DisplayName>
+      <DisplayName>Parts Damage - Attack Type</DisplayName>
       <Enum>ATK_PARAM_PARTSDMGTYPE</Enum>
       <Description>Set the attack type to apply site damage</Description>
       <Maximum>2</Maximum>
       <SortID>51100</SortID>
     </Field>
     <Field Def="u8 vowType">
-      <DisplayName>Pledge</DisplayName>
+      <DisplayName>Vow Type</DisplayName>
       <Enum>VOW_TYPE</Enum>
       <Description>Pledge type</Description>
       <Maximum>15</Maximum>
       <SortID>125000</SortID>
     </Field>
     <Field Def="s8 guardLevel">
-      <DisplayName>Guard level</DisplayName>
+      <DisplayName>Guard Level</DisplayName>
       <Description>When guarding, which guard motion will the enemy attack? Decide</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>52000</SortID>
     </Field>
     <Field Def="u8 burnSfxType">
-      <DisplayName>Combustion SFX type</DisplayName>
+      <DisplayName>Burn SFX Type</DisplayName>
       <Enum>NPC_BURN_TYPE</Enum>
       <Description>SFX type at the time of combustion</Description>
       <SortID>53000</SortID>
     </Field>
     <Field Def="s8 poisonGuardResist">
-      <DisplayName>Poison resistance cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Poison</DisplayName>
       <Description>How much to cut the attack power to poison (set to the special effect parameter)</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63000</SortID>
     </Field>
     <Field Def="s8 diseaseGuardResist">
-      <DisplayName>Epidemic attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Scarlet Rot</DisplayName>
       <Description>How much to cut the attack power (set as a special effect parameter) to make it a plague</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63100</SortID>
     </Field>
     <Field Def="s8 bloodGuardResist">
-      <DisplayName>Bleeding attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Hemorrhage</DisplayName>
       <Description>How much to cut the attack power (set as a special effect parameter) to make bleeding</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63200</SortID>
     </Field>
     <Field Def="s8 curseGuardResist">
-      <DisplayName>Curse attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Blight</DisplayName>
       <Description>How much to cut the attack power (set as a special effect parameter) to make a curse</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
       <SortID>63300</SortID>
     </Field>
     <Field Def="u8 parryAttack">
-      <DisplayName>Parry attack power</DisplayName>
+      <DisplayName>Parry Attack Power</DisplayName>
       <Description>Parry attack power. Used by the parrying side</Description>
       <SortID>72000</SortID>
     </Field>
     <Field Def="u8 parryDefence">
-      <DisplayName>Parry defense</DisplayName>
+      <DisplayName>Parry Defence Power</DisplayName>
       <Description>Parry defense. Used by the parried side.</Description>
       <SortID>73000</SortID>
     </Field>
     <Field Def="u8 sfxSize">
-      <DisplayName>SFX size</DisplayName>
+      <DisplayName>SFX Size</DisplayName>
       <Enum>NPC_SFX_SIZE</Enum>
       <Description>SFX size</Description>
       <SortID>97000</SortID>
     </Field>
     <Field Def="u8 pushOutCamRegionRadius = 12">
-      <DisplayName>Camera extrusion area radius [m]</DisplayName>
+      <DisplayName>Push Out Camera Region Radius</DisplayName>
       <Description>Camera extrusion area radius [m]</Description>
       <EditFlags>None</EditFlags>
       <SortID>98000</SortID>
     </Field>
     <Field Def="u8 hitStopType">
-      <DisplayName>Do you want to hit stop</DisplayName>
+      <DisplayName>Hit Stop Type</DisplayName>
       <Enum>NPC_HITSTOP_TYPE</Enum>
       <Description>Setting whether to perform hit stop processing</Description>
       <SortID>9510</SortID>
     </Field>
     <Field Def="u8 ladderEndChkOffsetTop = 15">
-      <DisplayName>Ladder top termination offset [1 / 10m]</DisplayName>
+      <DisplayName>Ladder End Check Offset Top</DisplayName>
       <Description>Upper side of the ladder end judgment offset</Description>
       <SortID>16500</SortID>
     </Field>
     <Field Def="u8 ladderEndChkOffsetLow = 8">
-      <DisplayName>Ladder bottom termination offset [1 / 10m]</DisplayName>
+      <DisplayName>Ladder End Check Offset Bottom</DisplayName>
       <Description>Lower side of ladder end judgment offset</Description>
       <SortID>16600</SortID>
     </Field>
     <Field Def="u8 useRagdollCamHit:1">
-      <DisplayName>Ragdoll per camera hit</DisplayName>
+      <DisplayName>Use Ragdoll Camera Hit</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Does the camera hit the enemy ragdoll? (Valid only when hitting the player)</Description>
       <Maximum>1</Maximum>
       <SortID>9100</SortID>
     </Field>
     <Field Def="u8 disableClothRigidHit:1">
-      <DisplayName>Disable cross-rigid hits</DisplayName>
+      <DisplayName>Disable Cloth Rigid Hit</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>If you want to prevent the cross rigid from hitting you ○</Description>
       <Maximum>1</Maximum>
       <SortID>9500</SortID>
     </Field>
     <Field Def="u8 useUndulationAddAnimFB:1">
-      <DisplayName>Whether to use front and back undulation addition</DisplayName>
+      <DisplayName>Use Undulating Add Anim</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Whether to use front and back undulation addition</Description>
       <Maximum>1</Maximum>
       <SortID>20200</SortID>
     </Field>
     <Field Def="u8 isWeakA:1">
-      <DisplayName>Is it special attack A?</DisplayName>
+      <DisplayName>Enemy Type: Type A</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack A? Special attack A damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11000</SortID>
     </Field>
     <Field Def="u8 isGhost:1">
-      <DisplayName>Is it a ghost?</DisplayName>
+      <DisplayName>Is Ghost</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>The opponent's attack will be able to slip through. The attack hits only when the "anti-spirit weapon" of the weapon para is attacked with the weapon of ○. Be careful not to confuse it with a wandering ghost</Description>
       <Maximum>1</Maximum>
       <SortID>11010</SortID>
     </Field>
     <Field Def="u8 isNoDamageMotion:1">
-      <DisplayName>No damage motion when damage is 0</DisplayName>
+      <DisplayName>Is No Damage Motion</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Do you not play the damage motion when the damage is 0?</Description>
       <Maximum>1</Maximum>
       <SortID>12000</SortID>
     </Field>
     <Field Def="u8 isUnduration:1">
-      <DisplayName>Do you adjust the angle to the undulations?</DisplayName>
+      <DisplayName>Is Undulating</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Do you match the back and forth rotation of the character with the undulations of the ground? Cannot be used for flying characters</Description>
       <Maximum>1</Maximum>
       <SortID>19000</SortID>
     </Field>
     <Field Def="u8 isChangeWanderGhost:1">
-      <DisplayName>Will it be a wandering ghost?</DisplayName>
+      <DisplayName>Is Wandering Ghost</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Will it be a wandering ghost when the player is a client?</Description>
       <Maximum>1</Maximum>
       <SortID>95000</SortID>
     </Field>
     <Field Def="u8 modelDispMask0:1">
-      <DisplayName>Model display mask 0</DisplayName>
+      <DisplayName>Model Display Mask [0]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84000</SortID>
     </Field>
     <Field Def="u8 modelDispMask1:1">
-      <DisplayName>Model display mask 1</DisplayName>
+      <DisplayName>Model Display Mask [1]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84001</SortID>
     </Field>
     <Field Def="u8 modelDispMask2:1">
-      <DisplayName>Model display mask 2</DisplayName>
+      <DisplayName>Model Display Mask [2]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84002</SortID>
     </Field>
     <Field Def="u8 modelDispMask3:1">
-      <DisplayName>Model display mask 3</DisplayName>
+      <DisplayName>Model Display Mask [3]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84003</SortID>
     </Field>
     <Field Def="u8 modelDispMask4:1">
-      <DisplayName>Model display mask 4</DisplayName>
+      <DisplayName>Model Display Mask [4]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84004</SortID>
     </Field>
     <Field Def="u8 modelDispMask5:1">
-      <DisplayName>Model display mask 5</DisplayName>
+      <DisplayName>Model Display Mask [5]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84005</SortID>
     </Field>
     <Field Def="u8 modelDispMask6:1">
-      <DisplayName>Model display mask 6</DisplayName>
+      <DisplayName>Model Display Mask [6]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84006</SortID>
     </Field>
     <Field Def="u8 modelDispMask7:1">
-      <DisplayName>Model display mask 7</DisplayName>
+      <DisplayName>Model Display Mask [7]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84007</SortID>
     </Field>
     <Field Def="u8 modelDispMask8:1">
-      <DisplayName>Model display mask 8</DisplayName>
+      <DisplayName>Model Display Mask [8]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84008</SortID>
     </Field>
     <Field Def="u8 modelDispMask9:1">
-      <DisplayName>Model display mask 9</DisplayName>
+      <DisplayName>Model Display Mask [9]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84009</SortID>
     </Field>
     <Field Def="u8 modelDispMask10:1">
-      <DisplayName>Model display mask 10</DisplayName>
+      <DisplayName>Model Display Mask [10]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84010</SortID>
     </Field>
     <Field Def="u8 modelDispMask11:1">
-      <DisplayName>Model display mask 11</DisplayName>
+      <DisplayName>Model Display Mask [11]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84011</SortID>
     </Field>
     <Field Def="u8 modelDispMask12:1">
-      <DisplayName>Model display mask 12</DisplayName>
+      <DisplayName>Model Display Mask [12]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84012</SortID>
     </Field>
     <Field Def="u8 modelDispMask13:1">
-      <DisplayName>Model display mask 13</DisplayName>
+      <DisplayName>Model Display Mask [13]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84013</SortID>
     </Field>
     <Field Def="u8 modelDispMask14:1">
-      <DisplayName>Model display mask 14</DisplayName>
+      <DisplayName>Model Display Mask [14]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84014</SortID>
     </Field>
     <Field Def="u8 modelDispMask15:1">
-      <DisplayName>Model display mask 15</DisplayName>
+      <DisplayName>Model Display Mask [15]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84015</SortID>
     </Field>
     <Field Def="u8 isEnableNeckTurn:1">
-      <DisplayName>Whether to enable swinging</DisplayName>
+      <DisplayName>Is Enable Neck Turn</DisplayName>
       <Description>Do you want to enable the swing set in Param Weaver?</Description>
       <Maximum>1</Maximum>
       <SortID>123000</SortID>
     </Field>
     <Field Def="u8 disableRespawn:1">
-      <DisplayName>Is it prohibited to respond?</DisplayName>
+      <DisplayName>Disable Respawn upon Rest</DisplayName>
       <Description>Do you ban respawn?</Description>
       <Maximum>1</Maximum>
       <SortID>124000</SortID>
     </Field>
     <Field Def="u8 isMoveAnimWait:1">
-      <DisplayName>Do you wait for mobile animation?</DisplayName>
+      <DisplayName>Play Movement Anim until Over</DisplayName>
       <Description>Do you want to play the moving animation until the animation is over? (Like a mayfly dragon.)</Description>
       <Maximum>1</Maximum>
       <SortID>7500</SortID>
     </Field>
     <Field Def="u8 isCrowd:1">
-      <DisplayName>Whether to reduce crowd processing</DisplayName>
+      <DisplayName>Reduce Processing Load during Crowds</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Do you want to reduce the processing load during crowds? For babies (preferably phalanx)</Description>
       <Maximum>1</Maximum>
       <SortID>96000</SortID>
     </Field>
     <Field Def="u8 isWeakB:1">
-      <DisplayName>Is it special attack B?</DisplayName>
+      <DisplayName>Enemy Type: Type B</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack B? Special attack B damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11001</SortID>
     </Field>
     <Field Def="u8 isWeakC:1">
-      <DisplayName>Is it special attack C?</DisplayName>
+      <DisplayName>Enemy Type: Type C</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack C? Special attack C damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11002</SortID>
     </Field>
     <Field Def="u8 isWeakD:1">
-      <DisplayName>Is it special attack D?</DisplayName>
+      <DisplayName>Enemy Type: Type D</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack D? Special attack D damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11003</SortID>
     </Field>
     <Field Def="u8 doesAlwaysUseSpecialTurn:1">
-      <DisplayName>Do you always make a special turn?</DisplayName>
+      <DisplayName>Always Use Special Turn</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Always execute a special turn (even if there is no navigation mesh at the turn destination, the special turn is continuously executed)</Description>
       <Maximum>1</Maximum>
       <SortID>201002</SortID>
     </Field>
     <Field Def="u8 isRideAtkTarget:1">
-      <DisplayName>Is it a riding special attack?</DisplayName>
+      <DisplayName>Is Ride Attack Target</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Will you be the target of a riding special attack (if you are riding)?</Description>
       <Maximum>1</Maximum>
       <SortID>11006</SortID>
     </Field>
     <Field Def="u8 isEnableStepDispInterpolate:1">
-      <DisplayName>Whether to use step-over display interpolation</DisplayName>
+      <DisplayName>Enable Step Display Interpolation</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Whether to use step-over display interpolation</Description>
       <Maximum>1</Maximum>
       <SortID>200500</SortID>
     </Field>
     <Field Def="u8 isStealthTarget:1 = 1">
-      <DisplayName>Is it a stealth attack target?</DisplayName>
+      <DisplayName>Is Stealth Attack Target</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Is it a stealth attack target?</Description>
       <Maximum>1</Maximum>
       <SortID>11008</SortID>
     </Field>
     <Field Def="u8 disableInitializeDead:1">
-      <DisplayName>No initial death</DisplayName>
+      <DisplayName>Disable Init Dead</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>If you do not make an initial death, TRUE, even if you kill and save it, the corpse will not be reproduced.</Description>
       <Maximum>1</Maximum>
       <SortID>124001</SortID>
     </Field>
     <Field Def="u8 isHitRumble:1">
-      <DisplayName>Does it vibrate when hit?</DisplayName>
+      <DisplayName>Is Hit Rumble</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>TRUE if it vibrates when hit. Use when you want to change from a normal hit stop, such as a dead person.</Description>
       <Maximum>1</Maximum>
       <SortID>9520</SortID>
     </Field>
     <Field Def="u8 isSmoothTurn:1 = 1">
-      <DisplayName>Does it turn smoothly?</DisplayName>
+      <DisplayName>Use Smooth Turning</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Whether to perform interpolation when turning between nodes in route movement</Description>
       <Maximum>1</Maximum>
       <SortID>202000</SortID>
     </Field>
     <Field Def="u8 isWeakE:1">
-      <DisplayName>Is it special attack E?</DisplayName>
+      <DisplayName>Enemy Type: Type E</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack E? Special attack E damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11004</SortID>
     </Field>
     <Field Def="u8 isWeakF:1">
-      <DisplayName>Is it special attack F?</DisplayName>
+      <DisplayName>Enemy Type: Type F</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Special attack F? Special attack F damage multiplier will be included in the calculation</Description>
       <Maximum>1</Maximum>
       <SortID>11005</SortID>
     </Field>
     <Field Def="u8 modelDispMask16:1">
-      <DisplayName>Model display mask 16</DisplayName>
+      <DisplayName>Model Display Mask [16]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84016</SortID>
     </Field>
     <Field Def="u8 modelDispMask17:1">
-      <DisplayName>Model display mask 17</DisplayName>
+      <DisplayName>Model Display Mask [17]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84017</SortID>
     </Field>
     <Field Def="u8 modelDispMask18:1">
-      <DisplayName>Model display mask 18</DisplayName>
+      <DisplayName>Model Display Mask [18]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84018</SortID>
     </Field>
     <Field Def="u8 modelDispMask19:1">
-      <DisplayName>Model display mask 19</DisplayName>
+      <DisplayName>Model Display Mask [19]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84019</SortID>
     </Field>
     <Field Def="u8 modelDispMask20:1">
-      <DisplayName>Model display mask 20</DisplayName>
+      <DisplayName>Model Display Mask [20]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84020</SortID>
     </Field>
     <Field Def="u8 modelDispMask21:1">
-      <DisplayName>Model display mask 21</DisplayName>
+      <DisplayName>Model Display Mask [21]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84021</SortID>
     </Field>
     <Field Def="u8 modelDispMask22:1">
-      <DisplayName>Model display mask 22</DisplayName>
+      <DisplayName>Model Display Mask [22]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84022</SortID>
     </Field>
     <Field Def="u8 modelDispMask23:1">
-      <DisplayName>Model display mask 23</DisplayName>
+      <DisplayName>Model Display Mask [23]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84023</SortID>
     </Field>
     <Field Def="u8 modelDispMask24:1">
-      <DisplayName>Model display mask 24</DisplayName>
+      <DisplayName>Model Display Mask [24]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84024</SortID>
     </Field>
     <Field Def="u8 modelDispMask25:1">
-      <DisplayName>Model display mask 25</DisplayName>
+      <DisplayName>Model Display Mask [25]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84025</SortID>
     </Field>
     <Field Def="u8 modelDispMask26:1">
-      <DisplayName>Model display mask 26</DisplayName>
+      <DisplayName>Model Display Mask [26]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84026</SortID>
     </Field>
     <Field Def="u8 modelDispMask27:1">
-      <DisplayName>Model display mask 27</DisplayName>
+      <DisplayName>Model Display Mask [27]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84027</SortID>
     </Field>
     <Field Def="u8 modelDispMask28:1">
-      <DisplayName>Model display mask 28</DisplayName>
+      <DisplayName>Model Display Mask [28]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84028</SortID>
     </Field>
     <Field Def="u8 modelDispMask29:1">
-      <DisplayName>Model display mask 29</DisplayName>
+      <DisplayName>Model Display Mask [29]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84029</SortID>
     </Field>
     <Field Def="u8 modelDispMask30:1">
-      <DisplayName>Model display mask 30</DisplayName>
+      <DisplayName>Model Display Mask [30]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84030</SortID>
     </Field>
     <Field Def="u8 modelDispMask31:1">
-      <DisplayName>Model display mask 31</DisplayName>
+      <DisplayName>Model Display Mask [31]</DisplayName>
       <Description>Displays the model corresponding to the display mask.</Description>
       <Maximum>1</Maximum>
       <SortID>84031</SortID>
     </Field>
     <Field Def="f32 itemSearchRadius">
-      <DisplayName>Drop item radius correction</DisplayName>
+      <DisplayName>Item Pickup Radius</DisplayName>
       <Description>Radius to be added as a correction to the cylinder radius of normal Item search judgment (applicable to enemy drop items. Used for large characters etc.)</Description>
       <Minimum>-99</Minimum>
       <Maximum>99</Maximum>
@@ -1242,7 +1242,7 @@
       <SortID>26001</SortID>
     </Field>
     <Field Def="f32 chrHitHeight">
-      <DisplayName>Height per character [m]</DisplayName>
+      <DisplayName>Chr Capsule Height</DisplayName>
       <Description>The height of the capsule per character.</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
@@ -1250,7 +1250,7 @@
       <SortID>14000</SortID>
     </Field>
     <Field Def="f32 chrHitRadius">
-      <DisplayName>Radius per character [m]</DisplayName>
+      <DisplayName>Chr Capsule Radius</DisplayName>
       <Description>Radius of capsule per character.</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
@@ -1258,82 +1258,82 @@
       <SortID>14100</SortID>
     </Field>
     <Field Def="u8 specialTurnType">
-      <DisplayName>Special turning type</DisplayName>
+      <DisplayName>Special Turn Type</DisplayName>
       <Enum>NPC_SPECIAL_TURN_TYPE</Enum>
       <Description>Special turning type</Description>
       <Maximum>2</Maximum>
       <SortID>201000</SortID>
     </Field>
     <Field Def="u8 isSoulGetByBoss:1">
-      <DisplayName>Do you get a boss in soul?</DisplayName>
+      <DisplayName>Is Boss Soul Drop</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Do you get a boss in soul?</Description>
       <Maximum>1</Maximum>
       <SortID>27010</SortID>
     </Field>
     <Field Def="u8 isBulletOwner_byObject:1">
-      <DisplayName>Is it a bullet owner treated as an object?</DisplayName>
+      <DisplayName>Is Bullet Owner - By Object</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>If you become the owner of a bullet, a flag that applies the object's damage calculation related to the bullet. Used for damage correction by power.</Description>
       <Maximum>1</Maximum>
       <SortID>410000</SortID>
     </Field>
     <Field Def="u8 isUseLowHitFootIk:1">
-      <DisplayName>Do you use low hit FootIK?</DisplayName>
+      <DisplayName>Use FootIK Filter for Low Hit</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Whether to use the FootIk filter for low hits</Description>
       <Maximum>1</Maximum>
       <SortID>420000</SortID>
     </Field>
     <Field Def="u8 isCalculatePvPDamage:1">
-      <DisplayName>Whether to apply PvP damage compensation control</DisplayName>
+      <DisplayName>Use PvP Damage Modifiers</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Decide whether to calculate damage as a "player" when calculating damage. If it is invalid, it is treated as an "enemy".</Description>
       <Maximum>1</Maximum>
       <SortID>430000</SortID>
     </Field>
     <Field Def="u8 isHostSyncChr:1">
-      <DisplayName>Can only be activated when active in the host world</DisplayName>
+      <DisplayName>Is Synced with Host World</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Can only be activated when active in the host world</Description>
       <Maximum>1</Maximum>
       <SortID>450150</SortID>
     </Field>
     <Field Def="u8 isSkipWeakDamageAnim:1">
-      <DisplayName>Do you want to skip the weakness animation?</DisplayName>
+      <DisplayName>Skip Weak Damage Anim</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Weakness damage Whether to skip animation playback. "Part damage rate" and "defense material" are treated as weak points just by not playing the animation.</Description>
       <Maximum>1</Maximum>
       <SortID>51105</SortID>
     </Field>
     <Field Def="u8 isKeepHitOnRide:1">
-      <DisplayName>When riding, do you enable the capsule around the rider?</DisplayName>
+      <DisplayName>Keep Capsule on Ride</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>When riding on a character with this parameter ○, the character's Atari remains while riding.</Description>
       <Maximum>1</Maximum>
       <SortID>9505</SortID>
     </Field>
     <Field Def="u8 isSpCollide:1">
-      <DisplayName>Is it a special character?</DisplayName>
+      <DisplayName>Is Special Collider</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Is it a special character?</Description>
       <Maximum>1</Maximum>
       <SortID>12960</SortID>
     </Field>
     <Field Def="u16 def_dark">
-      <DisplayName>Dark defense</DisplayName>
+      <DisplayName>Defence: Holy</DisplayName>
       <Description>Damage reduction base value for dark attacks.</Description>
       <Maximum>9999</Maximum>
       <SortID>35700</SortID>
     </Field>
     <Field Def="u32 threatLv = 1">
-      <DisplayName>Threat level</DisplayName>
+      <DisplayName>Threat Level</DisplayName>
       <Description>Threat level. If it is 0, even if the PC is found, "FE that seems to be found" is not displayed.</Description>
       <Maximum>9999</Maximum>
       <SortID>460000</SortID>
     </Field>
     <Field Def="f32 specialTurnDistanceThreshold = 4">
-      <DisplayName>Threshold for special turning distance [m]</DisplayName>
+      <DisplayName>Special Turn Distance Threshold</DisplayName>
       <Description>Make a special turn when the distance to the target is greater than or equal to the set threshold</Description>
       <Minimum>0</Minimum>
       <Maximum>999999</Maximum>
@@ -1341,56 +1341,56 @@
       <SortID>201001</SortID>
     </Field>
     <Field Def="s32 autoFootEffectSfxId = -1">
-      <DisplayName>Foot effect identifier</DisplayName>
+      <DisplayName>Automatic Foot Effect - SFX ID</DisplayName>
       <Description>The SFX identifier used in the automatic foot effect. (ZZZ of XYYZZZ)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>97100</SortID>
     </Field>
     <Field Def="u16 materialSe1">
-      <DisplayName>Defensive material 1 [SE]</DisplayName>
+      <DisplayName>Damaged - Material SE [1]</DisplayName>
       <Enum>WEP_MATERIAL_DEF</Enum>
       <Description>Determine the SE that sounds when damaged. 1. It is OK to set it by appearance.</Description>
       <Maximum>9999</Maximum>
       <SortID>17000</SortID>
     </Field>
     <Field Def="u16 materialSfx1">
-      <DisplayName>Defensive material 1 [SFX]</DisplayName>
+      <DisplayName>Damaged - Material SFX [1]</DisplayName>
       <Enum>WEP_MATERIAL_DEF_SFX</Enum>
       <Description>Determine the SFX that occurs when you take damage. 1. It is OK to set it by appearance.</Description>
       <Maximum>9999</Maximum>
       <SortID>18000</SortID>
     </Field>
     <Field Def="u16 materialSe_Weak2">
-      <DisplayName>Weakness defense material 2 [SE]</DisplayName>
+      <DisplayName>Weak Point - Material SE [2]</DisplayName>
       <Enum>WEP_MATERIAL_DEF</Enum>
       <Description>Determines the SE that sounds when the weak point is damaged. 2</Description>
       <Maximum>9999</Maximum>
       <SortID>51201</SortID>
     </Field>
     <Field Def="u16 materialSfx_Weak2">
-      <DisplayName>Weakness protection material 2 [SFX]</DisplayName>
+      <DisplayName>Weak Point - Material SFX [2]</DisplayName>
       <Enum>WEP_MATERIAL_DEF_SFX</Enum>
       <Description>Determines the SFX that occurs when the weak point is damaged. 2</Description>
       <Maximum>9999</Maximum>
       <SortID>51301</SortID>
     </Field>
     <Field Def="u16 materialSe2">
-      <DisplayName>Defensive material 2 [SE]</DisplayName>
+      <DisplayName>Damaged - Material SE [2]</DisplayName>
       <Enum>WEP_MATERIAL_DEF</Enum>
       <Description>Determine the SE that sounds when damaged. 2. It is OK to set it by appearance.</Description>
       <Maximum>9999</Maximum>
       <SortID>17001</SortID>
     </Field>
     <Field Def="u16 materialSfx2">
-      <DisplayName>Defensive material 2 [SFX]</DisplayName>
+      <DisplayName>Damaged - Material SFX [2]</DisplayName>
       <Enum>WEP_MATERIAL_DEF_SFX</Enum>
       <Description>Determine the SFX that occurs when you take damage. 2. It is OK to set it by appearance.</Description>
       <Maximum>9999</Maximum>
       <SortID>18001</SortID>
     </Field>
     <Field Def="s32 spEffectID8 = -1">
-      <DisplayName>Resident special effect 8</DisplayName>
+      <DisplayName>SpEffect ID [8]</DisplayName>
       <Description>Resident special effect 8</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1398,7 +1398,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID9 = -1">
-      <DisplayName>Resident special effect 9</DisplayName>
+      <DisplayName>SpEffect ID [9]</DisplayName>
       <Description>Resident special effect 9</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1406,7 +1406,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID10 = -1">
-      <DisplayName>Resident special effect 10</DisplayName>
+      <DisplayName>SpEffect ID [10]</DisplayName>
       <Description>Resident special effect 10</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1414,7 +1414,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID11 = -1">
-      <DisplayName>Resident special effects 11</DisplayName>
+      <DisplayName>SpEffect ID [11]</DisplayName>
       <Description>Resident special effects 11</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1422,7 +1422,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID12 = -1">
-      <DisplayName>Resident special effect 12</DisplayName>
+      <DisplayName>SpEffect ID [12]</DisplayName>
       <Description>Resident special effect 12</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1430,7 +1430,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID13 = -1">
-      <DisplayName>Resident special effect 13</DisplayName>
+      <DisplayName>SpEffect ID [13]</DisplayName>
       <Description>Resident special effect 13</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1438,7 +1438,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID14 = -1">
-      <DisplayName>Resident special effect 14</DisplayName>
+      <DisplayName>SpEffect ID [14]</DisplayName>
       <Description>Resident special effect 14</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1446,7 +1446,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID15 = -1">
-      <DisplayName>Resident special effects 15</DisplayName>
+      <DisplayName>SpEffect ID [15]</DisplayName>
       <Description>Resident special effects 15</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1454,7 +1454,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 autoFootEffectDecalBaseId1 = -1">
-      <DisplayName>Foot decal identifier 1</DisplayName>
+      <DisplayName>Automatic Foot Effect - Decal Base ID [1]</DisplayName>
       <Description>Decal to be attached when a foot effect occurs. Floor material is also taken into consideration</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
@@ -1467,7 +1467,7 @@
       <SortID>39300</SortID>
     </Field>
     <Field Def="f32 toughnessRecoverCorrection">
-      <DisplayName>Toughness recovery time correction value</DisplayName>
+      <DisplayName>Toughness Correction</DisplayName>
       <Description>Correction value for toughness recovery time</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1475,7 +1475,7 @@
       <SortID>39400</SortID>
     </Field>
     <Field Def="f32 neutralDamageCutRate = 1">
-      <DisplayName>Non-attribute damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Standard</DisplayName>
       <Description>Non-attribute damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1484,7 +1484,7 @@
       <SortID>36000</SortID>
     </Field>
     <Field Def="f32 slashDamageCutRate = 1">
-      <DisplayName>Slash damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Slash</DisplayName>
       <Description>Slash damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1493,7 +1493,7 @@
       <SortID>36100</SortID>
     </Field>
     <Field Def="f32 blowDamageCutRate = 1">
-      <DisplayName>Batter damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Strike</DisplayName>
       <Description>Batter damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1502,7 +1502,7 @@
       <SortID>36200</SortID>
     </Field>
     <Field Def="f32 thrustDamageCutRate = 1">
-      <DisplayName>Puncture damage ratio</DisplayName>
+      <DisplayName>Absorption %: Thrust</DisplayName>
       <Description>Puncture damage ratio. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1511,7 +1511,7 @@
       <SortID>36300</SortID>
     </Field>
     <Field Def="f32 magicDamageCutRate = 1">
-      <DisplayName>Magic damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Magic</DisplayName>
       <Description>Magic damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1520,7 +1520,7 @@
       <SortID>36400</SortID>
     </Field>
     <Field Def="f32 fireDamageCutRate = 1">
-      <DisplayName>Flame damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Fire</DisplayName>
       <Description>Flame damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1529,7 +1529,7 @@
       <SortID>36500</SortID>
     </Field>
     <Field Def="f32 thunderDamageCutRate = 1">
-      <DisplayName>Electric shock damage ratio</DisplayName>
+      <DisplayName>Absorption %: Lightning</DisplayName>
       <Description>Electric shock damage ratio. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1538,7 +1538,7 @@
       <SortID>36600</SortID>
     </Field>
     <Field Def="f32 darkDamageCutRate = 1">
-      <DisplayName>Dark damage multiplier</DisplayName>
+      <DisplayName>Absorption %: Holy</DisplayName>
       <Description>Dark damage multiplier. The final damage value is the value obtained by multiplying the damage calculation result by this value.</Description>
       <DisplayFormat>%.3f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1547,7 +1547,7 @@
       <SortID>36700</SortID>
     </Field>
     <Field Def="f32 darkGuardCutRate">
-      <DisplayName>Dark attack power cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Holy</DisplayName>
       <Description>How much to cut the dark attack?</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -1556,33 +1556,33 @@
       <SortID>61200</SortID>
     </Field>
     <Field Def="s8 clothUpdateOffset">
-      <DisplayName>Cross update priority offset [m]</DisplayName>
+      <DisplayName>Cloth Update Offset</DisplayName>
       <Description>Cross update priority offset [m]</Description>
       <SortID>140000</SortID>
     </Field>
     <Field Def="u8 npcPlayerWeightType">
-      <DisplayName>Weight setting for NPC players</DisplayName>
+      <DisplayName>NPC Player Weight Type</DisplayName>
       <Enum>NPC_WEIGHT_TYPE</Enum>
       <Description>Equipment weight type applied for NPC players</Description>
       <Maximum>5</Maximum>
       <SortID>7700</SortID>
     </Field>
     <Field Def="s16 normalChangeModelId = -1">
-      <DisplayName>Normal time replacement model ID</DisplayName>
+      <DisplayName>Replacement Change - Model ID</DisplayName>
       <Description>Normal replacement model, texture ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>99100</SortID>
     </Field>
     <Field Def="s16 normalChangeAnimChrId = -1">
-      <DisplayName>Normal replacement anime character ID</DisplayName>
+      <DisplayName>Replacement Change - Anim Chr ID</DisplayName>
       <Description>Replace the target animation with the specified ID Anibnd</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100200</SortID>
     </Field>
     <Field Def="u16 paintRenderTargetSize = 256">
-      <DisplayName>Paint render target size [pix]</DisplayName>
+      <DisplayName>Paint Render Target Size</DisplayName>
       <Description>Paint render target size [pix]</Description>
       <EditFlags>None</EditFlags>
       <Maximum>4096</Maximum>
@@ -1590,7 +1590,7 @@
       <SortID>200050</SortID>
     </Field>
     <Field Def="s32 resistCorrectId_disease = -1">
-      <DisplayName>Epidemic resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct: Scarlet Rot</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1598,7 +1598,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomShaderId = -1">
-      <DisplayName>Applicable shader ID</DisplayName>
+      <DisplayName>Phantom Shader ID</DisplayName>
       <Description>ID of the phantom parameter .xlsm to apply</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1606,7 +1606,7 @@
       <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 multiPlayCorrectionParamId = -1">
-      <DisplayName>Multiplayer correction parameter ID</DisplayName>
+      <DisplayName>Multiplayer Correction Param ID</DisplayName>
       <Description>Multiplayer correction parameter ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1614,7 +1614,7 @@
       <ParamRef1>MultiPlayCorrectionParam</ParamRef1>
     </Field>
     <Field Def="f32 maxAnklePitchAngle = -1">
-      <DisplayName>FootIK Ankle limit angle_pitch</DisplayName>
+      <DisplayName>FootIK Ankle Pitch Limit Angle</DisplayName>
       <Description>FootIK Ankle pitch limit angle (-1: no limit). If you have not set Foot End L S in HAT, this angle is used in common with rolls.</Description>
       <Minimum>-1</Minimum>
       <Maximum>90</Maximum>
@@ -1622,13 +1622,13 @@
       <SortID>200060</SortID>
     </Field>
     <Field Def="u16 resist_freeze">
-      <DisplayName>Cold resistance</DisplayName>
+      <DisplayName>Resist: Frostbite</DisplayName>
       <Description>Difficulty in getting cold air condition abnormal</Description>
       <Maximum>999</Maximum>
       <SortID>43400</SortID>
     </Field>
     <Field Def="s8 freezeGuardResist">
-      <DisplayName>Cold attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Resist: Frostbite</DisplayName>
       <Description>How much to cut the attack power against cold air (set as a special effect parameter)</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
@@ -1641,7 +1641,7 @@
       <SortID>2000003</SortID>
     </Field>
     <Field Def="s32 lockCameraParamId = -1">
-      <DisplayName>Lock camera parameter ID</DisplayName>
+      <DisplayName>Lock Camera Param ID</DisplayName>
       <Description>The ID of the lock camera parameter applied to the camera when locked on. Highest priority. Unused if -1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1649,7 +1649,7 @@
       <ParamRef1>LockCamParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID16 = -1">
-      <DisplayName>Resident special effects 16</DisplayName>
+      <DisplayName>SpEffect ID [16]</DisplayName>
       <Description>Resident special effects 16</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1657,7 +1657,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID17 = -1">
-      <DisplayName>Resident special effects 17</DisplayName>
+      <DisplayName>SpEffect ID [17]</DisplayName>
       <Description>Resident special effects 17</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1665,7 +1665,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID18 = -1">
-      <DisplayName>Resident special effects 18</DisplayName>
+      <DisplayName>SpEffect ID [18]</DisplayName>
       <Description>Resident special effects 18</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1673,7 +1673,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID19 = -1">
-      <DisplayName>Resident special effects 19</DisplayName>
+      <DisplayName>SpEffect ID [19]</DisplayName>
       <Description>Resident special effects 19</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1681,7 +1681,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID20 = -1">
-      <DisplayName>Resident special effect 20</DisplayName>
+      <DisplayName>SpEffect ID [20]</DisplayName>
       <Description>Resident special effect 20</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1689,7 +1689,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID21 = -1">
-      <DisplayName>Resident special effect 21</DisplayName>
+      <DisplayName>SpEffect ID [21]</DisplayName>
       <Description>Resident special effect 21</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1697,7 +1697,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID22 = -1">
-      <DisplayName>Resident special effect 22</DisplayName>
+      <DisplayName>SpEffect ID [22]</DisplayName>
       <Description>Resident special effect 22</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1705,7 +1705,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID23 = -1">
-      <DisplayName>Resident special effect 23</DisplayName>
+      <DisplayName>SpEffect ID [23]</DisplayName>
       <Description>Resident special effect 23</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1713,7 +1713,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID24 = -1">
-      <DisplayName>Resident special effect 24</DisplayName>
+      <DisplayName>SpEffect ID [24]</DisplayName>
       <Description>Resident special effect 24</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1721,7 +1721,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID25 = -1">
-      <DisplayName>Resident special effects 25</DisplayName>
+      <DisplayName>SpEffect ID [25]</DisplayName>
       <Description>Resident special effects 25</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1729,7 +1729,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID26 = -1">
-      <DisplayName>Resident special effect 26</DisplayName>
+      <DisplayName>SpEffect ID [26]</DisplayName>
       <Description>Resident special effect 26</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1737,7 +1737,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID27 = -1">
-      <DisplayName>Resident special effect 27</DisplayName>
+      <DisplayName>SpEffect ID [27]</DisplayName>
       <Description>Resident special effect 27</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1745,7 +1745,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID28 = -1">
-      <DisplayName>Resident special effects 28</DisplayName>
+      <DisplayName>SpEffect ID [28]</DisplayName>
       <Description>Resident special effects 28</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1753,7 +1753,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID29 = -1">
-      <DisplayName>Resident special effect 29</DisplayName>
+      <DisplayName>SpEffect ID [29]</DisplayName>
       <Description>Resident special effect 29</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1761,7 +1761,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID30 = -1">
-      <DisplayName>Resident special effect 30</DisplayName>
+      <DisplayName>SpEffect ID [30]</DisplayName>
       <Description>Resident special effect 30</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1769,7 +1769,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID31 = -1">
-      <DisplayName>Resident special effects 31</DisplayName>
+      <DisplayName>SpEffect ID [31]</DisplayName>
       <Description>Resident special effects 31</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -1777,7 +1777,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="f32 disableLockOnAng">
-      <DisplayName>Central angle of lockable area [deg]</DisplayName>
+      <DisplayName>Disable Lock-on Angle</DisplayName>
       <Description>Create a conical lock-on non-lockable area beneath the enemy. The angle of the size of the cone. Can be changed temporarily from TAE</Description>
       <Minimum>0</Minimum>
       <Maximum>360</Maximum>
@@ -1785,70 +1785,70 @@
       <SortID>10800</SortID>
     </Field>
     <Field Def="s8 clothOffLodLevel = -1">
-      <DisplayName>Cross OffLOD level</DisplayName>
+      <DisplayName>LOD Level to Disable Cloth Processing</DisplayName>
       <Description>Set the LOD level to turn off cross processing</Description>
       <Minimum>-1</Minimum>
       <Maximum>2</Maximum>
       <SortID>141000</SortID>
     </Field>
     <Field Def="u8 isUseFootIKNormalByUnduration:1">
-      <DisplayName>Whether to use FootIK results to match undulations</DisplayName>
+      <DisplayName>Use Foot IK for Undulating Character</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Do you use the FootIK result to match your character to the undulations of the ground? Cannot be used for flying characters</Description>
       <Maximum>1</Maximum>
       <SortID>19500</SortID>
     </Field>
     <Field Def="u8 attachHitInitializeDead:1">
-      <DisplayName>Whether to ground the capsule at the time of initial death</DisplayName>
+      <DisplayName>Attach to Ground upon Death</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Whether to ground the capsule at the time of initial death</Description>
       <Maximum>1</Maximum>
       <SortID>124005</SortID>
     </Field>
     <Field Def="u8 excludeGroupRewardCheck:1">
-      <DisplayName>Do you want to remove it from the group reward judgment?</DisplayName>
+      <DisplayName>Exclude Group Reward Check</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Group reward: In the judgment of "all dead", characters with this parameter ○ are excluded from the judgment.</Description>
       <Maximum>1</Maximum>
       <SortID>760000</SortID>
     </Field>
     <Field Def="u8 enableAILockDmyPoly_212:1 = 1">
-      <DisplayName>Is Rock Damipoli (for Enemy) 212 Effective?</DisplayName>
+      <DisplayName>Enable AI Lock Dummy Poly [212]</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Is Rock Damipoli (for Enemy) 212 Effective?</Description>
       <Maximum>1</Maximum>
       <SortID>10900</SortID>
     </Field>
     <Field Def="u8 enableAILockDmyPoly_213:1 = 1">
-      <DisplayName>Is Rock Damipoli (for Enemy) 213 Effective?</DisplayName>
+      <DisplayName>Enable AI Lock Dummy Poly [213]</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Is Rock Damipoli (for Enemy) 213 Effective?</Description>
       <Maximum>1</Maximum>
       <SortID>10901</SortID>
     </Field>
     <Field Def="u8 enableAILockDmyPoly_214:1 = 1">
-      <DisplayName>Is Rock Damipoli (for Enemy) 214 Effective?</DisplayName>
+      <DisplayName>Enable AI Lock Dummy Poly [214]</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Is Rock Damipoli (for Enemy) 214 Effective?</Description>
       <Maximum>1</Maximum>
       <SortID>10902</SortID>
     </Field>
     <Field Def="u8 disableActivateOpen_xb1:1">
-      <DisplayName>Excluded from open_XB1</DisplayName>
+      <DisplayName>Disable Open Activation - XB1</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Excluded from open_XB1</Description>
       <Maximum>1</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 disableActivateLegacy_xb1:1">
-      <DisplayName>Excluded from Legacy_XB1</DisplayName>
+      <DisplayName>Disable Legacy Activation - XB1</DisplayName>
       <Enum>NPC_BOOL</Enum>
       <Description>Excluded from Legacy_XB1</Description>
       <Maximum>1</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="s16 estusFlaskRecoveryParamId = -1">
-      <DisplayName>HP Est Bottle / MP Est Bottle Recovery Number Parameter ID</DisplayName>
+      <DisplayName>Flask Recovery Param ID</DisplayName>
       <Description>When the character dies, the data ID of the est usage count recovery parameter .xlsm, which is the same as the value, is acquired and the est bottle is recovered. Unused if -1</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
@@ -1856,57 +1856,57 @@
       <ParamRef1>HPEstusFlaskRecoveryParam</ParamRef1>
     </Field>
     <Field Def="s32 roleNameId = -1">
-      <DisplayName>Role name text ID</DisplayName>
+      <DisplayName>Role Display Name ID</DisplayName>
       <Description>Specify the role name at the time of summoning. -1: Use the default role name of the target spirit body. 0: No display. 1 or more: Used as a text ID.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>405000</SortID>
     </Field>
     <Field Def="u16 estusFlaskLotPoint">
-      <DisplayName>HP &amp; MP Est Bottle Recovery Lottery Probability</DisplayName>
+      <DisplayName>HP/FP Flask Recovery Chance</DisplayName>
       <Description>HP / MP est recovery probability when defeating an enemy. The numerator is obtained from the NPC para with 10000 as the denominator.</Description>
       <Maximum>10000</Maximum>
       <SortID>751000</SortID>
     </Field>
     <Field Def="u16 hpEstusFlaskLotPoint">
-      <DisplayName>HP Est Bottle Recovery Lottery Probability</DisplayName>
+      <DisplayName>HP Flask Recovery Chance</DisplayName>
       <Description>Recovery probability of MP Est when defeating an enemy. The numerator is obtained from the NPC para with 10000 as the denominator.</Description>
       <Maximum>10000</Maximum>
       <SortID>751100</SortID>
     </Field>
     <Field Def="u16 mpEstusFlaskLotPoint">
-      <DisplayName>MP Est Bottle Recovery Lottery Probability</DisplayName>
+      <DisplayName>FP Flask Recovery Chance</DisplayName>
       <Description>Recovery probability of MP Est when defeating an enemy. The numerator is obtained from the NPC para with 10000 as the denominator.</Description>
       <Maximum>10000</Maximum>
       <SortID>751200</SortID>
     </Field>
     <Field Def="u16 estusFlaskRecovery_failedLotPointAdd">
-      <DisplayName>HP &amp; MP Est Bottle Recovery Addition lottery probability at the time of defeat</DisplayName>
+      <DisplayName>Missed HP/FP Flask Recovery - Bonus Chance</DisplayName>
       <Description>Next time probability increase value when you miss the HP / MP est recovery lottery. Addition value of numerator.</Description>
       <Maximum>10000</Maximum>
       <SortID>752000</SortID>
     </Field>
     <Field Def="u16 hpEstusFlaskRecovery_failedLotPointAdd">
-      <DisplayName>HP Est Bottle Recovery Addition lottery probability at the time of defeat</DisplayName>
+      <DisplayName>Missed HP Flask Recovery - Bonus Chance</DisplayName>
       <Description>The next probability increase value when you miss the HP Est Recovery Lottery. Addition value of numerator.</Description>
       <Maximum>10000</Maximum>
       <SortID>752100</SortID>
     </Field>
     <Field Def="u16 mpEstusFlaskRecovery_failedLotPointAdd">
-      <DisplayName>MP est bottle recovery Addition lottery probability at the time of defeat</DisplayName>
+      <DisplayName>Missed FP Flask Recovery - Bonus Chance</DisplayName>
       <Description>The next probability increase value when the MP est recovery lottery is missed. Addition value of numerator.</Description>
       <Maximum>10000</Maximum>
       <SortID>752200</SortID>
     </Field>
     <Field Def="s32 WanderGhostPhantomId = -1">
-      <DisplayName>Will you be a wandering ghost using a phantom shader?</DisplayName>
+      <DisplayName>Wandering Ghost Phantom ID</DisplayName>
       <Description>Phantom shader with ID specified only on the guest side Specify the phantom shader ID and make it an illusion</Description>
       <Minimum>-1</Minimum>
       <Maximum>1000000000</Maximum>
       <SortID>95500</SortID>
     </Field>
     <Field Def="f32 hearingHeadSize = -1">
-      <DisplayName>Hearing head size [m]</DisplayName>
+      <DisplayName>Listen Head Size</DisplayName>
       <Description>The offset size to be set instead of the capsule offset at the time of hearing judgment. Use this value as an offset only if it is set to 0 or higher.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1914,26 +1914,26 @@
       <SortID>14200</SortID>
     </Field>
     <Field Def="s16 SoundBankId = -1">
-      <DisplayName>Sound bank ID</DisplayName>
+      <DisplayName>Sound Bank ID</DisplayName>
       <Description>Sound bank ID can be specified -1: Use the bank of character ID (resource name)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1000000</SortID>
     </Field>
     <Field Def="u8 forwardUndulationLimit">
-      <DisplayName>Maximum anteroposterior angle to match undulations</DisplayName>
+      <DisplayName>Forward Undulation Limit</DisplayName>
       <Description>The upper limit angle when adjusting the front-back angle to the undulation. If the total length is long, it is better to set it lower.</Description>
       <Maximum>180</Maximum>
       <SortID>20000</SortID>
     </Field>
     <Field Def="u8 sideUndulationLimit">
-      <DisplayName>Maximum left-right angle to match undulations</DisplayName>
+      <DisplayName>Side Undulation Limit</DisplayName>
       <Description>Upper limit angle when adjusting the left and right angles to the undulations. If the total length is long, it is better to set it lower.</Description>
       <Maximum>180</Maximum>
       <SortID>20010</SortID>
     </Field>
     <Field Def="f32 deactiveMoveSpeed">
-      <DisplayName>Platoon Deactive Movement Speed [m / s]</DisplayName>
+      <DisplayName>Platoon - Deactivation Movement Speed</DisplayName>
       <Description>Platoon Deactive Movement Speed [m / s]</Description>
       <Minimum>0</Minimum>
       <Maximum>999</Maximum>
@@ -1941,7 +1941,7 @@
       <SortID>450200</SortID>
     </Field>
     <Field Def="f32 deactiveMoveDist">
-      <DisplayName>Distance to switch to platoon deactive movement [m]</DisplayName>
+      <DisplayName>Platoon - Deactivation Distance</DisplayName>
       <Description>Distance to switch to platoon deactive movement [m]</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -1949,7 +1949,7 @@
       <SortID>450250</SortID>
     </Field>
     <Field Def="f32 enableSoundObjDist = 48">
-      <DisplayName>Sound source effective distance [m]</DisplayName>
+      <DisplayName>Sound Source Validity - Player Distance</DisplayName>
       <Description>The distance from the player for which the character sound source is valid. -1: Effective at all distances</Description>
       <Minimum>-1</Minimum>
       <Maximum>4096</Maximum>
@@ -1957,42 +1957,42 @@
       <SortID>1000002</SortID>
     </Field>
     <Field Def="f32 undulationCorrectGain = 0.1">
-      <DisplayName>Correction gain value to match undulations</DisplayName>
+      <DisplayName>Undulation Angle Correction</DisplayName>
       <Description>Set the speed when adjusting the angle to the undulations</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
       <SortID>20100</SortID>
     </Field>
     <Field Def="s16 autoFootEffectDecalBaseId2 = -1">
-      <DisplayName>Foot decal identifier 2</DisplayName>
+      <DisplayName>Automatic Foot Effect - Decal Base ID [2]</DisplayName>
       <Description>Decal to be attached when a foot effect occurs. Floor material is also taken into consideration</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>97111</SortID>
     </Field>
     <Field Def="s16 autoFootEffectDecalBaseId3 = -1">
-      <DisplayName>Foot decal identifier 3</DisplayName>
+      <DisplayName>Automatic Foot Effect - Decal Base ID [3]</DisplayName>
       <Description>Decal to be attached when a foot effect occurs. Floor material is also taken into consideration</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>97112</SortID>
     </Field>
     <Field Def="s16 RetargetReferenceChrId = -1">
-      <DisplayName>Retarget reference character ID</DisplayName>
+      <DisplayName>Motion Re-target Reference Chr ID</DisplayName>
       <Description>Character ID to be referred to when specifying the motion retarget destination</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>100300</SortID>
     </Field>
     <Field Def="s16 SfxResBankId = -1">
-      <DisplayName>SFX resource bank ID</DisplayName>
+      <DisplayName>SFX Resource Bank ID</DisplayName>
       <Description>SFX resource bank ID can be specified -1: Use the bank of character ID (resource name)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1000100</SortID>
     </Field>
     <Field Def="f32 updateActivatePriolity = 1">
-      <DisplayName>Update and activate priorities</DisplayName>
+      <DisplayName>Activation Update Priority</DisplayName>
       <Description>Used to determine the activation / renewal level. The larger it is, the lower the update level will be even if you are far from the player.</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -2000,14 +2000,14 @@
       <SortID>450050</SortID>
     </Field>
     <Field Def="u8 chrNavimeshFlag_Alive">
-      <DisplayName>Pre-death navigation mesh flag</DisplayName>
+      <DisplayName>Chr Navmesh Flag - Alive</DisplayName>
       <Enum>NPC_NAVIMESH_FLAG</Enum>
       <Description>Flag the value of the touching Nav Mesh while the character is alive. Does not follow the movement.</Description>
       <Maximum>3</Maximum>
       <SortID>470000</SortID>
     </Field>
     <Field Def="u8 chrNavimeshFlag_Dead">
-      <DisplayName>Post-mortem navigation mesh flag</DisplayName>
+      <DisplayName>Chr Navmesh Flag - Dead</DisplayName>
       <Enum>NPC_NAVIMESH_FLAG</Enum>
       <Description>Flag the value on the touching Nav Mesh while the character is dying. Does not follow the movement.</Description>
       <Maximum>3</Maximum>
@@ -2020,49 +2020,49 @@
       <SortID>2000004</SortID>
     </Field>
     <Field Def="u8 wheelRotType">
-      <DisplayName>Wheel control type</DisplayName>
+      <DisplayName>Wheel Rotation Type</DisplayName>
       <Enum>NPC_WHEEL_ROT_TYPE</Enum>
       <Description>Wheel control type</Description>
       <Maximum>3</Maximum>
       <SortID>16300</SortID>
     </Field>
     <Field Def="f32 wheelRotRadius">
-      <DisplayName>Wheel radius</DisplayName>
+      <DisplayName>Wheel Rotation Radius</DisplayName>
       <Description>Specify the radius of the wheel [m]</Description>
       <Minimum>0</Minimum>
       <Maximum>99.99</Maximum>
       <SortID>16350</SortID>
     </Field>
     <Field Def="f32 retargetMoveRate = 1">
-      <DisplayName>Retarget movement amount magnification</DisplayName>
+      <DisplayName>Retarget Movement Rate</DisplayName>
       <Description>Magnification of movement amount at the time of retargeting</Description>
       <Minimum>0</Minimum>
       <Maximum>99.99</Maximum>
       <SortID>100400</SortID>
     </Field>
     <Field Def="f32 ladderWarpOffset">
-      <DisplayName>Ladder warp position offset</DisplayName>
+      <DisplayName>Ladder - Warp Z Offset</DisplayName>
       <Description>Offsets along the Damipoly Z-axis at the specified value. Both positive and negative numbers can be specified.</Description>
       <Minimum>-99.99</Minimum>
       <Maximum>99.99</Maximum>
       <SortID>16400</SortID>
     </Field>
     <Field Def="s32 loadAssetId = -1">
-      <DisplayName>Load asset ID</DisplayName>
+      <DisplayName>Load Asset ID</DisplayName>
       <Description>Asset ID to be read in connection with character loading (for dynamic generation of characters, etc.).</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>100250</SortID>
     </Field>
     <Field Def="s32 overlapCameraDmypolyId = -1">
-      <DisplayName>Overlap camera target lock Damipoli ID</DisplayName>
+      <DisplayName>Overlap Camera - Dummy Poly ID</DisplayName>
       <Description>Set the Damipoly ID (220-227) to enable the overlap camera. If it is -1, it will be invalid.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>10700</SortID>
     </Field>
     <Field Def="s32 residentMaterialExParamId00 = -1">
-      <DisplayName>Resident Material Expansion Para ID0</DisplayName>
+      <DisplayName>Material Ex Param ID [0]</DisplayName>
       <Description>Resident Material Expansion Para ID0</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2070,7 +2070,7 @@
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId01 = -1">
-      <DisplayName>Resident Material Expansion Para ID1</DisplayName>
+      <DisplayName>Material Ex Param ID [1]</DisplayName>
       <Description>Resident Material Expansion Para ID1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2078,7 +2078,7 @@
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId02 = -1">
-      <DisplayName>Resident Material Expansion Para ID2</DisplayName>
+      <DisplayName>Material Ex Param ID [2]</DisplayName>
       <Description>Resident Material Expansion Para ID2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2086,7 +2086,7 @@
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId03 = -1">
-      <DisplayName>Resident Material Expansion Para ID3</DisplayName>
+      <DisplayName>Material Ex Param ID [3]</DisplayName>
       <Description>Resident Material Expansion Para ID3</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2094,7 +2094,7 @@
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 residentMaterialExParamId04 = -1">
-      <DisplayName>Resident Material Expansion Para ID4</DisplayName>
+      <DisplayName>Material Ex Param ID [4]</DisplayName>
       <Description>Resident Material Expansion Para ID4</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2102,7 +2102,7 @@
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
     <Field Def="s32 sleepCollectorItemLotId_enemy = -1">
-      <DisplayName>Item lottery ID_for enemies</DisplayName>
+      <DisplayName>Sleep Collector - Enemy Item Lot</DisplayName>
       <Description>Specify the lottery ID_for enemies of the item to be acquired when collecting Nemuri. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2110,7 +2110,7 @@
       <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
     <Field Def="s32 sleepCollectorItemLotId_map = -1">
-      <DisplayName>Nemuri item lottery ID_for map</DisplayName>
+      <DisplayName>Sleep Collector - Map Item Lot</DisplayName>
       <Description>Specify for the lottery ID_map of the item to be acquired when collecting Nemuri. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2118,7 +2118,7 @@
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="f32 footIkErrorOnGain = 0.1">
-      <DisplayName>FootIK Appearance height correction ON gain value</DisplayName>
+      <DisplayName>Foot IK - Error On Gain</DisplayName>
       <Description>FootIK Appearance height correction ON gain value</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -2126,7 +2126,7 @@
       <SortID>200200</SortID>
     </Field>
     <Field Def="f32 footIkErrorOffGain = 0.4">
-      <DisplayName>FootIK Appearance height correction OFF gain value</DisplayName>
+      <DisplayName>Foot IK - Error Off Gain</DisplayName>
       <Description>FootIK Appearance height correction OFF gain value</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -2134,26 +2134,26 @@
       <SortID>200250</SortID>
     </Field>
     <Field Def="s16 SoundAddBankId = -1">
-      <DisplayName>Additional sound bank ID</DisplayName>
+      <DisplayName>Sound Add Bank ID</DisplayName>
       <Description>You can specify an additional sound bank ID -1 or 0: No addition (SEQ 16135)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1000001</SortID>
     </Field>
     <Field Def="u8 materialVariationValue">
-      <DisplayName>Defensive material variation value</DisplayName>
+      <DisplayName>Material Variation Value</DisplayName>
       <Description>It is a value used in combination with the defense material to classify abnormal conditions, damage SFX, and SE. SEQ16473</Description>
       <Maximum>99</Maximum>
       <SortID>18002</SortID>
     </Field>
     <Field Def="u8 materialVariationValue_Weak">
-      <DisplayName>Weakness defense material variation value</DisplayName>
+      <DisplayName>Weak Point - Material Variation Value</DisplayName>
       <Description>It is a value used for variation of abnormal condition, damage SFX, SE in combination with weak point defense material. SEQ16473</Description>
       <Maximum>99</Maximum>
       <SortID>51302</SortID>
     </Field>
     <Field Def="f32 superArmorDurability">
-      <DisplayName>SA endurance</DisplayName>
+      <DisplayName>Poise</DisplayName>
       <Description>Super armor durability value</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
@@ -2161,7 +2161,7 @@
       <SortID>39120</SortID>
     </Field>
     <Field Def="f32 saRecoveryRate = 1">
-      <DisplayName>SA recovery speed correction value</DisplayName>
+      <DisplayName>Poise Recovery</DisplayName>
       <Description>Correct the SA recovery speed by multiplying the SA basic recovery amount</Description>
       <Minimum>-99.99</Minimum>
       <Maximum>99.99</Maximum>
@@ -2169,7 +2169,7 @@
       <SortID>39250</SortID>
     </Field>
     <Field Def="f32 saGuardCutRate">
-      <DisplayName>SA attack cut rate [%]</DisplayName>
+      <DisplayName>Guard Absorption %: Poise Damage</DisplayName>
       <Description>Cut rate of SA damage when guard is successful</Description>
       <Minimum>0</Minimum>
       <Maximum>100</Maximum>
@@ -2177,7 +2177,7 @@
       <SortID>67000</SortID>
     </Field>
     <Field Def="s32 resistCorrectId_blood = -1">
-      <DisplayName>Bleeding resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct ID: Hemorrhage</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the setting value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2185,7 +2185,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_curse = -1">
-      <DisplayName>Curse resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct ID: Blight</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2193,7 +2193,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_freeze = -1">
-      <DisplayName>Cold resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct ID: Frostbite</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the setting value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2201,7 +2201,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_sleep = -1">
-      <DisplayName>Sleep tolerance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct ID: Sleep</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2209,7 +2209,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCorrectId_madness = -1">
-      <DisplayName>Madness resistance correction rule ID</DisplayName>
+      <DisplayName>Resist Correct ID: Madness</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -2217,28 +2217,28 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="u32 chrDeadTutorialFlagId">
-      <DisplayName>Character death tutorial judgment flag ID</DisplayName>
+      <DisplayName>Chr Dead Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when the character is defeated for the first time. Flag ON when the character dies.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>-294967297</Maximum>
       <SortID>761000</SortID>
     </Field>
     <Field Def="f32 stepDispInterpolateTime = 0.5">
-      <DisplayName>Step crossing display interpolation time</DisplayName>
+      <DisplayName>Step Display Interpolation Time</DisplayName>
       <Description>Step crossing display interpolation time</Description>
       <Minimum>0.01</Minimum>
       <Maximum>999.9</Maximum>
       <SortID>200510</SortID>
     </Field>
     <Field Def="f32 stepDispInterpolateTriggerValue = 0.6">
-      <DisplayName>Step crossing display activation judgment value</DisplayName>
+      <DisplayName>Step Display Interpolation Trigger Value</DisplayName>
       <Description>Step crossing display activation judgment value</Description>
       <Minimum>0.01</Minimum>
       <Maximum>999.9</Maximum>
       <SortID>200520</SortID>
     </Field>
     <Field Def="f32 lockScoreOffset">
-      <DisplayName>Lock score correction value</DisplayName>
+      <DisplayName>Lock Score Offset</DisplayName>
       <Description>Lock score correction value</Description>
       <Minimum>-999.9</Minimum>
       <Maximum>999.9</Maximum>

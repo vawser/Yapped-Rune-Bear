@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 param000">
-      <DisplayName>Right hand proximity_R1 combo</DisplayName>
+      <DisplayName>Right-hand - R1 Combo</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
     </Field>
     <Field Def="s16 param001">
-      <DisplayName>Right hand proximity_R2 combo</DisplayName>
+      <DisplayName>Right-hand - R2 Combo</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -22,7 +22,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="s16 param002">
-      <DisplayName>Right-handed melee_dash attack</DisplayName>
+      <DisplayName>Right-hand - Dash Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -30,7 +30,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="s16 param003">
-      <DisplayName>Right-handed melee_front rolling attack</DisplayName>
+      <DisplayName>Right-hand - Forward Roll Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -38,7 +38,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 param004">
-      <DisplayName>Right hand proximity_left and right rolling attack</DisplayName>
+      <DisplayName>Right-hand - Side Roll Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -46,7 +46,7 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="s16 param005">
-      <DisplayName>Right-handed melee_rear rolling attack</DisplayName>
+      <DisplayName>Right-hand - Backward Roll Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -54,7 +54,7 @@
       <SortID>500</SortID>
     </Field>
     <Field Def="s16 param006">
-      <DisplayName>Right-handed melee_backstep attack</DisplayName>
+      <DisplayName>Right-hand - Backstep Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -62,7 +62,7 @@
       <SortID>600</SortID>
     </Field>
     <Field Def="s16 param007">
-      <DisplayName>Right-handed melee_jump attack</DisplayName>
+      <DisplayName>Right-hand - Jump Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -70,7 +70,7 @@
       <SortID>700</SortID>
     </Field>
     <Field Def="s16 param008">
-      <DisplayName>Right-handed melee_dash jump attack</DisplayName>
+      <DisplayName>Right-hand - Dash Jump Attack</DisplayName>
       <Description>Right-handed proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -78,14 +78,14 @@
       <SortID>800</SortID>
     </Field>
     <Field Def="s16 param009">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="s16 param010">
-      <DisplayName>Right hand long range _R1 shooting</DisplayName>
+      <DisplayName>Right-hand - R1 Shoot (Bow)</DisplayName>
       <Description>Right-handed long-range weapon action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -93,7 +93,7 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="s16 param011">
-      <DisplayName>Right hand long range _R2 shooting</DisplayName>
+      <DisplayName>Right-hand - R2 Shoot (Bow)</DisplayName>
       <Description>Right-handed long-range weapon action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -101,14 +101,14 @@
       <SortID>1100</SortID>
     </Field>
     <Field Def="s16 param012">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s16 param013">
-      <DisplayName>Right hand magic _ long distance magic _ move forward</DisplayName>
+      <DisplayName>Right-hand - Forward Move (Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -116,7 +116,7 @@
       <SortID>2200</SortID>
     </Field>
     <Field Def="s16 param014">
-      <DisplayName>Right-handed magic_long-distance magic_moving backwards</DisplayName>
+      <DisplayName>Right-hand - Backward Move (Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -124,7 +124,7 @@
       <SortID>2220</SortID>
     </Field>
     <Field Def="s16 param015">
-      <DisplayName>Move left / right [Close Draw Bow]</DisplayName>
+      <DisplayName>Right-hand - Side Move (Bow)</DisplayName>
       <Description>Interrupt approached while holding a bow</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -132,7 +132,7 @@
       <SortID>24000</SortID>
     </Field>
     <Field Def="s16 param016">
-      <DisplayName>Left and right rolling [Close Draw Bow]</DisplayName>
+      <DisplayName>Right-hand - Side Roll (Bow)</DisplayName>
       <Description>Interrupt approached while holding a bow</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -140,7 +140,7 @@
       <SortID>24100</SortID>
     </Field>
     <Field Def="s16 param017">
-      <DisplayName>Do not interrupt [Close Draw Bow]</DisplayName>
+      <DisplayName>Right-hand - No Interrupt (Bow)</DisplayName>
       <Description>Interrupt approached while holding a bow</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -148,21 +148,21 @@
       <SortID>24200</SortID>
     </Field>
     <Field Def="s16 param018">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>24300</SortID>
     </Field>
     <Field Def="s16 param019">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>24400</SortID>
     </Field>
     <Field Def="s16 param020">
-      <DisplayName>Right hand magic_Melee magic_Left and right</DisplayName>
+      <DisplayName>Right-hand - Side Move (Melee Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -170,7 +170,7 @@
       <SortID>2010</SortID>
     </Field>
     <Field Def="s16 param021">
-      <DisplayName>Right hand magic_medium range magic_left and right</DisplayName>
+      <DisplayName>Right-hand - Side Move (Medium Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -178,7 +178,7 @@
       <SortID>2110</SortID>
     </Field>
     <Field Def="s16 param022">
-      <DisplayName>Right hand magic _ long distance magic _ left and right</DisplayName>
+      <DisplayName>Right-hand - Side Move (Long Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -186,7 +186,7 @@
       <SortID>2210</SortID>
     </Field>
     <Field Def="s16 param023">
-      <DisplayName>Right hand magic _HP recovery magic</DisplayName>
+      <DisplayName>Right-hand - HP Recovery (Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -194,7 +194,7 @@
       <SortID>2300</SortID>
     </Field>
     <Field Def="s16 param024">
-      <DisplayName>Right hand magic_buff magic</DisplayName>
+      <DisplayName>Right-hand - Buff (Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -202,7 +202,7 @@
       <SortID>2400</SortID>
     </Field>
     <Field Def="s16 param025">
-      <DisplayName>Right hand magic_Melee magic_Move forward</DisplayName>
+      <DisplayName>Right-hand - Forward Move (Melee Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -210,7 +210,7 @@
       <SortID>2000</SortID>
     </Field>
     <Field Def="s16 param026">
-      <DisplayName>Right hand magic_Melee magic_Move backwards</DisplayName>
+      <DisplayName>Right-hand - Backward Move (Melee Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -218,7 +218,7 @@
       <SortID>2020</SortID>
     </Field>
     <Field Def="s16 param027">
-      <DisplayName>Right-handed magic_Medium-range magic_Move forward</DisplayName>
+      <DisplayName>Right-hand - Forward Move (Medium Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -226,7 +226,7 @@
       <SortID>2100</SortID>
     </Field>
     <Field Def="s16 param028">
-      <DisplayName>Right-handed magic_Medium-range magic_Move backwards</DisplayName>
+      <DisplayName>Right-hand - Backward Move (Medium Magic)</DisplayName>
       <Description>Right hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -234,14 +234,14 @@
       <SortID>2120</SortID>
     </Field>
     <Field Def="s16 param029">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>2900</SortID>
     </Field>
     <Field Def="s16 param030">
-      <DisplayName>Right hand shield_R1 attack</DisplayName>
+      <DisplayName>Right-hand - R1 Attack (Shield)</DisplayName>
       <Description>Right hand shield action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -249,7 +249,7 @@
       <SortID>3000</SortID>
     </Field>
     <Field Def="s16 param031">
-      <DisplayName>Right hand shield_R2 attack</DisplayName>
+      <DisplayName>Right-hand - R2 Attack (Shield)</DisplayName>
       <Description>Right hand shield action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -257,28 +257,28 @@
       <SortID>3100</SortID>
     </Field>
     <Field Def="s16 param032">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>3200</SortID>
     </Field>
     <Field Def="s16 param033">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>3300</SortID>
     </Field>
     <Field Def="s16 param034">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>3400</SortID>
     </Field>
     <Field Def="s16 param035">
-      <DisplayName>Backstep [SuccessGuard]</DisplayName>
+      <DisplayName>Right-hand - Backstep (Guard Succcess)</DisplayName>
       <Description>Guard success interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -286,7 +286,7 @@
       <SortID>25000</SortID>
     </Field>
     <Field Def="s16 param036">
-      <DisplayName>Do not interrupt [SuccessGuard]</DisplayName>
+      <DisplayName>Right-hand - No Interrupt (Guard Succcess)</DisplayName>
       <Description>Guard success interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -294,7 +294,7 @@
       <SortID>25200</SortID>
     </Field>
     <Field Def="s16 param037">
-      <DisplayName>Guard Counter Attack [SuccessGuard]</DisplayName>
+      <DisplayName>Right-hand - Guard Counter (Guard Succcess)</DisplayName>
       <Description>Guard success interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -302,21 +302,21 @@
       <SortID>25100</SortID>
     </Field>
     <Field Def="s16 param038">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>25300</SortID>
     </Field>
     <Field Def="s16 param039">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>25400</SortID>
     </Field>
     <Field Def="s16 param040">
-      <DisplayName>Left hand proximity_R1 combo (both hands only)</DisplayName>
+      <DisplayName>Left-hand - R1 Combo (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -324,7 +324,7 @@
       <SortID>4000</SortID>
     </Field>
     <Field Def="s16 param041">
-      <DisplayName>Left hand proximity_R2 combo (both hands only)</DisplayName>
+      <DisplayName>Left-hand - R2 Combo (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -332,7 +332,7 @@
       <SortID>4100</SortID>
     </Field>
     <Field Def="s16 param042">
-      <DisplayName>Left-handed proximity_L1 combo (one-handed only)</DisplayName>
+      <DisplayName>Left-hand - L1 Combo (1H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -340,7 +340,7 @@
       <SortID>4200</SortID>
     </Field>
     <Field Def="s16 param043">
-      <DisplayName>Left-handed melee_dash attack (both hands only)</DisplayName>
+      <DisplayName>Left-hand - Dash Attack (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -348,7 +348,7 @@
       <SortID>4300</SortID>
     </Field>
     <Field Def="s16 param044">
-      <DisplayName>Left hand proximity_front rolling attack (both hands only)</DisplayName>
+      <DisplayName>Left-hand - Forward Roll (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -356,7 +356,7 @@
       <SortID>4400</SortID>
     </Field>
     <Field Def="s16 param045">
-      <DisplayName>Left hand proximity_left and right rolling attack (only with both hands)</DisplayName>
+      <DisplayName>Left-hand - Side Roll (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -364,7 +364,7 @@
       <SortID>4500</SortID>
     </Field>
     <Field Def="s16 param046">
-      <DisplayName>Left hand proximity_rear rolling attack (only with both hands)</DisplayName>
+      <DisplayName>Left-hand - Backward Roll (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -372,7 +372,7 @@
       <SortID>4600</SortID>
     </Field>
     <Field Def="s16 param047">
-      <DisplayName>Left-handed melee_backstep attack (only with both hands)</DisplayName>
+      <DisplayName>Left-hand - Backstep Attack (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -380,7 +380,7 @@
       <SortID>4700</SortID>
     </Field>
     <Field Def="s16 param048">
-      <DisplayName>Left-handed melee_jump attack (only with both hands)</DisplayName>
+      <DisplayName>Left-hand - Jump Attack (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -388,7 +388,7 @@
       <SortID>4800</SortID>
     </Field>
     <Field Def="s16 param049">
-      <DisplayName>Left-handed melee_dash jump attack (only with both hands)</DisplayName>
+      <DisplayName>Left-hand - Dash Jump Attack (2H Only)</DisplayName>
       <Description>Left hand proximity behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -396,7 +396,7 @@
       <SortID>4900</SortID>
     </Field>
     <Field Def="s16 param050">
-      <DisplayName>Left hand long range _R1 shooting</DisplayName>
+      <DisplayName>Left-hand - R1 Shoot (Bow)</DisplayName>
       <Description>Left-handed long-range weapon action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -404,7 +404,7 @@
       <SortID>5000</SortID>
     </Field>
     <Field Def="s16 param051">
-      <DisplayName>Left hand long range _R2 shooting</DisplayName>
+      <DisplayName>Left-hand - R2 Shoot (Bow)</DisplayName>
       <Description>Left-handed long-range weapon action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -412,14 +412,14 @@
       <SortID>5100</SortID>
     </Field>
     <Field Def="s16 param052">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>5200</SortID>
     </Field>
     <Field Def="s16 param053">
-      <DisplayName>Left hand magic _ long distance magic _ move forward</DisplayName>
+      <DisplayName>Left-hand - Forward Move (Long Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -427,7 +427,7 @@
       <SortID>6200</SortID>
     </Field>
     <Field Def="s16 param054">
-      <DisplayName>Left hand magic _ long distance magic _ move backward</DisplayName>
+      <DisplayName>Left-hand - Backward Move (Long Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -435,7 +435,7 @@
       <SortID>6220</SortID>
     </Field>
     <Field Def="s16 param055">
-      <DisplayName>Fatal Attack [Success Parry]</DisplayName>
+      <DisplayName>Left-hand - Parry Attack (Parry Success)</DisplayName>
       <Description>Parry Success Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -443,7 +443,7 @@
       <SortID>26000</SortID>
     </Field>
     <Field Def="s16 param056">
-      <DisplayName>Do not interrupt [Success Parry]</DisplayName>
+      <DisplayName>Left-hand - No Interrupt (Parry Success)</DisplayName>
       <Description>Parry Success Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -451,28 +451,28 @@
       <SortID>26100</SortID>
     </Field>
     <Field Def="s16 param057">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>26200</SortID>
     </Field>
     <Field Def="s16 param058">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>26300</SortID>
     </Field>
     <Field Def="s16 param059">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>26400</SortID>
     </Field>
     <Field Def="s16 param060">
-      <DisplayName>Left hand magic_Melee magic_Left and right</DisplayName>
+      <DisplayName>Left-hand - Side Move (Melee Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -480,7 +480,7 @@
       <SortID>6010</SortID>
     </Field>
     <Field Def="s16 param061">
-      <DisplayName>Left hand magic_medium range magic_left and right</DisplayName>
+      <DisplayName>Left-hand - Side Move (Medium Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -488,7 +488,7 @@
       <SortID>6110</SortID>
     </Field>
     <Field Def="s16 param062">
-      <DisplayName>Left hand magic _ long distance magic _ left and right</DisplayName>
+      <DisplayName>Left-hand - Side Move (Long Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -496,7 +496,7 @@
       <SortID>6210</SortID>
     </Field>
     <Field Def="s16 param063">
-      <DisplayName>Left hand magic _HP recovery magic</DisplayName>
+      <DisplayName>Left-hand - HP Recovery (Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -504,7 +504,7 @@
       <SortID>6300</SortID>
     </Field>
     <Field Def="s16 param064">
-      <DisplayName>Left hand magic_buff magic</DisplayName>
+      <DisplayName>Left-hand - Buff (Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -512,7 +512,7 @@
       <SortID>6400</SortID>
     </Field>
     <Field Def="s16 param065">
-      <DisplayName>Left hand magic_Melee magic_Move forward</DisplayName>
+      <DisplayName>Left-hand - Forward Move (Melee Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -520,7 +520,7 @@
       <SortID>6000</SortID>
     </Field>
     <Field Def="s16 param066">
-      <DisplayName>Left hand magic_Melee magic_Move backward</DisplayName>
+      <DisplayName>Left-hand - Backward Move (Melee Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -528,7 +528,7 @@
       <SortID>6020</SortID>
     </Field>
     <Field Def="s16 param067">
-      <DisplayName>Left hand magic_medium range magic_move forward</DisplayName>
+      <DisplayName>Left-hand - Forward Move (Medium Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -536,7 +536,7 @@
       <SortID>6100</SortID>
     </Field>
     <Field Def="s16 param068">
-      <DisplayName>Left hand magic_medium range magic_moving backwards</DisplayName>
+      <DisplayName>Left-hand - Backward Move (Medium Magic)</DisplayName>
       <Description>Left hand magic action</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -544,14 +544,14 @@
       <SortID>6110</SortID>
     </Field>
     <Field Def="s16 param069">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>6900</SortID>
     </Field>
     <Field Def="s16 param070">
-      <DisplayName>backstep</DisplayName>
+      <DisplayName>Backstep</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -559,7 +559,7 @@
       <SortID>7000</SortID>
     </Field>
     <Field Def="s16 param071">
-      <DisplayName>Front rolling</DisplayName>
+      <DisplayName>Forward Roll</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -567,7 +567,7 @@
       <SortID>7100</SortID>
     </Field>
     <Field Def="s16 param072">
-      <DisplayName>Left and right rolling</DisplayName>
+      <DisplayName>Side Roll</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -575,7 +575,7 @@
       <SortID>7200</SortID>
     </Field>
     <Field Def="s16 param073">
-      <DisplayName>Rolling behind</DisplayName>
+      <DisplayName>Backward Roll</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -583,7 +583,7 @@
       <SortID>7300</SortID>
     </Field>
     <Field Def="s16 param074">
-      <DisplayName>Move left and right</DisplayName>
+      <DisplayName>Side Move</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -591,7 +591,7 @@
       <SortID>7400</SortID>
     </Field>
     <Field Def="s16 param075">
-      <DisplayName>Recession</DisplayName>
+      <DisplayName>Common - Back</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -599,7 +599,7 @@
       <SortID>7500</SortID>
     </Field>
     <Field Def="s16 param076">
-      <DisplayName>Dash approach</DisplayName>
+      <DisplayName>Common - Backstep</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -607,7 +607,7 @@
       <SortID>7600</SortID>
     </Field>
     <Field Def="s16 param077">
-      <DisplayName>stand-by</DisplayName>
+      <DisplayName>Common - Standby</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -615,7 +615,7 @@
       <SortID>7700</SortID>
     </Field>
     <Field Def="s16 param078">
-      <DisplayName>Switch to two-handed right hand</DisplayName>
+      <DisplayName>Common - 2H Right Switch</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -623,7 +623,7 @@
       <SortID>7800</SortID>
     </Field>
     <Field Def="s16 param079">
-      <DisplayName>Switch to two-handed left hand</DisplayName>
+      <DisplayName>Common - 2H Left Switch</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -631,7 +631,7 @@
       <SortID>7900</SortID>
     </Field>
     <Field Def="s16 param080">
-      <DisplayName>Switch to one-handed</DisplayName>
+      <DisplayName>Common - 1H Switch</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -639,7 +639,7 @@
       <SortID>8000</SortID>
     </Field>
     <Field Def="s16 param081">
-      <DisplayName>Approach to combat distance</DisplayName>
+      <DisplayName>Common - Approach Battle Distance</DisplayName>
       <Description>Common behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -647,28 +647,28 @@
       <SortID>7650</SortID>
     </Field>
     <Field Def="s16 param082">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>8200</SortID>
     </Field>
     <Field Def="s16 param083">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>8300</SortID>
     </Field>
     <Field Def="s16 param084">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>8400</SortID>
     </Field>
     <Field Def="s16 param085">
-      <DisplayName>Deadly Attack [Guard Break]</DisplayName>
+      <DisplayName>Guard Break - Deadly Attack</DisplayName>
       <Description>Guard break interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -676,7 +676,7 @@
       <SortID>27000</SortID>
     </Field>
     <Field Def="s16 param086">
-      <DisplayName>Dash Attack [Guard Break]</DisplayName>
+      <DisplayName>Guard Break - Dash Attack</DisplayName>
       <Description>Guard break interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -684,7 +684,7 @@
       <SortID>27100</SortID>
     </Field>
     <Field Def="s16 param087">
-      <DisplayName>Magic_Melee Magic [GuardBreak]</DisplayName>
+      <DisplayName>Guard Break - Melee Magic</DisplayName>
       <Description>Guard break interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -692,7 +692,7 @@
       <SortID>27200</SortID>
     </Field>
     <Field Def="s16 param088">
-      <DisplayName>Do not interrupt [Guard Break]</DisplayName>
+      <DisplayName>Guard Break - No Interrupt</DisplayName>
       <Description>Guard break interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -700,14 +700,14 @@
       <SortID>27300</SortID>
     </Field>
     <Field Def="s16 param089">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>27400</SortID>
     </Field>
     <Field Def="s16 param090">
-      <DisplayName>Shield Chiku</DisplayName>
+      <DisplayName>Special - Shield Bash</DisplayName>
       <Description>Special behavior</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -715,35 +715,35 @@
       <SortID>9000</SortID>
     </Field>
     <Field Def="s16 param091">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>9100</SortID>
     </Field>
     <Field Def="s16 param092">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>9200</SortID>
     </Field>
     <Field Def="s16 param093">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>9300</SortID>
     </Field>
     <Field Def="s16 param094">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>9400</SortID>
     </Field>
     <Field Def="s16 param095">
-      <DisplayName>Dash Attack [Estus]</DisplayName>
+      <DisplayName>Flask Interrupt - Dash Attack</DisplayName>
       <Description>Interrupt who drank Est</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -751,7 +751,7 @@
       <SortID>28000</SortID>
     </Field>
     <Field Def="s16 param096">
-      <DisplayName>Throwing item [Estus]</DisplayName>
+      <DisplayName>Flask Interrupt - Throwable Item</DisplayName>
       <Description>Interrupt who drank Est</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -759,7 +759,7 @@
       <SortID>28100</SortID>
     </Field>
     <Field Def="s16 param097">
-      <DisplayName>Do not interrupt [Estus]</DisplayName>
+      <DisplayName>Flask Interrupt - No Interrupt</DisplayName>
       <Description>Interrupt who drank Est</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -767,21 +767,21 @@
       <SortID>28200</SortID>
     </Field>
     <Field Def="s16 param098">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>28300</SortID>
     </Field>
     <Field Def="s16 param099">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>28400</SortID>
     </Field>
     <Field Def="s16 param100">
-      <DisplayName>Parry time</DisplayName>
+      <DisplayName>Parry Interrupt - Parry</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -789,7 +789,7 @@
       <SortID>29000</SortID>
     </Field>
     <Field Def="s16 param101">
-      <DisplayName>Front rolling [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - Forward Roll</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -797,7 +797,7 @@
       <SortID>29100</SortID>
     </Field>
     <Field Def="s16 param102">
-      <DisplayName>Left and right rolling [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - Side Roll</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -805,7 +805,7 @@
       <SortID>29200</SortID>
     </Field>
     <Field Def="s16 param103">
-      <DisplayName>Rolling behind [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - Backward Roll</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -813,7 +813,7 @@
       <SortID>29300</SortID>
     </Field>
     <Field Def="s16 param104">
-      <DisplayName>Backstep attack [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - Backstep Attack</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -821,7 +821,7 @@
       <SortID>29400</SortID>
     </Field>
     <Field Def="s16 param105">
-      <DisplayName>On-the-spot guard [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - Stationary Guard</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -829,7 +829,7 @@
       <SortID>29500</SortID>
     </Field>
     <Field Def="s16 param106">
-      <DisplayName>Do not interrupt [Parrytime]</DisplayName>
+      <DisplayName>Parry Interrupt - No Interrupt</DisplayName>
       <Description>Parry Timing Interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -837,28 +837,28 @@
       <SortID>29600</SortID>
     </Field>
     <Field Def="s16 param107">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>29700</SortID>
     </Field>
     <Field Def="s16 param108">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>29800</SortID>
     </Field>
     <Field Def="s16 param109">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>29900</SortID>
     </Field>
     <Field Def="s16 param110">
-      <DisplayName>Rolling behind [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Backward Roll</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -866,7 +866,7 @@
       <SortID>21400</SortID>
     </Field>
     <Field Def="s16 param111">
-      <DisplayName>Left and right rolling [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Side Roll</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -874,7 +874,7 @@
       <SortID>21300</SortID>
     </Field>
     <Field Def="s16 param112">
-      <DisplayName>Back guard move [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Backward Guard Move</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -882,7 +882,7 @@
       <SortID>21700</SortID>
     </Field>
     <Field Def="s16 param113">
-      <DisplayName>Left and right guard movement [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Side Move</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -890,7 +890,7 @@
       <SortID>21600</SortID>
     </Field>
     <Field Def="s16 param114">
-      <DisplayName>Do not interrupt [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - No Interrupt</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -898,7 +898,7 @@
       <SortID>21800</SortID>
     </Field>
     <Field Def="s16 param115">
-      <DisplayName>R1 Combo [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - R1 Combo</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -906,7 +906,7 @@
       <SortID>21000</SortID>
     </Field>
     <Field Def="s16 param116">
-      <DisplayName>Front rolling [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Forward Roll</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -914,7 +914,7 @@
       <SortID>21200</SortID>
     </Field>
     <Field Def="s16 param117">
-      <DisplayName>Backstep [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Backstep</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -922,7 +922,7 @@
       <SortID>21100</SortID>
     </Field>
     <Field Def="s16 param118">
-      <DisplayName>Front guard move [Damaged]</DisplayName>
+      <DisplayName>Damaged Interrupt - Forward Guard Move</DisplayName>
       <Description>Damaged interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -930,14 +930,14 @@
       <SortID>21500</SortID>
     </Field>
     <Field Def="s16 param119">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>21900</SortID>
     </Field>
     <Field Def="s16 param120">
-      <DisplayName>Front rolling [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - Forward Roll</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -945,7 +945,7 @@
       <SortID>22000</SortID>
     </Field>
     <Field Def="s16 param121">
-      <DisplayName>Left and right rolling [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - Side Roll</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -953,7 +953,7 @@
       <SortID>22100</SortID>
     </Field>
     <Field Def="s16 param122">
-      <DisplayName>Front guard move [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - Forward Guard Move</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -961,7 +961,7 @@
       <SortID>22300</SortID>
     </Field>
     <Field Def="s16 param123">
-      <DisplayName>Left and right guard movement [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - Side Move</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -969,7 +969,7 @@
       <SortID>22400</SortID>
     </Field>
     <Field Def="s16 param124">
-      <DisplayName>Do not interrupt [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - No Interrupt</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -977,7 +977,7 @@
       <SortID>22600</SortID>
     </Field>
     <Field Def="s16 param125">
-      <DisplayName>After rolling [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - After Roll</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -985,7 +985,7 @@
       <SortID>22200</SortID>
     </Field>
     <Field Def="s16 param126">
-      <DisplayName>Dash approach [Shoot]</DisplayName>
+      <DisplayName>Bullet Interrupt - Dash Approach</DisplayName>
       <Description>Projectile discovery interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -993,28 +993,28 @@
       <SortID>22500</SortID>
     </Field>
     <Field Def="s16 param127">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>22700</SortID>
     </Field>
     <Field Def="s16 param128">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>22800</SortID>
     </Field>
     <Field Def="s16 param129">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>22900</SortID>
     </Field>
     <Field Def="s16 param130">
-      <DisplayName>Backstep [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Backstep</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1022,7 +1022,7 @@
       <SortID>23000</SortID>
     </Field>
     <Field Def="s16 param131">
-      <DisplayName>Front rolling [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Forward Roll</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1030,7 +1030,7 @@
       <SortID>23100</SortID>
     </Field>
     <Field Def="s16 param132">
-      <DisplayName>Left and right rolling [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Side Roll</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1038,7 +1038,7 @@
       <SortID>23200</SortID>
     </Field>
     <Field Def="s16 param133">
-      <DisplayName>After rolling [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - After Roll</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1046,7 +1046,7 @@
       <SortID>23300</SortID>
     </Field>
     <Field Def="s16 param134">
-      <DisplayName>Front guard move [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Forward Guard Move</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1054,7 +1054,7 @@
       <SortID>23400</SortID>
     </Field>
     <Field Def="s16 param135">
-      <DisplayName>Left and right guard movement [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Side Guard Move</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1062,7 +1062,7 @@
       <SortID>23500</SortID>
     </Field>
     <Field Def="s16 param136">
-      <DisplayName>On-the-spot guard [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Stationary Guard</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1070,7 +1070,7 @@
       <SortID>23600</SortID>
     </Field>
     <Field Def="s16 param137">
-      <DisplayName>Shield Chiku [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Shield Bash</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1078,7 +1078,7 @@
       <SortID>23700</SortID>
     </Field>
     <Field Def="s16 param138">
-      <DisplayName>Do not interrupt [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - No Interrupt</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1086,7 +1086,7 @@
       <SortID>23900</SortID>
     </Field>
     <Field Def="s16 param139">
-      <DisplayName>On-the-spot avoidance arts [Find Attack]</DisplayName>
+      <DisplayName>Attack Interrupt - Avoidance Weapon Art</DisplayName>
       <Description>Attack detection interrupt</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1094,7 +1094,7 @@
       <SortID>23800</SortID>
     </Field>
     <Field Def="s16 param140">
-      <DisplayName>Probability of holding both hands at R1 combo</DisplayName>
+      <DisplayName>Misc - 2H R1 Combo</DisplayName>
       <Description>Other probability corrections</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1102,7 +1102,7 @@
       <SortID>50000</SortID>
     </Field>
     <Field Def="s16 param141">
-      <DisplayName>Probability of holding both hands at R2 combo</DisplayName>
+      <DisplayName>Misc - 2H R2 Combo</DisplayName>
       <Description>Other probability corrections</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1110,7 +1110,7 @@
       <SortID>50100</SortID>
     </Field>
     <Field Def="s16 param142">
-      <DisplayName>Guard probability when moving during planning action</DisplayName>
+      <DisplayName>Misc - Guard during Move</DisplayName>
       <Description>Other probability corrections</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1118,7 +1118,7 @@
       <SortID>50200</SortID>
     </Field>
     <Field Def="s16 param143">
-      <DisplayName>Probability of replacing R1 attack with dual wield attack</DisplayName>
+      <DisplayName>Misc - Dual-wield R1 Attack</DisplayName>
       <Description>Other probability corrections</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1126,7 +1126,7 @@
       <SortID>50300</SortID>
     </Field>
     <Field Def="s16 param144">
-      <DisplayName>Probability of replacing evasion with special rolling arts</DisplayName>
+      <DisplayName>Misc - Replace Roll with Movement Art</DisplayName>
       <Description>Other probability corrections</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1134,7 +1134,7 @@
       <SortID>50400</SortID>
     </Field>
     <Field Def="s16 param145">
-      <DisplayName>Use of throwing items</DisplayName>
+      <DisplayName>Misc - Use Throwable Item</DisplayName>
       <Description>Item usage system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1142,7 +1142,7 @@
       <SortID>9500</SortID>
     </Field>
     <Field Def="s16 param146">
-      <DisplayName>Use of HP recovery items</DisplayName>
+      <DisplayName>Misc - Use HP Recovery Item</DisplayName>
       <Description>Item usage system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1150,7 +1150,7 @@
       <SortID>9510</SortID>
     </Field>
     <Field Def="s16 param147">
-      <DisplayName>Use of buff items</DisplayName>
+      <DisplayName>Misc - Use Buff Item</DisplayName>
       <Description>Item usage system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1158,7 +1158,7 @@
       <SortID>9520</SortID>
     </Field>
     <Field Def="s16 param148">
-      <DisplayName>Drug package combo attack</DisplayName>
+      <DisplayName>Misc - Use Buff Combo Attack</DisplayName>
       <Description>Item usage system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1166,14 +1166,14 @@
       <SortID>9530</SortID>
     </Field>
     <Field Def="s16 param149">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>50900</SortID>
     </Field>
     <Field Def="s16 param150">
-      <DisplayName>Arts_Short Range Attack</DisplayName>
+      <DisplayName>Weapon Art - Short Range Attack</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1181,7 +1181,7 @@
       <SortID>10000</SortID>
     </Field>
     <Field Def="s16 param151">
-      <DisplayName>Arts_Medium Range Attack</DisplayName>
+      <DisplayName>Weapon Art - Medium Range Attack</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1189,7 +1189,7 @@
       <SortID>10100</SortID>
     </Field>
     <Field Def="s16 param152">
-      <DisplayName>Arts_range attack</DisplayName>
+      <DisplayName>Weapon Art - Ranged Attack</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1197,7 +1197,7 @@
       <SortID>10200</SortID>
     </Field>
     <Field Def="s16 param153">
-      <DisplayName>Arts_Recovery</DisplayName>
+      <DisplayName>Weapon Art - Recovery</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1205,7 +1205,7 @@
       <SortID>10300</SortID>
     </Field>
     <Field Def="s16 param154">
-      <DisplayName>Arts_buff</DisplayName>
+      <DisplayName>Weapon Art - Buff</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1213,7 +1213,7 @@
       <SortID>10400</SortID>
     </Field>
     <Field Def="s16 param155">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <Description>Arts behavior system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
@@ -1221,308 +1221,308 @@
       <SortID>10000155</SortID>
     </Field>
     <Field Def="s16 param156">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000156</SortID>
     </Field>
     <Field Def="s16 param157">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000157</SortID>
     </Field>
     <Field Def="s16 param158">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000158</SortID>
     </Field>
     <Field Def="s16 param159">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000159</SortID>
     </Field>
     <Field Def="s16 param160">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000160</SortID>
     </Field>
     <Field Def="s16 param161">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000161</SortID>
     </Field>
     <Field Def="s16 param162">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000162</SortID>
     </Field>
     <Field Def="s16 param163">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000163</SortID>
     </Field>
     <Field Def="s16 param164">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000164</SortID>
     </Field>
     <Field Def="s16 param165">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000165</SortID>
     </Field>
     <Field Def="s16 param166">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000166</SortID>
     </Field>
     <Field Def="s16 param167">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000167</SortID>
     </Field>
     <Field Def="s16 param168">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000168</SortID>
     </Field>
     <Field Def="s16 param169">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000169</SortID>
     </Field>
     <Field Def="s16 param170">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000170</SortID>
     </Field>
     <Field Def="s16 param171">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000171</SortID>
     </Field>
     <Field Def="s16 param172">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000172</SortID>
     </Field>
     <Field Def="s16 param173">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000173</SortID>
     </Field>
     <Field Def="s16 param174">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000174</SortID>
     </Field>
     <Field Def="s16 param175">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000175</SortID>
     </Field>
     <Field Def="s16 param176">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000176</SortID>
     </Field>
     <Field Def="s16 param177">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000177</SortID>
     </Field>
     <Field Def="s16 param178">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000178</SortID>
     </Field>
     <Field Def="s16 param179">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000179</SortID>
     </Field>
     <Field Def="s16 param180">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000180</SortID>
     </Field>
     <Field Def="s16 param181">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000181</SortID>
     </Field>
     <Field Def="s16 param182">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000182</SortID>
     </Field>
     <Field Def="s16 param183">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000183</SortID>
     </Field>
     <Field Def="s16 param184">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000184</SortID>
     </Field>
     <Field Def="s16 param185">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000185</SortID>
     </Field>
     <Field Def="s16 param186">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000186</SortID>
     </Field>
     <Field Def="s16 param187">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000187</SortID>
     </Field>
     <Field Def="s16 param188">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000188</SortID>
     </Field>
     <Field Def="s16 param189">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000189</SortID>
     </Field>
     <Field Def="s16 param190">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000190</SortID>
     </Field>
     <Field Def="s16 param191">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000191</SortID>
     </Field>
     <Field Def="s16 param192">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000192</SortID>
     </Field>
     <Field Def="s16 param193">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000193</SortID>
     </Field>
     <Field Def="s16 param194">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000194</SortID>
     </Field>
     <Field Def="s16 param195">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000195</SortID>
     </Field>
     <Field Def="s16 param196">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000196</SortID>
     </Field>
     <Field Def="s16 param197">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000197</SortID>
     </Field>
     <Field Def="s16 param198">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
       <SortID>10000198</SortID>
     </Field>
     <Field Def="s16 param199">
-      <DisplayName>unused</DisplayName>
+      <DisplayName>Unused</DisplayName>
       <EditFlags>None</EditFlags>
       <Minimum>-9999</Minimum>
       <Maximum>9999</Maximum>
