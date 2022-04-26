@@ -40,14 +40,14 @@
       <DisplayName>Quantity retention event flag</DisplayName>
       <Description>Event flag value that holds the number</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="u32 eventFlag_forRelease">
       <DisplayName>Sales ban event flag</DisplayName>
       <Description>Sales ban event flag</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="s16 sellQuantity = -1">

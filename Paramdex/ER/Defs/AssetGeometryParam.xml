@@ -598,7 +598,7 @@
       <Description>When this event flag is ON, use the ID of the subsequent replacement 0: Do not always replace</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3130</SortID>
     </Field>
     <Field Def="s32 pickUpReplacementAnimIdOffset">

@@ -588,7 +588,7 @@
       <Description>Entity ID of return point on hold</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="s32 enemyDetectionSpEffect_BulletId_byCoopRing_RedHunter">
@@ -614,7 +614,7 @@
       <Description>For tutorial judgment: Event flag to turn on when accessing the distant view</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnAccessRetryPoint">
@@ -622,7 +622,7 @@
       <Description>For tutorial judgment: Event flag to turn on when accessing the retry point</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>6100</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnGetGroupReward">
@@ -630,7 +630,7 @@
       <Description>For tutorial judgment: Event flag to turn on when group reward is entered after defeating a group</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>6200</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnEnterRideJumpRegion">
@@ -638,7 +638,7 @@
       <Description>For tutorial judgment: Event flag to turn on when entering the riding big jump point</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>6300</SortID>
     </Field>
     <Field Def="f32 tutorialCheckRideJumpRegionExpandRange">
@@ -2154,7 +2154,7 @@
       <Description>Main menu → Event flag to unlock the item creation menu</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>42000</SortID>
     </Field>
     <Field Def="u32 unlockMessageMenuEventFlagId">
@@ -2162,7 +2162,7 @@
       <Description>Main menu → Event flag to unlock the message menu</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>42010</SortID>
     </Field>
     <Field Def="u16 breakInOnce_A_rebreakInGoodsNum">

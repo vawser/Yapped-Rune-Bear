@@ -89,7 +89,7 @@
       <DisplayName>Unlock Event Flag ID</DisplayName>
       <Description>Event flag to unlock this item (0: invalid value). Invalid value will always be unlocked</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="dummy8 reserved[4]">

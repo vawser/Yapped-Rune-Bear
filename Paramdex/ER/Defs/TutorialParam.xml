@@ -71,7 +71,7 @@
       <Description>Event flag ID for display permission (default: 0). It will not be displayed until this flag is set. Specify 0 if you always want to allow</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s32 textId = -1">

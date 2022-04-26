@@ -29,7 +29,7 @@
       <DisplayName>Fast travel permission flag ID</DisplayName>
       <Description>Fast travel permission flag ID</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>-1</Maximum>
+      <Maximum>999999999</Maximum>
     </Field>
     <Field Def="s32 WeatherLotTimeOffsetIngameSeconds">
       <DisplayName>Weather lottery time offset (in-game seconds)</DisplayName>
@@ -151,7 +151,7 @@
       <DisplayName>Number of pixels to be judged on the back side in automatic drawing group calculation</DisplayName>
       <Description>Number of pixels to be judged on the back side in automatic drawing group calculation</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>-1</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>5000</SortID>
     </Field>
     <Field Def="f32 PlayerLigntScale = 1">

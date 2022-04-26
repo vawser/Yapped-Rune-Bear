@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 cellSizeX = 30">
-      <DisplayName>Cell size X</DisplayName>
+      <DisplayName>Cell Size: X</DisplayName>
       <Description>Cell size X</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -16,7 +16,7 @@
       <Increment>0</Increment>
     </Field>
     <Field Def="f32 cellSizeY = 8">
-      <DisplayName>Cell size Y</DisplayName>
+      <DisplayName>Cell Size: Y</DisplayName>
       <Description>Cell size Y</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -26,7 +26,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 cellSizeZ = 30">
-      <DisplayName>Cell size Z</DisplayName>
+      <DisplayName>Cell Size: Z</DisplayName>
       <Description>Cell size Z</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -36,7 +36,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 cellOffsetX">
-      <DisplayName>Cell offset X</DisplayName>
+      <DisplayName>Cell Offset: X</DisplayName>
       <Description>Cell offset X</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -46,7 +46,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 cellOffsetY">
-      <DisplayName>Cell offset Y</DisplayName>
+      <DisplayName>Cell Offset: Y</DisplayName>
       <Description>Cell offset Y</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -56,7 +56,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 cellOffsetZ">
-      <DisplayName>Cell offset Z</DisplayName>
+      <DisplayName>Cell Offset: Z</DisplayName>
       <Description>Cell offset Z</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
@@ -66,7 +66,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="u8 enableBloodstain:1">
-      <DisplayName>Effective bloodstain / death illusion</DisplayName>
+      <DisplayName>Enable Bloodstain</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Effective bloodstain / death illusion</Description>
       <DisplayFormat />
@@ -76,7 +76,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="u8 enableBloodMessage:1">
-      <DisplayName>Blood character valid</DisplayName>
+      <DisplayName>Enable Blood Message</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Blood character valid</Description>
       <DisplayFormat />
@@ -86,7 +86,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="u8 enableGhost:1">
-      <DisplayName>Phantom effective</DisplayName>
+      <DisplayName>Enable Ghost</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Phantom effective</Description>
       <DisplayFormat />
@@ -96,7 +96,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="u8 enableMultiPlay:1">
-      <DisplayName>Multiplayer enabled</DisplayName>
+      <DisplayName>Enable Multiplayer</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Multiplayer enabled</Description>
       <DisplayFormat />
@@ -106,7 +106,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="u8 enableRingSearch:1">
-      <DisplayName>Ring search enabled</DisplayName>
+      <DisplayName>Enable Ring Search</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Is it a search target for ring search? (Area called Kanemori Ash Spirit / Relief Blue Spirit)</Description>
       <DisplayFormat />
@@ -116,7 +116,7 @@
       <SortID>10</SortID>
     </Field>
     <Field Def="u8 enableBreakInSearch:1">
-      <DisplayName>Intrusion search enabled</DisplayName>
+      <DisplayName>Enable Invasion Search</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Is it the target of intrusion search?</Description>
       <DisplayFormat />

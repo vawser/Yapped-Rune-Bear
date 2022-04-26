@@ -24,7 +24,7 @@
       <DisplayName>Event flags for special condition paths</DisplayName>
       <Description>Event flags for unconditionally passing special conditions.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>8500</SortID>
     </Field>
     <Field Def="u32 playerAnimId">

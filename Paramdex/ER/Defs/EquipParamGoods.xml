@@ -804,7 +804,7 @@
       <DisplayName>Item Get Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when you first get the item. Flag ON when item is obtained.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>21700</SortID>
     </Field>
     <Field Def="dummy8 reserve3[8]">

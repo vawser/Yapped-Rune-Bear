@@ -217,7 +217,7 @@
       <Description>Specify the event flag ID that manages whether it is possible to switch to the underground map. When this event flag ID is ON, it is possible to switch to the underground map.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2300</SortID>
       <UnkC8>世界地図</UnkC8>
     </Field>

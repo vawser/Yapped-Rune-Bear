@@ -41,7 +41,7 @@
       <DisplayName>Humanity Point Count Flag ID</DisplayName>
       <Description>First flag ID for managing humanity drop points (using 20 Bit)</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u16 humanityDropPoint1">
@@ -120,19 +120,19 @@
       <DisplayName>Boss Defeat Flag - For Purpose List</DisplayName>
       <Description>If this flag is ON, it will not be displayed in the list of purpose settings at the time of hosting. If it is 0, it is always displayed.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 displayAimFlagId">
       <DisplayName>Display Purpose Flag ID</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 foundBossFlagId">
       <DisplayName>Discovered Boss Flag ID</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="s32 foundBossTextId = -1">
@@ -151,14 +151,14 @@
       <DisplayName>Boss Challenge Flag ID</DisplayName>
       <Description>Boss challengeable flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag ON is targeted. If it is 0, it is always the target.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="u32 defeatBossFlagId">
       <DisplayName>Boss Defeat Flag ID</DisplayName>
       <Description>Boss defeat flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag OFF is targeted.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>610</SortID>
     </Field>
     <Field Def="f32 bossPosX">

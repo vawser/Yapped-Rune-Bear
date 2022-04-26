@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 host">
-      <DisplayName>host</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Host</DisplayName>
       <Description>Host reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -15,7 +15,7 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="f32 WhiteGhost_None">
-      <DisplayName>White sign</DisplayName>
+      <DisplayName>Rune Reward Multiplier - White Phantom - None</DisplayName>
       <Description>Cooperation sign white spirit reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -23,7 +23,7 @@
       <SortID>2000</SortID>
     </Field>
     <Field Def="f32 WhiteGhost_Umbasa">
-      <DisplayName>Gold spirit (sun)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - White Phantom - Gold</DisplayName>
       <Description>Cooperative sign gold spirit reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -31,7 +31,7 @@
       <SortID>2100</SortID>
     </Field>
     <Field Def="f32 WhiteGhost_Berserker">
-      <DisplayName>White berserker</DisplayName>
+      <DisplayName>Rune Reward Multiplier - White Phantom - Berserker</DisplayName>
       <Description>Cooperation sign white Berserker reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -39,7 +39,7 @@
       <SortID>2200</SortID>
     </Field>
     <Field Def="f32 BlackGhost_None_Sign">
-      <DisplayName>Red sign</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - None</DisplayName>
       <Description>Hostile sign red spirit reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -47,7 +47,7 @@
       <SortID>3000</SortID>
     </Field>
     <Field Def="f32 BlackGhost_Umbasa_Sign">
-      <DisplayName>Red gold spirit (signature)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - Gold</DisplayName>
       <Description>Hostile sign red gold spirit reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -55,7 +55,7 @@
       <SortID>3100</SortID>
     </Field>
     <Field Def="f32 BlackGhost_Berserker_Sign">
-      <DisplayName>Red berserker (sign)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - Berserker</DisplayName>
       <Description>Hostile sign red berserker reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -63,7 +63,7 @@
       <SortID>3200</SortID>
     </Field>
     <Field Def="f32 BlackGhost_None_Invade">
-      <DisplayName>Invasion</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - None - Invade</DisplayName>
       <Description>Invasion reward Soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -71,7 +71,7 @@
       <SortID>4000</SortID>
     </Field>
     <Field Def="f32 BlackGhost_Umbasa_Invade">
-      <DisplayName>Red Gold Spirit (Invasion)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - Gold - Invade</DisplayName>
       <Description>Invasion Orb's Red Gold Spirit Reward Soul Multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -79,7 +79,7 @@
       <SortID>4500</SortID>
     </Field>
     <Field Def="f32 BlackGhost_Berserker_Invade">
-      <DisplayName>Red berserker (invasion)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Black Phantom - Berserker - Invade</DisplayName>
       <Description>Invasion Orb Red Berserker Reward Soul Multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -87,7 +87,7 @@
       <SortID>4600</SortID>
     </Field>
     <Field Def="f32 RedHunter1">
-      <DisplayName>Relief guest</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Red Hunter [1]</DisplayName>
       <Description>Relief guest reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -95,7 +95,7 @@
       <SortID>5000</SortID>
     </Field>
     <Field Def="f32 RedHunter2">
-      <DisplayName>Red Scare Spirit 2</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Red Hunter [2]</DisplayName>
       <Description>Red Scare Spirit 2 Reward Soul Multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -103,7 +103,7 @@
       <SortID>5100</SortID>
     </Field>
     <Field Def="f32 GuardianOfForest">
-      <DisplayName>Map Guardian Spirit (Forest)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Forest Guardian</DisplayName>
       <Description>Map Guardian Spirit (Forest) Reward Soul Magnification</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -111,7 +111,7 @@
       <SortID>6000</SortID>
     </Field>
     <Field Def="f32 GuardianOfAnor">
-      <DisplayName>Map Guardian (Anor)</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Darkmoon Blade</DisplayName>
       <Description>Map Guardian Spirit (Anor) Reward Soul Multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -119,7 +119,7 @@
       <SortID>6100</SortID>
     </Field>
     <Field Def="f32 BattleRoyal">
-      <DisplayName>Arena</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Arena</DisplayName>
       <Description>Arena reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -127,7 +127,7 @@
       <SortID>7000</SortID>
     </Field>
     <Field Def="f32 YellowMonk">
-      <DisplayName>Yellow robe's old man</DisplayName>
+      <DisplayName>Rune Reward Multiplier - Yellow Monk</DisplayName>
       <Description>Yellow robe's old man's reward soul multiplier</Description>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>

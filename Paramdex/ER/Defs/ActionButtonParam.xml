@@ -189,7 +189,7 @@
       <Description>If this flag is ON, the action button will not appear and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="u32 grayoutFlag">
@@ -197,7 +197,7 @@
       <Description>If this flag is ON, the action button will be grayed out and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>-294967297</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 overrideActionButtonIdForRide = -1">
