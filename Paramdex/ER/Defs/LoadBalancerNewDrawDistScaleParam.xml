@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 DrawDist_LvBegin = 21">
-      <DisplayName>Activation level (start)</DisplayName>
+      <DisplayName>Draw Distance - Level Start</DisplayName>
       <Description>Drawing distance scale activation level (start)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>21</Maximum>
@@ -15,7 +15,7 @@
       <UnkC8>描画距離スケール</UnkC8>
     </Field>
     <Field Def="u8 DrawDist_LvEnd = 21">
-      <DisplayName>Activation level (end)</DisplayName>
+      <DisplayName>Draw Distance - Level End</DisplayName>
       <Description>Drawing distance scale activation level (completed)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>21</Maximum>
@@ -29,7 +29,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 DrawDist_ScaleBegin = 1">
-      <DisplayName>Scale (start)</DisplayName>
+      <DisplayName>Draw Distance - Scale Start</DisplayName>
       <Description>Drawing distance scale (start)</Description>
       <Minimum>0</Minimum>
       <Maximum>2</Maximum>
@@ -37,7 +37,7 @@
       <UnkC8>描画距離スケール</UnkC8>
     </Field>
     <Field Def="f32 DrawDist_ScaleEnd = 1">
-      <DisplayName>Scale (end)</DisplayName>
+      <DisplayName>Draw Distance - Scale End</DisplayName>
       <Description>Drawing distance scale (completed)</Description>
       <Minimum>0</Minimum>
       <Maximum>2</Maximum>
@@ -45,7 +45,7 @@
       <UnkC8>描画距離スケール</UnkC8>
     </Field>
     <Field Def="u8 ShadwDrawDist_LvBegin = 21">
-      <DisplayName>Activation level (start)</DisplayName>
+      <DisplayName>Shadow Draw Distance - Level Start</DisplayName>
       <Description>Shadow drawing distance scale activation level (start)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>21</Maximum>
@@ -53,7 +53,7 @@
       <UnkC8>影描画距離スケール</UnkC8>
     </Field>
     <Field Def="u8 ShadwDrawDist_LvEnd = 21">
-      <DisplayName>Activation level (end)</DisplayName>
+      <DisplayName>Shadow Draw Distance - Level End</DisplayName>
       <Description>Shadow drawing distance scale activation level (completed)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>21</Maximum>
@@ -67,7 +67,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="f32 ShadwDrawDist_ScaleBegin = 1">
-      <DisplayName>Scale (start)</DisplayName>
+      <DisplayName>Shadow Draw Distance - Scale Start</DisplayName>
       <Description>Shadow drawing distance scale (start)</Description>
       <Minimum>0</Minimum>
       <Maximum>2</Maximum>
@@ -75,7 +75,7 @@
       <UnkC8>影描画距離スケール</UnkC8>
     </Field>
     <Field Def="f32 ShadwDrawDist_ScaleEnd = 1">
-      <DisplayName>Scale (end)</DisplayName>
+      <DisplayName>Shadow Draw Distance - Scale End</DisplayName>
       <Description>Shadow drawing distance scale (completed)</Description>
       <Minimum>0</Minimum>
       <Maximum>2</Maximum>

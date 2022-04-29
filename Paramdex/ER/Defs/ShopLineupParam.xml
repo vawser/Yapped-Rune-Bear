@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 equipId">
-      <DisplayName>Equipment ID</DisplayName>
+      <DisplayName>Reference ID</DisplayName>
       <Description>ID of the equipment for sale</Description>
       <Minimum>0</Minimum>
       <Maximum>99999999</Maximum>
@@ -21,7 +21,7 @@
       <ParamRef6>EquipParamWeapon</ParamRef6>
     </Field>
     <Field Def="s32 value = -1">
-      <DisplayName>price</DisplayName>
+      <DisplayName>Sell Price Overwrite</DisplayName>
       <Description>Selling price to overwrite (-1: Do not overwrite)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -29,7 +29,7 @@
       <UnkC8>販売価格上書き</UnkC8>
     </Field>
     <Field Def="s32 mtrlId = -1">
-      <DisplayName>Material ID required for purchase</DisplayName>
+      <DisplayName>Required Material ID</DisplayName>
       <Description>Material ID required for purchase (-1: None)</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -37,21 +37,21 @@
       <ParamRef1>EquipMtrlSetParam</ParamRef1>
     </Field>
     <Field Def="u32 eventFlag_forStock">
-      <DisplayName>Quantity retention event flag</DisplayName>
+      <DisplayName>Quantity - Event Flag ID</DisplayName>
       <Description>Event flag value that holds the number</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="u32 eventFlag_forRelease">
-      <DisplayName>Sales ban event flag</DisplayName>
+      <DisplayName>Visibility - Event Flag ID</DisplayName>
       <Description>Sales ban event flag</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="s16 sellQuantity = -1">
-      <DisplayName>Number of units sold</DisplayName>
+      <DisplayName>Amount to Sell</DisplayName>
       <Description>Number of units sold</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>
@@ -62,7 +62,7 @@
       <SortID>1011</SortID>
     </Field>
     <Field Def="u8 equipType">
-      <DisplayName>Equipment type</DisplayName>
+      <DisplayName>Equipment Type</DisplayName>
       <Enum>SHOP_LINEUP_EQUIPTYPE</Enum>
       <Description>Types of equipment for sale</Description>
       <Maximum>6</Maximum>
@@ -70,7 +70,7 @@
       <UnkC8>販売品</UnkC8>
     </Field>
     <Field Def="u8 costType">
-      <DisplayName>Price type</DisplayName>
+      <DisplayName>Currency Type</DisplayName>
       <Enum>SHOP_LINEUP_COSTTYPE</Enum>
       <Description>Price type. Applies only when overwriting the selling price</Description>
       <Maximum>1</Maximum>
@@ -84,14 +84,14 @@
       <SortID>1012</SortID>
     </Field>
     <Field Def="u16 setNum = 1">
-      <DisplayName>Number of sets sold</DisplayName>
+      <DisplayName>Amount on Purchase</DisplayName>
       <Description>Number of sets sold. Number of pieces you can get with one purchase (default: 1)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Minimum>1</Minimum>
       <SortID>810</SortID>
     </Field>
     <Field Def="s32 value_Add">
-      <DisplayName>Addition</DisplayName>
+      <DisplayName>Price Addition</DisplayName>
       <Description>Correction (addition) to the selling price of equipment. Equipment para selling price x magnification + addition</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
@@ -99,7 +99,7 @@
       <UnkC8>販売価格補正</UnkC8>
     </Field>
     <Field Def="f32 value_Magnification = 1">
-      <DisplayName>magnification</DisplayName>
+      <DisplayName>Price Multiplier</DisplayName>
       <Description>Correction (magnification) to the selling price of equipment. Equipment para selling price x magnification + addition</Description>
       <Minimum>0.1</Minimum>
       <Maximum>9999</Maximum>
@@ -116,7 +116,7 @@
       <UnkC8>メニュー表示用（上書き）</UnkC8>
     </Field>
     <Field Def="s32 nameMsgId = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Name - Text ID</DisplayName>
       <Description>Menu display_text ID (-1: do not overwrite)</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -124,7 +124,7 @@
       <UnkC8>メニュー表示用（上書き）</UnkC8>
     </Field>
     <Field Def="s32 menuTitleMsgId = -1">
-      <DisplayName>Menu title text ID</DisplayName>
+      <DisplayName>Menu Title - Text ID</DisplayName>
       <Description>Text ID of the shop menu title (-1: Do not overwrite). This value of the first para found in the para ID range passed when launching the shop is referenced</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -132,7 +132,7 @@
       <UnkC8>ショップ設定（上書き）</UnkC8>
     </Field>
     <Field Def="s16 menuIconId = -1">
-      <DisplayName>Menu icon ID</DisplayName>
+      <DisplayName>Menu Icon ID</DisplayName>
       <Description>Shop menu icon ID (-1: Do not overwrite). This value of the first para found in the para ID range passed when launching the shop is referenced</Description>
       <Minimum>-1</Minimum>
       <SortID>110</SortID>

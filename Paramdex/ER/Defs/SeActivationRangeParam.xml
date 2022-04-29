@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 activateRange">
-      <DisplayName>Activate distance</DisplayName>
+      <DisplayName>Activation Range</DisplayName>
       <Description>Distance to enable placement SE (m) (0 or less: always enabled)</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999</Maximum>

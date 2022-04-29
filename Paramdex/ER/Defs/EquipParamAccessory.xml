@@ -234,6 +234,7 @@
       <Description>Rarity used in item acquisition logs</Description>
       <Maximum>99</Maximum>
       <SortID>13010</SortID>
+      <Enum>RARITY</Enum>
     </Field>
     <Field Def="dummy8 pad2[2]">
       <DisplayName>pad</DisplayName>

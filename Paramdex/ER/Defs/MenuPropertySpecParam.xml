@@ -7,26 +7,26 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 CaptionTextID">
-      <DisplayName>Item name Text ID</DisplayName>
+      <DisplayName>Caption Text ID</DisplayName>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 IconID">
-      <DisplayName>Item icon ID</DisplayName>
+      <DisplayName>Icon ID</DisplayName>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="u32 RequiredPropertyID">
-      <DisplayName>Required skills</DisplayName>
+      <DisplayName>Required Property ID</DisplayName>
       <Enum>MENU_PROPERTY_ID</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="s8 CompareType">
-      <DisplayName>Superiority or inferiority judgment</DisplayName>
+      <DisplayName>Compare Type</DisplayName>
       <Enum>MENU_PROPERTY_CMP_TYPE</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -37,7 +37,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="u16 FormatType">
-      <DisplayName>Format</DisplayName>
+      <DisplayName>Format Type</DisplayName>
       <Enum>MENU_PROPERTY_FORMAT_TYPE</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>

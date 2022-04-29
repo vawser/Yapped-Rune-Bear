@@ -7,21 +7,21 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="fixstrW paramName[32]">
-      <DisplayName>Material parameter name</DisplayName>
+      <DisplayName>Material Param Name</DisplayName>
       <Description>Set the parameter name of the material. Up to 31 characters</Description>
       <DisplayFormat>%ls</DisplayFormat>
       <EditFlags>None</EditFlags>
       <SortID>1000</SortID>
     </Field>
     <Field Def="s32 materialId = -1">
-      <DisplayName>Target material ID</DisplayName>
+      <DisplayName>Material ID</DisplayName>
       <Description>NPC Para: Resident Material Expansion Para ID setting -1 for all materials</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="f32 materialParamValue0">
-      <DisplayName>Overwrite value 1 (R)</DisplayName>
+      <DisplayName>Material Param Value: R</DisplayName>
       <Description>NPC Para: Resident Material Extended Para ID Settings</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-9999</Minimum>
@@ -29,7 +29,7 @@
       <SortID>3000</SortID>
     </Field>
     <Field Def="f32 materialParamValue1">
-      <DisplayName>Overwrite value 2 (G)</DisplayName>
+      <DisplayName>Material Param Value: G</DisplayName>
       <Description>NPC Para: Resident Material Expansion Para ID Settings</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-9999</Minimum>
@@ -37,7 +37,7 @@
       <SortID>3100</SortID>
     </Field>
     <Field Def="f32 materialParamValue2">
-      <DisplayName>Overwrite value 3 (B)</DisplayName>
+      <DisplayName>Material Param Value: B</DisplayName>
       <Description>NPC Para: Resident Material Expansion Para ID Settings</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-9999</Minimum>
@@ -45,7 +45,7 @@
       <SortID>3200</SortID>
     </Field>
     <Field Def="f32 materialParamValue3">
-      <DisplayName>Overwrite value 4 (A)</DisplayName>
+      <DisplayName>Material Param Value: A</DisplayName>
       <Description>NPC Para: Resident Material Extended Para ID Settings</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-9999</Minimum>
@@ -53,7 +53,7 @@
       <SortID>3300</SortID>
     </Field>
     <Field Def="f32 materialParamValue4 = 1">
-      <DisplayName>Overwrite value 5 (I)</DisplayName>
+      <DisplayName>Material Param Value: I</DisplayName>
       <Description>NPC Para: Resident Material Expansion Para ID Settings</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <Minimum>-9999</Minimum>

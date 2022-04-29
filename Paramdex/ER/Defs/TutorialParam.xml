@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,7 +26,7 @@
       <SortID>502</SortID>
     </Field>
     <Field Def="u8 menuType">
-      <DisplayName>Display type</DisplayName>
+      <DisplayName>Menu Type</DisplayName>
       <Enum>TUTORIAL_MENU_TYPE</Enum>
       <Description>Specifies the type of tutorial menu to display</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -34,7 +34,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 triggerType">
-      <DisplayName>Display timing</DisplayName>
+      <DisplayName>Trigger Type</DisplayName>
       <Enum>TUTORIAL_TRIGGER_TYPE</Enum>
       <Description>Display timing (default: 0: "-"). You will see this tutorial when you open this menu. Specify 0: "-" if you do not want to display it when you open the menu.</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -42,7 +42,7 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="u8 repeatType">
-      <DisplayName>Impressions</DisplayName>
+      <DisplayName>Repeat Type</DisplayName>
       <Enum>TUTORIAL_REPEAT_TYPE</Enum>
       <Description>Number of times to display (default: 0: once in the game)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -67,7 +67,7 @@
       <SortID>504</SortID>
     </Field>
     <Field Def="u32 unlockEventFlagId">
-      <DisplayName>Display permission flag</DisplayName>
+      <DisplayName>Unlock Event Flag ID</DisplayName>
       <Description>Event flag ID for display permission (default: 0). It will not be displayed until this flag is set. Specify 0 if you always want to allow</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -83,7 +83,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="f32 displayMinTime = 1">
-      <DisplayName>at the earliest</DisplayName>
+      <DisplayName>Display Minimum Time</DisplayName>
       <Description>Shortest display guaranteed time [seconds]. Even if it is closed due to an event etc., it will be closed after displaying at least this time. It's only for toast, so it's ignored in modals</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -94,7 +94,7 @@
       <UnkC8>トースト用：表示時間[秒]</UnkC8>
     </Field>
     <Field Def="f32 displayTime = 3">
-      <DisplayName>Longest</DisplayName>
+      <DisplayName>Display Time</DisplayName>
       <Description>Display time [seconds]. It will close automatically after this time has passed since the toast was displayed. It's only for toast, so it's ignored in modals</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>

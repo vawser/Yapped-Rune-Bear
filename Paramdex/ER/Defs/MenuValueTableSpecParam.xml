@@ -7,21 +7,21 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 value">
-      <DisplayName>Value to compare</DisplayName>
+      <DisplayName>Value</DisplayName>
       <Description>Value to compare</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 textId">
-      <DisplayName>Converted text ID</DisplayName>
+      <DisplayName>Text ID</DisplayName>
       <Description>Converted text ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s8 compareType">
-      <DisplayName>Comparison type</DisplayName>
+      <DisplayName>Compare Type</DisplayName>
       <Enum>MENU_VALUE_TABLE_CMP_TYPE</Enum>
       <Description>Comparison type</Description>
       <Minimum>0</Minimum>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 a000_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a000] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -15,7 +15,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a000] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -23,7 +23,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a000] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -31,7 +31,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a000] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -39,7 +39,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a000] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -47,7 +47,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a000] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -55,7 +55,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a002_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a002] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -63,7 +63,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a002] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -71,7 +71,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a002] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -79,7 +79,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a002] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -87,7 +87,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a002] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -95,7 +95,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a002] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -103,7 +103,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a003_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a003] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -111,7 +111,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a003] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -119,7 +119,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a003] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -127,7 +127,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a003] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -135,7 +135,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a003] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -143,7 +143,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a003] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -151,7 +151,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a010_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a010] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -159,7 +159,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a010] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -167,7 +167,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a010] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -175,7 +175,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a010] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -183,7 +183,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a010] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -191,7 +191,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a010] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -199,7 +199,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a012_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a012] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -207,7 +207,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a012] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -215,7 +215,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a012] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -223,7 +223,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a012] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -231,7 +231,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a012] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -239,7 +239,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a012] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -247,7 +247,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a013_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a013] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -255,7 +255,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a013] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -263,7 +263,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a013] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -271,7 +271,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a013] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -279,7 +279,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a013] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -287,7 +287,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a013] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -295,7 +295,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a014_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a014] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -303,7 +303,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a014] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -311,7 +311,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a014] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -319,7 +319,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a014] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -327,7 +327,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a014] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -335,7 +335,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a014] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -343,7 +343,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a015_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a015] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -351,7 +351,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a015] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -359,7 +359,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a015] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -367,7 +367,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a015] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -375,7 +375,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a015] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -383,7 +383,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a015] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -391,7 +391,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a016_rightArmFB">
-      <DisplayName>Right arm_front and back</DisplayName>
+      <DisplayName>[a016] Right Arm - Front/Back</DisplayName>
       <Description>Right arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -399,7 +399,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_rightWristFB">
-      <DisplayName>Right wrist_front and back</DisplayName>
+      <DisplayName>[a016] Right Wrist - Front/Back</DisplayName>
       <Description>Right wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -407,7 +407,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_rightWristIO">
-      <DisplayName>Right wrist_inside and outside</DisplayName>
+      <DisplayName>[a016] Right Wrist - Inside/Outside</DisplayName>
       <Description>Right wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -415,7 +415,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_leftArmFB">
-      <DisplayName>Left arm_front and back</DisplayName>
+      <DisplayName>[a016] Left Arm - Front/Back</DisplayName>
       <Description>Left arm_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -423,7 +423,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_leftWristFB">
-      <DisplayName>Left wrist_front and back</DisplayName>
+      <DisplayName>[a016] Left Wrist - Front/Back</DisplayName>
       <Description>Left wrist_front and back</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -431,7 +431,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_leftWristIO">
-      <DisplayName>Left wrist_inside and outside</DisplayName>
+      <DisplayName>[a016] Left Wrist - Inside/Outside</DisplayName>
       <Description>Left wrist_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 MinFadeLeaf">
-      <DisplayName>Leaf minimum fade value</DisplayName>
+      <DisplayName>Leaf - Min Fade</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -15,7 +15,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 MinFadeFrond">
-      <DisplayName>Frond minimum fade value</DisplayName>
+      <DisplayName>Frond - Min Fade</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -23,7 +23,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 MinFadeBranch">
-      <DisplayName>Branch minimum fade value</DisplayName>
+      <DisplayName>Branch - Min Fade</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -31,7 +31,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 MinTranslucencyLeaf">
-      <DisplayName>Minimum transmitted light of Leaf</DisplayName>
+      <DisplayName>Leaf - Min Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -39,7 +39,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 MaxTranslucencyLeaf = 5">
-      <DisplayName>Maximum transmitted light of Leaf</DisplayName>
+      <DisplayName>Leaf - Max Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -47,7 +47,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 MinTranslucencyFrond">
-      <DisplayName>Minimum transmitted light of Frond</DisplayName>
+      <DisplayName>Frond - Min Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -55,7 +55,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="f32 MaxTranslucencyFrond = 5">
-      <DisplayName>Maximum transmitted light of Frond</DisplayName>
+      <DisplayName>Frond - Max Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -63,7 +63,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 MinTranslucencyBranch">
-      <DisplayName>Minimum transmitted light of Branch</DisplayName>
+      <DisplayName>Branch - Min Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -71,7 +71,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="f32 MaxTranslucencyBranch = 5">
-      <DisplayName>Maximum transmitted light of Branch</DisplayName>
+      <DisplayName>Branch - Max Translucency</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>10</Maximum>
@@ -79,7 +79,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="f32 BillboardBackSpecularWeakenParam = 1">
-      <DisplayName>Billboard Specular suppression value</DisplayName>
+      <DisplayName>Billboard Specular Suppression Value</DisplayName>
       <EditFlags>Lock</EditFlags>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>

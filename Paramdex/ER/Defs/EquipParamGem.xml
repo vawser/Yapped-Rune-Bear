@@ -256,6 +256,7 @@
       <Description>Rarity used in item acquisition logs</Description>
       <Maximum>99</Maximum>
       <SortID>6200</SortID>
+      <Enum>RARITY</Enum>
     </Field>
     <Field Def="u8 configurableWepAttr16:1">
       <DisplayName>Affinity: Unused [16]</DisplayName>

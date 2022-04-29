@@ -7,25 +7,25 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="fixstr LayoutPath[16]">
-      <DisplayName>Layout path</DisplayName>
+      <DisplayName>Layout Path</DisplayName>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 PropertyID">
-      <DisplayName>Property ID</DisplayName>
+      <DisplayName>Menu Property ID</DisplayName>
       <Enum>MENU_PROPERTY_ID</Enum>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 CaptionTextID">
-      <DisplayName>Item name Text ID</DisplayName>
+      <DisplayName>Caption Text ID</DisplayName>
       <Description>If a valid text ID is set, this will be displayed in preference to the property name.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s32 HelpTextID">
-      <DisplayName>Help text ID</DisplayName>
+      <DisplayName>Help Text ID</DisplayName>
       <Description>Only if this is a valid text ID will it be selectable in the field help.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>

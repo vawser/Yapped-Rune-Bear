@@ -42,7 +42,7 @@
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
     <Field Def="s32 nameId = -1">
-      <DisplayName>Display Name ID</DisplayName>
+      <DisplayName>Name ID</DisplayName>
       <Description>NPC Name Message Parameter ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
@@ -1856,7 +1856,7 @@
       <ParamRef1>HPEstusFlaskRecoveryParam</ParamRef1>
     </Field>
     <Field Def="s32 roleNameId = -1">
-      <DisplayName>Role Display Name ID</DisplayName>
+      <DisplayName>Role Name ID</DisplayName>
       <Description>Specify the role name at the time of summoning. -1: Use the default role name of the target spirit body. 0: No display. 1 or more: Used as a text ID.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>

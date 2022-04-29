@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 addPoint1">
-      <DisplayName>Addition after the first activation pt</DisplayName>
+      <DisplayName>Additional Resistance - First Activation</DisplayName>
       <Description>A value that is added to the resistance value after the abnormal condition is activated once.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -16,7 +16,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 addPoint2">
-      <DisplayName>Addition after the second activation pt</DisplayName>
+      <DisplayName>Additional Resistance - Second Activation</DisplayName>
       <Description>A value that is added to the resistance value after the abnormal condition is activated twice.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -25,7 +25,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 addPoint3">
-      <DisplayName>Addition after the third activation pt</DisplayName>
+      <DisplayName>Additional Resistance - Third Activation</DisplayName>
       <Description>A value that is added to the resistance value after the abnormal condition is activated 3 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -34,7 +34,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 addPoint4">
-      <DisplayName>Addition after the 4th activation pt</DisplayName>
+      <DisplayName>Additional Resistance - Fourth Activation</DisplayName>
       <Description>A value that is added to the resistance value after the abnormal condition is activated 4 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -43,7 +43,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 addPoint5">
-      <DisplayName>Addition after the 5th activation pt</DisplayName>
+      <DisplayName>Additional Resistance - Fifth Activation</DisplayName>
       <Description>A value that is added to the resistance value after the abnormal condition is activated 5 times.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -52,7 +52,7 @@
       <SortID>5</SortID>
     </Field>
     <Field Def="f32 addRate1 = 1">
-      <DisplayName>Magnification after the first activation</DisplayName>
+      <DisplayName>Resistance Multiplier - First Activation</DisplayName>
       <Description>Magnification applied to the resistance value after the abnormal condition is activated once</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -61,7 +61,7 @@
       <SortID>6</SortID>
     </Field>
     <Field Def="f32 addRate2 = 1">
-      <DisplayName>Magnification after the second activation</DisplayName>
+      <DisplayName>Resistance Multiplier - Second Activation</DisplayName>
       <Description>Magnification applied to the resistance value after the abnormal condition is activated twice</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -70,7 +70,7 @@
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 addRate3 = 1">
-      <DisplayName>Magnification after the third activation</DisplayName>
+      <DisplayName>Resistance Multiplier - Third Activation</DisplayName>
       <Description>Magnification applied to the resistance value after the abnormal condition is activated 3 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -79,7 +79,7 @@
       <SortID>8</SortID>
     </Field>
     <Field Def="f32 addRate4 = 1">
-      <DisplayName>Magnification after the 4th activation</DisplayName>
+      <DisplayName>Resistance Multiplier - Fourth Activation</DisplayName>
       <Description>Magnification applied to the resistance value after the abnormal condition is activated 4 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>
@@ -88,7 +88,7 @@
       <SortID>9</SortID>
     </Field>
     <Field Def="f32 addRate5 = 1">
-      <DisplayName>Magnification after the 5th activation</DisplayName>
+      <DisplayName>Resistance Multiplier - Fifth Activation</DisplayName>
       <Description>Magnification applied to the resistance value after the abnormal condition is activated 5 times</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-999.99</Minimum>

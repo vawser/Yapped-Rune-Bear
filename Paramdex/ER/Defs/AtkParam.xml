@@ -346,6 +346,7 @@
     <Field Def="u8 dmgLevel">
       <DisplayName>Damage Level</DisplayName>
       <Description>Which damage motion should be played against the enemy when attacking? To decide.</Description>
+      <Enum>ATKPARAM_REP_DMGTYPE_UINT</Enum>
       <Maximum>100</Maximum>
       <SortID>100</SortID>
     </Field>

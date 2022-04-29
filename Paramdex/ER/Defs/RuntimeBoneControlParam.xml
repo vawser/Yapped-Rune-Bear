@@ -13,7 +13,7 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="u8 ctrlType">
-      <DisplayName>Control type</DisplayName>
+      <DisplayName>Bone Control Type</DisplayName>
       <Enum>RUNTIME_BONE_CONTROL_TYPE</Enum>
       <Description>Control type</Description>
       <Maximum>1</Maximum>
@@ -24,17 +24,17 @@
       <SortID>1401</SortID>
     </Field>
     <Field Def="fixstr applyBone[32]">
-      <DisplayName>Applicable joint</DisplayName>
+      <DisplayName>Applicable Joint</DisplayName>
       <Description>Applicable joint</Description>
       <SortID>1200</SortID>
     </Field>
     <Field Def="fixstr targetBone1[32]">
-      <DisplayName>Target joint 1</DisplayName>
+      <DisplayName>Target Joint [1]</DisplayName>
       <Description>Target joint 1</Description>
       <SortID>1300</SortID>
     </Field>
     <Field Def="fixstr targetBone2[32]">
-      <DisplayName>Target joint 2</DisplayName>
+      <DisplayName>Target Joint [2]</DisplayName>
       <Description>Target joint 2</Description>
       <SortID>1400</SortID>
     </Field>

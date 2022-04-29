@@ -31,6 +31,7 @@
       <EditFlags>None</EditFlags>
       <Maximum>99999999</Maximum>
       <SortID>100</SortID>
+      <ParamRef1>CharaInitParam</ParamRef1>
     </Field>
     <Field Def="u32 originChrInitParam">
       <DisplayName>Chr Init Param ID - Origin</DisplayName>
@@ -38,6 +39,7 @@
       <EditFlags>None</EditFlags>
       <Maximum>99999999</Maximum>
       <SortID>101</SortID>
+      <ParamRef1>CharaInitParam</ParamRef1>
     </Field>
     <Field Def="s32 imageId">
       <DisplayName>Image ID</DisplayName>

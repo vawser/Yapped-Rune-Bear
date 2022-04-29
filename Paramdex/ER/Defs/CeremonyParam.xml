@@ -28,12 +28,12 @@
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 overrideMapPlaceNameId = -1">
-      <DisplayName>Override Map Place Display Name ID</DisplayName>
+      <DisplayName>Override Map Place Name ID</DisplayName>
       <Description>Override the map name ID_place name display with the specified ID. -1: No overwrite, -2 or less, 0 or more: Overwrite the ID.</Description>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 overrideSaveMapNameId = -1">
-      <DisplayName>Override Save Map Display Name ID</DisplayName>
+      <DisplayName>Override Save Map Name ID</DisplayName>
       <Description>Map name ID_Overwrites the save data display with the specified ID. -1: No overwrite, -2 or less, 0 or more: Overwrite the ID.</Description>
       <SortID>1400</SortID>
     </Field>

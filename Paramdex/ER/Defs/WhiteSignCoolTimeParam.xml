@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 limitationTime_Normal">
-      <DisplayName>Time limit (normal, no finger)</DisplayName>
+      <DisplayName>Limitation Time - Normal</DisplayName>
       <Description>Time limit [sec] (normal, dry fingerless)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -17,7 +17,7 @@
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 limitationTime_NormalDriedFinger">
-      <DisplayName>Time limit (normal, with fingers)</DisplayName>
+      <DisplayName>Limitation Time - Normal (Dried Finger)</DisplayName>
       <Description>Time limit [sec] (normal / dry finger)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -27,7 +27,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 limitationTime_Guardian">
-      <DisplayName>Time limit (map protection, no fingers)</DisplayName>
+      <DisplayName>Limitation Time - Guardian</DisplayName>
       <Description>Time limit [sec] (Map guardian, dry fingerless)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -37,7 +37,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="f32 limitationTime_GuardianDriedFinger">
-      <DisplayName>Time limit (map protection, with fingers)</DisplayName>
+      <DisplayName>Limitation Time - Guardian (Dried Finger)</DisplayName>
       <Description>Time limit [sec] (Map guardian / dry finger)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>

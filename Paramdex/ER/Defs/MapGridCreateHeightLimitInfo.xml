@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 GridEnableCreateHeightMin = -99999">
-      <DisplayName>Grid can be constructed Height Min [m]</DisplayName>
+      <DisplayName>Min Height - Grid Creation (LOD2)</DisplayName>
       <Description>Minimum height that can be built in the grid [m]. (LOD 2 units)</Description>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -16,7 +16,7 @@
       <Increment>1</Increment>
     </Field>
     <Field Def="f32 GridEnableCreateHeightMax = 99999">
-      <DisplayName>Grid can be constructed Height Max [m]</DisplayName>
+      <DisplayName>Max Height - Grid Creation (LOD2)</DisplayName>
       <Description>Maximum height that can be constructed in the grid [m]. (LOD 2 units)</Description>
       <DisplayFormat>%d</DisplayFormat>
       <EditFlags>None</EditFlags>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 seMaterialId">
-      <DisplayName>SE material ID</DisplayName>
+      <DisplayName>SE Material ID</DisplayName>
       <Enum>MATERIAL_SE_TYPE</Enum>
       <Description>Conversion from SFX material ID (3 digits) to SE material ID (2 digits)</Description>
       <SortID>1</SortID>

@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="fixstr ParamKeyStr[32]">
-      <DisplayName>Parameter Key string</DisplayName>
+      <DisplayName>Param Key</DisplayName>
       <Description>Key string of the parameter</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>
       <SortID>1</SortID>
     </Field>
     <Field Def="fixstr ParamValueStr[32]">
-      <DisplayName>Parameter Value string</DisplayName>
+      <DisplayName>Param Value</DisplayName>
       <Description>Value string of the parameter</Description>
       <DisplayFormat />
       <EditFlags>None</EditFlags>

@@ -590,6 +590,7 @@
       <Description>Special attack category (possible from 50 to 999)</Description>
       <Maximum>999</Maximum>
       <SortID>600</SortID>
+      <Enum>WEPMOTION_OVERRIDE_CATEGORY</Enum>
     </Field>
     <Field Def="u8 wepmotionOneHandId">
       <DisplayName>Weapon Motion Position - 1H</DisplayName>

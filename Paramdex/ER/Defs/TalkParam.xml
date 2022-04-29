@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,21 +26,21 @@
       <SortID>1502</SortID>
     </Field>
     <Field Def="s32 msgId = -1">
-      <DisplayName>PC Gender is Male: Message ID</DisplayName>
+      <DisplayName>Male - Message ID</DisplayName>
       <Description>PC Gender is Male: Specify Message-&gt; Menu</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 voiceId = -1">
-      <DisplayName>PC Gender is Male: Voice ID</DisplayName>
+      <DisplayName>Male - Voice ID</DisplayName>
       <Description>PC Gender is Male: Specify Voice-&gt; Sound</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 spEffectId0 = -1">
-      <DisplayName>Special effect ID0</DisplayName>
+      <DisplayName>SpEffect ID [0]</DisplayName>
       <Description>Specify special effects-&gt; Character</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
@@ -48,14 +48,14 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 motionId0 = -1">
-      <DisplayName>Motion ID 0</DisplayName>
+      <DisplayName>Motion ID [0]</DisplayName>
       <Description>Specify motion-&gt; Character</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="s32 spEffectId1 = -1">
-      <DisplayName>Special effect ID1</DisplayName>
+      <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Specify special effects-&gt; Character</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
@@ -63,14 +63,14 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 motionId1 = -1">
-      <DisplayName>Motion ID 1</DisplayName>
+      <DisplayName>Motion ID [1]</DisplayName>
       <Description>Specify motion-&gt; Character</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s32 returnPos = -1">
-      <DisplayName>Return position</DisplayName>
+      <DisplayName>Return Position</DisplayName>
       <Description>Relative position of returning conversation-&gt; Conversation</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
@@ -91,28 +91,28 @@
       <SortID>900</SortID>
     </Field>
     <Field Def="s32 msgId_female = -1">
-      <DisplayName>PC Gender is Female: Message</DisplayName>
+      <DisplayName>Female - Message ID</DisplayName>
       <Description>PC Gender is Female: Specify Message-&gt; Menu</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="s32 voiceId_female = -1">
-      <DisplayName>PC Gender is Female: Voice ID</DisplayName>
+      <DisplayName>Female - Voice ID</DisplayName>
       <Description>PC Gender is Female: Specify Voice-&gt; Sound</Description>
       <Minimum>-1</Minimum>
       <Maximum>2000000000</Maximum>
       <SortID>210</SortID>
     </Field>
     <Field Def="s16 lipSyncStart = -1">
-      <DisplayName>Speaker: Lip-sync start time</DisplayName>
+      <DisplayName>Lip Sync Start</DisplayName>
       <Description>Speaker: Lip-sync start time. -1 with no lip-sync</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="s16 lipSyncTime = -1">
-      <DisplayName>Speaker: Lip-sync duration</DisplayName>
+      <DisplayName>Lip Sync Time</DisplayName>
       <Description>Speaker: Lip-sync duration. Lip-sync at -1 continues forever</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
@@ -123,7 +123,7 @@
       <SortID>1503</SortID>
     </Field>
     <Field Def="f32 timeout = -1">
-      <DisplayName>Voice playback timeout time</DisplayName>
+      <DisplayName>Voice Playback Timeout</DisplayName>
       <Description>Voice playback timeout period. In case of -1, time-out processing is performed in "NPC conversation voice playback timeout time" of "Common_Game system parameter".</Description>
       <Minimum>-1</Minimum>
       <Maximum>180</Maximum>
@@ -131,14 +131,14 @@
       <SortID>1500</SortID>
     </Field>
     <Field Def="s32 talkAnimationId = -1">
-      <DisplayName>Speaker: Subtitled play Anime ID</DisplayName>
+      <DisplayName>Talk Animation ID</DisplayName>
       <Description>Speaker: Animation ID during conversation</Description>
       <Minimum>-1</Minimum>
       <Maximum>9999999</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="u8 isForceDisp:1">
-      <DisplayName>Whether to forcibly display subtitles</DisplayName>
+      <DisplayName>Force Subtitle Display</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Do you want to force the display of subtitles? Display subtitles even when subtitles are turned off as an option</Description>
       <Maximum>1</Maximum>

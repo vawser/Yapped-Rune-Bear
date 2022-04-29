@@ -462,36 +462,42 @@
       <Description>Does it hit other bullets forced erasure A?</Description>
       <Maximum>1</Maximum>
       <SortID>62200</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isHitOtherBulletForceEraseB:1">
       <DisplayName>Force Erase Bullet B if Hit by Other Bullet</DisplayName>
       <Description>Does it hit the other bullet forced erasure B?</Description>
       <Maximum>1</Maximum>
       <SortID>62300</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isHitForceMagic:1">
       <DisplayName>Is Bullet deflected by Magic</DisplayName>
       <Description>Do you hit the force magic?</Description>
       <Maximum>1</Maximum>
       <SortID>62000</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isIgnoreSfxIfHitWater:1">
       <DisplayName>Is SFX ignored on Water Hit</DisplayName>
       <Description>Should I ignore the effect if it hits the surface of the water?</Description>
       <Maximum>1</Maximum>
       <SortID>63000</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isIgnoreMoveStateIfHitWater:1">
       <DisplayName>Is Move State Ignored on Water Hit</DisplayName>
       <Description>Whether to ignore the state transition even if it hits water</Description>
       <Maximum>1</Maximum>
       <SortID>64000</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isHitDarkForceMagic:1">
       <DisplayName>Is Bullet deflected by Bullet Deflection</DisplayName>
       <Description>Do you hit the dark force magic?</Description>
       <Maximum>1</Maximum>
       <SortID>62000</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 dmgCalcSide:2">
       <DisplayName>Damage Calculation Side</DisplayName>
@@ -654,6 +660,7 @@
       <Description>Do you hit flare magic?</Description>
       <Maximum>1</Maximum>
       <SortID>62100</SortID>
+      <Enum>ON_OFF</Enum>
     </Field>
     <Field Def="u8 isUseBulletWallFilter:1">
       <DisplayName>Is Bullet Wall Filter Used</DisplayName>

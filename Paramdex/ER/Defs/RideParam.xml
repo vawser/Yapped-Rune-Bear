@@ -7,59 +7,59 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 atkChrId">
-      <DisplayName>Riding side character ID</DisplayName>
+      <DisplayName>Rider - Character ID</DisplayName>
       <Description>It is a parameter that identifies the character of the "riding side" when riding.</Description>
       <Maximum>10000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u32 defChrId">
-      <DisplayName>Riding side character ID</DisplayName>
+      <DisplayName>Mount - Character ID</DisplayName>
       <Description>It is a parameter that identifies the character of the "riding side" when riding.</Description>
       <Maximum>10000</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="s32 rideCamParamId = -1">
-      <DisplayName>Camera ID when riding</DisplayName>
+      <DisplayName>Ride - Camera Param ID</DisplayName>
       <Description>It is a parameter to change the camera parameter at the time of riding to a dedicated camera. It is a parameter for PC only, and it does not work even if it is set to the enemy.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="u32 atkChrAnimId">
-      <DisplayName>Riding side_Riding animation type and direction variable value</DisplayName>
+      <DisplayName>Rider - Character Animation ID</DisplayName>
       <Description>It is a parameter to rewrite the value of variable "RideOnAnimId" set in "RideOn (playback during riding) state" of the tool "HavokAnimationTool (HAT)" that controls character animation playback.</Description>
       <Maximum>10000</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="u32 defChrAnimId">
-      <DisplayName>Riding side_Riding animation type and direction variable value</DisplayName>
+      <DisplayName>Mount - Character Animation ID</DisplayName>
       <Description>It is a parameter to rewrite the value of variable "RiddenOnAnimId" set in "RiddenOn (playback when riding) state" of the tool "HavokAnimationTool (HAT)" that controls character animation playback.</Description>
       <Maximum>10000</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="s32 defAdjustDmyId = -1">
-      <DisplayName>Alignment of the rider at the start of riding animation Damipoli ID</DisplayName>
+      <DisplayName>Mount - Adjust Dummy Poly ID</DisplayName>
       <Description>This is a Damipoli setting that is required only for the rider (the rider's character does not need to be set).</Description>
       <Minimum>-1</Minimum>
       <Maximum>31999</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="s32 defCheckDmyId = -1">
-      <DisplayName>Riding judgment _ Judgment criteria of the rider Damipoli ID</DisplayName>
+      <DisplayName>Mount - Check Dummy Poly ID</DisplayName>
       <Description>There is no need to set Damipoli for the character on the riding side.</Description>
       <Minimum>-1</Minimum>
       <Maximum>31999</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="f32 diffAngMyToDef">
-      <DisplayName>Riding judgment_Front judgment angle range on the riding side [deg]</DisplayName>
+      <DisplayName>Rider/Mount - Ride Angle Tolerance</DisplayName>
       <Description>Judgment is made by the angle difference between the [direction] on the riding side and the "front judgment Damipoly ID" on the riding side. The higher the value, the more you can ride even if you are facing away.</Description>
       <Minimum>0</Minimum>
       <Maximum>180</Maximum>
       <SortID>1700</SortID>
     </Field>
     <Field Def="f32 dist">
-      <DisplayName>Riding judgment_effective distance [m]</DisplayName>
+      <DisplayName>Mount Distance</DisplayName>
       <Description>It is a parameter that determines the "mountable distance to the target"</Description>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -67,7 +67,7 @@
       <SortID>1800</SortID>
     </Field>
     <Field Def="f32 upperYRange">
-      <DisplayName>Riding judgment_effective height upward [m]</DisplayName>
+      <DisplayName>Mount Distance - Max Height</DisplayName>
       <Description>Is it possible to ride even if the target to be ridden is above the target to be ridden? Is set in meters</Description>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -75,7 +75,7 @@
       <SortID>1900</SortID>
     </Field>
     <Field Def="f32 lowerYRange">
-      <DisplayName>Riding judgment_effective height downward [m]</DisplayName>
+      <DisplayName>Mount Distance - Min Height</DisplayName>
       <Description>Is it possible to ride even if the target to be ridden is below the target to be ridden? Is set in meters</Description>
       <Minimum>0</Minimum>
       <Maximum>10000</Maximum>
@@ -83,14 +83,14 @@
       <SortID>2000</SortID>
     </Field>
     <Field Def="f32 diffAngMin">
-      <DisplayName>Riding judgment_angle difference range between objects min [deg]</DisplayName>
+      <DisplayName>Ride Angle Tolerance - Min</DisplayName>
       <Description>In what range (angle) of the rider can ride? Set the minimum value of</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
       <SortID>2100</SortID>
     </Field>
     <Field Def="f32 diffAngMax">
-      <DisplayName>Riding judgment_angle difference range between objects max [deg]</DisplayName>
+      <DisplayName>Ride Angle Tolerance - Max</DisplayName>
       <Description>In what range (angle) of the rider can ride? Set the maximum value of</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>

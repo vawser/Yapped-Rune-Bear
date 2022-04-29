@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,14 +26,14 @@
       <SortID>2902</SortID>
     </Field>
     <Field Def="u32 eventFlagId">
-      <DisplayName>Release event flag ID</DisplayName>
+      <DisplayName>Open - Event Flag ID</DisplayName>
       <Description>Event flag ID of open condition</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u32 distViewEventFlagId">
-      <DisplayName>Far-viewing platform discovery event flag ID</DisplayName>
+      <DisplayName>Distant View - Event Flag ID</DisplayName>
       <Description>Event flag ID to be set when found on the distant view</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -47,7 +47,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 bgmPlaceType">
-      <DisplayName>BGM location information (inside the entrance area)</DisplayName>
+      <DisplayName>BGM Location Type</DisplayName>
       <Enum>SOUND_BGM_MAP_PLACE_TYPE</Enum>
       <Description>Bgm location type</Description>
       <Minimum>0</Minimum>
@@ -55,14 +55,14 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="u8 isAreaIcon:1">
-      <DisplayName>Is it a range icon?</DisplayName>
+      <DisplayName>Is Area Icon</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Is it an icon that represents a range? Same size as the map</Description>
       <Maximum>1</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="u8 isOverrideDistViewMarkPos:1">
-      <DisplayName>Tomidai mark_Coordinates overwrite</DisplayName>
+      <DisplayName>Overwrite Coordinates when Distant View Marker</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to overwrite the coordinates when using it as a distant view marker</Description>
       <Maximum>1</Maximum>
@@ -70,7 +70,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="u8 isEnableNoText:1">
-      <DisplayName>Whether to display when there is no text</DisplayName>
+      <DisplayName>Enable with No Text</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Do you want to display it even when there is no text? Basically, points are not displayed without text. Display without text when this flag is enabled</Description>
       <Maximum>1</Maximum>
@@ -81,7 +81,7 @@
       <SortID>2903</SortID>
     </Field>
     <Field Def="u8 areaNo_forDistViewMark">
-      <DisplayName>Overwrite distant view mark_area number</DisplayName>
+      <DisplayName>Distant View Marker - Map Area</DisplayName>
       <Description>AA part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -89,7 +89,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="u8 gridXNo_forDistViewMark">
-      <DisplayName>Overwrite distant view mark_Grid X number</DisplayName>
+      <DisplayName>Distant View Marker - Map Block</DisplayName>
       <Description>BB part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -97,7 +97,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="u8 gridZNo_forDistViewMark">
-      <DisplayName>Overwrite distant view mark_Grid Z number</DisplayName>
+      <DisplayName>Distant View Marker - Map Region</DisplayName>
       <Description>CC part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -105,21 +105,21 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="u32 clearedEventFlagId">
-      <DisplayName>Cleared event flag ID</DisplayName>
+      <DisplayName>Cleared - Event Flag ID</DisplayName>
       <Description>Cleared event flag ID (0: always treated as cleared)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="u8 dispMask00:1">
-      <DisplayName>Display setting M00</DisplayName>
+      <DisplayName>Display Mask M00</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to display with M00</Description>
       <Maximum>1</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="u8 dispMask01:1">
-      <DisplayName>Display setting M01</DisplayName>
+      <DisplayName>Display Mask M01</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to display with M01</Description>
       <Maximum>1</Maximum>
@@ -136,14 +136,14 @@
       <SortID>2905</SortID>
     </Field>
     <Field Def="u16 distViewIconId">
-      <DisplayName>Icon ID when distant view is found</DisplayName>
+      <DisplayName>Distant View - Icon ID</DisplayName>
       <Description>Icon ID when distant view is found</Description>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>2200</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="f32 angle">
-      <DisplayName>Icon angle [deg]</DisplayName>
+      <DisplayName>Display Icon Angle</DisplayName>
       <Description>Display icon rotation angle [deg]</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>-360</Minimum>
@@ -152,21 +152,21 @@
       <SortID>1700</SortID>
     </Field>
     <Field Def="u8 areaNo">
-      <DisplayName>Area number</DisplayName>
+      <DisplayName>Map Area</DisplayName>
       <Description>AA part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="u8 gridXNo">
-      <DisplayName>Grid X number</DisplayName>
+      <DisplayName>Map Block</DisplayName>
       <Description>BB part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="u8 gridZNo">
-      <DisplayName>Grid Z number</DisplayName>
+      <DisplayName>Map Region</DisplayName>
       <Description>CC part of mAA_BB_CC_DD</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>99</Maximum>
@@ -178,28 +178,28 @@
       <SortID>2906</SortID>
     </Field>
     <Field Def="f32 posX">
-      <DisplayName>X coordinate</DisplayName>
+      <DisplayName>Map Coordinate: X</DisplayName>
       <Description>X coordinate</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="f32 posY">
-      <DisplayName>Y coordinate</DisplayName>
+      <DisplayName>Map Coordinate: Y</DisplayName>
       <Description>Y coordinate (not used)</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="f32 posZ">
-      <DisplayName>Z coordinate</DisplayName>
+      <DisplayName>Map Coordinate: Z</DisplayName>
       <Description>Z coordinate</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="s32 textId1 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [1]</DisplayName>
       <Description>The text ID to display. If the value is invalid (-1), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -207,7 +207,7 @@
       <UnkC8>テキストID01</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId1">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [1]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (0) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -215,7 +215,7 @@
       <UnkC8>テキストID01</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId1">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [1]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (0) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -223,7 +223,7 @@
       <UnkC8>テキストID01</UnkC8>
     </Field>
     <Field Def="s32 textId2 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [2]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-2), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -231,7 +231,7 @@
       <UnkC8>テキストID02</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId2">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [2]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (1) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -239,7 +239,7 @@
       <UnkC8>テキストID02</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId2">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [2]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (1) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -247,7 +247,7 @@
       <UnkC8>テキストID02</UnkC8>
     </Field>
     <Field Def="s32 textId3 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [3]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-3), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -255,7 +255,7 @@
       <UnkC8>テキストID03</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId3">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [3]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (2) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -263,7 +263,7 @@
       <UnkC8>テキストID03</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId3">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [3]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (2) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -271,7 +271,7 @@
       <UnkC8>テキストID03</UnkC8>
     </Field>
     <Field Def="s32 textId4 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [4]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-4), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -279,7 +279,7 @@
       <UnkC8>テキストID04</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId4">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [4]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (3) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -287,7 +287,7 @@
       <UnkC8>テキストID04</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId4">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [4]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (3) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -295,7 +295,7 @@
       <UnkC8>テキストID04</UnkC8>
     </Field>
     <Field Def="s32 textId5 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [5]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-5), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -303,7 +303,7 @@
       <UnkC8>テキストID05</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId5">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [5]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (4) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -311,7 +311,7 @@
       <UnkC8>テキストID05</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId5">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [5]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (4) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -319,7 +319,7 @@
       <UnkC8>テキストID05</UnkC8>
     </Field>
     <Field Def="s32 textId6 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [6]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-6), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -327,7 +327,7 @@
       <UnkC8>テキストID06</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId6">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [6]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (5) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -335,7 +335,7 @@
       <UnkC8>テキストID06</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId6">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [6]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (5) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -343,7 +343,7 @@
       <UnkC8>テキストID06</UnkC8>
     </Field>
     <Field Def="s32 textId7 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [7]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-7), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -351,7 +351,7 @@
       <UnkC8>テキストID07</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId7">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [7]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (6) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -359,7 +359,7 @@
       <UnkC8>テキストID07</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId7">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [7]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (6) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -367,7 +367,7 @@
       <UnkC8>テキストID07</UnkC8>
     </Field>
     <Field Def="s32 textId8 = -1">
-      <DisplayName>Text ID</DisplayName>
+      <DisplayName>Text ID [8]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-8), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -375,7 +375,7 @@
       <UnkC8>テキストID08</UnkC8>
     </Field>
     <Field Def="u32 textEnableFlagId8">
-      <DisplayName>Occurrence event flag ID</DisplayName>
+      <DisplayName>Text Enable Flag [8]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (7) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -383,7 +383,7 @@
       <UnkC8>テキストID08</UnkC8>
     </Field>
     <Field Def="u32 textDisableFlagId8">
-      <DisplayName>Hidden event flag ID</DisplayName>
+      <DisplayName>Text Disable Flag [8]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (7) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
@@ -391,7 +391,7 @@
       <UnkC8>テキストID08</UnkC8>
     </Field>
     <Field Def="u8 textType1">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [1]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -399,7 +399,7 @@
       <UnkC8>テキストID01</UnkC8>
     </Field>
     <Field Def="u8 textType2">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [2]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -407,7 +407,7 @@
       <UnkC8>テキストID02</UnkC8>
     </Field>
     <Field Def="u8 textType3">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [3]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -415,7 +415,7 @@
       <UnkC8>テキストID03</UnkC8>
     </Field>
     <Field Def="u8 textType4">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [4]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -423,7 +423,7 @@
       <UnkC8>テキストID04</UnkC8>
     </Field>
     <Field Def="u8 textType5">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [5]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -431,7 +431,7 @@
       <UnkC8>テキストID05</UnkC8>
     </Field>
     <Field Def="u8 textType6">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [6]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -439,7 +439,7 @@
       <UnkC8>テキストID06</UnkC8>
     </Field>
     <Field Def="u8 textType7">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [7]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -447,7 +447,7 @@
       <UnkC8>テキストID07</UnkC8>
     </Field>
     <Field Def="u8 textType8">
-      <DisplayName>Text type</DisplayName>
+      <DisplayName>Text Type [8]</DisplayName>
       <Enum>WORLD_MAP_POINT_TEXT_TYPE</Enum>
       <Description>Text type (place name, NPC name, ...)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -455,7 +455,7 @@
       <UnkC8>テキストID08</UnkC8>
     </Field>
     <Field Def="s32 distViewId = -1">
-      <DisplayName>Distance stand ID0</DisplayName>
+      <DisplayName>Distant View ID [0]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -463,7 +463,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="f32 posX_forDistViewMark">
-      <DisplayName>Distance viewing marker overwrite _X coordinates</DisplayName>
+      <DisplayName>Distant View Marker - Coordinate: X</DisplayName>
       <Description>X coordinate</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
@@ -471,7 +471,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="f32 posY_forDistViewMark">
-      <DisplayName>Distance viewing mark overwrite Y coordinate</DisplayName>
+      <DisplayName>Distant View Marker - Coordinate: Y</DisplayName>
       <Description>Y coordinate</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
@@ -479,7 +479,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="f32 posZ_forDistViewMark">
-      <DisplayName>Distant mark overwrite Z coordinate</DisplayName>
+      <DisplayName>Distant View Marker - Coordinate: Z</DisplayName>
       <Description>Z coordinate</Description>
       <Minimum>-20000</Minimum>
       <Maximum>20000</Maximum>
@@ -487,7 +487,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="s32 distViewId1 = -1">
-      <DisplayName>Distance stand ID1</DisplayName>
+      <DisplayName>Distant View ID [1]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -495,7 +495,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="s32 distViewId2 = -1">
-      <DisplayName>Distance stand ID2</DisplayName>
+      <DisplayName>Distant View ID [2]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -503,7 +503,7 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="s32 distViewId3 = -1">
-      <DisplayName>Distance stand ID3</DisplayName>
+      <DisplayName>Distant View ID [3]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>99999999</Maximum>
@@ -511,19 +511,19 @@
       <UnkC8>遠見台</UnkC8>
     </Field>
     <Field Def="u8 dispMinZoomStep">
-      <DisplayName>Display zoom step</DisplayName>
+      <DisplayName>Display - Min Zoom Step</DisplayName>
       <Description>Zoom step to display map points (0 when zoomed out most, +1 for each zoom). Displayed when "&lt;&lt; Display zoom step &gt;&gt; ≤ Current zoom step". Default is 0 (always displayed)</Description>
       <Maximum>128</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="u8 selectMinZoomStep">
-      <DisplayName>Selectable zoom steps</DisplayName>
+      <DisplayName>Selection - Min Zoom Step</DisplayName>
       <Description>Zoom step where map points can be selected (0 when zoomed out most, +1 for each zoom). Selectable when "&lt;&lt; Selectable zoom step &gt;&gt; ≤ Current enlargement stage". Default is 0 (always selectable)</Description>
       <Maximum>128</Maximum>
       <SortID>910</SortID>
     </Field>
     <Field Def="u8 entryFEType">
-      <DisplayName>Admission display format</DisplayName>
+      <DisplayName>Entry FE Type</DisplayName>
       <Enum>WORLD_MAP_ENTRY_FE_TYPE</Enum>
       <Description>Admission display format. Map points to be displayed at the time of admission Types of admission FE</Description>
       <DisplayFormat>%u</DisplayFormat>

@@ -515,6 +515,7 @@
       <Description>Rarity used in item acquisition logs</Description>
       <Maximum>99</Maximum>
       <SortID>12010</SortID>
+      <Enum>RARITY</Enum>
     </Field>
     <Field Def="u8 sortGroupId = 255">
       <DisplayName>Sort Group ID</DisplayName>

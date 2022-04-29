@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 shareBlockRsMapUidVal">
-      <DisplayName>Block Sfx resource reference map number</DisplayName>
+      <DisplayName>Shared Resource Block - Map UID</DisplayName>
       <Description>The map number that references the resource. Set the numerical value of the map number. (m12_34_56_78 → 12345678)</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99999999</Maximum>

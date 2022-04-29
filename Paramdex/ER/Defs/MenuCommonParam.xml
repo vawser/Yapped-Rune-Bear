@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 soloPlayDeath_ToFadeOutTime">
-      <DisplayName>Solo play Fade out start time at death [seconds]</DisplayName>
+      <DisplayName>[YOU DIED] Fade Out Duration - Host</DisplayName>
       <Description>How many seconds have passed after "YOU DIED" is displayed at the time of death of solo play to start fading out?</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -17,7 +17,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="f32 partyGhostDeath_ToFadeOutTime">
-      <DisplayName>White, Black Ghost Fade Out Start Time [Seconds]</DisplayName>
+      <DisplayName>[YOU DIED] Fade Out Duration - Phnatom</DisplayName>
       <Description>How many seconds have passed after "YOU DIED" is displayed when a white or black ghost dies to start fading out?</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -27,7 +27,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 playerMaxHpLimit">
-      <DisplayName>Maximum player HP</DisplayName>
+      <DisplayName>HP Bar - Visual Scale</DisplayName>
       <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the HP gauge.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -35,7 +35,7 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s32 playerMaxMpLimit">
-      <DisplayName>Maximum player MP</DisplayName>
+      <DisplayName>FP Bar - Visual Scale</DisplayName>
       <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the MP gauge.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -43,7 +43,7 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="s32 playerMaxSpLimit">
-      <DisplayName>Maximum player SP</DisplayName>
+      <DisplayName>Stamina Bar - Visual Scale</DisplayName>
       <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the SP gauge.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -51,7 +51,7 @@
       <SortID>500</SortID>
     </Field>
     <Field Def="f32 actionPanelChangeThreshold_Vel">
-      <DisplayName>Action panel switching judgment_player speed [m / sec]</DisplayName>
+      <DisplayName>Action Panel Change Threshold - Velocity</DisplayName>
       <Description>Action panel Switchable player speed. Switchable if below this speed</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -60,7 +60,7 @@
       <SortID>600</SortID>
     </Field>
     <Field Def="f32 actionPanelChangeThreshold_PassTime">
-      <DisplayName>Action panel switching judgment_player speed judgment time [sec]</DisplayName>
+      <DisplayName>Action Panel Change Threshold - Pass Time</DisplayName>
       <Description>Action panel Consideration time to increase the speed of switchable players. Use the average speed of this time (systematically up to 4 seconds)</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -69,7 +69,7 @@
       <SortID>700</SortID>
     </Field>
     <Field Def="s32 kgIconVspace">
-      <DisplayName>Vertical position of the key guide icon</DisplayName>
+      <DisplayName>Vertical Position of Key Guide Icon</DisplayName>
       <Description>Vertical position of key guide icon (+: top,-: bottom)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1000</Minimum>
@@ -78,7 +78,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorSelectRadius = 0.1">
-      <DisplayName>Cursor selection radius [px]</DisplayName>
+      <DisplayName>World Map - Cursor Select Radius</DisplayName>
       <Description>If the cursor position is within this radius, it means that it is selected.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -95,7 +95,7 @@
       <SortID>800</SortID>
     </Field>
     <Field Def="s32 decalPosOffsetX">
-      <DisplayName>Decal offset (left and right)</DisplayName>
+      <DisplayName>Decal Position Offset: X</DisplayName>
       <Description>Decal display position offset left and right</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-255</Minimum>
@@ -104,7 +104,7 @@
       <UnkC8>キャラメイク</UnkC8>
     </Field>
     <Field Def="s32 decalPosOffsetY">
-      <DisplayName>Decal offset (up and down)</DisplayName>
+      <DisplayName>Decal Position Offset: Y</DisplayName>
       <Description>Decal display position offset vertical direction</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-255</Minimum>
@@ -113,7 +113,7 @@
       <UnkC8>キャラメイク</UnkC8>
     </Field>
     <Field Def="f32 targetStateSearchDurationTime">
-      <DisplayName>FE: Search icon display time [seconds]</DisplayName>
+      <DisplayName>FE Search Icon Fade Time</DisplayName>
       <Description>The number of seconds it takes for the FE Search icon to start fading in and then fading out.</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -123,7 +123,7 @@
       <SortID>1300</SortID>
     </Field>
     <Field Def="f32 targetStateBattleDurationTime">
-      <DisplayName>FE: Battle icon display time [seconds]</DisplayName>
+      <DisplayName>FE Battle Icon Fade Time</DisplayName>
       <Description>The number of seconds it takes for the FE Battle icon to start fading in and then fading out.</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -133,8 +133,8 @@
       <SortID>1400</SortID>
     </Field>
     <Field Def="f32 worldMapCursorSpeed = 1">
-      <DisplayName>Cursor movement speed [px / sec]</DisplayName>
-      <Description>Movement speed when moving smoothly</Description>
+      <DisplayName>World Map - Cursor Speed</DisplayName>
+      <Description>Movement speed when moving smoothly [px]</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>
@@ -144,8 +144,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorFirstDistance = 1">
-      <DisplayName>First movement distance of the cursor [px]</DisplayName>
-      <Description>Distance to move only once at the first input</Description>
+      <DisplayName>World Map - Cursor First Distance</DisplayName>
+      <Description>Distance to move only once at the first input [px]</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>
@@ -155,8 +155,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorFirstDelay = 0.01">
-      <DisplayName>Delay time for the first movement of the cursor [sec]</DisplayName>
-      <Description>The time it takes to move only once at the first input</Description>
+      <DisplayName>World Map - Cursor First Delay</DisplayName>
+      <Description>The time it takes to move only once at the first input [sec]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>0.01</Minimum>
@@ -165,8 +165,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorWaitTime">
-      <DisplayName>Wait until the cursor moves [sec]</DisplayName>
-      <Description>Waiting time from input to smooth movement</Description>
+      <DisplayName>World Map - Cursor Wait Time</DisplayName>
+      <Description>Waiting time from input to smooth movement [sec]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -175,8 +175,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorSnapRadius = 0.1">
-      <DisplayName>Cursor snap radius [px]</DisplayName>
-      <Description>Move the cursor closer than this radius to start adsorption (for snap mode)</Description>
+      <DisplayName>World Map - Cursor Snap Radius</DisplayName>
+      <Description>Move the cursor closer than this radius to start adsorption (for snap mode) [px]</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>0.1</Minimum>
@@ -186,8 +186,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapCursorSnapTime = 0.01">
-      <DisplayName>Cursor snap time [sec]</DisplayName>
-      <Description>The time it takes to start and complete adsorption</Description>
+      <DisplayName>World Map - Cursor Snap Time</DisplayName>
+      <Description>The time it takes to start and complete adsorption [sec]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>0.01</Minimum>
@@ -196,8 +196,8 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 itemGetLogAliveTime = 0.01">
-      <DisplayName>Item acquisition log: Display time of 1 line [sec]</DisplayName>
-      <Description>Time to add one line of log and fade out. There is a timer for each line</Description>
+      <DisplayName>Item Get Log Alive Time</DisplayName>
+      <Description>Time to add one line of log and fade out. There is a timer for each line [sec]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
       <Minimum>0.01</Minimum>
@@ -205,7 +205,7 @@
       <SortID>2100</SortID>
     </Field>
     <Field Def="s32 playerMaxSaLimit">
-      <DisplayName>Upper limit of player maximum SA (trunk value)</DisplayName>
+      <DisplayName>Player Max Poise Guage Length</DisplayName>
       <Description>It is used to calculate what percentage of the gauge length provided by the resource is used when displaying the SA gauge.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -213,7 +213,7 @@
       <SortID>2200</SortID>
     </Field>
     <Field Def="u32 worldMap_IsChangeableLayerEventFlagId">
-      <DisplayName>Underground map switchable event flag ID</DisplayName>
+      <DisplayName>World Map - Underground Layer Event Flag ID</DisplayName>
       <Description>Specify the event flag ID that manages whether it is possible to switch to the underground map. When this event flag ID is ON, it is possible to switch to the underground map.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -222,7 +222,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMap_TravelMargin">
-      <DisplayName>Additional ban distance for traversal range [m]</DisplayName>
+      <DisplayName>World Map - Travel Margin</DisplayName>
       <Description>Distance (m) that extends in four directions around the player. I decided to break through this range</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -233,7 +233,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 systemAnnounceScrollBufferTime">
-      <DisplayName>Wait time before and after scrolling [sec]</DisplayName>
+      <DisplayName>System Announcement - Scroll Buffer Time</DisplayName>
       <Description>The number of seconds to wait before and after scrolling through the long text of the operation announcement. For example, if it is 3 seconds, wait for a total of 6 seconds before and after.</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -243,7 +243,7 @@
       <UnkC8>運営告知</UnkC8>
     </Field>
     <Field Def="s32 systemAnnounceScrollSpeed = 100">
-      <DisplayName>Scrolling speed [px / sec]</DisplayName>
+      <DisplayName>System Announcement - Scroll Speed</DisplayName>
       <Description>Scrolling speed (pixels / second) when scrolling long sentences in the operation announcement. It does not depend on the screen size. Think of the entire menu as 1920x1080</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -253,7 +253,7 @@
       <UnkC8>運営告知</UnkC8>
     </Field>
     <Field Def="f32 systemAnnounceNoScrollWaitTime">
-      <DisplayName>Display time when not scrolling [sec]</DisplayName>
+      <DisplayName>System Announcement - No Scroll Wait Time</DisplayName>
       <Description>The number of seconds to display when it is a short sentence that does not require scrolling of the operation announcement</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -263,7 +263,7 @@
       <UnkC8>運営告知</UnkC8>
     </Field>
     <Field Def="u8 systemAnnounceScrollCount = 1">
-      <DisplayName>Number of scrolls</DisplayName>
+      <DisplayName>System Announcement - Scroll Count</DisplayName>
       <Description>Number of times to repeat when scrolling long sentences of management announcement</Description>
       <EditFlags>None</EditFlags>
       <Minimum>1</Minimum>
@@ -277,7 +277,7 @@
       <SortID>13001</SortID>
     </Field>
     <Field Def="f32 compassMemoDispDistance = 50">
-      <DisplayName>Display distance_Memo marker [m]</DisplayName>
+      <DisplayName>Compass Memo Display Distance</DisplayName>
       <Description>Display distance [m] of the memo marker displayed on the compass. Anything closer than this distance will be displayed</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -288,7 +288,7 @@
       <UnkC8>コンパス</UnkC8>
     </Field>
     <Field Def="f32 compassBonfireDispDistance = 50">
-      <DisplayName>Display distance_bonfire [m]</DisplayName>
+      <DisplayName>Compass Bonfire Display Distance</DisplayName>
       <Description>The display distance of the bonfire displayed on the compass [m]. Anything closer than this distance will be displayed</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -299,7 +299,7 @@
       <UnkC8>コンパス</UnkC8>
     </Field>
     <Field Def="f32 markerGoalThreshold">
-      <DisplayName>Goal judgment distance of destination marker [m]</DisplayName>
+      <DisplayName>Destination Marrker Threshold</DisplayName>
       <Description>Goal judgment distance [m] of the destination marker. The destination marker disappears when you get closer than this distance</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -310,7 +310,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 svSliderStep = 10">
-      <DisplayName>Saturation / brightness slider movement amount [% / sec]</DisplayName>
+      <DisplayName>Saturation/Brightness Slider Step</DisplayName>
       <Description>Amount of movement of the saturation / brightness slider of the color control [% / sec]. Maximum amount to move in 1 second when each value is 0% to 100%. Since it is operated with an analog stick, it becomes a ratio by the input value.</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -321,7 +321,7 @@
       <UnkC8>キャラメイク</UnkC8>
     </Field>
     <Field Def="f32 preOpeningMovie_WaitSec">
-      <DisplayName>Weight before OP movie [sec]</DisplayName>
+      <DisplayName>Pre-opening Movie - Wait Time</DisplayName>
       <Description>Wait time before playing the OP movie. &gt; SEQ 15261</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -330,7 +330,7 @@
       <SortID>3300</SortID>
     </Field>
     <Field Def="f32 kgIconScale = 100">
-      <DisplayName>Key guide icon scale [%]</DisplayName>
+      <DisplayName>Key Guide Icon - Scale</DisplayName>
       <Description>The scale value of the key guide icon. 100% is the texture size as it is</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -341,7 +341,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="f32 kgIconScale_forTable = 100">
-      <DisplayName>Scale of key guide icon for pad operation list [%]</DisplayName>
+      <DisplayName>Key Guide Icon for Table - Scale</DisplayName>
       <Description>Scale value of the key guide icon for the pad operation list. 100% is the texture size as it is</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -352,7 +352,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="s32 kgIconVspace_forTable">
-      <DisplayName>Vertical position of the key guide icon for the pad operation list</DisplayName>
+      <DisplayName>Key Guide Icon for Table - Vertical Position</DisplayName>
       <Description>Vertical position of the key guide icon for the pad operation list (+: top,-: bottom)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1000</Minimum>
@@ -361,7 +361,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="f32 kgIconScale_forConfig = 100">
-      <DisplayName>Key guide icon scale for key config [%]</DisplayName>
+      <DisplayName>Key Guide Icon for Key Config - Scale</DisplayName>
       <Description>The scale value of the key guide icon for the key config. 100% is the texture size as it is</Description>
       <DisplayFormat>%0.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -372,7 +372,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="s32 kgIconVspace_forConfig">
-      <DisplayName>Vertical position of the key guide icon for key config</DisplayName>
+      <DisplayName>Key Guide Icon for Key Config - Vertical Position</DisplayName>
       <Description>Vertical position of key guide icon for key config (+: top,-: bottom)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1000</Minimum>
@@ -381,7 +381,7 @@
       <UnkC8>キーガイドアイコン</UnkC8>
     </Field>
     <Field Def="f32 worldMap_SearchRadius = 256">
-      <DisplayName>Unsearched mask_Searched range [m]</DisplayName>
+      <DisplayName>World Map Search Radius</DisplayName>
       <Description>Range [m] (radius) that makes unsearched masks searched. It is assumed that the circle centered on the player has been searched.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -392,7 +392,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 tutorialDisplayTime = 3">
-      <DisplayName>Toast display time [sec]</DisplayName>
+      <DisplayName>Tutorial Display Time</DisplayName>
       <Description>Tutorial (toast notification) display time [sec]. It will be closed automatically after this time has passed</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -403,7 +403,7 @@
       <UnkC8>チュートリアル</UnkC8>
     </Field>
     <Field Def="f32 compassFriendHostInnerDistance">
-      <DisplayName>Display distance_Cooperation / Relief Guest side: Host</DisplayName>
+      <DisplayName>Compass Friendly Phantom Display Distance</DisplayName>
       <Description>Display distance [m] of other players (friendly hosts) to be displayed on the compass. If you are more than this distance, it will be displayed on the compass.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -414,7 +414,7 @@
       <UnkC8>コンパス</UnkC8>
     </Field>
     <Field Def="f32 compassEnemyHostInnerDistance">
-      <DisplayName>Display distance_hostile guest side: host</DisplayName>
+      <DisplayName>Compass Hostile Phantom Display Distance</DisplayName>
       <Description>Display distance [m] of other players (enemy hosts) displayed on the compass. If you are more than this distance, it will be displayed on the compass.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -425,7 +425,7 @@
       <UnkC8>コンパス</UnkC8>
     </Field>
     <Field Def="f32 compassFriendGuestInnerDistance">
-      <DisplayName>Display distance_host / cooperation / rescue Host side: cooperation / rescue guest</DisplayName>
+      <DisplayName>Compass Guest Phantom Display Distance</DisplayName>
       <Description>Display distance [m] of other players (friendly guests) to be displayed on the compass. If you are more than this distance, it will be displayed on the compass.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -436,7 +436,7 @@
       <UnkC8>コンパス</UnkC8>
     </Field>
     <Field Def="f32 cutsceneKeyGuideAliveTime = 5">
-      <DisplayName>Cutscene key guide display time [seconds]</DisplayName>
+      <DisplayName>Cutscene Key Guide - Display Time</DisplayName>
       <Description>The amount of time that the key guide will continue to be displayed after the cutscene skip has been pre-entered. Since skip input is accepted only while the key guide is displayed, it can be said that it is the skip input acceptance time.</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -447,7 +447,7 @@
       <UnkC8>カットシーン</UnkC8>
     </Field>
     <Field Def="f32 autoHideHpThresholdRatio = -1">
-      <DisplayName>HP gauge: Percentage always displayed [%]</DisplayName>
+      <DisplayName>Auto HUD: HP Ratio to display HUD</DisplayName>
       <Description>[HUD: Auto setting] HP ratio. If the HP ratio is below this value, the HP gauge will always be displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -458,7 +458,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="s32 autoHideHpThresholdValue = -1">
-      <DisplayName>HP gauge: Current value always displayed</DisplayName>
+      <DisplayName>Auto HUD: Display HUD when below X HP</DisplayName>
       <Description>[HUD: Auto setting] HP current value. If the current HP value is less than or equal to this value, the HP gauge will always be displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -467,7 +467,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="f32 autoHideMpThresholdRatio = -1">
-      <DisplayName>MP gauge: Percentage to always display [%]</DisplayName>
+      <DisplayName>Auto HUD: FP Ratio to display HUD</DisplayName>
       <Description>[HUD: Auto setting] MP ratio. If the MP ratio is below this value, the MP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -478,7 +478,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="s32 autoHideMpThresholdValue = -1">
-      <DisplayName>MP gauge: Current value always displayed</DisplayName>
+      <DisplayName>Auto HUD: Display HUD when below X FP</DisplayName>
       <Description>[HUD: Auto setting] MP current value. If the current MP value is less than or equal to this value, the MP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -487,7 +487,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="f32 autoHideSpThresholdRatio = -1">
-      <DisplayName>SP gauge: Percentage to always display [%]</DisplayName>
+      <DisplayName>Auto HUD: Stamina Ratio to display HUD</DisplayName>
       <Description>[HUD: Auto setting] SP ratio. If the SP ratio is less than or equal to this value, the SP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -498,7 +498,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="s32 autoHideSpThresholdValue = -1">
-      <DisplayName>SP gauge: Current value always displayed</DisplayName>
+      <DisplayName>Auto HUD: Display HUD when below X Stamina</DisplayName>
       <Description>[HUD: Auto setting] SP current value. If the current SP value is less than or equal to this value, the SP gauge is always displayed. Percentage and current value are OR conditions (displayed if either is satisfied)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -507,7 +507,7 @@
       <UnkC8>HUD：Auto</UnkC8>
     </Field>
     <Field Def="f32 worldMapZoomAnimationTime = 0.5">
-      <DisplayName>Zoom animation time [seconds]</DisplayName>
+      <DisplayName>World Map Zoom Animation Time</DisplayName>
       <Description>World map: Time to zoom animation [seconds]</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -517,7 +517,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMapIconScaleMin = 1">
-      <DisplayName>Minimum icon display magnification</DisplayName>
+      <DisplayName>World Map Icon Minimum Scale</DisplayName>
       <Description>World map: Display magnification of the map point icon at zoom step 0 (0.0 to 1.0). 1x (1.0) at zoom step 2. From there, the icon magnification is also interpolated according to the enlargement ratio.</Description>
       <DisplayFormat>%.2f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -527,7 +527,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="f32 worldMap_TravelMargin_Point">
-      <DisplayName>Map point unit Additional ban distance when the ban is lifted [m]</DisplayName>
+      <DisplayName>World Map - Travel Margin Point</DisplayName>
       <Description>World map: Additional ban distance [m] when the ban is lifted in map point units. When the ban on map points such as the distant view stand is lifted, the ban on the traversal range will be lifted. Distance to be additionally extended in 4 directions around the map point</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -538,7 +538,7 @@
       <UnkC8>世界地図</UnkC8>
     </Field>
     <Field Def="u16 enemyTagSafeLeft">
-      <DisplayName>Displayable area (far left)</DisplayName>
+      <DisplayName>Enemy HP Guage - Max Left Justification</DisplayName>
       <Description>How far can the center coordinates of the enemy HP gauge go to the left end? Since it is the center coordinate, the size of the gauge body is included.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -547,7 +547,7 @@
       <UnkC8>敵HPゲージ</UnkC8>
     </Field>
     <Field Def="u16 enemyTagSafeRight = 1920">
-      <DisplayName>Displayable area (right end)</DisplayName>
+      <DisplayName>Enemy HP Guage - Max Right Justification</DisplayName>
       <Description>How far can the center coordinates of the enemy HP gauge go to the right end? Since it is the center coordinate, the size of the gauge body is included.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -556,7 +556,7 @@
       <UnkC8>敵HPゲージ</UnkC8>
     </Field>
     <Field Def="u16 enemyTagSafeTop">
-      <DisplayName>Displayable area (top)</DisplayName>
+      <DisplayName>Enemy HP Guage - Max Top Justification</DisplayName>
       <Description>How far can the center coordinates of the enemy HP gauge go to the upper end? Since it is the center coordinate, the size of the gauge body is included.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -565,7 +565,7 @@
       <UnkC8>敵HPゲージ</UnkC8>
     </Field>
     <Field Def="u16 enemyTagSafeBottom = 1080">
-      <DisplayName>Displayable area (bottom)</DisplayName>
+      <DisplayName>Enemy HP Guage - Max Bottom Justification</DisplayName>
       <Description>How far can the center coordinates of the enemy HP gauge go to the lower end? Since it is the center coordinate, the size of the gauge body is included.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -574,7 +574,7 @@
       <UnkC8>敵HPゲージ</UnkC8>
     </Field>
     <Field Def="u32 pcHorseHpRecoverDispThreshold">
-      <DisplayName>Display recovery amount threshold</DisplayName>
+      <DisplayName>HP Threshold to display Horse HP</DisplayName>
       <Description>Threshold for displaying the PC horse HP gauge at the time of recovery. "Constant value" of "Display HP bar when it increases more than a certain value at a time"</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>

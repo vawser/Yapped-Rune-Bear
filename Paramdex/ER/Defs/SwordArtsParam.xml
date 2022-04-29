@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,18 +26,18 @@
       <SortID>1102</SortID>
     </Field>
     <Field Def="u8 swordArtsType">
-      <DisplayName>Swashbuckler ID</DisplayName>
-      <Description>To pass to the behavior script to determine which swashbuckler</Description>
+      <DisplayName>Sword Arts Type</DisplayName>
+      <Description>Offset for TAE animation. 0 is a600. To pass to the behavior script to determine which swashbuckler</Description>
       <SortID>100</SortID>
     </Field>
     <Field Def="u8 artsSpeedType">
-      <DisplayName>Arts speed</DisplayName>
+      <DisplayName>Arts Speed Type</DisplayName>
       <Description>Which cancellation timing do you see? 0: Normal (left hand attack) / 1: Early / 2: Slow</Description>
       <Maximum>2</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s8 refStatus">
-      <DisplayName>Related status</DisplayName>
+      <DisplayName>Reference Status Type</DisplayName>
       <Enum>SWORD_ARTS_REF_STATUS_TYPE</Enum>
       <Description>Which system of arts points to refer to</Description>
       <Minimum>0</Minimum>
@@ -45,28 +45,28 @@
       <SortID>400</SortID>
     </Field>
     <Field Def="u8 isRefRightArts:1">
-      <DisplayName>Whether to display the arts of the right hand when the left hand (holding one hand)</DisplayName>
+      <DisplayName>Is Right-hand Arts Reference</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>When set to the arts of the left-handed weapon, the arts of the right-handed weapon are displayed in FE. Assumed to be used for "weapon maneuvers" etc.</Description>
       <Maximum>1</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="u8 isGrayoutLeftHand:1">
-      <DisplayName>Whether to gray out with the left hand (holding one hand)</DisplayName>
+      <DisplayName>Is Greyout Left-hand</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to gray out when displaying the arts name of the left hand (one-handed)</Description>
       <Maximum>1</Maximum>
       <SortID>910</SortID>
     </Field>
     <Field Def="u8 isGrayoutRightHand:1">
-      <DisplayName>Whether to gray out with the right hand (holding one hand)</DisplayName>
+      <DisplayName>Is Greyout Right-hand</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to gray out when displaying the arts name of the right hand (one-handed)</Description>
       <Maximum>1</Maximum>
       <SortID>920</SortID>
     </Field>
     <Field Def="u8 isGrayoutBothHand:1">
-      <DisplayName>Will it be grayed out when holding both hands?</DisplayName>
+      <DisplayName>Is Greyout Both-hand</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Whether to gray out when displaying the arts name of both hands</Description>
       <Maximum>1</Maximum>
@@ -77,28 +77,28 @@
       <SortID>1103</SortID>
     </Field>
     <Field Def="s8 usePoint_L1">
-      <DisplayName>Consumption point L1</DisplayName>
+      <DisplayName>Arts Points - L1</DisplayName>
       <Description>Points to spend when putting out arts by L1</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s8 usePoint_L2">
-      <DisplayName>Consumption point L2</DisplayName>
+      <DisplayName>Arts Points - L2</DisplayName>
       <Description>Points to spend when putting out arts by L2</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s8 usePoint_R1">
-      <DisplayName>Consumption point R1</DisplayName>
+      <DisplayName>Arts Points - R1</DisplayName>
       <Description>Points to spend when putting out arts by R1</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="s8 usePoint_R2">
-      <DisplayName>Consumption point R2</DisplayName>
+      <DisplayName>Arts Points - R2</DisplayName>
       <Description>Points to spend when putting out arts by R2</Description>
       <Minimum>-1</Minimum>
       <Maximum>99</Maximum>
@@ -112,35 +112,35 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 useMagicPoint_L1">
-      <DisplayName>MP L1 consumed</DisplayName>
+      <DisplayName>FP Consumption - L1</DisplayName>
       <Description>MP consumed when issuing arts by L1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>810</SortID>
     </Field>
     <Field Def="s16 useMagicPoint_L2">
-      <DisplayName>MP L2 consumed</DisplayName>
+      <DisplayName>FP Consumption - L2</DisplayName>
       <Description>MP consumed when issuing arts by L2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>820</SortID>
     </Field>
     <Field Def="s16 useMagicPoint_R1">
-      <DisplayName>MP R1 consumed</DisplayName>
+      <DisplayName>FP Consumption - R1</DisplayName>
       <Description>MP consumed when issuing arts by R1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>830</SortID>
     </Field>
     <Field Def="s16 useMagicPoint_R2">
-      <DisplayName>MP R2 consumed</DisplayName>
+      <DisplayName>FP Consumption - R2</DisplayName>
       <Description>MP consumed when issuing arts by R2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>840</SortID>
     </Field>
     <Field Def="s8 shieldIconType">
-      <DisplayName>Shield type icon (overwrite)</DisplayName>
+      <DisplayName>Shield Icon Type</DisplayName>
       <Enum>SWORD_ARTS_SHIELD_ICON_TYPE</Enum>
       <Description>If you do not overwrite it, the icon will be displayed based on the swashbuckler ID of the weapon para.</Description>
       <Minimum>0</Minimum>
@@ -159,7 +159,7 @@
       <SortID>310</SortID>
     </Field>
     <Field Def="s32 aiUsageId = -1">
-      <DisplayName>AI usage judgment ID</DisplayName>
+      <DisplayName>AI Usage Judgment ID</DisplayName>
       <Description>AI usage judgment ID</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 edgeColorA = 1">
-      <DisplayName>A</DisplayName>
+      <DisplayName>Edge Color: Alpha</DisplayName>
       <Description>Edge color A.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -16,7 +16,7 @@
       <UnkC8>エッジ色</UnkC8>
     </Field>
     <Field Def="f32 frontColorA">
-      <DisplayName>A</DisplayName>
+      <DisplayName>Front Color: Alpha</DisplayName>
       <Description>The front color is A.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -25,7 +25,7 @@
       <UnkC8>正面色</UnkC8>
     </Field>
     <Field Def="f32 diffMulColorA = 1">
-      <DisplayName>A</DisplayName>
+      <DisplayName>Diffuse Color: Alpha</DisplayName>
       <Description>Diffuse multiplication color A.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -34,7 +34,7 @@
       <UnkC8>ディフューズ乗算色</UnkC8>
     </Field>
     <Field Def="f32 specMulColorA = 1">
-      <DisplayName>A</DisplayName>
+      <DisplayName>Specular Color: Alpha</DisplayName>
       <Description>Specular multiplication color A.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -43,7 +43,7 @@
       <UnkC8>スペキュラ乗算色</UnkC8>
     </Field>
     <Field Def="f32 lightColorA">
-      <DisplayName>A</DisplayName>
+      <DisplayName>Light Color: Alpha</DisplayName>
       <Description>Light color A.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -52,14 +52,14 @@
       <UnkC8>ライト色</UnkC8>
     </Field>
     <Field Def="u8 edgeColorR = 255">
-      <DisplayName>R</DisplayName>
+      <DisplayName>Edge Color: R</DisplayName>
       <Description>Edge color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <UnkC8>エッジ色</UnkC8>
     </Field>
     <Field Def="u8 edgeColorG = 255">
-      <DisplayName>G</DisplayName>
+      <DisplayName>Edge Color: G</DisplayName>
       <Description>Edge color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -67,7 +67,7 @@
       <UnkC8>エッジ色</UnkC8>
     </Field>
     <Field Def="u8 edgeColorB = 255">
-      <DisplayName>B</DisplayName>
+      <DisplayName>Edge Color: B</DisplayName>
       <Description>Edge color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -75,7 +75,7 @@
       <UnkC8>エッジ色</UnkC8>
     </Field>
     <Field Def="u8 frontColorR">
-      <DisplayName>R</DisplayName>
+      <DisplayName>Front Color: R</DisplayName>
       <Description>The front color is R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -83,7 +83,7 @@
       <UnkC8>正面色</UnkC8>
     </Field>
     <Field Def="u8 frontColorG">
-      <DisplayName>G</DisplayName>
+      <DisplayName>Front Color: G</DisplayName>
       <Description>The front color is G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -91,7 +91,7 @@
       <UnkC8>正面色</UnkC8>
     </Field>
     <Field Def="u8 frontColorB">
-      <DisplayName>B</DisplayName>
+      <DisplayName>Front Color: B</DisplayName>
       <Description>Front color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -99,7 +99,7 @@
       <UnkC8>正面色</UnkC8>
     </Field>
     <Field Def="u8 diffMulColorR = 255">
-      <DisplayName>R</DisplayName>
+      <DisplayName>Diffuse Color: R</DisplayName>
       <Description>Diffuse multiplication color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -107,7 +107,7 @@
       <UnkC8>ディフューズ乗算色</UnkC8>
     </Field>
     <Field Def="u8 diffMulColorG = 255">
-      <DisplayName>G</DisplayName>
+      <DisplayName>Diffuse Color: G</DisplayName>
       <Description>Diffuse multiplication color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -115,7 +115,7 @@
       <UnkC8>ディフューズ乗算色</UnkC8>
     </Field>
     <Field Def="u8 diffMulColorB = 255">
-      <DisplayName>B</DisplayName>
+      <DisplayName>Diffuse Color: B</DisplayName>
       <Description>Diffuse multiplication color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -123,7 +123,7 @@
       <UnkC8>ディフューズ乗算色</UnkC8>
     </Field>
     <Field Def="u8 specMulColorR = 255">
-      <DisplayName>R</DisplayName>
+      <DisplayName>Specular Color: R</DisplayName>
       <Description>Specular multiplication color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -131,7 +131,7 @@
       <UnkC8>スペキュラ乗算色</UnkC8>
     </Field>
     <Field Def="u8 specMulColorG = 255">
-      <DisplayName>G</DisplayName>
+      <DisplayName>Specular Color: G</DisplayName>
       <Description>Specular multiplication color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -139,7 +139,7 @@
       <UnkC8>スペキュラ乗算色</UnkC8>
     </Field>
     <Field Def="u8 specMulColorB = 255">
-      <DisplayName>B</DisplayName>
+      <DisplayName>Specular Color: B</DisplayName>
       <Description>Specular multiplication color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -147,7 +147,7 @@
       <UnkC8>スペキュラ乗算色</UnkC8>
     </Field>
     <Field Def="u8 lightColorR">
-      <DisplayName>R</DisplayName>
+      <DisplayName>Light Color: R</DisplayName>
       <Description>Light color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -155,7 +155,7 @@
       <UnkC8>ライト色</UnkC8>
     </Field>
     <Field Def="u8 lightColorG">
-      <DisplayName>G</DisplayName>
+      <DisplayName>Light Color: G</DisplayName>
       <Description>Light color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -163,7 +163,7 @@
       <UnkC8>ライト色</UnkC8>
     </Field>
     <Field Def="u8 lightColorB">
-      <DisplayName>B</DisplayName>
+      <DisplayName>Light Color: B</DisplayName>
       <Description>Light color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -175,7 +175,7 @@
       <SortID>75</SortID>
     </Field>
     <Field Def="f32 alpha = 1">
-      <DisplayName>α</DisplayName>
+      <DisplayName>Overall Alpha</DisplayName>
       <Description>The overall transparency.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -183,7 +183,7 @@
       <SortID>50</SortID>
     </Field>
     <Field Def="f32 blendRate = 1">
-      <DisplayName>Blend rate</DisplayName>
+      <DisplayName>Blend Rate</DisplayName>
       <Description>The blend ratio.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -191,7 +191,7 @@
       <SortID>70</SortID>
     </Field>
     <Field Def="u8 blendType">
-      <DisplayName>α type</DisplayName>
+      <DisplayName>Blend Type</DisplayName>
       <Enum>PHANTOM_BLEN_TYPE_ENUM</Enum>
       <Description>The type of alpha blend.</Description>
       <EditFlags>None</EditFlags>
@@ -199,7 +199,7 @@
       <SortID>71</SortID>
     </Field>
     <Field Def="u8 isEdgeSubtract">
-      <DisplayName>Whether to perform edge color subtraction</DisplayName>
+      <DisplayName>Perform Edge Color Subtraction</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Whether to perform edge color subtraction.</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -208,7 +208,7 @@
       <SortID>72</SortID>
     </Field>
     <Field Def="u8 isFrontSubtract">
-      <DisplayName>Whether to perform front color subtraction</DisplayName>
+      <DisplayName>Perform Front Color Subtraction</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Is it front color subtraction?</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -217,7 +217,7 @@
       <SortID>73</SortID>
     </Field>
     <Field Def="u8 isNo2Pass">
-      <DisplayName>Do not do 2pass</DisplayName>
+      <DisplayName>Is 1 Pass Only</DisplayName>
       <Enum>ON_OFF</Enum>
       <Description>Do you not do 2pass?</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -226,7 +226,7 @@
       <SortID>74</SortID>
     </Field>
     <Field Def="f32 edgePower = 1">
-      <DisplayName>Edge width</DisplayName>
+      <DisplayName>Edge Width</DisplayName>
       <Description>Edge width</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0.1</Minimum>
@@ -234,7 +234,7 @@
       <SortID>4</SortID>
     </Field>
     <Field Def="f32 glowScale">
-      <DisplayName>Glow strength</DisplayName>
+      <DisplayName>Glow Strength</DisplayName>
       <Description>Glow strength</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>

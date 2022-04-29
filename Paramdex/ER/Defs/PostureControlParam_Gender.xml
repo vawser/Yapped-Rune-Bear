@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s16 a000_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a000] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -15,7 +15,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a000] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -23,7 +23,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a000_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a000] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -31,7 +31,7 @@
       <UnkC8>a000</UnkC8>
     </Field>
     <Field Def="s16 a002_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a002] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -39,7 +39,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a002] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -47,7 +47,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a002_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a002] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -55,7 +55,7 @@
       <UnkC8>a002</UnkC8>
     </Field>
     <Field Def="s16 a003_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a003] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -63,7 +63,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a003] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -71,7 +71,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a003_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a003] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -79,7 +79,7 @@
       <UnkC8>a003</UnkC8>
     </Field>
     <Field Def="s16 a010_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a010] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -87,7 +87,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a010] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -95,7 +95,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a010_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a010] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -103,7 +103,7 @@
       <UnkC8>a010</UnkC8>
     </Field>
     <Field Def="s16 a012_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a012] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -111,7 +111,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a012] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -119,7 +119,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a012_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a012] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -127,7 +127,7 @@
       <UnkC8>a012</UnkC8>
     </Field>
     <Field Def="s16 a013_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a013] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -135,7 +135,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a013] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -143,7 +143,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a013_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a013] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -151,7 +151,7 @@
       <UnkC8>a013</UnkC8>
     </Field>
     <Field Def="s16 a014_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a014] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -159,7 +159,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a014] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -167,7 +167,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a014_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a014] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -175,7 +175,7 @@
       <UnkC8>a014</UnkC8>
     </Field>
     <Field Def="s16 a015_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a015] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -183,7 +183,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a015] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -191,7 +191,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a015_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a015] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -199,7 +199,7 @@
       <UnkC8>a015</UnkC8>
     </Field>
     <Field Def="s16 a016_rightElbowIO">
-      <DisplayName>Right elbow _ inside and outside</DisplayName>
+      <DisplayName>[a016] Right Elbow - Inside/Outside</DisplayName>
       <Description>Right elbow _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -207,7 +207,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_leftElbowIO">
-      <DisplayName>Left elbow_inside and outside</DisplayName>
+      <DisplayName>[a016] Left Elbow - Inside/Outside</DisplayName>
       <Description>Left elbow_inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>
@@ -215,7 +215,7 @@
       <UnkC8>a016</UnkC8>
     </Field>
     <Field Def="s16 a016_bothLegsIO">
-      <DisplayName>Both feet _ inside and outside</DisplayName>
+      <DisplayName>[a016] Both Legs - Inside/Outside</DisplayName>
       <Description>Both feet _ inside and outside</Description>
       <Minimum>-180</Minimum>
       <Maximum>180</Maximum>

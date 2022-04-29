@@ -619,6 +619,7 @@
       <Description>Rarity used in item acquisition logs</Description>
       <Maximum>99</Maximum>
       <SortID>21200</SortID>
+      <Enum>RARITY</Enum>
     </Field>
     <Field Def="u8 useLimitSummonBuddy">
       <DisplayName>Use Limit - Spirit Summon</DisplayName>

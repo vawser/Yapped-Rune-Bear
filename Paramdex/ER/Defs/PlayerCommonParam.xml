@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="s32 playerFootEffect_bySFX">
-      <DisplayName>Player's automatic foot effect SFX identifier [3 digits]</DisplayName>
+      <DisplayName>Automatic Foot Effect SFX Identifier</DisplayName>
       <Description>The identifier used for the SFX ID of the automatic foot effect. It corresponds to ZZZ of XYYZZZ.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -15,7 +15,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="f32 snipeModeDrawAlpha_FadeTime">
-      <DisplayName>Player hidden fade time during precision shooting</DisplayName>
+      <DisplayName>Precision Shoot - Player Model Fade Time</DisplayName>
       <Description>The fade time when hiding the player during precision shooting. The unit is seconds</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -23,7 +23,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="f32 toughnessRecoverCorrection">
-      <DisplayName>Player toughness recovery time correction value</DisplayName>
+      <DisplayName>Toughness Recovery Correction</DisplayName>
       <Description>A correction value used to calculate the player's toughness recovery time.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -32,14 +32,14 @@
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 baseMagicSlotSize">
-      <DisplayName>Magic memory slot initial value</DisplayName>
+      <DisplayName>Base Memory Slot Count</DisplayName>
       <Description>Magic memory slot initial value</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="u8 baseAccSlotNum">
-      <DisplayName>Talisman equipment slot initial value</DisplayName>
+      <DisplayName>Base Talisman Slot Count</DisplayName>
       <Description>Talisman equipment slot initial value</Description>
       <EditFlags>None</EditFlags>
       <Maximum>4</Maximum>
@@ -51,7 +51,7 @@
       <SortID>8031</SortID>
     </Field>
     <Field Def="s32 animeID_DropItemPick">
-      <DisplayName>Drop item acquisition animation ID</DisplayName>
+      <DisplayName>Item Pick-up - Animation ID</DisplayName>
       <Description>Animation ID when picking up a drop item</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -59,7 +59,7 @@
       <SortID>700</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Sleep_Player">
-      <DisplayName>Player resistance value recovery amount_sleep [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Sleep</DisplayName>
       <Description>Player resistance value recovery amount_sleep [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -67,7 +67,7 @@
       <SortID>4050</SortID>
     </Field>
     <Field Def="s32 flareOverrideHomingAngle = -1">
-      <DisplayName>Flare overwrite induction performance [deg / s]</DisplayName>
+      <DisplayName>Flare Overwrite Homing Angle</DisplayName>
       <Description>Flare overwrite guidance performance [deg / s] (-1: no overwrite)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -75,7 +75,7 @@
       <SortID>6000</SortID>
     </Field>
     <Field Def="f32 flareOverrideHomingStopRange = -1">
-      <DisplayName>Flare overwrite guidance stop distance [m]</DisplayName>
+      <DisplayName>Flare Overwrite Homing Stop Range</DisplayName>
       <Description>Flare overwrite guidance stop distance [m] (-1: no overwrite)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -84,7 +84,7 @@
       <SortID>6100</SortID>
     </Field>
     <Field Def="s32 animeID_SleepCollectorItemPick">
-      <DisplayName>Animation ID when acquiring Nemuri item</DisplayName>
+      <DisplayName>Sleep Collector Item Pick-up - Animation ID</DisplayName>
       <Description>Animation ID when acquiring Nemuri item</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -92,7 +92,7 @@
       <SortID>900</SortID>
     </Field>
     <Field Def="u32 unlockEventFlagBaseId_forWepAttr">
-      <DisplayName>Weapon attribute ban event flag base ID</DisplayName>
+      <DisplayName>Weapon Affinity Unlock - Base Event Flag ID</DisplayName>
       <Description>Weapon attribute ban event flag base ID</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -100,7 +100,7 @@
       <SortID>7000</SortID>
     </Field>
     <Field Def="s32 systemEnchant_BigRune">
-      <DisplayName>Special effect ID for activating large runes via the system</DisplayName>
+      <DisplayName>Great Rune Activation - SpEffect ID</DisplayName>
       <Description>Special effect Id to call when a large rune is activated from the system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -108,7 +108,7 @@
       <SortID>1300</SortID>
     </Field>
     <Field Def="f32 lowStatus_AtkPowDown">
-      <DisplayName>Insufficient status Basic attack power reduction</DisplayName>
+      <DisplayName>Insufficient Stats - Attack Power Reduction</DisplayName>
       <Description>Insufficient status Basic attack power reduction</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -116,7 +116,7 @@
       <SortID>1400</SortID>
     </Field>
     <Field Def="f32 lowStatus_ConsumeStaminaRate">
-      <DisplayName>Insufficient status Stamina consumption ratio</DisplayName>
+      <DisplayName>Insufficient Stats - Stamina Consumption</DisplayName>
       <Description>Insufficient status Stamina consumption ratio</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -124,7 +124,7 @@
       <SortID>1500</SortID>
     </Field>
     <Field Def="s16 lowStatus_AtkGuardBreak">
-      <DisplayName>Insufficient status Playing attack power</DisplayName>
+      <DisplayName>Insufficient Stats - Stamina Damage Reduction</DisplayName>
       <Description>Insufficient status Playing attack power</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -132,7 +132,7 @@
       <SortID>1600</SortID>
     </Field>
     <Field Def="s16 guardStatusCorrect_MaxStatusVal">
-      <DisplayName>Shield status correction Judgment status maximum value</DisplayName>
+      <DisplayName>Guard Boost Correction - Max Value</DisplayName>
       <Description>Maximum status value to increase performance used when calculating the status correction value of shield performance</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -140,7 +140,7 @@
       <SortID>1700</SortID>
     </Field>
     <Field Def="u16 unlockEventFlagStepNum_forWepAttr = 1">
-      <DisplayName>Weapon attribute ban event flag number of steps</DisplayName>
+      <DisplayName>Weapon Affinity Unlock - Event Flag Step Offset</DisplayName>
       <Description>How much space is left for each weapon attribute ID from the base ID. Weapon attribute ban event flag ID = &lt;&lt; Weapon attribute ban event flag base ID &gt;&gt; + Weapon attribute ID x &lt;&lt; Weapon attribute ban event flag number of steps &gt;&gt;</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -148,7 +148,7 @@
       <SortID>7010</SortID>
     </Field>
     <Field Def="u16 retributionMagic_damageCountNum">
-      <DisplayName>Causal Retribution_Number of Damages Before Counterattack</DisplayName>
+      <DisplayName>Retribution Magic - Damage Trigger Count</DisplayName>
       <Description>Causal Retribution_Number of Damages Before Counterattack</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -156,7 +156,7 @@
       <SortID>8000</SortID>
     </Field>
     <Field Def="u16 retributionMagic_damageCountRemainTime">
-      <DisplayName>Causal response_Number of damages until counterattack Duration [s]</DisplayName>
+      <DisplayName>Retribution Magic - Damage Trigger Duration</DisplayName>
       <Description>Causal response_Number of damages until counterattack Duration [s]</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -164,7 +164,7 @@
       <SortID>8010</SortID>
     </Field>
     <Field Def="u16 retributionMagic_burstDmypolyId">
-      <DisplayName>Causal Retribution_Counterattack Magic Damipoli ID</DisplayName>
+      <DisplayName>Retribution Magic - Explosion Dummy Poly ID</DisplayName>
       <Description>Causal Retribution_Counterattack Magic Damipoli ID</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -172,7 +172,7 @@
       <SortID>8030</SortID>
     </Field>
     <Field Def="s32 retributionMagic_burstMagicParamId = -1">
-      <DisplayName>Causal Retribution_Counterattack Magic Param ID</DisplayName>
+      <DisplayName>Retribution Magic - Explosion Magic Param ID</DisplayName>
       <Description>Causal Retribution_Counterattack Magic Param ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -180,7 +180,7 @@
       <SortID>8020</SortID>
     </Field>
     <Field Def="f32 chrAimCam_rideOffsetHeight">
-      <DisplayName>Riding precision shooting camera offset height</DisplayName>
+      <DisplayName>Mounted Precision Shoot - Camera Offset Height</DisplayName>
       <Description>Riding precision shooting camera offset height</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-10</Minimum>
@@ -194,7 +194,7 @@
       <SortID>8032</SortID>
     </Field>
     <Field Def="s32 arrowCaseWepBindDmypolyId">
-      <DisplayName>Quiver adsorption Damipoly ID</DisplayName>
+      <DisplayName>Quiver Dummy Poly ID</DisplayName>
       <Description>Quiver adsorption Damipoly ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -202,7 +202,7 @@
       <SortID>3900</SortID>
     </Field>
     <Field Def="s32 boltPouchWepBindDmypolyId">
-      <DisplayName>Bolt tube adsorption Damipoly ID</DisplayName>
+      <DisplayName>Bolt Case Dummy Poly ID</DisplayName>
       <Description>Bolt cylinder adsorption Damipoly ID (However, if the bolt cylinder is used alone, the quiver Damipoly ID is used)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -210,7 +210,7 @@
       <SortID>3950</SortID>
     </Field>
     <Field Def="f32 estusFlaskAllocateRate">
-      <DisplayName>Multi-time client bottle correction magnification</DisplayName>
+      <DisplayName>Multiplayer Flask Reduction</DisplayName>
       <Description>Multi-time client bottle correction magnification (0.5 specified to halve the number of possessions)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -224,7 +224,7 @@
       <SortID>8033</SortID>
     </Field>
     <Field Def="u8 kickAcceptanceDeg">
-      <DisplayName>Angle at which a kick can be taken when viewed from the front of the player</DisplayName>
+      <DisplayName>Kick Acceptance Angle</DisplayName>
       <Description>Angle at which a kick can be taken when viewed from the front of the player</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -232,35 +232,35 @@
       <SortID>2800</SortID>
     </Field>
     <Field Def="u8 npcPlayerAnalogWeightRate_Light">
-      <DisplayName>Analog Weight Ratio for NPC Players_Lightweight</DisplayName>
+      <DisplayName>NPC Player - Weight Rate: Light</DisplayName>
       <Description>Analog weight ratio for NPC players [%]. lightweight.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>2900</SortID>
     </Field>
     <Field Def="u8 npcPlayerAnalogWeightRate_Normal">
-      <DisplayName>Analog Weight Ratio for NPC Players_Medium Weight</DisplayName>
+      <DisplayName>NPC Player - Weight Rate: Normal</DisplayName>
       <Description>Analog weight ratio for NPC players [%]. Medium weight.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="u8 npcPlayerAnalogWeightRate_Heavy">
-      <DisplayName>Analog Weight Ratio for NPC Players_Weight</DisplayName>
+      <DisplayName>NPC Player - Weight Rate: Heavy</DisplayName>
       <Description>Analog weight ratio for NPC players [%]. weight.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>3100</SortID>
     </Field>
     <Field Def="u8 npcPlayerAnalogWeightRate_WeightOver">
-      <DisplayName>Analog Weight Ratio for NPC Players_Overweight</DisplayName>
+      <DisplayName>NPC Player - Weight Rate: Encumbered</DisplayName>
       <Description>Analog weight ratio for NPC players [%]. Overweight.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
       <SortID>3200</SortID>
     </Field>
     <Field Def="u8 npcPlayerAnalogWeightRate_SuperLight">
-      <DisplayName>Analog Weight Ratio for NPC Players_Ultra Lightweight</DisplayName>
+      <DisplayName>NPC Player - Weight Rate: Ninja</DisplayName>
       <Description>Analog weight ratio for NPC players [%]. Super lightweight.</Description>
       <EditFlags>None</EditFlags>
       <Maximum>200</Maximum>
@@ -273,7 +273,7 @@
       <SortID>8034</SortID>
     </Field>
     <Field Def="s32 clearCountCorrectBaseSpEffectId">
-      <DisplayName>Orbit correction special effect standard ID</DisplayName>
+      <DisplayName>Game Clear - Base SpEffect ID</DisplayName>
       <Description>Criteria ID for special effects applied for lap correction</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -281,7 +281,7 @@
       <SortID>3500</SortID>
     </Field>
     <Field Def="s32 arrowBoltModelIdOffset">
-      <DisplayName>Arrow, bolt model Id offset</DisplayName>
+      <DisplayName>Ammunition Model ID Offset</DisplayName>
       <Description>Offset added to the model ID when equipped in slot 1 when displaying the arrow and bolt models. (Model Id + offset value)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -289,7 +289,7 @@
       <SortID>3600</SortID>
     </Field>
     <Field Def="s8 arrowBoltRemainingNumModelMaskThreshold1">
-      <DisplayName>Threshold for the remaining number of model masks based on the remaining amount of arrows and bolts _1 step [%]</DisplayName>
+      <DisplayName>Ammunition Count Model Mask Threshold [1]</DisplayName>
       <Description>When displaying the arrow and bolt models, the one-step judgment value [%] of the threshold value when applying the display mask by the number. (If it is more than this value, it is displayed in one step)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -297,7 +297,7 @@
       <SortID>3700</SortID>
     </Field>
     <Field Def="s8 arrowBoltRemainingNumModelMaskThreshold2">
-      <DisplayName>Threshold for the remaining number of model masks based on the remaining amount of arrows and bolts _2 steps [%]</DisplayName>
+      <DisplayName>Ammunition Count Model Mask Threshold [2]</DisplayName>
       <Description>Two-step judgment value [%] of the threshold value when applying a display mask based on the number of arrows and bolt models. (If it is more than this value, it is displayed in 2 steps)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -310,7 +310,7 @@
       <SortID>8035</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Poision_Player">
-      <DisplayName>Player resistance recovery amount_poison [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Poison</DisplayName>
       <Description>Player resistance recovery amount_poison [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -318,7 +318,7 @@
       <SortID>4000</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Desease_Player">
-      <DisplayName>Player resistance value recovery amount_plague [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Scarlet Rot</DisplayName>
       <Description>Player resistance value recovery amount_plague [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -326,7 +326,7 @@
       <SortID>4010</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Blood_Player">
-      <DisplayName>Player resistance recovery amount_bleeding [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Hemorrhage</DisplayName>
       <Description>Player resistance recovery amount_bleeding [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -334,7 +334,7 @@
       <SortID>4020</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Curse_Player">
-      <DisplayName>Player resistance recovery amount_curse [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Blight</DisplayName>
       <Description>Player resistance recovery amount_curse [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -342,7 +342,7 @@
       <SortID>4030</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Freeze_Player">
-      <DisplayName>Player resistance value recovery amount_cold air [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Frostbite</DisplayName>
       <Description>Player resistance value recovery amount_cold air [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -350,7 +350,7 @@
       <SortID>4040</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Poision_Enemy">
-      <DisplayName>Enemy resistance recovery amount_poison [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Poison</DisplayName>
       <Description>Enemy resistance recovery amount_poison [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -358,7 +358,7 @@
       <SortID>4500</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Desease_Enemy">
-      <DisplayName>Enemy resistance value recovery amount_plague [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Scarlet Rot</DisplayName>
       <Description>Enemy resistance value recovery amount_plague [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -366,7 +366,7 @@
       <SortID>4510</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Blood_Enemy">
-      <DisplayName>Enemy resistance recovery amount_bleeding [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Hemorrhage</DisplayName>
       <Description>Enemy resistance recovery amount_bleeding [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -374,7 +374,7 @@
       <SortID>4520</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Curse_Enemy">
-      <DisplayName>Enemy resistance recovery amount_curse [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Blight</DisplayName>
       <Description>Enemy resistance recovery amount_curse [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -382,7 +382,7 @@
       <SortID>4530</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Freeze_Enemy">
-      <DisplayName>Enemy resistance value recovery amount_cold air [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Frostbite</DisplayName>
       <Description>Enemy resistance value recovery amount_cold air [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -390,7 +390,7 @@
       <SortID>4540</SortID>
     </Field>
     <Field Def="f32 requestTimeLeftBothHand">
-      <DisplayName>Left hand two-handed request button long press time [s]</DisplayName>
+      <DisplayName>Button Input Time for Both-Hand Left</DisplayName>
       <Description>Button input time when holding both left hand</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -399,7 +399,7 @@
       <SortID>5000</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Madness_Player">
-      <DisplayName>Player resistance value recovery amount_madness [point / s]</DisplayName>
+      <DisplayName>Player Resist Recovery - Madness</DisplayName>
       <Description>Player resistance value recovery amount_madness [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -407,7 +407,7 @@
       <SortID>4050</SortID>
     </Field>
     <Field Def="s32 animeID_MaterialItemPick">
-      <DisplayName>Material Item acquisition animation ID</DisplayName>
+      <DisplayName>Material Pick-up - Animation ID</DisplayName>
       <Description>Animation ID when picking up a material item</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -415,7 +415,7 @@
       <SortID>800</SortID>
     </Field>
     <Field Def="f32 hpEstusFlaskAllocateRateForYellowMonk">
-      <DisplayName>Yellow Cloth HP Est Bottle Correction Magnification</DisplayName>
+      <DisplayName>HP Flask Reduction - Yellow Monk</DisplayName>
       <Description>Yellow Cloth HP Est Bottle Correction Magnification</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -423,7 +423,7 @@
       <SortID>5300</SortID>
     </Field>
     <Field Def="s32 hpEstusFlaskAllocateOffsetForYellowMonk">
-      <DisplayName>Yellow Cloth HP Est Bottle Offset</DisplayName>
+      <DisplayName>HP Flask Offset - Yellow Monk</DisplayName>
       <Description>Yellow Cloth HP Est Bottle Offset</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-100000</Minimum>
@@ -431,7 +431,7 @@
       <SortID>5400</SortID>
     </Field>
     <Field Def="f32 mpEstusFlaskAllocateRateForYellowMonk">
-      <DisplayName>Yellow Cloth MP Est Bottle Correction Magnification</DisplayName>
+      <DisplayName>FP Flask Reduction - Yellow Monk</DisplayName>
       <Description>Yellow Cloth MP Est Bottle Correction Magnification</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -439,7 +439,7 @@
       <SortID>5500</SortID>
     </Field>
     <Field Def="s32 mpEstusFlaskAllocateOffsetForYellowMonk">
-      <DisplayName>Yellow Cloth MP Est Bottle Offset</DisplayName>
+      <DisplayName>FP Flask Offset - Yellow Monk</DisplayName>
       <Description>Yellow Cloth MP Est Bottle Offset</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-100000</Minimum>
@@ -447,7 +447,7 @@
       <SortID>5600</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Sleep_Enemy">
-      <DisplayName>Enemy resistance value recovery amount_sleep [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Sleep</DisplayName>
       <Description>Enemy resistance value recovery amount_sleep [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -455,7 +455,7 @@
       <SortID>4550</SortID>
     </Field>
     <Field Def="f32 resistRecoverPoint_Madness_Enemy">
-      <DisplayName>Enemy resistance value recovery amount_madness [point / s]</DisplayName>
+      <DisplayName>Enemy Resist Recovery - Madness</DisplayName>
       <Description>Enemy resistance value recovery amount_madness [point / s]</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -463,7 +463,7 @@
       <SortID>4560</SortID>
     </Field>
     <Field Def="s32 resistCurseItemId = -1">
-      <DisplayName>Abnormal condition_immediate death_immediate death Item ID</DisplayName>
+      <DisplayName>Resist Blight Item ID</DisplayName>
       <Description>Abnormal condition_immediate death_immediate death Item ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -472,7 +472,7 @@
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
     <Field Def="u8 resistCurseItemMaxNum">
-      <DisplayName>Abnormal condition_immediate death_maximum number of instant death items</DisplayName>
+      <DisplayName>Resist Blight Item Max Count</DisplayName>
       <Description>Abnormal condition_immediate death_maximum number of instant death items</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -485,7 +485,7 @@
       <SortID>8036</SortID>
     </Field>
     <Field Def="s32 resistCurseItemSpEffectBaseId = -1">
-      <DisplayName>Abnormal condition_Instant death_Instant death Item possession Special effect base ID</DisplayName>
+      <DisplayName>Resist Blight Item - Base SpEffect ID</DisplayName>
       <Description>Abnormal condition_Instant death_Instant death Item possession Special effect base ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -494,7 +494,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 resistCurseItemLotParamId_map = -1">
-      <DisplayName>Abnormal condition_immediate death_immediate death item lottery ID_for map</DisplayName>
+      <DisplayName>Resist Blight Item - Map Item Lot ID</DisplayName>
       <Description>Abnormal condition_immediate death_immediate death item lottery ID_for map</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>

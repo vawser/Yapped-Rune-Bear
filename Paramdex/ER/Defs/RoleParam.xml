@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 teamType">
-      <DisplayName>Team type</DisplayName>
+      <DisplayName>Team Type</DisplayName>
       <Enum>TEAM_TYPE</Enum>
       <Description>Team type</Description>
       <Minimum>-1</Minimum>
@@ -18,14 +18,14 @@
       <SortID>6001</SortID>
     </Field>
     <Field Def="s32 phantomParamId = -1">
-      <DisplayName>Phantom parameter ID (pledge rank 0)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow [0]</DisplayName>
       <Description>Phantom parameter ID when pledge rank is 0</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="s32 spEffectID0 = -1">
-      <DisplayName>Resident special effect 0</DisplayName>
+      <DisplayName>SpEffect ID [0]</DisplayName>
       <Description>Resident special effect 0</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -33,7 +33,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID1 = -1">
-      <DisplayName>Resident special effect 1</DisplayName>
+      <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Resident special effect 1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -41,7 +41,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID2 = -1">
-      <DisplayName>Resident special effect 2</DisplayName>
+      <DisplayName>SpEffect ID [2]</DisplayName>
       <Description>Resident special effect 2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -49,7 +49,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID3 = -1">
-      <DisplayName>Resident special effect 3</DisplayName>
+      <DisplayName>SpEffect ID [3]</DisplayName>
       <Description>Resident special effect 3</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -57,7 +57,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID4 = -1">
-      <DisplayName>Resident special effect 4</DisplayName>
+      <DisplayName>SpEffect ID [4]</DisplayName>
       <Description>Resident special effect 4</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -65,7 +65,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID5 = -1">
-      <DisplayName>Resident special effect 5</DisplayName>
+      <DisplayName>SpEffect ID [5]</DisplayName>
       <Description>Resident special effect 5</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -73,7 +73,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID6 = -1">
-      <DisplayName>Resident special effect 6</DisplayName>
+      <DisplayName>SpEffect ID [6]</DisplayName>
       <Description>Resident special effect 6</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -81,7 +81,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID7 = -1">
-      <DisplayName>Resident special effect 7</DisplayName>
+      <DisplayName>SpEffect ID [7]</DisplayName>
       <Description>Resident special effect 7</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -89,7 +89,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID8 = -1">
-      <DisplayName>Resident special effect 8</DisplayName>
+      <DisplayName>SpEffect ID [8]</DisplayName>
       <Description>Resident special effect 8</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -97,7 +97,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID9 = -1">
-      <DisplayName>Resident special effect 9</DisplayName>
+      <DisplayName>SpEffect ID [9]</DisplayName>
       <Description>Resident special effect 9</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -105,28 +105,28 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 sosSignSfxId">
-      <DisplayName>SOS sign SFX ID</DisplayName>
+      <DisplayName>Summon Sign - SFX ID</DisplayName>
       <Description>SOS sign SFX ID issued by another person</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4500</SortID>
     </Field>
     <Field Def="s32 mySosSignSfxId">
-      <DisplayName>SOS sign SFX ID issued by me</DisplayName>
+      <DisplayName>Personal Summon Sign - SFX ID</DisplayName>
       <Description>SOS sign SFX ID issued by me</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4510</SortID>
     </Field>
     <Field Def="s32 summonStartAnimId">
-      <DisplayName>Anime ID (player) when summoned</DisplayName>
+      <DisplayName>Player Summon Start - Animation ID</DisplayName>
       <Description>Anime ID to play when the player is summoned and the game starts</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>4550</SortID>
     </Field>
     <Field Def="s32 itemlotParamId = -1">
-      <DisplayName>Reward item lottery ID_for map</DisplayName>
+      <DisplayName>Map Itemlot Param ID</DisplayName>
       <Description>Acquisition reward item lottery parameter ID_for map (not -1)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -134,13 +134,13 @@
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
     <Field Def="u8 voiceChatGroup">
-      <DisplayName>Voice chat group</DisplayName>
+      <DisplayName>Voice Chat Group</DisplayName>
       <Enum>VOICE_CHAT_GROUP_Type</Enum>
       <Description>Voice chat group</Description>
       <SortID>5000</SortID>
     </Field>
     <Field Def="u8 roleNameColor">
-      <DisplayName>Role name text color</DisplayName>
+      <DisplayName>Role Name Color</DisplayName>
       <Enum>ROLE_NAME_COLOR_TYPE</Enum>
       <Description>The color of the role name text displayed on the FE of the network PC</Description>
       <SortID>5400</SortID>
@@ -150,20 +150,20 @@
       <SortID>6002</SortID>
     </Field>
     <Field Def="s32 roleNameId">
-      <DisplayName>Role name text ID</DisplayName>
+      <DisplayName>Role Name - Text ID</DisplayName>
       <Description>Text ID of the role name to be displayed on the FE of the network PC</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>5500</SortID>
     </Field>
     <Field Def="u32 threatLv">
-      <DisplayName>Threat level</DisplayName>
+      <DisplayName>Threat Level</DisplayName>
       <Description>Threat level</Description>
       <Maximum>31</Maximum>
       <SortID>5600</SortID>
     </Field>
     <Field Def="s32 phantomParamId_vowRank1 = -1">
-      <DisplayName>Phantom parameter ID (pledge rank 1)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [1]</DisplayName>
       <Description>Phantom parameter ID when pledge rank is 1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -171,7 +171,7 @@
       <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomParamId_vowRank2 = -1">
-      <DisplayName>Phantom Parameter ID (Pledge Rank 2)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [2]</DisplayName>
       <Description>Phantom parameter ID when pledge rank is 2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -179,7 +179,7 @@
       <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 phantomParamId_vowRank3 = -1">
-      <DisplayName>Phantom Parameter ID (Pledge Rank 3)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [3]</DisplayName>
       <Description>Phantom parameter ID when pledge rank is 3</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -187,7 +187,7 @@
       <ParamRef1>PhantomParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank0 = -1">
-      <DisplayName>Special effect ID for SFX (pledge rank 0)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [4]</DisplayName>
       <Description>Special effect ID for SFX when pledge rank 0</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -195,7 +195,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank1 = -1">
-      <DisplayName>Special effect ID for SFX (pledge rank 1)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [5]</DisplayName>
       <Description>Special effect ID for SFX when pledge rank 1</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -203,7 +203,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank2 = -1">
-      <DisplayName>Special effect ID for SFX (pledge rank 2)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [6]</DisplayName>
       <Description>Special effect ID for SFX when pledge rank 2</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -211,7 +211,7 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 spEffectID_vowRank3 = -1">
-      <DisplayName>Special effect ID for SFX (pledge rank 3)</DisplayName>
+      <DisplayName>Phantom Param ID - Vow Rank [7]</DisplayName>
       <Description>Special effect ID for SFX when pledge rank 3</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
@@ -219,14 +219,14 @@
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 signPhantomId = -1">
-      <DisplayName>Phantom ID for sign illusion</DisplayName>
+      <DisplayName>Ghost Phantom ID</DisplayName>
       <Description>Multiplayer pledge ghost body sign phantom ID designation for illusion</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999999</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="s32 nonPlayerSummonStartAnimId">
-      <DisplayName>Anime ID when summoned (other than player)</DisplayName>
+      <DisplayName>NPC Summon Start - Animation ID</DisplayName>
       <Description>Anime ID to play when a player other than the player is summoned and the game starts</Description>
       <Minimum>0</Minimum>
       <Maximum>999999999</Maximum>

@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 disableParam_NT:1">
-      <DisplayName>Do you remove it from the NT version output?</DisplayName>
+      <DisplayName>Disable Param - Network Test</DisplayName>
       <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
       <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
       <EditFlags>None</EditFlags>
@@ -26,14 +26,14 @@
       <SortID>1222</SortID>
     </Field>
     <Field Def="u32 openEventFlagId">
-      <DisplayName>Open event flag ID</DisplayName>
+      <DisplayName>Open - Event Flag ID</DisplayName>
       <Description>Event flag ID of open condition</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="f32 openTravelAreaLeft">
-      <DisplayName>Opened traversal area: Xmin</DisplayName>
+      <DisplayName>Open - Traversal Area - X Min</DisplayName>
       <Description>Coordinates of the traversal area that expands when opened (Xmin)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -42,7 +42,7 @@
       <SortID>200</SortID>
     </Field>
     <Field Def="f32 openTravelAreaRight">
-      <DisplayName>Opened traversal area: Xmax</DisplayName>
+      <DisplayName>Open - Traversal Area - X Max</DisplayName>
       <Description>Coordinates of the traversal area that expands when opened (Xmax)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -51,7 +51,7 @@
       <SortID>210</SortID>
     </Field>
     <Field Def="f32 openTravelAreaTop">
-      <DisplayName>Opened traversal area: Ymin</DisplayName>
+      <DisplayName>Open - Traversal Area - Y Min</DisplayName>
       <Description>Coordinates of the traversal area that expands when opened (Ymin)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -60,7 +60,7 @@
       <SortID>220</SortID>
     </Field>
     <Field Def="f32 openTravelAreaBottom">
-      <DisplayName>Opened traversal area: Ymax</DisplayName>
+      <DisplayName>Open - Traversal Area - Y Max</DisplayName>
       <Description>Coordinates of the traversal area that expands when opened (Ymax)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -69,14 +69,14 @@
       <SortID>230</SortID>
     </Field>
     <Field Def="u32 acquisitionEventFlagId">
-      <DisplayName>Acquisition production event flag ID</DisplayName>
+      <DisplayName>Acquisition - Event Flag ID</DisplayName>
       <Description>Event flag ID of the acquisition production start condition. Assuming that only one of the map fragments is On</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>999999999</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="f32 acquisitionEventScale = 1">
-      <DisplayName>Acquisition effect: Display magnification</DisplayName>
+      <DisplayName>Acquisition - Display Scale</DisplayName>
       <Description>Display magnification at the time of acquisition production</Description>
       <DisplayFormat>%.4f</DisplayFormat>
       <Minimum>0.0001</Minimum>
@@ -85,7 +85,7 @@
       <SortID>1100</SortID>
     </Field>
     <Field Def="f32 acquisitionEventCenterX">
-      <DisplayName>Obtained production: Center coordinates X</DisplayName>
+      <DisplayName>Acquisition - Center X Coordinate</DisplayName>
       <Description>Center coordinates (X) at the time of acquisition production</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -94,7 +94,7 @@
       <SortID>1110</SortID>
     </Field>
     <Field Def="f32 acquisitionEventCenterY">
-      <DisplayName>Obtained production: Center coordinates Y</DisplayName>
+      <DisplayName>Acquisition - Center Y Coordinate</DisplayName>
       <Description>For the central seat at the time of acquisition production (Y)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -103,7 +103,7 @@
       <SortID>1120</SortID>
     </Field>
     <Field Def="f32 acquisitionEventResScale = 1">
-      <DisplayName>Acquisition effect: Resource multiplier</DisplayName>
+      <DisplayName>Acquisition - Display Resource Scale</DisplayName>
       <Description>Display magnification of blindfold resources for acquisition production</Description>
       <DisplayFormat>%.4f</DisplayFormat>
       <Minimum>0.0001</Minimum>
@@ -112,7 +112,7 @@
       <SortID>1200</SortID>
     </Field>
     <Field Def="f32 acquisitionEventResOffsetX">
-      <DisplayName>Acquisition effect: Resource offset X</DisplayName>
+      <DisplayName>Acquisition - Resource Offset X</DisplayName>
       <Description>Display position offset (X) of blindfold resource for acquisition production</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>
@@ -121,7 +121,7 @@
       <SortID>1210</SortID>
     </Field>
     <Field Def="f32 acquisitionEventResOffsetY">
-      <DisplayName>Acquisition effect: Resource offset Y</DisplayName>
+      <DisplayName>Acquisition - Resource Offset Y</DisplayName>
       <Description>Offset of display position of blindfold resource for acquisition production (Y)</Description>
       <DisplayFormat>%.1f</DisplayFormat>
       <Minimum>0</Minimum>

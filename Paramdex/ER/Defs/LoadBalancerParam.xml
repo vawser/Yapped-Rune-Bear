@@ -7,7 +7,7 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="f32 lowerFpsThreshold = 23">
-      <DisplayName>lowerFpsThreshold</DisplayName>
+      <DisplayName>Lower FPS Threshold - Raise Balance Level</DisplayName>
       <Description>If it falls below this FPS, increase the load balance level by 1.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -16,7 +16,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="f32 upperFpsThreshold = 27">
-      <DisplayName>upperFpsThreshold</DisplayName>
+      <DisplayName>Upper FPS Threshold - Lower Balance Level</DisplayName>
       <Description>If you exceed this FPS, lower the load balance level by 1.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -26,7 +26,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="u32 lowerFpsContinousCount = 5">
-      <DisplayName>lowerFpsContinousCount</DisplayName>
+      <DisplayName>Lower FPS Continous - Raise Balance Level</DisplayName>
       <Description>If this frame continues below the threshold, level up</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -35,7 +35,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="u32 upperFpsContinousCount = 20">
-      <DisplayName>upperFpsContinousCount</DisplayName>
+      <DisplayName>Upper FPS Continous - Lower Balance Level</DisplayName>
       <Description>If the threshold is exceeded continuously for this frame, level down</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -44,7 +44,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="u32 downAfterChangeSleep = 30">
-      <DisplayName>downAfterChangeSleep</DisplayName>
+      <DisplayName>Sleep Frame Count after Level Lower</DisplayName>
       <Description>Sleep frame count after level down</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -53,7 +53,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="u32 upAfterChangeSleep = 10">
-      <DisplayName>upAfterChangeSleep</DisplayName>
+      <DisplayName>Sleep Frame Count after Level Raise</DisplayName>
       <Description>Sleep frame count after leveling up</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -62,7 +62,7 @@
       <UnkC8>基本設定</UnkC8>
     </Field>
     <Field Def="u8 postProcessLightShaft = 20">
-      <DisplayName>Light shaft</DisplayName>
+      <DisplayName>Post Process: Light Shaft</DisplayName>
       <Description>Light shaft of filter</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -71,7 +71,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessBloom = 20">
-      <DisplayName>Bloom</DisplayName>
+      <DisplayName>Post Process: Bloom</DisplayName>
       <Description>Bloom</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -80,7 +80,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessGlow = 20">
-      <DisplayName>Glow</DisplayName>
+      <DisplayName>Post Process: Glow</DisplayName>
       <Description>Glow</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -89,7 +89,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessAA = 20">
-      <DisplayName>AA</DisplayName>
+      <DisplayName>Post Process: Anti-Aliasing</DisplayName>
       <Description>Antialiasing</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -98,7 +98,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessSSAO = 20">
-      <DisplayName>SSAO</DisplayName>
+      <DisplayName>Post Process: SSAO</DisplayName>
       <Description>SSAO</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -107,7 +107,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessDOF = 20">
-      <DisplayName>DOF</DisplayName>
+      <DisplayName>Post Process: Depth of Field</DisplayName>
       <Description>DOF</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -116,7 +116,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessMotionBlur = 20">
-      <DisplayName>Motion Blur</DisplayName>
+      <DisplayName>Post Process: Motion Blur</DisplayName>
       <Description>Motion Blur</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -125,7 +125,7 @@
       <UnkC8>ポストプロセス</UnkC8>
     </Field>
     <Field Def="u8 postProcessMotionBlurIteration = 20">
-      <DisplayName>MotionBlurIteration</DisplayName>
+      <DisplayName>Post Process: Motion Blur Iteration</DisplayName>
       <Description>Reduce the number of Motion Blur iterations</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -141,7 +141,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 shadowBlur = 20">
-      <DisplayName>Shadow Blur</DisplayName>
+      <DisplayName>Cut Shadow Blur</DisplayName>
       <Description>Cut the shadow blur</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -150,7 +150,7 @@
       <UnkC8>シャドウ</UnkC8>
     </Field>
     <Field Def="u8 sfxParticleHalf = 20">
-      <DisplayName>Around the SFX Emit</DisplayName>
+      <DisplayName>Halve SFX Particle</DisplayName>
       <Description>Emit interval, number of emits, LOD distance halved in graphics config</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -159,7 +159,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxReflection = 20">
-      <DisplayName>SFX reflection</DisplayName>
+      <DisplayName>Omit SFX Reflection</DisplayName>
       <Description>Omit the reflection scene SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -168,7 +168,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxWaterInteraction = 20">
-      <DisplayName>Water interaction</DisplayName>
+      <DisplayName>Omit Water Surface SFX Interaction</DisplayName>
       <Description>Omit water surface interact SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -177,7 +177,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxGlow = 20">
-      <DisplayName>SFX glow</DisplayName>
+      <DisplayName>Omit SFX Glow</DisplayName>
       <Description>Omit Glow playing with SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -186,7 +186,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxDistortion = 20">
-      <DisplayName>SFX distortion</DisplayName>
+      <DisplayName>Omit SFX Distortion</DisplayName>
       <Description>Omit of distortion applied by SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -195,7 +195,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sftSoftSprite = 20">
-      <DisplayName>Soft sprite</DisplayName>
+      <DisplayName>Omit SFX Soft Sprite</DisplayName>
       <Description>Soft sprite omit with SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -204,7 +204,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxLightShaft = 20">
-      <DisplayName>Light shaft</DisplayName>
+      <DisplayName>Omit SFX Light Shaft</DisplayName>
       <Description>SFX Light Shaft Omit</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -213,7 +213,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 sfxScaleRenderDistanceScale = 20">
-      <DisplayName>Scale to the distance judgment of the effect dynamically registered in the reduction buffer</DisplayName>
+      <DisplayName>SFX Scale - Render Distance Scale</DisplayName>
       <Description>Scale to the distance judgment of the effect dynamically registered in the reduction buffer by the distance of SFX</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -222,7 +222,7 @@
       <UnkC8>SFX</UnkC8>
     </Field>
     <Field Def="u8 dynamicResolution = 1">
-      <DisplayName>Dynamic resolution</DisplayName>
+      <DisplayName>Dynamic Resolution</DisplayName>
       <Description>Dynamic resolution</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -231,7 +231,7 @@
       <UnkC8>その他</UnkC8>
     </Field>
     <Field Def="u8 shadowCascade0ResolutionHalf">
-      <DisplayName>Shadow Cascade0 Resolution Half</DisplayName>
+      <DisplayName>Halve Shadow Cascade [0] Resolution</DisplayName>
       <Description>Cut the shadow (cascade 0) resolution in half</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -240,7 +240,7 @@
       <UnkC8>シャドウ</UnkC8>
     </Field>
     <Field Def="u8 shadowCascade1ResolutionHalf = 13">
-      <DisplayName>Shadow Cascade1 Resolution Half</DisplayName>
+      <DisplayName>Halve Shadow Cascade [1] Resolution</DisplayName>
       <Description>Cut the shadow (cascade 1) resolution in half</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -249,7 +249,7 @@
       <UnkC8>シャドウ</UnkC8>
     </Field>
     <Field Def="u8 chrWetDisablePlayer = 21">
-      <DisplayName>Local player</DisplayName>
+      <DisplayName>Disable Wetness for Player</DisplayName>
       <Description>Turn off the water wetting process for local players</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -258,7 +258,7 @@
       <UnkC8>キャラ水濡れOFF</UnkC8>
     </Field>
     <Field Def="u8 chrWetDisableRemotePlayer = 21">
-      <DisplayName>Remote player</DisplayName>
+      <DisplayName>Disable Wetness for Remote Player</DisplayName>
       <Description>Turn off the water wetting process of the remote player</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -267,7 +267,7 @@
       <UnkC8>キャラ水濡れOFF</UnkC8>
     </Field>
     <Field Def="u8 chrWetDisableEnemy = 21">
-      <DisplayName>Enemy character</DisplayName>
+      <DisplayName>Disable Wetness for NPC</DisplayName>
       <Description>Turn off the water wetting process of enemy characters</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -276,7 +276,7 @@
       <UnkC8>キャラ水濡れOFF</UnkC8>
     </Field>
     <Field Def="u8 dynamicResolutionPercentageMin = 100">
-      <DisplayName>Resolution reduction lower limit (%)</DisplayName>
+      <DisplayName>Lower Limit of Resolution Reduction</DisplayName>
       <Description>Resolution reduction lower limit (%)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -285,7 +285,7 @@
       <UnkC8>動的解像度</UnkC8>
     </Field>
     <Field Def="u8 dynamicResolutionPercentageMax = 100">
-      <DisplayName>Resolution reduction upper limit (%)</DisplayName>
+      <DisplayName>Upper Limit of Resolution Reduction</DisplayName>
       <Description>Resolution reduction upper limit (%)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>

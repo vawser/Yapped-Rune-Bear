@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u32 reverbType">
-      <DisplayName>Reverb type</DisplayName>
+      <DisplayName>Reverb Type</DisplayName>
       <Description>Reverb type</Description>
       <EditFlags>None</EditFlags>
       <Maximum>16</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 AreaNo = -1">
-      <DisplayName>Area No</DisplayName>
+      <DisplayName>Condition: Area Number</DisplayName>
       <Description>Condition: Area No. (-1: Invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -22,7 +22,7 @@
       <SortID>2</SortID>
     </Field>
     <Field Def="s8 IndoorOutdoor = -1">
-      <DisplayName>Indoor and outdoor</DisplayName>
+      <DisplayName>Condition: Indoor/Outdoor</DisplayName>
       <Description>Condition: Indoor / outdoor designation (0: outdoor, 1: indoor) (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -30,7 +30,7 @@
       <SortID>3</SortID>
     </Field>
     <Field Def="s8 useDistNoA = -1">
-      <DisplayName>Evaluation distance number A</DisplayName>
+      <DisplayName>Condition: Evaluation Distance A</DisplayName>
       <Description>Condition: Evaluation distance number A to use (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -38,7 +38,7 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="s8 useDistNoB = -1">
-      <DisplayName>Evaluation distance number B</DisplayName>
+      <DisplayName>Condition: Evaluation Distance B</DisplayName>
       <Description>Condition: Evaluation distance number B to be used (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -51,7 +51,7 @@
       <SortID>9999</SortID>
     </Field>
     <Field Def="f32 DistMinA = -1">
-      <DisplayName>Distance MinA [m]</DisplayName>
+      <DisplayName>Condition: Evaluation Distance A - Min</DisplayName>
       <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -60,7 +60,7 @@
       <SortID>101</SortID>
     </Field>
     <Field Def="f32 DistMaxA = -1">
-      <DisplayName>Distance MaxA [m]</DisplayName>
+      <DisplayName>Condition: Evaluation Distance A - Max</DisplayName>
       <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -69,7 +69,7 @@
       <SortID>102</SortID>
     </Field>
     <Field Def="f32 DistMinB = -1">
-      <DisplayName>Distance MinB [m]</DisplayName>
+      <DisplayName>Condition: Evaluation Distance B - Min</DisplayName>
       <Description>Condition: For evaluation distance minimum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -78,7 +78,7 @@
       <SortID>201</SortID>
     </Field>
     <Field Def="f32 DistMaxB = -1">
-      <DisplayName>Distance MaxB [m]</DisplayName>
+      <DisplayName>Condition: Evaluation Distance B - Max</DisplayName>
       <Description>Condition: For evaluation distance maximum specification A (less than 0: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -87,7 +87,7 @@
       <SortID>202</SortID>
     </Field>
     <Field Def="s32 NoHitNumMin = -1">
-      <DisplayName>Minimum number of collision points No Hits</DisplayName>
+      <DisplayName>Condition: No Hit Minimum</DisplayName>
       <Description>Condition: No Hit number (-1: invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>

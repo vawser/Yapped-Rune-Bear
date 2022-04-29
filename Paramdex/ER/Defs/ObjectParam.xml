@@ -15,14 +15,14 @@
       <SortID>100</SortID>
     </Field>
     <Field Def="u16 defense">
-      <DisplayName>Defense power</DisplayName>
+      <DisplayName>Defence</DisplayName>
       <Description>Attack power below this value is no damage</Description>
       <EditFlags>None</EditFlags>
       <Maximum>9999</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s16 extRefTexId = -1">
-      <DisplayName>Xref texture ID</DisplayName>
+      <DisplayName>External Texture ID</DisplayName>
       <Description>mAA / mAA_ ????. Tpf (-1: None) (AA: Area number)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -38,104 +38,104 @@
       <SortID>800</SortID>
     </Field>
     <Field Def="u8 animBreakIdMax">
-      <DisplayName>Anime destruction ID maximum value</DisplayName>
+      <DisplayName>Destruction Animation ID</DisplayName>
       <Description>What is the animation destruction ID from 0 to what?</Description>
       <EditFlags>None</EditFlags>
       <Maximum>99</Maximum>
       <SortID>700</SortID>
     </Field>
     <Field Def="u8 isCamHit:1">
-      <DisplayName>Does the camera hit?</DisplayName>
+      <DisplayName>Is Camera Hit</DisplayName>
       <Description>Does the camera hit (0: not hit, 1: hit)</Description>
       <Maximum>1</Maximum>
       <SortID>310</SortID>
     </Field>
     <Field Def="u8 isBreakByPlayerCollide:1">
-      <DisplayName>Will it break in a player collision?</DisplayName>
+      <DisplayName>Is Broken by Player Collision</DisplayName>
       <Description>Broken when the player touches (0: no, 1:)</Description>
       <Maximum>1</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="u8 isAnimBreak:1">
-      <DisplayName>Is it anime destruction?</DisplayName>
+      <DisplayName>Is Animated Destruction</DisplayName>
       <Description>Is it animation destruction (0: physical destruction, 1: animation destruction)</Description>
       <Maximum>1</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="u8 isPenetrationBulletHit:1">
-      <DisplayName>Will it hit a penetrating bullet?</DisplayName>
+      <DisplayName>Is Penetrated by Bullet</DisplayName>
       <Description>Will the penetrating bullet hit (0: not hit, 1: hit)</Description>
       <Maximum>1</Maximum>
       <SortID>900</SortID>
     </Field>
     <Field Def="u8 isChrHit:1 = 1">
-      <DisplayName>Will the character win?</DisplayName>
+      <DisplayName>Is Character Hit</DisplayName>
       <Description>Does the character win (0: not hit, 1: hit)</Description>
       <Maximum>1</Maximum>
       <SortID>311</SortID>
     </Field>
     <Field Def="u8 isAttackBacklash:1 = 1">
-      <DisplayName>Do you play the attack</DisplayName>
+      <DisplayName>Is Attack Backlash</DisplayName>
       <Description>Do you play the attack (0: do not play, 1: play)</Description>
       <Maximum>1</Maximum>
       <SortID>950</SortID>
     </Field>
     <Field Def="u8 isDisableBreakForFirstAppear:1">
-      <DisplayName>No destruction for initial appearance</DisplayName>
+      <DisplayName>Is Disable Destruction on First Apperance</DisplayName>
       <Description>Broken at the initial appearance of the player (0: ru, 1: no)</Description>
       <Maximum>1</Maximum>
       <SortID>450</SortID>
     </Field>
     <Field Def="u8 isLadder:1">
-      <DisplayName>Is it a ladder?</DisplayName>
+      <DisplayName>Is Ladder</DisplayName>
       <Description>Is it a ladder (0: different, 1: yes)</Description>
       <Maximum>1</Maximum>
       <SortID>970</SortID>
     </Field>
     <Field Def="u8 isAnimPauseOnRemoPlay:1">
-      <DisplayName>Do you want to stop the animation during the poly play?</DisplayName>
+      <DisplayName>Is Animation Paused in Cutscene</DisplayName>
       <Description>Do you want to stop the animation during the poly play (0: not, 1: do)</Description>
       <Maximum>1</Maximum>
       <SortID>980</SortID>
     </Field>
     <Field Def="u8 isDamageNoHit:1">
-      <DisplayName>Is it not damaged?</DisplayName>
+      <DisplayName>Is Damage No Hit</DisplayName>
       <Description>No damage (0: hit, 1: not hit)</Description>
       <Maximum>1</Maximum>
       <SortID>312</SortID>
     </Field>
     <Field Def="u8 isMoveObj:1">
-      <DisplayName>Is it a moving object?</DisplayName>
+      <DisplayName>Is Moving Object</DisplayName>
       <Description>Is it a moving object (0: different, 1: yes)</Description>
       <Maximum>1</Maximum>
       <SortID>975</SortID>
     </Field>
     <Field Def="u8 isRopeBridge:1">
-      <DisplayName>Is it a suspension bridge object?</DisplayName>
+      <DisplayName>Is Rope Bridge</DisplayName>
       <Description>Suspension bridge object (0: different, 1: yes)</Description>
       <Maximum>1</Maximum>
       <SortID>971</SortID>
     </Field>
     <Field Def="u8 isAddRigidImpulse_ByDamage:1">
-      <DisplayName>Does the damage blow off the rigid body?</DisplayName>
+      <DisplayName>Is Rigid Body affected by Damage Blow</DisplayName>
       <Description>Does the damage blow the rigid body (0: do not blow, 1: blow)</Description>
       <Maximum>1</Maximum>
       <SortID>376</SortID>
     </Field>
     <Field Def="u8 isBreak_ByChrRide:1">
-      <DisplayName>Will it break if the character gets on it?</DisplayName>
+      <DisplayName>Is Destroyed by Riding Character</DisplayName>
       <Description>Will it break if the character gets on (0: it won't break 1: it will break)</Description>
       <Maximum>1</Maximum>
       <SortID>402</SortID>
     </Field>
     <Field Def="u8 isBurn:1">
-      <DisplayName>Will it burn</DisplayName>
+      <DisplayName>Is Flammable</DisplayName>
       <Description>Will it burn (0: not, 1:)</Description>
       <Maximum>1</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="u8 isBreakByEnemyCollide:1">
-      <DisplayName>Will it be destroyed by an enemy character collision?</DisplayName>
+      <DisplayName>Is Destroyed by Enemy Collision</DisplayName>
       <Description>Broken when an enemy character touches (0: No, 1: Ru)</Description>
       <Maximum>1</Maximum>
       <SortID>401</SortID>
@@ -148,7 +148,7 @@
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 breakSfxId = -1">
-      <DisplayName>SFX ID at the time of destruction</DisplayName>
+      <DisplayName>Destruction - SFX ID</DisplayName>
       <Description>SFXID when destroying an object (-1: default (810030))</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -156,34 +156,35 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="s32 breakSfxCpId = -1">
-      <DisplayName>SFX Damipoli ID at the time of destruction</DisplayName>
+      <DisplayName>Destruction - Dummy Poly ID</DisplayName>
       <Description>SFX generation position when the object is destroyed Damipoly ID (-1: placement position)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1001</SortID>
     </Field>
     <Field Def="s32 breakBulletBehaviorId = -1">
-      <DisplayName>Bomb generation at the time of destruction Action parameter ID</DisplayName>
+      <DisplayName>Destruction - Bullet Behavior ID</DisplayName>
       <Description>Action parameter of [bullet] at the time of destruction (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1050</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 breakBulletCpId = -1">
-      <DisplayName>Damipoli ID</DisplayName>
+      <DisplayName>Destruction - Bullet Dummy Poly ID</DisplayName>
       <Description>Location of [bullet] at the time of destruction Damipoli ID (-1: placement position)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1051</SortID>
     </Field>
     <Field Def="u8 breakFallHeight">
-      <DisplayName>Fall destruction height (m)</DisplayName>
+      <DisplayName>Fall Destruction Height</DisplayName>
       <Description>Height at which the object breaks when dropped (0: does not break when dropped)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <SortID>1100</SortID>
     </Field>
     <Field Def="u8 windEffectType_0">
-      <DisplayName>Wind effect type (before destruction)</DisplayName>
+      <DisplayName>Wind Effect Type - Pre-Destruction</DisplayName>
       <Enum>OBJECT_WIND_EFFECT_TYPE</Enum>
       <Description>Wind effect type (before destruction)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -191,7 +192,7 @@
       <SortID>1200</SortID>
     </Field>
     <Field Def="u8 windEffectType_1">
-      <DisplayName>Wind effect type (after destruction)</DisplayName>
+      <DisplayName>Wind Effect Type - Post-Destruction</DisplayName>
       <Enum>OBJECT_WIND_EFFECT_TYPE</Enum>
       <Description>Wind effect type (after destruction)</Description>
       <DisplayFormat>%u</DisplayFormat>
@@ -199,7 +200,7 @@
       <SortID>1201</SortID>
     </Field>
     <Field Def="u8 camAvoidType = 1">
-      <DisplayName>Camera avoidance setting</DisplayName>
+      <DisplayName>Camera Avoidance Type</DisplayName>
       <Enum>OBJECT_CAM_AVOID_TYPE</Enum>
       <Description>What to do if an object blocks between the camera and player</Description>
       <EditFlags>None</EditFlags>
@@ -207,105 +208,109 @@
       <SortID>2100</SortID>
     </Field>
     <Field Def="f32 windEffectRate_0 = 0.5">
-      <DisplayName>Wind coefficient (before destruction)</DisplayName>
+      <DisplayName>Wind Coefficient - Pre-Destruction</DisplayName>
       <Description>Wind coefficient (before destruction)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1202</SortID>
     </Field>
     <Field Def="f32 windEffectRate_1 = 0.5">
-      <DisplayName>Wind coefficient (after destruction)</DisplayName>
+      <DisplayName>Wind Coefficient - Post-Destruction</DisplayName>
       <Description>Wind coefficient (after destruction)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1203</SortID>
     </Field>
     <Field Def="f32 breakStopTime">
-      <DisplayName>Forced stop time after destruction</DisplayName>
+      <DisplayName>Destruction Stop time</DisplayName>
       <Description>Time from destruction to forced stop of rigid body (do not force stop at 0)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1101</SortID>
     </Field>
     <Field Def="f32 burnTime">
-      <DisplayName>Burning time (seconds)</DisplayName>
+      <DisplayName>Burn Time</DisplayName>
       <Description>Burning time (seconds) (continues to burn at 0)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1401</SortID>
     </Field>
     <Field Def="f32 burnBraekRate = 0.5">
-      <DisplayName>Combustion fracture judgment progress</DisplayName>
+      <DisplayName>Burn Destruction Rate</DisplayName>
       <Description>Burnup threshold for switching to the ruptured state</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
       <SortID>1402</SortID>
     </Field>
     <Field Def="s32 burnSfxId = -1">
-      <DisplayName>Combustion SFXID: 0</DisplayName>
+      <DisplayName>Burn - SFX ID [0]</DisplayName>
       <Description>SFX ID at the time of combustion: 0 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1410</SortID>
     </Field>
     <Field Def="s32 burnSfxId_1 = -1">
-      <DisplayName>Combustion SFXID: 1</DisplayName>
+      <DisplayName>Burn - SFX ID [1]</DisplayName>
       <Description>SFX ID at the time of combustion: 1 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1411</SortID>
     </Field>
     <Field Def="s32 burnSfxId_2 = -1">
-      <DisplayName>Combustion SFXID: 2</DisplayName>
+      <DisplayName>Burn - SFX ID [2]</DisplayName>
       <Description>SFX ID at the time of combustion: 2 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1412</SortID>
     </Field>
     <Field Def="s32 burnSfxId_3 = -1">
-      <DisplayName>Combustion SFXID: 3</DisplayName>
+      <DisplayName>Burn - SFX ID [3]</DisplayName>
       <Description>SFX ID at the time of combustion: 3 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1413</SortID>
     </Field>
     <Field Def="s32 burnBulletBehaviorId = -1">
-      <DisplayName>Combustion bullet generation Behavior parameter: 0</DisplayName>
+      <DisplayName>Burn - Bullet Behavior ID [0]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 0 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1440</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_1 = -1">
-      <DisplayName>Combustion bullet generation Behavior parameter: 1</DisplayName>
+      <DisplayName>Burn - Bullet Behavior ID [1]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 1 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1441</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_2 = -1">
-      <DisplayName>Combustion bullet generation Behavior parameter: 2</DisplayName>
+      <DisplayName>Burn - Bullet Behavior ID [2]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 2 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1442</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_3 = -1">
-      <DisplayName>Combustion bullet generation Behavior parameters: 3</DisplayName>
+      <DisplayName>Burn - Bullet Behavior ID [3]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 3 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1443</SortID>
+      <ParamRef1>BehaviorParam</ParamRef1>
     </Field>
     <Field Def="u16 burnBulletInterval = 30">
-      <DisplayName>Combustion bullet generation interval (frame)</DisplayName>
+      <DisplayName>Burn - Bullet Interval</DisplayName>
       <Description>Interval (frame) to generate bullets for spreading fire</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>9999</Maximum>
       <SortID>1450</SortID>
     </Field>
     <Field Def="u8 navimeshFlag">
-      <DisplayName>Navi mesh flag</DisplayName>
+      <DisplayName>Navimesh Flag</DisplayName>
       <Enum>OBJECT_NAVIMESH_FLAG</Enum>
       <Description>Navigation mesh flag set from the object</Description>
       <EditFlags>None</EditFlags>
@@ -313,91 +318,91 @@
       <SortID>1600</SortID>
     </Field>
     <Field Def="u8 collisionType">
-      <DisplayName>Collision detection type</DisplayName>
+      <DisplayName>Collision Detection Type</DisplayName>
       <Enum>OBJECT_COLLISION_TYPE</Enum>
       <Description>Collision detection type</Description>
       <Maximum>4</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="f32 burnBulletDelayTime">
-      <DisplayName>Combustion bullet generation delay time (seconds)</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time</DisplayName>
       <Description>Time to delay the generation of bullets for fire spread (seconds)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1451</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMin">
-      <DisplayName>Combustion SFX generation delay Start time (seconds): 0</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [0] (Minimum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1420</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMin_1">
-      <DisplayName>Combustion SFX generation delay Start time (seconds): 1</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [1] (Minimum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1421</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMin_2">
-      <DisplayName>Combustion SFX generation delay Start time (seconds): 2</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [2] (Minimum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1422</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMin_3">
-      <DisplayName>Combustion SFX generation delay Start time (seconds): 3</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [3] (Minimum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1423</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMax">
-      <DisplayName>Combustion SFX generation delay End time (seconds): 0</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [0] (Maximum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1430</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMax_1">
-      <DisplayName>Combustion SFX generation delay End time (seconds): 1</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [1] (Maximum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1431</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMax_2">
-      <DisplayName>Combustion SFX generation delay End time (seconds): 2</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [2] (Maximum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1432</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMax_3">
-      <DisplayName>Combustion SFX generation delay End time (seconds): 3</DisplayName>
+      <DisplayName>Burn - Bullet Generation Delay Time [3] (Maximum)</DisplayName>
       <Description>SFX generation delay time during combustion Randomly determined between start and end times</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1433</SortID>
     </Field>
     <Field Def="s32 BreakAiSoundID">
-      <DisplayName>AI sound ID generated at the time of destruction</DisplayName>
+      <DisplayName>Destruction AI Sound ID</DisplayName>
       <Description>AI sound ID generated at the time of destruction</Description>
       <Minimum>0</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>1500</SortID>
     </Field>
     <Field Def="f32 FragmentInvisibleWaitTime">
-      <DisplayName>Hidden debris Wait time (seconds)</DisplayName>
+      <DisplayName>Hidden Debris - Wait Time</DisplayName>
       <Description>Material ID of debris (-1: Do not hide)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>1700</SortID>
     </Field>
     <Field Def="f32 FragmentInvisibleTime">
-      <DisplayName>Debris non-display time (seconds)</DisplayName>
+      <DisplayName>Hidden Debris - Invisibility Time</DisplayName>
       <Description>Time to hide debris (seconds)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
@@ -414,7 +419,7 @@
       <SortID>100000</SortID>
     </Field>
     <Field Def="f32 RigidPenetrationScale_Soft">
-      <DisplayName>Rigid body collision point distance coefficient [soft]</DisplayName>
+      <DisplayName>Rigid Body Collision - Soft</DisplayName>
       <Description>Rigid body soft contact setting Collision point distance coefficient [soft]</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -422,7 +427,7 @@
       <SortID>1800</SortID>
     </Field>
     <Field Def="f32 RigidPenetrationScale_Normal">
-      <DisplayName>Rigid body collision point distance coefficient [normal]</DisplayName>
+      <DisplayName>Rigid Body Collision - Normal</DisplayName>
       <Description>Rigid soft contact setting Collision point distance coefficient [Normal]</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -430,7 +435,7 @@
       <SortID>1801</SortID>
     </Field>
     <Field Def="f32 RigidPenetrationScale_Hard">
-      <DisplayName>Rigid body collision point distance coefficient [hard]</DisplayName>
+      <DisplayName>Rigid Body Collision - Hard</DisplayName>
       <Description>Rigid soft contact setting Collision point distance coefficient [hard]</Description>
       <Minimum>0</Minimum>
       <Maximum>1</Maximum>
@@ -438,7 +443,7 @@
       <SortID>1802</SortID>
     </Field>
     <Field Def="s32 LandTouchSfxId = -1">
-      <DisplayName>SFX ID at the time of terrain contact</DisplayName>
+      <DisplayName>Land Touch - SFX ID</DisplayName>
       <Description>SFX ID at terrain contact (-1: offset by terrain material)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
@@ -446,7 +451,7 @@
       <SortID>2000</SortID>
     </Field>
     <Field Def="u8 isDamageCover:1">
-      <DisplayName>Do you want to shield the damage?</DisplayName>
+      <DisplayName>Is Damage blocked after Passing Through</DisplayName>
       <Description>Whether to pass the damage to the other side when receiving damage (0: pass, 1: do not pass)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>1</Maximum>
@@ -457,7 +462,7 @@
       <SortID>100001</SortID>
     </Field>
     <Field Def="u16 paintDecalTargetTextureSize = 256">
-      <DisplayName>Paint decal target size</DisplayName>
+      <DisplayName>Paint Decal Size</DisplayName>
       <Description>Paint decal target size (only powers of 0 to 4096 2 allowed)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <Maximum>4096</Maximum>
@@ -465,77 +470,77 @@
       <SortID>2300</SortID>
     </Field>
     <Field Def="f32 lifeTime_forDC">
-      <DisplayName>Life of dynamically generated Obj (seconds)</DisplayName>
+      <DisplayName>Dynamic Object Duration</DisplayName>
       <Description>Time until dynamically generated Obj disappears after generation (0: does not disappear)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>2200</SortID>
     </Field>
     <Field Def="f32 clothUpdateDist">
-      <DisplayName>Cross update distance (m)</DisplayName>
+      <DisplayName>Cloth Update Distance from Camera</DisplayName>
       <Description>Distance from the camera to update havokCloth (0: always update)</Description>
       <Minimum>0</Minimum>
       <Maximum>9999</Maximum>
       <SortID>2201</SortID>
     </Field>
     <Field Def="s32 contactSeId = -1">
-      <DisplayName>SE ID when contacting a player</DisplayName>
+      <DisplayName>Player Touch - SE ID</DisplayName>
       <Description>SE ID to play when touched by a local player operated by you (-1: Do not play)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+09</Maximum>
       <SortID>990</SortID>
     </Field>
     <Field Def="s32 breakLandingSfxId = -1">
-      <DisplayName>SFX identifier when landing after destruction</DisplayName>
+      <DisplayName>Landing Destruction - SFX ID</DisplayName>
       <Description>Object material-dependent SFX identifier that regenerates when first landing after being destroyed (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
       <Maximum>31</Maximum>
       <SortID>1102</SortID>
     </Field>
     <Field Def="s32 waypointDummyPolyId_0 = -1">
-      <DisplayName>Waypoint Damipoli ID_0</DisplayName>
+      <DisplayName>Waypoint Dummy Poly ID</DisplayName>
       <Description>Waypoint Damipoli ID_0 (-1: None)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>2300</SortID>
     </Field>
     <Field Def="s32 waypointParamId_0 = -1">
-      <DisplayName>Waypoint parameter ID_0</DisplayName>
+      <DisplayName>Waypoint Param ID</DisplayName>
       <Description>Waypoint parameter ID_0 (-1: none)</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+08</Maximum>
       <SortID>2302</SortID>
     </Field>
     <Field Def="s32 soundBankId = -1">
-      <DisplayName>Sound bank ID</DisplayName>
+      <DisplayName>Sound Bank ID</DisplayName>
       <Description>Sound bank ID (-1: no bank, other: bank with specified ID)</Description>
       <Minimum>-1</Minimum>
       <Maximum>999999</Maximum>
       <SortID>2400</SortID>
     </Field>
     <Field Def="s32 refDrawParamId = -1">
-      <DisplayName>Drawing parameter reference ID</DisplayName>
+      <DisplayName>Reference Draw Param ID</DisplayName>
       <Description>Reference ID of drawing parameter</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+09</Maximum>
       <SortID>2500</SortID>
     </Field>
     <Field Def="f32 autoCreateDynamicOffsetHeight = 0.1">
-      <DisplayName>Automatically generated appearance height offset [m]</DisplayName>
+      <DisplayName>Automatica Generation - Appearance Height Offset</DisplayName>
       <Description>Map automatic generation OBJ appearance height offset [m], does it float from where the ray cast hits?</Description>
       <Minimum>0</Minimum>
       <Maximum>256</Maximum>
       <SortID>2601</SortID>
     </Field>
     <Field Def="s32 reserved0 = -1">
-      <DisplayName>Reserve</DisplayName>
+      <DisplayName>Blank</DisplayName>
       <Description>Reserve</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+09</Maximum>
       <SortID>99999</SortID>
     </Field>
     <Field Def="s32 soundBreakSEId = -1">
-      <DisplayName>Destruction sound SEID</DisplayName>
+      <DisplayName>Destruction - SE ID</DisplayName>
       <Description>Destruction sound SEID (9 digits) -1: Generated from objId</Description>
       <Minimum>-1</Minimum>
       <Maximum>1E+09</Maximum>

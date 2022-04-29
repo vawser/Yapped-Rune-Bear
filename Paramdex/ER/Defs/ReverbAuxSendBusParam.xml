@@ -7,7 +7,7 @@
   <FormatVersion>202</FormatVersion>
   <Fields>
     <Field Def="fixstr ReverbAuxSendBusName[32]">
-      <DisplayName>ReverbAuxSendBus name</DisplayName>
+      <DisplayName>Reverb Aux Send Bus Name</DisplayName>
       <Description>ReverbAuxSendBus name</Description>
       <DisplayFormat>%f</DisplayFormat>
       <Minimum>0</Minimum>

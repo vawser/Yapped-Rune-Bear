@@ -7,14 +7,14 @@
   <FormatVersion>203</FormatVersion>
   <Fields>
     <Field Def="u8 baseColorR">
-      <DisplayName>Base color value R</DisplayName>
+      <DisplayName>Base Color: R</DisplayName>
       <Description>Base color color R.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 baseColorG">
-      <DisplayName>Base color value G</DisplayName>
+      <DisplayName>Base Color: G</DisplayName>
       <Description>Base color color G.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -22,7 +22,7 @@
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 baseColorB">
-      <DisplayName>Base color value B</DisplayName>
+      <DisplayName>Base Color: B</DisplayName>
       <Description>Base color color B.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -34,7 +34,7 @@
       <SortID>1000</SortID>
     </Field>
     <Field Def="f32 baseColorA">
-      <DisplayName>Base color%</DisplayName>
+      <DisplayName>Base Color: Alpha</DisplayName>
       <Description>Base color override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -43,7 +43,7 @@
       <UnkC8>ベースカラー</UnkC8>
     </Field>
     <Field Def="u8 metallic">
-      <DisplayName>Metallic value</DisplayName>
+      <DisplayName>Metallic</DisplayName>
       <Description>It's metallic.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
@@ -65,7 +65,7 @@
       <SortID>1003</SortID>
     </Field>
     <Field Def="f32 metallicRate">
-      <DisplayName>Metallic%</DisplayName>
+      <DisplayName>Metallic Override Rate</DisplayName>
       <Description>Metallic override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -74,7 +74,7 @@
       <UnkC8>メタリック</UnkC8>
     </Field>
     <Field Def="f32 shininessRate">
-      <DisplayName>Shininess%</DisplayName>
+      <DisplayName>Shininess Override Rate</DisplayName>
       <Description>Shininess override rate.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
@@ -83,7 +83,7 @@
       <UnkC8>シャイニネス</UnkC8>
     </Field>
     <Field Def="u8 shininess">
-      <DisplayName>Shininess value</DisplayName>
+      <DisplayName>Shininess</DisplayName>
       <Description>Shininess.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
