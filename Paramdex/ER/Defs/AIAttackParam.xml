@@ -10,14 +10,14 @@
       <DisplayName>Reference ID</DisplayName>
       <Description>ID specified by NPC thinking parameters</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 attackId">
       <DisplayName>Attack ID</DisplayName>
       <Description>Attack number</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="f32 successDistance">

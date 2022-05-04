@@ -29,14 +29,14 @@
       <DisplayName>World Map Piece ID</DisplayName>
       <Description>Map fragment parameter ID. Display text if you have this map fragment</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 textId = -1">
       <DisplayName>Place Name - Text ID</DisplayName>
       <Description>The text ID to display. PlaceName.xlsm</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="dummy8 pad1[4]">

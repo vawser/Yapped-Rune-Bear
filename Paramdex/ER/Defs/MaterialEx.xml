@@ -17,7 +17,7 @@
       <DisplayName>Material ID</DisplayName>
       <Description>NPC Para: Resident Material Expansion Para ID setting -1 for all materials</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="f32 materialParamValue0">

@@ -10,7 +10,7 @@
       <DisplayName>Map ID</DisplayName>
       <Description>Specify the map number in 8 digits. Only open and legacy celestial sphere placement maps can be specified</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
     </Field>
     <Field Def="s16 TransitionSrcWeather">
       <DisplayName>Transition Source Weather</DisplayName>

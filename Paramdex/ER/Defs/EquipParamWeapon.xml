@@ -29,7 +29,7 @@
       <DisplayName>Behavior Variation ID</DisplayName>
       <Description>Used when determining the action parameter ID to be referenced during an attack</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
       <ParamRef1>BehaviorParam_PC</ParamRef1>
     </Field>
@@ -43,7 +43,7 @@
     <Field Def="u32 wanderingEquipId">
       <DisplayName>Wandering Equip ID</DisplayName>
       <Description>Replacement equipment ID for wandering ghosts.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2500</SortID>
     </Field>
     <Field Def="f32 weight = 1">
@@ -68,21 +68,21 @@
       <DisplayName>Repair Price</DisplayName>
       <Description>Basic repair price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3400</SortID>
     </Field>
     <Field Def="s32 reinforcePrice">
       <DisplayName>Reinforcement Price</DisplayName>
       <Description>Enhanced price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3500</SortID>
     </Field>
     <Field Def="s32 sellValue">
       <DisplayName>Sell Price</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3510</SortID>
     </Field>
     <Field Def="f32 correctStrength">
@@ -161,7 +161,7 @@
       <DisplayName>Behavior SpEffect 1</DisplayName>
       <Description>Register when adding special effects to weapons</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7900</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -169,7 +169,7 @@
       <DisplayName>Behavior SpEffect 2</DisplayName>
       <Description>Register when adding special effects to weapons</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7910</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -177,7 +177,7 @@
       <DisplayName>Behavior SpEffect 3</DisplayName>
       <Description>Register when adding special effects to weapons</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7920</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -185,7 +185,7 @@
       <DisplayName>Passive SpEffect 1</DisplayName>
       <Description>Resident special effect ID0</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -193,7 +193,7 @@
       <DisplayName>Passive SpEffect 2</DisplayName>
       <Description>Resident special effect ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8100</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -201,7 +201,7 @@
       <DisplayName>Passive SpEffect 3</DisplayName>
       <Description>Resident special effect ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8200</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -217,7 +217,7 @@
       <DisplayName>Origin Weapon +0</DisplayName>
       <Description>This weapon's enhancement source weapon ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -225,7 +225,7 @@
       <DisplayName>Origin Weapon +1</DisplayName>
       <Description>This weapon's enhancement source weapon ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -233,7 +233,7 @@
       <DisplayName>Origin Weapon +2</DisplayName>
       <Description>This weapon's enhancement source weapon ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -241,7 +241,7 @@
       <DisplayName>Origin Weapon +3</DisplayName>
       <Description>This weapon's enhancement source weapon ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -249,7 +249,7 @@
       <DisplayName>Origin Weapon +4</DisplayName>
       <Description>This weapon's enhancement source weapon ID 4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -257,7 +257,7 @@
       <DisplayName>Origin Weapon +5</DisplayName>
       <Description>This weapon's enhancement source weapon ID 5</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -265,7 +265,7 @@
       <DisplayName>Origin Weapon +6</DisplayName>
       <Description>This weapon's enhancement source weapon ID 6</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -273,7 +273,7 @@
       <DisplayName>Origin Weapon +7</DisplayName>
       <Description>This weapon's enhancement source weapon ID 7</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -281,7 +281,7 @@
       <DisplayName>Origin Weapon +8</DisplayName>
       <Description>This weapon's enhancement source weapon ID8</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -289,7 +289,7 @@
       <DisplayName>Origin Weapon +9</DisplayName>
       <Description>This weapon's enhancement source weapon ID 9</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -297,7 +297,7 @@
       <DisplayName>Origin Weapon +10</DisplayName>
       <Description>This weapon's enhancement source weapon ID 10</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -305,7 +305,7 @@
       <DisplayName>Origin Weapon +11</DisplayName>
       <Description>This weapon's enhancement source weapon ID 11</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -313,7 +313,7 @@
       <DisplayName>Origin Weapon +12</DisplayName>
       <Description>This weapon's enhancement source weapon ID 12</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -321,7 +321,7 @@
       <DisplayName>Origin Weapon +13</DisplayName>
       <Description>This weapon's enhancement source weapon ID 13</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -329,7 +329,7 @@
       <DisplayName>Origin Weapon +14</DisplayName>
       <Description>This weapon's enhancement source weapon ID14</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -337,7 +337,7 @@
       <DisplayName>Origin Weapon +15</DisplayName>
       <Description>This weapon's enhancement source weapon ID 15</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1005,7 +1005,7 @@
       <Description>Sword flash SfxID_0 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11000</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead0 = -1">
@@ -1013,7 +1013,7 @@
       <Description>Sword flash root Damipoli ID_0 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11001</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail0 = -1">
@@ -1021,7 +1021,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_0</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11002</SortID>
     </Field>
     <Field Def="s32 traceSfxId1 = -1">
@@ -1029,7 +1029,7 @@
       <Description>Sword flash SfxID_1 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11003</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead1 = -1">
@@ -1037,7 +1037,7 @@
       <Description>Sword Flash Root Damipoli ID_1 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11004</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail1 = -1">
@@ -1045,7 +1045,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_1</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11005</SortID>
     </Field>
     <Field Def="s32 traceSfxId2 = -1">
@@ -1053,7 +1053,7 @@
       <Description>Sword flash SfxID_2 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11006</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead2 = -1">
@@ -1061,7 +1061,7 @@
       <Description>Sword Flash Root Damipoli ID_2 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11007</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail2 = -1">
@@ -1069,7 +1069,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_2</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11008</SortID>
     </Field>
     <Field Def="s32 traceSfxId3 = -1">
@@ -1077,7 +1077,7 @@
       <Description>Sword Flash SfxID_3 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11009</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead3 = -1">
@@ -1085,7 +1085,7 @@
       <Description>Sword flash root Damipoli ID_3 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11010</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail3 = -1">
@@ -1093,7 +1093,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_3</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11011</SortID>
     </Field>
     <Field Def="s32 traceSfxId4 = -1">
@@ -1101,7 +1101,7 @@
       <Description>Sword Flash SfxID_4 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11012</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead4 = -1">
@@ -1109,7 +1109,7 @@
       <Description>Sword flash root Damipoli ID_4 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11013</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail4 = -1">
@@ -1117,7 +1117,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_4</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11014</SortID>
     </Field>
     <Field Def="s32 traceSfxId5 = -1">
@@ -1125,7 +1125,7 @@
       <Description>Sword Flash SfxID_5 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11015</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead5 = -1">
@@ -1133,7 +1133,7 @@
       <Description>Sword Flash Root Damipoli ID_5 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11016</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail5 = -1">
@@ -1141,7 +1141,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_5</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11017</SortID>
     </Field>
     <Field Def="s32 traceSfxId6 = -1">
@@ -1149,7 +1149,7 @@
       <Description>Sword Flash SfxID_6 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11018</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead6 = -1">
@@ -1157,7 +1157,7 @@
       <Description>Sword Flash Root Damipoli ID_6 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11019</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail6 = -1">
@@ -1165,7 +1165,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_6</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11020</SortID>
     </Field>
     <Field Def="s32 traceSfxId7 = -1">
@@ -1173,7 +1173,7 @@
       <Description>Sword Flash SfxID_7 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11021</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead7 = -1">
@@ -1181,7 +1181,7 @@
       <Description>Sword Flash Root Damipoli ID_7 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11022</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail7 = -1">
@@ -1189,7 +1189,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_7</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11023</SortID>
     </Field>
     <Field Def="u16 defSfxMaterial2">
@@ -1210,7 +1210,7 @@
       <DisplayName>Weapon Sheath Position ID</DisplayName>
       <Description>Weapon adsorption position parameter Id. This value determines the position where the weapon is attracted (-1: Refer to the value written directly in the old source code).</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12000</SortID>
     </Field>
     <Field Def="f32 toughnessCorrectRate">
@@ -1385,7 +1385,7 @@
       <DisplayName>Sword Arts Param ID</DisplayName>
       <Description>Arts parameter ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12100</SortID>
       <ParamRef1>SwordArtsParam</ParamRef1>
     </Field>
@@ -1401,7 +1401,7 @@
     <Field Def="u32 arrowBoltEquipId">
       <DisplayName>Ammunition Equip ID</DisplayName>
       <Description>Equipment number of the quiver (magazine) display model. In the case of a bow, it is displayed as a quiver, and in the case of a crossbow, it is displayed as a magazine.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>350</SortID>
     </Field>
     <Field Def="u8 DerivationLevelType">
@@ -1515,56 +1515,56 @@
       <DisplayName>Resident SFX [1]</DisplayName>
       <Description>Resident SfxId1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11100</SortID>
     </Field>
     <Field Def="s32 residentSfxId_2 = -1">
       <DisplayName>Resident SFX [2]</DisplayName>
       <Description>Resident SfxId2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11120</SortID>
     </Field>
     <Field Def="s32 residentSfxId_3 = -1">
       <DisplayName>Resident SFX [3]</DisplayName>
       <Description>Resident SfxId3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11140</SortID>
     </Field>
     <Field Def="s32 residentSfxId_4 = -1">
       <DisplayName>Resident SFX [4]</DisplayName>
       <Description>Resident SfxId4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11160</SortID>
     </Field>
     <Field Def="s32 residentSfx_DmyId_1 = -1">
       <DisplayName>Resident SFX - Dummy Poly [1]</DisplayName>
       <Description>Resident Sfx Damipoli Id1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11110</SortID>
     </Field>
     <Field Def="s32 residentSfx_DmyId_2 = -1">
       <DisplayName>Resident SFX - Dummy Poly [2]</DisplayName>
       <Description>Resident Sfx Damipoli Id2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11130</SortID>
     </Field>
     <Field Def="s32 residentSfx_DmyId_3 = -1">
       <DisplayName>Resident SFX - Dummy Poly [3]</DisplayName>
       <Description>Resident Sfx Damipoli Id3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11150</SortID>
     </Field>
     <Field Def="s32 residentSfx_DmyId_4 = -1">
       <DisplayName>Resident SFX - Dummy Poly [4]</DisplayName>
       <Description>Resident Sfx Damipoli Id4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11170</SortID>
     </Field>
     <Field Def="f32 staminaConsumptionRate = 1">
@@ -1686,7 +1686,7 @@
       <DisplayName>Attack Element Correct ID</DisplayName>
       <Description>ID of the parameter that corrects the attack attribute</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>15000</SortID>
       <ParamRef1>AttackElementCorrectParam</ParamRef1>
     </Field>
@@ -1694,7 +1694,7 @@
       <DisplayName>Sale Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3520</SortID>
     </Field>
     <Field Def="u8 reinforceShopCategory">
@@ -1777,7 +1777,7 @@
       <DisplayName>Affinity Price</DisplayName>
       <Description>Evolution price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3501</SortID>
     </Field>
     <Field Def="s16 levelSyncCorrectId = -1">
@@ -1824,28 +1824,28 @@
       <DisplayName>SpEffect Message ID [0]</DisplayName>
       <Description>Effect text ID 00 (Weapon_Effect). Weapon-specific effect text to display in status</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8250</SortID>
     </Field>
     <Field Def="s32 spEffectMsgId1 = -1">
       <DisplayName>SpEffect Message ID [1]</DisplayName>
       <Description>Effect text ID 01 (Weapon_Effect). Weapon-specific effect text to display in status</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8260</SortID>
     </Field>
     <Field Def="s32 spEffectMsgId2 = -1">
       <DisplayName>SpEffect Message ID [2]</DisplayName>
       <Description>Effect text ID 02 (Weapon_Effect). Weapon-specific effect text to display in status</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8270</SortID>
     </Field>
     <Field Def="s32 originEquipWep16 = -1">
       <DisplayName>Origin Weapon +16</DisplayName>
       <Description>This weapon's enhancement source weapon ID 16</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1853,7 +1853,7 @@
       <DisplayName>Origin Weapon +17</DisplayName>
       <Description>This weapon's enhancement source weapon ID 17</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1861,7 +1861,7 @@
       <DisplayName>Origin Weapon +18</DisplayName>
       <Description>This weapon's enhancement source weapon ID18</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1869,7 +1869,7 @@
       <DisplayName>Origin Weapon +19</DisplayName>
       <Description>This weapon's enhancement source weapon ID 19</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1877,7 +1877,7 @@
       <DisplayName>Origin Weapon +20</DisplayName>
       <Description>This weapon's enhancement source weapon ID 20</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1885,7 +1885,7 @@
       <DisplayName>Origin Weapon +21</DisplayName>
       <Description>This weapon's enhancement source weapon ID21</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1893,7 +1893,7 @@
       <DisplayName>Origin Weapon +22</DisplayName>
       <Description>This weapon's enhancement source weapon ID 22</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1901,7 +1901,7 @@
       <DisplayName>Origin Weapon +23</DisplayName>
       <Description>This weapon's enhancement source weapon ID 23</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1909,7 +1909,7 @@
       <DisplayName>Origin Weapon +24</DisplayName>
       <Description>This weapon's enhancement source weapon ID 24</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -1917,7 +1917,7 @@
       <DisplayName>Origin Weapon +25</DisplayName>
       <Description>This weapon's enhancement source weapon ID 25</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>

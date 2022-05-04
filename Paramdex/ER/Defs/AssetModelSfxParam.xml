@@ -10,14 +10,14 @@
       <DisplayName>SFX ID [0]</DisplayName>
       <Description>0: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 dmypolyId_0 = -1">
       <DisplayName>Dummy Poly ID [0]</DisplayName>
       <Description>0: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="dummy8 reserve_0[8]">
@@ -29,14 +29,14 @@
       <DisplayName>SFX ID [1]</DisplayName>
       <Description>1: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11</SortID>
     </Field>
     <Field Def="s32 dmypolyId_1 = -1">
       <DisplayName>Dummy Poly ID [1]</DisplayName>
       <Description>1: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12</SortID>
     </Field>
     <Field Def="dummy8 reserve_1[8]">
@@ -48,14 +48,14 @@
       <DisplayName>SFX ID [2]</DisplayName>
       <Description>2: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21</SortID>
     </Field>
     <Field Def="s32 dmypolyId_2 = -1">
       <DisplayName>Dummy Poly ID [2]</DisplayName>
       <Description>2: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>22</SortID>
     </Field>
     <Field Def="dummy8 reserve_2[8]">
@@ -67,14 +67,14 @@
       <DisplayName>SFX ID [3]</DisplayName>
       <Description>3: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>31</SortID>
     </Field>
     <Field Def="s32 dmypolyId_3 = -1">
       <DisplayName>Dummy Poly ID [3]</DisplayName>
       <Description>3: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>32</SortID>
     </Field>
     <Field Def="dummy8 reserve_3[8]">
@@ -86,14 +86,14 @@
       <DisplayName>SFX ID [4]</DisplayName>
       <Description>4: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>41</SortID>
     </Field>
     <Field Def="s32 dmypolyId_4 = -1">
       <DisplayName>Dummy Poly ID [4]</DisplayName>
       <Description>4: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>42</SortID>
     </Field>
     <Field Def="dummy8 reserve_4[8]">
@@ -105,14 +105,14 @@
       <DisplayName>SFX ID [5]</DisplayName>
       <Description>5: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>51</SortID>
     </Field>
     <Field Def="s32 dmypolyId_5 = -1">
       <DisplayName>Dummy Poly ID [5]</DisplayName>
       <Description>5: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>52</SortID>
     </Field>
     <Field Def="dummy8 reserve_5[8]">
@@ -124,14 +124,14 @@
       <DisplayName>SFX ID [6]</DisplayName>
       <Description>6: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>61</SortID>
     </Field>
     <Field Def="s32 dmypolyId_6 = -1">
       <DisplayName>Dummy Poly ID [6]</DisplayName>
       <Description>6: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>62</SortID>
     </Field>
     <Field Def="dummy8 reserve_6[8]">
@@ -143,14 +143,14 @@
       <DisplayName>SFX ID [7]</DisplayName>
       <Description>7: SfxID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>71</SortID>
     </Field>
     <Field Def="s32 dmypolyId_7 = -1">
       <DisplayName>Dummy Poly ID [7]</DisplayName>
       <Description>7: Damipoli ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>72</SortID>
     </Field>
     <Field Def="u8 isDisableIV">

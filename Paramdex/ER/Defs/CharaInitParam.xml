@@ -41,7 +41,7 @@
       <DisplayName>Equipped Weapon: Right Primary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 1)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1610</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -50,7 +50,7 @@
       <DisplayName>Equipped Weapon: Right Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 2)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1630</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -59,7 +59,7 @@
       <DisplayName>Equipped Weapon: Left Primary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 1)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1710</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -68,7 +68,7 @@
       <DisplayName>Equipped Weapon: Left Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 2)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1730</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -77,7 +77,7 @@
       <DisplayName>Equipped Armor: Head</DisplayName>
       <Description>Equipment parameter armor ID (head armor)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -85,7 +85,7 @@
       <DisplayName>Equipped Armor: Chest</DisplayName>
       <Description>Equipment parameter armor ID (torso armor)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2100</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -93,7 +93,7 @@
       <DisplayName>Equipped Armor: Arms</DisplayName>
       <Description>Equipment parameter armor ID (arm armor)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2200</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -101,7 +101,7 @@
       <DisplayName>Equipped Armor: Legs</DisplayName>
       <Description>Equipment parameter armor ID (leg armor)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2300</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -109,7 +109,7 @@
       <DisplayName>Equipped Ammunition: Arrow Primary</DisplayName>
       <Description>Weapon ID (arrow) of equipment parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2400</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -118,7 +118,7 @@
       <DisplayName>Equipped Ammunition: Bolt Primary</DisplayName>
       <Description>Weapon ID (bolt) of equipment parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2600</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -127,7 +127,7 @@
       <DisplayName>Equipped Ammunition: Arrow Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (arrow reserve)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2500</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -136,7 +136,7 @@
       <DisplayName>Equipped Ammunition: Bolt Secondary</DisplayName>
       <Description>Weapon ID of equipment parameter (spare bolt)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2700</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -184,21 +184,21 @@
       <DisplayName>Elixir Material 1</DisplayName>
       <Description>Material ID1 for Elixir</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6580</SortID>
     </Field>
     <Field Def="s32 elixir_material01 = -1">
       <DisplayName>Elixir Material 2</DisplayName>
       <Description>Material ID2 for Elixir</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6581</SortID>
     </Field>
     <Field Def="s32 elixir_material02 = -1">
       <DisplayName>Elixir Material 3</DisplayName>
       <Description>Material ID3 for Elixir</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6582</SortID>
     </Field>
     <Field Def="s32 equip_Spell_01 = -1">
@@ -261,7 +261,7 @@
       <DisplayName>Equipped Item: Slot 1</DisplayName>
       <Description>Initial possession item ID 01</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4600</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -269,7 +269,7 @@
       <DisplayName>Equipped Item: Slot 2</DisplayName>
       <Description>Initial possession item ID 02</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4800</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -277,7 +277,7 @@
       <DisplayName>Equipped Item: Slot 3</DisplayName>
       <Description>Initial possession item ID 03</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5000</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -285,7 +285,7 @@
       <DisplayName>Equipped Item: Slot 4</DisplayName>
       <Description>Initial possession item ID 04</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5200</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -293,7 +293,7 @@
       <DisplayName>Equipped Item: Slot 5</DisplayName>
       <Description>Initial possession item ID 05</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5400</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -301,7 +301,7 @@
       <DisplayName>Equipped Item: Slot 6</DisplayName>
       <Description>Initial possession item ID 06</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5600</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -309,7 +309,7 @@
       <DisplayName>Equipped Item: Slot 7</DisplayName>
       <Description>Initial possession item ID 07</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5800</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -317,21 +317,21 @@
       <DisplayName>Equipped Item: Slot 8</DisplayName>
       <Description>Initial possession item ID 08</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="s32 item_09 = -1">
       <DisplayName>Equipped Item: Slot 9</DisplayName>
       <Description>Initial possession item ID 09</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6200</SortID>
     </Field>
     <Field Def="s32 item_10 = -1">
       <DisplayName>Equipped Item: Slot 10</DisplayName>
       <Description>Initial possession item ID 10</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6400</SortID>
     </Field>
     <Field Def="s32 npcPlayerFaceGenId">
@@ -668,7 +668,7 @@
       <DisplayName>Equipped Weapon: Right Tertiary</DisplayName>
       <Description>Weapon ID of equipment parameter (right hand slot 3)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1650</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -677,7 +677,7 @@
       <DisplayName>Equipped Weapon: Left Tertiary</DisplayName>
       <Description>Weapon ID of equipment parameter (left hand slot 3)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1750</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -692,7 +692,7 @@
       <DisplayName>Stored Item: Slot 1</DisplayName>
       <Description>Item ID 01 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6510</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -700,7 +700,7 @@
       <DisplayName>Stored Item: Slot 2</DisplayName>
       <Description>Item ID 02 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6520</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -708,7 +708,7 @@
       <DisplayName>Stored Item: Slot 3</DisplayName>
       <Description>Item ID 03 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6530</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -716,7 +716,7 @@
       <DisplayName>Stored Item: Slot 4</DisplayName>
       <Description>Item ID 04 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6540</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -724,7 +724,7 @@
       <DisplayName>Stored Item: Slot 5</DisplayName>
       <Description>Item ID 05 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6550</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -732,7 +732,7 @@
       <DisplayName>Stored Item: Slot 6</DisplayName>
       <Description>Item ID 06 of the second shortcut initial possession</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6560</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>

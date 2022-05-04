@@ -96,7 +96,7 @@
       <Description>Weapon attribute ban event flag base ID</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7000</SortID>
     </Field>
     <Field Def="s32 systemEnchant_BigRune">
@@ -104,7 +104,7 @@
       <Description>Special effect Id to call when a large rune is activated from the system</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="f32 lowStatus_AtkPowDown">
@@ -277,7 +277,7 @@
       <Description>Criteria ID for special effects applied for lap correction</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3500</SortID>
     </Field>
     <Field Def="s32 arrowBoltModelIdOffset">
@@ -285,7 +285,7 @@
       <Description>Offset added to the model ID when equipped in slot 1 when displaying the arrow and bolt models. (Model Id + offset value)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3600</SortID>
     </Field>
     <Field Def="s8 arrowBoltRemainingNumModelMaskThreshold1">
@@ -467,7 +467,7 @@
       <Description>Abnormal condition_immediate death_immediate death Item ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7100</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -489,7 +489,7 @@
       <Description>Abnormal condition_Instant death_Instant death Item possession Special effect base ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7300</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -498,7 +498,7 @@
       <Description>Abnormal condition_immediate death_immediate death item lottery ID_for map</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7400</SortID>
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>

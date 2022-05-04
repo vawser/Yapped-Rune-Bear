@@ -10,14 +10,14 @@
       <DisplayName>Value</DisplayName>
       <Description>Value to compare</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 textId">
       <DisplayName>Text ID</DisplayName>
       <Description>Converted text ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3</SortID>
     </Field>
     <Field Def="s8 compareType">

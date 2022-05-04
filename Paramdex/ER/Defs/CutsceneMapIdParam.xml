@@ -37,28 +37,28 @@
       <DisplayName>Play Map ID</DisplayName>
       <Description>Please enter the map number to be played back as an 8-digit number. This is the map number used as the reference in the cutscene. If you do not specify the correct map number, the playback position will shift.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="u32 RequireMapId0">
       <DisplayName>Require Map ID 0</DisplayName>
       <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21</SortID>
     </Field>
     <Field Def="u32 RequireMapId1">
       <DisplayName>Require Map ID 1</DisplayName>
       <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>22</SortID>
     </Field>
     <Field Def="u32 RequireMapId2">
       <DisplayName>Require Map ID 2</DisplayName>
       <Description>Please enter the map number required for display as an 8-digit number. This parameter is used by the guest as a list to determine if the cutscene can be played. If you don't need it, you can leave it as 0 or blank.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>23</SortID>
     </Field>
     <Field Def="s32 RefCamPosHitPartsID = -1">

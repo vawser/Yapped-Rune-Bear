@@ -29,7 +29,7 @@
       <DisplayName>Enable Fast Travel Event Flag ID</DisplayName>
       <Description>Fast travel permission flag ID</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
     </Field>
     <Field Def="s32 WeatherLotTimeOffsetIngameSeconds">
       <DisplayName>Weather Lot - Time Offset</DisplayName>
@@ -151,7 +151,7 @@
       <DisplayName>Automatic Draw Group - Back Side Pixel Count</DisplayName>
       <Description>Number of pixels to be judged on the back side in automatic drawing group calculation</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5000</SortID>
     </Field>
     <Field Def="f32 PlayerLigntScale = 1">
@@ -192,7 +192,7 @@
       <Description>Mimicry probability parameter ID by map (SEQ22471)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>106</SortID>
       <ParamRef1>MapMimicryEstablishmentParam</ParamRef1>
     </Field>

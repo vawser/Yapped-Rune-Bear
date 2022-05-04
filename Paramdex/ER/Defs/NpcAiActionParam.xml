@@ -62,7 +62,7 @@
       <DisplayName>Gesture ID</DisplayName>
       <Description>Gesture ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="u8 bLifeEndSuccess">

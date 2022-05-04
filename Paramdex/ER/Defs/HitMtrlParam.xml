@@ -18,7 +18,7 @@
       <DisplayName>On Hit [1] - SpEffect ID</DisplayName>
       <Description>When the character steps on the hit material, the set special effect 0 is exhibited.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -26,7 +26,7 @@
       <DisplayName>On Hit [2] - SpEffect ID</DisplayName>
       <Description>When the character steps on the hit material, the set special effect 1 is exhibited.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -83,7 +83,7 @@
       <DisplayName>On Hit [0] - NG+1 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 2nd lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2200</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -91,7 +91,7 @@
       <DisplayName>On Hit [0] - NG+2 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 3rd lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2201</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -99,7 +99,7 @@
       <DisplayName>On Hit [0] - NG+3 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 4th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2202</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -107,7 +107,7 @@
       <DisplayName>On Hit [0] - NG+4 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 5th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2203</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -115,7 +115,7 @@
       <DisplayName>On Hit [0] - NG+5 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 6th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2204</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -123,7 +123,7 @@
       <DisplayName>On Hit [0] - NG+6 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 7th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2205</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -131,7 +131,7 @@
       <DisplayName>On Hit [0] - NG+7 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 0 8th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2206</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -139,7 +139,7 @@
       <DisplayName>On Hit [1] - NG+1 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1st lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2300</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -147,7 +147,7 @@
       <DisplayName>On Hit [1] - NG+2 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1 3rd lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2301</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -155,7 +155,7 @@
       <DisplayName>On Hit [1] - NG+3 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1 4th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2302</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -163,7 +163,7 @@
       <DisplayName>On Hit [1] - NG+4 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1 5th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2303</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -171,7 +171,7 @@
       <DisplayName>On Hit [1] - NG+5 - SpEffect ID</DisplayName>
       <Description>Special effect when stepping on the hit material 1 6th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2304</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -179,7 +179,7 @@
       <DisplayName>On Hit [1] - NG+6 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1 7th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2305</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -187,7 +187,7 @@
       <DisplayName>On Hit [1] - NG+7 - SpEffect ID</DisplayName>
       <Description>Special effect applied when stepping on the hit material 1 8th lap</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2306</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -208,7 +208,7 @@
       <DisplayName>Wetness [0] - SpEffect ID</DisplayName>
       <Description>Special effect for wetting 00</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3400</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -216,7 +216,7 @@
       <DisplayName>Wetness [1] - SpEffect ID</DisplayName>
       <Description>Special effects for wetting 01</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3410</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -224,7 +224,7 @@
       <DisplayName>Wetness [2] - SpEffect ID</DisplayName>
       <Description>Special effects for wetting 02</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3420</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -232,7 +232,7 @@
       <DisplayName>Wetness [3] - SpEffect ID</DisplayName>
       <Description>Special effects for wetting 03</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3430</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -240,7 +240,7 @@
       <DisplayName>Wetness [4] - SpEffect ID</DisplayName>
       <Description>Special effects for wetting 04</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3440</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>

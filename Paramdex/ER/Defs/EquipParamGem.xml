@@ -46,7 +46,7 @@
       <DisplayName>SpEffect ID [0]</DisplayName>
       <Description>Special effect ID00</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1100</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -54,7 +54,7 @@
       <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Special effect ID01</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1110</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -62,7 +62,7 @@
       <DisplayName>SpEffect ID [2]</DisplayName>
       <Description>Special effect ID02</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1120</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -70,14 +70,14 @@
       <DisplayName>Item Get Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when you first get the item. Flag ON when item is obtained.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6300</SortID>
     </Field>
     <Field Def="s32 swordArtsParamId = -1">
       <DisplayName>Sword Arts ID</DisplayName>
       <Description>ID of the destination arts parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <ParamRef1>SwordArtsParam</ParamRef1>
     </Field>
@@ -85,28 +85,28 @@
       <DisplayName>Application Cost</DisplayName>
       <Description>Installation price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="s32 sellValue">
       <DisplayName>Sell Value</DisplayName>
       <Description>Sale price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3100</SortID>
     </Field>
     <Field Def="s32 saleValue = -1">
       <DisplayName>Sale Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3200</SortID>
     </Field>
     <Field Def="s32 sortId">
       <DisplayName>Sort ID</DisplayName>
       <Description>Sort ID (-1: Do not collect)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4000</SortID>
     </Field>
     <Field Def="s16 compTrophySedId = -1">
@@ -686,21 +686,21 @@
       <DisplayName>SpEffect Message ID [0]</DisplayName>
       <Description>Effect text ID 00 (Gem_Effect). Magic stone effect text to display in status</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 spEffectMsgId1 = -1">
       <DisplayName>SpEffect Message ID [1]</DisplayName>
       <Description>Effect text ID 01 (Gem_Effect). Magic stone effect text to display in status</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1310</SortID>
     </Field>
     <Field Def="s32 spEffectId_forAtk0 = -1">
       <DisplayName>SpEffect ID - Attack Hit [0]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -708,7 +708,7 @@
       <DisplayName>SpEffect ID - Attack Hit [1]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1010</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -716,7 +716,7 @@
       <DisplayName>SpEffect ID - Attack Hit [2]</DisplayName>
       <Description>Special effect parameter ID for attack hit</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1020</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -724,7 +724,7 @@
       <DisplayName>Mount Weapon Text ID</DisplayName>
       <Description>Corresponding Weapon Type Overwrite Text ID (-1: Do not overwrite) [Menu Text]</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>360</SortID>
     </Field>
     <Field Def="dummy8 pad6[8]">

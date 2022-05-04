@@ -16,7 +16,7 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100015;[Gatekeeper Gostoc] Bandit Manchettes;930200;1000;-1;100150;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100016;[Gatekeeper Gostoc] Bandit Boots;930300;1000;-1;100160;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100017;[Gatekeeper Gostoc] Bandit Garb;931100;1500;-1;100170;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100018;[Gatekeeper Gostoc] Pure Smithing Stone;10503;20000;-1;100180;10009516;1;3;0;1;0;1;-1;-1;-1;-1;
+100018;[Gatekeeper Gostoc] Erdlight Shard;1290;20000;-1;100180;10009516;1;3;0;1;0;1;-1;-1;-1;-1;
 100025;Memory Stone;10030;3000;-1;100250;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100025;Memory Stone;10030;3000;-1;100250;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100026;Stonesword Key;8000;4000;-1;100260;0;1;3;0;1;0;1;-1;-1;-1;-1;
@@ -77,8 +77,7 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100200;[Sorcerer Rogier] Ash of War: Spinning Weapon;12000;1000;-1;120000;0;1;4;0;1;0;1;-1;-1;231030;19;
 100201;[Sorcerer Rogier] Ash of War: Glintstone Pebble;20300;1500;-1;120010;0;1;4;0;1;0;1;-1;-1;-1;-1;
 100202;[Sorcerer Rogier] Ash of War: Carian Greatsword;21900;2500;-1;120020;0;1;4;0;1;0;1;-1;-1;-1;-1;
-100225;[Sorcerer Rogier] Smithing Stone Scrap;10500;2000;-1;120250;0;-1;3;0;1;0;1;-1;-1;-1;-1;
-100228;[Sorcerer Rogier] Smithing Stone Shard;10501;6000;-1;120280;0;3;3;0;1;0;1;-1;-1;-1;-1;
+100228;[Sorcerer Rogier] Erdlight Shard;1290;6000;-1;120280;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100229;[Sorcerer Rogier] Carian Filigreed Crest;6020;5000;-1;120290;1034509360;1;2;0;1;0;1;-1;-1;-1;-1;
 100250;[Preceptor Seluvis] Glintstone Pebble;4000;1000;-1;120500;0;1;3;0;1;0;1;-1;-1;231010;17;
 100251;[Preceptor Seluvis] Glintstone Arc;4070;1500;-1;120510;0;1;3;0;1;0;1;-1;-1;-1;-1;
@@ -93,10 +92,10 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100282;[Preceptor Seluvis] Swift Glintstone Shard;4010;600;-1;120820;1034509455;1;3;0;1;0;1;-1;-1;-1;-1;
 100283;[Preceptor Seluvis] Glintblade Phalanx;4300;2500;-1;120830;1034509451;1;3;0;1;0;1;-1;-1;-1;-1;
 100284;[Preceptor Seluvis] Carian Slicer;4440;1500;-1;120840;1034509451;1;3;0;1;0;1;-1;-1;-1;-1;
-100300;[Preceptor Seluvis - Ranni Quest] Finger Maiden Therolina Puppet;261000;2;-1;130000;0;1;3;2;1;0;1;-1;-1;-1;-1;
-100301;[Preceptor Seluvis - Ranni Quest] Dolores the Sleeping Arrow Puppet;262000;5;-1;130010;11109919;1;3;2;1;0;1;-1;-1;-1;-1;
-100302;[Preceptor Seluvis - Ranni Quest] Jarwight Puppet;263000;3;-1;130020;0;1;3;2;1;0;1;-1;-1;-1;-1;
-100310;[Preceptor Seluvis - Dung Eater Quest] Dung Eater Puppet;260000;5;-1;130100;35009326;1;3;2;1;0;1;-1;-1;-1;-1;
+100300;[Preceptor Seluvis - Ranni Quest] Finger Maiden Therolina Puppet;261000;20000;-1;130000;0;1;3;0;1;0;1;-1;-1;-1;-1;
+100301;[Preceptor Seluvis - Ranni Quest] Dolores the Sleeping Arrow Puppet;262000;50000;-1;130010;11109919;1;3;0;1;0;1;-1;-1;-1;-1;
+100302;[Preceptor Seluvis - Ranni Quest] Jarwight Puppet;263000;30000;-1;130020;0;1;3;0;1;0;1;-1;-1;-1;-1;
+100310;[Preceptor Seluvis - Dung Eater Quest] Dung Eater Puppet;260000;50000;-1;130100;35009326;1;3;0;1;0;1;-1;-1;-1;-1;
 100326;[Pidia, Carian Servant] Ritual Pot;9501;1500;-1;66450;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100329;[Pidia, Carian Servant] Old Fang;15040;800;-1;130290;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100330;[Pidia, Carian Servant] Slumbering Egg;15120;600;-1;130300;0;2;3;0;1;0;1;-1;-1;-1;-1;
@@ -165,7 +164,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100500;[Merchant Kale] Note: Flask of Wondrous Physick;8702;200;-1;69620;0;1;3;0;1;0;1;-1;8752;-1;-1;
 100501;[Merchant Kale] Crafting Kit;8500;300;-1;60120;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100502;[Merchant Kale] Fetid Warrior's Cookbook;9300;5000;-1;67000;0;1;3;0;1;0;1;-1;-1;-1;-1;
-100503;[Merchant Kale] Smithing Stone Scrap;10500;1000;-1;150030;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100505;[Merchant Kale] Furlcalling Finger Remedy;150;1000;-1;150050;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100506;[Merchant Kale] Cracked Pot;9500;300;-1;66030;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100507;[Merchant Kale] Throwing Dagger;1700;40;-1;150070;0;-1;3;0;1;0;1;-1;-1;-1;-1;
@@ -187,7 +185,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100544;[Merchant - North Limgrave] Arrow;50000000;20;-1;150440;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100545;[Merchant - North Limgrave] Bolt;52000000;40;-1;150450;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100546;[Merchant - North Limgrave] Bandit Mask;1401000;1500;-1;150460;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100547;[Merchant - North Limgrave] Smithing Stone Scrap;10500;200;-1;150470;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100551;[Merchant - East Limgrave] Bloodied Warrior's Cookbook;9311;2000;-1;67110;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100552;[Merchant - East Limgrave] Sliver of Meat;15000;500;-1;150520;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100553;[Merchant - East Limgrave] Beast Liver;15010;500;-1;150530;0;5;3;0;1;0;1;-1;-1;-1;-1;
@@ -200,7 +197,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100564;[Merchant - East Limgrave] Riveted Wooden Shield;30090000;600;-1;150640;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100565;[Merchant - East Limgrave] Blue-Gold Kite Shield;31100000;1000;-1;150650;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100566;[Merchant - East Limgrave] St. Trina's Arrow;50040000;160;-1;150660;0;10;0;0;1;0;1;-1;-1;-1;-1;
-100567;[Merchant - East Limgrave] Smithing Stone Scrap;10500;200;-1;150670;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100576;[Merchant - Coastal Cave] Note: Stonedigger Trolls;8703;400;-1;69630;0;1;3;0;1;0;1;-1;8753;-1;-1;
 100585;[Merchant - Coastal Cave] Note: Land Squirts;8709;200;-1;69690;0;1;3;0;1;0;1;-1;8759;-1;-1;
 100586;[Merchant - Coastal Cave] Club;11010000;600;-1;150860;0;1;0;0;1;0;1;-1;-1;-1;-1;
@@ -212,7 +208,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100592;[Merchant - Coastal Cave] Neutralizing Boluses;900;600;-1;150920;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100593;[Merchant - Coastal Cave] Stanching Boluses;910;600;-1;150930;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100594;[Merchant - Coastal Cave] Stimulating Boluses;930;1500;-1;150940;0;2;3;0;1;0;1;-1;-1;-1;-1;
-100595;[Merchant - Coastal Cave] Smithing Stone Scrap;10500;200;-1;150950;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100600;[Merchant - East Weeping Peninsula] Stonesword Key;8000;2000;-1;160000;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100601;[Merchant - East Weeping Peninsula] Kukri;1730;60;-1;160080;0;-1;3;0;1;0;1;-1;-1;-1;-1;
 100602;[Merchant - East Weeping Peninsula] Red Thorn Roundshield;30070000;600;-1;160130;0;1;0;0;1;0;1;-1;-1;-1;-1;
@@ -230,7 +225,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100614;[Merchant - East Weeping Peninsula] Scale Armor;40100;2400;-1;180510;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100615;[Merchant - East Weeping Peninsula] Iron Gauntlets;40200;1500;-1;180520;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100616;[Merchant - East Weeping Peninsula] Leather Trousers;40300;1500;-1;180530;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100617;[Merchant - East Weeping Peninsula] Smithing Stone Scrap;10500;200;-1;180540;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100625;[Merchant - Liurnia of the Lakes] Glintstone Craftsman's Cookbook;9341;6000;-1;67410;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100626;[Merchant - Liurnia of the Lakes] Estoc;5000000;3000;-1;160330;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100627;[Merchant - Liurnia of the Lakes] Kite Shield;31000000;1000;-1;160340;0;1;0;0;1;0;1;-1;-1;-1;-1;
@@ -242,7 +236,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100633;[Merchant - Liurnia of the Lakes] Astrologer's Staff;33130000;800;-1;160460;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100634;[Merchant - Liurnia of the Lakes] Arrow;50000000;20;-1;160470;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100635;[Merchant - Liurnia of the Lakes] Bolt;52000000;40;-1;160480;0;-1;0;0;1;0;1;-1;-1;-1;-1;
-100636;[Merchant - Liurnia of the Lakes] Smithing Stone Shard;10501;200;-1;160490;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100650;[Isolated Merchant - Weeping Peninsula] Note: Walking Mausoleum;8704;600;-1;69640;0;1;3;0;1;0;1;-1;8754;-1;-1;
 100652;[Isolated Merchant - Weeping Peninsula] Stonesword Key;8000;2000;-1;160520;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100654;[Isolated Merchant - Weeping Peninsula] Arteria Leaf;20691;1000;-1;160540;0;5;3;0;1;0;1;-1;-1;-1;-1;
@@ -255,9 +248,7 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100662;[Isolated Merchant - Weeping Peninsula] Bolt;52000000;40;-1;160620;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100663;[Isolated Merchant - Weeping Peninsula] Great Arrow;51000000;300;-1;160630;0;15;0;0;1;0;1;-1;-1;-1;-1;
 100664;[Isolated Merchant - Weeping Peninsula] Festering Bloody Finger;111;1000;-1;160640;0;5;3;0;1;0;1;-1;-1;-1;-1;
-100665;[Isolated Merchant - Weeping Peninsula] Smithing Stone Scrap;10500;400;-1;160650;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100676;[Merchant - Academy of Raya Lucaria] Trina's Lily;20651;1000;-1;160760;0;3;3;0;1;0;1;-1;-1;-1;-1;
-100677;[Merchant - Academy of Raya Lucaria] Smithing Stone Shard;10501;800;-1;160770;0;8;3;0;1;0;1;-1;-1;-1;-1;
 100678;[Merchant - Academy of Raya Lucaria] Eye of Yelough;20740;1500;-1;160780;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100680;[Merchant - Academy of Raya Lucaria] Stonesword Key;8000;3000;-1;160800;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100681;[Merchant - Academy of Raya Lucaria] Lost Ashes of War;10070;4000;-1;160810;0;1;3;0;1;0;1;-1;-1;-1;-1;
@@ -273,7 +264,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100694;[Merchant - Academy of Raya Lucaria] Warrior Greaves;670300;1000;-1;160940;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100695;[Merchant - Academy of Raya Lucaria] Festering Bloody Finger;111;1500;-1;160950;0;8;3;0;1;0;1;-1;-1;-1;-1;
 100696;[Merchant - Academy of Raya Lucaria] Note: The Preceptor's Secret;8224;1200;-1;69910;0;1;3;0;1;0;1;-1;8226;-1;-1;
-100700;[Merchant - North Liurnia] Smithing Stone Shard;10501;800;-1;170000;0;10;3;0;1;0;1;-1;-1;-1;-1;
 100704;[Merchant - North Liurnia] Composite Bow;40050000;3500;-1;170040;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100705;[Merchant - North Liurnia] Rift Shield;30110000;1800;-1;170050;0;1;0;0;1;0;1;-1;-1;-1;-1;
 100706;[Merchant - North Liurnia] Blue Crest Heater Shield;31300000;1500;-1;170060;0;1;0;0;1;0;1;-1;-1;-1;-1;
@@ -303,7 +293,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100741;[Hermit Merchant - Leyndell] Prophet Robe;622100;1500;-1;170490;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100742;[Hermit Merchant - Leyndell] Festering Bloody Finger;111;3000;-1;200000;0;-1;3;0;1;0;1;-1;-1;-1;-1;
 100743;[Hermit Merchant - Leyndell] Note: Below the Capital;8717;800;-1;69770;0;1;3;0;1;0;1;-1;8767;-1;-1;
-100744;[Hermit Merchant - Leyndell] Smithing Stone Chunk;10503;6000;-1;170500;0;2;3;0;1;0;1;-1;-1;-1;-1;
 100750;[Merchant - Altus Plateau] Ancient Dragon Apostle's Cookbook;9400;12000;-1;68000;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100751;[Merchant - Altus Plateau] Note: Imp Shades;8701;1200;-1;69610;0;1;3;0;1;0;1;-1;8751;-1;-1;
 100752;[Merchant - Altus Plateau] Note: Unseen Assassins;8705;2000;-1;69650;0;1;3;0;1;0;1;-1;8755;-1;-1;
@@ -317,7 +306,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100769;[Merchant - Altus Plateau] Bolt;52000000;40;-1;170690;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100770;[Merchant - Altus Plateau] Tree Surcoat;1102100;3500;-1;170700;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100771;[Merchant - Altus Plateau] Festering Bloody Finger;111;2000;-1;170710;0;3;3;0;1;0;1;-1;-1;-1;-1;
-100772;[Merchant - Altus Plateau] Smithing Stone Fragment;10502;6000;-1;170720;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100775;[Merchant - Mt. Gelmir] Burnt Warrior's Cookbook;9320;3000;-1;67200;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100777;[Merchant - Mt. Gelmir] Stonesword Key;8000;5000;-1;170770;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100784;[Merchant - Mt. Gelmir] Explosive Greatbolt;53020000;800;-1;170840;0;-1;0;0;1;0;1;-1;-1;-1;-1;
@@ -331,7 +319,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100796;[Merchant - Mt. Gelmir] Confessor Gloves;880200;1000;-1;170960;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100797;[Merchant - Mt. Gelmir] Confessor Boots;880300;1000;-1;170970;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100798;[Merchant - Mt. Gelmir] Guilty Hood;160000;500;-1;170980;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100799;[Merchant - Mt. Gelmir] Smithing Stone Fragment;10502;6000;-1;170990;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100801;Poisonbone Dart;1720;120;-1;180010;0;-1;3;0;1;0;1;-1;-1;-1;-1;
 100802;Poisoned Stone;1840;150;-1;180020;0;-1;3;0;1;0;1;-1;-1;-1;-1;
 100803;Poisoned Stone Clump;1841;250;-1;180030;0;-1;3;0;1;0;1;-1;-1;-1;-1;
@@ -342,7 +329,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100817;Bolt;52000000;40;-1;180170;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100826;[Merchant - South Caelid] Stonesword Key;8000;4000;-1;180260;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100827;[Merchant - South Caelid] Cracked Pot;9500;1500;-1;66180;0;1;3;0;1;0;1;-1;-1;-1;-1;
-100828;[Merchant - South Caelid] Smithing Stone Fragment;10502;3000;-1;66190;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100837;[Merchant - South Caelid] Note: Gravity's Advantage;8710;800;-1;69700;0;1;3;0;1;0;1;-1;8760;-1;-1;
 100838;[Merchant - South Caelid] Arrow;50000000;20;-1;180380;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100839;[Merchant - South Caelid] Bolt;52000000;40;-1;180390;0;-1;0;0;1;0;1;-1;-1;-1;-1;
@@ -369,7 +355,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100891;[Isolated Merchant - Dragonbarrow] Serpent Arrow;50020000;120;-1;180910;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100892;[Isolated Merchant - Dragonbarrow] Bolt;52000000;40;-1;180920;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100893;[Isolated Merchant - Dragonbarrow] Festering Bloody Finger;111;1500;-1;180930;0;8;3;0;1;0;1;-1;-1;-1;-1;
-100894;[Isolated Merchant - Dragonbarrow] Smithing Stone Fragment;10502;3000;-1;180940;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100901;[Merchant - Mountaintops of the Giants] Stonesword Key;8000;5000;-1;190010;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100903;[Merchant - Mountaintops of the Giants] Thawfrost Boluses;920;1200;-1;190030;0;10;3;0;1;0;1;-1;-1;-1;-1;
 100909;[Merchant - Mountaintops of the Giants] Rune Arc;190;8000;-1;190090;0;3;3;0;1;0;1;-1;-1;-1;-1;
@@ -382,7 +367,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100916;[Merchant - Mountaintops of the Giants] Vagabond Knight Armor;660100;1500;-1;190160;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100917;[Merchant - Mountaintops of the Giants] Vagabond Knight Gauntlets;660200;1000;-1;190170;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100918;[Merchant - Mountaintops of the Giants] Vagabond Knight Greaves;660300;1000;-1;190180;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100919;[Merchant - Mountaintops of the Giants] Smithing Stone Slab;10504;5000;-1;190190;0;10;3;0;1;0;1;-1;-1;-1;-1;
 100928;[Merchant - Siofra River] Stonesword Key;8000;2000;-1;190280;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100935;[Merchant - Siofra River] Dwelling Arrow;50100000;160;-1;190350;0;30;0;0;1;0;1;-1;-1;-1;-1;
 100936;[Merchant - Siofra River] Larval Tear;8185;3000;-1;190360;0;1;3;0;1;0;1;-1;-1;-1;-1;
@@ -391,7 +375,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100939;[Merchant - Siofra River] Bolt;52000000;40;-1;190390;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100940;[Merchant - Siofra River] Soap;2120;400;-1;190400;0;3;3;0;1;0;1;-1;-1;-1;-1;
 100941;[Merchant - Siofra River] Nascent Butterfly;20800;1500;-1;190410;0;5;3;0;1;0;1;-1;-1;-1;-1;
-100942;[Merchant - Siofra River] Smithing Stone Shard;10501;3000;-1;190420;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100953;[Merchant - Ainsel River] Lost Ashes of War;10070;3000;-1;190530;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100962;[Merchant - Ainsel River] Celestial Dew;2130;7500;-1;190620;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100963;[Merchant - Ainsel River] Gravity Stone Fan;3060;200;-1;190630;0;20;3;0;1;0;1;-1;-1;-1;-1;
@@ -399,7 +382,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100965;[Merchant - Ainsel River] Prisoner Iron Mask;890000;1000;-1;190650;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100966;[Merchant - Ainsel River] Prisoner Clothing;890100;1500;-1;190660;0;1;1;0;1;0;1;-1;-1;-1;-1;
 100967;[Merchant - Ainsel River] Prisoner Trousers;890300;1000;-1;190670;0;1;1;0;1;0;1;-1;-1;-1;-1;
-100968;[Merchant - Ainsel River] Smithing Stone Fragment;10502;3000;-1;190680;0;10;3;0;1;0;1;-1;-1;-1;-1;
 100976;[Imprisoned Merchant - Mohgwyn] Stonesword Key;8000;5000;-1;190760;0;5;3;0;1;0;1;-1;-1;-1;-1;
 100977;[Imprisoned Merchant - Mohgwyn] Lost Ashes of War;10070;5000;-1;190770;0;1;3;0;1;0;1;-1;-1;-1;-1;
 100981;[Imprisoned Merchant - Mohgwyn] Rune Arc;190;8000;-1;190810;0;3;3;0;1;0;1;-1;-1;-1;-1;
@@ -408,7 +390,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 100984;[Imprisoned Merchant - Mohgwyn] Bloodrose;20723;800;-1;190840;0;-1;3;0;1;0;1;-1;-1;-1;-1;
 100985;[Imprisoned Merchant - Mohgwyn] Dwelling Arrow;50100000;160;-1;190850;0;-1;0;0;1;0;1;-1;-1;-1;-1;
 100986;[Imprisoned Merchant - Mohgwyn] Burred Bolt;52040000;200;-1;190860;0;-1;0;0;1;0;1;-1;-1;-1;-1;
-100987;[Imprisoned Merchant - Mohgwyn] Pure Smithing Stone;10505;50000;-1;190870;0;1;3;0;1;0;1;-1;-1;-1;-1;
 101503;[Enia - Godfrey] Elden Lord Crown;460000;12000;-1;250030;9107;1;1;0;1;0;1;-1;-1;-1;-1;
 101504;[Enia - Godfrey] Elden Lord Armor;460100;20000;-1;250040;9107;1;1;0;1;0;1;-1;-1;-1;-1;
 101505;[Enia - Godfrey] Elden Lord Bracers;460200;12000;-1;250050;9107;1;1;0;1;0;1;-1;-1;-1;-1;
@@ -469,12 +450,12 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 101804;[Twin Maiden Husks - Haligtree] Black Flame's Protection;6260;2500;-1;280040;11109770;1;3;0;1;0;1;-1;-1;-1;-1;
 101805;[Twin Maiden Husks - Haligtree] Lord's Divine Fortification;6490;3500;-1;280050;11109771;1;3;0;1;0;1;-1;-1;-1;-1;
 101807;[Twin Maiden Husks - Mohg] Law of Causality;6760;5000;-1;280070;11109773;1;3;0;1;0;1;-1;-1;-1;-1;
-101808;[Twin Maiden Husks - Diluted Bell Bearing] Smithing Stone Scrap;10500;500;-1;280080;11109751;-1;3;0;1;0;1;-1;-1;-1;-1;
-101809;[Twin Maiden Husks - Sorcerous Bell Bearing] Smithing Stone Shard;10501;1000;-1;280090;11109752;-1;3;0;1;0;1;-1;-1;-1;-1;
-101810;[Twin Maiden Husks - Deific Bell Bearing] Smithing Stone Fragment;10502;2000;-1;280100;11109754;-1;3;0;1;0;1;-1;-1;-1;-1;
-101811;[Twin Maiden Husks - Prophetic Bell Bearing] Smithing Stone Chunk;10503;3000;-1;280110;11109755;-1;3;0;1;0;1;-1;-1;-1;-1;
-101812;[Twin Maiden Husks - Burning Bell Bearing] Smithing Stone Slab;10504;5000;-1;280120;11109756;-1;3;0;1;0;1;-1;-1;-1;-1;
-101813;[Twin Maiden Husks - Malignant Bell Bearing] Pure Smithing Stone;10505;30000;-1;280130;11109757;-1;3;0;1;0;1;-1;-1;-1;-1;
+101808;[Twin Maiden Husks - Diluted Bell Bearing] Erdlight Shard;1290;500;-1;280080;11109751;1;3;0;5;0;1;-1;-1;-1;-1;
+101809;[Twin Maiden Husks - Sorcerous Bell Bearing] Erdlight Shard;1290;1000;-1;280090;11109752;2;3;0;10;0;1;-1;-1;-1;-1;
+101810;[Twin Maiden Husks - Deific Bell Bearing] Erdlight Shard;1290;2000;-1;280100;11109754;3;3;0;15;0;1;-1;-1;-1;-1;
+101811;[Twin Maiden Husks - Prophetic Bell Bearing] Erdlight Shard;1290;3000;-1;280110;11109755;4;3;0;20;0;1;-1;-1;-1;-1;
+101812;[Twin Maiden Husks - Burning Bell Bearing] Erdlight Shard;1290;5000;-1;280120;11109756;5;3;0;25;0;1;-1;-1;-1;-1;
+101813;[Twin Maiden Husks - Malignant Bell Bearing] Erdlight Shard;1290;30000;-1;280130;11109757;6;3;0;30;0;1;-1;-1;-1;-1;
 101815;[Twin Maiden Husks - Gluttonous Bell Bearing] Arteria Leaf;20691;4000;-1;280150;11109753;-1;3;0;1;0;1;-1;-1;-1;-1;
 101816;[Twin Maiden Husks - Putrid Bell Bearing] Aeonian Butterfly;20801;3000;-1;280160;11109758;-1;3;0;1;0;1;-1;-1;-1;-1;
 101817;[Twin Maiden Husks - Sanguine Bell Bearing] Bloodrose;20723;3000;-1;280170;11109759;-1;3;0;1;0;1;-1;-1;-1;-1;
@@ -562,9 +543,6 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 101960;[Dragon Communion - Caelid] Magma Breath;7010;1;-1;290770;1035530800;1;3;1;1;0;1;-1;-1;-1;-1;
 101961;[Dragon Communion - Caelid] Theodorix's Magma;7011;2;-1;290780;1050560800;1;3;1;1;0;1;-1;-1;-1;-1;
 101962;[Dragon Communion - Caelid] Greyoll's Roar;7090;3;-1;290790;1050400800;1;3;1;1;0;1;-1;-1;-1;-1;
-101975;[Dragon Communion - Limgrave] Dragonclaw;7060;1;-1;290750;0;1;3;1;1;0;1;-1;-1;-1;-1;
-101976;[Dragon Communion - Limgrave] Dragonmaw;7080;1;-1;290760;0;1;3;1;1;0;1;-1;-1;-1;-1;
-101980;[Dragon Communion - Limgrave] Dragonfire;7000;1;-1;290500;0;1;3;1;1;0;1;-1;-1;-1;-1;
 110000;[Alter Garment - Boc] Drake Knight Helm (Altered);61000;0;900100;0;0;-1;1;0;1;0;1;-1;-1;-1;-1;
 110001;[Alter Garment - Boc] Drake Knight Armor (Altered);61100;0;900101;0;0;-1;1;0;1;0;1;-1;-1;-1;-1;
 110002;[Alter Garment - Boc] Scaled Armor (Altered);81100;0;900102;0;0;-1;1;0;1;0;1;-1;-1;-1;-1;
@@ -1116,3 +1094,4 @@ Row ID;Row Name;equipId;value;mtrlId;eventFlag_forStock;eventFlag_forRelease;sel
 9100061;[Roderika] Finger Maiden Therolina Puppet;261000;300;20103;0;130000;-1;3;0;1;0;1;-1;-1;-1;-1;
 9100062;[Roderika] Dolores the Sleeping Arrow Puppet;262000;300;20103;0;130010;-1;3;0;1;0;1;-1;-1;-1;-1;
 9100063;[Roderika] Jarwight Puppet;263000;300;20103;0;130020;-1;3;0;1;0;1;-1;-1;-1;-1;
+9200000;;261000;2;-1;130000;0;1;3;2;1;0;1;-1;-1;-1;-1;

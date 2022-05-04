@@ -22,7 +22,7 @@
       <Description>Text ID to display (-1: No text). MenuText</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 seId = -1">
@@ -30,7 +30,7 @@
       <Description>Voice ID to play (-1: No SE)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 canMixMapName:1">

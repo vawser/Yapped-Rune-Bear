@@ -16,7 +16,7 @@
       <DisplayName>Random appearance lottery Para ID1</DisplayName>
       <Description>Random appearance lottery Para ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="u32 rate1">
@@ -29,7 +29,7 @@
       <DisplayName>Random appearance lottery Para ID2</DisplayName>
       <Description>Random appearance lottery Para ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4</SortID>
     </Field>
     <Field Def="u32 rate2">
@@ -42,7 +42,7 @@
       <DisplayName>Random appearance lottery Para ID3</DisplayName>
       <Description>Random appearance lottery Para ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6</SortID>
     </Field>
     <Field Def="u32 rate3">
@@ -55,7 +55,7 @@
       <DisplayName>Random appearance lottery Para ID4</DisplayName>
       <Description>Random appearance lottery Para ID4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8</SortID>
     </Field>
     <Field Def="u32 rate4">
@@ -68,7 +68,7 @@
       <DisplayName>Random appearance lottery Para ID5</DisplayName>
       <Description>Random appearance lottery Para ID5</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10</SortID>
     </Field>
     <Field Def="u32 rate5">
@@ -81,7 +81,7 @@
       <DisplayName>Random appearance lottery Para ID6</DisplayName>
       <Description>Random appearance lottery Para ID6</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12</SortID>
     </Field>
     <Field Def="u32 rate6">
@@ -94,7 +94,7 @@
       <DisplayName>Random appearance lottery Para ID7</DisplayName>
       <Description>Random appearance lottery Para ID7</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14</SortID>
     </Field>
     <Field Def="u32 rate7">
@@ -107,7 +107,7 @@
       <DisplayName>Random appearance lottery Para ID8</DisplayName>
       <Description>Random appearance lottery Para ID8</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16</SortID>
     </Field>
     <Field Def="u32 rate8">
@@ -120,7 +120,7 @@
       <DisplayName>Random appearance lottery Para ID9</DisplayName>
       <Description>Random appearance lottery Para ID9</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18</SortID>
     </Field>
     <Field Def="u32 rate9">
@@ -133,7 +133,7 @@
       <DisplayName>Random appearance lottery Para ID10</DisplayName>
       <Description>Random appearance lottery Para ID10</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>20</SortID>
     </Field>
     <Field Def="u32 rate10">
@@ -146,7 +146,7 @@
       <DisplayName>Random appearance lottery Para ID11</DisplayName>
       <Description>Random appearance lottery Para ID11</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>22</SortID>
     </Field>
     <Field Def="u32 rate11">
@@ -159,7 +159,7 @@
       <DisplayName>Random appearance lottery Para ID12</DisplayName>
       <Description>Random appearance lottery Para ID12</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>24</SortID>
     </Field>
     <Field Def="u32 rate12">
@@ -172,7 +172,7 @@
       <DisplayName>Random appearance lottery Para ID13</DisplayName>
       <Description>Random appearance lottery Para ID13</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>26</SortID>
     </Field>
     <Field Def="u32 rate13">
@@ -185,7 +185,7 @@
       <DisplayName>Random appearance lottery Para ID14</DisplayName>
       <Description>Random appearance lottery Para ID14</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>28</SortID>
     </Field>
     <Field Def="u32 rate14">
@@ -198,7 +198,7 @@
       <DisplayName>Random appearance lottery Para ID15</DisplayName>
       <Description>Random appearance lottery Para ID15</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>30</SortID>
     </Field>
     <Field Def="u32 rate15">
@@ -211,7 +211,7 @@
       <DisplayName>Random appearance lottery para ID16</DisplayName>
       <Description>Random appearance lottery para ID16</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>32</SortID>
     </Field>
     <Field Def="u32 rate16">
@@ -224,7 +224,7 @@
       <DisplayName>Random appearance lottery Para ID17</DisplayName>
       <Description>Random appearance lottery Para ID17</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>34</SortID>
     </Field>
     <Field Def="u32 rate17">
@@ -237,7 +237,7 @@
       <DisplayName>Random appearance lottery Para ID18</DisplayName>
       <Description>Random appearance lottery Para ID18</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>36</SortID>
     </Field>
     <Field Def="u32 rate18">
@@ -250,7 +250,7 @@
       <DisplayName>Random appearance lottery para ID19</DisplayName>
       <Description>Random appearance lottery para ID19</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>38</SortID>
     </Field>
     <Field Def="u32 rate19">
@@ -263,7 +263,7 @@
       <DisplayName>Random appearance lottery para ID20</DisplayName>
       <Description>Random appearance lottery para ID20</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>40</SortID>
     </Field>
     <Field Def="u32 rate20">
@@ -276,7 +276,7 @@
       <DisplayName>Random appearance lottery Para ID21</DisplayName>
       <Description>Random appearance lottery Para ID21</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>42</SortID>
     </Field>
     <Field Def="u32 rate21">
@@ -289,7 +289,7 @@
       <DisplayName>Random appearance lottery Para ID22</DisplayName>
       <Description>Random appearance lottery Para ID22</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44</SortID>
     </Field>
     <Field Def="u32 rate22">
@@ -302,7 +302,7 @@
       <DisplayName>Random appearance lottery Para ID23</DisplayName>
       <Description>Random appearance lottery Para ID23</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>46</SortID>
     </Field>
     <Field Def="u32 rate23">
@@ -315,7 +315,7 @@
       <DisplayName>Random appearance lottery Para ID24</DisplayName>
       <Description>Random appearance lottery Para ID24</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>48</SortID>
     </Field>
     <Field Def="u32 rate24">

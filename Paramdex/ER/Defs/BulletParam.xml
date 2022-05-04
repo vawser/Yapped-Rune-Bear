@@ -10,7 +10,7 @@
       <DisplayName>AtkParam ID</DisplayName>
       <Description>Register each attack parameter ID. → Attack type / Attack material / Physical attack power / Magic attack power / Stamina attack power / Knockback distance.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
       <ParamRef1>AtkParam_Pc</ParamRef1>
       <ParamRef2>AtkParam_Npc</ParamRef2>
@@ -19,21 +19,21 @@
       <DisplayName>Projectile SFX ID</DisplayName>
       <Description>Enter the SFX ID for [Bullet]. -1 does not occur.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="s32 sfxId_Hit = -1">
       <DisplayName>Impact SFX ID</DisplayName>
       <Description>[Impact] Enter the SFX ID. -1 does not occur.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3000</SortID>
     </Field>
     <Field Def="s32 sfxId_Flick = -1">
       <DisplayName>Repel SFX ID</DisplayName>
       <Description>[At the time of repelling] Enter the SFX ID. -1 does not occur.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4000</SortID>
     </Field>
     <Field Def="f32 life = -1">
@@ -193,7 +193,7 @@
       <DisplayName>Shooter SpEffect ID</DisplayName>
       <Description>Special effects on the person who shot</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>47000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -201,14 +201,14 @@
       <DisplayName>Bullet AI</DisplayName>
       <Description>Parameters used by the funnel to search for the target</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>60000</SortID>
     </Field>
     <Field Def="s32 HitBulletID = -1">
       <DisplayName>Hit Bullet ID</DisplayName>
       <Description>Specify the ID when generating a new bullet parameter from the bullet parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>11000</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -216,7 +216,7 @@
       <DisplayName>Target SpEffect ID [0]</DisplayName>
       <Description>Register each special effect parameter ID. → General special effects.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>48000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -224,7 +224,7 @@
       <DisplayName>Target SpEffect ID [1]</DisplayName>
       <Description>Register each special effect parameter ID. → General special effects.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>49000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -232,7 +232,7 @@
       <DisplayName>Target SpEffect ID [2]</DisplayName>
       <Description>Register each special effect parameter ID. → General special effects.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -240,7 +240,7 @@
       <DisplayName>Target SpEffect ID [3]</DisplayName>
       <Description>Register each special effect parameter ID. → General special effects.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>51000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -248,7 +248,7 @@
       <DisplayName>Target SpEffect ID [4]</DisplayName>
       <Description>Register each special effect parameter ID. → General special effects.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>52000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -583,7 +583,7 @@
       <DisplayName>Bullet Emitter: Bullet ID</DisplayName>
       <Description>Bullet ID used when making bullets at regular intervals</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>80000</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -743,28 +743,28 @@
       <DisplayName>Insert SE ID - Bullet [1]</DisplayName>
       <Description>Insert SE ID1 for [Bullet]. -1: Not generated 9 digits. Sound type is fixed to s: SFX.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4100</SortID>
     </Field>
     <Field Def="s32 seId_Bullet2 = -1">
       <DisplayName>Insert SE ID - Bullet [2]</DisplayName>
       <Description>Insert SE ID 2 for [Bullet]. -1: Not generated 9 digits. Sound type is fixed to s: SFX.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4101</SortID>
     </Field>
     <Field Def="s32 seId_Hit = -1">
       <DisplayName>Insert SE ID - Hit</DisplayName>
       <Description>Insert SE ID 1 for [landing]. -1 does not occur. 9 digits. Sound type is fixed to s: SFX.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4102</SortID>
     </Field>
     <Field Def="s32 seId_Flick = -1">
       <DisplayName>Insert SE ID - Repel</DisplayName>
       <Description>[At the time of repelling] Enter SE ID1 for. -1 does not occur. 9 digits. Sound type is fixed to s: SFX.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4103</SortID>
     </Field>
     <Field Def="s16 howitzerShootAngleXMin">
@@ -801,7 +801,7 @@
       <DisplayName>SFX ID - Force Erase</DisplayName>
       <Description>SFX ID at the time of forced erasure. -1 does not occur.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4100</SortID>
     </Field>
     <Field Def="s8 bulletSfxDeleteType_byForceErase">

@@ -29,21 +29,21 @@
       <DisplayName>Talk Character Entity ID</DisplayName>
       <Description>Used as a foreign key when referencing from a conversation.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u32 eliminateTargetEntityId">
       <DisplayName>Defeat Target List Entity ID</DisplayName>
       <Description>Entity ID of the character / group to be defeated by the buddy when summoned from this stele</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="u32 summonedEventFlagId">
       <DisplayName>Summoned Event Flag ID</DisplayName>
       <Description>Flag ID that stands when summoned from a stone monument. When this flag is set, the stone monument cannot be summoned.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u8 isSpecial:1">
@@ -66,7 +66,7 @@
       <DisplayName>Buddy ID</DisplayName>
       <Description>ID of the buddy parameter. If "Special" is ○, this buddy ID will be summoned.</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s32 dopingSpEffectId = -1">
@@ -94,14 +94,14 @@
       <DisplayName>Overwrite Activation Region Entity ID</DisplayName>
       <Description>The range where the buddy can be summoned can be overwritten in the area of the specified entity ID.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>560</SortID>
     </Field>
     <Field Def="u32 warnRegionEntityId">
       <DisplayName>Warn Region Entity ID</DisplayName>
       <Description>Warning area entity ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>561</SortID>
     </Field>
     <Field Def="dummy8 pad3[24]">

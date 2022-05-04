@@ -29,7 +29,7 @@
       <DisplayName>Number of secured flags</DisplayName>
       <Description>Set to 1 for "ON / OFF". In the case of "frame allocation" and "integer", "parameter number-parameter number + number of secured flags-1" is secured.</Description>
       <Minimum>1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="dummy8 padding2[24]">

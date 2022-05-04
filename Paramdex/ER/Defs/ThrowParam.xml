@@ -74,7 +74,7 @@
       <Description>ID that identifies the type of throw (association with attack parameter)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="s32 atkAnimId">
@@ -82,7 +82,7 @@
       <Description>Set attack animation ID (linked to EzState)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="s32 defAnimId">
@@ -90,7 +90,7 @@
       <Description>Set damage animation ID (linked to EzState)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
     </Field>
     <Field Def="u16 escHp">
@@ -285,7 +285,7 @@
       <Description>Damipoli that the thrower considers to be his position when calculating the throw range. If -1, the capsule origin</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>660</SortID>
     </Field>
     <Field Def="s32 judgeRangeBasePosDmyId2 = -1">
@@ -293,7 +293,7 @@
       <Description>Damipoli that the thrower considers to be his position when calculating the throw range. If -1, the capsule origin</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>670</SortID>
     </Field>
     <Field Def="f32 adsrobModelPosInterpolationTime = 0.5">

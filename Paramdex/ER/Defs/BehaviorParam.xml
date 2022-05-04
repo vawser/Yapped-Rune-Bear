@@ -10,7 +10,7 @@
       <DisplayName>Behavior Variation ID</DisplayName>
       <Description>Used when calculating the ID for attack parameters. It is not used directly on the actual machine.</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 behaviorJudgeId">
@@ -41,7 +41,7 @@
       <DisplayName>Reference ID</DisplayName>
       <Description>It can be used properly according to the attack power, missile, ID of special effect parameter, and refType.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
       <ParamRef1>AtkParam_Pc</ParamRef1>
       <ParamRef2>AtkParam_Npc</ParamRef2>

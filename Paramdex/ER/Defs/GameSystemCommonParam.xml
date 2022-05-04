@@ -106,7 +106,7 @@
       <Description>Nemuri Item Acquisition Range_Action Button Para ID. TAE flag Used as the default value when not overwriting with "Event&gt; Nemuri item registration".</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1110</SortID>
       <ParamRef1>ActionButtonParam</ParamRef1>
     </Field>
@@ -124,7 +124,7 @@
       <Description>Buddy Item Permission_SFX Occurrence PC Damipoli ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18010</SortID>
     </Field>
     <Field Def="s32 allowUseBuddyItem_sfxDmyPolyId_horse = -1">
@@ -132,7 +132,7 @@
       <Description>Buddy item permission_SFX generated horse Damipoli ID_when riding</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18020</SortID>
     </Field>
     <Field Def="s32 allowUseBuddyItem_sfxId = -1">
@@ -140,7 +140,7 @@
       <Description>Buddy Item Permission_Occurrence SFXID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18030</SortID>
     </Field>
     <Field Def="f32 onBuddySummon_inActivateRange_sfxInterval">
@@ -156,7 +156,7 @@
       <Description>Buddy Summoning_Initial Range_SFX Occurrence PC Damipoli ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18050</SortID>
     </Field>
     <Field Def="s32 onBuddySummon_inActivateRange_sfxDmyPolyId_horse = -1">
@@ -164,7 +164,7 @@
       <Description>Buddy Summoning_Initial Range_SFX Generated Horse Damipoli ID_When Riding</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18060</SortID>
     </Field>
     <Field Def="s32 onBuddySummon_inActivateRange_sfxId = -1">
@@ -172,7 +172,7 @@
       <Description>Buddy Summoning_Initial Range_Occurrence SFXID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18070</SortID>
     </Field>
     <Field Def="s32 onBuddySummon_inActivateRange_spEffectId_pc = -1">
@@ -180,7 +180,7 @@
       <Description>Buddy Summoning_Initial range Special effect ID_For PC</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18080</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -189,7 +189,7 @@
       <Description>Buddy Summoning_Warning Range Special Effect ID_For PC</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18090</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -198,7 +198,7 @@
       <Description>Buddy Summoning_Buddy Return Special Effect ID_For PC</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18100</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -207,7 +207,7 @@
       <Description>Buddy Summoning_Warning Range Special Effect ID_For Buddy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18110</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -356,7 +356,7 @@
       <Description>SA heavy damage hit production SFX_SFXID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>35000</SortID>
     </Field>
     <Field Def="f32 signCreatableDistFromSafePos">
@@ -418,7 +418,7 @@
       <Description>A special effect ID that activates when a Nemuri item can be acquired. TAE flag Used as the default value when not overwriting with "Event&gt; Nemuri item registration".</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1120</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -427,7 +427,7 @@
       <Description>ID of the special effect that notifies that "Recovery below HP maximum" is completed. Mainly used for multi synchronization.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3800</SortID>
     </Field>
     <Field Def="s32 estusFlaskRecovery_AbsorptionProductionSfxId_byHp">
@@ -435,7 +435,7 @@
       <Description>Absorption effect SFXID when recovering the number of times the HP Est bottle has been used when defeating an intruder</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3900</SortID>
     </Field>
     <Field Def="s32 estusFlaskRecovery_AbsorptionProductionSfxId_byMp">
@@ -443,7 +443,7 @@
       <Description>Absorption effect SFXID when recovering the number of times the MP Est bottle has been used when defeating an intruder</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4000</SortID>
     </Field>
     <Field Def="s32 respawnSpecialEffectActiveCheckerSpEffectId">
@@ -451,7 +451,7 @@
       <Description>ID of the special effect that notifies that the resurrection special effect has been activated. Mainly used for multi synchronization.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4100</SortID>
     </Field>
     <Field Def="s32 onBuddySummon_inActivateRange_spEffectId_buddy = -1">
@@ -459,7 +459,7 @@
       <Description>Buddy Summoning_Initial Range Special Effect ID_For Buddy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>18120</SortID>
     </Field>
     <Field Def="f32 estusFlaskRecovery_AddEstusTime">
@@ -545,7 +545,7 @@
       <Description>Large Rune: Greater Demon Invasion Tool Item ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5100</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -554,7 +554,7 @@
       <Description>SFX ID in the riding large jump area</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5300</SortID>
     </Field>
     <Field Def="f32 saAttackRate_forVsRideAtk = 1">
@@ -571,7 +571,7 @@
       <Description>Special effects on the enemy side when drawing Nemuri items</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1121</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -580,7 +580,7 @@
       <Description>Map UID on hold for lap, enter in 8 digits (example ... m60_42_36_00-&gt; 60423600)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="u32 afterEndingReturnPointEntityId">
@@ -588,7 +588,7 @@
       <Description>Entity ID of return point on hold</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="s32 enemyDetectionSpEffect_BulletId_byCoopRing_RedHunter">
@@ -596,7 +596,7 @@
       <Description>Bullet ID to fly depending on enemy power / type (also used for multi-automatic firing)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5800</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -605,7 +605,7 @@
       <Description>Bullet ID to fly depending on enemy power / type (also used for multi-automatic firing)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5900</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -614,7 +614,7 @@
       <Description>For tutorial judgment: Event flag to turn on when accessing the distant view</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnAccessRetryPoint">
@@ -622,7 +622,7 @@
       <Description>For tutorial judgment: Event flag to turn on when accessing the retry point</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6100</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnGetGroupReward">
@@ -630,7 +630,7 @@
       <Description>For tutorial judgment: Event flag to turn on when group reward is entered after defeating a group</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6200</SortID>
     </Field>
     <Field Def="u32 tutorialFlagOnEnterRideJumpRegion">
@@ -638,7 +638,7 @@
       <Description>For tutorial judgment: Event flag to turn on when entering the riding big jump point</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6300</SortID>
     </Field>
     <Field Def="f32 tutorialCheckRideJumpRegionExpandRange">
@@ -655,7 +655,7 @@
       <Description>PC animation ID when retry point is started. If it is -1, it will not be played.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6500</SortID>
     </Field>
     <Field Def="f32 retryPointActivatedDialogDelayTime">
@@ -672,7 +672,7 @@
       <Description>The text ID of the dialog when the retry point is started. Set the text in EventText_ForMap.xlsm. If it is -1, the dialog is not displayed.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6700</SortID>
     </Field>
     <Field Def="s32 signPuddleOpenPcAnimId = -1">
@@ -680,7 +680,7 @@
       <Description>PC animation ID at the time of sign accumulation startup. If it is -1, it will not be played.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6800</SortID>
     </Field>
     <Field Def="f32 signPuddleOpenDialogDelayTime">
@@ -697,7 +697,7 @@
       <Description>Bullet ID fired when the "Activity of the Dead" special effect is activated</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7000</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -706,7 +706,7 @@
       <Description>Damipoli ID at the position where the bullet is generated when the "Activity of the Dead" special effect is activated</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7100</SortID>
     </Field>
     <Field Def="f32 activityOfDeadSpEffect_DeadFadeOutTime">
@@ -782,7 +782,7 @@
       <Description>Bullet ID to shoot to hostile NPCs / enemy characters when hostility detection fails</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8100</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -791,7 +791,7 @@
       <Description>Special effects applied to the searched target</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8200</SortID>
       <ParamRef1>SpEffect</ParamRef1>
     </Field>
@@ -833,7 +833,7 @@
       <DisplayName>Maximum Solo Intrusion Point</DisplayName>
       <Description>Maximum solo intrusion point. When this value is exceeded, it will be invaded solo.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8600</SortID>
     </Field>
     <Field Def="f32 npcTalkTimeOutThreshold">
@@ -896,7 +896,7 @@
       <Description>Bullet ID when generating a bullet for special effects at the sign position</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>9400</SortID>
       <ParamRef1>Bullet</ParamRef1>
     </Field>
@@ -905,7 +905,7 @@
       <Description>Special effect to play a special effect when Berserker succeeds in killing the PC by himself</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>9500</SortID>
       <ParamRef1>SpEffect</ParamRef1>
     </Field>
@@ -1172,7 +1172,7 @@
       <Description>Decal parameter ID of the trace that the wandering illusion puts out while moving</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>13100</SortID>
     </Field>
     <Field Def="f32 leaveAroundHostWarningTime">
@@ -1189,7 +1189,7 @@
       <Description>ID of the cost item consumed when hosting is turned on</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>13300</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -1278,7 +1278,7 @@
       <Description>Default action button parameter ID when "Treasure corpse" is selected in the treasure box type of treasure box information for OBJ of MapStudio event</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14400</SortID>
       <ParamRef1>ActionButtonParam</ParamRef1>
     </Field>
@@ -1287,7 +1287,7 @@
       <Description>When "Treasure corpse" is selected in the treasure box type of the treasure box information for OBJ of the MapStudio event, the default item is acquired. Animation ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14500</SortID>
     </Field>
     <Field Def="s32 msbEventGeomTreasureInfo_actionButtonParamId_box">
@@ -1295,7 +1295,7 @@
       <Description>Default action button parameter ID when "Treasure chest" is selected in the treasure chest type of treasure chest information for OBJ of MapStudio event</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14600</SortID>
       <ParamRef1>ActionButtonParam</ParamRef1>
     </Field>
@@ -1304,7 +1304,7 @@
       <Description>When "Treasure chest" is selected in the treasure chest type of the treasure chest information for OBJ of the MapStudio event, the default item acquisition animation ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14700</SortID>
     </Field>
     <Field Def="s32 msbEventGeomTreasureInfo_actionButtonParamId_shine">
@@ -1312,7 +1312,7 @@
       <Description>Default action button parameter ID when "Item light" is selected in the treasure chest type of treasure chest information for OBJ of MapStudio event</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14800</SortID>
       <ParamRef1>ActionButtonParam</ParamRef1>
     </Field>
@@ -1321,7 +1321,7 @@
       <Description>When "Item Hikari" is selected as the treasure chest type of the treasure chest information for OBJ of the MapStudio event, the default item acquisition animation ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14900</SortID>
     </Field>
     <Field Def="s32 signPuddleAssetId">
@@ -1337,7 +1337,7 @@
       <Description>Damipoli used to determine the display position of the sign in the sign pool</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>15100</SortID>
     </Field>
     <Field Def="s32 signPuddleAppearDmypolyId1">
@@ -1345,7 +1345,7 @@
       <Description>Damipoli used to determine the display position of the sign in the sign pool</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>15200</SortID>
     </Field>
     <Field Def="s32 signPuddleAppearDmypolyId2">
@@ -1353,7 +1353,7 @@
       <Description>Damipoli used to determine the display position of the sign in the sign pool</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>15300</SortID>
     </Field>
     <Field Def="s32 signPuddleAppearDmypolyId3">
@@ -1361,7 +1361,7 @@
       <Description>Damipoli used to determine the display position of the sign in the sign pool</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>15400</SortID>
     </Field>
     <Field Def="f32 fallDamageRate_forRidePC = 1">
@@ -1385,7 +1385,7 @@
       <Description>Special effect ID when creating the old man sign of yellow robe</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16200</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1403,7 +1403,7 @@
       <Description>Permission to use defeated soldier items_Special effects for PC</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16400</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1412,7 +1412,7 @@
       <Description>Activate defeated soldiers_Special effects for defeated soldier characters</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16500</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1421,7 +1421,7 @@
       <Description>Defeated soldiers_Special effects for subjugation targets</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16600</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1430,7 +1430,7 @@
       <Description>Defeated soldiers_Special effects after hostility</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>16700</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1732,7 +1732,7 @@
       <Description>Large Rune: Greater Demon Buddy Summon Buddy Special Effect ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>30200</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1741,7 +1741,7 @@
       <Description>Large Rune: Special effect ID given to PC when summoning Greater Demon Buddy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>30201</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1750,7 +1750,7 @@
       <Description>Base bonfire bonfire warp parameter ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>40000</SortID>
     </Field>
     <Field Def="u8 machingWeaponLevelUpperWhiteSign_11">
@@ -2110,7 +2110,7 @@
       <Description>Tool item ID of "re-invasion item" given at the time of intrusion: Invasion item_Greater system (ID102)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5200</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -2119,7 +2119,7 @@
       <Description>Big jump to get off _ sky SFXID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>60000</SortID>
     </Field>
     <Field Def="f32 rideJumpoff_SfxHeightOffset">
@@ -2136,7 +2136,7 @@
       <Description>In the big jump area to get off _ Special effect ID for PC horse</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>60200</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -2145,7 +2145,7 @@
       <Description>Special effect ID for _PC in the big jump area to get off</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>60300</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -2154,7 +2154,7 @@
       <Description>Main menu → Event flag to unlock the item creation menu</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>42000</SortID>
     </Field>
     <Field Def="u32 unlockMessageMenuEventFlagId">
@@ -2162,7 +2162,7 @@
       <Description>Main menu → Event flag to unlock the message menu</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>42010</SortID>
     </Field>
     <Field Def="u16 breakInOnce_A_rebreakInGoodsNum">
@@ -2184,7 +2184,7 @@
       <Description>Tool item ID of "re-invasion item" given at the time of intrusion: Invasion item_Greater disposable (ID111)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5220</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -2193,7 +2193,7 @@
       <Description>Tool item ID of "re-invasion item" given at the time of invasion: Invasion item_Volcano building system (ID112)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5240</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>

@@ -35,7 +35,7 @@
     <Field Def="u32 wanderingEquipId">
       <DisplayName>Wandering Equip ID</DisplayName>
       <Description>Replacement equipment ID for wandering ghosts.</Description>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1400</SortID>
     </Field>
     <Field Def="u16 resistSleep">
@@ -70,21 +70,21 @@
       <DisplayName>Repair Price</DisplayName>
       <Description>Basic repair price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2500</SortID>
     </Field>
     <Field Def="s32 basicPrice">
       <DisplayName>Basic Price</DisplayName>
       <Description>Basic price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2600</SortID>
     </Field>
     <Field Def="s32 sellValue">
       <DisplayName>Sell Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2610</SortID>
     </Field>
     <Field Def="f32 weight = 1">
@@ -100,7 +100,7 @@
       <DisplayName>Resident SpEffect ID [1]</DisplayName>
       <Description>Resident special effect ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4500</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -108,7 +108,7 @@
       <DisplayName>Resident SpEffect ID [2]</DisplayName>
       <Description>Resident special effect ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4600</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -116,7 +116,7 @@
       <DisplayName>Resident SpEffect ID [3]</DisplayName>
       <Description>Resident special effect ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4700</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -148,7 +148,7 @@
       <DisplayName>Origin Armor +0</DisplayName>
       <Description>Strengthening of this armor Original armor ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5000</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -156,7 +156,7 @@
       <DisplayName>Origin Armor +1</DisplayName>
       <Description>Strengthening this armor Original armor ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5100</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -164,7 +164,7 @@
       <DisplayName>Origin Armor +2</DisplayName>
       <Description>Strengthening this armor Original armor ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5200</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -172,7 +172,7 @@
       <DisplayName>Origin Armor +3</DisplayName>
       <Description>Strengthening this armor Original armor ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5300</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -180,7 +180,7 @@
       <DisplayName>Origin Armor +4</DisplayName>
       <Description>Strengthening this armor Original armor ID4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5400</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -188,7 +188,7 @@
       <DisplayName>Origin Armor +5</DisplayName>
       <Description>Strengthening this armor Original armor ID5</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5500</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -196,7 +196,7 @@
       <DisplayName>Origin Armor +6</DisplayName>
       <Description>Strengthening this armor Original armor ID6</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5600</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -204,7 +204,7 @@
       <DisplayName>Origin Armor +7</DisplayName>
       <Description>Strengthening this armor Original armor ID7</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5700</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -212,7 +212,7 @@
       <DisplayName>Origin Armor +8</DisplayName>
       <Description>Strengthening this armor Original armor ID8</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5800</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -220,7 +220,7 @@
       <DisplayName>Origin Armor +9</DisplayName>
       <Description>Strengthening this armor Original armor ID9</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5900</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -228,7 +228,7 @@
       <DisplayName>Origin Armor +10</DisplayName>
       <Description>Strengthening this armor Original armor ID10</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6000</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -236,7 +236,7 @@
       <DisplayName>Origin Armor +11</DisplayName>
       <Description>Strengthening this armor Original armor ID11</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6100</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -244,7 +244,7 @@
       <DisplayName>Origin Armor +12</DisplayName>
       <Description>Strengthening this armor Original armor ID12</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6200</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -252,7 +252,7 @@
       <DisplayName>Origin Armor +13</DisplayName>
       <Description>Strengthening this armor Original armor ID13</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6300</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -260,7 +260,7 @@
       <DisplayName>Origin Armor +14</DisplayName>
       <Description>Strengthening this armor Original armor ID14</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6400</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -268,7 +268,7 @@
       <DisplayName>Origin Armor +15</DisplayName>
       <Description>Strengthening this armor Original armor ID15</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6500</SortID>
       <ParamRef1>EquipParamProtector</ParamRef1>
     </Field>
@@ -332,7 +332,7 @@
       <DisplayName>QWC ID</DisplayName>
       <Description>QWC parameter ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10800</SortID>
     </Field>
     <Field Def="u16 equipModelId">
@@ -1073,7 +1073,7 @@
       <DisplayName>Shop Price</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2620</SortID>
     </Field>
     <Field Def="u16 resistFreeze">

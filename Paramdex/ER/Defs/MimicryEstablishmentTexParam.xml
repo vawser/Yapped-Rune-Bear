@@ -57,7 +57,7 @@
       <Description>Mimicry probability parameter ID by map (-1: No setting (default value)). The area is combined with Map Studio</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="dummy8 pad2[4]">

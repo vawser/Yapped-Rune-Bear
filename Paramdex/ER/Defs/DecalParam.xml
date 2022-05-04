@@ -11,7 +11,7 @@
       <Description>Texture ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="s32 dmypolyId = -1">
@@ -87,7 +87,7 @@
       <Description>Monitoring special effect ID. If you enter an arbitrary special effect ID, decals will not be generated unless the special effect is applied.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -345,7 +345,7 @@
       <Description>Texture ID at the start of interpolation (-1 uses the same value as the texture ID)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5202</SortID>
     </Field>
     <Field Def="s32 endIntpTextureId = -1">
@@ -353,7 +353,7 @@
       <Description>Texture at the end of interpolation Texture ID (-1 uses the same value as the texture ID)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5203</SortID>
     </Field>
     <Field Def="s32 appearSfxId = -1">
@@ -361,7 +361,7 @@
       <Description>SFXID issued when the decal is affixed (Nothing is issued with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5300</SortID>
     </Field>
     <Field Def="f32 appearSfxOffsetPos">
@@ -377,7 +377,7 @@
       <Description>Mask texture ID (see texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>101</SortID>
     </Field>
     <Field Def="s32 diffuseTextureId = -1">
@@ -385,7 +385,7 @@
       <Description>Albedo Texture ID (See Texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>102</SortID>
     </Field>
     <Field Def="s32 reflecTextureId = -1">
@@ -393,7 +393,7 @@
       <Description>Reflectance texture ID (see texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>103</SortID>
     </Field>
     <Field Def="f32 maskScale = 1">
@@ -409,7 +409,7 @@
       <Description>Normal texture ID (see texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>105</SortID>
     </Field>
     <Field Def="s32 heightTextureId = -1">
@@ -417,7 +417,7 @@
       <Description>Height texture ID (see texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>106</SortID>
     </Field>
     <Field Def="s32 emissiveTextureId = -1">
@@ -425,7 +425,7 @@
       <Description>Emissive Texture ID (See Texture ID with -1)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>107</SortID>
     </Field>
     <Field Def="u8 diffuseColorR = 255">

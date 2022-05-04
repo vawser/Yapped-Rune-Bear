@@ -108,7 +108,7 @@
       <DisplayName>Text ID</DisplayName>
       <Description>Text ID for arts description</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="s16 useMagicPoint_L1">
@@ -162,7 +162,7 @@
       <DisplayName>AI Usage Judgment ID</DisplayName>
       <Description>AI usage judgment ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1100</SortID>
     </Field>
   </Fields>

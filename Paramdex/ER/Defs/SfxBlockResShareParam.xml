@@ -10,7 +10,7 @@
       <DisplayName>Shared Resource Block - Map UID</DisplayName>
       <Description>The map number that references the resource. Set the numerical value of the map number. (m12_34_56_78 → 12345678)</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
     </Field>
   </Fields>
 </PARAMDEF>

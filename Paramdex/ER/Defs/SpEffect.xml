@@ -306,7 +306,7 @@ NPC Behavior - Requires State Info 142
 Player Behavior - Requires State Info 275
 Bullet Behavior - Requires State Info 33</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50100</SortID>
       <ParamRef1>BehaviorParam_PC</ParamRef1>
       <ParamRef2>BehaviorParam</ParamRef2>
@@ -469,14 +469,14 @@ Requires State Info 76</Description>
       <DisplayName>Rune Gain +</DisplayName>
       <Description>Add the set value to the possessed soul</Description>
       <Minimum>-99999999</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>71000</SortID>
     </Field>
     <Field Def="s32 animIdOffset = -1">
       <DisplayName>Anim ID Offset</DisplayName>
       <Description>Anime ID offset (invalid-1)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>111500</SortID>
     </Field>
     <Field Def="f32 haveSoulRate = 1">
@@ -577,7 +577,7 @@ Requires State Info 76</Description>
       <DisplayName>Chain SpEffect ID</DisplayName>
       <Description>Special effect ID added at the end of life (-1 is ignored)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>111000</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -585,7 +585,7 @@ Requires State Info 76</Description>
       <DisplayName>Cycle SpEffect ID</DisplayName>
       <Description>Special effect ID that occurs in each activation cycle (-1 is ignored)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>111010</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -593,7 +593,7 @@ Requires State Info 76</Description>
       <DisplayName>Attack SpEffect ID</DisplayName>
       <Description>Special effect ID that occurs when hitting an attack (-1 is ignored)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>111020</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1372,7 +1372,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [0]</DisplayName>
       <Description>Special effect VfxId (-1 disabled)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14100</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1380,35 +1380,35 @@ Requires State Info 132</Description>
       <DisplayName>Accumulator - Over Value - SpEffect ID</DisplayName>
       <Description>Special effect Id activated at the upper limit of the spirit ball</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>114200</SortID>
     </Field>
     <Field Def="s32 accumuOverVal = -1">
       <DisplayName>Accumulator - Over Value</DisplayName>
       <Description>Genkitama upper limit</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>114100</SortID>
     </Field>
     <Field Def="s32 accumuUnderFireId = -1">
       <DisplayName>Accumulator - Under Value - SpEffect ID</DisplayName>
       <Description>Special effect Id activated at the lower limit of the spirit ball</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>114400</SortID>
     </Field>
     <Field Def="s32 accumuUnderVal = -1">
       <DisplayName>Accumulator - Under Value</DisplayName>
       <Description>Genkitama lower limit</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>114300</SortID>
     </Field>
     <Field Def="s32 accumuVal">
       <DisplayName>Accumulator - Increment Value</DisplayName>
       <Description>Genkitama accumulation value</Description>
       <Minimum>-99999999</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>114500</SortID>
     </Field>
     <Field Def="u8 eye_angX">
@@ -1434,7 +1434,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [1]</DisplayName>
       <Description>Special effect VfxId1 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14110</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1442,7 +1442,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [2]</DisplayName>
       <Description>Special effect VfxId2 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14120</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1450,7 +1450,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [3]</DisplayName>
       <Description>Special effect VfxId3 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14130</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1458,7 +1458,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [4]</DisplayName>
       <Description>Special effect VfxId4 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14140</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1466,7 +1466,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [5]</DisplayName>
       <Description>Special effect VfxId5 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14150</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1474,7 +1474,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [6]</DisplayName>
       <Description>Special effect VfxId6 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14160</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1482,7 +1482,7 @@ Requires State Info 132</Description>
       <DisplayName>Effect VFX [7]</DisplayName>
       <Description>Special effect VfxId7 (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14170</SortID>
       <ParamRef1>SpEffectVfxParam</ParamRef1>
     </Field>
@@ -1498,7 +1498,7 @@ Requires State Info 260</Description>
       <DisplayName>Generated AI Sound ID</DisplayName>
       <Description>Generates AI sound parameters with set values</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>75200</SortID>
     </Field>
     <Field Def="s16 addFootEffectSfxId = -1">
@@ -2310,7 +2310,7 @@ Requires State Info 66</Description>
       <DisplayName>Kill SpEffect ID</DisplayName>
       <Description>When the special effect of the state change type "HP drain" is enabled, when the enemy is defeated, the special effect ID set in the "HP drain activation special effect" of the same special effect is called (0: ignore).</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>111030</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>

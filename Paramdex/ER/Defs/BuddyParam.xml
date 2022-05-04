@@ -30,7 +30,7 @@
       <Description>Set the special effect ID that will be the summoning condition</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
     <Field Def="s32 npcParamId = -1">
@@ -38,7 +38,7 @@
       <Description>Set the NPC parameter ID of the summoned buddy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>NpcParam</ParamRef1>
     </Field>
@@ -47,7 +47,7 @@
       <Description>Sets the NPC Thinking Parameter ID of the summoned buddy</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
       <ParamRef1>NpcThinkParam</ParamRef1>
     </Field>
@@ -56,7 +56,7 @@
       <Description>For buddies that you want to summon while riding, set the NPC parameter ID for the "rider"</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
       <ParamRef1>NpcParam</ParamRef1>
     </Field>
@@ -65,7 +65,7 @@
       <Description>For buddies that you want to summon while riding, set the NPC Thinking Parameter ID for the "rider"</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
       <ParamRef1>NpcThinkParam</ParamRef1>
     </Field>
@@ -227,7 +227,7 @@
       <Description>Initial parameter ID by architype</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>210</SortID>
       <ParamRef1>CharaInitParam</ParamRef1>
     </Field>

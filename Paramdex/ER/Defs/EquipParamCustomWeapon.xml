@@ -10,7 +10,7 @@
       <DisplayName>Base Weapon ID</DisplayName>
       <Description>Weapon base ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -18,7 +18,7 @@
       <DisplayName>Gem ID</DisplayName>
       <Description>Magic stone ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
       <ParamRef1>EquipParamGem</ParamRef1>
     </Field>

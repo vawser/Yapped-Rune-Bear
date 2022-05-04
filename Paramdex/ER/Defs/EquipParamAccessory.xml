@@ -29,7 +29,7 @@
       <DisplayName>Reference ID</DisplayName>
       <Description>ID called from decorations</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>700</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
       <ParamRef2>Bullet</ParamRef2>
@@ -39,7 +39,7 @@
       <DisplayName>SFX Variation ID</DisplayName>
       <Description>Specify SFX variation (used to identify SFX in combination with TimeActEditor ID)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="f32 weight = 1">
@@ -55,21 +55,21 @@
       <DisplayName>Behavior ID</DisplayName>
       <Description>Action ID (= Skill)</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 basicPrice">
       <DisplayName>Basic Price</DisplayName>
       <Description>Basic price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1300</SortID>
     </Field>
     <Field Def="s32 sellValue">
       <DisplayName>Sell Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1310</SortID>
     </Field>
     <Field Def="s32 sortId">
@@ -81,7 +81,7 @@
     <Field Def="s32 qwcId = -1">
       <DisplayName>QWC ID</DisplayName>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1900</SortID>
     </Field>
     <Field Def="u16 equipModelId">
@@ -160,7 +160,7 @@
       <Description>-1: No vagrant 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s32 vagrantBonusEneDropItemLotId">
@@ -168,7 +168,7 @@
       <Description>-1: No drop 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s32 vagrantItemEneDropItemLotId">
@@ -176,7 +176,7 @@
       <Description>-1: No drop 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="u8 isDeposit:1">
@@ -247,7 +247,7 @@
       <DisplayName>Sale Price</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1320</SortID>
     </Field>
     <Field Def="s16 accessoryGroup = -1">
@@ -275,7 +275,7 @@
       <DisplayName>SpEffect ID [1]</DisplayName>
       <Description>Resident special effect ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>710</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -283,7 +283,7 @@
       <DisplayName>SpEffect ID [2]</DisplayName>
       <Description>Resident special effect ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>720</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -291,7 +291,7 @@
       <DisplayName>SpEffect ID [3]</DisplayName>
       <Description>Resident special effect ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>730</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -299,7 +299,7 @@
       <DisplayName>SpEffect ID [4]</DisplayName>
       <Description>Resident special effect ID4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>740</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>

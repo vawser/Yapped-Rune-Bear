@@ -28,20 +28,20 @@
     <Field Def="u32 bonusSoul_single">
       <DisplayName>Bonus Runes - Singleplayer</DisplayName>
       <Description>Amount of soul that can be obtained when defeating an area boss (in single play)</Description>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u32 bonusSoul_multi">
       <DisplayName>Bonus Runes - Multiplayer</DisplayName>
       <Description>Amount of soul that can be obtained when defeating an area boss (during multiplayer)</Description>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="u32 humanityPointCountFlagIdTop">
       <DisplayName>Humanity Point Count Flag ID</DisplayName>
       <Description>First flag ID for managing humanity drop points (using 20 Bit)</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="u16 humanityDropPoint1">
@@ -107,58 +107,58 @@
     <Field Def="u32 soloBreakInPoint_Min">
       <DisplayName>Min Invasion Spawns added after Boss Defeat</DisplayName>
       <Description>The minimum value of solo intrusion points to be added when defeating an area boss.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="u32 soloBreakInPoint_Max = 10000">
       <DisplayName>Max Invasion Spawns added after Boss Defeat</DisplayName>
       <Description>The maximum value of solo intrusion points to be added when defeating an area boss.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>510</SortID>
     </Field>
     <Field Def="u32 defeatBossFlagId_forSignAimList">
       <DisplayName>Boss Defeat Flag - For Purpose List</DisplayName>
       <Description>If this flag is ON, it will not be displayed in the list of purpose settings at the time of hosting. If it is 0, it is always displayed.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 displayAimFlagId">
       <DisplayName>Display Purpose Flag ID</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 foundBossFlagId">
       <DisplayName>Discovered Boss Flag ID</DisplayName>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="s32 foundBossTextId = -1">
       <DisplayName>Discovered Boss Text ID</DisplayName>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="s32 notFindBossTextId = -1">
       <DisplayName>Undiscovered Boss Text ID</DisplayName>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 bossChallengeFlagId">
       <DisplayName>Boss Challenge Flag ID</DisplayName>
       <Description>Boss challengeable flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag ON is targeted. If it is 0, it is always the target.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>600</SortID>
     </Field>
     <Field Def="u32 defeatBossFlagId">
       <DisplayName>Boss Defeat Flag ID</DisplayName>
       <Description>Boss defeat flag ID. When selecting the target boss in the intrusion position search when "Is the intrusion point automatically generated?" In the multiplayer area para is ○, the boss with this flag OFF is targeted.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>610</SortID>
     </Field>
     <Field Def="f32 bossPosX">

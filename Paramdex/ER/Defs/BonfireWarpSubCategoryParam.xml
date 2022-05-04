@@ -29,7 +29,7 @@
       <DisplayName>Text ID</DisplayName>
       <Description>Subcategory display name Text ID [MenuText]</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u16 tabId">

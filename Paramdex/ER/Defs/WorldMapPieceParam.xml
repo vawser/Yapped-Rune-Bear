@@ -29,7 +29,7 @@
       <DisplayName>Open - Event Flag ID</DisplayName>
       <Description>Event flag ID of open condition</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="f32 openTravelAreaLeft">
@@ -72,7 +72,7 @@
       <DisplayName>Acquisition - Event Flag ID</DisplayName>
       <Description>Event flag ID of the acquisition production start condition. Assuming that only one of the map fragments is On</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="f32 acquisitionEventScale = 1">

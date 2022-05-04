@@ -29,14 +29,14 @@
       <DisplayName>Text ID</DisplayName>
       <Description>Tab Display Name Text ID [MenuText]</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 sortId">
       <DisplayName>Sort ID</DisplayName>
       <Description>Tab display order sort ID. Line up from the left with aim</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="u16 iconId">

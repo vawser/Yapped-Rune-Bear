@@ -58,7 +58,7 @@
       <Description>SEID (category: p) specification to post at the end of the cutscene (-1: do not post)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12</SortID>
     </Field>
     <Field Def="s32 PostPlaySeIdForSkip = -1">
@@ -66,7 +66,7 @@
       <Description>SEID_ for skipping to post at the end of the cutscene (category: p) specified (-1: not posted)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>13</SortID>
     </Field>
     <Field Def="f32 EnterMapMuteStopTimeOnDrawCutscene = -1">

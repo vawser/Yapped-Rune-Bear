@@ -10,7 +10,7 @@
       <DisplayName>FFXID</DisplayName>
       <Description>ID on the FFX editor</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="u16 LifeTime">

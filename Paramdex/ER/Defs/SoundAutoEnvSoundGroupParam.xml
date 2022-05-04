@@ -11,7 +11,7 @@
       <Description>Sound No to play (sound type is fixed to a)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="f32 ExpandRange = 100">

@@ -136,14 +136,14 @@
       <DisplayName>Call Help - Action Animation ID</DisplayName>
       <Description>Animation ID (EzStateAnimID) when responding</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14500</SortID>
     </Field>
     <Field Def="s32 callHelp_CallActionId = -1">
       <DisplayName>Call Help - Call Action ID</DisplayName>
       <Description>Action ID (EzStateAnimID) when calling a friend</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>14600</SortID>
     </Field>
     <Field Def="u16 eye_dist">

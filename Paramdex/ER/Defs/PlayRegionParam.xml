@@ -29,14 +29,14 @@
       <DisplayName>Match Area ID</DisplayName>
       <Description>Simple match area ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u32 multiPlayStartLimitEventFlagId">
       <DisplayName>Multiplayer Start Limit - Event Flag ID</DisplayName>
       <Description>Multiplayer start limit event flag ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1040</SortID>
     </Field>
     <Field Def="f32 otherDisableDistance">
@@ -51,14 +51,14 @@
       <DisplayName>Player Position Save Limit - Event Flag ID</DisplayName>
       <Description>PC position save restriction event flag ID (flag ON: PC position save valid flag OFF: PC position save invalid 0: PC position save always valid)</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="u32 bossAreaId">
       <DisplayName>Boss Area ID</DisplayName>
       <Description>Areas with the same ID are treated as the same boss area.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1030</SortID>
     </Field>
     <Field Def="s16 cultNpcWhiteGhostEntityId_byFree = -1">
@@ -135,70 +135,70 @@
       <DisplayName>Warp Item Usage Permitted - Bonfire ID [1]</DisplayName>
       <Description>Bonfire entity ID1 used to determine whether to allow the use of warp items</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4000</SortID>
     </Field>
     <Field Def="u32 warpItemUsePermitBonfireId_2">
       <DisplayName>Warp Item Usage Permitted - Bonfire ID [2]</DisplayName>
       <Description>Bonfire entity ID 2 used to determine permission to use warp items</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4010</SortID>
     </Field>
     <Field Def="u32 warpItemUsePermitBonfireId_3">
       <DisplayName>Warp Item Usage Permitted - Bonfire ID [3]</DisplayName>
       <Description>Bonfire entity ID 3 used to determine permission to use warp items</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4020</SortID>
     </Field>
     <Field Def="u32 warpItemUsePermitBonfireId_4">
       <DisplayName>Warp Item Usage Permitted - Bonfire ID [4]</DisplayName>
       <Description>Bonfire entity ID 4 used to determine permission to use warp items</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4030</SortID>
     </Field>
     <Field Def="u32 warpItemUsePermitBonfireId_5">
       <DisplayName>Warp Item Usage Permitted - Bonfire ID [5]</DisplayName>
       <Description>Bonfire entity ID 5 used to determine permission to use warp items</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4040</SortID>
     </Field>
     <Field Def="u32 warpItemProhibitionEventFlagId_1">
       <DisplayName>Warp Item Prohibition - Event Flag ID [1]</DisplayName>
       <Description>Event flag ID 1 to determine the prohibition of warp items. Warp item permission Higher priority than judgment by bonfire ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4100</SortID>
     </Field>
     <Field Def="u32 warpItemProhibitionEventFlagId_2">
       <DisplayName>Warp Item Prohibition - Event Flag ID [2]</DisplayName>
       <Description>Event flag ID 2 to determine the prohibition of warp items. Warp item permission Higher priority than judgment by bonfire ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4110</SortID>
     </Field>
     <Field Def="u32 warpItemProhibitionEventFlagId_3">
       <DisplayName>Warp Item Prohibition - Event Flag ID [3]</DisplayName>
       <Description>Event flag ID 3 to determine the prohibition of warp items. Warp item permission Higher priority than judgment by bonfire ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4120</SortID>
     </Field>
     <Field Def="u32 warpItemProhibitionEventFlagId_4">
       <DisplayName>Warp Item Prohibition - Event Flag ID [4]</DisplayName>
       <Description>Event flag ID 4 to determine the prohibition of warp items. Warp item permission Higher priority than judgment by bonfire ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4130</SortID>
     </Field>
     <Field Def="u32 warpItemProhibitionEventFlagId_5">
       <DisplayName>Warp Item Prohibition - Event Flag ID [5]</DisplayName>
       <Description>Event flag ID 5 to determine the prohibition of warp items. Warp item permission Higher priority than judgment by bonfire ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4140</SortID>
     </Field>
     <Field Def="u8 enableBloodstain:1 = 1">
@@ -276,7 +276,7 @@
       <DisplayName>Block Yellow Monk Multiplayer - Event Flag ID</DisplayName>
       <Description>Yellow Coat Host Restriction Event Flag: When this flag is turned on, multiplayer as a host of Yellow Coat is prohibited. It is assumed that the block clear flag will be inserted. 0: No limit</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1120</SortID>
     </Field>
     <Field Def="f32 otherMaxDistance = 1000">
@@ -291,7 +291,7 @@
       <DisplayName>Summoning Pool Open - Event Flag ID</DisplayName>
       <Description>Sign accumulation release event flag ID</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1010</SortID>
     </Field>
     <Field Def="u8 areaNo">
@@ -344,245 +344,245 @@
       <DisplayName>Invasion Restriction - Event Flag ID [1]</DisplayName>
       <Description>Intrusion restriction event flag ID1</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1050</SortID>
     </Field>
     <Field Def="u32 whiteSignLimitEventFlagId_1">
       <DisplayName>Summon Restriction - Event Flag ID [1]</DisplayName>
       <Description>White sign limit event flag ID1</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1060</SortID>
     </Field>
     <Field Def="u32 matchAreaSignCreateLimitEventFlagId">
       <DisplayName>Summoning Pool Restriction - Event Flag ID</DisplayName>
       <Description>Sign accumulation registration restriction Event flag ID (Flag ON: Sign accumulation registration is permitted Flag OFF: Sign accumulation registration is prohibited 0: Sign accumulation registration is always permitted)</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1020</SortID>
     </Field>
     <Field Def="u32 signAimId_1">
       <DisplayName>Sign Aim ID [1]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_2">
       <DisplayName>Sign Aim ID [2]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_3">
       <DisplayName>Sign Aim ID [3]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_4">
       <DisplayName>Sign Aim ID [4]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_5">
       <DisplayName>Sign Aim ID [5]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_6">
       <DisplayName>Sign Aim ID [6]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_7">
       <DisplayName>Sign Aim ID [7]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 signAimId_8">
       <DisplayName>Sign Aim ID [8]</DisplayName>
       <Description>Multi-purpose ID to be displayed in the list when setting the purpose</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>999999</SortID>
     </Field>
     <Field Def="u32 redSignLimitEventFlagId_1">
       <DisplayName>Red Sign Limit - Event Flag ID [1]</DisplayName>
       <Description>Red sign limit event flag ID1</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1070</SortID>
     </Field>
     <Field Def="u32 breakInLimitEventFlagId_2">
       <DisplayName>Invasion Limit - Event Flag ID [2]</DisplayName>
       <Description>Intrusion restriction event flag ID2</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1052</SortID>
     </Field>
     <Field Def="u32 breakInLimitEventFlagId_3">
       <DisplayName>Invasion Limit - Event Flag ID [3]</DisplayName>
       <Description>Intrusion restriction event flag ID3</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1054</SortID>
     </Field>
     <Field Def="u32 whiteSignLimitEventFlagId_2">
       <DisplayName>White Sign Limit - Event Flag ID [2]</DisplayName>
       <Description>White sign limit event flag ID2</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1062</SortID>
     </Field>
     <Field Def="u32 whiteSignLimitEventFlagId_3">
       <DisplayName>White Sign Limit - Event Flag ID [3]</DisplayName>
       <Description>White sign limit event flag ID3</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1064</SortID>
     </Field>
     <Field Def="u32 redSignLimitEventFlagId_2">
       <DisplayName>Red Sign Limit - Event Flag ID [2]</DisplayName>
       <Description>Red sign limit event flag ID2</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1072</SortID>
     </Field>
     <Field Def="u32 redSignLimitEventFlagId_3">
       <DisplayName>Red Sign Limit - Event Flag ID [3]</DisplayName>
       <Description>Red sign limit event flag ID3</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1074</SortID>
     </Field>
     <Field Def="u32 bossId_1">
       <DisplayName>Boss ID [1]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2110</SortID>
     </Field>
     <Field Def="u32 bossId_2">
       <DisplayName>Boss ID [2]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2111</SortID>
     </Field>
     <Field Def="u32 bossId_3">
       <DisplayName>Boss ID [3]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2112</SortID>
     </Field>
     <Field Def="u32 bossId_4">
       <DisplayName>Boss ID [4]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2113</SortID>
     </Field>
     <Field Def="u32 bossId_5">
       <DisplayName>Boss ID [5]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2114</SortID>
     </Field>
     <Field Def="u32 bossId_6">
       <DisplayName>Boss ID [6]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2115</SortID>
     </Field>
     <Field Def="u32 bossId_7">
       <DisplayName>Boss ID [7]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2116</SortID>
     </Field>
     <Field Def="u32 bossId_8">
       <DisplayName>Boss ID [8]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2117</SortID>
     </Field>
     <Field Def="u32 bossId_9">
       <DisplayName>Boss ID [9]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2118</SortID>
     </Field>
     <Field Def="u32 bossId_10">
       <DisplayName>Boss ID [10]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2119</SortID>
     </Field>
     <Field Def="u32 bossId_11">
       <DisplayName>Boss ID [11]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2120</SortID>
     </Field>
     <Field Def="u32 bossId_12">
       <DisplayName>Boss ID [12]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2121</SortID>
     </Field>
     <Field Def="u32 bossId_13">
       <DisplayName>Boss ID [13]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2122</SortID>
     </Field>
     <Field Def="u32 bossId_14">
       <DisplayName>Boss ID [14]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2123</SortID>
     </Field>
     <Field Def="u32 bossId_15">
       <DisplayName>Boss ID [15]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2124</SortID>
     </Field>
     <Field Def="u32 bossId_16">
       <DisplayName>Boss ID [16]</DisplayName>
       <Description>Area boss ID. It is used to select the target boss when "Is the intrusion point automatically generated?" Is ○.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2125</SortID>
     </Field>
     <Field Def="u32 mapMenuUnlockEventId">
       <DisplayName>Map Menu Unlock - Event Flag ID</DisplayName>
       <Description>Map display_event flag ID (0: always displayed). Only when this event flag is set, it will be displayed in a lively manner in the map menu.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5800</SortID>
     </Field>
     <Field Def="dummy8 pad5[32]">

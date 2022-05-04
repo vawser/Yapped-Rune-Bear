@@ -10,7 +10,7 @@
       <DisplayName>Text ID</DisplayName>
       <Description>Key specified ⇒ Item name, 1-line help ID. No key specified ⇒ Category name ID. No text specified ⇒ Not displayed in pad / key settings (operation list display only)</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
       <UnkC8>割り当て項目</UnkC8>
     </Field>
@@ -59,7 +59,7 @@
       <DisplayName>Mapping Text ID</DisplayName>
       <Description>Item name to be displayed in the operation list. 0 :: Do not display in the list</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
       <UnkC8>操作一覧表示</UnkC8>
     </Field>

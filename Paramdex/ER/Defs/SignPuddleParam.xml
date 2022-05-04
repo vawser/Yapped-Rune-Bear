@@ -29,7 +29,7 @@
       <DisplayName>Match Area ID</DisplayName>
       <Description>ID of the simple match area to which it belongs</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="dummy8 pad1[24]">

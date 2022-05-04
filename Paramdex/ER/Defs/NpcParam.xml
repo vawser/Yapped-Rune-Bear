@@ -37,7 +37,7 @@
       <DisplayName>Resist Correct: Poison</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44000</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -108,7 +108,7 @@
       <DisplayName>Enemy Itemlot ID</DisplayName>
       <Description>Specify the lottery ID_for enemies of the item to be acquired at the time of death. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>28000</SortID>
       <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
@@ -116,7 +116,7 @@
       <DisplayName>Map Itemlot ID</DisplayName>
       <Description>Specify for the lottery ID_map of the item to be acquired at the time of death. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>28001</SortID>
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
@@ -151,7 +151,7 @@
       <DisplayName>Chr Activate Condition Param ID</DisplayName>
       <Enum>CHR_ACTIVATE_CONDITION_TYPE</Enum>
       <Description>Character appearance condition parameter ID</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>450000</SortID>
     </Field>
     <Field Def="f32 footIkErrorHeightLimit">
@@ -166,7 +166,7 @@
       <DisplayName>Humanity Lot ID</DisplayName>
       <Description>Specify the lottery ID of human nature to be acquired at the time of death</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>33010</SortID>
     </Field>
     <Field Def="s32 spEffectID0 = -1">
@@ -281,7 +281,7 @@
       <DisplayName>Anim ID Offset [1]</DisplayName>
       <Description>All animations will be played with IDs shifted by this number. If not, the original anime ID is referenced.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>83000</SortID>
     </Field>
     <Field Def="s16 lockGazePoint0 = -1">
@@ -422,7 +422,7 @@
       <DisplayName>Anim ID Offset [2]</DisplayName>
       <Description>All animations will be played with IDs shifted by this number. If not, the animation ID of the animation ID offset 1 is referred to.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>122000</SortID>
     </Field>
     <Field Def="f32 partsDamageRate1 = 1">
@@ -1593,7 +1593,7 @@
       <DisplayName>Resist Correct: Scarlet Rot</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44100</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -1601,7 +1601,7 @@
       <DisplayName>Phantom Shader ID</DisplayName>
       <Description>ID of the phantom parameter .xlsm to apply</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4500</SortID>
       <ParamRef1>PhantomParam</ParamRef1>
     </Field>
@@ -1609,7 +1609,7 @@
       <DisplayName>Multiplayer Correction Param ID</DisplayName>
       <Description>Multiplayer correction parameter ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400000</SortID>
       <ParamRef1>MultiPlayCorrectionParam</ParamRef1>
     </Field>
@@ -1644,7 +1644,7 @@
       <DisplayName>Lock Camera Param ID</DisplayName>
       <Description>The ID of the lock camera parameter applied to the camera when locked on. Highest priority. Unused if -1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10500</SortID>
       <ParamRef1>LockCamParam</ParamRef1>
     </Field>
@@ -1652,7 +1652,7 @@
       <DisplayName>SpEffect ID [16]</DisplayName>
       <Description>Resident special effects 16</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50111</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1660,7 +1660,7 @@
       <DisplayName>SpEffect ID [17]</DisplayName>
       <Description>Resident special effects 17</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50112</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1668,7 +1668,7 @@
       <DisplayName>SpEffect ID [18]</DisplayName>
       <Description>Resident special effects 18</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50113</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1676,7 +1676,7 @@
       <DisplayName>SpEffect ID [19]</DisplayName>
       <Description>Resident special effects 19</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50114</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1684,7 +1684,7 @@
       <DisplayName>SpEffect ID [20]</DisplayName>
       <Description>Resident special effect 20</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50115</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1692,7 +1692,7 @@
       <DisplayName>SpEffect ID [21]</DisplayName>
       <Description>Resident special effect 21</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50116</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1700,7 +1700,7 @@
       <DisplayName>SpEffect ID [22]</DisplayName>
       <Description>Resident special effect 22</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50117</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1708,7 +1708,7 @@
       <DisplayName>SpEffect ID [23]</DisplayName>
       <Description>Resident special effect 23</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50118</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1716,7 +1716,7 @@
       <DisplayName>SpEffect ID [24]</DisplayName>
       <Description>Resident special effect 24</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50119</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1724,7 +1724,7 @@
       <DisplayName>SpEffect ID [25]</DisplayName>
       <Description>Resident special effects 25</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50120</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1732,7 +1732,7 @@
       <DisplayName>SpEffect ID [26]</DisplayName>
       <Description>Resident special effect 26</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50121</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1740,7 +1740,7 @@
       <DisplayName>SpEffect ID [27]</DisplayName>
       <Description>Resident special effect 27</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50122</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1748,7 +1748,7 @@
       <DisplayName>SpEffect ID [28]</DisplayName>
       <Description>Resident special effects 28</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50123</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1756,7 +1756,7 @@
       <DisplayName>SpEffect ID [29]</DisplayName>
       <Description>Resident special effect 29</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50124</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1764,7 +1764,7 @@
       <DisplayName>SpEffect ID [30]</DisplayName>
       <Description>Resident special effect 30</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50125</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1772,7 +1772,7 @@
       <DisplayName>SpEffect ID [31]</DisplayName>
       <Description>Resident special effects 31</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>50126</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -1859,7 +1859,7 @@
       <DisplayName>Role Name ID</DisplayName>
       <Description>Specify the role name at the time of summoning. -1: Use the default role name of the target spirit body. 0: No display. 1 or more: Used as a text ID.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>405000</SortID>
     </Field>
     <Field Def="u16 estusFlaskLotPoint">
@@ -2065,7 +2065,7 @@
       <DisplayName>Material Ex Param ID [0]</DisplayName>
       <Description>Resident Material Expansion Para ID0</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>90000</SortID>
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
@@ -2073,7 +2073,7 @@
       <DisplayName>Material Ex Param ID [1]</DisplayName>
       <Description>Resident Material Expansion Para ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>90010</SortID>
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
@@ -2081,7 +2081,7 @@
       <DisplayName>Material Ex Param ID [2]</DisplayName>
       <Description>Resident Material Expansion Para ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>90020</SortID>
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
@@ -2089,7 +2089,7 @@
       <DisplayName>Material Ex Param ID [3]</DisplayName>
       <Description>Resident Material Expansion Para ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>90030</SortID>
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
@@ -2097,7 +2097,7 @@
       <DisplayName>Material Ex Param ID [4]</DisplayName>
       <Description>Resident Material Expansion Para ID4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>90040</SortID>
       <ParamRef1>MaterialExParam</ParamRef1>
     </Field>
@@ -2105,7 +2105,7 @@
       <DisplayName>Sleep Collector - Enemy Item Lot</DisplayName>
       <Description>Specify the lottery ID_for enemies of the item to be acquired when collecting Nemuri. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>29000</SortID>
       <ParamRef1>ItemLotParam_enemy</ParamRef1>
     </Field>
@@ -2113,7 +2113,7 @@
       <DisplayName>Sleep Collector - Map Item Lot</DisplayName>
       <Description>Specify for the lottery ID_map of the item to be acquired when collecting Nemuri. Please set only one of them.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>29001</SortID>
       <ParamRef1>ItemLotParam_map</ParamRef1>
     </Field>
@@ -2180,7 +2180,7 @@
       <DisplayName>Resist Correct ID: Hemorrhage</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the setting value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44200</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -2188,7 +2188,7 @@
       <DisplayName>Resist Correct ID: Blight</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44300</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -2196,7 +2196,7 @@
       <DisplayName>Resist Correct ID: Frostbite</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the setting value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44400</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -2204,7 +2204,7 @@
       <DisplayName>Resist Correct ID: Sleep</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44500</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -2212,7 +2212,7 @@
       <DisplayName>Resist Correct ID: Madness</DisplayName>
       <Description>When the abnormal condition is activated, the maximum value is temporarily changed by using the set value of the abnormal condition resistance correction parameter.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>44600</SortID>
       <ParamRef1>ResistCorrectParam</ParamRef1>
     </Field>
@@ -2220,7 +2220,7 @@
       <DisplayName>Chr Dead Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when the character is defeated for the first time. Flag ON when the character dies.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>761000</SortID>
     </Field>
     <Field Def="f32 stepDispInterpolateTime = 0.5">

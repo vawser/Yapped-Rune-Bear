@@ -29,7 +29,7 @@
       <DisplayName>Reference ID</DisplayName>
       <Description>ID0 called from the item (default)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
       <ParamRef2>Bullet</ParamRef2>
@@ -39,7 +39,7 @@
       <DisplayName>SFX Variation ID</DisplayName>
       <Description>Specify SFX variation (used to identify SFX in combination with TimeActEditor ID)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>99999</SortID>
     </Field>
     <Field Def="f32 weight = 1">
@@ -55,49 +55,49 @@
       <DisplayName>Basic Price</DisplayName>
       <Description>Basic price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 sellValue">
       <DisplayName>Sell Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1210</SortID>
     </Field>
     <Field Def="s32 behaviorId">
       <DisplayName>Behavior ID</DisplayName>
       <Description>Set the effect that occurs when using a tool</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="s32 replaceItemId = -1">
       <DisplayName>Replace Item ID</DisplayName>
       <Description>Item ID when replacing</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3500</SortID>
     </Field>
     <Field Def="s32 sortId">
       <DisplayName>Sort ID</DisplayName>
       <Description>Sort ID (-1: Do not collect)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3600</SortID>
     </Field>
     <Field Def="s32 appearanceReplaceItemId = -1">
       <DisplayName>Appearance Replace Item ID</DisplayName>
       <Description>Conditionally replace the display with another tool ID. The tool ID on the game data side does not change</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4400</SortID>
     </Field>
     <Field Def="s32 yesNoDialogMessageId = -1">
       <DisplayName>Dialog Message ID</DisplayName>
       <Description>YesNo Message ID used when displaying the dialog</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4300</SortID>
     </Field>
     <Field Def="u16 useEnableSpEffectType">
@@ -404,7 +404,7 @@
       <DisplayName>Reference ID - Left Hand</DisplayName>
       <Description>ID1 called from the item</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>410</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
       <ParamRef2>Bullet</ParamRef2>
@@ -414,7 +414,7 @@
       <DisplayName>Weapon Reference ID</DisplayName>
       <Description>Weapon ID to refer to when using the tool</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>250</SortID>
       <ParamRef1>EquipParamWeapon</ParamRef1>
     </Field>
@@ -423,7 +423,7 @@
       <Description>-1: No vagrant 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s32 vagrantBonusEneDropItemLotId">
@@ -431,7 +431,7 @@
       <Description>-1: No drop 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s32 vagrantItemEneDropItemLotId">
@@ -439,28 +439,28 @@
       <Description>-1: No drop 0: No lottery 1 ~: With lottery</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s32 castSfxId = -1">
       <DisplayName>Usage VFX - Cast</DisplayName>
       <Description>SFXID until the effect is activated when you try to use the item</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>500</SortID>
     </Field>
     <Field Def="s32 fireSfxId = -1">
       <DisplayName>Usage VFX  - Activate</DisplayName>
       <Description>SFX ID when the item is activated</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>501</SortID>
     </Field>
     <Field Def="s32 effectSfxId = -1">
       <DisplayName>Usage VFX - Effect</DisplayName>
       <Description>After the item is activated, the SFX ID in effect</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>502</SortID>
     </Field>
     <Field Def="u8 enable_ActiveBigRune:1">
@@ -611,7 +611,7 @@
       <DisplayName>Sale Value</DisplayName>
       <Description>Selling price</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1220</SortID>
     </Field>
     <Field Def="u8 rarity">
@@ -638,7 +638,7 @@
       <DisplayName>AI Usage Judgment ID</DisplayName>
       <Description>AI usage judgment ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21300</SortID>
     </Field>
     <Field Def="s16 consumeMP">
@@ -659,7 +659,7 @@
       <DisplayName>Reinforcement Goods ID</DisplayName>
       <Description>Strengthening tool ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21500</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -675,7 +675,7 @@
       <DisplayName>Reinforcement Cost</DisplayName>
       <Description>Enhanced price</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21520</SortID>
     </Field>
     <Field Def="s8 useLevel_vowType0">
@@ -805,7 +805,7 @@
       <DisplayName>Item Get Tutorial Flag ID</DisplayName>
       <Description>Event flag ID for the tutorial when you first get the item. Flag ON when item is obtained.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>21700</SortID>
     </Field>
     <Field Def="dummy8 reserve3[8]">

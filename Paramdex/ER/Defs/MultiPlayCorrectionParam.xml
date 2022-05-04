@@ -29,7 +29,7 @@
       <DisplayName>Friendly Client [1] - SpEffect ID</DisplayName>
       <Description>1 cooperating client Special effect ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -37,7 +37,7 @@
       <DisplayName>Friendly Client [2] - SpEffect ID</DisplayName>
       <Description>2 cooperating clients Special effect ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>110</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -45,7 +45,7 @@
       <DisplayName>Friendly Client [3] - SpEffect ID</DisplayName>
       <Description>3 cooperating clients Special effect ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>120</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>

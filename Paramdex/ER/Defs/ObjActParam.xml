@@ -10,33 +10,33 @@
       <DisplayName>Action Enabled - Message ID</DisplayName>
       <Description>The MsgID of the menu displayed when the action is enabled.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>9000</SortID>
     </Field>
     <Field Def="s32 actionFailedMsgId = -1">
       <DisplayName>Action Failed - Message ID</DisplayName>
       <Description>The MsgID of the menu to display when the action fails.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="u32 spQualifiedPassEventFlag">
       <DisplayName>Unconditional Qualified Event Flag ID</DisplayName>
       <Description>Event flags for unconditionally passing special conditions.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8500</SortID>
     </Field>
     <Field Def="u32 playerAnimId">
       <DisplayName>Player Animation ID</DisplayName>
       <Description>This is the animation ID for the action of the player character.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5000</SortID>
     </Field>
     <Field Def="u32 chrAnimId">
       <DisplayName>Character Animation ID</DisplayName>
       <Description>Anime ID at the time of action such as enemy</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6000</SortID>
     </Field>
     <Field Def="u16 validDist = 150">
@@ -72,7 +72,7 @@
     <Field Def="u32 objAnimId">
       <DisplayName>Object Animation ID</DisplayName>
       <Description>This is the animation ID for the action of the object.</Description>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
     </Field>
     <Field Def="u8 validPlayerAngle = 30">
@@ -119,7 +119,7 @@
       <DisplayName>Action Button Param ID</DisplayName>
       <Description>Action button parameter ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>ActionButtonParam</ParamRef1>
     </Field>
@@ -134,14 +134,14 @@
       <DisplayName>Pre-action SFX Dummy Poly ID</DisplayName>
       <Description>Issue SFX from this Damipoli ID before executing the object. If it is -1, start from the origin.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>12000</SortID>
     </Field>
     <Field Def="s32 preActionSfxId = -1">
       <DisplayName>Pre-action SFX ID</DisplayName>
       <Description>SFX issued before executing the object. If it is -1, it will not be issued.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>13000</SortID>
     </Field>
     <Field Def="dummy8 pad2[40]">

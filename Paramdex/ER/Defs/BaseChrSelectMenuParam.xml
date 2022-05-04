@@ -29,7 +29,7 @@
       <DisplayName>Chr Init Param ID - Class</DisplayName>
       <Description>Specify the initial parameter ID for each architype for which face para is set.</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>CharaInitParam</ParamRef1>
     </Field>
@@ -37,7 +37,7 @@
       <DisplayName>Chr Init Param ID - Origin</DisplayName>
       <Description>Specify the initial parameter ID for each feature archetype</Description>
       <EditFlags>None</EditFlags>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>101</SortID>
       <ParamRef1>CharaInitParam</ParamRef1>
     </Field>
@@ -46,7 +46,7 @@
       <Description>Images lined up on the base character selection screen. Specify the number of frames of resources embedded in Fla</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 textId">
@@ -54,7 +54,7 @@
       <Description>Occupation name menu text ID</Description>
       <EditFlags>None</EditFlags>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>300</SortID>
     </Field>
     <Field Def="dummy8 reserve[12]">

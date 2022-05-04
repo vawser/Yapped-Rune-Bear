@@ -29,7 +29,7 @@
       <DisplayName>Item ID</DisplayName>
       <Description>Reference item ID. Used to bring in the gesture text ID, icon ID, and sort ID for each menu. Register the tool ID of the equipment parameter</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
       <ParamRef1>EquipParamGoods</ParamRef1>
     </Field>
@@ -37,7 +37,7 @@
       <DisplayName>Message Anim ID</DisplayName>
       <Description>Anime ID for attaching messages. Specify the animation ID when attaching a message</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="u8 cannotUseRiding:1">

@@ -29,14 +29,14 @@
       <DisplayName>Dialog Message ID</DisplayName>
       <Description>Message ID of Yes / No dialog issued when using magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2500</SortID>
     </Field>
     <Field Def="s32 limitCancelSpEffectId = -1">
       <DisplayName>Ignore Usage Restriction - SpEffect ID</DisplayName>
       <Description>Usage restrictions can be ignored when the specified special effect ID is activated</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1020</SortID>
     </Field>
     <Field Def="s16 sortId">
@@ -442,21 +442,21 @@
       <DisplayName>SFX ID - Cast</DisplayName>
       <Description>SFXID during magical chanting</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="s32 fireSfxId = -1">
       <DisplayName>SFX ID - Fire</DisplayName>
       <Description>SFX ID when magic is activated</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>801</SortID>
     </Field>
     <Field Def="s32 effectSfxId = -1">
       <DisplayName>SFX ID - Effect</DisplayName>
       <Description>SFXID during magic effect</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>802</SortID>
     </Field>
     <Field Def="f32 toughnessCorrectRate">
@@ -521,28 +521,28 @@
       <DisplayName>Replacement Magic ID [1]</DisplayName>
       <Description>Replacement ID1</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7200</SortID>
     </Field>
     <Field Def="s32 ReplacementMagic2 = -1">
       <DisplayName>Replacement Magic ID [2]</DisplayName>
       <Description>Replacement ID2</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7210</SortID>
     </Field>
     <Field Def="s32 ReplacementMagic3 = -1">
       <DisplayName>Replacement Magic ID [3]</DisplayName>
       <Description>Replacement ID3</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7220</SortID>
     </Field>
     <Field Def="s32 ReplacementMagic4 = -1">
       <DisplayName>Replacement Magic ID [4]</DisplayName>
       <Description>Replacement ID 4</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7230</SortID>
     </Field>
     <Field Def="s16 mp_charge">
@@ -615,7 +615,7 @@
       <DisplayName>Reference ID [1]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>501</SortID>
       <UnkC8>スロット1</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -627,7 +627,7 @@
       <DisplayName>Reference ID [2]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>511</SortID>
       <UnkC8>スロット2</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -639,7 +639,7 @@
       <DisplayName>Reference ID [3]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>521</SortID>
       <UnkC8>スロット3</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -651,14 +651,14 @@
       <DisplayName>AI Usage Judgment ID</DisplayName>
       <Description>AI usage judgment ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>9100</SortID>
     </Field>
     <Field Def="s32 refId4 = -1">
       <DisplayName>Reference ID [4]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>531</SortID>
       <UnkC8>スロット4</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -670,7 +670,7 @@
       <DisplayName>Reference ID [5]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>541</SortID>
       <UnkC8>スロット5</UnkC8>
     </Field>
@@ -678,7 +678,7 @@
       <DisplayName>Reference ID [6]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>551</SortID>
       <UnkC8>スロット6</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -690,7 +690,7 @@
       <DisplayName>Reference ID [7]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>561</SortID>
       <UnkC8>スロット7</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -702,7 +702,7 @@
       <DisplayName>Reference ID [8]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>571</SortID>
       <UnkC8>スロット8</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -714,7 +714,7 @@
       <DisplayName>Reference ID [9]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>581</SortID>
       <UnkC8>スロット9</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>
@@ -726,7 +726,7 @@
       <DisplayName>Reference ID [10]</DisplayName>
       <Description>ID called from magic</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>591</SortID>
       <UnkC8>スロット10</UnkC8>
       <ParamRef1>AtkParam_Pc</ParamRef1>

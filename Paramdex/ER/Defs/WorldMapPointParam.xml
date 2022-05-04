@@ -29,14 +29,14 @@
       <DisplayName>Open - Event Flag ID</DisplayName>
       <Description>Event flag ID of open condition</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>100</SortID>
     </Field>
     <Field Def="u32 distViewEventFlagId">
       <DisplayName>Distant View - Event Flag ID</DisplayName>
       <Description>Event flag ID to be set when found on the distant view</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2100</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>
@@ -51,7 +51,7 @@
       <Enum>SOUND_BGM_MAP_PLACE_TYPE</Enum>
       <Description>Bgm location type</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u8 isAreaIcon:1">
@@ -108,7 +108,7 @@
       <DisplayName>Cleared - Event Flag ID</DisplayName>
       <Description>Cleared event flag ID (0: always treated as cleared)</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>110</SortID>
     </Field>
     <Field Def="u8 dispMask00:1">
@@ -202,7 +202,7 @@
       <DisplayName>Text ID [1]</DisplayName>
       <Description>The text ID to display. If the value is invalid (-1), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>210</SortID>
       <UnkC8>テキストID01</UnkC8>
     </Field>
@@ -210,7 +210,7 @@
       <DisplayName>Text Enable Flag [1]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (0) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>215</SortID>
       <UnkC8>テキストID01</UnkC8>
     </Field>
@@ -218,7 +218,7 @@
       <DisplayName>Text Disable Flag [1]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (0) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>216</SortID>
       <UnkC8>テキストID01</UnkC8>
     </Field>
@@ -226,7 +226,7 @@
       <DisplayName>Text ID [2]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-2), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>220</SortID>
       <UnkC8>テキストID02</UnkC8>
     </Field>
@@ -234,7 +234,7 @@
       <DisplayName>Text Enable Flag [2]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (1) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>225</SortID>
       <UnkC8>テキストID02</UnkC8>
     </Field>
@@ -242,7 +242,7 @@
       <DisplayName>Text Disable Flag [2]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (1) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>226</SortID>
       <UnkC8>テキストID02</UnkC8>
     </Field>
@@ -250,7 +250,7 @@
       <DisplayName>Text ID [3]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-3), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>230</SortID>
       <UnkC8>テキストID03</UnkC8>
     </Field>
@@ -258,7 +258,7 @@
       <DisplayName>Text Enable Flag [3]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (2) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>235</SortID>
       <UnkC8>テキストID03</UnkC8>
     </Field>
@@ -266,7 +266,7 @@
       <DisplayName>Text Disable Flag [3]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (2) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>236</SortID>
       <UnkC8>テキストID03</UnkC8>
     </Field>
@@ -274,7 +274,7 @@
       <DisplayName>Text ID [4]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-4), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>240</SortID>
       <UnkC8>テキストID04</UnkC8>
     </Field>
@@ -282,7 +282,7 @@
       <DisplayName>Text Enable Flag [4]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (3) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>245</SortID>
       <UnkC8>テキストID04</UnkC8>
     </Field>
@@ -290,7 +290,7 @@
       <DisplayName>Text Disable Flag [4]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (3) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>246</SortID>
       <UnkC8>テキストID04</UnkC8>
     </Field>
@@ -298,7 +298,7 @@
       <DisplayName>Text ID [5]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-5), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>250</SortID>
       <UnkC8>テキストID05</UnkC8>
     </Field>
@@ -306,7 +306,7 @@
       <DisplayName>Text Enable Flag [5]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (4) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>255</SortID>
       <UnkC8>テキストID05</UnkC8>
     </Field>
@@ -314,7 +314,7 @@
       <DisplayName>Text Disable Flag [5]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (4) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>256</SortID>
       <UnkC8>テキストID05</UnkC8>
     </Field>
@@ -322,7 +322,7 @@
       <DisplayName>Text ID [6]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-6), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>260</SortID>
       <UnkC8>テキストID06</UnkC8>
     </Field>
@@ -330,7 +330,7 @@
       <DisplayName>Text Enable Flag [6]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (5) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>265</SortID>
       <UnkC8>テキストID06</UnkC8>
     </Field>
@@ -338,7 +338,7 @@
       <DisplayName>Text Disable Flag [6]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (5) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>266</SortID>
       <UnkC8>テキストID06</UnkC8>
     </Field>
@@ -346,7 +346,7 @@
       <DisplayName>Text ID [7]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-7), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>270</SortID>
       <UnkC8>テキストID07</UnkC8>
     </Field>
@@ -354,7 +354,7 @@
       <DisplayName>Text Enable Flag [7]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (6) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>275</SortID>
       <UnkC8>テキストID07</UnkC8>
     </Field>
@@ -362,7 +362,7 @@
       <DisplayName>Text Disable Flag [7]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (6) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>276</SortID>
       <UnkC8>テキストID07</UnkC8>
     </Field>
@@ -370,7 +370,7 @@
       <DisplayName>Text ID [8]</DisplayName>
       <Description>The text ID to display. If it is an invalid value (-8), nothing is displayed.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>280</SortID>
       <UnkC8>テキストID08</UnkC8>
     </Field>
@@ -378,7 +378,7 @@
       <DisplayName>Text Enable Flag [8]</DisplayName>
       <Description>Display text Event flag ID. Display if the event flag is On. If the event flag ID (7) is invalid, it will be treated as On.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>285</SortID>
       <UnkC8>テキストID08</UnkC8>
     </Field>
@@ -386,7 +386,7 @@
       <DisplayName>Text Disable Flag [8]</DisplayName>
       <Description>Hidden event flag ID of the text. If the event flag is On, it will not be displayed. It takes precedence over the display event flag ID. If the event flag ID (7) is invalid, it will be treated as Off.</Description>
       <DisplayFormat>%u</DisplayFormat>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>286</SortID>
       <UnkC8>テキストID08</UnkC8>
     </Field>
@@ -458,7 +458,7 @@
       <DisplayName>Distant View ID [0]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>
@@ -490,7 +490,7 @@
       <DisplayName>Distant View ID [1]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2010</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>
@@ -498,7 +498,7 @@
       <DisplayName>Distant View ID [2]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2020</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>
@@ -506,7 +506,7 @@
       <DisplayName>Distant View ID [3]</DisplayName>
       <Description>Distance stand ID</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2030</SortID>
       <UnkC8>遠見台</UnkC8>
     </Field>

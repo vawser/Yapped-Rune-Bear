@@ -10,14 +10,14 @@
       <DisplayName>Value</DisplayName>
       <Description>The value handled by the program. Make serial numbers within one group</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 captionId">
       <DisplayName>Caption ID</DisplayName>
       <Description>ID of the text to be displayed</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="u8 iconId">

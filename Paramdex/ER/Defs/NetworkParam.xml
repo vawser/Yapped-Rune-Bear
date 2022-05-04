@@ -932,7 +932,7 @@
       <DisplayName>Ghost - Replay Bonfire Phantom Param ID (CodeDisplayName)</DisplayName>
       <Description>Phantom bonfire mode phantom parameter ID used when codename matches</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>520</SortID>
       <UnkB8>ghost</UnkB8>
       <UnkC0>NET_GHOST_PARAM</UnkC0>
@@ -952,7 +952,7 @@
       <DisplayName>Ghost - Replay Bonfire Phantom Param ID</DisplayName>
       <Description>Phantom bonfire mode phantom parameter ID</Description>
       <Minimum>0</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>522</SortID>
       <UnkB8>ghost</UnkB8>
       <UnkC0>NET_GHOST_PARAM</UnkC0>

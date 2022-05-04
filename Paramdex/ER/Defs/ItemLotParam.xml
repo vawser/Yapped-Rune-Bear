@@ -10,7 +10,7 @@
       <DisplayName>Item ID [1]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>400</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -23,7 +23,7 @@
       <DisplayName>Item ID [2]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1200</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -36,7 +36,7 @@
       <DisplayName>Item ID [3]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2000</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -49,7 +49,7 @@
       <DisplayName>Item ID [4]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2800</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -62,7 +62,7 @@
       <DisplayName>Item ID [5]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3600</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -75,7 +75,7 @@
       <DisplayName>Item ID [6]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4400</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -88,7 +88,7 @@
       <DisplayName>Item ID [7]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5200</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -101,7 +101,7 @@
       <DisplayName>Item ID [8]</DisplayName>
       <Description>Item ID that can be obtained</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6000</SortID>
       <ParamRef1>EquipParamAccessory</ParamRef1>
       <ParamRef2>EquipParamCustomWeapon</ParamRef2>
@@ -283,7 +283,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>800</SortID>
     </Field>
     <Field Def="u32 getItemFlagId02">
@@ -291,7 +291,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1600</SortID>
     </Field>
     <Field Def="u32 getItemFlagId03">
@@ -299,7 +299,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2400</SortID>
     </Field>
     <Field Def="u32 getItemFlagId04">
@@ -307,7 +307,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>3200</SortID>
     </Field>
     <Field Def="u32 getItemFlagId05">
@@ -315,7 +315,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4000</SortID>
     </Field>
     <Field Def="u32 getItemFlagId06">
@@ -323,7 +323,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>4800</SortID>
     </Field>
     <Field Def="u32 getItemFlagId07">
@@ -331,7 +331,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>5600</SortID>
     </Field>
     <Field Def="u32 getItemFlagId08">
@@ -339,7 +339,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: common use)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6400</SortID>
     </Field>
     <Field Def="u32 getItemFlagId">
@@ -347,7 +347,7 @@
       <Description>Combined use of acquired flag and crunchy frame (0: flag invalid)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>150</SortID>
     </Field>
     <Field Def="u32 cumulateNumFlagId">
@@ -355,7 +355,7 @@
       <Description>For saving the number of lottery (* 8 flag serial number used)</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>Wrap, Lock</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>160</SortID>
     </Field>
     <Field Def="u8 cumulateNumMax">

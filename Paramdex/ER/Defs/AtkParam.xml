@@ -52,7 +52,7 @@
       <DisplayName>Target SpEffect [0]</DisplayName>
       <Description>Enter the ID created with the special effects parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6300</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -60,7 +60,7 @@
       <DisplayName>Target SpEffect [1]</DisplayName>
       <Description>Enter the ID created with the special effects parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6400</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -68,7 +68,7 @@
       <DisplayName>Target SpEffect [2]</DisplayName>
       <Description>Enter the ID created with the special effects parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6500</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -76,7 +76,7 @@
       <DisplayName>Target SpEffect [3]</DisplayName>
       <Description>Enter the ID created with the special effects parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6600</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -84,7 +84,7 @@
       <DisplayName>Target SpEffect [4]</DisplayName>
       <Description>Enter the ID created with the special effects parameter</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6700</SortID>
       <ParamRef1>SpEffectParam</ParamRef1>
     </Field>
@@ -575,42 +575,42 @@
       <DisplayName>Appear AI Sound ID</DisplayName>
       <Description>ID of AI sound generated when an attack occurs</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7000</SortID>
     </Field>
     <Field Def="s32 HitAiSoundId">
       <DisplayName>Hit AI Sound ID</DisplayName>
       <Description>ID of AI sound generated at the time of hit</Description>
       <Minimum>0</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7000</SortID>
     </Field>
     <Field Def="s32 HitRumbleId = -1">
       <DisplayName>Hit Rumble ID - Default</DisplayName>
       <Description>Vibration ID at the time of hit (-1 invalid). It is a vibration ID when none of the following three applies</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6120</SortID>
     </Field>
     <Field Def="s32 HitRumbleIdByNormal = -1">
       <DisplayName>Hit Rumble ID - Normal</DisplayName>
       <Description>Vibration ID at the time of hit when hitting the tip (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6130</SortID>
     </Field>
     <Field Def="s32 HitRumbleIdByMiddle = -1">
       <DisplayName>Hit Rumble ID - Middle</DisplayName>
       <Description>Vibration ID at the time of hit when hit in the middle (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6140</SortID>
     </Field>
     <Field Def="s32 HitRumbleIdByRoot = -1">
       <DisplayName>Hit Rumble ID - Root</DisplayName>
       <Description>Vibration ID at the time of hit when hitting the root (-1 invalid)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>6150</SortID>
     </Field>
     <Field Def="s32 traceSfxId0 = -1">
@@ -618,7 +618,7 @@
       <Description>Sword flash SfxID_0 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8000</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead0 = -1">
@@ -626,7 +626,7 @@
       <Description>Sword flash root Damipoli ID_0 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8001</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail0 = -1">
@@ -634,7 +634,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_0</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8002</SortID>
     </Field>
     <Field Def="s32 traceSfxId1 = -1">
@@ -642,7 +642,7 @@
       <Description>Sword flash SfxID_1 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8003</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead1 = -1">
@@ -650,7 +650,7 @@
       <Description>Sword Flash Root Damipoli ID_1 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8004</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail1 = -1">
@@ -658,7 +658,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_1</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8005</SortID>
     </Field>
     <Field Def="s32 traceSfxId2 = -1">
@@ -666,7 +666,7 @@
       <Description>Sword flash SfxID_2 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8006</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead2 = -1">
@@ -674,7 +674,7 @@
       <Description>Sword Flash Root Damipoli ID_2 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8007</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail2 = -1">
@@ -682,7 +682,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_2</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8008</SortID>
     </Field>
     <Field Def="s32 traceSfxId3 = -1">
@@ -690,7 +690,7 @@
       <Description>Sword Flash SfxID_3 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8009</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead3 = -1">
@@ -698,7 +698,7 @@
       <Description>Sword flash root Damipoli ID_3 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8010</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail3 = -1">
@@ -706,7 +706,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_3</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8011</SortID>
     </Field>
     <Field Def="s32 traceSfxId4 = -1">
@@ -714,7 +714,7 @@
       <Description>Sword Flash SfxID_4 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8012</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead4 = -1">
@@ -722,7 +722,7 @@
       <Description>Sword flash root Damipoli ID_4 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8013</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail4 = -1">
@@ -730,7 +730,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_4</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8014</SortID>
     </Field>
     <Field Def="s32 traceSfxId5 = -1">
@@ -738,7 +738,7 @@
       <Description>Sword Flash SfxID_5 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8015</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead5 = -1">
@@ -746,7 +746,7 @@
       <Description>Sword Flash Root Damipoli ID_5 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8016</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail5 = -1">
@@ -754,7 +754,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_5</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8017</SortID>
     </Field>
     <Field Def="s32 traceSfxId6 = -1">
@@ -762,7 +762,7 @@
       <Description>Sword Flash SfxID_6 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8018</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead6 = -1">
@@ -770,7 +770,7 @@
       <Description>Sword Flash Root Damipoli ID_6 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8019</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail6 = -1">
@@ -778,7 +778,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_6</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8020</SortID>
     </Field>
     <Field Def="s32 traceSfxId7 = -1">
@@ -786,7 +786,7 @@
       <Description>Sword Flash SfxID_7 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8021</SortID>
     </Field>
     <Field Def="s32 traceDmyIdHead7 = -1">
@@ -794,7 +794,7 @@
       <Description>Sword Flash Root Damipoli ID_7 (-1 invalid)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8022</SortID>
     </Field>
     <Field Def="s32 traceDmyIdTail7 = -1">
@@ -802,7 +802,7 @@
       <Description>Sword Flash Sword Tip Damipoli ID_7</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>99999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>8023</SortID>
     </Field>
     <Field Def="f32 hit4_Radius">
@@ -1321,7 +1321,7 @@
       <DisplayName>Attack Element Correct ID</DisplayName>
       <Description>For overwriting the ID of the parameter that corrects the attack attribute</Description>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>10000</SortID>
     </Field>
     <Field Def="s16 decalBaseId1 = -1">

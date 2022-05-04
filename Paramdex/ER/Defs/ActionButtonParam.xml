@@ -31,7 +31,7 @@
       <Description>Specify the Damipoli ID that is the center of the bottom of the range. If there is no Damipoly or -1 is entered, the center coordinates will be the reference.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>200</SortID>
     </Field>
     <Field Def="s32 dummyPoly2 = -1">
@@ -39,7 +39,7 @@
       <Description>Used only when the range type is a capsule. Additional Damipoly (capsule) that creates a line segment with two Damipoly</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>210</SortID>
     </Field>
     <Field Def="f32 radius">
@@ -120,7 +120,7 @@
       <Description>If there is no Damipoli that specifies the Damipoli ID that will be the position of the action spot, or if -1 is entered, the center coordinates will be the reference.</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>850</SortID>
     </Field>
     <Field Def="u8 textBoxType">
@@ -181,7 +181,7 @@
       <Description>Text ID to display</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1000</SortID>
     </Field>
     <Field Def="u32 invalidFlag">
@@ -189,7 +189,7 @@
       <Description>If this flag is ON, the action button will not appear and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1100</SortID>
     </Field>
     <Field Def="u32 grayoutFlag">
@@ -197,7 +197,7 @@
       <Description>If this flag is ON, the action button will be grayed out and no judgment will be made.</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1200</SortID>
     </Field>
     <Field Def="s32 overrideActionButtonIdForRide = -1">
@@ -205,7 +205,7 @@
       <Description>Replace with this action button ID parameter while riding (-1: No replacement)</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1270</SortID>
     </Field>
     <Field Def="f32 execInvalidTime">

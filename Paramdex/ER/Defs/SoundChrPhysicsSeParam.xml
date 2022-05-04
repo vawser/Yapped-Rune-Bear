@@ -30,7 +30,7 @@
       <Description>SEID pronounced when contacting the ground after death. (-1: Invalid). SEID category is fixed to c</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>1</SortID>
     </Field>
     <Field Def="s32 ContactLandAddSeId = -1">
@@ -38,7 +38,7 @@
       <Description>Additional SEID (for material) that sounds when it comes into contact with the ground after death. (-1: Invalid). SEID category is fixed to c</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>2</SortID>
     </Field>
     <Field Def="s32 ContactLandPlayNum = 1">
@@ -86,7 +86,7 @@
       <Description>SEID that sounds when you come into contact with Player after death. (-1: Invalid). SEID category is fixed to c</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>999999999</Maximum>
+      <Maximum>2100000000</Maximum>
       <SortID>7</SortID>
     </Field>
     <Field Def="f32 ContactPlayerMinImpuse = 20">
