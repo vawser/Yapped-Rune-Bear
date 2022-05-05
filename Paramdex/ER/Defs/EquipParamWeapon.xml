@@ -542,7 +542,10 @@
     <Field Def="u8 weaponCategory">
       <DisplayName>Weapon Category</DisplayName>
       <Enum>WEAPON_CATEGORY</Enum>
-      <Description>Weapon category.</Description>
+      <Description>Weapon category.
+8 - Enables Sorcery/Incantation Display
+10 - Enables Ammunition Usage and Range Display
+11 - Enables Bolt Usage and Range Display</Description>
       <Maximum>99</Maximum>
       <SortID>500</SortID>
     </Field>
@@ -763,7 +766,7 @@
       <SortID>1500</SortID>
     </Field>
     <Field Def="u8 enableGuard:1">
-      <DisplayName>Enables Guard</DisplayName>
+      <DisplayName>Allow Shield Buff</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Guard with L1 when equipped with left hand</Description>
       <Maximum>1</Maximum>
@@ -840,7 +843,7 @@
       <SortID>3600</SortID>
     </Field>
     <Field Def="u8 isHeroPointCorrect:1">
-      <DisplayName>Is Arcane Correction</DisplayName>
+      <DisplayName>Is Humanity Correction</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
       <Description>Is there an attack power correction by human nature?</Description>
       <Maximum>1</Maximum>
@@ -903,9 +906,9 @@
       <SortID>8550</SortID>
     </Field>
     <Field Def="u8 isDragonSlayer:1">
-      <DisplayName>Is Dragonslayer</DisplayName>
+      <DisplayName>Is Greatbow Type</DisplayName>
       <Enum>EQUIP_BOOL</Enum>
-      <Description>Is it a dragon hunting weapon?</Description>
+      <Description>For weapons/ammunition. Is it a dragon hunting weapon?</Description>
       <Maximum>1</Maximum>
       <SortID>1947</SortID>
     </Field>
@@ -1399,7 +1402,7 @@
       <SortID>6450</SortID>
     </Field>
     <Field Def="u32 arrowBoltEquipId">
-      <DisplayName>Ammunition Equip ID</DisplayName>
+      <DisplayName>Quiver ID</DisplayName>
       <Description>Equipment number of the quiver (magazine) display model. In the case of a bow, it is displayed as a quiver, and in the case of a crossbow, it is displayed as a magazine.</Description>
       <Maximum>2100000000</Maximum>
       <SortID>350</SortID>
@@ -1961,7 +1964,7 @@
     </Field>
     <Field Def="s16 stealthAtkRate">
       <DisplayName>Stealth Attack Multiplier</DisplayName>
-      <Description>Stealth attack power multiplier</Description>
+      <Description>Applies additional multiplier to baseline stealth attack multiplier. For example: 10 = 110%.</Description>
       <Minimum>-1</Minimum>
       <Maximum>999</Maximum>
       <SortID>9050</SortID>
