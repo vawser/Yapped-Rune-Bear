@@ -520,7 +520,7 @@
     </Field>
     <Field Def="s16 bowDistRate">
       <DisplayName>Bow Distance %</DisplayName>
-      <Description>Up% to extend the flight distance</Description>
+      <Description>Applies multiplier to the base range of 50.</Description>
       <Minimum>-100</Minimum>
       <Maximum>999</Maximum>
       <SortID>9100</SortID>

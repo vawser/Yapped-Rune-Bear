@@ -2660,11 +2660,45 @@ Requires State Info 66</Description>
       <Increment>0.001</Increment>
       <SortID>300040</SortID>
     </Field>
-    <Field Def="dummy8 pad3[8]">
-      <DisplayName>pad</DisplayName>
-      <DisplayFormat>%f</DisplayFormat>
-      <EditFlags>Wrap</EditFlags>
-      <SortID>470002</SortID>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 1</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 2</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 3</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 4</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 5</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 6</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 7</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
+    </Field>
+    <Field Def="u8 pad1">
+      <DisplayName>Unknown 8</DisplayName>
+      <Description></Description>
+      <SortID>0</SortID>
     </Field>
   </Fields>
 </PARAMDEF>
