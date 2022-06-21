@@ -36,6 +36,7 @@
 482 Alluring Pot
 483 Alluring Pot
 484 Beastlure Pot Effect
+486 Glintstone crown - Erudition shine bulb?
 490 Rune Arc
 491 Rune Arc
 499 Rune Arc
@@ -136,6 +137,16 @@
 1938 Serpent Bow
 1939 Serpent Bow [Attack]
 1940 Bow
+1950 Twinsage Glintstone Crown - State Info 459
+1951 State Info 459 [Trigger] Visual Effect 7000
+1952 Olivinius Glintstone Crown - State Info 460
+1953 State Info 460 [Trigger] Visual Effect 7001
+1954 Lazuli Glintstone Crown - State Info 461
+1955 State Info 461 [Trigger] Visual Effect 7002
+1956 Karolos Glintstone Crown - State Info 462
+1957 State Info 462 [Trigger] Visual Effect 7003
+1958 Witch's Glintstone Crown - State Info 463
+1959 State Info 463 [Trigger] Visual Effect 7004
 3050 Stanching Boluses
 3051 Stanching Boluses [Chain]
 3055 Stimulating Boluses
@@ -3123,11 +3134,29 @@
 5321400 Icon Shield - Grant HP Restoration
 5322200 Ant's Skull Plate - Raise Immunity
 5322400 Eclipse Crest Greatshield - Raise Immunity, Robustness and Focus
+6058000 Lusat's Glintstone Crown - Star Shower & Glintstone Stars, Damage +10%, increase FP cost +15%
+6058001 Lusat's Glintstone Crown - Stars of Ruin, Damage +15%
+6058100 Azur's Glintstone Crown - Glintstone Cometshard & Comet, Damage 10%, increase FP cost +15%
+6058101 Azur's Glintstone Crown - Comet Azur, Damage +15%
 6068000 White Mask - When Bloodloss status[Trigger]
 6068001 White Mask - Increase damage [Cycle]
 6074000 Crimson Hood - +1 vigor
 6074100 Navy Hood - +1 mind
 6082000 Envoy Crown - +15% damage to Bubble skills from Trumpet Weapons
+6083000 Twinsage Glintstone Crown - +6 Intelligence, Max HP 91%, Max Stamina 91%
+6083001 Twinsage Glintstone Crown - icon: red square debuff [Cycle]
+6083100 Olivinius Glintstone Crown - +3 Intelligence, Max HP 91%
+6083101 Olivinius Glintstone Crown - icon: red square debuff [Cycle]
+6083200 Lazuli Glintstone Crown - +3 Dexterity, +3 Intelligence, Max HP 82%,
+6083201 Lazuli Glintstone Crown - icon: Sword square ^ [Cycle]
+6083202 Lazuli Glintstone Crown - icon: red square debuff [Cycle]
+6083300 Karolos Glintstone Crown - +3 Intelligence, Max Stamina 91%
+6083301 Karolos Glintstone Crown - ??? [Cycle]
+6083400 Witch's Glintstone Crown - +3 Intelligence,  +3 Arcane, Max Stamina 82%
+6083401 Witch's Glintstone Crown - icon: Arcane Buff [Cycle]
+6099000 Hierodas Glintstone Crown - +2 Endurance, +2 Intelligence, Max FP 91%
+6100000 Haima Glintstone Crown - +2 Strength, +2 Intelligence, Max FP 91%
+6108000 Imp Head (Cat) - +2 Intelligence
 6093010 Raptor chest piece - Boost jump attack damage
 6190000 Ash-of-War Scarab Scarab - Ash-of-War Scarab cost -15% FP, increased damage taken
 6190100 Incantation Scarab - Incantation cost -15% FP, increased damage taken
