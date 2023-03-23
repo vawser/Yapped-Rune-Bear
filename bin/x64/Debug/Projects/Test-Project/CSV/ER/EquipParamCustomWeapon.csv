@@ -1,1370 +1,0 @@
-Row ID;Row Name;baseWepId;gemId;reinforceLv
-10;[test gem 1] - Straight Sword;2000000;10;6;
-20;[Lion's Claw] - Blank;100000;80;6;
-21;[Lion's Claw] - Blank;100000;80;6;
-22;[Lion's Claw] - Blank;100500;85;6;
-23;[Lion's Claw] - Blank;100500;85;6;
-80;[Lion's Claw] - Straight Sword;2000000;80;0;
-81;[Lion's Claw] - Straight Sword;2000100;81;0;
-82;[Lion's Claw] - Straight Sword;2000200;82;0;
-83;[Lion's Claw] - Straight Sword;2000300;83;0;
-84;[Lion's Claw] - Straight Sword;2000400;84;0;
-85;[Lion's Claw] - Straight Sword;2000500;85;0;
-86;[Lion's Claw] - Straight Sword;2000600;86;0;
-87;[Lion's Claw] - Straight Sword;2000700;87;0;
-88;[Lion's Claw] - Straight Sword;2000800;88;0;
-89;[Lion's Claw] - Straight Sword;2000900;89;0;
-90;[Lion's Claw] - Straight Sword;2001000;90;0;
-100;[Lion's Claw] - Greatsword;3000000;100;0;
-101;[Impaling Thrust] - Straight Sword;2000000;101;0;
-102;[Piercing Fang] - Katana;9000000;102;0;
-103;[Spinning Slash] - Straight Sword;2000000;103;0;
-104;[Spinning Slash] - Greatsword;3000000;103;0;
-105;[Charge Forth] - Great Spear;17060000;105;0;
-106;[Stamp (Upward Cut)] - Greatsword;3000000;106;0;
-107;[Stamp (Sweep)] - Colossal Sword;4000000;107;0;
-108;[Blood Tax] - Straight Sword;2000000;108;0;
-109;[Repeating Thrust] - Straight Sword;2000000;109;0;
-110;[Wild Strikes] - Axe;14000000;110;0;
-111;[Spinning Strikes] - Halberd;18000000;111;0;
-112;[Double Slash] - Katana;9000000;112;0;
-113;[Prelate's Charge] - Colossal Weapon;23000000;113;0;
-114;[Unsheathe] - Katana;9000000;114;0;
-115;[Square Off] - Straight Sword;2000000;115;0;
-116;[Giant Hunt] - Great Spear;17060000;116;0;
-117;[Torch Attack] - Torch;24000000;117;0;
-118;[Loretta's Slash] - Twinblade;10000000;118;0;
-119;[Poison Moth Flight] - Straight Sword;2000000;119;0;
-120;[Spinning Weapon] - Straight Sword;2000000;120;0;
-121;[] - Straight Sword;2000000;121;0;
-122;[Storm Assault] - Halberd;18030000;122;0;
-123;[Stormcaller] - Halberd;18030000;123;0;
-124;[Glintblade Phalanx] - Straight Sword;2000000;20000;0;
-125;[Sacred Blade] - Straight Sword;2000000;20100;0;
-126;[Ice Spear] - Spear;16000000;20200;0;
-127;[Glintstone Pebble] - Straight Sword;2000000;20300;0;
-128;[Bloody Slash] - Straight Sword;2000000;128;0;
-129;[Lifesteal Fist] - Fist;21000000;129;0;
-130;[Eruption] - Great Hammer;12060000;130;0;
-131;[Prayerful Strike] - Great Hammer;12060000;131;0;
-132;[Gravitas] - Blank;8000000;132;0;
-133;[Storm Blade] - Straight Sword;2000000;133;0;
-134;[Phantom Slash] - Halberd;18050000;134;0;
-135;[Earthshaker] - Great Hammer;12060000;135;0;
-136;[Golden Land] - Great Hammer;12060000;136;0;
-137;[Flaming Strike] - Straight Sword;2000000;137;0;
-138;[Thunderbolt] - Spear;16000000;138;0;
-139;[Lightning Slash] - Katana;9000000;139;0;
-140;[Carian Grandeur] - Straight Sword;2000000;21800;0;
-141;[Carian Colossal Sword] - Straight Sword;2000000;21900;0;
-142;[Vacuum Slice] - Straight Sword;2000000;22000;0;
-143;[Black Flame Tornado] - Twinblade;10000000;22100;0;
-144;[Sacred Ring of Light] - Spear;16000000;144;0;
-145;[Spectral Great Spear] - Spear;16000000;22600;0;
-146;[Shield Bash] - Medium Shield;31000000;146;0;
-147;[Barricade Shield] - Medium Shield;31000000;147;0;
-148;[Parry] - Medium Shield;31000000;148;0;
-149;[Small Shield Parry] - Small Shield;30000000;149;0;
-151;[Carian Retaliation] - Medium Shield;31000000;151;0;
-152;[Storm Wall] - Medium Shield;31000000;152;0;
-153;[Golden Parry] - Medium Shield;31000000;153;0;
-154;[Shield Crash] - Medium Shield;31000000;154;0;
-155;[Through and Through] - Lion Greatbow;42000000;155;0;
-156;[Barrage] - Bow;41000000;156;0;
-157;[Mighty Shot] - Bow;41000000;157;0;
-158;[Enchanted Shot] - Bow;41000000;158;0;
-159;[Sky Shot] - Bow;41000000;159;0;
-160;[Rain of Arrows] - Lion Greatbow;42000000;160;0;
-161;[] - Bow;41000000;161;0;
-163;[] - Straight Sword;2000000;163;0;
-164;[Hoarfrost Stomp] - Straight Sword;2000000;164;0;
-165;[Storm Stomp] - Straight Sword;2000000;165;0;
-166;[Kick] - Straight Sword;2000000;166;0;
-167;[Lightning Ram] - Straight Sword;2000000;167;0;
-168;[Flame of the Redmanes] - Straight Sword;2000000;168;0;
-169;[Ground Slam] - Straight Sword;2000000;169;0;
-170;[Golden Slam] - Straight Sword;2000000;170;0;
-171;[Waves of Darkness] - Great Hammer;12060000;171;0;
-172;[Hoarah Loux's Earthshaker] - Fist;21000000;50900;0;
-173;[Determination] - Straight Sword;2000000;173;0;
-174;[Assassin's Gambit] - Straight Sword;2000000;174;0;
-175;[Golden Vow] - Straight Sword;2000000;175;0;
-176;[Sacred Order] - Straight Sword;2000000;176;0;
-177;[Seppuku] - Straight Sword;2000000;177;0;
-178;[Cragblade] - Colossal Sword;4000000;178;0;
-179;[Shared Order] - Straight Sword;2000000;179;0;
-180;[Barbaric Roar] - Straight Sword;2000000;180;0;
-181;[Beast's Roar] - Straight Sword;2000000;181;0;
-182;[] - Straight Sword;2000000;182;0;
-183;[Braggart's Roar] - Straight Sword;2000000;183;0;
-184;[Troll's Roar] - Straight Sword;2000000;184;0;
-185;[Endure] - Hammer;11000000;185;0;
-186;[Vow of the Indomitable] - Medium Shield;31000000;186;0;
-187;[Holy Ground] - Medium Shield;31000000;187;0;
-188;[Endure] - Warhammer;23020000;185;0;
-189;[Endure] - Fist;21000000;185;0;
-190;[Quickstep] - Straight Sword;2000000;190;0;
-191;[Bloodhound's Step] - Straight Sword;2000000;191;0;
-192;[Raptor of the Mists] - Straight Sword;2000000;80200;0;
-193;[Royal Knight's Resolve] - Straight Sword;2000000;60100;0;
-194;[White Shadow's Lure] - Straight Sword;2000000;194;0;
-197;[Spinning Slash] - Twinblade;10000000;103;0;
-198;[Spinning Slash] - Spear;16000000;103;0;
-199;[Loretta's Slash] - Spear;16000000;118;0;
-200;[Storm Assault] - Spear;16000000;122;0;
-201;[Stormcaller] - Spear;16000000;123;0;
-202;[Sword Dance] - Straight Sword;2000000;195;0;
-203;[Sword Dance] - Greatsword;3000000;195;0;
-204;[Sword Dance] - Spear;16000000;195;0;
-205;[Firebreather] - Torch;24000000;196;0;
-206;[Blood Blade] - Straight Sword;2000000;197;0;
-207;[Shield Bash] - Greatshield;32000000;146;0;
-208;[Shield Bash] - Small Shield;30000000;146;0;
-209;[Barricade Shield] - Greatshield;32000000;147;0;
-210;[Barricade Shield] - Small Shield;30000000;147;0;
-211;[Parry] - Small Shield;30000000;148;0;
-212;[Parry] - Dagger;1000000;148;0;
-213;[Parry] - Curved Sword;7000000;148;0;
-214;[Shield Crash] - Greatshield;32000000;154;0;
-215;[Shield Crash] - Small Shield;30000000;154;0;
-216;[Thops's Barrier] - Medium Shield;31000000;198;0;
-217;[Determination] - Spear;16000000;173;0;
-218;[Black Flame Tornado] - Spear;16000000;22100;0;
-219;[Black Flame Tornado] - Great Spear;17060000;22100;0;
-220;[Black Flame Tornado] - Halberd;18020000;22100;0;
-221;[Black Flame Tornado] - Reaper;19000000;22100;0;
-300;[Barbaric Roar] - Claw;22000000;65000;0;
-301;[Barbaric Roar] - Straight Sword;2000000;65000;0;
-302;[Barbaric Roar] - Twinblade;10000000;65000;0;
-303;[Barbaric Roar] - Greatsword;3000000;65000;0;
-304;[Barbaric Roar] - Colossal Sword;4000000;65000;0;
-305;[Barbaric Roar] - Curved Sword;7000000;65000;0;
-306;[Barbaric Roar] - Katana;9000000;65000;0;
-307;[Barbaric Roar] - Axe;14000000;65000;0;
-308;[Barbaric Roar] - Colossal Weapon;23040000;65000;0;
-309;[Barbaric Roar] - Colossal Weapon;23010000;65000;0;
-310;[Barbaric Roar] - Greataxe;15000000;65000;0;
-311;[Barbaric Roar] - Hammer;11000000;65000;0;
-312;[Barbaric Roar] - Flail;13010000;65000;0;
-313;[Barbaric Roar] - Great Hammer;12060000;65000;0;
-314;[Barbaric Roar] - Spear;16000000;65000;0;
-315;[Barbaric Roar] - Great Spear;17010000;65000;0;
-316;[Barbaric Roar] - Halberd;18000000;65000;0;
-317;[Barbaric Roar] - Blank;8000000;65000;0;
-318;[Barbaric Roar] - Fist;21000000;65000;0;
-319;[Barbaric Roar] - Reaper;19000000;65000;0;
-320;[War Cry] - Claw;22000000;65100;0;
-321;[War Cry] - Straight Sword;2000000;65100;0;
-322;[War Cry] - Twinblade;10000000;65100;0;
-323;[War Cry] - Greatsword;3000000;65100;0;
-324;[War Cry] - Colossal Sword;4000000;65100;0;
-325;[War Cry] - Curved Sword;7000000;65100;0;
-326;[War Cry] - Katana;9000000;65100;0;
-327;[War Cry] - Axe;14000000;65100;0;
-328;[War Cry] - Colossal Weapon;23040000;65100;0;
-329;[War Cry] - Colossal Weapon;23010000;65100;0;
-330;[War Cry] - Greataxe;15000000;65100;0;
-331;[War Cry] - Hammer;11000000;65100;0;
-332;[War Cry] - Flail;13010000;65100;0;
-333;[War Cry] - Great Hammer;12060000;65100;0;
-334;[War Cry] - Spear;16000000;65100;0;
-335;[War Cry] - Great Spear;17010000;65100;0;
-336;[War Cry] - Halberd;18000000;65100;0;
-337;[War Cry] - Blank;8000000;65100;0;
-338;[War Cry] - Fist;21000000;65100;0;
-339;[War Cry] - Reaper;19000000;65100;0;
-340;[Double Slash] - Greatsword;3000000;112;0;
-341;[Double Slash] - Halberd;18030000;112;0;
-345;[Bloody Slash] - Greatsword;3000000;128;0;
-346;[Bloody Slash] - Twinblade;10000000;128;0;
-350;[Chilling Mist] - Straight Sword;2000000;22700;0;
-355;[Poisonous Mist] - Straight Sword;2000000;22800;0;
-360;[Ice Spear] - Twinblade;10000000;20200;0;
-365;[Thunderbolt] - Fist;21000000;138;0;
-370;[Lightning Slash] - Halberd;18030000;139;0;
-500;[Storm Blade] - Scimitar;7140000;21000;0;
-501;[Determination] - Spear;16010000;60000;0;
-502;[Blank] - Club;11010000;0;0;
-503;[Holy Ground] - Rickety Shield;30030000;70200;0;
-504;[Thunderbolt] - Greatsword;3000000;21600;0;
-1000;[Lion's Claw] - Greatsword;3000000;1000;0;
-1001;[Impaling Thrust] - Straight Sword;2000000;1001;0;
-1002;[Spinning Slash] - Straight Sword;2000000;1002;0;
-1003;[] - Spear;16000000;1003;0;
-1004;[Glintblade Phalanx] - Flame Art Straight Sword;2000500;1004;0;
-1005;[] - Poison Straight Sword;2001000;1005;0;
-1006;[Eruption] - Sacred Greatsword;3000700;1006;0;
-1007;[Gravitas] - Quality Greatsword;3000300;1007;0;
-1008;[Storm Blade] - Quality Straight Sword;2000300;1008;0;
-1009;[Earthshaker] - Heavy Greatsword;3000100;1009;0;
-1010;[Flaming Strike] - Magic Straight Sword;2000800;1010;0;
-1011;[Thunderbolt] - Cold Spear;16000900;1011;0;
-1012;[Carian Colossal Sword] - Flame Art Straight Sword;2000500;1012;0;
-1013;[Storm Stomp] - Heavy Straight Sword;2000100;1013;0;
-1014;[Determination] - Quality Straight Sword;2000300;1014;0;
-1015;[Holy Ground] - Fire Straight Sword;2000400;1015;0;
-1016;[Quickstep] - Keen Straight Sword;2000200;1016;0;
-1017;[Raptor of the Mists] - Keen Straight Sword;2000200;1017;0;
-3010;[No Skill] - Blank;34910000;30900;4;
-3040;[Storm Assault] - Blank;17900000;12200;4;
-3041;[No Skill] - Blank;34970000;30900;0;
-3042;[No Skill] - Blank;34970000;30900;5;
-3090;[Kick] - Spear;16010000;50300;7;
-3091;[No Skill] - Blank;32900000;30900;10;
-3092;[Kick] - Spear;16010000;50300;0;
-3093;[No Skill] - Blank;32900000;30900;0;
-3110;[Spinning Strikes] - Halberd;18030000;11100;8;
-3111;[No Skill] - Blank;34950000;30900;0;
-3120;[Flaming Strike] - Flamberge;3050000;21400;9;
-3121;[No Skill] - Blank;33950000;30900;10;
-3122;[Flaming Strike] - Blank;3900000;21400;0;
-3123;[No Skill] - Blank;33940000;30900;0;
-3140;[Kick] - Hoslow's Petal Whip;20050000;50300;3;
-3141;[No Skill] - Blank;32920000;30900;10;
-3160;[No Skill] - Blank;33930000;30900;6;
-3180;[Impaling Thrust] - Nagakiba;9010000;10100;7;
-3181;[No Skill] - Blank;34990000;30900;10;
-3182;[Impaling Thrust] - Katana;9000000;10100;5;
-3183;[Impaling Thrust] - Blank;9930000;10100;7;
-3190;[Sacred Order] - Inseparable Sword;2090000;60400;1;
-3191;[No Skill] - Blank;34980000;30900;10;
-3192;[Sacred Order] - Blank;2092000;60400;1;
-3193;[No Skill] - Blank;34940000;30900;10;
-3210;[Sacred Order] - Erdsteel Dagger;1150000;60400;10;
-3211;[No Skill] - Blank;34940000;30900;0;
-3230;[Blank] - Sword of Milos;3160000;0;10;
-3240;[No Skill] - Blank;33950000;30900;7;
-3241;[No Skill] - Blank;34910000;30900;8;
-3250;[Glintblade Phalanx] - Rogier's Thrusting Sword;5030000;20000;10;
-3251;[No Skill] - Blank;33960000;30900;10;
-3260;[Vacuum Slice] - Blank;4900000;22000;6;
-3261;[No Skill] - Blank;34910000;30900;10;
-3262;[Blank] - Devourer's Scepter;12200000;0;7;
-3270;[Blank] - Eleonora's Poleblade;10050000;0;2;
-3271;[No Skill] - Blank;34950000;30900;0;
-3290;[Repeating Thrust] - Heavy Thrusting Sword;6020000;10900;8;
-3291;[No Skill] - Blank;33920000;30900;10;
-3292;[Blank] - Blank;6900000;0;0;
-3293;[No Skill] - Blank;33930000;30900;0;
-3310;[Braggart's Roar] - Iron Ball;21070000;65400;7;
-3330;[No Skill] - Blank;33930000;30900;5;
-3340;[Blank] - Stormhawk Axe;14140000;0;4;
-3350;[Beast's Roar] - Scavenger's Curved Sword;7080000;65200;10;
-3351;[No Skill] - Blank;34910000;30900;10;
-3390;[Blank] - Clinging Bone;21110000;0;3;
-3391;[No Skill] - Blank;33970000;30900;6;
-3400;[Raptor of the Mists] - Raptor Talons;22030000;80200;8;
-3430;[Blank] - Reduvia;1040000;0;10;
-3440;[Ground Slam] - Blank;23930000;50600;8;
-3441;[No Skill] - Blank;43900000;30900;10;
-3442;[Ground Slam] - Blank;23930000;50600;0;
-3443;[No Skill] - Blank;43900000;30900;0;
-3450;[Gravitas] - Blank;8900000;20900;6;
-3460;[Quickstep] - Scorpion's Stinger;1080000;80000;5;
-3461;[No Skill] - Crepus's Black-Key Crossbow;43110000;30900;10;
-3470;[Bloodhound's Step] - Hoslow's Petal Whip;20050000;80100;9;
-3510;[Blank] - Flail;13010000;0;5;
-3511;[No Skill] - Blank;34930000;30900;5;
-3520;[No Skill] - Blank;33940000;30900;0;
-3530;[Wild Strikes] - Blank;15900000;11000;6;
-3531;[Wild Strikes] - Sacred Butchering Knife;15120700;11000;6;
-3532;;15120700;20800;7;
-3550;[Blank] - Rivers of Blood;9040000;0;4;
-3551;[Quickstep] - Wakizashi;1100000;80000;10;
-3552;[Blank] - Rivers of Blood;9040000;0;0;
-3553;[Quickstep] - Wakizashi;1100000;80000;0;
-3560;[Wild Strikes] - Flail;13010000;11000;10;
-3561;[No Skill] - Blank;34920000;30900;0;
-3590;[Glintblade Phalanx] - Carian Knight's Sword;2180000;20000;2;
-3591;[Carian Retaliation] - Carian Knight's Shield;31190000;30500;10;
-3592;[No Skill] - Blank;33940000;30900;0;
-3600;[Blank] - Godslayer's Colossal Sword;4070000;0;6;
-3610;[Spinning Slash] - Quality Twinblade;10000300;10300;18;
-3611;[No Skill] - Iron Roundshield;30120000;30900;18;
-3612;[Spinning Slash] - Quality Twinblade;10000300;10300;25;
-3613;[No Skill] - Iron Roundshield;30120000;30900;25;
-3670;[Seppuku] - Blank;9900000;60600;7;
-3671;[No Skill] - Wakizashi;1100000;30900;8;
-3680;[Kick] - Light Crossbow;43020000;50300;9;
-3681;[Kick] - Hammer;11000000;50300;8;
-3682;[Kick] - Blank;4900000;50300;6;
-3683;[Kick] - Spear;16000000;50300;6;
-3684;[No Skill] - Inverted Hawk Towershield;32210000;30900;9;
-3690;[Eruption] - Blank;12900000;20700;6;
-3700;[Endure] - Blank;23900000;70000;18;
-3701;[No Skill] - Blank;23910000;30900;18;
-3702;[Endure] - Blank;23900000;70000;25;
-3703;[No Skill] - Blank;23910000;30900;25;
-3710;[Quickstep] - Blank;33940000;80000;18;
-3711;[No Skill] - Heater Shield;31330000;30900;18;
-3712;[Quickstep] - Blank;33940000;80000;25;
-3713;[No Skill] - Heater Shield;31330000;30900;25;
-3720;[Impaling Thrust] - Antspur Thrusting Sword;5040000;10100;10;
-3721;[No Skill] - Blank;34940000;30900;10;
-3730;[Poison Moth Flight] - Keen Misericorde;1030200;11900;25;
-3731;[Parry] - Small Shield;30000000;30200;25;
-3740;[Prayerful Strike] - Heavy Great Hammer;12060100;20800;25;
-3741;[No Skill] - Banished Knight's Shield;31030000;30900;25;
-3750;[Parry] - Magic Estoc;5000800;30200;25;
-3751;[No Skill] - Albinauric Staff;33190000;30900;25;
-3760;[Blank] - Black Knife;1010000;0;3;
-3761;[No Skill] - Blank;33920000;30900;10;
-3770;[Blood Tax] - Blood Misericorde;1031100;10800;10;
-3771;[No Skill] - Blank;34910000;30900;10;
-3800;[No Skill] - Blank;33980000;30900;6;
-3820;[No Skill] - Blank;34920000;30900;0;
-3821;[Blank] - One-Eyed Shield;32150000;0;10;
-3830;[Kick] - Torchpole;16080000;50300;2;
-3831;[No Skill] - Blank;34920000;30900;10;
-3840;[Blank] - Ghiza's Wheel;23100000;0;7;
-3850;[Sword Dance] - Cold Reaper;19000900;12400;7;
-3851;[No Skill] - Staff of the Guilty;33260000;30900;7;
-3860;[Blank] - Reduvia;1040000;0;10;
-3861;[No Skill] - Blank;34940000;30900;10;
-3870;[Blank] - Halo Reaper;19020000;0;3;
-3880;[Charge Forth] - Blank;17910000;10500;6;
-3890;[Sword Dance] - Flowing Curved Sword;7060000;12400;7;
-3900;[Blank] - Blank;1190000;0;7;
-3901;[No Skill] - Blank;34940000;30900;7;
-5000;[Spinning Strikes] - Halberd;18030000;11100;8;
-5010;[Glintblade Phalanx] - Rogier's Thrusting Sword;5030000;20000;8;
-5020;[Charge Forth] - Spear;16010000;10500;7;
-5030;[Piercing Fang] - Nagakiba;9010000;10200;0;
-5040;[Braggart's Roar] - Iron Ball;21070000;65400;0;
-9000;;30140800;30500;25;
-9001;;23110100;80100;25;
-9002;;11140100;50900;25;
-9003;;4000100;80100;25;
-9004;;7150300;12400;25;
-9005;;3080300;50200;25;
-9006;;20050200;80100;25;
-9007;;40050000;40100;25;
-10001;[Lion's Claw] - Straight Sword;2000100;10000;25;
-10002;[Lion's Claw] - Greatsword;3000100;10000;25;
-10003;[Lion's Claw] - Colossal Sword;4000100;10000;25;
-10004;[Lion's Claw] - Curved Sword;7000100;10000;25;
-10005;[Lion's Claw] - Curved Greatsword;8020100;10000;25;
-10006;[Lion's Claw] - Katana;9000100;10000;25;
-10007;[Lion's Claw] - Twinblade;10000100;10000;25;
-10010;[Lion's Claw] - Axe;14000100;10000;25;
-10011;[Lion's Claw] - Greataxe;15000100;10000;25;
-10012;[Lion's Claw] - Hammer;11000100;10000;25;
-10013;[Lion's Claw] - Warhammer;12000100;10000;25;
-10014;[Lion's Claw] - Flail;13000100;10000;25;
-10022;[Lion's Claw] - Colossal Weapon;23040100;10000;25;
-10050;[Impaling Thrust] - Dagger;1000200;10100;25;
-10051;[Impaling Thrust] - Straight Sword;2000200;10100;25;
-10052;[Impaling Thrust] - Greatsword;3000200;10100;25;
-10056;[Impaling Thrust] - Katana;9000200;10100;25;
-10057;[Impaling Thrust] - Twinblade;10000200;10100;25;
-10058;[Impaling Thrust] - Thrusting Sword;5020200;10100;25;
-10059;[Impaling Thrust] - Heavy Thrusting Sword;6020200;10100;25;
-10065;[Impaling Thrust] - Spear;16000200;10100;25;
-10066;[Impaling Thrust] - Great Spear;17060200;10100;25;
-10067;[Impaling Thrust] - Halberd;18000200;10100;25;
-10101;[Piercing Fang] - Straight Sword;2000200;10200;25;
-10102;[Piercing Fang] - Greatsword;3000200;10200;25;
-10106;[Piercing Fang] - Katana;9000200;10200;25;
-10107;[Piercing Fang] - Twinblade;10000200;10200;25;
-10108;[Piercing Fang] - Thrusting Sword;5020200;10200;25;
-10109;[Piercing Fang] - Heavy Thrusting Sword;6020200;10200;25;
-10115;[Piercing Fang] - Spear;16000200;10200;25;
-10116;[Piercing Fang] - Great Spear;17060200;10200;25;
-10117;[Piercing Fang] - Halberd;18000200;10200;25;
-10150;[Spinning Slash] - Dagger;1000200;10300;25;
-10151;[Spinning Slash] - Straight Sword;2000200;10300;25;
-10152;[Spinning Slash] - Greatsword;3000200;10300;25;
-10154;[Spinning Slash] - Curved Sword;7000200;10300;25;
-10155;[Spinning Slash] - Curved Greatsword;8020200;10300;25;
-10156;[Spinning Slash] - Katana;9000200;10300;25;
-10157;[Spinning Slash] - Twinblade;10000200;10300;25;
-10160;[Spinning Slash] - Axe;14000200;10300;25;
-10161;[Spinning Slash] - Greataxe;15000200;10300;25;
-10165;[Spinning Slash] - Spear;16000200;10300;25;
-10166;[Spinning Slash] - Great Spear;17060200;10300;25;
-10167;[Spinning Slash] - Halberd;18000200;10300;25;
-10168;[Spinning Slash] - Reaper;19000200;10300;25;
-10207;[Charge Forth] - Twinblade;10000300;10500;25;
-10209;[Charge Forth] - Heavy Thrusting Sword;6020300;10500;25;
-10215;[Charge Forth] - Spear;16000300;10500;25;
-10216;[Charge Forth] - Great Spear;17060300;10500;25;
-10217;[Charge Forth] - Halberd;18000300;10500;25;
-10252;[Stamp (Upward Cut)] - Greatsword;3000100;10600;25;
-10253;[Stamp (Upward Cut)] - Colossal Sword;4000100;10600;25;
-10255;[Stamp (Upward Cut)] - Curved Greatsword;8020100;10600;25;
-10260;[Stamp (Upward Cut)] - Axe;14000100;10600;25;
-10261;[Stamp (Upward Cut)] - Greataxe;15000100;10600;25;
-10262;[Stamp (Upward Cut)] - Hammer;11000100;10600;25;
-10263;[Stamp (Upward Cut)] - Warhammer;12000100;10600;25;
-10264;[Stamp (Upward Cut)] - Flail;13000100;10600;25;
-10272;[Stamp (Upward Cut)] - Colossal Weapon;23040100;10600;25;
-10302;[Stamp (Sweep)] - Greatsword;3000100;10700;25;
-10303;[Stamp (Sweep)] - Colossal Sword;4000100;10700;25;
-10305;[Stamp (Sweep)] - Curved Greatsword;8020100;10700;25;
-10310;[Stamp (Sweep)] - Axe;14000100;10700;25;
-10311;[Stamp (Sweep)] - Greataxe;15000100;10700;25;
-10312;[Stamp (Sweep)] - Hammer;11000100;10700;25;
-10313;[Stamp (Sweep)] - Warhammer;12000100;10700;25;
-10314;[Stamp (Sweep)] - Flail;13000100;10700;25;
-10322;[Stamp (Sweep)] - Colossal Weapon;23040100;10700;25;
-10350;[Blood Tax] - Dagger;1001100;10800;25;
-10351;[Blood Tax] - Straight Sword;2001100;10800;25;
-10352;[Blood Tax] - Greatsword;3001100;10800;25;
-10356;[Blood Tax] - Katana;9001100;10800;25;
-10357;[Blood Tax] - Twinblade;10001100;10800;25;
-10358;[Blood Tax] - Thrusting Sword;5021100;10800;25;
-10359;[Blood Tax] - Heavy Thrusting Sword;6021100;10800;25;
-10365;[Blood Tax] - Spear;16001100;10800;25;
-10366;[Blood Tax] - Great Spear;17061100;10800;25;
-10367;[Blood Tax] - Halberd;18001100;10800;25;
-10400;[Repeating Thrust] - Dagger;1000200;10900;25;
-10401;[Repeating Thrust] - Straight Sword;2000200;10900;25;
-10402;[Repeating Thrust] - Greatsword;3000200;10900;25;
-10406;[Repeating Thrust] - Katana;9000200;10900;25;
-10407;[Repeating Thrust] - Twinblade;10000200;10900;25;
-10408;[Repeating Thrust] - Thrusting Sword;5020200;10900;25;
-10409;[Repeating Thrust] - Heavy Thrusting Sword;6020200;10900;25;
-10415;[Repeating Thrust] - Spear;16000200;10900;25;
-10416;[Repeating Thrust] - Great Spear;17060200;10900;25;
-10417;[Repeating Thrust] - Halberd;18000200;10900;25;
-10452;[Wild Strikes] - Greatsword;3000300;11000;25;
-10454;[Wild Strikes] - Curved Sword;7000300;11000;25;
-10455;[Wild Strikes] - Curved Greatsword;8020300;11000;25;
-10460;[Wild Strikes] - Axe;14000300;11000;25;
-10461;[Wild Strikes] - Greataxe;15000300;11000;25;
-10462;[Wild Strikes] - Hammer;11000300;11000;25;
-10463;[Wild Strikes] - Warhammer;12000300;11000;25;
-10464;[Wild Strikes] - Flail;13000300;11000;25;
-10468;[Wild Strikes] - Reaper;19000300;11000;25;
-10515;[Spinning Strikes] - Spear;16000100;11100;25;
-10517;[Spinning Strikes] - Halberd;18000100;11100;25;
-10518;[Spinning Strikes] - Reaper;19000100;11100;25;
-10550;[Double Slash] - Dagger;1000200;11200;25;
-10551;[Double Slash] - Straight Sword;2000200;11200;25;
-10552;[Double Slash] - Greatsword;3000200;11200;25;
-10554;[Double Slash] - Curved Sword;7000200;11200;25;
-10555;[Double Slash] - Curved Greatsword;8020200;11200;25;
-10556;[Double Slash] - Katana;9000200;11200;25;
-10557;[Double Slash] - Twinblade;10000200;11200;25;
-10567;[Double Slash] - Halberd;18000200;11200;25;
-10568;[Double Slash] - Reaper;19000200;11200;25;
-10611;[Prelate's Charge] - Greataxe;15000500;11300;25;
-10613;[Prelate's Charge] - Warhammer;12000500;11300;25;
-10622;[Prelate's Charge] - Colossal Weapon;23040500;11300;25;
-10656;[Unsheathe] - Katana;9000200;11400;25;
-10701;[Square Off] - Straight Sword;2000300;11500;25;
-10752;[Giant Hunt] - Greatsword;3000300;11600;25;
-10753;[Giant Hunt] - Colossal Sword;4000300;11600;25;
-10757;[Giant Hunt] - Twinblade;10000300;11600;25;
-10759;[Giant Hunt] - Heavy Thrusting Sword;6020300;11600;25;
-10765;[Giant Hunt] - Spear;16000300;11600;25;
-10766;[Giant Hunt] - Great Spear;17060300;11600;25;
-10767;[Giant Hunt] - Halberd;18000300;11600;25;
-10807;[Loretta's Slash] - Twinblade;10000800;11800;25;
-10815;[Loretta's Slash] - Spear;16000800;11800;25;
-10816;[Loretta's Slash] - Great Spear;17060800;11800;25;
-10817;[Loretta's Slash] - Halberd;18000800;11800;25;
-10818;[Loretta's Slash] - Reaper;19000800;11800;25;
-10850;[Poison Moth Flight] - Dagger;1001000;11900;25;
-10851;[Poison Moth Flight] - Straight Sword;2001000;11900;25;
-10854;[Poison Moth Flight] - Curved Sword;7001000;11900;25;
-10856;[Poison Moth Flight] - Katana;9001000;11900;25;
-10858;[Poison Moth Flight] - Thrusting Sword;5021000;11900;25;
-10900;[Spinning Weapon] - Dagger;1000800;12000;25;
-10901;[Spinning Weapon] - Straight Sword;2000800;12000;25;
-10904;[Spinning Weapon] - Curved Sword;7000800;12000;25;
-10906;[Spinning Weapon] - Katana;9000800;12000;25;
-10907;[Spinning Weapon] - Twinblade;10000800;12000;25;
-10908;[Spinning Weapon] - Thrusting Sword;5020800;12000;25;
-10910;[Spinning Weapon] - Axe;14000800;12000;25;
-10912;[Spinning Weapon] - Hammer;11000800;12000;25;
-10914;[Spinning Weapon] - Flail;13000800;12000;25;
-10915;[Spinning Weapon] - Spear;16000800;12000;25;
-10917;[Spinning Weapon] - Halberd;18000800;12000;25;
-10918;[Spinning Weapon] - Reaper;19000800;12000;25;
-10957;[Storm Assault] - Twinblade;10000300;12200;25;
-10959;[Storm Assault] - Heavy Thrusting Sword;6020300;12200;25;
-10965;[Storm Assault] - Spear;16000300;12200;25;
-10966;[Storm Assault] - Great Spear;17060300;12200;25;
-10967;[Storm Assault] - Halberd;18000300;12200;25;
-11001;[Stormcaller] - Straight Sword;2000300;12300;25;
-11002;[Stormcaller] - Greatsword;3000300;12300;25;
-11004;[Stormcaller] - Curved Sword;7000300;12300;25;
-11005;[Stormcaller] - Curved Greatsword;8020300;12300;25;
-11006;[Stormcaller] - Katana;9000300;12300;25;
-11007;[Stormcaller] - Twinblade;10000300;12300;25;
-11010;[Stormcaller] - Axe;14000300;12300;25;
-11011;[Stormcaller] - Greataxe;15000300;12300;25;
-11012;[Stormcaller] - Hammer;11000300;12300;25;
-11013;[Stormcaller] - Warhammer;12000300;12300;25;
-11014;[Stormcaller] - Flail;13000300;12300;25;
-11015;[Stormcaller] - Spear;16000300;12300;25;
-11016;[Stormcaller] - Great Spear;17060300;12300;25;
-11017;[Stormcaller] - Halberd;18000300;12300;25;
-11018;[Stormcaller] - Reaper;19000300;12300;25;
-11050;[Sword Dance] - Dagger;1000200;12400;25;
-11051;[Sword Dance] - Straight Sword;2000200;12400;25;
-11052;[Sword Dance] - Greatsword;3000200;12400;25;
-11054;[Sword Dance] - Curved Sword;7000200;12400;25;
-11055;[Sword Dance] - Curved Greatsword;8020200;12400;25;
-11056;[Sword Dance] - Katana;9000200;12400;25;
-11057;[Sword Dance] - Twinblade;10000200;12400;25;
-11060;[Sword Dance] - Axe;14000200;12400;25;
-11061;[Sword Dance] - Greataxe;15000200;12400;25;
-11067;[Sword Dance] - Halberd;18000200;12400;25;
-11068;[Sword Dance] - Reaper;19000200;12400;25;
-11100;[Glintblade Phalanx] - Dagger;1000800;20000;25;
-11101;[Glintblade Phalanx] - Straight Sword;2000800;20000;25;
-11102;[Glintblade Phalanx] - Greatsword;3000800;20000;25;
-11104;[Glintblade Phalanx] - Curved Sword;7000800;20000;25;
-11105;[Glintblade Phalanx] - Curved Greatsword;8020800;20000;25;
-11106;[Glintblade Phalanx] - Katana;9000800;20000;25;
-11107;[Glintblade Phalanx] - Twinblade;10000800;20000;25;
-11108;[Glintblade Phalanx] - Thrusting Sword;5020800;20000;25;
-11109;[Glintblade Phalanx] - Heavy Thrusting Sword;6020800;20000;25;
-11115;[Glintblade Phalanx] - Spear;16000800;20000;25;
-11116;[Glintblade Phalanx] - Great Spear;17060800;20000;25;
-11117;[Glintblade Phalanx] - Halberd;18000800;20000;25;
-11150;[Sacred Blade] - Dagger;1000700;20100;25;
-11151;[Sacred Blade] - Straight Sword;2000700;20100;25;
-11152;[Sacred Blade] - Greatsword;3000700;20100;25;
-11153;[Sacred Blade] - Colossal Sword;4000700;20100;25;
-11154;[Sacred Blade] - Curved Sword;7000700;20100;25;
-11155;[Sacred Blade] - Curved Greatsword;8020700;20100;25;
-11156;[Sacred Blade] - Katana;9000700;20100;25;
-11157;[Sacred Blade] - Twinblade;10000700;20100;25;
-11158;[Sacred Blade] - Thrusting Sword;5020700;20100;25;
-11159;[Sacred Blade] - Heavy Thrusting Sword;6020700;20100;25;
-11160;[Sacred Blade] - Axe;14000700;20100;25;
-11161;[Sacred Blade] - Greataxe;15000700;20100;25;
-11162;[Sacred Blade] - Hammer;11000700;20100;25;
-11163;[Sacred Blade] - Warhammer;12000700;20100;25;
-11164;[Sacred Blade] - Flail;13000700;20100;25;
-11165;[Sacred Blade] - Spear;16000700;20100;25;
-11166;[Sacred Blade] - Great Spear;17060700;20100;25;
-11167;[Sacred Blade] - Halberd;18000700;20100;25;
-11168;[Sacred Blade] - Reaper;19000700;20100;25;
-11169;[Sacred Blade] - Fist;21000700;20100;25;
-11170;[Sacred Blade] - Claw;22000700;20100;25;
-11172;[Sacred Blade] - Colossal Weapon;23040700;20100;25;
-11207;[Ice Spear] - Twinblade;10000900;20200;25;
-11215;[Ice Spear] - Spear;16000900;20200;25;
-11216;[Ice Spear] - Great Spear;17060900;20200;25;
-11217;[Ice Spear] - Halberd;18000900;20200;25;
-11250;[Glintstone Pebble] - Dagger;1000800;20300;25;
-11251;[Glintstone Pebble] - Straight Sword;2000800;20300;25;
-11252;[Glintstone Pebble] - Greatsword;3000800;20300;25;
-11254;[Glintstone Pebble] - Curved Sword;7000800;20300;25;
-11255;[Glintstone Pebble] - Curved Greatsword;8020800;20300;25;
-11256;[Glintstone Pebble] - Katana;9000800;20300;25;
-11257;[Glintstone Pebble] - Twinblade;10000800;20300;25;
-11258;[Glintstone Pebble] - Thrusting Sword;5020800;20300;25;
-11259;[Glintstone Pebble] - Heavy Thrusting Sword;6020800;20300;25;
-11265;[Glintstone Pebble] - Spear;16000800;20300;25;
-11266;[Glintstone Pebble] - Great Spear;17060800;20300;25;
-11267;[Glintstone Pebble] - Halberd;18000800;20300;25;
-11300;[Bloody Slash] - Dagger;1001100;20400;25;
-11301;[Bloody Slash] - Straight Sword;2001100;20400;25;
-11302;[Bloody Slash] - Greatsword;3001100;20400;25;
-11304;[Bloody Slash] - Curved Sword;7001100;20400;25;
-11305;[Bloody Slash] - Curved Greatsword;8021100;20400;25;
-11306;[Bloody Slash] - Katana;9001100;20400;25;
-11307;[Bloody Slash] - Twinblade;10001100;20400;25;
-11308;[Bloody Slash] - Thrusting Sword;5021100;20400;25;
-11309;[Bloody Slash] - Heavy Thrusting Sword;6021100;20400;25;
-11369;[Lifesteal Fist] - Fist;21001100;20500;25;
-11370;[Lifesteal Fist] - Claw;22001100;20500;25;
-11402;[Eruption] - Greatsword;3000400;20700;25;
-11403;[Eruption] - Colossal Sword;4000400;20700;25;
-11405;[Eruption] - Curved Greatsword;8020400;20700;25;
-11411;[Eruption] - Greataxe;15000400;20700;25;
-11413;[Eruption] - Warhammer;12000400;20700;25;
-11422;[Eruption] - Colossal Weapon;23040400;20700;25;
-11460;[Prayerful Strike] - Axe;14000700;20800;25;
-11461;[Prayerful Strike] - Greataxe;15000700;20800;25;
-11462;[Prayerful Strike] - Hammer;11000700;20800;25;
-11463;[Prayerful Strike] - Warhammer;12000700;20800;25;
-11464;[Prayerful Strike] - Flail;13000700;20800;25;
-11472;[Prayerful Strike] - Colossal Weapon;23040700;20800;25;
-11501;[Gravitas] - Straight Sword;2000800;20900;25;
-11502;[Gravitas] - Greatsword;3000800;20900;25;
-11503;[Gravitas] - Colossal Sword;4000800;20900;25;
-11504;[Gravitas] - Curved Sword;7000800;20900;25;
-11505;[Gravitas] - Curved Greatsword;8020800;20900;25;
-11506;[Gravitas] - Katana;9000800;20900;25;
-11507;[Gravitas] - Twinblade;10000800;20900;25;
-11508;[Gravitas] - Thrusting Sword;5020800;20900;25;
-11509;[Gravitas] - Heavy Thrusting Sword;6020800;20900;25;
-11510;[Gravitas] - Axe;14000800;20900;25;
-11511;[Gravitas] - Greataxe;15000800;20900;25;
-11512;[Gravitas] - Hammer;11000800;20900;25;
-11513;[Gravitas] - Warhammer;12000800;20900;25;
-11514;[Gravitas] - Flail;13000800;20900;25;
-11515;[Gravitas] - Spear;16000800;20900;25;
-11516;[Gravitas] - Great Spear;17060800;20900;25;
-11517;[Gravitas] - Halberd;18000800;20900;25;
-11518;[Gravitas] - Reaper;19000800;20900;25;
-11522;[Gravitas] - Colossal Weapon;23040800;20900;25;
-11550;[Storm Blade] - Dagger;1000300;21000;25;
-11551;[Storm Blade] - Straight Sword;2000300;21000;25;
-11552;[Storm Blade] - Greatsword;3000300;21000;25;
-11554;[Storm Blade] - Curved Sword;7000300;21000;25;
-11555;[Storm Blade] - Curved Greatsword;8020300;21000;25;
-11556;[Storm Blade] - Katana;9000300;21000;25;
-11558;[Storm Blade] - Thrusting Sword;5020300;21000;25;
-11603;[Earthshaker] - Colossal Sword;4000100;21200;25;
-11611;[Earthshaker] - Greataxe;15000100;21200;25;
-11613;[Earthshaker] - Warhammer;12000100;21200;25;
-11616;[Earthshaker] - Great Spear;17060100;21200;25;
-11622;[Earthshaker] - Colossal Weapon;23040100;21200;25;
-11653;[Golden Land] - Colossal Sword;4000700;21300;25;
-11661;[Golden Land] - Greataxe;15000700;21300;25;
-11663;[Golden Land] - Warhammer;12000700;21300;25;
-11666;[Golden Land] - Great Spear;17060700;21300;25;
-11672;[Golden Land] - Colossal Weapon;23040700;21300;25;
-11700;[Flaming Strike] - Dagger;1000400;21400;25;
-11701;[Flaming Strike] - Straight Sword;2000400;21400;25;
-11702;[Flaming Strike] - Greatsword;3000400;21400;25;
-11703;[Flaming Strike] - Colossal Sword;4000400;21400;25;
-11704;[Flaming Strike] - Curved Sword;7000400;21400;25;
-11705;[Flaming Strike] - Curved Greatsword;8020400;21400;25;
-11706;[Flaming Strike] - Katana;9000400;21400;25;
-11707;[Flaming Strike] - Twinblade;10000400;21400;25;
-11708;[Flaming Strike] - Thrusting Sword;5020400;21400;25;
-11709;[Flaming Strike] - Heavy Thrusting Sword;6020400;21400;25;
-11710;[Flaming Strike] - Axe;14000400;21400;25;
-11711;[Flaming Strike] - Greataxe;15000400;21400;25;
-11712;[Flaming Strike] - Hammer;11000400;21400;25;
-11713;[Flaming Strike] - Warhammer;12000400;21400;25;
-11714;[Flaming Strike] - Flail;13000400;21400;25;
-11715;[Flaming Strike] - Spear;16000400;21400;25;
-11716;[Flaming Strike] - Great Spear;17060400;21400;25;
-11717;[Flaming Strike] - Halberd;18000400;21400;25;
-11718;[Flaming Strike] - Reaper;19000400;21400;25;
-11719;[Flaming Strike] - Fist;21000400;21400;25;
-11720;[Flaming Strike] - Claw;22000400;21400;25;
-11722;[Flaming Strike] - Colossal Weapon;23040400;21400;25;
-11750;[Thunderbolt] - Dagger;1000600;21600;25;
-11751;[Thunderbolt] - Straight Sword;2000600;21600;25;
-11752;[Thunderbolt] - Greatsword;3000600;21600;25;
-11753;[Thunderbolt] - Colossal Sword;4000600;21600;25;
-11754;[Thunderbolt] - Curved Sword;7000600;21600;25;
-11755;[Thunderbolt] - Curved Greatsword;8020600;21600;25;
-11756;[Thunderbolt] - Katana;9000600;21600;25;
-11757;[Thunderbolt] - Twinblade;10000600;21600;25;
-11758;[Thunderbolt] - Thrusting Sword;5020600;21600;25;
-11759;[Thunderbolt] - Heavy Thrusting Sword;6020600;21600;25;
-11760;[Thunderbolt] - Axe;14000600;21600;25;
-11761;[Thunderbolt] - Greataxe;15000600;21600;25;
-11762;[Thunderbolt] - Hammer;11000600;21600;25;
-11763;[Thunderbolt] - Warhammer;12000600;21600;25;
-11764;[Thunderbolt] - Flail;13000600;21600;25;
-11765;[Thunderbolt] - Spear;16000600;21600;25;
-11766;[Thunderbolt] - Great Spear;17060600;21600;25;
-11767;[Thunderbolt] - Halberd;18000600;21600;25;
-11768;[Thunderbolt] - Reaper;19000600;21600;25;
-11769;[Thunderbolt] - Fist;21000600;21600;25;
-11770;[Thunderbolt] - Claw;22000600;21600;25;
-11771;[Thunderbolt] - Whip;20000600;21600;25;
-11772;[Thunderbolt] - Colossal Weapon;23040600;21600;25;
-11800;[Lightning Slash] - Dagger;1000600;21700;25;
-11801;[Lightning Slash] - Straight Sword;2000600;21700;25;
-11802;[Lightning Slash] - Greatsword;3000600;21700;25;
-11803;[Lightning Slash] - Colossal Sword;4000600;21700;25;
-11804;[Lightning Slash] - Curved Sword;7000600;21700;25;
-11805;[Lightning Slash] - Curved Greatsword;8020600;21700;25;
-11806;[Lightning Slash] - Katana;9000600;21700;25;
-11807;[Lightning Slash] - Twinblade;10000600;21700;25;
-11808;[Lightning Slash] - Thrusting Sword;5020600;21700;25;
-11809;[Lightning Slash] - Heavy Thrusting Sword;6020600;21700;25;
-11810;[Lightning Slash] - Axe;14000600;21700;25;
-11811;[Lightning Slash] - Greataxe;15000600;21700;25;
-11812;[Lightning Slash] - Hammer;11000600;21700;25;
-11813;[Lightning Slash] - Warhammer;12000600;21700;25;
-11814;[Lightning Slash] - Flail;13000600;21700;25;
-11822;[Lightning Slash] - Colossal Weapon;23040600;21700;25;
-11850;[Carian Grandeur] - Dagger;1000800;21800;25;
-11851;[Carian Grandeur] - Straight Sword;2000800;21800;25;
-11852;[Carian Grandeur] - Greatsword;3000800;21800;25;
-11854;[Carian Grandeur] - Curved Sword;7000800;21800;25;
-11855;[Carian Grandeur] - Curved Greatsword;8020800;21800;25;
-11856;[Carian Grandeur] - Katana;9000800;21800;25;
-11857;[Carian Grandeur] - Twinblade;10000800;21800;25;
-11858;[Carian Grandeur] - Thrusting Sword;5020800;21800;25;
-11859;[Carian Grandeur] - Heavy Thrusting Sword;6020800;21800;25;
-11900;[Carian Colossal Sword] - Dagger;1000800;21900;25;
-11901;[Carian Colossal Sword] - Straight Sword;2000800;21900;25;
-11902;[Carian Colossal Sword] - Greatsword;3000800;21900;25;
-11904;[Carian Colossal Sword] - Curved Sword;7000800;21900;25;
-11905;[Carian Colossal Sword] - Curved Greatsword;8020800;21900;25;
-11906;[Carian Colossal Sword] - Katana;9000800;21900;25;
-11907;[Carian Colossal Sword] - Twinblade;10000800;21900;25;
-11908;[Carian Colossal Sword] - Thrusting Sword;5020800;21900;25;
-11909;[Carian Colossal Sword] - Heavy Thrusting Sword;6020800;21900;25;
-11950;[Vacuum Slice] - Dagger;1000300;22000;25;
-11951;[Vacuum Slice] - Straight Sword;2000300;22000;25;
-11952;[Vacuum Slice] - Greatsword;3000300;22000;25;
-11953;[Vacuum Slice] - Colossal Sword;4000300;22000;25;
-11954;[Vacuum Slice] - Curved Sword;7000300;22000;25;
-11955;[Vacuum Slice] - Curved Greatsword;8020300;22000;25;
-11956;[Vacuum Slice] - Katana;9000300;22000;25;
-11957;[Vacuum Slice] - Twinblade;10000300;22000;25;
-11958;[Vacuum Slice] - Thrusting Sword;5020300;22000;25;
-11959;[Vacuum Slice] - Heavy Thrusting Sword;6020300;22000;25;
-11960;[Vacuum Slice] - Axe;14000300;22000;25;
-11961;[Vacuum Slice] - Greataxe;15000300;22000;25;
-12007;[Black Flame Tornado] - Twinblade;10000500;22100;25;
-12015;[Black Flame Tornado] - Spear;16000500;22100;25;
-12016;[Black Flame Tornado] - Great Spear;17060500;22100;25;
-12017;[Black Flame Tornado] - Halberd;18000500;22100;25;
-12018;[Black Flame Tornado] - Reaper;19000500;22100;25;
-12065;[Sacred Ring of Light] - Spear;16000700;22200;25;
-12067;[Sacred Ring of Light] - Halberd;18000700;22200;25;
-12068;[Sacred Ring of Light] - Reaper;19000700;22200;25;
-12100;[Blood Blade] - Dagger;1001100;22400;25;
-12101;[Blood Blade] - Straight Sword;2001100;22400;25;
-12104;[Blood Blade] - Curved Sword;7001100;22400;25;
-12106;[Blood Blade] - Katana;9001100;22400;25;
-12107;[Blood Blade] - Twinblade;10001100;22400;25;
-12108;[Blood Blade] - Thrusting Sword;5021100;22400;25;
-12157;[Phantom Slash] - Twinblade;10000300;22500;25;
-12165;[Phantom Slash] - Spear;16000300;22500;25;
-12167;[Phantom Slash] - Halberd;18000300;22500;25;
-12168;[Phantom Slash] - Reaper;19000300;22500;25;
-12215;[Spectral Great Spear] - Spear;16001200;22600;25;
-12216;[Spectral Great Spear] - Great Spear;17061200;22600;25;
-12217;[Spectral Great Spear] - Halberd;18001200;22600;25;
-12250;[Chilling Mist] - Dagger;1000900;22700;25;
-12251;[Chilling Mist] - Straight Sword;2000900;22700;25;
-12252;[Chilling Mist] - Greatsword;3000900;22700;25;
-12253;[Chilling Mist] - Colossal Sword;4000900;22700;25;
-12254;[Chilling Mist] - Curved Sword;7000900;22700;25;
-12255;[Chilling Mist] - Curved Greatsword;8020900;22700;25;
-12256;[Chilling Mist] - Katana;9000900;22700;25;
-12257;[Chilling Mist] - Twinblade;10000900;22700;25;
-12258;[Chilling Mist] - Thrusting Sword;5020900;22700;25;
-12259;[Chilling Mist] - Heavy Thrusting Sword;6020900;22700;25;
-12260;[Chilling Mist] - Axe;14000900;22700;25;
-12261;[Chilling Mist] - Greataxe;15000900;22700;25;
-12262;[Chilling Mist] - Hammer;11000900;22700;25;
-12263;[Chilling Mist] - Warhammer;12000900;22700;25;
-12264;[Chilling Mist] - Flail;13000900;22700;25;
-12265;[Chilling Mist] - Spear;16000900;22700;25;
-12266;[Chilling Mist] - Great Spear;17060900;22700;25;
-12267;[Chilling Mist] - Halberd;18000900;22700;25;
-12268;[Chilling Mist] - Reaper;19000900;22700;25;
-12269;[Chilling Mist] - Fist;21000900;22700;25;
-12270;[Chilling Mist] - Claw;22000900;22700;25;
-12272;[Chilling Mist] - Colossal Weapon;23040900;22700;25;
-12300;[Poisonous Mist] - Dagger;1001000;22800;25;
-12301;[Poisonous Mist] - Straight Sword;2001000;22800;25;
-12302;[Poisonous Mist] - Greatsword;3001000;22800;25;
-12303;[Poisonous Mist] - Colossal Sword;4001000;22800;25;
-12304;[Poisonous Mist] - Curved Sword;7001000;22800;25;
-12305;[Poisonous Mist] - Curved Greatsword;8021000;22800;25;
-12306;[Poisonous Mist] - Katana;9001000;22800;25;
-12307;[Poisonous Mist] - Twinblade;10001000;22800;25;
-12308;[Poisonous Mist] - Thrusting Sword;5021000;22800;25;
-12309;[Poisonous Mist] - Heavy Thrusting Sword;6021000;22800;25;
-12310;[Poisonous Mist] - Axe;14001000;22800;25;
-12311;[Poisonous Mist] - Greataxe;15001000;22800;25;
-12312;[Poisonous Mist] - Hammer;11001000;22800;25;
-12313;[Poisonous Mist] - Warhammer;12001000;22800;25;
-12314;[Poisonous Mist] - Flail;13001000;22800;25;
-12315;[Poisonous Mist] - Spear;16001000;22800;25;
-12316;[Poisonous Mist] - Great Spear;17061000;22800;25;
-12317;[Poisonous Mist] - Halberd;18001000;22800;25;
-12318;[Poisonous Mist] - Reaper;19001000;22800;25;
-12319;[Poisonous Mist] - Fist;21001000;22800;25;
-12320;[Poisonous Mist] - Claw;22001000;22800;25;
-12322;[Poisonous Mist] - Colossal Weapon;23041000;22800;25;
-12378;[Shield Bash] - Small Shield;30070000;30000;25;
-12379;[Shield Bash] - Medium Shield;31000000;30000;25;
-12380;[Shield Bash] - Greatshield;32000000;30000;25;
-12428;[Barricade Shield] - Small Shield;30070000;30100;25;
-12429;[Barricade Shield] - Medium Shield;31000000;30100;25;
-12430;[Barricade Shield] - Greatshield;32000000;30100;25;
-12450;[Parry] - Dagger;1000000;30200;25;
-12454;[Parry] - Curved Sword;7000000;30200;25;
-12458;[Parry] - Thrusting Sword;5020000;30200;25;
-12469;[Poisonous Mist] - Fist;21000000;22800;25;
-12470;[Poisonous Mist] - Claw;22000000;22800;25;
-12478;[Parry] - Small Shield;30070000;30200;25;
-12479;[Parry] - Medium Shield;31000000;30200;25;
-12528;[Carian Retaliation] - Small Shield;30070000;30500;25;
-12529;[Carian Retaliation] - Medium Shield;31000000;30500;25;
-12578;[Storm Wall] - Small Shield;30070000;30600;25;
-12579;[Storm Wall] - Medium Shield;31000000;30600;25;
-12628;[Golden Parry] - Small Shield;30070000;30700;25;
-12629;[Golden Parry] - Medium Shield;31000000;30700;25;
-12678;[Shield Crash] - Small Shield;30070000;30800;25;
-12679;[Shield Crash] - Medium Shield;31000000;30800;25;
-12680;[Shield Crash] - Greatshield;32000000;30800;25;
-12728;[No Skill] - Small Shield;30070000;30900;25;
-12729;[No Skill] - Medium Shield;31000000;30900;25;
-12730;[No Skill] - Greatshield;32000000;30900;25;
-12731;[No Skill] - Torch;24000000;30900;25;
-12778;[Thops's Barrier] - Small Shield;30070000;31000;25;
-12779;[Thops's Barrier] - Medium Shield;31000000;31000;25;
-12825;[Through and Through] - Greatbow;42040000;40000;25;
-12873;[Barrage] - Light Bow;40050000;40100;25;
-12874;[Barrage] - Bow;41000000;40100;25;
-12923;[Mighty Shot] - Light Bow;40050000;40200;25;
-12924;[Mighty Shot] - Bow;41000000;40200;25;
-12973;[Enchanted Shot] - Light Bow;40050000;40400;25;
-12974;[Enchanted Shot] - Bow;41000000;40400;25;
-13023;[Sky Shot] - Light Bow;40050000;40500;25;
-13024;[Sky Shot] - Bow;41000000;40500;25;
-13073;[Rain of Arrows] - Light Bow;40050000;40600;25;
-13074;[Rain of Arrows] - Bow;41000000;40600;25;
-13075;[Rain of Arrows] - Greatbow;42040000;40600;25;
-13100;[Hoarfrost Stomp] - Dagger;1000900;50100;25;
-13101;[Hoarfrost Stomp] - Straight Sword;2000900;50100;25;
-13102;[Hoarfrost Stomp] - Greatsword;3000900;50100;25;
-13103;[Hoarfrost Stomp] - Colossal Sword;4000900;50100;25;
-13104;[Hoarfrost Stomp] - Curved Sword;7000900;50100;25;
-13105;[Hoarfrost Stomp] - Curved Greatsword;8020900;50100;25;
-13106;[Hoarfrost Stomp] - Katana;9000900;50100;25;
-13107;[Hoarfrost Stomp] - Twinblade;10000900;50100;25;
-13108;[Hoarfrost Stomp] - Thrusting Sword;5020900;50100;25;
-13109;[Hoarfrost Stomp] - Heavy Thrusting Sword;6020900;50100;25;
-13110;[Hoarfrost Stomp] - Axe;14000900;50100;25;
-13111;[Hoarfrost Stomp] - Greataxe;15000900;50100;25;
-13112;[Hoarfrost Stomp] - Hammer;11000900;50100;25;
-13113;[Hoarfrost Stomp] - Warhammer;12000900;50100;25;
-13114;[Hoarfrost Stomp] - Flail;13000900;50100;25;
-13115;[Hoarfrost Stomp] - Spear;16000900;50100;25;
-13116;[Hoarfrost Stomp] - Great Spear;17060900;50100;25;
-13117;[Hoarfrost Stomp] - Halberd;18000900;50100;25;
-13118;[Hoarfrost Stomp] - Reaper;19000900;50100;25;
-13119;[Hoarfrost Stomp] - Fist;21000900;50100;25;
-13120;[Hoarfrost Stomp] - Claw;22000900;50100;25;
-13121;[Hoarfrost Stomp] - Whip;20000900;50100;25;
-13122;[Hoarfrost Stomp] - Colossal Weapon;23040900;50100;25;
-13150;[Storm Stomp] - Dagger;1000300;50200;25;
-13151;[Storm Stomp] - Straight Sword;2000300;50200;25;
-13152;[Storm Stomp] - Greatsword;3000300;50200;25;
-13153;[Storm Stomp] - Colossal Sword;4000300;50200;25;
-13154;[Storm Stomp] - Curved Sword;7000300;50200;25;
-13155;[Storm Stomp] - Curved Greatsword;8020300;50200;25;
-13156;[Storm Stomp] - Katana;9000300;50200;25;
-13157;[Storm Stomp] - Twinblade;10000300;50200;25;
-13158;[Storm Stomp] - Thrusting Sword;5020300;50200;25;
-13159;[Storm Stomp] - Heavy Thrusting Sword;6020300;50200;25;
-13160;[Storm Stomp] - Axe;14000300;50200;25;
-13161;[Storm Stomp] - Greataxe;15000300;50200;25;
-13162;[Storm Stomp] - Hammer;11000300;50200;25;
-13163;[Storm Stomp] - Warhammer;12000300;50200;25;
-13164;[Storm Stomp] - Flail;13000300;50200;25;
-13165;[Storm Stomp] - Spear;16000300;50200;25;
-13166;[Storm Stomp] - Great Spear;17060300;50200;25;
-13167;[Storm Stomp] - Halberd;18000300;50200;25;
-13168;[Storm Stomp] - Reaper;19000300;50200;25;
-13169;[Storm Stomp] - Fist;21000300;50200;25;
-13170;[Storm Stomp] - Claw;22000300;50200;25;
-13171;[Storm Stomp] - Whip;20000300;50200;25;
-13172;[Storm Stomp] - Colossal Weapon;23040300;50200;25;
-13200;[Kick] - Dagger;1000100;50300;25;
-13201;[Kick] - Straight Sword;2000100;50300;25;
-13202;[Kick] - Greatsword;3000100;50300;25;
-13203;[Kick] - Colossal Sword;4000100;50300;25;
-13204;[Kick] - Curved Sword;7000100;50300;25;
-13205;[Kick] - Curved Greatsword;8020100;50300;25;
-13206;[Kick] - Katana;9000100;50300;25;
-13207;[Kick] - Twinblade;10000100;50300;25;
-13208;[Kick] - Thrusting Sword;5020100;50300;25;
-13209;[Kick] - Heavy Thrusting Sword;6020100;50300;25;
-13210;[Kick] - Axe;14000100;50300;25;
-13211;[Kick] - Greataxe;15000100;50300;25;
-13212;[Kick] - Hammer;11000100;50300;25;
-13213;[Kick] - Warhammer;12000100;50300;25;
-13214;[Kick] - Flail;13000100;50300;25;
-13215;[Kick] - Spear;16000100;50300;25;
-13216;[Kick] - Great Spear;17060100;50300;25;
-13217;[Kick] - Halberd;18000100;50300;25;
-13218;[Kick] - Reaper;19000100;50300;25;
-13219;[Kick] - Fist;21000100;50300;25;
-13220;[Kick] - Claw;22000100;50300;25;
-13221;[Kick] - Whip;20000100;50300;25;
-13222;[Kick] - Colossal Weapon;23040100;50300;25;
-13250;[Lightning Ram] - Dagger;1000600;50400;25;
-13251;[Lightning Ram] - Straight Sword;2000600;50400;25;
-13252;[Lightning Ram] - Greatsword;3000600;50400;25;
-13253;[Lightning Ram] - Colossal Sword;4000600;50400;25;
-13254;[Lightning Ram] - Curved Sword;7000600;50400;25;
-13255;[Lightning Ram] - Curved Greatsword;8020600;50400;25;
-13256;[Lightning Ram] - Katana;9000600;50400;25;
-13257;[Lightning Ram] - Twinblade;10000600;50400;25;
-13258;[Lightning Ram] - Thrusting Sword;5020600;50400;25;
-13259;[Lightning Ram] - Heavy Thrusting Sword;6020600;50400;25;
-13260;[Lightning Ram] - Axe;14000600;50400;25;
-13261;[Lightning Ram] - Greataxe;15000600;50400;25;
-13262;[Lightning Ram] - Hammer;11000600;50400;25;
-13263;[Lightning Ram] - Warhammer;12000600;50400;25;
-13264;[Lightning Ram] - Flail;13000600;50400;25;
-13265;[Lightning Ram] - Spear;16000600;50400;25;
-13266;[Lightning Ram] - Great Spear;17060600;50400;25;
-13267;[Lightning Ram] - Halberd;18000600;50400;25;
-13268;[Lightning Ram] - Reaper;19000600;50400;25;
-13269;[Lightning Ram] - Fist;21000600;50400;25;
-13270;[Lightning Ram] - Claw;22000600;50400;25;
-13271;[Lightning Ram] - Whip;20000600;50400;25;
-13272;[Lightning Ram] - Colossal Weapon;23040600;50400;25;
-13300;[Flame of the Redmanes] - Dagger;1000400;50500;25;
-13301;[Flame of the Redmanes] - Straight Sword;2000400;50500;25;
-13302;[Flame of the Redmanes] - Greatsword;3000400;50500;25;
-13303;[Flame of the Redmanes] - Colossal Sword;4000400;50500;25;
-13304;[Flame of the Redmanes] - Curved Sword;7000400;50500;25;
-13305;[Flame of the Redmanes] - Curved Greatsword;8020400;50500;25;
-13306;[Flame of the Redmanes] - Katana;9000400;50500;25;
-13307;[Flame of the Redmanes] - Twinblade;10000400;50500;25;
-13308;[Flame of the Redmanes] - Thrusting Sword;5020400;50500;25;
-13309;[Flame of the Redmanes] - Heavy Thrusting Sword;6020400;50500;25;
-13310;[Flame of the Redmanes] - Axe;14000400;50500;25;
-13311;[Flame of the Redmanes] - Greataxe;15000400;50500;25;
-13312;[Flame of the Redmanes] - Hammer;11000400;50500;25;
-13313;[Flame of the Redmanes] - Warhammer;12000400;50500;25;
-13314;[Flame of the Redmanes] - Flail;13000400;50500;25;
-13315;[Flame of the Redmanes] - Spear;16000400;50500;25;
-13316;[Flame of the Redmanes] - Great Spear;17060400;50500;25;
-13317;[Flame of the Redmanes] - Halberd;18000400;50500;25;
-13318;[Flame of the Redmanes] - Reaper;19000400;50500;25;
-13319;[Flame of the Redmanes] - Fist;21000400;50500;25;
-13320;[Flame of the Redmanes] - Claw;22000400;50500;25;
-13321;[Flame of the Redmanes] - Whip;20000400;50500;25;
-13322;[Flame of the Redmanes] - Colossal Weapon;23040400;50500;25;
-13350;[Ground Slam] - Dagger;1000100;50600;25;
-13351;[Ground Slam] - Straight Sword;2000100;50600;25;
-13352;[Ground Slam] - Greatsword;3000100;50600;25;
-13353;[Ground Slam] - Colossal Sword;4000100;50600;25;
-13354;[Ground Slam] - Curved Sword;7000100;50600;25;
-13355;[Ground Slam] - Curved Greatsword;8020100;50600;25;
-13356;[Ground Slam] - Katana;9000100;50600;25;
-13357;[Ground Slam] - Twinblade;10000100;50600;25;
-13358;[Ground Slam] - Thrusting Sword;5020100;50600;25;
-13359;[Ground Slam] - Heavy Thrusting Sword;6020100;50600;25;
-13360;[Ground Slam] - Axe;14000100;50600;25;
-13361;[Ground Slam] - Greataxe;15000100;50600;25;
-13362;[Ground Slam] - Hammer;11000100;50600;25;
-13363;[Ground Slam] - Warhammer;12000100;50600;25;
-13364;[Ground Slam] - Flail;13000100;50600;25;
-13365;[Ground Slam] - Spear;16000100;50600;25;
-13366;[Ground Slam] - Great Spear;17060100;50600;25;
-13367;[Ground Slam] - Halberd;18000100;50600;25;
-13368;[Ground Slam] - Reaper;19000100;50600;25;
-13369;[Ground Slam] - Fist;21000100;50600;25;
-13370;[Ground Slam] - Claw;22000100;50600;25;
-13371;[Ground Slam] - Whip;20000100;50600;25;
-13372;[Ground Slam] - Colossal Weapon;23040100;50600;25;
-13400;[Golden Slam] - Dagger;1000700;50700;25;
-13401;[Golden Slam] - Straight Sword;2000700;50700;25;
-13402;[Golden Slam] - Greatsword;3000700;50700;25;
-13403;[Golden Slam] - Colossal Sword;4000700;50700;25;
-13404;[Golden Slam] - Curved Sword;7000700;50700;25;
-13405;[Golden Slam] - Curved Greatsword;8020700;50700;25;
-13406;[Golden Slam] - Katana;9000700;50700;25;
-13407;[Golden Slam] - Twinblade;10000700;50700;25;
-13408;[Golden Slam] - Thrusting Sword;5020700;50700;25;
-13409;[Golden Slam] - Heavy Thrusting Sword;6020700;50700;25;
-13410;[Golden Slam] - Axe;14000700;50700;25;
-13411;[Golden Slam] - Greataxe;15000700;50700;25;
-13412;[Golden Slam] - Hammer;11000700;50700;25;
-13413;[Golden Slam] - Warhammer;12000700;50700;25;
-13414;[Golden Slam] - Flail;13000700;50700;25;
-13415;[Golden Slam] - Spear;16000700;50700;25;
-13416;[Golden Slam] - Great Spear;17060700;50700;25;
-13417;[Golden Slam] - Halberd;18000700;50700;25;
-13418;[Golden Slam] - Reaper;19000700;50700;25;
-13419;[Golden Slam] - Fist;21000700;50700;25;
-13420;[Golden Slam] - Claw;22000700;50700;25;
-13421;[Golden Slam] - Whip;20000700;50700;25;
-13422;[Golden Slam] - Colossal Weapon;23040700;50700;25;
-13453;[Waves of Darkness] - Colossal Sword;4000800;50800;25;
-13461;[Waves of Darkness] - Greataxe;15000800;50800;25;
-13463;[Waves of Darkness] - Warhammer;12000800;50800;25;
-13466;[Waves of Darkness] - Great Spear;17060800;50800;25;
-13472;[Waves of Darkness] - Colossal Weapon;23040800;50800;25;
-13500;[Hoarah Loux's Earthshaker] - Dagger;1000100;50900;25;
-13501;[Hoarah Loux's Earthshaker] - Straight Sword;2000100;50900;25;
-13502;[Hoarah Loux's Earthshaker] - Greatsword;3000100;50900;25;
-13503;[Hoarah Loux's Earthshaker] - Colossal Sword;4000100;50900;25;
-13504;[Hoarah Loux's Earthshaker] - Curved Sword;7000100;50900;25;
-13505;[Hoarah Loux's Earthshaker] - Curved Greatsword;8020100;50900;25;
-13506;[Hoarah Loux's Earthshaker] - Katana;9000100;50900;25;
-13507;[Hoarah Loux's Earthshaker] - Twinblade;10000100;50900;25;
-13508;[Hoarah Loux's Earthshaker] - Thrusting Sword;5020100;50900;25;
-13509;[Hoarah Loux's Earthshaker] - Heavy Thrusting Sword;6020100;50900;25;
-13510;[Hoarah Loux's Earthshaker] - Axe;14000100;50900;25;
-13511;[Hoarah Loux's Earthshaker] - Greataxe;15000100;50900;25;
-13512;[Hoarah Loux's Earthshaker] - Hammer;11000100;50900;25;
-13513;[Hoarah Loux's Earthshaker] - Warhammer;12000100;50900;25;
-13514;[Hoarah Loux's Earthshaker] - Flail;13000100;50900;25;
-13515;[Hoarah Loux's Earthshaker] - Spear;16000100;50900;25;
-13516;[Hoarah Loux's Earthshaker] - Great Spear;17060100;50900;25;
-13517;[Hoarah Loux's Earthshaker] - Halberd;18000100;50900;25;
-13518;[Hoarah Loux's Earthshaker] - Reaper;19000100;50900;25;
-13519;[Hoarah Loux's Earthshaker] - Fist;21000100;50900;25;
-13520;[Hoarah Loux's Earthshaker] - Claw;22000100;50900;25;
-13521;[Hoarah Loux's Earthshaker] - Whip;20000100;50900;25;
-13522;[Hoarah Loux's Earthshaker] - Colossal Weapon;23040100;50900;25;
-13550;[Determination] - Dagger;1000300;60000;25;
-13551;[Determination] - Straight Sword;2000300;60000;25;
-13552;[Determination] - Greatsword;3000300;60000;25;
-13553;[Determination] - Colossal Sword;4000300;60000;25;
-13554;[Determination] - Curved Sword;7000300;60000;25;
-13555;[Determination] - Curved Greatsword;8020300;60000;25;
-13556;[Determination] - Katana;9000300;60000;25;
-13557;[Determination] - Twinblade;10000300;60000;25;
-13558;[Determination] - Thrusting Sword;5020300;60000;25;
-13559;[Determination] - Heavy Thrusting Sword;6020300;60000;25;
-13560;[Determination] - Axe;14000300;60000;25;
-13561;[Determination] - Greataxe;15000300;60000;25;
-13562;[Determination] - Hammer;11000300;60000;25;
-13563;[Determination] - Warhammer;12000300;60000;25;
-13564;[Determination] - Flail;13000300;60000;25;
-13565;[Determination] - Spear;16000300;60000;25;
-13566;[Determination] - Great Spear;17060300;60000;25;
-13567;[Determination] - Halberd;18000300;60000;25;
-13568;[Determination] - Reaper;19000300;60000;25;
-13569;[Determination] - Fist;21000300;60000;25;
-13570;[Determination] - Claw;22000300;60000;25;
-13571;[Determination] - Whip;20000300;60000;25;
-13572;[Determination] - Colossal Weapon;23040300;60000;25;
-13600;[Royal Knight's Resolve] - Dagger;1000300;60100;25;
-13601;[Royal Knight's Resolve] - Straight Sword;2000300;60100;25;
-13602;[Royal Knight's Resolve] - Greatsword;3000300;60100;25;
-13603;[Royal Knight's Resolve] - Colossal Sword;4000300;60100;25;
-13604;[Royal Knight's Resolve] - Curved Sword;7000300;60100;25;
-13605;[Royal Knight's Resolve] - Curved Greatsword;8020300;60100;25;
-13606;[Royal Knight's Resolve] - Katana;9000300;60100;25;
-13607;[Royal Knight's Resolve] - Twinblade;10000300;60100;25;
-13608;[Royal Knight's Resolve] - Thrusting Sword;5020300;60100;25;
-13609;[Royal Knight's Resolve] - Heavy Thrusting Sword;6020300;60100;25;
-13610;[Royal Knight's Resolve] - Axe;14000300;60100;25;
-13611;[Royal Knight's Resolve] - Greataxe;15000300;60100;25;
-13612;[Royal Knight's Resolve] - Hammer;11000300;60100;25;
-13613;[Royal Knight's Resolve] - Warhammer;12000300;60100;25;
-13614;[Royal Knight's Resolve] - Flail;13000300;60100;25;
-13615;[Royal Knight's Resolve] - Spear;16000300;60100;25;
-13616;[Royal Knight's Resolve] - Great Spear;17060300;60100;25;
-13617;[Royal Knight's Resolve] - Halberd;18000300;60100;25;
-13618;[Royal Knight's Resolve] - Reaper;19000300;60100;25;
-13619;[Royal Knight's Resolve] - Fist;21000300;60100;25;
-13620;[Royal Knight's Resolve] - Claw;22000300;60100;25;
-13621;[Royal Knight's Resolve] - Whip;20000300;60100;25;
-13622;[Royal Knight's Resolve] - Colossal Weapon;23040300;60100;25;
-13650;[Assassin's Gambit] - Dagger;1001100;60200;25;
-13651;[Assassin's Gambit] - Straight Sword;2001100;60200;25;
-13656;[Assassin's Gambit] - Katana;9001100;60200;25;
-13657;[Assassin's Gambit] - Twinblade;10001100;60200;25;
-13658;[Assassin's Gambit] - Thrusting Sword;5021100;60200;25;
-13700;[Golden Vow] - Dagger;1000700;60300;25;
-13701;[Golden Vow] - Straight Sword;2000700;60300;25;
-13702;[Golden Vow] - Greatsword;3000700;60300;25;
-13703;[Golden Vow] - Colossal Sword;4000700;60300;25;
-13704;[Golden Vow] - Curved Sword;7000700;60300;25;
-13705;[Golden Vow] - Curved Greatsword;8020700;60300;25;
-13706;[Golden Vow] - Katana;9000700;60300;25;
-13707;[Golden Vow] - Twinblade;10000700;60300;25;
-13708;[Golden Vow] - Thrusting Sword;5020700;60300;25;
-13709;[Golden Vow] - Heavy Thrusting Sword;6020700;60300;25;
-13710;[Golden Vow] - Axe;14000700;60300;25;
-13711;[Golden Vow] - Greataxe;15000700;60300;25;
-13712;[Golden Vow] - Hammer;11000700;60300;25;
-13713;[Golden Vow] - Warhammer;12000700;60300;25;
-13714;[Golden Vow] - Flail;13000700;60300;25;
-13715;[Golden Vow] - Spear;16000700;60300;25;
-13716;[Golden Vow] - Great Spear;17060700;60300;25;
-13717;[Golden Vow] - Halberd;18000700;60300;25;
-13718;[Golden Vow] - Reaper;19000700;60300;25;
-13719;[Golden Vow] - Fist;21000700;60300;25;
-13720;[Golden Vow] - Claw;22000700;60300;25;
-13721;[Golden Vow] - Whip;20000700;60300;25;
-13722;[Golden Vow] - Colossal Weapon;23040700;60300;25;
-13750;[Sacred Order] - Dagger;1000700;60400;25;
-13751;[Sacred Order] - Straight Sword;2000700;60400;25;
-13752;[Sacred Order] - Greatsword;3000700;60400;25;
-13753;[Sacred Order] - Colossal Sword;4000700;60400;25;
-13754;[Sacred Order] - Curved Sword;7000700;60400;25;
-13755;[Sacred Order] - Curved Greatsword;8020700;60400;25;
-13756;[Sacred Order] - Katana;9000700;60400;25;
-13757;[Sacred Order] - Twinblade;10000700;60400;25;
-13758;[Sacred Order] - Thrusting Sword;5020700;60400;25;
-13759;[Sacred Order] - Heavy Thrusting Sword;6020700;60400;25;
-13760;[Sacred Order] - Axe;14000700;60400;25;
-13761;[Sacred Order] - Greataxe;15000700;60400;25;
-13762;[Sacred Order] - Hammer;11000700;60400;25;
-13763;[Sacred Order] - Warhammer;12000700;60400;25;
-13764;[Sacred Order] - Flail;13000700;60400;25;
-13765;[Sacred Order] - Spear;16000700;60400;25;
-13766;[Sacred Order] - Great Spear;17060700;60400;25;
-13767;[Sacred Order] - Halberd;18000700;60400;25;
-13768;[Sacred Order] - Reaper;19000700;60400;25;
-13769;[Sacred Order] - Fist;21000700;60400;25;
-13770;[Sacred Order] - Claw;22000700;60400;25;
-13771;[Sacred Order] - Whip;20000700;60400;25;
-13772;[Sacred Order] - Colossal Weapon;23040700;60400;25;
-13800;[Shared Order] - Dagger;1000700;60500;25;
-13801;[Shared Order] - Straight Sword;2000700;60500;25;
-13802;[Shared Order] - Greatsword;3000700;60500;25;
-13803;[Shared Order] - Colossal Sword;4000700;60500;25;
-13804;[Shared Order] - Curved Sword;7000700;60500;25;
-13805;[Shared Order] - Curved Greatsword;8020700;60500;25;
-13806;[Shared Order] - Katana;9000700;60500;25;
-13807;[Shared Order] - Twinblade;10000700;60500;25;
-13808;[Shared Order] - Thrusting Sword;5020700;60500;25;
-13809;[Shared Order] - Heavy Thrusting Sword;6020700;60500;25;
-13810;[Shared Order] - Axe;14000700;60500;25;
-13811;[Shared Order] - Greataxe;15000700;60500;25;
-13812;[Shared Order] - Hammer;11000700;60500;25;
-13813;[Shared Order] - Warhammer;12000700;60500;25;
-13814;[Shared Order] - Flail;13000700;60500;25;
-13815;[Shared Order] - Spear;16000700;60500;25;
-13816;[Shared Order] - Great Spear;17060700;60500;25;
-13817;[Shared Order] - Halberd;18000700;60500;25;
-13818;[Shared Order] - Reaper;19000700;60500;25;
-13819;[Shared Order] - Fist;21000700;60500;25;
-13820;[Shared Order] - Claw;22000700;60500;25;
-13821;[Shared Order] - Whip;20000700;60500;25;
-13822;[Shared Order] - Colossal Weapon;23040700;60500;25;
-13850;[Seppuku] - Dagger;1001100;60600;25;
-13851;[Seppuku] - Straight Sword;2001100;60600;25;
-13852;[Seppuku] - Greatsword;3001100;60600;25;
-13854;[Seppuku] - Curved Sword;7001100;60600;25;
-13855;[Seppuku] - Curved Greatsword;8021100;60600;25;
-13856;[Seppuku] - Katana;9001100;60600;25;
-13857;[Seppuku] - Twinblade;10001100;60600;25;
-13858;[Seppuku] - Thrusting Sword;5021100;60600;25;
-13859;[Seppuku] - Heavy Thrusting Sword;6021100;60600;25;
-13865;[Seppuku] - Spear;16001100;60600;25;
-13866;[Seppuku] - Great Spear;17061100;60600;25;
-13867;[Seppuku] - Halberd;18001100;60600;25;
-13900;[Cragblade] - Dagger;1000100;60700;25;
-13901;[Cragblade] - Straight Sword;2000100;60700;25;
-13902;[Cragblade] - Greatsword;3000100;60700;25;
-13903;[Cragblade] - Colossal Sword;4000100;60700;25;
-13904;[Cragblade] - Curved Sword;7000100;60700;25;
-13905;[Cragblade] - Curved Greatsword;8020100;60700;25;
-13906;[Cragblade] - Katana;9000100;60700;25;
-13907;[Cragblade] - Twinblade;10000100;60700;25;
-13908;[Cragblade] - Thrusting Sword;5020100;60700;25;
-13909;[Cragblade] - Heavy Thrusting Sword;6020100;60700;25;
-13910;[Cragblade] - Axe;14000100;60700;25;
-13911;[Cragblade] - Greataxe;15000100;60700;25;
-13912;[Cragblade] - Hammer;11000100;60700;25;
-13913;[Cragblade] - Warhammer;12000100;60700;25;
-13914;[Cragblade] - Flail;13000100;60700;25;
-13915;[Cragblade] - Spear;16000100;60700;25;
-13916;[Cragblade] - Great Spear;17060100;60700;25;
-13917;[Cragblade] - Halberd;18000100;60700;25;
-13918;[Cragblade] - Reaper;19000100;60700;25;
-13919;[Cragblade] - Fist;21000100;60700;25;
-13920;[Cragblade] - Claw;22000100;60700;25;
-13922;[Cragblade] - Colossal Weapon;23040100;60700;25;
-13951;[Barbaric Roar] - Straight Sword;2000100;65000;25;
-13952;[Barbaric Roar] - Greatsword;3000100;65000;25;
-13953;[Barbaric Roar] - Colossal Sword;4000100;65000;25;
-13954;[Barbaric Roar] - Curved Sword;7000100;65000;25;
-13955;[Barbaric Roar] - Curved Greatsword;8020100;65000;25;
-13956;[Barbaric Roar] - Katana;9000100;65000;25;
-13957;[Barbaric Roar] - Twinblade;10000100;65000;25;
-13960;[Barbaric Roar] - Axe;14000100;65000;25;
-13961;[Barbaric Roar] - Greataxe;15000100;65000;25;
-13962;[Barbaric Roar] - Hammer;11000100;65000;25;
-13963;[Barbaric Roar] - Warhammer;12000100;65000;25;
-13964;[Barbaric Roar] - Flail;13000100;65000;25;
-13965;[Barbaric Roar] - Spear;16000100;65000;25;
-13966;[Barbaric Roar] - Great Spear;17060100;65000;25;
-13967;[Barbaric Roar] - Halberd;18000100;65000;25;
-13968;[Barbaric Roar] - Reaper;19000100;65000;25;
-13969;[Barbaric Roar] - Fist;21000100;65000;25;
-13970;[Barbaric Roar] - Claw;22000100;65000;25;
-13972;[Barbaric Roar] - Colossal Weapon;23040100;65000;25;
-14001;[War Cry] - Straight Sword;2000100;65100;25;
-14002;[War Cry] - Greatsword;3000100;65100;25;
-14003;[War Cry] - Colossal Sword;4000100;65100;25;
-14004;[War Cry] - Curved Sword;7000100;65100;25;
-14005;[War Cry] - Curved Greatsword;8020100;65100;25;
-14006;[War Cry] - Katana;9000100;65100;25;
-14007;[War Cry] - Twinblade;10000100;65100;25;
-14010;[War Cry] - Axe;14000100;65100;25;
-14011;[War Cry] - Greataxe;15000100;65100;25;
-14012;[War Cry] - Hammer;11000100;65100;25;
-14013;[War Cry] - Warhammer;12000100;65100;25;
-14014;[War Cry] - Flail;13000100;65100;25;
-14015;[War Cry] - Spear;16000100;65100;25;
-14016;[War Cry] - Great Spear;17060100;65100;25;
-14017;[War Cry] - Halberd;18000100;65100;25;
-14018;[War Cry] - Reaper;19000100;65100;25;
-14019;[War Cry] - Fist;21000100;65100;25;
-14020;[War Cry] - Claw;22000100;65100;25;
-14022;[War Cry] - Colossal Weapon;23040100;65100;25;
-14050;[Beast's Roar] - Dagger;1000200;65200;25;
-14051;[Beast's Roar] - Straight Sword;2000200;65200;25;
-14052;[Beast's Roar] - Greatsword;3000200;65200;25;
-14053;[Beast's Roar] - Colossal Sword;4000200;65200;25;
-14054;[Beast's Roar] - Curved Sword;7000200;65200;25;
-14055;[Beast's Roar] - Curved Greatsword;8020200;65200;25;
-14056;[Beast's Roar] - Katana;9000200;65200;25;
-14057;[Beast's Roar] - Twinblade;10000200;65200;25;
-14058;[Beast's Roar] - Thrusting Sword;5020200;65200;25;
-14059;[Beast's Roar] - Heavy Thrusting Sword;6020200;65200;25;
-14060;[Beast's Roar] - Axe;14000200;65200;25;
-14061;[Beast's Roar] - Greataxe;15000200;65200;25;
-14062;[Beast's Roar] - Hammer;11000200;65200;25;
-14063;[Beast's Roar] - Warhammer;12000200;65200;25;
-14064;[Beast's Roar] - Flail;13000200;65200;25;
-14065;[Beast's Roar] - Spear;16000200;65200;25;
-14066;[Beast's Roar] - Great Spear;17060200;65200;25;
-14067;[Beast's Roar] - Halberd;18000200;65200;25;
-14068;[Beast's Roar] - Reaper;19000200;65200;25;
-14069;[Beast's Roar] - Fist;21000200;65200;25;
-14070;[Beast's Roar] - Claw;22000200;65200;25;
-14071;[Beast's Roar] - Whip;20000200;65200;25;
-14072;[Beast's Roar] - Colossal Weapon;23040200;65200;25;
-14102;[Troll's Roar] - Greatsword;3000100;65300;25;
-14103;[Troll's Roar] - Colossal Sword;4000100;65300;25;
-14105;[Troll's Roar] - Curved Greatsword;8020100;65300;25;
-14111;[Troll's Roar] - Greataxe;15000100;65300;25;
-14113;[Troll's Roar] - Warhammer;12000100;65300;25;
-14122;[Troll's Roar] - Colossal Weapon;23040100;65300;25;
-14151;[Braggart's Roar] - Straight Sword;2000100;65400;25;
-14152;[Braggart's Roar] - Greatsword;3000100;65400;25;
-14153;[Braggart's Roar] - Colossal Sword;4000100;65400;25;
-14154;[Braggart's Roar] - Curved Sword;7000100;65400;25;
-14155;[Braggart's Roar] - Curved Greatsword;8020100;65400;25;
-14156;[Braggart's Roar] - Katana;9000100;65400;25;
-14157;[Braggart's Roar] - Twinblade;10000100;65400;25;
-14160;[Braggart's Roar] - Axe;14000100;65400;25;
-14161;[Braggart's Roar] - Greataxe;15000100;65400;25;
-14162;[Braggart's Roar] - Hammer;11000100;65400;25;
-14163;[Braggart's Roar] - Warhammer;12000100;65400;25;
-14164;[Braggart's Roar] - Flail;13000100;65400;25;
-14165;[Braggart's Roar] - Spear;16000100;65400;25;
-14166;[Braggart's Roar] - Great Spear;17060100;65400;25;
-14167;[Braggart's Roar] - Halberd;18000100;65400;25;
-14168;[Braggart's Roar] - Reaper;19000100;65400;25;
-14169;[Braggart's Roar] - Fist;21000100;65400;25;
-14170;[Braggart's Roar] - Claw;22000100;65400;25;
-14172;[Braggart's Roar] - Colossal Weapon;23040100;65400;25;
-14200;[Endure] - Dagger;1000300;70000;25;
-14201;[Endure] - Straight Sword;2000300;70000;25;
-14202;[Endure] - Greatsword;3000300;70000;25;
-14203;[Endure] - Colossal Sword;4000300;70000;25;
-14204;[Endure] - Curved Sword;7000300;70000;25;
-14205;[Endure] - Curved Greatsword;8020300;70000;25;
-14206;[Endure] - Katana;9000300;70000;25;
-14207;[Endure] - Twinblade;10000300;70000;25;
-14208;[Endure] - Thrusting Sword;5020300;70000;25;
-14209;[Endure] - Heavy Thrusting Sword;6020300;70000;25;
-14210;[Endure] - Axe;14000300;70000;25;
-14211;[Endure] - Greataxe;15000300;70000;25;
-14212;[Endure] - Hammer;11000300;70000;25;
-14213;[Endure] - Warhammer;12000300;70000;25;
-14214;[Endure] - Flail;13000300;70000;25;
-14215;[Endure] - Spear;16000300;70000;25;
-14216;[Endure] - Great Spear;17060300;70000;25;
-14217;[Endure] - Halberd;18000300;70000;25;
-14218;[Endure] - Reaper;19000300;70000;25;
-14219;[Endure] - Fist;21000300;70000;25;
-14220;[Endure] - Claw;22000300;70000;25;
-14221;[Endure] - Whip;20000300;70000;25;
-14222;[Endure] - Colossal Weapon;23040300;70000;25;
-14278;[Vow of the Indomitable] - Small Shield;30070300;70100;25;
-14279;[Vow of the Indomitable] - Medium Shield;31000300;70100;25;
-14280;[Vow of the Indomitable] - Greatshield;32000300;70100;25;
-14328;[Holy Ground] - Small Shield;30070300;70200;25;
-14329;[Holy Ground] - Medium Shield;31000300;70200;25;
-14330;[Holy Ground] - Greatshield;32000300;70200;25;
-14350;[Quickstep] - Dagger;1000300;80000;25;
-14351;[Quickstep] - Straight Sword;2000300;80000;25;
-14352;[Quickstep] - Greatsword;3000300;80000;25;
-14353;[Quickstep] - Colossal Sword;4000300;80000;25;
-14354;[Quickstep] - Curved Sword;7000300;80000;25;
-14355;[Quickstep] - Curved Greatsword;8020300;80000;25;
-14356;[Quickstep] - Katana;9000300;80000;25;
-14357;[Quickstep] - Twinblade;10000300;80000;25;
-14358;[Quickstep] - Thrusting Sword;5020300;80000;25;
-14359;[Quickstep] - Heavy Thrusting Sword;6020300;80000;25;
-14360;[Quickstep] - Axe;14000300;80000;25;
-14361;[Quickstep] - Greataxe;15000300;80000;25;
-14362;[Quickstep] - Hammer;11000300;80000;25;
-14363;[Quickstep] - Warhammer;12000300;80000;25;
-14364;[Quickstep] - Flail;13000300;80000;25;
-14365;[Quickstep] - Spear;16000300;80000;25;
-14366;[Quickstep] - Great Spear;17060300;80000;25;
-14367;[Quickstep] - Halberd;18000300;80000;25;
-14368;[Quickstep] - Reaper;19000300;80000;25;
-14369;[Quickstep] - Fist;21000300;80000;25;
-14370;[Quickstep] - Claw;22000300;80000;25;
-14371;[Quickstep] - Whip;20000300;80000;25;
-14372;[Quickstep] - Colossal Weapon;23040300;80000;25;
-14400;[Bloodhound's Step] - Dagger;1000300;80100;25;
-14401;[Bloodhound's Step] - Straight Sword;2000300;80100;25;
-14402;[Bloodhound's Step] - Greatsword;3000300;80100;25;
-14403;[Bloodhound's Step] - Colossal Sword;4000300;80100;25;
-14404;[Bloodhound's Step] - Curved Sword;7000300;80100;25;
-14405;[Bloodhound's Step] - Curved Greatsword;8020300;80100;25;
-14406;[Bloodhound's Step] - Katana;9000300;80100;25;
-14407;[Bloodhound's Step] - Twinblade;10000300;80100;25;
-14408;[Bloodhound's Step] - Thrusting Sword;5020300;80100;25;
-14409;[Bloodhound's Step] - Heavy Thrusting Sword;6020300;80100;25;
-14410;[Bloodhound's Step] - Axe;14000300;80100;25;
-14411;[Bloodhound's Step] - Greataxe;15000300;80100;25;
-14412;[Bloodhound's Step] - Hammer;11000300;80100;25;
-14413;[Bloodhound's Step] - Warhammer;12000300;80100;25;
-14414;[Bloodhound's Step] - Flail;13000300;80100;25;
-14415;[Bloodhound's Step] - Spear;16000300;80100;25;
-14416;[Bloodhound's Step] - Great Spear;17060300;80100;25;
-14417;[Bloodhound's Step] - Halberd;18000300;80100;25;
-14418;[Bloodhound's Step] - Reaper;19000300;80100;25;
-14419;[Bloodhound's Step] - Fist;21000300;80100;25;
-14420;[Bloodhound's Step] - Claw;22000300;80100;25;
-14421;[Bloodhound's Step] - Whip;20000300;80100;25;
-14422;[Bloodhound's Step] - Colossal Weapon;23040300;80100;25;
-14450;[Raptor of the Mists] - Dagger;1000300;80200;25;
-14451;[Raptor of the Mists] - Straight Sword;2000300;80200;25;
-14452;[Raptor of the Mists] - Greatsword;3000300;80200;25;
-14453;[Raptor of the Mists] - Colossal Sword;4000300;80200;25;
-14454;[Raptor of the Mists] - Curved Sword;7000300;80200;25;
-14455;[Raptor of the Mists] - Curved Greatsword;8020300;80200;25;
-14456;[Raptor of the Mists] - Katana;9000300;80200;25;
-14457;[Raptor of the Mists] - Twinblade;10000300;80200;25;
-14458;[Raptor of the Mists] - Thrusting Sword;5020300;80200;25;
-14459;[Raptor of the Mists] - Heavy Thrusting Sword;6020300;80200;25;
-14460;[Raptor of the Mists] - Axe;14000300;80200;25;
-14461;[Raptor of the Mists] - Greataxe;15000300;80200;25;
-14462;[Raptor of the Mists] - Hammer;11000300;80200;25;
-14463;[Raptor of the Mists] - Warhammer;12000300;80200;25;
-14464;[Raptor of the Mists] - Flail;13000300;80200;25;
-14465;[Raptor of the Mists] - Spear;16000300;80200;25;
-14466;[Raptor of the Mists] - Great Spear;17060300;80200;25;
-14467;[Raptor of the Mists] - Halberd;18000300;80200;25;
-14468;[Raptor of the Mists] - Reaper;19000300;80200;25;
-14469;[Raptor of the Mists] - Fist;21000300;80200;25;
-14470;[Raptor of the Mists] - Claw;22000300;80200;25;
-14471;[Raptor of the Mists] - Whip;20000300;80200;25;
-14472;[Raptor of the Mists] - Colossal Weapon;23040300;80200;25;
-14500;[White Shadow's Lure] - Dagger;1000300;85000;25;
-14501;[White Shadow's Lure] - Straight Sword;2000300;85000;25;
-14502;[White Shadow's Lure] - Greatsword;3000300;85000;25;
-14503;[White Shadow's Lure] - Colossal Sword;4000300;85000;25;
-14504;[White Shadow's Lure] - Curved Sword;7000300;85000;25;
-14505;[White Shadow's Lure] - Curved Greatsword;8020300;85000;25;
-14506;[White Shadow's Lure] - Katana;9000300;85000;25;
-14507;[White Shadow's Lure] - Twinblade;10000300;85000;25;
-14508;[White Shadow's Lure] - Thrusting Sword;5020300;85000;25;
-14509;[White Shadow's Lure] - Heavy Thrusting Sword;6020300;85000;25;
-14510;[White Shadow's Lure] - Axe;14000300;85000;25;
-14511;[White Shadow's Lure] - Greataxe;15000300;85000;25;
-14512;[White Shadow's Lure] - Hammer;11000300;85000;25;
-14513;[White Shadow's Lure] - Warhammer;12000300;85000;25;
-14514;[White Shadow's Lure] - Flail;13000300;85000;25;
-14515;[White Shadow's Lure] - Spear;16000300;85000;25;
-14516;[White Shadow's Lure] - Great Spear;17060300;85000;25;
-14517;[White Shadow's Lure] - Halberd;18000300;85000;25;
-14518;[White Shadow's Lure] - Reaper;19000300;85000;25;
-14519;[White Shadow's Lure] - Fist;21000300;85000;25;
-14520;[White Shadow's Lure] - Claw;22000300;85000;25;
-14521;[White Shadow's Lure] - Whip;20000300;85000;25;
-14522;[White Shadow's Lure] - Colossal Weapon;23040300;85000;25;
