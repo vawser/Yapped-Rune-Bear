@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>AI_STANDARD_INFO_BANK</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u16 RadarRange = 20">
+      <DisplayName>Recognition distance [m]</DisplayName>
+      <Description>Distance to recognize hostile characters</Description>
+      <Maximum>30000</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 RadarAngleX = 30">
+      <DisplayName>Recognition angle X [deg]</DisplayName>
+      <Description>X angle for recognizing hostile characters: The current line-of-sight direction is 0 degrees, and the top is +.</Description>
+      <Maximum>90</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u8 RadarAngleY = 60">
+      <DisplayName>Recognition angle Y [deg]</DisplayName>
+      <Description>Y angle for recognizing hostile characters: The current line-of-sight direction is 0 degrees, and the right is +.</Description>
+      <Maximum>180</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="u16 TerritorySize = 20">
+      <DisplayName>Territory distance [m]</DisplayName>
+      <Description>The distance of your territory. If the recognizing player deviates from this distance, it will return to the initial position.</Description>
+      <Maximum>30000</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="u8 ThreatBeforeAttackRate = 50">
+      <DisplayName>Intimidation rate before attack [0-100]</DisplayName>
+      <Description>Probability of threatening before attack</Description>
+      <Maximum>100</Maximum>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 ForceThreatOnFirstLocked">
+      <DisplayName>First recognition menacing</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Whether to intimidate when recognizing the first player</Description>
+      <Maximum>0</Maximum>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="dummy8 reserve0[24]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>41</SortID>
+    </Field>
+    <Field Def="u16 Attack1_Distance">
+      <DisplayName>Attack 1 Maai [m]</DisplayName>
+      <Description>Time to attack [m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u16 Attack1_Margin">
+      <DisplayName>Attack 1 Maai play [m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance</Description>
+      <Maximum>100</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="u8 Attack1_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100]</DisplayName>
+      <Description>Frequency of attacks</Description>
+      <Maximum>100</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 Attack1_ActionID">
+      <DisplayName>Attack 1 type</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks</Description>
+      <Maximum>0</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u8 Attack1_DelayMin">
+      <DisplayName>Attack 1 Minimum delay time [frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="u8 Attack1_DelayMax">
+      <DisplayName>Attack 1 Maximum delay time [frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="u8 Attack1_ConeAngle = 30">
+      <DisplayName>Attack 1 Attack permission Conical angle [deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK.</Description>
+      <Maximum>180</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="dummy8 reserve10[7]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>42</SortID>
+    </Field>
+    <Field Def="u16 Attack2_Distance">
+      <DisplayName>Attack 2 Maai [m]</DisplayName>
+      <Description>Time to attack [m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="u16 Attack2_Margin">
+      <DisplayName>Attack 2 Maai play [m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance</Description>
+      <Maximum>100</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="u8 Attack2_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100]</DisplayName>
+      <Description>Frequency of attacks</Description>
+      <Maximum>100</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u8 Attack2_ActionID">
+      <DisplayName>Attack 2 type</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks</Description>
+      <Maximum>0</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u8 Attack2_DelayMin">
+      <DisplayName>Attack 2 Minimum delay time [frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u8 Attack2_DelayMax">
+      <DisplayName>Attack 2 Maximum delay time [frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="u8 Attack2_ConeAngle = 30">
+      <DisplayName>Attack 2 Attack permission Conical angle [deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK.</Description>
+      <Maximum>180</Maximum>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="dummy8 reserve11[7]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>43</SortID>
+    </Field>
+    <Field Def="u16 Attack3_Distance">
+      <DisplayName>Attack 3 Maai [m]</DisplayName>
+      <Description>Time to attack [m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="u16 Attack3_Margin">
+      <DisplayName>Attack 3 Maai play [m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance</Description>
+      <Maximum>100</Maximum>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="u8 Attack3_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100]</DisplayName>
+      <Description>Frequency of attacks</Description>
+      <Maximum>100</Maximum>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 Attack3_ActionID">
+      <DisplayName>Attack 3 types</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks</Description>
+      <Maximum>0</Maximum>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u8 Attack3_DelayMin">
+      <DisplayName>Attack 3 Minimum delay time [frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="u8 Attack3_DelayMax">
+      <DisplayName>Attack 3 Maximum delay time [frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>26</SortID>
+    </Field>
+    <Field Def="u8 Attack3_ConeAngle = 30">
+      <DisplayName>Attack 3 Attack permission Conical angle [deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK.</Description>
+      <Maximum>180</Maximum>
+      <SortID>27</SortID>
+    </Field>
+    <Field Def="dummy8 reserve12[7]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>44</SortID>
+    </Field>
+    <Field Def="u16 Attack4_Distance">
+      <DisplayName>Attack 4 Maai [m]</DisplayName>
+      <Description>Time to attack [m]</Description>
+      <Maximum>30000</Maximum>
+      <SortID>28</SortID>
+    </Field>
+    <Field Def="u16 Attack4_Margin">
+      <DisplayName>Attack 4 Maai play [m]</DisplayName>
+      <Description>Play between attacks. Do not vibrate near the distance</Description>
+      <Maximum>100</Maximum>
+      <SortID>29</SortID>
+    </Field>
+    <Field Def="u8 Attack4_Rate = 50">
+      <DisplayName>Attack 1 ratio [0-100]</DisplayName>
+      <Description>Frequency of attacks</Description>
+      <Maximum>100</Maximum>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="u8 Attack4_ActionID">
+      <DisplayName>4 types of attacks</DisplayName>
+      <Enum>ACTION_PATTERN</Enum>
+      <Description>Types of attacks</Description>
+      <Maximum>0</Maximum>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="u8 Attack4_DelayMin">
+      <DisplayName>Attack 4 Minimum delay time [frame]</DisplayName>
+      <Description>The minimum delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="u8 Attack4_DelayMax">
+      <DisplayName>Attack 4 Maximum delay time [frame]</DisplayName>
+      <Description>The longest delay time from the time when an attack becomes possible to the time when an attack is possible.</Description>
+      <SortID>33</SortID>
+    </Field>
+    <Field Def="u8 Attack4_ConeAngle = 30">
+      <DisplayName>Attack 4 Attack permission Conical angle [deg]</DisplayName>
+      <Description>If the angle between the line-of-sight direction and the direction vector to the target is within this angle, the attack is OK.</Description>
+      <Maximum>180</Maximum>
+      <SortID>34</SortID>
+    </Field>
+    <Field Def="dummy8 reserve13[7]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>45</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last[32]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>46</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

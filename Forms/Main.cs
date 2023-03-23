@@ -317,6 +317,7 @@ namespace Yapped
 
         private void BuildBoolTypes()
         {
+
             // Empty old version
             bool_type_tdfs.Clear();
 

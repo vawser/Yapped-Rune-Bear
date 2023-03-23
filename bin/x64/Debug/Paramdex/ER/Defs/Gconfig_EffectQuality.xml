@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_EFFECT_QUALITY_DETAIL</ParamType>
+  <DataVersion>3</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 softParticleEnabled = 1">
+      <DisplayName>Soft Particles Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Soft particles Enabled</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 glowEnabled = 1">
+      <DisplayName>Glow Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Glow effective</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 distortionEnable = 1">
+      <DisplayName>Distortion Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Distortion effective</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="u8 cs_upScaleEnabledType">
+      <DisplayName>Enable Bilateral Upscale</DisplayName>
+      <Enum>CS_GCONFIG_Enabled_TYPE</Enum>
+      <Description>Bilateral upscale effective</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fNumOnceEmitsScale = 0.9">
+      <DisplayName>Number of Emits in Instance</DisplayName>
+      <Description>Number of Emits at one time</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fEmitSpanScale = 1.1">
+      <DisplayName>Emit Interval</DisplayName>
+      <Description>Emit interval</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance1Scale = 0.9">
+      <DisplayName>1st LOD Distance Scale</DisplayName>
+      <Description>1st stage LOD distance scale</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance2Scale = 0.9">
+      <DisplayName>2nd LOD Distance Scale</DisplayName>
+      <Description>Second stage LOD distance scale</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance3Scale = 0.9">
+      <DisplayName>3rd LOD Distance Scale</DisplayName>
+      <Description>3rd stage LOD distance scale</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fLodDistance4Scale = 0.9">
+      <DisplayName>4th LOD Distance Scale</DisplayName>
+      <Description>4th stage LOD distance scale</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="f32 fScaleRenderDistanceScale = 1.2">
+      <DisplayName>Scale Render Distance Scale</DisplayName>
+      <Description>Magnification to the distance registered in the reduction buffer</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="dummy8 dmy[4]">
+      <DisplayName>dummy</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

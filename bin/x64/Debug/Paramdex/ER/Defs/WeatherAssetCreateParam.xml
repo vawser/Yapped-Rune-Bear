@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WEATHER_ASSET_CREATE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u32 AssetId">
+      <DisplayName>Asset ID</DisplayName>
+      <Description>Specify the asset ID to generate. AEG999_999-&gt; 999999</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>999999</Maximum>
+    </Field>
+    <Field Def="u32 SlotNo">
+      <DisplayName>Slot Number</DisplayName>
+      <Description>This is the number for generation control. Only one asset can be generated in the same slot. You can control whether you want to generate duplicates or not.</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>4</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 CreateConditionType">
+      <DisplayName>Create Condition Type</DisplayName>
+      <Enum>WEATHER_ASSET_CREATE_CONDITION_TYPE</Enum>
+      <Description>The type of condition of occurrence</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="dummy8 padding0[3]">
+      <DisplayName>padding0</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="s16 TransitionSrcWeather">
+      <DisplayName>Transition Source Weather</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the transition source weather. It is referenced only when the occurrence condition is "transition".</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 TransitionDstWeather">
+      <DisplayName>Transition Destination Weather</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the transition destination weather. It is referenced only when the occurrence condition is "transition".</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s16 ElapsedTimeCheckweather">
+      <DisplayName>Check Weather Elapsed Time</DisplayName>
+      <Enum>WEATHER_TYPE</Enum>
+      <Description>Specify the weather to check the elapsed time.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-9999</Minimum>
+      <Maximum>9999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 padding1[2]">
+      <DisplayName>padding1</DisplayName>
+      <SortID>9999</SortID>
+    </Field>
+    <Field Def="f32 ElapsedTime">
+      <DisplayName>Elapsed Time</DisplayName>
+      <Description>Specify the elapsed time. It is referenced only when the occurrence condition is "time elapsed". Real time Specify in seconds.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 CreateDelayTime = -1">
+      <DisplayName>Create Delay Time</DisplayName>
+      <Description>Specifies the time to delay after the generation is determined. The created slot will be in use while it is delayed. Created immediately with 0 or less.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u32 CreateProbability = 100">
+      <DisplayName>Create Probability</DisplayName>
+      <Description>Specifies the probability of occurrence when conditions for weather transitions or elapsed time are met.</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>100</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 LifeTime = 600">
+      <DisplayName>Duration</DisplayName>
+      <Description>Specifies the life of the generated asset. Real time Specify in seconds.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>10</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 FadeTime = 1">
+      <DisplayName>Fade Time</DisplayName>
+      <Description>Time [seconds] used for fade-in and fade-out. No fade below 0.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>64</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 EnableCreateTimeMin = -1">
+      <DisplayName>Enable Create Time Min</DisplayName>
+      <Description>Specifies a start time that can be generated [0.0 --24.0]. If you put -1 in either the start or the end, it will be treated as unlimited (can be generated in all time).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>24</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 EnableCreateTimeMax = -1">
+      <DisplayName>Enable Create Time Max</DisplayName>
+      <Description>Specifies the end time that can be generated [0.0 --24.0]. If you put -1 in either the start or the end, it will be treated as unlimited (can be generated in all time).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>24</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint0 = -1">
+      <DisplayName>Create Point [0]</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint1 = -1">
+      <DisplayName>Create Point [1]</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint2 = -1">
+      <DisplayName>Create Point [2]</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s16 CreatePoint3 = -1">
+      <DisplayName>Create Point [3]</DisplayName>
+      <Description>Specify the generation point number. Specify the last 3 digits of the "Weather Asset Generation Point" in MapStudio. -1 will be invalid</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId0 = -1">
+      <DisplayName>Create Asset Limit ID [0]</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId1 = -1">
+      <DisplayName>Create Asset Limit ID [1]</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId2 = -1">
+      <DisplayName>Create Asset Limit ID [2]</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="s8 CreateAssetLimitId3 = -1">
+      <DisplayName>Create Asset Limit ID [3]</DisplayName>
+      <Description>ID for production restriction. -1: Unlimited. Generation is allowed only if it matches the generation limit ID in "Map default parameter .xlsm" (SEQ08921).</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <SortID>350</SortID>
+    </Field>
+    <Field Def="dummy8 Reserved2[4]">
+      <DisplayName>Reserved2</DisplayName>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

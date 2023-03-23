@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="1">
+  <ParamType>SPELL_SOUL_CONSUME_PARAM</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>201</FormatVersion>
+  <Fields>
+    <Field Def="s32 Drain All Souls" />
+    <Field Def="s32 Max Damage Scale (Souls)" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+    <Field Def="s32 Bullet ID" />
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>WORLD_MAP_LEGACY_CONV_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Disable Param - Network Test</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1</DisplayName>
+      <Description>Reserve for package output 1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>8001</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2</DisplayName>
+      <Description>Reserve for package output 2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>8002</SortID>
+    </Field>
+    <Field Def="u8 srcAreaNo">
+      <DisplayName>Source Map Area</DisplayName>
+      <Description>Conversion source map ID: Area number</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 srcGridXNo">
+      <DisplayName>Source Map Block</DisplayName>
+      <Description>Source map ID: Grid X</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="u8 srcGridZNo">
+      <DisplayName>Source Map Region</DisplayName>
+      <Description>Source map ID: Grid Z</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>Padding 1</DisplayName>
+      <Description>Padding 1</Description>
+      <SortID>8003</SortID>
+    </Field>
+    <Field Def="f32 srcPosX">
+      <DisplayName>Source Map Coordinate: X</DisplayName>
+      <Description>Source map reference coordinates X</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="f32 srcPosY">
+      <DisplayName>Source Map Coordinate: Y</DisplayName>
+      <Description>Source map reference coordinates Y</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 srcPosZ">
+      <DisplayName>Source Map Coordinate: Z</DisplayName>
+      <Description>Source map reference coordinates Z</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 dstAreaNo">
+      <DisplayName>Destination Map Area</DisplayName>
+      <Description>Conversion destination map ID: Area number</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4100</SortID>
+    </Field>
+    <Field Def="u8 dstGridXNo">
+      <DisplayName>Destination Map Block</DisplayName>
+      <Description>Destination map ID: Grid X</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4200</SortID>
+    </Field>
+    <Field Def="u8 dstGridZNo">
+      <DisplayName>Destination Map Region</DisplayName>
+      <Description>Destination map ID: Grid Z</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>99</Maximum>
+      <SortID>4300</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[1]">
+      <DisplayName>Padding 2</DisplayName>
+      <Description>Padding 2</Description>
+      <SortID>8004</SortID>
+    </Field>
+    <Field Def="f32 dstPosX">
+      <DisplayName>Destination Map Coordinate: X</DisplayName>
+      <Description>Destination map reference coordinates X</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="f32 dstPosY">
+      <DisplayName>Destination Map Coordinate: Y</DisplayName>
+      <Description>Destination map reference coordinates Y</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5200</SortID>
+    </Field>
+    <Field Def="f32 dstPosZ">
+      <DisplayName>Destination Map Coordinate: Z</DisplayName>
+      <Description>Destination map reference coordinates Z</Description>
+      <Minimum>-10000</Minimum>
+      <Maximum>10000</Maximum>
+      <SortID>5300</SortID>
+    </Field>
+    <Field Def="u8 isBasePoint:1">
+      <DisplayName>Is Reference Connection Point</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is it a reference connection point? One reference connection point is always set for one conversion source map ID.</Description>
+      <Maximum>1</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="dummy8 pad3:7">
+      <DisplayName>Padding 3</DisplayName>
+      <Description>Padding 3</Description>
+      <SortID>8005</SortID>
+    </Field>
+    <Field Def="dummy8 pad4[11]">
+      <DisplayName>Padding 4</DisplayName>
+      <Description>Padding 4</Description>
+      <SortID>8006</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

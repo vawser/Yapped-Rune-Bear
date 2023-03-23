@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MAP_NAME_TEX_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Disable Param - Network Test</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1</DisplayName>
+      <Description>Reserve for package output 1</Description>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2</DisplayName>
+      <Description>Reserve for package output 2</Description>
+      <SortID>202</SortID>
+    </Field>
+    <Field Def="u8 srcR">
+      <DisplayName>Pre-conversion - Map Image: R</DisplayName>
+      <Description>Color information (R) of the map image before conversion. Pixels with matching RGB values are associated with this parameter</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>110</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="u8 srcG">
+      <DisplayName>Pre-conversion - Map Image: G</DisplayName>
+      <Description>Color information (G) of the map image before conversion. Pixels with matching RGB values are associated with this parameter</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>120</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="u8 srcB">
+      <DisplayName>Pre-conversion - Map Image: B</DisplayName>
+      <Description>Color information (B) of the map image before conversion. Pixels with matching RGB values are associated with this parameter</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <SortID>130</SortID>
+      <UnkC8>画像色情報</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>pad</DisplayName>
+      <Description>pad. For the time being, leave it open for "image color information (A)"</Description>
+      <SortID>203</SortID>
+    </Field>
+    <Field Def="s32 mapNameId">
+      <DisplayName>Map Name ID</DisplayName>
+      <Description>Map name ID for displaying place names [PlaceName] (0: invalid value)</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[4]">
+      <DisplayName>Pad 2</DisplayName>
+      <SortID>204</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

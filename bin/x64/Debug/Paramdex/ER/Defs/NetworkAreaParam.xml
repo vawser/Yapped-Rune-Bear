@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>NETWORK_AREA_PARAM_ST</ParamType>
+  <DataVersion>4</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 cellSizeX = 30">
+      <DisplayName>Cell Size: X</DisplayName>
+      <Description>Cell size X</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+    </Field>
+    <Field Def="f32 cellSizeY = 8">
+      <DisplayName>Cell Size: Y</DisplayName>
+      <Description>Cell size Y</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="f32 cellSizeZ = 30">
+      <DisplayName>Cell Size: Z</DisplayName>
+      <Description>Cell size Z</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="f32 cellOffsetX">
+      <DisplayName>Cell Offset: X</DisplayName>
+      <Description>Cell offset X</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="f32 cellOffsetY">
+      <DisplayName>Cell Offset: Y</DisplayName>
+      <Description>Cell offset Y</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 cellOffsetZ">
+      <DisplayName>Cell Offset: Z</DisplayName>
+      <Description>Cell offset Z</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="u8 enableBloodstain:1">
+      <DisplayName>Enable Bloodstain</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Effective bloodstain / death illusion</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="u8 enableBloodMessage:1">
+      <DisplayName>Enable Blood Message</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Blood character valid</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u8 enableGhost:1">
+      <DisplayName>Enable Ghost</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Phantom effective</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="u8 enableMultiPlay:1">
+      <DisplayName>Enable Multiplayer</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Multiplayer enabled</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="u8 enableRingSearch:1">
+      <DisplayName>Enable Ring Search</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is it a search target for ring search? (Area called Kanemori Ash Spirit / Relief Blue Spirit)</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="u8 enableBreakInSearch:1">
+      <DisplayName>Enable Invasion Search</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Is it the target of intrusion search?</Description>
+      <DisplayFormat />
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <Increment>0</Increment>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="dummy8 dummy[3]">
+      <DisplayName>dummy</DisplayName>
+      <SortID>999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

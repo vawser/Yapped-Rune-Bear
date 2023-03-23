@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CHR_ACTIVATE_CONDITION_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 weatherSunny:1 = 1">
+      <DisplayName>Appear during Weather: Sunny</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "sunny"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="u8 weatherClearSky:1 = 1">
+      <DisplayName>Appear during Weather: Clear Sky</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "clear"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u8 weatherWeakCloudy:1 = 1">
+      <DisplayName>Appear during Weather: Light Cloud</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "lightly cloudy"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="u8 weatherCloudy:1 = 1">
+      <DisplayName>Appear during Weather: Cloud</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "cloudy"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="u8 weatherRain:1 = 1">
+      <DisplayName>Appear during Weather: Rain</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "rainy"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyRain:1 = 1">
+      <DisplayName>Appear during Weather: Heavy Rain</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "heavy rain"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="u8 weatherStorm:1 = 1">
+      <DisplayName>Appear during Weather: Storm</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "stormy"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+    <Field Def="u8 weatherStormForBattle:1 = 1">
+      <DisplayName>Appear during Weather: Storm for Battle</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "storm (for combat with the descendants of the guardian)"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>4100</SortID>
+    </Field>
+    <Field Def="u8 weatherSnow:1 = 1">
+      <DisplayName>Appear during Weather: Snow</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "snow"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>5000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavySnow:1 = 1">
+      <DisplayName>Appear during Weather: Heavy Snow</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "heavy snow"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>5100</SortID>
+    </Field>
+    <Field Def="u8 weatherFog:1 = 1">
+      <DisplayName>Appear during Weather: Fog</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "fog"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>6000</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyFog:1 = 1">
+      <DisplayName>Appear during Weather: Heavy Fog</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is "dense fog"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>6100</SortID>
+    </Field>
+    <Field Def="u8 weatherHeavyFogRain:1 = 1">
+      <DisplayName>Appear during Weather: Heavy Fog and Rain</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Does it appear when the weather is "dense fog (rain)"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>6200</SortID>
+    </Field>
+    <Field Def="u8 weatherSandStorm:1 = 1">
+      <DisplayName>Appear during Weather: Sandstorm</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Will it appear when the weather is a "sandstorm"?</Description>
+      <Maximum>1</Maximum>
+      <SortID>7000</SortID>
+    </Field>
+    <Field Def="dummy8 pad1:2">
+      <DisplayName>pad</DisplayName>
+      <SortID>8301</SortID>
+    </Field>
+    <Field Def="u8 timeStartHour">
+      <DisplayName>Time: Start Hour</DisplayName>
+      <Description>Appearance start in game time_hour</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>23</Maximum>
+      <SortID>8000</SortID>
+    </Field>
+    <Field Def="u8 timeStartMin">
+      <DisplayName>Time: Start Minute</DisplayName>
+      <Description>Appearance start in-game time_minutes</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>59</Maximum>
+      <SortID>8100</SortID>
+    </Field>
+    <Field Def="u8 timeEndHour">
+      <DisplayName>Time: End Hour</DisplayName>
+      <Description>Appearance end in game time_hour</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>23</Maximum>
+      <SortID>8200</SortID>
+    </Field>
+    <Field Def="u8 timeEndMin">
+      <DisplayName>Time: End Minute</DisplayName>
+      <Description>End of appearance In-game time_minutes</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>59</Maximum>
+      <SortID>8300</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[2]">
+      <DisplayName>pad</DisplayName>
+      <SortID>8302</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

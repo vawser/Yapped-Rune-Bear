@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ENEMY_STANDARD_INFO_BANK</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 EnemyBehaviorID">
+      <DisplayName>Behavior id</DisplayName>
+      <Enum>ENEMY_BEHAVIOR_ID</Enum>
+      <Description>Enemy behavior ID</Description>
+      <Minimum>0</Minimum>
+      <Maximum>0</Maximum>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u16 HP = 1">
+      <DisplayName>Hit points</DisplayName>
+      <Description>Hit points</Description>
+      <Maximum>100</Maximum>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="u16 AttackPower = 1">
+      <DisplayName>Offensive power</DisplayName>
+      <Description>Attack power (for proto only)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>100</Maximum>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="s32 ChrType = 5">
+      <DisplayName>Character type</DisplayName>
+      <Enum>ChrType</Enum>
+      <Description>Character type</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>7</Maximum>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="f32 HitHeight = 2">
+      <DisplayName>Height per [m]</DisplayName>
+      <Description>Height per (Please specify a size larger than the diameter)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="f32 HitRadius = 0.4">
+      <DisplayName>Radius around [m]</DisplayName>
+      <Description>Radius around</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>50</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="f32 Weight = 60">
+      <DisplayName>Weight [kg]</DisplayName>
+      <Description>The weight of the character</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1000000</Maximum>
+      <Increment>1</Increment>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="f32 DynamicFriction">
+      <DisplayName>Dynamic friction force</DisplayName>
+      <Description>Dynamic friction force</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="f32 StaticFriction">
+      <DisplayName>Static friction</DisplayName>
+      <Description>Static friction force</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s32 UpperDefState">
+      <DisplayName>Upper body initial state</DisplayName>
+      <Description>Upper body initial state (PG input)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100000</Maximum>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s32 ActionDefState">
+      <DisplayName>Initial state of action</DisplayName>
+      <Description>Action initial state (PG input)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100000</Maximum>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="f32 RotY_per_Second = 10">
+      <DisplayName>Angle that can be turned per unit time [deg / s]</DisplayName>
+      <Description>Y-axis turning angle per unit time [deg / s]</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>10000</Maximum>
+      <Increment>1</Increment>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="dummy8 reserve0[20]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 RotY_per_Second_old">
+      <DisplayName>unused</DisplayName>
+      <Description>unused</Description>
+      <Maximum>180</Maximum>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="u8 EnableSideStep">
+      <DisplayName>Can you move left and right?</DisplayName>
+      <Description>Can you move left and right?</Description>
+      <Maximum>1</Maximum>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="u8 UseRagdollHit">
+      <DisplayName>Whether to use a ragdoll per character</DisplayName>
+      <Description>Whether to use a ragdoll per character</Description>
+      <Maximum>1</Maximum>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last[5]">
+      <DisplayName>reserve</DisplayName>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u16 stamina">
+      <DisplayName>Amount of stamina</DisplayName>
+      <Description>Total amount of stamina</Description>
+      <Maximum>999</Maximum>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u16 staminaRecover">
+      <DisplayName>Stamina recovery</DisplayName>
+      <Description>Stamina recovery amount per second</Description>
+      <Maximum>999</Maximum>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u16 staminaConsumption">
+      <DisplayName>Stamina basic consumption</DisplayName>
+      <Description>Basic value of stamina consumption used when attacking and guarding</Description>
+      <Maximum>999</Maximum>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u16 deffenct_Phys">
+      <DisplayName>Physical defense</DisplayName>
+      <Description>Damage reduction base value for physical attacks</Description>
+      <Maximum>999</Maximum>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="dummy8 reserve_last2[48]">
+      <DisplayName>Reservation 1</DisplayName>
+      <SortID>25</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

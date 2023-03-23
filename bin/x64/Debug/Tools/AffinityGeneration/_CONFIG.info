@@ -1,0 +1,29 @@
+Each file defines the output of the Affinity Generator for a specific affinity.
+
+The generator will iterate through the files within this directory.
+
+Filename:
+OFFSET - NAME
+
+File:
+FIELD NAME;TYPE;MODIFIER
+
+Modifier:
+CALC: apply a formula, x represents the base row's value for the field.
+
+SET: Set value
+
+STAT_CALC: apply a formula with a specific stat scaling value from the base row
+ - STR
+ - DEX
+ - INT
+ - FTH
+ - ARC
+ - HIGHEST (highest value from STR/DEX/INT/FTH)
+ 
+DMG_CALC: apply a formula with a specific damage field value from the base row
+ - PHYSICAL
+ - MAGIC
+ - FIRE
+ - LIGHTNING
+ - HOLY

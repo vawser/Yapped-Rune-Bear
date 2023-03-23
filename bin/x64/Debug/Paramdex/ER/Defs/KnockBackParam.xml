@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>KNOCKBACK_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 damage_Min_ContTime">
+      <DisplayName>Damage Level: Minimum - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for tiny damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 damage_S_ContTime">
+      <DisplayName>Damage Level: Small - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for small damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 damage_M_ContTime">
+      <DisplayName>Damage Level: Medium - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for medium damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 damage_L_ContTime">
+      <DisplayName>Damage Level: Heavy - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for heavy damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="f32 damage_BlowS_ContTime">
+      <DisplayName>Damage Level: Small Blow-off - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for small blow-off damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="f32 damage_BlowM_ContTime">
+      <DisplayName>Damage Level: Heavy Blow-off - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used during the big blow damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="f32 damage_Strike_ContTime">
+      <DisplayName>Damage Level: Strike - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for slamming damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 damage_Uppercut_ContTime">
+      <DisplayName>Damage Level: Uppercut - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for launch damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 damage_Push_ContTime">
+      <DisplayName>Damage Level: Push - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for push damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="f32 damage_Breath_ContTime">
+      <DisplayName>Damage Level: Breath - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for breath damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1810</SortID>
+    </Field>
+    <Field Def="f32 damage_HeadShot_ContTime">
+      <DisplayName>Damage Level: Headshot - Maintenance Time</DisplayName>
+      <Description>Headshot damage Set the maintenance time used during animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1900</SortID>
+    </Field>
+    <Field Def="f32 guard_S_ContTime">
+      <DisplayName>Guard Damage Level: Small - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for guard receiving small animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="f32 guard_L_ContTime">
+      <DisplayName>Guard Damage Level: Heavy - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used at the time of guard receiving large animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="f32 guard_LL_ContTime">
+      <DisplayName>Guard Damage Level: Very Heavy - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time used for guard receiving oversized animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2410</SortID>
+    </Field>
+    <Field Def="f32 guardBrake_ContTime">
+      <DisplayName>Guard Damage Level: Break - Maintenance Time</DisplayName>
+      <Description>Set the maintenance time specified at the time of guard scraping animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="f32 damage_Min_DecTime">
+      <DisplayName>Damage Level: Minimum - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for minimal damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 damage_S_DecTime">
+      <DisplayName>Damage Level: Small - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for small damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 damage_M_DecTime">
+      <DisplayName>Damage Level: Medium - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for medium damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 damage_L_DecTime">
+      <DisplayName>Damage Level: Heavy - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for heavy damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="f32 damage_BlowS_DecTime">
+      <DisplayName>Damage Level: Small Blow-off - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for small blow-off damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 damage_BlowM_DecTime">
+      <DisplayName>Damage Level: Heavy Blow-off - Deceleration Time</DisplayName>
+      <Description>Large blow-off damage Set the deceleration time used during animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 damage_Strike_DecTime">
+      <DisplayName>Damage Level: Strike - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used during slamming damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 damage_Uppercut_DecTime">
+      <DisplayName>Damage Level: Uppercut - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used during launch damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="f32 damage_Push_DecTime">
+      <DisplayName>Damage Level: Push - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used during push damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="f32 damage_Breath_DecTime">
+      <DisplayName>Damage Level: Breath - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used during breath damage animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>1820</SortID>
+    </Field>
+    <Field Def="f32 damage_HeadShot_DecTime">
+      <DisplayName>Damage Level: Headshot - Deceleration Time</DisplayName>
+      <Description>Headshot damage Set the deceleration time used during animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="f32 guard_S_DecTime">
+      <DisplayName>Guard Damage Level: Small - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for guard receiving small animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="f32 guard_L_DecTime">
+      <DisplayName>Guard Damage Level: Heavy - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for guard receiving large animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="f32 guard_LL_DecTime">
+      <DisplayName>Guard Damage Level: Very Break - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time used for guard receiving oversized animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2420</SortID>
+    </Field>
+    <Field Def="f32 guardBrake_DecTime">
+      <DisplayName>Guard Damage Level: Break - Deceleration Time</DisplayName>
+      <Description>Set the deceleration time specified at the time of guard breaking animation</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9.99</Maximum>
+      <SortID>2600</SortID>
+    </Field>
+    <Field Def="dummy8 pad[8]">
+      <DisplayName>pading</DisplayName>
+      <SortID>2601</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>
