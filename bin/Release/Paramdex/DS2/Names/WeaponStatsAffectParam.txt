@@ -1,0 +1,1285 @@
+0 Reservation data (no use) -- 予約データ(使用禁止)
+1 For production -- 本番用
+10 Function Test 1 -- 関数テスト１
+11 Function Test 2 -- 関数テスト２
+12 Function Test 3 -- 関数テスト３
+1000000 No Strengthening Status Impact -- [無強化] ステータス影響なし
+1000001 Magic Status No Impact -- [魔法] ステータス影響なし
+1000002 Lightning status no effect -- [雷] ステータス影響なし
+1000003 Flame status no effect -- [炎] ステータス影響なし
+1000004 Darkness Status No Impact -- [闇] ステータス影響なし
+1000005 Poison status no effect -- [毒] ステータス影響なし
+1000006 Bleeding Status No Effect -- [出血] ステータス影響なし
+1000007 Coarse status no effect -- [粗製] ステータス影響なし
+1000008 Magic Status No Influence -- [魔力] ステータス影響なし
+1000009 Abyss Status No Impact -- [深淵] ステータス影響なし
+1001000 [Unstrengthened] Muscle Strength A Workmanship - -- [無強化] 筋力A 技量-
+1001001 [Magic] Strength A Workmanship - -- [魔法] 筋力A 技量-
+1001002 [Lightning] Strength A Workmanship - -- [雷] 筋力A 技量-
+1001003 [Flame] Strength A Workmanship - -- [炎] 筋力A 技量-
+1001004 [Darkness] Strength A Workmanship- -- [闇] 筋力A 技量-
+1001005 [Poison] Muscle Strength A Workmanship - -- [毒] 筋力A 技量-
+1001006 [Bleeding] Muscle Strength A Workmanship - -- [出血] 筋力A 技量-
+1001007 [Crude] Strength A Workmanship - -- [粗製] 筋力A 技量-
+1001008 [Magic] Muscle Strength A Workmanship - -- [魔力] 筋力A 技量-
+1001009 [Abyss] Strength A Workmanship- -- [深淵] 筋力A 技量-
+1001010 [Unstrengthened] Muscle Strength A Workmanship B -- [無強化] 筋力A 技量B
+1001011 [Magic] Strength A Workmanship B -- [魔法] 筋力A 技量B
+1001012 [Lightning] Strength A Workmanship B -- [雷] 筋力A 技量B
+1001013 [Flame] Strength A Workmanship B -- [炎] 筋力A 技量B
+1001014 [Darkness] Strength A Skill B -- [闇] 筋力A 技量B
+1001015 [Poison] Strength A Workmanship B -- [毒] 筋力A 技量B
+1001016 [Bleeding] Muscle Strength A Workmanship B -- [出血] 筋力A 技量B
+1001017 [Crude] Strength A Workmanship B -- [粗製] 筋力A 技量B
+1001018 [Magic] Muscle Strength A Skill B -- [魔力] 筋力A 技量B
+1001019 [Abyss] Strength A Workmanship B -- [深淵] 筋力A 技量B
+1001020 [Unstrengthened] Muscle Strength A Workmanship E -- [無強化] 筋力A 技量E
+1001021 [Magic] Strength A Workmanship E -- [魔法] 筋力A 技量E
+1001022 [Lightning] Strength A Workmanship E -- [雷] 筋力A 技量E
+1001023 [Flame] Strength A Workmanship E -- [炎] 筋力A 技量E
+1001024 [Darkness] Strength A Workmanship E -- [闇] 筋力A 技量E
+1001025 [Poison] Strength A Workmanship E -- [毒] 筋力A 技量E
+1001026 [Bleeding] Muscle Strength A Workmanship E -- [出血] 筋力A 技量E
+1001027 [Crude] Strength A Workmanship E -- [粗製] 筋力A 技量E
+1001028 [Magic] Muscle Strength A Skill E -- [魔力] 筋力A 技量E
+1001029 [Abyss] Strength A Workmanship E -- [深淵] 筋力A 技量E
+1002000 [Unstrengthened] Muscle Strength B Workmanship - -- [無強化] 筋力B 技量-
+1002001 [Magic] Strength B Workmanship - -- [魔法] 筋力B 技量-
+1002002 [Lightning] Strength B Workmanship - -- [雷] 筋力B 技量-
+1002003 [Flame] Strength B Workmanship - -- [炎] 筋力B 技量-
+1002004 [Darkness] Strength B Workmanship - -- [闇] 筋力B 技量-
+1002005 [Poison] Muscle Strength B Workmanship - -- [毒] 筋力B 技量-
+1002006 [Bleeding] Muscle Strength B Workmanship - -- [出血] 筋力B 技量-
+1002007 [Crude] Strength B Workmanship - -- [粗製] 筋力B 技量-
+1002008 [Magic] Muscle Strength B Workmanship - -- [魔力] 筋力B 技量-
+1002009 [Abyss] Strength B Workmanship - -- [深淵] 筋力B 技量-
+1002010 [Unstrengthened] Strength B Workmanship B -- [無強化] 筋力B 技量B
+1002011 [Magic] Strength B Workmanship B -- [魔法] 筋力B 技量B
+1002012 [Lightning] Strength B Workmanship B -- [雷] 筋力B 技量B
+1002013 [Flame] Strength B Workmanship B -- [炎] 筋力B 技量B
+1002014 [Darkness] Strength B Workmanship B -- [闇] 筋力B 技量B
+1002015 [Poison] Strength B Workmanship B -- [毒] 筋力B 技量B
+1002016 [Bleeding] Strength B Workmanship B -- [出血] 筋力B 技量B
+1002017 [Crude] Strength B Workmanship B -- [粗製] 筋力B 技量B
+1002018 [Magic] Strength B Skill B -- [魔力] 筋力B 技量B
+1002019 [Abyss] Strength B Workmanship B -- [深淵] 筋力B 技量B
+1002020 [Unstrengthened] Muscle Strength B Workmanship C -- [無強化] 筋力B 技量C
+1002021 [Magic] Strength B Workmanship C -- [魔法] 筋力B 技量C
+1002022 [Lightning] Strength B Workmanship C -- [雷] 筋力B 技量C
+1002023 [Flame] Strength B Workmanship C -- [炎] 筋力B 技量C
+1002024 [Darkness] Strength B Workmanship C -- [闇] 筋力B 技量C
+1002025 [Poison] Strength B Workmanship C -- [毒] 筋力B 技量C
+1002026 [Bleeding] Strength B Workmanship C -- [出血] 筋力B 技量C
+1002027 [Crude] Strength B Workmanship C -- [粗製] 筋力B 技量C
+1002028 [Magic] Strength B Skill C -- [魔力] 筋力B 技量C
+1002029 [Abyss] Strength B Workmanship C -- [深淵] 筋力B 技量C
+1002030 [Unstrengthened] Strength B Workmanship D -- [無強化] 筋力B 技量D
+1002031 [Magic] Strength B Workmanship D -- [魔法] 筋力B 技量D
+1002032 [Lightning] Strength B Workmanship D -- [雷] 筋力B 技量D
+1002033 [Flame] Strength B Workmanship D -- [炎] 筋力B 技量D
+1002034 [Darkness] Strength B Workmanship D -- [闇] 筋力B 技量D
+1002035 [Poison] Strength B Workmanship D -- [毒] 筋力B 技量D
+1002036 [Bleeding] Strength B Workmanship D -- [出血] 筋力B 技量D
+1002037 [Crude] Strength B Workmanship D -- [粗製] 筋力B 技量D
+1002038 [Magic] Strength B Skill D -- [魔力] 筋力B 技量D
+1002039 [Abyss] Strength B Workmanship D -- [深淵] 筋力B 技量D
+1002040 [Unstrengthened] Strength B Workmanship E -- [無強化] 筋力B 技量E
+1002041 [Magic] Strength B Workmanship E -- [魔法] 筋力B 技量E
+1002042 [Lightning] Strength B Workmanship E -- [雷] 筋力B 技量E
+1002043 [Flame] Strength B Workmanship E -- [炎] 筋力B 技量E
+1002044 [Darkness] Strength B Workmanship E -- [闇] 筋力B 技量E
+1002045 [Poison] Strength B Workmanship E -- [毒] 筋力B 技量E
+1002046 [Bleeding] Strength B Workmanship E -- [出血] 筋力B 技量E
+1002047 [Crude] Strength B Workmanship E -- [粗製] 筋力B 技量E
+1002048 [Magic] Strength B Skill E -- [魔力] 筋力B 技量E
+1002049 [Abyss] Strength B Workmanship E -- [深淵] 筋力B 技量E
+1003000 [Unstrengthened] Strength C Workmanship - -- [無強化] 筋力C 技量-
+1003001 [Magic] Strength C Workmanship - -- [魔法] 筋力C 技量-
+1003002 [Lightning] Strength C Workmanship - -- [雷] 筋力C 技量-
+1003003 [Flame] Strength C Workmanship - -- [炎] 筋力C 技量-
+1003004 [Darkness] Strength C Workmanship- -- [闇] 筋力C 技量-
+1003005 [Poison] Strength C Workmanship - -- [毒] 筋力C 技量-
+1003006 [Bleeding] Muscle Strength C Workmanship - -- [出血] 筋力C 技量-
+1003007 [Crude] Strength C Workmanship - -- [粗製] 筋力C 技量-
+1003008 [Magic] Strength C Workmanship - -- [魔力] 筋力C 技量-
+1003009 [Abyss] Strength C Workmanship- -- [深淵] 筋力C 技量-
+1003010 [Unstrengthened] Strength C' Workmanship S -- [無強化] 筋力C’ 技量S
+1003011 [Magic] Strength C' Workmanship S -- [魔法] 筋力C’ 技量S
+1003012 [Lightning] Strength C' Workmanship S -- [雷] 筋力C’ 技量S
+1003013 [Flame] Strength C' Workmanship S -- [炎] 筋力C’ 技量S
+1003014 [Darkness] Strength C' Workmanship S -- [闇] 筋力C’ 技量S
+1003015 [Poison] Muscle Strength C' Workmanship S -- [毒] 筋力C’ 技量S
+1003016 [Bleeding] Strength C' Workmanship S -- [出血] 筋力C’ 技量S
+1003017 [Crude] Strength C' Workmanship S -- [粗製] 筋力C’ 技量S
+1003018 [Magic] Muscle Strength C' Skill S -- [魔力] 筋力C’ 技量S
+1003019 [Abyss] Strength C' Workmanship S -- [深淵] 筋力C’ 技量S
+1003020 [Unstrengthened] Strength C Workmanship A -- [無強化] 筋力C 技量A
+1003021 [Magic] Strength C Workmanship A -- [魔法] 筋力C 技量A
+1003022 [Lightning] Strength C Workmanship A -- [雷] 筋力C 技量A
+1003023 [Flame] Strength C Workmanship A -- [炎] 筋力C 技量A
+1003024 [Darkness] Strength C Skill A -- [闇] 筋力C 技量A
+1003025 [Poison] Strength C Skill A -- [毒] 筋力C 技量A
+1003026 Bleeding Muscle Strength C Workmanship A -- [出血] 筋力C 技量A
+1003027 [Crude] Strength C Workmanship A -- [粗製] 筋力C 技量A
+1003028 [Magic] Muscle Strength C Skill A -- [魔力] 筋力C 技量A
+1003029 [Abyss] Strength C Workmanship A -- [深淵] 筋力C 技量A
+1003030 [Unstrengthened] Strength C Workmanship B -- [無強化] 筋力C 技量B
+1003031 [Magic] Strength C Workmanship B -- [魔法] 筋力C 技量B
+1003032 [Lightning] Strength C Workmanship B -- [雷] 筋力C 技量B
+1003033 [Flame] Strength C Workmanship B -- [炎] 筋力C 技量B
+1003034 [Darkness] Strength C Skill B -- [闇] 筋力C 技量B
+1003035 [Poison] Strength C Workmanship B -- [毒] 筋力C 技量B
+1003036 [Bleeding] Strength C Workmanship B -- [出血] 筋力C 技量B
+1003037 [Crude] Strength C Workmanship B -- [粗製] 筋力C 技量B
+1003038 [Magic] Strength C Skill B -- [魔力] 筋力C 技量B
+1003039 [Abyss] Strength C Workmanship B -- [深淵] 筋力C 技量B
+1003050 [Unstrengthened] Strength C Workmanship C -- [無強化] 筋力C 技量C
+1003051 [Magic] Strength C Workmanship C -- [魔法] 筋力C 技量C
+1003052 [Lightning] Strength C Workmanship C -- [雷] 筋力C 技量C
+1003053 [Flame] Strength C Workmanship C -- [炎] 筋力C 技量C
+1003054 [Darkness] Strength C Skill C -- [闇] 筋力C 技量C
+1003055 [Poison] Strength C Workmanship C -- [毒] 筋力C 技量C
+1003056 Bleeding Muscle Strength C Workmanship C -- [出血] 筋力C 技量C
+1003057 [Crude] Strength C Workmanship C -- [粗製] 筋力C 技量C
+1003058 [Magic] Strength C Skill C -- [魔力] 筋力C 技量C
+1003059 [Abyss] Strength C Workmanship C -- [深淵] 筋力C 技量C
+1003090 [Unstrengthened] Strength C Workmanship D -- [無強化] 筋力C 技量D
+1003091 [Magic] Strength C Workmanship D -- [魔法] 筋力C 技量D
+1003092 [Lightning] Strength C Workmanship D -- [雷] 筋力C 技量D
+1003093 [Flame] Strength C Workmanship D -- [炎] 筋力C 技量D
+1003094 [Darkness] Strength C Workmanship D -- [闇] 筋力C 技量D
+1003095 [Poison] Strength C Workmanship D -- [毒] 筋力C 技量D
+1003096 Bleeding Muscle Strength C Workmanship D -- [出血] 筋力C 技量D
+1003097 [Crude] Strength C Workmanship D -- [粗製] 筋力C 技量D
+1003098 [Magic] Strength C Skill D -- [魔力] 筋力C 技量D
+1003099 [Abyss] Strength C Workmanship D -- [深淵] 筋力C 技量D
+1003100 [Unstrengthened] Strength C Workmanship E -- [無強化] 筋力C 技量E
+1003101 [Magic] Strength C Workmanship E -- [魔法] 筋力C 技量E
+1003102 [Lightning] Strength C Workmanship E -- [雷] 筋力C 技量E
+1003103 [Flame] Strength C Workmanship E -- [炎] 筋力C 技量E
+1003104 [Darkness] Strength C Skill E -- [闇] 筋力C 技量E
+1003105 [Poison] Strength C Skill E -- [毒] 筋力C 技量E
+1003106 Bleeding Muscle Strength C Workmanship E -- [出血] 筋力C 技量E
+1003107 [Crude] Strength C Workmanship E -- [粗製] 筋力C 技量E
+1003108 [Magic] Strength C Skill E -- [魔力] 筋力C 技量E
+1003109 [Abyss] Strength C Workmanship E -- [深淵] 筋力C 技量E
+1003110 [Unstrengthened] Ornstein Spear: Strength E Skill B Lightning C -- [無強化] オーンスタインの槍：筋力E 技量B 雷C
+1003111 [First Genus: Magic] Ornstein Spear: Strength E Skill B Lightning C -- [初属：魔法] オーンスタインの槍：筋力E 技量B 雷C
+1003112 [First Genus: Lightning] Ornstein Spear: Strength E Workmanship B Lightning C -- [初属：雷] オーンスタインの槍：筋力E 技量B 雷C
+1003113 [First Genus: Flame] Ornstein Spear: Strength E Workmanship B Lightning C -- [初属：炎] オーンスタインの槍：筋力E 技量B 雷C
+1003114 [First Genus: Darkness] Ornstein Spear: Strength E Skill B Lightning C -- [初属：闇] オーンスタインの槍：筋力E 技量B 雷C
+1003115 [First Genus: Poison] Ornstein Spear: Strength E Skill B Lightning C -- [初属：毒] オーンスタインの槍：筋力E 技量B 雷C
+1003116 [First Genus: Bleeding] Ornstein Spear: Strength E Workmanship B Lightning C -- [初属：出血] オーンスタインの槍：筋力E 技量B 雷C
+1003117 [First Genus: Crude] Ornstein Spear: Strength E Workmanship B Lightning C -- [初属：粗製] オーンスタインの槍：筋力E 技量B 雷C
+1003118 [First Genus: Magic] Ornstein Spear: Strength E Skill B Lightning C -- [初属：魔力] オーンスタインの槍：筋力E 技量B 雷C
+1003119 [First Genus: Abyss] Ornstein Spear: Strength E Workmanship B Lightning C -- [初属：深淵] オーンスタインの槍：筋力E 技量B 雷C
+1003120 [Unstrengthened] Queen Knight A: Strength C Workmanship D Lightning C -- [無強化] 王妃の騎士A：筋力C 技量D 雷C
+1003121 [First Genus: Magic] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：魔法] 王妃の騎士A：筋力C 技量D 雷C
+1003122 [First Genus: Thunder] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：雷] 王妃の騎士A：筋力C 技量D 雷C
+1003123 [First Genus: Flame] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：炎] 王妃の騎士A：筋力C 技量D 雷C
+1003124 [First Genus: Darkness] Queen Knight A: Strength C Skill D Lightning C -- [初属：闇] 王妃の騎士A：筋力C 技量D 雷C
+1003125 [First Genus: Poison] Queen Knight A: Strength C Skill D Lightning C -- [初属：毒] 王妃の騎士A：筋力C 技量D 雷C
+1003126 [First Genus: Bleeding] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：出血] 王妃の騎士A：筋力C 技量D 雷C
+1003127 [First Genus: Crude] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：粗製] 王妃の騎士A：筋力C 技量D 雷C
+1003128 [First Genus: Magic] Queen Knight A: Strength C Skill D Lightning C -- [初属：魔力] 王妃の騎士A：筋力C 技量D 雷C
+1003129 [First Genus: Abyss] Queen Knight A: Strength C Workmanship D Lightning C -- [初属：深淵] 王妃の騎士A：筋力C 技量D 雷C
+1003130 [Unstrengthened] Crescent Axe: Strength C Workmancy C Physical Strength E -- [無強化] クレセントアックス：筋力C 技量C 理力E
+1003131 [First Genus: Magic] Crescent Axe: Strength C Workmanship C Physical Power E -- [初属：魔法] クレセントアックス：筋力C 技量C 理力E
+1003132 [First Genus: Lightning] Crescent Axe: Strength C Workmanship C Physical Force E -- [初属：雷] クレセントアックス：筋力C 技量C 理力E
+1003133 [First Genus: Flame] Crescent Axe: Strength C Workmanship C Physical Force E -- [初属：炎] クレセントアックス：筋力C 技量C 理力E
+1003134 [First Genus: Darkness] Crescent Axe: Strength C Workmanship C Physical Force E -- [初属：闇] クレセントアックス：筋力C 技量C 理力E
+1003135 [First Genus: Poison] Crescent Axe: Strength C Workmanship C Physical Force E -- [初属：毒] クレセントアックス：筋力C 技量C 理力E
+1003136 [First genus: Bleeding] Crescent Axe: Strength C Workmanship C Physical Force E -- [初属：出血] クレセントアックス：筋力C 技量C 理力E
+1003137 [First genus: Crude] Crescent Axe: Strength C Workmanship C Physical Strength E -- [初属：粗製] クレセントアックス：筋力C 技量C 理力E
+1003138 [First Genus: Magic] Crescent Axe: Strength C Skill C Physical Power E -- [初属：魔力] クレセントアックス：筋力C 技量C 理力E
+1003139 [First Genus: Abyss] Crescent Axe: Strength C Workmanship C Physical Strength E -- [初属：深淵] クレセントアックス：筋力C 技量C 理力E
+1003140 [Unstrengthened] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [無強化] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003141 [First Genus: Magic] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：魔法] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003142 [First genus: Thunder] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：雷] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003143 [First genus: Flame] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：炎] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003144 [First Genus: Darkness] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：闇] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003145 [First genus: Poison] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：毒] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003146 [First genus: Bleeding] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：出血] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003147 [First genus: Crude] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：粗製] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003148 [First genus: Magic] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：魔力] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003149 [First genus: Abyss] Queen Knight B's Two-Handed Mallet: Strength C Skill - Darkness C -- [初属：深淵] 王妃の騎士Bの両手槌：筋力C 技量- 闇C
+1003150 [Unstrengthened] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [無強化] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003151 [First Genus: Magic] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：魔法] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003152 [First Genus: Lightning] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：雷] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003153 [First Genus: Flame] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：炎] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003154 [First Genus: Darkness] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：闇] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003155 [First Genus: Poison] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：毒] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003156 [First genus: Bleeding] Immortal Senior Soldier Spear: Strength C Workmanship C Darkness C -- [初属：出血] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003157 [First genus: Crude] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：粗製] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003158 [First Genus: Magic] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：魔力] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003159 [First Genus: Abyss] Immortal Advanced Soldier Spear: Strength C Workmanship C Darkness C -- [初属：深淵] イモータル上級兵士の槍：筋力C 技量C 闇C
+1003160 [Unstrengthened] Strength C Workmanship B Darkness C -- [無強化] 筋力C 技量B 闇C
+1003161 [Magic] Strength C Workmanship B Darkness C -- [魔法] 筋力C 技量B 闇C
+1003162 [Lightning] Strength C Workmanship B Darkness C -- [雷] 筋力C 技量B 闇C
+1003163 [Flame] Strength C Workmanship B Darkness C -- [炎] 筋力C 技量B 闇C
+1003164 [Darkness] Strength C Workmanship B Darkness C -- [闇] 筋力C 技量B 闇C
+1003165 [Poison] Strength C Workmanship B Darkness C -- [毒] 筋力C 技量B 闇C
+1003166 [Bleeding] Strength C Workmanship B Darkness C -- [出血] 筋力C 技量B 闇C
+1003167 [Crude] Strength C Workmanship B Darkness C -- [粗製] 筋力C 技量B 闇C
+1003168 [Magic] Strength C Skill B Darkness C -- [魔力] 筋力C 技量B 闇C
+1003169 [Abyss] Strength C Workmanship B Darkness C -- [深淵] 筋力C 技量B 闇C
+1004000 [Unstrengthened] Strength D Workmanship - -- [無強化] 筋力D 技量-
+1004001 [Magic] Strength D Workmanship - -- [魔法] 筋力D 技量-
+1004002 [Lightning] Strength D Workmanship - -- [雷] 筋力D 技量-
+1004003 [Flame] Strength D Workmanship - -- [炎] 筋力D 技量-
+1004004 [Darkness] Strength D Workmanship - -- [闇] 筋力D 技量-
+1004005 [Poison] Strength D Workmanship - -- [毒] 筋力D 技量-
+1004006 [Bleeding] Muscle D Workmanship - -- [出血] 筋力D 技量-
+1004007 [Crude] Strength D Workmanship - -- [粗製] 筋力D 技量-
+1004008 [Magic] Strength D Workmanship - -- [魔力] 筋力D 技量-
+1004009 [Abyss] Strength D Workmanship - -- [深淵] 筋力D 技量-
+1004010 [Unstrengthened] Strength D Workmanship A -- [無強化] 筋力D 技量A
+1004011 [Magic] Strength D Workmanship A -- [魔法] 筋力D 技量A
+1004012 [Lightning] Strength D Workmanship A -- [雷] 筋力D 技量A
+1004013 [Flame] Strength D Workmanship A -- [炎] 筋力D 技量A
+1004014 [Darkness] Strength D Workmanship A -- [闇] 筋力D 技量A
+1004015 [Poison] Strength D Workmanship A -- [毒] 筋力D 技量A
+1004016 [Bleeding] Strength D Workmanship A -- [出血] 筋力D 技量A
+1004017 [Crude] Strength D Workmanship A -- [粗製] 筋力D 技量A
+1004018 [Magic] Strength D Skill A -- [魔力] 筋力D 技量A
+1004019 [Abyss] Strength D Workmanship A -- [深淵] 筋力D 技量A
+1004020 [Unstrengthened] Strength D Workmanship B -- [無強化] 筋力D 技量B
+1004021 [Magic] Strength D Workmanship B -- [魔法] 筋力D 技量B
+1004022 [Lightning] Strength D Workmanship B -- [雷] 筋力D 技量B
+1004023 [Flame] Strength D Workmanship B -- [炎] 筋力D 技量B
+1004024 [Darkness] Strength D Workmanship B -- [闇] 筋力D 技量B
+1004025 [Poison] Strength D Workmanship B -- [毒] 筋力D 技量B
+1004026 [Bleeding] Strength D Workmanship B -- [出血] 筋力D 技量B
+1004027 [Crude] Strength D Workmanship B -- [粗製] 筋力D 技量B
+1004028 [Magic] Strength D Skill B -- [魔力] 筋力D 技量B
+1004029 [Abyss] Strength D Workmanship B -- [深淵] 筋力D 技量B
+1004030 [Unstrengthened] Strength D Workmanship C -- [無強化] 筋力D 技量C
+1004031 [Magic] Strength D Workmanship C -- [魔法] 筋力D 技量C
+1004032 [Lightning] Strength D Workmanship C -- [雷] 筋力D 技量C
+1004033 [Flame] Strength D Workmanship C -- [炎] 筋力D 技量C
+1004034 [Darkness] Strength D Workmanship C -- [闇] 筋力D 技量C
+1004035 [Poison] Strength D Skill C -- [毒] 筋力D 技量C
+1004036 [Bleeding] Strength D Workmanship C -- [出血] 筋力D 技量C
+1004037 [Crude] Strength D Workmanship C -- [粗製] 筋力D 技量C
+1004038 [Magic] Strength D Skill C -- [魔力] 筋力D 技量C
+1004039 [Abyss] Strength D Workmanship C -- [深淵] 筋力D 技量C
+1004040 [Unstrengthened] Strength D Workmanship D -- [無強化] 筋力D 技量D
+1004041 [Magic] Strength D Workmanship D -- [魔法] 筋力D 技量D
+1004042 [Lightning] Strength D Workmanship D -- [雷] 筋力D 技量D
+1004043 [Flame] Strength D Workmanship D -- [炎] 筋力D 技量D
+1004044 [Darkness] Strength D Workmanship D -- [闇] 筋力D 技量D
+1004045 [Poison] Strength D Workmanship D -- [毒] 筋力D 技量D
+1004046 [Bleeding] Strength D Workmanship D -- [出血] 筋力D 技量D
+1004047 [Crude] Strength D Workmanship D -- [粗製] 筋力D 技量D
+1004048 [Magic] Strength D Workmanship D -- [魔力] 筋力D 技量D
+1004049 [Abyss] Strength D Workmanship D -- [深淵] 筋力D 技量D
+1004050 [Unstrengthened] Strength D Workmanship E -- [無強化] 筋力D 技量E
+1004051 [Magic] Strength D Workmanship E -- [魔法] 筋力D 技量E
+1004052 [Lightning] Strength D Workmanship E -- [雷] 筋力D 技量E
+1004053 [Flame] Strength D Workmanship E -- [炎] 筋力D 技量E
+1004054 [Darkness] Strength D Workmanship E -- [闇] 筋力D 技量E
+1004055 [Poison] Strength D Workmanship E -- [毒] 筋力D 技量E
+1004056 [Bleeding] Strength D Workmanship E -- [出血] 筋力D 技量E
+1004057 [Crude] Strength D Workmanship E -- [粗製] 筋力D 技量E
+1004058 [Magic] Strength D Skill E -- [魔力] 筋力D 技量E
+1004059 [Abyss] Strength D Workmanship E -- [深淵] 筋力D 技量E
+1004060 [Unstrengthened] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [無強化] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004061 [First Genus: Magic] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：魔法] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004062 [First Genus: Lightning] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：雷] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004063 [First Genus: Flame] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：炎] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004064 [First Genus: Darkness] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：闇] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004065 [First Genus: Poison] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：毒] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004066 [First genus: Bleeding] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：出血] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004067 [First Genus: Crude] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：粗製] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004068 [First Genus: Magic] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：魔力] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004069 [First Genus: Abyss] Phantom Priest's One Hand Mallet: Strength D Workmanship C Lightning E Darkness D -- [初属：深淵] ファントムプリーストの片手槌：筋力D 技量C 雷E 闇D
+1004070 [Unstrengthened] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [無強化] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004071 [First Genus: Magic] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：魔法] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004072 [First Genus: Lightning] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：雷] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004073 [First Genus: Flame] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：炎] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004074 [First Genus: Darkness] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：闇] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004075 [First Genus: Poison] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：毒] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004076 [First genus: Bleeding] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：出血] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004077 [First Genus: Crude] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：粗製] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004078 [First Genus: Magic] Damon Knight's Oversized Sword: Strength D Skill D Flame C -- [初属：魔力] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004079 [First Genus: Abyss] Damon Knight's Oversized Sword: Strength D Workmanship D Flame C -- [初属：深淵] デーモンナイトの特大剣：筋力D 技量D 炎C
+1004080 [Unstrengthened] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [無強化] アガドゥランの特大剣：筋力D 技量D 闇A
+1004081 [Agaduran's Oversized Sword: Magic] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：魔法] アガドゥランの特大剣：筋力D 技量D 闇A
+1004082 [Agaduran's Oversized Sword: Lightning] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：雷] アガドゥランの特大剣：筋力D 技量D 闇A
+1004083 [Agaduran's Oversized Sword: Flame] Agaduran's Oversized Sword: Strength D Workmanship D Darkness A -- [アガドゥランの特大剣：炎] アガドゥランの特大剣：筋力D 技量D 闇A
+1004084 [Agaduran's Oversized Sword: Darkness] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：闇] アガドゥランの特大剣：筋力D 技量D 闇A
+1004085 [Agaduran's Oversized Sword: Poison] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：毒] アガドゥランの特大剣：筋力D 技量D 闇A
+1004086 [Agaduran's Oversized Sword: Bleeding] Agaduran's Oversized Sword: Strength D Workmanship D Darkness A -- [アガドゥランの特大剣：出血] アガドゥランの特大剣：筋力D 技量D 闇A
+1004087 [Agaduran's Oversized Sword: Crude] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：粗製] アガドゥランの特大剣：筋力D 技量D 闇A
+1004088 [Agaduran's Oversized Sword: Magic] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：魔力] アガドゥランの特大剣：筋力D 技量D 闇A
+1004089 [Agaduran's Oversized Sword: Abyss] Agaduran's Oversized Sword: Strength D Skill D Darkness A -- [アガドゥランの特大剣：深淵] アガドゥランの特大剣：筋力D 技量D 闇A
+1004090 [Unstrengthened] Shield: Strength D Workmanship - Physical Power C -- [無強化] 盾：筋力D 技量- 理力C
+1004091 [First Genus B: Magic] Shield: Strength D Workmanship - Physical Power C -- [初属B：魔法] 盾：筋力D 技量- 理力C
+1004092 [First Genus B: Lightning] Shield: Strength D Workmanship - Physical Force C -- [初属B：雷] 盾：筋力D 技量- 理力C
+1004093 [First Genus B: Flame] Shield: Strength D Workmanship - Physical Force C -- [初属B：炎] 盾：筋力D 技量- 理力C
+1004094 [First Genus B: Darkness] Shield: Strength D Workmanship - Physical Power C -- [初属B：闇] 盾：筋力D 技量- 理力C
+1004095 [First Genus B: Poison] Shield: Strength D Workmanship - Physical Force C -- [初属B：毒] 盾：筋力D 技量- 理力C
+1004096 [First Genus B: Bleeding] Shield: Strength D Workmanship - Physical Force C -- [初属B：出血] 盾：筋力D 技量- 理力C
+1004097 [First Genus B: Crude] Shield: Strength D Workmanship - Physical Force C -- [初属B：粗製] 盾：筋力D 技量- 理力C
+1004098 [First Genus B: Magic] Shield: Strength D Workmanship - Physical Power C -- [初属B：魔力] 盾：筋力D 技量- 理力C
+1004099 [First Genus B:Abyss] Shield: Strength D Workmanship - Physical Power C -- [初属B：深淵] 盾：筋力D 技量- 理力C
+1004100 [Unstrengthened] Queen Knight A Medium Shield: Strength D Skill D Power C -- [無強化] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004101 [First Genus D: Magic] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：魔法] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004102 [First Genus D: Lightning] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：雷] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004103 [First Genus D: Flame] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：炎] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004104 [First Genus D: Darkness] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：闇] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004105 [First Genus D: Poison] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：毒] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004106 [First Genus D: Bleeding] Queen Knight A Medium Shield: Strength D Skill D Power C -- [初属D：出血] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004107 [First Genus D: Crude] Queen's Knight A Medium Shield: Strength D Skill D Power C -- [初属D：粗製] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004108 [First Genus D: Magic] Queen's Knight A Medium Shield: Strength D Skill D Power C -- [初属D：魔力] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004109 [First Genus D: Abyss] Queen's Knight A Medium Shield: Strength D Skill D Power C -- [初属D：深淵] 王妃の騎士Aの中盾：筋力D 技量D 理力C
+1004110 [Unstrengthened] Strength D Workmanship - Strength E -- [無強化] 筋力D 技量- 理力E
+1004111 [Magic] Strength D Workmanship - Strength E -- [魔法] 筋力D 技量- 理力E
+1004112 [Lightning] Strength D Workmanship - Strength E -- [雷] 筋力D 技量- 理力E
+1004113 [Flame] Strength D Workmanship - Strength E -- [炎] 筋力D 技量- 理力E
+1004114 [Darkness] Strength D Workmanship - Strength E -- [闇] 筋力D 技量- 理力E
+1004115 [Poison] Strength D Workmanship - Strength E -- [毒] 筋力D 技量- 理力E
+1004116 Bleeding Muscle D Workmanship - Strength E -- [出血] 筋力D 技量- 理力E
+1004117 [Crude] Strength D Workmanship - Strength E -- [粗製] 筋力D 技量- 理力E
+1004118 [Magic] Strength D Workmanship - Strength E -- [魔力] 筋力D 技量- 理力E
+1004119 [Abyss] Strength D Workmanship - Physical Power E -- [深淵] 筋力D 技量- 理力E
+1005000 [Unstrengthened] Muscle Strength E Workmanship - -- [無強化] 筋力E 技量-
+1005001 [Magic] Strength E Workmanship - -- [魔法] 筋力E 技量-
+1005002 [Lightning] Strength E Workmanship - -- [雷] 筋力E 技量-
+1005003 [Flame] Strength E Workmanship - -- [炎] 筋力E 技量-
+1005004 [Darkness] Strength E Workmanship - -- [闇] 筋力E 技量-
+1005005 [Poison] Muscle Strength E Workmanship - -- [毒] 筋力E 技量-
+1005006 [Bleeding] Muscle Strength E Workmanship - -- [出血] 筋力E 技量-
+1005007 [Crude] Strength E Workmanship - -- [粗製] 筋力E 技量-
+1005008 [Magic] Muscle E Skill - -- [魔力] 筋力E 技量-
+1005009 [Abyss] Strength E Workmanship - -- [深淵] 筋力E 技量-
+1005010 [Unstrengthened] Strength E Workmanship S -- [無強化] 筋力E 技量S
+1005011 [Magic] Strength E Workmanship S -- [魔法] 筋力E 技量S
+1005012 [Lightning] Strength E Workmanship S -- [雷] 筋力E 技量S
+1005013 [Flame] Strength E Workmanship S -- [炎] 筋力E 技量S
+1005014 [Darkness] Strength E Skill S -- [闇] 筋力E 技量S
+1005015 [Poison] Strength E Skill S -- [毒] 筋力E 技量S
+1005016 [Bleeding] Muscle Strength E Workmanship S -- [出血] 筋力E 技量S
+1005017 [Crude] Strength E Workmanship S -- [粗製] 筋力E 技量S
+1005018 [Magic] Muscle Strength E Skill S -- [魔力] 筋力E 技量S
+1005019 [Abyss] Strength E Workmanship S -- [深淵] 筋力E 技量S
+1005020 [Unstrengthened] Strength E Workmanship A -- [無強化] 筋力E 技量A
+1005021 [Magic] Strength E Workmanship A -- [魔法] 筋力E 技量A
+1005022 [Lightning] Strength E Workmanship A -- [雷] 筋力E 技量A
+1005023 [Flame] Strength E Workmanship A -- [炎] 筋力E 技量A
+1005024 [Darkness] Strength E Skill A -- [闇] 筋力E 技量A
+1005025 [Poison] Strength E Skill A -- [毒] 筋力E 技量A
+1005026 [Bleeding] Muscle Strength E Workmanship A -- [出血] 筋力E 技量A
+1005027 [Crude] Strength E Workmanship A -- [粗製] 筋力E 技量A
+1005028 [Magic] Muscle Strength E Skill A -- [魔力] 筋力E 技量A
+1005029 [Abyss] Strength E Workmanship A -- [深淵] 筋力E 技量A
+1005030 [Unstrengthened] Muscle Strength E Workmanship B -- [無強化] 筋力E 技量B
+1005031 [Magic] Strength E Workmanship B -- [魔法] 筋力E 技量B
+1005032 [Lightning] Strength E Workmanship B -- [雷] 筋力E 技量B
+1005033 [Flame] Strength E Workmanship B -- [炎] 筋力E 技量B
+1005034 [Darkness] Strength E Workmanship B -- [闇] 筋力E 技量B
+1005035 [Poison] Strength E Workmanship B -- [毒] 筋力E 技量B
+1005036 [Bleeding] Muscle Strength E Workmanship B -- [出血] 筋力E 技量B
+1005037 [Crude] Strength E Workmanship B -- [粗製] 筋力E 技量B
+1005038 [Magic] Strength E Skill B -- [魔力] 筋力E 技量B
+1005039 [Abyss] Strength E Workmanship B -- [深淵] 筋力E 技量B
+1005040 [Unstrengthened] Muscle Strength E Workmanship C -- [無強化] 筋力E 技量C
+1005041 [Magic] Strength E Workmanship C -- [魔法] 筋力E 技量C
+1005042 [Lightning] Strength E Workmanship C -- [雷] 筋力E 技量C
+1005043 [Flame] Strength E Workmanship C -- [炎] 筋力E 技量C
+1005044 [Darkness] Strength E Skill C -- [闇] 筋力E 技量C
+1005045 [Poison] Strength E Skill C -- [毒] 筋力E 技量C
+1005046 [Bleeding] Muscle Strength E Workmanship C -- [出血] 筋力E 技量C
+1005047 [Crude] Strength E Workmanship C -- [粗製] 筋力E 技量C
+1005048 [Magic] Muscle Strength E Skill C -- [魔力] 筋力E 技量C
+1005049 [Abyss] Strength E Workmanship C -- [深淵] 筋力E 技量C
+1005050 [Unstrengthened] Strength E Workmanship D -- [無強化] 筋力E 技量D
+1005051 [Magic] Strength E Workmanship D -- [魔法] 筋力E 技量D
+1005052 [Lightning] Strength E Workmanship D -- [雷] 筋力E 技量D
+1005053 [Flame] Strength E Workmanship D -- [炎] 筋力E 技量D
+1005054 [Darkness] Strength E Workmanship D -- [闇] 筋力E 技量D
+1005055 [Poison] Strength E Workmanship D -- [毒] 筋力E 技量D
+1005056 [Bleeding] Strength E Workmanship D -- [出血] 筋力E 技量D
+1005057 [Crude] Strength E Workmanship D -- [粗製] 筋力E 技量D
+1005058 [Magic] Strength E Skill D -- [魔力] 筋力E 技量D
+1005059 [Abyss] Strength E Workmanship D -- [深淵] 筋力E 技量D
+1005060 [Unstrengthened] Strength E Workmanship E -- [無強化] 筋力E 技量E
+1005061 [Magic] Strength E Workmanship E -- [魔法] 筋力E 技量E
+1005062 [Lightning] Strength E Workmanship E -- [雷] 筋力E 技量E
+1005063 [Flame] Strength E Workmanship E -- [炎] 筋力E 技量E
+1005064 [Darkness] Strength E Workmanship E -- [闇] 筋力E 技量E
+1005065 [Poison] Strength E Workmanship E -- [毒] 筋力E 技量E
+1005066 [Bleeding] Muscle Strength E Workmanship E -- [出血] 筋力E 技量E
+1005067 [Crude] Strength E Workmanship E -- [粗製] 筋力E 技量E
+1005068 [Magic] Strength E Skill E -- [魔力] 筋力E 技量E
+1005069 [Abyss] Strength E Workmanship E -- [深淵] 筋力E 技量E
+1005070 [Unstrengthened] Phantom Mage's One-Handed Sword Strength E Skill D Magic C Flame D -- [無強化] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005071 [Phantom Mage's One Hand Sword Magic] Phantom Mage's One Hand Sword Strength E Workmanship D Magic C Flame D -- [ファントムメイジの片手剣：魔法] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005072 [Phantom Mage's One Hand Sword - Lightning] Phantom Mage's One Hand Sword: Strength E Skill D Magic C Flame D -- [ファントムメイジの片手剣：雷] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005073 [Phantom Mage's One Hand Sword Flame] Phantom Mage's One Hand Sword Strength E Workmanship D Magic C Flame D -- [ファントムメイジの片手剣：炎] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005074 [Phantom Mage's One Hand Sword : Darkness] Phantom Mage's One-Handed Sword Strength E Skill D Magic C Flame D -- [ファントムメイジの片手剣：闇] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005075 [Phantom Mage's One Hand Sword : Poison] Phantom Mage's One-Handed Sword Strength E Skill D Magic C Flame D -- [ファントムメイジの片手剣：毒] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005076 [Phantom Mage's One Hand Sword : Bleeding] Phantom Mage's One Hand Sword Strength E Skill D Magic C Flame D -- [ファントムメイジの片手剣：出血] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005077 [Phantom Mage's One-Handed Sword : Crude] Phantom Mage's One-Handed Sword Strength E Workmanship D Magic C Flame D -- [ファントムメイジの片手剣：粗製] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005078 [Phantom Mage's One Hand Sword : Magic] Phantom Mage's One-Handed Sword Strength E Skill D Magic C Flame D -- [ファントムメイジの片手剣：魔力] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005079 [Phantom Mage's One Hand Sword : Abyss] Phantom Mage's One-Handed Sword Strength E Workmanship D Magic C Flame D -- [ファントムメイジの片手剣：深淵] ファントムメイジの片手剣：筋力E 技量D 魔力C 炎D
+1005080 [Unstrengthened] Queen Knight C: Strength E Skill D Magic B -- [無強化] 王妃の騎士C：筋力E 技量D 魔力B
+1005081 [Queen Knight C: Magic] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：魔法] 王妃の騎士C：筋力E 技量D 魔力B
+1005082 [Queen Knight C: Lightning] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：雷] 王妃の騎士C：筋力E 技量D 魔力B
+1005083 [Queen Knight C: Flame] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：炎] 王妃の騎士C：筋力E 技量D 魔力B
+1005084 [Queen Knight C: Darkness] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：闇] 王妃の騎士C：筋力E 技量D 魔力B
+1005085 [Queen Knight C: Poison] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：毒] 王妃の騎士C：筋力E 技量D 魔力B
+1005086 [Queen Knight C: Bleeding] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：出血] 王妃の騎士C：筋力E 技量D 魔力B
+1005087 [Queen Knight C: Made rough] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：粗製] 王妃の騎士C：筋力E 技量D 魔力B
+1005088 [Queen Knight C: Magic] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：魔力] 王妃の騎士C：筋力E 技量D 魔力B
+1005089 [Queen Knight C: Abyss] Queen Knight C: Strength E Skill D Magic B -- [王妃騎士C：深淵] 王妃の騎士C：筋力E 技量D 魔力B
+1005090 [Unstrengthened] Necromancer Shield: Strength E Workmancy D Flame C -- [無強化] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005091 [First Genus C: Magic] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：魔法] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005092 [First Genus C: Lightning] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：雷] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005093 [First Genus C: Flame] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：炎] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005094 [First Genus C: Darkness] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：闇] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005095 [First Genus C: Poison] Necromancer's Shield: Strength E Workmancy D Flame C -- [初属C：毒] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005096 [First Genus C: Bleeding] Necromancer's Shield: Strength E Workmancy D Flame C -- [初属C：出血] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005097 [First Genus C: Crude] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：粗製] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005098 [First Genus C: Magic] Necromancer's Shield: Strength E Workmancy D Flame C -- [初属C：魔力] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005099 [First Genus C: Abyss] Necromancer's Shield: Strength E Workmanship D Flame C -- [初属C：深淵] ネクロマンサーの小盾：筋力E 技量D 炎C
+1005100 [Unstrengthened] Gold Wing Shield: Strength E Workmanship - Physical Force C -- [無強化] 金翼の中盾：筋力E 技量- 理力C
+1005101 [Gold Wing Shield: Magic] Gold Wing Medium Shield: Strength E Skill - Physical Power C -- [金翼の中盾：魔法] 金翼の中盾：筋力E 技量- 理力C
+1005102 [Gold Wing Shield: Lightning] Gold Wing Medium Shield: Strength E Skill - Physical Force C -- [金翼の中盾：雷] 金翼の中盾：筋力E 技量- 理力C
+1005103 [Gold Wing Shield: Flame] Gold Wing Medium Shield: Strength E Skill - Physical Force C -- [金翼の中盾：炎] 金翼の中盾：筋力E 技量- 理力C
+1005104 [Gold Wing Shield: Darkness] Gold Wing Medium Shield: Strength E Skill - Physical Force C -- [金翼の中盾：闇] 金翼の中盾：筋力E 技量- 理力C
+1005105 [Gold Wing Shield: Poison] Gold Wing Medium Shield: Strength E Skill - Physical Force C -- [金翼の中盾：毒] 金翼の中盾：筋力E 技量- 理力C
+1005106 [Gold wing shield: bleeding] gold wing medium shield: strength E skill - physical power C -- [金翼の中盾：出血] 金翼の中盾：筋力E 技量- 理力C
+1005107 [Gold wing shield: crude] Gold wing medium shield: Strength E Workmanship - Strength C -- [金翼の中盾：粗製] 金翼の中盾：筋力E 技量- 理力C
+1005108 [Gold Wing Shield: Magic] Gold Wing Medium Shield: Strength E Skill - Physical Power C -- [金翼の中盾：魔力] 金翼の中盾：筋力E 技量- 理力C
+1005109 [Gold Wing Shield: Abyss] Gold Wing Medium Shield: Strength E Skill - Physical Power C -- [金翼の中盾：深淵] 金翼の中盾：筋力E 技量- 理力C
+1005110 [Unstrengthened] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [無強化] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005111 [First Genus D: Magic] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：魔法] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005112 [First Genus D: Lightning] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：雷] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005113 [First Genus D: Flame] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：炎] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005114 [First Genus D: Darkness] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：闇] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005115 [First Genus D: Poison] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：毒] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005116 [First Genus D: Bleeding] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：出血] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005117 [First Genus D: Crude] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：粗製] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005118 [First Genus D: Magic] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：魔力] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1005119 [First Genus D:Abyss] Spell Four Tenno (Miracle) Medium Shield: Strength E Skill - Lightning C -- [初属D：深淵] スペル四天王（奇蹟）の中盾：筋力E 技量- 雷C
+1006000 [Unstrengthened] Strength - Workmanship S -- [無強化] 筋力- 技量S
+1006001 [Magic] Strength - Workmanship S -- [魔法] 筋力- 技量S
+1006002 [Lightning] Strength - Workmanship S -- [雷] 筋力- 技量S
+1006003 [Flame] Strength - Workmanship S -- [炎] 筋力- 技量S
+1006004 [Darkness] Strength - Workmanship S -- [闇] 筋力- 技量S
+1006005 [Poison] Strength - Workmanship S -- [毒] 筋力- 技量S
+1006006 Bleeding Strength - Workmanship S -- [出血] 筋力- 技量S
+1006007 [Crude] Strength - Workmanship S -- [粗製] 筋力- 技量S
+1006008 [Magic] Strength - Workmanship S -- [魔力] 筋力- 技量S
+1006009 [Abyss] Strength - Workmanship S -- [深淵] 筋力- 技量S
+1006010 [Unstrengthened] Strength - Workmanship A -- [無強化] 筋力- 技量A
+1006011 [Magic] Strength - Workmanship A -- [魔法] 筋力- 技量A
+1006012 [Lightning] Strength - Workmanship A -- [雷] 筋力- 技量A
+1006013 [Flame] Strength - Workmanship A -- [炎] 筋力- 技量A
+1006014 [Darkness] Strength - Workmanship A -- [闇] 筋力- 技量A
+1006015 [Poison] Strength - Workmanship A -- [毒] 筋力- 技量A
+1006016 Bleeding Strength - Workmanship A -- [出血] 筋力- 技量A
+1006017 [Crude] Strength - Workmanship A -- [粗製] 筋力- 技量A
+1006018 [Magic] Strength - Workmanship A -- [魔力] 筋力- 技量A
+1006019 [Abyss] Strength - Workmanship A -- [深淵] 筋力- 技量A
+1006020 [Unstrengthened] Strength - Workmanship B -- [無強化] 筋力- 技量B
+1006021 [Magic] Strength - Workmanship B -- [魔法] 筋力- 技量B
+1006022 [Lightning] Strength - Workmanship B -- [雷] 筋力- 技量B
+1006023 [Flame] Strength - Workmanship B -- [炎] 筋力- 技量B
+1006024 [Darkness] Strength - Workmanship B -- [闇] 筋力- 技量B
+1006025 [Poison] Strength - Workmanship B -- [毒] 筋力- 技量B
+1006026 Bleeding Strength - Workmanship B -- [出血] 筋力- 技量B
+1006027 [Crude] Strength - Workmanship B -- [粗製] 筋力- 技量B
+1006028 [Magic] Strength - Workmanship B -- [魔力] 筋力- 技量B
+1006029 [Abyss] Strength - Workmanship B -- [深淵] 筋力- 技量B
+1006030 [Unstrengthened] Strength - Workmanship C -- [無強化] 筋力- 技量C
+1006031 [Magic] Strength - Workmanship C -- [魔法] 筋力- 技量C
+1006032 [Lightning] Strength - Workmanship C -- [雷] 筋力- 技量C
+1006033 [Flame] Strength - Workmanship C -- [炎] 筋力- 技量C
+1006034 [Darkness] Strength - Workmanship C -- [闇] 筋力- 技量C
+1006035 [Poison] Strength - Workmanship C -- [毒] 筋力- 技量C
+1006036 Bleeding Strength - Workmanship C -- [出血] 筋力- 技量C
+1006037 [Crude] Strength - Workmanship C -- [粗製] 筋力- 技量C
+1006038 [Magic] Strength - Workmanship C -- [魔力] 筋力- 技量C
+1006039 [Abyss] Strength - Workmanship C -- [深淵] 筋力- 技量C
+1006040 [Unstrengthened] Initial Attributes: Sword: Strength - Workmanship D -- [無強化] 初期属性：刀：筋力- 技量D
+1006041 [First Genus B: Magic] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：魔法] 初期属性：刀：筋力- 技量D
+1006042 [First Genus B: Lightning] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：雷] 初期属性：刀：筋力- 技量D
+1006043 [First Genus B: Flame] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：炎] 初期属性：刀：筋力- 技量D
+1006044 [First Genus B: Darkness] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：闇] 初期属性：刀：筋力- 技量D
+1006045 [First Genus B: Poison] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：毒] 初期属性：刀：筋力- 技量D
+1006046 [First Genus B: Bleeding] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：出血] 初期属性：刀：筋力- 技量D
+1006047 [First Genus B: Crude] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：粗製] 初期属性：刀：筋力- 技量D
+1006048 [First Genus B: Magic] Initial Attributes: Sword: Strength - Workmanship D -- [初属B：魔力] 初期属性：刀：筋力- 技量D
+1006049 [First Genus B:Abyss] Initial Attribute: Sword: Strength - Workmanship D -- [初属B：深淵] 初期属性：刀：筋力- 技量D
+1006050 [Unstrengthened] Strength - Workmanship E -- [無強化] 筋力- 技量E
+1006051 [Magic] Strength - Workmanship E -- [魔法] 筋力- 技量E
+1006052 [Lightning] Strength - Workmanship E -- [雷] 筋力- 技量E
+1006053 [Flame] Strength - Workmanship E -- [炎] 筋力- 技量E
+1006054 [Darkness] Strength - Workmanship E -- [闇] 筋力- 技量E
+1006055 [Poison] Strength - Workmanship E -- [毒] 筋力- 技量E
+1006056 Bleeding Strength - Workmanship E -- [出血] 筋力- 技量E
+1006057 [Crude] Strength - Workmanship E -- [粗製] 筋力- 技量E
+1006058 [Magic] Strength - Workmanship E -- [魔力] 筋力- 技量E
+1006059 [Abyss] Strength - Workmanship E -- [深淵] 筋力- 技量E
+1006060 [Unstrengthened] Swords Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [無強化] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006061 [First Genus Flame: Magic] Spell Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：魔法] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006062 [First Flame: Lightning] Swords Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：雷] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006063 [First Genus Flame: Flame] Swords Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：炎] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006064 [First Genus Flame: Darkness] Swords Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：闇] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006065 [First Genus Flame: Poison] Swords Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：毒] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006066 [First Genus Flame: Bleeding] Swords Of The Four Tenkings (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：出血] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006067 [First Genus Flame: Crude] Swords of The Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：粗製] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006068 [First Genus Flame: Magic] Spell Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：魔力] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006069 [First Genus Flame: Abyss] Swords of The Four Tenno (Magic) Stabbing Sword: Strength - Workmanship B Flame B -- [初属炎：深淵] スペル四天王（呪術）の刺突剣：筋力- 技量B 炎B
+1006070 [Unstrengthened] Skeleton aristocrat's long-handed axe: strength - workmanship B Darkness C -- [無強化] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006071 [Skeleton aristocrat's long spear: Magic] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：魔法] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006072 [Skeleton aristocrat's long spear: lightning] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：雷] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006073 [Skeleton aristocrat's long spear: flame] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：炎] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006074 [Skeleton aristocrat's long spear: darkness] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：闇] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006075 [Skeleton aristocrat's long spear: poison] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：毒] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006076 [Skeleton aristocrat's long spear: bleeding] skeleton aristocrat's two-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：出血] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006077 [Skeleton aristocrat's long spear: coarse] skeleton aristocrat's long axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：粗製] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006078 [Skeleton aristocrat's long spear: Magic] skeleton aristocrat's long axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：魔力] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006079 [Skeleton aristocrat's long spear: Abyss] skeleton aristocrat's long-handed axe: strength - workmanship B Darkness C -- [スケルトン貴族の両手長槍：深淵] スケルトン貴族の両手長斧：筋力- 技量B 闇C
+1006080 [Unstrengthened] Dark Priest Shield: Strength - Workmanship D Lightning C -- [無強化] ダークプリーストの小盾：筋力- 技量D 雷C
+1006081 [First Genus C: Magic] Dark Priest's Shield: Strength - Workmanship D Lightning C -- [初属C：魔法] ダークプリーストの小盾：筋力- 技量D 雷C
+1006082 [First Genus C: Lightning] Dark Priest Shield: Strength - Workmanship D Lightning C -- [初属C：雷] ダークプリーストの小盾：筋力- 技量D 雷C
+1006083 [First Genus C: Flame] Dark Priest's Shield: Strength - Workmanship D Lightning C -- [初属C：炎] ダークプリーストの小盾：筋力- 技量D 雷C
+1006084 [First Genus C: Darkness] Dark Priest's Shield: Strength - Workmanship D Lightning C -- [初属C：闇] ダークプリーストの小盾：筋力- 技量D 雷C
+1006085 [First Genus C: Poison] Dark Priest Shield: Strength - Workmanship D Lightning C -- [初属C：毒] ダークプリーストの小盾：筋力- 技量D 雷C
+1006086 [First Genus C: Bleeding] Dark Priest Shield: Strength - Workmanship D Lightning C -- [初属C：出血] ダークプリーストの小盾：筋力- 技量D 雷C
+1006087 [First Genus C: Crude] Dark Priest Shield: Strength - Workmanship D Lightning C -- [初属C：粗製] ダークプリーストの小盾：筋力- 技量D 雷C
+1006088 [First Genus C: Magic] Dark Priest's Shield: Strength - Workmanship D Lightning C -- [初属C：魔力] ダークプリーストの小盾：筋力- 技量D 雷C
+1006089 [First Genus C:Abyss] Dark Priest's Shield: Strength - Workmanship D Lightning C -- [初属C：深淵] ダークプリーストの小盾：筋力- 技量D 雷C
+1007000 [Unstrengthened] Catalyst: Rational Power S Darkness - -- [無強化] 触媒：理力S 闇-
+1007001 [Catalyst: Magic] Catalyst: Rational Power S Darkness - -- [触媒：魔法] 触媒：理力S 闇-
+1007002 [Catalyst: Lightning] Catalyst: Rational Power S Darkness - -- [触媒：雷] 触媒：理力S 闇-
+1007003 [Catalyst: Flame] Catalyst: Rational Power S Darkness - -- [触媒：炎] 触媒：理力S 闇-
+1007004 [Catalyst: Darkness] Catalyst: Rational Power S Darkness - -- [触媒：闇] 触媒：理力S 闇-
+1007005 [Poison] Catalyst: Rational S Darkness - -- [毒] 触媒：理力S 闇-
+1007006 [Bleeding] Catalyst: Phyllits S Darkness - -- [出血] 触媒：理力S 闇-
+1007007 [Crude] Catalyst: Rational Power S Darkness - -- [粗製] 触媒：理力S 闇-
+1007008 [Magic] Catalyst: Rational S Darkness - -- [魔力] 触媒：理力S 闇-
+1007009 [Abyss] Catalyst: Rational Power S Darkness - -- [深淵] 触媒：理力S 闇-
+1007010 [Unstrengthened] Catalyst: Rational Power S Darkness C -- [無強化] 触媒：理力S 闇C
+1007011 [Catalyst: Magic] Catalyst: Rational Power S Darkness C -- [触媒：魔法] 触媒：理力S 闇C
+1007012 [Catalyst: Lightning] Catalyst: Rational Force S Darkness C -- [触媒：雷] 触媒：理力S 闇C
+1007013 [Catalyst: Flame] Catalyst: Rational Power S Darkness C -- [触媒：炎] 触媒：理力S 闇C
+1007014 [Catalyst: Darkness] Catalyst: Rational Power S Darkness C -- [触媒：闇] 触媒：理力S 闇C
+1007015 [Poison] Catalyst: Rational S Darkness C -- [毒] 触媒：理力S 闇C
+1007016 [Bleeding] Catalyst: Phyllius S Darkness C -- [出血] 触媒：理力S 闇C
+1007017 [Crude] Catalyst: Rational Power S Darkness C -- [粗製] 触媒：理力S 闇C
+1007018 [Magic] Catalyst: Rational Power S Darkness C -- [魔力] 触媒：理力S 闇C
+1007019 [Abyss] Catalyst: Rational Power S Darkness C -- [深淵] 触媒：理力S 闇C
+1008000 [Unstrengthened] Catalyst: Rational Power A Darkness C -- [無強化] 触媒：理力A 闇C
+1008001 [Catalyst: Magic] Catalyst: Rational Power A Darkness C -- [触媒：魔法] 触媒：理力A 闇C
+1008002 [Catalyst: Lightning] Catalyst: Rational Power A Darkness C -- [触媒：雷] 触媒：理力A 闇C
+1008003 [Catalyst: Flame] Catalyst: Rational Power A Darkness C -- [触媒：炎] 触媒：理力A 闇C
+1008004 [Catalyst: Darkness] Catalyst: Rational Power A Darkness C -- [触媒：闇] 触媒：理力A 闇C
+1008005 [Poison] Catalyst: Rational Power A Darkness C -- [毒] 触媒：理力A 闇C
+1008006 [Bleeding] Catalyst: Rational Power A Darkness C -- [出血] 触媒：理力A 闇C
+1008007 [Crude] Catalyst: Rational Power A Darkness C -- [粗製] 触媒：理力A 闇C
+1008008 [Magic] Catalyst: Rational Power A Darkness C -- [魔力] 触媒：理力A 闇C
+1008009 [Abyss] Catalyst: Rational Power A Darkness C -- [深淵] 触媒：理力A 闇C
+1008010 [Unstrengthened] Catalyst: Power A Lightning C Darkness A -- [無強化] 触媒：理力A 雷C 闇A
+1008011 [Catalyst: Magic] Catalyst: Rational Power A Lightning C Darkness A -- [触媒：魔法] 触媒：理力A 雷C 闇A
+1008012 [Catalyst: Lightning] Catalyst: Rational Power A Lightning C Darkness A -- [触媒：雷] 触媒：理力A 雷C 闇A
+1008013 [Catalyst: Flame] Catalyst: Rational Power A Lightning C Darkness A -- [触媒：炎] 触媒：理力A 雷C 闇A
+1008014 [Catalyst: Darkness] Catalyst: Rational Power A Lightning C Darkness A -- [触媒：闇] 触媒：理力A 雷C 闇A
+1008015 [Poison] Catalyst: Rational Power A Lightning C Darkness A -- [毒] 触媒：理力A 雷C 闇A
+1008016 [Bleeding] Catalyst: Physical Force A Lightning C Darkness A -- [出血] 触媒：理力A 雷C 闇A
+1008017 [Crude] Catalyst: Rational Power A Lightning C Darkness A -- [粗製] 触媒：理力A 雷C 闇A
+1008018 [Magic] Catalyst: Power A Lightning C Darkness A -- [魔力] 触媒：理力A 雷C 闇A
+1008019 [Abyss] Catalyst: Power A Lightning C Darkness A -- [深淵] 触媒：理力A 雷C 闇A
+1008020 [Unstrengthened] Moonlight Sword: Power A Darkness- -- [無強化] 月光剣：理力A 闇-
+1008021 [Moonlight: Magic] Moonlight Sword: Science A Darkness- -- [月光：魔法] 月光剣：理力A 闇-
+1008022 [Moonlight: Thunder] Moonlight Sword: Power A Darkness- -- [月光：雷] 月光剣：理力A 闇-
+1008023 [Moonlight: Flame] Moonlight Sword: Science A Darkness- -- [月光：炎] 月光剣：理力A 闇-
+1008024 [Moonlight: Darkness] Moonlight Sword: Power A Darkness- -- [月光：闇] 月光剣：理力A 闇-
+1008025 [Moonlight: Poison] Moonlight Sword: Science A Darkness- -- [月光：毒] 月光剣：理力A 闇-
+1008026 [Moonlight: Bleeding] Moonlight Sword: Power A Darkness- -- [月光：出血] 月光剣：理力A 闇-
+1008027 [Moonlight: Crude] Moonlight Sword: Rational Power A Darkness- -- [月光：粗製] 月光剣：理力A 闇-
+1008028 [Moonlight: Magic] Moonlight Sword: Power A Darkness- -- [月光：魔力] 月光剣：理力A 闇-
+1008029 [Moonlight: Abyss] Moonlight Sword: Power A Darkness- -- [月光：深淵] 月光剣：理力A 闇-
+1009000 [Unstrengthened] Catalyst: Rational Strength B Darkness S -- [無強化] 触媒：理力B 闇S
+1009001 [Catalyst: Magic] Catalyst: Rational Power B Darkness S -- [触媒：魔法] 触媒：理力B 闇S
+1009002 [Catalyst: Lightning] Catalyst: Rational Strength B Darkness S -- [触媒：雷] 触媒：理力B 闇S
+1009003 [Catalyst: Flame] Catalyst: Rational Strength B Darkness S -- [触媒：炎] 触媒：理力B 闇S
+1009004 [Catalyst: Darkness] Catalyst: Rational Power B Darkness S -- [触媒：闇] 触媒：理力B 闇S
+1009005 [Poison] Catalyst: Rational Ity B Darkness S -- [毒] 触媒：理力B 闇S
+1009006 [Bleeding] Catalyst: Phyllipower B Darkness S -- [出血] 触媒：理力B 闇S
+1009007 [Crude] Catalyst: Rational Strength B Darkness S -- [粗製] 触媒：理力B 闇S
+1009008 [Magic] Catalyst: Rational Power B Darkness S -- [魔力] 触媒：理力B 闇S
+1009009 [Abyss] Catalyst: Rational Power B Darkness S -- [深淵] 触媒：理力B 闇S
+1009010 [Unstrengthened] Catalyst: Rational Strength B Darkness A -- [無強化] 触媒：理力B 闇A
+1009011 [Catalyst: Magic] Catalyst: Rational Power B Darkness A -- [触媒：魔法] 触媒：理力B 闇A
+1009012 [Catalyst: Lightning] Catalyst: Rational Strength B Darkness A -- [触媒：雷] 触媒：理力B 闇A
+1009013 [Catalyst: Flame] Catalyst: Rational Strength B Darkness A -- [触媒：炎] 触媒：理力B 闇A
+1009014 [Catalyst: Darkness] Catalyst: Rational Power B Darkness A -- [触媒：闇] 触媒：理力B 闇A
+1009015 [Poison] Catalyst: Rational Ity B Darkness A -- [毒] 触媒：理力B 闇A
+1009016 [Bleeding] Catalyst: Phyllipower B Darkness A -- [出血] 触媒：理力B 闇A
+1009017 [Crude] Catalyst: Rational Strength B Darkness A -- [粗製] 触媒：理力B 闇A
+1009018 [Magic] Catalyst: Rational Power B Darkness A -- [魔力] 触媒：理力B 闇A
+1009019 [Abyss] Catalyst: Rational Power B Darkness A -- [深淵] 触媒：理力B 闇A
+1009020 [Unstrengthened] Catalyst: Rational Strength B Darkness B -- [無強化] 触媒：理力B 闇B
+1009021 [Catalyst: Magic] Catalyst: Rational Power B Darkness B -- [触媒：魔法] 触媒：理力B 闇B
+1009022 [Catalyst: Lightning] Catalyst: Rational Force B Darkness B -- [触媒：雷] 触媒：理力B 闇B
+1009023 [Catalyst: Flame] Catalyst: Rational Strength B Darkness B -- [触媒：炎] 触媒：理力B 闇B
+1009024 [Catalyst: Darkness] Catalyst: Rational Power B Darkness B -- [触媒：闇] 触媒：理力B 闇B
+1009025 [Poison] Catalyst: Rational Ity B Darkness B -- [毒] 触媒：理力B 闇B
+1009026 [Bleeding] Catalyst: Phyllipower B Darkness B -- [出血] 触媒：理力B 闇B
+1009027 [Crude] Catalyst: Rational Strength B Darkness B -- [粗製] 触媒：理力B 闇B
+1009028 [Magic] Catalyst: Rational Power B Darkness B -- [魔力] 触媒：理力B 闇B
+1009029 [Abyss] Catalyst: Rational Power B Darkness B -- [深淵] 触媒：理力B 闇B
+1010000 [Unstrengthened] Catalyst: Rational Power C Darkness B -- [無強化] 触媒：理力C 闇B
+1010001 [Catalyst: Magic] Catalyst: Rational Power C Darkness B -- [触媒：魔法] 触媒：理力C 闇B
+1010002 [Catalyst: Lightning] Catalyst: Rational Force C Darkness B -- [触媒：雷] 触媒：理力C 闇B
+1010003 [Catalyst: Flame] Catalyst: Rational Force C Darkness B -- [触媒：炎] 触媒：理力C 闇B
+1010004 [Catalyst: Darkness] Catalyst: Rational Power C Darkness B -- [触媒：闇] 触媒：理力C 闇B
+1010005 [Poison] Catalyst: Rational Ity C Darkness B -- [毒] 触媒：理力C 闇B
+1010006 [Bleeding] Catalyst: Phyllius C Darkness B -- [出血] 触媒：理力C 闇B
+1010007 [Crude] Catalyst: Rational Power C Darkness B -- [粗製] 触媒：理力C 闇B
+1010008 [Magic] Catalyst: Rational Power C Darkness B -- [魔力] 触媒：理力C 闇B
+1010009 [Abyss] Catalyst: Rational Power C Darkness B -- [深淵] 触媒：理力C 闇B
+1010010 [Unstrengthened] Catalyst: Rational Power C Darkness C -- [無強化] 触媒：理力C 闇C
+1010011 [Catalyst: Magic] Catalyst: Rational Power C Darkness C -- [触媒：魔法] 触媒：理力C 闇C
+1010012 [Catalyst: Lightning] Catalyst: Rational Force C Darkness C -- [触媒：雷] 触媒：理力C 闇C
+1010013 [Catalyst: Flame] Catalyst: Rational Force C Darkness C -- [触媒：炎] 触媒：理力C 闇C
+1010014 [Catalyst: Darkness] Catalyst: Rational Power C Darkness C -- [触媒：闇] 触媒：理力C 闇C
+1010015 [Poison] Catalyst: Rational Power C Darkness C -- [毒] 触媒：理力C 闇C
+1010016 [Bleeding] Catalyst: Phyllius C Darkness C -- [出血] 触媒：理力C 闇C
+1010017 [Crude] Catalyst: Rational Power C Darkness C -- [粗製] 触媒：理力C 闇C
+1010018 [Magic] Catalyst: Rational Power C Darkness C -- [魔力] 触媒：理力C 闇C
+1010019 [Abyss] Catalyst: Rational Power C Darkness C -- [深淵] 触媒：理力C 闇C
+1011000 [Unstrengthened] Catalyst: Rational Power D Darkness A -- [無強化] 触媒：理力D 闇A
+1011001 [Catalyst: Magic] Catalyst: Rational Power D Darkness A -- [触媒：魔法] 触媒：理力D 闇A
+1011002 [Catalyst: Lightning] Catalyst: Rational Force D Darkness A -- [触媒：雷] 触媒：理力D 闇A
+1011003 [Catalyst: Flame] Catalyst: Rational Force D Darkness A -- [触媒：炎] 触媒：理力D 闇A
+1011004 [Catalyst: Darkness] Catalyst: Rational Power D Darkness A -- [触媒：闇] 触媒：理力D 闇A
+1011005 [Poison] Catalyst: Rational Power D Darkness A -- [毒] 触媒：理力D 闇A
+1011006 [Bleeding] Catalyst: Physical Force D Darkness A -- [出血] 触媒：理力D 闇A
+1011007 [Crude] Catalyst: Rational Force D Darkness A -- [粗製] 触媒：理力D 闇A
+1011008 [Magic] Catalyst: Rational Power D Darkness A -- [魔力] 触媒：理力D 闇A
+1011009 [Abyss] Catalyst: Rational Power D Darkness A -- [深淵] 触媒：理力D 闇A
+1012000 [Unstrengthened] Catalyst: Lightning S Darkness B -- [無強化] 触媒：雷S 闇B
+1012001 [Catalyst: Magic] Catalyst: Lightning S Darkness B -- [触媒：魔法] 触媒：雷S 闇B
+1012002 [Catalyst: Lightning] Catalyst: Lightning S Darkness B -- [触媒：雷] 触媒：雷S 闇B
+1012003 [Catalyst: Flame] Catalyst: Lightning S Darkness B -- [触媒：炎] 触媒：雷S 闇B
+1012004 [Catalyst: Darkness] Catalyst: Lightning S Darkness B -- [触媒：闇] 触媒：雷S 闇B
+1012005 [Poison] Catalyst: Lightning S Darkness B -- [毒] 触媒：雷S 闇B
+1012006 [Bleeding] Catalyst: Lightning S Darkness B -- [出血] 触媒：雷S 闇B
+1012007 [Crude] Catalyst: Lightning S Darkness B -- [粗製] 触媒：雷S 闇B
+1012008 [Magic] Catalyst: Lightning S Darkness B -- [魔力] 触媒：雷S 闇B
+1012009 [Abyss] Catalyst: Lightning S Darkness B -- [深淵] 触媒：雷S 闇B
+1013000 [Unstrengthened] Queen's Bell: Thunder A Darkness S -- [無強化] 王妃のベル：雷A 闇S
+1013001 [Catalyst: Magic] Queen's Bell: Thunder A Darkness S -- [触媒：魔法] 王妃のベル：雷A 闇S
+1013002 [Catalyst: Thunder] Queen's Bell: Thunder A Darkness S -- [触媒：雷] 王妃のベル：雷A 闇S
+1013003 [Catalyst: Flame] Queen's Bell: Thunder A Darkness S -- [触媒：炎] 王妃のベル：雷A 闇S
+1013004 [Catalyst: Darkness] Queen's Bell: Thunder A Darkness S -- [触媒：闇] 王妃のベル：雷A 闇S
+1013005 [Poison] Queen's Bell: Thunder A Darkness S -- [毒] 王妃のベル：雷A 闇S
+1013006 [Bleeding] Queen's Bell: Thunder A Darkness S -- [出血] 王妃のベル：雷A 闇S
+1013007 [Crude] Queen's Bell: Thunder A Darkness S -- [粗製] 王妃のベル：雷A 闇S
+1013008 [Magic] Queen's Bell: Thunder A Darkness S -- [魔力] 王妃のベル：雷A 闇S
+1013009 [Abyss] Queen's Bell: Thunder A Darkness S -- [深淵] 王妃のベル：雷A 闇S
+1013010 [Unstrengthened] Catalyst: Lightning A Darkness C -- [無強化] 触媒：雷A 闇C
+1013011 [Catalyst: Magic] Catalyst: Lightning A Darkness C -- [触媒：魔法] 触媒：雷A 闇C
+1013012 [Catalyst: Lightning] Catalyst: Lightning A Darkness C -- [触媒：雷] 触媒：雷A 闇C
+1013013 [Catalyst: Flame] Catalyst: Lightning A Darkness C -- [触媒：炎] 触媒：雷A 闇C
+1013014 [Catalyst: Darkness] Catalyst: Lightning A Darkness C -- [触媒：闇] 触媒：雷A 闇C
+1013015 [Poison] Catalyst: Lightning A Darkness C -- [毒] 触媒：雷A 闇C
+1013016 [Bleeding] Catalyst: Lightning A Darkness C -- [出血] 触媒：雷A 闇C
+1013017 [Crude] Catalyst: Lightning A Darkness C -- [粗製] 触媒：雷A 闇C
+1013018 [Magic] Catalyst: Lightning A Darkness C -- [魔力] 触媒：雷A 闇C
+1013019 [Abyss] Catalyst: Lightning A Darkness C -- [深淵] 触媒：雷A 闇C
+1013020 [Unstrengthened] Catalyst: Lightning A Darkness D -- [無強化] 触媒：雷A 闇D
+1013021 [Catalyst: Magic] Catalyst: Lightning A Darkness D -- [触媒：魔法] 触媒：雷A 闇D
+1013022 [Catalyst: Lightning] Catalyst: Lightning A Darkness D -- [触媒：雷] 触媒：雷A 闇D
+1013023 [Catalyst: Flame] Catalyst: Lightning A Darkness D -- [触媒：炎] 触媒：雷A 闇D
+1013024 [Catalyst: Darkness] Catalyst: Lightning A Darkness D -- [触媒：闇] 触媒：雷A 闇D
+1013025 [Poison] Catalyst: Lightning A Darkness D -- [毒] 触媒：雷A 闇D
+1013026 [Bleeding] Catalyst: Lightning A Darkness D -- [出血] 触媒：雷A 闇D
+1013027 [Crude] Catalyst: Lightning A Darkness D -- [粗製] 触媒：雷A 闇D
+1013028 [Magic] Catalyst: Lightning A Darkness D -- [魔力] 触媒：雷A 闇D
+1013029 [Abyss] Catalyst: Lightning A Darkness D -- [深淵] 触媒：雷A 闇D
+1014000 [Unstrengthened] Catalyst: Lightning B Darkness B -- [無強化] 触媒：雷B 闇B
+1014001 [Catalyst: Magic] Catalyst: Lightning B Darkness B -- [触媒：魔法] 触媒：雷B 闇B
+1014002 [Catalyst: Lightning] Catalyst: Lightning B Darkness B -- [触媒：雷] 触媒：雷B 闇B
+1014003 [Catalyst: Flame] Catalyst: Lightning B Darkness B -- [触媒：炎] 触媒：雷B 闇B
+1014004 [Catalyst: Darkness] Catalyst: Lightning B Darkness B -- [触媒：闇] 触媒：雷B 闇B
+1014005 [Poison] Catalyst: Lightning B Darkness B -- [毒] 触媒：雷B 闇B
+1014006 [Bleeding] Catalyst: Lightning B Darkness B -- [出血] 触媒：雷B 闇B
+1014007 [Crude] Catalyst: Lightning B Darkness B -- [粗製] 触媒：雷B 闇B
+1014008 [Magic] Catalyst: Lightning B Darkness B -- [魔力] 触媒：雷B 闇B
+1014009 [Abyss] Catalyst: Lightning B Darkness B -- [深淵] 触媒：雷B 闇B
+1014010 [Unstrengthened] Catalyst: Lightning B Darkness C -- [無強化] 触媒：雷B 闇C
+1014011 [Catalyst: Magic] Catalyst: Lightning B Darkness C -- [触媒：魔法] 触媒：雷B 闇C
+1014012 [Catalyst: Lightning] Catalyst: Lightning B Darkness C -- [触媒：雷] 触媒：雷B 闇C
+1014013 [Catalyst: Flame] Catalyst: Lightning B Darkness C -- [触媒：炎] 触媒：雷B 闇C
+1014014 [Catalyst: Darkness] Catalyst: Lightning B Darkness C -- [触媒：闇] 触媒：雷B 闇C
+1014015 [Poison] Catalyst: Lightning B Darkness C -- [毒] 触媒：雷B 闇C
+1014016 [Bleeding] Catalyst: Lightning B Darkness C -- [出血] 触媒：雷B 闇C
+1014017 [Crude] Catalyst: Lightning B Darkness C -- [粗製] 触媒：雷B 闇C
+1014018 [Magic] Catalyst: Lightning B Darkness C -- [魔力] 触媒：雷B 闇C
+1014019 [Abyss] Catalyst: Lightning B Darkness C -- [深淵] 触媒：雷B 闇C
+1014020 [Unstrengthened] Catalyst: Lightning B Darkness E -- [無強化] 触媒：雷B 闇E
+1014021 [Catalyst: Magic] Catalyst: Lightning B Darkness E -- [触媒：魔法] 触媒：雷B 闇E
+1014022 [Catalyst: Lightning] Catalyst: Lightning B Darkness E -- [触媒：雷] 触媒：雷B 闇E
+1014023 [Catalyst: Flame] Catalyst: Lightning B Darkness E -- [触媒：炎] 触媒：雷B 闇E
+1014024 [Catalyst: Darkness] Catalyst: Lightning B Darkness E -- [触媒：闇] 触媒：雷B 闇E
+1014025 [Poison] Catalyst: Lightning B Darkness E -- [毒] 触媒：雷B 闇E
+1014026 [Bleeding] Catalyst: Lightning B Darkness E -- [出血] 触媒：雷B 闇E
+1014027 [Crude] Catalyst: Lightning B Darkness E -- [粗製] 触媒：雷B 闇E
+1014028 [Magic] Catalyst: Lightning B Darkness E -- [魔力] 触媒：雷B 闇E
+1014029 [Abyss] Catalyst: Lightning B Darkness E -- [深淵] 触媒：雷B 闇E
+1014030 [Unstrengthened] Cleric's Shield B: Lightning B Darkness E -- [無強化] クレリックの中盾B：雷B 闇E
+1014031 [First Genus D: Magic] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：魔法] クレリックの中盾B：雷B 闇E
+1014032 [First Genus D: Lightning] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：雷] クレリックの中盾B：雷B 闇E
+1014033 [First Genus D: Flame] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：炎] クレリックの中盾B：雷B 闇E
+1014034 [First Genus D: Darkness] Cleric's Medium Shield B: Thunder B Darkness E -- [初属D：闇] クレリックの中盾B：雷B 闇E
+1014035 [First Genus D: Poison] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：毒] クレリックの中盾B：雷B 闇E
+1014036 [First Genus D: Bleeding] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：出血] クレリックの中盾B：雷B 闇E
+1014037 [First Genus D: Crude] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：粗製] クレリックの中盾B：雷B 闇E
+1014038 [First Genus D: Magic] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：魔力] クレリックの中盾B：雷B 闇E
+1014039 [First Genus D: Abyss] Cleric's Medium Shield B: Lightning B Darkness E -- [初属D：深淵] クレリックの中盾B：雷B 闇E
+1015000 [Unstrengthened] Catalyst: Lightning C Darkness C -- [無強化] 触媒：雷C 闇C
+1015001 [Catalyst: Magic] Catalyst: Lightning C Darkness C -- [触媒：魔法] 触媒：雷C 闇C
+1015002 [Catalyst: Lightning] Catalyst: Lightning C Darkness C -- [触媒：雷] 触媒：雷C 闇C
+1015003 [Catalyst: Flame] Catalyst: Lightning C Darkness C -- [触媒：炎] 触媒：雷C 闇C
+1015004 [Catalyst: Darkness] Catalyst: Lightning C Darkness C -- [触媒：闇] 触媒：雷C 闇C
+1015005 [Poison] Catalyst: Lightning C Darkness C -- [毒] 触媒：雷C 闇C
+1015006 [Bleeding] Catalyst: Lightning C Darkness C -- [出血] 触媒：雷C 闇C
+1015007 [Crude] Catalyst: Lightning C Darkness C -- [粗製] 触媒：雷C 闇C
+1015008 [Magic] Catalyst: Lightning C Darkness C -- [魔力] 触媒：雷C 闇C
+1015009 [Abyss] Catalyst: Lightning C Darkness C -- [深淵] 触媒：雷C 闇C
+1016000 [Unstrengthened] Catalyst: Lightning D Darkness A -- [無強化] 触媒：雷D 闇A
+1016001 [Catalyst: Magic] Catalyst: Lightning D Darkness A -- [触媒：魔法] 触媒：雷D 闇A
+1016002 [Catalyst: Lightning] Catalyst: Lightning D Darkness A -- [触媒：雷] 触媒：雷D 闇A
+1016003 [Catalyst: Flame] Catalyst: Lightning D Darkness A -- [触媒：炎] 触媒：雷D 闇A
+1016004 [Catalyst: Darkness] Catalyst: Lightning D Darkness A -- [触媒：闇] 触媒：雷D 闇A
+1016005 [Poison] Catalyst: Lightning D Darkness A -- [毒] 触媒：雷D 闇A
+1016006 [Bleeding] Catalyst: Lightning D Darkness A -- [出血] 触媒：雷D 闇A
+1016007 [Crude] Catalyst: Lightning D Darkness A -- [粗製] 触媒：雷D 闇A
+1016008 [Magic] Catalyst: Lightning D Darkness A -- [魔力] 触媒：雷D 闇A
+1016009 [Abyss] Catalyst: Lightning D Darkness A -- [深淵] 触媒：雷D 闇A
+1017000 [Unstrengthened] Catalyst: Lightning - Darkness A -- [無強化] 触媒：雷- 闇A
+1017001 [Catalyst: Magic] Catalyst: Lightning - Darkness A -- [触媒：魔法] 触媒：雷- 闇A
+1017002 [Catalyst: Lightning] Catalyst: Lightning - Darkness A -- [触媒：雷] 触媒：雷- 闇A
+1017003 [Catalyst: Flame] Catalyst: Lightning - Darkness A -- [触媒：炎] 触媒：雷- 闇A
+1017004 [Catalyst: Darkness] Catalyst: Lightning - Darkness A -- [触媒：闇] 触媒：雷- 闇A
+1017005 [Poison] Catalyst: Lightning - Darkness A -- [毒] 触媒：雷- 闇A
+1017006 [Bleeding] Catalyst: Lightning - Darkness A -- [出血] 触媒：雷- 闇A
+1017007 [Crude] Catalyst: Lightning - Darkness A -- [粗製] 触媒：雷- 闇A
+1017008 [Magic] Catalyst: Lightning - Darkness A -- [魔力] 触媒：雷- 闇A
+1017009 [Abyss] Catalyst: Lightning - Darkness A -- [深淵] 触媒：雷- 闇A
+1018000 [Unstrengthened] Catalyst: Flame S -- [無強化] 触媒：炎S
+1018001 [Catalyst: Magic] Catalyst: Flame S -- [触媒：魔法] 触媒：炎S
+1018002 [Catalyst: Lightning] Catalyst: Flame S -- [触媒：雷] 触媒：炎S
+1018003 [Catalyst: Flame] Catalyst: Flame S -- [触媒：炎] 触媒：炎S
+1018004 [Catalyst: Darkness] Catalyst: Flame S -- [触媒：闇] 触媒：炎S
+1018005 [Poison] Catalyst: Flame S -- [毒] 触媒：炎S
+1018006 Bleeding Catalyst: Flame S -- [出血] 触媒：炎S
+1018007 [Crude] Catalyst: Flame S -- [粗製] 触媒：炎S
+1018008 [Magic] Catalyst: Flame S -- [魔力] 触媒：炎S
+1018009 [Abyss] Catalyst: Flame S -- [深淵] 触媒：炎S
+1019000 [Unstrengthened] Catalyst: Flame A -- [無強化] 触媒：炎A
+1019001 [Catalyst: Magic] Catalyst: Flame A -- [触媒：魔法] 触媒：炎A
+1019002 [Catalyst: Lightning] Catalyst: Flame A -- [触媒：雷] 触媒：炎A
+1019003 [Catalyst: Flame] Catalyst: Flame A -- [触媒：炎] 触媒：炎A
+1019004 [Catalyst: Darkness] Catalyst: Flame A -- [触媒：闇] 触媒：炎A
+1019005 [Poison] Catalyst: Flame A -- [毒] 触媒：炎A
+1019006 Bleeding Catalyst: Flame A -- [出血] 触媒：炎A
+1019007 [Crude] Catalyst: Flame A -- [粗製] 触媒：炎A
+1019008 [Magic] Catalyst: Flame A -- [魔力] 触媒：炎A
+1019009 [Abyss] Catalyst: Flame A -- [深淵] 触媒：炎A
+1020000 [Unstrengthened] Spell Four Tenno (Magic) Medium Shield: Flame B -- [無強化] スペル四天王（呪術）の中盾：炎B
+1020001 [First Genus C: Magic] Spell Four Tenno (Magic) Medium Shield: Flame B -- [初属C：魔法] スペル四天王（呪術）の中盾：炎B
+1020002 [First Genus C: Lightning] Spell Four Heavenly Kings (Magic) Medium Shield: Flame B -- [初属C：雷] スペル四天王（呪術）の中盾：炎B
+1020003 [First Genus C: Flame] Spell Four Heavenly Kings (Magic) Medium Shield: Flame B -- [初属C：炎] スペル四天王（呪術）の中盾：炎B
+1020004 [First Genus C: Darkness] Spell Four Heavenly Kings (Magic) Medium Shield: Flame B -- [初属C：闇] スペル四天王（呪術）の中盾：炎B
+1020005 [First Genus C: Poison] Spell Four Tenno (Spell) Medium Shield: Flame B -- [初属C：毒] スペル四天王（呪術）の中盾：炎B
+1020006 [First Genus C: Bleeding] Spell Four Tenno (Magic) Medium Shield: Flame B -- [初属C：出血] スペル四天王（呪術）の中盾：炎B
+1020007 [First Genus C: Crude] Spell Four Tenno (Magic) Medium Shield: Flame B -- [初属C：粗製] スペル四天王（呪術）の中盾：炎B
+1020008 [First Genus C: Magic] Spell Four Tenno (Magic) Medium Shield: Flame B -- [初属C：魔力] スペル四天王（呪術）の中盾：炎B
+1020009 [First Genus C: Abyss] Spell Four Tenno (Spell) Medium Shield: Flame B -- [初属C：深淵] スペル四天王（呪術）の中盾：炎B
+1101000 [Unstrengthened] Oversized: Strength A Workmanship- -- [無強化] 特大：筋力A 技量-
+1101001 [Magic] Oversized: Strength A Workmanship - -- [魔法] 特大：筋力A 技量-
+1101002 [Lightning] Oversized: Strength A Workmanship - -- [雷] 特大：筋力A 技量-
+1101003 [Flame] Oversized: Strength A Workmanship- -- [炎] 特大：筋力A 技量-
+1101004 [Darkness] Oversized: Strength A Workmanship- -- [闇] 特大：筋力A 技量-
+1101005 [Poison] Oversized: Strength A Workmanship- -- [毒] 特大：筋力A 技量-
+1101006 [Bleeding] Oversized: Strength A Workmanship- -- [出血] 特大：筋力A 技量-
+1101007 [Crude] Oversized: Strength A Workmanship - -- [粗製] 特大：筋力A 技量-
+1101008 [Magic] Oversized: Strength A Workmanship- -- [魔力] 特大：筋力A 技量-
+1101009 [Abyss] Oversized: Strength A Workmanship- -- [深淵] 特大：筋力A 技量-
+1101020 [Unstrengthened] Oversized: Strength A Workmanship E -- [無強化] 特大：筋力A 技量E
+1101021 [Magic] Oversized: Strength A Workmanship E -- [魔法] 特大：筋力A 技量E
+1101022 [Lightning] Oversized: Strength A Workmanship E -- [雷] 特大：筋力A 技量E
+1101023 [Flame] Oversized: Strength A Workmanship E -- [炎] 特大：筋力A 技量E
+1101024 [Darkness] Oversized: Strength A Workmanship E -- [闇] 特大：筋力A 技量E
+1101025 [Poison] Oversized: Strength A Workmanship E -- [毒] 特大：筋力A 技量E
+1101026 [Bleeding] Oversized: Strength A Workmanship E -- [出血] 特大：筋力A 技量E
+1101027 [Crude] Oversized: Strength A Workmanship E -- [粗製] 特大：筋力A 技量E
+1101028 [Magic] Extra-large muscle strength A skill E -- [魔力] 特大：筋力A 技量E
+1101029 [Abyss] Oversized: Strength A Workmanship E -- [深淵] 特大：筋力A 技量E
+1102000 [Unstrengthened] Oversized: Strength B Workmanship - -- [無強化] 特大：筋力B 技量-
+1102001 [Magic] Oversized: Strength B Workmanship - -- [魔法] 特大：筋力B 技量-
+1102002 [Lightning] Oversized: Strength B Workmanship - -- [雷] 特大：筋力B 技量-
+1102003 [Flame] Oversized: Strength B Workmanship - -- [炎] 特大：筋力B 技量-
+1102004 [Darkness] Oversized: Strength B Workmanship - -- [闇] 特大：筋力B 技量-
+1102005 [Poison] Oversized: Strength B Workmanship - -- [毒] 特大：筋力B 技量-
+1102006 [Bleeding] Oversized: Strength B Workmanship - -- [出血] 特大：筋力B 技量-
+1102007 [Crude] Oversized: Strength B Workmanship - -- [粗製] 特大：筋力B 技量-
+1102008 [Magic] Oversized: Strength B Workmanship- -- [魔力] 特大：筋力B 技量-
+1102009 [Abyss] Oversized: Strength B Workmanship - -- [深淵] 特大：筋力B 技量-
+1102020 [Unstrengthened] Oversized: Strength B Workmanship C -- [無強化] 特大：筋力B 技量C
+1102021 [Magic] Oversized: Strength B Workmanship C -- [魔法] 特大：筋力B 技量C
+1102022 [Lightning] Oversized: Strength B Workmanship C -- [雷] 特大：筋力B 技量C
+1102023 [Flame] Oversized: Strength B Workmanship C -- [炎] 特大：筋力B 技量C
+1102024 [Darkness] Oversized: Strength B Workmanship C -- [闇] 特大：筋力B 技量C
+1102025 [Poison] Oversized: Strength B Workmanship C -- [毒] 特大：筋力B 技量C
+1102026 [Bleeding] Oversized: Strength B Workmanship C -- [出血] 特大：筋力B 技量C
+1102027 [Crude] Oversized: Strength B Workmanship C -- [粗製] 特大：筋力B 技量C
+1102028 [Magic] Oversized Muscle Strength B Workmanship C -- [魔力] 特大：筋力B 技量C
+1102029 [Abyss] Oversized: Strength B Workmanship C -- [深淵] 特大：筋力B 技量C
+1102040 [Unstrengthened] Oversized: Strength B Workmanship E -- [無強化] 特大：筋力B 技量E
+1102041 [Magic] Oversized: Strength B Workmanship E -- [魔法] 特大：筋力B 技量E
+1102042 [Lightning] Oversized: Strength B Workmanship E -- [雷] 特大：筋力B 技量E
+1102043 [Flame] Oversized: Strength B Workmanship E -- [炎] 特大：筋力B 技量E
+1102044 [Darkness] Oversized: Strength B Workmanship E -- [闇] 特大：筋力B 技量E
+1102045 [Poison] Oversized: Strength B Workmanship E -- [毒] 特大：筋力B 技量E
+1102046 [Bleeding] Oversized: Strength B Workmanship E -- [出血] 特大：筋力B 技量E
+1102047 [Crude] Oversized: Strength B Workmanship E -- [粗製] 特大：筋力B 技量E
+1102048 [Magic] Oversized: Strength B Workmanship E -- [魔力] 特大：筋力B 技量E
+1102049 [Abyss] Oversized: Strength B Workmanship E -- [深淵] 特大：筋力B 技量E
+1103000 [Unstrengthened] Oversized: Strength C Workmanship - -- [無強化] 特大：筋力C 技量-
+1103001 [Magic] Oversized: Strength C Workmanship - -- [魔法] 特大：筋力C 技量-
+1103002 [Lightning] Oversized: Strength C Workmanship - -- [雷] 特大：筋力C 技量-
+1103003 [Flame] Oversized: Strength C Workmanship - -- [炎] 特大：筋力C 技量-
+1103004 [Darkness] Oversized: Strength C Workmanship - -- [闇] 特大：筋力C 技量-
+1103005 [Poison] Oversized: Strength C Workmanship - -- [毒] 特大：筋力C 技量-
+1103006 [Bleeding] Oversized: Strength C Workmanship - -- [出血] 特大：筋力C 技量-
+1103007 [Crude] Oversized: Strength C Workmanship - -- [粗製] 特大：筋力C 技量-
+1103008 [Magic] Oversized: Strength C Workmanship - -- [魔力] 特大：筋力C 技量-
+1103009 [Abyss] Oversized: Strength C Workmanship - -- [深淵] 特大：筋力C 技量-
+1103030 [Unstrengthened] Sword: Strength C Workmanship B -- [無強化] 刀：筋力C 技量B
+1103031 [Magic] Sword: Strength C Skill B -- [魔法] 刀：筋力C 技量B
+1103032 [Lightning] Sword: Strength C Skill B -- [雷] 刀：筋力C 技量B
+1103033 [Flame] Sword: Strength C Workmanship B -- [炎] 刀：筋力C 技量B
+1103034 [Darkness] Sword: Strength C Skill B -- [闇] 刀：筋力C 技量B
+1103035 [Poison] Sword: Strength C Skill B -- [毒] 刀：筋力C 技量B
+1103036 [Bleeding] Sword: Strength C Workmanship B -- [出血] 刀：筋力C 技量B
+1103037 [Crude] Sword: Strength C Workmanship B -- [粗製] 刀：筋力C 技量B
+1103038 [Magic] Sword: Strength C Skill B -- [魔力] 刀：筋力C 技量B
+1103039 [Abyss] Sword: Strength C Skill B -- [深淵] 刀：筋力C 技量B
+1103050 [Unstrengthened] Sting Sword: Strength C Skill C -- [無強化] 刺剣：筋力C 技量C
+1103051 [Magic] Sting Sword: Strength C Skill C -- [魔法] 刺剣：筋力C 技量C
+1103052 [Lightning] Sting: Strength C Skill C -- [雷] 刺剣：筋力C 技量C
+1103053 [Flame] Sting: Strength C Workmanship C -- [炎] 刺剣：筋力C 技量C
+1103054 [Darkness] Sting Sword: Strength C Skill C -- [闇] 刺剣：筋力C 技量C
+1103055 [Poison] Sting Sword: Strength C Skill C -- [毒] 刺剣：筋力C 技量C
+1103056 [Bleeding] Sting: Strength C Workmanship C -- [出血] 刺剣：筋力C 技量C
+1103057 [Crude] Sting sword: Strength C Workmanship C -- [粗製] 刺剣：筋力C 技量C
+1103058 [Magic] Sting Sword: Strength C Skill C -- [魔力] 刺剣：筋力C 技量C
+1103059 [Abyss] Sting Sword: Strength C Skill C -- [深淵] 刺剣：筋力C 技量C
+1103090 [Unstrengthened] Oversized: Strength C Workmanship D -- [無強化] 特大：筋力C 技量D
+1103091 [Magic] Oversized: Strength C Workmanship D -- [魔法] 特大：筋力C 技量D
+1103092 [Lightning] Oversized: Strength C Workmanship D -- [雷] 特大：筋力C 技量D
+1103093 [Flame] Oversized: Strength C Workmanship D -- [炎] 特大：筋力C 技量D
+1103094 [Darkness] Oversized: Strength C Workmanship D -- [闇] 特大：筋力C 技量D
+1103095 [Poison] Oversized: Strength C Workmanship D -- [毒] 特大：筋力C 技量D
+1103096 [Bleeding] Oversized: Strength C Workmanship D -- [出血] 特大：筋力C 技量D
+1103097 [Crude] Oversized: Strength C Workmanship D -- [粗製] 特大：筋力C 技量D
+1103098 [Magic] Oversized Muscle Strength C Workmanship D -- [魔力] 特大：筋力C 技量D
+1103099 [Abyss] Oversized: Strength C Workmanship D -- [深淵] 特大：筋力C 技量D
+1103100 [Unstrengthened] Oversized: Strength C Workmanship E -- [無強化] 特大：筋力C 技量E
+1103101 [Magic] Oversized: Strength C Workmanship E -- [魔法] 特大：筋力C 技量E
+1103102 [Lightning] Oversized: Strength C Workmanship E -- [雷] 特大：筋力C 技量E
+1103103 [Flame] Oversized: Strength C Workmanship E -- [炎] 特大：筋力C 技量E
+1103104 [Darkness] Oversized: Strength C Workmanship E -- [闇] 特大：筋力C 技量E
+1103105 [Poison] Oversized: Strength C Workmanship E -- [毒] 特大：筋力C 技量E
+1103106 [Bleeding] Oversized: Strength C Workmanship E -- [出血] 特大：筋力C 技量E
+1103107 [Crude] Oversized: Strength C Workmanship E -- [粗製] 特大：筋力C 技量E
+1103108 [Magic] Oversized Muscle Strength C Skill E -- [魔力] 特大：筋力C 技量E
+1103109 [Abyss] Oversized: Strength C Workmanship E -- [深淵] 特大：筋力C 技量E
+1104000 [Unstrengthened] Oversized: Strength D Workmanship - -- [無強化] 特大：筋力D 技量-
+1104001 [Magic] Oversized: Strength D Workmanship - -- [魔法] 特大：筋力D 技量-
+1104002 [Lightning] Oversized: Strength D Workmanship - -- [雷] 特大：筋力D 技量-
+1104003 [Flame] Oversized: Strength D Workmanship - -- [炎] 特大：筋力D 技量-
+1104004 [Darkness] Oversized: Strength D Workmanship - -- [闇] 特大：筋力D 技量-
+1104005 [Poison] Oversized: Strength D Workmanship - -- [毒] 特大：筋力D 技量-
+1104006 [Bleeding] Oversized: Strength D Workmanship - -- [出血] 特大：筋力D 技量-
+1104007 [Crude] Oversized: Strength D Workmanship - -- [粗製] 特大：筋力D 技量-
+1104008 [Magic] Oversized: Strength D Workmanship - -- [魔力] 特大：筋力D 技量-
+1104009 [Abyss] Oversized: Strength D Workmanship - -- [深淵] 特大：筋力D 技量-
+1104020 [Unstrengthened] Sword: Strength D Workmanship B -- [無強化] 刀：筋力D 技量B
+1104021 [Magic] Sword: Strength D Skill B -- [魔法] 刀：筋力D 技量B
+1104022 [Lightning] Sword: Strength D Skill B -- [雷] 刀：筋力D 技量B
+1104023 [Flame] Sword: Strength D Workmanship B -- [炎] 刀：筋力D 技量B
+1104024 [Darkness] Sword: Strength D Skill B -- [闇] 刀：筋力D 技量B
+1104025 [Poison] Sword: Strength D Skill B -- [毒] 刀：筋力D 技量B
+1104026 [Bleeding] Sword: Strength D Workmanship B -- [出血] 刀：筋力D 技量B
+1104027 [Crude] Sword: Strength D Workmanship B -- [粗製] 刀：筋力D 技量B
+1104028 [Magic] Sword: Strength D Skill B -- [魔力] 刀：筋力D 技量B
+1104029 [Abyss] Sword: Strength D Skill B -- [深淵] 刀：筋力D 技量B
+1104030 [Unstrengthened] Oversized: Strength D Workmanship C -- [無強化] 特大：筋力D 技量C
+1104031 [Magic] Oversized: Strength D Workmanship C -- [魔法] 特大：筋力D 技量C
+1104032 [Lightning] Oversized: Strength D Workmanship C -- [雷] 特大：筋力D 技量C
+1104033 [Flame] Oversized: Strength D Workmanship C -- [炎] 特大：筋力D 技量C
+1104034 [Darkness] Oversized: Strength D Workmanship C -- [闇] 特大：筋力D 技量C
+1104035 [Poison] Oversized: Strength D Workmanship C -- [毒] 特大：筋力D 技量C
+1104036 [Bleeding] Oversized: Strength D Workmanship C -- [出血] 特大：筋力D 技量C
+1104037 [Crude] Oversized: Strength D Workmanship C -- [粗製] 特大：筋力D 技量C
+1104038 [Magic] Oversized Muscle D Workmanship C -- [魔力] 特大：筋力D 技量C
+1104039 [Abyss] Oversized: Strength D Workmanship C -- [深淵] 特大：筋力D 技量C
+1104050 [Unstrengthened] Oversized: Strength D Workmanship E -- [無強化] 特大：筋力D 技量E
+1104051 [Magic] Oversized: Strength D Workmanship E -- [魔法] 特大：筋力D 技量E
+1104052 [Lightning] Oversized: Strength D Workmanship E -- [雷] 特大：筋力D 技量E
+1104053 [Flame] Oversized: Strength D Workmanship E -- [炎] 特大：筋力D 技量E
+1104054 [Darkness] Oversized: Strength D Workmanship E -- [闇] 特大：筋力D 技量E
+1104055 [Poison] Oversized: Strength D Workmanship E -- [毒] 特大：筋力D 技量E
+1104056 [Bleeding] Oversized: Strength D Workmanship E -- [出血] 特大：筋力D 技量E
+1104057 [Crude] Oversized: Strength D Workmanship E -- [粗製] 特大：筋力D 技量E
+1104058 [Magic] Oversized Muscle D Workmanship E -- [魔力] 特大：筋力D 技量E
+1104059 [Abyss] Oversized: Strength D Workmanship E -- [深淵] 特大：筋力D 技量E
+1105030 [Unstrengthened] Sword: Strength E Workmanship B -- [無強化] 刀：筋力E 技量B
+1105031 [Magic] Sword: Strength E Skill B -- [魔法] 刀：筋力E 技量B
+1105032 [Lightning] Sword: Strength E Skill B -- [雷] 刀：筋力E 技量B
+1105033 [Flame] Sword: Strength E Workmanship B -- [炎] 刀：筋力E 技量B
+1105034 [Darkness] Sword: Strength E Skill B -- [闇] 刀：筋力E 技量B
+1105035 [Poison] Sword: Strength E Skill B -- [毒] 刀：筋力E 技量B
+1105036 [Bleeding] Sword: Strength E Workmanship B -- [出血] 刀：筋力E 技量B
+1105037 [Crude] Sword: Strength E Workmanship B -- [粗製] 刀：筋力E 技量B
+1105038 [Magic] Sword: Strength E Skill B -- [魔力] 刀：筋力E 技量B
+1105039 [Abyss] Sword: Strength E Skill B -- [深淵] 刀：筋力E 技量B
+1106010 [Unstrengthened] Sword: Strength - Workmanship A -- [無強化] 刀：筋力- 技量A
+1106011 [Magic] Sword: Strength - Workmanship A -- [魔法] 刀：筋力- 技量A
+1106012 [Lightning] Sword: Strength - Workmanship A -- [雷] 刀：筋力- 技量A
+1106013 [Flame] Sword: Strength - Workmanship A -- [炎] 刀：筋力- 技量A
+1106014 [Darkness] Sword: Strength - Workmanship A -- [闇] 刀：筋力- 技量A
+1106015 [Poison] Sword: Strength - Workmanship A -- [毒] 刀：筋力- 技量A
+1106016 [Bleeding] Sword: Strength - Workmanship A -- [出血] 刀：筋力- 技量A
+1106017 [Crude] Sword: Strength - Workmanship A -- [粗製] 刀：筋力- 技量A
+1106018 [Magic] Sword: Strength - Workmanship A -- [魔力] 刀：筋力- 技量A
+1106019 [Abyss] Sword: Strength - Workmanship A -- [深淵] 刀：筋力- 技量A
+1106020 [Unstrengthened] Sword: Strength - Workmanship B -- [無強化] 刀：筋力- 技量B
+1106021 [Magic] Sword: Strength - Workmanship B -- [魔法] 刀：筋力- 技量B
+1106022 [Lightning] Sword: Strength - Workmanship B -- [雷] 刀：筋力- 技量B
+1106023 [Flame] Sword: Strength - Workmanship B -- [炎] 刀：筋力- 技量B
+1106024 [Darkness] Sword: Strength - Workmanship B -- [闇] 刀：筋力- 技量B
+1106025 [Poison] Sword: Strength - Workmanship B -- [毒] 刀：筋力- 技量B
+1106026 [Bleeding] Sword: Strength - Workmanship B -- [出血] 刀：筋力- 技量B
+1106027 [Crude] Sword: Strength - Workmanship B -- [粗製] 刀：筋力- 技量B
+1106028 [Magic] Sword: Strength - Workmanship B -- [魔力] 刀：筋力- 技量B
+1106029 [Abyss] Sword: Strength - Workmanship B -- [深淵] 刀：筋力- 技量B
+1106030 [Unstrengthened] Sword: Strength - Workmanship C -- [無強化] 刀：筋力- 技量C
+1106031 [Magic] Sword: Strength - Workmanship C -- [魔法] 刀：筋力- 技量C
+1106032 [Lightning] Sword: Strength - Workmanship C -- [雷] 刀：筋力- 技量C
+1106033 [Flame] Sword: Strength - Workmanship C -- [炎] 刀：筋力- 技量C
+1106034 [Darkness] Sword: Strength - Workmanship C -- [闇] 刀：筋力- 技量C
+1106035 [Poison] Sword: Strength - Workmanship C -- [毒] 刀：筋力- 技量C
+1106036 [Bleeding] Sword: Strength - Workmanship C -- [出血] 刀：筋力- 技量C
+1106037 [Crude] Sword: Strength - Workmanship C -- [粗製] 刀：筋力- 技量C
+1106038 [Magic] Sword: Strength - Workmanship C -- [魔力] 刀：筋力- 技量C
+1106039 [Abyss] Sword: Strength - Workmanship C -- [深淵] 刀：筋力- 技量C
+1203050 [Unstrengthened] Oversized: Strength C Workmanship C -- [無強化] 特大：筋力C 技量C
+1203051 [Magic] Oversized: Strength C Workmanship C -- [魔法] 特大：筋力C 技量C
+1203052 [Lightning] Oversized: Strength C Workmanship C -- [雷] 特大：筋力C 技量C
+1203053 [Flame] Oversized: Strength C Workmanship C -- [炎] 特大：筋力C 技量C
+1203054 [Darkness] Oversized: Strength C Workmanship C -- [闇] 特大：筋力C 技量C
+1203055 [Poison] Oversized: Strength C Workmanship C -- [毒] 特大：筋力C 技量C
+1203056 [Bleeding] Oversized: Strength C Workmanship C -- [出血] 特大：筋力C 技量C
+1203057 [Crude] Oversized: Strength C Workmanship C -- [粗製] 特大：筋力C 技量C
+1203058 [Magic] Oversized Muscle Strength C Skill C -- [魔力] 特大：筋力C 技量C
+1203059 [Abyss] Oversized: Strength C Workmanship C -- [深淵] 特大：筋力C 技量C
+1204040 [Unstrengthened] Oversized: Strength D Workmanship D -- [無強化] 特大：筋力D 技量D
+1204041 [Magic] Oversized: Strength D Workmanship D -- [魔法] 特大：筋力D 技量D
+1204042 [Lightning] Oversized: Strength D Workmanship D -- [雷] 特大：筋力D 技量D
+1204043 [Flame] Oversized: Strength D Workmanship D -- [炎] 特大：筋力D 技量D
+1204044 [Darkness] Oversized: Strength D Workmanship D -- [闇] 特大：筋力D 技量D
+1204045 [Poison] Oversized: Strength D Workmanship D -- [毒] 特大：筋力D 技量D
+1204046 [Bleeding] Oversized: Strength D Workmanship D -- [出血] 特大：筋力D 技量D
+1204047 [Crude] Oversized: Strength D Workmanship D -- [粗製] 特大：筋力D 技量D
+1204048 [Magic] Oversized Muscle D Workmanship D -- [魔力] 特大：筋力D 技量D
+1204049 [Abyss] Oversized: Strength D Workmanship D -- [深淵] 特大：筋力D 技量D
+2000000 Unstrengthened Initial Attribute: No Status Impact -- [無強化] 初期属性：ステータス影響なし
+2000001 [First Genus C: Magic] Initial Attribute: No Status Impact -- [初属C：魔法] 初期属性：ステータス影響なし
+2000002 [First C: Lightning] Initial attribute: No status effect -- [初属C：雷] 初期属性：ステータス影響なし
+2000003 [First Genus C: Flame] Initial attribute: No status effect -- [初属C：炎] 初期属性：ステータス影響なし
+2000004 [First Genus C: Darkness] Initial Attribute: No Status Impact -- [初属C：闇] 初期属性：ステータス影響なし
+2000005 [First Genus C: Poison] Initial Attribute: No Status Impact -- [初属C：毒] 初期属性：ステータス影響なし
+2000006 [First Genus C: Bleeding] Initial Attribute: No Status Impact -- [初属C：出血] 初期属性：ステータス影響なし
+2000007 [First C: Crude] Initial attribute: No status effect -- [初属C：粗製] 初期属性：ステータス影響なし
+2000008 [First Genus C: Magic] Initial Attribute: No Status Impact -- [初属C：魔力] 初期属性：ステータス影響なし
+2000009 [First Genus C: Abyss] Initial Attribute: No Status Impact -- [初属C：深淵] 初期属性：ステータス影響なし
+2002030 [Unstrengthened] Initial attributes: Strength B Workmanship D -- [無強化] 初期属性：筋力B 技量D
+2002031 [First Genus B: Magic] Initial Attributes: Strength B Workmanship D -- [初属B：魔法] 初期属性：筋力B 技量D
+2002032 [First Genus B: Lightning] Initial Attributes: Strength B Workmanship D -- [初属B：雷] 初期属性：筋力B 技量D
+2002033 [First Genus B: Flame] Initial Attributes: Strength B Workmanship D -- [初属B：炎] 初期属性：筋力B 技量D
+2002034 [First Genus B: Darkness] Initial Attributes: Strength B Workmanship D -- [初属B：闇] 初期属性：筋力B 技量D
+2002035 [First Genus B: Poison] Initial Attributes: Strength B Workmanship D -- [初属B：毒] 初期属性：筋力B 技量D
+2002036 [First Genus B: Bleeding] Initial Attributes: Strength B Workmanship D -- [初属B：出血] 初期属性：筋力B 技量D
+2002037 [First Genus B: Crude] Initial attributes: Strength B Workmanship D -- [初属B：粗製] 初期属性：筋力B 技量D
+2002038 [First Genus B: Magic] Initial Attributes: Strength B Workmanship D -- [初属B：魔力] 初期属性：筋力B 技量D
+2002039 [First Genus B: Abyss] Initial Attributes: Strength B Workmanship D -- [初属B：深淵] 初期属性：筋力B 技量D
+2002040 [Unstrengthened] Initial attribute: Strength B Workmanship E -- [無強化] 初期属性：筋力B 技量E
+2002041 [First Genus B: Magic] Initial Attributes: Strength B Workmanship E -- [初属B：魔法] 初期属性：筋力B 技量E
+2002042 [First Genus B: Lightning] Initial Attributes: Strength B Workmanship E -- [初属B：雷] 初期属性：筋力B 技量E
+2002043 [First Genus B: Flame] Initial Attributes: Strength B Workmanship E -- [初属B：炎] 初期属性：筋力B 技量E
+2002044 [First Genus B: Darkness] Initial Attributes: Strength B Workmanship E -- [初属B：闇] 初期属性：筋力B 技量E
+2002045 [First Genus B: Poison] Initial attribute: Strength B Workmanship E -- [初属B：毒] 初期属性：筋力B 技量E
+2002046 [First Genus B: Bleeding] Initial attribute: Strength B Workmanship E -- [初属B：出血] 初期属性：筋力B 技量E
+2002047 [First Genus B: Crude] Initial attribute: Strength B Workmanship E -- [初属B：粗製] 初期属性：筋力B 技量E
+2002048 [First Genus B: Magic] Initial Attributes: Strength B Workmanship E -- [初属B：魔力] 初期属性：筋力B 技量E
+2002049 [First Genus B: Abyss] Initial Attributes: Strength B Workmanship E -- [初属B：深淵] 初期属性：筋力B 技量E
+2003000 [Unstrengthened] Initial attribute: Strength C Workmanship - -- [無強化] 初期属性：筋力C 技量-
+2003001 [First Genus B: Magic] Initial Attributes: Strength C Workmanship - -- [初属B：魔法] 初期属性：筋力C 技量-
+2003002 [First Genus B: Lightning] Initial attribute: Strength C Workmanship - -- [初属B：雷] 初期属性：筋力C 技量-
+2003003 [First Genus B: Flame] Initial attribute: Strength C Workmanship - -- [初属B：炎] 初期属性：筋力C 技量-
+2003004 [First Genus B: Darkness] Initial Attribute: Strength C Workmanship - -- [初属B：闇] 初期属性：筋力C 技量-
+2003005 [First Genus B: Poison] Initial attribute: Strength C Workmanship - -- [初属B：毒] 初期属性：筋力C 技量-
+2003006 [First Genus B: Bleeding] Initial attribute: Strength C Workmanship - -- [初属B：出血] 初期属性：筋力C 技量-
+2003007 [First Genus B: Crude] Initial attribute: Strength C workmanship - -- [初属B：粗製] 初期属性：筋力C 技量-
+2003008 [First Genus B: Magic] Initial Attributes: Strength C Workmanship- -- [初属B：魔力] 初期属性：筋力C 技量-
+2003009 [First Genus B:Abyss] Initial Attributes: Strength C Workmanship- -- [初属B：深淵] 初期属性：筋力C 技量-
+2003020 [Unstrengthened] Initial attributes: Strength C Workmanship A -- [無強化] 初期属性：筋力C 技量A
+2003021 [First Genus B: Magic] Initial Attributes: Strength C Workmanship A -- [初属B：魔法] 初期属性：筋力C 技量A
+2003022 [First Genus B: Lightning] Initial Attributes: Strength C Workmanship A -- [初属B：雷] 初期属性：筋力C 技量A
+2003023 [First Genus B: Flame] Initial Attributes: Strength C Workmanship A -- [初属B：炎] 初期属性：筋力C 技量A
+2003024 [First Genus B: Darkness] Initial Attributes: Strength C Workmanship A -- [初属B：闇] 初期属性：筋力C 技量A
+2003025 [First Genus B: Poison] Initial Attributes: Strength C Workmanship A -- [初属B：毒] 初期属性：筋力C 技量A
+2003026 [First Genus B: Bleeding] Initial Attributes: Strength C Workmanship A -- [初属B：出血] 初期属性：筋力C 技量A
+2003027 [First Genus B: Crude] Initial attribute: Strength C Workmanship A -- [初属B：粗製] 初期属性：筋力C 技量A
+2003028 [First Genus B: Magic] Initial Attributes: Strength C Workmanship A -- [初属B：魔力] 初期属性：筋力C 技量A
+2003029 [First Genus B: Abyss] Initial Attributes: Strength C Workmanship A -- [初属B：深淵] 初期属性：筋力C 技量A
+2003030 [Unstrengthened] Initial attribute: Strength C Workmanship B -- [無強化] 初期属性：筋力C 技量B
+2003031 [First Genus B: Magic] Initial Attributes: Strength C Workmanship B -- [初属B：魔法] 初期属性：筋力C 技量B
+2003032 [First Genus B: Lightning] Initial Attributes: Strength C Workmanship B -- [初属B：雷] 初期属性：筋力C 技量B
+2003033 [First Genus B: Flame] Initial attribute: Strength C Workmanship B -- [初属B：炎] 初期属性：筋力C 技量B
+2003034 [First Genus B: Darkness] Initial Attributes: Strength C Workmanship B -- [初属B：闇] 初期属性：筋力C 技量B
+2003035 [First Genus B: Poison] Initial attribute: Strength C Workmanship B -- [初属B：毒] 初期属性：筋力C 技量B
+2003036 [First Genus B: Bleeding] Initial attribute: Strength C Workmanship B -- [初属B：出血] 初期属性：筋力C 技量B
+2003037 [First Genus B: Crude] Initial attribute: Strength C Workmanship B -- [初属B：粗製] 初期属性：筋力C 技量B
+2003038 [First Genus B: Magic] Initial Attributes: Strength C Workmanship B -- [初属B：魔力] 初期属性：筋力C 技量B
+2003039 [First Genus B: Abyss] Initial Attributes: Strength C Workmanship B -- [初属B：深淵] 初期属性：筋力C 技量B
+2003050 [Unstrengthened] Initial attributes: Strength C Workmanship C -- [無強化] 初期属性：筋力C 技量C
+2003051 [First Genus B: Magic] Initial Attributes: Strength C Workmanship C -- [初属B：魔法] 初期属性：筋力C 技量C
+2003052 [First Genus B: Lightning] Initial Attributes: Strength C Workmanship C -- [初属B：雷] 初期属性：筋力C 技量C
+2003053 [First Genus B: Flame] Initial Attributes: Strength C Workmanship C -- [初属B：炎] 初期属性：筋力C 技量C
+2003054 [First Genus B: Darkness] Initial Attributes: Strength C Workmanship C -- [初属B：闇] 初期属性：筋力C 技量C
+2003055 [First Genus B: Poison] Initial Attributes: Strength C Workmanship C -- [初属B：毒] 初期属性：筋力C 技量C
+2003056 [First Genus B: Bleeding] Initial Attributes: Strength C Workmanship C -- [初属B：出血] 初期属性：筋力C 技量C
+2003057 [First Genus B: Crude] Initial attributes: Strength C Workmanship C -- [初属B：粗製] 初期属性：筋力C 技量C
+2003058 [First Genus B: Magic] Initial Attributes: Strength C Workmanship C -- [初属B：魔力] 初期属性：筋力C 技量C
+2003059 [First Genus B: Abyss] Initial Attributes: Strength C Workmanship C -- [初属B：深淵] 初期属性：筋力C 技量C
+2003090 [Unstrengthened] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [無強化] 王国戦士の両手剣：筋力C 技量D
+2003091 [First Bleeding: Magic] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：魔法] 王国戦士の両手剣：筋力C 技量D
+2003092 [First Bleeding: Lightning] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：雷] 王国戦士の両手剣：筋力C 技量D
+2003093 [First Bleeding: Flame] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：炎] 王国戦士の両手剣：筋力C 技量D
+2003094 [First Bleeding: Darkness] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：闇] 王国戦士の両手剣：筋力C 技量D
+2003095 [First Bleeding: Poison] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：毒] 王国戦士の両手剣：筋力C 技量D
+2003096 [First Bleeding: Bleeding] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：出血] 王国戦士の両手剣：筋力C 技量D
+2003097 [First Bleeding: Crude] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：粗製] 王国戦士の両手剣：筋力C 技量D
+2003098 [First Bleeding: Magic] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：魔力] 王国戦士の両手剣：筋力C 技量D
+2003099 [First Bleeding: Abyss] Kingdom Warrior's Two-Handed Sword: Strength C Skill D -- [初属出血：深淵] 王国戦士の両手剣：筋力C 技量D
+2003100 [Unstrengthened] Initial attributes: Strength C Workmanship E -- [無強化] 初期属性：筋力C 技量E
+2003101 [First Genus B: Magic] Initial Attributes: Strength C Workmanship E -- [初属B：魔法] 初期属性：筋力C 技量E
+2003102 [First Genus B: Lightning] Initial Attributes: Strength C Workmanship E -- [初属B：雷] 初期属性：筋力C 技量E
+2003103 [First Genus B: Flame] Initial Attributes: Strength C Workmanship E -- [初属B：炎] 初期属性：筋力C 技量E
+2003104 [First Genus B: Darkness] Initial Attributes: Strength C Workmanship E -- [初属B：闇] 初期属性：筋力C 技量E
+2003105 [First Genus B: Poison] Initial Attributes: Strength C Workmanship E -- [初属B：毒] 初期属性：筋力C 技量E
+2003106 [First Genus B: Bleeding] Initial Attributes: Strength C Workmanship E -- [初属B：出血] 初期属性：筋力C 技量E
+2003107 [First Genus B: Crude] Initial attribute: Strength C Workmanship E -- [初属B：粗製] 初期属性：筋力C 技量E
+2003108 [First Genus B: Magic] Initial Attributes: Strength C Workmanship E -- [初属B：魔力] 初期属性：筋力C 技量E
+2003109 [First Genus B: Abyss] Initial Attributes: Strength C Workmanship E -- [初属B：深淵] 初期属性：筋力C 技量E
+2004000 [Unstrengthened] Initial attribute: Strength D Workmanship - -- [無強化] 初期属性：筋力D 技量-
+2004001 [First Bleeding: Magic] Initial Attributes: Strength D Workmanship - -- [初属出血：魔法] 初期属性：筋力D 技量-
+2004002 [First bleeding: Lightning] Initial attribute: Strength D workmanship - -- [初属出血：雷] 初期属性：筋力D 技量-
+2004003 [First bleeding: flame] Initial attribute: Strength D workmanship - -- [初属出血：炎] 初期属性：筋力D 技量-
+2004004 [First bleeding: darkness] Initial attribute: Strength D workmanship - -- [初属出血：闇] 初期属性：筋力D 技量-
+2004005 [First bleeding: poison] Initial attribute: Strength D workmanship - -- [初属出血：毒] 初期属性：筋力D 技量-
+2004006 [First bleeding: bleeding] Initial attribute: Strength D workmanship - -- [初属出血：出血] 初期属性：筋力D 技量-
+2004007 [Initial hemorrhage: crude] Initial attribute: Strength D workmanship - -- [初属出血：粗製] 初期属性：筋力D 技量-
+2004008 [First bleeding: Magic] Initial attribute: Strength D workmanship - -- [初属出血：魔力] 初期属性：筋力D 技量-
+2004009 [Initial hemorrhage: abyss] initial attribute: strength D workmanship - -- [初属出血：深淵] 初期属性：筋力D 技量-
+2004020 [Unstrengthened] Initial attributes: Strength D Workmanship B -- [無強化] 初期属性：筋力D 技量B
+2004021 [First Genus B: Magic] Initial Attributes: Strength D Workmanship B -- [初属B：魔法] 初期属性：筋力D 技量B
+2004022 [First Genus B: Lightning] Initial Attributes: Strength D Workmanship B -- [初属B：雷] 初期属性：筋力D 技量B
+2004023 [First Genus B: Flame] Initial Attributes: Strength D Workmanship B -- [初属B：炎] 初期属性：筋力D 技量B
+2004024 [First Genus B: Darkness] Initial Attributes: Strength D Workmanship B -- [初属B：闇] 初期属性：筋力D 技量B
+2004025 [First Genus B: Poison] Initial attribute: Strength D Workmanship B -- [初属B：毒] 初期属性：筋力D 技量B
+2004026 [First Genus B: Bleeding] Initial attributes: Strength D Workmanship B -- [初属B：出血] 初期属性：筋力D 技量B
+2004027 [First Genus B: Crude] Initial attributes: Strength D Workmanship B -- [初属B：粗製] 初期属性：筋力D 技量B
+2004028 [First Genus B: Magic] Initial Attributes D Workmanship B -- [初属B：魔力] 初期属性：筋力D 技量B
+2004029 [First Genus B: Abyss] Initial Attributes: Strength D Workmanship B -- [初属B：深淵] 初期属性：筋力D 技量B
+2004030 [Unstrengthened] Wandering Knight's Spear: Strength D Skill C -- [無強化] 彷徨える騎士の槍：筋力D 技量C
+2004031 [First Genus B: Magic] Wandering Knight's Spear: Strength D Skill C -- [初属B：魔法] 彷徨える騎士の槍：筋力D 技量C
+2004032 [First Genus B: Lightning] Wandering Knight's Spear: Strength D Skill C -- [初属B：雷] 彷徨える騎士の槍：筋力D 技量C
+2004033 [First Genus B: Flame] Wandering Knight's Spear: Strength D Skill C -- [初属B：炎] 彷徨える騎士の槍：筋力D 技量C
+2004034 [First Genus B: Darkness] Wandering Knight's Spear: Strength D Skill C -- [初属B：闇] 彷徨える騎士の槍：筋力D 技量C
+2004035 [First Genus B: Poison] Wandering Knight's Spear: Strength D Skill C -- [初属B：毒] 彷徨える騎士の槍：筋力D 技量C
+2004036 [First Genus B: Bleeding] Wandering Knight's Spear: Strength D Skill C -- [初属B：出血] 彷徨える騎士の槍：筋力D 技量C
+2004037 [First Genus B: Rough] Wandering Knight's Spear: Strength D Skill C -- [初属B：粗製] 彷徨える騎士の槍：筋力D 技量C
+2004038 [First Genus B: Magic] Wandering Knight's Spear: Strength D Skill C -- [初属B：魔力] 彷徨える騎士の槍：筋力D 技量C
+2004039 [First Genus B: Abyss] Wandering Knight's Spear: Strength D Skill C -- [初属B：深淵] 彷徨える騎士の槍：筋力D 技量C
+2005000 [Unstrengthened] Initial attribute: Strength E Workmanship- -- [無強化] 初期属性：筋力E 技量-
+2005001 [First Genus B: Magic] Initial Attributes: Strength E Workmanship- -- [初属B：魔法] 初期属性：筋力E 技量-
+2005002 [First Genus B: Lightning] Initial Attribute: Strength E Workmanship- -- [初属B：雷] 初期属性：筋力E 技量-
+2005003 [First Genus B: Flame] Initial Attribute: Strength E Workmanship- -- [初属B：炎] 初期属性：筋力E 技量-
+2005004 [First Genus B: Darkness] Initial Attribute: Strength E Workmanship- -- [初属B：闇] 初期属性：筋力E 技量-
+2005005 [First Genus B: Poison] Initial attribute: Strength E Workmanship - -- [初属B：毒] 初期属性：筋力E 技量-
+2005006 [First Genus B: Bleeding] Initial Attributes: Strength E Workmanship- -- [初属B：出血] 初期属性：筋力E 技量-
+2005007 [First Genus B: Crude] Initial attribute: Strength E workmanship - -- [初属B：粗製] 初期属性：筋力E 技量-
+2005008 [First Genus B: Magic] Initial Attributes: Strength E Workmanship- -- [初属B：魔力] 初期属性：筋力E 技量-
+2005009 [First Genus B:Abyss] Initial Attributes: Strength E Workmanship- -- [初属B：深淵] 初期属性：筋力E 技量-
+2005030 [Unstrengthened] Initial attribute: Strength E Workmanship B -- [無強化] 初期属性：筋力E 技量B
+2005031 [First Genus C: Magic] Initial Attributes: Strength E Workmanship B -- [初属C：魔法] 初期属性：筋力E 技量B
+2005032 [First Genus C: Lightning] Initial Attributes: Strength E Workmanship B -- [初属C：雷] 初期属性：筋力E 技量B
+2005033 [First Genus C: Flame] Initial Attributes: Strength E Workmanship B -- [初属C：炎] 初期属性：筋力E 技量B
+2005034 [First Genus C: Darkness] Initial Attributes: Strength E Workmanship B -- [初属C：闇] 初期属性：筋力E 技量B
+2005035 [First Genus C: Poison] Initial Attributes: Strength E Workmanship B -- [初属C：毒] 初期属性：筋力E 技量B
+2005036 [First Genus C: Bleeding] Initial Attributes: Strength E Workmanship B -- [初属C：出血] 初期属性：筋力E 技量B
+2005037 [First Genus C: Crude] Initial attribute: Strength E Workmanship B -- [初属C：粗製] 初期属性：筋力E 技量B
+2005038 [First Genus C: Magic] Initial Attributes: Strength E Workmanship B -- [初属C：魔力] 初期属性：筋力E 技量B
+2005039 [First Genus C: Abyss] Initial Attributes: Strength E Workmanship B -- [初属C：深淵] 初期属性：筋力E 技量B
+2005040 [Unstrengthened] Initial attributes: Strength E Workmanship C -- [無強化] 初期属性：筋力E 技量C
+2005041 [First Genus B: Magic] Initial Attributes: Strength E Workmanship C -- [初属B：魔法] 初期属性：筋力E 技量C
+2005042 [First Genus B: Lightning] Initial Attributes: Strength E Workmanship C -- [初属B：雷] 初期属性：筋力E 技量C
+2005043 [First Genus B: Flame] Initial Attributes: Strength E Workmanship C -- [初属B：炎] 初期属性：筋力E 技量C
+2005044 [First Genus B: Darkness] Initial Attributes: Strength E Workmanship C -- [初属B：闇] 初期属性：筋力E 技量C
+2005045 [First Genus B: Poison] Initial Attributes: Strength E Workmanship C -- [初属B：毒] 初期属性：筋力E 技量C
+2005046 [First Genus B: Bleeding] Initial Attributes: Strength E Workmanship C -- [初属B：出血] 初期属性：筋力E 技量C
+2005047 [First Genus B: Crude] Initial attribute: Strength E Workmanship C -- [初属B：粗製] 初期属性：筋力E 技量C
+2005048 [First Genus B: Magic] Initial Attributes: Strength E Workmanship C -- [初属B：魔力] 初期属性：筋力E 技量C
+2005049 [First Genus B: Abyss] Initial Attributes: Strength E Workmanship C -- [初属B：深淵] 初期属性：筋力E 技量C
+2005060 [Unstrengthened] Initial attribute: Strength E Workmanship E -- [無強化] 初期属性：筋力E 技量E
+2005061 [First Genus B: Magic] Initial Attributes: Strength E Workmanship E -- [初属B：魔法] 初期属性：筋力E 技量E
+2005062 [First Genus B: Lightning] Initial Attributes: Strength E Workmanship E -- [初属B：雷] 初期属性：筋力E 技量E
+2005063 [First Genus B: Flame] Initial Attributes: Strength E Workmanship E -- [初属B：炎] 初期属性：筋力E 技量E
+2005064 [First Genus B: Darkness] Initial Attributes: Strength E Workmanship E -- [初属B：闇] 初期属性：筋力E 技量E
+2005065 [First Genus B: Poison] Initial Attributes: Strength E Workmanship E -- [初属B：毒] 初期属性：筋力E 技量E
+2005066 [First Genus B: Bleeding] Initial Attributes: Strength E Workmanship E -- [初属B：出血] 初期属性：筋力E 技量E
+2005067 [First Genus B: Crude] Initial attribute: Strength E Workmanship E -- [初属B：粗製] 初期属性：筋力E 技量E
+2005068 [First Genus B: Magic] Initial Attributes: Strength E Workmanship E -- [初属B：魔力] 初期属性：筋力E 技量E
+2005069 [First Genus B: Abyss] Initial Attributes: Strength E Workmanship E -- [初属B：深淵] 初期属性：筋力E 技量E
+2006020 [Unstrengthened] Initial attribute: Strength - Workmanship B -- [無強化] 初期属性：筋力- 技量B
+2006021 [First Genus B: Magic] Initial Attributes: Strength - Workmanship B -- [初属B：魔法] 初期属性：筋力- 技量B
+2006022 [First Genus B: Lightning] Initial attribute: Strength - Workmanship B -- [初属B：雷] 初期属性：筋力- 技量B
+2006023 [First Genus B: Flame] Initial attribute: Strength - Workmanship B -- [初属B：炎] 初期属性：筋力- 技量B
+2006024 [First Genus B: Darkness] Initial Attributes: Strength - Workmanship B -- [初属B：闇] 初期属性：筋力- 技量B
+2006025 [First Genus B: Poison] Initial attribute: Strength - Workmanship B -- [初属B：毒] 初期属性：筋力- 技量B
+2006026 [First Genus B: Bleeding] Initial attribute: Strength - Workmanship B -- [初属B：出血] 初期属性：筋力- 技量B
+2006027 [First Genus B: Crude] Initial attribute: Strength - Workmanship B -- [初属B：粗製] 初期属性：筋力- 技量B
+2006028 [First Genus B: Magic] Initial attributes: Strength - Workmanship B -- [初属B：魔力] 初期属性：筋力- 技量B
+2006029 [First Genus B:Abyss] Initial Attributes: Strength - Workmanship B -- [初属B：深淵] 初期属性：筋力- 技量B
+2006040 [Unstrengthened] Phantom Mage Shield: Sword: Strength - Workmanship D -- [無強化] ファントムメイジの小盾：刀：筋力- 技量D
+2006041 [First Genus C: Magic] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：魔法] ファントムメイジの小盾：刀：筋力- 技量D
+2006042 [First Genus C: Lightning] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：雷] ファントムメイジの小盾：刀：筋力- 技量D
+2006043 [First Genus C: Flame] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：炎] ファントムメイジの小盾：刀：筋力- 技量D
+2006044 [First Genus C: Darkness] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：闇] ファントムメイジの小盾：刀：筋力- 技量D
+2006045 [First Genus C: Poison] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：毒] ファントムメイジの小盾：刀：筋力- 技量D
+2006046 [First Genus C: Bleeding] Phantom Mage Shield: Sword: Strength - Workmanship D -- [初属C：出血] ファントムメイジの小盾：刀：筋力- 技量D
+2006047 [First Genus C: Crude] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：粗製] ファントムメイジの小盾：刀：筋力- 技量D
+2006048 [First Genus C: Magic] Phantom Mage's Shield: Sword: Strength - Skill D -- [初属C：魔力] ファントムメイジの小盾：刀：筋力- 技量D
+2006049 [First Genus C: Abyss] Phantom Mage's Shield: Sword: Strength - Workmanship D -- [初属C：深淵] ファントムメイジの小盾：刀：筋力- 技量D
+2103050 [Unstrengthened] Immortal one-handed axe: Strength C Workmanship C -- [無強化] イモータルの片手斧：筋力C 技量C
+2103051 [Immortal's One Hand Axe: Magic] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：魔法] イモータルの片手斧：筋力C 技量C
+2103052 [Immortal's One Hand Axe: Lightning] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：雷] イモータルの片手斧：筋力C 技量C
+2103053 [Immortal's One Hand Axe: Flame] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：炎] イモータルの片手斧：筋力C 技量C
+2103054 [Immortal's One Hand Axe: Darkness] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：闇] イモータルの片手斧：筋力C 技量C
+2103055 [Immortal's One-Handed Axe: Poison] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：毒] イモータルの片手斧：筋力C 技量C
+2103056 [Immortal's one-handed axe: bleeding] Immortal's one-handed axe: Strength C Workmanship C -- [イモータルの片手斧：出血] イモータルの片手斧：筋力C 技量C
+2103057 [Immortal's one-handed axe: crude] Immortal's one-handed axe: Strength C Workmanship C -- [イモータルの片手斧：粗製] イモータルの片手斧：筋力C 技量C
+2103058 [Immortal's One Hand Axe: Magic] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：魔力] イモータルの片手斧：筋力C 技量C
+2103059 [Immortal's One-Handed Axe: Abyss] Immortal's One-Handed Axe: Strength C Workmanship C -- [イモータルの片手斧：深淵] イモータルの片手斧：筋力C 技量C
+2103090 [Unstrengthened] Initial attributes: Oversized Strength C Workmanship D -- [無強化] 初期属性：特大：筋力C 技量D
+2103091 [First Genus B: Magic] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：魔法] 初期属性：特大：筋力C 技量D
+2103092 [First Genus B: Lightning] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：雷] 初期属性：特大：筋力C 技量D
+2103093 [First Genus B: Flame] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：炎] 初期属性：特大：筋力C 技量D
+2103094 [First Genus B: Darkness] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：闇] 初期属性：特大：筋力C 技量D
+2103095 [First Genus B: Poison] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：毒] 初期属性：特大：筋力C 技量D
+2103096 [First Genus B: Bleeding] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：出血] 初期属性：特大：筋力C 技量D
+2103097 [First Genus B: Crude] Initial attributes: Oversized: Strength C Workmanship D -- [初属B：粗製] 初期属性：特大：筋力C 技量D
+2103098 [First Genus B: Magic] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：魔力] 初期属性：特大：筋力C 技量D
+2103099 [First Genus B:Abyss] Initial Attributes: Oversized Strength C Workmanship D -- [初属B：深淵] 初期属性：特大：筋力C 技量D
+2104000 [Unstrengthened] Tied Shield: Strength D Skill- -- [無強化] 縛られた小盾：筋力D 技量-
+2104001 [First Genus C: Magic] Tied Shield: Strength D Skill - -- [初属C：魔法] 縛られた小盾：筋力D 技量-
+2104002 [First Genus C: Lightning] Tied Shield: Strength D Skill - -- [初属C：雷] 縛られた小盾：筋力D 技量-
+2104003 [First Genus C: Flame] Tied Shield: Strength D Skill - -- [初属C：炎] 縛られた小盾：筋力D 技量-
+2104004 [First Genus C: Darkness] Tied Shield: Strength D Skill - -- [初属C：闇] 縛られた小盾：筋力D 技量-
+2104005 [First Genus C: Poison] Tied Shield: Strength D Skill - -- [初属C：毒] 縛られた小盾：筋力D 技量-
+2104006 [First Genus C: Bleeding] Tied Shield: Strength D Skill - -- [初属C：出血] 縛られた小盾：筋力D 技量-
+2104007 [First Genus C: Crude] Tied Shield: Strength D Skill - -- [初属C：粗製] 縛られた小盾：筋力D 技量-
+2104008 [First Genus C: Magic] Tied Shield: Strength D Skill - -- [初属C：魔力] 縛られた小盾：筋力D 技量-
+2104009 [First Genus C:Abyss] Tied Shield: Strength D Skill - -- [初属C：深淵] 縛られた小盾：筋力D 技量-
+2105030 [Unstrengthened] Initial attribute: Sword: Strength E Workmanship B -- [無強化] 初期属性：刀：筋力E 技量B
+2105031 [First Genus C: Magic] Initial Attributes: Sword: Strength E Skill B -- [初属C：魔法] 初期属性：刀：筋力E 技量B
+2105032 [First Genus C: Lightning] Initial Attribute: Sword: Strength E Skill B -- [初属C：雷] 初期属性：刀：筋力E 技量B
+2105033 [First Genus C: Flame] Initial Attribute: Sword: Strength E Workmanship B -- [初属C：炎] 初期属性：刀：筋力E 技量B
+2105034 [First Genus C: Darkness] Initial Attribute: Sword: Strength E Skill B -- [初属C：闇] 初期属性：刀：筋力E 技量B
+2105035 [First Genus C: Poison] Initial Attribute: Sword: Strength E Skill B -- [初属C：毒] 初期属性：刀：筋力E 技量B
+2105036 [First Genus C: Bleeding] Initial attribute: Sword: Strength E Workmanship B -- [初属C：出血] 初期属性：刀：筋力E 技量B
+2105037 [First Genus C: Crude] Initial attribute: Sword: Strength E Workmanship B -- [初属C：粗製] 初期属性：刀：筋力E 技量B
+2105038 [First Genus C: Magic] Initial Attributes: Sword: Strength E Skill B -- [初属C：魔力] 初期属性：刀：筋力E 技量B
+2105039 [First Genus C: Abyss] Initial Attributes: Sword: Strength E Skill B -- [初属C：深淵] 初期属性：刀：筋力E 技量B
+2203050 [Unstrengthened] Initial attributes: Oversized Strength C Workmanship C -- [無強化] 初期属性：特大：筋力C 技量C
+2203051 [First Genus B: Magic] Initial Attributes: Oversized Strength C Workmanship C -- [初属B：魔法] 初期属性：特大：筋力C 技量C
+2203052 [First Genus B: Lightning] Initial Attributes: Oversized: Strength C Workmanship C -- [初属B：雷] 初期属性：特大：筋力C 技量C
+2203053 [First Genus B: Flame] Initial Attributes: Oversized Strength C Workmanship C -- [初属B：炎] 初期属性：特大：筋力C 技量C
+2203054 [First Genus B: Darkness] Initial Attributes: Oversized: Strength C Workmanship C -- [初属B：闇] 初期属性：特大：筋力C 技量C
+2203055 [First Genus B: Poison] Initial Attributes: Oversized Strength C Workmanship C -- [初属B：毒] 初期属性：特大：筋力C 技量C
+2203056 [First Genus B: Bleeding] Initial attributes: Oversized: Strength C Workmanship C -- [初属B：出血] 初期属性：特大：筋力C 技量C
+2203057 [First Genus B: Crude] Initial attributes: Oversized: Strength C Workmanship C -- [初属B：粗製] 初期属性：特大：筋力C 技量C
+2203058 [First Genus B: Magic] Initial Attributes: Oversized Strength C Workmanship C -- [初属B：魔力] 初期属性：特大：筋力C 技量C
+2203059 [First Genus B:Abyss] Initial Attributes: Oversized Strength C Workmanship C -- [初属B：深淵] 初期属性：特大：筋力C 技量C
+2204040 [Unstrengthened] Initial attributes: Oversized Strength D Workmanship D -- [無強化] 初期属性：特大：筋力D 技量D
+2204041 [First Genus B: Magic] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：魔法] 初期属性：特大：筋力D 技量D
+2204042 [First Genus B: Lightning] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：雷] 初期属性：特大：筋力D 技量D
+2204043 [First Genus B: Flame] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：炎] 初期属性：特大：筋力D 技量D
+2204044 [First Genus B: Darkness] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：闇] 初期属性：特大：筋力D 技量D
+2204045 [First Genus B: Poison] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：毒] 初期属性：特大：筋力D 技量D
+2204046 [First Genus B: Bleeding] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：出血] 初期属性：特大：筋力D 技量D
+2204047 [First Genus B: Crude] Initial attributes: Oversized strength D workmanship D -- [初属B：粗製] 初期属性：特大：筋力D 技量D
+2204048 [First Genus B: Magic] Initial Attributes : Oversized Muscle Strength D Workmanship D -- [初属B：魔力] 初期属性：特大：筋力D 技量D
+2204049 [First Genus B:Abyss] Initial Attributes: Oversized Strength D Workmanship D -- [初属B：深淵] 初期属性：特大：筋力D 技量D
+3003000 [Unstrengthened] Firebird Shield: Strength C Workmanship - -- [無強化] 火鳥の小盾：筋力C 技量-
+3003001 [First Genus C: Magic] Firebird Shield: Strength C Workmanship - -- [初属C：魔法] 火鳥の小盾：筋力C 技量-
+3003002 [First Genus C: Lightning] Firebird Shield: Strength C Skill- -- [初属C：雷] 火鳥の小盾：筋力C 技量-
+3003003 [First Genus C: Flame] Firebird Shield: Strength C Workmanship - -- [初属C：炎] 火鳥の小盾：筋力C 技量-
+3003004 [First Genus C: Darkness] Firebird Shield: Strength C Skill - -- [初属C：闇] 火鳥の小盾：筋力C 技量-
+3003005 [First Genus C: Poison] Pyrollitus Shield: Strength C Skill - -- [初属C：毒] 火鳥の小盾：筋力C 技量-
+3003006 [First Genus C: Bleeding] Firebird Shield: Strength C Workmanship - -- [初属C：出血] 火鳥の小盾：筋力C 技量-
+3003007 [First Genus C: Crude] Firebird Shield: Strength C Workmanship - -- [初属C：粗製] 火鳥の小盾：筋力C 技量-
+3003008 [First Genus C: Magic] Firebird Shield: Strength C Skill- -- [初属C：魔力] 火鳥の小盾：筋力C 技量-
+3003009 [First Genus C:Abyss] Firebird Shield: Strength C Skill- -- [初属C：深淵] 火鳥の小盾：筋力C 技量-
+3003050 [Unstrengthened] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [無強化] ミラーナイトの両手剣：筋力C 技量C
+3003051 [Mirror Knight: Magic] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：魔法] ミラーナイトの両手剣：筋力C 技量C
+3003052 [Mirror Knight: Lightning] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：雷] ミラーナイトの両手剣：筋力C 技量C
+3003053 [Mirror Knight: Flame] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：炎] ミラーナイトの両手剣：筋力C 技量C
+3003054 [Mirror Knight: Darkness] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：闇] ミラーナイトの両手剣：筋力C 技量C
+3003055 [Mirror Knight: Poison] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：毒] ミラーナイトの両手剣：筋力C 技量C
+3003056 [Mirror Knight: Bleeding] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：出血] ミラーナイトの両手剣：筋力C 技量C
+3003057 [Mirror Knight: Crude] Mirror Knight's Two-Handed Sword: Strength C Workmanship C -- [ミラーナイト：粗製] ミラーナイトの両手剣：筋力C 技量C
+3003058 [Mirror Knight: Magic] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：魔力] ミラーナイトの両手剣：筋力C 技量C
+3003059 [Mirror Knight: Abyss] Mirror Knight's Two-Handed Sword: Strength C Skill C -- [ミラーナイト：深淵] ミラーナイトの両手剣：筋力C 技量C
+3004000 [Unstrengthened] Daemon Shield B: Strength D Workmanship - -- [無強化] デーモンの大盾B：筋力D 技量-
+3004001 [First Genus B: Magic] Daemon's Great Shield B: Strength D Skill- -- [初属B：魔法] デーモンの大盾B：筋力D 技量-
+3004002 [First Genus B: Lightning] Daemon's Great Shield B: Strength D Skill- -- [初属B：雷] デーモンの大盾B：筋力D 技量-
+3004003 [First Genus B: Flame] Daemon's Great Shield B: Strength D Skill- -- [初属B：炎] デーモンの大盾B：筋力D 技量-
+3004004 [First Genus B: Darkness] Daemon's Great Shield B: Strength D Skill - -- [初属B：闇] デーモンの大盾B：筋力D 技量-
+3004005 [First Genus B: Poison] Daemon's Great Shield B: Strength D Skill - -- [初属B：毒] デーモンの大盾B：筋力D 技量-
+3004006 [First Genus B: Bleeding] Daemon's Large Shield B: Strength D Skill- -- [初属B：出血] デーモンの大盾B：筋力D 技量-
+3004007 [First Genus B: Crude] Daemon's Large Shield B: Strength D Skill - -- [初属B：粗製] デーモンの大盾B：筋力D 技量-
+3004008 [First Genus B: Magic] Daemon's Great Shield B: Strength D Skill- -- [初属B：魔力] デーモンの大盾B：筋力D 技量-
+3004009 [First Genus B:Abyss] Daemon's Great Shield B: Strength D Skill- -- [初属B：深淵] デーモンの大盾B：筋力D 技量-
+3004030 [Unstrengthened] Heavy Cavalry Double-edged Sword: Strength D Skill C -- [無強化] 重騎馬兵の双刃剣：筋力D 技量C
+3004031 [Double-bladed sword of heavy cavalry: Magic] Heavy Cavalry Double Blade: Strength D Skill C -- [重騎馬兵の双刃剣：魔法] 重騎馬兵の双刃剣：筋力D 技量C
+3004032 [Double-bladed sword of heavy cavalry: Lightning] Heavy Cavalry Double Blade: Strength D Skill C -- [重騎馬兵の双刃剣：雷] 重騎馬兵の双刃剣：筋力D 技量C
+3004033 [Double-bladed sword of heavy cavalry: flame] Heavy Cavalry Double Blade: Strength D Skill C -- [重騎馬兵の双刃剣：炎] 重騎馬兵の双刃剣：筋力D 技量C
+3004034 [Double-edged sword of heavy cavalry: Darkness] Double-edged sword of heavy cavalry: Strength D Skill C -- [重騎馬兵の双刃剣：闇] 重騎馬兵の双刃剣：筋力D 技量C
+3004035 [Double-bladed sword of heavy cavalry: poison] Heavy cavalry double-edged sword: Strength D Skill C -- [重騎馬兵の双刃剣：毒] 重騎馬兵の双刃剣：筋力D 技量C
+3004036 [Double-edged sword of heavy cavalry: bleeding] Heavy Cavalry Double Blade: Strength D Skill C -- [重騎馬兵の双刃剣：出血] 重騎馬兵の双刃剣：筋力D 技量C
+3004037 [Double-edged sword of heavy cavalry: crude] Heavy Cavalry Double Blade: Strength D Skill C -- [重騎馬兵の双刃剣：粗製] 重騎馬兵の双刃剣：筋力D 技量C
+3004038 [Double-edged sword of heavy cavalry: Magic] Heavy Cavalry's Double-edged Sword: Strength D Skill C -- [重騎馬兵の双刃剣：魔力] 重騎馬兵の双刃剣：筋力D 技量C
+3004039 [Double-edged sword of heavy cavalry: Abyss] Double-edged sword of heavy cavalry: Strength D Skill C -- [重騎馬兵の双刃剣：深淵] 重騎馬兵の双刃剣：筋力D 技量C

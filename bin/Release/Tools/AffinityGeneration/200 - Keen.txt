@@ -1,0 +1,6 @@
+sortId;CALC;x+2
+correctStrength;STAT_CALC;HIGHEST*0.5
+correctAgility;STAT_CALC;HIGHEST*1.2
+attackBasePhysics;DMG_CALC;PHYSICAL*0.95
+reinforceTypeId;SET;200
+correctType_Physics;SET;2

@@ -1,0 +1,1471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>FACE_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 face_partsId">
+      <DisplayName>Face - Parts ID</DisplayName>
+      <Description>Face part ID</Description>
+      <SortID>1000</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_R = 128">
+      <DisplayName>Skin - Color: R</DisplayName>
+      <Description>Skin color (R)</Description>
+      <SortID>1010</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_G = 128">
+      <DisplayName>Skin - Color: G</DisplayName>
+      <Description>Skin color (G)</Description>
+      <SortID>1011</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_color_B = 128">
+      <DisplayName>Skin - Color: B</DisplayName>
+      <Description>Skin color (B)</Description>
+      <SortID>1012</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_gloss = 128">
+      <DisplayName>Skin - Gloss</DisplayName>
+      <Description>Shiny skin</Description>
+      <SortID>1020</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 skin_pores = 128">
+      <DisplayName>Skin - Pores</DisplayName>
+      <Description>pores</Description>
+      <SortID>1030</SortID>
+      <UnkC8>顔・体</UnkC8>
+    </Field>
+    <Field Def="u8 face_beard = 128">
+      <DisplayName>Face - Beard</DisplayName>
+      <Description>Blue beard</Description>
+      <SortID>1040</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEye = 128">
+      <DisplayName>Face - Around Eye</DisplayName>
+      <Description>Bear</Description>
+      <SortID>1050</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_R = 128">
+      <DisplayName>Face - Around Eye Color: R</DisplayName>
+      <Description>Bear color (R)</Description>
+      <SortID>1060</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_G = 128">
+      <DisplayName>Face - Around Eye Color: G</DisplayName>
+      <Description>Bear color (G)</Description>
+      <SortID>1061</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_aroundEyeColor_B = 128">
+      <DisplayName>Face - Around Eye Color: B</DisplayName>
+      <Description>Bear color (B)</Description>
+      <SortID>1062</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheek = 128">
+      <DisplayName>Face - Cheek</DisplayName>
+      <Description>cheek</Description>
+      <SortID>1070</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_R = 128">
+      <DisplayName>Face - Cheek Color: R</DisplayName>
+      <Description>Teak color (R)</Description>
+      <SortID>1080</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_G = 128">
+      <DisplayName>Face - Cheek Color: G</DisplayName>
+      <Description>Teak color (G)</Description>
+      <SortID>1081</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_cheekColor_B = 128">
+      <DisplayName>Face - Cheek Color: B</DisplayName>
+      <Description>Teak color (B)</Description>
+      <SortID>1082</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLine = 128">
+      <DisplayName>Face - Eyeline</DisplayName>
+      <Description>Eyeline</Description>
+      <SortID>1090</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_R = 128">
+      <DisplayName>Face - Eyeline Color: R</DisplayName>
+      <Description>Eyeliner color (R)</Description>
+      <SortID>1100</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_G = 128">
+      <DisplayName>Face - Eyeline Color: G</DisplayName>
+      <Description>Eyeliner color (G)</Description>
+      <SortID>1101</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeLineColor_B = 128">
+      <DisplayName>Face - Eyeline Color: B</DisplayName>
+      <Description>Eyeliner color (B)</Description>
+      <SortID>1102</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDown = 128">
+      <DisplayName>Face - Eyeshadow (Down)</DisplayName>
+      <Description>Eye shadow (bottom)</Description>
+      <SortID>1110</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_R = 128">
+      <DisplayName>Face - Eyeshadow (Down) Color: R</DisplayName>
+      <Description>Eyeshadow (bottom) color (R)</Description>
+      <SortID>1120</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_G = 128">
+      <DisplayName>Face - Eyeshadow (Down) Color: G</DisplayName>
+      <Description>Eyeshadow (bottom) color (G)</Description>
+      <SortID>1121</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowDownColor_B = 128">
+      <DisplayName>Face - Eyeshadow (Down) Color: B</DisplayName>
+      <Description>Eyeshadow (bottom) color (B)</Description>
+      <SortID>1122</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUp = 128">
+      <DisplayName>Face - Eyeshadow (Up)</DisplayName>
+      <Description>Eye shadow (top)</Description>
+      <SortID>1130</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_R = 128">
+      <DisplayName>Face - Eyeshadow (Up) Color: R</DisplayName>
+      <Description>Eyeshadow (top) color (R)</Description>
+      <SortID>1140</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_G = 128">
+      <DisplayName>Face - Eyeshadow (Up) Color: G</DisplayName>
+      <Description>Eyeshadow (top) color (G)</Description>
+      <SortID>1141</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_eyeShadowUpColor_B = 128">
+      <DisplayName>Face - Eyeshadow (Up) Color: B</DisplayName>
+      <Description>Eyeshadow (top) color (B)</Description>
+      <SortID>1142</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lip = 128">
+      <DisplayName>Face - Lip</DisplayName>
+      <Description>lipstick</Description>
+      <SortID>1150</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_R = 128">
+      <DisplayName>Face - Lip Color: R</DisplayName>
+      <Description>Lipstick color (R)</Description>
+      <SortID>1160</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_G = 128">
+      <DisplayName>Face - Lip Color: G</DisplayName>
+      <Description>Lipstick color (G)</Description>
+      <SortID>1161</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 face_lipColor_B = 128">
+      <DisplayName>Face - Lip Color: B</DisplayName>
+      <Description>Lipstick color (B)</Description>
+      <SortID>1162</SortID>
+      <UnkC8>顔</UnkC8>
+    </Field>
+    <Field Def="u8 body_hair = 128">
+      <DisplayName>Body - Hair</DisplayName>
+      <Description>Hair thickness</Description>
+      <SortID>1200</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_R = 128">
+      <DisplayName>Body - Hair Color: R</DisplayName>
+      <Description>Hair color (R)</Description>
+      <SortID>1210</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_G = 128">
+      <DisplayName>Body - Hair Color: G</DisplayName>
+      <Description>Hair color (G)</Description>
+      <SortID>1211</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 body_hairColor_B = 128">
+      <DisplayName>Body - Hair Color: B</DisplayName>
+      <Description>Hair color (B)</Description>
+      <SortID>1212</SortID>
+      <UnkC8>体</UnkC8>
+    </Field>
+    <Field Def="u8 eye_partsId">
+      <DisplayName>Eyes - Parts ID</DisplayName>
+      <Description>Eyeball part ID</Description>
+      <SortID>1300</SortID>
+      <UnkC8>眼球</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_R = 128">
+      <DisplayName>Right Eye - Iris Color: R</DisplayName>
+      <Description>Right eye iris color (R)</Description>
+      <SortID>1400</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_G = 128">
+      <DisplayName>Right Eye - Iris Color: G</DisplayName>
+      <Description>Right eye iris color (G)</Description>
+      <SortID>1401</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisColor_B = 128">
+      <DisplayName>Right Eye - Iris Color: B</DisplayName>
+      <Description>Right eye iris color (B)</Description>
+      <SortID>1402</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisScale = 128">
+      <DisplayName>Right Eye - Iris Scale</DisplayName>
+      <Description>The size of the iris of the right eye</Description>
+      <SortID>1410</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataract = 128">
+      <DisplayName>Right Eye - Cataract</DisplayName>
+      <Description>Cloudiness of the crystalline lens of the right eye</Description>
+      <SortID>1420</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_R = 128">
+      <DisplayName>Right Eye - Cataract Color: R</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (R)</Description>
+      <SortID>1430</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_G = 128">
+      <DisplayName>Right Eye - Cataract Color: G</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (G)</Description>
+      <SortID>1431</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_cataractColor_B = 128">
+      <DisplayName>Right Eye - Cataract Color: B</DisplayName>
+      <Description>The turbid color of the crystalline lens of the right eye (B)</Description>
+      <SortID>1432</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_R = 128">
+      <DisplayName>Right Eye - Sclera Color: R</DisplayName>
+      <Description>White eye color of the right eye (R)</Description>
+      <SortID>1440</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_G = 128">
+      <DisplayName>Right Eye - Sclera Color: G</DisplayName>
+      <Description>White eye color of the right eye (G)</Description>
+      <SortID>1441</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_scleraColor_B = 128">
+      <DisplayName>Right Eye - Sclera Color: B</DisplayName>
+      <Description>White eye color of the right eye (B)</Description>
+      <SortID>1442</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeR_irisDistance = 128">
+      <DisplayName>Right Eye - Iris Distance</DisplayName>
+      <Description>Position of the iris of the right eye</Description>
+      <SortID>1450</SortID>
+      <UnkC8>右目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_R = 128">
+      <DisplayName>Left Eye - Iris Color: R</DisplayName>
+      <Description>Left eye iris color (R)</Description>
+      <SortID>1500</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_G = 128">
+      <DisplayName>Left Eye - Iris Color: G</DisplayName>
+      <Description>Left eye iris color (G)</Description>
+      <SortID>1501</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisColor_B = 128">
+      <DisplayName>Left Eye - Iris Color: B</DisplayName>
+      <Description>Left eye iris color (B)</Description>
+      <SortID>1502</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisScale = 128">
+      <DisplayName>Left Eye - Iris Scale</DisplayName>
+      <Description>The size of the iris of the left eye</Description>
+      <SortID>1510</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataract = 128">
+      <DisplayName>Left Eye - Cataract</DisplayName>
+      <Description>Cloudiness of the crystalline lens of the left eye</Description>
+      <SortID>1520</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_R = 128">
+      <DisplayName>Left Eye - Cataract Color: R</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (R)</Description>
+      <SortID>1530</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_G = 128">
+      <DisplayName>Left Eye - Cataract Color: G</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (G)</Description>
+      <SortID>1531</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_cataractColor_B = 128">
+      <DisplayName>Left Eye - Cataract Color: B</DisplayName>
+      <Description>The turbid color of the crystalline lens of the left eye (B)</Description>
+      <SortID>1532</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_R = 128">
+      <DisplayName>Left Eye - Sclera Color: R</DisplayName>
+      <Description>White eye color of the left eye (R)</Description>
+      <SortID>1540</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_G = 128">
+      <DisplayName>Left Eye - Sclera Color: G</DisplayName>
+      <Description>White eye color of the left eye (G)</Description>
+      <SortID>1541</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_scleraColor_B = 128">
+      <DisplayName>Left Eye - Sclera Color: B</DisplayName>
+      <Description>White eye color of the left eye (B)</Description>
+      <SortID>1542</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 eyeL_irisDistance = 128">
+      <DisplayName>Left Eye - Iris Distance</DisplayName>
+      <Description>Position of the iris of the left eye</Description>
+      <SortID>1550</SortID>
+      <UnkC8>左目</UnkC8>
+    </Field>
+    <Field Def="u8 hair_partsId">
+      <DisplayName>Hair - Parts ID</DisplayName>
+      <Description>Hair part ID</Description>
+      <SortID>1600</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_R = 128">
+      <DisplayName>Hair - Color: R</DisplayName>
+      <Description>Hair color (R)</Description>
+      <SortID>1610</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_G = 128">
+      <DisplayName>Hair - Color: G</DisplayName>
+      <Description>Hair color (G)</Description>
+      <SortID>1611</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_color_B = 128">
+      <DisplayName>Hair - Color: B</DisplayName>
+      <Description>Hair color (B)</Description>
+      <SortID>1612</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_shininess = 128">
+      <DisplayName>Hair - Shininess</DisplayName>
+      <Description>Hair gloss</Description>
+      <SortID>1620</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_rootBlack = 128">
+      <DisplayName>Hair - Root Black</DisplayName>
+      <Description>Blackness at the base of hair</Description>
+      <SortID>1630</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 hair_whiteDensity = 128">
+      <DisplayName>Hair - White Density</DisplayName>
+      <Description>Amount of white hair</Description>
+      <SortID>1640</SortID>
+      <UnkC8>髪</UnkC8>
+    </Field>
+    <Field Def="u8 beard_partsId">
+      <DisplayName>Beard - Parts ID</DisplayName>
+      <Description>Beard part ID</Description>
+      <SortID>1700</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_R = 128">
+      <DisplayName>Beard - Color: R</DisplayName>
+      <Description>Beard color (R)</Description>
+      <SortID>1710</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_G = 128">
+      <DisplayName>Beard - Color: G</DisplayName>
+      <Description>Beard color (G)</Description>
+      <SortID>1711</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_color_B = 128">
+      <DisplayName>Beard - Color: B</DisplayName>
+      <Description>Beard color (B)</Description>
+      <SortID>1712</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_shininess = 128">
+      <DisplayName>Beard - Shininess</DisplayName>
+      <Description>Beard luster</Description>
+      <SortID>1720</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_rootBlack = 128">
+      <DisplayName>Beard - Root Black</DisplayName>
+      <Description>Blackness at the base of the beard</Description>
+      <SortID>1730</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 beard_whiteDensity = 128">
+      <DisplayName>Beard - White Density</DisplayName>
+      <Description>Amount of white hair with a beard</Description>
+      <SortID>1740</SortID>
+      <UnkC8>髭</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_partsId">
+      <DisplayName>Eyebrow - Parts ID</DisplayName>
+      <Description>Eyebrow part ID</Description>
+      <SortID>1800</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_R = 128">
+      <DisplayName>Eyebrow - Color: R</DisplayName>
+      <Description>Eyebrow color (R)</Description>
+      <SortID>1810</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_G = 128">
+      <DisplayName>Eyebrow - Color: G</DisplayName>
+      <Description>Eyebrow color (G)</Description>
+      <SortID>1811</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_color_B = 128">
+      <DisplayName>Eyebrow - Color: B</DisplayName>
+      <Description>Eyebrow color (B)</Description>
+      <SortID>1812</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_shininess = 128">
+      <DisplayName>Eyebrow - Shininess</DisplayName>
+      <Description>Glossy eyebrows</Description>
+      <SortID>1820</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_rootBlack = 128">
+      <DisplayName>Eyebrow - Root Black</DisplayName>
+      <Description>Blackness at the base of the eyebrows</Description>
+      <SortID>1830</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyebrow_whiteDensity = 128">
+      <DisplayName>Eyebrow - White Density</DisplayName>
+      <Description>Amount of white hair on the eyebrows</Description>
+      <SortID>1840</SortID>
+      <UnkC8>眉</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_partsId">
+      <DisplayName>Eyelash - Parts ID</DisplayName>
+      <Description>Eyelash parts ID</Description>
+      <SortID>1900</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_R = 128">
+      <DisplayName>Eyelash - Color: R</DisplayName>
+      <Description>Eyelash color (R)</Description>
+      <SortID>1910</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_G = 128">
+      <DisplayName>Eyelash - Color: G</DisplayName>
+      <Description>Eyelash color (G)</Description>
+      <SortID>1911</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 eyelash_color_B = 128">
+      <DisplayName>Eyelash - Color: B</DisplayName>
+      <Description>Eyelash color (B)</Description>
+      <SortID>1912</SortID>
+      <UnkC8>まつげ</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_partsId">
+      <DisplayName>Accessories - Parts ID</DisplayName>
+      <Description>Decorative part ID</Description>
+      <SortID>2000</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_R = 128">
+      <DisplayName>Accessories - Color: R</DisplayName>
+      <Description>Decoration color (R)</Description>
+      <SortID>2010</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_G = 128">
+      <DisplayName>Accessories - Color: G</DisplayName>
+      <Description>Decoration color (G)</Description>
+      <SortID>2011</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 accessories_color_B = 128">
+      <DisplayName>Accessories - Color: B</DisplayName>
+      <Description>Decorative color (B)</Description>
+      <SortID>2012</SortID>
+      <UnkC8>装飾</UnkC8>
+    </Field>
+    <Field Def="u8 decal_partsId">
+      <DisplayName>Decal - Parts ID</DisplayName>
+      <Description>Decal part ID</Description>
+      <SortID>2100</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_posX">
+      <DisplayName>Decal - Position: X</DisplayName>
+      <Description>Decal position (x)</Description>
+      <SortID>2110</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_posY">
+      <DisplayName>Decal - Position: Y</DisplayName>
+      <Description>Decal position (y)</Description>
+      <SortID>2111</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_angle">
+      <DisplayName>Decal - Angle</DisplayName>
+      <Description>Decal angle</Description>
+      <SortID>2120</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_scale">
+      <DisplayName>Decal - Scale</DisplayName>
+      <Description>Decal scale</Description>
+      <SortID>2130</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_R = 128">
+      <DisplayName>Decal - Color: R</DisplayName>
+      <Description>Decal color (R)</Description>
+      <SortID>2140</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_G = 128">
+      <DisplayName>Decal - Color: G</DisplayName>
+      <Description>Decal color (G)</Description>
+      <SortID>2141</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_color_B = 128">
+      <DisplayName>Decal - Color: B</DisplayName>
+      <Description>Decal color (B)</Description>
+      <SortID>2142</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_gloss = 128">
+      <DisplayName>Decal - Gloss</DisplayName>
+      <Description>Decal gloss</Description>
+      <SortID>2150</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 decal_mirror">
+      <DisplayName>Decal - Mirror</DisplayName>
+      <Description>Decal reversal</Description>
+      <Maximum>1</Maximum>
+      <SortID>2160</SortID>
+      <UnkC8>デカール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleHead = 128">
+      <DisplayName>Chr Body Scale - Head</DisplayName>
+      <Description>Character body head scale</Description>
+      <SortID>2500</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleBreast = 128">
+      <DisplayName>Chr Body Scale - Breast</DisplayName>
+      <Description>Character body chest scale</Description>
+      <SortID>2510</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleAbdomen = 128">
+      <DisplayName>Chr Body Scale - Abdomen</DisplayName>
+      <Description>Character body type abdominal scale</Description>
+      <SortID>2520</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleRArm = 128">
+      <DisplayName>Chr Body Scale - Right Arm</DisplayName>
+      <Description>Character body right arm scale</Description>
+      <SortID>2530</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleRLeg = 128">
+      <DisplayName>Chr Body Scale - Right Leg</DisplayName>
+      <Description>Character body right leg scale</Description>
+      <SortID>2540</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleLArm = 128">
+      <DisplayName>Chr Body Scale - Left Arm</DisplayName>
+      <Description>Character body shape left arm scale</Description>
+      <SortID>2550</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 chrBodyScaleLLeg = 128">
+      <DisplayName>Chr Body Scale - Left Leg</DisplayName>
+      <Description>Character body type left leg scale</Description>
+      <SortID>2560</SortID>
+      <UnkC8>体型スケール</UnkC8>
+    </Field>
+    <Field Def="u8 burn_scar">
+      <DisplayName>Burn Scar</DisplayName>
+      <Description>Burn scars</Description>
+      <SortID>2200</SortID>
+      <UnkC8>イベント用</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_partsId:1">
+      <DisplayName>Override - Eye - Parts ID</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Whether to overwrite the eyeball part ID</Description>
+      <Maximum>1</Maximum>
+      <SortID>10000</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_irisColor:1">
+      <DisplayName>Override - Eye - Iris Color</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the color of the iris?</Description>
+      <Maximum>1</Maximum>
+      <SortID>10010</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_cataract:1">
+      <DisplayName>Override - Eye - Cataract</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the turbidity of the crystalline lens?</Description>
+      <Maximum>1</Maximum>
+      <SortID>10020</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_cataractColor:1">
+      <DisplayName>Override - Eye - Cataract Color</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the muddy color of the crystalline lens?</Description>
+      <Maximum>1</Maximum>
+      <SortID>10030</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_eye_scleraColor:1">
+      <DisplayName>Override - Eye - Sclera Color</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the white eye color?</Description>
+      <Maximum>1</Maximum>
+      <SortID>10040</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="u8 override_burn_scar:1">
+      <DisplayName>Override - Burn Scar</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Do you want to overwrite the burn scars?</Description>
+      <Maximum>1</Maximum>
+      <SortID>10050</SortID>
+      <UnkC8>上書き</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2:2">
+      <DisplayName>pad2</DisplayName>
+      <SortID>10051</SortID>
+    </Field>
+    <Field Def="dummy8 pad[5]">
+      <DisplayName>pad</DisplayName>
+      <SortID>10052</SortID>
+    </Field>
+    <Field Def="u8 age = 128">
+      <DisplayName>Age</DisplayName>
+      <Description>age</Description>
+      <SortID>3000</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 gender = 128">
+      <DisplayName>Gender</DisplayName>
+      <Description>sex</Description>
+      <SortID>3100</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 caricatureGeometry = 128">
+      <DisplayName>Model Geometry</DisplayName>
+      <Description>Exaggeration (model)</Description>
+      <SortID>3200</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 caricatureTexture = 128">
+      <DisplayName>Model Texture</DisplayName>
+      <Description>Exaggeration (texture)</Description>
+      <SortID>3300</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData00 = 128">
+      <DisplayName>Face - Geo Data [00]</DisplayName>
+      <Description>Face - Geo Data [00]</Description>
+      <SortID>3400</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData01 = 128">
+      <DisplayName>Face - Geo Data [01]</DisplayName>
+      <Description>Face - Geo Data [01]</Description>
+      <SortID>3401</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData02 = 128">
+      <DisplayName>Face - Geo Data [02]</DisplayName>
+      <Description>Face - Geo Data [02]</Description>
+      <SortID>3402</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData03 = 128">
+      <DisplayName>Face - Geo Data [03]</DisplayName>
+      <Description>Face - Geo Data [03]</Description>
+      <SortID>3403</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData04 = 128">
+      <DisplayName>Face - Geo Data [04]</DisplayName>
+      <Description>Face - Geo Data [04]</Description>
+      <SortID>3404</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData05 = 128">
+      <DisplayName>Face - Geo Data [05]</DisplayName>
+      <Description>Face - Geo Data [05]</Description>
+      <SortID>3405</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData06 = 128">
+      <DisplayName>Face - Geo Data [06]</DisplayName>
+      <Description>Face - Geo Data [06]</Description>
+      <SortID>3406</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData07 = 128">
+      <DisplayName>Face - Geo Data [07]</DisplayName>
+      <Description>Face - Geo Data [07]</Description>
+      <SortID>3407</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData08 = 128">
+      <DisplayName>Face - Geo Data [08]</DisplayName>
+      <Description>Face - Geo Data [08]</Description>
+      <SortID>3408</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData09 = 128">
+      <DisplayName>Face - Geo Data [09]</DisplayName>
+      <Description>Face - Geo Data [09]</Description>
+      <SortID>3409</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData10 = 128">
+      <DisplayName>Face - Geo Data [10]</DisplayName>
+      <Description>Face - Geo Data [10]</Description>
+      <SortID>3410</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData11 = 128">
+      <DisplayName>Face - Geo Data [11]</DisplayName>
+      <Description>Face - Geo Data [11]</Description>
+      <SortID>3411</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData12 = 128">
+      <DisplayName>Face - Geo Data [12]</DisplayName>
+      <Description>Face - Geo Data [12]</Description>
+      <SortID>3412</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData13 = 128">
+      <DisplayName>Face - Geo Data [13]</DisplayName>
+      <Description>Face - Geo Data [13]</Description>
+      <SortID>3413</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData14 = 128">
+      <DisplayName>Face - Geo Data [14]</DisplayName>
+      <Description>Face - Geo Data [14]</Description>
+      <SortID>3414</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData15 = 128">
+      <DisplayName>Face - Geo Data [15]</DisplayName>
+      <Description>Face - Geo Data [15]</Description>
+      <SortID>3415</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData16 = 128">
+      <DisplayName>Face - Geo Data [16]</DisplayName>
+      <Description>Face - Geo Data [16]</Description>
+      <SortID>3416</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData17 = 128">
+      <DisplayName>Face - Geo Data [17]</DisplayName>
+      <Description>Face - Geo Data [17]</Description>
+      <SortID>3417</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData18 = 128">
+      <DisplayName>Face - Geo Data [18]</DisplayName>
+      <Description>Face - Geo Data [18]</Description>
+      <SortID>3418</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData19 = 128">
+      <DisplayName>Face - Geo Data [19]</DisplayName>
+      <Description>Face - Geo Data [19]</Description>
+      <SortID>3419</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData20 = 128">
+      <DisplayName>Face - Geo Data [20]</DisplayName>
+      <Description>Face - Geo Data [20]</Description>
+      <SortID>3420</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData21 = 128">
+      <DisplayName>Face - Geo Data [21]</DisplayName>
+      <Description>Face - Geo Data [21]</Description>
+      <SortID>3421</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData22 = 128">
+      <DisplayName>Face - Geo Data [22]</DisplayName>
+      <Description>Face - Geo Data [22]</Description>
+      <SortID>3422</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData23 = 128">
+      <DisplayName>Face - Geo Data [23]</DisplayName>
+      <Description>Face - Geo Data [23]</Description>
+      <SortID>3423</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData24 = 128">
+      <DisplayName>Face - Geo Data [24]</DisplayName>
+      <Description>Face - Geo Data [24]</Description>
+      <SortID>3424</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData25 = 128">
+      <DisplayName>Face - Geo Data [25]</DisplayName>
+      <Description>Face - Geo Data [25]</Description>
+      <SortID>3425</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData26 = 128">
+      <DisplayName>Face - Geo Data [26]</DisplayName>
+      <Description>Face - Geo Data [26]</Description>
+      <SortID>3426</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData27 = 128">
+      <DisplayName>Face - Geo Data [27]</DisplayName>
+      <Description>Face - Geo Data [27]</Description>
+      <SortID>3427</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData28 = 128">
+      <DisplayName>Face - Geo Data [28]</DisplayName>
+      <Description>Face - Geo Data [28]</Description>
+      <SortID>3428</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData29 = 128">
+      <DisplayName>Face - Geo Data [29]</DisplayName>
+      <Description>Face - Geo Data [29]</Description>
+      <SortID>3429</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData30 = 128">
+      <DisplayName>Face - Geo Data [30]</DisplayName>
+      <Description>Face - Geo Data [30]</Description>
+      <SortID>3430</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData31 = 128">
+      <DisplayName>Face - Geo Data [31]</DisplayName>
+      <Description>Face - Geo Data [31]</Description>
+      <SortID>3431</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData32 = 128">
+      <DisplayName>Face - Geo Data [32]</DisplayName>
+      <Description>Face - Geo Data [32]</Description>
+      <SortID>3432</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData33 = 128">
+      <DisplayName>Face - Geo Data [33]</DisplayName>
+      <Description>Face - Geo Data [33]</Description>
+      <SortID>3433</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData34 = 128">
+      <DisplayName>Face - Geo Data [34]</DisplayName>
+      <Description>Face - Geo Data [34]</Description>
+      <SortID>3434</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData35 = 128">
+      <DisplayName>Face - Geo Data [35]</DisplayName>
+      <Description>Face - Geo Data [35]</Description>
+      <SortID>3435</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData36 = 128">
+      <DisplayName>Face - Geo Data [36]</DisplayName>
+      <Description>Face - Geo Data [36]</Description>
+      <SortID>3436</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData37 = 128">
+      <DisplayName>Face - Geo Data [37]</DisplayName>
+      <Description>Face - Geo Data [37]</Description>
+      <SortID>3437</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData38 = 128">
+      <DisplayName>Face - Geo Data [38]</DisplayName>
+      <Description>Face - Geo Data [38]</Description>
+      <SortID>3438</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData39 = 128">
+      <DisplayName>Face - Geo Data [39]</DisplayName>
+      <Description>Face - Geo Data [39]</Description>
+      <SortID>3439</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData40 = 128">
+      <DisplayName>Face - Geo Data [40]</DisplayName>
+      <Description>Face - Geo Data [40]</Description>
+      <SortID>3440</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData41 = 128">
+      <DisplayName>Face - Geo Data [41]</DisplayName>
+      <Description>Face - Geo Data [41]</Description>
+      <SortID>3441</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData42 = 128">
+      <DisplayName>Face - Geo Data [42]</DisplayName>
+      <Description>Face - Geo Data [42]</Description>
+      <SortID>3442</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData43 = 128">
+      <DisplayName>Face - Geo Data [43]</DisplayName>
+      <Description>Face - Geo Data [43]</Description>
+      <SortID>3443</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData44 = 128">
+      <DisplayName>Face - Geo Data [44]</DisplayName>
+      <Description>Face - Geo Data [44]</Description>
+      <SortID>3444</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData45 = 128">
+      <DisplayName>Face - Geo Data [45]</DisplayName>
+      <Description>Face - Geo Data [45]</Description>
+      <SortID>3445</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData46 = 128">
+      <DisplayName>Face - Geo Data [46]</DisplayName>
+      <Description>Face - Geo Data [46]</Description>
+      <SortID>3446</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData47 = 128">
+      <DisplayName>Face - Geo Data [47]</DisplayName>
+      <Description>Face - Geo Data [47]</Description>
+      <SortID>3447</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData48 = 128">
+      <DisplayName>Face - Geo Data [48]</DisplayName>
+      <Description>Face - Geo Data [48]</Description>
+      <SortID>3448</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData49 = 128">
+      <DisplayName>Face - Geo Data [49]</DisplayName>
+      <Description>Face - Geo Data [49]</Description>
+      <SortID>3449</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData50 = 128">
+      <DisplayName>Face - Geo Data [50]</DisplayName>
+      <Description>Face - Geo Data [50]</Description>
+      <SortID>3450</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData51 = 128">
+      <DisplayName>Face - Geo Data [51]</DisplayName>
+      <Description>Face - Geo Data [51]</Description>
+      <SortID>3451</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData52 = 128">
+      <DisplayName>Face - Geo Data [52]</DisplayName>
+      <Description>Face - Geo Data [52]</Description>
+      <SortID>3452</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData53 = 128">
+      <DisplayName>Face - Geo Data [53]</DisplayName>
+      <Description>Face - Geo Data [53]</Description>
+      <SortID>3453</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData54 = 128">
+      <DisplayName>Face - Geo Data [54]</DisplayName>
+      <Description>Face - Geo Data [54]</Description>
+      <SortID>3454</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData55 = 128">
+      <DisplayName>Face - Geo Data [55]</DisplayName>
+      <Description>Face - Geo Data [55]</Description>
+      <SortID>3455</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData56 = 128">
+      <DisplayName>Face - Geo Data [56]</DisplayName>
+      <Description>Face - Geo Data [56]</Description>
+      <SortID>3456</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData57 = 128">
+      <DisplayName>Face - Geo Data [57]</DisplayName>
+      <Description>Face - Geo Data [57]</Description>
+      <SortID>3457</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData58 = 128">
+      <DisplayName>Face - Geo Data [58]</DisplayName>
+      <Description>Face - Geo Data [58]</Description>
+      <SortID>3458</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData59 = 128">
+      <DisplayName>Face - Geo Data [59]</DisplayName>
+      <Description>Face - Geo Data [59]</Description>
+      <SortID>3459</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoData60 = 128">
+      <DisplayName>Face - Geo Data [60]</DisplayName>
+      <Description>Face - Geo Data [60]</Description>
+      <SortID>3460</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData00 = 128">
+      <DisplayName>Face - Texture Data [00]</DisplayName>
+      <Description>Face - Texture Data [00]</Description>
+      <SortID>3500</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData01 = 128">
+      <DisplayName>Face - Texture Data [01]</DisplayName>
+      <Description>Face - Texture Data [01]</Description>
+      <SortID>3501</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData02 = 128">
+      <DisplayName>Face - Texture Data [02]</DisplayName>
+      <Description>Face - Texture Data [02]</Description>
+      <SortID>3502</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData03 = 128">
+      <DisplayName>Face - Texture Data [03]</DisplayName>
+      <Description>Face - Texture Data [03]</Description>
+      <SortID>3503</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData04 = 128">
+      <DisplayName>Face - Texture Data [04]</DisplayName>
+      <Description>Face - Texture Data [04]</Description>
+      <SortID>3504</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData05 = 128">
+      <DisplayName>Face - Texture Data [05]</DisplayName>
+      <Description>Face - Texture Data [05]</Description>
+      <SortID>3505</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData06 = 128">
+      <DisplayName>Face - Texture Data [06]</DisplayName>
+      <Description>Face - Texture Data [06]</Description>
+      <SortID>3506</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData07 = 128">
+      <DisplayName>Face - Texture Data [07]</DisplayName>
+      <Description>Face - Texture Data [07]</Description>
+      <SortID>3507</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData08 = 128">
+      <DisplayName>Face - Texture Data [08]</DisplayName>
+      <Description>Face - Texture Data [08]</Description>
+      <SortID>3508</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData09 = 128">
+      <DisplayName>Face - Texture Data [09]</DisplayName>
+      <Description>Face - Texture Data [09]</Description>
+      <SortID>3509</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData10 = 128">
+      <DisplayName>Face - Texture Data [10]</DisplayName>
+      <Description>Face - Texture Data [10]</Description>
+      <SortID>3510</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData11 = 128">
+      <DisplayName>Face - Texture Data [11]</DisplayName>
+      <Description>Face - Texture Data [11]</Description>
+      <SortID>3511</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData12 = 128">
+      <DisplayName>Face - Texture Data [12]</DisplayName>
+      <Description>Face - Texture Data [12]</Description>
+      <SortID>3512</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData13 = 128">
+      <DisplayName>Face - Texture Data [13]</DisplayName>
+      <Description>Face - Texture Data [13]</Description>
+      <SortID>3513</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData14 = 128">
+      <DisplayName>Face - Texture Data [14]</DisplayName>
+      <Description>Face - Texture Data [14]</Description>
+      <SortID>3514</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData15 = 128">
+      <DisplayName>Face - Texture Data [15]</DisplayName>
+      <Description>Face - Texture Data [15]</Description>
+      <SortID>3515</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData16 = 128">
+      <DisplayName>Face - Texture Data [16]</DisplayName>
+      <Description>Face - Texture Data [16]</Description>
+      <SortID>3516</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData17 = 128">
+      <DisplayName>Face - Texture Data [17]</DisplayName>
+      <Description>Face - Texture Data [17]</Description>
+      <SortID>3517</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData18 = 128">
+      <DisplayName>Face - Texture Data [18]</DisplayName>
+      <Description>Face - Texture Data [18]</Description>
+      <SortID>3518</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData19 = 128">
+      <DisplayName>Face - Texture Data [19]</DisplayName>
+      <Description>Face - Texture Data [19]</Description>
+      <SortID>3519</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData20 = 128">
+      <DisplayName>Face - Texture Data [20]</DisplayName>
+      <Description>Face - Texture Data [20]</Description>
+      <SortID>3520</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData21 = 128">
+      <DisplayName>Face - Texture Data [21]</DisplayName>
+      <Description>Face - Texture Data [21]</Description>
+      <SortID>3521</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData22 = 128">
+      <DisplayName>Face - Texture Data [22]</DisplayName>
+      <Description>Face - Texture Data [22]</Description>
+      <SortID>3522</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData23 = 128">
+      <DisplayName>Face - Texture Data [23]</DisplayName>
+      <Description>Face - Texture Data [23]</Description>
+      <SortID>3523</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData24 = 128">
+      <DisplayName>Face - Texture Data [24]</DisplayName>
+      <Description>Face - Texture Data [24]</Description>
+      <SortID>3524</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData25 = 128">
+      <DisplayName>Face - Texture Data [25]</DisplayName>
+      <Description>Face - Texture Data [25]</Description>
+      <SortID>3525</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData26 = 128">
+      <DisplayName>Face - Texture Data [26]</DisplayName>
+      <Description>Face - Texture Data [26]</Description>
+      <SortID>3526</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData27 = 128">
+      <DisplayName>Face - Texture Data [27]</DisplayName>
+      <Description>Face - Texture Data [27]</Description>
+      <SortID>3527</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData28 = 128">
+      <DisplayName>Face - Texture Data [28]</DisplayName>
+      <Description>Face - Texture Data [28]</Description>
+      <SortID>3528</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData29 = 128">
+      <DisplayName>Face - Texture Data [29]</DisplayName>
+      <Description>Face - Texture Data [29]</Description>
+      <SortID>3529</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData30 = 128">
+      <DisplayName>Face - Texture Data [30]</DisplayName>
+      <Description>Face - Texture Data [30]</Description>
+      <SortID>3530</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData31 = 128">
+      <DisplayName>Face - Texture Data [31]</DisplayName>
+      <Description>Face - Texture Data [31]</Description>
+      <SortID>3531</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData32 = 128">
+      <DisplayName>Face - Texture Data [32]</DisplayName>
+      <Description>Face - Texture Data [32]</Description>
+      <SortID>3532</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData33 = 128">
+      <DisplayName>Face - Texture Data [33]</DisplayName>
+      <Description>Face - Texture Data [33]</Description>
+      <SortID>3533</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData34 = 128">
+      <DisplayName>Face - Texture Data [34]</DisplayName>
+      <Description>Face - Texture Data [34]</Description>
+      <SortID>3534</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceTexData35 = 128">
+      <DisplayName>Face - Texture Data [35]</DisplayName>
+      <Description>Face - Texture Data [35]</Description>
+      <SortID>3535</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData00 = 128">
+      <DisplayName>Face - Geo Asym Data [00]</DisplayName>
+      <Description>Face - Geo Asym Data [00]</Description>
+      <SortID>3600</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData01 = 128">
+      <DisplayName>Face - Geo Asym Data [01]</DisplayName>
+      <Description>Face - Geo Asym Data [01]</Description>
+      <SortID>3601</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData02 = 128">
+      <DisplayName>Face - Geo Asym Data [02]</DisplayName>
+      <Description>Face - Geo Asym Data [02]</Description>
+      <SortID>3602</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData03 = 128">
+      <DisplayName>Face - Geo Asym Data [03]</DisplayName>
+      <Description>Face - Geo Asym Data [03]</Description>
+      <SortID>3603</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData04 = 128">
+      <DisplayName>Face - Geo Asym Data [04]</DisplayName>
+      <Description>Face - Geo Asym Data [04]</Description>
+      <SortID>3604</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData05 = 128">
+      <DisplayName>Face - Geo Asym Data [05]</DisplayName>
+      <Description>Face - Geo Asym Data [05]</Description>
+      <SortID>3605</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData06 = 128">
+      <DisplayName>Face - Geo Asym Data [06]</DisplayName>
+      <Description>Face - Geo Asym Data [06]</Description>
+      <SortID>3606</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData07 = 128">
+      <DisplayName>Face - Geo Asym Data [07]</DisplayName>
+      <Description>Face - Geo Asym Data [07]</Description>
+      <SortID>3607</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData08 = 128">
+      <DisplayName>Face - Geo Asym Data [08]</DisplayName>
+      <Description>Face - Geo Asym Data [08]</Description>
+      <SortID>3608</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData09 = 128">
+      <DisplayName>Face - Geo Asym Data [09]</DisplayName>
+      <Description>Face - Geo Asym Data [09]</Description>
+      <SortID>3609</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData10 = 128">
+      <DisplayName>Face - Geo Asym Data [10]</DisplayName>
+      <Description>Face - Geo Asym Data [10]</Description>
+      <SortID>3610</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData11 = 128">
+      <DisplayName>Face - Geo Asym Data [11]</DisplayName>
+      <Description>Face - Geo Asym Data [11]</Description>
+      <SortID>3611</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData12 = 128">
+      <DisplayName>Face - Geo Asym Data [12]</DisplayName>
+      <Description>Face - Geo Asym Data [12]</Description>
+      <SortID>3612</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData13 = 128">
+      <DisplayName>Face - Geo Asym Data [13]</DisplayName>
+      <Description>Face - Geo Asym Data [13]</Description>
+      <SortID>3613</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData14 = 128">
+      <DisplayName>Face - Geo Asym Data [14]</DisplayName>
+      <Description>Face - Geo Asym Data [14]</Description>
+      <SortID>3614</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData15 = 128">
+      <DisplayName>Face - Geo Asym Data [15]</DisplayName>
+      <Description>Face - Geo Asym Data [15]</Description>
+      <SortID>3615</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData16 = 128">
+      <DisplayName>Face - Geo Asym Data [16]</DisplayName>
+      <Description>Face - Geo Asym Data [16]</Description>
+      <SortID>3616</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData17 = 128">
+      <DisplayName>Face - Geo Asym Data [17]</DisplayName>
+      <Description>Face - Geo Asym Data [17]</Description>
+      <SortID>3617</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData18 = 128">
+      <DisplayName>Face - Geo Asym Data [18]</DisplayName>
+      <Description>Face - Geo Asym Data [18]</Description>
+      <SortID>3618</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData19 = 128">
+      <DisplayName>Face - Geo Asym Data [19]</DisplayName>
+      <Description>Face - Geo Asym Data [19]</Description>
+      <SortID>3619</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData20 = 128">
+      <DisplayName>Face - Geo Asym Data [20]</DisplayName>
+      <Description>Face - Geo Asym Data [20]</Description>
+      <SortID>3620</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData21 = 128">
+      <DisplayName>Face - Geo Asym Data [21]</DisplayName>
+      <Description>Face - Geo Asym Data [21]</Description>
+      <SortID>3621</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData22 = 128">
+      <DisplayName>Face - Geo Asym Data [22]</DisplayName>
+      <Description>Face - Geo Asym Data [22]</Description>
+      <SortID>3622</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData23 = 128">
+      <DisplayName>Face - Geo Asym Data [23]</DisplayName>
+      <Description>Face - Geo Asym Data [23]</Description>
+      <SortID>3623</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData24 = 128">
+      <DisplayName>Face - Geo Asym Data [24]</DisplayName>
+      <Description>Face - Geo Asym Data [24]</Description>
+      <SortID>3624</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+    <Field Def="u8 faceGeoAsymData25 = 128">
+      <DisplayName>Face - Geo Asym Data [25]</DisplayName>
+      <Description>Face - Geo Asym Data [25]</Description>
+      <SortID>3625</SortID>
+      <UnkC8>FaceGen</UnkC8>
+    </Field>
+  </Fields>
+</PARAMDEF>

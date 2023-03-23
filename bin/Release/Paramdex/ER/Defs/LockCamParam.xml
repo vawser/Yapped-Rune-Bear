@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>LOCK_CAM_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 camDistTarget = 4">
+      <DisplayName>Camera Target Distance</DisplayName>
+      <Description>Camera distance target</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0.1</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 rotRangeMinX = -40">
+      <DisplayName>Rotation Range - Min X</DisplayName>
+      <Description>Minimum X-axis rotation</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-80</Minimum>
+      <Maximum>80</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 lockRotXShiftRatio = 0.6">
+      <DisplayName>Lock Rotation X - Shift Ratio</DisplayName>
+      <Description>Lock X rotation shift rate</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 chrOrgOffset_Y = 1.42">
+      <DisplayName>Character Origin - Offset Z</DisplayName>
+      <Description>Character base point offset</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-10</Minimum>
+      <Maximum>10</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius = 15">
+      <DisplayName>Character Lock Range - Max Radius</DisplayName>
+      <Description>Maximum radius of character range</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 camFovY = 43">
+      <DisplayName>Field of View - Vertical FOV</DisplayName>
+      <Description>Vertical angle of view</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius_forD = -1">
+      <DisplayName>Character Lock Range - Max Radius (Darkness)</DisplayName>
+      <Description>Lockable range of characters in dark places</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="f32 chrLockRangeMaxRadius_forPD = -1">
+      <DisplayName>Character Lock Range - Max Radius (Total Darkness)</DisplayName>
+      <Description>Character lockable range in total darkness</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>520</SortID>
+    </Field>
+    <Field Def="f32 closeMaxHeight">
+      <DisplayName>Attack Capture - Upper Limit Height</DisplayName>
+      <Description>Automatic lock-on judgment height upper limit when non-lock-on is close</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="f32 closeMinHeight">
+      <DisplayName>Attack Capture - Lower Limit Height</DisplayName>
+      <Description>Automatic lock-on judgment height lower limit when not locked on Proximity</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="f32 closeAngRange">
+      <DisplayName>Attack Capture - Auto Acquisition - Angle Range Left</DisplayName>
+      <Description>Automatic lock-on judgment when non-lock-on Left / right angle [deg] Proximity</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius">
+      <DisplayName>Attack Capture - Auto Acquisition - Max Radius</DisplayName>
+      <Description>Automatic lock-on judgment distance when non-lock-on is close</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius_forD">
+      <DisplayName>Attack Capture - Auto Acquisition - Max Radius (Darkness)</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ darkness proximity</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="f32 closeMaxRadius_forPD">
+      <DisplayName>Attack Capture - Auto Acquisition - Max Radius (Total Darkness)</DisplayName>
+      <Description>Automatic lock-on when non-lock-on _ pitch black proximity</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius">
+      <DisplayName>Attack Capture - Bullet - Max Radius</DisplayName>
+      <Description>Automatic lock-on judgment distance when non-lock-on bullet</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius_forD">
+      <DisplayName>Attack Capture - Bullet - Max Radius (Dark)</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ darkness bullet</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 bulletMaxRadius_forPD">
+      <DisplayName>Attack Capture - Bullet - Max Radius (Pitch Dark</DisplayName>
+      <Description>Automatic lock-on judgment distance at non-lock-on _ pitch black bullet</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 bulletAngRange">
+      <DisplayName>Attack Capture - Bullet - Angle Range Left/Right</DisplayName>
+      <Description>Automatic lock-on left / right angle when non-lock-on bullet</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>180</Maximum>
+      <SortID>1250</SortID>
+    </Field>
+    <Field Def="f32 lockTgtKeepTime = 2">
+      <DisplayName>Lock Target Keep Time</DisplayName>
+      <Description>Time to continue locking even if the lock condition is not met (disabled at 0.0)</Description>
+      <DisplayFormat>%0.2f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="f32 chrTransChaseRateForNormal = -1">
+      <DisplayName>Transition Chase Factor for Normal Character</DisplayName>
+      <Description>Normal character translation tracking rate (disabled at -1.0)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>450</SortID>
+    </Field>
+    <Field Def="dummy8 pad[48]">
+      <DisplayName>Padding</DisplayName>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <SortID>2001</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

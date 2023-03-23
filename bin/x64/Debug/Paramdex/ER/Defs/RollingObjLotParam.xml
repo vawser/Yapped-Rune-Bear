@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>ROLLING_OBJ_LOT_PARAM_ST</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT:1">
+      <DisplayName>Disable Param - Network Test</DisplayName>
+      <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+      <Description>Parameters marked with ○ are excluded in the NT version package.</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+    </Field>
+    <Field Def="dummy8 disableParamReserve1:7">
+      <DisplayName>Reserve for package output 1</DisplayName>
+      <Description>Reserve for package output 1</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>702</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[3]">
+      <DisplayName>Reserve for package output 2</DisplayName>
+      <Description>Reserve for package output 2</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <SortID>703</SortID>
+    </Field>
+    <Field Def="s32 AssetId_0 = -1">
+      <DisplayName>Asset ID [0]</DisplayName>
+      <Description>AssetId_0 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+    </Field>
+    <Field Def="s32 AssetId_1 = -1">
+      <DisplayName>Asset ID [1]</DisplayName>
+      <Description>AssetId_1 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 AssetId_2 = -1">
+      <DisplayName>Asset ID [2]</DisplayName>
+      <Description>AssetId_2 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 AssetId_3 = -1">
+      <DisplayName>Asset ID [3]</DisplayName>
+      <Description>AssetId_3 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 AssetId_4 = -1">
+      <DisplayName>Asset ID [4]</DisplayName>
+      <Description>AssetId_4 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 AssetId_5 = -1">
+      <DisplayName>Asset ID [5]</DisplayName>
+      <Description>AssetId_5 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 AssetId_6 = -1">
+      <DisplayName>Asset ID [6]</DisplayName>
+      <Description>AssetId_6 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 AssetId_7 = -1">
+      <DisplayName>Asset ID [7]</DisplayName>
+      <Description>AssetId_7 (-1: Ignore)</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_0">
+      <DisplayName>Appearance Weight [0]</DisplayName>
+      <Description>Appearance ratio point (weight) _0: 0 is ignored</Description>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_1">
+      <DisplayName>Appearance Weight [1]</DisplayName>
+      <Description>Appearance ratio point (weight) _1</Description>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_2">
+      <DisplayName>Appearance Weight [2]</DisplayName>
+      <Description>Appearance ratio point (weight) _2</Description>
+      <SortID>201</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_3">
+      <DisplayName>Appearance Weight [3]</DisplayName>
+      <Description>Appearance ratio point (weight) _3</Description>
+      <SortID>301</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_4">
+      <DisplayName>Appearance Weight [4]</DisplayName>
+      <Description>Appearance ratio point (weight) _4</Description>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_5">
+      <DisplayName>Appearance Weight [5]</DisplayName>
+      <Description>Appearance ratio point (weight) _5</Description>
+      <SortID>501</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_6">
+      <DisplayName>Appearance Weight [6]</DisplayName>
+      <Description>Appearance ratio point (weight) _6</Description>
+      <SortID>601</SortID>
+    </Field>
+    <Field Def="u8 CreateWeight_7">
+      <DisplayName>Appearance Weight [7]</DisplayName>
+      <Description>Appearance ratio point (weight) _7</Description>
+      <SortID>701</SortID>
+    </Field>
+    <Field Def="dummy8 Reserve_0[20]">
+      <DisplayName>Reserve</DisplayName>
+      <Description>Reserve</Description>
+      <DisplayFormat>%d</DisplayFormat>
+      <EditFlags>Wrap</EditFlags>
+      <SortID>704</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

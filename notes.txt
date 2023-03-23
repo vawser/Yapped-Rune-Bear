@@ -1,0 +1,17 @@
+#---------------------------------
+# Known Issues
+#---------------------------------
+# Ctrl + C on the DataGridView cells throws System.NotImplementedException
+ - Seemingly has no real effect, Ctrl + C still works.
+ - Left as is for now
+ 
+#---------------------------------
+# Plans
+#---------------------------------
+WEP_CORRECT_TYPE
+ Special case enum: draw from param rows
+ 
+Tabbed view
+ Secondary Param View
+ 
+Regex filter to narrow row/cell view

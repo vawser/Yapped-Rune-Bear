@@ -1,0 +1,403 @@
+1 Test -- テスト
+2 Test -- テスト
+3 Test -- テスト
+10 10: Unauthorized data (prohibited) -- 10：不正データ（使用禁止）
+8182 8182: Weapon Color Check -- 8182：武器カラーチェック
+8183 8183: Landing Check -- 8183：着弾チェック
+732000 Sorcerer Sinner 1: The Fire of The Sorcerer -- 呪術師の罪人１：呪術の火
+733000 Sorcerer Sinner 2: The Fire of The Sorcerer -- 呪術師の罪人２：呪術の火
+741000 Heartbroken Blue Warrior: Busted Sword -- 心折れた青教戦士：バスタードソード
+761000 Armor shop: Falcion -- 防具屋：ファルシオン
+763000 Sorcerer: Sorcerer's Wand -- 呪術屋：呪術屋の杖
+766000 Sorcerer: Dark Wizard Lizard Wand -- 魔術屋：ダークウィザードのトカゲ杖
+772000 Curiosity: Size -- 珍品屋：サイズ
+784000 The Teacher of The Sin: The Long Sickle -- 免罪の教戒師：長鎌
+810000 NPC for Multi: Swordsman (Male): Zweiender -- マルチ用NPC：剣士（男）：ツヴァイヘンダー
+811000 NPC for Multi: Archer (Man): Convoy Bow -- マルチ用NPC：弓兵（男）：コンボジットボウ
+812000 NPC for Multi: Sage (Female): Fairy Shrine Maiden's Wand -- マルチ用NPC：賢者（女）：妖精の巫女の杖
+813000 NPC for Multi: Lancer (Female): The Knight's Assault Spear C -- マルチ用NPC：ランサー（女）：彷徨える騎士の突撃槍C
+814000 NPC for Multi: Flesh breaking (female): White Spirit: Great Axe -- マルチ用NPC：肉断ち（女）：白霊：グレートアックス
+820000 NPC for Multi: Spearman (Man): Winged Spear -- マルチ用NPC：槍兵（男）：ウィングドスピア
+821000 NPC for Multi: Reaper (Female): Jabazahat's Two-Handed Sickle -- マルチ用NPC：死神（女）：ジャバザハットの両手鎌
+822000 NPC for Multi: The Magician (Man): Dark Bishop's Wand -- マルチ用NPC：魔導士（男）：ダークビショップの杖
+823000 NPC for Multi: Koryu Swordsman (Male): Old Dragon's Two-Handed Sword -- マルチ用NPC：古龍剣士（男）：古龍の両手剣
+824000 NPC for Multi: The Older Brother of a Female Swordsman: The Swordsman's Two-Handed Sword -- マルチ用NPC：女剣士の兄：女剣士の両手剣
+831000 Saint's Tomb: Abandoned Saint: Queen's Bell -- 聖人墓所：捨てられた聖女：王妃のベル
+831100 Saint's Tomb: Knight of the Saint: King Van Grad's Two-Handed Sword -- 聖人墓所：聖女の騎士：ヴァングラッド王の両手剣
+832000 Old Dark Hole: Abyss 1: Sniper: Compositing Bow -- 古き闇の穴：深淵霊１：スナイパー：コンポジッドボウ
+832100 Old Dark Hole: Abyss 2: Axeman: Demon Heavy Soldier's Two Hands Mallet -- 古き闇の穴：深淵霊２：アックスマン：デーモン重兵士の両手槌
+832200 The Hole of Old Darkness: The Abyss 3: Yellow Husband: The Fire of The Magic -- 古き闇の穴：深淵霊３：黄衣夫：呪術の火
+832201 The Old Dark Hole: The Abyss 3: Yellow Husband: Ibara Whip -- 古き闇の穴：深淵霊３：黄衣夫：イバラ鞭
+832300 The Hole of Old Darkness: The Abyss 4: Yellow Wife: The Fire of The Magic -- 古き闇の穴：深淵霊４：黄衣妻：呪術の火
+832301 The Old Dark Hole: The Abyss 4: Yellow Wife: The Whip -- 古き闇の穴：深淵霊４：黄衣妻：イバラ鞭
+832400 The Hole of Old Darkness: The Abyss 5: Traveler: Dagger -- 古き闇の穴：深淵霊５：旅人：短刀
+832401 The Old Dark Hole: The Abyss 5: Traveler: The Dagger of the Nagain -- 古き闇の穴：深淵霊５：旅人：ナーガの短剣
+832500 Old Dark Hole: Abyss 6: Knight: Ricardo's Sting -- 古き闇の穴：深淵霊６：騎士：リカールの刺剣
+832600 The Hole of The Old Darkness: The Abyss 7: Heavy Warrior: The Great Dragon Fang -- 古き闇の穴：深淵霊７：重戦士：大竜牙
+832700 Old Dark Hole: Abyss 8: Queen: Shorter -- 古き闇の穴：深淵霊８：女王様：ショーテル
+832701 Old Dark Hole: Abyss 8: Queen: Two-Sided Swordsman's Song Sword -- 古き闇の穴：深淵霊８：女王様：両面剣士の曲剣
+833000 Amana's Shrine: Cannibal Keeper: Meat Cleaver -- アマナの祠：人食い番長：肉絶ち包丁
+835000 Enshrinement Hall: Dragon Knight: Old Dragon's Two-Handed Axe -- 祭祀場：竜騎士：古龍の両手斧
+835001 Enshrinement Hall: Painting Guard (Female): The Song of Painting -- 祭祀場：絵画守（女）：絵画守の曲刀
+835100 Enshrinement Hall: Dragon Knight: Old Dragon's One Hand Mallet -- 祭祀場：竜騎士：古龍の片手槌
+835200 Enshrinement Hall: Dragon Knight: Old Dragon's One Hand Sword -- 祭祀場：竜騎士：古龍の片手剣
+836000 Molten Castle: Samurai Sorcerer: Stalker Warrior's Sword -- 熔鉄城：侍ソーサラー：ストーカー戦士の刀
+836001 Molten Castle: Samurai Sorcerer: Stalker Warrior's Sword (for two-sword-style both hands) -- 熔鉄城：侍ソーサラー：ストーカー戦士の刀（二刀流両手用）
+836100 Molten Castle: Bell Guard 1: Great Sword -- 熔鉄城：鐘守１：グレートソード
+836200 Molten Castle: Bell Guard 2: Fire Bow (Averin) -- 熔鉄城：鐘守２：連射ボウ（アヴェリン）
+836300 Ming-iron castle: Bell Guard 3: Dark Wizard's Komori Wand -- 熔鉄城：鐘守３：ダークウィザードのこうもり杖
+836301 Molten Castle: Bell Guard 3: Salamander Spear -- 熔鉄城：鐘守３：サラマンダーの槍
+836400 Molten Castle: Light Heavy Soldier: Daemon Heavy Soldier's Two-Handed Mallet -- 熔鉄城：軽快重兵士：デーモン重兵士の両手槌
+837000 Gap Sinus: Second Lap Hunting: Short Sword -- 隙間の洞：２周目狩り：ショートソード
+837100 Gap Sinus: Tutorial: Broken Straight Sword -- 隙間の洞：チュートリアル：折れた直剣
+837200 Gap Sinus: Tutorial: Short Bow -- 隙間の洞：チュートリアル：ショートボウ
+838000 Forest of Shadows: Phantom Enemy 1: Dagger -- 虚ろの影の森：幻影敵１：ダガー
+838100 Forest of Shadows: Phantom Enemy 2: Long Sword -- 虚ろの影の森：幻影敵２：ロングソード
+842000 The Forest of Decayed Giants: In Front of the King's Door: The Second Lap Red Spirit 1: The Two-Handed Sword of the Elephant -- 朽ちた巨人の森：王の扉前：２周目赤霊１：象人の両手剣
+843000 The Forest of Decayed Giants: In front of the king's door: Second Lap Red Spirit 2: The Straight Sword of the Wandering Knight -- 朽ちた巨人の森：王の扉前：２周目赤霊２：彷徨える騎士の直剣
+843001 Decayed Giant Forest: In Front of the King's Door: Round 2 Red Spirit 2: Dagger -- 朽ちた巨人の森：王の扉前：２周目赤霊２：ダガー
+844000 Decayed Giant Forest: Ground Cracking Square: Round 2 Red Spirit 3: Broad Sword -- 朽ちた巨人の森：地割れ広場：２周目赤霊３：ブロードソード
+845000 Decaying Giant Forest: Second Lap Dark Spirit: Scimiter -- 朽ちた巨人の森：２周目闇霊：シミター
+846000 Kiseki-gai Gerdra: Dark Spirit: Tsurushi -- 輝石街ジェルドラ：闇霊：つるはし
+847000 Heide Great Fire Tower: Second Lap Dark Spirit 1: Silver Chariot Assault Spear -- ハイデ大火塔：２周目闇霊１：シルバーチャリオットの突撃槍
+847100 Heide Great Fire Tower: Second Lap Dark Spirit 2: The Old Woman's Two-Handed Axe -- ハイデ大火塔：２周目闇霊２：聖女の付き人の両手長斧
+848000 Tomb of Immortality: Second Lap Dark Spirit 1: Phantom Mage's One Hand Sword -- 不死廟：２周目闇霊１：ファントムメイジの片手剣
+848100 Tomb of Immortality: Dark Spirit 2 (Ghost): Dagger -- 不死廟：闇霊２（亡霊）：短刀
+849000 King's Castle D'Angheig: Dark Spirit 1 (Ghost): Dagger -- 王城ドラングレイグ：闇霊１（亡霊）：短刀
+849100 King's Castle D'Angheig: The Dark Spirit 2 (Clown): The Fire of The Magic -- 王城ドラングレイグ：闇霊２（ピエロ）：呪術の火
+849200 King's Castle D'Angheig: Dark Spirit 3 (Transparent Armor): Shorter -- 王城ドラングレイグ：闇霊３（透明鎧）：ショーテル
+850000 Anne Deal's House: The Second Lap Dark Spirit (right): A dagger in a deformed shadow -- アン・ディールの館：２周目闇霊（右）：異形の影の短剣
+850001 Anne Deal's House: The Second Lap Dark Spirit (left): Rogue Dagger 2 -- アン・ディールの館：２周目闇霊（左）：ローグの短剣２
+851000 Valley of The Reservoir: Dark Spirit: The Two-Handed Sickle of the Man-Made Immortal -- 溜まりの谷：闇霊：人造不死人の両手鎌
+852000 Hunting Forest: Red Spirit Level 3: The Great Sword -- 狩猟の森：赤霊レベル３：グレートソード
+853000 King Castle D'Angheig: Two-Sword Avalin -- 王城ドラングレイグ：二刀流アヴァリン
+853100 King's Castle D'Angheig: Leroy: Estock -- 王城ドラングレイグ：リロイ：エストック
+853200 King's Castle D'Angheig: Second Lap Dark Spirit 1: Heavy Equipment: Demon Heavy Soldier Warpick -- 王城ドラングレイグ：２周目闇霊１：重装備：デーモン重兵士のウォーピック
+853300 King's Castle D'Angheig: 2 laps Dark Spirit 2: Knight: Long Sword -- 王城ドラングレイグ：２周目闇霊２：騎士：ロングソード
+853400 King's Castle D'Angheig: 2 laps: Dark Spirit 3: Long distance: Dragon Hunting Arch -- 王城ドラングレイグ：２周目闇霊３：遠距離：竜狩りの大弓
+853500 King's Castle D'Angheig: Dark Spirit Key number: Drying Rod -- 王城ドラングレイグ：闇霊鍵番：物干し竿
+854000 Hidden Port: Dark Spirit (Darth Mall): Statuenite's Double-Edged Sword -- 隠れ港：闇霊（ダースモール）：スタチューナイトの双刃剣
+1000000 1000: Dagger -- 1000：ダガー
+1010000 1010: Dagger -- 1010：短刀
+1040000 1040: Narga Dagger -- 1040：ナーガの短剣
+1050000 1050: Deformed shadow dagger -- 1050：異形の影短刀
+1060000 1060: Rogue Dagger 1 -- 1060：ローグ短剣１
+1070000 1070: Rogue Dagger 2 -- 1070：ローグ短剣２
+1100000 1100: Paring Dagger -- 1100：パリィングダガー
+1110000 1110: Assassin's Double-Edged Dagger -- 1110：暗殺者の両刃短剣
+1130000 1130: Kingdom Sergeant Dagger -- 1130：王国軍師の短剣
+1200000 1200: Broken Straight Sword -- 1200：折れた直剣
+1210000 1210: Short Sword -- 1210：ショートソード
+1220000 1220: Long Sword -- 1220：ロングソード
+1230000 1230: Broad Sword -- 1230：ブロードソード
+1240000 1240: Lower soldier's one-handed sword -- 1240：下級兵士の片手剣
+1270000 1270: Sailor's One Hand Sword -- 1270：水兵の片手剣
+1280000 1280: Phantom Mage's One-Handed Sword Catalyst (Magic) -- 1280：ファントムメイジの片手剣触媒（魔力）
+1320000 1320: One-handed sword of a wandering knight -- 1320：彷徨える騎士の片手剣
+1330000 1330: Durahan's One Hand Sword -- 1330：デュラハンの片手剣
+1350000 1350: The Old Dragon's Straight Sword -- 1350：古龍の直剣
+1360000 1360: The Direct Sword of the Sun -- 1360：太陽の直剣
+1370000 1370: Demon Heavy Soldier's Straight Sword -- 1370：デーモン重兵士の直剣
+1400000 1400: Estock -- 1400：エストック
+1410000 1410: Mail Breaker -- 1410：メイル・ブレイカー
+1420000 1420: Spelt Four Tenten (Magic) Sting Sword -- 1420：スペル四天王（呪術）の刺突剣
+1430000 1430: Spider Queen's Sting Sword -- 1430：蜘蛛の女王の刺突剣
+1440000 1440: Swords of the Kingdom's Military Master -- 1440：王国軍師の刺剣
+1500000 1500: Laypia -- 1500：レイピア
+1520000 1520: Manscorpion ♂ stabbing sword -- 1520：マンスコーピオン♂の刺突剣
+1530000 1530: Ricardo's Sting -- 1530：リカールの刺剣
+1600000 1600: Falcion -- 1600：ファルシオン
+1610000 1610: Shorter -- 1610：ショーテル
+1620000 1620: Double-sided warrior song sword -- 1620：両面戦士の曲剣
+1640000 1640: Assassin's Song Sword -- 1640：暗殺者の曲剣
+1650000 1650: Scimiter -- 1650：シミター
+1660000 1660: Durahan Song Sword -- 1660：デュラハンの曲剣
+1670000 1670: Spider Queen Song Sword -- 1670：蜘蛛の女王の曲剣
+1680000 1680: Slave Merchant's Song Sword (Large) -- 1680：奴隷商人の曲剣（大）
+1690000 1690: Painting Defense Sword -- 1690：絵画守の曲刀
+1700000 1700: Sword -- 1700：打刀
+1710000 1710: Drying rod -- 1710：物干し竿
+1720000 1720: Youkai -- 1720：妖刀
+1730000 1730: Daemon armor (mass production) sword -- 1730：デーモン鎧（量産型）の刀
+1740000 1740: Leviathan's Sword -- 1740：リヴァイアサンの刀
+1760000 1760: Agaduran Sword -- 1760：アガドゥランの刀
+1770000 1770: Stalker Warrior Sword -- 1770：ストーカー戦士の刀
+1800000 1800: Bustard Sword -- 1800：バスタード・ソード
+1810000 1810: Franberge -- 1810：フランベルジェ
+1820000 1820: Claymore -- 1820：クレイモア
+1850000 1850: Two-handed sword of the head of the Kingdom SS -- 1850：王国親衛隊長の両手剣
+1860000 1860: Mirror Knight's Two-Handed Sword -- 1860：ミラーナイトの両手剣
+1870000 1870: The father of the avenged warrior's two-handed sword -- 1870：仇討ちの戦士の父の両手剣
+1871000 1871: The Great Sword of Moonlight -- 1871：月光の大剣
+1880000 1880: Elephant Man's Two-Handed Sword -- 1880：象人の両手剣
+1900000 1900: King Van Grad's two-handed sword -- 1900：ヴァングラッド王の両手剣
+1910000 1910: Sea Solar's two-handed sword -- 1910：海ソラールの両手剣
+1911000 1911: Sea Solar's Two-Handed Sword (2) -- 1911：海ソラールの両手剣②
+1920000 1920: Old Dragon's Two-Handed Sword -- 1920：古龍の両手剣
+1930000 1930: Black Knight's Sword -- 1930：黒騎士の剣
+1940000 1940: Two-handed sword of the kingdom soldier -- 1940：王国兵士の両手剣
+1950000 1950: Ancient Warrior's Two-Handed Sword -- 1950：古代の戦士の両手剣
+1960000 1960: Queen Knight A's Two-Handed Sword -- 1960：王妃の騎士Aの両手剣
+1970000 1970: Queen Knight C's Two-Handed Sword -- 1970：王妃の騎士Cの両手剣
+1980000 1980: Key man's key -- 1980：鍵人の鍵
+2000000 2000: Hand Axe -- 2000：ハンドアクス
+2010000 2010: Battle Axe -- 2010：バトルアクス
+2020000 2020: Bandit One Hand Axe -- 2020：バンディットの片手斧
+2030000 2030: Lower soldier's one-handed axe -- 2030：下級兵士の片手斧
+2070000 2070: Heavy Dwarf One Hand Axe -- 2070：重ドワーフの片手斧
+2080000 2080: Revenge Warrior's One Hand Axe -- 2080：仇討ちの戦士の片手斧
+2090000 2090: Meat cleaver -- 2090：肉断ち包丁
+2100000 2100: Immortal Senior Soldier's One Hand Axe -- 2100：イモータル上級兵士の片手斧
+2200000 2200: Crescent Axe -- 2200：クレセントアックス
+2210000 2210: Great Axe -- 2210：グレートアクス
+2220000 2220: Bandit's Two-Handed Axe -- 2220：バンディットの両手斧
+2240000 2240: Lion Warrior's Two-Handed Axe -- 2240：獅子戦士の両手斧
+2250000 2250: Giant SS Captain's Two-Handed Axe -- 2250：巨人親衛隊長の両手斧
+2260000 2260: Heavy Dwarf's Two-Handed Axe -- 2260：重ドワーフの両手斧
+2290000 2290: Old Dragon's Two-Handed Axe -- 2290：古龍の両手斧
+2300000 2300: The Great Axe of the Black Knight -- 2300：黒騎士の大斧
+2310000 2310: Demon heavy soldier's two-handed axe -- 2310：デーモン重兵士の両手斧
+2400000 2400: Club -- 2400：クラブ
+2410000 2410: Mace -- 2410：メイス
+2420000 2420: Morningstar -- 2420：モーニングスター
+2430000 2430: Strengthening Club -- 2430：強化クラブ
+2440000 2440: Blacksmith's Hammer -- 2440：鍛冶屋の金槌
+2470000 2470: Phantom Priest's One Hand Mallet -- 2470：ファントムプリーストの片手槌
+2500000 2500: Housekeeper's Egg  -- 2500：家政婦のおたま 
+2520000 2520: Tonkachi -- 2520：トンカチ
+2530000 2530: Old Dragon Warpick -- 2530：古龍のウォーピック
+2540000 2540: Dragon Professor's One Hand Hammer -- 2540：龍の教授の片手槌矛
+2560000 2560: Double-sided warrior's toge club -- 2560：両面戦士のトゲ棍棒
+2600000 2600: Large Club -- 2600：ラージクラブ
+2610000 2610: Tsurushi -- 2610：つるはし
+2620000 2620: Great Club -- 2620：グレートクラブ
+2630000 2630: Heavy Dwarf's Hands Mallet -- 2630：重ドワーフの両手槌
+2660000 2660: Two-handed hammer of the molten iron daemon -- 2660：熔鉄デーモンの両手槌矛
+2670000 2670: Strengthening immortals' hands -- 2670：強化不死人の両手鎚
+2680000 2680: Dairyu Fang -- 2680：大竜牙
+2690000 2690: Giant lower-class soldier's two-handed club -- 2690：巨人下級兵士の両手棍棒
+2700000 2700: Two-handed mallet of Yadokari Castle -- 2700：ヤドカリ城の両手槌
+2710000 2710: Daemon Mallet -- 2710：デーモンの大槌
+2720000 2720: Cleric's Two Hands -- 2720：クレリックの両手戦槌
+2730000 2730: Ancient Warrior's Two Hands Mallet -- 2730：古代の戦士の両手槌
+2740000 2740: Daemon heavy soldier's two-handed mallet -- 2740：デーモン重兵士の両手槌
+2750000 2750: Queen Knight B's Two Hands Mallet -- 2750：王妃の騎士Bの両手槌
+2800000 2800: Short Spear -- 2800：ショートスピア
+2810000 2810: Long Spear -- 2810：ロングスピア
+2820000 2820: Pike -- 2820：パイク
+2830000 2830: Partisan -- 2830：パルチザン
+2840000 2840: Statuepone Spear -- 2840：スタチューポーンの槍
+2850000 2850: Salamander Spear -- 2850：サラマンダーの槍
+2860000 2860: Immortal Advanced Soldier Spear -- 2860：イモータル上級兵士の槍
+2870000 2870: The Spear of the Wandering Knight -- 2870：彷徨える騎士の槍
+2880000 2880: Patch Spear -- 2880：パッチの槍
+2890000 2890: Three Spears of the Evangelist -- 2890：伝道者の三又槍
+2895000 2895: Gargoil Spear -- 2895：ガーゴイルの両槍
+2896000 2896: Ornstein Spear -- 2896：オーンスタインの槍
+2900000 2900: The Wandering Knight's Assault Spear A -- 2900：彷徨える騎士の突撃槍A
+2920000 2920: Wandering Knight's Assault Spear B -- 2920：彷徨える騎士の突撃槍B
+2930000 2930: Advanced Knight Assault Spear -- 2930：上級騎士の突撃槍
+2940000 2940: Silver Chariot Assault Spear -- 2940：シルバーチャリオットの突撃槍
+3000000 3000: Long sickle -- 3000：長鎌
+3010000 3010: Prison man's two-handed sickle -- 3010：獄吏の両手鎌
+3020000 3020: Two-handed sickle of the man-made immortal -- 3020：人造不死人の両手鎌
+3040000 3040: Crescent sickle of blue phantom shop -- 3040：青ファントム屋の三日月鎌
+3050000 3050: Black Phantom Shop's Two-Handed Sickle -- 3050：黒ファントム屋の両手鎌
+3060000 3060: Jabaza hat's two-handed sickle -- 3060：ジャバザハットの両手鎌
+3070000 3070: Two-handed sickle in the form of queen's armor -- 3070：王妃の鎧形態の両手鎌
+3200000 3200: Lutzern -- 3200：ルッツエルン
+3210000 3210: Size -- 3210：サイズ
+3220000 3220: Halvard -- 3220：ハルバード
+3240000 3240: Leviathan Spear Hammer -- 3240：リヴァイアサンの槍槌
+3250000 3250: Two-handed spear hammer of the brain trunk god tree -- 3250：脳幹の神木の両手長槍槌
+3251000 3251: After the destruction of the tree of the brain trunk -- 3251：脳幹の神木の破壊後
+3270000 3270: Elephant Man's Long Axe -- 3270：象人の両手長斧
+3280000 3280: The Old Woman's 1-Handed Axe -- 3280：聖女の付き人１の両手長斧
+3290000 3290: Heavy Cavalry's Long Axe -- 3290：重騎馬兵の両手長斧
+3300000 3300: Black Knight Axe Spear -- 3300：黒騎士の斧槍
+3310000 3310: Kingdom guards' long-handed axe -- 3310：王国護衛兵の両手長斧
+3320000 3320: Skeleton aristocrat's long-handed axe -- 3320：スケルトン貴族の両手長斧
+3330000 3330: Ancient Warrior's Long Axe -- 3330：古代の戦士の両手長斧
+3340000 3340: Ancient Warrior's Two-Handed Axe Spear -- 3340：古代の戦士の両手斧槍
+3350000 3350: Demon Heavy Soldier's Two-Handed Axe Spear -- 3350：デーモン重兵士の両手斧槍
+3400000 3400: Bare Fist -- 3400：素拳
+3401000 3401: Ladder Attack L Input -- 3401：はしご攻撃Ｌ入力
+3402000 3402: Ladder Attack R Input -- 3402：はしご攻撃Ｒ入力
+3403000 3403: NPC Ladder Attack L Input -- 3403：NPCはしご攻撃Ｌ入力
+3404000 3404: NPC Ladder Attack R Input -- 3404：NPCはしご攻撃Ｒ入力
+3405000 3405: NPC Fist -- 3405：NPC素拳
+3406000 3406: Strong bare hands -- 3406：強い素手
+3407000 3407: Strong bare hands: ladder attack L input -- 3407：強い素手：はしご攻撃Ｌ入力
+3408000 3408: Strong bare hands: ladder attack R input -- 3408：強い素手：はしご攻撃Ｒ入力
+3410000 3410: Claw -- 3410：鉤爪
+3420000 3420: Yadokari Castle Nails -- 3420：ヤドカリ城の爪
+3430000 3430: Assassin's Claw (left) -- 3430：暗殺者の爪（左）
+3440000 3440: Bag shop claw -- 3440：カバン屋のかぎ爪
+3500000 3500: Sestas -- 3500：セスタス
+3600000 3600: Whip -- 3600：ウィップ
+3610000 3610: Ibara Whip -- 3610：イバラ鞭
+3620000 3620: Tortureman Whip -- 3620：拷問人の鞭
+3630000 3630: Beautiful Voice Frog Whip -- 3630：美声カエルの鞭
+3660000 3660: The Elder whip of the castle town -- 3660：城下町の長老の鞭
+3800000 3800: Sorcerer's Wand -- 3800：魔術師の杖
+3810000 3810: Fairy Shrine Maiden's One Hand Cane -- 3810：妖精の巫女の片手杖
+3820000 3820: The Keeper's One Hand Cane in the Forest -- 3820：森の番人の片手杖
+3830000 3830: Dark Wizard's One Hand Wand (Medium) -- 3830：ダークウィザードの片手杖（中位）
+3850000 3850: Rich's Miracle Dark Man's Wand -- 3850：リッチの奇蹟闇術の杖
+3860000 3860: Cleric's One Hand Wand -- 3860：クレリックの片手杖
+3870000 3870: Dark Wizard's One Hand Wand (Top) -- 3870：ダークウィザードの片手杖（上位）
+3880000 3880: One hand cane of bookstore -- 3880：本屋の片手杖
+3890000 3890: Spell Four Tenten (Magic) One Hand Wand -- 3890：スペル四天王（魔術）の片手杖
+3900000 3900: Spell Four Tenten (Magic) One Hand Wand -- 3900：スペル四天王（呪術）の片手杖
+4010000 4010: Dark Priest's One Hand Bell (Lower) -- 4010：ダークプリーストの片手ベル（下位）
+4020000 4020: One-handed bell of the keeper of the forest -- 4020：森の番人の片手ベル
+4030000 4030: Dark Priest's One Hand Bell (Mid) -- 4030：ダークプリーストの片手ベル（中位）
+4040000 4040: One-handed bell of the Dragon's Shi Festival -- 4040：龍のシ祭の片手ベル
+4050000 4050: Queen Bell -- 4050：王妃のベル
+4060000 4060: Cleric One Hand Bell -- 4060：クレリックの片手ベル
+4080000 4080: One-handed bell of Spell Four Tenten (Miracle) -- 4080：スペル四天王（奇蹟）の片手ベル
+4090000 4090: Blue Phantom Shop One Hand Bell -- 4090：青ファントム屋の片手ベル
+4100000 4100: One-handed bell with the Saint -- 4100：聖女の付き人１の片手ベル
+4110000 4110: Dark Priest One Hand Bell Round (Top) -- 4110：ダークプリーストの片手ベル円形（上位）
+4150000 4150: Dark Bishop's One Hand Wand -- 4150：ダークビショップの片手杖
+4200000 4200: Short Bow -- 4200：ショートボウ
+4210000 4210: Longbow -- 4210：ロングボウ
+4220000 4220: Composite Bow -- 4220：コンポジット・ボウ
+4230000 4230: Sailor's two-handed bow -- 4230：水兵の両手弓
+4240000 4240: Heavy Cavalry's Two-Handed Bow -- 4240：重騎馬兵の両手弓
+4270000 4270: Sancho's two-handed bow -- 4270：サンチョの両手弓
+4280000 4280: Queen's Bow -- 4280：王妃の両手弓
+4290000 4290: Faris's Black Bow -- 4290：ファリスの黒弓
+4400000 4400: Large bow of daemon armor -- 4400：デーモン鎧の大弓
+4420000 4420: Dragon Hunting Arch -- 4420：竜狩りの大弓
+4600000 4600: Light Crossbow -- 4600：ライトクロスボウ
+4610000 4610: Heavy Cross Bow -- 4610：ヘヴィクロスボウ
+4630000 4630: Silver Chariot One Hand Bow -- 4630：シルバーチャリオットの片手ボウ
+4660000 4660: New Avalin -- 4660：新アヴァリン
+5000000 5000: The Great Sword -- 5000：大曲剣
+5010000 5010: Double-sided warrior's great sword -- 5010：両面戦士の大曲剣
+5040000 5040: Two-headed Wyvern's Great Bent Sword -- 5040：双頭のワイバーンの大曲剣
+5200000 5200: Zweiender -- 5200：ツヴァイヘンダー
+5210000 5210: Great Sword -- 5210：グレートソード
+5220000 5220: Demon Knight's Oversized Sword -- 5220：デーモンナイトの特大剣
+5230000 5230: Biheaded Wyvern's Oversized Sword -- 5230：双頭のワイバーンの特大剣
+5240000 5240: King Van Clad's Oversized Sword -- 5240：ヴァンクラッド王の特大剣
+5270000 5270: Bay Grant (Seoul) Oversized Sword -- 5270：ベイグラント（ソウル）の特大剣
+5275000 5275: Demon Heavy Soldier's Oversized Sword -- 5275：デーモン重兵士の特大剣
+5280000 5280: Agaduran's Oversized Sword -- 5280：アガドゥランの特大剣
+5285000 5285: Ancient Warrior's Oversized Sword -- 5285：古代の戦士の特大剣
+5290000 5290: The Great Sword of the Black Knight -- 5290：黒騎士の大剣
+5295000 5295: The Forgotten Sinner's Oversized Sword -- 5295：忘れられた罪人の特大剣
+5310000 5310: Statuenite's Double-Edged Sword -- 5310：スタチューナイトの双刃剣
+5330000 5330: Heavy Cavalry Double Blade -- 5330：重騎馬兵の双刃剣
+5340000 5340: Transmission of Double-Edged Sword -- 5340：伝来の双刃剣
+5350000 5350: Double-edged sword of iron mass -- 5350：鉄塊の双刃剣
+5360000 5360: Curved double-edged sword -- 5360：湾曲した双刃剣
+5400000 5400: The Fire of Magic -- 5400：呪術の火
+5410000 5410: The Fire of The Magic -- 5410：呪術の火改
+5500000 5500: First Time Benefit: Dagger -- 5500：初回特典：ダガー
+5510000 5510: First Time Benefit: Long Sword -- 5510：初回特典：ロングソード
+5520000 5520: First Time Benefit: Hand Axe -- 5520：初回特典：ハンドアクス
+5530000 5530: First Benefit: Mace -- 5530：初回特典：メイス
+5540000 5540: First Time Benefit: Cane -- 5540：初回特典：杖
+6000000 6000: Torch (Small) -- 6000：松明（小）
+6100000 6100: Telescope -- 6100：望遠鏡
+6300000 6300: Phantom - Dagger  -- 6300：幻影-短剣 
+6310000 6310: Phantom - Swords  -- 6310：幻影-刺剣 
+6320000 6320: Phantom - Song Sword -- 6320：幻影-曲剣
+6330000 6330: Phantom-Sword -- 6330：幻影-刀
+6340000 6340: Phantom - Direct Sword -- 6340：幻影-直剣
+6350000 6350: Phantom - Two-Handed Sword  -- 6350：幻影-両手剣 
+6360000 6360: Phantom - One-handed battle  -- 6360：幻影-片手戦鎚 
+6370000 6370: Phantom - Two-Handed Battle  -- 6370：幻影-両手戦鎚 
+6380000 6380: Phantom - One Hand Axe -- 6380：幻影-片手斧
+6390000 6390: Phantom - Two-Handed Axe -- 6390：幻影-両手斧
+6400000 6400: Phantom -Spear -- 6400：幻影-槍
+6410000 6410: Phantom - Two-Handed Sickle -- 6410：幻影-両手鎌
+6420000 6420: Phantom - Two-Handed Long Axe  -- 6420：幻影-両手長斧 
+6430000 6430: Phantom - Bare Hands -- 6430：幻影-素手
+6440000 6440: Phantom - Nails -- 6440：幻影-爪
+6450000 6450: Phantom - Torch -- 6450：幻影-松明
+6460000 6460: Phantom-Telescope  -- 6460：幻影-望遠鏡 
+6470000 6470: Phantom-Whip  -- 6470：幻影-鞭 
+6480000 6480: Phantom - One Hand Wand -- 6480：幻影-片手杖
+6490000 6490: Phantom - One Hand Bell -- 6490：幻影-片手ベル
+6500000 6500: Phantom - Two-Handed Bow -- 6500：幻影-両手弓
+6510000 6510: Phantom - Two Hands Large Bow  -- 6510：幻影-両手大弓 
+6520000 6520: Phantom - One Hand Bow  -- 6520：幻影-片手ボウ 
+6530000 6530: Phantom - Two-Handed Sword  -- 6530：幻影-両手大曲剣 
+6540000 6540: Phantom - Two-Handed Oversized Sword -- 6540：幻影-両手特大剣
+6550000 6550: Phantom - Double Blade  -- 6550：幻影-双刃剣 
+7010000 7010: Statue of a man for a cut scene -- 7010：カットシーン用人の像
+11000000 11000: Buckler -- 11000：バックラー
+11005000 11005: The Father's Shield of The Avenged Warrior -- 11005：仇討ちの戦士の父の小盾
+11010000 11010: Small Leather Shield -- 11010：スモールレザーシールド
+11020000 11020: Iron Circle Shield -- 11020：鉄の円盾
+11030000 11030: Lower soldier's shield (old) -- 11030：下級兵士の小盾（古）
+11040000 11040: Target Shield -- 11040：ターゲットシールド
+11050000 11050: Falcon warrior's shield -- 11050：鷹匠戦士の小盾
+11070000 11070: Assassin's Shield -- 11070：暗殺者の小盾
+11080000 11080: Shield of the Kingdom's Military -- 11080：王国軍師の小盾
+11091000 11091: Red-white circle shield -- 11091：赤白の円盾
+11110000 11110: Dark Priest's Shield (A) -- 11110：ダークプリーストの小盾（A）
+11120000 11120: Dark Priest Mask Shield -- 11120：ダークプリースト仮面の小盾
+11130000 11130: Phantom Mage's Shield -- 11130：ファントムメイジの小盾
+11140000 11140: Necromancer Shield -- 11140：ネクロマンサーの小盾
+11160000 11160: Sailor's Shield -- 11160：水兵の小盾
+11185000 11185: Queen Knight C Shield -- 11185：王妃の騎士Cの小盾
+11200000 11200: Large Leather Shield -- 11200：ラージレザーシールド
+11210000 11210: Twin Bird Tree Shield -- 11210：双鳥の木盾
+11220000 11220: Heater Shield -- 11220：ヒーターシールド
+11230000 11230: Squadron Leader's Shield -- 11230：親衛隊長の中盾
+11240000 11240: Lion Warrior's Medium Shield -- 11240：獅子戦士の中盾
+11250000 11250: Cleric's Medium Shield -- 11250：クレリックの中盾
+11260000 11260: King Van Grad's Medium Shield -- 11260：ヴァングラッド王の中盾
+11270000 11270: Sea Solar Medium Shield -- 11270：海ソラールの中盾
+11280000 11280: Ancient Warrior's Medium Shield -- 11280：古代の戦士の中盾
+11300000 11300: Coat of Arms Shield -- 11300：紋章の盾
+11310000 11310: Dragon Emblem Shield -- 11310：竜紋章の盾
+11330000 11330: Phantom Priest's Medium Shield -- 11330：ファントムプリーストの中盾
+11350000 11350: Immortal Senior Soldier's Medium Shield -- 11350：イモータル上級兵士の中盾
+11360000 11360: StatueNite's Medium Shield -- 11360：スタチューナイトの中盾
+11370000 11370: The Shield of The Spell Four Heavenly Kings (Miracles) -- 11370：スペル四天王（奇蹟）の中盾
+11380000 11380: Butterfly Shield -- 11380：蝶の盾
+11390000 11390: Cleric's Medium Shield B -- 11390：クレリックの中盾B
+11395000 11395: Spell Four Heavenly Kings (Magic) Medium Shield -- 11395：スペル四天王（呪術）の中盾
+11400000 11400: Wood Shield -- 11400：ウッドシールド
+11420000 11420: Kingdom Soldier's Medium Shield (Old) -- 11420：王国兵士の中盾（古）
+11430000 11430: Twin Snake Kite Shield -- 11430：双蛇のカイトシールド
+11450000 11450: Durahan's Medium Shield -- 11450：デュラハンの中盾
+11470000 11470: Sancho's Medium Shield -- 11470：サンチョの中盾
+11475000 11475: Queen Knight A's Medium Shield -- 11475：王妃の騎士Aの中盾
+11480000 11480: Old Dragon Shield -- 11480：古龍の盾
+11485000 11485: Demon Heavy Soldier's Medium Shield -- 11485：デーモン重兵士の中盾
+11490000 11490: Slave Beast Molten Iron Shield -- 11490：奴隷獣溶鉄の中盾
+11495000 11495: Dragon Professor's Medium Shield -- 11495：龍の教授の中盾
+11500000 11500: The Shield of the Great Eagle -- 11500：大鷲の盾
+11510000 11510: Tower Shield -- 11510：タワーシールド
+11530000 11530: Phantom Knight's Shield (left) -- 11530：ファントムナイトの大盾（左）
+11540000 11540: Phantom Knight's Shield (right) -- 11540：ファントムナイトの大盾（右）
+11550000 11550: Mirror Knight's Great Shield -- 11550：ミラーナイトの大盾
+11560000 11560: Heavy Cavalry Shield -- 11560：重騎馬兵の大盾
+11570000 11570: Elephant Man's Shield -- 11570：象人の大盾
+11590000 11590: The Great Shield of Havel -- 11590：ハベルの大盾
+11600000 11600: Heavy Dwarf Shield -- 11600：重ドワーフの大盾
+11610000 11610: Bay Grant's Great Shield -- 11610：ベイグラントの大盾
+11620000 11620: Patch Shield -- 11620：パッチの大盾
+11630000 11630: Ancient Warrior Shield -- 11630：古代の戦士の大盾
+11640000 11640: Demon Heavy Soldier's Great Shield 1 -- 11640：デーモン重兵士の大盾１
+11650000 11650: Demon Heavy Soldier's Great Shield 2 -- 11650：デーモン重兵士の大盾２
+11700000 11700: Contest Shield 1: Small Shield -- 11700：コンテスト盾１：小盾
+11710000 11710: Contest Shield 2: Small Shield -- 11710：コンテスト盾２：小盾
+11720000 11720: Contest Shield 3: Medium Shield -- 11720：コンテスト盾３：中盾
+11730000 11730: Contest Shield 4: Medium Shield -- 11730：コンテスト盾４：中盾
+11740000 11740: Contest Shield 5: Great Shield -- 11740：コンテスト盾５：大盾
+11750000 11750: Contest Shield 6: Great Shield -- 11750：コンテスト盾６：大盾
+11800000 11800: First Award Shield 1 -- 11800：初回特典の小盾１
+11810000 11810: First Award Medium Shield 2 -- 11810：初回特典の中盾２
+11820000 11820: First Award Medium Shield 3 -- 11820：初回特典の中盾３
+11830000 11830: First Award Shield 4 -- 11830：初回特典の小盾４
+11840000 11840: First Award Shield 5 -- 11840：初回特典の小盾５
+12000000 12000: Phantom - Small Shield -- 12000：幻影-小盾
+12010000 12010: Phantom - Medium Shield -- 12010：幻影-中盾
+12020000 12020: Phantom - Great Shield -- 12020：幻影-大盾

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CS_VOLUMETRIC_EFFECT_QUALITY_DETAIL</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 fogEnabled = 1">
+      <DisplayName>Fog Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Fog enabled</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="u8 fogShadowEnabled = 1">
+      <DisplayName>Fog Shadow Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Fog shadow permission</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="dummy8 dmy[2]">
+      <DisplayName>dmy</DisplayName>
+      <Description>dmy</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>10000</SortID>
+    </Field>
+    <Field Def="s32 fogShadowSampleCountBias">
+      <DisplayName>Shadow Sample Count Offset</DisplayName>
+      <Description>Shadow sample count offset.</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-16</Minimum>
+      <Maximum>16</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 fogLocalLightDistScale">
+      <DisplayName>Local Light Distance Scale</DisplayName>
+      <Description>Local light calculation distance scale (0 does not calculate local light)</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>2</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="u32 fogVolueSizeScaler = 1">
+      <DisplayName>Fog Volume Size Scaler</DisplayName>
+      <Description>Fog volume size scaler</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>500</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolueSizeDivider = 1">
+      <DisplayName>Fog Volume Size Division</DisplayName>
+      <Description>Fog volume size division</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>600</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolumeDepthScaler = 1">
+      <DisplayName>Fog Volume Depth Slice Scaler</DisplayName>
+      <Description>Fog Volume Depth Slice Scaler</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>700</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u32 fogVolumeDepthDivider = 1">
+      <DisplayName>Fog Volume Depth Slice Division</DisplayName>
+      <Description>Fog volume depth slice division</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>8</Maximum>
+      <SortID>800</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeEnabled = 1">
+      <DisplayName>Arranged Fog Volume Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Arranged fog volume enabled</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>900</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeUpScaleType = 1">
+      <DisplayName>Upscale Type</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_UPSCALE_TYPE</Enum>
+      <Description>Method type at the time of upscale</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>2</Maximum>
+      <SortID>1000</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeEdgeCorrectionLevel = 2">
+      <DisplayName>Edge Correction Level</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_EDGE_CORRECTION_LEVEL</Enum>
+      <Description>Edge correction level performed only at bilateral (0: invalid, edge redraw permission at 1: 1 / 2x1 / 2 resolution, edge redraw permission with parameter reduction at 2: 1 / 2x1 / 2 + 1x1 resolution, 3 : 1 / 2x1 / 2 + 1x1 resolution edge redraw permission)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>3</Maximum>
+      <SortID>1200</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="s8 fogVolumeRayMarcingSampleCountOffset">
+      <DisplayName>Ray Sample Count Offset</DisplayName>
+      <Description>Offset of sampling number during ray marching</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>-127</Minimum>
+      <SortID>1300</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeShadowEnabled = 1">
+      <DisplayName>Fog Volume Shadow Enabled</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Shadow permission (refers to shadow processing due to density changes in the area, where shadows are cast on the area)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1400</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeForceShadowing">
+      <DisplayName>Fog Volume - Force Shadowing</DisplayName>
+      <Enum>ON_OFF</Enum>
+      <Description>Forcibly casts a shadow on the area regardless of the setting when shadow is permitted (shadow processing is not affected)</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>1500</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="u8 fogVolumeResolution">
+      <DisplayName>Fog Volume Resolution</DisplayName>
+      <Enum>GRAPHICS_CONFIG_CS_GCONFIG_FOG_VOLUME_RESOLUTION</Enum>
+      <EditFlags>None</EditFlags>
+      <Maximum>2</Maximum>
+      <SortID>1100</SortID>
+      <UnkC8>配置式フォグボリューム用設定</UnkC8>
+    </Field>
+    <Field Def="dummy8 pad2[1]">
+      <DisplayName>pad</DisplayName>
+      <DisplayFormat>%u</DisplayFormat>
+      <SortID>9999</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="1">
+  <ParamType>MENU_CATEGORY_ICON_PARAM</ParamType>
+  <DataVersion>2</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>201</FormatVersion>
+  <Fields>
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="s32 Unk04" />
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>REINFORCE_PARAM_PROTECTOR_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 physicsDefRate = 1">
+      <DisplayName>Defence %: Physical</DisplayName>
+      <Description>Physical defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 magicDefRate = 1">
+      <DisplayName>Defence %: Magic</DisplayName>
+      <Description>Magic defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 fireDefRate = 1">
+      <DisplayName>Defence %: Fire</DisplayName>
+      <Description>Fire defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 thunderDefRate = 1">
+      <DisplayName>Defence %: Lightning</DisplayName>
+      <Description>Electric shock defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 slashDefRate = 1">
+      <DisplayName>Defence %: Slash</DisplayName>
+      <Description>Slash defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 blowDefRate = 1">
+      <DisplayName>Defence %: Strike</DisplayName>
+      <Description>Impact defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="f32 thrustDefRate = 1">
+      <DisplayName>Defence %: Thrust</DisplayName>
+      <Description>Correction value of piercing defense power</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="f32 resistPoisonRate = 1">
+      <DisplayName>Aux Resist %: Poison</DisplayName>
+      <Description>Poison resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="f32 resistDiseaseRate = 1">
+      <DisplayName>Aux Resist %: Scarlet Rot</DisplayName>
+      <Description>Epidemic resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>810</SortID>
+    </Field>
+    <Field Def="f32 resistBloodRate = 1">
+      <DisplayName>Aux Resist %: Hemorrhage</DisplayName>
+      <Description>Bleeding resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>820</SortID>
+    </Field>
+    <Field Def="f32 resistCurseRate = 1">
+      <DisplayName>Aux Resist %: Blight</DisplayName>
+      <Description>Curse resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>830</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId1">
+      <DisplayName>Passive SpEffect ID [1] Offset</DisplayName>
+      <Description>Addition correction value for resident special effect ID1</Description>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId2">
+      <DisplayName>Passive SpEffect ID [2] Offset</DisplayName>
+      <Description>Addition correction value for resident special effect ID2</Description>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="u8 residentSpEffectId3">
+      <DisplayName>Passive SpEffect ID [3] Offset</DisplayName>
+      <Description>Addition correction value for resident special effect ID3</Description>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="u8 materialSetId">
+      <DisplayName>Reinforcement Material Set ID</DisplayName>
+      <Description>Addition correction value of material parameter ID</Description>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 darkDefRate = 1">
+      <DisplayName>Absorption %: Holy</DisplayName>
+      <Description>Dark defense correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="f32 resistFreezeRate = 1">
+      <DisplayName>Aux Resist %: Frost</DisplayName>
+      <Description>Cold resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>840</SortID>
+    </Field>
+    <Field Def="f32 resistSleepRate = 1">
+      <DisplayName>Aux Resist %: Sleep</DisplayName>
+      <Description>Correction value for sleep tolerance</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>850</SortID>
+    </Field>
+    <Field Def="f32 resistMadnessRate = 1">
+      <DisplayName>Aux Resist %: Madness</DisplayName>
+      <Description>Madness resistance correction value</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99.99</Maximum>
+      <SortID>860</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

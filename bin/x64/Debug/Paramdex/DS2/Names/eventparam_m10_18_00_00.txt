@@ -1,0 +1,45 @@
+1000 Ship movement by bell -- 鐘による船移動
+1010 Lever ringing the bell -- 鐘を鳴らすレバー
+1020 Drawing switching of OBJ on board -- 船上OBJの描画切替
+2000 [Insect key] for the start of the lamp stand -- 【虫鍵】灯火台起動用
+3000 Bright areas from start time -- スタート時から明るい領域
+4000 Lighting linked to insect keys -- 虫鍵と連動する照明
+6000 Rising water level in boss battle -- ボス戦の水位上昇
+7000 Boss: Double-sided warrior: Snake head_ combat -- ボス：両面戦士：ヘビ頭_戦闘
+8000 When the wooden board is broken, it becomes bright (after the insect key is lit) -- 木板を壊すと明るくなる（虫鍵点灯後）
+8010 When the wooden board is broken, it becomes bright (after the insect key is lit) _2 -- 木板を壊すと明るくなる（虫鍵点灯後）_2
+8020 When the wooden board is broken, it becomes bright (after the insect key is lit) _3 -- 木板を壊すと明るくなる（虫鍵点灯後）_3
+9000 Iron fence rising on the strap lever_ -- 吊革レバー_上に上がる鉄柵
+10000 Connection flag ON -- 接続用フラグON
+11000 Open the door or close to launch the enemy -- 扉開けor接近で敵起動
+12000 Darkness Destroys the Wall 1 -- 闇ひそみが壁破壊1
+12010 Darkness Destroys the Wall 2 -- 闇ひそみが壁破壊2
+12020 The door is destroyed at the time of the wall destruction one run, too. -- 壁破壊1実行時に扉も破壊
+12030 The door is destroyed when the wall destruction 2 run is executed, too. -- 壁破壊2実行時に扉も破壊
+13000 Oil Pot_01 -- 油壺_01
+14000 The ship leaves the port by the compass. -- 羅針盤で船が出港
+15000 Navi mesh change of hidden door -- 隠し扉のナビメッシュ変更
+18000 Navi mesh changes for destructable walls -- 破壊可能な壁のナビメッシュ変更
+19000 moonlight on the ship -- 船に差す月明かり
+20000 Navi mesh change due to scaffold destruction -- 足場破壊によるナビメッシュ変更
+80000 Regeneration Spark 01_Inlet Cave -- 再生の種火01_入口鍾乳洞
+111200 NPC: Dwarf (Hidden Port) -- ＮＰＣ：ドワーフ（隠れ港）
+111201 NPC: Dwarf (Hidden Port): Ghost -- ＮＰＣ：ドワーフ（隠れ港）：亡霊
+111202 OBJ: Dwarf (Hidden Port): Tomb -- ＯＢＪ：ドワーフ（隠れ港）：墓
+111203 OBJ: Dwarf (Hidden Port): Key Guide -- ＯＢＪ：ドワーフ（隠れ港）：キーガイド
+111204 OBJ: Dwarf (Hidden Port): Death Judgment -- ＯＢＪ：ドワーフ（隠れ港）：死亡判定
+111270 NPC: Female Knight (Hidden Port) -- ＮＰＣ：女騎士（隠れ港）
+111271 NPC: Female Knight (Hidden Port): Ghost -- ＮＰＣ：女騎士（隠れ港）：亡霊
+111272 OBJ: Female Knight (Hidden Port): Tomb -- ＯＢＪ：女騎士（隠れ港）：墓
+111273 OBJ: Female Knight (Hidden Port): Key Guide -- ＯＢＪ：女騎士（隠れ港）：キーガイド
+111274 OBJ: Female Knight (Hidden Port): Death Judgment -- ＯＢＪ：女騎士（隠れ港）：死亡判定
+111275 OBJ: Female Knight (Hidden Port): Appearance Judgment -- ＯＢＪ：女騎士（隠れ港）：出現判定
+111276 OBJ: Female Knight (Hidden Port): White Phantom Sign Display -- ＯＢＪ：女騎士（隠れ港）：白ファントムサイン表示
+111277 OBJ: Female Knight (Hidden Port): White Phantom -- ＯＢＪ：女騎士（隠れ港）：白ファントム
+111390 NPC: Sorcerer (Hidden Port) -- ＮＰＣ：魔術屋（隠れ港）
+111391 NPC: Sorcerer (Hidden Port): Ghost -- ＮＰＣ：魔術屋（隠れ港）：亡霊
+111392 OBJ: Sorcerer (Hidden Port): Tomb -- ＯＢＪ：魔術屋（隠れ港）：墓
+111393 OBJ: Sorcerer (Hidden Port): Key Guide -- ＯＢＪ：魔術屋（隠れ港）：キーガイド
+111394 OBJ: Sorcerer (Hidden Port): Death Judgment -- ＯＢＪ：魔術屋（隠れ港）：死亡判定
+111395 OBJ: Sorcerer (Hidden Port): Appearance Judgment -- ＯＢＪ：魔術屋（隠れ港）：出現判定
+120130 Trophy: Akertilla (Hidden Port) -- トロフィー：アーケルティーラ（隠れ港）

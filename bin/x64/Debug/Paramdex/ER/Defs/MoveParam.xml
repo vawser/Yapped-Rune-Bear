@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MOVE_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="s32 stayId = -1">
+      <DisplayName>Stay ID</DisplayName>
+      <Description>stand-by</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 walkF = -1">
+      <DisplayName>Walk - Forward</DisplayName>
+      <Description>Before walking</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="s32 walkB = -1">
+      <DisplayName>Walk - Backward</DisplayName>
+      <Description>After walking</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="s32 walkL = -1">
+      <DisplayName>Walk - Left</DisplayName>
+      <Description>Walking left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="s32 walkR = -1">
+      <DisplayName>Walk - Right</DisplayName>
+      <Description>Walking right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="s32 dashF = -1">
+      <DisplayName>Dash - Forward</DisplayName>
+      <Description>Before driving</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>600</SortID>
+    </Field>
+    <Field Def="s32 dashB = -1">
+      <DisplayName>Dash - Backward</DisplayName>
+      <Description>After running</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>700</SortID>
+    </Field>
+    <Field Def="s32 dashL = -1">
+      <DisplayName>Dash - Left</DisplayName>
+      <Description>Driving left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>800</SortID>
+    </Field>
+    <Field Def="s32 dashR = -1">
+      <DisplayName>Dash - Right</DisplayName>
+      <Description>Driving right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>900</SortID>
+    </Field>
+    <Field Def="s32 superDash = -1">
+      <DisplayName>Sprint Dash</DisplayName>
+      <Description>Dash move</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="s32 escapeF = -1">
+      <DisplayName>Evasion - Forward</DisplayName>
+      <Description>Before emergency avoidance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="s32 escapeB = -1">
+      <DisplayName>Evasion - Backward</DisplayName>
+      <Description>After emergency avoidance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="s32 escapeL = -1">
+      <DisplayName>Evasion - Left</DisplayName>
+      <Description>Emergency avoidance left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="s32 escapeR = -1">
+      <DisplayName>Evasion - Right</DisplayName>
+      <Description>Emergency avoidance right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="s32 turnL = -1">
+      <DisplayName>Turn - Left 90</DisplayName>
+      <Description>90 degree turn left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="s32 trunR = -1">
+      <DisplayName>Turn - Right 90</DisplayName>
+      <Description>90 degree turn right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="s32 largeTurnL = -1">
+      <DisplayName>Turn - Left 180</DisplayName>
+      <Description>180 degree turn left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="s32 largeTurnR = -1">
+      <DisplayName>Turn - Right 180</DisplayName>
+      <Description>180 degree turn right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="s32 stepMove = -1">
+      <DisplayName>Step Move</DisplayName>
+      <Description>180 degree turn right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>1900</SortID>
+    </Field>
+    <Field Def="s32 flyStay = -1">
+      <DisplayName>Fly Stay</DisplayName>
+      <Description>Flight standby</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s32 flyWalkF = -1">
+      <DisplayName>Fly Walk - Forward</DisplayName>
+      <Description>Flight advance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFL = -1">
+      <DisplayName>Fly Walk - Forward Left</DisplayName>
+      <Description>Fly left forward. Low rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFR = -1">
+      <DisplayName>Fly Walk - Forward Right</DisplayName>
+      <Description>Fly right forward. Low rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFL2 = -1">
+      <DisplayName>Fly Walk - Forward Left 2</DisplayName>
+      <Description>Flight left forward 2. High rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="s32 flyWalkFR2 = -1">
+      <DisplayName>Fly Walk - Forward Right 2</DisplayName>
+      <Description>Flight right forward 2. High rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2600</SortID>
+    </Field>
+    <Field Def="s32 flyDashF = -1">
+      <DisplayName>Fly Dash - Forward</DisplayName>
+      <Description>High speed flight advance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2700</SortID>
+    </Field>
+    <Field Def="s32 flyDashFL = -1">
+      <DisplayName>Fly Dash - Forward Left</DisplayName>
+      <Description>High-speed flight left forward. Low rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2800</SortID>
+    </Field>
+    <Field Def="s32 flyDashFR = -1">
+      <DisplayName>Fly Dash - Forward Right</DisplayName>
+      <Description>High speed flight right forward. Low rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>2900</SortID>
+    </Field>
+    <Field Def="s32 flyDashFL2 = -1">
+      <DisplayName>Fly Dash - Forward Left 2</DisplayName>
+      <Description>High speed flight left forward 2. High rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3000</SortID>
+    </Field>
+    <Field Def="s32 flyDashFR2 = -1">
+      <DisplayName>Fly Dash - Forward Right 2</DisplayName>
+      <Description>High speed flight right forward 2. High rotation</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3100</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeF = -1">
+      <DisplayName>Fly Evasion - Forward</DisplayName>
+      <Description>Before dash emergency avoidance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3200</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeB = -1">
+      <DisplayName>Fly Evasion - Backward</DisplayName>
+      <Description>After dash emergency avoidance</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3300</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeL = -1">
+      <DisplayName>Fly Evasion - Left</DisplayName>
+      <Description>Dash emergency avoidance left</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3400</SortID>
+    </Field>
+    <Field Def="s32 dashEscapeR = -1">
+      <DisplayName>Fly Evasion - Right</DisplayName>
+      <Description>Dash emergency avoidance right</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3500</SortID>
+    </Field>
+    <Field Def="s32 analogMoveParamId = -1">
+      <DisplayName>Analog Move Param ID</DisplayName>
+      <Description>Mobile animation parameter ID used in mobile animation blend</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>999999</Maximum>
+      <SortID>3600</SortID>
+    </Field>
+    <Field Def="u8 turnNoAnimAngle">
+      <DisplayName>No Anim Turn Angle</DisplayName>
+      <Description>If the turning angle is less than this value, the turning animation will not be played (only the enemy turning control is effective).</Description>
+      <Maximum>180</Maximum>
+      <SortID>3700</SortID>
+    </Field>
+    <Field Def="u8 turn45Angle">
+      <DisplayName>45 Turn Angle</DisplayName>
+      <Description>If the turning angle is less than this value, the 45 degree turning animation will be played (only 2 bosses are valid).</Description>
+      <Maximum>180</Maximum>
+      <SortID>3800</SortID>
+    </Field>
+    <Field Def="u8 turn90Angle">
+      <DisplayName>90 Turn Angle</DisplayName>
+      <Description>If the turning angle is less than this value, the 90 degree turning animation will be played (only the enemy turning control is effective).</Description>
+      <Maximum>180</Maximum>
+      <SortID>3900</SortID>
+    </Field>
+    <Field Def="u8 turnWaitNoAnimAngle">
+      <DisplayName>Wait No Anim Turn Angle</DisplayName>
+      <Description>If the turning angle is less than this value, the turning animation will not be played [when stopped] (only valid for 2 boss legs)</Description>
+      <Maximum>180</Maximum>
+      <SortID>4000</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="1">
+  <ParamType>MOVIE_TEXT_PARAM</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>201</FormatVersion>
+  <Fields>
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="u8 Unk00" />
+    <Field Def="s32 Text ID" />
+  </Fields>
+</PARAMDEF>

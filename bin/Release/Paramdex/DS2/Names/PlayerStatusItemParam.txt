@@ -1,0 +1,382 @@
+0 When not entered -- 未入力の時
+10 Unauthorized data (prohibited) -- 不正データ（使用禁止）
+1010 Initial Character 1 -- 初期キャラクター1
+1011 Initial Character 2 -- 初期キャラクター2
+1012 Initial Character 3 -- 初期キャラクター3
+1020 Nature - Warrior 1 -- 素性-戦士1
+1021 Nature - Warrior 2 -- 素性-戦士2
+1022 Nature - Warrior 3 -- 素性-戦士3
+1030 Nature - Knight 1 -- 素性-騎士1
+1031 Nature - Knight 2 -- 素性-騎士2
+1032 Nature - Knight 3 -- 素性-騎士3
+1040 Nature - Bandits 1 -- 素性-山賊1
+1041 Nature - Bandits 2 -- 素性-山賊2
+1042 Nature - Bandits 3 -- 素性-山賊3
+1050 Nature - Hunter 1 -- 素性-狩人1
+1051 Nature - Hunter 2 -- 素性-狩人2
+1052 Nature - Hunter 3 -- 素性-狩人3
+1060 Nature - Magician 1 -- 素性-魔術師1
+1061 Nature - Magician 2 -- 素性-魔術師2
+1062 Nature - Magician 3 -- 素性-魔術師3
+1070 Nature - Priest 1 -- 素性-聖職者1
+1071 Nature - Priest 2 -- 素性-聖職者2
+1072 Nature - Priest 3 -- 素性-聖職者3
+1080 Nature - Dark Master 1 -- 素性-闇術師1
+1081 Nature - Dark Master 2 -- 素性-闇術師2
+1082 Nature - Dark Master 3 -- 素性-闇術師3
+1090 Nature - Explorer 1 -- 素性-探索者1
+1091 Nature - Explorer 2 -- 素性-探索者2
+1092 Nature - Explorer 3 -- 素性-探索者3
+1100 Nature - Swordsman 1 -- 素性-剣士1
+1101 Nature - Swordsman 2 -- 素性-剣士2
+1102 Nature - Swordsman 3 -- 素性-剣士3
+1110 Nature - What You Have 1 -- 素性-持たざるもの1
+1111 Nature - What You Have 2 -- 素性-持たざるもの2
+1112 Nature - What You Have 3 -- 素性-持たざるもの3
+2000 Equipment for boss balance -- ボスバランス用装備
+3000 King's Ring and King's Keys -- 王の指輪と王兵の鍵
+4000 Beta version all weapons 1 -- β版全武器１
+4010 Beta version all weapons 2 -- β版全武器２
+4020 Beta version all weapons 3 -- β版全武器３
+4100 Beta version all armor 1 -- β版全防具１
+4110 Beta version all armor 2 -- β版全防具２
+4120 Beta version all armor 3 -- β版全防具３
+4200 All items in beta version 1 -- β版全アイテム１
+4210 All items 2 in beta version -- β版全アイテム２
+4220 All items 3 in beta version -- β版全アイテム３
+5000 Event-based item possession 1 -- イベント系アイテム所持１
+5010 Event-based item possession 2 -- イベント系アイテム所持２
+5020 Event-based item possession 3 -- イベント系アイテム所持３
+6000 Possession of shooting weapon items 1 -- 射撃武器アイテム所持１
+6010 Possession of shooting weapons items 2 -- 射撃武器アイテム所持２
+6020 Possession of shooting weapons items 3 -- 射撃武器アイテム所持３
+7000 Placement check 1 -- 配置チェック１
+7010 Placement Check 2 -- 配置チェック２
+7020 Placement Check 3 -- 配置チェック３
+7100 Enchantment Check 1 -- エンチャントチェック１
+7110 Enchantment Check 2 -- エンチャントチェック２
+7120 Enchantment Check 3 -- エンチャントチェック３
+9000 Mabe Test -- 真邉テスト
+10010 beta test-warrior -- βテスト-戦士
+10020 beta test -magician -- βテスト-魔術師
+10030 beta test - faith warrior -- βテスト-信仰戦士
+10040 beta test-two-sword man -- βテスト-二刀剣士
+10050 beta test-hunter -- βテスト-狩人
+10060 beta test - soldier -- βテスト-兵士
+10070 beta test - treasure equipment 1 -- βテスト-宝装備１
+10080 beta test - treasure equipment 2 -- βテスト-宝装備２
+10090 beta test - treasure equipment 3 -- βテスト-宝装備３
+20100 Spell Check - Magic 1 -- スペルチェック用-魔術１
+20110 Spell Check - Magic 2 -- スペルチェック用-魔術２
+20120 Spell Check - Magic 3 -- スペルチェック用-魔術３
+20200 Spell Check - Miracle 1 -- スペルチェック用-奇蹟１
+20210 Spell Check - Miracle 2 -- スペルチェック用-奇蹟２
+20220 Spell Check - Miracle 3 -- スペルチェック用-奇蹟３
+20300 Spell Check - Spell Surgery 1 -- スペルチェック用-呪術１
+20310 Spell Check - Spell Surgery 2 -- スペルチェック用-呪術２
+20320 Spell Check - Spell Surgery 3 -- スペルチェック用-呪術３
+20400 Spell Check - Dark Art 1 -- スペルチェック用-闇術１
+20410 Spell Check - Dark Art 2 -- スペルチェック用-闇術２
+20420 Spell Check - Dark Art 3 -- スペルチェック用-闇術３
+30000 Status Fluctuation Equipment 1 (Weapon) -- ステータス変動装備１（武器）
+30010 Status variation equipment 2 (armor) -- ステータス変動装備２（防具）
+30020 Status Variation Equipment 3 (Ring) -- ステータス変動装備３（指輪）
+40000 Attribute Defense Check 1 -- 属性防御力確認１
+40010 Attribute Defense Check 2 -- 属性防御力確認２
+40020 Attribute Defense Check 3 -- 属性防御力確認３
+50000 Status abnormality check 1 -- 状態異常チェック１
+50010 Status Anomaly Check 2 -- 状態異常チェック２
+50020 Status Abnormality Check 3 -- 状態異常チェック３
+100000 Gap Sinus 1-1 -- 隙間の洞１－１
+100010 Gap Sinus 2-1 -- 隙間の洞２－１
+100011 Gap Sinus 2-2 -- 隙間の洞２－２
+100020 Gap Sinus 3-1 -- 隙間の洞３－１
+100100 Madura 1-1 -- マデューラ１－１
+100110 Maduro 2-1 -- マデューラ２－１
+100111 Maduro 2-2 -- マデューラ２－２
+100120 Madura 3-1 -- マデューラ３－１
+100121 Madura 3-2 -- マデューラ３－２
+100122 Madura 3-3 -- マデューラ３－３
+100200 Decaying Giant Forest 1-1 -- 朽ちた巨人の森１－１
+100210 Decayed Giant Forest 2-1 -- 朽ちた巨人の森２－１
+100211 Decayed Giant Forest 2-2 -- 朽ちた巨人の森２－２
+100220 Decayed Giant Forest 3-1 -- 朽ちた巨人の森３－１
+100221 Decayed Giant Forest 3-2 -- 朽ちた巨人の森３－２
+100222 Decayed Giant Forest 3-3 -- 朽ちた巨人の森３－３
+100223 Decayed Giant Forest 3-4 -- 朽ちた巨人の森３－４
+100300 Heide Great Fire Tower 1-1 -- ハイデ大火塔１－１
+100301 Heide Great Fire Tower 1-2 -- ハイデ大火塔１－２
+100310 Heide Great Fire Tower 2-1 -- ハイデ大火塔２－１
+100311 Heide Great Fire Tower 2-2 -- ハイデ大火塔２－２
+100320 Heide Great Fire Tower 3-1 -- ハイデ大火塔３－１
+100321 Heide Great Fire Tower 3-2 -- ハイデ大火塔３－２
+100322 Heide Great Fire Tower 3-3 -- ハイデ大火塔３－３
+100323 Heide Great Fire Tower 3-4 -- ハイデ大火塔３－４
+100400 Hiding Port 1-1 -- 隠れ港１－１
+100401 Hiding Port 1-2 -- 隠れ港１－２
+100410 Hidden Port 2-1 -- 隠れ港２－１
+100411 Hiding Port 2-2 -- 隠れ港２－２
+100420 Hiding Port 3-1 -- 隠れ港３－１
+100421 Hiding Port 3-2 -- 隠れ港３－２
+100422 Hiding Port 3-3 -- 隠れ港３－３
+100423 Hiding Port 3-4 -- 隠れ港３－４
+100500 Hunting Forest 1-1 -- 狩猟の森１－１
+100501 Hunting Forest 1-2 -- 狩猟の森１－２
+100510 Hunting Forest 2-1 -- 狩猟の森２－１
+100511 Hunting Forest 2-2 -- 狩猟の森２－２
+100520 Hunting Forest 3-1 -- 狩猟の森３－１
+100521 Hunting Forest 3-2 -- 狩猟の森３－２
+100522 Hunting Forest 3-3 -- 狩猟の森３－３
+100523 Hunting Forest 3-4 -- 狩猟の森３－４
+100600 Heide Great Fire Tower: Blue Cathedral 1-1 -- ハイデ大火塔：青聖堂１－１
+100601 Heide Great Fire Tower: Blue Cathedral 1-2 -- ハイデ大火塔：青聖堂１－２
+100610 Heide Great Fire Tower: Blue Cathedral 2-1 -- ハイデ大火塔：青聖堂２－１
+100611 Heide Great Fire Tower: Blue Cathedral 2-2 -- ハイデ大火塔：青聖堂２－２
+100620 Heide Great Fire Tower: Blue Cathedral 3-1 -- ハイデ大火塔：青聖堂３－１
+100621 Heide Great Fire Tower: Blue Cathedral 3-2 -- ハイデ大火塔：青聖堂３－２
+100622 Heide Great Fire Tower: Blue Cathedral 3-3 -- ハイデ大火塔：青聖堂３－３
+100623 Heide Great Fire Tower: 3-4 Cathedral -- ハイデ大火塔：青聖堂３－４
+100700 Decaying Giant Forest: Bay Grant 1-1 -- 朽ちた巨人の森：ベイグラント１－１
+100701 Decaying Giant Forest: Bay Grant 1-2 -- 朽ちた巨人の森：ベイグラント１－２
+100710 Decaying Giant Forest: Bay Grant 2-1 -- 朽ちた巨人の森：ベイグラント２－１
+100711 Decaying Giant Forest: Bay Grant 2-2 -- 朽ちた巨人の森：ベイグラント２－２
+100720 Decaying Giant Forest: Bay Grant 3-1 -- 朽ちた巨人の森：ベイグラント３－１
+100721 Decaying Giant Forest: Bay Grant 3-2 -- 朽ちた巨人の森：ベイグラント３－２
+100722 Decaying Giant Forest: Bay Grant 3-3 -- 朽ちた巨人の森：ベイグラント３－３
+100723 Decaying Giant Forest: Bay Grant 3-4 -- 朽ちた巨人の森：ベイグラント３－４
+100800 Prison of Oblivion 1-1 -- 忘却の牢１－１
+100801 Prison of Oblivion 1-2 -- 忘却の牢１－２
+100810 Prison of Oblivion 2-1 -- 忘却の牢２－１
+100811 Prison of Oblivion 2-2 -- 忘却の牢２－２
+100812 Prison of Oblivion 2-3 -- 忘却の牢２－３
+100820 Prison of Oblivion 3-1 -- 忘却の牢３－１
+100821 Prison of Oblivion 3-2 -- 忘却の牢３－２
+100822 Prison of Oblivion 3-3 -- 忘却の牢３－３
+100823 Prison of Oblivion 3-4 -- 忘却の牢３－４
+100900 Prison of Oblivion: Moon Bell Tower 1-1 -- 忘却の牢：月の鐘楼１－１
+100901 Prison of Oblivion: Moon Bell Tower 1-2 -- 忘却の牢：月の鐘楼１－２
+100902 Prison of Oblivion: Moon Bell Tower 1-3 -- 忘却の牢：月の鐘楼１－３
+100910 Prison of Oblivion: Moon Bell Tower 2-1 -- 忘却の牢：月の鐘楼２－１
+100911 Prison of Oblivion: Moon Bell Tower 2-2 -- 忘却の牢：月の鐘楼２－２
+100912 Prison of Oblivion: Moon Bell Tower 2-3 -- 忘却の牢：月の鐘楼２－３
+100920 Prison of Oblivion: Moon Bell Tower 3-1 -- 忘却の牢：月の鐘楼３－１
+100921 Prison of Oblivion: Moon Bell Tower 3-2 -- 忘却の牢：月の鐘楼３－２
+100922 Prison of Oblivion: Moon Bell Tower 3-3 -- 忘却の牢：月の鐘楼３－３
+100923 Prison of Oblivion: Moon Bell Tower 3-4 -- 忘却の牢：月の鐘楼３－４
+100924 Prison of Oblivion: Moon Bell Tower 3-5 -- 忘却の牢：月の鐘楼３－５
+101000 Reservoir 1-1 -- 溜りの谷１－１
+101001 Reservoir 1-2 -- 溜りの谷１－２
+101002 Reservoir 1-3 -- 溜りの谷１－３
+101010 Reservoir 2-1 -- 溜りの谷２－１
+101011 Reservoir Valley 2-2 -- 溜りの谷２－２
+101012 Reservoir Valley 2-3 -- 溜りの谷２－３
+101020 Reservoir 3-1 -- 溜りの谷３－１
+101021 Reservoir 3-2 -- 溜りの谷３－２
+101022 Reservoir 3-3 -- 溜りの谷３－３
+101023 Reservoir 3-4 -- 溜りの谷３－４
+101024 Reservoir 3-5 -- 溜りの谷３－５
+101100 Valley of the Reservoir: Tower of the Earth 1-1 -- 溜りの谷：土の塔１－１
+101101 Valley of the Reservoir: Tower of the Earth 1-2 -- 溜りの谷：土の塔１－２
+101102 Valley of the Reservoir: Tower of the Earth 1-3 -- 溜りの谷：土の塔１－３
+101110 Valley of the Reservoir: Tower of the Earth 2-1 -- 溜りの谷：土の塔２－１
+101111 Valley of the Reservoir: Tower of the Earth 2-2 -- 溜りの谷：土の塔２－２
+101112 Valley of the Reservoir: Tower of the Earth 2-3 -- 溜りの谷：土の塔２－３
+101120 Valley of the Reservoir: Tower of the Earth 3-1 -- 溜りの谷：土の塔３－１
+101121 Valley of The Reservoir: Tower of the Earth 3-2 -- 溜りの谷：土の塔３－２
+101122 Valley of the Reservoir: Tower of the Earth 3-3 -- 溜りの谷：土の塔３－３
+101123 Valley of The Reservoir: Tower of The Earth 3-4 -- 溜りの谷：土の塔３－４
+101124 Valley of The Reservoir: Tower of the Earth 3-5 -- 溜りの谷：土の塔３－５
+101200 Saint's Tomb 1-1 -- 聖人墓所１－１
+101201 Saint's Tomb 1-2 -- 聖人墓所１－２
+101202 Saint's Tomb 1-3 -- 聖人墓所１－３
+101210 Saint's Tomb 2-1 -- 聖人墓所２－１
+101211 Saint's Tomb 2-2 -- 聖人墓所２－２
+101212 Saints' Tomb 2-3 -- 聖人墓所２－３
+101220 Saint's Tomb 3-1 -- 聖人墓所３－１
+101221 Saints' Tomb 3-2 -- 聖人墓所３－２
+101222 Saints' Tomb 3-3 -- 聖人墓所３－３
+101223 Saints' Tomb 3-4 -- 聖人墓所３－４
+101224 Saints' Tomb 3-5 -- 聖人墓所３－５
+101300 Valley of the Reservoir: Route 1-1 against the Boss -- 溜りの谷：ボス戦ルート１－１
+101301 Valley of the Reservoir: Route 1-2 against the Boss -- 溜りの谷：ボス戦ルート１－２
+101302 Valley of the Reservoir: Route 1-3 against the Boss -- 溜りの谷：ボス戦ルート１－３
+101310 Valley of the Reservoir: Route 2-1 against the Boss -- 溜りの谷：ボス戦ルート２－１
+101311 Valley of the Reservoir: Route 2-2 against the Boss -- 溜りの谷：ボス戦ルート２－２
+101312 Valley of the Reservoir: Route 2-3 against the Boss -- 溜りの谷：ボス戦ルート２－３
+101320 Valley of the Reservoir: Route 3-1 against the Boss -- 溜りの谷：ボス戦ルート３－１
+101321 Valley of the Reservoir: Route 3-2 against the Boss -- 溜りの谷：ボス戦ルート３－２
+101322 Valley of the Reservoir: Route 3-3 against the Boss -- 溜りの谷：ボス戦ルート３－３
+101323 Valley of the Reservoir: Route 3-4 against the Boss -- 溜りの谷：ボス戦ルート３－４
+101324 Valley of the Reservoir: Route 3-5 against the Boss -- 溜りの谷：ボス戦ルート３－５
+101400 1-1 Kuzbottom -- クズ底１－１
+101401 1-2 Kuzbottom -- クズ底１－２
+101402 1-3 Kuzbottom -- クズ底１－３
+101410 Kuzbottom 2-1 -- クズ底２－１
+101411 Kuzbottom 2-2 -- クズ底２－２
+101412 Kuzbottom 2-3 -- クズ底２－３
+101420 Kuzbottom 3-1 -- クズ底３－１
+101421 Kuzbottom 3-2 -- クズ底３－２
+101422 Kuzbottom 3-3 -- クズ底３－３
+101423 Kuzbottom 3-4 -- クズ底３－４
+101424 Kuzbottom 3-5 -- クズ底３－５
+101500 Iron Castle 1-1 -- 溶鉄城１－１
+101501 Iron Castle 1-2 -- 溶鉄城１－２
+101502 Iron Castle 1-3 -- 溶鉄城１－３
+101510 Iron Castle 2-1 -- 溶鉄城２－１
+101511 Iron Castle 2-2 -- 溶鉄城２－２
+101512 Iron Castle 2-3 -- 溶鉄城２－３
+101520 Iron Castle 3-1 -- 溶鉄城３－１
+101521 Iron Castle 3-2 -- 溶鉄城３－２
+101522 Iron Castle 3-3 -- 溶鉄城３－３
+101523 Iron Castle 3-4 -- 溶鉄城３－４
+101524 Iron Castle 3-5 -- 溶鉄城３－５
+101600 Forest of Shadows: 1-1 in the first half -- 虚ろの影の森：前半１－１
+101601 Forest of Shadows: 1-2 in the first half -- 虚ろの影の森：前半１－２
+101602 Forest of Shadows: 1-3 in the first half -- 虚ろの影の森：前半１－３
+101610 Forest of Shadows: First Half 2-1 -- 虚ろの影の森：前半２－１
+101611 Forest of Shadows: 2-2 in the first half -- 虚ろの影の森：前半２－２
+101612 Forest of Shadows: 2-3 in the first half -- 虚ろの影の森：前半２－３
+101620 Forest of Shadows: 3-1 in the first half -- 虚ろの影の森：前半３－１
+101621 Forest of Shadows: 3-2 in the first half -- 虚ろの影の森：前半３－２
+101622 Forest of Shadows: 3-3 in the first half -- 虚ろの影の森：前半３－３
+101623 Forest of Shadows: 3-4 in the first half -- 虚ろの影の森：前半３－４
+101624 Forest of Shadows: 3-5 in the first half -- 虚ろの影の森：前半３－５
+101700 Molten Iron Castle: Boss Battle Route 1-1 -- 溶鉄城：ボス戦ルート１－１
+101701 Molten Iron Castle: Boss Battle Route 1-2 -- 溶鉄城：ボス戦ルート１－２
+101702 Molten Iron Castle: Boss Battle Route 1-3 -- 溶鉄城：ボス戦ルート１－３
+101710 Molten Castle: Boss Battle Route 2-1 -- 溶鉄城：ボス戦ルート２－１
+101711 Molten Iron Castle: Boss Battle Route 2-2 -- 溶鉄城：ボス戦ルート２－２
+101712 Molten Castle: Boss Battle Route 2-3 -- 溶鉄城：ボス戦ルート２－３
+101720 Molten Iron Castle: Boss Battle Route 3-1 -- 溶鉄城：ボス戦ルート３－１
+101721 Molten Iron Castle: Boss Battle Route 3-2 -- 溶鉄城：ボス戦ルート３－２
+101722 Molten Castle: Boss Battle Route 3-3 -- 溶鉄城：ボス戦ルート３－３
+101723 Molten Castle: Boss Battle Route 3-4 -- 溶鉄城：ボス戦ルート３－４
+101724 Molten Castle: Boss Battle Route 3-5 -- 溶鉄城：ボス戦ルート３－５
+101800 Faros Door Way 1-1 -- ファロスの扉道１－１
+101801 Doors 1-2 of Faros -- ファロスの扉道１－２
+101802 Doors 1-3 of Faros -- ファロスの扉道１－３
+101803 Faros Door Way 1-4 -- ファロスの扉道１－４
+101810 2-1 Doorway of Faros -- ファロスの扉道２－１
+101811 2-2 Doorway of Faros -- ファロスの扉道２－２
+101812 2-3 Doorway of Faros -- ファロスの扉道２－３
+101813 2-4 Doorway of Faros -- ファロスの扉道２－４
+101820 3-1 Doorway of Faros -- ファロスの扉道３－１
+101821 3-2 Doorway of Faros -- ファロスの扉道３－２
+101822 3-3 Door way of Faros -- ファロスの扉道３－３
+101823 3-4 Door way of Faros -- ファロスの扉道３－４
+101824 3-5 Doorway of Faros -- ファロスの扉道３－５
+101900 1-1 Gerdra, Kiishi-gai -- 輝石街ジェルドラ１－１
+101901 1-2 Gerdra, Kiishi-gai -- 輝石街ジェルドラ１－２
+101902 1-3 Gerdra, Kiishi-gai -- 輝石街ジェルドラ１－３
+101903 1-4 Gerdra, Kiishi-gai -- 輝石街ジェルドラ１－４
+101910 2-1 Gerdra, Kiishi-gai -- 輝石街ジェルドラ２－１
+101911 2-2 Gerdra, Kiishi-gai -- 輝石街ジェルドラ２－２
+101912 2-3 Gerdra, Kiishi-gai -- 輝石街ジェルドラ２－３
+101913 2-4 Gerdra, Kiishi-gai -- 輝石街ジェルドラ２－４
+101920 3-1 Gerdra, Kiishi-gai -- 輝石街ジェルドラ３－１
+101921 3-2 Gerdra, Kiishi-gai -- 輝石街ジェルドラ３－２
+101922 3-3 Gerdra, Kiishi-gai -- 輝石街ジェルドラ３－３
+101923 3-4 Gerdra, Kiishi-gai -- 輝石街ジェルドラ３－４
+101924 3-5 Gerdra, Kiishi-gai -- 輝石街ジェルドラ３－５
+102000 King's Castle D'Angheig 1-1 -- 王城ドラングレイグ１－１
+102001 King's Castle Drunegreig 1-2 -- 王城ドラングレイグ１－２
+102002 King's Castle Drunegreig 1-3 -- 王城ドラングレイグ１－３
+102003 King's Castle Drunegreig 1-4 -- 王城ドラングレイグ１－４
+102010 King's Castle D'Angheig 2-1 -- 王城ドラングレイグ２－１
+102011 King's Castle Drunegreig 2-2 -- 王城ドラングレイグ２－２
+102012 King's Castle Drunegreig 2-3 -- 王城ドラングレイグ２－３
+102013 King's Castle Drunegreig 2-4 -- 王城ドラングレイグ２－４
+102020 King's Castle D'Angheig 3-1 -- 王城ドラングレイグ３－１
+102021 King's Castle Drunegreig 3-2 -- 王城ドラングレイグ３－２
+102022 King's Castle Drunegreig 3-3 -- 王城ドラングレイグ３－３
+102023 King's Castle D'Angheig 3-4 -- 王城ドラングレイグ３－４
+102024 King's Castle D'Angheig 3-5 -- 王城ドラングレイグ３－５
+102025 King's Castle Drunegreig 3-6 -- 王城ドラングレイグ３－６
+102100 Amana Altar 1-1 -- アマナの祭壇１－１
+102101 Amana Altar 1-2 -- アマナの祭壇１－２
+102102 Amana Altar 1-3 -- アマナの祭壇１－３
+102103 Amana Altar 1-4 -- アマナの祭壇１－４
+102110 Amana Altar 2-1 -- アマナの祭壇２－１
+102111 Amana Altar 2-2 -- アマナの祭壇２－２
+102112 Amana Altar 2-3 -- アマナの祭壇２－３
+102113 Amana Altar 2-4 -- アマナの祭壇２－４
+102120 Amana Altar 3-1 -- アマナの祭壇３－１
+102121 Amana Altar 3-2 -- アマナの祭壇３－２
+102122 Amana Altar 3-3 -- アマナの祭壇３－３
+102123 Amana Altar 3-4 -- アマナの祭壇３－４
+102124 Amana Altar 3-5 -- アマナの祭壇３－５
+102125 Amana Altar 3-6 -- アマナの祭壇３－６
+102200 Anne Deal's House 1-1 -- アン・ディールの館１－１
+102201 Anne Deal's House 1-2 -- アン・ディールの館１－２
+102202 Anne Deal's House 1-3 -- アン・ディールの館１－３
+102203 Anne Deal's House 1-4 -- アン・ディールの館１－４
+102210 Anne Deal's House 2-1 -- アン・ディールの館２－１
+102211 Anne Deal's House 2-2 -- アン・ディールの館２－２
+102212 Anne Deal's House 2-3 -- アン・ディールの館２－３
+102213 Anne Deal's House 2-4 -- アン・ディールの館２－４
+102220 Anne Deal's House 3-1 -- アン・ディールの館３－１
+102221 Anne Deal's House 3-2 -- アン・ディールの館３－２
+102222 Anne Deal's House 3-3 -- アン・ディールの館３－３
+102223 Anne Deal's House 3-4 -- アン・ディールの館３－４
+102224 Anne Deal's House 3-5 -- アン・ディールの館３－５
+102225 Anne Deal's House 3-6 -- アン・ディールの館３－６
+102300 Memories of the Giants 1-1 -- 巨人の記憶１－１
+102301 Memories of the Giants 1-2 -- 巨人の記憶１－２
+102302 Memories of the Giants 1-3 -- 巨人の記憶１－３
+102303 Memories of the Giants 1-4 -- 巨人の記憶１－４
+102304 Memories of giants 1-5 -- 巨人の記憶１－５
+102310 Memories of the Giants 2-1 -- 巨人の記憶２－１
+102311 Memories of the Giants 2-2 -- 巨人の記憶２－２
+102312 Memories of the Giants 2-3 -- 巨人の記憶２－３
+102313 Memories of the Giants 2-4 -- 巨人の記憶２－４
+102314 Memories of the Giants 2-5 -- 巨人の記憶２－５
+102320 Memories of the Giants 3-1 -- 巨人の記憶３－１
+102321 Memories of the Giants 3-2 -- 巨人の記憶３－２
+102322 Memories of the Giants 3-3 -- 巨人の記憶３－３
+102323 Memories of the Giants 3-4 -- 巨人の記憶３－４
+102324 Memories of the Giants 3-5 -- 巨人の記憶３－５
+102325 Memories of the Giants 3-6 -- 巨人の記憶３－６
+102400 Throne of Fire 1-1 -- 火継ぎの玉座１－１
+102401 Throne of Fire 1-2 -- 火継ぎの玉座１－２
+102402 Throne of Fire 1-3 -- 火継ぎの玉座１－３
+102403 Throne of Fire 1-4 -- 火継ぎの玉座１－４
+102404 Throne of Fire 1-5 -- 火継ぎの玉座１－５
+102410 Throne of Fire 2-1 -- 火継ぎの玉座２－１
+102411 Throne of Fire 2-2 -- 火継ぎの玉座２－２
+102412 Throne of Fire 2-3 -- 火継ぎの玉座２－３
+102413 Throne of Fire 2-4 -- 火継ぎの玉座２－４
+102414 Throne of Fire 2-5 -- 火継ぎの玉座２－５
+102420 Throne of Fire 3-1 -- 火継ぎの玉座３－１
+102421 Throne of Fire 3-2 -- 火継ぎの玉座３－２
+102422 Throne of Fire 3-3 -- 火継ぎの玉座３－３
+102423 Throne of Fire 3-4 -- 火継ぎの玉座３－４
+102424 Throne of Fire 3-5 -- 火継ぎの玉座３－５
+102425 Throne of Fire 3-6 -- 火継ぎの玉座３－６
+300101000 Fossil Forest -- 化石の森
+300102000 Dragon's Home (Modern) -- 龍の住処（現代）
+300103000 Fort of resistance (modern) -- 抵抗の砦（現代）
+300104000 The Edge of the Fairy -- 妖精のほとり
+300105000 Spider City -- 蜘蛛の街
+300106000 Ruined Castle -- 廃墟の城
+300107000 Underground port -- 地下の港
+300108000 Volcano Steel Works -- 火山の製鉄所
+300109000 Coal Mining Village -- 炭鉱の村
+300110000 Submerged Castle: Full Water (Modern) -- 水没城：満水（現代）
+300111000 Live Forest (First Half) -- 生きてる森（前半）
+300112000 Iwamine Castle (Modern) -- 岩峰城（現代）
+300113000 Living Forest (Past) -- 生きてる森（過去）
+300114000 Fort of resistance (past) -- 抵抗の砦（過去）
+300115000 Live Forest (Second Half) -- 生きてる森（後半）
+300116000 Misty Castle Town (Past) -- 霧の城下町（過去）
+300117000 Dragon's Shi Festival -- 龍のシ祭場
+300118000 Submerged Castle: Half -Body (Past) -- 水没城：半身（過去）
+300119000 Dragon's Residence (Past) -- 龍の住処（過去）
+300120000 Misty Castle Town (Modern) -- 霧の城下町（現代）
+300121000 Dragon's Residence (2nd) -- 龍の住処（２回目）
+300122000 Dsuke Village -- Ｄすけ村
+300123000 Submerged Castle: Full Picture -- 水没城：全貌
+300124000 The Last Dungeon -- ラストダンジョン
+300125000 Madura (Modern) -- マデューラ（現代）
+300126000 Madura (past) -- マデューラ（過去）
+300127000 Torture Center -- 拷問場
+300128000 Dragon Institute -- 龍の研究所

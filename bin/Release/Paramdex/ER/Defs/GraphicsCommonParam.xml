@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>GRAPHICS_COMMON_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 hitBulletDecalOffset_HitIns = 0.05">
+      <DisplayName>Hit Bullet Decal Offset - Hit INS</DisplayName>
+      <Description>The position where the decal that occurs when hitting HIT INS is offset by this value in the normal direction.</Description>
+      <DisplayFormat>%.2f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="dummy8 reserved02[8]">
+      <DisplayName>reserve</DisplayName>
+      <Description>(dummy8)</Description>
+      <SortID>401</SortID>
+    </Field>
+    <Field Def="f32 charaWetDecalFadeRange = 0.6">
+      <DisplayName>Character Wet Decal Fade Range</DisplayName>
+      <Description>Fade range that erases decals when the character gets wet [m]</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="dummy8 reserved04[240]">
+      <DisplayName>reserve</DisplayName>
+      <Description>(dummy8)</Description>
+      <SortID>402</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

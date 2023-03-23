@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>GPARAM_GRID_REGION_INFO_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u32 GparamGridRegionId">
+      <DisplayName>GPARAM Grid Region ID</DisplayName>
+      <Description>Open local ID for MapGparam. Used for the XX part of m60_00_00XX.gparamxml</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>99</Maximum>
+    </Field>
+    <Field Def="dummy8 Reserve[28]">
+      <DisplayName>Reserve</DisplayName>
+      <Description>Reserve</Description>
+      <SortID>3</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

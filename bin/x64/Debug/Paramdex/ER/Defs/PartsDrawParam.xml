@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>PARTS_DRAW_PARAM_ST</ParamType>
+  <DataVersion>5</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 lv01_BorderDist = 5">
+      <DisplayName>LOD 0-1 Boundry Distance</DisplayName>
+      <Description>Switching center</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="f32 lv01_PlayDist = 1">
+      <DisplayName>LOD 0-1 Play Distance</DisplayName>
+      <Description>± play at the center of the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>20</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="f32 lv12_BorderDist = 20">
+      <DisplayName>LOD 1-2 Boundry Distance</DisplayName>
+      <Description>Switching center</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>200</SortID>
+    </Field>
+    <Field Def="f32 lv12_PlayDist = 2">
+      <DisplayName>LOD 1-2 Play Distance</DisplayName>
+      <Description>± play at the center of the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>40</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>210</SortID>
+    </Field>
+    <Field Def="f32 lv23_BorderDist = 30">
+      <DisplayName>LOD 2-3 Boundry Distance</DisplayName>
+      <Description>Switching center</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>300</SortID>
+    </Field>
+    <Field Def="f32 lv23_PlayDist">
+      <DisplayName>LOD 2-3 Play Distance</DisplayName>
+      <Description>± play at the center of the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>40</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>310</SortID>
+    </Field>
+    <Field Def="f32 lv34_BorderDist = 9999">
+      <DisplayName>LOD 3-4 Boundry Distance</DisplayName>
+      <Description>Switching center</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>400</SortID>
+    </Field>
+    <Field Def="f32 lv34_PlayDist">
+      <DisplayName>LOD 3-4 Play Distance</DisplayName>
+      <Description>± play at the center of the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>160</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>410</SortID>
+    </Field>
+    <Field Def="f32 lv45_BorderDist = 9999">
+      <DisplayName>LOD 4-5 Boundry Distance</DisplayName>
+      <Description>Switching center</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>500</SortID>
+    </Field>
+    <Field Def="f32 lv45_PlayDist">
+      <DisplayName>LOD 4-5 Play Distance</DisplayName>
+      <Description>± play at the center of the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>160</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>510</SortID>
+    </Field>
+    <Field Def="f32 tex_lv01_BorderDist = 30">
+      <DisplayName>Texture Switch - LOD 0-1 Boundry Distance</DisplayName>
+      <Description>Texture switching center (Texure LOD disabled at 0)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1000</SortID>
+    </Field>
+    <Field Def="f32 tex_lv01_PlayDist = 1">
+      <DisplayName>Texture Switch - LOD 0-1 Play Distance</DisplayName>
+      <Description>Texture Play around the boundary</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>20</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1100</SortID>
+    </Field>
+    <Field Def="u32 enableCrossFade:1">
+      <DisplayName>Enable Crossfade</DisplayName>
+      <Description>Is crossfade enabled (0: disabled, 1: enabled)?</Description>
+      <Maximum>1</Maximum>
+      <SortID>1200</SortID>
+    </Field>
+    <Field Def="f32 drawDist = 9999">
+      <DisplayName>Draw - Max Distance</DisplayName>
+      <Description>Maximum drawing distance. In the open, it will be used for the activation distance</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1300</SortID>
+    </Field>
+    <Field Def="f32 drawFadeRange">
+      <DisplayName>Draw - Fade Range</DisplayName>
+      <Description>Fade distance from the maximum drawing distance to the actual disappearance</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1400</SortID>
+    </Field>
+    <Field Def="f32 shadowDrawDist = 9999">
+      <DisplayName>Shadow Draw - Max Distance</DisplayName>
+      <Description>Maximum shadow drawing distance</Description>
+      <EditFlags>None</EditFlags>
+      <Minimum>1</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1500</SortID>
+    </Field>
+    <Field Def="f32 shadowFadeRange">
+      <DisplayName>Shadow Draw - Fade Range</DisplayName>
+      <Description>Fade distance from the maximum shadow drawing distance to the actual disappearance</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1600</SortID>
+    </Field>
+    <Field Def="f32 motionBlur_BorderDist = 20">
+      <DisplayName>Motion Blur - Max Distance</DisplayName>
+      <Description>Distance at which motion blur is enabled</Description>
+      <DisplayFormat>%0.1f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1700</SortID>
+    </Field>
+    <Field Def="s8 isPointLightShadowSrc">
+      <DisplayName>Is Point Light Shadow Source</DisplayName>
+      <Description>Cast the shadow of a point light source</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="s8 isDirLightShadowSrc">
+      <DisplayName>Is Directional Light Shadow Source</DisplayName>
+      <Description>Cast the shadow of a parallel light source</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>1900</SortID>
+    </Field>
+    <Field Def="s8 isShadowDst">
+      <DisplayName>Is Shadow Destination</DisplayName>
+      <Description>Receive a shadow</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2000</SortID>
+    </Field>
+    <Field Def="s8 isShadowOnly">
+      <DisplayName>Is Shadow Only</DisplayName>
+      <Description>Shadow drawing only</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2100</SortID>
+    </Field>
+    <Field Def="s8 drawByReflectCam">
+      <DisplayName>Drawn by Reflection Camera</DisplayName>
+      <Description>Reflected</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2200</SortID>
+    </Field>
+    <Field Def="s8 drawOnlyReflectCam">
+      <DisplayName>Drawn only by Reflection Camera</DisplayName>
+      <Description>Reflection drawing only</Description>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <SortID>2300</SortID>
+    </Field>
+    <Field Def="s8 IncludeLodMapLv = -1">
+      <DisplayName>Include LOD Map Level</DisplayName>
+      <Description>What level of LodMap to include</Description>
+      <Minimum>-1</Minimum>
+      <Maximum>16</Maximum>
+      <SortID>2400</SortID>
+    </Field>
+    <Field Def="u8 isNoFarClipDraw">
+      <DisplayName>Disable Far Clip Draw</DisplayName>
+      <Description>Disable fur clips and always draw at the innermost depth of the clip space. Mainly for celestial sphere</Description>
+      <Maximum>1</Maximum>
+      <SortID>2410</SortID>
+    </Field>
+    <Field Def="u8 lodType">
+      <DisplayName>LOD Type</DisplayName>
+      <Enum>PARTS_DRAW_LOD_TYPE</Enum>
+      <Description>Type and size of LOD target</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>64</Maximum>
+      <SortID>2500</SortID>
+    </Field>
+    <Field Def="s8 shadowDrawLodOffset">
+      <DisplayName>Shadow Draw LOD Offset</DisplayName>
+      <Description>LOD level offset value when drawing shadows</Description>
+      <Minimum>0</Minimum>
+      <Maximum>5</Maximum>
+      <SortID>1601</SortID>
+    </Field>
+    <Field Def="u8 isTraceCameraXZ">
+      <DisplayName>Follow Camera on XZ Plane</DisplayName>
+      <Description>Follow the camera on the XZ plane (GR SEQ09242)</Description>
+      <Maximum>1</Maximum>
+      <SortID>2420</SortID>
+    </Field>
+    <Field Def="u8 isSkydomeDrawPhase">
+      <DisplayName>Is Celestial Sphere Draw Phase</DisplayName>
+      <Description>Set the drawing phase to the celestial sphere (GR SEQ09242)</Description>
+      <Maximum>1</Maximum>
+      <SortID>2421</SortID>
+    </Field>
+    <Field Def="f32 DistantViewModel_BorderDist = 30">
+      <DisplayName>Distant LOD - Boundry Distance</DisplayName>
+      <Description>Distance switching distance [m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1800</SortID>
+    </Field>
+    <Field Def="f32 DistantViewModel_PlayDist = 5">
+      <DisplayName>Distant LOD - Play Distance</DisplayName>
+      <Description>Distant view switching play distance [m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1801</SortID>
+    </Field>
+    <Field Def="f32 LimtedActivate_BorderDist_forGrid = -1">
+      <DisplayName>Open-world - Minimum Boundry Distance</DisplayName>
+      <Description>Construction limit distance for open [m]. If the distance to the camera is less than this distance in the open, it will not be built. This is a function for distant view assets. -1: Function disabled (default)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-1</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1802</SortID>
+    </Field>
+    <Field Def="f32 LimtedActivate_PlayDist_forGrid = 10">
+      <DisplayName>Open-world - Minimum Play Distance</DisplayName>
+      <Description>Open construction limit play distance [m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>0</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>1803</SortID>
+    </Field>
+    <Field Def="f32 zSortOffsetForNoFarClipDraw">
+      <DisplayName>Z Sort Offset for No Far Clip Draw</DisplayName>
+      <Description>If the distance from the camera is the same in the same drawing phase, the smaller translucent system is drawn in the foreground, and the opaque system is drawn in the larger value. The base point of the offset is the origin in the celestial sphere drawing phase. Other than that, it is mainly Model AABB. (GR SEQ09242)</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <EditFlags>None</EditFlags>
+      <Minimum>-99999</Minimum>
+      <Maximum>99999</Maximum>
+      <Increment>0.1</Increment>
+      <SortID>2411</SortID>
+    </Field>
+    <Field Def="f32 shadowDrawAlphaTestDist = 9999">
+      <DisplayName>Shadow Draw Alpha Test Distance</DisplayName>
+      <Description>Distance to perform alpha test when drawing shadow [m]</Description>
+      <DisplayFormat>%0.3f</DisplayFormat>
+      <Minimum>0</Minimum>
+      <Maximum>9999</Maximum>
+      <Increment>1</Increment>
+      <SortID>1602</SortID>
+    </Field>
+    <Field Def="u8 fowardDrawEnvmapBlendType">
+      <DisplayName>Forward Draw Envmap Blend Type</DisplayName>
+      <Enum>PARTS_DRAW_FOWARD_DRAW_ENVMAP_BLEND_TYPE</Enum>
+      <Description>Forward Drawing environment map Blend type</Description>
+      <EditFlags>None</EditFlags>
+      <Maximum>1</Maximum>
+      <SortID>2430</SortID>
+    </Field>
+    <Field Def="u8 LBDrawDistScaleParamID">
+      <DisplayName>Load Balancer - Draw Distance Scale Param ID</DisplayName>
+      <Description>Load balancer drawing distance scale parameter ID</Description>
+      <DisplayFormat>%u</DisplayFormat>
+      <Maximum>47</Maximum>
+      <SortID>2501</SortID>
+    </Field>
+    <Field Def="dummy8 resereve[34]">
+      <DisplayName>reserve</DisplayName>
+      <Description>reserve</Description>
+      <SortID>2502</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>
