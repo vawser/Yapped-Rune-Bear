@@ -893,5 +893,20 @@ namespace Yapped_Rune_Bear.Properties {
                 this["CellView_ShowPadding"] = value;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CodeExport_CondenseOutpust
+        {
+            get
+            {
+                return ((bool)(this["CodeExport_CondenseOutpust"]));
+            }
+            set
+            {
+                this["CodeExport_CondenseOutpust"] = value;
+            }
+        }
     }
 }

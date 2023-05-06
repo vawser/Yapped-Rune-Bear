@@ -2955,7 +2955,13 @@ namespace Yapped
 
                 StreamWriter output_file = new StreamWriter(paramPath);
 
-                output_file.WriteLine($"local {paramName} = {{");
+                string condensed_output = "";
+                string initial_line = $"local {paramName} = {{ ";
+
+                if (settings.CodeExport_CondenseOutpust)
+                    condensed_output = condensed_output + initial_line;
+                else
+                    output_file.WriteLine(initial_line);
 
                 string composed_line = "";
 
@@ -2964,11 +2970,27 @@ namespace Yapped
                 {
                     composed_line = "";
 
-                    output_file.WriteLine($"\t[{row.ID}] = {{ -- {row.Name}");
+                    string row_line = $"\t[{row.ID}] = {{ -- {row.Name}";
+
+                    if (settings.CodeExport_CondenseOutpust)
+                        condensed_output = condensed_output + row_line;
+                    else
+                        output_file.WriteLine(row_line);
 
                     foreach (PARAM.Cell cell in row.Cells)
                     {
-                        string end_segment = ",\n";
+                        string tab_segment = "\t\t";
+                        string end_segment = "";
+
+                        if (settings.CodeExport_CondenseOutpust)
+                        {
+                            end_segment = ",";
+                            tab_segment = "";
+                        }
+                        else
+                        {
+                            end_segment = ",\n";
+                        }
 
                         if (cell == row.Cells.Last())
                             end_segment = "";
@@ -2987,29 +3009,55 @@ namespace Yapped
                                 {
                                     dummy_string = Utility.Dummy8Write((byte[])cell.Value);
                                 }
-                                composed_line = composed_line + $"\t\t[\"{cell.Def.InternalName}\"] = \"{dummy_string}\"{end_segment}";
+                                composed_line = composed_line + $"{tab_segment}[\"{cell.Def.InternalName}\"] = \"{dummy_string}\"{end_segment}";
                             }
                         }
                         else
                         {
-                            composed_line = composed_line + $"\t\t[\"{cell.Def.InternalName}\"] = {cell.Value.ToString()}{end_segment}";
+                            composed_line = composed_line + $"{tab_segment}[\"{cell.Def.InternalName}\"] = {cell.Value.ToString()}{end_segment}";
                         }
                     }
 
-                    output_file.WriteLine(composed_line);
-
-                    // Skip , on last row
-                    if(row == wrapper.Rows.Last())
+                    if (settings.CodeExport_CondenseOutpust)
                     {
-                        output_file.WriteLine($"\t}}");
+                        condensed_output = condensed_output + composed_line;
+
+                        // Skip , on last row
+                        if (row == wrapper.Rows.Last())
+                        {
+                            condensed_output = condensed_output + $" }}";
+                        }
+                        else
+                        {
+                            condensed_output = condensed_output + $" }},";
+                        }
                     }
                     else
                     {
-                        output_file.WriteLine($"\t}},");
+                        output_file.WriteLine(composed_line);
+
+                        // Skip , on last row
+                        if (row == wrapper.Rows.Last())
+                        {
+                            output_file.WriteLine($"\t}}");
+                        }
+                        else
+                        {
+                            output_file.WriteLine($"\t}},");
+                        }
                     }
                 }
 
-                output_file.WriteLine($"}}");
+                string end_line = $"}}";
+
+                if (settings.CodeExport_CondenseOutpust)
+                {
+                    condensed_output = condensed_output + end_line;
+                    output_file.WriteLine(condensed_output);
+                }
+                else
+                    output_file.WriteLine(end_line);
+
                 output_file.Close();
 
                 if (Yapped_Rune_Bear.Properties.Settings.Default.UseTextEditor && Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath != "" && !isSilent)

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DataSettings));
             this.groupbox_Data = new System.Windows.Forms.GroupBox();
+            this.checkBox_IncludePadding = new System.Windows.Forms.CheckBox();
             this.checkbox_UnfurledCSVExport = new System.Windows.Forms.CheckBox();
             this.checkbox_ExportUniqueOnly = new System.Windows.Forms.CheckBox();
             this.checkbox_IncludeRowNames = new System.Windows.Forms.CheckBox();
@@ -40,9 +41,11 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkbox_EnableFieldValidation = new System.Windows.Forms.CheckBox();
-            this.checkBox_IncludePadding = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox_CondenseOutput = new System.Windows.Forms.CheckBox();
             this.groupbox_Data.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupbox_Data
@@ -60,6 +63,16 @@
             this.groupbox_Data.TabIndex = 32;
             this.groupbox_Data.TabStop = false;
             this.groupbox_Data.Text = "Data Export";
+            // 
+            // checkBox_IncludePadding
+            // 
+            this.checkBox_IncludePadding.AutoSize = true;
+            this.checkBox_IncludePadding.Location = new System.Drawing.Point(6, 150);
+            this.checkBox_IncludePadding.Name = "checkBox_IncludePadding";
+            this.checkBox_IncludePadding.Size = new System.Drawing.Size(103, 17);
+            this.checkBox_IncludePadding.TabIndex = 11;
+            this.checkBox_IncludePadding.Text = "Include Padding";
+            this.checkBox_IncludePadding.UseVisualStyleBackColor = true;
             // 
             // checkbox_UnfurledCSVExport
             // 
@@ -120,7 +133,7 @@
             // 
             // btnSaveSettings
             // 
-            this.btnSaveSettings.Location = new System.Drawing.Point(12, 234);
+            this.btnSaveSettings.Location = new System.Drawing.Point(10, 282);
             this.btnSaveSettings.Name = "btnSaveSettings";
             this.btnSaveSettings.Size = new System.Drawing.Size(75, 23);
             this.btnSaveSettings.TabIndex = 33;
@@ -131,7 +144,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(192, 234);
+            this.btnCancel.Location = new System.Drawing.Point(190, 282);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 34;
@@ -160,21 +173,32 @@
             this.checkbox_EnableFieldValidation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkbox_EnableFieldValidation.UseVisualStyleBackColor = true;
             // 
-            // checkBox_IncludePadding
+            // groupBox2
             // 
-            this.checkBox_IncludePadding.AutoSize = true;
-            this.checkBox_IncludePadding.Location = new System.Drawing.Point(6, 150);
-            this.checkBox_IncludePadding.Name = "checkBox_IncludePadding";
-            this.checkBox_IncludePadding.Size = new System.Drawing.Size(103, 17);
-            this.checkBox_IncludePadding.TabIndex = 11;
-            this.checkBox_IncludePadding.Text = "Include Padding";
-            this.checkBox_IncludePadding.UseVisualStyleBackColor = true;
+            this.groupBox2.Controls.Add(this.checkBox_CondenseOutput);
+            this.groupBox2.Location = new System.Drawing.Point(10, 234);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(255, 42);
+            this.groupBox2.TabIndex = 35;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Code Export";
+            // 
+            // checkBox_CondenseOutput
+            // 
+            this.checkBox_CondenseOutput.AutoSize = true;
+            this.checkBox_CondenseOutput.Location = new System.Drawing.Point(11, 19);
+            this.checkBox_CondenseOutput.Name = "checkBox_CondenseOutput";
+            this.checkBox_CondenseOutput.Size = new System.Drawing.Size(109, 17);
+            this.checkBox_CondenseOutput.TabIndex = 12;
+            this.checkBox_CondenseOutput.Text = "Condense Output";
+            this.checkBox_CondenseOutput.UseVisualStyleBackColor = true;
             // 
             // DataSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 269);
+            this.ClientSize = new System.Drawing.Size(275, 320);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSaveSettings);
@@ -188,6 +212,8 @@
             this.groupbox_Data.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -206,5 +232,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkbox_EnableFieldValidation;
         private System.Windows.Forms.CheckBox checkBox_IncludePadding;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.CheckBox checkBox_CondenseOutput;
     }
 }
