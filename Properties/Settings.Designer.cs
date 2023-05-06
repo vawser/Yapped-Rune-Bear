@@ -155,7 +155,22 @@ namespace Yapped_Rune_Bear.Properties {
                 this["IncludeHeaderInCSV"] = value;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool IncludePaddingInExport
+        {
+            get
+            {
+                return ((bool)(this["IncludePaddingInExport"]));
+            }
+            set
+            {
+                this["IncludePaddingInExport"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -861,6 +876,21 @@ namespace Yapped_Rune_Bear.Properties {
             }
             set {
                 this["NewRow_StepValue"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool CellView_ShowPadding
+        {
+            get
+            {
+                return ((bool)(this["CellView_ShowPadding"]));
+            }
+            set
+            {
+                this["CellView_ShowPadding"] = value;
             }
         }
     }

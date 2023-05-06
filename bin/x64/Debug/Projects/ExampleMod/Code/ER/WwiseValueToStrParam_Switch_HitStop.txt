@@ -1,0 +1,20 @@
+local WwiseValueToStrParam_Switch_HitStop = {
+	[0] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = _0_Off
+	},
+	[1] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = _1_On
+	},
+	[2] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = _2_Repel
+	}
+}

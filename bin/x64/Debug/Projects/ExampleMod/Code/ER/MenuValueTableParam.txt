@@ -1,0 +1,548 @@
+local MenuValueTableParam = {
+	[50] = { -- Light Load
+		["value"] = 1,
+		["textId"] = 10513,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[51] = { -- Med. Load
+		["value"] = 2,
+		["textId"] = 10514,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[52] = { -- Heavy Load
+		["value"] = 3,
+		["textId"] = 10515,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[53] = { -- Overloaded
+		["value"] = 4,
+		["textId"] = 10516,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[90] = { -- Consumable
+		["value"] = 1,
+		["textId"] = 11330,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[91] = { -- Reusable
+		["value"] = 0,
+		["textId"] = 11331,
+		["compareType"] = 2,
+		["padding"] = "[0|0|0]"
+	},
+	[100] = { -- S
+		["value"] = 175,
+		["textId"] = 11321,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[101] = { -- A
+		["value"] = 140,
+		["textId"] = 11322,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[102] = { -- B
+		["value"] = 90,
+		["textId"] = 11323,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[103] = { -- C
+		["value"] = 60,
+		["textId"] = 11324,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[104] = { -- D
+		["value"] = 25,
+		["textId"] = 11325,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[105] = { -- E
+		["value"] = 1,
+		["textId"] = 11326,
+		["compareType"] = 1,
+		["padding"] = "[0|0|0]"
+	},
+	[106] = { -- -
+		["value"] = 0,
+		["textId"] = 11320,
+		["compareType"] = 2,
+		["padding"] = "[0|0|0]"
+	},
+	[110] = { -- -
+		["value"] = 0,
+		["textId"] = 11320,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[111] = { -- 
+		["value"] = 1,
+		["textId"] = 41001,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[112] = { -- 
+		["value"] = 2,
+		["textId"] = 41002,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[113] = { -- 
+		["value"] = 3,
+		["textId"] = 41003,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[114] = { -- 
+		["value"] = 4,
+		["textId"] = 41004,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[115] = { -- 
+		["value"] = 5,
+		["textId"] = 41005,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[116] = { -- 
+		["value"] = 6,
+		["textId"] = 41006,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[117] = { -- 
+		["value"] = 7,
+		["textId"] = 41007,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[118] = { -- 
+		["value"] = 8,
+		["textId"] = 41008,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[119] = { -- 
+		["value"] = 9,
+		["textId"] = 41009,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[120] = { -- Dagger
+		["value"] = 1,
+		["textId"] = 60010,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[121] = { -- Straight Sword
+		["value"] = 3,
+		["textId"] = 60015,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[122] = { -- Greatsword
+		["value"] = 5,
+		["textId"] = 60020,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[123] = { -- Colossal Sword
+		["value"] = 7,
+		["textId"] = 60025,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[124] = { -- Curved Sword
+		["value"] = 9,
+		["textId"] = 60030,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[125] = { -- Curved Greatsword
+		["value"] = 11,
+		["textId"] = 60035,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[126] = { -- Katana
+		["value"] = 13,
+		["textId"] = 60040,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[127] = { -- Twinblade
+		["value"] = 14,
+		["textId"] = 60043,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[128] = { -- Thrusting Sword
+		["value"] = 15,
+		["textId"] = 60045,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[129] = { -- Heavy Thrusting Sword
+		["value"] = 16,
+		["textId"] = 60046,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[130] = { -- Axe
+		["value"] = 17,
+		["textId"] = 60050,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[131] = { -- Greataxe
+		["value"] = 19,
+		["textId"] = 60055,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[132] = { -- Hammer
+		["value"] = 21,
+		["textId"] = 60060,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[133] = { -- Warhammer
+		["value"] = 23,
+		["textId"] = 60065,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[134] = { -- Flail
+		["value"] = 24,
+		["textId"] = 60067,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[135] = { -- Spear
+		["value"] = 25,
+		["textId"] = 60070,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[136] = { -- 
+		["value"] = 27,
+		["textId"] = 60075,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[137] = { -- Great Spear
+		["value"] = 28,
+		["textId"] = 60077,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[138] = { -- Halberd
+		["value"] = 29,
+		["textId"] = 60080,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[139] = { -- Reaper
+		["value"] = 31,
+		["textId"] = 60085,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[140] = { -- Fist
+		["value"] = 33,
+		["textId"] = 60090,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[141] = { -- Fist
+		["value"] = 35,
+		["textId"] = 60090,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[142] = { -- Claw
+		["value"] = 37,
+		["textId"] = 60100,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[143] = { -- Whip
+		["value"] = 39,
+		["textId"] = 60155,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[144] = { -- Colossal Weapon
+		["value"] = 41,
+		["textId"] = 60102,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[145] = { -- Light Bow
+		["value"] = 50,
+		["textId"] = 60104,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[146] = { -- Bow
+		["value"] = 51,
+		["textId"] = 60105,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[147] = { -- Greatbow
+		["value"] = 53,
+		["textId"] = 60110,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[148] = { -- Crossbow
+		["value"] = 55,
+		["textId"] = 60115,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[149] = { -- Ballista
+		["value"] = 56,
+		["textId"] = 60117,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[150] = { -- Glintstone Staff
+		["value"] = 57,
+		["textId"] = 60120,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[151] = { -- Tattoo
+		["value"] = 59,
+		["textId"] = 60125,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[152] = { -- Sacred Seal
+		["value"] = 61,
+		["textId"] = 60130,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[153] = { -- 
+		["value"] = 63,
+		["textId"] = 60135,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[154] = { -- Small Shield
+		["value"] = 65,
+		["textId"] = 60140,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[155] = { -- Medium Shield
+		["value"] = 67,
+		["textId"] = 60145,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[156] = { -- Greatshield
+		["value"] = 69,
+		["textId"] = 60150,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[157] = { -- Arrow
+		["value"] = 81,
+		["textId"] = 60160,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[158] = { -- Greatarrow
+		["value"] = 83,
+		["textId"] = 60165,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[159] = { -- Bolt
+		["value"] = 85,
+		["textId"] = 60170,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[160] = { -- Greatbolt
+		["value"] = 86,
+		["textId"] = 60171,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[161] = { -- Torch
+		["value"] = 87,
+		["textId"] = 60175,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[162] = { -- 
+		["value"] = 101,
+		["textId"] = 60011,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[163] = { -- 
+		["value"] = 103,
+		["textId"] = 60016,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[164] = { -- 
+		["value"] = 105,
+		["textId"] = 60026,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[165] = { -- 
+		["value"] = 107,
+		["textId"] = 60031,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[166] = { -- 
+		["value"] = 109,
+		["textId"] = 60041,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[167] = { -- 
+		["value"] = 111,
+		["textId"] = 60051,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[168] = { -- 
+		["value"] = 113,
+		["textId"] = 60061,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[169] = { -- 
+		["value"] = 115,
+		["textId"] = 60071,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[170] = { -- 
+		["value"] = 88,
+		["textId"] = 60180,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[300] = { -- Cracked Pot
+		["value"] = 1,
+		["textId"] = 80000,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[301] = { -- Perfume Bottle
+		["value"] = 2,
+		["textId"] = 80001,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[302] = { -- Ritual Pot
+		["value"] = 3,
+		["textId"] = 80010,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[303] = { -- 
+		["value"] = 4,
+		["textId"] = 80020,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[400] = { -- Standard
+		["value"] = 0,
+		["textId"] = 62000,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[401] = { -- Heavy
+		["value"] = 1,
+		["textId"] = 62001,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[402] = { -- Keen
+		["value"] = 2,
+		["textId"] = 62002,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[403] = { -- Quality
+		["value"] = 3,
+		["textId"] = 62003,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[404] = { -- Magic
+		["value"] = 8,
+		["textId"] = 62008,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[405] = { -- Fire
+		["value"] = 4,
+		["textId"] = 62004,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[406] = { -- Flame Art
+		["value"] = 5,
+		["textId"] = 62005,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[407] = { -- Lightning
+		["value"] = 6,
+		["textId"] = 62006,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[408] = { -- Sacred
+		["value"] = 7,
+		["textId"] = 62007,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[409] = { -- Poison
+		["value"] = 10,
+		["textId"] = 62011,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[410] = { -- Blood
+		["value"] = 11,
+		["textId"] = 62012,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[411] = { -- Cold
+		["value"] = 9,
+		["textId"] = 62010,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	},
+	[412] = { -- Occult
+		["value"] = 12,
+		["textId"] = 62009,
+		["compareType"] = 0,
+		["padding"] = "[0|0|0]"
+	}
+}

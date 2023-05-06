@@ -31,8 +31,8 @@ namespace Yapped
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.importedRegulation = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -58,7 +58,6 @@ namespace Yapped
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toggleFieldNameTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toggleFieldTypeVisibilityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toggleFilterVisibilityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.WorkflowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fieldAdjusterMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.affinityGeneratorMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,9 +70,15 @@ namespace Yapped
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.importDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cSVToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.hTMLToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.structToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.massImportDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.massExportDataMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.structToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.fieldExporterMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.valueReferenceFinderMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,27 +94,15 @@ namespace Yapped
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dgvParams = new System.Windows.Forms.DataGridView();
             this.dgvParamsParamCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.filter_Params = new System.Windows.Forms.ToolStripTextBox();
-            this.button_FilterParams = new System.Windows.Forms.ToolStripMenuItem();
-            this.button_ResetFilterParams = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dgvRows = new System.Windows.Forms.DataGridView();
             this.dgvRowsIDCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvRowsNameCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip3 = new System.Windows.Forms.MenuStrip();
-            this.filter_Rows = new System.Windows.Forms.ToolStripTextBox();
-            this.button_FilterRows = new System.Windows.Forms.ToolStripMenuItem();
-            this.button_ResetFilterRows = new System.Windows.Forms.ToolStripMenuItem();
             this.dgvCells = new System.Windows.Forms.DataGridView();
             this.dgvCellsNameCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCellsEditorNameCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCellsValueCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCellsTypeCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip4 = new System.Windows.Forms.MenuStrip();
-            this.filter_Cells = new System.Windows.Forms.ToolStripTextBox();
-            this.button_FilterCells = new System.Windows.Forms.ToolStripMenuItem();
-            this.button_ResetFilterCells = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.processLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.fbdExport = new System.Windows.Forms.FolderBrowserDialog();
@@ -131,22 +124,19 @@ namespace Yapped
             this.toolTip_filterParams = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip_filterRows = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip_filterCells = new System.Windows.Forms.ToolTip(this.components);
-            this.viewFilterSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.togglePaddingFieldVisibilityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvParams)).BeginInit();
-            this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRows)).BeginInit();
-            this.menuStrip3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCells)).BeginInit();
-            this.menuStrip4.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.fieldContextMenu.SuspendLayout();
             this.rowContextMenu.SuspendLayout();
@@ -358,7 +348,7 @@ namespace Yapped
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toggleFieldNameTypeToolStripMenuItem,
             this.toggleFieldTypeVisibilityToolStripMenuItem,
-            this.toggleFilterVisibilityToolStripMenuItem});
+            this.togglePaddingFieldVisibilityToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
@@ -366,23 +356,16 @@ namespace Yapped
             // toggleFieldNameTypeToolStripMenuItem
             // 
             this.toggleFieldNameTypeToolStripMenuItem.Name = "toggleFieldNameTypeToolStripMenuItem";
-            this.toggleFieldNameTypeToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.toggleFieldNameTypeToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.toggleFieldNameTypeToolStripMenuItem.Text = "Toggle Field Name Scheme";
             this.toggleFieldNameTypeToolStripMenuItem.Click += new System.EventHandler(this.toggleFieldNameTypeToolStripMenuItem_Click);
             // 
             // toggleFieldTypeVisibilityToolStripMenuItem
             // 
             this.toggleFieldTypeVisibilityToolStripMenuItem.Name = "toggleFieldTypeVisibilityToolStripMenuItem";
-            this.toggleFieldTypeVisibilityToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.toggleFieldTypeVisibilityToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.toggleFieldTypeVisibilityToolStripMenuItem.Text = "Toggle Field Type Visibility";
             this.toggleFieldTypeVisibilityToolStripMenuItem.Click += new System.EventHandler(this.toggleFieldTypeVisibilityToolStripMenuItem_Click);
-            // 
-            // toggleFilterVisibilityToolStripMenuItem
-            // 
-            this.toggleFilterVisibilityToolStripMenuItem.Name = "toggleFilterVisibilityToolStripMenuItem";
-            this.toggleFilterVisibilityToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.toggleFilterVisibilityToolStripMenuItem.Text = "Toggle Filter Visibility";
-            this.toggleFilterVisibilityToolStripMenuItem.Click += new System.EventHandler(this.toggleFilterVisibilityToolStripMenuItem_Click);
             // 
             // WorkflowToolStripMenuItem
             // 
@@ -498,13 +481,37 @@ namespace Yapped
             // exportDataMenuItem
             // 
             this.exportDataMenuItem.AutoToolTip = true;
+            this.exportDataMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cSVToolStripMenuItem1,
+            this.hTMLToolStripMenuItem1,
+            this.structToolStripMenuItem});
             this.exportDataMenuItem.Name = "exportDataMenuItem";
             this.exportDataMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
             this.exportDataMenuItem.Size = new System.Drawing.Size(235, 22);
             this.exportDataMenuItem.Text = "Export Data";
             this.exportDataMenuItem.ToolTipText = "For the currently selected param, \r\nexport param data into a CSV file of the same" +
     " name.\r\n\r\nData files are found in .\\<gametype>\\Data\\\r\n";
-            this.exportDataMenuItem.Click += new System.EventHandler(this.exportDataMenuItem_Click);
+            // 
+            // cSVToolStripMenuItem1
+            // 
+            this.cSVToolStripMenuItem1.Name = "cSVToolStripMenuItem1";
+            this.cSVToolStripMenuItem1.Size = new System.Drawing.Size(106, 22);
+            this.cSVToolStripMenuItem1.Text = "CSV";
+            this.cSVToolStripMenuItem1.Click += new System.EventHandler(this.cSVToolStripMenuItem1_Click);
+            // 
+            // hTMLToolStripMenuItem1
+            // 
+            this.hTMLToolStripMenuItem1.Name = "hTMLToolStripMenuItem1";
+            this.hTMLToolStripMenuItem1.Size = new System.Drawing.Size(106, 22);
+            this.hTMLToolStripMenuItem1.Text = "HTML";
+            this.hTMLToolStripMenuItem1.Click += new System.EventHandler(this.hTMLToolStripMenuItem1_Click);
+            // 
+            // structToolStripMenuItem
+            // 
+            this.structToolStripMenuItem.Name = "structToolStripMenuItem";
+            this.structToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.structToolStripMenuItem.Text = "Code";
+            this.structToolStripMenuItem.Click += new System.EventHandler(this.structToolStripMenuItem_Click);
             // 
             // toolStripSeparator7
             // 
@@ -524,12 +531,36 @@ namespace Yapped
             // massExportDataMenuItem
             // 
             this.massExportDataMenuItem.AutoToolTip = true;
+            this.massExportDataMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cSVToolStripMenuItem,
+            this.hTMLToolStripMenuItem,
+            this.structToolStripMenuItem1});
             this.massExportDataMenuItem.Name = "massExportDataMenuItem";
             this.massExportDataMenuItem.Size = new System.Drawing.Size(235, 22);
             this.massExportDataMenuItem.Text = "Mass Export Data";
             this.massExportDataMenuItem.ToolTipText = "For all params, export param data into a CSV file \r\nof the same name.\r\n\r\nData fil" +
     "es are found in .\\<gametype>\\Data\\\r\n";
-            this.massExportDataMenuItem.Click += new System.EventHandler(this.massExportDataMenuItem_Click);
+            // 
+            // cSVToolStripMenuItem
+            // 
+            this.cSVToolStripMenuItem.Name = "cSVToolStripMenuItem";
+            this.cSVToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.cSVToolStripMenuItem.Text = "CSV";
+            this.cSVToolStripMenuItem.Click += new System.EventHandler(this.cSVToolStripMenuItem_Click);
+            // 
+            // hTMLToolStripMenuItem
+            // 
+            this.hTMLToolStripMenuItem.Name = "hTMLToolStripMenuItem";
+            this.hTMLToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.hTMLToolStripMenuItem.Text = "HTML";
+            this.hTMLToolStripMenuItem.Click += new System.EventHandler(this.hTMLToolStripMenuItem_Click);
+            // 
+            // structToolStripMenuItem1
+            // 
+            this.structToolStripMenuItem1.Name = "structToolStripMenuItem1";
+            this.structToolStripMenuItem1.Size = new System.Drawing.Size(106, 22);
+            this.structToolStripMenuItem1.Text = "Code";
+            this.structToolStripMenuItem1.Click += new System.EventHandler(this.structToolStripMenuItem1_Click);
             // 
             // toolStripSeparator9
             // 
@@ -603,8 +634,7 @@ namespace Yapped
             this.settingsMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewSettingsToolStripMenuItem,
             this.viewDataSettingsToolStripMenuItem,
-            this.viewInterfaceSettingsToolStripMenuItem,
-            this.viewFilterSettingsToolStripMenuItem});
+            this.viewInterfaceSettingsToolStripMenuItem});
             this.settingsMenuItem.Name = "settingsMenuItem";
             this.settingsMenuItem.Size = new System.Drawing.Size(61, 20);
             this.settingsMenuItem.Text = "Settings";
@@ -641,7 +671,6 @@ namespace Yapped
             // splitContainer2.Panel1
             // 
             this.splitContainer2.Panel1.Controls.Add(this.dgvParams);
-            this.splitContainer2.Panel1.Controls.Add(this.menuStrip2);
             // 
             // splitContainer2.Panel2
             // 
@@ -661,13 +690,13 @@ namespace Yapped
             this.dgvParams.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dgvParamsParamCol});
             this.dgvParams.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvParams.Location = new System.Drawing.Point(0, 31);
+            this.dgvParams.Location = new System.Drawing.Point(0, 0);
             this.dgvParams.MinimumSize = new System.Drawing.Size(160, 0);
             this.dgvParams.MultiSelect = false;
             this.dgvParams.Name = "dgvParams";
             this.dgvParams.RowHeadersVisible = false;
             this.dgvParams.RowHeadersWidth = 51;
-            this.dgvParams.Size = new System.Drawing.Size(249, 545);
+            this.dgvParams.Size = new System.Drawing.Size(249, 576);
             this.dgvParams.TabIndex = 0;
             this.dgvParams.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvParams_CellContentClick);
             this.dgvParams.CellToolTipTextNeeded += new System.Windows.Forms.DataGridViewCellToolTipTextNeededEventHandler(this.DgvParams_CellToolTipTextNeeded);
@@ -681,54 +710,6 @@ namespace Yapped
             this.dgvParamsParamCol.Name = "dgvParamsParamCol";
             this.dgvParamsParamCol.ReadOnly = true;
             // 
-            // menuStrip2
-            // 
-            this.menuStrip2.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.filter_Params,
-            this.button_FilterParams,
-            this.button_ResetFilterParams});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(249, 31);
-            this.menuStrip2.TabIndex = 1;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // filter_Params
-            // 
-            this.filter_Params.AutoToolTip = true;
-            this.filter_Params.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.filter_Params.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.filter_Params.Margin = new System.Windows.Forms.Padding(2);
-            this.filter_Params.Name = "filter_Params";
-            this.filter_Params.Size = new System.Drawing.Size(120, 23);
-            this.filter_Params.ToolTipText = resources.GetString("filter_Params.ToolTipText");
-            // 
-            // button_FilterParams
-            // 
-            this.button_FilterParams.AutoToolTip = true;
-            this.button_FilterParams.BackColor = System.Drawing.Color.DarkGray;
-            this.button_FilterParams.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_FilterParams.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.button_FilterParams.Margin = new System.Windows.Forms.Padding(2);
-            this.button_FilterParams.Name = "button_FilterParams";
-            this.button_FilterParams.Size = new System.Drawing.Size(50, 23);
-            this.button_FilterParams.Text = "Apply";
-            this.button_FilterParams.ToolTipText = "Apply param view filter.";
-            this.button_FilterParams.Click += new System.EventHandler(this.button_FilterParams_Click);
-            // 
-            // button_ResetFilterParams
-            // 
-            this.button_ResetFilterParams.AutoToolTip = true;
-            this.button_ResetFilterParams.BackColor = System.Drawing.Color.DarkGray;
-            this.button_ResetFilterParams.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_ResetFilterParams.Margin = new System.Windows.Forms.Padding(2);
-            this.button_ResetFilterParams.Name = "button_ResetFilterParams";
-            this.button_ResetFilterParams.Size = new System.Drawing.Size(47, 23);
-            this.button_ResetFilterParams.Text = "Reset";
-            this.button_ResetFilterParams.ToolTipText = "Reset param view.";
-            this.button_ResetFilterParams.Click += new System.EventHandler(this.button_ResetFilterParams_Click);
-            // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -739,12 +720,10 @@ namespace Yapped
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.dgvRows);
-            this.splitContainer1.Panel1.Controls.Add(this.menuStrip3);
             // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgvCells);
-            this.splitContainer1.Panel2.Controls.Add(this.menuStrip4);
             this.splitContainer1.Size = new System.Drawing.Size(720, 576);
             this.splitContainer1.SplitterDistance = 233;
             this.splitContainer1.TabIndex = 7;
@@ -760,13 +739,13 @@ namespace Yapped
             this.dgvRowsIDCol,
             this.dgvRowsNameCol});
             this.dgvRows.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvRows.Location = new System.Drawing.Point(0, 31);
+            this.dgvRows.Location = new System.Drawing.Point(0, 0);
             this.dgvRows.MinimumSize = new System.Drawing.Size(160, 0);
             this.dgvRows.MultiSelect = false;
             this.dgvRows.Name = "dgvRows";
             this.dgvRows.RowHeadersVisible = false;
             this.dgvRows.RowHeadersWidth = 51;
-            this.dgvRows.Size = new System.Drawing.Size(233, 545);
+            this.dgvRows.Size = new System.Drawing.Size(233, 576);
             this.dgvRows.TabIndex = 1;
             this.dgvRows.CellContextMenuStripNeeded += new System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler(this.dgvRows_CellContextMenuStripNeeded);
             this.dgvRows.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvRows_CellMouseDown);
@@ -778,8 +757,8 @@ namespace Yapped
             // 
             this.dgvRowsIDCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.dgvRowsIDCol.DataPropertyName = "ID";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dgvRowsIDCol.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dgvRowsIDCol.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvRowsIDCol.HeaderText = "Row";
             this.dgvRowsIDCol.MinimumWidth = 6;
             this.dgvRowsIDCol.Name = "dgvRowsIDCol";
@@ -792,55 +771,6 @@ namespace Yapped
             this.dgvRowsNameCol.HeaderText = "Name";
             this.dgvRowsNameCol.MinimumWidth = 6;
             this.dgvRowsNameCol.Name = "dgvRowsNameCol";
-            // 
-            // menuStrip3
-            // 
-            this.menuStrip3.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.filter_Rows,
-            this.button_FilterRows,
-            this.button_ResetFilterRows});
-            this.menuStrip3.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip3.Name = "menuStrip3";
-            this.menuStrip3.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip3.Size = new System.Drawing.Size(233, 31);
-            this.menuStrip3.TabIndex = 2;
-            this.menuStrip3.Text = "menuStrip3";
-            // 
-            // filter_Rows
-            // 
-            this.filter_Rows.AutoToolTip = true;
-            this.filter_Rows.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.filter_Rows.Margin = new System.Windows.Forms.Padding(2);
-            this.filter_Rows.Name = "filter_Rows";
-            this.filter_Rows.Size = new System.Drawing.Size(120, 23);
-            this.filter_Rows.ToolTipText = resources.GetString("filter_Rows.ToolTipText");
-            // 
-            // button_FilterRows
-            // 
-            this.button_FilterRows.AutoToolTip = true;
-            this.button_FilterRows.BackColor = System.Drawing.Color.DarkGray;
-            this.button_FilterRows.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_FilterRows.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.button_FilterRows.Margin = new System.Windows.Forms.Padding(2);
-            this.button_FilterRows.Name = "button_FilterRows";
-            this.button_FilterRows.Size = new System.Drawing.Size(50, 23);
-            this.button_FilterRows.Text = "Apply";
-            this.button_FilterRows.ToolTipText = "Apply row view filter.";
-            this.button_FilterRows.Click += new System.EventHandler(this.button_FilterRows_Click);
-            // 
-            // button_ResetFilterRows
-            // 
-            this.button_ResetFilterRows.AutoToolTip = true;
-            this.button_ResetFilterRows.BackColor = System.Drawing.Color.DarkGray;
-            this.button_ResetFilterRows.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_ResetFilterRows.Margin = new System.Windows.Forms.Padding(2);
-            this.button_ResetFilterRows.Name = "button_ResetFilterRows";
-            this.button_ResetFilterRows.Size = new System.Drawing.Size(47, 23);
-            this.button_ResetFilterRows.Text = "Reset";
-            this.button_ResetFilterRows.ToolTipText = "Reset row view.";
-            this.button_ResetFilterRows.Click += new System.EventHandler(this.button_ResetFilterRows_Click);
             // 
             // dgvCells
             // 
@@ -856,13 +786,13 @@ namespace Yapped
             this.dgvCellsTypeCol});
             this.dgvCells.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvCells.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dgvCells.Location = new System.Drawing.Point(0, 31);
+            this.dgvCells.Location = new System.Drawing.Point(0, 0);
             this.dgvCells.MinimumSize = new System.Drawing.Size(160, 0);
             this.dgvCells.MultiSelect = false;
             this.dgvCells.Name = "dgvCells";
             this.dgvCells.RowHeadersVisible = false;
             this.dgvCells.RowHeadersWidth = 51;
-            this.dgvCells.Size = new System.Drawing.Size(483, 545);
+            this.dgvCells.Size = new System.Drawing.Size(483, 576);
             this.dgvCells.TabIndex = 2;
             this.dgvCells.CellContextMenuStripNeeded += new System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler(this.dgvCells_CellContextMenuStripNeeded);
             this.dgvCells.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.DgvCells_CellFormatting);
@@ -913,55 +843,6 @@ namespace Yapped
             this.dgvCellsTypeCol.Name = "dgvCellsTypeCol";
             this.dgvCellsTypeCol.ReadOnly = true;
             this.dgvCellsTypeCol.Width = 56;
-            // 
-            // menuStrip4
-            // 
-            this.menuStrip4.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.filter_Cells,
-            this.button_FilterCells,
-            this.button_ResetFilterCells});
-            this.menuStrip4.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip4.Size = new System.Drawing.Size(483, 31);
-            this.menuStrip4.TabIndex = 3;
-            this.menuStrip4.Text = "menuStrip4";
-            // 
-            // filter_Cells
-            // 
-            this.filter_Cells.AutoToolTip = true;
-            this.filter_Cells.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.filter_Cells.Margin = new System.Windows.Forms.Padding(2);
-            this.filter_Cells.Name = "filter_Cells";
-            this.filter_Cells.Size = new System.Drawing.Size(120, 23);
-            this.filter_Cells.ToolTipText = resources.GetString("filter_Cells.ToolTipText");
-            // 
-            // button_FilterCells
-            // 
-            this.button_FilterCells.AutoToolTip = true;
-            this.button_FilterCells.BackColor = System.Drawing.Color.DarkGray;
-            this.button_FilterCells.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_FilterCells.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.button_FilterCells.Margin = new System.Windows.Forms.Padding(2);
-            this.button_FilterCells.Name = "button_FilterCells";
-            this.button_FilterCells.Size = new System.Drawing.Size(50, 23);
-            this.button_FilterCells.Text = "Apply";
-            this.button_FilterCells.ToolTipText = "Apply field view filter.";
-            this.button_FilterCells.Click += new System.EventHandler(this.button_FilterCells_Click);
-            // 
-            // button_ResetFilterCells
-            // 
-            this.button_ResetFilterCells.AutoToolTip = true;
-            this.button_ResetFilterCells.BackColor = System.Drawing.Color.DarkGray;
-            this.button_ResetFilterCells.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_ResetFilterCells.Margin = new System.Windows.Forms.Padding(2);
-            this.button_ResetFilterCells.Name = "button_ResetFilterCells";
-            this.button_ResetFilterCells.Size = new System.Drawing.Size(47, 23);
-            this.button_ResetFilterCells.Text = "Reset";
-            this.button_ResetFilterCells.ToolTipText = "Reset field view.";
-            this.button_ResetFilterCells.Click += new System.EventHandler(this.button_ResetFilterCells_Click);
             // 
             // statusStrip1
             // 
@@ -1099,12 +980,12 @@ namespace Yapped
             // 
             this.ContentPanel.Size = new System.Drawing.Size(150, 150);
             // 
-            // viewFilterSettingsToolStripMenuItem
+            // togglePaddingFieldVisibilityToolStripMenuItem
             // 
-            this.viewFilterSettingsToolStripMenuItem.Name = "viewFilterSettingsToolStripMenuItem";
-            this.viewFilterSettingsToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.viewFilterSettingsToolStripMenuItem.Text = "View Filter Settings";
-            this.viewFilterSettingsToolStripMenuItem.Click += new System.EventHandler(this.viewFilterSettingsToolStripMenuItem_Click);
+            this.togglePaddingFieldVisibilityToolStripMenuItem.Name = "togglePaddingFieldVisibilityToolStripMenuItem";
+            this.togglePaddingFieldVisibilityToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            this.togglePaddingFieldVisibilityToolStripMenuItem.Text = "Toggle Padding Field Visibility";
+            this.togglePaddingFieldVisibilityToolStripMenuItem.Click += new System.EventHandler(this.togglePaddingFieldVisibilityToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -1124,25 +1005,16 @@ namespace Yapped
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel1.PerformLayout();
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvParams)).EndInit();
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
-            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRows)).EndInit();
-            this.menuStrip3.ResumeLayout(false);
-            this.menuStrip3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCells)).EndInit();
-            this.menuStrip4.ResumeLayout(false);
-            this.menuStrip4.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.fieldContextMenu.ResumeLayout(false);
@@ -1231,29 +1103,22 @@ namespace Yapped
         private System.Windows.Forms.OpenFileDialog secondaryFilePath;
         private System.Windows.Forms.ToolStripMenuItem showParamDifferencesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clearSecondaryFileToolMenuItem;
-        private MenuStrip menuStrip2;
-        private ToolStripTextBox filter_Params;
-        private ToolStripMenuItem button_FilterParams;
         private ToolStripPanel BottomToolStripPanel;
         private ToolStripPanel TopToolStripPanel;
         private ToolStripPanel RightToolStripPanel;
         private ToolStripPanel LeftToolStripPanel;
         private ToolStripContentPanel ContentPanel;
-        private ToolStripMenuItem button_ResetFilterParams;
-        private MenuStrip menuStrip3;
-        private ToolStripTextBox filter_Rows;
-        private ToolStripMenuItem button_FilterRows;
-        private ToolStripMenuItem button_ResetFilterRows;
-        private MenuStrip menuStrip4;
-        private ToolStripTextBox filter_Cells;
-        private ToolStripMenuItem button_FilterCells;
-        private ToolStripMenuItem button_ResetFilterCells;
 
         private System.Windows.Forms.ToolTip toolTip_filterParams;
         private System.Windows.Forms.ToolTip toolTip_filterRows;
         private System.Windows.Forms.ToolTip toolTip_filterCells;
-        private ToolStripMenuItem toggleFilterVisibilityToolStripMenuItem;
-        private ToolStripMenuItem viewFilterSettingsToolStripMenuItem;
+        private ToolStripMenuItem cSVToolStripMenuItem;
+        private ToolStripMenuItem hTMLToolStripMenuItem;
+        private ToolStripMenuItem cSVToolStripMenuItem1;
+        private ToolStripMenuItem hTMLToolStripMenuItem1;
+        private ToolStripMenuItem structToolStripMenuItem;
+        private ToolStripMenuItem structToolStripMenuItem1;
+        private ToolStripMenuItem togglePaddingFieldVisibilityToolStripMenuItem;
     }
 }
 

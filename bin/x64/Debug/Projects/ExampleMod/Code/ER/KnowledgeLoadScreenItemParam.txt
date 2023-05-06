@@ -1,0 +1,538 @@
+local KnowledgeLoadScreenItemParam = {
+	[1] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 1
+	},
+	[2] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 2
+	},
+	[3] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 3
+	},
+	[4] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 4
+	},
+	[5] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 5
+	},
+	[6] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 6
+	},
+	[7] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 7
+	},
+	[8] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 8
+	},
+	[9] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 9
+	},
+	[10] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 10
+	},
+	[11] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 11
+	},
+	[12] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 12
+	},
+	[13] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 13
+	},
+	[14] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 14
+	},
+	[15] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 15
+	},
+	[16] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 16
+	},
+	[50] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 50
+	},
+	[52] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 52
+	},
+	[53] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 53
+	},
+	[54] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 54
+	},
+	[55] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 55
+	},
+	[56] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 56
+	},
+	[57] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 57
+	},
+	[58] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 58
+	},
+	[59] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 59
+	},
+	[60] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 60
+	},
+	[61] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 61
+	},
+	[62] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 62
+	},
+	[64] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 64
+	},
+	[65] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 65
+	},
+	[66] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 66
+	},
+	[67] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 67
+	},
+	[68] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 68
+	},
+	[70] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 70
+	},
+	[71] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 71
+	},
+	[72] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 72
+	},
+	[73] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 73
+	},
+	[74] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 74
+	},
+	[75] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 75
+	},
+	[76] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 76
+	},
+	[77] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 77
+	},
+	[100] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 100
+	},
+	[101] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 101
+	},
+	[102] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 102
+	},
+	[103] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 103
+	},
+	[104] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 104
+	},
+	[105] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 105
+	},
+	[106] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 106
+	},
+	[107] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 107
+	},
+	[108] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 108
+	},
+	[109] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 109
+	},
+	[110] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 110
+	},
+	[111] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 111
+	},
+	[112] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 112
+	},
+	[113] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 113
+	},
+	[114] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 114
+	},
+	[115] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 115
+	},
+	[116] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 116
+	},
+	[117] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 117
+	},
+	[118] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 118
+	},
+	[120] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 120
+	},
+	[121] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 121
+	},
+	[150] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 150
+	},
+	[151] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 151
+	},
+	[152] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 152
+	},
+	[153] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 153
+	},
+	[200] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["unlockFlagId"] = 0,
+		["invalidFlagId"] = 0,
+		["msgId"] = 200
+	}
+}

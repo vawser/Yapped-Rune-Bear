@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PARAMDEF XmlVersion="2">
   <ParamType>ASSET_GEOMETORY_PARAM_ST</ParamType>
-  <DataVersion>4</DataVersion>
+  <DataVersion>6</DataVersion>
   <BigEndian>False</BigEndian>
   <Unicode>True</Unicode>
   <FormatVersion>203</FormatVersion>
@@ -17,7 +17,7 @@
       <DisplayName>Sound Break SE ID</DisplayName>
       <Description>Destruction sound SEID (9 digits) -1: Generated from assetId</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2401</SortID>
     </Field>
     <Field Def="s32 refDrawParamId = -1">
@@ -82,14 +82,14 @@
       <Description>SFX ID on destruction (-1: default (810030))</Description>
       <EditFlags>None</EditFlags>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3020</SortID>
     </Field>
     <Field Def="s32 breakSfxCpId = -1">
       <DisplayName>Destruction SFX Dummy Poly ID</DisplayName>
       <Description>SFX generation position at the time of destruction Damipoly ID (-1: placement position)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3021</SortID>
     </Field>
     <Field Def="s32 breakLandingSfxId = -1">
@@ -103,14 +103,14 @@
       <DisplayName>Destruction Bullet Behavior ID</DisplayName>
       <Description>Action parameter of [bullet] at the time of destruction (-1: does not occur). Please note that there is an offset specification due to laps. ([GR] SEQ35556)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3030</SortID>
     </Field>
     <Field Def="s32 breakBulletCpId = -1">
       <DisplayName>Destruction Bullet Dummy Poly ID</DisplayName>
       <Description>Location of [bullet] at the time of destruction Damipoli ID (-1: placement position)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3031</SortID>
     </Field>
     <Field Def="f32 FragmentInvisibleWaitTime">
@@ -131,7 +131,7 @@
       <DisplayName>Destruction AI Sound ID</DisplayName>
       <Description>AI sound ID generated at the time of destruction</Description>
       <Minimum>0</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3050</SortID>
     </Field>
     <Field Def="s8 breakItemLotType">
@@ -287,14 +287,14 @@
       <DisplayName>Contact SE ID</DisplayName>
       <Description>SE ID to play when touched by a local player operated by you (-1: Do not play)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2405</SortID>
     </Field>
     <Field Def="s32 repickAnimIdOffset">
       <DisplayName>Repick Anim ID Offset</DisplayName>
       <Description>When recollecting assets with "Is there a change at the time of recollection?" In units of placement, play the uncollected / collected animation with the anime ID offset by this value.</Description>
       <Minimum>0</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3120</SortID>
     </Field>
     <Field Def="f32 windEffectRate_0 = 0.5">
@@ -359,28 +359,28 @@
       <DisplayName>Burn SFX ID [0]</DisplayName>
       <Description>SFX ID at the time of combustion: 0 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3203</SortID>
     </Field>
     <Field Def="s32 burnSfxId_1 = -1">
       <DisplayName>Burn SFX ID [1]</DisplayName>
       <Description>SFX ID at the time of combustion: 1 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3204</SortID>
     </Field>
     <Field Def="s32 burnSfxId_2 = -1">
       <DisplayName>Burn SFX ID [2]</DisplayName>
       <Description>SFX ID at the time of combustion: 2 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3205</SortID>
     </Field>
     <Field Def="s32 burnSfxId_3 = -1">
       <DisplayName>Burn SFX ID [3]</DisplayName>
       <Description>SFX ID at the time of combustion: 3 (-1: No SFX)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3206</SortID>
     </Field>
     <Field Def="f32 burnSfxDelayTimeMin">
@@ -443,28 +443,28 @@
       <DisplayName>Burn Bullet Behavior ID [0]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 0 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3220</SortID>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_1 = -1">
       <DisplayName>Burn Bullet Behavior ID [1]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 1 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3221</SortID>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_2 = -1">
       <DisplayName>Burn Bullet Behavior ID [2]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 2 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3222</SortID>
     </Field>
     <Field Def="s32 burnBulletBehaviorId_3 = -1">
       <DisplayName>Burn Bullet Behavior ID [3]</DisplayName>
       <Description>Bullet generation behavior parameter at the time of burning: 3 (-1: does not occur)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>3223</SortID>
     </Field>
     <Field Def="f32 burnBulletDelayTime">
@@ -503,21 +503,21 @@
       <DisplayName>Destroyed Item Lot Param ID</DisplayName>
       <Description>Item to be drawn at the time of destruction Lottery ID_for map-1: No lottery</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3060</SortID>
     </Field>
     <Field Def="s32 pickUpActionButtonParamId = -1">
       <DisplayName>Pickup Action Button Param ID</DisplayName>
       <Description>Action button ID issued for collection-1: Collection function is disabled</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3100</SortID>
     </Field>
     <Field Def="s32 pickUpItemLotParamId = -1">
       <DisplayName>Pickup Item Lot Param ID</DisplayName>
       <Description>Item to be drawn at the time of collection For lottery ID_map-1: Collection function is invalid</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3101</SortID>
     </Field>
     <Field Def="u8 autoDrawGroupBackFaceCheck">
@@ -598,28 +598,28 @@
       <Description>When this event flag is ON, use the ID of the subsequent replacement 0: Do not always replace</Description>
       <DisplayFormat>%u</DisplayFormat>
       <EditFlags>None</EditFlags>
-      <Maximum>9999999</Maximum>
+      <Maximum>-294967297</Maximum>
       <SortID>3130</SortID>
     </Field>
     <Field Def="s32 pickUpReplacementAnimIdOffset">
       <DisplayName>Pickup Replacement - Anim ID Offset</DisplayName>
       <Description>When "Collecting_replacement flag condition" is ON, play the uncollected / collected animation with the animation ID offset by this value.</Description>
       <Minimum>0</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3131</SortID>
     </Field>
     <Field Def="s32 pickUpReplacementActionButtonParamId = -1">
       <DisplayName>Pickup Replacement - Action Button Param ID</DisplayName>
       <Description>This action button ID is used when "Collecting_replacement flag condition" is ON.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3132</SortID>
     </Field>
     <Field Def="s32 pickUpReplacementItemLotParamId = -1">
       <DisplayName>Pickup Replacement - Item Lot Param ID</DisplayName>
       <Description>When "Collecting_replacement flag condition" is ON, this item lottery ID_map is used.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3133</SortID>
     </Field>
     <Field Def="u8 slidingBulletHitType">
@@ -659,7 +659,7 @@
       <DisplayName>Destruction - Sound SE Dummy Poly ID</DisplayName>
       <Description>Damipoli ID of the place where the destruction sound is played (-1: Placement position)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>99999999</Maximum>
       <SortID>2402</SortID>
     </Field>
     <Field Def="f32 debug_HeightCheckCapacityMin = -99">
@@ -682,35 +682,35 @@
       <DisplayName>Repick - Action Button ID</DisplayName>
       <Description>This action button ID is used when recollecting assets whose "Is there a change at the time of recollection?"</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3121</SortID>
     </Field>
     <Field Def="s32 repickItemLotParamId = -1">
       <DisplayName>Repick - Item Lot Param ID</DisplayName>
       <Description>Assets with "Is there a change at the time of recollection?" Are used for this item lottery ID_map when recollecting in units of placement.</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3122</SortID>
     </Field>
     <Field Def="s32 repickReplacementAnimIdOffset">
       <DisplayName>Repick Replacement - Anim ID Offset</DisplayName>
       <Description>Use this parameter instead of "At the time of collection_replacement animation offset" at the time of recollection for assets whose "Is there a change at the time of recollection?"</Description>
       <Minimum>0</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3140</SortID>
     </Field>
     <Field Def="s32 repickReplacementActionButtonParamId = -1">
       <DisplayName>Repick Replacement - Action Button Param ID</DisplayName>
       <Description>Use this parameter instead of "At the time of collection_replacement action button ID" when recollecting assets whose "Is there a change at the time of recollection?"</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3141</SortID>
     </Field>
     <Field Def="s32 repickReplacementItemLotParamId = -1">
       <DisplayName>Repick Replacement - Item Lot ID</DisplayName>
       <Description>Use this parameter instead of "At the time of collection_Replacement item lottery ID_For map" when recollecting assets whose "Is there a change at the time of recollection?"</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>3142</SortID>
     </Field>
     <Field Def="u8 noGenerateCarver">
@@ -784,28 +784,28 @@
       <DisplayName>Resident SE ID [0]</DisplayName>
       <Description>Sound ID 0 (9 digits) to be resident in the asset (-1: No resident)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2405</SortID>
     </Field>
     <Field Def="s32 residentSeId1 = -1">
       <DisplayName>Resident SE ID [1]</DisplayName>
       <Description>Sound ID 1 (9 digits) to be resident in the asset (-1: No resident)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2407</SortID>
     </Field>
     <Field Def="s32 residentSeId2 = -1">
       <DisplayName>Resident SE ID [2]</DisplayName>
       <Description>Sound ID 2 (9 digits) to be resident in the asset (-1: No resident)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2409</SortID>
     </Field>
     <Field Def="s32 residentSeId3 = -1">
       <DisplayName>Resident SE ID [3]</DisplayName>
       <Description>Sound ID 3 (9 digits) to be resident in the asset (-1: not resident)</Description>
       <Minimum>-1</Minimum>
-      <Maximum>9999999</Maximum>
+      <Maximum>999999999</Maximum>
       <SortID>2411</SortID>
     </Field>
     <Field Def="s16 residentSeDmypolyId0 = -1">

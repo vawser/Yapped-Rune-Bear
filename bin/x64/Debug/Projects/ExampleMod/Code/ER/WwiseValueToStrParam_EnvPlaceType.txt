@@ -1,0 +1,128 @@
+local WwiseValueToStrParam_EnvPlaceType = {
+	[0] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_000_Green
+	},
+	[10] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_010_Lake
+	},
+	[20] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_020_Mountain
+	},
+	[30] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_030_Plain
+	},
+	[40] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_040_Snow
+	},
+	[100] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_100_Castle
+	},
+	[110] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_110_KingCity
+	},
+	[120] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_120_UgLabyrinth
+	},
+	[130] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_130_Remains
+	},
+	[140] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_140_Academy
+	},
+	[150] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_150_RottenBigTree
+	},
+	[160] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_160_VolcanoPrison
+	},
+	[180] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_180_Tutorial
+	},
+	[190] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_190_Ritual
+	},
+	[300] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_300_Catacombs
+	},
+	[310] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_310_Cave
+	},
+	[320] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_320_Tunnel
+	},
+	[340] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_340_Tower
+	},
+	[350] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_350_UgKingCity
+	},
+	[390] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_390_CliffTunnel
+	},
+	[500] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["ParamStr"] = Env_500_Fortress
+	}
+}

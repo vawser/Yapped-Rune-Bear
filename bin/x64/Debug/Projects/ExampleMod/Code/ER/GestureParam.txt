@@ -1,0 +1,512 @@
+local GestureParam = {
+	[0] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9000,
+		["msgAnimId"] = 80000,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[1] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9001,
+		["msgAnimId"] = 80010,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[2] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9002,
+		["msgAnimId"] = 80020,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[3] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9003,
+		["msgAnimId"] = 80030,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[4] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9004,
+		["msgAnimId"] = 80040,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[5] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9005,
+		["msgAnimId"] = 80050,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[6] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9006,
+		["msgAnimId"] = 80060,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[7] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9007,
+		["msgAnimId"] = 80070,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[8] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9008,
+		["msgAnimId"] = 80080,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[9] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9009,
+		["msgAnimId"] = 80090,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[10] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9010,
+		["msgAnimId"] = 80100,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[20] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9011,
+		["msgAnimId"] = 80200,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[21] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9012,
+		["msgAnimId"] = 80210,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[22] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9013,
+		["msgAnimId"] = 80220,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[23] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9014,
+		["msgAnimId"] = 80230,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[24] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9015,
+		["msgAnimId"] = 80240,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[25] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9016,
+		["msgAnimId"] = 80250,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[30] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9017,
+		["msgAnimId"] = 80300,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[40] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9018,
+		["msgAnimId"] = 80400,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[41] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9019,
+		["msgAnimId"] = 80410,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[50] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9020,
+		["msgAnimId"] = 80500,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[51] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9021,
+		["msgAnimId"] = 80510,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[52] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9022,
+		["msgAnimId"] = 80520,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[53] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9023,
+		["msgAnimId"] = 80530,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[54] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9024,
+		["msgAnimId"] = 80540,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[55] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9025,
+		["msgAnimId"] = 80550,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[60] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9026,
+		["msgAnimId"] = 80600,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[70] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9027,
+		["msgAnimId"] = 80700,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[71] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9028,
+		["msgAnimId"] = 80710,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[72] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9029,
+		["msgAnimId"] = 80720,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[73] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9030,
+		["msgAnimId"] = 80730,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[80] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9031,
+		["msgAnimId"] = 80800,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[90] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9032,
+		["msgAnimId"] = 80900,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[91] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9033,
+		["msgAnimId"] = 80910,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[92] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9034,
+		["msgAnimId"] = 80920,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[93] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9035,
+		["msgAnimId"] = 80930,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[94] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9036,
+		["msgAnimId"] = 80940,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[95] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9037,
+		["msgAnimId"] = 80950,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[96] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9038,
+		["msgAnimId"] = 80960,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[97] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9039,
+		["msgAnimId"] = 80970,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[98] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9040,
+		["msgAnimId"] = 80980,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[100] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9041,
+		["msgAnimId"] = 81000,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[101] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9042,
+		["msgAnimId"] = 81010,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[102] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9043,
+		["msgAnimId"] = 81020,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[103] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9045,
+		["msgAnimId"] = 81030,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[104] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9046,
+		["msgAnimId"] = 81040,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[105] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9047,
+		["msgAnimId"] = 81050,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[106] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9048,
+		["msgAnimId"] = 81060,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[108] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9049,
+		["msgAnimId"] = 81080,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[109] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9050,
+		["msgAnimId"] = 81080,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	},
+	[110] = { -- 
+		["disableParam_NT"] = 1,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["itemId"] = 9044,
+		["msgAnimId"] = 81100,
+		["cannotUseRiding"] = 1,
+		["pad2"] = "0",
+		["pad1"] = "[0|0|0]"
+	}
+}

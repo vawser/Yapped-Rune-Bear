@@ -1,0 +1,1808 @@
+local SpEffectSetParam = {
+	[0] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[101000] = { -- 
+		["spEffectId1"] = 5000,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[101001] = { -- 
+		["spEffectId1"] = 5004,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[102000] = { -- 
+		["spEffectId1"] = 4800,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[102010] = { -- 
+		["spEffectId1"] = 4801,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[102020] = { -- 
+		["spEffectId1"] = 4802,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[103000] = { -- 
+		["spEffectId1"] = 8085,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[103010] = { -- 
+		["spEffectId1"] = 8081,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[103020] = { -- 
+		["spEffectId1"] = 8086,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[104000] = { -- 
+		["spEffectId1"] = 8560,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[105000] = { -- 
+		["spEffectId1"] = 8600,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[106100] = { -- 
+		["spEffectId1"] = 19050,
+		["spEffectId2"] = 19055,
+		["spEffectId3"] = 19058,
+		["spEffectId4"] = -1
+	},
+	[106101] = { -- 
+		["spEffectId1"] = 19051,
+		["spEffectId2"] = 19055,
+		["spEffectId3"] = 19058,
+		["spEffectId4"] = -1
+	},
+	[106110] = { -- 
+		["spEffectId1"] = 4300,
+		["spEffectId2"] = 4315,
+		["spEffectId3"] = 4370,
+		["spEffectId4"] = -1
+	},
+	[106120] = { -- 
+		["spEffectId1"] = 4300,
+		["spEffectId2"] = 4315,
+		["spEffectId3"] = 4375,
+		["spEffectId4"] = -1
+	},
+	[107000] = { -- 
+		["spEffectId1"] = 5070,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[107001] = { -- 
+		["spEffectId1"] = 5071,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[107002] = { -- 
+		["spEffectId1"] = 5072,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[108000] = { -- 
+		["spEffectId1"] = 8971,
+		["spEffectId2"] = 5260,
+		["spEffectId3"] = 9080,
+		["spEffectId4"] = -1
+	},
+	[108010] = { -- 
+		["spEffectId1"] = 4330,
+		["spEffectId2"] = 5260,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[108100] = { -- 
+		["spEffectId1"] = 4460,
+		["spEffectId2"] = 4461,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[108110] = { -- 
+		["spEffectId1"] = 4460,
+		["spEffectId2"] = 4461,
+		["spEffectId3"] = 4465,
+		["spEffectId4"] = -1
+	},
+	[109000] = { -- 
+		["spEffectId1"] = 4301,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[109010] = { -- 
+		["spEffectId1"] = 4300,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[1200000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[1200010] = { -- 
+		["spEffectId1"] = 16613,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[1200020] = { -- 
+		["spEffectId1"] = 16614,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[1200030] = { -- 
+		["spEffectId1"] = 16615,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[10000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[10000010] = { -- 
+		["spEffectId1"] = 9680,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[10000020] = { -- 
+		["spEffectId1"] = 9681,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[20410000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[20410010] = { -- 
+		["spEffectId1"] = 18900,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[20410020] = { -- 
+		["spEffectId1"] = 18901,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[20410030] = { -- 
+		["spEffectId1"] = 18902,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21200000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21200010] = { -- 
+		["spEffectId1"] = 16147,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400010] = { -- 
+		["spEffectId1"] = 16506,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400020] = { -- 
+		["spEffectId1"] = 16503,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400030] = { -- 
+		["spEffectId1"] = 16515,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400040] = { -- 
+		["spEffectId1"] = 16518,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21400050] = { -- 
+		["spEffectId1"] = 16519,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21500010] = { -- 
+		["spEffectId1"] = 19101,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[21500020] = { -- 
+		["spEffectId1"] = 19102,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[22700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[22700010] = { -- 
+		["spEffectId1"] = 12049,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[22700020] = { -- 
+		["spEffectId1"] = 12560,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000010] = { -- 
+		["spEffectId1"] = 10173,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000020] = { -- 
+		["spEffectId1"] = 10183,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000030] = { -- 
+		["spEffectId1"] = 10164,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000040] = { -- 
+		["spEffectId1"] = 19000,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000050] = { -- 
+		["spEffectId1"] = 19001,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000060] = { -- 
+		["spEffectId1"] = 19002,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000070] = { -- 
+		["spEffectId1"] = 19003,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000080] = { -- 
+		["spEffectId1"] = 19004,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000090] = { -- 
+		["spEffectId1"] = 19005,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000100] = { -- 
+		["spEffectId1"] = 19006,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30000110] = { -- 
+		["spEffectId1"] = 19007,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30100010] = { -- 
+		["spEffectId1"] = 10855,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30700010] = { -- 
+		["spEffectId1"] = 12054,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30700020] = { -- 
+		["spEffectId1"] = 12059,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30701000] = { -- 
+		["spEffectId1"] = 12057,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30801000] = { -- 
+		["spEffectId1"] = 17154,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30800200] = { -- 
+		["spEffectId1"] = 17153,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[30800210] = { -- 
+		["spEffectId1"] = 17152,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31501000] = { -- 
+		["spEffectId1"] = 11830,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31700010] = { -- 
+		["spEffectId1"] = 11870,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31700020] = { -- 
+		["spEffectId1"] = 11860,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31800010] = { -- 
+		["spEffectId1"] = 5401,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31810000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31810010] = { -- 
+		["spEffectId1"] = 16902,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[31810020] = { -- 
+		["spEffectId1"] = 16904,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[32510000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[32510010] = { -- 
+		["spEffectId1"] = 13772,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33200000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33200010] = { -- 
+		["spEffectId1"] = 5020,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33200020] = { -- 
+		["spEffectId1"] = 5021,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33200030] = { -- 
+		["spEffectId1"] = 5022,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33200040] = { -- 
+		["spEffectId1"] = 16311,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33300000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33300010] = { -- 
+		["spEffectId1"] = 5020,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33300020] = { -- 
+		["spEffectId1"] = 5021,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33600010] = { -- 
+		["spEffectId1"] = 13195,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33600020] = { -- 
+		["spEffectId1"] = 13177,
+		["spEffectId2"] = 4300,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[33700010] = { -- 
+		["spEffectId1"] = 13185,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[34700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[34700010] = { -- 
+		["spEffectId1"] = 15606,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[34700020] = { -- 
+		["spEffectId1"] = 15607,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[34700030] = { -- 
+		["spEffectId1"] = 15610,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35000010] = { -- 
+		["spEffectId1"] = 12535,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35000020] = { -- 
+		["spEffectId1"] = 12536,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35000030] = { -- 
+		["spEffectId1"] = 12537,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35000040] = { -- 
+		["spEffectId1"] = 19050,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35100010] = { -- 
+		["spEffectId1"] = 17210,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[35700010] = { -- 
+		["spEffectId1"] = 15507,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36100010] = { -- 
+		["spEffectId1"] = 5020,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36300000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36300010] = { -- 
+		["spEffectId1"] = 5020,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600005] = { -- 
+		["spEffectId1"] = 14702,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600010] = { -- 
+		["spEffectId1"] = 14705,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600020] = { -- 
+		["spEffectId1"] = 14706,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600030] = { -- 
+		["spEffectId1"] = 14703,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600060] = { -- 
+		["spEffectId1"] = 14704,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36600070] = { -- 
+		["spEffectId1"] = 14712,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610010] = { -- 
+		["spEffectId1"] = 17041,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610020] = { -- 
+		["spEffectId1"] = 17042,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610030] = { -- 
+		["spEffectId1"] = 17044,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610040] = { -- 
+		["spEffectId1"] = 17045,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610050] = { -- 
+		["spEffectId1"] = 13471,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610060] = { -- 
+		["spEffectId1"] = 17047,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610070] = { -- 
+		["spEffectId1"] = 17048,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36610080] = { -- 
+		["spEffectId1"] = 17049,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[36700010] = { -- 
+		["spEffectId1"] = 17121,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37020000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37020010] = { -- 
+		["spEffectId1"] = 14806,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37030010] = { -- 
+		["spEffectId1"] = 14443,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37040000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37040010] = { -- 
+		["spEffectId1"] = 17452,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37500010] = { -- 
+		["spEffectId1"] = 14151,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[37500020] = { -- 
+		["spEffectId1"] = 14154,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[38500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[38500010] = { -- 
+		["spEffectId1"] = 14061,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[39700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[39700010] = { -- 
+		["spEffectId1"] = 14661,
+		["spEffectId2"] = 14663,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[39700020] = { -- 
+		["spEffectId1"] = 14662,
+		["spEffectId2"] = 14663,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[39700030] = { -- 
+		["spEffectId1"] = 14667,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40200000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40200010] = { -- 
+		["spEffectId1"] = 16683,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40400010] = { -- 
+		["spEffectId1"] = 18530,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40500010] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40500020] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40700010] = { -- 
+		["spEffectId1"] = 10416,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40700020] = { -- 
+		["spEffectId1"] = 10417,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40700500] = { -- 
+		["spEffectId1"] = 16941,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40700510] = { -- 
+		["spEffectId1"] = 16940,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[40800010] = { -- 
+		["spEffectId1"] = 10432,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41000010] = { -- 
+		["spEffectId1"] = 10559,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41000020] = { -- 
+		["spEffectId1"] = 10585,
+		["spEffectId2"] = 10587,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41000030] = { -- 
+		["spEffectId1"] = 10586,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41000040] = { -- 
+		["spEffectId1"] = 10585,
+		["spEffectId2"] = 10588,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41100010] = { -- 
+		["spEffectId1"] = 10579,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400010] = { -- 
+		["spEffectId1"] = 15008,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400020] = { -- 
+		["spEffectId1"] = 15050,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400030] = { -- 
+		["spEffectId1"] = 15051,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400040] = { -- 
+		["spEffectId1"] = 15052,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41400100] = { -- 
+		["spEffectId1"] = 4302,
+		["spEffectId2"] = 15025,
+		["spEffectId3"] = 295000,
+		["spEffectId4"] = -1
+	},
+	[41900000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41900010] = { -- 
+		["spEffectId1"] = 12605,
+		["spEffectId2"] = 12606,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41900020] = { -- 
+		["spEffectId1"] = 12605,
+		["spEffectId2"] = 12607,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41900030] = { -- 
+		["spEffectId1"] = 12605,
+		["spEffectId2"] = 12608,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41900040] = { -- 
+		["spEffectId1"] = 12630,
+		["spEffectId2"] = 12615,
+		["spEffectId3"] = 5000,
+		["spEffectId4"] = -1
+	},
+	[41900041] = { -- 
+		["spEffectId1"] = 12630,
+		["spEffectId2"] = 12615,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[41900050] = { -- 
+		["spEffectId1"] = 12604,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42000010] = { -- 
+		["spEffectId1"] = 10507,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42000020] = { -- 
+		["spEffectId1"] = 10516,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42000030] = { -- 
+		["spEffectId1"] = 10517,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42100010] = { -- 
+		["spEffectId1"] = 10911,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42400010] = { -- 
+		["spEffectId1"] = 12015,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42600010] = { -- 
+		["spEffectId1"] = 13430,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42600020] = { -- 
+		["spEffectId1"] = 13431,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[42800010] = { -- 
+		["spEffectId1"] = 15369,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43000010] = { -- 
+		["spEffectId1"] = 10108,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43000020] = { -- 
+		["spEffectId1"] = 10112,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43000030] = { -- 
+		["spEffectId1"] = 10102,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43000040] = { -- 
+		["spEffectId1"] = 10105,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100010] = { -- 
+		["spEffectId1"] = 5090,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100020] = { -- 
+		["spEffectId1"] = 13279,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100030] = { -- 
+		["spEffectId1"] = 13290,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100040] = { -- 
+		["spEffectId1"] = 13270,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100050] = { -- 
+		["spEffectId1"] = 13289,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100060] = { -- 
+		["spEffectId1"] = 13298,
+		["spEffectId2"] = 13289,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100070] = { -- 
+		["spEffectId1"] = 295200,
+		["spEffectId2"] = 295201,
+		["spEffectId3"] = 4302,
+		["spEffectId4"] = -1
+	},
+	[43100071] = { -- 
+		["spEffectId1"] = 295200,
+		["spEffectId2"] = 4302,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43100080] = { -- 
+		["spEffectId1"] = 5021,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43210000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43210010] = { -- 
+		["spEffectId1"] = 11980,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43210020] = { -- 
+		["spEffectId1"] = 11983,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43400010] = { -- 
+		["spEffectId1"] = 13268,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43400020] = { -- 
+		["spEffectId1"] = 13269,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500010] = { -- 
+		["spEffectId1"] = 14475,
+		["spEffectId2"] = 14469,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500020] = { -- 
+		["spEffectId1"] = 14497,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500030] = { -- 
+		["spEffectId1"] = 14498,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500040] = { -- 
+		["spEffectId1"] = 14486,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500050] = { -- 
+		["spEffectId1"] = 14487,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500060] = { -- 
+		["spEffectId1"] = 14492,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500070] = { -- 
+		["spEffectId1"] = 14493,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500080] = { -- 
+		["spEffectId1"] = 14455,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500090] = { -- 
+		["spEffectId1"] = 14467,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500100] = { -- 
+		["spEffectId1"] = 14490,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43500110] = { -- 
+		["spEffectId1"] = 14499,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700010] = { -- 
+		["spEffectId1"] = 13690,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700011] = { -- 
+		["spEffectId1"] = 5024,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700020] = { -- 
+		["spEffectId1"] = 13665,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700021] = { -- 
+		["spEffectId1"] = 13666,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700030] = { -- 
+		["spEffectId1"] = 13663,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700031] = { -- 
+		["spEffectId1"] = 13675,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700040] = { -- 
+		["spEffectId1"] = 13689,
+		["spEffectId2"] = 4300,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43700050] = { -- 
+		["spEffectId1"] = 13688,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43800010] = { -- 
+		["spEffectId1"] = 15655,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43800020] = { -- 
+		["spEffectId1"] = 15656,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43800021] = { -- 
+		["spEffectId1"] = 15658,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43800022] = { -- 
+		["spEffectId1"] = 15657,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43810000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43810010] = { -- 
+		["spEffectId1"] = 16549,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43820000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43820010] = { -- 
+		["spEffectId1"] = 16567,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43850000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[43850010] = { -- 
+		["spEffectId1"] = 17130,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44700010] = { -- 
+		["spEffectId1"] = 14306,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44800000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44800010] = { -- 
+		["spEffectId1"] = 14980,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44800020] = { -- 
+		["spEffectId1"] = 14981,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44900000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44900010] = { -- 
+		["spEffectId1"] = 15206,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[44900020] = { -- 
+		["spEffectId1"] = 15211,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45100010] = { -- 
+		["spEffectId1"] = 14886,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45100020] = { -- 
+		["spEffectId1"] = 14876,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45500010] = { -- 
+		["spEffectId1"] = 14018,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45600010] = { -- 
+		["spEffectId1"] = 15444,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[45700010] = { -- 
+		["spEffectId1"] = 16581,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000010] = { -- 
+		["spEffectId1"] = 10155,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000020] = { -- 
+		["spEffectId1"] = 10156,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000030] = { -- 
+		["spEffectId1"] = 10158,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000040] = { -- 
+		["spEffectId1"] = 10159,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46000050] = { -- 
+		["spEffectId1"] = 10139,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46400000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46400010] = { -- 
+		["spEffectId1"] = 18872,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46400020] = { -- 
+		["spEffectId1"] = 18873,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46400030] = { -- 
+		["spEffectId1"] = 18874,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46500010] = { -- 
+		["spEffectId1"] = 13222,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46600010] = { -- 
+		["spEffectId1"] = 12177,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46600020] = { -- 
+		["spEffectId1"] = 12159,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46600030] = { -- 
+		["spEffectId1"] = 12183,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46600040] = { -- 
+		["spEffectId1"] = 12184,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46900000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46900010] = { -- 
+		["spEffectId1"] = 16290,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46900020] = { -- 
+		["spEffectId1"] = 16283,
+		["spEffectId2"] = 16284,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46900030] = { -- 
+		["spEffectId1"] = 16291,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[46900040] = { -- 
+		["spEffectId1"] = 16292,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[47700000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[47700010] = { -- 
+		["spEffectId1"] = 17637,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[47700020] = { -- 
+		["spEffectId1"] = 17638,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[47700030] = { -- 
+		["spEffectId1"] = 17639,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[48100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[48100010] = { -- 
+		["spEffectId1"] = 17301,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49500000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49500010] = { -- 
+		["spEffectId1"] = 15346,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49500020] = { -- 
+		["spEffectId1"] = 15347,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49500030] = { -- 
+		["spEffectId1"] = 15348,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49500040] = { -- 
+		["spEffectId1"] = 15349,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49600000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[49600010] = { -- 
+		["spEffectId1"] = 5020,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[60100000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[60100010] = { -- 
+		["spEffectId1"] = 11400,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[60720000] = { -- 
+		["spEffectId1"] = -1,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	},
+	[60720010] = { -- 
+		["spEffectId1"] = 15555,
+		["spEffectId2"] = -1,
+		["spEffectId3"] = -1,
+		["spEffectId4"] = -1
+	}
+}

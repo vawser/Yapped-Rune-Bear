@@ -1,0 +1,3252 @@
+local MaterialExParam = {
+	[100] = { -- 
+		["paramName"] = Rise_Intensity,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1000] = { -- 
+		["paramName"] = c4500_Heat_Intensity,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1001] = { -- 
+		["paramName"] = c3350_Crack_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1002] = { -- 
+		["paramName"] = c4180_FallOff_Color_Switch,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1003] = { -- 
+		["paramName"] = c4180_Anger_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1004] = { -- 
+		["paramName"] = c4460_OilLeak_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1005] = { -- 
+		["paramName"] = c3320_[VA]PlayFrame,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1006] = { -- 
+		["paramName"] = c4760_RopeCut_Right_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1007] = { -- 
+		["paramName"] = c4760_RopeCut_Left_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1008] = { -- 
+		["paramName"] = c4720_[Appear]_Mask_[Edge],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1009] = { -- 
+		["paramName"] = c4720_[Transparency]_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1010] = { -- 
+		["paramName"] = c4520_Fade_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1011] = { -- 
+		["paramName"] = c2500_Fade[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1012] = { -- 
+		["paramName"] = c2110_[Fire]_[Mask]_[Edge],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1013] = { -- 
+		["paramName"] = c2110_[Fire]_[Emissive]_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1014] = { -- 
+		["paramName"] = c3400_Fade[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1015] = { -- 
+		["paramName"] = c2190_Blend[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1020] = { -- 
+		["paramName"] = c2070_[Finger]_[em]_Mask_[Edge],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1021] = { -- 
+		["paramName"] = c2070_[Finger]_[em]_Base_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1022] = { -- 
+		["paramName"] = c2070_[Crack]_[em]_[Edge],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1023] = { -- 
+		["paramName"] = c2070_[Mud]_FadeOut_[Edge],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1024] = { -- 
+		["paramName"] = c2070_[Finger]_[em]_[ColorTemp],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1025] = { -- 
+		["paramName"] = c2070_[Finger]_[em]_Base_[Grad],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[1050] = { -- 
+		["paramName"] = c2200_RuneEmissive_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10000] = { -- 
+		["paramName"] = C[AMSN]EmissiveInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10001] = { -- 
+		["paramName"] = Emissive_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10010] = { -- 
+		["paramName"] = [VA]PlayFrame,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10100] = { -- 
+		["paramName"] = C_EmissiveBaseInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10101] = { -- 
+		["paramName"] = C_EmissiveStencilInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10200] = { -- 
+		["paramName"] = [VA]PlayFrame,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10201] = { -- 
+		["paramName"] = [CS]PlayFrame,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10202] = { -- 
+		["paramName"] = [CS]VertexAnimationTransfer,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10203] = { -- 
+		["paramName"] = [CS]VertexAnimationNormal,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10210] = { -- 
+		["paramName"] = [BlinkMask]_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10211] = { -- 
+		["paramName"] = [BlinkMask]_R_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10212] = { -- 
+		["paramName"] = [BlinkMask]_L_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10300] = { -- 
+		["paramName"] = C[PixelKill]_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10301] = { -- 
+		["paramName"] = C[PixelKill][ID1]_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[10400] = { -- 
+		["paramName"] = c2190_[Rune]_BaseAlpha_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20000] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0.7,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20001] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 2,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0.7,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20002] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 2,
+		["materialParamValue1"] = 0.8,
+		["materialParamValue2"] = 0.8,
+		["materialParamValue3"] = 0.8,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20003] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20004] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 3,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0.85,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20005] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20006] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 4,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.5,
+		["materialParamValue3"] = 0.85,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20007] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0.5,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20008] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 5,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20009] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20010] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20011] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20012] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 3,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20013] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 2,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20014] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.03,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20015] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 7,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.8,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20016] = { -- 
+		["paramName"] = c4190_Crystal_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0.3,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20017] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.37,
+		["materialParamValue2"] = 0.4,
+		["materialParamValue3"] = 0.44,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20018] = { -- 
+		["paramName"] = c4190_Rune_FloatSet_2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20100] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 0.95,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20101] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.89,
+		["materialParamValue1"] = 0.83,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 0.97,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20102] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.93,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20103] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 0.84,
+		["materialParamValue3"] = 0.76,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20104] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.76,
+		["materialParamValue1"] = 0.76,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20105] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.19,
+		["materialParamValue1"] = 0.19,
+		["materialParamValue2"] = 0.19,
+		["materialParamValue3"] = 0.22,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20106] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.21,
+		["materialParamValue1"] = 0.2,
+		["materialParamValue2"] = 0.37,
+		["materialParamValue3"] = 0.37,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20107] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.37,
+		["materialParamValue1"] = 0.25,
+		["materialParamValue2"] = 0.25,
+		["materialParamValue3"] = 0.25,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20108] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.27,
+		["materialParamValue1"] = 0.25,
+		["materialParamValue2"] = 0.22,
+		["materialParamValue3"] = 0.19,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20109] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.18,
+		["materialParamValue1"] = 0.18,
+		["materialParamValue2"] = 0.12,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20110] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.02,
+		["materialParamValue1"] = 0.02,
+		["materialParamValue2"] = 0.02,
+		["materialParamValue3"] = 0.2,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20111] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.2,
+		["materialParamValue1"] = 0.2,
+		["materialParamValue2"] = 0.06,
+		["materialParamValue3"] = 0.06,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20112] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.06,
+		["materialParamValue1"] = 0.07,
+		["materialParamValue2"] = 0.07,
+		["materialParamValue3"] = 0.07,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20113] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.02,
+		["materialParamValue1"] = 0.02,
+		["materialParamValue2"] = 0.02,
+		["materialParamValue3"] = 0.28,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20114] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.28,
+		["materialParamValue1"] = 0.28,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20115] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.07,
+		["materialParamValue1"] = 0.07,
+		["materialParamValue2"] = 0.07,
+		["materialParamValue3"] = 0.05,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20116] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.07,
+		["materialParamValue1"] = 0.12,
+		["materialParamValue2"] = 0.39,
+		["materialParamValue3"] = 0.54,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20117] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.79,
+		["materialParamValue1"] = 0.36,
+		["materialParamValue2"] = 0.38,
+		["materialParamValue3"] = 0.42,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20118] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.08,
+		["materialParamValue1"] = 0.08,
+		["materialParamValue2"] = 0.09,
+		["materialParamValue3"] = 0.17,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20119] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.18,
+		["materialParamValue1"] = 0.3,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20120] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.35,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0.05,
+		["materialParamValue3"] = 0.7,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20121] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.6,
+		["materialParamValue1"] = 0.45,
+		["materialParamValue2"] = 0.85,
+		["materialParamValue3"] = 0.1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20122] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0.15,
+		["materialParamValue2"] = 0.15,
+		["materialParamValue3"] = 0.25,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20123] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.18,
+		["materialParamValue1"] = 0.01,
+		["materialParamValue2"] = 0.01,
+		["materialParamValue3"] = 0.48,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20124] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.25,
+		["materialParamValue1"] = 0.06,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20125] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.05,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0.05,
+		["materialParamValue3"] = 0.33,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20126] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.26,
+		["materialParamValue1"] = 0.04,
+		["materialParamValue2"] = 0.35,
+		["materialParamValue3"] = 0.39,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20127] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.05,
+		["materialParamValue1"] = 0.15,
+		["materialParamValue2"] = 0.17,
+		["materialParamValue3"] = 0.07,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20128] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.44,
+		["materialParamValue1"] = 0.32,
+		["materialParamValue2"] = 0.08,
+		["materialParamValue3"] = 0.35,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20129] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.29,
+		["materialParamValue1"] = 0.16,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20130] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.05,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0.05,
+		["materialParamValue3"] = 0.45,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20131] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.67,
+		["materialParamValue1"] = 0.4,
+		["materialParamValue2"] = 0.07,
+		["materialParamValue3"] = 0.2,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20132] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.06,
+		["materialParamValue1"] = 0.08,
+		["materialParamValue2"] = 0.16,
+		["materialParamValue3"] = 0.07,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20133] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.07,
+		["materialParamValue1"] = 0.24,
+		["materialParamValue2"] = 0.08,
+		["materialParamValue3"] = 0.2,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20134] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.44,
+		["materialParamValue1"] = 0.34,
+		["materialParamValue2"] = 0.15,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20135] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.05,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0.05,
+		["materialParamValue3"] = 0.39,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20136] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.14,
+		["materialParamValue1"] = 0.03,
+		["materialParamValue2"] = 0.89,
+		["materialParamValue3"] = 0.17,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20137] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0.29,
+		["materialParamValue2"] = 0.11,
+		["materialParamValue3"] = 0.04,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20138] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.37,
+		["materialParamValue1"] = 0.16,
+		["materialParamValue2"] = 0.02,
+		["materialParamValue3"] = 0.82,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20139] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.32,
+		["materialParamValue1"] = 0.16,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20140] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.05,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0.05,
+		["materialParamValue3"] = 0.26,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20141] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.25,
+		["materialParamValue1"] = 0.23,
+		["materialParamValue2"] = 0.27,
+		["materialParamValue3"] = 0.18,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20142] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.29,
+		["materialParamValue1"] = 0.25,
+		["materialParamValue2"] = 0.21,
+		["materialParamValue3"] = 0.18,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20143] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.39,
+		["materialParamValue1"] = 0.36,
+		["materialParamValue2"] = 0.35,
+		["materialParamValue3"] = 0.18,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20144] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.16,
+		["materialParamValue1"] = 0.32,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20145] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.95,
+		["materialParamValue2"] = 0.85,
+		["materialParamValue3"] = 0.89,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20146] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.74,
+		["materialParamValue1"] = 0.61,
+		["materialParamValue2"] = 0.9,
+		["materialParamValue3"] = 0.69,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20147] = { -- 
+		["paramName"] = c3200_FloatSet3,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.69,
+		["materialParamValue1"] = 0.3,
+		["materialParamValue2"] = 0.34,
+		["materialParamValue3"] = 0.53,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20148] = { -- 
+		["paramName"] = c3200_FloatSet4,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.68,
+		["materialParamValue1"] = 0.57,
+		["materialParamValue2"] = 0.5,
+		["materialParamValue3"] = 0.54,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20149] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.45,
+		["materialParamValue1"] = 0.45,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20150] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20200] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.65,
+		["materialParamValue1"] = 0.65,
+		["materialParamValue2"] = 0.65,
+		["materialParamValue3"] = 0.8,
+		["materialParamValue4"] = 9999,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20201] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.8,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20202] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20203] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.3,
+		["materialParamValue1"] = 0.3,
+		["materialParamValue2"] = 0.3,
+		["materialParamValue3"] = 0.2,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20204] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.2,
+		["materialParamValue1"] = 0.2,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20205] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20206] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.15,
+		["materialParamValue1"] = 0.15,
+		["materialParamValue2"] = 0.15,
+		["materialParamValue3"] = 0.1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20207] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.1,
+		["materialParamValue1"] = 0.1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20208] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20209] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.13,
+		["materialParamValue1"] = 0.21,
+		["materialParamValue2"] = 0.38,
+		["materialParamValue3"] = 0.13,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20210] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.21,
+		["materialParamValue1"] = 0.38,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20211] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20212] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.22,
+		["materialParamValue1"] = 0.03,
+		["materialParamValue2"] = 0.02,
+		["materialParamValue3"] = 0.27,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20213] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.07,
+		["materialParamValue1"] = 0.05,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20214] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20215] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.58,
+		["materialParamValue1"] = 0.35,
+		["materialParamValue2"] = 0.09,
+		["materialParamValue3"] = 0.64,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20216] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.45,
+		["materialParamValue1"] = 0.13,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20217] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20218] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.1,
+		["materialParamValue1"] = 0.27,
+		["materialParamValue2"] = 0.1,
+		["materialParamValue3"] = 0.14,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20219] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.34,
+		["materialParamValue1"] = 0.2,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20220] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.3,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20221] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.47,
+		["materialParamValue1"] = 0.17,
+		["materialParamValue2"] = 0.01,
+		["materialParamValue3"] = 0.5,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20222] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.2,
+		["materialParamValue1"] = 0.12,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20223] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20224] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.25,
+		["materialParamValue1"] = 0.21,
+		["materialParamValue2"] = 0.41,
+		["materialParamValue3"] = 0.21,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20225] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.22,
+		["materialParamValue1"] = 0.37,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20226] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0.7,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20227] = { -- 
+		["paramName"] = c3200_FloatSet1,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.67,
+		["materialParamValue1"] = 0.6,
+		["materialParamValue2"] = 0.67,
+		["materialParamValue3"] = 0.4,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20228] = { -- 
+		["paramName"] = c3200_FloatSet2,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.3,
+		["materialParamValue1"] = 0.37,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20229] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20230] = { -- 
+		["paramName"] = c3200_FloatSet5,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20300] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 10,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20301] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 45,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20302] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 0.92,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.8,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20303] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20304] = { -- 
+		["paramName"] = DetailTexSet4_MaskInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20400] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 3,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20402] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 25,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20403] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20404] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.6,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20500] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.67,
+		["materialParamValue1"] = 0.77,
+		["materialParamValue2"] = 0.8,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20501] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20502] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20503] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.82,
+		["materialParamValue2"] = 0.82,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20504] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20600] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.51,
+		["materialParamValue1"] = 0.76,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20601] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.6,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20602] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20603] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20604] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20700] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20701] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20800] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.86,
+		["materialParamValue1"] = 0.91,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20801] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.77,
+		["materialParamValue1"] = 0.87,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20900] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.74,
+		["materialParamValue2"] = 0.58,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 18,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20905] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.08,
+		["materialParamValue1"] = 0.08,
+		["materialParamValue2"] = 0.08,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20906] = { -- 
+		["paramName"] = [Shininess]_1_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20907] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.8,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20908] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.08,
+		["materialParamValue1"] = 0.08,
+		["materialParamValue2"] = 0.08,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[20909] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21000] = { -- 
+		["paramName"] = [Albedo]_2_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.79,
+		["materialParamValue2"] = 0.75,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.8,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21001] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 0.93,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2.4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21100] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.45,
+		["materialParamValue1"] = 0.12,
+		["materialParamValue2"] = 0.12,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21101] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.64,
+		["materialParamValue1"] = 0.29,
+		["materialParamValue2"] = 0.29,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21102] = { -- 
+		["paramName"] = [Shininess]_3_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.8,
+		["materialParamValue2"] = 0.8,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21103] = { -- 
+		["paramName"] = [Metalness]_3_[[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21104] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 3,
+		["materialParamValue0"] = 0.56,
+		["materialParamValue1"] = 0.29,
+		["materialParamValue2"] = 0.29,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21200] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21201] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.92,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 6,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21202] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.2,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21203] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.92,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21204] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.3,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21300] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21301] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2.7,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21302] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 30,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21303] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.93,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.95,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21400] = { -- 
+		["paramName"] = FallOff_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.5,
+		["materialParamValue1"] = 0.5,
+		["materialParamValue2"] = 0.5,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21401] = { -- 
+		["paramName"] = FallOff_Anger_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21500] = { -- 
+		["paramName"] = [Albedo]_1_[Tint_ArrayValue],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21501] = { -- 
+		["paramName"] = VtxChSwitch_GreenEnable,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21600] = { -- 
+		["paramName"] = c4620_Albedo_Switch,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21601] = { -- 
+		["paramName"] = c4620_GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21602] = { -- 
+		["paramName"] = [Emissive]_Base_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.53,
+		["materialParamValue1"] = 0.53,
+		["materialParamValue2"] = 0.53,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.07,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21603] = { -- 
+		["paramName"] = [Emissive]_Base_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.48,
+		["materialParamValue1"] = 0.53,
+		["materialParamValue2"] = 0.62,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21700] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21701] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.4,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21702] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.95,
+		["materialParamValue1"] = 0.96,
+		["materialParamValue2"] = 0.9,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 6,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21703] = { -- 
+		["paramName"] = [Shininess]_1_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = -0.2,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21800] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21900] = { -- 
+		["paramName"] = c3350_Blend_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21901] = { -- 
+		["paramName"] = c3350_Emissive_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[21902] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.63,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 15,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22000] = { -- 
+		["paramName"] = c2190_[Rune]_BaseAlpha_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22100] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.7,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22101] = { -- 
+		["paramName"] = [Albedo]_2_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22102] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.52,
+		["materialParamValue1"] = 0.87,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22103] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.52,
+		["materialParamValue1"] = 0.56,
+		["materialParamValue2"] = 0.6,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22104] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22105] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.67,
+		["materialParamValue2"] = 0.28,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.8,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22106] = { -- 
+		["paramName"] = [Albedo]_2_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.85,
+		["materialParamValue2"] = 0.58,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22107] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.6,
+		["materialParamValue2"] = 0.26,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22108] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.84,
+		["materialParamValue2"] = 0.41,
+		["materialParamValue3"] = 1.2,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22109] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22110] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22111] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 2,
+		["materialParamValue3"] = 2,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22112] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 0.35,
+		["materialParamValue1"] = 0.22,
+		["materialParamValue2"] = 0.43,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22113] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 3,
+		["materialParamValue0"] = 0.98,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22200] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22300] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.81,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22301] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.5,
+		["materialParamValue1"] = 0.5,
+		["materialParamValue2"] = 0.5,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22302] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 3,
+		["materialParamValue0"] = 0.9,
+		["materialParamValue1"] = 0.89,
+		["materialParamValue2"] = 0.84,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22303] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22400] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 0.76,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22401] = { -- 
+		["paramName"] = [Metalness]_Base_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.7,
+		["materialParamValue1"] = 0.7,
+		["materialParamValue2"] = 0.7,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22500] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.77,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 9,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22501] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22502] = { -- 
+		["paramName"] = [Albedo]_2_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.88,
+		["materialParamValue2"] = 0.77,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22503] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22504] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 8,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22600] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 0.68,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 10,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22601] = { -- 
+		["paramName"] = [Metalness]_Base_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.9,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.9,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22602] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.92,
+		["materialParamValue2"] = 0.76,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 15,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22603] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22604] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 3,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 0.83,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22700] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 0.82,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22701] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.97,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 0.85,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22702] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.82,
+		["materialParamValue1"] = 0.89,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22703] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.94,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22704] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.84,
+		["materialParamValue2"] = 0.6,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22705] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.94,
+		["materialParamValue2"] = 0.89,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22706] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.83,
+		["materialParamValue2"] = 0.77,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22707] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.92,
+		["materialParamValue2"] = 0.91,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22800] = { -- 
+		["paramName"] = [Albedo]_Base_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.47,
+		["materialParamValue1"] = 0.47,
+		["materialParamValue2"] = 0.7,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22900] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22901] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 4,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22902] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.5,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[22903] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 70,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23000] = { -- 
+		["paramName"] = [Metalness]_Base_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = -0.4,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23001] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.5,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23002] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.9,
+		["materialParamValue1"] = 0.92,
+		["materialParamValue2"] = 0.95,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 7,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23003] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.9,
+		["materialParamValue1"] = 0.92,
+		["materialParamValue2"] = 0.95,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23100] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 10,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23101] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.6,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23102] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 2,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.59,
+		["materialParamValue2"] = 0.59,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23103] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23200] = { -- 
+		["paramName"] = DetailTexSet3_MaskInt,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23201] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.98,
+		["materialParamValue2"] = 0.87,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23202] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.96,
+		["materialParamValue1"] = 0.95,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23203] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.98,
+		["materialParamValue1"] = 0.97,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23204] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.6,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23300] = { -- 
+		["paramName"] = c4640_[Albedo]_Base_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.92,
+		["materialParamValue1"] = 0.74,
+		["materialParamValue2"] = 0.7,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23301] = { -- 
+		["paramName"] = c4640_[Albedo]_Base_[Tint],
+		["materialId"] = 3,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.67,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23302] = { -- 
+		["paramName"] = c4640_[Metalness]_Base_[Int],
+		["materialId"] = 3,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 0,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23400] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 1,
+		["materialParamValue1"] = 1,
+		["materialParamValue2"] = 1,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.8,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23401] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.4,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23500] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.23,
+		["materialParamValue1"] = 0.28,
+		["materialParamValue2"] = 0.28,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23501] = { -- 
+		["paramName"] = [Shininess]_1_[Int],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.3,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23600] = { -- 
+		["paramName"] = GrayScale_[Int],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.5,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23601] = { -- 
+		["paramName"] = [Albedo]_4_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.8,
+		["materialParamValue1"] = 0.8,
+		["materialParamValue2"] = 0.73,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23700] = { -- 
+		["paramName"] = [Albedo]_1_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.56,
+		["materialParamValue1"] = 0.87,
+		["materialParamValue2"] = 0.53,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[23701] = { -- 
+		["paramName"] = [Albedo]_3_[Tint],
+		["materialId"] = 1,
+		["materialParamValue0"] = 0.85,
+		["materialParamValue1"] = 0.9,
+		["materialParamValue2"] = 0.79,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[100000] = { -- 
+		["paramName"] = AEG_TexOffset,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[120000] = { -- 
+		["paramName"] = M[Elevator]_GlowRate,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[190000] = { -- 
+		["paramName"] = M[Ctucifixion]_ApplyRate,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[190001] = { -- 
+		["paramName"] = M[Ctucifixion]_ApplyRate,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[600000] = { -- 
+		["paramName"] = [Emissive]_1_[Color],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[600001] = { -- 
+		["paramName"] = M[CircularWarp]_GlowRate,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700000] = { -- 
+		["paramName"] = [Emissive]_1_[Intensity],
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700100] = { -- 
+		["paramName"] = FakeLight_Angle,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0.25,
+		["materialParamValue1"] = 0.35,
+		["materialParamValue2"] = -0.16,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700110] = { -- 
+		["paramName"] = FakeLight_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 132,
+		["materialParamValue1"] = 187,
+		["materialParamValue2"] = 255,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2.5,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700120] = { -- 
+		["paramName"] = [Albedo]_Star_[Color],
+		["materialId"] = -1,
+		["materialParamValue0"] = 161,
+		["materialParamValue1"] = 211,
+		["materialParamValue2"] = 255,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700130] = { -- 
+		["paramName"] = [Generic]_Galaxy_[Color],
+		["materialId"] = -1,
+		["materialParamValue0"] = 141,
+		["materialParamValue1"] = 173,
+		["materialParamValue2"] = 255,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700140] = { -- 
+		["paramName"] = [1Mask]_Clouds_[Color],
+		["materialId"] = -1,
+		["materialParamValue0"] = 78,
+		["materialParamValue1"] = 153,
+		["materialParamValue2"] = 255,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 0.3,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700150] = { -- 
+		["paramName"] = [1Mask]_BlendEdge_[Color],
+		["materialId"] = -1,
+		["materialParamValue0"] = 175,
+		["materialParamValue1"] = 111,
+		["materialParamValue2"] = 255,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1.2,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700200] = { -- 
+		["paramName"] = Cutscene_Heightmap_Intensity,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[700210] = { -- 
+		["paramName"] = Cutscene_Heightmap_Scale,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 1,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800000] = { -- 
+		["paramName"] = [Skin]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800001] = { -- 
+		["paramName"] = [Skin]Gloss_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800002] = { -- 
+		["paramName"] = [Skin]Pores_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800003] = { -- 
+		["paramName"] = [Skin]Beard_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800004] = { -- 
+		["paramName"] = [Skin]AroundEye_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800005] = { -- 
+		["paramName"] = [Skin]AroundEye_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800006] = { -- 
+		["paramName"] = [Skin]Cheek_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800007] = { -- 
+		["paramName"] = [Skin]Cheek_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800010] = { -- 
+		["paramName"] = [MakeUp]EyeLine1_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800011] = { -- 
+		["paramName"] = [MakeUp]EyeLine1_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800012] = { -- 
+		["paramName"] = [MakeUp]EyeLine2_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800013] = { -- 
+		["paramName"] = [MakeUp]EyeLine2_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800014] = { -- 
+		["paramName"] = [MakeUp]EyeShadow_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800015] = { -- 
+		["paramName"] = [MakeUp]EyeShadow_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800016] = { -- 
+		["paramName"] = [MakeUp]Lip_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800017] = { -- 
+		["paramName"] = [MakeUp]Lip_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800020] = { -- 
+		["paramName"] = [Decal]Pos,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800021] = { -- 
+		["paramName"] = [Decal]Rot,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800022] = { -- 
+		["paramName"] = [Decal]Scale,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800023] = { -- 
+		["paramName"] = [Decal]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800024] = { -- 
+		["paramName"] = [Decal]Gloss,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800025] = { -- 
+		["paramName"] = [Decal]Texture,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800026] = { -- 
+		["paramName"] = [Decal]Mirror,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800027] = { -- 
+		["paramName"] = [Decal]_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800028] = { -- 
+		["paramName"] = [Body]Hair_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800029] = { -- 
+		["paramName"] = [Body]Hair_Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800030] = { -- 
+		["paramName"] = [Iris]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800031] = { -- 
+		["paramName"] = [Iris]Scale,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800032] = { -- 
+		["paramName"] = [Cataract]Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800033] = { -- 
+		["paramName"] = [Cataract]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800034] = { -- 
+		["paramName"] = [Sclera]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800035] = { -- 
+		["paramName"] = [Iris]Distance,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800040] = { -- 
+		["paramName"] = [Hair]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800041] = { -- 
+		["paramName"] = [Hair]Shininess_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800042] = { -- 
+		["paramName"] = [HairRoot]Black_Int,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800043] = { -- 
+		["paramName"] = [WhiteHair]Density,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[800050] = { -- 
+		["paramName"] = [Eyepatch]Color,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[900000] = { -- 
+		["paramName"] = c9660_Whit_to_Red,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[900001] = { -- 
+		["paramName"] = c9660_Black_to_Blue,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	},
+	[900002] = { -- 
+		["paramName"] = c9660_Phantom_Intensity,
+		["materialId"] = -1,
+		["materialParamValue0"] = 0,
+		["materialParamValue1"] = 0,
+		["materialParamValue2"] = 0,
+		["materialParamValue3"] = 0,
+		["materialParamValue4"] = 1,
+		["pad"] = "[0|0|0|0|0|0|0|0]"
+	}
+}

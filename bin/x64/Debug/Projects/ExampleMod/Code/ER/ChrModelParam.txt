@@ -1,0 +1,2732 @@
+local ChrModelParam = {
+	[100] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 0,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[110] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 0,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[120] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 0,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[1000] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 0,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2010] = { -- Blaidd
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[2030] = { -- Rennala
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2031] = { -- Rennala
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2040] = { -- Rennala Student
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2041] = { -- Kindred of Rot Larva
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2050] = { -- Snow Witch Ranni
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[2051] = { -- Snow Witch Ranni
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[2060] = { -- The Two Fingers
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2070] = { -- The Three Fingers
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2100] = { -- Black Knife Assassin
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2110] = { -- Beast Clergyman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2120] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2130] = { -- Morgott
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2131] = { -- Morgott (Dead)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2140] = { -- Omen
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2150] = { -- Empty
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2160] = { -- Palm Reader
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2170] = { -- Palm Reader
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[2180] = { -- Melina
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[2190] = { -- Radagon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2191] = { -- Radagon (Crucified)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2200] = { -- Elden Beast
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2270] = { -- Giant Crab
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2271] = { -- Crab
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2272] = { -- Giant Crab (Damaged)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2273] = { -- Crab (Worms)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2274] = { -- Crab
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2275] = { -- Crab (Crystals)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2276] = { -- Crab (Very Dirty)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2277] = { -- Crab (Dirty)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[2500] = { -- Crucible Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3000] = { -- Exile Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 0
+	},
+	[3010] = { -- Banished Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3020] = { -- Exile Soldier (Large)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3050] = { -- Commander
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3060] = { -- Giant Skeleton
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3061] = { -- Undead Azula Beastman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3070] = { -- Dominula Celebrant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3080] = { -- Imp
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3100] = { -- Elemer of the Briar
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3150] = { -- Night's Cavalry
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3160] = { -- Night's Cavalry Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3170] = { -- Albinauric Archer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3171] = { -- Albinauric Archer (No quiver)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3180] = { -- Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3181] = { -- Red Wolf of Radagon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3200] = { -- Nomadic Merchant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3201] = { -- Nomadic Merchant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3202] = { -- Nomadic Merchant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3210] = { -- Nomadic Merchant Mule
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3250] = { -- Draconic Tree Sentinel
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3251] = { -- Tree Sentinel
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3252] = { -- Tree Sentinel (Fallen)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3300] = { -- Nox Swordstress
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3320] = { -- Silver Tear
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3330] = { -- Giant Silver Tear
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3350] = { -- Crystalian
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3360] = { -- Ancestral Follower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3361] = { -- Ancestral Follower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3370] = { -- Ancestral Follower Shaman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3371] = { -- Ancestral Follower Shaman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3400] = { -- Grave Warden Duelist
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3450] = { -- Misbegotten
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 0
+	},
+	[3451] = { -- Misbegotten
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3460] = { -- Winged Misbegotten
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3470] = { -- Albinauric
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3471] = { -- Albinauric (Variant)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3500] = { -- Skeleton (Curved Sword)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3510] = { -- Skeleton (Scimitar)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3550] = { -- Sanguine Noble
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3560] = { -- Godskin Apostle
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3570] = { -- Godskin Noble
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3600] = { -- Alabaster Lord
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3610] = { -- Oracle Envoy
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3620] = { -- Oracle Envoy (Robe)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3630] = { -- Oracle Envoy
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3640] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3650] = { -- Erdtree Guardian
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3660] = { -- Commoner
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 0
+	},
+	[3661] = { -- Putrid Corpse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3662] = { -- Putrid Corpse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3664] = { -- Cemetery Shade
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3665] = { -- Devious Commoner
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3666] = { -- The Noble Goldmask
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3670] = { -- Albinauric Lookout
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3700] = { -- Depraved Perfumer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3701] = { -- Depraved Perfumer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3702] = { -- Raya Lucaria Scholar
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3703] = { -- Noble's Page
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3704] = { -- Battlemage
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3710] = { -- Primeval Sorcerer Azur
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3720] = { -- Sorcerer with Orbhead
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3730] = { -- Stone Wizard Orb
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3750] = { -- Clayman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3800] = { -- Cleanrot Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3810] = { -- Kindred of Rot
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3850] = { -- Marionette
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3860] = { -- Avionette
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3900] = { -- Fire Monk
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3901] = { -- Godskin Monk
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[3910] = { -- Fire Prelate
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[3950] = { -- Man-Serpent
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 0
+	},
+	[3970] = { -- Azula Beastman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4000] = { -- Revenant Follower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4020] = { -- Royal Revenant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4040] = { -- Slug
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4050] = { -- Kaiden Sellsword
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4060] = { -- Horse (Thick Mane)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4070] = { -- Wolf
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4071] = { -- Wolf
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4080] = { -- Rat
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4090] = { -- Giant Rat
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4100] = { -- Demi-Human
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4101] = { -- Demi-Human (Large)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4110] = { -- Demi-Human Shaman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4120] = { -- Demi-Human Chief
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4130] = { -- Demi-Human Queen
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4140] = { -- Snail
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4150] = { -- Basilisk
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4160] = { -- Dog (Thick Fur)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4161] = { -- Dog (Thick Fur)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4162] = { -- Starved Dog (Fur)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4163] = { -- Starved Dog (Fur)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4164] = { -- Starved Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4165] = { -- Starved Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4166] = { -- Starved Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4167] = { -- Starved Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4170] = { -- Living Mass
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4171] = { -- Living Mass
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4180] = { -- Jellyfish
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4190] = { -- Scarab
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4191] = { -- Scarab (Plain)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4192] = { -- Scarab
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4200] = { -- Giant Bat
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 512
+	},
+	[4201] = { -- Old Woman Bat
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4210] = { -- Warhawk
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4220] = { -- Land Octopus (Large)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4230] = { -- Land Octopus (Small)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4240] = { -- Fingercreeper (Large)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4241] = { -- Fingercreeper (Large)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4250] = { -- Fingercreeper (Small)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4260] = { -- Burial Watchdog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4270] = { -- Lion Guardian
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4280] = { -- Giant Ant Queen
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4281] = { -- Giant Ant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4290] = { -- Bloodhound Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4300] = { -- Wandering Noble
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 768
+	},
+	[4310] = { -- Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 0
+	},
+	[4311] = { -- Godrick Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4312] = { -- Raya Lucaria Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4313] = { -- Leyndell Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4314] = { -- Radahn Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4315] = { -- Mausoleum Soldier (Headless)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4316] = { -- Haligtree Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4321] = { -- Vulgar Militia
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4340] = { -- Mad Pumpkin Head
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4341] = { -- Grinning Torturer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4350] = { -- Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4351] = { -- Godrick Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4352] = { -- Cuckoo Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4353] = { -- Leyndell Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4354] = { -- Redmane Kngiht
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4355] = { -- Mausoleum Knight (Headless)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4356] = { -- Haligtree Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4358] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4360] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4361] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4362] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4363] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4364] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4365] = { -- Knight's Horse
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4368] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4370] = { -- Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4371] = { -- Godrick Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4372] = { -- Raya Lucaria Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4373] = { -- Leyndell Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4374] = { -- Radahn Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4375] = { -- Mausoleum Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4376] = { -- Haligtree Foot Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4377] = { -- Highwayman
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4380] = { -- Starcaller
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 15,
+		["unk"] = 768
+	},
+	[4381] = { -- Bloodthorn Exile
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4382] = { -- Tunnel Miner
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4383] = { -- Glintstone Miner
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4384] = { -- Glintstone Miner - Small Sack
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4385] = { -- Fungal Sorcerer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4420] = { -- Giant Lobster
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4421] = { -- Giant Lobster
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4430] = { -- Abnormal Stone Cluster
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4440] = { -- Fungal Pod
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4441] = { -- Giant Fungal Pod
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4442] = { -- Giant Rotten Pod
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4450] = { -- Walking Mausoleum
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = -1,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4460] = { -- Flamethrower Tank
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4470] = { -- Abductor Virgin
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4480] = { -- Giant Miranda Flower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4481] = { -- Miranda Sprout
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4482] = { -- Giant Miranda Flower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4483] = { -- Miranda Sprout
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4490] = { -- Living Jar - Large
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4491] = { -- Living Jar - Small
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4492] = { -- Living Jar - Huge
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 7,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4500] = { -- Dragon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4501] = { -- Dragon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4502] = { -- Dragon (Blade in Mouth)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4503] = { -- Dragon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4504] = { -- Lesser Elder Dragon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4505] = { -- Elder Dragon Greyoll
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4510] = { -- Ancient Dragon
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4511] = { -- Lichdragon Fortissax
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4520] = { -- Dragonlord Placidusax
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4550] = { -- Monstrous Dog
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4560] = { -- Monstrous Crow
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4561] = { -- Monstrous Crow
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4570] = { -- Large Wormface
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4580] = { -- Large Wormface
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4600] = { -- Troll Knight (Blade)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4601] = { -- Armored Troll Knight (Blade)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4602] = { -- Troll Knight
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4603] = { -- Troll Knight (Club)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4604] = { -- Troll Knight (Covered Face, Club and Book)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4620] = { -- Astel, Stars of Darkness
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 6,
+		["texMemoryType"] = 6,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4630] = { -- Runebear
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4640] = { -- Ulcerated Tree Spirit
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4650] = { -- Dragonkin Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4660] = { -- Golem
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4670] = { -- Ancestor Spirit
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4680] = { -- Falling-star Beast
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4690] = { -- Grafted Scion
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4710] = { -- God-Devouring Serpent / Rykard, Lord of Blasphemy
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 6,
+		["texMemoryType"] = 6,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4711] = { -- Writhing Mass
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 6,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4720] = { -- Bestial Knight (Greataxe)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4721] = { -- Bare-chested Champion
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 1,
+		["texMemoryType"] = 1,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4730] = { -- Starscourge Radahn
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4750] = { -- Godrick the Grafted
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4751] = { -- Godrick (Head and Torso)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4760] = { -- Fire Giant
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 7,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4770] = { -- Gargoyle
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4800] = { -- Mohg, The Omen
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4801] = { -- Mohg, The Omen - Dead
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4810] = { -- Erdtree Avatar
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4811] = { -- Erdtree Avatar
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4820] = { -- Omenkiller
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[4910] = { -- Magma Wyrm
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4911] = { -- Magma Wyrm (Standing)
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4950] = { -- Tibia Mariner
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4960] = { -- Giant Skeleton Torso
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 120,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[4980] = { -- Death Rite Bird
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 5,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 768
+	},
+	[6001] = { -- Hawk
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 768
+	},
+	[6010] = { -- Deer
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6031] = { -- Bear
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6040] = { -- Owl
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6050] = { -- Boar
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6060] = { -- Goat
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6070] = { -- Gull
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6072] = { -- Gull
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6080] = { -- Dragonfly
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 768
+	},
+	[6081] = { -- Dragonfly
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 768
+	},
+	[6082] = { -- Dragonfly
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 768
+	},
+	[6090] = { -- Turtle
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6091] = { -- Turtle Pope
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 4,
+		["texMemoryType"] = 4,
+		["cameraDitherFadeId"] = 110,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[6100] = { -- Springhare
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 1.5,
+		["unk"] = 0
+	},
+	[7000] = { -- Fallen Hawks Soldier
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[7100] = { -- Ancient Hero
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 2,
+		["texMemoryType"] = 2,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[8000] = { -- Torrent
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 3,
+		["cameraDitherFadeId"] = 101,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[8100] = { -- Ballista
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 2,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[8101] = { -- Giant Ballista
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 2,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[8110] = { -- Dragon-faced Flamethrower
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 3,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 2,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	},
+	[8120] = { -- Merciless Chariot
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["modelMemoryType"] = 5,
+		["texMemoryType"] = 7,
+		["cameraDitherFadeId"] = 1,
+		["reportAnimMemSizeMb"] = 12,
+		["unk"] = 0
+	}
+}

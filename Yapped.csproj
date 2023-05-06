@@ -168,6 +168,7 @@
     <Compile Include="Tools\AffinityGeneration.cs" />
     <Compile Include="Util\CryptographyUtility.cs" />
     <Compile Include="Util\GameMode.cs" />
+    <Compile Include="Util\Logger.cs" />
     <Compile Include="Util\ParamWrapper.cs" />
     <Compile Include="Util\StringToFormula.cs" />
     <Compile Include="Util\Util.cs" />

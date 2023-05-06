@@ -40,12 +40,14 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkbox_EnableFieldValidation = new System.Windows.Forms.CheckBox();
+            this.checkBox_IncludePadding = new System.Windows.Forms.CheckBox();
             this.groupbox_Data.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupbox_Data
             // 
+            this.groupbox_Data.Controls.Add(this.checkBox_IncludePadding);
             this.groupbox_Data.Controls.Add(this.checkbox_UnfurledCSVExport);
             this.groupbox_Data.Controls.Add(this.checkbox_ExportUniqueOnly);
             this.groupbox_Data.Controls.Add(this.checkbox_IncludeRowNames);
@@ -54,7 +56,7 @@
             this.groupbox_Data.Controls.Add(this.textbox_CSV_Delimiter);
             this.groupbox_Data.Location = new System.Drawing.Point(12, 53);
             this.groupbox_Data.Name = "groupbox_Data";
-            this.groupbox_Data.Size = new System.Drawing.Size(255, 153);
+            this.groupbox_Data.Size = new System.Drawing.Size(255, 175);
             this.groupbox_Data.TabIndex = 32;
             this.groupbox_Data.TabStop = false;
             this.groupbox_Data.Text = "Data Export";
@@ -118,7 +120,7 @@
             // 
             // btnSaveSettings
             // 
-            this.btnSaveSettings.Location = new System.Drawing.Point(12, 212);
+            this.btnSaveSettings.Location = new System.Drawing.Point(12, 234);
             this.btnSaveSettings.Name = "btnSaveSettings";
             this.btnSaveSettings.Size = new System.Drawing.Size(75, 23);
             this.btnSaveSettings.TabIndex = 33;
@@ -129,7 +131,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(192, 212);
+            this.btnCancel.Location = new System.Drawing.Point(192, 234);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 34;
@@ -158,11 +160,21 @@
             this.checkbox_EnableFieldValidation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkbox_EnableFieldValidation.UseVisualStyleBackColor = true;
             // 
+            // checkBox_IncludePadding
+            // 
+            this.checkBox_IncludePadding.AutoSize = true;
+            this.checkBox_IncludePadding.Location = new System.Drawing.Point(6, 150);
+            this.checkBox_IncludePadding.Name = "checkBox_IncludePadding";
+            this.checkBox_IncludePadding.Size = new System.Drawing.Size(103, 17);
+            this.checkBox_IncludePadding.TabIndex = 11;
+            this.checkBox_IncludePadding.Text = "Include Padding";
+            this.checkBox_IncludePadding.UseVisualStyleBackColor = true;
+            // 
             // DataSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 244);
+            this.ClientSize = new System.Drawing.Size(275, 269);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSaveSettings);
@@ -193,5 +205,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkbox_EnableFieldValidation;
+        private System.Windows.Forms.CheckBox checkBox_IncludePadding;
     }
 }

@@ -1,0 +1,418 @@
+local KeyAssignParam_TypeC = {
+	[0] = { -- 
+		["padKeyId"] = -1,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 125,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1] = { -- 
+		["padKeyId"] = 3003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 86,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[2] = { -- 
+		["padKeyId"] = 3003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 100,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[3] = { -- 
+		["padKeyId"] = 3002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 99,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[4] = { -- 
+		["padKeyId"] = 3002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 101,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[5] = { -- 
+		["padKeyId"] = 2010,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 114,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[6] = { -- 
+		["padKeyId"] = 2005,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 126,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[7] = { -- 
+		["padKeyId"] = 2004,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 102,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[8] = { -- 
+		["padKeyId"] = 3005,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[9] = { -- 
+		["padKeyId"] = 3005,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[10] = { -- 
+		["padKeyId"] = 3004,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[11] = { -- 
+		["padKeyId"] = 3004,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[12] = { -- 
+		["padKeyId"] = 2011,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 85,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 8,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[13] = { -- 
+		["padKeyId"] = 2000,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 190,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[14] = { -- 
+		["padKeyId"] = 2001,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 195,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[15] = { -- 
+		["padKeyId"] = 2003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 193,
+		["mouseModifyKey"] = 3,
+		["mouseKeyId"] = 9,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[16] = { -- 
+		["padKeyId"] = 2002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 192,
+		["mouseModifyKey"] = 3,
+		["mouseKeyId"] = 10,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[17] = { -- 
+		["padKeyId"] = 2009,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[18] = { -- 
+		["padKeyId"] = 3001,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 3,
+		["mouseKeyId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[19] = { -- 
+		["padKeyId"] = 2008,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[20] = { -- 
+		["padKeyId"] = 3000,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 3,
+		["mouseKeyId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[21] = { -- 
+		["padKeyId"] = 2006,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 88,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[22] = { -- 
+		["padKeyId"] = 2007,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 87,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[23] = { -- 
+		["padKeyId"] = 2000,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 102,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[24] = { -- 
+		["padKeyId"] = 2013,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 70,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[25] = { -- 
+		["padKeyId"] = 2012,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 103,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[26] = { -- 
+		["padKeyId"] = 2000,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 190,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[27] = { -- 
+		["padKeyId"] = 2001,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 195,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[28] = { -- 
+		["padKeyId"] = 2003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 193,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[29] = { -- 
+		["padKeyId"] = 2002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 192,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[30] = { -- 
+		["padKeyId"] = 3003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 86,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[31] = { -- 
+		["padKeyId"] = 3003,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 100,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[32] = { -- 
+		["padKeyId"] = 3002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 101,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[33] = { -- 
+		["padKeyId"] = 3002,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 99,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[34] = { -- 
+		["padKeyId"] = 2900,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 87,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[35] = { -- 
+		["padKeyId"] = -1,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[36] = { -- 
+		["padKeyId"] = 2900,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[37] = { -- 
+		["padKeyId"] = 2901,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 85,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[38] = { -- 
+		["padKeyId"] = 2901,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[39] = { -- 
+		["padKeyId"] = 2008,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 192,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[40] = { -- 
+		["padKeyId"] = 2009,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 193,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[41] = { -- 
+		["padKeyId"] = 2007,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 102,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[42] = { -- 
+		["padKeyId"] = 2006,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 88,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[43] = { -- 
+		["padKeyId"] = -1,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[44] = { -- 
+		["padKeyId"] = -1,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 9,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[45] = { -- 
+		["padKeyId"] = -1,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = -1,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 10,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[46] = { -- 
+		["padKeyId"] = 2010,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 114,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[47] = { -- 
+		["padKeyId"] = 2011,
+		["keyboardModifyKey"] = 0,
+		["keyboardKeyId"] = 115,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[48] = { -- 
+		["padKeyId"] = 3000,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 190,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[49] = { -- 
+		["padKeyId"] = 3001,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 195,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[50] = { -- 
+		["padKeyId"] = 3010,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 190,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[51] = { -- 
+		["padKeyId"] = 3011,
+		["keyboardModifyKey"] = 3,
+		["keyboardKeyId"] = 195,
+		["mouseModifyKey"] = 0,
+		["mouseKeyId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0|0|0|0|0|0]"
+	}
+}

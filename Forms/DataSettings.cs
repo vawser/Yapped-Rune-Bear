@@ -22,6 +22,7 @@ namespace Yapped.Forms
             checkbox_UnfurledCSVExport.Checked = Yapped_Rune_Bear.Properties.Settings.Default.VerboseCSVExport;
             textbox_CSV_Delimiter.Text = Yapped_Rune_Bear.Properties.Settings.Default.ExportDelimiter;
             checkbox_EnableFieldValidation.Checked = Yapped_Rune_Bear.Properties.Settings.Default.EnableFieldValidation;
+            checkBox_IncludePadding.Checked = Yapped_Rune_Bear.Properties.Settings.Default.IncludePaddingInExport;
         }
 
         private void btnSaveSettings_Click(object sender, EventArgs e)
@@ -39,6 +40,7 @@ namespace Yapped.Forms
             Yapped_Rune_Bear.Properties.Settings.Default.ExportUniqueOnly = checkbox_ExportUniqueOnly.Checked;
             Yapped_Rune_Bear.Properties.Settings.Default.VerboseCSVExport = checkbox_UnfurledCSVExport.Checked;
             Yapped_Rune_Bear.Properties.Settings.Default.EnableFieldValidation = checkbox_EnableFieldValidation.Checked;
+            Yapped_Rune_Bear.Properties.Settings.Default.IncludePaddingInExport = checkBox_IncludePadding.Checked;
 
             DialogResult = DialogResult.OK;
             Close();

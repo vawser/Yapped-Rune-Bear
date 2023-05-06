@@ -1,0 +1,374 @@
+local SoundAssetSoundObjEnableDistParam = {
+	[3362] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[9200] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[27002] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[27005] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[99005] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[390000] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[600000] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[600001] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[700000] = { -- 
+		["SoundObjEnableDist"] = 8
+	},
+	[800000] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800002] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800004] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800005] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800006] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800007] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800008] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[800009] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[800010] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[800011] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[800012] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[800013] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[810000] = { -- 
+		["SoundObjEnableDist"] = 45
+	},
+	[810001] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810002] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810003] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810004] = { -- 
+		["SoundObjEnableDist"] = 45
+	},
+	[810005] = { -- 
+		["SoundObjEnableDist"] = 45
+	},
+	[810006] = { -- 
+		["SoundObjEnableDist"] = 45
+	},
+	[810007] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810008] = { -- 
+		["SoundObjEnableDist"] = 45
+	},
+	[810009] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810020] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810021] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810022] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[810023] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[815000] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815002] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815004] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[815005] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[815006] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[815007] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[815008] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815009] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[815010] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820000] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820002] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820004] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820005] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[820006] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[820007] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[820008] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[820009] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[820010] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820011] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820012] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[820020] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[820021] = { -- 
+		["SoundObjEnableDist"] = 50
+	},
+	[820022] = { -- 
+		["SoundObjEnableDist"] = 80
+	},
+	[820023] = { -- 
+		["SoundObjEnableDist"] = 80
+	},
+	[820024] = { -- 
+		["SoundObjEnableDist"] = 80
+	},
+	[820025] = { -- 
+		["SoundObjEnableDist"] = 110
+	},
+	[820026] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830000] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830002] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830004] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830005] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830006] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830007] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830008] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[830020] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[840000] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[840001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[840002] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[840003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[840004] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[840005] = { -- 
+		["SoundObjEnableDist"] = 25
+	},
+	[850000] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[850001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[850002] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[850003] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[850004] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[850005] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[850006] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[880000] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[890000] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[890001] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[890002] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[890003] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[900000] = { -- 
+		["SoundObjEnableDist"] = 80
+	},
+	[900010] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[900011] = { -- 
+		["SoundObjEnableDist"] = 110
+	},
+	[900012] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[900013] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[900014] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[900015] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[900016] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[900030] = { -- 
+		["SoundObjEnableDist"] = 190
+	},
+	[900031] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[900032] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[900035] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[930001] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[930002] = { -- 
+		["SoundObjEnableDist"] = 100
+	},
+	[930003] = { -- 
+		["SoundObjEnableDist"] = 70
+	},
+	[930004] = { -- 
+		["SoundObjEnableDist"] = 110
+	},
+	[930005] = { -- 
+		["SoundObjEnableDist"] = -1
+	},
+	[930006] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[930007] = { -- 
+		["SoundObjEnableDist"] = 90
+	},
+	[930008] = { -- 
+		["SoundObjEnableDist"] = 60
+	},
+	[930009] = { -- 
+		["SoundObjEnableDist"] = 320
+	},
+	[950000] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[950001] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[950002] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[950003] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[950004] = { -- 
+		["SoundObjEnableDist"] = 35
+	},
+	[980000] = { -- 
+		["SoundObjEnableDist"] = 55
+	},
+	[980001] = { -- 
+		["SoundObjEnableDist"] = 70
+	}
+}

@@ -1,0 +1,15 @@
+local LoadBalancerNewDrawDistScaleParam_xsx = {
+	[0] = { -- 
+		["DrawDist_LvBegin"] = 21,
+		["DrawDist_LvEnd"] = 21,
+		["reserve0"] = "[0|0]",
+		["DrawDist_ScaleBegin"] = 1,
+		["DrawDist_ScaleEnd"] = 1,
+		["ShadwDrawDist_LvBegin"] = 21,
+		["ShadwDrawDist_LvEnd"] = 21,
+		["reserve1"] = "[0|0]",
+		["ShadwDrawDist_ScaleBegin"] = 1,
+		["ShadwDrawDist_ScaleEnd"] = 1,
+		["reserve2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	}
+}

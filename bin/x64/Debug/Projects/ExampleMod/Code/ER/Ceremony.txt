@@ -1,0 +1,218 @@
+local Ceremony = {
+	[0] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[11100000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[11100020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1042390000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1042390020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[14000000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[14000020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[14000030] = { -- 
+		["eventLayerId"] = 3,
+		["mapStudioLayerId"] = 3,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1035460000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1035460040] = { -- 
+		["eventLayerId"] = 4,
+		["mapStudioLayerId"] = 4,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[39200000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[39200050] = { -- 
+		["eventLayerId"] = 5,
+		["mapStudioLayerId"] = 5,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[11000000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[11000020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1039530000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1039530020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1040530020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[15000000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[15000020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[15000030] = { -- 
+		["eventLayerId"] = 3,
+		["mapStudioLayerId"] = 3,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1039530000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[1050560020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[12050000] = { -- 
+		["eventLayerId"] = 0,
+		["mapStudioLayerId"] = 0,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[12050020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 0,
+		["overrideMapPlaceNameId"] = -1,
+		["overrideSaveMapNameId"] = -1,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[99021010] = { -- 
+		["eventLayerId"] = 1,
+		["mapStudioLayerId"] = 1,
+		["multiPlayAreaOffset"] = 18999,
+		["overrideMapPlaceNameId"] = 10000,
+		["overrideSaveMapNameId"] = 10000,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[99022020] = { -- 
+		["eventLayerId"] = 2,
+		["mapStudioLayerId"] = 2,
+		["multiPlayAreaOffset"] = 18999,
+		["overrideMapPlaceNameId"] = 0,
+		["overrideSaveMapNameId"] = 0,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	},
+	[99023030] = { -- 
+		["eventLayerId"] = 3,
+		["mapStudioLayerId"] = 3,
+		["multiPlayAreaOffset"] = 4,
+		["overrideMapPlaceNameId"] = 11010,
+		["overrideSaveMapNameId"] = 11010,
+		["pad2"] = "[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]"
+	}
+}

@@ -1,0 +1,344 @@
+local FinalDamageRateParam = {
+	[0] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[1] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[20] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[21] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[41] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[50] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.1
+	},
+	[51] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.1
+	},
+	[60] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[61] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[70] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[71] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[90] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[91] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[100] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[101] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[110] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[111] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[160] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[161] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.15
+	},
+	[231] = { -- 
+		["physRate"] = 0.9,
+		["magRate"] = 0.9,
+		["fireRate"] = 0.9,
+		["thunRate"] = 0.9,
+		["darkRate"] = 0.9,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[10000] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10001] = { -- 
+		["physRate"] = 0.75,
+		["magRate"] = 0.75,
+		["fireRate"] = 0.75,
+		["thunRate"] = 0.75,
+		["darkRate"] = 0.75,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10002] = { -- 
+		["physRate"] = 0.7,
+		["magRate"] = 0.7,
+		["fireRate"] = 0.7,
+		["thunRate"] = 0.7,
+		["darkRate"] = 0.7,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10003] = { -- 
+		["physRate"] = 0.65,
+		["magRate"] = 0.65,
+		["fireRate"] = 0.65,
+		["thunRate"] = 0.65,
+		["darkRate"] = 0.65,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10004] = { -- 
+		["physRate"] = 0.6,
+		["magRate"] = 0.6,
+		["fireRate"] = 0.6,
+		["thunRate"] = 0.6,
+		["darkRate"] = 0.6,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10005] = { -- 
+		["physRate"] = 0.55,
+		["magRate"] = 0.55,
+		["fireRate"] = 0.55,
+		["thunRate"] = 0.55,
+		["darkRate"] = 0.55,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10006] = { -- 
+		["physRate"] = 0.5,
+		["magRate"] = 0.5,
+		["fireRate"] = 0.5,
+		["thunRate"] = 0.5,
+		["darkRate"] = 0.5,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[10205] = { -- 
+		["physRate"] = 1.25,
+		["magRate"] = 1.25,
+		["fireRate"] = 1.25,
+		["thunRate"] = 1.25,
+		["darkRate"] = 1.25,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[20000] = { -- 
+		["physRate"] = 1,
+		["magRate"] = 1,
+		["fireRate"] = 1,
+		["thunRate"] = 1,
+		["darkRate"] = 1,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[20001] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[24370] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[24440] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[27300] = { -- 
+		["physRate"] = 1.25,
+		["magRate"] = 1.25,
+		["fireRate"] = 1.25,
+		["thunRate"] = 1.25,
+		["darkRate"] = 1.25,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.35
+	},
+	[30000] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[30001] = { -- 
+		["physRate"] = 0.7,
+		["magRate"] = 0.7,
+		["fireRate"] = 0.7,
+		["thunRate"] = 0.7,
+		["darkRate"] = 0.7,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[30002] = { -- 
+		["physRate"] = 0.65,
+		["magRate"] = 0.65,
+		["fireRate"] = 0.65,
+		["thunRate"] = 0.65,
+		["darkRate"] = 0.65,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[30003] = { -- 
+		["physRate"] = 0.6,
+		["magRate"] = 0.6,
+		["fireRate"] = 0.6,
+		["thunRate"] = 0.6,
+		["darkRate"] = 0.6,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1
+	},
+	[30010] = { -- 
+		["physRate"] = 0.8,
+		["magRate"] = 0.8,
+		["fireRate"] = 0.8,
+		["thunRate"] = 0.8,
+		["darkRate"] = 0.8,
+		["staminaRate"] = 1.25,
+		["saRate"] = 1.25
+	}
+}

@@ -19,12 +19,18 @@ using System.Data;
 using System.Threading;
 using Binder = SoulsFormats.Binder;
 using System.Threading.Tasks;
+using static SoulsFormats.PARAM;
+using static SoulsFormats.GRASS;
+using System.Security.Policy;
+using Yapped_Rune_Bear.Util;
 
 namespace Yapped
 {
     public partial class Main : Form
     {
         private static Yapped_Rune_Bear.Properties.Settings settings = Yapped_Rune_Bear.Properties.Settings.Default;
+
+        Logger logger = new Logger();
 
         private bool InvalidationMode;
         private string regulationPath;
@@ -62,6 +68,8 @@ namespace Yapped
         {
             InitializeComponent();
 
+            logger.ClearLog();
+
             regulation = null;
             secondary_regulation = null;
             rowSource = new BindingSource();
@@ -81,11 +89,6 @@ namespace Yapped
         {
             Text = "Yapped - Rune Bear Edition";
 
-            // Filter tooltips
-            toolTip_filterParams.SetToolTip(filter_Params.Control, filter_Params.ToolTipText);
-            toolTip_filterRows.SetToolTip(filter_Rows.Control, filter_Rows.ToolTipText);
-            toolTip_filterCells.SetToolTip(filter_Cells.Control, filter_Cells.ToolTipText);
-
             InvalidationMode = false;
 
             typeof(DataGridView).InvokeMember("DoubleBuffered", BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.SetProperty, null, dgvParams, new object[] { true });
@@ -100,7 +103,7 @@ namespace Yapped
 
             toolStripComboBoxGame.ComboBox.DisplayMember = "Name";
             toolStripComboBoxGame.Items.AddRange(GameMode.Modes);
-            var game = (GameType)Enum.Parse(typeof(GameType), settings.GameType);
+            var game = (GameType)System.Enum.Parse(typeof(GameType), settings.GameType);
             toolStripComboBoxGame.SelectedIndex = Array.FindIndex(GameMode.Modes, m => m.Game == game);
             if (toolStripComboBoxGame.SelectedIndex == -1)
                 toolStripComboBoxGame.SelectedIndex = 0;
@@ -207,7 +210,6 @@ namespace Yapped
 
                 foreach (ParamWrapper wrapper in primary_result.ParamWrappers)
                 {
-
                     if (!dgvIndices.ContainsKey(wrapper.Name))
                         dgvIndices[wrapper.Name] = (0, 0);
                 }
@@ -266,6 +268,7 @@ namespace Yapped
                 try
                 {
                     var paramdef = PARAMDEF.XmlDeserialize(path);
+                    
                     paramdefs.Add(paramdef);
                 }
                 catch (Exception ex)
@@ -459,8 +462,16 @@ namespace Yapped
 
                     if (param.ApplyParamdefCarefully(paramdefs))
                     {
+                        logger.AddToLog($"{name} applied carefully: SUCCESS");
                         var wrapper = new ParamWrapper(name, param, param.AppliedParamdef);
                         result.ParamWrappers.Add(wrapper);
+                    }
+                    else
+                    {
+                        logger.AddToLog($"{name} applied carefully: FAIL");
+                        logger.AddToLog($" ParamType: {param.ParamType}");
+                        logger.AddToLog($" ParamdefDataVersion: {param.ParamdefDataVersion}");
+                        logger.AddToLog($" DetectedSize: {param.DetectedSize}");
                     }
                 }
                 catch (Exception ex)
@@ -468,6 +479,8 @@ namespace Yapped
                     Utility.ShowError($"Failed to load param file: {name}.param\r\n\r\n{ex}");
                 }
             }
+
+            logger.WriteLog();
 
             result.ParamWrappers.Sort();
             return result;
@@ -1192,9 +1205,15 @@ namespace Yapped
                         if (line.Length > 0)
                         {
                             Match match = Regex.Match(line, @"^(\d+) (.+)$");
-                            long id = long.Parse(match.Groups[1].Value);
-                            string name = match.Groups[2].Value;
-                            names[id] = name;
+
+                            // Only apply name if the Name entry is valid
+                            if (match.Groups[1].Success)
+                            {
+                                long id = long.Parse(match.Groups[1].Value);
+                                string name = match.Groups[2].Value;
+
+                                names[id] = name;
+                            }
                         }
                     }
 
@@ -1268,14 +1287,7 @@ namespace Yapped
         #region Data Tools - Export Data
         private void exportDataMenuItem_Click(object sender, EventArgs e)
         {
-            // Do not allow this change if invalidation state is active
-            if (InvalidationMode)
-                return;
 
-            DataGridViewRow paramRow = dgvParams.CurrentRow;
-            ParamWrapper wrapper = ((ParamWrapper)paramRow.DataBoundItem);
-
-            ExportParamData(wrapper, false);
         }
 
         #endregion
@@ -1875,37 +1887,6 @@ namespace Yapped
         #endregion
 
         #region Data Tools - Mass Export
-        private void massExportDataMenuItem_Click(object sender, EventArgs e)
-        {
-            // Do not allow this change if invalidation state is active
-            if (InvalidationMode)
-                return;
-
-            // Prompt user to confirm process, since this takes a while
-            string message = $@"Mass Export will export all params to CSV. Continue?";
-            DialogResult answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-            if (answer == DialogResult.No)
-                return;
-
-            // Notify the user if row names are off
-            if (!Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
-            {
-                message = $@"Row Names are currently not included. Continue?";
-                answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-                if (answer == DialogResult.No)
-                    return;
-            }
-
-            if (primary_result != null)
-            {
-                foreach (ParamWrapper wrapper in primary_result.ParamWrappers)
-                {
-                    ExportParamData(wrapper, true);
-                }
-
-                MessageBox.Show($@"Mass data export complete!", "Data Export");
-            }
-        }
 
         #endregion
 
@@ -2547,6 +2528,34 @@ namespace Yapped
 
                         cell_index = cell_index + 1;
                     }
+                    else if (settings.IncludePaddingInExport && type == PARAMDEF.DefType.dummy8)
+                    {
+                        var new_value = values[cell_index];
+                        var exception_string = $@"Row {newRow.ID}, Field {cell.Name} has invalid value {new_value}, skipped import of this value.";
+
+                        if (type == PARAMDEF.DefType.dummy8)
+                        {
+                            try
+                            {
+                                if(cell.Value.GetType() == typeof(byte))
+                                {
+                                    cell.Value = Convert.ToString(new_value);
+                                }
+                                else if (cell.Value.GetType() == typeof(byte[]))
+                                {
+                                    byte[] original_value = (byte[])cell.Value;
+
+                                    cell.Value = Utility.Dummy8Read(new_value, original_value.Length);
+                                }
+                            }
+                            catch
+                            {
+                                MessageBox.Show(exception_string, "Data Import");
+                            }
+                        }
+
+                        cell_index = cell_index + 1;
+                    }
                 }
             }
 
@@ -2558,159 +2567,469 @@ namespace Yapped
         #endregion
 
         #region Utility - ExportParamData
-        private void ExportParamData(ParamWrapper wrapper, Boolean isSilent)
+        private void ExportParamData(ParamWrapper wrapper, Boolean isSilent, string outputType)
         {
-            var csv_dir = GetProjectDirectory("CSV");
-
-            string paramName = wrapper.Name;
-            string paramFile = $@"{paramName}.csv";
-            string paramPath = $@"{csv_dir}\{paramFile}";
-
-            if (File.Exists(paramPath) && !isSilent)
+            if (outputType == "CSV")
             {
-                string message = $@"{paramFile} exists. Overwrite?";
-                DialogResult answer = MessageBox.Show(message, "Export Data", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-                if (answer == DialogResult.No)
-                    return;
-            }
-            else
-            {
-                // Add file if it doesn't yet exist
-                if (!System.IO.File.Exists(paramPath))
+                var csv_dir = GetProjectDirectory("CSV");
+
+                string paramName = wrapper.Name;
+                string paramFile = $@"{paramName}.csv";
+                string paramPath = $@"{csv_dir}\{paramFile}";
+
+                if (File.Exists(paramPath) && !isSilent)
                 {
-                    using (System.IO.FileStream fs = System.IO.File.Create(paramPath))
-                    {
-                        for (byte i = 0; i < 100; i++)
-                        {
-                            fs.WriteByte(i);
-                        }
-                    }
+                    string message = $@"{paramFile} exists. Overwrite?";
+                    DialogResult answer = MessageBox.Show(message, "Export Data", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                    if (answer == DialogResult.No)
+                        return;
                 }
-            }
-
-            StreamWriter output_file = new StreamWriter(paramPath);
-
-            string composed_line = "";
-
-            // Header
-            if (settings.IncludeHeaderInCSV && !Yapped_Rune_Bear.Properties.Settings.Default.VerboseCSVExport)
-            {
-                PARAM.Row first_row = wrapper.Rows.ElementAt(0);
-
-                if (Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
-                    composed_line = composed_line + "Row ID" + settings.ExportDelimiter + "Row Name" + settings.ExportDelimiter;
                 else
-                    composed_line = composed_line + "Row ID" + settings.ExportDelimiter;
-
-                int cell_idx = 0;
-
-                foreach (PARAM.Cell cell in first_row.Cells)
                 {
-                    // Ignore the padding fields
-                    if (cell.Def.DisplayType != PARAMDEF.DefType.dummy8)
+                    // Add file if it doesn't yet exist
+                    if (!System.IO.File.Exists(paramPath))
                     {
-                        if (first_row.Cells.Count == cell_idx)
-                            composed_line = composed_line + cell.Def.InternalName;
+                        using (System.IO.FileStream fs = System.IO.File.Create(paramPath))
+                        {
+                            for (byte i = 0; i < 100; i++)
+                            {
+                                fs.WriteByte(i);
+                            }
+                        }
+                    }
+                }
+
+                StreamWriter output_file = new StreamWriter(paramPath);
+
+                string composed_line = "";
+
+                // Header
+                if (settings.IncludeHeaderInCSV && !settings.VerboseCSVExport)
+                {
+                    PARAM.Row first_row = wrapper.Rows.ElementAt(0);
+
+                    if (Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
+                        composed_line = composed_line + "Row ID" + settings.ExportDelimiter + "Row Name" + settings.ExportDelimiter;
+                    else
+                        composed_line = composed_line + "Row ID" + settings.ExportDelimiter;
+
+                    int cell_idx = 0;
+
+                    foreach (PARAM.Cell cell in first_row.Cells)
+                    {
+                        if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                        {
+                            if (settings.IncludePaddingInExport)
+                            {
+                                if (first_row.Cells.Count == cell_idx)
+                                    composed_line = composed_line + cell.Def.InternalName;
+                                else
+                                    composed_line = composed_line + cell.Def.InternalName + settings.ExportDelimiter;
+
+                                cell_idx++;
+                            }
+                        }
                         else
-                            composed_line = composed_line + cell.Def.InternalName + settings.ExportDelimiter;
-
-                        cell_idx++;
-                    }
-                }
-
-                char[] charsToTrim = settings.ExportDelimiter.ToCharArray();
-
-                composed_line = composed_line.TrimEnd(charsToTrim);
-
-                output_file.WriteLine(composed_line);
-            }
-
-            if (Yapped_Rune_Bear.Properties.Settings.Default.VerboseCSVExport)
-            {
-                output_file.WriteLine("UNFURLED");
-            }
-
-            // Cells
-            if (Yapped_Rune_Bear.Properties.Settings.Default.VerboseCSVExport)
-            {
-                foreach (PARAM.Row row in wrapper.Rows)
-                {
-                    output_file.WriteLine(row.ID + settings.ExportDelimiter);
-                    output_file.WriteLine("~#" + row.Name + settings.ExportDelimiter);
-
-                    int cell_idx = 0;
-
-                    foreach (PARAM.Cell cell in row.Cells)
-                    {
-                        // Ignore the padding fields
-                        if (cell.Def.DisplayType != PARAMDEF.DefType.dummy8)
                         {
-                            // At end of cells, don't add delimiter
-                            if (row.Cells.Count == cell_idx)
-                                output_file.WriteLine("~#" + cell.Value.ToString());
+                            if (first_row.Cells.Count == cell_idx)
+                                composed_line = composed_line + cell.Def.InternalName;
                             else
-                                output_file.WriteLine("~#" + cell.Value.ToString() + settings.ExportDelimiter);
+                                composed_line = composed_line + cell.Def.InternalName + settings.ExportDelimiter;
+
+                            cell_idx++;
                         }
-
-                        cell_idx++;
-                    }
-                }
-            }
-            else
-            {
-                foreach (PARAM.Row row in wrapper.Rows)
-                {
-                    composed_line = row.ID + settings.ExportDelimiter;
-
-                    // Add row name
-                    if (settings.IncludeRowNameInCSV)
-                    {
-                        string row_name = row.Name;
-
-                        composed_line = composed_line + row_name + settings.ExportDelimiter;
-                    }
-
-                    int cell_idx = 0;
-
-                    foreach (PARAM.Cell cell in row.Cells)
-                    {
-                        // Ignore the padding fields
-                        if (cell.Def.DisplayType != PARAMDEF.DefType.dummy8)
-                        {
-                            // At end of cells, don't add delimiter
-                            if (row.Cells.Count == cell_idx)
-                                composed_line = composed_line + cell.Value.ToString();
-                            else
-                                composed_line = composed_line + cell.Value.ToString() + settings.ExportDelimiter;
-                        }
-
-                        cell_idx++;
                     }
 
                     char[] charsToTrim = settings.ExportDelimiter.ToCharArray();
 
-                    //composed_line = composed_line.TrimEnd(charsToTrim);
+                    composed_line = composed_line.TrimEnd(charsToTrim);
 
                     output_file.WriteLine(composed_line);
                 }
-            }
-            output_file.Close();
 
-            if (Yapped_Rune_Bear.Properties.Settings.Default.UseTextEditor && Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath != "" && !isSilent)
+                if (settings.VerboseCSVExport)
+                {
+                    output_file.WriteLine("UNFURLED");
+                }
+
+                // Cells
+                if (settings.VerboseCSVExport)
+                {
+                    foreach (PARAM.Row row in wrapper.Rows)
+                    {
+                        output_file.WriteLine(row.ID + settings.ExportDelimiter);
+                        output_file.WriteLine("~#" + row.Name + settings.ExportDelimiter);
+
+                        int cell_idx = 0;
+
+                        foreach (PARAM.Cell cell in row.Cells)
+                        {
+                            if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                            {
+                                if (settings.IncludePaddingInExport)
+                                {
+                                    string dummy_string = "";
+
+                                    if (cell.Value.GetType() == typeof(byte))
+                                    {
+                                        dummy_string = cell.Value.ToString();
+                                    }
+                                    else if (cell.Value.GetType() == typeof(byte[]))
+                                    {
+                                        dummy_string = Utility.Dummy8Write((byte[])cell.Value);
+                                    }
+
+                                    // At end of cells, don't add delimiter
+                                    if (row.Cells.Count == cell_idx)
+                                        output_file.WriteLine("~#" + dummy_string);
+                                    else
+                                        output_file.WriteLine("~#" + dummy_string + settings.ExportDelimiter);
+                                }
+                            }
+                            else
+                            {
+                                // At end of cells, don't add delimiter
+                                if (row.Cells.Count == cell_idx)
+                                    output_file.WriteLine("~#" + cell.Value.ToString());
+                                else
+                                    output_file.WriteLine("~#" + cell.Value.ToString() + settings.ExportDelimiter);
+                            }
+
+                            cell_idx++;
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (PARAM.Row row in wrapper.Rows)
+                    {
+                        composed_line = row.ID + settings.ExportDelimiter;
+
+                        // Add row name
+                        if (settings.IncludeRowNameInCSV)
+                        {
+                            string row_name = row.Name;
+
+                            composed_line = composed_line + row_name + settings.ExportDelimiter;
+                        }
+
+                        int cell_idx = 0;
+
+                        foreach (PARAM.Cell cell in row.Cells)
+                        {
+                            if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                            {
+                                if (settings.IncludePaddingInExport)
+                                {
+                                    string dummy_string = "";
+
+                                    if (cell.Value.GetType() == typeof(byte))
+                                    {
+                                        dummy_string = cell.Value.ToString();
+                                    }
+                                    else if (cell.Value.GetType() == typeof(byte[]))
+                                    {
+                                        dummy_string = Utility.Dummy8Write((byte[])cell.Value);
+                                    }
+
+                                    // At end of cells, don't add delimiter
+                                    if (row.Cells.Count == cell_idx)
+                                        composed_line = composed_line + dummy_string;
+                                    else
+                                        composed_line = composed_line + dummy_string + settings.ExportDelimiter;
+
+                                    cell_idx++;
+                                }
+                            }
+                            else
+                            {
+                                // At end of cells, don't add delimiter
+                                if (row.Cells.Count == cell_idx)
+                                    composed_line = composed_line + cell.Value.ToString();
+                                else
+                                    composed_line = composed_line + cell.Value.ToString() + settings.ExportDelimiter;
+
+                                cell_idx++;
+                            }
+                        }
+
+                        char[] charsToTrim = settings.ExportDelimiter.ToCharArray();
+
+                        //composed_line = composed_line.TrimEnd(charsToTrim);
+
+                        output_file.WriteLine(composed_line);
+                    }
+                }
+                output_file.Close();
+
+                if (Yapped_Rune_Bear.Properties.Settings.Default.UseTextEditor && Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath != "" && !isSilent)
+                {
+                    try
+                    {
+                        Process.Start("\"" + Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath + "\"", "\"" + Application.StartupPath + "\\" + paramPath + "\"");
+                    }
+                    catch
+                    {
+                        SystemSounds.Hand.Play();
+                    }
+
+                }
+
+                if (!Yapped_Rune_Bear.Properties.Settings.Default.ShowConfirmationMessages && !isSilent)
+                    MessageBox.Show($@"{paramName} data export complete!", "Data Export");
+            }
+            else if(outputType == "HTML")
             {
-                try
+                var export_dir = GetProjectDirectory("HTML");
+
+                string paramName = wrapper.Name;
+                string paramFile = $@"{paramName}.html";
+                string paramPath = $@"{export_dir}\{paramFile}";
+
+                if (File.Exists(paramPath) && !isSilent)
                 {
-                    Process.Start("\"" + Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath + "\"", "\"" + Application.StartupPath + "\\" + paramPath + "\"");
+                    string message = $@"{paramFile} exists. Overwrite?";
+                    DialogResult answer = MessageBox.Show(message, "Export Data", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                    if (answer == DialogResult.No)
+                        return;
                 }
-                catch
+                else
                 {
-                    SystemSounds.Hand.Play();
+                    // Add file if it doesn't yet exist
+                    if (!System.IO.File.Exists(paramPath))
+                    {
+                        using (System.IO.FileStream fs = System.IO.File.Create(paramPath))
+                        {
+                            for (byte i = 0; i < 100; i++)
+                            {
+                                fs.WriteByte(i);
+                            }
+                        }
+                    }
                 }
 
+                StreamWriter output_file = new StreamWriter(paramPath);
+
+                // Configuration of the HTML tags
+                string table_o = "<table>";
+                string table_c = "</table>";
+                string thead_o = "<thead>";
+                string thead_c = "</thead>";
+                string th_o = "<th>";
+                string th_c = "</th>";
+                string tr_o = "<tr>";
+                string tr_c = "</tr>";
+                string td_o = "<td>";
+                string td_c = "</td>";
+
+
+                output_file.WriteLine($"{table_o}");
+                output_file.WriteLine($"<caption>{paramName}</caption>");
+
+                string composed_line = "";
+
+                // Header
+                if (settings.IncludeHeaderInCSV)
+                {
+                    output_file.WriteLine($"{thead_o}");
+                    output_file.WriteLine($"{tr_o}");
+
+                    PARAM.Row first_row = wrapper.Rows.ElementAt(0);
+
+                    if (Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
+                        composed_line = $"{th_o}Row ID{th_c}\n{th_o}Row Name{th_c}\n";
+                    else
+                        composed_line = $"{th_o}Row ID{th_c}\n";
+
+                    foreach (PARAM.Cell cell in first_row.Cells)
+                    {
+                        if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                        {
+                            if (settings.IncludePaddingInExport)
+                            {
+                                composed_line = composed_line + $"{th_o}{cell.Def.InternalName}{th_c}\n";
+                            }
+                        }
+                        else
+                        {
+                            composed_line = composed_line + $"{th_o}{cell.Def.InternalName}{th_c}\n";
+                        }
+                    }
+
+                    output_file.WriteLine(composed_line);
+                    output_file.WriteLine($"{tr_c}");
+                    output_file.WriteLine($"{thead_c}");
+                }
+
+                composed_line = "";
+
+                // Cells
+                foreach (PARAM.Row row in wrapper.Rows)
+                {
+                    output_file.WriteLine($"{tr_o}");
+                    composed_line = $"{td_o}{row.ID}{td_c}\n";
+
+                    // Add row name
+                    if (settings.IncludeRowNameInCSV)
+                    {
+                        composed_line = composed_line + $"{td_o}{row.Name}{td_c}\n";
+                    }
+
+                    foreach (PARAM.Cell cell in row.Cells)
+                    {
+                        if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                        {
+                            if (settings.IncludePaddingInExport)
+                            {
+                                string dummy_string = "";
+
+                                if (cell.Value.GetType() == typeof(byte))
+                                {
+                                    dummy_string = cell.Value.ToString();
+                                }
+                                else if (cell.Value.GetType() == typeof(byte[]))
+                                {
+                                    dummy_string = Utility.Dummy8Write((byte[])cell.Value);
+                                }
+                                composed_line = composed_line + $"{td_o}{dummy_string}{td_c}\n";
+                            }
+                        }
+                        else
+                        {
+                            composed_line = composed_line + $"{td_o}{cell.Value.ToString()}{td_c}\n";
+                        }
+                    }
+
+                    output_file.WriteLine(composed_line);
+                    output_file.WriteLine($"{tr_c}");
+                }
+
+                output_file.WriteLine($"{table_c}");
+                output_file.Close();
+
+                if (Yapped_Rune_Bear.Properties.Settings.Default.UseTextEditor && Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath != "" && !isSilent)
+                {
+                    try
+                    {
+                        Process.Start("\"" + Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath + "\"", "\"" + Application.StartupPath + "\\" + paramPath + "\"");
+                    }
+                    catch
+                    {
+                        SystemSounds.Hand.Play();
+                    }
+
+                }
+
+                if (!Yapped_Rune_Bear.Properties.Settings.Default.ShowConfirmationMessages && !isSilent)
+                    MessageBox.Show($@"{paramName} data export complete!", "Data Export");
+            }
+            else if (outputType == "Code")
+            {
+                var export_dir = GetProjectDirectory("Code");
+
+                string paramName = wrapper.Name;
+                string paramFile = $@"{paramName}.txt";
+                string paramPath = $@"{export_dir}\{paramFile}";
+
+                if (File.Exists(paramPath) && !isSilent)
+                {
+                    string message = $@"{paramFile} exists. Overwrite?";
+                    DialogResult answer = MessageBox.Show(message, "Export Data", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                    if (answer == DialogResult.No)
+                        return;
+                }
+                else
+                {
+                    // Add file if it doesn't yet exist
+                    if (!System.IO.File.Exists(paramPath))
+                    {
+                        using (System.IO.FileStream fs = System.IO.File.Create(paramPath))
+                        {
+                            for (byte i = 0; i < 100; i++)
+                            {
+                                fs.WriteByte(i);
+                            }
+                        }
+                    }
+                }
+
+                StreamWriter output_file = new StreamWriter(paramPath);
+
+                output_file.WriteLine($"local {paramName} = {{");
+
+                string composed_line = "";
+
+                // Row
+                foreach (PARAM.Row row in wrapper.Rows)
+                {
+                    composed_line = "";
+
+                    output_file.WriteLine($"\t[{row.ID}] = {{ -- {row.Name}");
+
+                    foreach (PARAM.Cell cell in row.Cells)
+                    {
+                        string end_segment = ",\n";
+
+                        if (cell == row.Cells.Last())
+                            end_segment = "";
+
+                        if (cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                        {
+                            if (settings.IncludePaddingInExport)
+                            {
+                                string dummy_string = "";
+
+                                if (cell.Value.GetType() == typeof(byte))
+                                {
+                                    dummy_string = cell.Value.ToString();
+                                }
+                                else if (cell.Value.GetType() == typeof(byte[]))
+                                {
+                                    dummy_string = Utility.Dummy8Write((byte[])cell.Value);
+                                }
+                                composed_line = composed_line + $"\t\t[\"{cell.Def.InternalName}\"] = \"{dummy_string}\"{end_segment}";
+                            }
+                        }
+                        else
+                        {
+                            composed_line = composed_line + $"\t\t[\"{cell.Def.InternalName}\"] = {cell.Value.ToString()}{end_segment}";
+                        }
+                    }
+
+                    output_file.WriteLine(composed_line);
+
+                    // Skip , on last row
+                    if(row == wrapper.Rows.Last())
+                    {
+                        output_file.WriteLine($"\t}}");
+                    }
+                    else
+                    {
+                        output_file.WriteLine($"\t}},");
+                    }
+                }
+
+                output_file.WriteLine($"}}");
+                output_file.Close();
+
+                if (Yapped_Rune_Bear.Properties.Settings.Default.UseTextEditor && Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath != "" && !isSilent)
+                {
+                    try
+                    {
+                        Process.Start("\"" + Yapped_Rune_Bear.Properties.Settings.Default.TextEditorPath + "\"", "\"" + Application.StartupPath + "\\" + paramPath + "\"");
+                    }
+                    catch
+                    {
+                        SystemSounds.Hand.Play();
+                    }
+
+                }
+
+                if (!Yapped_Rune_Bear.Properties.Settings.Default.ShowConfirmationMessages && !isSilent)
+                    MessageBox.Show($@"{paramName} data export complete!", "Data Export");
             }
 
-            if (!Yapped_Rune_Bear.Properties.Settings.Default.ShowConfirmationMessages && !isSilent)
-                MessageBox.Show($@"{paramName} data export complete!", "Data Export");
+            
         }
 
         #endregion
@@ -2792,7 +3111,12 @@ namespace Yapped
                 PARAM.Row row = (PARAM.Row)dgvRows.SelectedCells[0].OwningRow.DataBoundItem;
 
                 // This is what populates the field section
-                dgvCells.DataSource = row.Cells.Where(cell => cell.Def.DisplayType != PARAMDEF.DefType.dummy8).ToArray();
+                
+
+                if(settings.CellView_ShowPadding)
+                    dgvCells.DataSource = row.Cells.ToArray();
+                else
+                    dgvCells.DataSource = row.Cells.Where(cell => cell.Def.DisplayType != PARAMDEF.DefType.dummy8).ToArray();
 
                 if (indices.Cell >= dgvCells.RowCount)
                     indices.Cell = dgvCells.RowCount - 1;
@@ -2808,6 +3132,15 @@ namespace Yapped
                 for (int k = 0; k < dgvCells.Rows.Count; k++)
                 {
                     var cell = (PARAM.Cell)dgvCells.Rows[k].DataBoundItem;
+
+                    if(cell.Def.DisplayType == PARAMDEF.DefType.dummy8)
+                    {
+                        // The byte array padding fields are set to read only since supporting the ability to edit them is annoying. If needed, they can be changed via CSV Export/Import.
+                        if (cell.Value.GetType() == typeof(byte[]))
+                        {
+                            dgvCells.Rows[k].ReadOnly = true;
+                        }
+                    }
 
                     // Only display the combo box if ShowEnums is enabled
                     // Disable enum combo box in Param Difference mode
@@ -2978,8 +3311,6 @@ namespace Yapped
                         }
                     }
                 }
-
-                ApplyCellFilter(false);
             }
         }
 
@@ -3315,17 +3646,6 @@ namespace Yapped
             ToolStripMenuItem.Enabled = false;
             WorkflowToolStripMenuItem.Enabled = false;
             settingsMenuItem.Enabled = false;
-
-            // Filters
-            filter_Params.Enabled = false;
-            button_FilterParams.Enabled = false;
-            button_ResetFilterParams.Enabled = false;
-            filter_Rows.Enabled = false;
-            button_FilterRows.Enabled = false;
-            button_ResetFilterRows.Enabled = false;
-            filter_Cells.Enabled = false;
-            button_FilterCells.Enabled = false;
-            button_ResetFilterCells.Enabled = false;
         }
 
         private void ExitInvalidationMode()
@@ -3339,17 +3659,6 @@ namespace Yapped
             ToolStripMenuItem.Enabled = true;
             WorkflowToolStripMenuItem.Enabled = true;
             settingsMenuItem.Enabled = true;
-
-            // Filters
-            filter_Params.Enabled = true;
-            button_FilterParams.Enabled = true;
-            button_ResetFilterParams.Enabled = true;
-            filter_Rows.Enabled = true;
-            button_FilterRows.Enabled = true;
-            button_ResetFilterRows.Enabled = true;
-            filter_Cells.Enabled = true;
-            button_FilterCells.Enabled = true;
-            button_ResetFilterCells.Enabled = true;
         }
 
         private void DgvCells_CellParsing(object sender, DataGridViewCellParsingEventArgs e)
@@ -4042,648 +4351,153 @@ namespace Yapped
         }
         #endregion
 
-        #region Param Filter
-        private void button_FilterParams_Click(object sender, EventArgs e)
+        private void cSVToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            char[] command_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter.ToCharArray();
-            char[] section_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_SectionDelimiter.ToCharArray();
-            string command_delimiter_string = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter;
-
-            // Return if row count is 0
-            if (dgvParams.Rows.Count == 0)
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
                 return;
 
-            // Disable normal autosize modes
-            this.dgvParamsParamCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-
-            // Disable user interaction
-            EnterInvalidationMode();
-
-            // Build input list
-            string[] input_list = filter_Params.Text.ToLower().Split(section_delimiter);
-
-            // Return if no actual command is within the list
-            if (input_list[0].Length < 1)
-            {
-                Utility.ShowError("No filter command present.");
-                ExitInvalidationMode();
-                return;
-            }
-
-            bool hasSelectedParam = false;
-
-            if (dgvRows.Rows.Count > 0)
-                dgvRows.Rows[0].Selected = true;
-
-            if (dgvCells.Rows.Count > 0)
-                dgvCells.Rows[0].Selected = true;
-
-            // Hide all rows - This is so the following section can apply visibility without worrying about invisibility
-            for (int i = 0; i < dgvParams.Rows.Count; i++)
-            {
-                var param = dgvParams.Rows[i];
-                var param_name = param.Cells[0].Value.ToString().ToLower();
-
-                // Hide the row by default
-                CurrencyManager currencyManager = (CurrencyManager)BindingContext[dgvParams.DataSource];
-                currencyManager.SuspendBinding();
-                param.Visible = false;
-                param.Selected = false;
-                currencyManager.ResumeBinding();
-
-                // This determines whether to make the row visible.
-                // Each input section is checked, and if all of them result in true, then the row is made visible
-                List<bool> truth_list = new List<bool>();
-
-                // Apply each input section, this allows for multiple commands to be chained
-                for (int j = 0; j < input_list.Length; j++)
-                {
-                    truth_list.Add(false);
-                    string current_input = input_list[j];
-
-                    // View filter
-                    if (current_input.Contains("view" + command_delimiter_string))
-                    {
-                        string[] temp_input = current_input.Split(command_delimiter);
-                        current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                        List<string> view_list = BuildViewList($@"Views\\Param\\", current_input);
-
-                        if (view_list.Count > 0)
-                        {
-                            // Show if within filter list
-                            foreach (string view_name in view_list)
-                            {
-                                if (param_name.Contains(view_name))
-                                {
-                                    truth_list[j] = true;
-                                }
-                            }
-                        }
-                    }
-                    // Exact
-                    else if (current_input.Contains("exact" + command_delimiter_string))
-                    {
-                        string[] temp_input = current_input.Split(command_delimiter);
-                        current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                        // Only change visibility if there is an actual input
-                        if (current_input.Length > 0)
-                        {
-                            // Show if input is contained within param name
-                            if (param_name.Equals(current_input))
-                            {
-                                truth_list[j] = true;
-                            }
-                        }
-                    }
-                    // Contains
-                    else
-                    {
-                        // Only change visibility if there is an actual input
-                        if (current_input.Length > 0)
-                        {
-                            // Show if input is contained within param name
-                            if (param_name.Contains(current_input))
-                            {
-                                truth_list[j] = true;
-                            }
-                        }
-                    }
-                }
-
-                // If all inputs result in true, make visible
-                if (truth_list.All(c => c == true))
-                {
-                    param.Visible = true;
-                    if (!hasSelectedParam)
-                    {
-                        hasSelectedParam = true;
-                        param.Selected = true;
-                    }
-                }
-            }
-
-            // Restore normal autosize modes
-            this.dgvParamsParamCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-
-            ExitInvalidationMode();
-        }
-
-        private void button_ResetFilterParams_Click(object sender, EventArgs e)
-        {
-            // Disable normal autosize modes
-            this.dgvParamsParamCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-
-            bool hasSelectedFirstMatch = false;
-
-            filter_Params.Text = "";
-
-            for (int i = 0; i < dgvParams.Rows.Count; i++)
-            {
-                var dgv_row = dgvParams.Rows[i];
-
-                dgv_row.Visible = true;
-                dgv_row.Selected = false;
-
-                if (!hasSelectedFirstMatch)
-                {
-                    dgv_row.Selected = true;
-                    hasSelectedFirstMatch = true;
-                }
-            }
-
-            // Restore normal autosize modes
-            this.dgvParamsParamCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-        }
-
-        #endregion
-
-        #region Row Filters
-        private void button_FilterRows_Click(object sender, EventArgs e)
-        {
-            char[] command_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter.ToCharArray();
-            char[] section_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_SectionDelimiter.ToCharArray();
-            string command_delimiter_string = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter;
-
-            // Return if row count is 0
-            if (dgvRows.Rows.Count == 0)
+            // Prompt user to confirm process, since this takes a while
+            string message = $@"Mass Export will export all params to CSV. Continue?";
+            DialogResult answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (answer == DialogResult.No)
                 return;
 
-            // Disable normal autosize modes
-            this.dgvRowsIDCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvRowsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-
-            // Disable user interaction
-            EnterInvalidationMode();
-
-            // Build input list
-            string[] input_list = filter_Rows.Text.ToLower().Split(section_delimiter);
-
-            // Return if no actual command is within the list
-            if (input_list[0].Length < 1)
+            // Notify the user if row names are off
+            if (!Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
             {
-                Utility.ShowError("No filter command present.");
-                ExitInvalidationMode();
-                return;
+                message = $@"Row Names are currently not included. Continue?";
+                answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (answer == DialogResult.No)
+                    return;
             }
 
-            bool hasSelectedRow = false;
-
-            // Hide all rows - This is so the following section can apply visibility without worrying about invisibility
-            for (int i = 0; i < dgvRows.Rows.Count; i++)
+            if (primary_result != null)
             {
-                var current_row = dgvRows.Rows[i];
-                var current_row_name = current_row.Cells[ROW_NAME_COL].Value.ToString().ToLower();
-                var current_row_id = current_row.Cells[ROW_ID_COL].Value.ToString().ToLower();
-                PARAM.Row row_data = (PARAM.Row)current_row.DataBoundItem;
-
-                // Hide the row by default
-                CurrencyManager currencyManager = (CurrencyManager)BindingContext[dgvRows.DataSource];
-                currencyManager.SuspendBinding();
-                current_row.Visible = false;
-                current_row.Selected = false;
-                currencyManager.ResumeBinding();
-
-                // This determines whether to make the row visible.
-                // Each input section is checked, and if all of them result in true, then the row is made visible
-                List<bool> truth_list = new List<bool>();
-
-                // Apply each input section, this allows for multiple commands to be chained
-                for (int j = 0; j < input_list.Length; j++)
+                foreach (ParamWrapper wrapper in primary_result.ParamWrappers)
                 {
-                    truth_list.Add(false);
-                    string current_input = input_list[j];
-
-                    // View filter
-                    if (current_input.Contains("view" + command_delimiter_string))
-                    {
-                        string[] temp_input = current_input.Split(command_delimiter);
-                        current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                        List<string> view_list = BuildViewList($@"Views\\Row\\", current_input);
-
-                        if (view_list.Count > 0)
-                        {
-                            // Show if within filter list
-                            foreach (string view_name in view_list)
-                            {
-                                if (current_row_name.Contains(view_name) || current_row_id.Contains(view_name))
-                                {
-                                    truth_list[j] = true;
-                                }
-                            }
-                        }
-                    }
-                    // Exact
-                    else if (current_input.Contains("exact" + command_delimiter_string))
-                    {
-                        string[] temp_input = current_input.Split(command_delimiter);
-                        current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                        // Only change visibility if there is an actual input
-                        if (current_input.Length > 0)
-                        {
-                            // Show if input is contained within param name
-                            if (current_row_name.Equals(current_input) || current_row_id.Equals(current_input))
-                            {
-                                truth_list[j] = true;
-                            }
-                        }
-                    }
-                    // Field
-                    else if (current_input.Contains("field" + command_delimiter_string))
-                    {
-                        string[] temp_input = current_input.Split(command_delimiter);
-                        string field_input = temp_input[1].TrimStart(' ').ToLower();
-                        string value_input = temp_input[2].TrimStart(' ').ToLower();
-
-                        // Only change visibility if there is an actual input
-                        if (field_input.Length > 0 && value_input.Length > 0)
-                        {
-                            // Check field data
-                            foreach (PARAM.Cell field_cell in row_data.Cells)
-                            {
-                                string field_editor_name = field_cell.EditorName.ToString().ToLower();
-                                string field_internal_name = field_cell.Name.ToString().ToLower();
-                                string field_value = field_cell.Value.ToString();
-
-                                // If field name matches input name
-                                if (field_editor_name.Equals(field_input) || field_internal_name.Equals(field_input))
-                                {
-                                    // Greater than
-                                    if (value_input.Contains(">"))
-                                    {
-                                        var temp_value = value_input.Replace(">", "");
-                                        float temp_float = Convert.ToSingle(temp_value);
-                                        float temp_field_value = Convert.ToSingle(field_value);
-
-                                        if (temp_field_value > temp_float)
-                                        {
-                                            truth_list[j] = true;
-                                        }
-                                    }
-                                    // Greater than equals
-                                    else if (value_input.Contains(">="))
-                                    {
-                                        var temp_value = value_input.Replace(">=", "");
-                                        float temp_float = Convert.ToSingle(temp_value);
-                                        float temp_field_value = Convert.ToSingle(field_value);
-
-                                        if (temp_field_value >= temp_float)
-                                        {
-                                            truth_list[j] = true;
-                                        }
-                                    }
-                                    // Less than
-                                    else if (value_input.Contains("<"))
-                                    {
-                                        var temp_value = value_input.Replace("<", "");
-                                        float temp_float = Convert.ToSingle(temp_value);
-                                        float temp_field_value = Convert.ToSingle(field_value);
-
-                                        if (temp_field_value < temp_float)
-                                        {
-                                            truth_list[j] = true;
-                                        }
-                                    }
-                                    // Less than equals
-                                    else if (value_input.Contains("<="))
-                                    {
-                                        var temp_value = value_input.Replace("<=", "");
-                                        float temp_float = Convert.ToSingle(temp_value);
-                                        float temp_field_value = Convert.ToSingle(field_value);
-
-                                        if (temp_field_value <= temp_float)
-                                        {
-                                            truth_list[j] = true;
-                                        }
-                                    }
-                                    // Equality
-                                    else
-                                    {
-                                        if (field_value.Equals(value_input))
-                                        {
-                                            truth_list[j] = true;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    // Contains
-                    else
-                    {
-                        // Only change visibility if there is an actual input
-                        if (current_input.Length > 0)
-                        {
-                            // Show if input is contained within param name
-                            if (current_row_name.Contains(current_input) || current_row_id.Contains(current_input))
-                            {
-                                truth_list[j] = true;
-                            }
-                        }
-                    }
+                    ExportParamData(wrapper, true, "CSV");
                 }
 
-                // If all inputs result in true, make visible
-                if(truth_list.All(c => c == true))
-                {
-                    current_row.Visible = true;
-                    if(!hasSelectedRow)
-                    {
-                        hasSelectedRow = true;
-                        current_row.Selected = true;
-                    }
-                }
+                MessageBox.Show($@"Mass data export complete!", "Data Export");
             }
-
-            // Restore normal autosize modes
-            this.dgvRowsIDCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgvRowsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-
-            ExitInvalidationMode();
         }
 
-        private void button_ResetFilterRows_Click(object sender, EventArgs e)
+        private void hTMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Restore normal autosize modes
-            this.dgvRowsIDCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvRowsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-
-            bool hasSelectedFirstMatch = false;
-
-            filter_Rows.Text = "";
-
-            for (int i = 0; i < dgvRows.Rows.Count; i++)
-            {
-                var dgv_row = dgvRows.Rows[i];
-
-                dgv_row.Visible = true;
-                dgv_row.Selected = false;
-
-                if (!hasSelectedFirstMatch)
-                {
-                    dgv_row.Selected = true;
-                    hasSelectedFirstMatch = true;
-                }
-            }
-
-            // Restore normal autosize modes
-            this.dgvRowsIDCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgvRowsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-        }
-        #endregion
-
-        #region Cell Filter
-        private void button_FilterCells_Click(object sender, EventArgs e)
-        {
-            ApplyCellFilter(true);
-        }
-
-        private void ApplyCellFilter(bool invokeInvalidationMode)
-        {
-            char[] command_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter.ToCharArray();
-            char[] section_delimiter = Yapped_Rune_Bear.Properties.Settings.Default.Filter_SectionDelimiter.ToCharArray();
-            string command_delimiter_string = Yapped_Rune_Bear.Properties.Settings.Default.Filter_CommandDelimiter;
-
-            // Return if row count is 0
-            if (dgvCells.Rows.Count == 0)
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
                 return;
 
-            if (filter_Cells.Text == "")
+            // Prompt user to confirm process, since this takes a while
+            string message = $@"Mass Export will export all params to HTML tables. Continue?";
+            DialogResult answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (answer == DialogResult.No)
                 return;
 
-            // Disable normal autosize modes
-            this.dgvCellsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsEditorNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-
-            // Disable user interaction
-            if (invokeInvalidationMode)
-                EnterInvalidationMode();
-
-            // Build input list
-            string[] input_list = filter_Cells.Text.ToLower().Split(section_delimiter);
-
-            // Return if no actual command is within the list
-            if (input_list[0].Length > 0)
+            // Notify the user if row names are off
+            if (!Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
             {
-                bool hasSelectedCell = false;
-
-                // Hide all rows - This is so the following section can apply visibility without worrying about invisibility
-                for (int i = 0; i < dgvCells.Rows.Count; i++)
-                {
-                    var cell_row = dgvCells.Rows[i];
-                    var cell_row_param_name = cell_row.Cells[FIELD_PARAM_NAME_COL].Value.ToString().ToLower();
-                    var cell_row_editor_name = cell_row.Cells[FIELD_EDITOR_NAME_COL].Value.ToString().ToLower();
-                    var cell_row_value = cell_row.Cells[FIELD_VALUE_COL].Value.ToString().ToLower();
-
-                    // Hide the row by default
-                    CurrencyManager currencyManager = (CurrencyManager)BindingContext[dgvCells.DataSource];
-                    currencyManager.SuspendBinding();
-                    cell_row.Visible = false;
-                    cell_row.Selected = false;
-                    currencyManager.ResumeBinding();
-
-                    // This determines whether to make the row visible.
-                    // Each input section is checked, and if all of them result in true, then the row is made visible
-                    List<bool> truth_list = new List<bool>();
-
-                    // Apply each input section, this allows for multiple commands to be chained
-                    for (int j = 0; j < input_list.Length; j++)
-                    {
-                        truth_list.Add(false);
-                        string current_input = input_list[j];
-
-                        // View filter
-                        if (current_input.Contains("view" + command_delimiter_string))
-                        {
-                            string[] temp_input = current_input.Split(command_delimiter);
-                            current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                            List<string> view_list = BuildViewList($@"Views\\Field\\", current_input);
-
-                            if (view_list.Count > 0)
-                            {
-                                // Show if within filter list
-                                foreach (string view_name in view_list)
-                                {
-                                    if (cell_row_param_name.Contains(view_name) || cell_row_editor_name.Contains(view_name) || cell_row_value.Contains(view_name))
-                                    {
-                                        truth_list[j] = true;
-                                    }
-                                }
-                            }
-                        }
-                        // Exact
-                        else if (current_input.Contains("exact" + command_delimiter_string))
-                        {
-                            string[] temp_input = current_input.Split(command_delimiter);
-                            current_input = temp_input[1].TrimStart(' ').ToLower();
-
-                            // Only change visibility if there is an actual input
-                            if (current_input.Length > 0)
-                            {
-                                // Show if input is contained within param name
-                                if (cell_row_param_name.Equals(current_input) || cell_row_editor_name.Equals(current_input) || cell_row_value.Equals(current_input))
-                                {
-                                    truth_list[j] = true;
-                                }
-                            }
-                        }
-                        // Contains
-                        else
-                        {
-                            // Only change visibility if there is an actual input
-                            if (current_input.Length > 0)
-                            {
-                                // Show if input is contained within param name
-                                if (cell_row_param_name.Contains(current_input) || cell_row_editor_name.Contains(current_input) || cell_row_value.Contains(current_input))
-                                {
-                                    truth_list[j] = true;
-                                }
-                            }
-                        }
-                    }
-
-                    // If all inputs result in true, make visible
-                    if (truth_list.All(c => c == true))
-                    {
-                        cell_row.Visible = true;
-                        if (!hasSelectedCell)
-                        {
-                            hasSelectedCell = true;
-                            cell_row.Selected = true;
-                        }
-                    }
-                }
-
-                // Restore normal autosize modes
-                this.dgvCellsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-                this.dgvCellsEditorNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-
-                if (Yapped_Rune_Bear.Properties.Settings.Default.CellView_ShowTypes)
-                {
-                    this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-                    this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-                }
-                else
-                {
-                    this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-                    this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-                }
+                message = $@"Row Names are currently not included. Continue?";
+                answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (answer == DialogResult.No)
+                    return;
             }
 
-            if (invokeInvalidationMode)
-                ExitInvalidationMode();
+            if (primary_result != null)
+            {
+                foreach (ParamWrapper wrapper in primary_result.ParamWrappers)
+                {
+                    ExportParamData(wrapper, true, "HTML");
+                }
+
+                MessageBox.Show($@"Mass data export complete!", "Data Export");
+            }
         }
 
-        private void button_ResetFilterCells_Click(object sender, EventArgs e)
+        private void cSVToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            // Disable normal autosize modes
-            this.dgvCellsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsEditorNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
+                return;
 
-            bool hasSelectedFirstMatch = false;
+            DataGridViewRow paramRow = dgvParams.CurrentRow;
+            ParamWrapper wrapper = ((ParamWrapper)paramRow.DataBoundItem);
 
-            filter_Cells.Text = "";
+            ExportParamData(wrapper, false, "CSV");
+        }
 
-            for (int i = 0; i < dgvCells.Rows.Count; i++)
+        private void hTMLToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
+                return;
+
+            DataGridViewRow paramRow = dgvParams.CurrentRow;
+            ParamWrapper wrapper = ((ParamWrapper)paramRow.DataBoundItem);
+
+            ExportParamData(wrapper, false, "HTML");
+        }
+
+        private void structToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
+                return;
+
+            // Prompt user to confirm process, since this takes a while
+            string message = $@"Mass Export will export all params to code tables. Continue?";
+            DialogResult answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (answer == DialogResult.No)
+                return;
+
+            // Notify the user if row names are off
+            if (!Yapped_Rune_Bear.Properties.Settings.Default.IncludeRowNameInCSV)
             {
-                var dgv_row = dgvCells.Rows[i];
-
-                dgv_row.Visible = true;
-                dgv_row.Selected = false;
-
-                if (!hasSelectedFirstMatch)
-                {
-                    dgv_row.Selected = true;
-                    hasSelectedFirstMatch = true;
-                }
+                message = $@"Row Names are currently not included. Continue?";
+                answer = MessageBox.Show(message, "Mass Export", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (answer == DialogResult.No)
+                    return;
             }
 
-            // Enable normal autosize modes
-            this.dgvCellsNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgvCellsEditorNameCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-
-            if (Yapped_Rune_Bear.Properties.Settings.Default.CellView_ShowTypes)
+            if (primary_result != null)
             {
-                this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-                this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+                foreach (ParamWrapper wrapper in primary_result.ParamWrappers)
+                {
+                    ExportParamData(wrapper, true, "Code");
+                }
+
+                MessageBox.Show($@"Mass data export complete!", "Data Export");
+            }
+        }
+
+        private void structToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
+                return;
+
+            DataGridViewRow paramRow = dgvParams.CurrentRow;
+            ParamWrapper wrapper = ((ParamWrapper)paramRow.DataBoundItem);
+
+            ExportParamData(wrapper, false, "Code");
+        }
+
+        private void togglePaddingFieldVisibilityToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Do not allow this change if invalidation state is active
+            if (InvalidationMode)
+                return;
+
+            if (!settings.CellView_ShowPadding)
+            {
+                settings.CellView_ShowPadding = true;
             }
             else
             {
-                this.dgvCellsValueCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-                this.dgvCellsTypeCol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+                settings.CellView_ShowPadding = false;
             }
         }
-        #endregion
-
-        #region Filter Misc
-        private List<string> BuildViewList(string viewDir, string current_input)
-        {
-            List<string> names = new List<string>();
-
-            bool exists = System.IO.Directory.Exists(viewDir);
-
-            if (!exists)
-            {
-                Utility.ShowError("Views directory not found.");
-                return names;
-            }
-
-            DirectoryInfo directory = new DirectoryInfo(viewDir);
-            FileInfo[] Files = directory.GetFiles("*.txt");
-
-            foreach (FileInfo file in Files)
-            {
-                var filename = file.Name.ToLower();
-
-                if (filename.Contains(current_input))
-                {
-                    using (var reader = new StreamReader(file.FullName))
-                    {
-                        while (!reader.EndOfStream)
-                        {
-                            var line = reader.ReadLine();
-                            names.Add(line.ToString().ToLower());
-                        }
-                    }
-                }
-            }
-
-            return names;
-        }
-
-        private void toggleFilterVisibilityToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if(Yapped_Rune_Bear.Properties.Settings.Default.EnableFilterBar)
-            {
-                Yapped_Rune_Bear.Properties.Settings.Default.EnableFilterBar = false;
-            }
-            else
-            {
-                Yapped_Rune_Bear.Properties.Settings.Default.EnableFilterBar = true;
-            }
-
-            if(Yapped_Rune_Bear.Properties.Settings.Default.EnableFilterBar)
-            {
-                menuStrip2.Visible = true;
-                menuStrip3.Visible = true;
-                menuStrip4.Visible = true;
-            }
-            else
-            {
-                menuStrip2.Visible = false;
-                menuStrip3.Visible = false;
-                menuStrip4.Visible = false;
-            }
-        }
-        #endregion
 
         #region Generate Project Directories
         /// <summary>
@@ -4700,6 +4514,8 @@ namespace Yapped
             List<String> folders = new List<String>
             {
                 "CSV",
+                "HTML",
+                "Code",
                 "Logs",
                 "Names"
             };

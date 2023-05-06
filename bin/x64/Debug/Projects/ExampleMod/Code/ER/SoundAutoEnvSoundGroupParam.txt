@@ -1,0 +1,38 @@
+local SoundAutoEnvSoundGroupParam = {
+	[0] = { -- 
+		["SoundNo"] = -1,
+		["ExpandRange"] = 100,
+		["FollowSpeed"] = 0.1,
+		["FollowRate"] = 0.015
+	},
+	[1000] = { -- 
+		["SoundNo"] = 600001000,
+		["ExpandRange"] = 100,
+		["FollowSpeed"] = 0.1,
+		["FollowRate"] = 0.015
+	},
+	[1001] = { -- 
+		["SoundNo"] = 600001001,
+		["ExpandRange"] = 50,
+		["FollowSpeed"] = 0.1,
+		["FollowRate"] = 0.015
+	},
+	[2000] = { -- 
+		["SoundNo"] = 600002000,
+		["ExpandRange"] = 35,
+		["FollowSpeed"] = 0.04,
+		["FollowRate"] = 0.1
+	},
+	[2001] = { -- 
+		["SoundNo"] = 600002001,
+		["ExpandRange"] = 20,
+		["FollowSpeed"] = 0.04,
+		["FollowRate"] = 0.1
+	},
+	[3000] = { -- 
+		["SoundNo"] = -1,
+		["ExpandRange"] = 100,
+		["FollowSpeed"] = 0.1,
+		["FollowRate"] = 0.015
+	}
+}

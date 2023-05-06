@@ -1,0 +1,7975 @@
+local MenuPropertyLayoutParam = {
+	[0] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1001] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1002] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1003] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1004] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1005] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1006] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1007] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1008] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1009] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31042,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1010] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1011] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1012] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1013] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 201,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1014] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 202,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1015] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 203,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1016] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 204,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1017] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 205,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1018] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1019] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 30000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1020] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1100] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1101] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1102] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1103] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1104] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1105] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1106] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1107] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1108] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1109] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1110] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1111] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1112] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1113] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1114] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1115] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1116] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1117] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1118] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1119] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1120] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1200] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1201] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1202] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1203] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1204] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1205] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1206] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1207] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1208] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1209] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1210] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1211] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1212] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1213] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1214] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1215] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1216] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1217] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1218] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1219] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1220] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1300] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1301] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1302] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1303] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1304] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1305] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1306] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1307] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1308] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1309] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1310] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1311] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20100,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1312] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 700,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1313] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 702,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1314] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 710,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1315] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 712,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1316] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1400] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1401] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1402] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 220,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31008,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1403] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 221,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1404] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 222,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1405] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 11007,
+		["HelpTextID"] = 31007,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1406] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1407] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1408] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1409] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31042,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1410] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1411] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1412] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1413] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 201,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1414] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 202,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1415] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 203,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1416] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 204,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1417] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 205,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1418] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1419] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 30000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1420] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1500] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1501] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1502] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1503] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1504] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1505] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1506] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1507] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1508] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1509] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1510] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1511] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1512] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1513] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1514] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1515] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1516] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1517] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1518] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1519] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1520] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1600] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1601] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1602] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1603] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1604] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1605] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1606] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1607] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1608] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1609] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 209,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31043,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1610] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31042,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1611] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1612] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1613] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1614] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1615] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1616] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1617] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1618] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1619] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1620] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1700] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1701] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1702] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1703] = { -- 
+		["LayoutPath"] = TopItem_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1704] = { -- 
+		["LayoutPath"] = TopItem_1_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1705] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1706] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1707] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1708] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1709] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1710] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1711] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1712] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 105,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1713] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1714] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1715] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1716] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1717] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1718] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1719] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 30001,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[1720] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2001] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2002] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2003] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2004] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2005] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2006] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2007] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2008] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2009] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2010] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2011] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2012] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2013] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2014] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2015] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2016] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2017] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2018] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2019] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2020] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2021] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2022] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2023] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2024] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2025] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2026] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2027] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2028] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2029] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2030] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2031] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2032] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2033] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2034] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2035] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2036] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2037] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2038] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2039] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2040] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2041] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2042] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2043] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2044] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2045] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31310,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2046] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31311,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2047] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31312,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2048] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31313,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2049] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31319,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2050] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2051] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2052] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2053] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2054] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2055] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2056] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2057] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2058] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2059] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2060] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2061] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2062] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2063] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2064] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2065] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2066] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2067] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2068] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2069] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2070] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2100] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2101] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2102] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2103] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2104] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2105] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2106] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2107] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2108] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2109] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2110] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2111] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2112] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2113] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2114] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2115] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2116] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2117] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2118] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2119] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2120] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2121] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2122] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2123] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2124] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2125] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2126] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2127] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2128] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2129] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2130] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2131] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2132] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2133] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2134] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2135] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2136] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2137] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2138] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2139] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2140] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2141] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2142] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2143] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2144] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2145] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31310,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2146] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31311,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2147] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31312,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2148] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31313,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2149] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31319,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2150] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2151] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2152] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2153] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2154] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2155] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2156] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2157] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2158] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2159] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2160] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2161] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2162] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2163] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2164] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2165] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2166] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2167] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2168] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2169] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2170] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2300] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2301] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2302] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2303] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2304] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2305] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2306] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2307] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2308] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2309] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2310] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2311] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2312] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2313] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2314] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2315] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2316] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2317] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2318] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2319] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2320] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2321] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 338,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31035,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2322] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2323] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2324] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2325] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2326] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2327] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2328] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2329] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2330] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2331] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2332] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2333] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2334] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2335] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2336] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2337] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2338] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2339] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2340] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2341] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2342] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2343] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2344] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2345] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2346] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2347] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2348] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2349] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2350] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2351] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2352] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2353] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2354] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2355] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2356] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2357] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2358] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2359] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2360] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2361] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2362] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2363] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2364] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2365] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2366] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2367] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2368] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2369] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2370] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2400] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2401] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2402] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2403] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2404] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2405] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2406] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2407] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2408] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2409] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2410] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2411] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2412] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2413] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2414] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2415] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2416] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2417] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2418] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2419] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2420] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2421] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 338,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31035,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2422] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2423] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2424] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2425] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2426] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2427] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2428] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2429] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2430] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2431] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2432] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2433] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2434] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2435] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2436] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2437] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2438] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2439] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2440] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2441] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2442] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2443] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2444] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2445] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2446] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2447] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2448] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2449] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2450] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2451] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2452] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2453] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2454] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2455] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2456] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2457] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2458] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2459] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2460] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2461] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2462] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2463] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2464] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2465] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2466] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2467] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2468] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2469] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2470] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2500] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2501] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2502] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2503] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2504] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2505] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2506] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2507] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2508] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2509] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2510] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2511] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2512] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2513] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2514] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2515] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2516] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2517] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2518] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2519] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2520] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2521] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 339,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31036,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2522] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2523] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2524] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2525] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2526] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2527] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2528] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2529] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2530] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2531] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2532] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2533] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2534] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2535] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2536] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2537] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2538] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2539] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2540] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2541] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2542] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2543] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2544] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2545] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2546] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2547] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2548] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2549] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2550] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2551] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2552] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2553] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2554] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2555] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2556] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2557] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2558] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2559] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2560] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2561] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2562] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2563] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2564] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2565] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2566] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2567] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2568] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2569] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2570] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2600] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2601] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 300,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2602] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 301,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2603] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2604] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 302,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31006,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2605] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2606] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 391,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31034,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2607] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 392,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2608] = { -- 
+		["LayoutPath"] = TopItem_4_2,
+		["PropertyID"] = 393,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2609] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2610] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2611] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2612] = { -- 
+		["LayoutPath"] = TopItem_7_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2613] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 310,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2614] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 311,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2615] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 312,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2616] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 313,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2617] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 314,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2618] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 322,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2619] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2620] = { -- 
+		["LayoutPath"] = L_Item_6a,
+		["PropertyID"] = 320,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31032,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2621] = { -- 
+		["LayoutPath"] = L_Item_6b,
+		["PropertyID"] = 339,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31036,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2622] = { -- 
+		["LayoutPath"] = L_Item_0_plus,
+		["PropertyID"] = 315,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2623] = { -- 
+		["LayoutPath"] = L_Item_1_plus,
+		["PropertyID"] = 316,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2624] = { -- 
+		["LayoutPath"] = L_Item_2_plus,
+		["PropertyID"] = 317,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2625] = { -- 
+		["LayoutPath"] = L_Item_3_plus,
+		["PropertyID"] = 318,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2626] = { -- 
+		["LayoutPath"] = L_Item_4_plus,
+		["PropertyID"] = 319,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2627] = { -- 
+		["LayoutPath"] = L_Item_5_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2628] = { -- 
+		["LayoutPath"] = L_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2629] = { -- 
+		["LayoutPath"] = L_Item_6a_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2630] = { -- 
+		["LayoutPath"] = L_Item_6b_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2631] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 340,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31020,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2632] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 341,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31021,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2633] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 342,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31022,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2634] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 343,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31023,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2635] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 344,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31024,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2636] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 350,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31031,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2637] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2638] = { -- 
+		["LayoutPath"] = R_Item_0_plus,
+		["PropertyID"] = 345,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2639] = { -- 
+		["LayoutPath"] = R_Item_1_plus,
+		["PropertyID"] = 346,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2640] = { -- 
+		["LayoutPath"] = R_Item_2_plus,
+		["PropertyID"] = 347,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2641] = { -- 
+		["LayoutPath"] = R_Item_3_plus,
+		["PropertyID"] = 348,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2642] = { -- 
+		["LayoutPath"] = R_Item_4_plus,
+		["PropertyID"] = 349,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2643] = { -- 
+		["LayoutPath"] = R_Item_5_plus,
+		["PropertyID"] = 351,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2644] = { -- 
+		["LayoutPath"] = R_Item_6_plus,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2645] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 370,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31314,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2646] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 371,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31315,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2647] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 372,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31316,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2648] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 373,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31317,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2649] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 374,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31318,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2650] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 360,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31300,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2651] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 361,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2652] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 362,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31302,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2653] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 363,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31303,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2654] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 364,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31304,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2655] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 365,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2656] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 366,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2657] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 367,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2658] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 368,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2659] = { -- 
+		["LayoutPath"] = Item_24_plus,
+		["PropertyID"] = 369,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2660] = { -- 
+		["LayoutPath"] = Item_30,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2661] = { -- 
+		["LayoutPath"] = Item_31,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2662] = { -- 
+		["LayoutPath"] = Item_32,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2663] = { -- 
+		["LayoutPath"] = Item_33,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2664] = { -- 
+		["LayoutPath"] = Item_34,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2665] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2666] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2667] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2668] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2669] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[2670] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4001] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4002] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4003] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4004] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4005] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4006] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31351,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4007] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4008] = { -- 
+		["LayoutPath"] = TopItem_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4009] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 430,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31180,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4010] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 431,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31181,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4011] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 432,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31182,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4012] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 433,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31183,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4013] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 434,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31184,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4014] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 435,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31185,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4015] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 436,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31186,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4016] = { -- 
+		["LayoutPath"] = L_Item_7,
+		["PropertyID"] = 437,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31187,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4017] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 411,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31190,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4018] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 412,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31191,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4019] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 417,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31192,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4020] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 413,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31193,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4021] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 418,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4022] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4023] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4024] = { -- 
+		["LayoutPath"] = R_Item_7,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4025] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20050,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4026] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20051,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[4027] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5001] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 500,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31002,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5002] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5003] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5004] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5005] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5006] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5007] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 520,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31041,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5008] = { -- 
+		["LayoutPath"] = TopItem_4_plus,
+		["PropertyID"] = 521,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5009] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 502,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31040,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5010] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5011] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 504,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31307,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5012] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 505,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31308,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5013] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 506,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31309,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5014] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5015] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5016] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5017] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[5018] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6001] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 600,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6002] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 601,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6003] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6004] = { -- 
+		["LayoutPath"] = TopItem_2_plus,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6005] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6006] = { -- 
+		["LayoutPath"] = TopItem_3_plus,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6007] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6008] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6009] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 610,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31010,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6010] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 611,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31011,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6011] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 612,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31012,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6012] = { -- 
+		["LayoutPath"] = L_Item_3,
+		["PropertyID"] = 613,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31013,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6013] = { -- 
+		["LayoutPath"] = L_Item_4,
+		["PropertyID"] = 615,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31014,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6014] = { -- 
+		["LayoutPath"] = L_Item_5,
+		["PropertyID"] = 614,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31030,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6015] = { -- 
+		["LayoutPath"] = L_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6016] = { -- 
+		["LayoutPath"] = R_Item_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6017] = { -- 
+		["LayoutPath"] = R_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6018] = { -- 
+		["LayoutPath"] = R_Item_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6019] = { -- 
+		["LayoutPath"] = R_Item_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6020] = { -- 
+		["LayoutPath"] = R_Item_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6021] = { -- 
+		["LayoutPath"] = R_Item_5,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6022] = { -- 
+		["LayoutPath"] = R_Item_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6023] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 395,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6024] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 396,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6025] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 397,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6026] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6027] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6028] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6029] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20004,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6030] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6500] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6501] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 802,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31512,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6502] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6503] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6504] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6505] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 801,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31511,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6506] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 803,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31513,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6507] = { -- 
+		["LayoutPath"] = L_Item_0,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6508] = { -- 
+		["LayoutPath"] = L_Item_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6509] = { -- 
+		["LayoutPath"] = L_Item_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6510] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6511] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6512] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6513] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6514] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6515] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20006,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6516] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[6517] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7001] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7002] = { -- 
+		["LayoutPath"] = TopItem_0_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7003] = { -- 
+		["LayoutPath"] = TopItem_1_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7004] = { -- 
+		["LayoutPath"] = TopItem_2_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7005] = { -- 
+		["LayoutPath"] = TopItem_2_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7006] = { -- 
+		["LayoutPath"] = TopItem_2_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7007] = { -- 
+		["LayoutPath"] = TopItem_3_0,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7008] = { -- 
+		["LayoutPath"] = TopItem_3_1,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7009] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7010] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7011] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7012] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7013] = { -- 
+		["LayoutPath"] = TopItem_7_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7014] = { -- 
+		["LayoutPath"] = TopItem_7_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7015] = { -- 
+		["LayoutPath"] = TopItem_7_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7016] = { -- 
+		["LayoutPath"] = StatusTitle_1_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7017] = { -- 
+		["LayoutPath"] = StatusTitle_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7018] = { -- 
+		["LayoutPath"] = Item_0_0,
+		["PropertyID"] = 150,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7019] = { -- 
+		["LayoutPath"] = Item_0_1,
+		["PropertyID"] = 151,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7020] = { -- 
+		["LayoutPath"] = Item_0_2,
+		["PropertyID"] = 152,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7021] = { -- 
+		["LayoutPath"] = Item_0_3,
+		["PropertyID"] = 153,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7022] = { -- 
+		["LayoutPath"] = Item_1_0,
+		["PropertyID"] = 155,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7023] = { -- 
+		["LayoutPath"] = Item_1_1,
+		["PropertyID"] = 156,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7024] = { -- 
+		["LayoutPath"] = Item_1_2,
+		["PropertyID"] = 157,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7025] = { -- 
+		["LayoutPath"] = Item_1_3,
+		["PropertyID"] = 158,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7026] = { -- 
+		["LayoutPath"] = Item_2_0,
+		["PropertyID"] = 160,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7027] = { -- 
+		["LayoutPath"] = Item_2_1,
+		["PropertyID"] = 161,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7028] = { -- 
+		["LayoutPath"] = Item_2_2,
+		["PropertyID"] = 162,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7029] = { -- 
+		["LayoutPath"] = Item_2_3,
+		["PropertyID"] = 163,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7030] = { -- 
+		["LayoutPath"] = Item_3_0,
+		["PropertyID"] = 165,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7031] = { -- 
+		["LayoutPath"] = Item_3_1,
+		["PropertyID"] = 166,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7032] = { -- 
+		["LayoutPath"] = Item_3_2,
+		["PropertyID"] = 167,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7033] = { -- 
+		["LayoutPath"] = Item_3_3,
+		["PropertyID"] = 168,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7034] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7100] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7101] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7102] = { -- 
+		["LayoutPath"] = TopItem_0_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7103] = { -- 
+		["LayoutPath"] = TopItem_1_0,
+		["PropertyID"] = 600,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31001,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7104] = { -- 
+		["LayoutPath"] = TopItem_2_0,
+		["PropertyID"] = 601,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7105] = { -- 
+		["LayoutPath"] = TopItem_2_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7106] = { -- 
+		["LayoutPath"] = TopItem_2_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7107] = { -- 
+		["LayoutPath"] = TopItem_3_0,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7108] = { -- 
+		["LayoutPath"] = TopItem_3_1,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7109] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7110] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7111] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7112] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7113] = { -- 
+		["LayoutPath"] = TopItem_7_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7114] = { -- 
+		["LayoutPath"] = TopItem_7_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7115] = { -- 
+		["LayoutPath"] = TopItem_7_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7116] = { -- 
+		["LayoutPath"] = StatusTitle_1_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7117] = { -- 
+		["LayoutPath"] = StatusTitle_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7118] = { -- 
+		["LayoutPath"] = Item_0_0,
+		["PropertyID"] = 150,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7119] = { -- 
+		["LayoutPath"] = Item_0_1,
+		["PropertyID"] = 151,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7120] = { -- 
+		["LayoutPath"] = Item_0_2,
+		["PropertyID"] = 152,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7121] = { -- 
+		["LayoutPath"] = Item_0_3,
+		["PropertyID"] = 153,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7122] = { -- 
+		["LayoutPath"] = Item_1_0,
+		["PropertyID"] = 155,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7123] = { -- 
+		["LayoutPath"] = Item_1_1,
+		["PropertyID"] = 156,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7124] = { -- 
+		["LayoutPath"] = Item_1_2,
+		["PropertyID"] = 157,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7125] = { -- 
+		["LayoutPath"] = Item_1_3,
+		["PropertyID"] = 158,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7126] = { -- 
+		["LayoutPath"] = Item_2_0,
+		["PropertyID"] = 160,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7127] = { -- 
+		["LayoutPath"] = Item_2_1,
+		["PropertyID"] = 161,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7128] = { -- 
+		["LayoutPath"] = Item_2_2,
+		["PropertyID"] = 162,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7129] = { -- 
+		["LayoutPath"] = Item_2_3,
+		["PropertyID"] = 163,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7130] = { -- 
+		["LayoutPath"] = Item_3_0,
+		["PropertyID"] = 165,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7131] = { -- 
+		["LayoutPath"] = Item_3_1,
+		["PropertyID"] = 166,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7132] = { -- 
+		["LayoutPath"] = Item_3_2,
+		["PropertyID"] = 167,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7133] = { -- 
+		["LayoutPath"] = Item_3_3,
+		["PropertyID"] = 168,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7134] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7200] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7201] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7202] = { -- 
+		["LayoutPath"] = TopItem_0_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7203] = { -- 
+		["LayoutPath"] = TopItem_1_0,
+		["PropertyID"] = 200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31360,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7204] = { -- 
+		["LayoutPath"] = TopItem_2_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7205] = { -- 
+		["LayoutPath"] = TopItem_2_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7206] = { -- 
+		["LayoutPath"] = TopItem_2_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7207] = { -- 
+		["LayoutPath"] = TopItem_3_0,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 11007,
+		["HelpTextID"] = 31007,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7208] = { -- 
+		["LayoutPath"] = TopItem_3_1,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7209] = { -- 
+		["LayoutPath"] = TopItem_4_0,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31005,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7210] = { -- 
+		["LayoutPath"] = TopItem_4_1,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7211] = { -- 
+		["LayoutPath"] = TopItem_5,
+		["PropertyID"] = 101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7212] = { -- 
+		["LayoutPath"] = TopItem_6,
+		["PropertyID"] = 223,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31009,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7213] = { -- 
+		["LayoutPath"] = TopItem_7_0,
+		["PropertyID"] = 220,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31008,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7214] = { -- 
+		["LayoutPath"] = TopItem_7_1,
+		["PropertyID"] = 221,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7215] = { -- 
+		["LayoutPath"] = TopItem_7_2,
+		["PropertyID"] = 222,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7216] = { -- 
+		["LayoutPath"] = StatusTitle_1_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7217] = { -- 
+		["LayoutPath"] = StatusTitle_1_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7218] = { -- 
+		["LayoutPath"] = Item_0_0,
+		["PropertyID"] = 150,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7219] = { -- 
+		["LayoutPath"] = Item_0_1,
+		["PropertyID"] = 151,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7220] = { -- 
+		["LayoutPath"] = Item_0_2,
+		["PropertyID"] = 152,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7221] = { -- 
+		["LayoutPath"] = Item_0_3,
+		["PropertyID"] = 153,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7222] = { -- 
+		["LayoutPath"] = Item_1_0,
+		["PropertyID"] = 155,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7223] = { -- 
+		["LayoutPath"] = Item_1_1,
+		["PropertyID"] = 156,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7224] = { -- 
+		["LayoutPath"] = Item_1_2,
+		["PropertyID"] = 157,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7225] = { -- 
+		["LayoutPath"] = Item_1_3,
+		["PropertyID"] = 158,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7226] = { -- 
+		["LayoutPath"] = Item_2_0,
+		["PropertyID"] = 160,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7227] = { -- 
+		["LayoutPath"] = Item_2_1,
+		["PropertyID"] = 161,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7228] = { -- 
+		["LayoutPath"] = Item_2_2,
+		["PropertyID"] = 162,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7229] = { -- 
+		["LayoutPath"] = Item_2_3,
+		["PropertyID"] = 163,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7230] = { -- 
+		["LayoutPath"] = Item_3_0,
+		["PropertyID"] = 165,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7231] = { -- 
+		["LayoutPath"] = Item_3_1,
+		["PropertyID"] = 166,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7232] = { -- 
+		["LayoutPath"] = Item_3_2,
+		["PropertyID"] = 167,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7233] = { -- 
+		["LayoutPath"] = Item_3_3,
+		["PropertyID"] = 168,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[7234] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10000] = { -- 
+		["LayoutPath"] = Item_01,
+		["PropertyID"] = 10008,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10001] = { -- 
+		["LayoutPath"] = Item_02,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10002] = { -- 
+		["LayoutPath"] = Item_03,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10003] = { -- 
+		["LayoutPath"] = Item_04,
+		["PropertyID"] = 10100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30400,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10004] = { -- 
+		["LayoutPath"] = Item_05,
+		["PropertyID"] = 10102,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30402,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10005] = { -- 
+		["LayoutPath"] = Item_06,
+		["PropertyID"] = 10101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30401,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10006] = { -- 
+		["LayoutPath"] = Item_07,
+		["PropertyID"] = 10103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30403,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10007] = { -- 
+		["LayoutPath"] = Item_08,
+		["PropertyID"] = 10104,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30404,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10008] = { -- 
+		["LayoutPath"] = Item_09,
+		["PropertyID"] = 10106,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30406,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10009] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 10107,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30407,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10010] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 10109,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30409,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10011] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10012] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 10200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30500,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10013] = { -- 
+		["LayoutPath"] = Item_13_plus,
+		["PropertyID"] = 10201,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10014] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 10202,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30501,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10015] = { -- 
+		["LayoutPath"] = Item_14_plus,
+		["PropertyID"] = 10203,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10016] = { -- 
+		["LayoutPath"] = Item_15,
+		["PropertyID"] = 10204,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30502,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10017] = { -- 
+		["LayoutPath"] = Item_16,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10018] = { -- 
+		["LayoutPath"] = Item_17,
+		["PropertyID"] = 10205,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30510,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10019] = { -- 
+		["LayoutPath"] = Item_17_plus,
+		["PropertyID"] = 10206,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10020] = { -- 
+		["LayoutPath"] = Item_18,
+		["PropertyID"] = 10228,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10021] = { -- 
+		["LayoutPath"] = Item_19,
+		["PropertyID"] = 10229,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10022] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 10225,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30562,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10023] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 10224,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30561,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10024] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10025] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10026] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[10027] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11000] = { -- 
+		["LayoutPath"] = Item_01,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11001] = { -- 
+		["LayoutPath"] = Item_02,
+		["PropertyID"] = 10207,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30520,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11002] = { -- 
+		["LayoutPath"] = Item_03,
+		["PropertyID"] = 10208,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30521,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11003] = { -- 
+		["LayoutPath"] = Item_04,
+		["PropertyID"] = 10209,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30522,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11004] = { -- 
+		["LayoutPath"] = Item_05,
+		["PropertyID"] = 10210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30523,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11005] = { -- 
+		["LayoutPath"] = Item_06,
+		["PropertyID"] = 10211,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30524,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11006] = { -- 
+		["LayoutPath"] = Item_07,
+		["PropertyID"] = 10212,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30525,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11007] = { -- 
+		["LayoutPath"] = Item_08,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11008] = { -- 
+		["LayoutPath"] = Item_09,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11009] = { -- 
+		["LayoutPath"] = Item_10,
+		["PropertyID"] = 10213,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30580,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11010] = { -- 
+		["LayoutPath"] = Item_11,
+		["PropertyID"] = 10214,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30581,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11011] = { -- 
+		["LayoutPath"] = Item_12,
+		["PropertyID"] = 10215,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30582,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11012] = { -- 
+		["LayoutPath"] = Item_13,
+		["PropertyID"] = 10216,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30583,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11013] = { -- 
+		["LayoutPath"] = Item_14,
+		["PropertyID"] = 10217,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30584,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11014] = { -- 
+		["LayoutPath"] = Item_15,
+		["PropertyID"] = 10218,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30585,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11015] = { -- 
+		["LayoutPath"] = Item_16,
+		["PropertyID"] = 10219,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30586,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11016] = { -- 
+		["LayoutPath"] = Item_17,
+		["PropertyID"] = 10258,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30587,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11017] = { -- 
+		["LayoutPath"] = Item_18,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11018] = { -- 
+		["LayoutPath"] = Item_19,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11019] = { -- 
+		["LayoutPath"] = Item_20,
+		["PropertyID"] = 10270,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30590,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11020] = { -- 
+		["LayoutPath"] = Item_21,
+		["PropertyID"] = 10271,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30591,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11021] = { -- 
+		["LayoutPath"] = Item_22,
+		["PropertyID"] = 10276,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30592,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11022] = { -- 
+		["LayoutPath"] = Item_23,
+		["PropertyID"] = 10272,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30593,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11023] = { -- 
+		["LayoutPath"] = Item_24,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11024] = { -- 
+		["LayoutPath"] = Item_10_plus,
+		["PropertyID"] = 10242,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11025] = { -- 
+		["LayoutPath"] = Item_11_plus,
+		["PropertyID"] = 10259,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11026] = { -- 
+		["LayoutPath"] = Item_12_plus,
+		["PropertyID"] = 10260,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11027] = { -- 
+		["LayoutPath"] = Item_13_plus,
+		["PropertyID"] = 10261,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11028] = { -- 
+		["LayoutPath"] = Item_14_plus,
+		["PropertyID"] = 10243,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11029] = { -- 
+		["LayoutPath"] = Item_15_plus,
+		["PropertyID"] = 10244,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11030] = { -- 
+		["LayoutPath"] = Item_16_plus,
+		["PropertyID"] = 10245,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11031] = { -- 
+		["LayoutPath"] = Item_17_plus,
+		["PropertyID"] = 10262,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11032] = { -- 
+		["LayoutPath"] = Item_20_plus,
+		["PropertyID"] = 10281,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11033] = { -- 
+		["LayoutPath"] = Item_21_plus,
+		["PropertyID"] = 10280,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11034] = { -- 
+		["LayoutPath"] = Item_22_plus,
+		["PropertyID"] = 10286,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11035] = { -- 
+		["LayoutPath"] = Item_23_plus,
+		["PropertyID"] = 10283,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11036] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 40602,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11037] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11038] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20010,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11039] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20017,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[11040] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15000] = { -- 
+		["LayoutPath"] = PlayerName,
+		["PropertyID"] = 10000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30100,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15001] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 10001,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30101,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15002] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 10012,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30301,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15003] = { -- 
+		["LayoutPath"] = Item_2,
+		["PropertyID"] = 10002,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30102,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15004] = { -- 
+		["LayoutPath"] = Item_3,
+		["PropertyID"] = 10003,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30103,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15005] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20015,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15006] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20016,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15007] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15500] = { -- 
+		["LayoutPath"] = Item_0_0,
+		["PropertyID"] = 10008,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15501] = { -- 
+		["LayoutPath"] = Item_1_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15502] = { -- 
+		["LayoutPath"] = Item_2_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15503] = { -- 
+		["LayoutPath"] = Item_3_0,
+		["PropertyID"] = 10010,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30202,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15504] = { -- 
+		["LayoutPath"] = Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15505] = { -- 
+		["LayoutPath"] = Item_5_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15506] = { -- 
+		["LayoutPath"] = Item_6_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15507] = { -- 
+		["LayoutPath"] = Item_7_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15508] = { -- 
+		["LayoutPath"] = LowerLeft_0,
+		["PropertyID"] = 10100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30400,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15509] = { -- 
+		["LayoutPath"] = LowerLeft_1,
+		["PropertyID"] = 10102,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30402,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15510] = { -- 
+		["LayoutPath"] = LowerLeft_2,
+		["PropertyID"] = 10101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30401,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15511] = { -- 
+		["LayoutPath"] = LowerLeft_3,
+		["PropertyID"] = 10103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30403,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15512] = { -- 
+		["LayoutPath"] = LowerLeft_4,
+		["PropertyID"] = 10104,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30404,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15513] = { -- 
+		["LayoutPath"] = LowerLeft_5,
+		["PropertyID"] = 10106,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30406,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15514] = { -- 
+		["LayoutPath"] = LowerLeft_6,
+		["PropertyID"] = 10107,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30407,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15515] = { -- 
+		["LayoutPath"] = LowerLeft_7,
+		["PropertyID"] = 10109,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30409,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15516] = { -- 
+		["LayoutPath"] = LowerLeft_8,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15517] = { -- 
+		["LayoutPath"] = PlayerName,
+		["PropertyID"] = 10000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30100,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15518] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20008,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[15519] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16000] = { -- 
+		["LayoutPath"] = L_Item_00,
+		["PropertyID"] = 10200,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30500,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16001] = { -- 
+		["LayoutPath"] = L_Item_00_plus,
+		["PropertyID"] = 10201,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16002] = { -- 
+		["LayoutPath"] = L_Item_01,
+		["PropertyID"] = 10202,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30501,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16003] = { -- 
+		["LayoutPath"] = L_Item_01_plus,
+		["PropertyID"] = 10203,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16004] = { -- 
+		["LayoutPath"] = L_Item_02,
+		["PropertyID"] = 10204,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30502,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16005] = { -- 
+		["LayoutPath"] = L_Item_03,
+		["PropertyID"] = 10205,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30510,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16006] = { -- 
+		["LayoutPath"] = L_Item_03_plus,
+		["PropertyID"] = 10206,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16007] = { -- 
+		["LayoutPath"] = L_Item_04,
+		["PropertyID"] = 10228,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16008] = { -- 
+		["LayoutPath"] = L_Item_05,
+		["PropertyID"] = 10229,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16009] = { -- 
+		["LayoutPath"] = L_Item_06,
+		["PropertyID"] = 10225,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30562,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16010] = { -- 
+		["LayoutPath"] = L_Item_07,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16011] = { -- 
+		["LayoutPath"] = L_Item_10,
+		["PropertyID"] = 10207,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30520,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16012] = { -- 
+		["LayoutPath"] = L_Item_11,
+		["PropertyID"] = 10208,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30521,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16013] = { -- 
+		["LayoutPath"] = L_Item_12,
+		["PropertyID"] = 10209,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30522,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16014] = { -- 
+		["LayoutPath"] = L_Item_13,
+		["PropertyID"] = 10210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30523,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16015] = { -- 
+		["LayoutPath"] = L_Item_14,
+		["PropertyID"] = 10211,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30524,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16016] = { -- 
+		["LayoutPath"] = L_Item_15,
+		["PropertyID"] = 10212,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30525,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16017] = { -- 
+		["LayoutPath"] = R_Item_00,
+		["PropertyID"] = 10213,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30580,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16018] = { -- 
+		["LayoutPath"] = R_Item_01,
+		["PropertyID"] = 10214,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30581,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16019] = { -- 
+		["LayoutPath"] = R_Item_02,
+		["PropertyID"] = 10215,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30582,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16020] = { -- 
+		["LayoutPath"] = R_Item_03,
+		["PropertyID"] = 10216,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30583,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16021] = { -- 
+		["LayoutPath"] = R_Item_04,
+		["PropertyID"] = 10217,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30584,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16022] = { -- 
+		["LayoutPath"] = R_Item_05,
+		["PropertyID"] = 10218,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30585,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16023] = { -- 
+		["LayoutPath"] = R_Item_06,
+		["PropertyID"] = 10219,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30586,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16024] = { -- 
+		["LayoutPath"] = R_Item_07,
+		["PropertyID"] = 10258,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30587,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16025] = { -- 
+		["LayoutPath"] = R_Item_10,
+		["PropertyID"] = 10270,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30590,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16026] = { -- 
+		["LayoutPath"] = R_Item_11,
+		["PropertyID"] = 10271,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30591,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16027] = { -- 
+		["LayoutPath"] = R_Item_12,
+		["PropertyID"] = 10276,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30592,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16028] = { -- 
+		["LayoutPath"] = R_Item_13,
+		["PropertyID"] = 10272,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30593,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16029] = { -- 
+		["LayoutPath"] = R_Item_14,
+		["PropertyID"] = 10224,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30561,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16030] = { -- 
+		["LayoutPath"] = R_Item_00_plus,
+		["PropertyID"] = 10242,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16031] = { -- 
+		["LayoutPath"] = R_Item_01_plus,
+		["PropertyID"] = 10259,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16032] = { -- 
+		["LayoutPath"] = R_Item_02_plus,
+		["PropertyID"] = 10260,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16033] = { -- 
+		["LayoutPath"] = R_Item_03_plus,
+		["PropertyID"] = 10261,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16034] = { -- 
+		["LayoutPath"] = R_Item_04_plus,
+		["PropertyID"] = 10243,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16035] = { -- 
+		["LayoutPath"] = R_Item_05_plus,
+		["PropertyID"] = 10244,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16036] = { -- 
+		["LayoutPath"] = R_Item_06_plus,
+		["PropertyID"] = 10245,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16037] = { -- 
+		["LayoutPath"] = R_Item_07_plus,
+		["PropertyID"] = 10262,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16038] = { -- 
+		["LayoutPath"] = R_Item_10_plus,
+		["PropertyID"] = 10281,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16039] = { -- 
+		["LayoutPath"] = R_Item_11_plus,
+		["PropertyID"] = 10280,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16040] = { -- 
+		["LayoutPath"] = R_Item_12_plus,
+		["PropertyID"] = 10286,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16041] = { -- 
+		["LayoutPath"] = R_Item_13_plus,
+		["PropertyID"] = 10283,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16042] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20009,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16043] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16044] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20010,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16045] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20017,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[16046] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20000] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20001] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20002] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20100] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20101] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20102] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20200] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20201] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20202] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20300] = { -- 
+		["LayoutPath"] = Weight_Rate,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20301] = { -- 
+		["LayoutPath"] = Weight_Current,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20302] = { -- 
+		["LayoutPath"] = Weight_Max,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20303] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20400] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20401] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20402] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20500] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20501] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20502] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20600] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20601] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 120,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 32003,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20602] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20700] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20701] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 120,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 32004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20702] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20800] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10014,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20801] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20802] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20900] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20901] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31004,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[20902] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21000] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21001] = { -- 
+		["LayoutPath"] = L_Item_0_0,
+		["PropertyID"] = 800,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21002] = { -- 
+		["LayoutPath"] = L_Item_1_0,
+		["PropertyID"] = 801,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21003] = { -- 
+		["LayoutPath"] = L_Item_2_0,
+		["PropertyID"] = 810,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21004] = { -- 
+		["LayoutPath"] = L_Item_3_0,
+		["PropertyID"] = 811,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21005] = { -- 
+		["LayoutPath"] = L_Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21006] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21100] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21101] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21102] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21200] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21201] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21202] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21300] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 225010,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21301] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21400] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 226010,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21401] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21500] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 227010,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[21501] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22000] = { -- 
+		["LayoutPath"] = L_TopItem_0_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22001] = { -- 
+		["LayoutPath"] = L_TopItem_0_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22002] = { -- 
+		["LayoutPath"] = L_Item_0_0,
+		["PropertyID"] = 150,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22003] = { -- 
+		["LayoutPath"] = L_Item_0_1,
+		["PropertyID"] = 151,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22004] = { -- 
+		["LayoutPath"] = L_Item_0_2,
+		["PropertyID"] = 152,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22005] = { -- 
+		["LayoutPath"] = L_Item_1_0,
+		["PropertyID"] = 155,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22006] = { -- 
+		["LayoutPath"] = L_Item_1_1,
+		["PropertyID"] = 156,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22007] = { -- 
+		["LayoutPath"] = L_Item_1_2,
+		["PropertyID"] = 157,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22008] = { -- 
+		["LayoutPath"] = L_Item_2_0,
+		["PropertyID"] = 160,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22009] = { -- 
+		["LayoutPath"] = L_Item_2_1,
+		["PropertyID"] = 161,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22010] = { -- 
+		["LayoutPath"] = L_Item_2_2,
+		["PropertyID"] = 162,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22011] = { -- 
+		["LayoutPath"] = L_Item_3_0,
+		["PropertyID"] = 165,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22012] = { -- 
+		["LayoutPath"] = L_Item_3_1,
+		["PropertyID"] = 166,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22013] = { -- 
+		["LayoutPath"] = L_Item_3_2,
+		["PropertyID"] = 167,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22014] = { -- 
+		["LayoutPath"] = L_Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22015] = { -- 
+		["LayoutPath"] = L_Item_4_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22016] = { -- 
+		["LayoutPath"] = L_Item_4_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22017] = { -- 
+		["LayoutPath"] = R_TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22018] = { -- 
+		["LayoutPath"] = R_Item_0_0,
+		["PropertyID"] = 199,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22019] = { -- 
+		["LayoutPath"] = R_Item_1_0,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22020] = { -- 
+		["LayoutPath"] = R_Item_1_1,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22021] = { -- 
+		["LayoutPath"] = R_Item_2_0,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22022] = { -- 
+		["LayoutPath"] = R_Item_2_1,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22023] = { -- 
+		["LayoutPath"] = R_Item_3_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22024] = { -- 
+		["LayoutPath"] = R_Item_3_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22025] = { -- 
+		["LayoutPath"] = R_Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22026] = { -- 
+		["LayoutPath"] = R_Item_4_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22027] = { -- 
+		["LayoutPath"] = R_Item_10_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22028] = { -- 
+		["LayoutPath"] = R_Item_10_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22029] = { -- 
+		["LayoutPath"] = R_Item_10_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[22030] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23000] = { -- 
+		["LayoutPath"] = L_TopItem_0_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236001,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23001] = { -- 
+		["LayoutPath"] = L_TopItem_0_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236002,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23002] = { -- 
+		["LayoutPath"] = L_Item_0_0,
+		["PropertyID"] = 150,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23003] = { -- 
+		["LayoutPath"] = L_Item_0_1,
+		["PropertyID"] = 151,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23004] = { -- 
+		["LayoutPath"] = L_Item_0_2,
+		["PropertyID"] = 152,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23005] = { -- 
+		["LayoutPath"] = L_Item_1_0,
+		["PropertyID"] = 155,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23006] = { -- 
+		["LayoutPath"] = L_Item_1_1,
+		["PropertyID"] = 156,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23007] = { -- 
+		["LayoutPath"] = L_Item_1_2,
+		["PropertyID"] = 157,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23008] = { -- 
+		["LayoutPath"] = L_Item_2_0,
+		["PropertyID"] = 160,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23009] = { -- 
+		["LayoutPath"] = L_Item_2_1,
+		["PropertyID"] = 161,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23010] = { -- 
+		["LayoutPath"] = L_Item_2_2,
+		["PropertyID"] = 162,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23011] = { -- 
+		["LayoutPath"] = L_Item_3_0,
+		["PropertyID"] = 165,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23012] = { -- 
+		["LayoutPath"] = L_Item_3_1,
+		["PropertyID"] = 166,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23013] = { -- 
+		["LayoutPath"] = L_Item_3_2,
+		["PropertyID"] = 167,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23014] = { -- 
+		["LayoutPath"] = L_Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23015] = { -- 
+		["LayoutPath"] = L_Item_4_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23016] = { -- 
+		["LayoutPath"] = L_Item_4_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23017] = { -- 
+		["LayoutPath"] = R_TopItem_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 236003,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23018] = { -- 
+		["LayoutPath"] = R_Item_0_0,
+		["PropertyID"] = 199,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23019] = { -- 
+		["LayoutPath"] = R_Item_1_0,
+		["PropertyID"] = 110,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23020] = { -- 
+		["LayoutPath"] = R_Item_1_1,
+		["PropertyID"] = 111,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23021] = { -- 
+		["LayoutPath"] = R_Item_2_0,
+		["PropertyID"] = 112,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23022] = { -- 
+		["LayoutPath"] = R_Item_2_1,
+		["PropertyID"] = 113,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23023] = { -- 
+		["LayoutPath"] = R_Item_3_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23024] = { -- 
+		["LayoutPath"] = R_Item_3_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23025] = { -- 
+		["LayoutPath"] = R_Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23026] = { -- 
+		["LayoutPath"] = R_Item_4_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23027] = { -- 
+		["LayoutPath"] = R_Item_10_0,
+		["PropertyID"] = 220,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23028] = { -- 
+		["LayoutPath"] = R_Item_10_1,
+		["PropertyID"] = 221,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23029] = { -- 
+		["LayoutPath"] = R_Item_10_2,
+		["PropertyID"] = 222,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23030] = { -- 
+		["LayoutPath"] = Value_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23800] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23801] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 702,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23802] = { -- 
+		["LayoutPath"] = Item_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23803] = { -- 
+		["LayoutPath"] = Item_3,
+		["PropertyID"] = 712,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[23804] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30000] = { -- 
+		["LayoutPath"] = Item_0_0,
+		["PropertyID"] = 10008,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30001] = { -- 
+		["LayoutPath"] = Item_1_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30002] = { -- 
+		["LayoutPath"] = Item_2_0,
+		["PropertyID"] = 10009,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30201,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30003] = { -- 
+		["LayoutPath"] = Item_3_0,
+		["PropertyID"] = 10010,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30202,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30004] = { -- 
+		["LayoutPath"] = Item_4_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30005] = { -- 
+		["LayoutPath"] = LowerLeft_0,
+		["PropertyID"] = 10100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30400,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30006] = { -- 
+		["LayoutPath"] = LowerLeft_1,
+		["PropertyID"] = 10102,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30402,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30007] = { -- 
+		["LayoutPath"] = LowerLeft_2,
+		["PropertyID"] = 10101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30401,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30008] = { -- 
+		["LayoutPath"] = LowerLeft_3,
+		["PropertyID"] = 10103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30403,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30009] = { -- 
+		["LayoutPath"] = LowerLeft_4,
+		["PropertyID"] = 10104,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30404,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30010] = { -- 
+		["LayoutPath"] = LowerLeft_5,
+		["PropertyID"] = 10106,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30406,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30011] = { -- 
+		["LayoutPath"] = LowerLeft_6,
+		["PropertyID"] = 10107,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30407,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30012] = { -- 
+		["LayoutPath"] = LowerLeft_7,
+		["PropertyID"] = 10109,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30409,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30013] = { -- 
+		["LayoutPath"] = LowerLeft_8,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30014] = { -- 
+		["LayoutPath"] = PlayerName,
+		["PropertyID"] = 10000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30015] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20008,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[30016] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31000] = { -- 
+		["LayoutPath"] = L_Item_00,
+		["PropertyID"] = 10201,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30500,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31001] = { -- 
+		["LayoutPath"] = L_Item_01,
+		["PropertyID"] = 10203,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30501,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31002] = { -- 
+		["LayoutPath"] = L_Item_02,
+		["PropertyID"] = 10204,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30502,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31003] = { -- 
+		["LayoutPath"] = L_Item_03,
+		["PropertyID"] = 10206,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30512,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31004] = { -- 
+		["LayoutPath"] = L_Item_04,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31005] = { -- 
+		["LayoutPath"] = L_Item_05,
+		["PropertyID"] = 10229,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 31200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31006] = { -- 
+		["LayoutPath"] = L_Item_06,
+		["PropertyID"] = 10225,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30562,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31007] = { -- 
+		["LayoutPath"] = L_Item_07,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31008] = { -- 
+		["LayoutPath"] = L_Item_10,
+		["PropertyID"] = 10207,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30520,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31009] = { -- 
+		["LayoutPath"] = L_Item_11,
+		["PropertyID"] = 10208,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30521,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31010] = { -- 
+		["LayoutPath"] = L_Item_12,
+		["PropertyID"] = 10209,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30522,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31011] = { -- 
+		["LayoutPath"] = L_Item_13,
+		["PropertyID"] = 10210,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30523,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31012] = { -- 
+		["LayoutPath"] = L_Item_14,
+		["PropertyID"] = 10211,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30524,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31013] = { -- 
+		["LayoutPath"] = L_Item_15,
+		["PropertyID"] = 10212,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30525,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31014] = { -- 
+		["LayoutPath"] = R_Item_00,
+		["PropertyID"] = 10213,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30580,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31015] = { -- 
+		["LayoutPath"] = R_Item_01,
+		["PropertyID"] = 10214,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30581,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31016] = { -- 
+		["LayoutPath"] = R_Item_02,
+		["PropertyID"] = 10215,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30582,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31017] = { -- 
+		["LayoutPath"] = R_Item_03,
+		["PropertyID"] = 10216,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30583,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31018] = { -- 
+		["LayoutPath"] = R_Item_04,
+		["PropertyID"] = 10217,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30584,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31019] = { -- 
+		["LayoutPath"] = R_Item_05,
+		["PropertyID"] = 10218,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30585,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31020] = { -- 
+		["LayoutPath"] = R_Item_06,
+		["PropertyID"] = 10219,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30586,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31021] = { -- 
+		["LayoutPath"] = R_Item_07,
+		["PropertyID"] = 10258,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30587,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31022] = { -- 
+		["LayoutPath"] = R_Item_10,
+		["PropertyID"] = 10270,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30590,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31023] = { -- 
+		["LayoutPath"] = R_Item_11,
+		["PropertyID"] = 10271,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30591,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31024] = { -- 
+		["LayoutPath"] = R_Item_12,
+		["PropertyID"] = 10276,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30592,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31025] = { -- 
+		["LayoutPath"] = R_Item_13,
+		["PropertyID"] = 10272,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30593,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31026] = { -- 
+		["LayoutPath"] = R_Item_14,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31027] = { -- 
+		["LayoutPath"] = StatusTitle_0,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20009,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31028] = { -- 
+		["LayoutPath"] = StatusTitle_1,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31029] = { -- 
+		["LayoutPath"] = StatusTitle_2,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20000,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31030] = { -- 
+		["LayoutPath"] = StatusTitle_3,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20011,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31031] = { -- 
+		["LayoutPath"] = StatusTitle_4,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 20014,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[31032] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32000] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32001] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 900,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32002] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 910,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32003] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32100] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32101] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 901,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32102] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 911,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32103] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32200] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32201] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 902,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32202] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 912,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32203] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32300] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32301] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 903,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32302] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 913,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32303] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32400] = { -- 
+		["LayoutPath"] = Title,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32401] = { -- 
+		["LayoutPath"] = Item_0,
+		["PropertyID"] = 904,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32402] = { -- 
+		["LayoutPath"] = Item_1,
+		["PropertyID"] = 914,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[32403] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40000] = { -- 
+		["LayoutPath"] = TopItem_0,
+		["PropertyID"] = 10000,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40001] = { -- 
+		["LayoutPath"] = TopItem_1,
+		["PropertyID"] = 10001,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40002] = { -- 
+		["LayoutPath"] = TopItem_2,
+		["PropertyID"] = 10012,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40003] = { -- 
+		["LayoutPath"] = TopItem_3,
+		["PropertyID"] = 10002,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40004] = { -- 
+		["LayoutPath"] = TopItem_4,
+		["PropertyID"] = 10003,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40005] = { -- 
+		["LayoutPath"] = Bottom/Item_0_0,
+		["PropertyID"] = 10008,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30200,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40006] = { -- 
+		["LayoutPath"] = Bottom/Item_1_0,
+		["PropertyID"] = 10100,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30400,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40007] = { -- 
+		["LayoutPath"] = Bottom/Item_2_0,
+		["PropertyID"] = 10102,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30402,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40008] = { -- 
+		["LayoutPath"] = Bottom/Item_3_0,
+		["PropertyID"] = 10101,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30401,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40009] = { -- 
+		["LayoutPath"] = Bottom/Item_4_0,
+		["PropertyID"] = 10105,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30405,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40010] = { -- 
+		["LayoutPath"] = Bottom/Item_5_0,
+		["PropertyID"] = 10103,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30403,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40011] = { -- 
+		["LayoutPath"] = Bottom/Item_6_0,
+		["PropertyID"] = 10104,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30404,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40012] = { -- 
+		["LayoutPath"] = Bottom/Item_7_0,
+		["PropertyID"] = 10106,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30406,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40013] = { -- 
+		["LayoutPath"] = Bottom/Item_8_0,
+		["PropertyID"] = 10107,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30407,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40014] = { -- 
+		["LayoutPath"] = Bottom/Item_9_0,
+		["PropertyID"] = 10109,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 30409,
+		["reserved"] = "[0|0|0|0]"
+	},
+	[40015] = { -- 
+		["LayoutPath"] = ,
+		["PropertyID"] = 0,
+		["CaptionTextID"] = 0,
+		["HelpTextID"] = 0,
+		["reserved"] = "[0|0|0|0]"
+	}
+}

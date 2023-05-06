@@ -1,0 +1,68 @@
+local CutsceneWeatherOverrideGparamConvertParam = {
+	[0] = { -- 
+		["weatherOverrideGparamId"] = 0
+	},
+	[1] = { -- 
+		["weatherOverrideGparamId"] = 1
+	},
+	[10] = { -- 
+		["weatherOverrideGparamId"] = 10
+	},
+	[11] = { -- 
+		["weatherOverrideGparamId"] = 10
+	},
+	[20] = { -- 
+		["weatherOverrideGparamId"] = 20
+	},
+	[21] = { -- 
+		["weatherOverrideGparamId"] = 20
+	},
+	[30] = { -- 
+		["weatherOverrideGparamId"] = 30
+	},
+	[31] = { -- 
+		["weatherOverrideGparamId"] = 30
+	},
+	[40] = { -- 
+		["weatherOverrideGparamId"] = 40
+	},
+	[41] = { -- 
+		["weatherOverrideGparamId"] = 41
+	},
+	[50] = { -- 
+		["weatherOverrideGparamId"] = 50
+	},
+	[51] = { -- 
+		["weatherOverrideGparamId"] = 50
+	},
+	[52] = { -- 
+		["weatherOverrideGparamId"] = 50
+	},
+	[60] = { -- 
+		["weatherOverrideGparamId"] = 60
+	},
+	[81] = { -- 
+		["weatherOverrideGparamId"] = 81
+	},
+	[82] = { -- 
+		["weatherOverrideGparamId"] = 82
+	},
+	[83] = { -- 
+		["weatherOverrideGparamId"] = 83
+	},
+	[84] = { -- 
+		["weatherOverrideGparamId"] = 84
+	},
+	[85] = { -- 
+		["weatherOverrideGparamId"] = 85
+	},
+	[86] = { -- 
+		["weatherOverrideGparamId"] = 86
+	},
+	[87] = { -- 
+		["weatherOverrideGparamId"] = 87
+	},
+	[88] = { -- 
+		["weatherOverrideGparamId"] = 88
+	}
+}

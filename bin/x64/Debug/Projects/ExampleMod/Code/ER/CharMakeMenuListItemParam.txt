@@ -1,0 +1,1340 @@
+local CharMakeMenuListItemParam = {
+	[0] = { -- 
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1] = { -- 
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[2] = { -- 
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100] = { -- Build - Standard
+		["value"] = 0,
+		["captionId"] = 421110,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[101] = { -- Build - Slim
+		["value"] = 1,
+		["captionId"] = 421111,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[102] = { -- Build - Very Slim
+		["value"] = 2,
+		["captionId"] = 421112,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[103] = { -- Build - Burly
+		["value"] = 3,
+		["captionId"] = 421113,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[104] = { -- Build - Very Burly
+		["value"] = 4,
+		["captionId"] = 421114,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[105] = { -- Build - Burly Upper-body
+		["value"] = 5,
+		["captionId"] = 421115,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[106] = { -- Build - Burly Lower-body
+		["value"] = 6,
+		["captionId"] = 421116,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[107] = { -- Build - Small Head
+		["value"] = 7,
+		["captionId"] = 421117,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[108] = { -- Build - Big Head
+		["value"] = 8,
+		["captionId"] = 421118,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[120] = { -- Musculature - Standard
+		["value"] = 0,
+		["captionId"] = 297170,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[121] = { -- Musculature - Muscular
+		["value"] = 1,
+		["captionId"] = 297171,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[130] = { -- Body Hair - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 180,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[131] = { -- Body Hair - Type 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 181,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[132] = { -- Body Hair - Type 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 182,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[133] = { -- Body Hair - Type 4
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 183,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[134] = { -- Body Hair - Type 5
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 184,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[135] = { -- Body Hair - Type 6
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 185,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[240] = { -- Base Template - Warrior
+		["value"] = 1000,
+		["captionId"] = 297200,
+		["iconId"] = 110,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[241] = { -- Base Template - Truth-Seeker
+		["value"] = 1001,
+		["captionId"] = 297201,
+		["iconId"] = 111,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[242] = { -- Base Template - Aristocrat
+		["value"] = 1002,
+		["captionId"] = 297202,
+		["iconId"] = 112,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[243] = { -- Base Template - Loner
+		["value"] = 1003,
+		["captionId"] = 297203,
+		["iconId"] = 113,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[244] = { -- Base Template - Northerner
+		["value"] = 1004,
+		["captionId"] = 297204,
+		["iconId"] = 114,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[245] = { -- Base Template - Seafarer
+		["value"] = 1005,
+		["captionId"] = 297205,
+		["iconId"] = 115,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[246] = { -- Base Template - Reedlander
+		["value"] = 1006,
+		["captionId"] = 297206,
+		["iconId"] = 116,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[247] = { -- Base Template - Draconian
+		["value"] = 1007,
+		["captionId"] = 297207,
+		["iconId"] = 117,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[248] = { -- Base Template - Nightfolk
+		["value"] = 1008,
+		["captionId"] = 297208,
+		["iconId"] = 118,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[249] = { -- Base Template - Numen
+		["value"] = 1009,
+		["captionId"] = 297209,
+		["iconId"] = 119,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[260] = { -- Base Template - Warrior (Female)
+		["value"] = 2000,
+		["captionId"] = 297220,
+		["iconId"] = 130,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[261] = { -- Base Template - Truth-Seeker (Female)
+		["value"] = 2001,
+		["captionId"] = 297221,
+		["iconId"] = 131,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[262] = { -- Base Template - Aristocrat (Female)
+		["value"] = 2002,
+		["captionId"] = 297222,
+		["iconId"] = 132,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[263] = { -- Base Template - Loner (Female)
+		["value"] = 2003,
+		["captionId"] = 297223,
+		["iconId"] = 133,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[264] = { -- Base Template - Northerner (Female)
+		["value"] = 2004,
+		["captionId"] = 297224,
+		["iconId"] = 134,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[265] = { -- Base Template - Seafarer (Female)
+		["value"] = 2005,
+		["captionId"] = 297225,
+		["iconId"] = 135,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[266] = { -- Base Template - Reedlander (Female)
+		["value"] = 2006,
+		["captionId"] = 297226,
+		["iconId"] = 136,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[267] = { -- Base Template - Draconian (Female)
+		["value"] = 2007,
+		["captionId"] = 297227,
+		["iconId"] = 137,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[268] = { -- Base Template - Nightfolk (Female)
+		["value"] = 2008,
+		["captionId"] = 297228,
+		["iconId"] = 138,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[269] = { -- Base Template - Numen (Female)
+		["value"] = 2009,
+		["captionId"] = 297229,
+		["iconId"] = 139,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[300] = { -- Right Eye - Normal Eye (Medium)
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[301] = { -- Right Eye - Normal Eye (Small)
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[302] = { -- Right Eye - Normal Eye (Large)
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 3,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[303] = { -- Right Eye - All Sclera (Medium)
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 4,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[304] = { -- Right Eye - All Sclera (Small)
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 5,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[305] = { -- Right Eye - All Sclera (Large)
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 6,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[306] = { -- Right Eye - All Pupil (Medium)
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 7,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[307] = { -- Right Eye - All Pupil (Small)
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 8,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[308] = { -- Right Eye - All Pupil (Large)
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 9,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[400] = { -- Left Eye - Normal Eye (Medium)
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[401] = { -- Left Eye - Normal Eye (Small)
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[402] = { -- Left Eye - Normal Eye (Large)
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 3,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[403] = { -- Left Eye - All Sclera (Medium)
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 4,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[404] = { -- Left Eye - All Sclera (Small)
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 5,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[405] = { -- Left Eye - All Sclera (Large)
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 6,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[406] = { -- Left Eye - All Pupil (Medium)
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 7,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[407] = { -- Left Eye - All Pupil (Small)
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 8,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[408] = { -- Left Eye - All Pupil (Large)
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 9,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[500] = { -- Eyebrows - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 10,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[501] = { -- Eyebrows - Type 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 11,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[502] = { -- Eyebrows - Type 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 12,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[503] = { -- Eyebrows - Type 4
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 13,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[504] = { -- Eyebrows - Type 5
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 14,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[505] = { -- Eyebrows - Type 6
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 15,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[506] = { -- Eyebrows - Type 7
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 16,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[507] = { -- Eyebrows - Type 8
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 17,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[508] = { -- Eyebrows - Type 9
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 18,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[509] = { -- Eyebrows - Type 10
+		["value"] = 9,
+		["captionId"] = 0,
+		["iconId"] = 19,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[510] = { -- Eyebrows - Type 11
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 20,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[511] = { -- Eyebrows - Type 12
+		["value"] = 11,
+		["captionId"] = 0,
+		["iconId"] = 21,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[512] = { -- Eyebrows - Type 13
+		["value"] = 12,
+		["captionId"] = 0,
+		["iconId"] = 22,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[513] = { -- Eyebrows - Type 14
+		["value"] = 13,
+		["captionId"] = 0,
+		["iconId"] = 23,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[514] = { -- Eyebrows - Type 15
+		["value"] = 14,
+		["captionId"] = 0,
+		["iconId"] = 24,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[515] = { -- Eyebrows - Type 16
+		["value"] = 15,
+		["captionId"] = 0,
+		["iconId"] = 25,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[516] = { -- Eyebrows - Type 17
+		["value"] = 16,
+		["captionId"] = 0,
+		["iconId"] = 26,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[600] = { -- Beard - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 30,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[601] = { -- Beard - Type 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 31,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[602] = { -- Beard - Type 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 32,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[603] = { -- Beard - Type 4
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 33,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[604] = { -- Beard - Type 5
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 34,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[605] = { -- Beard - Type 6
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 35,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[606] = { -- Beard - Type 7
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 36,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[607] = { -- Beard - Type 8
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 37,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[608] = { -- Beard - Type 9
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 38,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[609] = { -- Beard - Type 10
+		["value"] = 9,
+		["captionId"] = 0,
+		["iconId"] = 39,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[610] = { -- Beard - Type 11
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 40,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[611] = { -- Beard - Type 12
+		["value"] = 11,
+		["captionId"] = 0,
+		["iconId"] = 41,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[620] = { -- Beard (Female) - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 30,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[621] = { -- Beard (Female) - Type 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 31,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[622] = { -- Beard (Female) - Type 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 32,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[623] = { -- Beard (Female) - Type 4
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 33,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[624] = { -- Beard (Female) - Type 5
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 34,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[625] = { -- Beard (Female) - Type 6
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 35,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[626] = { -- Beard (Female) - Type 7
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 36,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[627] = { -- Beard (Female) - Type 8
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 37,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[628] = { -- Beard (Female) - Type 9
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 38,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[629] = { -- Beard (Female) - Type 10
+		["value"] = 9,
+		["captionId"] = 0,
+		["iconId"] = 39,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[630] = { -- Beard (Female) - Type 11
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 40,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[631] = { -- Beard (Female) - Type 12
+		["value"] = 11,
+		["captionId"] = 0,
+		["iconId"] = 41,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[700] = { -- Hairstyle - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 70,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[701] = { -- Hairstyle - Type 2
+		["value"] = 113,
+		["captionId"] = 0,
+		["iconId"] = 71,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[702] = { -- Hairstyle - Type 3
+		["value"] = 112,
+		["captionId"] = 0,
+		["iconId"] = 72,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[703] = { -- Hairstyle - Type 4
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 73,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[704] = { -- Hairstyle - Type 5
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 75,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[705] = { -- Hairstyle - Type 6
+		["value"] = 100,
+		["captionId"] = 0,
+		["iconId"] = 76,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[706] = { -- Hairstyle - Type 7
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 77,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[707] = { -- Hairstyle - Type 8
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 78,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[708] = { -- Hairstyle - Type 9
+		["value"] = 101,
+		["captionId"] = 0,
+		["iconId"] = 79,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[709] = { -- Hairstyle - Type 10
+		["value"] = 9,
+		["captionId"] = 0,
+		["iconId"] = 80,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[710] = { -- Hairstyle - Type 11
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 81,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[711] = { -- Hairstyle - Type 12
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 82,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[712] = { -- Hairstyle - Type 13
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 83,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[713] = { -- Hairstyle - Type 14
+		["value"] = 115,
+		["captionId"] = 0,
+		["iconId"] = 96,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[714] = { -- Hairstyle - Type 15
+		["value"] = 114,
+		["captionId"] = 0,
+		["iconId"] = 95,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[715] = { -- Hairstyle - Type 16
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 74,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[716] = { -- Hairstyle - Type 17
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 84,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[717] = { -- Hairstyle - Type 18
+		["value"] = 102,
+		["captionId"] = 0,
+		["iconId"] = 85,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[718] = { -- Hairstyle - Type 19
+		["value"] = 103,
+		["captionId"] = 0,
+		["iconId"] = 86,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[719] = { -- Hairstyle - Type 20
+		["value"] = 104,
+		["captionId"] = 0,
+		["iconId"] = 87,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[720] = { -- Hairstyle - Type 21
+		["value"] = 105,
+		["captionId"] = 0,
+		["iconId"] = 88,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[721] = { -- Hairstyle - Type 22
+		["value"] = 106,
+		["captionId"] = 0,
+		["iconId"] = 89,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[722] = { -- Hairstyle - Type 23
+		["value"] = 107,
+		["captionId"] = 0,
+		["iconId"] = 90,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[723] = { -- Hairstyle - Type 24
+		["value"] = 109,
+		["captionId"] = 0,
+		["iconId"] = 91,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[724] = { -- Hairstyle - Type 25
+		["value"] = 108,
+		["captionId"] = 0,
+		["iconId"] = 92,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[725] = { -- Hairstyle - Type 26
+		["value"] = 111,
+		["captionId"] = 0,
+		["iconId"] = 93,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[726] = { -- Hairstyle - Type 27
+		["value"] = 110,
+		["captionId"] = 0,
+		["iconId"] = 94,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[727] = { -- 
+		["value"] = 117,
+		["captionId"] = 0,
+		["iconId"] = 193,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[728] = { -- 
+		["value"] = 119,
+		["captionId"] = 0,
+		["iconId"] = 194,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[729] = { -- 
+		["value"] = 118,
+		["captionId"] = 0,
+		["iconId"] = 191,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[730] = { -- 
+		["value"] = 116,
+		["captionId"] = 0,
+		["iconId"] = 190,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[731] = { -- 
+		["value"] = 121,
+		["captionId"] = 0,
+		["iconId"] = 192,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[800] = { -- Tattoo - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 50,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[801] = { -- Tattoo - Type 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 51,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[802] = { -- Tattoo - Type 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 57,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[803] = { -- Tattoo - Type 4
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 58,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[804] = { -- Tattoo - Type 5
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 59,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[805] = { -- Tattoo - Type 6
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 60,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[806] = { -- Tattoo - Type 7
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 61,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[807] = { -- Tattoo - Type 8
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 62,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[808] = { -- Tattoo - Type 9
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 63,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[809] = { -- Tattoo - Type 10
+		["value"] = 9,
+		["captionId"] = 0,
+		["iconId"] = 64,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[810] = { -- Tattoo - Type 11
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 65,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[811] = { -- Tattoo - Type 12
+		["value"] = 11,
+		["captionId"] = 0,
+		["iconId"] = 68,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[812] = { -- Tattoo - Type 13
+		["value"] = 12,
+		["captionId"] = 0,
+		["iconId"] = 69,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[813] = { -- Tattoo - Type 14
+		["value"] = 13,
+		["captionId"] = 0,
+		["iconId"] = 111,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[814] = { -- Tattoo - Type 15
+		["value"] = 14,
+		["captionId"] = 0,
+		["iconId"] = 113,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[815] = { -- Tattoo - Type 16
+		["value"] = 15,
+		["captionId"] = 0,
+		["iconId"] = 114,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[816] = { -- Tattoo - Type 17
+		["value"] = 16,
+		["captionId"] = 0,
+		["iconId"] = 116,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[817] = { -- Tattoo - Type 18
+		["value"] = 17,
+		["captionId"] = 0,
+		["iconId"] = 117,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[818] = { -- Tattoo - Type 19
+		["value"] = 18,
+		["captionId"] = 0,
+		["iconId"] = 118,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[819] = { -- Tattoo - Type 20
+		["value"] = 20,
+		["captionId"] = 0,
+		["iconId"] = 120,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[820] = { -- Tattoo - Type 21
+		["value"] = 21,
+		["captionId"] = 0,
+		["iconId"] = 121,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[821] = { -- Tattoo - Type 22
+		["value"] = 22,
+		["captionId"] = 0,
+		["iconId"] = 122,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[822] = { -- Tattoo - Type 23
+		["value"] = 23,
+		["captionId"] = 0,
+		["iconId"] = 123,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[823] = { -- Tattoo - Type 24
+		["value"] = 24,
+		["captionId"] = 0,
+		["iconId"] = 124,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[824] = { -- Tattoo - Type 25
+		["value"] = 25,
+		["captionId"] = 0,
+		["iconId"] = 125,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[825] = { -- Tattoo - Type 26
+		["value"] = 26,
+		["captionId"] = 0,
+		["iconId"] = 126,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[826] = { -- Tattoo - Type 27
+		["value"] = 27,
+		["captionId"] = 0,
+		["iconId"] = 128,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[827] = { -- Tattoo - Type 28
+		["value"] = 28,
+		["captionId"] = 0,
+		["iconId"] = 129,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[828] = { -- Tattoo - Type 29
+		["value"] = 29,
+		["captionId"] = 0,
+		["iconId"] = 130,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[829] = { -- Tattoo - Type 30
+		["value"] = 30,
+		["captionId"] = 0,
+		["iconId"] = 131,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[830] = { -- Tattoo - Type 31
+		["value"] = 31,
+		["captionId"] = 0,
+		["iconId"] = 132,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[831] = { -- Tattoo - Type 32
+		["value"] = 32,
+		["captionId"] = 0,
+		["iconId"] = 133,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[832] = { -- Tattoo - Type 33
+		["value"] = 33,
+		["captionId"] = 0,
+		["iconId"] = 134,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[833] = { -- Tattoo - Type 34
+		["value"] = 34,
+		["captionId"] = 0,
+		["iconId"] = 135,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[834] = { -- Tattoo - Type 35
+		["value"] = 35,
+		["captionId"] = 0,
+		["iconId"] = 136,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[835] = { -- Tattoo - Type 36
+		["value"] = 36,
+		["captionId"] = 0,
+		["iconId"] = 137,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[836] = { -- Tattoo - Type 37
+		["value"] = 37,
+		["captionId"] = 0,
+		["iconId"] = 138,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[837] = { -- Tattoo - Type 38
+		["value"] = 38,
+		["captionId"] = 0,
+		["iconId"] = 139,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[900] = { -- Accessories - Type 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 240,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[901] = { -- Accessories - Type 2
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 241,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[902] = { -- Accessories - Type 3
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 242,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[903] = { -- Accessories - Type 4
+		["value"] = 10,
+		["captionId"] = 0,
+		["iconId"] = 243,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1000] = { -- Pupil Type - Normal 1
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 1,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1001] = { -- Pupil Type - Normal 2
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 2,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1002] = { -- Pupil Type - Normal 3
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 3,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1003] = { -- Pupil Type - Sclera 1
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 4,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1004] = { -- Pupil Type - Sclera 2
+		["value"] = 4,
+		["captionId"] = 0,
+		["iconId"] = 5,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1005] = { -- Pupil Type - Sclera 3
+		["value"] = 5,
+		["captionId"] = 0,
+		["iconId"] = 6,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1006] = { -- Pupil Color - Cornea 1
+		["value"] = 6,
+		["captionId"] = 0,
+		["iconId"] = 7,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1007] = { -- Pupil Color - Cornea 2
+		["value"] = 7,
+		["captionId"] = 0,
+		["iconId"] = 8,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1008] = { -- Pupil Color - Cornea 3
+		["value"] = 8,
+		["captionId"] = 0,
+		["iconId"] = 9,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1100] = { -- Eyelashes - None
+		["value"] = 0,
+		["captionId"] = 0,
+		["iconId"] = 100,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1101] = { -- Eyelashes - Short
+		["value"] = 1,
+		["captionId"] = 0,
+		["iconId"] = 101,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1102] = { -- Eyelashes - Medium
+		["value"] = 2,
+		["captionId"] = 0,
+		["iconId"] = 102,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1103] = { -- Eyelashes - Long
+		["value"] = 3,
+		["captionId"] = 0,
+		["iconId"] = 103,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1200] = { -- ON
+		["value"] = 0,
+		["captionId"] = 297180,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1201] = { -- OFF
+		["value"] = 1,
+		["captionId"] = 297181,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1300] = { -- ON
+		["value"] = 1,
+		["captionId"] = 297185,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1301] = { -- OFF
+		["value"] = 0,
+		["captionId"] = 297186,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1310] = { -- ON
+		["value"] = 1,
+		["captionId"] = 297187,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[1311] = { -- OFF
+		["value"] = 0,
+		["captionId"] = 297188,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100000] = { -- Body Type - A
+		["value"] = 0,
+		["captionId"] = 297100,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100001] = { -- Body Type - B
+		["value"] = 1,
+		["captionId"] = 297101,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100100] = { -- Age - Young
+		["value"] = 0,
+		["captionId"] = 297110,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100101] = { -- Age - Mature
+		["value"] = 1,
+		["captionId"] = 297111,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100102] = { -- Age - Aged
+		["value"] = 2,
+		["captionId"] = 297112,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100200] = { -- Class - Vagabond
+		["value"] = 0,
+		["captionId"] = 297130,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100201] = { -- Class - Warrior
+		["value"] = 1,
+		["captionId"] = 297131,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100202] = { -- Class - Hero
+		["value"] = 2,
+		["captionId"] = 297132,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100203] = { -- Class - Bandit
+		["value"] = 3,
+		["captionId"] = 297133,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100204] = { -- Class - Astrologer
+		["value"] = 4,
+		["captionId"] = 297134,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100205] = { -- Class - Prophet
+		["value"] = 5,
+		["captionId"] = 297135,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100206] = { -- Class - Samurai
+		["value"] = 7,
+		["captionId"] = 297136,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100207] = { -- Class - Prisoner
+		["value"] = 8,
+		["captionId"] = 297137,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100208] = { -- Class - Confessor
+		["value"] = 6,
+		["captionId"] = 297138,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100209] = { -- Class - Wretch
+		["value"] = 9,
+		["captionId"] = 297139,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100300] = { -- Gift - None
+		["value"] = 0,
+		["captionId"] = 297150,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100301] = { -- Gift - Crimson Amber Medallion
+		["value"] = 1,
+		["captionId"] = 297151,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100302] = { -- Gift - Lands Between Rune
+		["value"] = 2,
+		["captionId"] = 297152,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100303] = { -- Gift - Golden Seed
+		["value"] = 3,
+		["captionId"] = 297153,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100304] = { -- Gift - Fanged Imp Ashes
+		["value"] = 4,
+		["captionId"] = 297154,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100305] = { -- Gift - Cracked Pot
+		["value"] = 5,
+		["captionId"] = 297156,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100306] = { -- Gift - Stonesword Key
+		["value"] = 6,
+		["captionId"] = 297157,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100307] = { -- Gift - Bewitching Branch
+		["value"] = 7,
+		["captionId"] = 297158,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100308] = { -- Gift - Boiled Prawn
+		["value"] = 8,
+		["captionId"] = 297159,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100309] = { -- Gift - Shabriri's Woe
+		["value"] = 9,
+		["captionId"] = 297160,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100400] = { -- Voice - Young 1
+		["value"] = 0,
+		["captionId"] = 297120,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100401] = { -- Voice - Young 2
+		["value"] = 1,
+		["captionId"] = 297125,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100402] = { -- Voice - Mature 1
+		["value"] = 2,
+		["captionId"] = 297121,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100403] = { -- Voice - Mature 2
+		["value"] = 3,
+		["captionId"] = 297126,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100404] = { -- Voice - Aged 1
+		["value"] = 4,
+		["captionId"] = 297122,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	},
+	[100405] = { -- Voice - Aged 2
+		["value"] = 5,
+		["captionId"] = 297127,
+		["iconId"] = 0,
+		["reserved"] = "[0|0|0|0|0|0|0]"
+	}
+}

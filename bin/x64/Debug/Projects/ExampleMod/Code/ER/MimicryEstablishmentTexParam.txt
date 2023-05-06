@@ -1,0 +1,13 @@
+local MimicryEstablishmentTexParam = {
+	[255] = { -- 
+		["disableParam_NT"] = 0,
+		["disableParamReserve1"] = "0",
+		["disableParamReserve2"] = "[0|0|0]",
+		["srcR"] = 0,
+		["srcG"] = 0,
+		["srcB"] = 0,
+		["pad1"] = "[0]",
+		["mimicryEstablishmentParamId"] = -1,
+		["pad2"] = "[0|0|0|0]"
+	}
+}
