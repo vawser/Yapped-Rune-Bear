@@ -2958,7 +2958,7 @@ namespace Yapped
                 string condensed_output = "";
                 string initial_line = $"local {paramName} = {{ ";
 
-                if (settings.CodeExport_CondenseOutpust)
+                if (settings.CodeExport_CondenseOutput)
                     condensed_output = condensed_output + initial_line;
                 else
                     output_file.WriteLine(initial_line);
@@ -2972,7 +2972,7 @@ namespace Yapped
 
                     string row_line = $"\t[{row.ID}] = {{ -- {row.Name}";
 
-                    if (settings.CodeExport_CondenseOutpust)
+                    if (settings.CodeExport_CondenseOutput)
                         condensed_output = condensed_output + row_line;
                     else
                         output_file.WriteLine(row_line);
@@ -2982,7 +2982,7 @@ namespace Yapped
                         string tab_segment = "\t\t";
                         string end_segment = "";
 
-                        if (settings.CodeExport_CondenseOutpust)
+                        if (settings.CodeExport_CondenseOutput)
                         {
                             end_segment = ",";
                             tab_segment = "";
@@ -3018,7 +3018,7 @@ namespace Yapped
                         }
                     }
 
-                    if (settings.CodeExport_CondenseOutpust)
+                    if (settings.CodeExport_CondenseOutput)
                     {
                         condensed_output = condensed_output + composed_line;
 
@@ -3050,7 +3050,7 @@ namespace Yapped
 
                 string end_line = $"}}";
 
-                if (settings.CodeExport_CondenseOutpust)
+                if (settings.CodeExport_CondenseOutput)
                 {
                     condensed_output = condensed_output + end_line;
                     output_file.WriteLine(condensed_output);

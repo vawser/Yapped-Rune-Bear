@@ -897,15 +897,15 @@ namespace Yapped_Rune_Bear.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool CodeExport_CondenseOutpust
+        public bool CodeExport_CondenseOutput
         {
             get
             {
-                return ((bool)(this["CodeExport_CondenseOutpust"]));
+                return ((bool)(this["CodeExport_CondenseOutput"]));
             }
             set
             {
-                this["CodeExport_CondenseOutpust"] = value;
+                this["CodeExport_CondenseOutput"] = value;
             }
         }
     }
