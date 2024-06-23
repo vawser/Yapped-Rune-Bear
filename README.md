@@ -1,7 +1,7 @@
 # Yapped-Rune-Bear
 Personal version of Yapped for Elden Ring for 1.09.1
 
-Not currently being actively developed. 
+This program is deprecated.
 
-I recommend you use [MapStudio](https://github.com/soulsmods/DSMapStudio) in most cases unless you need to use a Yapped-exclusive feature, such as Affinity Generation.
+Use [Smithbox]([https://github.com/soulsmods/DSMapStudio](https://github.com/vawser/Smithbox)).
 
